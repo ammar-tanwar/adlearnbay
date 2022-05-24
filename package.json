@@ -10,8 +10,12 @@
   },
   "dependencies": {
     "next": "12.1.6",
+    "node-sass": "^7.0.1",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-icons": "^4.3.1",
+    "react-phone-number-input": "^3.1.53",
+    "swiper": "^8.1.5"
   },
   "devDependencies": {
     "eslint": "8.15.0",
