@@ -61,7 +61,7 @@ const GetHired = () => {
         </div>
         <div className={styles.left}>
           <div className={styles.top}>
-            <p>100% interview Guarantee</p>
+            <p>100% Interview Guarantee</p>
           </div>
           <div className={styles.middle}>
             <p>Special Classes for non-programmers</p>

@@ -44,7 +44,7 @@ export default function Home() {
         mTopPara="Experience-based certification course for professionals"
         title="Advance Data Science & AI Certification"
         spanTitleText="Domain Specialization For Professionals"
-        desc="This foundation program is suitable for professionals having more than 1+ years of work experience in any programming or non programming domain."
+        desc="This Advance program is suitable for professionals having more than 1+ years of work experience in any programming or non programming domain."
       />
       <div className={styles.program}>
         <ProgramInfo

@@ -6,10 +6,6 @@ import Image from "next/image";
 import Link from "next/link";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import { Pagination } from "swiper";
 
 const Certificate = ({ popupHead, title, desc, desc2, desc3 }) => {
   const [popups, setPopups] = useState(false);
@@ -54,36 +50,15 @@ const Certificate = ({ popupHead, title, desc, desc2, desc3 }) => {
         </div>
       </div>
       <div className={styles.right}>
-        <Swiper
-          pagination={{
-            dynamicBullets: true,
-          }}
-          modules={[Pagination]}
-          className="mySwiper"
-        >
-          <SwiperSlide>
-            <img
-              className="shadow"
-              src="/certificate.png"
-              alt="Skillslash"
-              quality={100}
-              layout="intrinsic"
-              width="530"
-              height="380"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              className="shadow"
-              src="/certificate-png.png"
-              alt="Skillslash"
-              quality={100}
-              layout="intrinsic"
-              width="530"
-              height="380"
-            />
-          </SwiperSlide>
-        </Swiper>
+        <Image
+          className="shadow"
+          src="/Certificate.png"
+          alt="Certificate"
+          quality={100}
+          layout="intrinsic"
+          width="600px"
+          height="350"
+        />
       </div>
     </section>
   );

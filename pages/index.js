@@ -8,7 +8,7 @@ import Domain from "../components/Data/Domain/Domain";
 import BoxShape from "../components/Data/Boxshape/BoxShape";
 import Popup from "../components/Data/Popup/Popup";
 import Form from "../components/Data/Form/Form";
-import Certificate from "../components/Data/Certificate/Certificate";
+import Certificate from "../components/Data/Certificatejob/Certificate";
 import Project from "../components/Data/Project/Project";
 import Syllabus from "../components/Data/Syllabus/Syllabus";
 import ToolsCovered from "../components/Data/ToolsCovered/ToolsCovered";
