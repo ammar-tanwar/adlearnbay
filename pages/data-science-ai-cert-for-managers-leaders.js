@@ -10,7 +10,7 @@ import Popup from "../components/Data/Popup/Popup";
 import Form from "../components/Data/Form/Form";
 import Certificate from "../components/Data/Certificate/Certificate";
 import Project from "../components/Data/Project/Project";
-import Syllabus from "../components/Data/Syllabus/Syllabus";
+import Syllabus from "../components/Data/SyllabusManagers/Syllabus";
 import ToolsCovered from "../components/Data/ToolsCoveredAdvance/ToolsCovered";
 import OurExpert from "../components/Data/OurExpert/OurExpert";
 import React, { useState } from "react";

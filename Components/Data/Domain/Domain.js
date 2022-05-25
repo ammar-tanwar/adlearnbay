@@ -50,36 +50,36 @@ const Domain = () => {
       </div>
       <div className={styles.imageBox}>
         <div className={styles.left}>
-        <a href=""><div className={styles.top}>
+        <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/BFSI++Domain+Elective+.pdf" target="_blank"><div className={styles.top}>
          <p> Banking, Finance and Insurance Domain</p>
           </div></a>
-          <a href=""><div className={styles.middle}>
+          <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/sales%2C+marketing%2C+hr++Domain+Elective+.pdf" target="_blank"><div className={styles.middle}>
             <p>Sales, Marketing and HR Domain</p>
           </div></a>
-          <a href=""><div className={styles.middle1}>
+          <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Healthcare%2C+Pharma+and+Clinical+Research++Domain+Elective+.pdf" target="_blank"><div className={styles.middle1}>
             <p>Healthcare, Pharma and Clinical Research Domain</p>
           </div></a>
-          <a href=""><div className={styles.middle2}>
+          <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/retail+ecommerce+and+supply+chain++Domain+Elective.pdf" target="_blank"><div className={styles.middle2}>
             <p>Retail, Ecommerce and Supply chain Domain</p>
           </div></a>
-          <a href=""><div className={styles.bottom}>
+          <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/manufacturing+mechanical+%26+telecom+Domain+Elective.pdf" target="_blank"><div className={styles.bottom}>
             <p>Manufacturing, Mechanical and Telecom Domain</p>
           </div></a>
         </div>
         <div className={styles.left}>
-        <a href=""><div className={styles.top}>
+        <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/media+hospitality+and+transportation++Domain+Elective+.pdf" target="_blank"><div className={styles.top}>
          <p> Media, Hospitality and Transportation Domain</p>
           </div></a>
-          <a href=""><div className={styles.middle}>
+          <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Energy%2C+Oil+%26+Gas++Domain+Elective+.pdf" target="_blank"><div className={styles.middle}>
             <p>Energy, Oil and Gas Domain</p>
           </div></a>
-          <a href=""><div className={styles.middle1}>
+          <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/DSA++AIML.pdf" target="_blank"><div className={styles.middle1}>
             <p>Development & Testing Domain</p>
           </div></a>
-          <a href=""><div className={styles.middle2}>
+          <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Automotive%2C+IoT+%26+Embedded+Engineers++AIML.pdf" target="_blank"><div className={styles.middle2}>
             <p>Automotive, IOT and Embedded Domain</p>
           </div></a>
-          <a href=""><div className={styles.bottom}>
+          <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud+Computing+%26+Big+Data++AIML.pdf" target="_blank"><div className={styles.bottom}>
             <p>Cloud & Devops Domain</p>
           </div></a>
         </div>
