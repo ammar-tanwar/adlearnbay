@@ -94,7 +94,7 @@ function Syllabus() {
           </div>
         </div>
         <p>
-          The Data Science and AI Certification Course With 100% Job Guarantee or Money Back
+          The Advance Data Science and AI Certification Course
           is curated by leading faculties and industry leaders. Especially, with
           the aim to provide practical learning experience with live interactive
           classes and projects.
@@ -291,8 +291,7 @@ Capstone Projects
               ) : (
                 <div className={styles.ques}>
                   <h2>
-                    Module 3: Industrial Projects &
-Capstone Projects
+                    Module 3: Industrial Projects & Capstone Projects
                   </h2>
                   <span>
                     {state[3].open ? (
@@ -306,12 +305,12 @@ Capstone Projects
 
               {state[3].open ? (
                 <div className={styles.ans}>
-                  <li>Hybrid Recommender System</li>
-                  <li>Build Streaming Data Pipeline</li>
-                  <li>Analytical Platform for Ecommerce</li>
-                  <li>Airline Dataset Analysis</li>
-                  <li>Image Classifier</li>
-                  <li>House Price Prediction</li>
+                  <li>Text Classification</li>
+                  <li>Human Activity Recognition</li>
+                  <li>Forecasting Business KPI's</li>
+                  <li>Credit Risk Analysis</li>
+                  <li>Customer Churn Prediction</li>
+                  <li>Sentiment Analysis</li>
                 </div>
               ) : (
                 ""
@@ -358,12 +357,12 @@ Capstone Projects
 
               {state[4].open ? (
                 <div className={styles.ans}>
+                  <li>Advance excel</li>
                   <li>SQL + MongoDB</li>
                   <li>Tableau + PowerBI</li>
-                  <li>DL + NLP + Time Series</li>
-                  <li>Big Data Analytics</li>
-                  <li>Business Analytics + GCP</li>
-                  <li>CV + RL + DSA</li>
+                  <li>Deep Learning + NLP</li>
+                  <li>Big Data + Business Analytics</li>
+                  <li>Deployment (AWS + GCP)</li>
                 </div>
               ) : (
                 ""
@@ -493,11 +492,11 @@ Capstone Projects
           <div className={styles.PProgramInner}>
             <p style={{display:"flex"}}>
               <MdOutlineLiveTv className={styles.PIcons} />
-              400+ Live sessions
+              250+ Live sessions
             </p>
             <p style={{display:"flex"}}>
               <SiCodeproject className={styles.PIcons} />
-              15+ Industry Projects
+              12+ Industry Projects
             </p>
             <p style={{display:"flex"}}>
               <SiTimescale className={styles.PIcons} />

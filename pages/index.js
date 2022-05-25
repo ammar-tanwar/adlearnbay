@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import FirstSection from "../components/Data/HeroSection/HeroSection";
+import FirstSection from "../Components/Data/HeroSection/HeroSection";
 import ProgramInfo from "../components/Data/ProgramInfo/ProgramInfo";
 import GetHired from "../components/Data/GetHired/GetHired";
 import Domain from "../components/Data/Domain/Domain";
@@ -43,9 +43,9 @@ export default function Home() {
       <FirstSection
         deskTopPara="Experience-based certification course for professionals"
         mTopPara="Experience-based certification course for professionals"
-        title="Data Science and AI Certification Course With"
-        spanTitleText="100% Job Guarantee or Money Back"
-        desc="The course has been designed specifically for Tech Leads with 2 to 8 years of experience who choose to advance their careers in Data Science and AI, and it comes with a 100% Job Guarantee Data Science and AI Certification Course or money back policy."
+        title="Data Science and AI Program"
+        spanTitleText="With 100% Job Guarantee or Money Back"
+        desc="The course has been designed specifically for working professionals who choose to advance their careers in Data Science and AI."
       />
       <div className={styles.program}>
         <ProgramInfo
@@ -59,14 +59,14 @@ export default function Home() {
       <div className="Feature" id="Feature">
         <BoxShape
           title="Why Enroll In This Program"
-          Box1h5="Custom-fit Learning modules"
-          box1desc="Learn with modules created just for your dream job. Preparatory session for non-programmers."
-          Box2h5="Domain-oriented Data Science Mastery"
-          box2desc="Obtain data science skills on industry standards as Domain Expertise is in high demand."
-          Box3h5="A Worry-free course with Job Guarantee"
-          box3desc="Get advantage of personalized mock interviews and resume-writing sessions with FAANG professionals."
-          Box4h5="Industrial Project Expertise"
-          box4desc="Get hands-on experience working on projects, spanning from mid- to-high level complexity directly from firms."
+          Box1h5="Custom-fit Training"
+          box1desc="Get specially designed molecules as per your dream DS/AI role. Learn demanding DS/AI applications."
+          Box2h5="Domain Focused"
+          box2desc="Obtain cutting-edge DS/Al skills as per demanding IT-industry standards. Choose from 10+ domains."
+          Box3h5="Premium Mentoring"
+          box3desc="Enjoy the edge of mock interviews and CV writing workshops with FAANG Data Science/AI whizzes."
+          Box4h5="Hands-on Experience"
+          box4desc="Get diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
         />
       </div>
       <div className={styles.ExpertWrapper}>
@@ -89,7 +89,7 @@ export default function Home() {
       </div>
       <Certificate
         popupHead="Download Full stack Brochure"
-        title="Earn a globally recognized IBM Certified Data Scientist Badge at the end of your learning journey."
+        title="Earn a globally recognized Certified at the end of your learning journey."
         desc="Get access to IBM cloud lab to keep an eye on trending industrial case studies of data mining, time-series forecasting, AI-based database management, and authenticated data handling."
         desc2 ="Experts from IBM share their ideas and tactics to deal with tricky business problems within the regularly changing analytical environments."
         desc3 ="Data Science Leads from IBM as instructors."

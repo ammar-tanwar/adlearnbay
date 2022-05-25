@@ -55,7 +55,7 @@ const GetHired = () => {
          <p> Weekend and Weekdays Batches</p>
           </div>
           <div className={styles.middle}>
-            <p>15+ Real Time Project from AI and ML</p>
+            <p>12+ Real Time Project from AI and ML</p>
           </div>
           <div className={styles.bottom}>
             <p>From Basics to Advance AI modules</p>
@@ -63,7 +63,7 @@ const GetHired = () => {
         </div>
         <div className={styles.left}>
           <div className={styles.top}>
-            <p>100% Job Guaranteed Program</p>
+            <p>100% interview Guarantee</p>
           </div>
           <div className={styles.middle}>
             <p>Special Classes for non-programmers</p>
@@ -75,7 +75,7 @@ const GetHired = () => {
         <div className={styles.right}>
         <div>
         <p>Course Fee</p>
-        <h4 className={styles.righth}>₹1,25,000</h4>
+        <h4 className={styles.righth}>₹79,000</h4>
         <p>3 Year Subscription</p>
         <button onClick={popupShow} style={{margin:"auto", marginBottom:"20px"}}>Enroll Now</button>
           </div>
