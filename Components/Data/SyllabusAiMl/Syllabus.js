@@ -276,8 +276,7 @@ function Syllabus() {
               {state[3].open ? (
                 <div className={styles.quesO}>
                   <h2>
-                    Module 3: Industrial Projects &
-Capstone Projects
+                    Module 3: Industrial Projects & Capstone Projects
                   </h2>
 
                   <span>
@@ -332,7 +331,7 @@ Capstone Projects
             >
               {state[4].open ? (
                 <div className={styles.quesO}>
-                  <h2>Module 4 : Data Science & AI Tools</h2>
+                  <h2>Module 4 : AI & ML Tools</h2>
 
                   <span>
                     {state[4].open ? (
@@ -344,7 +343,7 @@ Capstone Projects
                 </div>
               ) : (
                 <div className={styles.ques}>
-                  <h2>Module 4 : Data Science & AI Tools</h2>
+                  <h2>Module 4 : AI & ML Tools</h2>
                   <span>
                     {state[4].open ? (
                       <MdKeyboardArrowUp className="icon" />
@@ -357,12 +356,12 @@ Capstone Projects
 
               {state[4].open ? (
                 <div className={styles.ans}>
-                  <li>Advance excel</li>
                   <li>SQL + MongoDB</li>
                   <li>Tableau + PowerBI</li>
-                  <li>Deep Learning + NLP</li>
-                  <li>Big Data + Business Analytics</li>
+                  <li>DL + NLP + CV + RL</li>
+                  <li>Big Data Analytics</li>
                   <li>Deployment (AWS + GCP)</li>
+                  <li>Data Structure & Algorithm</li>
                 </div>
               ) : (
                 ""

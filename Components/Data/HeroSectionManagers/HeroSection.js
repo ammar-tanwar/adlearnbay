@@ -253,7 +253,7 @@ const HeroSection = ({
       </div>
       <div className={styles.right}>
         <Image
-          src="/Advance.png"
+          src="/Managers.png"
           alt="data-science-course"
           quality={100}
           layout="intrinsic"

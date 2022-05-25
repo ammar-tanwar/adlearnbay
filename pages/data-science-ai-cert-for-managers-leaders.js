@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import FirstSection from "../components/Data/HeroSectionAdvance/HeroSection";
+import FirstSection from "../components/Data/HeroSectionManagers/HeroSection";
 import ProgramInfo from "../components/Data/ProgramInfo/ProgramInfo";
 import GetHired from "../components/Data/GetHiredmanagers/GetHired";
 import Domain from "../components/Data/Domain/Domain";
@@ -11,7 +11,7 @@ import Form from "../components/Data/Form/Form";
 import Certificate from "../components/Data/Certificate/Certificate";
 import Project from "../components/Data/Project/Project";
 import Syllabus from "../components/Data/Syllabus/Syllabus";
-import ToolsCovered from "../components/Data/ToolsCovered/ToolsCovered";
+import ToolsCovered from "../components/Data/ToolsCoveredAdvance/ToolsCovered";
 import OurExpert from "../components/Data/OurExpert/OurExpert";
 import React, { useState } from "react";
 
@@ -42,8 +42,8 @@ export default function Home() {
       <FirstSection
         deskTopPara="Experience-based certification course for professionals"
         mTopPara="Experience-based certification course for professionals"
-        title="Advance Data Science & AI Certification"
-        spanTitleText="Domain Specialization For Professionals"
+        title="Full Stack Data Science & AI Course"
+        spanTitleText="For Tech Lead, Team Lead,Managers"
         desc="Our course is best suited for professionals looking to change their current domain and start a New Career in Data Science and Artificial Intelligence in senior and leadership roles."
       />
       <div className={styles.program}>

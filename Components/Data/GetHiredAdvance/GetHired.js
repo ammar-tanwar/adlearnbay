@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 import styles from "./GetHired.module.css";
-import Image from "next/image";
-import { FiCheckSquare } from "react-icons/fi";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
 

@@ -1,6 +1,5 @@
 import styles from "./project.module.scss";
 import React, { useRef, useState, useCallback, useEffect } from "react";
-import { FiCheckSquare } from "react-icons/fi";
 import {
   GiArtificialIntelligence,
   GiBank,
@@ -17,6 +16,10 @@ import { FaTools } from "react-icons/fa";
 import { AiOutlineCar, AiFillMobile } from "react-icons/ai";
 import Image from "next/image";
 import { BsCheck2All } from "react-icons/bs";
+import { FiCheckSquare } from "react-icons/fi";
+
+
+
 
 const Project = ({ ChangeProject }) => {
   // const [isMoved, setIsMoved] = useState(false);
@@ -552,21 +555,20 @@ const Project = ({ ChangeProject }) => {
       <div className={styles.headWrapper}>
         <div className={styles.left}>
           <p className={styles.sub}>Industry – partnered capstone projects</p>
-          <h3>Hands-on Projects</h3>
-          <div className={styles.iconWrapper}>
-            <div className={styles.middle}>
-              <BsCheck2All className={styles.icon} />
-              <p>Practice with 20+ tools</p>
-            </div>
-            <div className={styles.middle}>
-              <BsCheck2All className={styles.icon} />
-              <p>Designed by Industry Experts</p>
-            </div>
-            <div className={styles.middle}>
-              <BsCheck2All className={styles.icon} />
-              <p>Get Real-world Experience</p>
-            </div>
-          </div>
+          <h3>Hands-on Projects</h3><div className={styles.iconWrapper}>
+        <div className={styles.middle}>
+          <BsCheck2All className={styles.icon} />
+          <p>Practice with 20+ tools</p>
+        </div>
+        <div className={styles.middle}>
+          <BsCheck2All className={styles.icon} />
+          <p>Designed by Industry Experts</p>
+        </div>
+        <div className={styles.middle}>
+          <BsCheck2All className={styles.icon} />
+          <p>Get Real-world Experience</p>
+        </div>
+      </div>
         </div>
         <div className={styles.right}>
           <div className={styles.red}>
@@ -613,14 +615,14 @@ const Project = ({ ChangeProject }) => {
                     <h5>HR Domain</h5>
                   </div>
                   <div className={styles.right}>
-                    <Image
-                      src="/1-1.png"
-                      alt="Learnbay"
-                      quality={100}
-                      objectFit="contain"
-                      width="480"
-                      height="120px"
-                    />
+                  <Image
+            src="/1-1.png"
+            alt="Learnbay"
+            quality={100}
+            objectFit="contain"
+            width="480"
+            height="120px"
+          />
                   </div>
                 </div>
                 <div className={styles.body}>
@@ -629,11 +631,7 @@ const Project = ({ ChangeProject }) => {
                     like Amazon.
                   </h6> */}
                   <p>
-                    IBM intends to boost their HR department by identifying
-                    employees' masked inconsistency. They need models to
-                    identify the graphical variations in their 14000+ employees'
-                    performances. Help them build models with your regressions
-                    and other ML abilities.
+                  IBM intends to boost their HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities.
                   </p>
                   {/* <div className={styles.tool}>
                     <span className={styles.lightBlue}>Mongo</span>
@@ -651,14 +649,14 @@ const Project = ({ ChangeProject }) => {
                     <h5>Marketing Domain</h5>
                   </div>
                   <div className={styles.right}>
-                    <Image
-                      src="/2-3.png"
-                      alt="Learnbay"
-                      quality={100}
-                      objectFit="contain"
-                      width="480"
-                      height="120px"
-                    />
+                  <Image
+            src="/2-3.png"
+            alt="Learnbay"
+            quality={100}
+            objectFit="contain"
+            width="480"
+            height="120px"
+          />
                   </div>
                 </div>
                 <div className={styles.body}>
@@ -667,11 +665,7 @@ const Project = ({ ChangeProject }) => {
                     scratch.
                   </h6> */}
                   <p>
-                    Swiggy seeks a broad marketing campaign. But they need
-                    automated keyword generation tools. They also require proper
-                    message preparation and delivery of the same to the right
-                    audience at the right time. You can help them with text
-                    analytics and NLP-based keyword research solutions.
+                  Swiggy seeks a broad marketing campaign. But they need automated keyword generation tools. They also require proper message preparation and delivery of the same to the right audience at the right time. You can help them with text analytics and NLP-based keyword research solutions.
                   </p>
                   {/* <div className={styles.tool}>
                     <span className={styles.lightBlue}>React</span>
@@ -689,14 +683,14 @@ const Project = ({ ChangeProject }) => {
                     <h5>Manufacturing Domain</h5>
                   </div>
                   <div className={styles.right}>
-                    <Image
-                      src="/Untitled-design-3.png"
-                      alt="Learnbay"
-                      quality={100}
-                      objectFit="contain"
-                      width="480"
-                      height="120px"
-                    />
+                  <Image
+            src="/Untitled-design-3.png"
+            alt="Learnbay"
+            quality={100}
+            objectFit="contain"
+            width="480"
+            height="120px"
+          />
                   </div>
                 </div>
                 <div className={styles.body}>
@@ -705,11 +699,7 @@ const Project = ({ ChangeProject }) => {
                     design a food delivery app.
                   </h6> */}
                   <p>
-                    This project helped BOSCH to predict their internal failures
-                    by production line dataset analysis. But still, they are
-                    struggling to predict automated faults in their assembly
-                    stage. You can help them by building more advanced
-                    predictive models for assembly stage monitoring.
+                  This project helped BOSCH to predict their internal failures by production line dataset analysis. But still, they are struggling to predict automated faults in their assembly stage. You can help them by building more advanced predictive models for assembly stage monitoring.
                   </p>
                   {/* <div className={styles.tool}>
                     <span className={styles.lightBlue}>React</span>
@@ -727,14 +717,14 @@ const Project = ({ ChangeProject }) => {
                     <h5>Sales Domain</h5>
                   </div>
                   <div className={styles.right}>
-                    <Image
-                      src="/Untitled-design-2.png"
-                      alt="Learnbay"
-                      quality={100}
-                      objectFit="contain"
-                      width="480"
-                      height="120px"
-                    />
+                  <Image
+            src="/Untitled-design-2.png"
+            alt="Learnbay"
+            quality={100}
+            objectFit="contain"
+            width="480"
+            height="120px"
+          />
                   </div>
                 </div>
                 <div className={styles.body}>
@@ -743,12 +733,7 @@ const Project = ({ ChangeProject }) => {
                     and backend.{" "}
                   </h6> */}
                   <p>
-                    BMW allows existing customers to sell used cars, but many
-                    competitors are now offering better resale values. A data
-                    science-powered statistical app from BMW will provide the
-                    best market value for used cars based on parameters like Km
-                    driven, daily pricing up and down, manufacturing dates, and
-                    so on. Develop your analytical skills through such projects.
+                  BMW allows existing customers to sell used cars, but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects.
                   </p>
                   {/* <div className={styles.tool}>
                     <span className={styles.lightBlue}>React</span>
@@ -766,14 +751,14 @@ const Project = ({ ChangeProject }) => {
                     <h5>Retail Domain</h5>
                   </div>
                   <div className={styles.right}>
-                    <Image
-                      src="/12.png"
-                      alt="Learnbay"
-                      quality={100}
-                      objectFit="contain"
-                      width="480"
-                      height="120px"
-                    />
+                  <Image
+            src="/12.png"
+            alt="Learnbay"
+            quality={100}
+            objectFit="contain"
+            width="480"
+            height="120px"
+          />
                   </div>
                 </div>
                 <div className={styles.body}>
@@ -782,10 +767,7 @@ const Project = ({ ChangeProject }) => {
                     with all major features and deploy it.
                   </h6> */}
                   <p>
-                    Take an active part in the Walmart sales forecasting
-                    project. From the huge data set available, you have to
-                    perform a sales forecast for 45 Walmart stores. You have to
-                    include holiday markdown sales too.
+                  Take an active part in the Walmart sales forecasting project. From the huge data set available, you have to perform a sales forecast for 45 Walmart stores. You have to include holiday markdown sales too.
                   </p>
                   {/* <div className={styles.tool}>
                     <span className={styles.lightBlue}>React</span>
@@ -803,14 +785,14 @@ const Project = ({ ChangeProject }) => {
                     <h5>Healthcare Domain</h5>
                   </div>
                   <div className={styles.right}>
-                    <Image
-                      src="/4(2).png"
-                      alt="Learnbay"
-                      quality={100}
-                      objectFit="contain"
-                      width="480"
-                      height="120px"
-                    />
+                  <Image
+            src="/4(2).png"
+            alt="Learnbay"
+            quality={100}
+            objectFit="contain"
+            width="480"
+            height="120px"
+          />
                   </div>
                 </div>
                 <div className={styles.body}>
@@ -819,11 +801,7 @@ const Project = ({ ChangeProject }) => {
                     recommendation engine.
                   </h6> */}
                   <p>
-                    Samsung will launch a new healthcare app soon. The key goal
-                    of this app is accurate human activity tracking and
-                    providing relevant health-related recommendations.
-                    Continuous analysis of a massive amount of mobile data is
-                    required for such an app.
+                  Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app.
                   </p>
                   {/* <div className={styles.tool}>
                     <span className={styles.lightBlue}>React</span>
@@ -842,25 +820,20 @@ const Project = ({ ChangeProject }) => {
                     <h5>E-Commerce Domain</h5>
                   </div>
                   <div className={styles.right}>
-                    <Image
-                      src="/5(2).png"
-                      alt="Learnbay"
-                      quality={100}
-                      objectFit="contain"
-                      width="480"
-                      height="120px"
-                    />
+                  <Image
+            src="/5(2).png"
+            alt="Learnbay"
+            quality={100}
+            objectFit="contain"
+            width="480"
+            height="120px"
+          />
                   </div>
                 </div>
                 <div className={styles.body}>
                   {/* <h6>Build project management dashboard like Trello, Jira.</h6> */}
                   <p>
-                    Amazon has made a goal to identify the most successful
-                    consumer electronic products. For these, they require live
-                    customer review analysis. You can take part in the assisting
-                    project of customer insight regeneration from the ongoing
-                    and existing reviews via a suitable data visualization
-                    approach.
+                  Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach.
                   </p>
                   {/* <div className={styles.tool}>
                     <span className={styles.lightBlue}>React</span>
@@ -879,24 +852,20 @@ const Project = ({ ChangeProject }) => {
                     <h5>Entertainment Domain</h5>
                   </div>
                   <div className={styles.right}>
-                    <Image
-                      src="/9.png"
-                      alt="Learnbay"
-                      quality={100}
-                      objectFit="contain"
-                      width="480"
-                      height="120px"
-                    />
+                  <Image
+            src="/9.png"
+            alt="Learnbay"
+            quality={100}
+            objectFit="contain"
+            width="480"
+            height="120px"
+          />
                   </div>
                 </div>
                 <div className={styles.body}>
                   {/* <h6>Build project management dashboard like Trello, Jira.</h6> */}
                   <p>
-                    Netflix is a global entertainment video streaming site. They
-                    offer content in various regional languages. Build a local
-                    recommendation engine for Netflix customers residing in
-                    south Bangalore on their weekend and weekdays activities,
-                    utilizing NLP.
+                  Netflix is a global entertainment video streaming site. They offer content in various regional languages. Build a local recommendation engine for Netflix customers residing in south Bangalore on their weekend and weekdays activities, utilizing NLP.
                   </p>
                   {/* <div className={styles.tool}>
                     <span className={styles.lightBlue}>React</span>

@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import FirstSection from "../components/Data/HeroSectionAiMl/HeroSection";
 import ProgramInfo from "../components/Data/ProgramInfo/ProgramInfo";
-import GetHired from "../components/Data/GetHired/GetHired";
+import GetHired from "../components/Data/GetHiredManagers/GetHired";
 import Domain from "../components/Data/Domain/Domain";
 import BoxShape from "../components/Data/Boxshape/BoxShape";
 import Popup from "../components/Data/Popup/Popup";
