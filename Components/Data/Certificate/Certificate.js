@@ -41,7 +41,6 @@ const Certificate = ({ popupHead, title, desc, desc2, desc3 }) => {
         <p className={styles.pBotC}>{desc2}</p>
         <p className={styles.pBotC}>{desc3}</p>
 
-
         <div className={styles.btnWrapper}>
           <button onClick={popupShow}>
             <BiDownload className="bIcons" />
@@ -52,7 +51,7 @@ const Certificate = ({ popupHead, title, desc, desc2, desc3 }) => {
       <div className={styles.right}>
         <Image
           className="shadow"
-          src="/Certificate.png"
+          src="/certificate.png"
           alt="Certificate"
           quality={100}
           layout="intrinsic"
