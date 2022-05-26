@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Certificate.module.css";
 import { BiDownload } from "react-icons/bi";
-import { IoCallOutline } from "react-icons/io5";
-import Image from "next/image";
-import Link from "next/link";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -64,7 +61,7 @@ const Certificate = ({ popupHead, title, desc, desc2, desc3 }) => {
           <SwiperSlide>
             <img
               className="shadow"
-              src="/certificate.png"
+              src="/certificate.webp"
               alt="Skillslash"
               quality={100}
               layout="intrinsic"
@@ -75,7 +72,7 @@ const Certificate = ({ popupHead, title, desc, desc2, desc3 }) => {
           <SwiperSlide>
             <img
               className="shadow"
-              src="/certificate-png.png"
+              src="/certificate-png.webp"
               alt="Skillslash"
               quality={100}
               layout="intrinsic"

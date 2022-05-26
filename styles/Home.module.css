@@ -108,7 +108,7 @@
   grid-template-columns: 20% 60% 20%;
   justify-content: space-between;
   border-radius: 25px;
-  background-image: url("/Cta(2).png");
+  background-image: url("/Cta(2).webp");
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
@@ -203,7 +203,7 @@
     display: flex;
     justify-content: space-between;
     border-radius: 25px;
-    background-image: url("/mobile-view.png");
+    background-image: url("/mobile-view.webp");
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;

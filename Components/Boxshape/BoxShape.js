@@ -25,7 +25,7 @@ const BoxShape = ({
           <div className={styles.box}>
             <div className={styles.ImgB}>
               <img
-                src="/custome-fit-learning-module.png"
+                src="/custome-fit-learning-module.webp"
                 alt="custome-fit-learning-module"
                 className={styles.icon}
                 width="40"
@@ -40,7 +40,7 @@ const BoxShape = ({
           <div className={styles.box}>
             <div className={styles.ImgC}>
               <img
-                src="/data-science.png"
+                src="/data-science.webp"
                 alt="data-science"
                 className={styles.icon}
                 width="40"
@@ -54,7 +54,7 @@ const BoxShape = ({
           <div className={styles.box}>
             <div className={styles.ImgC}>
               <img
-                src="/job-gauranttee.png"
+                src="/job-gauranttee.webp"
                 alt="Job Guarantee"
                 className={styles.icon}
                 width="40"
@@ -68,7 +68,7 @@ const BoxShape = ({
           <div className={styles.box}>
             <div className={styles.ImgC}>
               <img
-                src="/expertise.png"
+                src="/expertise.webp"
                 alt="Eligibility Criteria"
                 className={styles.icon}
                 width="40"

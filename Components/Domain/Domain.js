@@ -85,7 +85,7 @@ const Domain = () => {
         </div>
         <div className={styles.right}>
         <Image
-          src="/domain.png"
+          src="/domain.webp"
           alt="data-science-course"
           quality={100}
           layout="intrinsic"

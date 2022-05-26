@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Certificate.module.css";
 import { BiDownload } from "react-icons/bi";
-import { IoCallOutline } from "react-icons/io5";
 import Image from "next/image";
-import Link from "next/link";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
 
@@ -52,7 +50,7 @@ const Certificate = ({ popupHead, title, desc, desc2, desc3 }) => {
       <div className={styles.right}>
         <Image
           className="shadow"
-          src="/Certificate.png"
+          src="/Certificate.webp"
           alt="Certificate"
           quality={100}
           layout="intrinsic"
