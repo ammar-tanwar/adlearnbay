@@ -34,10 +34,10 @@ const Footer = () => {
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Popular Courses</p>
-          <p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Data Science & AI Certification</p>
-          <p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Advance AI & ML Certification</p>
-          <p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Data Science & AI Cert. For Managers & Leaders</p>
-          <p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Job Guarantee or Money Back – Data Science & AI</p>
+          <a href="/data-science-certification-courses"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Advance Data Science & AI Certification</p></a>
+          <a href="/advance-ai-ml-certification"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Advance AI & ML Certification</p></a>
+          <a href="/data-science-ai-cert-for-managers-leaders"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Data Science & AI Cert. For Managers & Leaders</p></a>
+          <a href="/"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Job Guarantee or Money Back – Data Science & AI</p></a>
           </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Find Us Here</p>

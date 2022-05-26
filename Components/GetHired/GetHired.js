@@ -45,7 +45,6 @@ const GetHired = () => {
       </Popup>
       <div className={styles.CInner}>
         <h4>Program Highlights</h4>
-        {/* <p className="pBot">Work on live projects to get hired at:</p> */}
       </div>
       <div className={styles.imageBox}>
         <div className={styles.left}>

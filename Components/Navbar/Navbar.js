@@ -49,13 +49,9 @@ const Navbar = () => {
               </span>
 
               <span onClick={showMenu}>
-                <Link href="/job-guarantee-or-money-back-data-science-ai">Job Guarantee or Money Back – Data Science & AI</Link>
+                <Link href="/">Job Guarantee or Money Back – Data Science & AI</Link>
               </span>
             </div>
-            {/* <button onClick={popupShow}>
-            Apply For Counselling <FiArrowRight style={{marginLeft:"5px"}}/>
-          </button>
-          <Popup></Popup> */}
           </div>
           <a href="/">
             <Image

@@ -1,18 +1,18 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import FirstSection from "../components/HeroSectionManagers/HeroSection";
-import ProgramInfo from "../components/ProgramInfo/ProgramInfo";
-import GetHired from "../components/GetHiredmanagers/GetHired";
-import Domain from "../components/Domain/Domain";
-import BoxShape from "../components/Boxshape/BoxShape";
-import Popup from "../components/Popup/Popup";
-import Form from "../components/Form/Form";
-import Certificate from "../components/Certificate/Certificate";
-import Project from "../components/Project/Project";
-import Syllabus from "../components/SyllabusManagers/Syllabus";
-import ToolsCovered from "../components/ToolsCoveredAdvance/ToolsCovered";
-import OurExpert from "../components/OurExpert/OurExpert";
+import FirstSection from "../Components/HeroSectionManagers/HeroSection";
+import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
+import GetHired from "../Components/GetHiredmanagers/GetHired";
+import Domain from "../Components/Domain/Domain";
+import BoxShape from "../Components/Boxshape/BoxShape";
+import Popup from "../Components/Popup/Popup";
+import Form from "../Components/Form/Form";
+import Certificate from "../Components/Certificate/Certificate";
+import Project from "../Components/Project/Project";
+import Syllabus from "../Components/SyllabusManagers/Syllabus";
+import ToolsCovered from "../Components/ToolsCoveredAdvance/ToolsCovered";
+import OurExpert from "../Components/OurExpert/OurExpert";
 import React, { useState } from "react";
 
 export default function Home() {

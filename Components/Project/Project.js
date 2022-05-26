@@ -4,15 +4,12 @@ import {
   GiArtificialIntelligence,
   GiBank,
   GiHealthNormal,
-  GiWorld,
 } from "react-icons/gi";
 import {
   MdKeyboardArrowLeft,
   MdKeyboardArrowRight,
-  MdGroups,
 } from "react-icons/md";
 import { BsPaypal, BsFillCreditCard2BackFill } from "react-icons/bs";
-import { FaTools } from "react-icons/fa";
 import { AiOutlineCar, AiFillMobile } from "react-icons/ai";
 import Image from "next/image";
 import { BsCheck2All } from "react-icons/bs";
@@ -752,7 +749,7 @@ const Project = ({ ChangeProject }) => {
                   </div>
                   <div className={styles.right}>
                   <Image
-            src="/12.png"
+            src="/12-1.png"
             alt="Learnbay"
             quality={100}
             objectFit="contain"
@@ -853,7 +850,7 @@ const Project = ({ ChangeProject }) => {
                   </div>
                   <div className={styles.right}>
                   <Image
-            src="/9.png"
+            src="/9-1.png"
             alt="Learnbay"
             quality={100}
             objectFit="contain"
