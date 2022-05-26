@@ -50,7 +50,7 @@ const Certificate = ({ popupHead, title, desc, desc2, desc3 }) => {
       <div className={styles.right}>
         <Image
           className="shadow"
-          src="/Certificate.webp"
+          src="/certificate.webp"
           alt="Certificate"
           quality={100}
           layout="intrinsic"
