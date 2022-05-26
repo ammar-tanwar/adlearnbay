@@ -3,7 +3,11 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import FirstSection from "../Components/HeroSectionManagers/HeroSection";
 import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
+<<<<<<< HEAD
 import GetHired from "../Components/GetHiredmanagers/GetHired";
+=======
+import GetHired from "../Components/GetHiredManagers/GetHired";
+>>>>>>> 0e70b56f644a4c569d0545b2ba9ad8465ba5181c
 import Domain from "../Components/Domain/Domain";
 import BoxShape from "../Components/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
