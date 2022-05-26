@@ -5,8 +5,8 @@ import styles from "./Navbar.module.css";
 import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaChevronDown } from "react-icons/fa";
-import Popup from "../../Data/Popup/Popup";
-import Form from "../../Data/Form/Form";
+import Popup from "../Popup/Popup";
+import Form from "../Form/Form";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);

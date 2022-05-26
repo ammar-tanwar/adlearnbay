@@ -81,170 +81,170 @@ const HeroSection = ({
               <>
                 {" "}
                 <SwiperSlide>
-                <Image src="/slider/1.png" alt="Learnbay Alumni" width="80" height="118" />
+                <Image src="/1.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                <Image src="/slider/2.png" alt="Learnbay Alumni" width="80" height="118" />
+                <Image src="/2.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                <Image src="/slider/4.png" alt="Learnbay Alumni" width="80" height="118" />
+                <Image src="/4.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                <Image src="/slider/5.png" alt="Learnbay Alumni" width="80" height="118" />
+                <Image src="/5.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/6.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/6.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/7.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/7.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/9.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/9.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/10.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/10.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/11.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/11.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/12.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/12.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/13.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/13.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/14.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/14.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/15.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/15.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/16.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/16.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/17.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/17.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/18.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/18.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/19.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/19.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/20.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/20.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/21.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/21.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/22.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/22.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/23.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/23.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/24.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/24.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/25.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/25.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/26.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/26.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/27.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/27.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/28.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/28.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/29.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/29.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
               </>
             ) : (
               <>
                 {" "}
                 <SwiperSlide>
-                <Image src="/slider/1.png" alt="Learnbay Alumni" width="80" height="118" />
+                <Image src="/1.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                <Image src="/slider/2.png" alt="Learnbay Alumni" width="80" height="118" />
+                <Image src="/2.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                <Image src="/slider/4.png" alt="Learnbay Alumni" width="80" height="118" />
+                <Image src="/4.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                <Image src="/slider/5.png" alt="Learnbay Alumni" width="80" height="118" />
+                <Image src="/5.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/6.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/6.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/7.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/7.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/9.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/9.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/10.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/10.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/11.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/11.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/12.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/12.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/13.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/13.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/14.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/14.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/15.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/15.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/16.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/16.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/17.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/17.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/18.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/18.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/19.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/19.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/20.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/20.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/21.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/21.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/22.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/22.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/23.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/23.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/24.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/24.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/25.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/25.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/26.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/26.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/27.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/27.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/28.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/28.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/slider/29.png" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image src="/29.png" alt="Learnbay Alumni" width="80" height="118" />
                 </SwiperSlide>
               </>
             )}
@@ -253,7 +253,7 @@ const HeroSection = ({
       </div>
       <div className={styles.right}>
         <Image
-          src="/Advance.png"
+          src="/AiMl.png"
           alt="data-science-course"
           quality={100}
           layout="intrinsic"

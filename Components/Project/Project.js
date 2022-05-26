@@ -572,7 +572,7 @@ const Project = ({ ChangeProject }) => {
         </div>
         <div className={styles.right}>
           <div className={styles.red}>
-            <h3>15+</h3>
+            <h3>12+</h3>
             <p>
               Projects <br />
               Available
