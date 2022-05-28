@@ -35,12 +35,15 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
     }));
   };
 
-  let endPoint = "https://getform.io/f/36912266-9fa0-4242-8c76-2245cab80c21";
-  if (router.pathname === "/Data-Science-course") {
-    endPoint = "https://getform.io/f/54fd4b4c-1818-4835-9c4b-5b189a8b73a3";
+  let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
+  if (router.pathname === "/data-science-certification-courses") {
+    endPoint = "https://getform.io/f/9afc4fed-f544-423b-89c9-fabc44d453cd";
   }
-  if (router.pathname === "/Data-Science-and-Ai-course") {
-    endPoint = "https://getform.io/f/54fd4b4c-1818-4835-9c4b-5b189a8b73a3";
+  if (router.pathname === "/advance-ai-ml-certification") {
+    endPoint = "https://getform.io/f/f04275d9-dcb2-4016-b2ea-3f637a5d1244";
+  }
+  if (router.pathname === "/data-science-ai-cert-for-managers-leaders") {
+    endPoint = "https://getform.io/f/36912266-9fa0-4242-8c76-2245cab80c21";
   }
 
 
