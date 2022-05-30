@@ -49,7 +49,7 @@ const GetHired = () => {
       <div className={styles.imageBox}>
         <div className={styles.left}>
           <div className={styles.top}>
-          <p>Weekday Program Batches: 13 Months</p>
+          <p>Weekday Batches: 13 Months</p>
 <p>Monday – Friday – 2 hours every day</p>
           </div>
           <div className={styles.middle}>
@@ -61,8 +61,8 @@ const GetHired = () => {
         </div>
         <div className={styles.left}>
           <div className={styles.top}>
-          <p>Weekday Program Batches: 15 Months</p>
-<p>Monday – Friday – 3.5 hours every day</p>
+          <p>Weekend Batches: 15 Months</p>
+<p>Saturday & Sunday – 3.5 hours every day</p>
           </div>
           <div className={styles.middle}>
             <p>Special Classes for non-programmers</p>
