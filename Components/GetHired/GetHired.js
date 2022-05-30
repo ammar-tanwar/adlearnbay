@@ -49,7 +49,8 @@ const GetHired = () => {
       <div className={styles.imageBox}>
         <div className={styles.left}>
           <div className={styles.top}>
-         <p> Weekend and Weekdays Batches</p>
+          <p>Weekday Program Batches: 13 Months</p>
+<p>Monday – Friday – 2 hours every day</p>
           </div>
           <div className={styles.middle}>
             <p>15+ Real Time Project from AI and ML</p>
@@ -60,13 +61,14 @@ const GetHired = () => {
         </div>
         <div className={styles.left}>
           <div className={styles.top}>
-            <p>100% Job Guaranteed Program</p>
+          <p>Weekday Program Batches: 15 Months</p>
+<p>Monday – Friday – 3.5 hours every day</p>
           </div>
           <div className={styles.middle}>
             <p>Special Classes for non-programmers</p>
           </div>
           <div className={styles.bottom}>
-            <p>Live Faculty-led Online Training</p>
+          <p>100% Job Guaranteed Program</p>
           </div>
         </div>
         <div className={styles.right}>
