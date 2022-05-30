@@ -18,6 +18,7 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
     email: "",
     phone: "",
     workExperience: "",
+    Brief: "",
     scheduleTime: "",
     url: router.asPath,
   });
@@ -208,13 +209,22 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
                 Scheduled Your Appointment
               </option>
               <option value="Morning(9-12)">
-                Morning between (9 AM -12 Noon)
+                Morning between (10-11 AM)
               </option>
               <option value="AfterNoon(12-03)">
-                AfterNoon Between (12-03 PM)
+                AfterNoon Between (11-12 PM)
               </option>
               <option value="Evening(03-07)">
-                Evening between (03 PM -07 PM)
+              AfterNoon between (12-01 PM)
+              </option>
+              <option value="Evening(03-07)">
+                Evening between (02-03 PM)
+              </option>
+              <option value="Evening(03-07)">
+                Evening between (03-04 PM)
+              </option>
+              <option value="Evening(03-07)">
+                Evening between (04-05 PM)
               </option>
             </select>
             <input
@@ -247,7 +257,17 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
         ) : (
           ""
         )}
-
+<div className={popup ? styles.formWrappers : styles.formWrapper}>
+        <input
+            type="textarea"
+            name="Brief"
+            className={popup ? styles.NameInputs : styles.NameInput}
+            placeholder="Tell us something about yourself"
+            value={query.Brief}
+            style={{ borderBottom: "1px solid grey" }}
+            onChange={handleParam()}
+          />
+        </div>
         <p className={styles.FormText} style={{ fontSize: "10px" }}>
           By submitting the form, you agree to our Terms and Conditions and our
           Privacy Policy.
