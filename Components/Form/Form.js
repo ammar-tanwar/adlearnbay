@@ -78,16 +78,32 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
+    if(router.pathname === "/data-science-certification-courses" && downloadBrochure){
+      router.push("/Thank-you-brochure");
+      return;
+    }
     if (router.pathname === "/advance-ai-ml-certification") {
       router.push("/Thank-you");
+      return;
+    }
+    if(router.pathname === "/advance-ai-ml-certification" && downloadBrochure){
+      router.push("/Thank-you-brochure");
       return;
     }
     if (router.pathname === "/data-science-ai-cert-for-managers-leaders") {
       router.push("/Thank-you");
       return;
     }
+    if (router.pathname === "/data-science-ai-cert-for-managers-leaders" && downloadBrochure) {
+      router.push("/Thank-you-brochure");
+      return;
+    }
     if (router.pathname === "/") {
       router.push("/Thank-you");
+    }
+    if (router.pathname === "/" && downloadBrochure) {
+      router.push("/Thank-you-brochure");
+      return;
     }
   };
   const pastDates = () => {
