@@ -1,19 +1,20 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import FirstSection from "../Components/HeroSectionAiMl/HeroSection";
+import FirstSection from "../Components/HeroSectionManagers/HeroSection";
 import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
-import GetHired from "../Components/GetHiredAiMl/GetHired";
+import GetHired from "../Components/GetHiredManagers/GetHired";
 import Domain from "../Components/Domain/Domain";
 import BoxShape from "../Components/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
 import Certificate from "../Components/Certificate/Certificate";
 import Project from "../Components/Project/Project";
-import Syllabus from "../Components/SyllabusAiMl/Syllabus";
+import Syllabus from "../Components/SyllabusManagers/Syllabus";
 import ToolsCovered from "../Components/ToolsCoveredAdvance/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
-import Navbar from "../Components/Navbar/Navbar";
-import Footer from "../Components/Footer/Footer";
+import Navbar from "../Components/Navbars3/Navbar";
+import Footer from "../Components/Footers3/Footer";
 import React, { useState } from "react";
 
 export default function Home() {
@@ -44,14 +45,13 @@ export default function Home() {
       <FirstSection
         deskTopPara="Experience-based certification course for professionals"
         mTopPara="Experience-based certification course for professionals"
-        title="Advanced AI & ML Certification Program"
-        spanTitleText="For Top Product based MNC And Startup"
-        desc="
-        AI Certification Course is designed with Domain Electives and Project Expertise for working professionals having 4+ years of experience in core tech and programming domain."
+        title="Full Stack Data Science & AI Course"
+        spanTitleText="For Tech Lead, Team Lead,Managers"
+        desc="Our course is best suited for professionals looking to change their current domain and start a New Career in Data Science and Artificial Intelligence in senior and leadership roles."
       />
       <div className={styles.program}>
         <ProgramInfo
-          BatchDate="4+ Years Work Experience"
+          BatchDate="8+ Years Work Experience"
           BatchDuration="Accredited with IBM"
           Placement="15+ Real Time Projects"
           EMI="₹ 12k/month*(9 Months)"
@@ -61,12 +61,12 @@ export default function Home() {
       <div className="Feature" id="Feature">
         <BoxShape
           title="Why Enroll In This Program"
-          Box1h5="Custom-fit Training"
-          box1desc="Get specially designed modules as per your dream AI role. Learn latest ML applications."
-          Box2h5="Domain Focused"
-          box2desc="Obtain cutting-edge Al and ML skills as per demanding IT-industry standards. Choose any domain of your choice."
+          Box1h5="Custom-fit Learning modules"
+          box1desc="Learn with modules created just for your dream job. Become an extraordinarily demanding Leader and Manager."
+          Box2h5="Domain Destined"
+          box2desc="Obtain cutting-edge industrial leadership training in Data Science and AI fields. Choose from 10+ electives."
           Box3h5="Premium Mentoring"
-          box3desc="Enjoy and learn from mock interviews and CV writing workshops with FAANG DS/AI industry experts."
+          box3desc="Utilize the advantage of mock interviews and project handling training with FAANG Data Science Leads."
           Box4h5="Hands-on Experience"
           box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
         />

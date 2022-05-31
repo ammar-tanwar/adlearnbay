@@ -91,7 +91,7 @@ function Syllabus() {
               <AiOutlineDownload className="bIcons" />
               Download Brochure
             </button>
-          </div>
+          </div> 
         </div>
         <p>
           The Data Science and AI Certification Course With 100% Job Guarantee or Money Back

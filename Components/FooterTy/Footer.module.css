@@ -1,8 +1,6 @@
 @media (min-width: 1281px) {
-    .FooterSection {
-      background-color: black;
-      margin-left: -136px;
-      width: 100vw;
+    .FooterSectionb {
+      background-color: black !important;
     }
     .FooterDiv {
       margin: 70px 100px 70px 100px;
@@ -87,6 +85,8 @@
   
     .FooterBottom {
       background-color: #090A0E;
+      width: 100vw;
+      margin-left: -45px;
     }
   
     .FooterBottomInner {

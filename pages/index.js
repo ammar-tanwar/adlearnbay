@@ -13,6 +13,8 @@ import Project from "../Components/Project/Project";
 import Syllabus from "../Components/Syllabus/Syllabus";
 import ToolsCovered from "../Components/ToolsCovered/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
+import Navbar from "../Components/Navbar/Navbar";
+import Footer from "../Components/Footer/Footer";
 import React, { useState } from "react";
 
 
@@ -40,6 +42,7 @@ export default function Home() {
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
+      <Navbar />
       <FirstSection
         deskTopPara="Experience-based certification course for professionals"
         mTopPara="Experience-based certification course for professionals"
@@ -101,6 +104,7 @@ export default function Home() {
       <div className={styles.ProjectWrapper} id="project">
         <Project />
       </div>
+      <Footer />
       </main> 
     </div>
   )
