@@ -304,6 +304,7 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
             className={popup ? styles.Phones : styles.Phone}
             value={value}
             onChange={setValue}
+            required
           />
         </div>
         <div className={popup ? styles.formWrappers : styles.formWrapper}>
@@ -313,10 +314,6 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
             value={query.workExperience}
             onChange={handleParam()}
           >
-            <option className={styles.option} value="">
-              Select Your Work Experience
-            </option>
-            <option value="College Students">College Students</option>
             <option value="Fresher ( less than 1 year)">
               Fresher ( less than 1 year)
             </option>
@@ -334,9 +331,6 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
               value={query.scheduleTime}
               onChange={handleParam()}
             >
-              <option className={styles.option} value="">
-                Scheduled Your Appointment
-              </option>
               <option value="Morning between (10-11 AM)">
                 Morning between (10-11 AM)
               </option>
