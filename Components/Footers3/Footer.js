@@ -41,8 +41,9 @@ const Footer = () => {
           </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Find Us Here</p>
-          <p className={styles.FooterInnerli}>HSR Layout</p>
-          <p className={styles.FooterInnerli}>147, 5th Main Rd, Rajiv Gandhi Nagar HSR Sector 7 , Near Salarpuria Serenity, Bengaluru, Karnataka 560102</p>
+          <p className={styles.FooterInnerli}>#1090 , 1st floor, 18th cross road
+HSR layout sector 3, Bangalore - 560102
+(Above Sangam Sweets)</p>
           {/* <Grid item xs={12} md={12} sx={{ height: "200px", width: "100px" }}>
                 <GoogleMapReact
                   bootstrapURLKeys={{ key: "AIzaSyB5eZjplt5xQnMe2e95aIB9NkTnpyZ-cB0" }}
