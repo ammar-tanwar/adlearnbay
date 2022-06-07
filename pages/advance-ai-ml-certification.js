@@ -14,6 +14,7 @@ import ToolsCovered from "../Components/ToolsCoveredAdvance/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
 import Navbar from "../Components/Navbar/Navbar";
 import Footer from "../Components/Footer/Footer";
+import Whatsapp from "../Components/WhatsappNew/Whatsapp";
 import React, { useState } from "react";
 
 export default function Home() {
@@ -103,6 +104,7 @@ export default function Home() {
       <div className={styles.ProjectWrapper} id="project">
         <Project />
       </div>
+      <Whatsapp />
       <Footer />
       </main> 
     </div>
