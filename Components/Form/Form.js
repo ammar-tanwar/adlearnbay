@@ -357,6 +357,7 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
             value={query.workExperience}
             onChange={handleParam()}
           >
+            <option value="Work Experience">Work Experience</option>
             <option value="Fresher ( less than 1 year)">
               Fresher ( less than 1 year)
             </option>
@@ -368,57 +369,12 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
         </div>
         {popup ? (
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
-            <select
-              name="scheduleTime"
-              required
-              value={query.scheduleTime}
-              onChange={handleParam()}
-            >
-              <option value="Morning between (10-11 AM)">
-                Morning between (10-11 AM)
-              </option>
-              <option value="AfterNoon Between (11-12 PM)">
-                AfterNoon Between (11-12 PM)
-              </option>
-              <option value="AfterNoon between (12-01 PM)">
-              AfterNoon between (12-01 PM)
-              </option>
-              <option value="Evening between (02-03 PM)">
-                Evening between (02-03 PM)
-              </option>
-              <option value="Evening between (03-04 PM)">
-                Evening between (03-04 PM)
-              </option>
-              <option value="Evening between (04-05 PM)">
-                Evening between (04-05 PM)
-              </option>
-            </select>
             <input
               type="hidden"
               id="url"
               name="url"
               value={router.asPath}
             ></input>
-            {/* <div className={styles.inner}>
-              <input
-                id="date"
-                className={styles.date}
-                min={pastDates()}
-                max={maxDates()}
-                type="date"
-                name="date"
-                value={query.date}
-                onChange={handleParam()}
-              />
-              <input
-                id="time"
-                className={styles.time}
-                type="time"
-                name="time"
-                value={query.time}
-                onChange={handleParam()}
-              />
-            </div> */}
           </div>
         ) : (
           ""
