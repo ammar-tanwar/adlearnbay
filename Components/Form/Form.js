@@ -94,6 +94,18 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
   if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s5") {
     endPoint = "https://getform.io/f/9c5b2164-1f56-4150-ad53-7944d6fe4363";
   }
+  if (router.pathname === "/data-science-certification-courses-s6") {
+    endPoint = "https://getform.io/f/1c8cf486-31ef-4a7f-95b0-45c5f21e7b29";
+  }
+  if (router.pathname === "/advance-ai-ml-certification-s6") {
+    endPoint = "https://getform.io/f/1c8cf486-31ef-4a7f-95b0-45c5f21e7b29";
+  }
+  if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s6") {
+    endPoint = "https://getform.io/f/1c8cf486-31ef-4a7f-95b0-45c5f21e7b29";
+  }
+  if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s6") {
+    endPoint = "https://getform.io/f/1c8cf486-31ef-4a7f-95b0-45c5f21e7b29";
+  }
 
 
   // Form Submit function
@@ -275,6 +287,37 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
     }
     if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s5" && downloadBrochure) {
+      router.push("/Thank-you-brochure");
+      return;
+    }
+    if (router.pathname === "/data-science-certification-courses-s6") {
+      router.push("/Thank-you");
+      return;
+    }
+    if(router.pathname === "/data-science-certification-courses-s6" && downloadBrochure){
+      router.push("/Thank-you-brochure");
+      return;
+    }
+    if (router.pathname === "/advance-ai-ml-certification-s6") {
+      router.push("/Thank-you");
+      return;
+    }
+    if(router.pathname === "/advance-ai-ml-certification-s6" && downloadBrochure){
+      router.push("/Thank-you-brochure");
+      return;
+    }
+    if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s6") {
+      router.push("/Thank-you");
+      return;
+    }
+    if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s6" && downloadBrochure) {
+      router.push("/Thank-you-brochure");
+      return;
+    }
+    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s6") {
+      router.push("/Thank-you");
+    }
+    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s6" && downloadBrochure) {
       router.push("/Thank-you-brochure");
       return;
     }
