@@ -1,23 +1,22 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import FirstSection from "../Components/HeroSection/HeroSection";
+import FirstSection from "../Components/HeroSectionAiMl/HeroSection";
 import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
-import GetHired from "../Components/GetHired/GetHired";
+import GetHired from "../Components/GetHiredAiMl/GetHired";
 import Domain from "../Components/Domain/Domain";
 import BoxShape from "../Components/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
-import Certificate from "../Components/Certificatejob/Certificate";
+import Certificate from "../Components/Certificate/Certificate";
 import Project from "../Components/Project/Project";
-import Syllabus from "../Components/Syllabus/Syllabus";
-import ToolsCovered from "../Components/ToolsCovered/ToolsCovered";
+import Syllabus from "../Components/SyllabusAiMl/Syllabus";
+import ToolsCovered from "../Components/ToolsCoveredAdvance/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
-import Navbar from "../Components/Navbars5/Navbar";
-import Footer from "../Components/Footers5/Footer";
+import Navbar from "../Components/Navbars7/Navbar";
+import Footer from "../Components/Footers7/Footer";
 import Whatsapp from "../Components/Whatsapp/Whatsapp";
-import React, { useState } from "react";
 
+import React, { useState } from "react";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -47,16 +46,17 @@ export default function Home() {
       <FirstSection
         deskTopPara="Experience-based certification course for professionals"
         mTopPara="Experience-based certification course for professionals"
-        title="Data Science and AI Program"
-        spanTitleText="With 100% Job Guarantee or Money Back"
-        desc="The course has been designed specifically for working professionals who choose to advance their careers in Data Science and AI."
+        title="Advanced AI & ML Certification Program"
+        spanTitleText="For Top Product based MNC And Startup"
+        desc="
+        AI Certification Course is designed with Domain Electives and Project Expertise for working professionals having 4+ years of experience in core tech and programming domain."
       />
       <div className={styles.program}>
         <ProgramInfo
-          BatchDate="2+ Years Work Experience"
+          BatchDate="4+ Years Work Experience"
           BatchDuration="Accredited with IBM"
           Placement="15+ Real Time Projects"
-          EMI="₹ 16k/month*(9 Months)"
+          EMI="₹ 12k/month*(9 Months)"
         />
       </div>
       <GetHired />
@@ -64,13 +64,13 @@ export default function Home() {
         <BoxShape
           title="Why Enroll In This Program"
           Box1h5="Custom-fit Training"
-          box1desc="Get specially designed molecules as per your dream DS/AI role. Learn demanding DS/AI applications."
+          box1desc="Get specially designed modules as per your dream AI role. Learn latest ML applications."
           Box2h5="Domain Focused"
-          box2desc="Obtain cutting-edge DS/Al skills as per demanding IT-industry standards. Choose from 10+ domains."
+          box2desc="Obtain cutting-edge Al and ML skills as per demanding IT-industry standards. Choose any domain of your choice."
           Box3h5="Premium Mentoring"
-          box3desc="Enjoy the edge of mock interviews and CV writing workshops with FAANG Data Science/AI whizzes."
+          box3desc="Enjoy and learn from mock interviews and CV writing workshops with FAANG DS/AI industry experts."
           Box4h5="Hands-on Experience"
-          box4desc="Get diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
+          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
         />
       </div>
       <div className={styles.ExpertWrapper}>

@@ -13,8 +13,8 @@ import Project from "../Components/Project/Project";
 import Syllabus from "../Components/Syllabus/Syllabus";
 import ToolsCovered from "../Components/ToolsCovered/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
-import Navbar from "../Components/Navbars5/Navbar";
-import Footer from "../Components/Footers5/Footer";
+import Navbar from "../Components/Navbars7/Navbar";
+import Footer from "../Components/Footers7/Footer";
 import Whatsapp from "../Components/Whatsapp/Whatsapp";
 import React, { useState } from "react";
 
