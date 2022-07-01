@@ -37,11 +37,11 @@ export default function Document() {
           "enabled":true,
           "chatButtonSetting":{
               "backgroundColor":"#4dc247",
-              "ctaText":"Talk To Us",
+              "ctaText":"",
               "borderRadius":"10",
               "marginLeft":"0",
-              "marginBottom":"50",
-              "marginRight":"50",
+              "marginBottom":"30",
+              "marginRight":"30",
               "position":"right"
           },
           "brandSetting":{
