@@ -37,7 +37,7 @@ export default function Document() {
           "enabled":true,
           "chatButtonSetting":{
               "backgroundColor":"#4dc247",
-              "ctaText":"Apply For Counselling",
+              "ctaText":"Talk To Us",
               "borderRadius":"10",
               "marginLeft":"0",
               "marginBottom":"50",

@@ -104,7 +104,7 @@ export default function Home() {
       <div className={styles.ProjectWrapper} id="project">
         <Project />
       </div>
-      <Whatsapp />
+      {/* <Whatsapp /> */}
       <Footer />
       </main> 
     </div>
