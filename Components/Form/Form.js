@@ -493,7 +493,7 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
             type="textarea"
             name="Brief"
             className={popup ? styles.NameInputs : styles.NameInput}
-            placeholder="Brief Your Job Description"
+            placeholder="Job Description"
             value={query.Brief}
             style={{ borderBottom: "1px solid grey" }}
             onChange={handleParam()}
