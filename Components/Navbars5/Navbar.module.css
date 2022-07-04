@@ -110,14 +110,14 @@
     display: inline-block;
   }
   
-  /* Dropdown Content (Hidden by Default) */
+    /* Dropdown Content (Hidden by Default) */
   .dropdownContent {
     display: none;
     position: absolute;
     background-color: #fff;
     max-width: fit-content;
     z-index: 1;
-    margin-top: 3px;
+    margin-top: 0px;
     font-size: 16px;
   }
   

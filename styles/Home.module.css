@@ -198,6 +198,7 @@
 @media (max-width: 481px) {
   .container {
     padding: 0 1rem;
+    max-width: 100%;
   }
   .cta {
     display: flex;

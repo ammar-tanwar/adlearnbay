@@ -118,6 +118,18 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
   if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s7") {
     endPoint = "https://getform.io/f/a0a0fb5b-0cba-4b29-9d35-03c35d0e0d28";
   }
+  if (router.pathname === "/full-stack-software-development-program") {
+    endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
+  }
+  if (router.pathname === "/full-stack-web-development-program") {
+    endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
+  }
+  if (router.pathname === "/fssd-s1") {
+    endPoint = "https://getform.io/f/ed085811-855e-40b4-9288-680e32dbba13";
+  }
+  if (router.pathname === "/fswd-s1") {
+    endPoint = "https://getform.io/f/ed085811-855e-40b4-9288-680e32dbba13";
+  }
 
 
   // Form Submit function
@@ -364,6 +376,20 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you-brochure");
       return;
     }
+    if (router.pathname === "/full-stack-software-development-program") {
+      router.push("/Thank-you");
+    }
+    if (router.pathname === "/full-stack-software-development-program" && downloadBrochure) {
+      router.push("/Thank-you-brochure");
+      return;
+    }
+    if (router.pathname === "/full-stack-web-development-program") {
+      router.push("/Thank-you");
+    }
+    if (router.pathname === "/full-stack-web-development-program" && downloadBrochure) {
+      router.push("/Thank-you-brochure");
+      return;
+    }
   };
   const pastDates = () => {
     let today, dd, mm, yyyy;
@@ -444,9 +470,6 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
             onChange={handleParam()}
           >
             <option value="Work Experience">Work Experience</option>
-            <option value="Fresher ( less than 1 year)">
-              Fresher ( less than 1 year)
-            </option>
             <option value="1 to 3 year">1 to 3 year</option>
             <option value="3 to 7 year">3 to 7 year</option>
             <option value="7 to 12 year">7 to 12 year</option>
@@ -470,7 +493,7 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
             type="textarea"
             name="Brief"
             className={popup ? styles.NameInputs : styles.NameInput}
-            placeholder="Tell us something about yourself"
+            placeholder="Brief Your Job Description"
             value={query.Brief}
             style={{ borderBottom: "1px solid grey" }}
             onChange={handleParam()}
