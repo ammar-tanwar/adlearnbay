@@ -7,11 +7,11 @@ import BoxShape from "../Components/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
 import Project from "../Components/Projectfswd/Project";
-import Syllabus from "../Components/Syllabusfss/Syllabus";
+import Syllabus from "../Components/Syllabusfss1/Syllabus";
 import Domain from "../Components/DomainFss/Domain";
 import OurExpert from "../Components/OurExpert/OurExpert";
-import Navbar from "../Components/Navbarfsds/Navbar";
-import Footer from "../Components/Footerfsds/Footer";
+import Navbar from "../Components/Navbarfsds1/Navbar";
+import Footer from "../Components/Footerfsds1/Footer";
   
 import React, { useState } from "react";
 
