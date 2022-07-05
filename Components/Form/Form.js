@@ -377,16 +377,30 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       return;
     }
     if (router.pathname === "/full-stack-software-development-program") {
-      router.push("/Thank-you");
+      router.push("/Thank-you-w");
     }
     if (router.pathname === "/full-stack-software-development-program" && downloadBrochure) {
-      router.push("/Thank-you-brochure");
+      router.push("/Thank-you-brochure-w");
       return;
     }
     if (router.pathname === "/full-stack-web-development-program") {
-      router.push("/Thank-you");
+      router.push("/Thank-you-w");
     }
     if (router.pathname === "/full-stack-web-development-program" && downloadBrochure) {
+      router.push("/Thank-you-brochure-w");
+      return;
+    }
+    if (router.pathname === "/fssd-s1") {
+      router.push("/Thank-you");
+    }
+    if (router.pathname === "/fssd-s1" && downloadBrochure) {
+      router.push("/Thank-you-brochure");
+      return;
+    }
+    if (router.pathname === "/fswd-s1") {
+      router.push("/Thank-you");
+    }
+    if (router.pathname === "/fswd-s1" && downloadBrochure) {
       router.push("/Thank-you-brochure");
       return;
     }
