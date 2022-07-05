@@ -62,7 +62,7 @@ const Certificate = ({ popupHead, title, desc, desc2, desc3 }) => {
             <img
               className="shadow"
               src="/certificate.webp"
-              alt="Skillslash"
+              alt="Learnbay"
               quality={100}
               layout="intrinsic"
               width="530"
@@ -73,7 +73,7 @@ const Certificate = ({ popupHead, title, desc, desc2, desc3 }) => {
             <img
               className="shadow"
               src="/certificate-png.webp"
-              alt="Skillslash"
+              alt="Learnbay"
               quality={100}
               layout="intrinsic"
               width="530"
