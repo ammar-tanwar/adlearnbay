@@ -74,7 +74,13 @@ const GetHired = () => {
         <div>
         <p>Course Fee</p>
         <h4 className={styles.righth}>₹75,000</h4>
-        <div style={{borderBottom:"1px solid #000", width:"35%", margin:"auto"}}></div>
+        <p>With 100% Interview Guarantee</p>
+        <button onClick={popupShow} style={{margin:"auto", marginBottom:"20px"}}>Enroll Now</button>
+          </div>
+        </div>
+        <div className={styles.right}>
+        <div>
+        <p>Course Fee</p>
         <h4 className={styles.righth}>₹1,20,000</h4>
         <p>With 100% Job Guarantee</p>
         <button onClick={popupShow} style={{margin:"auto", marginBottom:"20px"}}>Enroll Now</button>
