@@ -131,6 +131,9 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
     endPoint = "https://getform.io/f/ed085811-855e-40b4-9288-680e32dbba13";
   }
   if (router.pathname === "/apply-for-counselling") {
+    endPoint = "https://getform.io/f/94c74039-f505-4ebf-922e-b4728bd793e3";
+  }
+  if (router.pathname === "/apply-for-counselling-data-science") {
     endPoint = "https://getform.io/f/1cfd5db8-ec05-4d26-b05f-6b73a81ebf89";
   }
 
@@ -412,6 +415,13 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
     }
     if (router.pathname === "/apply-for-counselling" && downloadBrochure) {
       router.push("/Thank-you-fs");
+      return;
+    }
+    if (router.pathname === "/apply-for-counselling-data-science") {
+      router.push("/Thank-you");
+    }
+    if (router.pathname === "/apply-for-counselling-data-science" && downloadBrochure) {
+      router.push("/Thank-you-brochure");
       return;
     }
   };

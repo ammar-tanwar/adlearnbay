@@ -29,7 +29,7 @@ const ThankYou = () => {
               <div>
                 <button className={styles.Button}>
                   <BsArrowLeftShort className="bIcons" />
-                  <a href="/">Go To Home</a>
+                  <a href="/fswd-s1">Go To Home</a>
                 </button>
               </div>
             </div>

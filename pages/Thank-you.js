@@ -114,46 +114,6 @@ const ThankYou = () => {
           </div>
         </div>
       </section>
-      <div className={styles.rights}>
-          <div>
-          <Image
-            src="/full-stack-web.png"
-            alt="data-science-course"
-            quality={100}
-            layout="intrinsic"
-            width="306"
-            height="150"
-          />
-          <p className={styles.Ptopp}>
-          Full Stack Web  <br />Development Program
-          </p>
-          <button className={styles.Button}>
-                  <AiOutlineDownload className="bIcons" />
-                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/Full+Stack+Web+Development+Program.pdf" target="_blank" >
-                    Download Brochure
-                  </a>
-                </button>
-          </div>
-          <div>
-          <Image
-            src="/full-stack-Software.png"
-            alt="data-science-course"
-            quality={100}
-            layout="intrinsic"
-            width="306"
-            height="150"
-          />
-          <p className={styles.Ptopp}>
-          Full-Stack Software <br />Development Program
-          </p>
-          <button className={styles.Button}>
-                  <AiOutlineDownload className="bIcons" /> 
-                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/Full+Stack+software+development+.pdf" target="_blank" >
-                    Download Brochure
-                  </a>
-                </button>
-          </div>
-        </div>
       <Footer />
     </div>
   );
