@@ -195,6 +195,21 @@
   color: rgb(103, 103, 103);
 }
 
+.formq {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-image: url("/Popup-Back.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 600px;
+  background-size: cover;
+  margin-top: 100px;
+}
+
+.formr Form {
+  margin: 80px 50px 0px 50px;  
+}
+
 @media (max-width: 481px) {
   .container {
     padding: 0 1rem;
@@ -257,6 +272,16 @@
   }
   .cta h6 {
     margin-right: 120px;
+  }
+
+  .formq {
+    display: flex;
+    background-image: none;
+    margin-top: 0px;
+  }
+  
+  .formr Form {
+    margin: 100px 0px 0px 0px;  
   }
 }
 

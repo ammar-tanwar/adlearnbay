@@ -130,6 +130,9 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
   if (router.pathname === "/fswd-s1") {
     endPoint = "https://getform.io/f/ed085811-855e-40b4-9288-680e32dbba13";
   }
+  if (router.pathname === "/apply-for-counselling") {
+    endPoint = "https://getform.io/f/1cfd5db8-ec05-4d26-b05f-6b73a81ebf89";
+  }
 
 
   // Form Submit function
@@ -401,6 +404,13 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
     }
     if (router.pathname === "/fswd-s1" && downloadBrochure) {
+      router.push("/Thank-you-brochure");
+      return;
+    }
+    if (router.pathname === "/apply-for-counselling") {
+      router.push("/Thank-you");
+    }
+    if (router.pathname === "/apply-for-counselling" && downloadBrochure) {
       router.push("/Thank-you-brochure");
       return;
     }
