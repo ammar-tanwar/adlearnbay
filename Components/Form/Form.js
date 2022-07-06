@@ -408,10 +408,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       return;
     }
     if (router.pathname === "/apply-for-counselling") {
-      router.push("/Thank-you");
+      router.push("/Thank-you-fs");
     }
     if (router.pathname === "/apply-for-counselling" && downloadBrochure) {
-      router.push("/Thank-you-brochure");
+      router.push("/Thank-you-fs");
       return;
     }
   };
