@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import FirstSection from "../Components/HeroSectionAdvance/HeroSection";
 import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
@@ -15,7 +14,6 @@ import ToolsCovered from "../Components/ToolsCoveredAdvance/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
 import Navbar from "../Components/Navbar/Navbar";
 import Footer from "../Components/Footer/Footer";
-import Whatsapp from "../Components/WhatsappNew/Whatsapp";
 import React, { useState } from "react";
 
 export default function Home() {

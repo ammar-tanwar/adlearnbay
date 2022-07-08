@@ -1,21 +1,23 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import FirstSection from "../Components/HeroSectionAdvance/HeroSection";
+import FirstSection from "../Components/HeroSection/HeroSection";
 import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
-import GetHired from "../Components/GetHiredAdvance/GetHired";
+import GetHired from "../Components/GetHired/GetHired";
 import Domain from "../Components/Domain/Domain";
 import BoxShape from "../Components/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
-import Certificate from "../Components/Certificate/Certificate";
+import Certificate from "../Components/Certificatejob/Certificate";
 import Project from "../Components/Project/Project";
-import Syllabus from "../Components/SyllabusAdvance/Syllabus";
-import ToolsCovered from "../Components/ToolsCoveredAdvance/ToolsCovered";
+import Syllabus from "../Components/Syllabus/Syllabus";
+import ToolsCovered from "../Components/ToolsCovered/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
-import Navbar from "../Components/Navbars2/Navbar";
-import Footer from "../Components/Footers2/Footer";
+import Navbar from "../Components/Navbars2d/Navbar";
+import Footer from "../Components/Footers2d/Footer";
   
 import React, { useState } from "react";
+
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -83,16 +85,16 @@ export default function Home() {
       <FirstSection
         deskTopPara="Experience-based certification course for professionals"
         mTopPara="Experience-based certification course for professionals"
-        title="Advance Data Science & AI Certification"
-        spanTitleText="Domain Specialization For Professionals"
-        desc="This Advance program is suitable for professionals having more than 1+ years of work experience in any programming or non programming domain."
+        title="Data Science and AI Program"
+        spanTitleText="With 100% Job Guarantee or Money Back"
+        desc="The course has been designed specifically for working professionals who choose to advance their careers in Data Science and AI."
       />
       <div className={styles.program}>
         <ProgramInfo
-          BatchDate="1+ Years Work Experience"
+          BatchDate="2+ Years Work Experience"
           BatchDuration="Accredited with IBM"
-          Placement="12+ Real Time Projects"
-          EMI="₹ 10k/month*(9 Months)"
+          Placement="15+ Real Time Projects"
+          EMI="₹ 16k/month*(9 Months)"
         />
       </div>
       <GetHired />
@@ -100,13 +102,13 @@ export default function Home() {
         <BoxShape
           title="Why Enroll In This Program"
           Box1h5="Custom-fit Training"
-          box1desc="Get specially designed modules as per your dream DS role. Learn innovative AI applications."
+          box1desc="Get specially designed molecules as per your dream DS/AI role. Learn demanding DS/AI applications."
           Box2h5="Domain Focused"
-          box2desc="Obtain cutting-edge Al and DS skills as per demanding industry standards. Choose from 7+ electives."
+          box2desc="Obtain cutting-edge DS/Al skills as per demanding IT-industry standards. Choose from 10+ domains."
           Box3h5="Premium Mentoring"
-          box3desc="Learn how to crack interviews by attending CV writing workshops & mock interviews with FAANG expertise."
+          box3desc="Enjoy the edge of mock interviews and CV writing workshops with FAANG Data Science/AI whizzes."
           Box4h5="Hands-on Experience"
-          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
+          box4desc="Get diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
         />
       </div>
       <div className={styles.ExpertWrapper}>
