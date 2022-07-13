@@ -65,16 +65,16 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
     endPoint = "https://getform.io/f/773095f3-b69e-4071-9ffb-b2d6c6261891";
   }
   if (router.pathname === "/data-science-certification-courses-s2") {
-    endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
+    endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
   }
   if (router.pathname === "/advance-ai-ml-certification-s2") {
-    endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
+    endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
   }
   if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s2") { 
-    endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
+    endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
   }
   if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s2") {
-    endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
+    endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
   }
   if (router.pathname === "/data-science-certification-courses-s2d") {
     endPoint = "https://getform.io/f/773095f3-b69e-4071-9ffb-b2d6c6261891";
@@ -89,16 +89,16 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
     endPoint = "https://getform.io/f/773095f3-b69e-4071-9ffb-b2d6c6261891";
   }
   if (router.pathname === "/data-science-certification-courses-s3") {
-    endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
+    endPoint = "https://getform.io/f/a876146f-2c5d-4a1f-b177-f993db3d7aaf";
   }
   if (router.pathname === "/advance-ai-ml-certification-s3") {
-    endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
+    endPoint = "https://getform.io/f/a876146f-2c5d-4a1f-b177-f993db3d7aaf";
   }
   if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s3") {
-    endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
+    endPoint = "https://getform.io/f/a876146f-2c5d-4a1f-b177-f993db3d7aaf";
   }
   if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s3") {
-    endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
+    endPoint = "https://getform.io/f/a876146f-2c5d-4a1f-b177-f993db3d7aaf";
   }
   if (router.pathname === "/data-science-certification-courses-s3d") {
     endPoint = "https://getform.io/f/773095f3-b69e-4071-9ffb-b2d6c6261891";
@@ -113,16 +113,16 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
     endPoint = "https://getform.io/f/773095f3-b69e-4071-9ffb-b2d6c6261891";
   }
   if (router.pathname === "/data-science-certification-courses-s4") {
-    endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
+    endPoint = "https://getform.io/f/1cfd5db8-ec05-4d26-b05f-6b73a81ebf89";
   }
   if (router.pathname === "/advance-ai-ml-certification-s4") {
-    endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
+    endPoint = "https://getform.io/f/1cfd5db8-ec05-4d26-b05f-6b73a81ebf89";
   }
   if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s4") {
-    endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
+    endPoint = "https://getform.io/f/1cfd5db8-ec05-4d26-b05f-6b73a81ebf89";
   }
   if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s4") {
-    endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
+    endPoint = "https://getform.io/f/1cfd5db8-ec05-4d26-b05f-6b73a81ebf89";
   }
   if (router.pathname === "/data-science-certification-courses-s4d") {
     endPoint = "https://getform.io/f/773095f3-b69e-4071-9ffb-b2d6c6261891";
@@ -137,28 +137,28 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
     endPoint = "https://getform.io/f/773095f3-b69e-4071-9ffb-b2d6c6261891";
   }
   if (router.pathname === "/data-science-certification-courses-s5") {
-    endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
+    endPoint = "https://getform.io/f/9c5b2164-1f56-4150-ad53-7944d6fe4363";
   }
   if (router.pathname === "/advance-ai-ml-certification-s5") {
-    endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
+    endPoint = "https://getform.io/f/9c5b2164-1f56-4150-ad53-7944d6fe4363";
   }
   if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s5") {
-    endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
+    endPoint = "https://getform.io/f/9c5b2164-1f56-4150-ad53-7944d6fe4363";
   }
   if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s5") {
-    endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
+    endPoint = "https://getform.io/f/9c5b2164-1f56-4150-ad53-7944d6fe4363";
   }
   if (router.pathname === "/data-science-certification-courses-s6") {
-    endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
+    endPoint = "https://getform.io/f/1c8cf486-31ef-4a7f-95b0-45c5f21e7b29";
   }
   if (router.pathname === "/advance-ai-ml-certification-s6") {
-    endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
+    endPoint = "https://getform.io/f/1c8cf486-31ef-4a7f-95b0-45c5f21e7b29";
   }
   if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s6") {
-    endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
+    endPoint = "https://getform.io/f/1c8cf486-31ef-4a7f-95b0-45c5f21e7b29";
   }
   if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s6") {
-    endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
+    endPoint = "https://getform.io/f/1c8cf486-31ef-4a7f-95b0-45c5f21e7b29";
   }
   if (router.pathname === "/data-science-certification-courses-s7") {
     endPoint = "https://getform.io/f/a0a0fb5b-0cba-4b29-9d35-03c35d0e0d28";
