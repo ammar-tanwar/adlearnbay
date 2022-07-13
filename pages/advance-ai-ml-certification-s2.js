@@ -14,7 +14,6 @@ import ToolsCovered from "../Components/ToolsCoveredAdvance/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
 import Navbar from "../Components/Navbars2/Navbar";
 import Footer from "../Components/Footers2/Footer";
-//   
 import React, { useState } from "react";
 
 export default function Home() {

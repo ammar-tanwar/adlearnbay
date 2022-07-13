@@ -1,17 +1,20 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import FirstSection from "../Components/HeroSectionfss/HeroSection";
+import FirstSection from "../Components/HeroSection/HeroSection";
 import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
-import GetHired from "../Components/GetHiredFss/GetHired";
+import GetHired from "../Components/GetHired/GetHired";
+import Domain from "../Components/Domain/Domain";
 import BoxShape from "../Components/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
-import Project from "../Components/Projectfswd/Project";
-import Syllabus from "../Components/Syllabusfss1/Syllabus";
-import Domain from "../Components/DomainFss/Domain";
+import Certificate from "../Components/Certificatejob/Certificate";
+import Project from "../Components/Project/Project";
+import Syllabus from "../Components/Syllabus/Syllabus";
+import ToolsCovered from "../Components/ToolsCovered/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
-import Navbar from "../Components/Navbarfsds1/Navbar";
-import Footer from "../Components/Footerfsds1/Footer";
+import Navbar from "../Components/NavbarHome/Navbar";
+import Footer from "../Components/Footer/Footer";
   
 import React, { useState } from "react";
 
@@ -80,17 +83,18 @@ export default function Home() {
       </Popup>
       <Navbar />
       <FirstSection
-        deskTopPara="Become a Tech Leader and Start Landing Six Figures with ease"
-        mTopPara="Become a Tech Leader and Start Landing Six Figures with ease"
-        title="Advanced Software Development Training "
-        desc="Transform your career as a demanding software development expert. Sharpen your skills with real-time project experience."
+        deskTopPara="Experience-based certification course for professionals"
+        mTopPara="Experience-based certification course for professionals"
+        title="Data Science and AI Program"
+        spanTitleText="With 100% Job Guarantee or Money Back"
+        desc="The course has been designed specifically for working professionals who choose to advance their careers in Data Science and AI."
       />
       <div className={styles.program}>
         <ProgramInfo
-          BatchDate="Working Professionals"
+          BatchDate="2+ Years Work Experience"
           BatchDuration="Accredited with IBM"
-          Placement="12+ Real Time Projects"
-          EMI="₹ 14k*(9 Months)"
+          Placement="15+ Real Time Projects"
+          EMI="₹ 16k/month*(9 Months)"
         />
       </div>
       <GetHired />
@@ -98,13 +102,13 @@ export default function Home() {
         <BoxShape
           title="Why Enroll In This Program"
           Box1h5="Custom-fit Training"
-          box1desc="Learn with modules created just for your dream job. Become an extraordinarily demanding software developer."
-          Box2h5="Exclusive Hackathon"
-          box2desc="Sharpen your skills through multiple exclusive hackathons. Upskill your designing skills and coding speed."
+          box1desc="Get specially designed molecules as per your dream DS/AI role. Learn demanding DS/AI applications."
+          Box2h5="Domain Focused"
+          box2desc="Obtain cutting-edge DS/Al skills as per demanding IT-industry standards. Choose from 10+ domains."
           Box3h5="Premium Mentoring"
-          box3desc="Exclusive mock interview sessions by experienced industry experts. Capstone projects under MNC software developer’s guidance."
+          box3desc="Enjoy the edge of mock interviews and CV writing workshops with FAANG Data Science/AI whizzes."
           Box4h5="Hands-on Experience"
-          box4desc="Learn by working hard on real-world projects that range from advanced levels of complexity to large-scale deployments."
+          box4desc="Get diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
         />
       </div>
       <div className={styles.ExpertWrapper}>
@@ -125,7 +129,16 @@ export default function Home() {
           <button onClick={popupShow}>Enquire Now</button>
         </div>
       </div>
+      <Certificate
+        popupHead="Download Full stack Brochure"
+        title="Earn a globally recognized Certified at the end of your learning journey."
+        desc="Get access to IBM cloud lab to keep an eye on trending industrial case studies of data mining, time-series forecasting, AI-based database management, and authenticated data handling."
+        desc2 ="Experts from IBM share their ideas and tactics to deal with tricky business problems within the regularly changing analytical environments."
+        desc3 ="Data Science Leads from IBM as instructors."
+
+      />
       <Syllabus />
+      <ToolsCovered />
       <Domain />
       <div className={styles.ProjectWrapper} id="project">
         <Project />

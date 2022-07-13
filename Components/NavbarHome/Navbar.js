@@ -37,15 +37,26 @@ const Navbar = () => {
           <div className={show ? styles.mobileWrapper : styles.hide}>
             <div className={styles.mobileMenu}>
               <span onClick={showMenu}>
-                <Link href="/fswd-s1">Full Stack Web Development Program</Link>
+                <Link href="/data-science-certification-courses">Advance Data Science & AI Certification</Link>
               </span>
-
               <span onClick={showMenu}>
-                <Link href="/fssd-s1">Full-Stack Software Development Program</Link>
+                <Link href="/fswd">Full Stack Web Development Program</Link>
+              </span>
+              <span onClick={showMenu}>
+                <Link href="/fssd">Full-Stack Software Development Program</Link>
+              </span>
+              <span onClick={showMenu}>
+                <Link href="/advance-ai-ml-certification">Advance AI & ML Certification</Link>
+              </span>
+              <span onClick={showMenu}>
+                <Link href="/data-science-ai-cert-for-managers-leaders">Data Science & AI Cert. For Managers & Leaders</Link>
+              </span>
+              <span onClick={showMenu}>
+                <Link href="/job-guarantee-or-money-back-data-science-ai">Job Guarantee or Money Back - Data Science & AI</Link>
               </span>
             </div>
           </div>
-          <a href="/fswd-s1">
+          <a href="/">
             <Image
               src="/Learnbay-Logo.png"
               alt="Learnbay"
@@ -60,8 +71,12 @@ const Navbar = () => {
         <div className={styles.dropdown}>
   <button className={styles.dropbtn}>All Courses <FaChevronDown style={{marginLeft:"5px"}} /></button>
   <div className={styles.dropdownContent}>
-    <a href="/fswd-s1">Full Stack Web Development Program</a>
-    <a href="/fssd-s1">Full-Stack Software Development Program</a>
+    <a href="/data-science-certification-courses">Advance AI & ML Certification</a>
+    <a href="/fswd">Full Stack Web Development Program</a>
+    <a href="/fssd">Full-Stack Software Development Program</a>
+    <a href="/advance-ai-ml-certification">Advance AI & ML Certification</a>
+    <a href="/data-science-ai-cert-for-managers-leaders">Data Science & AI Cert. For Managers & Leaders</a>
+    <a href="/job-guarantee-or-money-back-data-science-ai">Job Guarantee or Money Back - Data Science & AI</a>
   </div>
 </div>
 

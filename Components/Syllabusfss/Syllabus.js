@@ -102,7 +102,7 @@ function Syllabus() {
             <h4>Syllabus</h4>
           </div>
           <div>
-            <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/Full+Stack+software+development+.pdf" target="_blank"><button className={styles.Button}>
+            <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Brochures+W/Full+Stack+software+development++(1).pdf" target="_blank"><button className={styles.Button}>
               {" "}
               <AiOutlineDownload className="bIcons" />
               Download Brochure

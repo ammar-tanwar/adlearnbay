@@ -50,7 +50,7 @@ const ThankYou = () => {
           </p>
           <button className={styles.Button}>
                   <AiOutlineDownload className="bIcons" />
-                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+%26+AI+Certification.pdf" target="_blank" >
+                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Brochures+W/Advance+DSAI+(1).pdf" target="_blank" >
                     Download Brochure
                   </a>
                 </button>
@@ -69,7 +69,7 @@ const ThankYou = () => {
           </p>
           <button className={styles.Button}>
                   <AiOutlineDownload className="bIcons" /> 
-                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Advance+AI+%26+ML+Certification+.pdf" target="_blank" >
+                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Brochures+W/AIML2021ChetnaEdit.pdf" target="_blank" >
                     Download Brochure
                   </a>
                 </button>
@@ -88,14 +88,14 @@ const ThankYou = () => {
           </p>
           <button className={styles.Button}>
                   <AiOutlineDownload className="bIcons" />
-                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+%26+AI+Certification+Program+For+Managers+and+Leaders.pdf" target="_blank" >
+                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Brochures+W/Managers2021ChetnaEdit+(1).pdf" target="_blank" >
                     Download Brochure
                   </a>
                 </button>
           </div>
           <div>
           <Image
-            src="/guarantee.png"
+            src="/Job-garranty.png"
             alt="data-science-course"
             quality={100}
             layout="intrinsic"
@@ -107,7 +107,47 @@ const ThankYou = () => {
           </p>
           <button className={styles.Button}>
                   <AiOutlineDownload className="bIcons" />
-                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Job+Guarantee+or+100%25+Money+Back+(1).pdf" target="_blank" >
+                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Brochures+W/Job+Guarantee+or+100%25+Money+Back+(2).pdf" target="_blank" >
+                    Download Brochure
+                  </a>
+                </button>
+          </div>
+        </div>
+        <div className={styles.rights}>
+          <div>
+          <Image
+            src="/full-stack-web.png"
+            alt="data-science-course"
+            quality={100}
+            layout="intrinsic"
+            width="306"
+            height="150"
+          />
+          <p className={styles.Ptopp}>
+          Full Stack Web  <br />Development Program
+          </p>
+          <button className={styles.Button}>
+                  <AiOutlineDownload className="bIcons" />
+                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Brochures+W/Full+Stack+Web+Development+Program+(1).pdf" target="_blank" >
+                    Download Brochure
+                  </a>
+                </button>
+          </div>
+          <div>
+          <Image
+            src="/full-stack-Software.png"
+            alt="data-science-course"
+            quality={100}
+            layout="intrinsic"
+            width="306"
+            height="150"
+          />
+          <p className={styles.Ptopp}>
+          Full-Stack Software <br />Development Program
+          </p>
+          <button className={styles.Button}>
+                  <AiOutlineDownload className="bIcons" /> 
+                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Brochures+W/Full+Stack+software+development++(1).pdf" target="_blank" >
                     Download Brochure
                   </a>
                 </button>

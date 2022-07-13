@@ -4,8 +4,8 @@ import Head from "next/head";
 import Image from "next/image";
 import { AiOutlineDownload } from "react-icons/ai";
 import { BsArrowLeftShort } from "react-icons/bs";
-import Navbar from "../Components/Navbar/Navbar";
-import Footer from "../Components/FooterTy/Footer";
+import Navbar from "../Components/NavbarHome/Navbar";
+import Footer from "../Components/FooterHome/Footer";
 
 const ThankYou = () => {
   return (
@@ -16,7 +16,7 @@ const ThankYou = () => {
       </Head>
       <Navbar />
       <section className={styles.mains}>
-        <div className={styles.left}>
+        <div className={styles.left} style={{height:"80vh", marginBottom:"-70px"}} >
           <h4 className={styles.hptop}>
             <b>Thank you!</b>
             <br />
@@ -33,84 +33,6 @@ const ThankYou = () => {
                 </button>
               </div>
             </div>
-          </div>
-        </div>
-        <div className={styles.right}>
-          <div>
-          <Image
-            src="/ds.png"
-            alt="data-science-course"
-            quality={100}
-            layout="intrinsic"
-            width="306"
-            height="150"
-          />
-          <p className={styles.Ptopp}>
-          Data Science & AI Certification | Domain Specialisation For Professionals
-          </p>
-          <button className={styles.Button}>
-                  <AiOutlineDownload className="bIcons" />
-                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+%26+AI+Certification.pdf" target="_blank" >
-                    Download Brochure
-                  </a>
-                </button>
-          </div>
-          <div>
-          <Image
-            src="/advanceds.png"
-            alt="data-science-course"
-            quality={100}
-            layout="intrinsic"
-            width="306"
-            height="150"
-          />
-          <p className={styles.Ptopp}>
-          Advance AI & ML Certification | Become AI Expert In Product based MNCs
-          </p>
-          <button className={styles.Button}>
-                  <AiOutlineDownload className="bIcons" /> 
-                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Advance+AI+%26+ML+Certification+.pdf" target="_blank" >
-                    Download Brochure
-                  </a>
-                </button>
-          </div>
-          <div>
-          <Image
-            src="/managers.png"
-            alt="data-science-course"
-            quality={100}
-            layout="intrinsic"
-            width="306"
-            height="150"
-          />
-          <p className={styles.Ptopp}>
-          Data Science & AI Certification Program For Managers and Leaders
-          </p>
-          <button className={styles.Button}>
-                  <AiOutlineDownload className="bIcons" />
-                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+%26+AI+Certification+Program+For+Managers+and+Leaders.pdf" target="_blank" >
-                    Download Brochure
-                  </a>
-                </button>
-          </div>
-          <div>
-          <Image
-            src="/guarantee.png"
-            alt="data-science-course"
-            quality={100}
-            layout="intrinsic"
-            width="306"
-            height="150"
-          />
-          <p className={styles.Ptopp}>
-          Job Guarantee or Money Back | Data Science & AI Certification Program
-          </p>
-          <button className={styles.Button}>
-                  <AiOutlineDownload className="bIcons" />
-                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Job+Guarantee+or+100%25+Money+Back+(1).pdf" target="_blank" >
-                    Download Brochure
-                  </a>
-                </button>
           </div>
         </div>
       </section>

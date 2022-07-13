@@ -12,7 +12,7 @@ import Project from "../Components/Project/Project";
 import Syllabus from "../Components/SyllabusManagers/Syllabus";
 import ToolsCovered from "../Components/ToolsCoveredAdvance/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
-import Navbar from "../Components/Navbar/Navbar";
+import Navbar from "../Components/NavbarHome/Navbar";
 import Footer from "../Components/Footer/Footer";
 import React, { useState } from "react";
 

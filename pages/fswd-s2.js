@@ -11,8 +11,8 @@ import Project from "../Components/Projectfswd/Project";
 import Syllabus from "../Components/Syllabusfsw1/Syllabus";
 import ToolsCovered from "../Components/ToolsCoveredfs/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
-import Navbar from "../Components/Navbarfsds1/Navbar";
-import Footer from "../Components/Footerfsds1/Footer";
+import Navbar from "../Components/Navbarfsds2/Navbar";
+import Footer from "../Components/Footerfsds2/Footer";
   
 import React, { useState } from "react";
 

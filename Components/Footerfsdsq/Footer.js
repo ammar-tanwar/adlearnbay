@@ -27,8 +27,8 @@ const Footer = () => {
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Popular Courses</p>
-          <a href="/fswd-s1"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Full Stack Web Development Program</p></a>
-          <a href="/fssd-s1"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Full-Stack Software Development Program</p></a>
+          <a href="/fswd-s2"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Full Stack Web Development Program</p></a>
+          <a href="/fssd-s2"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Full-Stack Software Development Program</p></a>
           </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Find Us Here</p>

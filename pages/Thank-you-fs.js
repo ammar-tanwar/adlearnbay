@@ -4,7 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { AiOutlineDownload } from "react-icons/ai";
 import { BsArrowLeftShort } from "react-icons/bs";
-import Navbar from "../Components/Navbarfsds1/Navbar";
+import Navbar from "../Components/Navbarfsds2/Navbar";
 import Footer from "../Components/Footerfsdsq/Footer";
 
 const ThankYou = () => {
@@ -50,7 +50,7 @@ const ThankYou = () => {
           </p>
           <button className={styles.Button}>
                   <AiOutlineDownload className="bIcons" />
-                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/Full+Stack+Web+Development+Program.pdf" target="_blank" >
+                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Brochures+W/Full+Stack+Web+Development+Program+(1).pdf" target="_blank" >
                     Download Brochure
                   </a>
                 </button>
@@ -69,7 +69,7 @@ const ThankYou = () => {
           </p>
           <button className={styles.Button}>
                   <AiOutlineDownload className="bIcons" /> 
-                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/Full+Stack+software+development+.pdf" target="_blank" >
+                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Brochures+W/Full+Stack+software+development++(1).pdf" target="_blank" >
                     Download Brochure
                   </a>
                 </button>
