@@ -173,10 +173,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
     endPoint = "https://getform.io/f/a0a0fb5b-0cba-4b29-9d35-03c35d0e0d28";
   }
   if (router.pathname === "/full-stack-software-development-program") {
-    endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
+    endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
   }
   if (router.pathname === "/full-stack-web-development-program") {
-    endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
+    endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
   }
   if (router.pathname === "/fssd") {
     endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
