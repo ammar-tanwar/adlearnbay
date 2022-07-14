@@ -51,6 +51,9 @@ const Navbar = () => {
                 <Link href="/full-stack-software-development-program">Full-Stack Software Development Program</Link>
               </span>
               <span onClick={showMenu}>
+                <Link href="/dsa-system-design">DSA & System Design</Link>
+              </span>
+              <span onClick={showMenu}>
                 <Link href="https://learnbay.co/data-science-course/artificial-intelligence-certification-course/">Advance AI & ML Certification</Link>
               </span>
               <span onClick={showMenu}>
@@ -83,6 +86,7 @@ const Navbar = () => {
     <a href="https://www.learnbay.co/data-science-course/advance-data-science-certification-courses/">Advance AI & ML Certification</a>
     <a href="/full-stack-web-development-program">Full Stack Web Development Program</a>
     <a href="/full-stack-software-development-program">Full-Stack Software Development Program</a>
+    <a href="/dsa-system-design">DSA & System Design</a>
     <a href="https://learnbay.co/data-science-course/artificial-intelligence-certification-course/">Advance AI & ML Certification</a>
     <a href="https://learnbay.co/data-science-course/data-science-ai-for-managers/">Data Science & AI Cert. For Managers & Leaders</a>
     <a href="https://learnbay.co/data-science-course/job-guarantee-or-money-back-data-science-ai-certification-course/">Job Guarantee or Money Back - Data Science & AI</a>

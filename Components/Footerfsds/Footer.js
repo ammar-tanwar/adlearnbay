@@ -31,6 +31,7 @@ const Footer = () => {
           <a href="https://www.learnbay.co/data-science-course/advance-data-science-certification-courses/"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Advance Data Science & AI Certification</p></a>
           <a href="/full-stack-web-development-program"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Full Stack Web Development Program</p></a>
           <a href="/full-stack-software-development-program"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Full-Stack Software Development Program</p></a>
+          <a href="/dsa-system-design"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />DSA & System Design</p></a>
           <a href="https://learnbay.co/data-science-course/artificial-intelligence-certification-course/"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Advance AI & ML Certification</p></a>
           <a href="https://learnbay.co/data-science-course/data-science-ai-for-managers/"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Data Science & AI Cert. For Managers & Leaders</p></a>
           <a href="https://learnbay.co/data-science-course/job-guarantee-or-money-back-data-science-ai-certification-course/"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Job Guarantee or Money Back - Data Science & AI</p></a>
