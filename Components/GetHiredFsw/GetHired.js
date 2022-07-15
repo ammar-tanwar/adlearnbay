@@ -48,24 +48,48 @@ const GetHired = ({ dsa }) => {
       <div className={dsa ? styles.imageBoxS : styles.imageBox}>
         <div className={styles.left}>
           <div className={styles.top}>
-            <p>12+ live projects and 2 capstone project</p>
+            <p>
+              {dsa
+                ? "12+2 Live Projects"
+                : "12+ live projects and 2 capstone project"}
+            </p>
           </div>
           <div className={styles.middle}>
-            <p>1000+ trending practical assignments</p>
+            <p>
+              {dsa
+                ? "Expert hosted hackathon"
+                : "1000+ trending practical assignments"}
+            </p>
           </div>
           <div className={styles.bottom}>
-            <p>Project experience Certificate by IBM</p>
+            <p>
+              {dsa
+                ? "Get trained from MAANG experts"
+                : "Project experience Certificate by IBM"}
+            </p>
           </div>
         </div>
         <div className={styles.left}>
           <div className={styles.top}>
-            <p>Exclusive MNC expert hosted hackathons</p>
+            <p>
+              {dsa
+                ? "1000+ practice assignments"
+                : "Exclusive MNC expert hosted hackathons"}
+            </p>
           </div>
           <div className={styles.middle}>
-            <p>Hybrid learning option across multiple cities</p>
+            <p>
+              {dsa
+                ? "Hybrid model across multiple cities"
+                : "Hybrid learning option across multiple cities"}
+            </p>
           </div>
           <div className={styles.bottom}>
-            <p>Assured interview calls powered by 250+ hiring partners</p>
+            <p>
+              {dsa
+                ? "Assured Interview Calls"
+                : "Assured interview calls powered by 250+ hiring partners"}
+            </p>
           </div>
         </div>
         <div className={styles.right}>
