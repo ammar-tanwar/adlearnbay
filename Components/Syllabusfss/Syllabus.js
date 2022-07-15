@@ -739,7 +739,7 @@ function Syllabus({ dsa }) {
           <div className={styles.PProgramInner}>
             <p style={{ display: "flex" }}>
               <MdOutlineLiveTv className={styles.PIcons} />
-              400+ Live sessions
+              {dsa ? "200+ Live sessions" : "400+ Live sessions"}
             </p>
             <p style={{ display: "flex" }}>
               <SiCodeproject className={styles.PIcons} />
