@@ -58,7 +58,7 @@ const HeroSection = ({ deskTopPara, title, spanTitleText, desc, mTopPara }) => {
           <button onClick={popupShow}>Apply for Counselling</button>
           {router.pathname === "/dsa-system-design" ? (
             <a
-              href="<button onClick={popupShow}>Apply for Counselling</button>"
+              href="https://drive.google.com/file/d/1GmbGrlSLmnfUCfZQPTnbKK0WmIO0Y2Ef/view?usp=sharing"
               target="_blank"
             >
               <button>
