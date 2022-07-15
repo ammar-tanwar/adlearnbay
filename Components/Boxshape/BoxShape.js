@@ -83,8 +83,8 @@ const BoxShape = ({
           <div className={styles.imgBack}>
             <div className={styles.formWrapper}>
               <h5>
-                Land In Your Dream Job With <br />
-                <span>Real Work Experience</span>
+                Talk to our counsellors Now <br />
+                <span>Apply For free Profile Review</span>
               </h5>
               <Form />
             </div>
