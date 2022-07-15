@@ -34,7 +34,7 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       ...prevState,
       [name]: value,
     }));
-  }; 
+  };
 
   let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
   if (router.pathname === "/data-science-certification-courses") {
@@ -70,7 +70,7 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
   if (router.pathname === "/advance-ai-ml-certification-s2") {
     endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
   }
-  if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s2") { 
+  if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s2") {
     endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
   }
   if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s2") {
@@ -172,7 +172,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
   if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s7") {
     endPoint = "https://getform.io/f/a0a0fb5b-0cba-4b29-9d35-03c35d0e0d28";
   }
-  if (router.pathname === "/full-stack-software-development-program") {
+  if (
+    router.pathname === "/full-stack-software-development-program" ||
+    router.pathname === "/dsa-system-design"
+  ) {
     endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
   }
   if (router.pathname === "/full-stack-web-development-program") {
@@ -196,7 +199,6 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
   if (router.pathname === "/apply-for-counselling-data-science") {
     endPoint = "https://getform.io/f/1cfd5db8-ec05-4d26-b05f-6b73a81ebf89";
   }
-
 
   // Form Submit function
   const formSubmit = (e) => {
@@ -229,7 +231,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if(router.pathname === "/data-science-certification-courses" && downloadBrochure){
+    if (
+      router.pathname === "/data-science-certification-courses" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -237,7 +242,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if(router.pathname === "/advance-ai-ml-certification" && downloadBrochure){
+    if (
+      router.pathname === "/advance-ai-ml-certification" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -245,7 +253,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if (router.pathname === "/data-science-ai-cert-for-managers-leaders" && downloadBrochure) {
+    if (
+      router.pathname === "/data-science-ai-cert-for-managers-leaders" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -260,7 +271,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if(router.pathname === "/data-science-certification-courses-sd" && downloadBrochure){
+    if (
+      router.pathname === "/data-science-certification-courses-sd" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -268,7 +282,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if(router.pathname === "/advance-ai-ml-certification-sd" && downloadBrochure){
+    if (
+      router.pathname === "/advance-ai-ml-certification-sd" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -276,14 +293,20 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if (router.pathname === "/data-science-ai-cert-for-managers-leaders-sd" && downloadBrochure) {
+    if (
+      router.pathname === "/data-science-ai-cert-for-managers-leaders-sd" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
     if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-sd") {
       router.push("/Thank-you");
     }
-    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-sd" && downloadBrochure) {
+    if (
+      router.pathname === "/job-guarantee-or-money-back-data-science-ai-sd" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -291,7 +314,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if(router.pathname === "/data-science-certification-courses-s2" && downloadBrochure){
+    if (
+      router.pathname === "/data-science-certification-courses-s2" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -299,7 +325,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if(router.pathname === "/advance-ai-ml-certification-s2" && downloadBrochure){
+    if (
+      router.pathname === "/advance-ai-ml-certification-s2" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -307,14 +336,20 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s2" && downloadBrochure) {
+    if (
+      router.pathname === "/data-science-ai-cert-for-managers-leaders-s2" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
     if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s2") {
       router.push("/Thank-you");
     }
-    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s2" && downloadBrochure) {
+    if (
+      router.pathname === "/job-guarantee-or-money-back-data-science-ai-s2" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -322,7 +357,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if(router.pathname === "/data-science-certification-courses-s2d" && downloadBrochure){
+    if (
+      router.pathname === "/data-science-certification-courses-s2d" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -330,7 +368,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if(router.pathname === "/advance-ai-ml-certification-s2d" && downloadBrochure){
+    if (
+      router.pathname === "/advance-ai-ml-certification-s2d" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -338,14 +379,22 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s2d" && downloadBrochure) {
+    if (
+      router.pathname === "/data-science-ai-cert-for-managers-leaders-s2d" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
-    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s2d") {
+    if (
+      router.pathname === "/job-guarantee-or-money-back-data-science-ai-s2d"
+    ) {
       router.push("/Thank-you");
     }
-    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s2d" && downloadBrochure) {
+    if (
+      router.pathname === "/job-guarantee-or-money-back-data-science-ai-s2d" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -353,7 +402,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if(router.pathname === "/data-science-certification-courses-s3" && downloadBrochure){
+    if (
+      router.pathname === "/data-science-certification-courses-s3" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -361,7 +413,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if(router.pathname === "/advance-ai-ml-certification-s3" && downloadBrochure){
+    if (
+      router.pathname === "/advance-ai-ml-certification-s3" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -369,14 +424,20 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s3" && downloadBrochure) {
+    if (
+      router.pathname === "/data-science-ai-cert-for-managers-leaders-s3" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
     if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s3") {
       router.push("/Thank-you");
     }
-    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s3" && downloadBrochure) {
+    if (
+      router.pathname === "/job-guarantee-or-money-back-data-science-ai-s3" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -384,7 +445,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if(router.pathname === "/data-science-certification-courses-s3d" && downloadBrochure){
+    if (
+      router.pathname === "/data-science-certification-courses-s3d" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -392,7 +456,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if(router.pathname === "/advance-ai-ml-certification-s3d" && downloadBrochure){
+    if (
+      router.pathname === "/advance-ai-ml-certification-s3d" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -400,14 +467,22 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s3d" && downloadBrochure) {
+    if (
+      router.pathname === "/data-science-ai-cert-for-managers-leaders-s3d" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
-    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s3d") {
+    if (
+      router.pathname === "/job-guarantee-or-money-back-data-science-ai-s3d"
+    ) {
       router.push("/Thank-you");
     }
-    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s3d" && downloadBrochure) {
+    if (
+      router.pathname === "/job-guarantee-or-money-back-data-science-ai-s3d" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -415,7 +490,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if(router.pathname === "/data-science-certification-courses-s4" && downloadBrochure){
+    if (
+      router.pathname === "/data-science-certification-courses-s4" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -423,7 +501,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if(router.pathname === "/advance-ai-ml-certification-s4" && downloadBrochure){
+    if (
+      router.pathname === "/advance-ai-ml-certification-s4" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -431,14 +512,20 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s4" && downloadBrochure) {
+    if (
+      router.pathname === "/data-science-ai-cert-for-managers-leaders-s4" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
     if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s4") {
       router.push("/Thank-you");
     }
-    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s4" && downloadBrochure) {
+    if (
+      router.pathname === "/job-guarantee-or-money-back-data-science-ai-s4" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -446,7 +533,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if(router.pathname === "/data-science-certification-courses-s4d" && downloadBrochure){
+    if (
+      router.pathname === "/data-science-certification-courses-s4d" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -454,7 +544,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if(router.pathname === "/advance-ai-ml-certification-s4d" && downloadBrochure){
+    if (
+      router.pathname === "/advance-ai-ml-certification-s4d" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -462,14 +555,22 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s4d" && downloadBrochure) {
+    if (
+      router.pathname === "/data-science-ai-cert-for-managers-leaders-s4d" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
-    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s4d") {
+    if (
+      router.pathname === "/job-guarantee-or-money-back-data-science-ai-s4d"
+    ) {
       router.push("/Thank-you");
     }
-    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s4d" && downloadBrochure) {
+    if (
+      router.pathname === "/job-guarantee-or-money-back-data-science-ai-s4d" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -477,7 +578,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if(router.pathname === "/data-science-certification-courses-s5" && downloadBrochure){
+    if (
+      router.pathname === "/data-science-certification-courses-s5" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -485,7 +589,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if(router.pathname === "/advance-ai-ml-certification-s5" && downloadBrochure){
+    if (
+      router.pathname === "/advance-ai-ml-certification-s5" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -493,14 +600,20 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s5" && downloadBrochure) {
+    if (
+      router.pathname === "/data-science-ai-cert-for-managers-leaders-s5" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
     if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s5") {
       router.push("/Thank-you");
     }
-    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s5" && downloadBrochure) {
+    if (
+      router.pathname === "/job-guarantee-or-money-back-data-science-ai-s5" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -508,7 +621,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if(router.pathname === "/data-science-certification-courses-s6" && downloadBrochure){
+    if (
+      router.pathname === "/data-science-certification-courses-s6" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -516,7 +632,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if(router.pathname === "/advance-ai-ml-certification-s6" && downloadBrochure){
+    if (
+      router.pathname === "/advance-ai-ml-certification-s6" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -524,14 +643,20 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s6" && downloadBrochure) {
+    if (
+      router.pathname === "/data-science-ai-cert-for-managers-leaders-s6" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
     if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s6") {
       router.push("/Thank-you");
     }
-    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s6" && downloadBrochure) {
+    if (
+      router.pathname === "/job-guarantee-or-money-back-data-science-ai-s6" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -539,7 +664,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if(router.pathname === "/data-science-certification-courses-s7" && downloadBrochure){
+    if (
+      router.pathname === "/data-science-certification-courses-s7" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -547,7 +675,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if(router.pathname === "/advance-ai-ml-certification-s7" && downloadBrochure){
+    if (
+      router.pathname === "/advance-ai-ml-certification-s7" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -555,28 +686,43 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
-    if (router.pathname === "/data-science-ai-cert-for-managers-leaders-s7" && downloadBrochure) {
+    if (
+      router.pathname === "/data-science-ai-cert-for-managers-leaders-s7" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
     if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s7") {
       router.push("/Thank-you");
     }
-    if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s7" && downloadBrochure) {
+    if (
+      router.pathname === "/job-guarantee-or-money-back-data-science-ai-s7" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
     if (router.pathname === "/full-stack-software-development-program") {
       router.push("/Thank-you-w");
     }
-    if (router.pathname === "/full-stack-software-development-program" && downloadBrochure) {
+    if (
+      router.pathname === "/full-stack-software-development-program" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure-w");
       return;
     }
-    if (router.pathname === "/full-stack-web-development-program") {
+    if (
+      router.pathname === "/full-stack-web-development-program" ||
+      router.pathname === "/dsa-system-design"
+    ) {
       router.push("/Thank-you-w");
     }
-    if (router.pathname === "/full-stack-web-development-program" && downloadBrochure) {
+    if (
+      router.pathname === "/full-stack-web-development-program" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure-w");
       return;
     }
@@ -604,7 +750,10 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
     if (router.pathname === "/apply-for-counselling-data-science") {
       router.push("/Thank-you");
     }
-    if (router.pathname === "/apply-for-counselling-data-science" && downloadBrochure) {
+    if (
+      router.pathname === "/apply-for-counselling-data-science" &&
+      downloadBrochure
+    ) {
       router.push("/Thank-you-brochure");
       return;
     }
@@ -706,8 +855,8 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
         ) : (
           ""
         )}
-<div className={popup ? styles.formWrappers : styles.formWrapper}>
-        <input
+        <div className={popup ? styles.formWrappers : styles.formWrapper}>
+          <input
             type="textarea"
             name="Brief"
             className={popup ? styles.NameInputs : styles.NameInput}
@@ -730,4 +879,3 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
 };
 
 export default Form;
- 

@@ -3,18 +3,15 @@ import styles from "./HeroSection.module.css";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Autoplay, Pagination } from "swiper";
+import { ImDownload3 } from "react-icons/im";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
+import { useRouter } from "next/router";
 
-const HeroSection = ({
-  deskTopPara,
-  title,
-  spanTitleText,
-  desc,
-  mTopPara,
-}) => {
+const HeroSection = ({ deskTopPara, title, spanTitleText, desc, mTopPara }) => {
+  const router = useRouter();
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
@@ -59,6 +56,18 @@ const HeroSection = ({
         <p className="pBot">{desc}</p>
         <div className={styles.btnWrapper}>
           <button onClick={popupShow}>Apply for Counselling</button>
+          {router.pathname === "/dsa-system-design" ? (
+            <a
+              href="<button onClick={popupShow}>Apply for Counselling</button>"
+              target="_blank"
+            >
+              <button>
+                Download Brochure <ImDownload3 />
+              </button>
+            </a>
+          ) : (
+            ""
+          )}
         </div>
         <p className={styles.hPara}>Our Proud Alumni</p>
         <div className={styles.bottom}>
@@ -81,170 +90,440 @@ const HeroSection = ({
               <>
                 {" "}
                 <SwiperSlide>
-                <Image src="/1.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/1.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                <Image src="/2.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/2.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                <Image src="/4.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/4.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                <Image src="/5.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/5.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/6.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/6.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/7.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/7.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/9.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/9.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/10.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/10.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/11.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/11.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/12.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/12.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/13.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/13.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/14.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/14.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/15.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/15.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/16.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/16.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/17.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/17.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/18.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/18.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/19.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/19.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/20.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/20.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/21.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/21.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/22.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/22.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/23.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/23.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/24.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/24.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/25.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/25.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/26.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/26.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/27.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/27.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/28.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/28.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/29.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/29.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
               </>
             ) : (
               <>
                 {" "}
                 <SwiperSlide>
-                <Image src="/1.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/1.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                <Image src="/2.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/2.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                <Image src="/4.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/4.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                <Image src="/5.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/5.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/6.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/6.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/7.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/7.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/9.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/9.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/10.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/10.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/11.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/11.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/12.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/12.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/13.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/13.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/14.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/14.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/15.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/15.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/16.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/16.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/17.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/17.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/18.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/18.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/19.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/19.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/20.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/20.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/21.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/21.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/22.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/22.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/23.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/23.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/24.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/24.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/25.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/25.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/26.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/26.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/27.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/27.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/28.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/28.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src="/29.webp" alt="Learnbay Alumni" width="80" height="118" />
+                  <Image
+                    src="/29.webp"
+                    alt="Learnbay Alumni"
+                    width="80"
+                    height="118"
+                  />
                 </SwiperSlide>
               </>
             )}
