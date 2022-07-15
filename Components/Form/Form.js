@@ -11,7 +11,7 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
     today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 
   //offset to maintain time zone difference
-
+  const [disable, setDisable] = useState(false);
   const [value, setValue] = useState();
   const [query, setQuery] = useState({
     name: "",
@@ -227,6 +227,7 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       off();
     }
 
+    setDisable(true);
     if (router.pathname === "/data-science-certification-courses") {
       router.push("/Thank-you");
       return;
@@ -870,9 +871,20 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
           By submitting the form, you agree to our Terms and Conditions and our
           Privacy Policy.
         </p>
-        <button type="submit" className={styles.button}>
-          {downloadBrochure ? "Download Now" : "Apply Now"}
-        </button>
+        {disable ? (
+          <div className={styles.ring}>
+            <div className={styles.ldsring}>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+        ) : (
+          <button type="submit" disabled={disable} className={styles.button}>
+            {downloadBrochure ? "Download Now" : "Apply Now"}
+          </button>
+        )}
       </form>
     </div>
   );
