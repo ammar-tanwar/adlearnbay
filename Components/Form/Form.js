@@ -126,6 +126,8 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
   }
   if (
     router.pathname === "/fssd-s2" ||
+    router.pathname === "/fssd-s4" ||
+    router.pathname === "/fswd-s4" ||
     router.pathname === "/fswd-s2" ||
     router.pathname === "/apply-for-counselling"
   ) {
