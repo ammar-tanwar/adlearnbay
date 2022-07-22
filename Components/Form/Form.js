@@ -318,6 +318,20 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.push("/Thank-you");
       return;
     }
+
+    if (
+      router.pathname === "/fssd-s2" && 
+      downloadBrochure||
+      router.pathname === "/fssd-s4" && 
+      downloadBrochure||
+      router.pathname === "/fswd-s4" && 
+      downloadBrochure||
+      router.pathname === "/fswd-s2" && 
+      downloadBrochure
+    ) {
+      router.push("/Thank-you-fs");
+      return;
+    }
     
     if (
       router.pathname === "/full-stack-software-development-program" ||
@@ -331,21 +345,15 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
     if (
       router.pathname === "/apply-for-counselling" ||
       router.pathname === "/fssd-s2" ||
+      router.pathname === "/fssd-s4" ||
+      router.pathname === "/fswd-s4" ||
       router.pathname === "/fswd-s2" 
     ) {
       router.push("/Thank-you-w");
       return;
     }
-
-    if (
-      router.pathname === "/fssd-s2" && downloadBrochure||
-      router.pathname === "/fswd-s2" && downloadBrochure
-    ) {
-      router.push("/Thank-you-fs");
-      return;
-    }
-
   };
+  
   const pastDates = () => {
     let today, dd, mm, yyyy;
     today = new Date();
