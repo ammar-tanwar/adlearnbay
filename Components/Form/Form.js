@@ -258,6 +258,20 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       downloadBrochure||
       router.pathname === "/job-guarantee-or-money-back-data-science-ai-s8" &&
       downloadBrochure||
+      router.pathname === "/data-science-certification-courses" &&
+      downloadBrochure||
+      router.pathname === "/advance-ai-ml-certification" &&
+      downloadBrochure||
+      router.pathname === "/data-science-ai-cert-for-managers-leaders" &&
+      downloadBrochure||
+      router.pathname === "/job-guarantee-or-money-back-data-science-ai" &&
+      downloadBrochure||
+      router.pathname === "fssd" &&
+      downloadBrochure||
+      router.pathname === "fswd" &&
+      downloadBrochure||
+      router.pathname === "/" &&
+      downloadBrochure||
       router.pathname === "/apply-for-counselling-data-science" &&
       downloadBrochure
     ) {
@@ -312,6 +326,13 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.pathname === "/advance-ai-ml-certification-s7" ||
       router.pathname === "/data-science-ai-cert-for-managers-leaders-s7" ||
       router.pathname === "/job-guarantee-or-money-back-data-science-ai-s7" ||
+      router.pathname === "/data-science-certification-courses" ||
+      router.pathname === "/advance-ai-ml-certification" ||
+      router.pathname === "/data-science-ai-cert-for-managers-leaders" ||
+      router.pathname === "/job-guarantee-or-money-back-data-science-ai" ||
+      router.pathname === "fssd" ||
+      router.pathname === "fswd" ||
+      router.pathname === "/" ||
       router.pathname === "/job-guarantee-or-money-back-data-science-ai-s8" ||
       router.pathname === "/apply-for-counselling-data-science"
     ) {
