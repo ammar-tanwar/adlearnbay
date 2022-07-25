@@ -131,6 +131,9 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
     router.pathname === "/fswd-s4" ||
     router.pathname === "/fswd-s5" ||
     router.pathname === "/fswd-s2" ||
+    router.pathname === "/dsa-s2" ||
+    router.pathname === "/dsa-s4" ||
+    router.pathname === "/dsa-s5" ||
     router.pathname === "/apply-for-counselling"
   ) {
     endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
@@ -353,6 +356,12 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       downloadBrochure||
       router.pathname === "/fswd-s5" && 
       downloadBrochure||
+      router.pathname === "/dsa-s2" && 
+      downloadBrochure||
+      router.pathname === "/dsa-s4" && 
+      downloadBrochure||
+      router.pathname === "/dsa-s5" && 
+      downloadBrochure||
       router.pathname === "/fswd-s2" && 
       downloadBrochure
     ) {
@@ -376,6 +385,9 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.pathname === "/fswd-s4" ||
       router.pathname === "/fssd-s5" ||
       router.pathname === "/fswd-s5" ||
+      router.pathname === "/dsa-s2" ||
+      router.pathname === "/dsa-s4" ||
+      router.pathname === "/dsa-s5" ||
       router.pathname === "/fswd-s2" 
     ) {
       router.push("/Thank-you-w");

@@ -43,6 +43,10 @@ const Navbar = () => {
               <span onClick={showMenu}>
                 <Link href="/fssd-s4">Full-Stack Software Development Program</Link>
               </span>
+
+              <span onClick={showMenu}>
+                <Link href="/dsa-s4">DSA & System Design</Link>
+              </span>
             </div>
           </div>
           <a href="#">
@@ -62,6 +66,7 @@ const Navbar = () => {
   <div className={styles.dropdownContent}>
     <a href="/fswd-s4">Full Stack Web Development Program</a>
     <a href="/fssd-s4">Full-Stack Software Development Program</a>
+    <a href="/dsa-s4">DSA & System Design</a>
   </div>
 </div>
 

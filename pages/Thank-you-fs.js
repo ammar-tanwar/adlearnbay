@@ -74,6 +74,25 @@ const ThankYou = () => {
                   </a>
                 </button>
           </div>
+          <div>
+          <Image
+            src="/advanceds.png"
+            alt="data-science-course"
+            quality={100}
+            layout="intrinsic"
+            width="306"
+            height="150"
+          />
+          <p className={styles.Ptopp}>
+          DSA & <br />System Design
+          </p>
+          <button className={styles.Button}>
+                  <AiOutlineDownload className="bIcons" /> 
+                  <a href="https://drive.google.com/file/d/1GmbGrlSLmnfUCfZQPTnbKK0WmIO0Y2Ef/view?usp=sharing" target="_blank" >
+                    Download Brochure
+                  </a>
+                </button>
+          </div>
         </div>
       </section>
       <Footer />
