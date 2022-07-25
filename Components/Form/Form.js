@@ -127,7 +127,9 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
   if (
     router.pathname === "/fssd-s2" ||
     router.pathname === "/fssd-s4" ||
+    router.pathname === "/fssd-s5" ||
     router.pathname === "/fswd-s4" ||
+    router.pathname === "/fswd-s5" ||
     router.pathname === "/fswd-s2" ||
     router.pathname === "/apply-for-counselling"
   ) {
@@ -345,7 +347,11 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       downloadBrochure||
       router.pathname === "/fssd-s4" && 
       downloadBrochure||
+      router.pathname === "/fssd-s5" && 
+      downloadBrochure||
       router.pathname === "/fswd-s4" && 
+      downloadBrochure||
+      router.pathname === "/fswd-s5" && 
       downloadBrochure||
       router.pathname === "/fswd-s2" && 
       downloadBrochure
@@ -368,6 +374,8 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
       router.pathname === "/fssd-s2" ||
       router.pathname === "/fssd-s4" ||
       router.pathname === "/fswd-s4" ||
+      router.pathname === "/fssd-s5" ||
+      router.pathname === "/fswd-s5" ||
       router.pathname === "/fswd-s2" 
     ) {
       router.push("/Thank-you-w");
