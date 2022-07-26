@@ -13,8 +13,9 @@ import Project from "../Components/Project/Project";
 import Syllabus from "../Components/Syllabus/Syllabus";
 import ToolsCovered from "../Components/ToolsCovered/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
-import Navbar from "../Components/Navbar/Navbar";
-import Footer from "../Components/Footer/Footer";
+import Navbar from "../Components/Navbars8/Navbar";
+import Footer from "../Components/Footers8/Footer";
+  
 import React, { useState } from "react";
 
 
@@ -30,6 +31,44 @@ export default function Home() {
         <title>Learnbay Courses</title>
         <meta name="description" content="Learnbay Courses" />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = url;
+            var options = {
+          "enabled":true,
+          "chatButtonSetting":{
+              "backgroundColor":"#4dc247",
+              "ctaText":"",
+              "borderRadius":"10",
+              "marginLeft":"0",
+              "marginBottom":"30",
+              "marginRight":"30",
+              "position":"right"
+          },
+          "brandSetting":{
+              "brandName":"Learnbay",
+              "brandSubTitle":"The Learner's Path",
+              "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
+              "welcomeText":"Hi there! How can I help you?",
+              "messageText":"Hello, I have a question about {{page_link}}",
+              "backgroundColor":"#0a5f54",
+              "ctaText":"Start Chat",
+              "borderRadius":"25",
+              "autoShow":false,
+              "phoneNumber":"+919606023695"
+          }
+        };
+            s.onload = function() {
+                CreateWhatsappChatWidget(options);
+            };
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);`,
+          }}
+        />
       </Head>
       <main>
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
@@ -104,6 +143,7 @@ export default function Home() {
       <div className={styles.ProjectWrapper} id="project">
         <Project />
       </div>
+       
       <Footer />
       </main> 
     </div>

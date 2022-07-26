@@ -46,6 +46,9 @@ const Navbar = () => {
                 <Link href="/fssd">Full-Stack Software Development Program</Link>
               </span>
               <span onClick={showMenu}>
+                <Link href="/dsa">DSA & System Design</Link>
+              </span>
+              <span onClick={showMenu}>
                 <Link href="/advance-ai-ml-certification">Advance AI & ML Certification</Link>
               </span>
               <span onClick={showMenu}>
@@ -74,6 +77,7 @@ const Navbar = () => {
     <a href="/data-science-certification-courses">Advance AI & ML Certification</a>
     <a href="/fswd">Full Stack Web Development Program</a>
     <a href="/fssd">Full-Stack Software Development Program</a>
+    <a href="/dsa">DSA & System Design</a>
     <a href="/advance-ai-ml-certification">Advance AI & ML Certification</a>
     <a href="/data-science-ai-cert-for-managers-leaders">Data Science & AI Cert. For Managers & Leaders</a>
     <a href="/job-guarantee-or-money-back-data-science-ai">Job Guarantee or Money Back - Data Science & AI</a>
