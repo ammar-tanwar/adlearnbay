@@ -36,6 +36,15 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
     }));
   };
 
+
+  //  const [radio, setradio] = useState(false);
+
+  //  if (
+  //   router.pathname === "/data-science-certification-courses-sd"
+  //   ) {
+  //     setradio(true);
+  //   }
+
   let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
   if (
     router.pathname === "/fssd" ||
@@ -483,6 +492,30 @@ const Form = ({ popup, setTrigger, downloadBrochure }) => {
             <option value="7 to 12 year">7 to 12 year</option>
             <option value="12+ year">12+ year</option>
           </select>
+        </div>
+        <div className={popup ? styles.formWrappers : styles.formWrapper}>
+          {router ? 
+            <>
+            <input
+          id="Data Science Program"
+          value="Data Science Program"
+          name="platform"
+          required
+          type="radio"
+          onChange={handleParam()}
+        />
+        Data Science Program&nbsp;
+            <input
+          id="Full Stack Program"
+          value="Full Stack Program"
+          name="platform"
+          required
+          type="radio"
+          onChange={handleParam()}
+        />
+        Full Stack Program 
+        </>:""}
+        
         </div>
         {popup ? (
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
