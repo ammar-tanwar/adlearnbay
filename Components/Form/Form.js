@@ -273,11 +273,14 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
         downloadBrochure) ||
       (router.pathname === "/job-guarantee-or-money-back-data-science-ai" &&
         downloadBrochure) ||
-      (router.pathname === "fssd" && downloadBrochure) ||
-      (router.pathname === "fswd" && downloadBrochure) ||
-      (router.pathname === "/" && downloadBrochure) ||
+      (router.pathname === "/fssd" && 
+      downloadBrochure) ||
+      (router.pathname === "/fswd" && 
+      downloadBrochure) ||
+      (router.pathname === "/" && 
+      downloadBrochure) ||
       (router.pathname === "/apply-for-counselling-data-science" &&
-        downloadBrochure)
+      downloadBrochure)
     ) {
       router.push("/Thank-you-brochure");
       return;
