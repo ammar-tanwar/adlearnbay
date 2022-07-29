@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import React from 'react'
-import Navbar from "../Components/NavbarHome/Navbar";
-import Footer from "../Components/Footer/Footer";
+import Navbar from "../Components/NavbarA/Navbar";
+import Footer from "../Components/FooterA/Footer";
 import Form from "../Components/Form/Form";
 
 function Counselling() {
