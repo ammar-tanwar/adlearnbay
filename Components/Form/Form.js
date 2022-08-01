@@ -115,6 +115,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
     router.pathname === "/data-science-certification-courses-s7" ||
     router.pathname === "/advance-ai-ml-certification-s7" ||
     router.pathname === "/data-science-ai-cert-for-managers-leaders-s7" ||
+    router.pathname === "/apply-for-counselling-data-science" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s7"
   ) {
     endPoint = "https://getform.io/f/a0a0fb5b-0cba-4b29-9d35-03c35d0e0d28";
