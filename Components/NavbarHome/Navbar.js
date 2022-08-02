@@ -8,7 +8,7 @@ import { FaChevronDown } from "react-icons/fa";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
 
-const Navbar = () => {
+const Navbar = ({ radio }) => {
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
 
@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           <p>Fill the below Details to get started</p>
-          <Form popup={true} setTrigger={setPopups} />
+          <Form popup={true} setTrigger={setPopups} radio={radio} />
         </div>
       </Popup>
       <nav className={styles.nav}>

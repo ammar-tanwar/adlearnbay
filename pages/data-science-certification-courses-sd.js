@@ -75,10 +75,10 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             <p>Fill the below Details to get started</p>
-            <Form popup={true} setTrigger={setPopups} radio={true} />
+            <Form popup={true} setTrigger={setPopups} />
           </div>
         </Popup>
-        <Navbar radio={true} />
+        <Navbar />
         <FirstSection
           deskTopPara="Experience-based certification course for professionals"
           mTopPara="Experience-based certification course for professionals"

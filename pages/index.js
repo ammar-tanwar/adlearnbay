@@ -71,12 +71,12 @@ export default function Home() {
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           <p>Fill the below Details to get started</p>
-          <Form popup={true} setTrigger={setPopups} />
+          <Form popup={true} setTrigger={setPopups} radio={true} />
         </div>
       </Popup>
-      <Navbar />
-      <FirstSection style={{margin:"20px"}} />
-      <Course />
+      <Navbar radio={true} />
+      <FirstSection style={{margin:"20px"}} radio={true} />
+      <Course radio={true} />
       <KeyFeatures />
       <WhyLearnbay />
       <Benefits />
