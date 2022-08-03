@@ -80,9 +80,10 @@ export default function Home() {
         </Popup>
         <Navbar />
         <FirstSection
-          deskTopPara="Full Stack Software Development Program"
-          mTopPara="Full Stack Software Development Program"
-          title="Ace your coding interview at MAANG and Achieve your Dream Job"
+          deskTopPara="Ace your coding interview at MAANG and Achieve your Dream Job"
+          mTopPara="Ace your coding interview at MAANG and Achieve your Dream Job"
+          title="Data Structures & Algorithms"
+          title1=" and System Design"
           desc="Best interview prep course for top product-based MNC's. Sharpen your skills with real-time project experience."
         />
         <div className={styles.program}>

@@ -82,7 +82,7 @@ export default function Home() {
       <FirstSection
         deskTopPara="Become a Tech Leader and Start Landing Six Figures with ease"
         mTopPara="Become a Tech Leader and Start Landing Six Figures with ease"
-        title="Advanced Software Development Training "
+        title="Full-Stack Software Development Program "
         desc="Transform your career as a demanding software development expert. Sharpen your skills with real-time project experience."
       />
       <div className={styles.program}>

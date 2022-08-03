@@ -10,7 +10,7 @@ import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
 import { useRouter } from "next/router";
 
-const HeroSection = ({ deskTopPara, title, spanTitleText, desc, mTopPara }) => {
+const HeroSection = ({ deskTopPara, title, spanTitleText, desc, mTopPara, title1 }) => {
   const router = useRouter();
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
@@ -50,7 +50,7 @@ const HeroSection = ({ deskTopPara, title, spanTitleText, desc, mTopPara }) => {
         )}
 
         <h1>
-          {title}
+          {title}<br />{title1}
           <p> {spanTitleText}</p>
         </h1>
         <p className="pBot">{desc}</p>

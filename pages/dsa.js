@@ -6,10 +6,8 @@ import GetHired from "../Components/GetHiredFsw/GetHired";
 import BoxShape from "../Components/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
-import Certificate from "../Components/CertificateFsw/Certificate";
 import Project from "../Components/Projectfswd/Project";
 import Syllabus from "../Components/Syllabusdsa/Syllabus";
-import ToolsCovered from "../Components/ToolsCoveredfs/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
 import Navbar from "../Components/NavbarHome/Navbar";
 import Footer from "../Components/Footer/Footer";
@@ -80,9 +78,10 @@ export default function Home() {
         </Popup>
         <Navbar />
         <FirstSection
-          deskTopPara="Full Stack Software Development Program"
-          mTopPara="Full Stack Software Development Program"
-          title="Ace your coding interview at MAANG and Achieve your Dream Job"
+          deskTopPara="Ace your coding interview at MAANG and Achieve your Dream Job"
+          mTopPara="Ace your coding interview at MAANG and Achieve your Dream Job"
+          title="Data Structures & Algorithms"
+          title1=" and System Design"
           desc="Best interview prep course for top product-based MNC's. Sharpen your skills with real-time project experience."
         />
         <div className={styles.program}>
