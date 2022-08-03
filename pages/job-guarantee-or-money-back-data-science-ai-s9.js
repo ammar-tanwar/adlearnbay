@@ -14,7 +14,7 @@ import Syllabus from "../Components/Syllabus/Syllabus";
 import ToolsCovered from "../Components/ToolsCovered/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
 import Navbar from "../Components/Navbars8/Navbar";
-import Footer from "../Components/Footers8/Footer";
+import Footer from "../Components/Footers9/Footer";
   
 import React, { useState } from "react";
 
