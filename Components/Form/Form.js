@@ -3,6 +3,12 @@ import styles from "./Form.module.css";
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
 import { useRouter } from "next/router";
+import DatePicker from "react-datepicker";
+import setHours from "date-fns/setHours";
+import setMinutes from "date-fns/setMinutes";
+import addDays from "date-fns/addDays";
+import subDays from "date-fns/subDays";
+import getDay from "date-fns/getDay";
 
 const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
   const router = useRouter();
@@ -11,6 +17,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
     today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 
   //offset to maintain time zone difference
+  const [startDate, setStartDate] = useState();
   const [disable, setDisable] = useState(false);
   const [value, setValue] = useState();
 
@@ -19,13 +26,12 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
     email: "",
     phone: "",
     workExperience: "",
-    Brief: "",
-    scheduleTime: "",
+    dateTime: "",
     url: router.asPath,
   });
   useEffect(() => {
-    setQuery({ ...query, phone: value });
-  }, [value]);
+    setQuery({ ...query, phone: value, dateTime: startDate });
+  }, [value, startDate]);
 
   // Update inputs value
   const handleParam = () => (e) => {
@@ -160,7 +166,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
         email: "",
         phone: "",
         workExperience: "",
-        scheduleTime: "",
+        dateTime: "",
         url: "",
       })
     );
@@ -385,23 +391,15 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       return;
     }
   };
-
-  const pastDates = () => {
-    let today, dd, mm, yyyy;
-    today = new Date();
-    dd = (today.getDate() < 10 ? "0" : "") + today.getDate();
-    mm = (today.getMonth() + 1).toString().padStart(2, "0");
-    yyyy = today.getFullYear();
-    return yyyy + "-" + mm + "-" + dd;
+  const isWeekday = (date) => {
+    const day = getDay(date);
+    return day !== 0;
   };
+  const filterPassedTime = (time) => {
+    const currentDate = new Date();
+    const selectedDate = new Date(time);
 
-  const maxDates = () => {
-    let today, dd, mm, yyyy;
-    today = new Date();
-    dd = (today.getDate() < 10 ? "0" : "") + (today.getDate() + 4);
-    mm = (today.getMonth() + 1).toString().padStart(2, "0");
-    yyyy = today.getFullYear();
-    return yyyy + "-" + mm + "-" + dd;
+    return currentDate.getTime() < selectedDate.getTime();
   };
 
   return (
@@ -509,17 +507,37 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
         ) : (
           ""
         )}
-        <div className={popup ? styles.formWrappers : styles.formWrapper}>
-          <input
-            type="textarea"
-            name="Brief"
-            className={popup ? styles.NameInputs : styles.NameInput}
-            placeholder="Job Description"
-            value={query.Brief}
-            style={{ borderBottom: "1px solid grey" }}
-            onChange={handleParam()}
-          />
-        </div>
+        {downloadBrochure ? (
+          ""
+        ) : (
+          <div className={popup ? styles.formWrappers : styles.formWrapper}>
+            <div className={styles.inner}>
+              <DatePicker
+                selected={startDate}
+                name="dateTime"
+                id="dateTime"
+                onChange={(date) => setStartDate(date)}
+                showTimeSelect
+                timeIntervals={15}
+                includeDateIntervals={[
+                  {
+                    start: subDays(new Date(), 1),
+                    end: addDays(new Date(), 5),
+                  },
+                ]}
+                filterDate={isWeekday}
+                filterTime={filterPassedTime}
+                wrapperClassName={styles.date}
+                className={styles.datePicker}
+                placeholderText="Select Date and Time"
+                dateFormat="MMMM d, yyyy h:mm aa"
+                required
+                minTime={setHours(setMinutes(new Date(), 0), 10)}
+                maxTime={setHours(setMinutes(new Date(), 0), 20)}
+              />
+            </div>
+          </div>
+        )}
         <p className={styles.FormText} style={{ fontSize: "10px" }}>
           By submitting the form, you agree to our Terms and Conditions and our
           Privacy Policy.
