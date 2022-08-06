@@ -127,7 +127,7 @@ export default function Home() {
         </div>
       </div>
       <Certificate
-        popupHead="Download Full stack Brochure"
+        popupHead="Download Brochure"
         title="Global Recognition : Course Completion Certificate from IBM"
         desc="Complete your training with the internationally recognized certificate."
         desc2 ="Validate your Web Development skills with IBM Course Completion Certificate."

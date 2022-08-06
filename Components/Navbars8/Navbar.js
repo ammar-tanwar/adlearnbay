@@ -53,7 +53,7 @@ const Navbar = () => {
               </span>
             </div>
           </div> */}
-          <a href="/job-guarantee-or-money-back-data-science-ai-s8">
+          <a href="#">
             <Image
               src="/Learnbay-Logo.png"
               alt="Learnbay"

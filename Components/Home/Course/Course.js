@@ -13,7 +13,7 @@ import {
   StackD,
 } from "./courseDetails";
 
-const Course = ({popupHead}) => {
+const Course = ({popupHead, radio}) => {
   const [viewAll, setViewAll] = useState(false);
   const [oneYear, setOneYear] = useState(true);
   const [nonTech, setNonTech] = useState(false);
@@ -42,7 +42,7 @@ const Course = ({popupHead}) => {
         <div className="RightPopup">
           <h5>{popupHead}</h5>
           <p>Please enter the following details to initiate your download</p>
-          <Form setTrigger={setPopups} downloadBrochure />
+          <Form setTrigger={setPopups} downloadBrochure radio={radio} />
         </div>
       </Popup>
       <h2>Industry Certified Program for Working Professionals</h2>

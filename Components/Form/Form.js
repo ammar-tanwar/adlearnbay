@@ -121,6 +121,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
     router.pathname === "/data-science-certification-courses-s7" ||
     router.pathname === "/advance-ai-ml-certification-s7" ||
     router.pathname === "/data-science-ai-cert-for-managers-leaders-s7" ||
+    router.pathname === "/apply-for-counselling-data-science" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s7"
   ) {
     endPoint = "https://getform.io/f/a0a0fb5b-0cba-4b29-9d35-03c35d0e0d28";
@@ -146,7 +147,9 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
   ) {
     endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
   }
-  if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s8") {
+  if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s8" ||
+  router.pathname === "/data-science-certification-courses-s10"
+  ) {
     endPoint = "https://getform.io/f/fd68bf82-a911-435e-9719-7c134a89a731";
   }
 
@@ -271,6 +274,8 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
         downloadBrochure) ||
       (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s9" &&
         downloadBrochure) ||
+      (router.pathname === "/data-science-certification-courses-s10" &&
+        downloadBrochure) ||
       (router.pathname === "/data-science-certification-courses" &&
         downloadBrochure) ||
       (router.pathname === "/advance-ai-ml-certification" &&
@@ -279,11 +284,14 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
         downloadBrochure) ||
       (router.pathname === "/job-guarantee-or-money-back-data-science-ai" &&
         downloadBrochure) ||
-      (router.pathname === "fssd" && downloadBrochure) ||
-      (router.pathname === "fswd" && downloadBrochure) ||
-      (router.pathname === "/" && downloadBrochure) ||
+      (router.pathname === "/fssd" && 
+      downloadBrochure) ||
+      (router.pathname === "/fswd" && 
+      downloadBrochure) ||
+      (router.pathname === "/" && 
+      downloadBrochure) ||
       (router.pathname === "/apply-for-counselling-data-science" &&
-        downloadBrochure)
+      downloadBrochure)
     ) {
       router.push("/Thank-you-brochure");
       return;
@@ -336,6 +344,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       router.pathname === "/advance-ai-ml-certification-s7" ||
       router.pathname === "/data-science-ai-cert-for-managers-leaders-s7" ||
       router.pathname === "/job-guarantee-or-money-back-data-science-ai-s7" ||
+      router.pathname === "/data-science-certification-courses-s10" ||
       router.pathname === "/data-science-certification-courses" ||
       router.pathname === "/advance-ai-ml-certification" ||
       router.pathname === "/data-science-ai-cert-for-managers-leaders" ||

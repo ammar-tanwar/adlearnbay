@@ -75,10 +75,10 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             <p>Fill the below Details to get started</p>
-            <Form popup={true} setTrigger={setPopups} radio={true} />
+            <Form popup={true} setTrigger={setPopups} />
           </div>
         </Popup>
-        <Navbar radio={true} />
+        <Navbar />
         <FirstSection
           deskTopPara="Experience-based certification course for professionals"
           mTopPara="Experience-based certification course for professionals"
@@ -130,7 +130,7 @@ export default function Home() {
           </div>
         </div>
         <Certificate
-          popupHead="Download Full stack Brochure"
+          popupHead="Download Brochure"
           title="Earn a globally recognized Certified at the end of your learning journey."
           desc="Get access to IBM cloud lab to keep an eye on trending industrial case studies of data mining, time-series forecasting, AI-based database management, and authenticated data handling."
           desc2="Experts from IBM share their ideas and tactics to deal with tricky business problems within the regularly changing analytical environments."

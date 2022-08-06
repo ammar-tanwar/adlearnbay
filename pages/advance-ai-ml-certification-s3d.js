@@ -129,7 +129,7 @@ export default function Home() {
         </div>
       </div>
       <Certificate
-        popupHead="Download Full stack Brochure"
+        popupHead="Download Brochure"
         title="Earn a globally recognized Certified at the end of your learning journey."
         desc="Get access to IBM cloud lab to keep an eye on trending industrial case studies of data mining, time-series forecasting, AI-based database management, and authenticated data handling."
         desc2 ="Experts from IBM share their ideas and tactics to deal with tricky business problems within the regularly changing analytical environments."

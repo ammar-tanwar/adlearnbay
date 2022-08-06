@@ -88,7 +88,7 @@ const ThankYou = () => {
           </p>
           <button className={styles.Button}>
                   <AiOutlineDownload className="bIcons" />
-                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Brochures+W/Advance+DSAI+(1).pdf" target="_blank" >
+                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/newcoursebrochure/Advance+DSAI+(1).pdf" target="_blank" >
                     Download Brochure
                   </a>
                 </button>

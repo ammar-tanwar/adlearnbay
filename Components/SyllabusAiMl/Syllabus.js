@@ -75,7 +75,7 @@ function Syllabus() {
           ></div>
         </div>
         <div className="RightPopup">
-          <h5>Download Full stack Brochure</h5>
+          <h5>Download Brochure</h5>
           <p>Please enter the following details to initiate your download</p>
           <Form setTrigger={setPopups} downloadBrochure />
         </div>

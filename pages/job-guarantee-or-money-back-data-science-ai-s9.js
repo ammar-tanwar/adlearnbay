@@ -14,7 +14,7 @@ import Syllabus from "../Components/Syllabus/Syllabus";
 import ToolsCovered from "../Components/ToolsCovered/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
 import Navbar from "../Components/Navbars8/Navbar";
-import Footer from "../Components/Footers8/Footer";
+import Footer from "../Components/Footers9/Footer";
   
 import React, { useState } from "react";
 
@@ -130,7 +130,7 @@ export default function Home() {
         </div>
       </div>
       <Certificate
-        popupHead="Download Full stack Brochure"
+        popupHead="Download Brochure"
         title="Earn a globally recognized Certified at the end of your learning journey."
         desc="Get access to IBM cloud lab to keep an eye on trending industrial case studies of data mining, time-series forecasting, AI-based database management, and authenticated data handling."
         desc2 ="Experts from IBM share their ideas and tactics to deal with tricky business problems within the regularly changing analytical environments."
