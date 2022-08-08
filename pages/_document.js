@@ -16,6 +16,7 @@ export default function Document() {
         />
         <meta name="facebook-domain-verification" content="dborjxjhu9kiklk06c38hf5v5raay4" />
         <meta name="facebook-domain-verification" content="xzlsit1skwzpjhylrt0y96nn3nbksu" />
+        <script src="https://www.googleoptimize.com/optimize.js?id=OPT-NQHBZ7H"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
