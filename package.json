@@ -13,6 +13,7 @@
     "ngx-typed-js": "^2.1.1",
     "node-sass": "^7.0.1",
     "react": "18.1.0",
+    "react-datepicker": "^4.8.0",
     "react-dom": "18.1.0",
     "react-icons": "^4.3.1",
     "react-phone-number-input": "^3.1.53",
