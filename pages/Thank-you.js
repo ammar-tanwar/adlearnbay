@@ -41,7 +41,7 @@ const ThankYou = () => {
               "ctaText":"Start Chat",
               "borderRadius":"25",
               "autoShow":false,
-              "phoneNumber":"+919606023695"
+              "phoneNumber":"+919606950936"
           }
         };
             s.onload = function() {
