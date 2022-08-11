@@ -60,6 +60,11 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
     router.pathname === "/advance-ai-ml-certification-s2" ||
     router.pathname === "/data-science-ai-cert-for-managers-leaders-s2" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s2" ||
+    router.pathname === "/s2-data-science" ||
+    router.pathname === "/s2-machine-learning" ||
+    router.pathname === "/s2-artificial-intelligence" ||
+    router.pathname === "/s2-data-analytics" ||
+    router.pathname === "/s2-job-guarantee" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s9"
   ) {
     endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
@@ -289,6 +294,16 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       (router.pathname === "/fswd" && 
       downloadBrochure) ||
       (router.pathname === "/" && 
+      downloadBrochure) ||
+      (router.pathname === "/s2-data-science" && 
+      downloadBrochure) ||
+      (router.pathname === "/s2-machine-learning" && 
+      downloadBrochure) ||
+      (router.pathname === "/s2-job-guarantee" && 
+      downloadBrochure) ||
+      (router.pathname === "/s2-data-analytics" && 
+      downloadBrochure) ||
+      (router.pathname === "/s2-artificial-intelligence" && 
       downloadBrochure) ||
       (router.pathname === "/apply-for-counselling-data-science" &&
       downloadBrochure)
