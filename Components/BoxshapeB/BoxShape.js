@@ -43,8 +43,7 @@ const BoxShape = ({
           <Form setTrigger={setPopups} downloadBrochure />
         </div>
       </Popup>
-      <p className="pTop">Program Features</p>
-      <h2>{title}</h2>
+      <h2>Explore Our Programs</h2>
       <div className={styles.BoxDiv}>
         <div className={styles.left}>
           <div>
@@ -57,7 +56,7 @@ const BoxShape = ({
             height="150"
           />
           <p className={styles.Ptopp}>
-          Data Science & AI Certification | Domain Specialisation For Professionals
+          Data Science & AI Certification <br/> Domain Specialisation For Professionals
           </p>
           <button className={styles.Button} onClick={popupShow}>
                   <AiOutlineDownload className="bIcons" />
@@ -74,7 +73,7 @@ const BoxShape = ({
             height="150"
           />
           <p className={styles.Ptopp}>
-          Advance AI & ML Certification | Become AI Expert In Product based MNCs
+          Advance AI & ML Certification <br/> Become AI Expert In Product based MNCs
           </p>
           <button className={styles.Button} onClick={popupShow}>
                   <AiOutlineDownload className="bIcons" />
@@ -91,7 +90,7 @@ const BoxShape = ({
             height="150"
           />
           <p className={styles.Ptopp}>
-          Data Science & AI Certification Program For Managers and Leaders
+          Data Science & AI Certification Program <br/>For Managers and Leaders
           </p>
           <button className={styles.Button} onClick={popupShow}>
                   <AiOutlineDownload className="bIcons" />
@@ -108,7 +107,7 @@ const BoxShape = ({
             height="150"
           />
           <p className={styles.Ptopp}>
-          Job Guarantee or Money Back | Data Science & AI Certification Program
+          Job Guarantee or Money Back <br/> Data Science & AI Certification Program
           </p>
           <button className={styles.Button} onClick={popupShow}>
                   <AiOutlineDownload className="bIcons" />
