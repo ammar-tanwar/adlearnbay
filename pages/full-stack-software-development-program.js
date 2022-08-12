@@ -93,7 +93,9 @@ export default function Home() {
           EMI="₹ 14k*(9 Months)"
         />
       </div>
+      <p style={{marginTop:"50px", textAlign:"center", fontSize:"22px"}}>New Batch Starting for Full Stack Software Development Program on 26th August, Weekday Morning 07.30 a.m. to 09.30 a.m.</p>
       <GetHired />
+      
       <div className="Feature" id="Feature">
         <BoxShape
           title="Why Enroll In This Program"

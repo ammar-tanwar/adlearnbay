@@ -82,7 +82,7 @@ export default function Home() {
       <FirstSection
         deskTopPara="Experience-based certification course for professionals"
         mTopPara="Experience-based certification course for professionals"
-        title="Advanced AI & ML Certification Program"
+        title="Advanced Machine Learning Course"
         spanTitleText="For Top Product based MNC And Startup"
         desc="
         AI Certification Course is designed with Domain Electives and Project Expertise for working professionals having 4+ years of experience in core tech and programming domain."
