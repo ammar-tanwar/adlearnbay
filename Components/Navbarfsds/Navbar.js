@@ -83,7 +83,7 @@ const Navbar = () => {
   <button className={styles.dropbtn}>All Courses <FaChevronDown style={{marginLeft:"5px"}} /></button>
   <div className={styles.dropdownContent}>
     <a href="https://learnbay.co/data-science-course/data-science-certification-courses/">Data Science & AI Certification</a>
-    <a href="https://www.learnbay.co/data-science-course/advance-data-science-certification-courses/">Advance AI & ML Certification</a>
+    <a href="https://www.learnbay.co/data-science-course/advance-data-science-certification-courses/">Advance Data Science & AI Certification</a>
     <a href="/full-stack-web-development-program">Full Stack Web Development Program</a>
     <a href="/full-stack-software-development-program">Full-Stack Software Development Program</a>
     <a href="/dsa-system-design">DSA & System Design</a>
