@@ -87,7 +87,7 @@ const Navbar = ({ radio }) => {
               <a href="/data-science-ai-cert-for-managers-leaders-sd">
                 Data Science & AI Cert. For Managers & Leaders
               </a>
-              <a href="job-guarantee-or-money-back-data-science-ai-sd">
+              <a href="/job-guarantee-or-money-back-data-science-ai-sd">
                 Job Guarantee or Money Back – Data Science & AI
               </a>
             </div>

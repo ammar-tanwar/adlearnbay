@@ -71,7 +71,7 @@ const Navbar = () => {
     <a href="/data-science-certification-courses-s3d">Advance Data Science & AI Certification</a>
     <a href="/advance-ai-ml-certification-s3d">Advance AI & ML Certification</a>
 <a href="/data-science-ai-cert-for-managers-leaders-s3d">Data Science & AI Cert. For Managers & Leaders</a>
-<a href="job-guarantee-or-money-back-data-science-ai-s3d">Job Guarantee or Money Back – Data Science & AI</a>
+<a href="/job-guarantee-or-money-back-data-science-ai-s3d">Job Guarantee or Money Back – Data Science & AI</a>
   </div>
 </div>
 
