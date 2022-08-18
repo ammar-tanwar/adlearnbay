@@ -10,6 +10,12 @@
       grid-template-columns: 25% 25% 25% 25%;
       padding: 20px 0px 20px 0px;
     }
+    .FooterDiv1 {
+      justify-content: center;
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      padding: 20px 0px 20px 0px;
+    }
     .FooterDivInner {
       color: #fff;
       margin: 0px 20px 0px 0px;
@@ -71,7 +77,7 @@
     .FooterSection {
       background-color: #313131;
     }
-    .FooterDiv {
+    .FooterDiv, .FooterDiv1 {
       margin: 0;
       justify-content: center;
       display: grid;
