@@ -24,7 +24,7 @@ export default function Document() {
         />
         <script src="https://www.googleoptimize.com/optimize.js?id=OPT-NQHBZ7H"></script>
 
-        <script 
+        {/* <script 
          dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -32,15 +32,15 @@ export default function Document() {
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','GTM-NN8XWH8');`,
           }}
-        />
+        /> */}
       </Head>
       <body>
-        <noscript
+        {/* <noscript
           dangerouslySetInnerHTML={{
             __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NN8XWH8"
             height="0" width="0" style="display:none;visibility:hidden">`,
           }}
-        ></noscript>
+        ></noscript> */}
         <Main />
         <NextScript />
       </body>

@@ -15,6 +15,7 @@
     "react": "18.1.0",
     "react-datepicker": "^4.8.0",
     "react-dom": "18.1.0",
+    "react-gtm-module": "^2.0.11",
     "react-icons": "^4.3.1",
     "react-phone-number-input": "^3.1.53",
     "react-whatsapp": "^0.3.0",
