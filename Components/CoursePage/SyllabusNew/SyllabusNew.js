@@ -3,7 +3,7 @@ import styles from "./SyllabusNew.module.css";
 import { MdOutlineLiveTv, MdOutlineLaptopMac } from "react-icons/md";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 import { FaDownload } from "react-icons/fa";
-import {
+import { 
   AiOutlineFundProjectionScreen,
   AiOutlineFieldTime,
 } from "react-icons/ai";
@@ -76,7 +76,7 @@ function SyllabusNew({
           <div className={styles.btnWrapper}>
           <button onClick={popupShow} style={{margin:"auto"}}>
             <FaDownload className="bIcons" />
-            Project Brochure
+            Syllabus Brochure
           </button>
         </div>
         </div>

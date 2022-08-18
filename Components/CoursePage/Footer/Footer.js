@@ -11,37 +11,25 @@ const Footer = () => {
     <section className={styles.FooterSection}>
       <div className={styles.FooterDiv1}>
         <div className={styles.FooterDivInner}>
-          <a href="/">
             <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logo-light.png" alt="Learnbay" quality={100}
               objectFit="contain" width="230px" height="60px" />
-          </a>
           <p className={styles.FooterInnerli}>Enroll now for Data Science Classroom (Bangalore) or online training with us
             and Master Data Analytics Skills which will help you to transform your career and start your career as a Data
             Scientist.</p>
           <div className={styles.FooterSocial}>
-            <a href="https://twitter.com/Learnbay" target="_blank">
               <FaTwitter className="bIcons" />
-            </a>
-            <a href="https://www.facebook.com/learnbay/" target="_blank">
               <FaFacebookF className="bIcons" />
-            </a>
-            <a href="https://www.linkedin.com/company/learnbay/" target="_blank">
               <FaLinkedinIn className="bIcons" />
-            </a>
-            <a href="https://bit.ly/Learnbay_YouTube" target="_blank">
               <FaYoutube className="bIcons" />
-            </a>
-            <a href="https://instagram.com/learnbayofficial" target="_blank">
               <FaInstagram className="bIcons" />
-            </a>
           </div>
           <span style={{ display: "flex", marginTop: "20px" }}>
             <IoMailSharp className="bIcons" />
-            <Link href="mailto:contacts@learnbay.co" target="_blank">contacts@learnbay.co</Link>
+            contacts@learnbay.co
           </span>
           <span style={{ display: "flex", marginTop: "10px" }}>
             <BsFillTelephoneFill className="bIcons" />
-            <Link href="tel:+917795687988" target="_blank">(+91) 77956 87988</Link>
+            (+91) 96069 50936
           </span>
         </div>
         <div className={styles.FooterDivInner}>
@@ -53,15 +41,13 @@ const Footer = () => {
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Get Our Apps On</p>
-          <a href="https://play.google.com/store/apps/details?id=com.app.learnbay" target="_blank"><button
+          <button
             className={styles.btnout}>
             <FaAndroid className="bIcons" style={{ fontSize: "30px" }} />Get Our Android App
-          </button></a>
+          </button>
           <p className={styles.FooterInnerP}>Find Us Here</p>
-          <a href="https://goo.gl/maps/4tC9yN8VTkBf72cW9" target="_blank">
             <p className={styles.FooterInnerli}>#1090 , 1st floor, 18th cross road HSR layout sector 3, Bangalore - 560102
               (Above Sangam Sweets)</p>
-          </a>
         </div>
       </div>
 

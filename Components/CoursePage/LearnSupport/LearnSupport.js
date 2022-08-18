@@ -24,7 +24,7 @@ function LearnSupport() {
           </p>
           <div className={styles.btnWrap}>
             <a
-              href="https://api.whatsapp.com/send?phone=917349222263&text=Hello,"
+              href="https://api.whatsapp.com/send?phone=919606950936&text=Hello,"
               target="_blank"
             >
               <button className={styles.btn1}>
@@ -33,7 +33,7 @@ function LearnSupport() {
             </a>
             <a href="tel:+917795687988">
               <button className={styles.btn2}>
-                <MdCall /> +91 77956 87988
+                <MdCall /> +91 96069 50936 
               </button>
             </a>
           </div>

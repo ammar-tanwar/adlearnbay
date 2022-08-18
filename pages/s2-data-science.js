@@ -1,23 +1,23 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
-import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
-import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
-import Popup from "../components/Popup/Popup";
-import Form from "../components/Form/Form";
-import Navbar from "../components/CoursePage/Navbar/Navbar";
-import Certificate from "../components/CoursePage/CertificateTab/CertificateTabAdvance";
-import Project from "../components/CoursePage/Project/Project";
-import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
-import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
-import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
-import Footer from "../components/CoursePage/Footer/Footer";
-import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
-import LearnSupport from "../components/CoursePage/LearnSupport/LearnSupport";
+import FirstSection from "../Components/CoursePage/HeroSection/HeroSection";
+import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
+import BoxShape from "../Components/CoursePage/Boxshape/BoxShape";
+import Popup from "../Components/Popup/Popup";
+import Form from "../Components/Form/Form";
+import Navbar from "../Components/CoursePage/Navbar/Navbar";
+import Certificate from "../Components/CoursePage/CertificateTab/CertificateTabAdvance";
+import Project from "../Components/CoursePage/Project/Project";
+import OurExpert from "../Components/CoursePage/OurExpert/OurExpert";
+import CourseFee from "../Components/CoursePage/CourseFee/CourseFee";
+import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
+import Footer from "../Components/CoursePage/Footer/Footer";
+import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
+import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
 import React, { useState } from "react";
 import { DataScienceCourseData } from "../Data/DataScienceCourse";
-import SliderTab from "../components/CoursePage/SliderTab/SliderTabs";
-import CourseReview from "../components/CoursePage/CourseReview/CourseReview";
+import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
+import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -89,44 +89,46 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          popupHead="Download Brochure"
-          deskTopPara="Choose Specialization over Generalization"
-          mTopPara="Choose Specialization over Generalization"
-          mTitle="Data Science Course"
-          spanMTitleText="Domain Specialization For Professionals"
-          title="Data Science Course"
-          spanTitleText="Domain Specialization For Professionals"
-          desc="With new capstone projects, learn how to apply your previous domain expertise to make a successful transition."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
-          width="900"
-          height="762"
-          alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
+
+        
+          popupHead=  {DataScienceCourseData[0].FirstSection.popupHead}                 
+          deskTopPara={DataScienceCourseData[0].FirstSection.deskTopPara} 
+          mTopPara={DataScienceCourseData[0].FirstSection.mTopPara} 
+          mTitle={DataScienceCourseData[0].FirstSection.mTitle} 
+          spanMTitleText={DataScienceCourseData[0].FirstSection.spanMTitleText} 
+          title={DataScienceCourseData[0].FirstSection.title} 
+          spanTitleText={DataScienceCourseData[0].FirstSection.spanTitleText} 
+          desc={DataScienceCourseData[0].FirstSection.desc} 
+          src={DataScienceCourseData[0].FirstSection.src} 
+          width={DataScienceCourseData[0].FirstSection.width} 
+          height={DataScienceCourseData[0].FirstSection.height} 
+          alt={DataScienceCourseData[0].FirstSection.alt} 
+          srcD={DataScienceCourseData[0].FirstSection.srcD}
         />
         <div className={styles.program}>
           <ProgramInfo
-            p1="Global Recognition"
-            p11="From IBM"
-            p2="Industry Standard"
-            p22="Training"
-            p3="Career Assistance"
-            p33="For Professionals"
-            p4="Financing as low as"
-            p44="₹ 7,768/month"
+            p1={DataScienceCourseData[0].ProgramInfo.p1}
+            p11={DataScienceCourseData[0].ProgramInfo.p11}
+            p2={DataScienceCourseData[0].ProgramInfo.p2}
+            p22={DataScienceCourseData[0].ProgramInfo.p22}
+            p3={DataScienceCourseData[0].ProgramInfo.p3}
+            p33={DataScienceCourseData[0].ProgramInfo.p33}
+            p4={DataScienceCourseData[0].ProgramInfo.p4}
+            p44={DataScienceCourseData[0].ProgramInfo.p44}
           />
         </div>
 
         <div className={styles.Feature} id="Feature">
           <BoxShape
-            title="Explore Our Programs"
-            Box1h5="1-on-1 Dedication"
-            box1desc="Live interactive session with expert for every individual"
-            Box2h5="Assured Interview Call"
-            box2desc="Get job referrals powered by 250+ hiring partners"
-            Box3h5="Premium Mentoring"
-            box3desc="Get professionally trained from MAANG and MNC experts"
-            Box4h5="Crafted for professional"
-            box4desc="Prioritize growth and salary hike with in-demand skillset"
+            title={DataScienceCourseData[0].BoxShape.title}
+            Box1h5={DataScienceCourseData[0].BoxShape.Box1h5}
+            box1desc={DataScienceCourseData[0].BoxShape.box1desc}
+            Box2h5={DataScienceCourseData[0].BoxShape.Box2h5}
+            box2desc={DataScienceCourseData[0].BoxShape.box2desc}
+            Box3h5={DataScienceCourseData[0].BoxShape.Box3h5}
+            box3desc={DataScienceCourseData[0].BoxShape.box3desc}
+            Box4h5={DataScienceCourseData[0].BoxShape.Box4h5}
+            box4desc={DataScienceCourseData[0].BoxShape.box4desc}
           />
         </div>
 
@@ -137,49 +139,53 @@ export default function Home() {
           syllabus={DataScienceCourseData[0].syllabus}
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
           popupHead={DataScienceCourseData[0].popupHead}
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
-          hours="250+ Hours"
-          project="12+ Real Time"
+          hours={DataScienceCourseData[0].hours}
+          project={DataScienceCourseData[0].project}
         />
+
+        
         <OurExpert
-          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
-          img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png"
-          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png"
-          img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/4.png"
-          img5="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/5.png"
-          img6="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/6.png"
-          img7="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png"
-          img8="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png"
-          img9="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
-          img10="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/10.png"
-          img11="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/11.png"
-          img12="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/12.png"
-          img13="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/13.png"
-          img14="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/14.png"
-          img15="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/15.png"
-          img16="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/16.png"
-          img17="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/17.png"
-          img18="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/18.png"
-          img19="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/19.png"
-          img21="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png"
-          img22="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png"
-          img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
-          img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
+          img1={DataScienceCourseData[0].OurExpert.img1}
+          img2={DataScienceCourseData[0].OurExpert.img2}
+          img3={DataScienceCourseData[0].OurExpert.img3}
+          img4={DataScienceCourseData[0].OurExpert.img4}
+          img5={DataScienceCourseData[0].OurExpert.img5}
+          img6={DataScienceCourseData[0].OurExpert.img6}
+          img7={DataScienceCourseData[0].OurExpert.img7}
+          img8={DataScienceCourseData[0].OurExpert.img8}
+          img9={DataScienceCourseData[0].OurExpert.img9}
+          img10={DataScienceCourseData[0].OurExpert.img10}
+          img11={DataScienceCourseData[0].OurExpert.img11}
+          img12={DataScienceCourseData[0].OurExpert.img12}
+          img13={DataScienceCourseData[0].OurExpert.img13}
+          img14={DataScienceCourseData[0].OurExpert.img14}
+          img15={DataScienceCourseData[0].OurExpert.img15}
+          img16={DataScienceCourseData[0].OurExpert.img16}
+          img17={DataScienceCourseData[0].OurExpert.img17}
+          img18={DataScienceCourseData[0].OurExpert.img18}
+          img19={DataScienceCourseData[0].OurExpert.img19}
+          img21={DataScienceCourseData[0].OurExpert.img21}
+          img22={DataScienceCourseData[0].OurExpert.img22}
+          img23={DataScienceCourseData[0].OurExpert.img23}
+          img20={DataScienceCourseData[0].OurExpert.img20}
 
         />
-        <ProgramFee Fee="₹79,000 + GST" Emi="₹ 7,768/month" />
+        <ProgramFee Fee={DataScienceCourseData[0].ProgramFee.Fee}
+         Emi={DataScienceCourseData[0].ProgramFee.Emi} />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
-          <Project popupHead="Download Project Brochure" project="12+ Projects" domain="7+" />
+          <Project popupHead={DataScienceCourseData[0].Project.popupHead}
+           project={DataScienceCourseData[0].Project.project}
+            domain={DataScienceCourseData[0].Project.domain} />
         </div>
         <CourseFee
-          CourseFeeHead="Data Science Course : Batch Details"
-          CourseFeePara="Online Classroom"
-          CourseFeelist1="Online Interactive Classes"
-          CourseFeelist2="Weekend and Weekday Batches"
-          CourseFeelist3="Extra Doubt Clearance Sessions"
-          CourseFeelist4="Multiple Domain Selection Options"
-          CourseFeelist5="Company-based Mock Interviews"
+          CourseFeeHead={DataScienceCourseData[0].CourseFees.CourseFeeHead}
+          CourseFeePara={DataScienceCourseData[0].CourseFees.CourseFeePara}
+          CourseFeelist1={DataScienceCourseData[0].CourseFees.CourseFeelist1}
+          CourseFeelist2={DataScienceCourseData[0].CourseFees.CourseFeelist2}
+          CourseFeelist3={DataScienceCourseData[0].CourseFees.CourseFeelist3}
+          CourseFeelist4={DataScienceCourseData[0].CourseFees.CourseFeelist4}
+          CourseFeelist5={DataScienceCourseData[0].CourseFees.CourseFeelist5}
         />
         <LearnSupport />
         <Footer />

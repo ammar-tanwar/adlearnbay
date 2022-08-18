@@ -51,7 +51,7 @@ const Navbar = ({ radio }) => {
       </Popup>
       <nav className={styles.nav}>
         <div className={styles.left}>
-          <a href="/">
+       
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
               alt="Learnbay"
@@ -60,7 +60,7 @@ const Navbar = ({ radio }) => {
               width={mobile ? "180" : "230"}
               height="60px"
             />
-          </a>
+          
         </div>
         <div className={styles.right}>
           <button onClick={popupShow} className="outLineBtn">
