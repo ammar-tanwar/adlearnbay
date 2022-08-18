@@ -305,6 +305,15 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       downloadBrochure) ||
       (router.pathname === "/s2-artificial-intelligence" && 
       downloadBrochure) ||
+      (router.pathname === "/fssd-s2" && downloadBrochure) ||
+      (router.pathname === "/fssd-s4" && downloadBrochure) ||
+      (router.pathname === "/fssd-s5" && downloadBrochure) ||
+      (router.pathname === "/fswd-s4" && downloadBrochure) ||
+      (router.pathname === "/fswd-s5" && downloadBrochure) ||
+      (router.pathname === "/dsa-s2" && downloadBrochure) ||
+      (router.pathname === "/dsa-s4" && downloadBrochure) ||
+      (router.pathname === "/dsa-s5" && downloadBrochure) ||
+      (router.pathname === "/fswd-s2" && downloadBrochure) ||
       (router.pathname === "/apply-for-counselling-data-science" &&
       downloadBrochure)
     ) {
@@ -369,37 +378,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       router.pathname === "/" ||
       router.pathname === "/job-guarantee-or-money-back-data-science-ai-s8" ||
       router.pathname === "/job-guarantee-or-money-back-data-science-ai-s9" ||
-      router.pathname === "/apply-for-counselling-data-science"
-    ) {
-      router.push("/Thank-you");
-      return;
-    }
-
-    if (
-      (router.pathname === "/fssd-s2" && downloadBrochure) ||
-      (router.pathname === "/fssd-s4" && downloadBrochure) ||
-      (router.pathname === "/fssd-s5" && downloadBrochure) ||
-      (router.pathname === "/fswd-s4" && downloadBrochure) ||
-      (router.pathname === "/fswd-s5" && downloadBrochure) ||
-      (router.pathname === "/dsa-s2" && downloadBrochure) ||
-      (router.pathname === "/dsa-s4" && downloadBrochure) ||
-      (router.pathname === "/dsa-s5" && downloadBrochure) ||
-      (router.pathname === "/fswd-s2" && downloadBrochure)
-    ) {
-      router.push("/Thank-you-fs");
-      return;
-    }
-
-    if (
-      router.pathname === "/full-stack-software-development-program" ||
-      router.pathname === "/full-stack-web-development-program" ||
-      router.pathname === "/dsa-system-design"
-    ) {
-      router.push("/Thank-you-w");
-      return;
-    }
-
-    if (
       router.pathname === "/apply-for-counselling" ||
       router.pathname === "/fssd-s2" ||
       router.pathname === "/fssd-s4" ||
@@ -409,9 +387,13 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       router.pathname === "/dsa-s2" ||
       router.pathname === "/dsa-s4" ||
       router.pathname === "/dsa-s5" ||
-      router.pathname === "/fswd-s2"
+      router.pathname === "/fswd-s2" ||
+      router.pathname === "/full-stack-software-development-program" ||
+      router.pathname === "/full-stack-web-development-program" ||
+      router.pathname === "/dsa-system-design" ||
+      router.pathname === "/apply-for-counselling-data-science"
     ) {
-      router.push("/Thank-you-w");
+      router.push("/Thank-you");
       return;
     }
   };
@@ -487,6 +469,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
             onChange={handleParam()}
           >
             <option value="Work Experience">Work Experience</option>
+            <option value="1 to 3 year">Fresher or 0 year</option>
             <option value="1 to 3 year">1 to 3 year</option>
             <option value="3 to 7 year">3 to 7 year</option>
             <option value="7 to 12 year">7 to 12 year</option>
