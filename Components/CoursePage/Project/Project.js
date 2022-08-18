@@ -48,13 +48,6 @@ const Project = ({ popupHead, project, domain }) => {
           <Form setTrigger={setPopups} downloadBrochure />
         </div>
       </Popup>
-      <ProjectPopup
-        trigger={popups}
-        setTrigger={setPopups}
-        title={title}
-        desc={desc}
-        imgsrc={img}
-      />
 
       <div className={styles.headWrapper}>
         <div className={styles.left}>

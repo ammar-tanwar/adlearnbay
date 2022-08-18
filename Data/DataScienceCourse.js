@@ -13,12 +13,6 @@ export const DataScienceCourseData = [
       width: "900",
       height: "762",
       alt: "AiMl Header",
-      srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf",
-      // deskTopPara: "Certification course for professionals",
-      // mTopPara: "Certification course for professionals",
-      // title: "Advance Data Science & AI with",
-      // spanTitleText: "100% Job guarantee program",
-      // desc: "Learn from mentors in live online classes. Work on Advance data science projects directly with companies and get real work       experience.",
     },
     ProgramInfo: {
 
@@ -30,9 +24,6 @@ export const DataScienceCourseData = [
       p33: "For Professionals",
       p4: "Financing as low as",
       p44: "₹ 7,768/month",
-      // BatchDate: "5 August 2022",
-      // BatchDuration: "09 Months",
-      // Placement: "100% Job Guarantee",
     },
     BoxShape: {
       title: "Explore Our Programs",
@@ -44,53 +35,10 @@ export const DataScienceCourseData = [
       box3desc: "Get professionally trained from MAANG and MNC experts",
       Box4h5: "Crafted for professional",
       box4desc: "Prioritize growth and salary hike with in-demand skillset",
-
-
-
-
-      // title: "Why Join this Programme?",
-      // Box1h5: "Real Work experience",
-      // box1desc:
-      //   "Don’t just learn, apply your learning. Work directly with companies to build relevant industry experience.",
-      // Box2h5: "Build Your Own Course",
-      // box2desc:
-      //   " Build personalized learning tracks to cater to your professional background and career goals.",
-      // Box3h5: "100% Job Guarantee",
-      // box3desc:
-      //   " Get 100% job guarantee in top companies and startups. Also, receive guidance on resume building and interview.",
-      // Box4h5: "For Professionals",
-      // box4desc:
-      //   "This Advanced Data Science and AI course is for professionals. Programming experience is not required.",
     },
-    // TopCTA: {
-    //   title: "Having Doubts? Talk with our Experts",
-    //   BeforeBR:
-    //     " Talk to our expert counsellor to know if your profile is suitable",
-    //   AfterBR: " for career transition in data science.",
-    // },
-    // Benefits: {
-    //   desc: " Learn Data science with multiple domain specialization and become a data scientist with our 100% job Guaranteed program.",
-    //   InterviewT: "Become data scientist in top Companies",
-    //   InterviewD:
-    //     "Interact and Learn from mentors working in top product based companies to crack interviews for your dream role.",
-    //   CertificateT: " Get real work experience from companies",
-    //   CertificateD:
-    //     "Work as a data scientist on live projects directly with companies to gain real work experience.",
-    //   JobT: "100% job guarantee or money back",
-    //   JobD: " Our program seeks to eliminate financial risk in the upskilling journey with our Job guarantee.",
-    // },
-    // Certificate: {
-    //   popupHead: "Download Data science Brochure",
-    //   title: "Get Certificate directly from AI companies",
-    //   desc: "Get 100% job guarantee and real-work experience by learning from the best data science institute in India and crack interviews with confidence.",
-    // },
-    // RealWork: {
-    //   desc: "Our Advanced Data science and AI course with 100% job guarantee follows a project-based learning approach. Further, it       focuses on helping learners build relevant experience in the technologies to land your super dream job.",
-    // },
     syllabusDesc:
       "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All sessions are covered practically with real-time industrial projects and case studies.",
     popupHead: "Download Brochure",
-    // srcD:"https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf",
     hours: "250+ Hours",
     project: "12+ Real Time",
 
@@ -376,7 +324,7 @@ export const DataScienceCourseData = [
 
 
       CourseFeeHead: "Data Science Course : Batch Details",
-      CourseFeePara: "Data Science Online Course",
+      CourseFeePara: "Data Science Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",
       CourseFeelist3: "Extra Doubt Clearance Sessions",
@@ -400,7 +348,7 @@ export const DataScienceCourseData = [
       BatchHeader: "Advanced Data science and AI Next 2022 Cohort",
       BatchName1: "weekday Batch",
       BatchName2: "Weekday Batch",
-      weekDayBatchDate: "5 August 2022",
+      weekDayBatchDate: "25 August 2022",
       weekEndBatchDate: "29 July 2022",
       weekDayBatchTime: "08:00 – 10:00 PM",
       weekEndBatchTime: "08:00 – 10:00 PM",

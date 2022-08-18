@@ -391,6 +391,11 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       router.pathname === "/full-stack-software-development-program" ||
       router.pathname === "/full-stack-web-development-program" ||
       router.pathname === "/dsa-system-design" ||
+      router.pathname === "/s2-data-science" ||
+      router.pathname === "/s2-machine-learning" ||
+      router.pathname === "/s2-job-guarantee" ||
+      router.pathname === "/s2-data-analytics" ||
+      router.pathname === "/s2-artificial-intelligence" ||
       router.pathname === "/apply-for-counselling-data-science"
     ) {
       router.push("/Thank-you");
