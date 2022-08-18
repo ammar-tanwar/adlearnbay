@@ -6,7 +6,10 @@ import styles from "./BoxShape.module.css";
 import Image from "next/image";
 import { MdLiveTv } from "react-icons/md";
 import { FiUser } from "react-icons/fi";
+import { AiOutlineDownload } from "react-icons/ai";
 import { BsGraphUp } from "react-icons/bs";
+import Form from "../../Form/Form";
+import Popup from "../../Popup/Popup";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import { Autoplay, Pagination } from "swiper";
@@ -22,6 +25,11 @@ const BoxShape = ({
   Box4h5,
   box4desc,
 }) => {
+  const [popups, setPopups] = useState(false);
+
+  const popupShow = () => {
+    setPopups(true);
+  };
   const [hover, setHover] = useState(false);
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
@@ -33,54 +41,96 @@ const BoxShape = ({
 
   return (
     <div className={styles.boxWrapper}>
-      <p className={styles.pTop}>Program Features</p>
+            <Popup
+        trigger={popups}
+        setTrigger={setPopups}
+        className="popupModal"
+        downloadBrochure
+      >
+        <div className="leftPopup">
+          <div
+            className="whiteP"
+            style={{ width: "350px", height: "400px" }}
+          ></div>
+        </div>
+        <div className="RightPopup">
+          <h5>Download Brochure</h5>
+          <p>Please enter the following details to initiate your download</p>
+          <Form setTrigger={setPopups} downloadBrochure />
+        </div>
+      </Popup>
       <h2>{title}</h2>
       <div className={styles.BoxDiv}>
-        <div className={styles.left}>
-          <div
-            className={styles.box}
-            onMouseEnter={() => setHover(true)}
-            onMouseLeave={() => setHover(false)}
-          >
-            <MdLiveTv className={styles.boxIcon} />
-
-            <h5>{Box1h5}</h5>
-            <p>{box1desc}</p>
+      <div className={styles.left}>
+          <div>
+          <Image
+            src="/ds.png"
+            alt="data-science-course"
+            quality={100}
+            layout="intrinsic"
+            width="306"
+            height="150"
+          />
+          <p className={styles.Ptopp}>
+          Data Science & AI Certification <br/> Domain Specialisation For Professionals
+          </p>
+          <button className={styles.Button} onClick={popupShow}>
+                  <AiOutlineDownload className="bIcons" />
+                    Download Brochure
+                </button>
           </div>
-          <div className={hover ? styles.box : styles.boxActive}>
-            {hover ? (
-              <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Live-classes-home-alt.svg" loading="lazy" />
-            ) : (
-              <img
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/capstone-live-home.svg"
-                alt="data-science"
-                className={styles.icon}
-                loading="lazy"
-              />
-            )}
-
-            <h5>{Box2h5}</h5>
-            <p>{box2desc}</p>
+          <div>
+          <Image
+            src="/advanceds.png"
+            alt="data-science-course"
+            quality={100}
+            layout="intrinsic"
+            width="306"
+            height="150"
+          />
+          <p className={styles.Ptopp}>
+          Advance AI & ML Certification <br/> Become AI Expert In Product based MNCs
+          </p>
+          <button className={styles.Button} onClick={popupShow}>
+                  <AiOutlineDownload className="bIcons" />
+                    Download Brochure
+                </button>
           </div>
-          <div
-            className={styles.box}
-            onMouseEnter={() => setHover(true)}
-            onMouseLeave={() => setHover(false)}
-          >
-            <FiUser className={styles.boxIcon} />
-            <h5>{Box3h5}</h5>
-            <p>{box3desc}</p>
+          <div>
+          <Image
+            src="/ds.png"
+            alt="data-science-course"
+            quality={100}
+            layout="intrinsic"
+            width="306"
+            height="150"
+          />
+          <p className={styles.Ptopp}>
+          Data Science & AI Certification Program <br/>For Managers and Leaders
+          </p>
+          <button className={styles.Button} onClick={popupShow}>
+                  <AiOutlineDownload className="bIcons" />
+                    Download Brochure
+                </button>
           </div>
-          <div
-            className={styles.box}
-            onMouseEnter={() => setHover(true)}
-            onMouseLeave={() => setHover(false)}
-          >
-            <BsGraphUp className={styles.boxIcon} />
-
-            <h5>{Box4h5}</h5>
-            <p>{box4desc}</p>
+          <div>
+          <Image
+            src="/advanceds.png"
+            alt="data-science-course"
+            quality={100}
+            layout="intrinsic"
+            width="306"
+            height="150"
+          />
+          <p className={styles.Ptopp}>
+          Job Guarantee or Money Back <br/> Data Science & AI Certification Program
+          </p>
+          <button className={styles.Button} onClick={popupShow}>
+                  <AiOutlineDownload className="bIcons" />
+                    Download Brochure
+                </button>
           </div>
+          
         </div>
         <div className={styles.right}>
           <div className={styles.imgBack}>

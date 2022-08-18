@@ -25,10 +25,10 @@ export const ProgramFee = ({ Fee, Emi }) => {
         </div>
       </Popup>
       <div className={styles.header}>
-        <h5>Program Fee & Financing</h5>
+        <h5>Data Science Course Fee & Financing</h5>
         <p>
           We are dedicated to making our programs accessible. We are committed
-          to helping you find a way to budget for this program and offer a
+          to helping you find a way to budget for Data Science Course and offer a
           variety of financing options to make it more economical.
         </p>
       </div>

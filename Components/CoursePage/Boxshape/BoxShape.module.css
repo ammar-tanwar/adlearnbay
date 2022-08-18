@@ -21,12 +21,22 @@
 }
 .left {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
   flex-wrap: wrap;
-  width: 110%;
+  width: 100%;
+  padding-top: 70px;
 
   padding-top: 70px;
+}
+
+.left button {
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.left p {
+  text-align: center;
 }
 .boxActive {
   position: relative;
@@ -161,6 +171,7 @@
   width: 100%;
   align-items: center;
   gap: 10px;
+  text-align: left;
 }
 .profile h5 {
   margin: 0ch;
@@ -302,10 +313,12 @@
     padding: 0px;
   }
   .left {
-    display: block;
+    display: grid;
+    grid-template-columns: 50% 50%;
     margin: 0px;
     gap: 10px;
     margin-bottom: 30px;
+    margin-top: 20px;
     width: 100%;
     padding: 0px;
   }
