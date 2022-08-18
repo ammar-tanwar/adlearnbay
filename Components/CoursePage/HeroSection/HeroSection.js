@@ -103,11 +103,11 @@ const HeroSection = ({
         )}
         {mobile ? (
           <h1>
-            {mTitle} <span> {spanMTitleText}</span>
+            {mTitle}<br /> <span> {spanMTitleText}</span>
           </h1>
         ) : (
           <h1>
-            {title} <span> {spanTitleText}</span>
+            {title}<br /> <span> {spanTitleText}</span>
           </h1>
         )}
 

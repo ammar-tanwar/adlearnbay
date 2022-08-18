@@ -71,7 +71,7 @@ function SyllabusNew({
       <div className={styles.syllabusLeft}>
         <div className={styles.Syllabusbutton}>
           <div>
-            <h4>Syllabus</h4>
+            <h4>Data Science Course Syllabus</h4>
           </div>
           <div className={styles.btnWrapper}>
           <button onClick={popupShow} style={{margin:"auto"}}>
@@ -163,7 +163,7 @@ function SyllabusNew({
           <div className={styles.PProgrammain}>
             <div className={styles.PProgram}>
               <p>
-                <span>Program High</span>lights
+                <span>Data Science Course High</span>lights
               </p>
             </div>
             <div className={styles.PProgramInner}>

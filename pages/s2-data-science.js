@@ -53,10 +53,10 @@ export default function Home() {
         popupHead="Download Brochure"
           deskTopPara="Choose Specialization over Generalization"
           mTopPara="Choose Specialization over Generalization"
-          mTitle="Advanced Data Science and AI Program with"
-          spanMTitleText="Domain Specialization"
-          title="Advanced Data Science and AI Program"
-          spanTitleText="with Domain Specialization"
+          mTitle="Data Science Course"
+          spanMTitleText="Domain Specialization For Professionals"
+          title="Data Science Course"
+          spanTitleText="Domain Specialization For Professionals"
           desc="With new capstone projects, learn how to apply your previous domain expertise to make a successful transition."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
           width="900"
@@ -79,7 +79,7 @@ export default function Home() {
 
         <div className={styles.Feature} id="Feature">
           <BoxShape
-            title="Why Enroll In This Program?"
+            title="Explore Our Programs"
             Box1h5="1-on-1 Dedication"
             box1desc="Live interactive session with expert for every individual"
             Box2h5="Assured Interview Call"
@@ -134,7 +134,7 @@ export default function Home() {
           <Project popupHead="Download Project Brochure" project="12+ Projects" domain="7+" />
         </div>
         <CourseFee
-          CourseFeeHead="Advanced Data Science & AI Program : Batch Details"
+          CourseFeeHead="Data Science Course : Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"
           CourseFeelist2="Weekend and Weekday Batches"
