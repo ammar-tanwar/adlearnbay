@@ -51,42 +51,7 @@ const HeroSection = ({
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           <p>Fill the below details to get started</p>
-          <Form popup={true} setTrigger={setPopups} />
-        </div>
-      </Popup>
-      <Popup
-        trigger={popups}
-        setTrigger={setPopups}
-        className="popupModal"
-        downloadBrochure
-      >
-        <div className="leftPopup">
-          <div
-            className="whiteP"
-            style={{ width: "350px", height: "400px" }}
-          ></div>
-        </div>
-        <div className="RightPopup">
-          <h5>{popupHead}</h5>
-          <p>Please enter the following details to initiate your download</p>
-          <Form setTrigger={setPopups} downloadBrochure />
-        </div>
-      </Popup><Popup
-        trigger={popups}
-        setTrigger={setPopups}
-        className="popupModal"
-        downloadBrochure
-      >
-        <div className="leftPopup">
-          <div
-            className="whiteP"
-            style={{ width: "350px", height: "400px" }}
-          ></div>
-        </div>
-        <div className="RightPopup">
-          <h5>{popupHead}</h5>
-          <p>Please enter the following details to initiate your download</p>
-          <Form setTrigger={setPopups} downloadBrochure />
+          <Form setTrigger={setPopups} />
         </div>
       </Popup>
       <div className={styles.left}>
@@ -119,12 +84,6 @@ const HeroSection = ({
               <FaArrowRight style={{ marginLeft: "10px" }} />
             </button>
           </div>
-          <div className={styles.btnWrapper}>
-          <button onClick={popupShow}>
-            Download Brochure
-            <FaDownload style={{ marginLeft: "10px" }} />
-          </button>
-        </div>
 
         </div>
         <div className={styles.bottom}>
