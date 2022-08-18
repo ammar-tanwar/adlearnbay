@@ -334,47 +334,41 @@ export const DataScienceCourseData = [
       title: "Why get enrolled in our Advanced Data Science and AI course?",
       desc: " Learnbay’s Advanced Data Science and AI course with real-work experience is designed for creative minds and made for everyone. Take our data science training and experience the new era of education.",
     },
-
-    OurExpert:{
-
-      img1:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png",
-          img2:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png",
-          img3:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png",
-          img4:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/4.png",
-          img5:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/5.png",
-          img6:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/6.png",
-          img7:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png",
-          img8:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png",
-          img9:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png",
-          img10:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/10.png",
-          img11:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/11.png",
-          img12:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/12.png",
-          img13:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/13.png",
-          img14:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/14.png",
-          img15:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/15.png",
-          img16:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/16.png",
-          img17:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/17.png",
-          img18:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/18.png",
-          img19:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/19.png",
-          img21:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png",
-          img22:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png",
-          img23:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png",
-          img20:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
-
+    OurExpert: {
+      img1: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png",
+      img2: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png",
+      img3: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png",
+      img4: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/4.png",
+      img5: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/5.png",
+      img6: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/6.png",
+      img7: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png",
+      img8: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png",
+      img9: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png",
+      img10: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/10.png",
+      img11: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/11.png",
+      img12: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/12.png",
+      img13: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/13.png",
+      img14: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/14.png",
+      img15: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/15.png",
+      img16: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/16.png",
+      img17: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/17.png",
+      img18: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/18.png",
+      img19: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/19.png",
+      img21: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png",
+      img22: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png",
+      img23: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png",
+      img20: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
-    ProgramFee:{
-      Fee:"₹79,000 + GST",
-       Emi:"₹ 7,768/month",
+    ProgramFee: {
+      Fee: "₹79,000 + GST",
+      Emi: "₹ 7,768/month",
     },
-    Project:{
-      popupHead:"Download Project Brochure", 
-      project:"12+ Projects", 
-      domain:"7+", 
+    Project: {
+      popupHead: "Download Project Brochure",
+      project: "12+ Projects",
+      domain: "7+",
     },
-
     CourseFees: {
-
-
       CourseFeeHead: "Data Science Course : Batch Details",
       CourseFeePara: "Data Science Online Course",
       CourseFeelist1: "Online Interactive Classes",
@@ -383,8 +377,6 @@ export const DataScienceCourseData = [
       CourseFeelist4: "Multiple Domain Selection Options",
       CourseFeelist5: "Company-based Mock Interviews",
     },
-
-
     Fee: {
       desc: " The Advanced Data science and AI fee start from INR 59,000 (Excluding  GST). We aim to deliver to you quality education considering the aspect of feasibility.",
       desc1:
