@@ -1,0 +1,114 @@
+.wrapper {
+  position: relative;
+}
+.MenuTabs {
+  display: flex;
+  position: fixed;
+  left: 0;
+  width: fit-content;
+  justify-content: space-between;
+  padding: 20px 20px 20px 50px;
+  background-color: white;
+  box-shadow: rgba(136, 237, 253, 0.421) 0px 2px 8px 0px;
+  top: 60px;
+}
+.leftPanel {
+  display: flex;
+  flex-flow: column;
+  margin-right: 20px;
+}
+.leftPanel .RowWrap {
+  display: none;
+}
+
+.span {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+  width: 350px;
+  color: black;
+  font-size: 16px;
+  padding: 10px 20px;
+  font-weight: 400;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.span:hover {
+  background-color: #eaeaea;
+}
+
+.spanActive {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+  width: 350px;
+  color: white;
+  background: #0487d9;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.middlePanel {
+  width: 100%;
+}
+.RowWrap {
+  display: grid;
+  grid-template-columns: 49% 49%;
+}
+.Row {
+  width: 100%;
+  height: 100%;
+}
+.Row a {
+  width: 280px;
+}
+.Program {
+  margin: 10px;
+  box-shadow: rgba(150, 230, 250, 0.444) 0px 3px 8px;
+  padding: 10px 20px;
+  width: 280px;
+  border-radius: 8px;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: fit-content;
+  justify-content: space-between;
+}
+.Program h5 {
+  font-size: 16px;
+  margin: 0;
+}
+.Program span {
+  display: flex;
+  color: #646464;
+}
+@media (max-width: 481px) {
+  .MenuTabs {
+    left: 0;
+    height: 90vh;
+    overflow-y: auto;
+    width: 100vw;
+    flex-flow: column;
+    padding: 20px 20px;
+  }
+  .leftPanel {
+    margin-right: 0px;
+  }
+  .leftPanel span {
+    width: 100%;
+  }
+  .leftPanel .RowWrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: scroll;
+  }
+  .Program {
+    width: auto;
+    padding: 10px;
+  }
+}

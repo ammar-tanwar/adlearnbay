@@ -172,7 +172,7 @@
   font-size: 24px;
 }
 .ProjectWrapper {
-  padding-top: 30px;
+  padding: 30px 100px;
 }
 .expertBody {
   margin-top: -90px;
@@ -244,7 +244,7 @@
   }
 
   .ProjectWrapper {
-    padding: 0px;
+    padding: 0px 20px;
   }
   .expertBody {
     margin-left: -0em;

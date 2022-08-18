@@ -1,0 +1,306 @@
+.FeeS {
+  padding: 50px 100px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.FeeS h5 {
+  font-size: 20px;
+  margin: 0;
+  font-weight: 600;
+}
+.priceTable {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  gap: 20px;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.priceTableData {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  gap: 20px;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.priceTable span,
+.priceTableData span {
+  text-align: center;
+}
+.priceTable div,
+.priceTableData div {
+  display: flex;
+  flex-flow: column;
+}
+.sub {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #2d9cd7;
+}
+.Price {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.desc {
+  margin-bottom: 20px;
+  color: rgb(81, 81, 81);
+}
+.PFeatures {
+  height: 40px;
+}
+
+.check {
+  font-size: 20px;
+  color: green;
+}
+.cross {
+  font-size: 20px;
+  color: #f14d5d;
+}
+.outButton {
+  background-color: transparent;
+  border-radius: 4px;
+  width: 100%;
+  border: 1px solid #2d9cd7;
+  color: #2d9cd7;
+  padding: 10px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.outButton:hover {
+  background-color: #2d9cd7;
+  color: white;
+}
+.first {
+  background-color: #0072bc;
+  border-radius: 24px;
+  color: white;
+  height: 100%;
+}
+
+.first,
+.third,
+.fourth {
+  padding: 30px 20px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.fourth {
+  background: #ffffff;
+  border-width: 7px 0px;
+  border-style: solid;
+  height: 110%;
+  border-color: #edb552;
+  box-shadow: 0px 0px 21px rgba(237, 181, 82, 0.3);
+  border-radius: 27px;
+}
+.fourth .sub {
+  color: #edb552;
+}
+.fourth .button {
+  border: 0;
+  margin-top: 30px;
+  background-color: #edb552;
+}
+.third:hover {
+  background: #ffffff;
+  border-width: 7px 0px;
+  border-style: solid;
+  height: 110%;
+  border-color: #edb552;
+  box-shadow: 0px 0px 21px rgba(237, 181, 82, 0.3);
+  border-radius: 27px;
+}
+.third .button {
+  background-color: transparent;
+  border-radius: 4px;
+  width: 100%;
+  border: 1px solid #2d9cd7;
+  color: #2d9cd7;
+  padding: 10px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.third:hover .sub {
+  color: #edb552;
+}
+.third:hover .button {
+  color: white;
+  margin-top: 30px;
+  background-color: #edb552;
+  border: 0;
+}
+
+.fourth:hover {
+  background: #ffffff;
+  border-width: 7px 0px;
+  border-style: solid;
+  border-color: #edb552;
+  box-shadow: 0px 0px 21px rgba(237, 181, 82, 0.3);
+  border-radius: 27px;
+}
+
+.third {
+  background: #ffffff;
+  border-top: 5px solid #0072bc;
+  box-shadow: 0px 0px 11px rgba(0, 114, 188, 0.25);
+  border-radius: 27px;
+}
+.button {
+  padding: 10px 25px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button:hover {
+  background-color: white;
+  color: #2d9cd7;
+}
+
+@media (max-width: 481px) {
+  .FeeS {
+    padding: 0px 0px;
+    height: max-content;
+  }
+  .FeeS h5 {
+    font-size: 18px;
+  }
+  .priceTable {
+    display: grid;
+    grid-template-columns: 55% 55% 55% 55%;
+    gap: 20px;
+    height: max-content;
+    overflow: scroll;
+    margin-top: 30px;
+    justify-content: flex-start;
+  }
+  .priceTableData {
+    display: grid;
+    grid-template-columns: 45% 45% 45% 45%;
+    gap: 0px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin-top: 30px;
+    justify-content: flex-start;
+  }
+
+  .priceTable div {
+    display: flex;
+    height: 100%;
+    flex-flow: column;
+  }
+  .sub {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(114, 114, 114);
+  }
+  .Price {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  .desc {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: rgb(81, 81, 81);
+  }
+  .PFeatures {
+    text-align: left;
+    font-size: 14px;
+  }
+  .priceTable span {
+    text-align: left;
+  }
+  .third .button {
+    margin-top: 10px;
+  }
+  .fourth {
+    height: max-content;
+  }
+  .fourth .button {
+    margin-top: 10px;
+  }
+  .priceTable div {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+  }
+  .first,
+  .third,
+  .fourth {
+    padding: 30px 5px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .check {
+    font-size: 20px;
+    color: green;
+  }
+  .cross {
+    font-size: 20px;
+    color: #f14d5d;
+  }
+  .outButton {
+    background-color: transparent;
+    border-radius: 4px;
+    width: 100%;
+    border: 1px solid #2d9cd7;
+    color: #2d9cd7;
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  .outButton:hover {
+    background-color: #2d9cd7;
+    color: white;
+  }
+  .first,
+  .third,
+  .fourth {
+    padding: 30px 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .fourth:hover {
+    background-color: #eaf4fe;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+  .third {
+    background-color: #eaf4fe;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  .button {
+    padding: 10px 25px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .button:hover {
+    background-color: #edb552;
+  }
+}

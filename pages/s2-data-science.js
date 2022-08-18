@@ -1,21 +1,23 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import FirstSection from "../Components/HeroSectionAdvance/HeroSection";
-import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
-import GetHired from "../Components/GetHiredAdvance/GetHired";
-import Domain from "../Components/Domain/Domain";
-import BoxShape from "../Components/BoxshapeB/BoxShape";
-import Popup from "../Components/Popup/Popup";
-import Form from "../Components/Form/Form";
-import Certificate from "../Components/Certificate/Certificate";
-import Project from "../Components/Project/Project";
-import Syllabus from "../Components/SyllabusAdvance/Syllabus";
-import ToolsCovered from "../Components/ToolsCoveredAdvance/ToolsCovered";
-import OurExpert from "../Components/OurExpert/OurExpert";
-import Navbar from "../Components/Navbars8/Navbar";
-import Footer from "../Components/FooterNc/Footer";
-  
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
+import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
+import BoxShape from "../components/CoursePage/Boxshape/BoxShape";
+import Popup from "../components/Popup/Popup";
+import Form from "../components/Form/Form";
+import Navbar from "../components/CoursePage/Navbar/Navbar";
+import Certificate from "../components/CoursePage/CertificateTab/CertificateTabAdvance";
+import Project from "../components/CoursePage/Project/Project";
+import OurExpert from "../components/CoursePage/OurExpert/OurExpert";
+import CourseFee from "../components/CoursePage/CourseFee/CourseFee";
+import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
+import Footer from "../components/CoursePage/Footer/Footer";
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
+import LearnSupport from "../components/CoursePage/LearnSupport/LearnSupport";
 import React, { useState } from "react";
+import { DataScienceCourseData } from "../Data/DataScienceCourse";
+import SliderTab from "../components/CoursePage/SliderTab/SliderTabs";
+import CourseReview from "../components/CoursePage/CourseReview/CourseReview";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -24,126 +26,125 @@ export default function Home() {
     setPopups(true);
   };
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
-        <title>Learnbay Courses</title>
-        <meta name="description" content="Learnbay Courses" />
+        <title>
+          Advanced Data Science and AI Program with Domain Specialization
+        </title>
+        <meta
+          name="description"
+          content="Advanced Data Science and AI Program with Domain Specialization"
+        />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
-            var s = document.createElement('script');
-            s.type = 'text/javascript';
-            s.async = true;
-            s.src = url;
-            var options = {
-          "enabled":true,
-          "chatButtonSetting":{
-              "backgroundColor":"#4dc247",
-              "ctaText":"",
-              "borderRadius":"10",
-              "marginLeft":"0",
-              "marginBottom":"30",
-              "marginRight":"30",
-              "position":"right"
-          },
-          "brandSetting":{
-              "brandName":"Learnbay",
-              "brandSubTitle":"The Learner's Path",
-              "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
-              "welcomeText":"Hi there! How can I help you?",
-              "messageText":"Hello, I have a question about {{page_link}}",
-              "backgroundColor":"#0a5f54",
-              "ctaText":"Start Chat",
-              "borderRadius":"25",
-              "autoShow":false,
-              "phoneNumber":"+919606950936"
-          }
-        };
-            s.onload = function() {
-                CreateWhatsappChatWidget(options);
-            };
-            var x = document.getElementsByTagName('script')[0];
-            x.parentNode.insertBefore(s, x);`,
-          }}
-        />
       </Head>
-      <main>
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-        <div className="leftPopup">
-          <div className="whiteP" />
-        </div>
-        <div className="RightPopup">
-          <h5>Apply For Counselling</h5>
-          <p>Fill the below Details to get started</p>
-          <Form popup={true} setTrigger={setPopups} />
-        </div>
-      </Popup>
-      <Navbar />
-      <FirstSection
-        deskTopPara="Experience-based certification course for professionals"
-        mTopPara="Experience-based certification course for professionals"
-        title="Data Science Course"
-        spanTitleText="Domain Specialization For Professionals"
-        desc="This Advance program is suitable for professionals having more than 1+ years of work experience in any programming or non programming domain."
-      />
-      <div className={styles.program}>
-        <ProgramInfo
-          BatchDate="1+ Years Work Experience"
-          BatchDuration="Accredited with IBM"
-          Placement="12+ Real Time Projects"
-          EMI="₹ 10k/month*(9 Months)"
-        />
-      </div>
-      <GetHired />
-      <div className="Feature" id="Feature">
-        <BoxShape
-          title="Why Enroll In This Program"
-          Box1h5="Custom-fit Training"
-          box1desc="Get specially designed modules as per your dream DS role. Learn innovative AI applications."
-          Box2h5="Domain Focused"
-          box2desc="Obtain cutting-edge Al and DS skills as per demanding industry standards. Choose from 7+ electives."
-          Box3h5="Premium Mentoring"
-          box3desc="Learn how to crack interviews by attending CV writing workshops & mock interviews with FAANG expertise."
-          Box4h5="Hands-on Experience"
-          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
-        />
-      </div>
-      <div className={styles.ExpertWrapper}>
-        <div className={styles.expert}>
-          <h5>Our experts are from:</h5>
-        </div>
-        <div className={styles.expertBody}>
-          <OurExpert />
-        </div>
-      </div>
-      <div className={styles.cta}>
-        <div className={styles.left}></div>
-        <div className={styles.middle}>
-          <h6>Talk to our team directly.</h6>
-          <p>Reach out and a learning consultant will get in touch with you shortly.</p>
-        </div>
-        <div className={styles.right}>
-          <button onClick={popupShow}>Enquire Now</button>
-        </div>
-      </div>
-      <Certificate
-        popupHead="Download Brochure"
-        title="Earn a globally recognized Certified at the end of your learning journey."
-        desc="Get access to IBM cloud lab to keep an eye on trending industrial case studies of data mining, time-series forecasting, AI-based database management, and authenticated data handling."
-        desc2 ="Experts from IBM share their ideas and tactics to deal with tricky business problems within the regularly changing analytical environments."
-        desc3 ="Data Science Leads from IBM as instructors."
+      <main>  <Navbar popup={true} />
 
-      />
-      <Syllabus />
-      <ToolsCovered />
-      <Domain />
-      <div className={styles.ProjectWrapper} id="project">
-        <Project />
-      </div>
-       
-      <Footer />
-      </main> 
+        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+          <div className="leftPopup">
+            <div className="whiteP" />
+          </div>
+          <div className="RightPopup">
+            <h5>Apply For Counselling</h5>
+            <p>Fill the below details to get started</p>
+            <Form popup={true} setTrigger={setPopups} />
+          </div>
+        </Popup>
+        <FirstSection
+        popupHead="Download Brochure"
+          deskTopPara="Choose Specialization over Generalization"
+          mTopPara="Choose Specialization over Generalization"
+          mTitle="Advanced Data Science and AI Program with"
+          spanMTitleText="Domain Specialization"
+          title="Advanced Data Science and AI Program"
+          spanTitleText="with Domain Specialization"
+          desc="With new capstone projects, learn how to apply your previous domain expertise to make a successful transition."
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
+          width="900"
+          height="762"
+          alt="AiMl Header"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
+        />
+        <div className={styles.program}>
+          <ProgramInfo
+            p1="Global Recognition"
+            p11="From IBM"
+            p2="Industry Standard"
+            p22="Training"
+            p3="Career Assistance"
+            p33="For Professionals"
+            p4="Financing as low as"
+            p44="₹ 7,768/month"
+          />
+        </div>
+
+        <div className={styles.Feature} id="Feature">
+          <BoxShape
+            title="Why Enroll In This Program?"
+            Box1h5="1-on-1 Dedication"
+            box1desc="Live interactive session with expert for every individual"
+            Box2h5="Assured Interview Call"
+            box2desc="Get job referrals powered by 250+ hiring partners"
+            Box3h5="Premium Mentoring"
+            box3desc="Get professionally trained from MAANG and MNC experts"
+            Box4h5="Crafted for professional"
+            box4desc="Prioritize growth and salary hike with in-demand skillset"
+          />
+        </div>
+
+        <CourseReview />
+        <Certificate />
+
+        <SyllabusNew
+          syllabus={DataScienceCourseData[0].syllabus}
+          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
+          popupHead={DataScienceCourseData[0].popupHead}
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
+          hours="250+ Hours"
+          project="12+ Real Time"
+        />
+        <OurExpert
+          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+          img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png"
+          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png"
+          img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/4.png"
+          img5="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/5.png"
+          img6="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/6.png"
+          img7="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png"
+          img8="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png"
+          img9="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
+          img10="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/10.png"
+          img11="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/11.png"
+          img12="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/12.png"
+          img13="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/13.png"
+          img14="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/14.png"
+          img15="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/15.png"
+          img16="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/16.png"
+          img17="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/17.png"
+          img18="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/18.png"
+          img19="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/19.png"
+          img21="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png"
+          img22="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png"
+          img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
+          img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
+
+        />
+        <ProgramFee Fee="₹79,000 + GST" Emi="₹ 7,768/month" />
+        <SliderTab />
+        <div className={styles.ProjectWrapper} id="project">
+          <Project popupHead="Download Project Brochure" project="12+ Projects" domain="7+" />
+        </div>
+        <CourseFee
+          CourseFeeHead="Advanced Data Science & AI Program : Batch Details"
+          CourseFeePara="Online Classroom"
+          CourseFeelist1="Online Interactive Classes"
+          CourseFeelist2="Weekend and Weekday Batches"
+          CourseFeelist3="Extra Doubt Clearance Sessions"
+          CourseFeelist4="Multiple Domain Selection Options"
+          CourseFeelist5="Company-based Mock Interviews"
+        />
+        <LearnSupport />
+        <Footer />
+      </main>
     </div>
-  )
+  );
 }
