@@ -130,7 +130,7 @@ const Footer = () => {
       </div>
       <div className={styles.FooterBottom}>
         <div className={styles.FooterBottomInner}>
-          <p className={styles.FooterInnerB}>Copyright © 2020 Learnbay by <a href="/">www.learnbay.co.</a> All Rights
+          <p className={styles.FooterInnerB}>Copyright © 2020 Learnbay by www.learnbay.co. All Rights
             Reserved.</p>
         </div>
       </div>
@@ -139,43 +139,3 @@ const Footer = () => {
 };
 
 export default React.memo(Footer);
-
-
-
-
-
-          {/* <p className={styles.FooterInnerli}>Data Science & AI Cert. For Managers & Leaders</p> */}
-
-          {/* <p className={styles.FooterInnerli}>Full Stack Software Development Program</p> */}
-          {/* <p className={styles.FooterInnerli}>Job Guarantee or Money Back - Data Science & AI</p> */}
-          {/* <p className={styles.FooterInnerli}>Business Analytics Program</p>
-      <p className={styles.FooterInnerli}>Data Analytics Program</p>
-      <p className={styles.FooterInnerli}>Data Structures Algorithms And System Design</p> */}
-
-
-
-      {/* <div className={styles.FooterDivInner}>
-      <p className={styles.FooterInnerP}>Learnbay</p>
-      <a href="/about-us">
-        <p className={styles.FooterInnerli}>About Us</p>
-      </a>
-      <a href="/contact-us">
-        <p className={styles.FooterInnerli}>Contact Us</p>
-      </a>
-      <a href="/demo">
-        <p className={styles.FooterInnerli}>Demo</p>
-      </a>
-      <a href="https://blog.learnbay.co/">
-        <p className={styles.FooterInnerli}>Blogs</p>
-      </a>
-      <p className={styles.FooterInnerP}>Terms</p>
-      <a href="/terms-conditions">
-        <p className={styles.FooterInnerli}>Terms and Conditions</p>
-      </a>
-      <a href="/refund-cancellation-policy">
-        <p className={styles.FooterInnerli}>Refund/Cancellation policy</p>
-      </a>
-      <a href="/privacy-policy">
-        <p className={styles.FooterInnerli}>Privacy Policy</p>
-      </a>
-    </div> */}
