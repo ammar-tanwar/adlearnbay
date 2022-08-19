@@ -15,7 +15,6 @@ export const DataScienceCourseData = [
       alt: "AiMl Header",
     },
     ProgramInfo: {
-
       p1: "Global Recognition",
       p11: "From IBM",
       p2: "Industry Standard",
@@ -278,6 +277,7 @@ export const DataScienceCourseData = [
         },
       },
     ],
+
     Review: {
       title: "Why get enrolled in our Advanced Data Science and AI course?",
       desc: " Learnbay’s Advanced Data Science and AI course with real-work experience is designed for creative minds and made for everyone. Take our data science training and experience the new era of education.",
@@ -325,17 +325,7 @@ export const DataScienceCourseData = [
       CourseFeelist4: "Multiple Domain Selection Options",
       CourseFeelist5: "Company-based Mock Interviews",
     },
-    Fee: {
-      desc: " The Advanced Data science and AI fee start from INR 59,000 (Excluding  GST). We aim to deliver to you quality education considering the aspect of feasibility.",
-      desc1:
-        "Learnbay's courses are designed giving importance to affordability. The Advanced Data Science and AI course fees is feasible to ensure fair reachability. Further, we provide you with options such as EMI to pay the course fees.",
-      BasicPrice: "₹ 59,000 + GST",
-      BasicDesc: "Get data science training from Industry experts",
-      ProPrice: "₹ 89,000 + GST",
-      ProDesc: " Get data science training with real work Experience",
-      ProMaxPrice: "₹ 1,30,000 + GST",
-      ProMaxDesc: " Get data science training with 100% Job Guarantee",
-    },
+   
     BatchDetails: {
       BatchHeader: "Advanced Data science and AI Next 2022 Cohort",
       BatchName1: "weekday Batch",

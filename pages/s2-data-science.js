@@ -89,8 +89,6 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-
-        
           popupHead=  {DataScienceCourseData[0].FirstSection.popupHead}                 
           deskTopPara={DataScienceCourseData[0].FirstSection.deskTopPara} 
           mTopPara={DataScienceCourseData[0].FirstSection.mTopPara} 
@@ -134,7 +132,6 @@ export default function Home() {
 
         <CourseReview />
         <Certificate />
-
         <SyllabusNew
           syllabus={DataScienceCourseData[0].syllabus}
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
@@ -142,8 +139,6 @@ export default function Home() {
           hours={DataScienceCourseData[0].hours}
           project={DataScienceCourseData[0].project}
         />
-
-        
         <OurExpert
           img1={DataScienceCourseData[0].OurExpert.img1}
           img2={DataScienceCourseData[0].OurExpert.img2}
@@ -168,7 +163,6 @@ export default function Home() {
           img22={DataScienceCourseData[0].OurExpert.img22}
           img23={DataScienceCourseData[0].OurExpert.img23}
           img20={DataScienceCourseData[0].OurExpert.img20}
-
         />
         <ProgramFee Fee={DataScienceCourseData[0].ProgramFee.Fee}
          Emi={DataScienceCourseData[0].ProgramFee.Emi} />
