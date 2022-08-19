@@ -12,7 +12,7 @@ import OurExpert from "../Components/CoursePage/OurExpert/OurExpert";
 import CourseFee from "../Components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
 import OtherCertificate from "../Components/CoursePage/OtherCertificate/OtherCertificate";
-import { AiMlCourseData } from "../Data/AiMlData";
+import { MlCourseData } from "../Data/MlData";
 import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
 import React, { useState } from "react";
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
@@ -87,105 +87,110 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} />
           </div>
         </Popup>
+
         <FirstSection
-          deskTopPara="Boost Your Professional Growth "
-          deskTopPara1="To a Whole New Level"
-          spanTitleText="Advance Program"
-          mTitle="Artificial Intelligence and Machine Learning"
-          mTopPara="Boost Your Professional Growth "
-          spanMTitleText="Advance Program"
-          mTopPara1="To a Whole New Level"
-          title="Artificial Intelligence and Machine Learning"
-          desc="With demanding industry projects, you can acquire the most advanced technical expertise possible. Be a master even without a master's degree."
-          width="721"
-          height="632"
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course3.png"
-          alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
+        deskTopPara={MlCourseData[0].FirstSection.deskTopPara} 
+        deskTopPara1={MlCourseData[0].FirstSection.deskTopPara1}
+        spanTitleText={MlCourseData[0].FirstSection.spanTitleText}
+        mTitle={MlCourseData[0].FirstSection.mTitle}
+        mTopPara={MlCourseData[0].FirstSection.mTopPara}
+        spanMTitleText={MlCourseData[0].FirstSection.spanMTitleText}
+        mTopPara1={MlCourseData[0].FirstSection.mTopPara1}
+        title={MlCourseData[0].FirstSection.title}
+        desc={MlCourseData[0].FirstSection.desc}
+        width={MlCourseData[0].FirstSection.width}
+        height={MlCourseData[0].FirstSection.height}
+        src={MlCourseData[0].FirstSection.src}
+        alt={MlCourseData[0].FirstSection.alt}
+        srcD={MlCourseData[0].FirstSection.srcD}
         />
         <div className={styles.program}>
           <ProgramInfo
-            p1="Global Recognition"
-            p11="From IBM"
-            p2="Industry Standard"
-            p22="Training"
-            p3="Career Assistance"
-            p33="For Professionals"
-            p4="Financing as low as"
-            p44="₹ 9,342/month"
+          p1={MlCourseData[0].ProgramInfo.p1}
+          p11={MlCourseData[0].ProgramInfo.p11}
+          p2={MlCourseData[0].ProgramInfo.p2}
+          p22={MlCourseData[0].ProgramInfo.p22}
+          p3={MlCourseData[0].ProgramInfo.p3}
+          p33={MlCourseData[0].ProgramInfo.p33}
+          p4={MlCourseData[0].ProgramInfo.p4}
+          p44={MlCourseData[0].ProgramInfo.p44}
           />
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Why Enroll In This Program?"
-            Box1h5="Custom-fit Training"
-            box1desc="Get specially designed modules as per your dream AI role. Learn latest ML applications."
-            Box2h5="Domain Focused"
-            box2desc="Obtain cutting-edge Al and ML skills as per demanding IT-industry standards. Choose any domain of your choice."
-            Box3h5="Premium Mentoring"
-            box3desc="Enjoy and learn from mock interviews and CV writing workshops with MAANG AI/ML industry experts."
-            Box4h5="Hands-on Experience"
-            box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
+          title={MlCourseData[0].BoxShape.title}
+          Box1h5={MlCourseData[0].BoxShape.Box1h5}
+          box1desc={MlCourseData[0].BoxShape.box1desc}
+          Box2h5={MlCourseData[0].BoxShape.Box2h5}
+          box2desc={MlCourseData[0].BoxShape.box2desc}
+          Box3h5={MlCourseData[0].BoxShape.Box3h5}
+          box3desc={MlCourseData[0].BoxShape.box3desc}
+          Box4h5={MlCourseData[0].BoxShape.Box4h5}
+          box4desc={MlCourseData[0].BoxShape.box4desc}
           />
         </div>
         <CourseReview />
         <Certificate />
         <OtherCertificate
-          OCHead1="Deep Learning Fundamentals"
-          OCP1="Earn industrial badge on neural networks, and convolutional networks like DL skills."
-          OCHead2="Deep Learning with TensorFlow"
-          OCP2="Get certified for your Industrial-level TensorFlow application expertise."
-          OCHead3="Machine Learning with Python"
-          OCP3="Validate your python expertise for ML algo designing."
-          OCHead4="Accelerating Deep Learning with GPUs"
-          OCP4="Industrial badge on GPU handling mastery for Cloud, AI & ML."
+        OCHead1={MlCourseData[0].OtherCertificate.OCHead1}
+        OCP1={MlCourseData[0].OtherCertificate.OCP1}
+        OCHead2={MlCourseData[0].OtherCertificate.OCHead2}
+        OCP2={MlCourseData[0].OtherCertificate.OCP2}
+        OCHead3={MlCourseData[0].OtherCertificate.OCHead3}
+        OCP3={MlCourseData[0].OtherCertificate.OCP3}
+        OCHead4={MlCourseData[0].OtherCertificate.OCHead4}
+        OCP4={MlCourseData[0].OtherCertificate.OCP4}
         />
         <SyllabusNew
-          syllabus={AiMlCourseData[0].syllabus}
-          syllabusDesc={AiMlCourseData[0].syllabusDesc}
-          popupHead={AiMlCourseData[0].popupHead}
+          syllabus={MlCourseData[0].syllabus}
+          CSyllabus={MlCourseData[0].CSyllabus}
+          CourseHighlights={MlCourseData[0].CourseHighlights}
+          syllabusDesc={MlCourseData[0].syllabusDesc}
+          popupHead={MlCourseData[0].popupHead}
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
-          hours="350+ Hours"
-          project="15+ Real Time"
+          hours={MlCourseData[0].hours}
+          project={MlCourseData[0].project}
         />
           <OurExpert
-          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
-          img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png"
-          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png"
-          img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/4.png"
-          img5="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/5.png"
-          img6="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/6.png"
-          img7="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png"
-          img8="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png"
-          img9="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
-          img10="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/10.png"
-          img11="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/11.png"
-          img12="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/12.png"
-          img13="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/13.png"
-          img14="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/14.png"
-          img15="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/15.png"
-          img16="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/16.png"
-          img17="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/17.png"
-          img18="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/18.png"
-          img19="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/19.png"
-          img21="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png"
-          img22="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png"
-          img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
-          img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
+          img1={MlCourseData[0].OurExpert.img1}
+          img2={MlCourseData[0].OurExpert.img2}
+          img3={MlCourseData[0].OurExpert.img3}
+          img4={MlCourseData[0].OurExpert.img4}
+          img5={MlCourseData[0].OurExpert.img5}
+          img6={MlCourseData[0].OurExpert.img6}
+          img7={MlCourseData[0].OurExpert.img7}
+          img8={MlCourseData[0].OurExpert.img8}
+          img9={MlCourseData[0].OurExpert.img9}
+          img10={MlCourseData[0].OurExpert.img10}
+          img11={MlCourseData[0].OurExpert.img11}
+          img12={MlCourseData[0].OurExpert.img12}
+          img13={MlCourseData[0].OurExpert.img13}
+          img14={MlCourseData[0].OurExpert.img14}
+          img15={MlCourseData[0].OurExpert.img15}
+          img16={MlCourseData[0].OurExpert.img16}
+          img17={MlCourseData[0].OurExpert.img17}
+          img18={MlCourseData[0].OurExpert.img18}
+          img19={MlCourseData[0].OurExpert.img19}
+          img21={MlCourseData[0].OurExpert.img21}
+          img22={MlCourseData[0].OurExpert.img22}
+          img23={MlCourseData[0].OurExpert.img23}
+          img20={MlCourseData[0].OurExpert.img20}
         />
-        <ProgramFee Emi="₹ 9,342/month" Fee="₹ 95,000 +GST" />
+        <ProgramFee Emi={MlCourseData[0].ProgramFee.Emi}
+        Fee={MlCourseData[0].ProgramFee.Fee} CourseFeeAndFinancing={MlCourseData[0].ProgramFee.CourseFeeAndFinancing} />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
-          <Project project="15+ Projects" domain="7+" />
+          <Project  project={MlCourseData[0].Project.project}
+          domain={MlCourseData[0].Project.domain}/>
         </div>
         <CourseFee
-          CourseFeeHead="Artificial Intelligence & Machine Learning Program : Batch Details"
-          CourseFeePara="Online Classroom"
-          CourseFeelist1="Online Interactive Classes"
-          CourseFeelist2="Weekend and Weekday Batches"
-          CourseFeelist3="Extra Doubt Clearance Sessions"
-          CourseFeelist4="Multiple Domain Selection Options"
-          CourseFeelist5="Company-based Mock Interviews"
+        CourseFeeHead={MlCourseData[0].CourseFee.CourseFeeHead}
+        CourseFeePara={MlCourseData[0].CourseFee.CourseFeePara}
+        CourseFeelist1={MlCourseData[0].CourseFee.CourseFeelist1}
+        CourseFeelist2={MlCourseData[0].CourseFee.CourseFeelist2}
+        CourseFeelist3={MlCourseData[0].CourseFee.CourseFeelist3}
+        CourseFeelist4={MlCourseData[0].CourseFee.CourseFeelist4}
+        CourseFeelist5={MlCourseData[0].CourseFee.CourseFeelist5}
         />
         <LearnSupport />
         <Footer />

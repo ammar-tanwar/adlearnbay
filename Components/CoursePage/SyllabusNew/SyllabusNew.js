@@ -26,6 +26,8 @@ function SyllabusNew({
   project,
   hours,
   srcD,
+  CSyllabus,
+  CourseHighlights,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -71,7 +73,7 @@ function SyllabusNew({
       <div className={styles.syllabusLeft}>
         <div className={styles.Syllabusbutton}>
           <div>
-            <h4>Data Science Course Syllabus</h4>
+            <h4>{CSyllabus}</h4>
           </div>
           <div className={styles.btnWrapper}>
           <button onClick={popupShow} style={{margin:"auto"}}>
@@ -163,7 +165,7 @@ function SyllabusNew({
           <div className={styles.PProgrammain}>
             <div className={styles.PProgram}>
               <p>
-                <span>Data Science Course High</span>lights
+                <span> {CourseHighlights}</span>
               </p>
             </div>
             <div className={styles.PProgramInner}>

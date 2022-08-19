@@ -85,101 +85,106 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          deskTopPara="Get ahead of the competition "
-          deskTopPara1="with popular skill sets."
-          mTopPara="Get ahead of the competition  "
-          mTopPara1="with popular skill sets."
-          mTitle="Data Analytics Certification Program"
-          spanMTitleText="For Professionals"
-          title="Data Analytics Certification Program"
-          spanTitleText="For Professionals"
-          desc="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course6.png"
-          width="760"
-          height="611"
-          alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
+          deskTopPara={DataAnalyticsCourseData[0].FirstSection.deskTopPara}
+          deskTopPara1={DataAnalyticsCourseData[0].FirstSection.deskTopPara1}
+          spanTitleText={DataAnalyticsCourseData[0].FirstSection.spanTitleText}
+          mTitle={DataAnalyticsCourseData[0].FirstSection.mTitle}
+          mTopPara={DataAnalyticsCourseData[0].FirstSection.mTopPara}
+          spanMTitleText={DataAnalyticsCourseData[0].FirstSection.spanMTitleText}
+          mTopPara1={DataAnalyticsCourseData[0].FirstSection.mTopPara1}
+          title={DataAnalyticsCourseData[0].FirstSection.title}
+          desc={DataAnalyticsCourseData[0].FirstSection.desc}
+          width={DataAnalyticsCourseData[0].FirstSection.width}
+          height={DataAnalyticsCourseData[0].FirstSection.height}
+          src={DataAnalyticsCourseData[0].FirstSection.src}
+          alt={DataAnalyticsCourseData[0].FirstSection.alt}
+          srcD={DataAnalyticsCourseData[0].FirstSection.srcD}
         />
         <div className={styles.program}>
           <ProgramInfo
-            p1="Aimed for"
-            p11="Professional Beginners"
-            p2="14 LPA - 22 LPA"
-            p22="Salary Package"
-            p3="1:1"
-            p33="Career Support"
-            p4="Financing as low as"
-            p44="₹ 6,392/month"
+            p1={DataAnalyticsCourseData[0].ProgramInfo.p1}
+            p11={DataAnalyticsCourseData[0].ProgramInfo.p11}
+            p2={DataAnalyticsCourseData[0].ProgramInfo.p2}
+            p22={DataAnalyticsCourseData[0].ProgramInfo.p22}
+            p3={DataAnalyticsCourseData[0].ProgramInfo.p3}
+            p33={DataAnalyticsCourseData[0].ProgramInfo.p33}
+            p4={DataAnalyticsCourseData[0].ProgramInfo.p4}
+            p44={DataAnalyticsCourseData[0].ProgramInfo.p44}
           />
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Why Enroll In This Program?"
-            Box1h5="Custom-fit Training"
-            box1desc="Get specially designed modules as per your dream Data Analytics role. Master the trending analytical tools."
-            Box2h5="Exclusive Hackathons"
-            box2desc="Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by Learnbay experts."
-            Box3h5="Premium Mentoring"
-            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts."
-            Box4h5="Hands-on Experience"
-            box4desc="Get diligent real-world project experience, spanning from beginner’s level complexity, directly from relevant companies."
+            title={DataAnalyticsCourseData[0].BoxShape.title}
+            Box1h5={DataAnalyticsCourseData[0].BoxShape.Box1h5}
+            box1desc={DataAnalyticsCourseData[0].BoxShape.box1desc}
+            Box2h5={DataAnalyticsCourseData[0].BoxShape.Box2h5}
+            box2desc={DataAnalyticsCourseData[0].BoxShape.box2desc}
+            Box3h5={DataAnalyticsCourseData[0].BoxShape.Box3h5}
+            box3desc={DataAnalyticsCourseData[0].BoxShape.box3desc}
+            Box4h5={DataAnalyticsCourseData[0].BoxShape.Box4h5}
+            box4desc={DataAnalyticsCourseData[0].BoxShape.box4desc}
           />
         </div>
         <CourseReview />
         <Certificate
-          title="Course Completion Certificate from IBM"
-          desc="Complete your training with the internationally recognized certificate."
-          desc2="Validate your Data Analytics skills with IBM Course Completion Certificate."
-          desc3="Get acknowledged in IT sector by adding IBM Certificate to your profile."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BA-DA.jpeg"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
-        />
+          title={DataAnalyticsCourseData[0].Certificate.title}
+          desc={DataAnalyticsCourseData[0].Certificate.desc}
+          desc2={DataAnalyticsCourseData[0].Certificate.desc2}
+          desc3={DataAnalyticsCourseData[0].Certificate.desc3}
+          src={DataAnalyticsCourseData[0].Certificate.src}
+          srcD={DataAnalyticsCourseData[0].Certificate.srcD}
+        ></Certificate>
 
         <SyllabusNew
           syllabus={DataAnalyticsCourseData[0].syllabus}
+          CSyllabus={DataAnalyticsCourseData[0].CSyllabus}
+          CourseHighlights={DataAnalyticsCourseData[0].CourseHighlights}
           syllabusDesc={DataAnalyticsCourseData[0].syllabusDesc}
           popupHead={DataAnalyticsCourseData[0].popupHead}
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
-          hours="180+ Hours"
-          project="5+ Real Time"
+          srcD={DataAnalyticsCourseData[0].srcD}
+          hours={DataAnalyticsCourseData[0].hours}
+          project={DataAnalyticsCourseData[0].project}
         />
-                <OurExpert
-          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
-          img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png"
-          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png"
-          img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/4.png"
-          img5="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/5.png"
-          img6="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/6.png"
-          img7="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png"
-          img8="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png"
-          img9="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
-          img10="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/10.png"
-          img11="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/11.png"
-          img12="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/12.png"
-          img13="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/13.png"
-          img14="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/14.png"
-          img15="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/15.png"
-          img16="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/16.png"
-          img17="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/17.png"
-          img18="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/18.png"
-          img19="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/19.png"
-          img21="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png"
-          img22="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png"
-          img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
-          img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
+        <OurExpert
+          img1={DataAnalyticsCourseData[0].OurExpert.img1}
+          img2={DataAnalyticsCourseData[0].OurExpert.img2}
+          img3={DataAnalyticsCourseData[0].OurExpert.img3}
+          img4={DataAnalyticsCourseData[0].OurExpert.img4}
+          img5={DataAnalyticsCourseData[0].OurExpert.img5}
+          img6={DataAnalyticsCourseData[0].OurExpert.img6}
+          img7={DataAnalyticsCourseData[0].OurExpert.img7}
+          img8={DataAnalyticsCourseData[0].OurExpert.img8}
+          img9={DataAnalyticsCourseData[0].OurExpert.img9}
+          img10={DataAnalyticsCourseData[0].OurExpert.img10}
+          img11={DataAnalyticsCourseData[0].OurExpert.img11}
+          img12={DataAnalyticsCourseData[0].OurExpert.img12}
+          img13={DataAnalyticsCourseData[0].OurExpert.img13}
+          img14={DataAnalyticsCourseData[0].OurExpert.img14}
+          img15={DataAnalyticsCourseData[0].OurExpert.img15}
+          img16={DataAnalyticsCourseData[0].OurExpert.img16}
+          img17={DataAnalyticsCourseData[0].OurExpert.img17}
+          img18={DataAnalyticsCourseData[0].OurExpert.img18}
+          img19={DataAnalyticsCourseData[0].OurExpert.img19}
+          img21={DataAnalyticsCourseData[0].OurExpert.img21}
+          img22={DataAnalyticsCourseData[0].OurExpert.img22}
+          img23={DataAnalyticsCourseData[0].OurExpert.img23}
+          img20={DataAnalyticsCourseData[0].OurExpert.img20}
         />
-        <ProgramFee Emi="₹ 6,392/month" Fee="₹ 65,000 +GST" />
+        <ProgramFee Emi={DataAnalyticsCourseData[0].ProgramFee.Emi}
+          Fee={DataAnalyticsCourseData[0].ProgramFee.Fee}
+          CourseFeeAndFinancing={DataAnalyticsCourseData[0].ProgramFee.CourseFeeAndFinancing} />
         <div className={styles.ProjectWrapper} id="project">
-          <Project project="5+ Projects" domain="7+" />
+          <Project project={DataAnalyticsCourseData[0].Project.project}
+            domain={DataAnalyticsCourseData[0].Project.domain} />
         </div>
         <CourseFee
-          CourseFeeHead="Data Analytics Program : Batch Details"
-          CourseFeePara="Online Classroom"
-          CourseFeelist1="Online Interactive Classes"
-          CourseFeelist2="Weekend and Weekday Batches"
-          CourseFeelist3="Extra Doubt Clearance Sessions"
-          CourseFeelist4="Project-Based Learning"
-          CourseFeelist5="Company-based Mock Interviews"
+          CourseFeeHead={DataAnalyticsCourseData[0].CourseFee.CourseFeeHead}
+          CourseFeePara={DataAnalyticsCourseData[0].CourseFee.CourseFeePara}
+          CourseFeelist1={DataAnalyticsCourseData[0].CourseFee.CourseFeelist1}
+          CourseFeelist2={DataAnalyticsCourseData[0].CourseFee.CourseFeelist2}
+          CourseFeelist3={DataAnalyticsCourseData[0].CourseFee.CourseFeelist3}
+          CourseFeelist4={DataAnalyticsCourseData[0].CourseFee.CourseFeelist4}
+          CourseFeelist5={DataAnalyticsCourseData[0].CourseFee.CourseFeelist5}
         />
         <LearnSupport />
         <Footer />

@@ -8,7 +8,7 @@ import Navbar from "../Components/CoursePage/Navbar/Navbar";
 import Form from "../Components/Form/Form";
 import Certificate from "../Components/CoursePage/Certificatejob/Certificate";
 import Project from "../Components/CoursePage/Project/Project";
-import OurExpert from "../Components/CoursePage/OurExpert/OurExpert";
+import OurExpert from "../Components/CoursePage/OurExpert/OurExpert"; 
 import CourseFee from "../Components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
 import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
@@ -86,101 +86,104 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          deskTopPara="Boost your career opportunities "
-          deskTopPara1="by developing relevant skills."
-          mTitle="Data Science and AI Program "
-          spanMTitleText="With Job Guarantee"
-          mTopPara="Boost your career opportunities "
-          mTopPara1="by developing relevant skills."
-          title="Data Science and AI Program "
-          spanTitleText="with 100% Job Guarantee"
-          desc="✓ Domain Orientated approach ✓ Assured placement within 18 months."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course5.png"
-          width="829"
-          height="646"
-          alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Job+Guarantee+or+100%25+Money+Back+Data+Science+%26+AI+Certification+Program+Learnbay.pdf"
+        deskTopPara={JobGuaranteeCourseData[0].FirstSection.deskTopPara} 
+        deskTopPara1={JobGuaranteeCourseData[0].FirstSection.deskTopPara1}
+        spanTitleText={JobGuaranteeCourseData[0].FirstSection.spanTitleText}
+        mTitle={JobGuaranteeCourseData[0].FirstSection.mTitle}
+        mTopPara={JobGuaranteeCourseData[0].FirstSection.mTopPara}
+        spanMTitleText={JobGuaranteeCourseData[0].FirstSection.spanMTitleText}
+        mTopPara1={JobGuaranteeCourseData[0].FirstSection.mTopPara1}
+        title={JobGuaranteeCourseData[0].FirstSection.title}
+        desc={JobGuaranteeCourseData[0].FirstSection.desc}
+        width={JobGuaranteeCourseData[0].FirstSection.width}
+        height={JobGuaranteeCourseData[0].FirstSection.height}
+        src={JobGuaranteeCourseData[0].FirstSection.src}
+        alt={JobGuaranteeCourseData[0].FirstSection.alt}
+        srcD={JobGuaranteeCourseData[0].FirstSection.srcD}
         />
         <div className={styles.program}>
           <ProgramInfo
-            p1="Aimed for"
-            p11="Working Professionals"
-            p2="35 LPA - 50 LPA"
-            p22="Salary Package"
-            p3="1:1"
-            p33="Career Support"
-            p4="Financing as low as"
-            p44="₹ 12,292/month"
+          p1={JobGuaranteeCourseData[0].ProgramInfo.p1}
+          p11={JobGuaranteeCourseData[0].ProgramInfo.p11}
+          p2={JobGuaranteeCourseData[0].ProgramInfo.p2}
+          p22={JobGuaranteeCourseData[0].ProgramInfo.p22}
+          p3={JobGuaranteeCourseData[0].ProgramInfo.p3}
+          p33={JobGuaranteeCourseData[0].ProgramInfo.p33}
+          p4={JobGuaranteeCourseData[0].ProgramInfo.p4}
+          p44={JobGuaranteeCourseData[0].ProgramInfo.p44}
           />
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Why Enroll In This Program?"
-            Box1h5="Custom-fit Training"
-            box1desc="Get specially designed modules as per your dream job profile. Learn demanding DS/AI applications."
-            Box2h5="Domain Focused"
-            box2desc="Obtain cutting-edge skills as per demanding IT-industry standards. Choose from 10+ domains."
-            Box3h5="Premium Mentoring"
-            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG Data Science/AI experts."
-            Box4h5="Hands-on Experience"
-            box4desc="Get diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
+          title={JobGuaranteeCourseData[0].BoxShape.title}
+          Box1h5={JobGuaranteeCourseData[0].BoxShape.Box1h5}
+          box1desc={JobGuaranteeCourseData[0].BoxShape.box1desc}
+          Box2h5={JobGuaranteeCourseData[0].BoxShape.Box2h5}
+          box2desc={JobGuaranteeCourseData[0].BoxShape.box2desc}
+          Box3h5={JobGuaranteeCourseData[0].BoxShape.Box3h5}
+          box3desc={JobGuaranteeCourseData[0].BoxShape.box3desc}
+          Box4h5={JobGuaranteeCourseData[0].BoxShape.Box4h5}
+          box4desc={JobGuaranteeCourseData[0].BoxShape.box4desc}
           />
         </div>
         <CourseReview />
         <Certificate
-          title="Course Completion Certificate from IBM"
-          desc="Complete your training with the internationally recognized certificate."
-          desc2="Validate your Data Science and AI skills with IBM Course Completion Certificate."
-          desc3="Get acknowledged in IT sector by adding IBM Certificate to your profile."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/DS-AI-1.jpeg"
+          title={JobGuaranteeCourseData[0].Certificate.title}
+          desc={JobGuaranteeCourseData[0].Certificate.desc}
+          desc2={JobGuaranteeCourseData[0].Certificate.desc2}
+          desc3={JobGuaranteeCourseData[0].Certificate.desc3}
+          src={JobGuaranteeCourseData[0].Certificate.src}
         />
         <SyllabusNew
           syllabus={JobGuaranteeCourseData[0].syllabus}
+          CSyllabus={JobGuaranteeCourseData[0].CSyllabus}
+          CourseHighlights={JobGuaranteeCourseData[0].CourseHighlights}
           syllabusDesc={JobGuaranteeCourseData[0].syllabusDesc}
           popupHead={JobGuaranteeCourseData[0].popupHead}
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Job+Guarantee+or+100%25+Money+Back+Data+Science+%26+AI+Certification+Program+Learnbay.pdf"
-          hours="500+ Hours"
-          project="15+ Real Time"
+          srcD={JobGuaranteeCourseData[0].srcD}
+          hours={JobGuaranteeCourseData[0].hours}
+          project={JobGuaranteeCourseData[0].project}
         />
         <OurExpert
-          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
-          img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png"
-          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png"
-          img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/4.png"
-          img5="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/5.png"
-          img6="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/6.png"
-          img7="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png"
-          img8="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png"
-          img9="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
-          img10="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/10.png"
-          img11="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/11.png"
-          img12="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/12.png"
-          img13="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/13.png"
-          img14="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/14.png"
-          img15="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/15.png"
-          img16="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/16.png"
-          img17="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/17.png"
-          img18="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/18.png"
-          img19="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/19.png"
-          img21="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png"
-          img22="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png"
-          img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
-          img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
+        img1={JobGuaranteeCourseData[0].OurExpert.img1}
+        img2={JobGuaranteeCourseData[0].OurExpert.img2}
+        img3={JobGuaranteeCourseData[0].OurExpert.img3}
+        img4={JobGuaranteeCourseData[0].OurExpert.img4}
+        img5={JobGuaranteeCourseData[0].OurExpert.img5}
+        img6={JobGuaranteeCourseData[0].OurExpert.img6}
+        img7={JobGuaranteeCourseData[0].OurExpert.img7}
+        img8={JobGuaranteeCourseData[0].OurExpert.img8}
+        img9={JobGuaranteeCourseData[0].OurExpert.img9}
+        img10={JobGuaranteeCourseData[0].OurExpert.img10}
+        img11={JobGuaranteeCourseData[0].OurExpert.img11}
+        img12={JobGuaranteeCourseData[0].OurExpert.img12}
+        img13={JobGuaranteeCourseData[0].OurExpert.img13}
+        img14={JobGuaranteeCourseData[0].OurExpert.img14}
+        img15={JobGuaranteeCourseData[0].OurExpert.img15}
+        img16={JobGuaranteeCourseData[0].OurExpert.img16}
+        img17={JobGuaranteeCourseData[0].OurExpert.img17}
+        img18={JobGuaranteeCourseData[0].OurExpert.img18}
+        img19={JobGuaranteeCourseData[0].OurExpert.img19}
+        img21={JobGuaranteeCourseData[0].OurExpert.img21}
+        img22={JobGuaranteeCourseData[0].OurExpert.img22}
+        img23={JobGuaranteeCourseData[0].OurExpert.img23}
+        img20={JobGuaranteeCourseData[0].OurExpert.img20}
         />
-        <ProgramFee Emi="₹ 12,292/month" Fee="₹ 1,25,000 +GST" />
+        <ProgramFee Emi ={JobGuaranteeCourseData[0].ProgramFee.Emi}
+        Fee={JobGuaranteeCourseData[0].ProgramFee.Fee} CourseFeeAndFinancing={JobGuaranteeCourseData[0].ProgramFee.CourseFeeAndFinancing} />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
-          <Project project="15+ Projects" domain="7+" />
+          <Project project={JobGuaranteeCourseData[0].Project.project}
+          domain={JobGuaranteeCourseData[0].Project.domain} />
         </div>
         <CourseFee
-          CourseFeeHead="Data Science and AI with
-      Job Guarantee Program : Batch Details"
-          CourseFeePara="Online Classroom"
-          CourseFeelist1="Online Interactive Classes"
-          CourseFeelist2="Weekend and Weekday Batches"
-          CourseFeelist3="Extra Clearance Sessions"
-          CourseFeelist4="Multiple Domain & Project Experties Selection Options"
-          CourseFeelist5="Company-based Mock Interviews"
+        CourseFeeHead={JobGuaranteeCourseData[0].CourseFee.CourseFeeHead}
+        CourseFeePara={JobGuaranteeCourseData[0].CourseFee.CourseFeePara}
+        CourseFeelist1={JobGuaranteeCourseData[0].CourseFee.CourseFeelist1}
+        CourseFeelist2={JobGuaranteeCourseData[0].CourseFee.CourseFeelist2}
+        CourseFeelist3={JobGuaranteeCourseData[0].CourseFee.CourseFeelist3}
+        CourseFeelist4={JobGuaranteeCourseData[0].CourseFee.CourseFeelist4}
+        CourseFeelist5={JobGuaranteeCourseData[0].CourseFee.CourseFeelist5}
         />
         <LearnSupport />
         <Footer />

@@ -15,7 +15,7 @@ import Footer from "../Components/CoursePage/Footer/Footer";
 import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
 import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
 import React, { useState } from "react";
-import { DataScienceCourseData } from "../Data/DataScienceCourse";
+import { DataScienceCourseData } from "../Data/DataScienceCourse.json";
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
 
@@ -134,6 +134,8 @@ export default function Home() {
         <Certificate />
         <SyllabusNew
           syllabus={DataScienceCourseData[0].syllabus}
+          CSyllabus={DataScienceCourseData[0].CSyllabus}
+          CourseHighlights={DataScienceCourseData[0].CourseHighlights}
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
           popupHead={DataScienceCourseData[0].popupHead}
           hours={DataScienceCourseData[0].hours}
@@ -165,7 +167,7 @@ export default function Home() {
           img20={DataScienceCourseData[0].OurExpert.img20}
         />
         <ProgramFee Fee={DataScienceCourseData[0].ProgramFee.Fee}
-         Emi={DataScienceCourseData[0].ProgramFee.Emi} />
+         Emi={DataScienceCourseData[0].ProgramFee.Emi} CourseFeeAndFinancing={DataScienceCourseData[0].ProgramFee.CourseFeeAndFinancing} />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project popupHead={DataScienceCourseData[0].Project.popupHead}

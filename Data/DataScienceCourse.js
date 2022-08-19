@@ -40,6 +40,9 @@ export const DataScienceCourseData = [
     popupHead: "Download Brochure",
     hours: "250+ Hours",
     project: "12+ Real Time",
+    CSyllabus:"Data Science Course Syllabus",
+    CourseHighlights:"Data Science Course Highlights",
+    
 
     syllabus: [
       {
@@ -310,6 +313,7 @@ export const DataScienceCourseData = [
     ProgramFee: {
       Fee: "₹79,000 + GST",
       Emi: "₹ 7,768/month",
+      CourseFeeAndFinancing:"Data Science Course Fee & Financing",
     },
     Project: {
       popupHead: "Download Project Brochure",

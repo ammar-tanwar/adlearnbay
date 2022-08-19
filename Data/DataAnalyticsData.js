@@ -1,60 +1,62 @@
 export const DataAnalyticsCourseData = [
   {
     FirstSection: {
-      deskTopPara: "Certification course for professionals",
-      mTopPara: "Certification course for professionals",
-      title: "Advance Data Science & AI with",
-      spanTitleText: "100% Job guarantee program",
-      desc: "Learn from mentors in live online classes. Work on Advance data science projects directly with companies and get real work       experience.",
+      deskTopPara: "Get ahead of the competition ",
+      deskTopPara1: "with popular skill sets.",
+      mTopPara: "Get ahead of the competition  ",
+      mTopPara1: "with popular skill sets.",
+      mTitle: "Data Analytics Certification Program",
+      spanMTitleText: "For Professionals",
+      title: "Data Analytics Certification Program",
+      spanTitleText: "For Professionals",
+      desc: "Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career.",
+      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course6.png",
+      width: "760",
+      height: "611",
+      alt: "AiMl Header",
+      srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
     },
     ProgramInfo: {
-      BatchDate: "5 August 2022",
-      BatchDuration: "09 Months",
-      Placement: "100% Job Guarantee",
+      p1: "Aimed for",
+      p11: "Professional Beginners",
+      p2: "14 LPA - 22 LPA",
+      p22: "Salary Package",
+      p3: "1:1",
+      p33: "Career Support",
+      p4: "Financing as low as",
+      p44: "₹ 6,392/month",
     },
     BoxShape: {
-      title: "Why Join this Programme?",
-      Box1h5: "Real Work experience",
-      box1desc:
-        "Don’t just learn, apply your learning. Work directly with companies to build relevant industry experience.",
-      Box2h5: "Build Your Own Course",
-      box2desc:
-        " Build personalized learning tracks to cater to your professional background and career goals.",
-      Box3h5: "100% Job Guarantee",
-      box3desc:
-        " Get 100% job guarantee in top companies and startups. Also, receive guidance on resume building and interview.",
-      Box4h5: "For Professionals",
-      box4desc:
-        "This Advanced Data Science and AI course is for professionals. Programming experience is not required.",
+      title: "Explore Our Programs",
+      Box1h5: "Custom-fit Training",
+      box1desc: "Get specially designed modules as per your dream Data Analytics role. Master the trending analytical tools.",
+      Box2h5: "Exclusive Hackathons",
+      box2desc: "Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by Learnbay experts.",
+      Box3h5: "Premium Mentoring",
+      box3desc: "Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts.",
+      Box4h5: "Hands-on Experience",
+      box4desc: "Get diligent real-world project experience, spanning from beginner’s level complexity, directly from relevant companies.",
     },
-    TopCTA: {
-      title: "Having Doubts? Talk with our Experts",
-      BeforeBR:
-        " Talk to our expert counsellor to know if your profile is suitable",
-      AfterBR: " for career transition in data science.",
-    },
-    Benefits: {
-      desc: " Learn Data science with multiple domain specialization and become a data scientist with our 100% job Guaranteed program.",
-      InterviewT: "Become data scientist in top Companies",
-      InterviewD:
-        "Interact and Learn from mentors working in top product based companies to crack interviews for your dream role.",
-      CertificateT: " Get real work experience from companies",
-      CertificateD:
-        "Work as a data scientist on live projects directly with companies to gain real work experience.",
-      JobT: "100% job guarantee or money back",
-      JobD: " Our program seeks to eliminate financial risk in the upskilling journey with our Job guarantee.",
-    },
+
     Certificate: {
-      popupHead: "Download Data science Brochure",
-      title: "Get Certificate directly from AI companies",
-      desc: "Get 100% job guarantee and real-work experience by learning from the best data science institute in India and crack interviews with confidence.",
+      title: "Course Completion Certificate from IBM",
+      desc: "Complete your training with the internationally recognized certificate.",
+      desc2: "Validate your Data Analytics skills with IBM Course Completion Certificate.",
+      desc3: "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
+      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BA-DA.jpeg",
+      srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
     },
-    RealWork: {
-      desc: "Our Advanced Data science and AI course with 100% job guarantee follows a project-based learning approach. Further, it       focuses on helping learners build relevant experience in the technologies to land your super dream job.",
-    },
+
     syllabusDesc:
       "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All sessions are covered practically with real-time industrial projects and case studies.",
     popupHead: "Download Data science Course Brochure",
+    srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
+    hours: "180+ Hours",
+    project: "5+ Real Time",
+
+    CSyllabus:"Data Analytic Course Syllabus",
+    CourseHighlights:" Data Analytic Course Highlights",
+   
     syllabus: [
       {
         Module0: {
@@ -852,7 +854,7 @@ export const DataAnalyticsCourseData = [
                   "ORDER BY.",
                   "IN, NOT IN.",
                   "NULL and NOT_NULL.",
-                  "Comparison Operators (=, >, >=, <=).",
+                  "Comparison Operators (:, >, >:, <:).",
                   "MySQL Warnings (Understand and Debug).",
                 ],
               },
@@ -1141,21 +1143,55 @@ export const DataAnalyticsCourseData = [
         },
       },
     ],
-    Review: {
-      title: "Why get enrolled in our Advanced Data Science and AI course?",
-      desc: " Learnbay’s Advanced Data Science and AI course with real-work experience is designed for creative minds and made for everyone. Take our data science training and experience the new era of education.",
+
+    OurExpert: {
+      img1: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png",
+      img2: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png",
+      img3: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png",
+      img4: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/4.png",
+      img5: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/5.png",
+      img6: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/6.png",
+      img7: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png",
+      img8: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png",
+      img9: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png",
+      img10: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/10.png",
+      img11: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/11.png",
+      img12: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/12.png",
+      img13: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/13.png",
+      img14: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/14.png",
+      img15: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/15.png",
+      img16: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/16.png",
+      img17: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/17.png",
+      img18: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/18.png",
+      img19: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/19.png",
+      img21: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png",
+      img22: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png",
+      img23: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png",
+      img20: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
-    Fee: {
-      desc: " The Advanced Data science and AI fee start from INR 59,000 (Excluding  GST). We aim to deliver to you quality education considering the aspect of feasibility.",
-      desc1:
-        "Learnbay's courses are designed giving importance to affordability. The Advanced Data Science and AI course fees is feasible to ensure fair reachability. Further, we provide you with options such as EMI to pay the course fees.",
-      BasicPrice: "₹ 59,000 + GST",
-      BasicDesc: "Get data science training from Industry experts",
-      ProPrice: "₹ 89,000 + GST",
-      ProDesc: " Get data science training with real work Experience",
-      ProMaxPrice: "₹ 1,30,000 + GST",
-      ProMaxDesc: " Get data science training with 100% Job Guarantee",
+
+
+    ProgramFee: {
+      Emi: "₹ 6,392/month",
+      Fee: "₹ 65,000 +GST",
+      CourseFeeAndFinancing:"Data Analytic Course Fee & Financing",
     },
+    Project: {
+      project: "5+ Projects",
+      domain: "7+",
+    },
+    CourseFee: {
+      CourseFeeHead: "Data Analytics Program : Batch Details",
+      CourseFeePara: "Data Analytics Online Classroom",
+      CourseFeelist1: "Online Interactive Classes",
+      CourseFeelist2: "Weekend and Weekday Batches",
+      CourseFeelist3: "Extra Doubt Clearance Sessions",
+      CourseFeelist4: "Project-Based Learning",
+      CourseFeelist5: "Company-based Mock Interviews",
+    },
+
+
+
     BatchDetails: {
       BatchHeader: "Advanced Data science and AI Next 2022 Cohort",
       BatchName1: "weekday Batch",
