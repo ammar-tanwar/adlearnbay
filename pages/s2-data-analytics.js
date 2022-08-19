@@ -1,21 +1,22 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import FirstSection from "../Components/HeroSectionAdvance/HeroSection";
-import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
-import GetHired from "../Components/GetHiredAdvance/GetHired";
-import Domain from "../Components/Domain/Domain";
-import BoxShape from "../Components/BoxshapeB/BoxShape";
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import FirstSection from "../Components/CoursePage/HeroSection/HeroSection";
+import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
+import BoxShape from "../Components/CoursePage/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
+import Navbar from "../Components/CoursePage/Navbar/Navbar";
 import Form from "../Components/Form/Form";
-import Certificate from "../Components/Certificate/Certificate";
-import Project from "../Components/Project/Project";
-import Syllabus from "../Components/SyllabusAdvance/Syllabus";
-import ToolsCovered from "../Components/ToolsCoveredAdvance/ToolsCovered";
-import OurExpert from "../Components/OurExpert/OurExpert";
-import Navbar from "../Components/Navbars8/Navbar";
-import Footer from "../Components/FooterNc/Footer";
-  
+import Certificate from "../Components/CoursePage/Certificatejob/Certificate";
+import Project from "../Components/CoursePage/Project/Project";
+import OurExpert from "../Components/CoursePage/OurExpert/OurExpert";
+import CourseFee from "../Components/CoursePage/CourseFee/CourseFee";
+import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
 import React, { useState } from "react";
+import { DataAnalyticsCourseData } from "../Data/DataAnalyticsData";
+import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
+import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
+import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
+import Footer from "../Components/CoursePage/Footer/Footer";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -24,10 +25,13 @@ export default function Home() {
     setPopups(true);
   };
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
-        <title>Learnbay Courses</title>
-        <meta name="description" content="Learnbay Courses" />
+        <title>Data Analytics Certification Program</title>
+        <meta
+          name="description"
+          content="Data Analytics Certification Program"
+        />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{
@@ -68,82 +72,118 @@ export default function Home() {
           }}
         />
       </Head>
-      <main>
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-        <div className="leftPopup">
-          <div className="whiteP" />
-        </div>
-        <div className="RightPopup">
-          <h5>Apply For Counselling</h5>
-          <p>Fill the below Details to get started</p>
-          <Form popup={true} setTrigger={setPopups} />
-        </div>
-      </Popup>
-      <Navbar />
-      <FirstSection
-        deskTopPara="Experience-based certification course for professionals"
-        mTopPara="Experience-based certification course for professionals"
-        title="Data Analytics Course"
-        spanTitleText="Domain Specialization For Professionals"
-        desc="This Advance program is suitable for professionals having more than 1+ years of work experience in any programming or non programming domain."
-      />
-      <div className={styles.program}>
-        <ProgramInfo
-          BatchDate="1+ Years Work Experience"
-          BatchDuration="Accredited with IBM"
-          Placement="12+ Real Time Projects"
-          EMI="₹ 10k/month*(9 Months)"
-        />
-      </div>
-      <GetHired />
-      <div className="Feature" id="Feature">
-        <BoxShape
-          title="Why Enroll In This Program"
-          Box1h5="Custom-fit Training"
-          box1desc="Get specially designed modules as per your dream DS role. Learn innovative AI applications."
-          Box2h5="Domain Focused"
-          box2desc="Obtain cutting-edge Al and DS skills as per demanding industry standards. Choose from 7+ electives."
-          Box3h5="Premium Mentoring"
-          box3desc="Learn how to crack interviews by attending CV writing workshops & mock interviews with FAANG expertise."
-          Box4h5="Hands-on Experience"
-          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
-        />
-      </div>
-      <div className={styles.ExpertWrapper}>
-        <div className={styles.expert}>
-          <h5>Our experts are from:</h5>
-        </div>
-        <div className={styles.expertBody}>
-          <OurExpert />
-        </div>
-      </div>
-      <div className={styles.cta}>
-        <div className={styles.left}></div>
-        <div className={styles.middle}>
-          <h6>Talk to our team directly.</h6>
-          <p>Reach out and a learning consultant will get in touch with you shortly.</p>
-        </div>
-        <div className={styles.right}>
-          <button onClick={popupShow}>Enquire Now</button>
-        </div>
-      </div>
-      <Certificate
-        popupHead="Download Brochure"
-        title="Earn a globally recognized Certified at the end of your learning journey."
-        desc="Get access to IBM cloud lab to keep an eye on trending industrial case studies of data mining, time-series forecasting, AI-based database management, and authenticated data handling."
-        desc2 ="Experts from IBM share their ideas and tactics to deal with tricky business problems within the regularly changing analytical environments."
-        desc3 ="Data Science Leads from IBM as instructors."
+      <main>  <Navbar popup={true} />
 
-      />
-      <Syllabus />
-      <ToolsCovered />
-      <Domain />
-      <div className={styles.ProjectWrapper} id="project">
-        <Project />
-      </div>
-       
-      <Footer />
-      </main> 
+        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+          <div className="leftPopup">
+            <div className="whiteP" />
+          </div>
+          <div className="RightPopup">
+            <h5>Apply For Counselling</h5>
+            <p>Fill the below details to get started</p>
+            <Form popup={true} setTrigger={setPopups} />
+          </div>
+        </Popup>
+        <FirstSection
+          deskTopPara="Get ahead of the competition "
+          deskTopPara1="with popular skill sets."
+          mTopPara="Get ahead of the competition  "
+          mTopPara1="with popular skill sets."
+          mTitle="Data Analytics Certification Program"
+          spanMTitleText="For Professionals"
+          title="Data Analytics Certification Program"
+          spanTitleText="For Professionals"
+          desc="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course6.png"
+          width="760"
+          height="611"
+          alt="AiMl Header"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
+        />
+        <div className={styles.program}>
+          <ProgramInfo
+            p1="Aimed for"
+            p11="Professional Beginners"
+            p2="14 LPA - 22 LPA"
+            p22="Salary Package"
+            p3="1:1"
+            p33="Career Support"
+            p4="Financing as low as"
+            p44="₹ 6,392/month"
+          />
+        </div>
+        <div className="Feature" id="Feature">
+          <BoxShape
+            title="Why Enroll In This Program?"
+            Box1h5="Custom-fit Training"
+            box1desc="Get specially designed modules as per your dream Data Analytics role. Master the trending analytical tools."
+            Box2h5="Exclusive Hackathons"
+            box2desc="Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by Learnbay experts."
+            Box3h5="Premium Mentoring"
+            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts."
+            Box4h5="Hands-on Experience"
+            box4desc="Get diligent real-world project experience, spanning from beginner’s level complexity, directly from relevant companies."
+          />
+        </div>
+        <CourseReview />
+        <Certificate
+          title="Course Completion Certificate from IBM"
+          desc="Complete your training with the internationally recognized certificate."
+          desc2="Validate your Data Analytics skills with IBM Course Completion Certificate."
+          desc3="Get acknowledged in IT sector by adding IBM Certificate to your profile."
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BA-DA.jpeg"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
+        />
+
+        <SyllabusNew
+          syllabus={DataAnalyticsCourseData[0].syllabus}
+          syllabusDesc={DataAnalyticsCourseData[0].syllabusDesc}
+          popupHead={DataAnalyticsCourseData[0].popupHead}
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
+          hours="180+ Hours"
+          project="5+ Real Time"
+        />
+                <OurExpert
+          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
+          img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png"
+          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png"
+          img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/4.png"
+          img5="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/5.png"
+          img6="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/6.png"
+          img7="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png"
+          img8="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png"
+          img9="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
+          img10="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/10.png"
+          img11="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/11.png"
+          img12="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/12.png"
+          img13="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/13.png"
+          img14="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/14.png"
+          img15="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/15.png"
+          img16="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/16.png"
+          img17="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/17.png"
+          img18="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/18.png"
+          img19="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/19.png"
+          img21="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png"
+          img22="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png"
+          img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png"
+          img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
+        />
+        <ProgramFee Emi="₹ 6,392/month" Fee="₹ 65,000 +GST" />
+        <div className={styles.ProjectWrapper} id="project">
+          <Project project="5+ Projects" domain="7+" />
+        </div>
+        <CourseFee
+          CourseFeeHead="Data Analytics Program : Batch Details"
+          CourseFeePara="Online Classroom"
+          CourseFeelist1="Online Interactive Classes"
+          CourseFeelist2="Weekend and Weekday Batches"
+          CourseFeelist3="Extra Doubt Clearance Sessions"
+          CourseFeelist4="Project-Based Learning"
+          CourseFeelist5="Company-based Mock Interviews"
+        />
+        <LearnSupport />
+        <Footer />
+      </main>
     </div>
-  )
+  );
 }
