@@ -41,7 +41,7 @@ const Certificate = ({ popupHead, title, desc, desc2, desc3 }) => {
         <p className={styles.pBotC}>{desc2}</p>
         <p className={styles.pBotC}>{desc3}</p>
         <div className={styles.btnWrapper}>
-          <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Brochures+W/Full+Stack+Web+Development+Program+(1).pdf" target="_blank"><button>
+          <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf" target="_blank"><button>
             <BiDownload className="bIcons" />
             Download Brochure
           </button></a>
