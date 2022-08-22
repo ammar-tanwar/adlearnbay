@@ -15,7 +15,7 @@ import Footer from "../Components/CoursePage/Footer/Footer";
 import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
 import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
 import React, { useState } from "react";
-import { DataScienceCourseData } from "../Data/DataScienceCourse.json";
+import { DataScienceCourseData } from "../Data/DataScienceCourse";
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
 
