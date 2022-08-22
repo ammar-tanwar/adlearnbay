@@ -552,7 +552,7 @@ export const JobGuaranteeCourseData = [
 
     CourseFee: {
 
-      CourseFeeHead: "Job Guarantee Program: Batch Details",
+      CourseFeeHead: "Job Guarantee Course: Batch Details",
       CourseFeePara: "Job Guarantee Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",

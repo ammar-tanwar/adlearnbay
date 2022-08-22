@@ -5,10 +5,22 @@ import styles from "./Navbar.module.css";
 import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaChevronDown } from "react-icons/fa";
-import Popup from "../Popup/Popup";
-import Form from "../Form/Form";
+import Popup from "../../Popup/Popup";
+import Form from "../../Form/Form";
 
-const Navbar = () => {
+
+const Navbar = ({
+  Href,
+  Href1,
+  Href2,
+  Href3,
+  Course,
+  Course1,
+  Course2,
+  Course3,
+  
+  
+}) => {
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
 
@@ -37,19 +49,19 @@ const Navbar = () => {
           <div className={show ? styles.mobileWrapper : styles.hide}>
             <div className={styles.mobileMenu}>
               <span onClick={showMenu}>
-                <Link href="/data-science-certification-courses-s2">Data Science & AI Certification</Link>
+                <Link href={Href}>{Course}</Link>
               </span>
 
               <span onClick={showMenu}>
-                <Link href="/advance-ai-ml-certification-s2">Advance AI & ML Certification</Link>
+                <Link href={Href1}>{Course1}</Link>
               </span>
 
               <span onClick={showMenu}>
-                <Link href="/data-science-ai-cert-for-managers-leaders-s2">Data Science & AI Cert. For Managers & Leaders</Link>
+                <Link href={Href2}>{Course2}</Link>
               </span>
 
               <span onClick={showMenu}>
-                <Link href="/job-guarantee-or-money-back-data-science-ai-s2">Job Guarantee or Money Back – Data Science & AI</Link>
+                <Link href={Href3}>{Course3}</Link>
               </span>
             </div>
           </div>
@@ -70,10 +82,10 @@ const Navbar = () => {
           <div className={styles.dropdown}>
             <button className={styles.dropbtn}>All Courses <FaChevronDown style={{ marginLeft: "5px" }} /></button>
             <div className={styles.dropdownContent}>
-              <a href="/data-science-certification-courses-s2">Advance Data Science & AI Certification</a>
-              <a href="/advance-ai-ml-certification-s2">Advance AI & ML Certification</a>
-              <a href="/data-science-ai-cert-for-managers-leaders-s2">Data Science & AI Cert. For Managers & Leaders</a>
-              <a href="/job-guarantee-or-money-back-data-science-ai-s2">Job Guarantee or Money Back – Data Science & AI</a>
+              <a href={Href}>{Course}</a>
+              <a href={Href1}>{Course1}</a>
+              <a href={Href2}>{Course2}</a>
+              <a href={Href3}>{Course3}</a>
             </div>
           </div>
 
@@ -90,3 +102,17 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+
+// "/data-science-certification-courses-s2"
+
+// Advance Data Science & AI Certification
+
+// "/advance-ai-ml-certification-s2"
+
+// Advance AI & ML Certification
+
+// "/data-science-ai-cert-for-managers-leaders-s2">Data Science & AI Cert. For Managers & Leaders
+
+// "/job-guarantee-or-money-back-data-science-ai-s2">Job Guarantee or Money Back – Data Science & AI

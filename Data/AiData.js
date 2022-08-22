@@ -3,12 +3,12 @@ export const AiCourseData = [
     FirstSection: {
       deskTopPara: "Boost Your Professional Growth ",
       deskTopPara1: "To a Whole New Level",
-      spanTitleText: "Advance Program",
-      mTitle: "Artificial Intelligence Course",
+      spanTitleText: "With Domain Specialization",
+      mTitle: "Advance Artificial Intelligence Course",
       mTopPara: "Boost Your Professional Growth ",
-      spanMTitleText: "Advance Program",
+      spanMTitleText: "With Domain Specialization",
       mTopPara1: "To a Whole New Level",
-      title: "Artificial Intelligence Course",
+      title: "Advance Artificial Intelligence Course",
       desc: "With demanding industry projects, you can acquire the most advanced technical expertise possible. Be a master even without a master's degree.",
       width: "721",
       height: "632",
@@ -409,7 +409,7 @@ export const AiCourseData = [
   Project: { project: "15+ Projects", domain: "7+", },
 
   CourseFee: {
-    CourseFeeHead: "Artificial Intelligence : Batch Details",
+    CourseFeeHead: "Artificial Intelligence Course : Batch Details",
     CourseFeePara: "Artificial Intelligence Online Classroom",
     CourseFeelist1: "Online Interactive Classes",
     CourseFeelist2: "Weekend and Weekday Batches",
