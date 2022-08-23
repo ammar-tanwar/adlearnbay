@@ -8,7 +8,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper";
 
-const Certificate = ({ popupHead, title, desc, desc2, desc3 }) => {
+const Certificate = ({ popupHead, title, desc, desc2, desc3, radio }) => {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -31,7 +31,7 @@ const Certificate = ({ popupHead, title, desc, desc2, desc3 }) => {
         <div className="RightPopup">
           <h5>{popupHead}</h5>
           <p>Please enter the following details to initiate your download</p>
-          <Form setTrigger={setPopups} downloadBrochure />
+          <Form setTrigger={setPopups} downloadBrochure radio={radio} />
         </div>
       </Popup>
       <div className={styles.left}>

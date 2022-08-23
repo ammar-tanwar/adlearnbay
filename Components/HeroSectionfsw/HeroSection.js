@@ -10,7 +10,7 @@ import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
 import { useRouter } from "next/router";
 
-const HeroSection = ({ deskTopPara, title, spanTitleText, desc, mTopPara, title1 }) => {
+const HeroSection = ({ deskTopPara, title, spanTitleText, desc, mTopPara, title1, radio }) => {
   const router = useRouter();
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
@@ -39,7 +39,7 @@ const HeroSection = ({ deskTopPara, title, spanTitleText, desc, mTopPara, title1
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           <p>Fill the below Details to get started</p>
-          <Form popup={true} setTrigger={setPopups} />
+          <Form popup={true} setTrigger={setPopups} radio={radio} />
         </div>
       </Popup>
       <div className={styles.left}>

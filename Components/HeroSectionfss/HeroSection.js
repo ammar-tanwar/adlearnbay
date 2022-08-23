@@ -14,6 +14,7 @@ const HeroSection = ({
   spanTitleText,
   desc,
   mTopPara,
+  radio,
 }) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
@@ -42,7 +43,7 @@ const HeroSection = ({
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           <p>Fill the below Details to get started</p>
-          <Form popup={true} setTrigger={setPopups} />
+          <Form popup={true} setTrigger={setPopups} radio={radio} />
         </div>
       </Popup>
       <div className={styles.left}>

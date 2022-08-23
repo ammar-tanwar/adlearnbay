@@ -172,6 +172,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       setQuery({
         name: "",
         email: "",
+        jobDescription: "",
         phone: "",
         workExperience: "",
         dateTime: "",
@@ -474,6 +475,16 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
             value={value}
             onChange={setValue}
             required
+          />
+        </div>
+        <div className={styles.formWrapper}>
+          <input
+            type="text"
+            name="jobDescription"
+            placeholder="Job Description*"
+            className={popup ? styles.EmailInputs : styles.EmailInput}
+            value={query.jobDescription}
+            onChange={handleParam()}
           />
         </div>
         <div className={popup ? styles.formWrappers : styles.formWrapper}>

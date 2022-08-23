@@ -76,11 +76,11 @@ export default function Home() {
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           <p>Fill the below Details to get started</p>
-          <Form popup={true} setTrigger={setPopups} />
+          <Form popup={true} setTrigger={setPopups} radio={true} />
         </div>
       </Popup>
-      <Navbar />
-      <FirstSection
+      <Navbar radio={true} />
+      <FirstSection radio={true}
         deskTopPara="Be a demanding Developer to stay ahead"
         mTopPara="Be a demanding Developer to stay ahead"
         title="Full Stack Web Development Program"
@@ -94,9 +94,9 @@ export default function Home() {
           EMI="₹ 11,800/month"
         />
       </div>
-      <GetHired />
+      <GetHired radio={true} />
       <div className="Feature" id="Feature">
-        <BoxShape
+        <BoxShape radio={true}
           title="Why Enroll In This Program"
           Box1h5="Custom-fit Training"
           box1desc="Learn with modules created just for your dream job. Become  an extraordinarily demanding web developer."
@@ -126,7 +126,7 @@ export default function Home() {
           <button onClick={popupShow}>Enquire Now</button>
         </div>
       </div>
-      <Certificate
+      <Certificate radio={true}
         popupHead="Download Brochure"
         title="Global Recognition : Course Completion Certificate from IBM"
         desc="Complete your training with the internationally recognized certificate."
@@ -134,7 +134,7 @@ export default function Home() {
         desc3 ="Get acknowledged in IT sector by adding IBM Certificate to your profile."
 
       />
-      <Syllabus />
+      <Syllabus radio={true} />
       <ToolsCovered />
       <div className={styles.ProjectWrapper} id="project">
         <Project />

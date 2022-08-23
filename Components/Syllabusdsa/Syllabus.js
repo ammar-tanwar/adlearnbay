@@ -13,7 +13,7 @@ import { BsFillCircleFill } from "react-icons/bs";
 import { AiOutlineDownload } from "react-icons/ai";
 import Popup from "../Popup/Popup";
 
-function Syllabus({ dsa }) {
+function Syllabus({ dsa, radio }) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -98,7 +98,7 @@ function Syllabus({ dsa }) {
         <div className="RightPopup">
           <h5>Download Brochure</h5>
           <p>Please enter the following details to initiate your download</p>
-          <Form setTrigger={setPopups} downloadBrochure />
+          <Form setTrigger={setPopups} downloadBrochure radio={radio} />
         </div>
       </Popup>
       <div className={styles.syllabusLeft}>
@@ -759,7 +759,7 @@ function Syllabus({ dsa }) {
             <p>Request More Information</p>
           </div>
           <div className={styles.PProgramInner}>
-            <Form />
+            <Form radio={true}/>
           </div>
         </div>
       </div>
