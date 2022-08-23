@@ -63,7 +63,7 @@ const GetHired = () => {
         <div className={styles.left}>
           <div className={styles.top}>
           <p>Weekend Batches: 11 Months</p>
-<p>Saturday & Sunday – 4 hours every day</p>
+<p>Saturday & Sunday – 3.5 hours every day</p>
           </div>
           <div className={styles.middle}>
             <p>Special Classes for non-programmers</p>

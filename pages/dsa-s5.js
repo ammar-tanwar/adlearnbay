@@ -95,7 +95,7 @@ export default function Home() {
             noCost="No Cost EMI"
             placement="Personal Mentor"
             Placement="1:1 Dedicated"
-            EMI="Starting at 6999"
+            EMI="₹ 6,883/month"
           />
         </div>
         <GetHired dsa={true} />

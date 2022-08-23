@@ -493,7 +493,7 @@ Capstone Projects
           <div className={styles.PProgramInner}>
             <p style={{display:"flex"}}>
               <MdOutlineLiveTv className={styles.PIcons} />
-              400+ Live sessions
+              500+ Live sessions
             </p>
             <p style={{display:"flex"}}>
               <SiCodeproject className={styles.PIcons} />

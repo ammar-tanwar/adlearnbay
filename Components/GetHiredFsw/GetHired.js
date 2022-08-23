@@ -50,9 +50,10 @@ const GetHired = ({ dsa }) => {
           <div className={styles.top}>
             <p>
               {dsa
-                ? "12+2 Live Projects"
-                : "12+ live projects and 2 capstone project"}
+                ? "12+ Live Projects"
+                : "12+ live projects "}
             </p>
+            
           </div>
           <div className={styles.middle}>
             <p>
@@ -130,3 +131,4 @@ const GetHired = ({ dsa }) => {
 };
 
 export default GetHired;
+// and 2 capstone project

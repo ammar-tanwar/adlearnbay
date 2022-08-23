@@ -55,7 +55,7 @@ const GetHired = () => {
 <p>Hybrid learning option across multiple cities</p>
           </div>
           <div className={styles.bottom}>
-          <p>12+ live projects and 2 fresh capstone project</p>
+          <p>12+ live projects</p>
           </div>
         </div>
         <div className={styles.left}>
@@ -83,3 +83,4 @@ const GetHired = () => {
 };
 
 export default GetHired;
+// and 2 fresh capstone project

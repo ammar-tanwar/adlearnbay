@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from 'next/head' 
 import styles from '../styles/Home.module.css'
 import FirstSection from "../Components/HeroSectionfss/HeroSection";
 import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
@@ -10,7 +10,7 @@ import Project from "../Components/Projectfswd/Project";
 import Syllabus from "../Components/Syllabusfss1/Syllabus";
 import Domain from "../Components/DomainFss/Domain";
 import OurExpert from "../Components/OurExpert/OurExpert";
-import Navbar from "../Components/Navbarfsds2/Navbar";
+import Navbar from "../Components/CoursePage/NavbarDyn/Navbar1";
 import Footer from "../Components/Footerfsds2/Footer";
   
 import React, { useState } from "react";
@@ -78,7 +78,18 @@ export default function Home() {
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
-      <Navbar />
+      <Navbar
+      Href="/fswd-s2"
+      Course="Full Stack Web Development Program"
+
+      Href1="/fssd-s2"
+      Course1="Full-Stack Software Development Program"
+
+      Href2="/dsa-s2"
+      Course2="DSA & System Design"
+
+      
+      />
       <FirstSection
         deskTopPara="Become a Tech Leader and Start Landing Six Figures with ease"
         mTopPara="Become a Tech Leader and Start Landing Six Figures with ease"
@@ -90,7 +101,7 @@ export default function Home() {
           BatchDate="Working Professionals"
           BatchDuration="Accredited with IBM"
           Placement="12+ Real Time Projects"
-          EMI="₹ 14k*(9 Months)"
+          EMI="₹ 10,816/month"
         />
       </div>
       <GetHired />

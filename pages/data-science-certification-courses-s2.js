@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from 'next/head' 
 import styles from '../styles/Home.module.css'
 import FirstSection from "../Components/HeroSectionAdvance/HeroSection";
 import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
@@ -105,7 +105,7 @@ export default function Home() {
           BatchDate="1+ Years Work Experience"
           BatchDuration="Accredited with IBM"
           Placement="12+ Real Time Projects"
-          EMI="₹ 10k/month*(9 Months)"
+          EMI="₹ 7,768/month"
         />
       </div>
       <GetHired />

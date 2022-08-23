@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.css' 
 import FirstSection from "../Components/HeroSection/HeroSection";
 import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
 import GetHired from "../Components/GetHired/GetHired";
@@ -12,7 +12,7 @@ import Project from "../Components/Project/Project";
 import Syllabus from "../Components/Syllabus/Syllabus";
 import ToolsCovered from "../Components/ToolsCovered/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
-import Navbar from "../Components/Navbars2/Navbar";
+import Navbar from "../Components/CoursePage/NavbarDyn/Navbar";
 import Footer from "../Components/Footers2/Footer";
   
 import React, { useState } from "react";
@@ -80,7 +80,23 @@ export default function Home() {
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
-      <Navbar />
+      <Navbar 
+      
+      Href="/data-science-certification-courses-s2"
+      Course="Data Science & AI Certification"
+
+      Href1="/advance-ai-ml-certification-s2"
+      Course1="Advance AI & ML Certification"
+
+      Href2="/data-science-ai-cert-for-managers-leaders-s2"
+      Course2="Data Science & AI Cert. For Managers & Leaders"
+
+      Href3="/job-guarantee-or-money-back-data-science-ai-s2"
+      Course3="Job Guarantee or Money Back – Data Science & AI"
+      
+      
+      
+      />
       <FirstSection
         deskTopPara="Experience-based certification course for professionals"
         mTopPara="Experience-based certification course for professionals"
@@ -93,7 +109,7 @@ export default function Home() {
           BatchDate="2+ Years Work Experience"
           BatchDuration="Accredited with IBM"
           Placement="15+ Real Time Projects"
-          EMI="₹ 16k/month*(9 Months)"
+          EMI="₹ 12,292/month"
         />
       </div>
       <GetHired />

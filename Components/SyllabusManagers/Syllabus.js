@@ -492,7 +492,7 @@ For Tech Lead, Team Lead,Managers
           <div className={styles.PProgramInner}>
             <p style={{display:"flex"}}>
               <MdOutlineLiveTv className={styles.PIcons} />
-              300+ Live sessions
+              400+ Live sessions
             </p>
             <p style={{display:"flex"}}>
               <SiCodeproject className={styles.PIcons} />

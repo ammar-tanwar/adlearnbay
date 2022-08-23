@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from 'next/head' 
 import styles from '../styles/Home.module.css'
 import FirstSection from "../Components/HeroSectionfsw/HeroSection";
 import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
@@ -11,7 +11,7 @@ import Project from "../Components/Projectfswd/Project";
 import Syllabus from "../Components/Syllabusfsw1/Syllabus";
 import ToolsCovered from "../Components/ToolsCoveredfs/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
-import Navbar from "../Components/Navbarfsds2/Navbar";
+import Navbar from "../Components/CoursePage/NavbarDyn/Navbar1";
 import Footer from "../Components/Footerfsds2/Footer";
   
 import React, { useState } from "react";
@@ -79,7 +79,17 @@ export default function Home() {
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
-      <Navbar />
+      <Navbar 
+      Href="/fswd-s2"
+      Course="Full Stack Web Development Program"
+
+      Href1="/fssd-s2"
+      Course1="Full-Stack Software Development Program"
+
+      Href2="/dsa-s2"
+      Course2="DSA & System Design"
+      
+      />
       <FirstSection
         deskTopPara="Be a demanding Developer to stay ahead"
         mTopPara="Be a demanding Developer to stay ahead"
@@ -91,7 +101,7 @@ export default function Home() {
           BatchDate="Working Professionals"
           BatchDuration="Accredited with IBM"
           Placement="12+ Real Time Projects"
-          EMI="₹ 9k to 15k*(9 Months)"
+          EMI="₹ 11,800/month"
         />
       </div>
       <GetHired />

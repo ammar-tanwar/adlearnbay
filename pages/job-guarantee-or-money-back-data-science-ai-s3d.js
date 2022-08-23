@@ -94,7 +94,7 @@ export default function Home() {
           BatchDate="2+ Years Work Experience"
           BatchDuration="Accredited with IBM"
           Placement="15+ Real Time Projects"
-          EMI="₹ 16k/month*(9 Months)"
+          EMI="₹ 12,292/month"
         />
       </div>
       <GetHired />
