@@ -1,4 +1,4 @@
-import Head from 'next/head' 
+import Head from 'next/head'  
 import styles from '../styles/Home.module.css'
 import FirstSection from "../Components/HeroSectionManagers/HeroSection";
 import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
@@ -13,7 +13,7 @@ import Syllabus from "../Components/SyllabusManagers/Syllabus";
 import ToolsCovered from "../Components/ToolsCoveredAdvance/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
 import Navbar from "../Components/CoursePage/NavbarDyn/Navbar";
-import Footer from "../Components/Footers2/Footer";
+import Footer from "../Components/Footers2/Footer"; 
   
 import React, { useState } from "react";
 

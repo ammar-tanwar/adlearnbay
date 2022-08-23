@@ -6,17 +6,17 @@ import GetHired from "../Components/GetHiredManagers/GetHired";
 import Domain from "../Components/Domain/Domain";
 import BoxShape from "../Components/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
-import Form from "../Components/Form/Form";
+import Form from "../Components/Form/Form"; 
 import Certificate from "../Components/Certificate/Certificate";
 import Project from "../Components/Project/Project";
 import Syllabus from "../Components/SyllabusManagers/Syllabus";
 import ToolsCovered from "../Components/ToolsCoveredAdvance/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
-import Navbar from "../Components/Navbars3/Navbar";
+import Navbar from "../Components/CoursePage/NavbarDyn/Navbar";
 import Footer from "../Components/Footers3/Footer";
   
 import React, { useState } from "react";
-
+ 
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -79,7 +79,22 @@ export default function Home() {
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
-      <Navbar />
+      <Navbar  
+      
+      Href="/data-science-certification-courses-s3"
+      Course="Data Science & AI Certification"
+
+      Href1="/advance-ai-ml-certification-s3"
+      Course1="Advance AI & ML Certification"
+
+      Href2="/data-science-ai-cert-for-managers-leaders-s3"
+      Course2="Data Science & AI Cert. For Managers & Leaders"
+
+      Href3="/job-guarantee-or-money-back-data-science-ai-s3"
+      Course3="Job Guarantee or Money Back – Data Science & AI"
+      
+      
+      />
       <FirstSection
         deskTopPara="Experience-based certification course for professionals"
         mTopPara="Experience-based certification course for professionals"

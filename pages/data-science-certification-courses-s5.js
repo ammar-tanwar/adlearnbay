@@ -16,7 +16,7 @@ import Navbar from "../Components/Navbars5/Navbar";
 import Footer from "../Components/Footers5/Footer";
   
 import React, { useState } from "react";
-
+ 
 export default function Home() {
   const [popups, setPopups] = useState(false);
 

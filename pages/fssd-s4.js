@@ -10,11 +10,11 @@ import Project from "../Components/Projectfswd/Project";
 import Syllabus from "../Components/Syllabusfss1/Syllabus";
 import Domain from "../Components/DomainFss/Domain";
 import OurExpert from "../Components/OurExpert/OurExpert";
-import Navbar from "../Components/Navbarfsds4/Navbar";
+import Navbar from "../Components/CoursePage/NavbarDyn/Navbar1";
 import Footer from "../Components/Footerfsds4/Footer";
   
 import React, { useState } from "react";
-
+ 
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -78,7 +78,18 @@ export default function Home() {
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
-      <Navbar />
+      <Navbar
+      Href="/fswd-s4"
+      Course="Full Stack Web Development Program"
+
+      Href1="/fssd-4"
+      Course1="Full-Stack Software Development Program"
+
+      Href2="/dsa-s4"
+      Course2="DSA & System Design"
+
+      
+      />
       <FirstSection
         deskTopPara="Become a Tech Leader and Start Landing Six Figures with ease"
         mTopPara="Become a Tech Leader and Start Landing Six Figures with ease"

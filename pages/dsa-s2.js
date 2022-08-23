@@ -10,7 +10,7 @@ import Project from "../Components/Projectfswd/Project";
 import Syllabus from "../Components/Syllabusdsa/Syllabus";
 import OurExpert from "../Components/OurExpert/OurExpert";
 import Navbar from "../Components/CoursePage/NavbarDyn/Navbar1";
-import Footer from "../Components/Footerfsds2/Footer";
+import Footer from "../Components/Footerfsds2/Footer"; 
 
 import React, { useState } from "react";
 

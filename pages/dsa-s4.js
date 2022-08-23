@@ -11,7 +11,7 @@ import Project from "../Components/Projectfswd/Project";
 import Syllabus from "../Components/Syllabusdsa/Syllabus";
 import ToolsCovered from "../Components/ToolsCoveredfs/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
-import Navbar from "../Components/Navbarfsds4/Navbar";
+import Navbar from "../Components/CoursePage/NavbarDyn/Navbar1";
 import Footer from "../Components/Footerfsds4/Footer";
 
 import React, { useState } from "react";
@@ -78,7 +78,19 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} />
           </div>
         </Popup>
-        <Navbar />
+        <Navbar 
+        
+        Href="/fswd-s4"
+      Course="Full Stack Web Development Program"
+
+      Href1="/fssd-s4"
+      Course1="Full-Stack Software Development Program"
+
+      Href2="/dsa-s4"
+      Course2="DSA & System Design"
+    
+        
+        />
         <FirstSection
           deskTopPara="Ace your coding interview at MAANG and Achieve your Dream Job"
           mTopPara="Ace your coding interview at MAANG and Achieve your Dream Job"

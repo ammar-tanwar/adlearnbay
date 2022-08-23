@@ -63,7 +63,6 @@ const Navbar = ({
 
             </div>
           </div>
-          <a href="/job-guarantee-or-money-back-data-science-ai-s2">
             <Image
               src="/Learnbay-Logo.png"
               alt="Learnbay"
@@ -72,7 +71,7 @@ const Navbar = ({
               width="230px"
               height="60px"
             />
-          </a>
+         
         </div>
 
 
@@ -101,6 +100,7 @@ const Navbar = ({
 
 export default Navbar;
 
+// <a href="/job-guarantee-or-money-back-data-science-ai-s2"> </a>
 
 
 // "/data-science-certification-courses-s2"

@@ -13,9 +13,9 @@ import Project from "../Components/Project/Project";
 import Syllabus from "../Components/Syllabus/Syllabus";
 import ToolsCovered from "../Components/ToolsCovered/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
-import Navbar from "../Components/Navbars2d/Navbar";
+import Navbar from "../Components/CoursePage/NavbarDyn/Navbar";
 import Footer from "../Components/Footers2d/Footer";
-  
+   
 import React, { useState } from "react";
 
 
@@ -81,7 +81,22 @@ export default function Home() {
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
-      <Navbar />
+      <Navbar 
+      Href="/data-science-certification-courses-s2d"
+      Course="Data Science & AI Certification"
+
+      Href1="/advance-ai-ml-certification-s2d"
+      Course1="Advance AI & ML Certification"
+
+      Href2="/data-science-ai-cert-for-managers-leaders-s2d"
+      Course2="Data Science & AI Cert. For Managers & Leaders"
+
+      Href3="/job-guarantee-or-money-back-data-science-ai-s2d"
+      Course3="Job Guarantee or Money Back – Data Science & AI"
+
+      
+      
+      />
       <FirstSection
         deskTopPara="Experience-based certification course for professionals"
         mTopPara="Experience-based certification course for professionals"

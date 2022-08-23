@@ -15,7 +15,7 @@ import Navbar from "../Components/CoursePage/NavbarDyn/Navbar1";
 import Footer from "../Components/Footerfsds2/Footer";
   
 import React, { useState } from "react";
-
+ 
 
 export default function Home() {
   const [popups, setPopups] = useState(false);

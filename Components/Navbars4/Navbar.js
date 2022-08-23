@@ -49,7 +49,7 @@ const Navbar = () => {
               </span>
 
               <span onClick={showMenu}>
-                <Link href="job-guarantee-or-money-back-data-science-ai-s4">Job Guarantee or Money Back – Data Science & AI</Link>
+                <Link href="/job-guarantee-or-money-back-data-science-ai-s4">Job Guarantee or Money Back – Data Science & AI</Link>
               </span>
             </div>
           </div>

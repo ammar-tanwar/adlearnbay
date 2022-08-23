@@ -36,12 +36,13 @@ const Navbar = () => {
           <GiHamburgerMenu className={styles.ham} onClick={showMenu} />
           <div className={show ? styles.mobileWrapper : styles.hide}>
             <div className={styles.mobileMenu}>
+            
               <span onClick={showMenu}>
                 <Link href="/data-science-certification-courses-s2d">Data Science & AI Certification</Link>
               </span>
 
               <span onClick={showMenu}>
-                <Link href="/advance-ai-ml-certification-s2d">Advance AI & ML Certification</Link>
+                <Link href="/advance-ai-ml-certification-s2d">Advance AI & ML Certification</Link> 
               </span>
 
               <span onClick={showMenu}>
