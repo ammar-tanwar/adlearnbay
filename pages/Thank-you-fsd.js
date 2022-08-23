@@ -4,8 +4,8 @@ import Head from "next/head";
 import Image from "next/image";
 import { AiOutlineDownload } from "react-icons/ai";
 import { BsArrowLeftShort } from "react-icons/bs";
-import Navbar from "../Components/Navbarfsds2/Navbar";
-import Footer from "../Components/Footerfsdsq/Footer";
+import Navbar from "../Components/NavbarHome/Navbar";
+import Footer from "../Components/FooterHome/Footer";
 
 const ThankYou = () => {
   return (
@@ -54,7 +54,7 @@ const ThankYou = () => {
       </Head>
       <Navbar />
       <section className={styles.mains}>
-        <div className={styles.left}>
+        <div className={styles.left} style={{height:"80vh", marginBottom:"-70px"}} >
           <h4 className={styles.hptop}>
             <b>Thank you!</b>
             <br />
@@ -67,69 +67,10 @@ const ThankYou = () => {
               <div>
                 <button className={styles.Button}>
                   <BsArrowLeftShort className="bIcons" />
-                  <a href="/fswd-s1">Go To Home</a>
+                  <a href="/">Go To Home</a>
                 </button>
               </div>
             </div>
-          </div>
-        </div>
-        <div className={styles.rights}>
-          <div>
-          <Image
-            src="/full-stack-web.png"
-            alt="data-science-course"
-            quality={100}
-            layout="intrinsic"
-            width="306"
-            height="150"
-          />
-          <p className={styles.Ptopp}>
-          Full Stack Web  <br />Development Program
-          </p>
-          <button className={styles.Button}>
-                  <AiOutlineDownload className="bIcons" />
-                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Brochures+W/Full+Stack+Web+Development+Program+(1).pdf" target="_blank" >
-                    Download Brochure
-                  </a>
-                </button>
-          </div>
-          <div>
-          <Image
-            src="/full-stack-Software.png"
-            alt="data-science-course"
-            quality={100}
-            layout="intrinsic"
-            width="306"
-            height="150"
-          />
-          <p className={styles.Ptopp}>
-          Full-Stack Software <br />Development Program
-          </p>
-          <button className={styles.Button}>
-                  <AiOutlineDownload className="bIcons" /> 
-                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Brochures+W/Full+Stack+software+development++(1).pdf" target="_blank" >
-                    Download Brochure
-                  </a>
-                </button>
-          </div>
-          <div>
-          <Image
-            src="/advanceds.png"
-            alt="data-science-course"
-            quality={100}
-            layout="intrinsic"
-            width="306"
-            height="150"
-          />
-          <p className={styles.Ptopp}>
-          DSA & <br />System Design
-          </p>
-          <button className={styles.Button}>
-                  <AiOutlineDownload className="bIcons" /> 
-                  <a href="https://drive.google.com/file/d/1GmbGrlSLmnfUCfZQPTnbKK0WmIO0Y2Ef/view?usp=sharing" target="_blank" >
-                    Download Brochure
-                  </a>
-                </button>
           </div>
         </div>
       </section>

@@ -58,7 +58,7 @@ const HeroSection = ({ deskTopPara, title, spanTitleText, desc, mTopPara, title1
           <button onClick={popupShow}>Apply for Counselling</button>
           {router.pathname === "/dsa-system-design" ? (
             <a
-              href="https://drive.google.com/file/d/1GmbGrlSLmnfUCfZQPTnbKK0WmIO0Y2Ef/view?usp=sharing"
+              href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf"
               target="_blank"
             >
               <button>

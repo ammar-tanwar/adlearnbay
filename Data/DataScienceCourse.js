@@ -337,7 +337,7 @@ export const DataScienceCourseData = [
       weekDayBatchDate: "25 August 2022",
       weekEndBatchDate: "29 July 2022",
       weekDayBatchTime: "08:00 – 10:00 PM",
-      weekEndBatchTime: "08:00 – 10:00 PM",
+      weekEndBatchTime: "08:00 – 10:00 PM", 
       weekEndBatch: "true",
       weekDayBatch: "true",
     },
