@@ -4,7 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { AiOutlineDownload } from "react-icons/ai";
 import { BsArrowLeftShort } from "react-icons/bs";
-import Navbar from "../Components/Navbarfsds2/Navbar";
+import Navbar from "../Components/CoursePage/Navbar/Navbar";
 import Footer from "../Components/Footerfsdsq/Footer";
 
 const ThankYou = () => {
@@ -73,7 +73,7 @@ const ThankYou = () => {
             </div>
           </div>
         </div>
-        <div className={styles.rights}>
+        <div className={styles.rightsfsd}>
           <div>
           <Image
             src="/full-stack-web.png"

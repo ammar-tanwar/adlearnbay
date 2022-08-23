@@ -73,11 +73,11 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             <p>Fill the below Details to get started</p>
-            <Form popup={true} setTrigger={setPopups} />
+            <Form popup={true} setTrigger={setPopups} radio={true} />
           </div>
         </Popup>
-        <Navbar />
-        <FirstSection
+        <Navbar radio={true} />
+        <FirstSection radio={true}
           deskTopPara="Ace your coding interview at MAANG and Achieve your Dream Job"
           mTopPara="Ace your coding interview at MAANG and Achieve your Dream Job"
           title="Data Structures & Algorithms"
@@ -96,9 +96,9 @@ export default function Home() {
             EMI="₹ 6,883/month"
           />
         </div>
-        <GetHired dsa={true} />
+        <GetHired dsa={true} radio={true} />
         <div className="Feature" id="Feature">
-          <BoxShape
+          <BoxShape radio={true}
             title="Why Enroll In This Program"
             Box1h5="Custom-fit Training"
             box1desc="Learn with modules created just for your dream job. Become an extraordinarily demanding software developer."
@@ -131,7 +131,7 @@ export default function Home() {
             <button onClick={popupShow}>Enquire Now</button>
           </div>
         </div>
-        <Syllabus />
+        <Syllabus radio={true} />
 
         <div className={styles.ProjectWrapper} id="project">
           <Project />

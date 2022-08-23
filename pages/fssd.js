@@ -75,11 +75,11 @@ export default function Home() {
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           <p>Fill the below Details to get started</p>
-          <Form popup={true} setTrigger={setPopups} />
+          <Form popup={true} setTrigger={setPopups} radio={true} />
         </div>
       </Popup>
-      <Navbar />
-      <FirstSection
+      <Navbar radio={true} />
+      <FirstSection radio={true}
         deskTopPara="Become a Tech Leader and Start Landing Six Figures with ease"
         mTopPara="Become a Tech Leader and Start Landing Six Figures with ease"
         title="Full-Stack Software Development Program "
@@ -93,9 +93,9 @@ export default function Home() {
           EMI="₹ 10,816/month"
         />
       </div>
-      <GetHired />
+      <GetHired radio={true} />
       <div className="Feature" id="Feature">
-        <BoxShape
+        <BoxShape radio={true}
           title="Why Enroll In This Program"
           Box1h5="Custom-fit Training"
           box1desc="Learn with modules created just for your dream job. Become an extraordinarily demanding software developer."
@@ -125,7 +125,7 @@ export default function Home() {
           <button onClick={popupShow}>Enquire Now</button>
         </div>
       </div>
-      <Syllabus />
+      <Syllabus radio={true} />
       <Domain />
       <div className={styles.ProjectWrapper} id="project">
         <Project />

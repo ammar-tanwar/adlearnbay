@@ -37,6 +37,15 @@
     text-align: center;
     grid-template-columns: 25% 25% 25% 25%;
   }
+
+  .rightsfsd {
+    display: grid;
+    margin: auto;
+    width: 1300px;
+    margin-top: 50px;
+    text-align: center;
+    grid-template-columns: 33% 33% 33%;
+  }
   
   .Ptop {
     font-size: 20px;
@@ -101,7 +110,7 @@
       text-align: center;
     }
 
-    .rights {
+    .rights, .rightsfsd {
       display: flex;
       flex-direction: column;
       margin: auto;

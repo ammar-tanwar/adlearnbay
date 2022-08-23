@@ -75,11 +75,11 @@ export default function Home() {
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           <p>Fill the below Details to get started</p>
-          <Form popup={true} setTrigger={setPopups} />
+          <Form popup={true} setTrigger={setPopups} radio={true} />
         </div>
       </Popup>
-      <Navbar />
-      <FirstSection
+      <Navbar radio={true} />
+      <FirstSection radio={true}
         deskTopPara="Experience-based certification course for professionals"
         mTopPara="Experience-based certification course for professionals"
         title="Full Stack Data Science & AI Course"
@@ -94,9 +94,9 @@ export default function Home() {
           EMI="₹ 9,342/month"
         />
       </div>
-      <GetHired />
+      <GetHired radio={true} />
       <div className="Feature" id="Feature">
-        <BoxShape
+        <BoxShape radio={true}
           title="Why Enroll In This Program"
           Box1h5="Custom-fit Learning modules"
           box1desc="Learn with modules created just for your dream job. Become an extraordinarily demanding Leader and Manager."
@@ -126,7 +126,7 @@ export default function Home() {
           <button onClick={popupShow}>Enquire Now</button>
         </div>
       </div>
-      <Certificate
+      <Certificate radio={true}
         popupHead="Download Brochure"
         title="Earn a globally recognized Certified at the end of your learning journey."
         desc="Get access to IBM cloud lab to keep an eye on trending industrial case studies of data mining, time-series forecasting, AI-based database management, and authenticated data handling."
@@ -134,7 +134,7 @@ export default function Home() {
         desc3 ="Data Science Leads from IBM as instructors."
 
       />
-      <Syllabus />
+      <Syllabus radio={true} />
       <ToolsCovered />
       <Domain />
       <div className={styles.ProjectWrapper} id="project">

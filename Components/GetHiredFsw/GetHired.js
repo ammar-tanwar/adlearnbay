@@ -3,7 +3,7 @@ import styles from "./GetHired.module.css";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
 
-const GetHired = ({ dsa }) => {
+const GetHired = ({ dsa, radio }) => {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
     let width = window.innerWidth;
@@ -38,7 +38,7 @@ const GetHired = ({ dsa }) => {
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           <p>Fill the below Details to get started</p>
-          <Form popup={true} setTrigger={setPopups} />
+          <Form popup={true} setTrigger={setPopups} radio={radio} />
         </div>
       </Popup>
       <div className={styles.CInner}>
