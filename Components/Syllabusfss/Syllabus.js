@@ -79,7 +79,7 @@ function Syllabus({ dsa }) {
     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf";
   if (dsa) {
     downloadBrochureLink =
-      "https://drive.google.com/file/d/1GmbGrlSLmnfUCfZQPTnbKK0WmIO0Y2Ef/view?usp=sharing";
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf";
   }
   return (
     <section className={styles.Syllabus}>

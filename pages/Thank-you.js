@@ -4,8 +4,8 @@ import Head from "next/head";
 import Image from "next/image";
 import { AiOutlineDownload } from "react-icons/ai";
 import { BsArrowLeftShort } from "react-icons/bs";
-import Navbar from "../Components/NavbarHome/Navbar";
-import Footer from "../Components/FooterHome/Footer";
+import Navbar from "../Components/Navbarfsds/Navbar";
+import Footer from "../Components/Footerfsdsw/Footer";
 
 const ThankYou = () => {
   return (
@@ -67,7 +67,7 @@ const ThankYou = () => {
               <div>
                 <button className={styles.Button}>
                   <BsArrowLeftShort className="bIcons" />
-                  <a href="/">Go To Home</a>
+                  <a href="http://learnbay.co/">Go To Home</a>
                 </button>
               </div>
             </div>
