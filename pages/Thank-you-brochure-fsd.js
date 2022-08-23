@@ -73,7 +73,7 @@ const ThankYou = () => {
             </div>
           </div>
         </div>
-        <div className={styles.rights}>
+        <div className={styles.rightsfsd}>
           <div>
           <Image
             src="/full-stack-web.png"
