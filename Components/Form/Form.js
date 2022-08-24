@@ -127,6 +127,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
     router.pathname === "/advance-ai-ml-certification-s7" ||
     router.pathname === "/data-science-ai-cert-for-managers-leaders-s7" ||
     router.pathname === "/apply-for-counselling-data-science" ||
+    router.pathname === "/apply-for-counselling" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s7"
   ) {
     endPoint = "https://getform.io/f/a0a0fb5b-0cba-4b29-9d35-03c35d0e0d28";
@@ -147,8 +148,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
     router.pathname === "/fswd-s2" ||
     router.pathname === "/dsa-s2" ||
     router.pathname === "/dsa-s4" ||
-    router.pathname === "/dsa-s5" ||
-    router.pathname === "/apply-for-counselling"
+    router.pathname === "/dsa-s5" 
   ) {
     endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
   }
