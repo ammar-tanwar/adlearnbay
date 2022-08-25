@@ -1,17 +1,17 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
-import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
-import BoxShape from "../components/CoursePage/Boxshapefssds/BoxShape";
-import Popup from "../components/Popup/Popup";
+import FirstSection from "../Components/CoursePage/HeroSection/HeroSection";
+import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
+import BoxShape from "../Components/CoursePage/Boxshapefssds/BoxShape";
+import Popup from "../Components/Popup/Popup";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
-import Form from "../components/Form/Form";
-import Project from "../components/CoursePage/Projectfswd/Project";
-import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
+import Form from "../Components/Form/Form";
+import Project from "../Components/CoursePage/Projectfswd/Project";
+import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
 
 import { FullStackSoftwareCourseData } from "../Data/FullStackSoftware";
-import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
-import CourseReview from "../components/CoursePage/CourseReviewdsas/CourseReview";
+import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
+import CourseReview from "../Components/CoursePage/CourseReviewdsas/CourseReview";
 import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
 import Footer from "../Components/CoursePage/Footer/Footer";
 import BoxShape1 from "../Components/CoursePage/BoxshapeFssd/BoxShape";

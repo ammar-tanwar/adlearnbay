@@ -7,8 +7,8 @@ import { BiCheck } from "react-icons/bi";
 import { MdDateRange } from "react-icons/md";
 import { AiOutlineBars } from "react-icons/ai";
 import { BiTimeFive } from "react-icons/bi";
-import Popup from "/components/Popup/Popup";
-import Form from "/components/Form/Form";
+import Popup from "/Components/Popup/Popup";
+import Form from "/Components/Form/Form";
 
 function Batch({
   syllabus,

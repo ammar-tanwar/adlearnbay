@@ -65,6 +65,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
     router.pathname === "/s2-artificial-intelligence" ||
     router.pathname === "/s2-data-analytics" ||
     router.pathname === "/s2-job-guarantee" ||
+    router.pathname === "/apply-for-counselling-s2" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s9"
   ) {
     endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
@@ -148,6 +149,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
     router.pathname === "/fswd-s2" ||
     router.pathname === "/dsa-s2" ||
     router.pathname === "/dsa-s4" ||
+    router.pathname === "/apply-for-counselling-fsd-s2" ||
     router.pathname === "/dsa-s5" 
   ) {
     endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
@@ -386,6 +388,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       router.pathname === "/s2-job-guarantee" ||
       router.pathname === "/s2-data-analytics" ||
       router.pathname === "/s2-artificial-intelligence" ||
+      router.pathname === "/apply-for-counselling-s2" ||
       router.pathname === "/apply-for-counselling-data-science"
     ) {
       router.push("/Thank-you");
@@ -407,6 +410,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       router.pathname === "/full-stack-software-development-program" ||
       router.pathname === "/apply-for-counselling" ||
       router.pathname === "/full-stack-web-development-program" ||
+      router.pathname === "/apply-for-counselling-fsd-s2" ||
       router.pathname === "/dsa-system-design" 
     ) {
       router.push("/Thank-you-fsd");
