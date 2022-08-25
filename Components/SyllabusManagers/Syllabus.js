@@ -513,7 +513,7 @@ For Tech Lead, Team Lead,Managers
             <p>Request More Information</p>
           </div>
           <div className={styles.PProgramInner}>
-            <Form radio={true} />
+            <Form radio={radio} />
           </div>
         </div>
       </div>
