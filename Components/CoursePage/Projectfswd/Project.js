@@ -8,6 +8,8 @@ import { AiOutlineBank } from "react-icons/ai";
 import ProjectPopup from "../ProjectPopup/ProjectPopup";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
+import Form from "../../Form/Form";
+import Popup from "../../Popup/Popup";
 import "swiper/css";
 
 import "swiper/css/pagination";
@@ -28,13 +30,23 @@ const Project = ({ ChangeProject, project, domain }) => {
 
   return (
     <div className={styles.projectHeader}>
-      <ProjectPopup
-        trigger={popups}
-        setTrigger={setPopups}
-        title={title}
-        desc={desc}
-        imgsrc={img}
-      />
+    <Popup
+    trigger={popups}
+    setTrigger={setPopups}
+    className="popupModal"
+    downloadBrochure
+  >
+    <div className="leftPopup">
+      <div
+        className="whiteP"
+        style={{ width: "350px", height: "400px" }}
+      ></div>
+    </div>
+    <div className="RightPopup">
+      <h5>Download Brochure</h5>
+      <Form setTrigger={setPopups} downloadBrochure />
+    </div>
+  </Popup>
 
       <div className={styles.headWrapper}>
         <div className={styles.left}>
@@ -308,22 +320,10 @@ and run times.
         </Swiper>
       </div>
 
-      <div>
-        <a
-          href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Real-time+Projects+%26+Use+cases.pdf"
-          target={"_blank"}
-        >
-          <button
-            style={{ margin: "auto", marginTop: "20px", fontSize: "16px" }}
-          >
-            <FaDownload
-              className={styles.bicon}
-              style={{ marginRight: "10px" }}
-            />
-            Project Brochure
-          </button>
-        </a>
-      </div>
+      <button className={styles.Button} onClick={popupShow} style={{margin:"auto", marginTop:"20px"}}>
+              <FaDownload className="bIcons" />
+              Download Brochure
+            </button>
     </div>
   );
 };

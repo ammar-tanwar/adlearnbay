@@ -45,7 +45,7 @@ export const DsaCourseData = [
       JobD: " Our program seeks to eliminate financial risk in the upskilling journey with our Job guarantee.",
     },
     Certificate: {
-      popupHead: "Download Data science Brochure",
+      popupHead: "Download  Brochure",
       title: "Get Certificate directly from AI companies",
       desc: "Get 100% job guarantee and real-work experience by learning from the best data science institute in India and crack interviews with confidence.",
     },
@@ -54,7 +54,7 @@ export const DsaCourseData = [
     },
     syllabusDesc:
       "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All sessions are covered practically with real-time industrial projects and case studies.",
-    popupHead: "Download Data science Course Brochure",
+    popupHead: "Download Course Brochure",
     syllabus: [
       {
         Module0: {
@@ -62,21 +62,30 @@ export const DsaCourseData = [
           content: [
             {
               chap: {
-                title: "Module 0 :- Preparatory Classes",
+                title: "Topic 1 :- Cohort Orientation",
                 desc: [
-                  "Cohort Orientation ",
-                  "Significance of projects & case studies ",
-                  "Analysis of Algorithms, Space and Time complexity",
-                  " How to make it big in the IT Industry and crack MAANG Interviews",
+                  "A quick guide to Software Development",
+                  "Significance of projects & case studies",
+                  "How to make it big in the IT Industry and crack MAANG Interviews",
+                  "Interview process of top product based MNCs and Unicorns.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 1 :- Analysis of Algorithms, Space and Time complexity",
+                desc: [
+                  "Big-O, Big-Omega, and Big-Theta notations ",
+                  "Best, average, and worst-case Complexities hierarchy",
                   "Complexity classes (P vs. NP problem)",
                   "Asymptotic Analysis",
-                  " Analysis of Loops",
+                  "Analysis of Loops",
                 ],
               },
             },
           ],
           id: 0,
-            open: true,
+          open: true,
         },
       },
 
@@ -86,7 +95,7 @@ export const DsaCourseData = [
           content: [
             {
               chap: {
-                title: "Module 1-DSA ",
+                title: "Module 1 :- DSA ",
                 desc: [
                   " Array Overview",
                   "String",
@@ -110,7 +119,7 @@ export const DsaCourseData = [
             },
             {
               chap: {
-                title: "Module 2-System Design",
+                title: "Module 2 :- System Design",
                 desc: [
                   " Introduction to System Design",
                   " High Level Design With Projects",
@@ -121,7 +130,7 @@ export const DsaCourseData = [
             },
           ],
           id: 1,
-            open: false,
+          open: false,
         },
       },
 
@@ -131,7 +140,7 @@ export const DsaCourseData = [
           content: [
             {
               chap: {
-                title: "Chapter 1:- Real time use cases and projects",
+                title: "Module 1 :- Real time use cases and projects",
                 desc: [
                   " Authentication",
                   " CRUD",
@@ -152,18 +161,9 @@ export const DsaCourseData = [
                 ],
               },
             },
-          ],
-          id: 2,
-            open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "Term 3 :- Interview Preparation",
-          content: [
             {
               chap: {
-                title: "Chapter 1:- Interview Preparation: Crack MAANG",
+                title: "Module 2 :- Interview Preparation: Crack MAANG",
                 desc: [
                   " Searching and Sorting Interview Questions",
                   " Top 20 Dynamic Programming Interview Questions",
@@ -185,11 +185,65 @@ export const DsaCourseData = [
               },
             },
           ],
-          id: 3,
-            open: false,
+          id: 2,
+          open: false,
         },
       },
     ],
+
+    batchDetails: [
+      {
+        Module0: {
+          title: "Weekend Batch :- (Sat - Sun)",
+          content: [
+            {
+              chap: {
+                title: "Batch 1 :- Date And time ",
+                desc: [
+                  "Date : 21st August 2022",
+                  "Time : 08.30 a.m. to 12.00 p.m.",
+
+                ],
+              },
+            },
+
+          ],
+          id: 0,
+          open: true,
+        },
+      },
+
+      {
+        Module0: {
+          title: "Weekday Batch  :- (Mon-Fri)",
+          content: [
+            {
+              chap: {
+                title: "Weekday Batch 1 :- Date And time ",
+                desc: [
+                  "Date : 25th August 2022",
+                  "Time : 08:00 a.m. to 10:00 a.m.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Weekday Batch 2 :- Date And time ",
+                desc: [
+                  "Date : 26th August 2022",
+                  "Time : 08:00 p.m. to 10:00 p.m.",
+                ],
+              },
+            },
+          ],
+          id: 1,
+          open: false,
+        },
+      },
+
+
+    ],
+
     Review: {
       title: "Why get enrolled in our Advanced Data Science and AI course?",
       desc: " Learnbay’s Advanced Data Science and AI course with real-work experience is designed for creative minds and made for everyone. Take our data science training and experience the new era of education.",

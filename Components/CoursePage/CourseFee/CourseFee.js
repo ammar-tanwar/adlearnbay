@@ -10,7 +10,7 @@ import Form from "/components/Form/Form";
 const CourseFee = ({
   CourseFeeHead,
   CourseFeePara,
-  CourseFeelist1,
+  CourseFeelist1, 
   CourseFeelist2,
   CourseFeelist3,
   CourseFeelist4,
@@ -30,11 +30,15 @@ const CourseFee = ({
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <p>Fill the below details to get started</p>
+         
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
+
+
         <h4 style={{ marginBottom: "30px" }}>{CourseFeeHead}</h4>
+
+
         <div className={styles.CourseFee}>
             <div className={styles.heading}>
                 <p className={styles.phead}>{CourseFeePara}</p>
@@ -77,6 +81,8 @@ const CourseFee = ({
                 </div>
             </div>
         </div>
+
+        
     </section>
   )
 }

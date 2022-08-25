@@ -269,9 +269,7 @@ gave a good boost to my career
           height="82"
           layout="intrinsic"
         />
-        <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report+(1).pdf" target="_blank"><button>
-          Download Placement Report <MdKeyboardArrowDown />
-        </button></a>
+        
       </div>
     </>
   );

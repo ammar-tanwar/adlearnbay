@@ -66,10 +66,10 @@ function SyllabusNew({
         </div>
         <div className="RightPopup">
           <h5>{popupHead}</h5>
-          <p>Please enter the following details to initiate your download</p>
           <Form setTrigger={setPopups} downloadBrochure />
         </div>
       </Popup>
+      
       <div className={styles.syllabusLeft}>
         <div className={styles.Syllabusbutton}>
           <div>
@@ -160,6 +160,7 @@ function SyllabusNew({
         })}
         <div className={styles.white} />
       </div>
+      
       <div>
         <div className={styles.syllabusRight}>
           <div className={styles.PProgrammain}>

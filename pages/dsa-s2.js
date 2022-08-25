@@ -1,156 +1,125 @@
-import Head from "next/head"; 
+import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import FirstSection from "../Components/HeroSectionfsw/HeroSection";
-import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
-import GetHired from "../Components/GetHiredFsw/GetHired";
-import BoxShape from "../Components/Boxshape/BoxShape";
-import Popup from "../Components/Popup/Popup";
-import Form from "../Components/Form/Form";
-import Project from "../Components/Projectfswd/Project";
-import Syllabus from "../Components/Syllabusdsa/Syllabus";
-import OurExpert from "../Components/OurExpert/OurExpert";
-import Navbar from "../Components/CoursePage/NavbarDyn/Navbar1";
-import Footer from "../Components/Footerfsds2/Footer"; 
-
+import FirstSection from "../components/CoursePage/HeroSection/HeroSection";
+import ProgramInfo from "../components/CoursePage/ProgramInfo/ProgramInfo";
+import BoxShape from "../components/CoursePage/Boxshapefssds/BoxShape";
+import Popup from "../components/Popup/Popup";
+import Navbar from "../Components/CoursePage/Navbar/Navbar";
+import Form from "../components/Form/Form";
+import Project from "../components/CoursePage/Projectfswd/Project";
+import { ProgramFee } from "../components/CoursePage/ProgramFee/ProgramFee";
+import { DsaCourseData } from "../Data/DsaData";
+import SyllabusNew from "../components/CoursePage/SyllabusNew/SyllabusNew";
+import CourseReview from "../components/CoursePage/CourseReviewdsas/CourseReview";
+import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
+import Footer from "../Components/CoursePage/Footer/Footer";
+import BoxShape1 from "../Components/CoursePage/BoxshapeFssd/BoxShape";
 import React, { useState } from "react";
+import Batch from "../Components/CoursePage/BatchDetails/Batch";
+
 
 export default function Home() {
-  const [popups, setPopups] = useState(false);
+    const [popups, setPopups] = useState(false);
 
-  const popupShow = () => {
-    setPopups(true);
-  };
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Learnbay Courses</title>
-        <meta name="description" content="Learnbay Courses" />
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
-            var s = document.createElement('script');
-            s.type = 'text/javascript';
-            s.async = true;
-            s.src = url;
-            var options = {
-          "enabled":true,
-          "chatButtonSetting":{
-              "backgroundColor":"#4dc247",
-              "ctaText":"",
-              "borderRadius":"10",
-              "marginLeft":"0",
-              "marginBottom":"30",
-              "marginRight":"30",
-              "position":"right"
-          },
-          "brandSetting":{
-              "brandName":"Learnbay",
-              "brandSubTitle":"The Learner's Path",
-              "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
-              "welcomeText":"Hi there! How can I help you?",
-              "messageText":"Hello, I have a question about {{page_link}}",
-              "backgroundColor":"#0a5f54",
-              "ctaText":"Start Chat",
-              "borderRadius":"25",
-              "autoShow":false,
-              "phoneNumber":"+919606950936"
-          }
-        };
-            s.onload = function() {
-                CreateWhatsappChatWidget(options);
-            };
-            var x = document.getElementsByTagName('script')[0];
-            x.parentNode.insertBefore(s, x);`,
-          }}
-        />
-      </Head>
-      <main>
-        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-          <div className="leftPopup">
-            <div className="whiteP" />
-          </div>
-          <div className="RightPopup">
-            <h5>Apply For Counselling</h5>
-            <p>Fill the below Details to get started</p>
-            <Form popup={true} setTrigger={setPopups} />
-          </div>
-        </Popup>
-        <Navbar 
-        
-        Href="/fswd-s2"
-      Course="Full Stack Web Development Program"
+    const popupShow = () => {
+        setPopups(true);
+    };
+    return (
+        <div >
+            <Head>
+                <title>DSA & System Design</title>
+                <meta name="description" content="DSA & System Design" />
+                <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
+            </Head>
+            <main>  <Navbar popup={true} />
 
-      Href1="/fssd-s2"
-      Course1="Full-Stack Software Development Program"
+                <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+                    <div className="leftPopup">
+                        <div className="whiteP" />
+                    </div>
+                    <div className="RightPopup">
+                        <h5>Apply For Counselling</h5>
+                        <Form popup={true} setTrigger={setPopups} />
+                    </div>
+                </Popup>
 
-      Href2="/dsa-s2"
-      Course2="DSA & System Design"
-    
-        
-        />
-        <FirstSection
-          deskTopPara="Ace your coding interview at MAANG and Achieve your Dream Job"
-          mTopPara="Ace your coding interview at MAANG and Achieve your Dream Job"
-          title="Data Structures & Algorithms"
-          title1=" and System Design"
-          desc="Best interview prep course for top product-based MNC's. Sharpen your skills with real-time project experience."
-        />
-        <div className={styles.program}>
-          <ProgramInfo
-            eligibility="300% Highest"
-            BatchDate="Salary Achieved"
-            certification="100% Guaranteed "
-            BatchDuration="Job Referrals"
-            noCost="No Cost EMI"
-            placement="Personal Mentor"
-            Placement="1:1 Dedicated"
-            EMI="₹ 6,883/month"
-          />
-        </div>
-        <GetHired dsa={true} />
-        <div className="Feature" id="Feature">
-          <BoxShape
-            title="Why Enroll In This Program"
-            Box1h5="Custom-fit Training"
-            box1desc="Learn with modules created just for your dream job. Become an extraordinarily demanding software developer."
-            Box2h5="Exclusive Hackathon"
-            box2desc="Sharpen your skills through multiple exclusive hackathons. Upskill your designing skills and coding speed."
-            Box3h5="Premium Mentoring"
-            box3desc="Exclusive mock interview sessions by experienced industry experts. Capstone projects under MNC software developer’s guidance."
-            Box4h5="Hands-on Experience"
-            box4desc="Learn by working hard on real-world projects that range from advanced levels of complexity to large-scale deployments."
-          />
-        </div>
-        <div className={styles.ExpertWrapper}>
-          <div className={styles.expert}>
-            <h5>Our experts are from:</h5>
-          </div>
-          <div className={styles.expertBody}>
-            <OurExpert />
-          </div>
-        </div>
-        <div className={styles.cta}>
-          <div className={styles.left}></div>
-          <div className={styles.middle}>
-            <h6>Talk to our team directly.</h6>
-            <p>
-              Reach out and a learning consultant will get in touch with you
-              shortly.
-            </p>
-          </div>
-          <div className={styles.right}>
-            <button onClick={popupShow}>Enquire Now</button>
-          </div>
-        </div>
-        <Syllabus />
+                <FirstSection
+                    deskTopPara="MAANG's Best Interview Preparation Course trained by Top Experts"
+                    mTopPara="MAANG's Best Interview Preparation Course trained by Top Experts"
+                    mTitle="Data Structure & Algorithms"
+                    spanMTitleText="& System Design"
+                    title="Data Structure & Algorithms "
+                    spanTitleText="& System Design"
+                    desc="Perform real-world industrial projects and use-cases."
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/dsa-header-image.png"
+                    width="776"
+                    height="682"
+                    alt="Full Stack"
+                    srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf"
+                />
+                <div className={styles.program}>
+                    <ProgramInfo
+                        p1="Premium Job"
+                        p11="Placement Support"
+                        p2="Job Advancement"
+                        p22="Skills"
+                        p3="Practice with"
+                        p33="Real-Time Projects"
+                        p4="Financing as low as"
+                        p44="₹ 6,883/month"
+                    />
+                </div>
+                <div className="Feature" id="Feature">
+                    <BoxShape
+                        title="Why Enroll In This Program?"
+                        Box1h5="Crack MAANG Interview"
+                        box1desc="Learn in-depth DSA and crack interviews in product-based MNCs"
+                        Box2h5="1:1 Mentorship"
+                        box2desc="Guided by mentors working In MNCs to support you for the tech interviews"
+                        Box3h5="Practical Project Experience"
+                        box3desc="Gain technical expertise by working on challenging real-world projects"
+                        Box4h5="250+ Hiring Partners"
+                        box4desc="Get dedicated placement support with 100% Interview Guarantee"
+                    />
+                </div>
 
-        <div className={styles.ProjectWrapper} id="project">
-          <Project />
-        </div>
 
-        <Footer />
-      </main>
-    </div>
-  );
+                <div className={styles.Feature} id="Feature">
+                    <BoxShape1 />
+                </div>
+                <CourseReview />
+                <SyllabusNew
+                    syllabus={DsaCourseData[0].syllabus}
+                    syllabusDesc={DsaCourseData[0].syllabusDesc}
+                    popupHead={DsaCourseData[0].popupHead}
+                    CSyllabus="Syllabus"
+                    CourseHighlights="Program Highlights"
+                    srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf"
+                    hours="200+ Hours"
+                    project="12+ Real Time"
+                />
+
+
+                <ProgramFee Fee="₹ 70,000 + GST" Emi="₹ 6,883/month"
+                    CourseFeeAndFinancing="Program Fee & Financing"
+                />
+                <div className={styles.ProjectWrapper} id="project">
+                    <Project project="12+ Projects" domain="7+" />
+                </div>
+                <Batch
+                    syllabusDesc={DsaCourseData[0].syllabusDesc}
+                    syllabus={DsaCourseData[0].batchDetails}
+                    CourseFeeHead="Data Structure & Algorithms : Batch Details"
+                    CourseFeePara="Online Classroom"
+                    CourseFeelist1="Online Interactive Classes"
+                    CourseFeelist2="Weekend and Weekday Batches"
+                    CourseFeelist3="Extra Doubt Clearance Sessions"
+                    CourseFeelist4="Multiple Domain Selection Options"
+                    CourseFeelist5="Company-based Mock Interviews"
+                />
+                <LearnSupport />
+                <Footer />
+            </main>
+        </div>
+    );
 }

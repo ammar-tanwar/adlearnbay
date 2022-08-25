@@ -50,7 +50,7 @@ const HeroSection = ({
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <p>Fill the below details to get started</p>
+         
           <Form setTrigger={setPopups} />
         </div>
       </Popup>
@@ -84,6 +84,7 @@ const HeroSection = ({
               <FaArrowRight style={{ marginLeft: "10px" }} />
             </button>
           </div>
+          
 
         </div>
         <div className={styles.bottom}>
