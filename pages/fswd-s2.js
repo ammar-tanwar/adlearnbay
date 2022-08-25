@@ -32,6 +32,45 @@ export default function Home() {
                 <meta name="description" content="Full Stack Web Development Course with IBM certification. Learnbay provide advanced full stack developer course with placement guarantee. Enrol in our full stack web developer course to enhance your career" />
                 <meta name="Keywords" content="Full Stack Web Development Course, Full Stack Web Development Course training , Full Stack Web Development Course institute in India, best Full Stack Web Development Course institute, Full Stack Web developer Course ,Full Stack Web developer Course certification, Full Stack Web developer Course training institute , advanced Full Stack Web developer Course , Full Stack Web developer Course with placement guarantee, Full Stack Web developer Course with IBM certification" />
                 <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
+
+                <script
+          dangerouslySetInnerHTML={{
+            __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = url;
+            var options = {
+          "enabled":true,
+          "chatButtonSetting":{
+              "backgroundColor":"#4dc247",
+              "ctaText":"",
+              "borderRadius":"10",
+              "marginLeft":"0",
+              "marginBottom":"30",
+              "marginRight":"30",
+              "position":"right"
+          },
+          "brandSetting":{
+              "brandName":"Learnbay",
+              "brandSubTitle":"The Learner's Path",
+              "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
+              "welcomeText":"Hi there! How can I help you?",
+              "messageText":"Hello, I have a question about {{page_link}}",
+              "backgroundColor":"#0a5f54",
+              "ctaText":"Start Chat",
+              "borderRadius":"25",
+              "autoShow":false,
+              "phoneNumber":"+919606950936"
+          }
+        };
+            s.onload = function() {
+                CreateWhatsappChatWidget(options);
+            };
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);`,
+          }}
+        />
             </Head>
             <main>  <Navbar popup={true} />
 
