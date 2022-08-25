@@ -1,18 +1,13 @@
 import React, { useEffect, useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import styles from "./BoxShape.module.css";
 import Image from "next/image";
-import { MdLiveTv } from "react-icons/md";
-import { FiUser } from "react-icons/fi";
 import { AiOutlineDownload } from "react-icons/ai";
-import { BsGraphUp } from "react-icons/bs";
 import Form from "../../Form/Form";
 import Popup from "../../Popup/Popup";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
-import { Autoplay, Pagination } from "swiper";
 
 const BoxShape = ({
   title,
