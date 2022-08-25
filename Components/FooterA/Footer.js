@@ -11,7 +11,7 @@ const Footer = () => {
     <section className={styles.FooterSection}>
       <div className={styles.FooterDiv}>
         <div className={styles.FooterDivInner}>
-          <a href="#">
+          
                 <Image
                   src="/logo-light.png"
                   alt="Learnbay"
@@ -20,20 +20,20 @@ const Footer = () => {
                   width="230px"
                   height="60px"
                 />
-              </a>
+              
               <p className={styles.FooterInnerli}>Enroll Now For Data Science Classroom (Bangalore) Or Online Training With Us And Master Data Analytics Skills Which Will Help You To Transform Your Career And Start Your Career As A Data Scientist.</p>
-              <span style={{display:"flex", marginTop:"20px"}}><IoMailSharp className="bIcons"  /><Link href="mailto:contacts@learnbay.co">contacts@learnbay.co</Link></span>
-              <span style={{display:"flex", marginTop:"10px"}}><BsFillTelephoneFill className="bIcons"  /><Link href="tel:+919606950936">(+91) 96069 50936</Link></span>
+              <span style={{display:"flex", marginTop:"20px"}}><IoMailSharp className="bIcons"  />contacts@learnbay.co</span>
+              <span style={{display:"flex", marginTop:"10px"}}><BsFillTelephoneFill className="bIcons"  />(+91) 96069 50936</span>
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Popular Courses</p>
-          <a href="#"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Advance Data Science & AI Certification</p></a>
-          <a href="#"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Full Stack Web Development Program</p></a>
-          <a href="#"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Full-Stack Software Development Program</p></a>
-          <a href="#"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />DSA & System Design</p></a>
-          <a href="#"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Advance AI & ML Certification</p></a>
-          <a href="#"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Data Science & AI Cert. For Managers & Leaders</p></a>
-          <a href="#"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Job Guarantee or Money Back - Data Science & AI</p></a>
+          <p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Advance Data Science & AI Certification</p>
+          <p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Full Stack Web Development Program</p>
+          <p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Full-Stack Software Development Program</p>
+          <p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />DSA & System Design</p>
+          <p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Advance AI & ML Certification</p>
+          <p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Data Science & AI Cert. For Managers & Leaders</p>
+          <p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Job Guarantee or Money Back - Data Science & AI</p>
           </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Find Us Here</p>
