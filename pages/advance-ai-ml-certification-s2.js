@@ -148,7 +148,6 @@ export default function Home() {
         desc="Get access to IBM cloud lab to keep an eye on trending industrial case studies of data mining, time-series forecasting, AI-based database management, and authenticated data handling."
         desc2 ="Experts from IBM share their ideas and tactics to deal with tricky business problems within the regularly changing analytical environments."
         desc3 ="Data Science Leads from IBM as instructors."
-
       />
       <Syllabus />
       <ToolsCovered />
