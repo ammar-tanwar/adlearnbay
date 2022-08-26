@@ -13,7 +13,7 @@ import { FullStackSoftwareCourseData } from "../Data/FullStackSoftware";
 import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
 import CourseReview from "../Components/CoursePage/CourseReviewdsas/CourseReview";
 import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
-import Footer from "../Components/CoursePage/Footer/Footer";
+import Footer from "../Components/CoursePage/Footer/Footerfsd";
 import BoxShape1 from "../Components/CoursePage/BoxshapeFssd/BoxShape";
 import React, { useState } from "react";
 import Batch from "../Components/CoursePage/BatchDetails/Batch";
@@ -143,15 +143,15 @@ export default function Home() {
                     syllabus={FullStackSoftwareCourseData[0].syllabus}
                     syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
                     popupHead={FullStackSoftwareCourseData[0].popupHead}
-                    CSyllabus="Syllabus"
-                    CourseHighlights="Program Highlights"
+                    CSyllabus="Software Development Syllabus"
+                    CourseHighlights="Full Stack Course Highlights"
                     srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
                     hours="300+ Hours"
                     project="12+ Real Time"
                 />
 
                 <ProgramFee Fee="₹ 1,10,000 + GST" Emi="₹10,816"
-                    CourseFeeAndFinancing="Program Fee & Financing"
+                CourseFeeAndFinancing="Full Stack Course Fee & Financing"
 
                 />
                 <div className={styles.ProjectWrapper} id="project">

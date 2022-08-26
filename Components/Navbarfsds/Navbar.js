@@ -6,7 +6,7 @@ import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaChevronDown } from "react-icons/fa";
 import Popup from "../Popup/Popup";
-import Form from "../Form/Form";
+import Form from "../Form/Form"; 
 
 const Navbar = () => {
   const [show, setShow] = useState(false);

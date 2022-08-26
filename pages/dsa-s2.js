@@ -12,7 +12,7 @@ import { DsaCourseData } from "../Data/DsaData";
 import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
 import CourseReview from "../Components/CoursePage/CourseReviewdsas/CourseReview";
 import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
-import Footer from "../Components/CoursePage/Footer/Footer";
+import Footer from "../Components/CoursePage/Footer/Footerfsd";
 import BoxShape1 from "../Components/CoursePage/BoxshapeFssd/BoxShape";
 import React, { useState } from "react";
 import Batch from "../Components/CoursePage/BatchDetails/Batch";
@@ -125,15 +125,26 @@ export default function Home() {
 
 
                 <div className={styles.Feature} id="Feature">
-                    <BoxShape1 />
+                    <BoxShape1 
+                    title={DsaCourseData[0].BoxShape.title}
+                    Box1h5={DsaCourseData[0].BoxShape.Box1h5}
+                        box1desc={DsaCourseData[0].BoxShape.box1desc}
+                        Box2h5={DsaCourseData[0].BoxShape.Box2h5}
+                        box2desc={DsaCourseData[0].BoxShape.box2desc}
+                        Box3h5={DsaCourseData[0].BoxShape.Box3h5}
+                        box3desc={DsaCourseData[0].BoxShape.box3desc}
+                        Box4h5={DsaCourseData[0].BoxShape.Box4h5}
+                        box4desc={DsaCourseData[0].BoxShape.box4desc}
+                    
+                    />
                 </div>
                 <CourseReview />
                 <SyllabusNew
                     syllabus={DsaCourseData[0].syllabus}
                     syllabusDesc={DsaCourseData[0].syllabusDesc}
                     popupHead={DsaCourseData[0].popupHead}
-                    CSyllabus="Syllabus"
-                    CourseHighlights="Program Highlights"
+                    CSyllabus="Data Structures & Algorithms Syllabus"
+                    CourseHighlights="Full Stack Course Highlights"
                     srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf"
                     hours="200+ Hours"
                     project="12+ Real Time"
@@ -141,7 +152,7 @@ export default function Home() {
 
 
                 <ProgramFee Fee="₹ 70,000 + GST" Emi="₹ 6,883/month"
-                    CourseFeeAndFinancing="Program Fee & Financing"
+                CourseFeeAndFinancing="Full Stack Course Fee & Financing"
                 />
                 <div className={styles.ProjectWrapper} id="project">
                     <Project project="12+ Projects" domain="7+" />

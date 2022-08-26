@@ -13,7 +13,7 @@ export const DsaCourseData = [
       Placement: "100% Job Guarantee",
     },
     BoxShape: {
-      title: "Why Join this Programme?",
+      title: "Full Stack Development Courses ",
       Box1h5: "Real Work experience",
       box1desc:
         "Don’t just learn, apply your learning. Work directly with companies to build relevant industry experience.",

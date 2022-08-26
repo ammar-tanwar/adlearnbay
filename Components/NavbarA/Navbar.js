@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from "react";  
 import Image from "next/image";
 import { FiArrowRight } from "react-icons/fi";
 import styles from "./Navbar.module.css";
@@ -23,7 +23,6 @@ const Navbar = () => {
     <div>
       <nav className={styles.nav}>
         <div className={styles.left}>
-          <a href="#">
             <Image
               src="/Learnbay-Logo.png"
               alt="Learnbay"
@@ -32,7 +31,6 @@ const Navbar = () => {
               width="230px"
               height="60px"
             />
-          </a>
         </div>
       </nav>
     </div>

@@ -7,7 +7,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { FaChevronDown } from "react-icons/fa";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
-
+ 
 const Navbar = ({ radio }) => {
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
