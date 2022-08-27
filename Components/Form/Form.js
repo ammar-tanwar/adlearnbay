@@ -327,7 +327,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       (router.pathname === "/full-stack-web-development-program" && downloadBrochure) ||
       (router.pathname === "/dsa-system-design" && downloadBrochure)
     ) {
-      router.push("/Thank-you-brochure-fsd");
+      router.push("/Thank-you-counselling-fsd");
       return;
     }
 
@@ -388,6 +388,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       router.pathname === "/s2-machine-learning" ||
       router.pathname === "/s2-job-guarantee" ||
       router.pathname === "/s2-data-analytics" ||
+      router.pathname === "/apply-for-counselling" ||
       router.pathname === "/s2-artificial-intelligence" ||
       router.pathname === "/apply-for-counselling-s2" ||
       router.pathname === "/apply-for-counselling-s4" ||
@@ -410,12 +411,11 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       router.pathname === "/dsa-s5" ||
       router.pathname === "/fswd-s2" ||
       router.pathname === "/full-stack-software-development-program" ||
-      router.pathname === "/apply-for-counselling" ||
       router.pathname === "/full-stack-web-development-program" ||
       router.pathname === "/apply-for-counselling-fsd-s2" ||
       router.pathname === "/dsa-system-design" 
     ) {
-      router.push("/Thank-you-fsd");
+      router.push("/Thank-you-counselling-fsd");
       return;
     }
   };
