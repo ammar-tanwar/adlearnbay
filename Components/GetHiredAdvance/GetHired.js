@@ -39,7 +39,8 @@ const GetHired = ({ radio }) => {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <p>Fill the below Details to get started</p>
+                   {/* <p>Fill the below Details to get started</p> */}
+
           <Form popup={true} setTrigger={setPopups} radio={radio} />
         </div>
       </Popup>
