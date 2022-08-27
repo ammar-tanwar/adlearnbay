@@ -143,11 +143,11 @@ const Course = ({popupHead, radio}) => {
               const { id, title, title1, img, para, link1 } = viewAllData;
               return (
                 <div className={styles.leftSide} key={id}>
-                  <img
+                  <a href={link1}><img
                     src={img}
                     layout="intrinsic"
                     className={styles.courseImg}
-                  />
+                  /></a>
                   <h6>{title}</h6>
                   <h6>{title1}</h6>
                   <p>
@@ -188,11 +188,11 @@ const Course = ({popupHead, radio}) => {
               const { id, title, title1, img, para, link1 } = viewAllData;
               return (
                 <div className={styles.leftSide} key={id}>
-                  <img
+                  <a href={link1}><img
                     src={img}
                     layout="intrinsic"
                     className={styles.courseImg}
-                  />
+                  /></a>
                   <h6>{title}</h6>
                   <h6>{title1}</h6>
                   <p>
@@ -233,11 +233,11 @@ const Course = ({popupHead, radio}) => {
               const { id, title, title1, img, para, link1 } = viewAllData;
               return (
                 <div className={styles.leftSide} key={id}>
-                  <img
+                  <a href={link1}><img
                     src={img}
                     layout="intrinsic"
                     className={styles.courseImg}
-                  />
+                  /></a>
                   <h6>{title}</h6>
                   <h6>{title1}</h6>
                   <p>
@@ -278,11 +278,11 @@ const Course = ({popupHead, radio}) => {
               const { id, title, title1, img, para, link1 } = viewAllData;
               return (
                 <div className={styles.leftSide} key={id}>
-                  <img
+                  <a href={link1}><img
                     src={img}
                     layout="intrinsic"
                     className={styles.courseImg}
-                  />
+                  /></a>
                   <h6>{title}</h6>
                   <h6>{title1}</h6>
                   <p>
@@ -323,11 +323,11 @@ const Course = ({popupHead, radio}) => {
               const { id, title, title1, img, para, link1 } = viewAllData;
               return (
                 <div className={styles.leftSide} key={id}>
-                  <img
+                  <a href={link1}><img
                     src={img}
                     layout="intrinsic"
                     className={styles.courseImg}
-                  />
+                  /></a>
                   <h6>{title}</h6>
                   <h6>{title1}</h6>
                   <p>

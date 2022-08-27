@@ -327,7 +327,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       (router.pathname === "/full-stack-web-development-program" && downloadBrochure) ||
       (router.pathname === "/dsa-system-design" && downloadBrochure)
     ) {
-      router.push("/Thank-you-counselling-fsd");
+      router.push("/Thank-you-fsd");
       return;
     }
 
@@ -415,7 +415,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       router.pathname === "/apply-for-counselling-fsd-s2" ||
       router.pathname === "/dsa-system-design" 
     ) {
-      router.push("/Thank-you-counselling-fsd");
+      router.push("/Thank-you-fsd");
       return;
     }
   };
