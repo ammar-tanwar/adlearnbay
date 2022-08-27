@@ -546,7 +546,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
         ) : (
           ""
         )}
-        {downloadBrochure ? (
+        {/* {downloadBrochure ? (
           ""
         ) : (
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
@@ -576,7 +576,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
               />
             </div>
           </div>
-        )}
+        )} */}
         <p className={styles.FormText} style={{ fontSize: "10px" }}>
           By submitting the form, you agree to our Terms and Conditions and our
           Privacy Policy.
