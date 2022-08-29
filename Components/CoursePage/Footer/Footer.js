@@ -55,6 +55,9 @@ const Footer = () => {
         borderTop: "1px solid", borderBottom: "1px solid",
         borderColor: "#ffffff50"
       }}>
+
+
+
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Pune</p>
         
@@ -93,6 +96,8 @@ const Footer = () => {
             <p className={styles.FooterInnerli}>artificial intelligence AI course training Canada</p>
         </div>
       </div>
+
+      
       <div className={styles.FooterDiv}>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Bangalore</p>
@@ -128,6 +133,8 @@ const Footer = () => {
             <p className={styles.FooterInnerli}>artificial intelligence AI course training Delhi</p>
         </div>
       </div>
+
+
       <div className={styles.FooterBottom}>
         <div className={styles.FooterBottomInner}>
           <p className={styles.FooterInnerB}>Copyright © 2020 Learnbay by www.learnbay.co. All Rights
