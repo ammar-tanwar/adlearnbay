@@ -1,18 +1,47 @@
 export const FullStackWebCourseData = [
   {
     FirstSection: {
-      deskTopPara: "Certification course for professionals",
-      mTopPara: "Certification course for professionals",
-      title: "Advance Data Science & AI with",
-      spanTitleText: "100% Job guarantee program",
-      desc: "Learn from mentors in live online classes. Work on Advance data science projects directly with companies and get real work       experience.",
+      deskTopPara: "Be a demanding Developer to stay ahead",
+      mTopPara: "Be a demanding Developer to stay ahead",
+      mTitle: "Full Stack Web Development Program",
+      spanMTitleText: "Crack MAANG Interviews",
+      title: "Full Stack Web Development Program",
+      spanTitleText: "Crack MAANG Interviews",
+      desc: "Learn ultimate methods from MNC specialists with real-world projects",
+      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/header-home.webp",
+      width: "780",
+      height: "603",
+      alt: "Full Stack",
+      srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf",
     },
     ProgramInfo: {
-      BatchDate: "5 August 2022",
-      BatchDuration: "09 Months",
-      Placement: "100% Job Guarantee",
+      p1: "Premium Job",
+      p11: "Placement Support",
+      p2: "Job Advancement",
+      p22: "Skills",
+      p3: "Practice With",
+      p33: "Real-Time Projects",
+      p4: "Financing as low as",
+      p44: "₹ 11,800/month",
     },
     BoxShape: {
+      title: "Why Enroll In This Program?",
+      Box1h5: "Custom-fit Training",
+      box1desc: "Learn latest tools & modules. Become an demanding developer.",
+      Box2h5: "Interactive Learning",
+      box2desc: "100% interactive and live classes. Hybrid learning option also available.",
+      Box3h5: "Premium Mentoring",
+      box3desc: "Take advantage of MAANG web developer simulated mock interviews.",
+      Box4h5: "Hands-on Experience",
+      box4desc: "Gain real-time experience with industrial projects.",
+      Box5h5: "1-on-1 Dedication",
+      box5desc: "Live interactive session with expert for every individual",
+      Box6h5: "Assured Interview Call",
+      box6desc: "Get job referrals powered by 250+ hiring partners",
+
+    },
+
+    BoxShape1: {
       title: "Full Stack Development Courses ",
       Box1h5: "Real Work experience",
       box1desc:
@@ -27,34 +56,16 @@ export const FullStackWebCourseData = [
       box4desc:
         "This Advanced Data Science and AI course is for professionals. Programming experience is not required.",
     },
-    TopCTA: {
-      title: "Having Doubts? Talk with our Experts",
-      BeforeBR:
-        " Talk to our expert counsellor to know if your profile is suitable",
-      AfterBR: " for career transition in data science.",
-    },
-    Benefits: {
-      desc: " Learn Data science with multiple domain specialization and become a data scientist with our 100% job Guaranteed program.",
-      InterviewT: "Become data scientist in top Companies",
-      InterviewD:
-        "Interact and Learn from mentors working in top product based companies to crack interviews for your dream role.",
-      CertificateT: " Get real work experience from companies",
-      CertificateD:
-        "Work as a data scientist on live projects directly with companies to gain real work experience.",
-      JobT: "100% job guarantee or money back",
-      JobD: " Our program seeks to eliminate financial risk in the upskilling journey with our Job guarantee.",
-    },
-    Certificate: {
-      popupHead: "Download Data science Brochure",
-      title: "Get Certificate directly from AI companies",
-      desc: "Get 100% job guarantee and real-work experience by learning from the best data science institute in India and crack interviews with confidence.",
-    },
-    RealWork: {
-      desc: "Our Advanced Data science and AI course with 100% job guarantee follows a project-based learning approach. Further, it       focuses on helping learners build relevant experience in the technologies to land your super dream job.",
-    },
+
     syllabusDesc:
       "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All sessions are covered practically with real-time industrial projects and case studies.",
     popupHead: "Download Course Brochure",
+    CSyllabus: "Full Stack Web Development Syllabus",
+    CourseHighlights: "Full Stack Course Highlights",
+    srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
+    hours: "300+ Hours",
+    project: "12+ Real Time",
+
     syllabus: [
       {
         Module0: {
@@ -211,7 +222,44 @@ export const FullStackWebCourseData = [
       },
     ],
 
-    batchDetails: [
+
+    OurExpert: {
+      img1: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/1.png",
+      img2: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/2.png",
+      img3: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/3.png",
+      img4: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/4.png",
+      img5: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/5.png",
+      img6: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/6.png",
+      img7: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/7.png",
+      img8: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/8.png",
+      img9: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/9.png",
+      img10: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/10.png",
+      img11: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/11.png",
+      img12: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/12.png",
+      img13: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/13.png",
+      img14: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/14.png",
+      img15: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/1.png",
+      img16: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/2.png",
+      img17: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/3.png",
+      img18: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/4.png",
+      img19: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/5.png",
+      img21: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/6.png",
+      img22: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/7.png",
+      img23: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/8.png",
+      img20: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/9.png",
+    },
+
+    ProgramFee: {
+      Fee: "₹ 1,20,000 + GST",
+      Emi: "₹ 11,800/month",
+      CourseFeeAndFinancing: "Full Stack Course Fee & Financing",
+    },
+    Project: {
+      project: "12+ Projects",
+      domain: "7+",
+    },
+
+    Batch: [
       {
         Module0: {
           title: "Weekend Batch :- (Sat - Sun)",
@@ -263,34 +311,15 @@ export const FullStackWebCourseData = [
 
 
     ],
-    Review: {
-      title: "Why get enrolled in our Advanced Data Science and AI course?",
-      desc: " Learnbay’s Advanced Data Science and AI course with real-work experience is designed for creative minds and made for everyone. Take our data science training and experience the new era of education.",
+    BatchCourses: {
+      CourseFeeHead: "Full Stack Web Development: Batch Details",
+      CourseFeePara: "Online Classroom",
+      CourseFeelist1: "Online Interactive Classes",
+      CourseFeelist2: "Weekend and Weekday Batches",
+      CourseFeelist3: "Extra Doubt Clearance Sessions",
+      CourseFeelist4: "Multiple Domain Selection Options",
+      CourseFeelist5: "Company-based Mock Interviews",
     },
-    Fee: {
-      desc: " The Advanced Data science and AI fee start from INR 59,000 (Excluding  GST). We aim to deliver to you quality education considering the aspect of feasibility.",
-      desc1:
-        "Learnbay's courses are designed giving importance to affordability. The Advanced Data Science and AI course fees is feasible to ensure fair reachability. Further, we provide you with options such as EMI to pay the course fees.",
-      BasicPrice: "₹ 59,000 + GST",
-      BasicDesc: "Get data science training from Industry experts",
-      ProPrice: "₹ 89,000 + GST",
-      ProDesc: " Get data science training with real work Experience",
-      ProMaxPrice: "₹ 1,30,000 + GST",
-      ProMaxDesc: " Get data science training with 100% Job Guarantee",
-    },
-    BatchDetails: {
-      BatchHeader: "Advanced Data science and AI Next 2022 Cohort",
-      BatchName1: "weekday Batch",
-      BatchName2: "Weekday Batch",
-      weekDayBatchDate: "5 August 2022",
-      weekEndBatchDate: "29 July 2022",
-      weekDayBatchTime: "08:00 – 10:00 PM",
-      weekEndBatchTime: "08:00 – 10:00 PM",
-      weekEndBatch: "true",
-      weekDayBatch: "true",
-    },
-    FAQ: {
-      desc: "Learn from experts in live-interactive classes under Advanced data science and AI course with 100% job guarantee.",
-    },
+
   },
 ];

@@ -85,61 +85,61 @@ export default function Home() {
                 </Popup>
 
                 <FirstSection
-                    deskTopPara="Be a demanding Developer to stay ahead"
-                    mTopPara="Be a demanding Developer to stay ahead"
-                    mTitle="Full Stack Web Development Program"
-                    spanMTitleText="Crack MAANG Interviews"
-                    title="Full Stack Web Development Program"
-                    spanTitleText="Crack MAANG Interviews"
-                    desc="Learn ultimate methods from MNC specialists with real-world projects"
-                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/header-home.webp"
-                    width="780"
-                    height="603"
-                    alt="Full Stack"
-                    srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf"
+                deskTopPara={FullStackWebCourseData[0].FirstSection.deskTopPara}
+                mTopPara={FullStackWebCourseData[0].FirstSection.mTopPara}
+                mTitle={FullStackWebCourseData[0].FirstSection.mTitle}
+                spanMTitleText={FullStackWebCourseData[0].FirstSection.spanMTitleText}
+                title={FullStackWebCourseData[0].FirstSection.title}
+                spanTitleText={FullStackWebCourseData[0].FirstSection.spanTitleText}
+                desc={FullStackWebCourseData[0].FirstSection.desc}
+                src={FullStackWebCourseData[0].FirstSection.src}
+                width={FullStackWebCourseData[0].FirstSection.width}
+                height={FullStackWebCourseData[0].FirstSection.height}
+                alt={FullStackWebCourseData[0].FirstSection.alt}
+                srcD={FullStackWebCourseData[0].FirstSection.srcD}
                 />
                 <div className={styles.program}>
                     <ProgramInfo
-                        p1="Premium Job"
-                        p11="Placement Support"
-                        p2="Job Advancement"
-                        p22="Skills"
-                        p3="Practice With"
-                        p33="Real-Time Projects"
-                        p4="Financing as low as"
-                        p44="₹ 11,800/month"
+                    p1={FullStackWebCourseData[0].ProgramInfo.p1}
+                    p11={FullStackWebCourseData[0].ProgramInfo.p11}
+                    p2={FullStackWebCourseData[0].ProgramInfo.p2}
+                    p22={FullStackWebCourseData[0].ProgramInfo.p22}
+                    p3={FullStackWebCourseData[0].ProgramInfo.p3}
+                    p33={FullStackWebCourseData[0].ProgramInfo.p33}
+                    p4={FullStackWebCourseData[0].ProgramInfo.p4}
+                    p44={FullStackWebCourseData[0].ProgramInfo.p44}
                     />
                 </div>
                 <div className="Feature" id="Feature">
                     <BoxShape
-                        title="Why Enroll In This Program?"
-                        Box1h5="Custom-fit Training"
-                        box1desc="Learn latest tools & modules. Become an demanding developer."
-                        Box2h5="Interactive Learning"
-                        box2desc="100% interactive and live classes. Hybrid learning option also available."
-                        Box3h5="Premium Mentoring"
-                        box3desc="Take advantage of MAANG web developer simulated mock interviews."
-                        Box4h5="Hands-on Experience"
-                        box4desc="Gain real-time experience with industrial projects."
-                        Box5h5="1-on-1 Dedication"
-                        box5desc="Live interactive session with expert for every individual"
-                        Box6h5="Assured Interview Call"
-                        box6desc="Get job referrals powered by 250+ hiring partners"
+                    title={FullStackWebCourseData[0].BoxShape.title}
+                    Box1h5={FullStackWebCourseData[0].BoxShape.Box1h5}
+                    box1desc={FullStackWebCourseData[0].BoxShape.box1desc}
+                    Box2h5={FullStackWebCourseData[0].BoxShape.Box2h5}
+                    box2desc={FullStackWebCourseData[0].BoxShape.box2desc}
+                    Box3h5={FullStackWebCourseData[0].BoxShape.Box3h5}
+                    box3desc={FullStackWebCourseData[0].BoxShape.box3desc}
+                    Box4h5={FullStackWebCourseData[0].BoxShape.Box4h5}
+                    box4desc={FullStackWebCourseData[0].BoxShape.box4desc}
+                        Box5h5={FullStackWebCourseData[0].BoxShape.Box5h5}
+                        box5desc={FullStackWebCourseData[0].BoxShape.box5desc}
+                        Box6h5={FullStackWebCourseData[0].BoxShape.Box6h5}
+                        box6desc={FullStackWebCourseData[0].BoxShape.box6desc}
                     />
                 </div>
 
 
                 <div className={styles.Feature} id="Feature">
                     <BoxShape1
-                        title={FullStackWebCourseData[0].BoxShape.title}
-                        Box1h5={FullStackWebCourseData[0].BoxShape.Box1h5}
-                        box1desc={FullStackWebCourseData[0].BoxShape.box1desc}
-                        Box2h5={FullStackWebCourseData[0].BoxShape.Box2h5}
-                        box2desc={FullStackWebCourseData[0].BoxShape.box2desc}
-                        Box3h5={FullStackWebCourseData[0].BoxShape.Box3h5}
-                        box3desc={FullStackWebCourseData[0].BoxShape.box3desc}
-                        Box4h5={FullStackWebCourseData[0].BoxShape.Box4h5}
-                        box4desc={FullStackWebCourseData[0].BoxShape.box4desc}
+                        title={FullStackWebCourseData[0].BoxShape1.title}
+                        Box1h5={FullStackWebCourseData[0].BoxShape1.Box1h5}
+                        box1desc={FullStackWebCourseData[0].BoxShape1.box1desc}
+                        Box2h5={FullStackWebCourseData[0].BoxShape1.Box2h5}
+                        box2desc={FullStackWebCourseData[0].BoxShape1.box2desc}
+                        Box3h5={FullStackWebCourseData[0].BoxShape1.Box3h5}
+                        box3desc={FullStackWebCourseData[0].BoxShape1.box3desc}
+                        Box4h5={FullStackWebCourseData[0].BoxShape1.Box4h5}
+                        box4desc={FullStackWebCourseData[0].BoxShape1.box4desc}
                     />
                 </div>
                 <CourseReview />
@@ -148,54 +148,54 @@ export default function Home() {
                     syllabus={FullStackWebCourseData[0].syllabus}
                     syllabusDesc={FullStackWebCourseData[0].syllabusDesc}
                     popupHead={FullStackWebCourseData[0].popupHead}
-                    CSyllabus="Full Stack Web Development Syllabus"
-                    CourseHighlights="Full Stack Course Highlights"
-                    srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
-                    hours="300+ Hours"
-                    project="12+ Real Time"
+                    CSyllabus={FullStackWebCourseData[0].CSyllabus}
+                    CourseHighlights={FullStackWebCourseData[0].CourseHighlights}
+                    srcD={FullStackWebCourseData[0].srcD}
+                    hours={FullStackWebCourseData[0].hours}
+                    project={FullStackWebCourseData[0].project}
                 />
                 <OurExpert
-                    img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/1.png"
-                    img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/2.png"
-                    img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/3.png"
-                    img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/4.png"
-                    img5="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/5.png"
-                    img6="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/6.png"
-                    img7="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/7.png"
-                    img8="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/8.png"
-                    img9="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/9.png"
-                    img10="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/10.png"
-                    img11="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/11.png"
-                    img12="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/12.png"
-                    img13="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/13.png"
-                    img14="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/14.png"
-                    img15="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/1.png"
-                    img16="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/2.png"
-                    img17="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/3.png"
-                    img18="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/4.png"
-                    img19="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/5.png"
-                    img21="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/6.png"
-                    img22="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/7.png"
-                    img23="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/8.png"
-                    img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/9.png"
+                    img1={FullStackWebCourseData[0].OurExpert.img1}
+                    img2={FullStackWebCourseData[0].OurExpert.img2}
+                    img3={FullStackWebCourseData[0].OurExpert.img3}
+                    img4={FullStackWebCourseData[0].OurExpert.img4}
+                    img5={FullStackWebCourseData[0].OurExpert.img5}
+                    img6={FullStackWebCourseData[0].OurExpert.img6}
+                    img7={FullStackWebCourseData[0].OurExpert.img7}
+                    img8={FullStackWebCourseData[0].OurExpert.img8}
+                    img9={FullStackWebCourseData[0].OurExpert.img9}
+                    img10={FullStackWebCourseData[0].OurExpert.img10}
+                    img11={FullStackWebCourseData[0].OurExpert.img11}
+                    img12={FullStackWebCourseData[0].OurExpert.img12}
+                    img13={FullStackWebCourseData[0].OurExpert.img13}
+                    img14={FullStackWebCourseData[0].OurExpert.img14}
+                    img15={FullStackWebCourseData[0].OurExpert.img15}
+                    img16={FullStackWebCourseData[0].OurExpert.img16}
+                    img17={FullStackWebCourseData[0].OurExpert.img17}
+                    img18={FullStackWebCourseData[0].OurExpert.img18}
+                    img19={FullStackWebCourseData[0].OurExpert.img19}
+                    img21={FullStackWebCourseData[0].OurExpert.img21}
+                    img22={FullStackWebCourseData[0].OurExpert.img22}
+                    img23={FullStackWebCourseData[0].OurExpert.img23}
+                    img20={FullStackWebCourseData[0].OurExpert.img20}
                 />
-                <ProgramFee Fee="₹ 1,20,000 + GST" Emi="₹ 11,800/month"
-                    CourseFeeAndFinancing="Full Stack Course Fee & Financing"
+                <ProgramFee Fee={FullStackWebCourseData[0].ProgramFee.Fee} Emi={FullStackWebCourseData[0].ProgramFee.Emi}
+                CourseFeeAndFinancing={FullStackWebCourseData[0].ProgramFee.CourseFeeAndFinancing}
 
                 />
                 <div className={styles.ProjectWrapper} id="project">
-                    <Project project="12+ Projects" domain="7+" />
+                    <Project project={FullStackWebCourseData[0].Project.project} domain={FullStackWebCourseData[0].Project.domain}  />
                 </div>
                 <Batch
                     syllabusDesc={FullStackWebCourseData[0].syllabusDesc}
-                    syllabus={FullStackWebCourseData[0].batchDetails}
-                    CourseFeeHead="Full Stack Web Development: Batch Details"
-                    CourseFeePara="Online Classroom"
-                    CourseFeelist1="Online Interactive Classes"
-                    CourseFeelist2="Weekend and Weekday Batches"
-                    CourseFeelist3="Extra Doubt Clearance Sessions"
-                    CourseFeelist4="Multiple Domain Selection Options"
-                    CourseFeelist5="Company-based Mock Interviews"
+                    syllabus={FullStackWebCourseData[0].Batch}
+                    CourseFeeHead={FullStackWebCourseData[0].BatchCourses.CourseFeeHead}
+                    CourseFeePara={FullStackWebCourseData[0].BatchCourses.CourseFeePara}
+                    CourseFeelist1={FullStackWebCourseData[0].BatchCourses.CourseFeelist1}
+                    CourseFeelist2={FullStackWebCourseData[0].BatchCourses.CourseFeelist2}
+                    CourseFeelist3={FullStackWebCourseData[0].BatchCourses.CourseFeelist3}
+                    CourseFeelist4={FullStackWebCourseData[0].BatchCourses.CourseFeelist4}
+                    CourseFeelist5={FullStackWebCourseData[0].BatchCourses.CourseFeelist5}
                 />
                 <LearnSupport />
                 <Footer />

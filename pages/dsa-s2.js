@@ -84,57 +84,57 @@ export default function Home() {
                 </Popup>
 
                 <FirstSection
-                    deskTopPara="MAANG's Best Interview Preparation Course trained by Top Experts"
-                    mTopPara="MAANG's Best Interview Preparation Course trained by Top Experts"
-                    mTitle="Data Structure & Algorithms"
-                    spanMTitleText="And System Design Course"
-                    title="Data Structure & Algorithms "
-                    spanTitleText="And System Design Course"
-                    desc="Perform real-world industrial projects and use-cases."
-                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/dsa-header-image.png"
-                    width="776"
-                    height="682"
-                    alt="Full Stack"
-                    srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf"
+                    deskTopPara={DsaCourseData[0].FirstSection.deskTopPara}
+                    mTopPara={DsaCourseData[0].FirstSection.mTopPara}
+                    mTitle={DsaCourseData[0].FirstSection.mTitle}
+                    spanMTitleText={DsaCourseData[0].FirstSection.spanMTitleText}
+                    title={DsaCourseData[0].FirstSection.title}
+                    spanTitleText={DsaCourseData[0].FirstSection.spanTitleText}
+                    desc={DsaCourseData[0].FirstSection.desc}
+                    src={DsaCourseData[0].FirstSection.src}
+                    width={DsaCourseData[0].FirstSection.width}
+                    height={DsaCourseData[0].FirstSection.height}
+                    alt={DsaCourseData[0].FirstSection.alt}
+                    srcD={DsaCourseData[0].FirstSection.srcD}
                 />
                 <div className={styles.program}>
                     <ProgramInfo
-                        p1="Premium Job"
-                        p11="Placement Support"
-                        p2="Job Advancement"
-                        p22="Skills"
-                        p3="Practice with"
-                        p33="Real-Time Projects"
-                        p4="Financing as low as"
-                        p44="₹ 6,883/month"
+                        p1={DsaCourseData[0].ProgramInfo.p1}
+                        p11={DsaCourseData[0].ProgramInfo.p11}
+                        p2={DsaCourseData[0].ProgramInfo.p2}
+                        p22={DsaCourseData[0].ProgramInfo.p22}
+                        p3={DsaCourseData[0].ProgramInfo.p3}
+                        p33={DsaCourseData[0].ProgramInfo.p33}
+                        p4={DsaCourseData[0].ProgramInfo.p4}
+                        p44={DsaCourseData[0].ProgramInfo.p44}
                     />
                 </div>
                 <div className="Feature" id="Feature">
                     <BoxShape
-                        title="Why Enroll In This Program?"
-                        Box1h5="Crack MAANG Interview"
-                        box1desc="Learn in-depth DSA and crack interviews in product-based MNCs"
-                        Box2h5="1:1 Mentorship"
-                        box2desc="Guided by mentors working In MNCs to support you for the tech interviews"
-                        Box3h5="Practical Project Experience"
-                        box3desc="Gain technical expertise by working on challenging real-world projects"
-                        Box4h5="250+ Hiring Partners"
-                        box4desc="Get dedicated placement support with 100% Interview Guarantee"
+                    title={DsaCourseData[0].BoxShape.title}
+                    Box1h5={DsaCourseData[0].BoxShape.Box1h5}
+                    box1desc={DsaCourseData[0].BoxShape.box1desc}
+                    Box2h5={DsaCourseData[0].BoxShape.Box2h5}
+                    box2desc={DsaCourseData[0].BoxShape.box2desc}
+                    Box3h5={DsaCourseData[0].BoxShape.Box3h5}
+                    box3desc={DsaCourseData[0].BoxShape.box3desc}
+                    Box4h5={DsaCourseData[0].BoxShape.Box4h5}
+                    box4desc={DsaCourseData[0].BoxShape.box4desc}
                     />
                 </div>
 
 
                 <div className={styles.Feature} id="Feature">
                     <BoxShape1
-                        title={DsaCourseData[0].BoxShape.title}
-                        Box1h5={DsaCourseData[0].BoxShape.Box1h5}
-                        box1desc={DsaCourseData[0].BoxShape.box1desc}
-                        Box2h5={DsaCourseData[0].BoxShape.Box2h5}
-                        box2desc={DsaCourseData[0].BoxShape.box2desc}
-                        Box3h5={DsaCourseData[0].BoxShape.Box3h5}
-                        box3desc={DsaCourseData[0].BoxShape.box3desc}
-                        Box4h5={DsaCourseData[0].BoxShape.Box4h5}
-                        box4desc={DsaCourseData[0].BoxShape.box4desc}
+                        title={DsaCourseData[0].BoxShape1.title}
+                        Box1h5={DsaCourseData[0].BoxShape1.Box1h5}
+                        box1desc={DsaCourseData[0].BoxShape1.box1desc}
+                        Box2h5={DsaCourseData[0].BoxShape1.Box2h5}
+                        box2desc={DsaCourseData[0].BoxShape1.box2desc}
+                        Box3h5={DsaCourseData[0].BoxShape1.Box3h5}
+                        box3desc={DsaCourseData[0].BoxShape1.box3desc}
+                        Box4h5={DsaCourseData[0].BoxShape1.Box4h5}
+                        box4desc={DsaCourseData[0].BoxShape1.box4desc}
 
                     />
                 </div>
@@ -143,32 +143,34 @@ export default function Home() {
                     syllabus={DsaCourseData[0].syllabus}
                     syllabusDesc={DsaCourseData[0].syllabusDesc}
                     popupHead={DsaCourseData[0].popupHead}
-                    CSyllabus="Data Structures & Algorithms Syllabus"
-                    CourseHighlights="Full Stack Course Highlights"
-                    srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf"
-                    hours="200+ Hours"
-                    project="12+ Real Time"
+                    CSyllabus={DsaCourseData[0].CSyllabus}
+                    CourseHighlights={DsaCourseData[0].CourseHighlights}
+                    srcD={DsaCourseData[0].srcD}
+                    hours={DsaCourseData[0].hours}
+                    project={DsaCourseData[0].project}
                 />
 
 
-                <ProgramFee Fee="₹ 70,000 + GST" Emi="₹ 6,883/month"
-                    CourseFeeAndFinancing="Full Stack Course Fee & Financing"
+                <ProgramFee Fee={DsaCourseData[0].ProgramFee.Fee} Emi={DsaCourseData[0].ProgramFee.Emi}
+                    CourseFeeAndFinancing={DsaCourseData[0].ProgramFee.CourseFeeAndFinancing}
                 />
                 <div className={styles.ProjectWrapper} id="project">
-                    <Project project="12+ Projects" domain="7+" />
+                    <Project project={DsaCourseData[0].Project.project} domain={DsaCourseData[0].Project.domain} />
                 </div>
                 <Batch
                     syllabusDesc={DsaCourseData[0].syllabusDesc}
-                    syllabus={DsaCourseData[0].batchDetails}
-                    CourseFeeHead="Data Structure & Algorithms : Batch Details"
-                    CourseFeePara="Online Classroom"
-                    CourseFeelist1="Online Interactive Classes"
-                    CourseFeelist2="Weekend and Weekday Batches"
-                    CourseFeelist3="Extra Doubt Clearance Sessions"
-                    CourseFeelist4="Multiple Domain Selection Options"
-                    CourseFeelist5="Company-based Mock Interviews"
+                    syllabus={DsaCourseData[0].Batch}
+
+                    CourseFeeHead={DsaCourseData[0].BatchCourses.CourseFeeHead}
+                    CourseFeePara={DsaCourseData[0].BatchCourses.CourseFeePara}
+                    CourseFeelist1={DsaCourseData[0].BatchCourses.CourseFeelist1}
+                    CourseFeelist2={DsaCourseData[0].BatchCourses.CourseFeelist2}
+                    CourseFeelist3={DsaCourseData[0].BatchCourses.CourseFeelist3}
+                    CourseFeelist4={DsaCourseData[0].BatchCourses.CourseFeelist4}
+                    CourseFeelist5={DsaCourseData[0].BatchCourses.CourseFeelist5}
                 />
                 <LearnSupport />
+
                 <Footer />
             </main>
         </div>
