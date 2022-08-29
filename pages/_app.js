@@ -1,7 +1,7 @@
 import "../styles/globals.css";
 import "../styles/form.css";
 import Script from "next/script"
-
+import OfferPopup from "../Components/CoursePage/OfferPopup/OfferPopup";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
             });
                 `}
       </Script>
-
+      <OfferPopup/>
       <Component {...pageProps} />
     </>
   );

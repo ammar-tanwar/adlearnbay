@@ -1,14 +1,23 @@
 import styles from "../Footer/Footer.module.css";
 import { IoMailSharp } from "react-icons/io5";
 import { BsFillTelephoneFill } from "react-icons/bs";
+import { FaArrowRight, FaDownload } from "react-icons/fa";
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 import { FaTwitter, FaFacebookF, FaLinkedinIn, FaYoutube, FaInstagram, FaApple, FaAndroid } from "react-icons/fa";
 
 const Footer = () => {
+
+  const [showMe, setShowMe] = useState(false);
+  function toggle(){
+    setShowMe(!showMe);
+  }
   return (
     <section className={styles.FooterSection}>
+
+
       <div className={styles.FooterDiv1}>
         <div className={styles.FooterDivInner}>
             <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logo-light.png" alt="Learnbay" quality={100}
@@ -48,8 +57,24 @@ const Footer = () => {
           <p className={styles.FooterInnerP}>Find Us Here</p>
             <p className={styles.FooterInnerli}>#1090 , 1st floor, 18th cross road HSR layout sector 3, Bangalore - 560102
               (Above Sangam Sweets)</p>
+
+
+              <button className={styles.btnout} style={{ marginTop: "20px"}} onClick={toggle}>
+            View More
+              <FaArrowRight style={{ marginLeft: "10px" }} />
+            </button>
         </div>
+        
       </div>
+
+  
+      
+      
+      <div style={{
+        display: showMe?"block":"none"
+      }}>
+       
+     
 
       <div className={styles.FooterDiv} style={{
         borderTop: "1px solid", borderBottom: "1px solid",
@@ -96,8 +121,8 @@ const Footer = () => {
             <p className={styles.FooterInnerli}>artificial intelligence AI course training Canada</p>
         </div>
       </div>
-
       
+
       <div className={styles.FooterDiv}>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Bangalore</p>
@@ -133,7 +158,7 @@ const Footer = () => {
             <p className={styles.FooterInnerli}>artificial intelligence AI course training Delhi</p>
         </div>
       </div>
-
+      </div>
 
       <div className={styles.FooterBottom}>
         <div className={styles.FooterBottomInner}>
