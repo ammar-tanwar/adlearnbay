@@ -1,7 +1,7 @@
 import styles from "../Footer/Footer.module.css";
 import { IoMailSharp } from "react-icons/io5";
 import { BsFillTelephoneFill } from "react-icons/bs";
-import { FaArrowRight, FaDownload } from "react-icons/fa";
+import { FaArrowDown, FaArrowRight, FaDownload } from "react-icons/fa";
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -61,7 +61,7 @@ const Footer = () => {
 
               <button className={styles.btnout} style={{ marginTop: "20px"}} onClick={toggle}>
             View More
-              <FaArrowRight style={{ marginLeft: "10px" }} />
+              <FaArrowDown style={{ marginLeft: "10px" }} />
             </button>
         </div>
         

@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 import { useState } from "react";
-import { FaArrowRight, FaDownload } from "react-icons/fa";
+import { FaArrowDown, FaArrowRight, FaDownload } from "react-icons/fa";
 import { FaTwitter, FaFacebookF, FaLinkedinIn, FaYoutube, FaInstagram, FaApple, FaAndroid } from "react-icons/fa";
 
 const Footerfsd = () => {
@@ -58,7 +58,7 @@ const Footerfsd = () => {
 
               <button className={styles.btnout} style={{ marginTop: "20px"}} onClick={toggle}>
               View More
-                <FaArrowRight style={{ marginLeft: "10px" }} />
+                <FaArrowDown style={{ marginLeft: "10px" }} />
               </button>
         </div>
       </div>

@@ -31,8 +31,8 @@ export default function Home() {
                 <meta name="description" content="DSA & System Design" />
                 <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
                 <script
-          dangerouslySetInnerHTML={{
-            __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
+                    dangerouslySetInnerHTML={{
+                        __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
             var s = document.createElement('script');
             s.type = 'text/javascript';
             s.async = true;
@@ -66,8 +66,8 @@ export default function Home() {
             };
             var x = document.getElementsByTagName('script')[0];
             x.parentNode.insertBefore(s, x);`,
-          }}
-        />
+                    }}
+                />
 
 
             </Head>
@@ -125,9 +125,9 @@ export default function Home() {
 
 
                 <div className={styles.Feature} id="Feature">
-                    <BoxShape1 
-                    title={DsaCourseData[0].BoxShape.title}
-                    Box1h5={DsaCourseData[0].BoxShape.Box1h5}
+                    <BoxShape1
+                        title={DsaCourseData[0].BoxShape.title}
+                        Box1h5={DsaCourseData[0].BoxShape.Box1h5}
                         box1desc={DsaCourseData[0].BoxShape.box1desc}
                         Box2h5={DsaCourseData[0].BoxShape.Box2h5}
                         box2desc={DsaCourseData[0].BoxShape.box2desc}
@@ -135,7 +135,7 @@ export default function Home() {
                         box3desc={DsaCourseData[0].BoxShape.box3desc}
                         Box4h5={DsaCourseData[0].BoxShape.Box4h5}
                         box4desc={DsaCourseData[0].BoxShape.box4desc}
-                    
+
                     />
                 </div>
                 <CourseReview />
@@ -152,7 +152,7 @@ export default function Home() {
 
 
                 <ProgramFee Fee="₹ 70,000 + GST" Emi="₹ 6,883/month"
-                CourseFeeAndFinancing="Full Stack Course Fee & Financing"
+                    CourseFeeAndFinancing="Full Stack Course Fee & Financing"
                 />
                 <div className={styles.ProjectWrapper} id="project">
                     <Project project="12+ Projects" domain="7+" />

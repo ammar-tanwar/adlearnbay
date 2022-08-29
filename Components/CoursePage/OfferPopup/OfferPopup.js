@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import styles from "./OfferPopup.module.css";
-import { AiFillCloseCircle } from "react-icons/ai";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 
@@ -11,7 +9,7 @@ const OfferPopup = () => {
   useEffect(() => {
     setTimeout(() => {
       setPopups(true);
-    }, 1000);
+    }, 10000);
     return;
   }, []);
 
