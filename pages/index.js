@@ -55,7 +55,7 @@ export default function Home() {
               "ctaText":"Start Chat",
               "borderRadius":"25",
               "autoShow":false,
-              "phoneNumber":"+917349222263"
+              "phoneNumber":"+919606950936"
           }
         };
             s.onload = function() {
@@ -72,7 +72,8 @@ export default function Home() {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <p>Fill the below Details to get started</p>
+                   {/* <p>Fill the below Details to get started</p> */}
+
           <Form popup={true} setTrigger={setPopups} radio={true} />
         </div>
       </Popup>
