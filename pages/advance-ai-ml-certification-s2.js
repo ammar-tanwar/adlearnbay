@@ -15,7 +15,7 @@ import OurExpert from "../Components/OurExpert/OurExpert";
 import Navbar from "../Components/CoursePage/NavbarDyn/Navbar";
 import Footer from "../Components/Footers2/Footer";
 import React, { useState } from "react";
-
+import OfferPopup from '../Components/CoursePage/OfferPopup/OfferPopup';
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -79,6 +79,7 @@ export default function Home() {
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
+      <OfferPopup/>
       <Navbar
       
       Href="/data-science-certification-courses-s2"

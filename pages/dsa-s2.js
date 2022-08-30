@@ -7,7 +7,7 @@ import Popup from "../Components/Popup/Popup";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
 import Form from "../Components/Form/Form";
 import Project from "../Components/CoursePage/Projectfswd/Project";
-import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
+import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee"; 
 import { DsaCourseData } from "../Data/DsaData";
 import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
 import CourseReview from "../Components/CoursePage/CourseReviewdsas/CourseReview";
@@ -16,6 +16,7 @@ import Footer from "../Components/CoursePage/Footer/Footerfsd";
 import BoxShape1 from "../Components/CoursePage/BoxshapeFssd/BoxShape";
 import React, { useState } from "react";
 import Batch from "../Components/CoursePage/BatchDetails/Batch";
+import OfferPopup from '../Components/CoursePage/OfferPopup/OfferPopup';
 
 
 export default function Home() {
@@ -82,7 +83,7 @@ export default function Home() {
                         <Form popup={true} setTrigger={setPopups} />
                     </div>
                 </Popup>
-
+                <OfferPopup/>
                 <FirstSection
                     deskTopPara={DsaCourseData[0].FirstSection.deskTopPara}
                     mTopPara={DsaCourseData[0].FirstSection.mTopPara}

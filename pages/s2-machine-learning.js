@@ -19,6 +19,7 @@ import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
 import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
 import Footer from "../Components/CoursePage/Footer/Footer";
+import OfferPopup from "../Components/CoursePage/OfferPopup/OfferPopup";
 
 
 export default function Home() {
@@ -88,7 +89,7 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} />
           </div>
         </Popup>
-
+        <OfferPopup/>
         <FirstSection
         deskTopPara={MlCourseData[0].FirstSection.deskTopPara} 
         deskTopPara1={MlCourseData[0].FirstSection.deskTopPara1}

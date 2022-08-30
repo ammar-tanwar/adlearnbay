@@ -18,6 +18,7 @@ import React, { useState } from "react";
 import { DataScienceCourseData } from "../Data/DataScienceCourse";
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
+import OfferPopup from "../Components/CoursePage/OfferPopup/OfferPopup";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -89,6 +90,7 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} />
           </div>
         </Popup>
+        <OfferPopup/>
         <FirstSection
           popupHead=  {DataScienceCourseData[0].FirstSection.popupHead}                 
           deskTopPara={DataScienceCourseData[0].FirstSection.deskTopPara} 
@@ -186,7 +188,7 @@ export default function Home() {
         />
         <LearnSupport />
         <Footer />
-      </main>
+      </main> 
     </div>
   );
 }

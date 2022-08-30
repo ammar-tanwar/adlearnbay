@@ -160,6 +160,11 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
   ) {
     endPoint = "https://getform.io/f/fd68bf82-a911-435e-9719-7c134a89a731";
   }
+  if (
+    router.pathname === "/apply-for-counselling-s3"
+  ) {
+    endPoint = "https://getform.io/f/fd68bf82-a911-435e-9719-7c134a89a731";
+  }
 
   // Form Submit function
   const formSubmit = (e) => {
@@ -391,6 +396,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       router.pathname === "/apply-for-counselling" ||
       router.pathname === "/s2-artificial-intelligence" ||
       router.pathname === "/apply-for-counselling-s2" ||
+    
       router.pathname === "/apply-for-counselling-s4" ||
       router.pathname === "/apply-for-counselling-data-science"
     ) {
