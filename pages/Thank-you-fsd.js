@@ -131,6 +131,27 @@ const ThankYou = () => {
                   </a>
                 </button>
           </div>
+
+          <div>
+          <Image
+            src="/AIML.png"
+            alt="data-science-course"
+            quality={100}
+            layout="intrinsic"
+            width="306"
+            height="150"
+          />
+          <p className={styles.Ptopp}>
+          Placement <br />Report
+          </p>
+          <button className={styles.Button}>
+                  <AiOutlineDownload className="bIcons" /> 
+                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report+(1).pdf" target="_blank" >
+                    Download Brochure
+                  </a>
+                </button>
+          </div>
+
         </div>
       </section>
       <Footer />

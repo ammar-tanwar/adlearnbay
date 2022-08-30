@@ -5,6 +5,13 @@
     justify-content: center;
     height: 100%;
   }
+  .mains1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
 
   .left {
     background-image: url("/handshake.png");
@@ -24,9 +31,13 @@
   .right {
     display: flex;
     margin: auto;
+    grid-template-columns: 33% 33% 33%;
     width: 1300px;
+    justify-content: center;
     margin-top: 50px;
     text-align: center;
+   
+
   }
 
   .rights {
@@ -44,7 +55,7 @@
     width: 1300px;
     margin-top: 50px;
     text-align: center;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 25% 25% 25% 25%;
   }
   
   .Ptop {

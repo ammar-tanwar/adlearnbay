@@ -8,8 +8,18 @@ import { Navigation, Pagination } from "swiper";
 import Image from "next/image";
 import styles from "./CourseReview.module.css";
 import { MdKeyboardArrowDown } from "react-icons/md";
+import Popup from "../../Popup/Popup";
+import Form from "../../Form/Form";
+
 
 const CourseReview = () => {
+
+  const [popups, setPopups] = useState(false);
+
+  const popupShow = () => {
+    setPopups(true);
+  };
+
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
     let width = window.innerWidth;
@@ -21,6 +31,24 @@ const CourseReview = () => {
     <>
       {" "}
       <div className={styles.reviewWrap}>
+      <Popup
+      trigger={popups}
+      setTrigger={setPopups}
+      className="popupModal"
+      downloadBrochure
+    >
+      <div className="leftPopup">
+        <div
+          className="whiteP"
+          style={{ width: "350px", height: "400px" }}
+        ></div>
+      </div>
+      <div className="RightPopup">
+        <h5>Download Placement Brochure</h5>
+        <Form setTrigger={setPopups} downloadBrochure />
+      </div>
+    </Popup>
+
         <div className={styles.swiperleft}>
           <Swiper
             slidesPerView={mobile ? 1.02 : 1}
@@ -269,7 +297,9 @@ gave a good boost to my career
           height="82"
           layout="intrinsic"
         />
-        
+        <button onClick={popupShow} style={{margin:"auto"}}>
+           Download Placement Report <MdKeyboardArrowDown />
+          </button>        
       </div>
     </>
   );

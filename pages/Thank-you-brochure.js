@@ -53,6 +53,8 @@ const ThankYou = () => {
         />
       </Head>
       <Navbar />
+
+
       <section className={styles.mains}>
         <div className={styles.left}>
           <h4 className={styles.hptop}>
@@ -60,7 +62,7 @@ const ThankYou = () => {
             <br />
           </h4>
           <p className={styles.Ptop}>
-          We Received your request and look forward to getting in touch soon.
+            We Received your request and look forward to getting in touch soon.
           </p>
           <div>
             <div className={styles.mainb}>
@@ -75,83 +77,116 @@ const ThankYou = () => {
         </div>
         <div className={styles.right}>
           <div>
-          <Image
-            src="/ds.png"
-            alt="data-science-course"
-            quality={100}
-            layout="intrinsic"
-            width="306"
-            height="150"
-          />
-          <p className={styles.Ptopp}>
-          Data Science & AI Certification | Domain Specialisation For Professionals
-          </p>
-          <button className={styles.Button}>
-                  <AiOutlineDownload className="bIcons" />
-                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf" target="_blank" >
-                    Download Brochure
-                  </a>
-                </button>
+            <Image
+              src="/ds.png"
+              alt="data-science-course"
+              quality={100}
+              layout="intrinsic"
+              width="250"
+              height="100"
+            />
+            <p className={styles.Ptopp}>
+              Data Science & AI Certification | Domain Specialisation For Professionals
+            </p>
+            <button className={styles.Button}>
+              <AiOutlineDownload className="bIcons" />
+              <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf" target="_blank" >
+                Download Brochure
+              </a>
+            </button>
           </div>
           <div>
-          <Image
-            src="/advanceds.png"
-            alt="data-science-course"
-            quality={100}
-            layout="intrinsic"
-            width="306"
-            height="150"
-          />
-          <p className={styles.Ptopp}>
-          Advance AI & ML Certification | Become AI Expert In Product based MNCs
-          </p>
-          <button className={styles.Button}>
-                  <AiOutlineDownload className="bIcons" /> 
-                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf" target="_blank" >
-                    Download Brochure
-                  </a>
-                </button>
+            <Image
+              src="/advanceds.png"
+              alt="data-science-course"
+              quality={100}
+              layout="intrinsic"
+              width="250"
+              height="100"
+            />
+            <p className={styles.Ptopp}>
+              Advance AI & ML Certification | Become AI Expert In Product based MNCs
+            </p>
+            <button className={styles.Button}>
+              <AiOutlineDownload className="bIcons" />
+              <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf" target="_blank" >
+                Download Brochure
+              </a>
+            </button>
           </div>
           <div>
-          <Image
-            src="/managers.png"
-            alt="data-science-course"
-            quality={100}
-            layout="intrinsic"
-            width="306"
-            height="150"
-          />
-          <p className={styles.Ptopp}>
-          Data Science & AI Certification Program For Managers and Leaders
-          </p>
-          <button className={styles.Button}>
-                  <AiOutlineDownload className="bIcons" />
-                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf" target="_blank" >
-                    Download Brochure
-                  </a>
-                </button>
+            <Image
+              src="/managers.png"
+              alt="data-science-course"
+              quality={100}
+              layout="intrinsic"
+              width="250"
+              height="100"
+            />
+            <p className={styles.Ptopp}>
+              Data Science & AI Certification Program For Managers and Leaders
+            </p>
+            <button className={styles.Button}>
+              <AiOutlineDownload className="bIcons" />
+              <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf" target="_blank" >
+                Download Brochure
+              </a>
+            </button>
           </div>
-          <div>
-          <Image
-            src="/guarantee.png"
-            alt="data-science-course"
-            quality={100}
-            layout="intrinsic"
-            width="306"
-            height="150"
-          />
-          <p className={styles.Ptopp}>
-          Job Guarantee or Money Back | Data Science & AI Certification Program
-          </p>
-          <button className={styles.Button}>
-                  <AiOutlineDownload className="bIcons" />
-                  <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Job+Guarantee+or+100%25+Money+Back+Data+Science+%26+AI+Certification+Program+Learnbay.pdf" target="_blank" >
-                    Download Brochure
-                  </a>
-                </button>
-          </div>
+
         </div>
       </section>
+
+      <section className={styles.mains1}>
+
+        <div className={styles.right}>
+          <div>
+            <Image
+              src="/guarantee.png"
+              alt="data-science-course"
+              quality={100}
+              layout="intrinsic"
+              width="250"
+              height="100"
+            />
+            <p className={styles.Ptopp}>
+              Job Guarantee or Money Back <br /> Data Science & AI Certification Program
+            </p>
+            <button className={styles.Button}>
+              <AiOutlineDownload className="bIcons" />
+              <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Job+Guarantee+or+100%25+Money+Back+Data+Science+%26+AI+Certification+Program+Learnbay.pdf" target="_blank" >
+                Download Brochure
+              </a>
+            </button>
+          </div>
+
+
+
+          <div>
+            <Image
+              src="/AIML.png"
+              alt="data-science-course"
+              quality={100}
+              layout="intrinsic"
+              width="250"
+              height="100"
+            />
+            <p className={styles.Ptopp}>
+              Placement <br /> Report
+            </p>
+            <button className={styles.Button} >
+              <AiOutlineDownload className="bIcons" />
+              <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report.pdf" target="_blank" >
+                Download Brochure
+              </a>
+            </button>
+          </div>
+
+        </div>
+
+
+      </section>
+
       <Footer />
     </div>
   );
