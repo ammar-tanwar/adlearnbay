@@ -18,6 +18,7 @@ export default function Document() {
           name="facebook-domain-verification"
           content="dborjxjhu9kiklk06c38hf5v5raay4"
         />
+        <meta name="robots" content="noindex, nofollow" />
         <meta
           name="facebook-domain-verification"
           content="xzlsit1skwzpjhylrt0y96nn3nbksu"
