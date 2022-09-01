@@ -27,7 +27,7 @@ export const MlCourseData = [
       p44: "₹ 9,342/month",
     },
     BoxShape: {
-    title: "Explore Our Programs",
+    title: "Explore Our Machine Learning Certification Programs",
     Box1h5: "Custom-fit Training",
     box1desc: "Get specially designed modules as per your dream AI role. Learn latest ML applications.",
     Box2h5: "Domain Focused",
@@ -36,6 +36,7 @@ export const MlCourseData = [
     box3desc: "Enjoy and learn from mock interviews and CV writing workshops with MAANG AI/ML industry experts.",
     Box4h5: "Hands-on Experience",
     box4desc: "Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies.",
+    headh5:"Watch ours alumni’s making successful Machine Learning career transition",
   },
 
   OtherCertificate: {
@@ -48,7 +49,7 @@ export const MlCourseData = [
     OCHead4: "Accelerating Deep Learning with GPUs",
     OCP4: "Industrial badge on GPU handling mastery for Cloud, AI & ML.",
   },
-  syllabusDesc:"Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All sessions are covered practically with real-time industrial projects and case studies.",
+  syllabusDesc:"Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Machine Learning Course sessions are covered practically with real-time industrial projects and case studies.",
   popupHead: "Download Data science Course Brochure",
   hours: "350+ Hours",
   project: "15+ Real Time",
@@ -373,6 +374,7 @@ export const MlCourseData = [
   ],
 
   OurExpert: {
+    H5:"Machine Learning Tools Covered",
     img1: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png",
     img2: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png",
     img3: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png",
@@ -402,6 +404,7 @@ export const MlCourseData = [
     Emi: "₹ 9,342/month",
     Fee: "₹ 95,000 +GST",
     CourseFeeAndFinancing:" Machine Learning Course Fee & Financing",
+    para:"We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Machine Learning Certification Course and offer avariety of financing options to make it more economical.",
 
   },
   Project: { project: "15+ Projects", domain: "7+", },

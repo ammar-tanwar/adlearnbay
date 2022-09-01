@@ -28,7 +28,7 @@ export const AiCourseData = [
     },
 
     BoxShape: {
-    title: "Explore Our Programs",
+    title: "Explore Our AI Certification Programs",
     Box1h5: "Custom-fit Training",
     box1desc: "Get specially designed modules as per your dream AI role. Learn latest ML applications.",
     Box2h5: "Domain Focused",
@@ -37,6 +37,7 @@ export const AiCourseData = [
     box3desc: "Enjoy and learn from mock interviews and CV writing workshops with MAANG AI/ML industry experts.",
     Box4h5: "Hands-on Experience",
     box4desc: "Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies.",
+    headh5:"Watch ours alumni’s making successful AI career transition",
   },
 
   OtherCertificate: {
@@ -49,7 +50,7 @@ export const AiCourseData = [
     OCHead4: "Accelerating Deep Learning with GPUs",
     OCP4: "Industrial badge on GPU handling mastery for Cloud, AI & ML.",
   },
-  syllabusDesc:"Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All sessions are covered practically with real-time industrial projects and case studies.",
+  syllabusDesc:"Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All AI Course sessions are covered practically with real-time industrial projects and case studies.",
   popupHead: "Download Artificial Intelligence Course Brochure",
   hours: "350+ Hours",
   project: "15+ Real Time",
@@ -376,6 +377,7 @@ export const AiCourseData = [
   ],
 
   OurExpert: {
+    H5:"AI Tools Covered",
     img1: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png",
     img2: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png",
     img3: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png",
@@ -405,6 +407,7 @@ export const AiCourseData = [
     Emi: "₹ 9,342/month",
     Fee: "₹ 95,000 +GST",
     CourseFeeAndFinancing:"Artificial Intelligence Course Fee & Financing",
+    para:"We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for AI Certification Course and offer avariety of financing options to make it more economical.",
   },
   Project: { project: "15+ Projects", domain: "7+", },
 

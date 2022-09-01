@@ -25,7 +25,7 @@ export const DataScienceCourseData = [
       p44: "₹ 7,768/month",
     },
     BoxShape: {
-      title: "Explore Our Programs",
+      title: "Explore Our Data Science Certification Programs",
       Box1h5: "1-on-1 Dedication",
       box1desc: "Live interactive session with expert for every individual",
       Box2h5: "Assured Interview Call",
@@ -34,9 +34,10 @@ export const DataScienceCourseData = [
       box3desc: "Get professionally trained from MAANG and MNC experts",
       Box4h5: "Crafted for professional",
       box4desc: "Prioritize growth and salary hike with in-demand skillset",
+      headh5:"Watch ours alumni’s making successful Data Science career transition",
     },
     syllabusDesc:
-      "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All sessions are covered practically with real-time industrial projects and case studies.",
+      "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Data Science Course sessions are covered practically with real-time industrial projects and case studies.",
     popupHead: "Download Brochure",
     hours: "250+ Hours",
     project: "12+ Real Time",
@@ -167,7 +168,7 @@ export const DataScienceCourseData = [
       },
       {
         Module0: {
-          title: "Term 3 :- Data Science Tools",
+          title: "Term 3 :- Data Science Course Tools",
           content: [
             {
               chap: {
@@ -286,6 +287,7 @@ export const DataScienceCourseData = [
       desc: " Learnbay’s Advanced Data Science and AI course with real-work experience is designed for creative minds and made for everyone. Take our data science training and experience the new era of education.",
     },
     OurExpert: {
+      H5:"Data Science Tools Covered",
       img1: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png",
       img2: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png",
       img3: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png",
@@ -314,6 +316,7 @@ export const DataScienceCourseData = [
       Fee: "₹79,000 + GST",
       Emi: "₹ 7,768/month",
       CourseFeeAndFinancing:"Data Science Course Fee & Financing",
+      para:"We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Science Certification Course and offer avariety of financing options to make it more economical.",
     },
     Project: {
       popupHead: "Download Project Brochure",

@@ -6,7 +6,7 @@ import Image from "next/image";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 
-export const ProgramFee = ({ Fee, Emi, CourseFeeAndFinancing }) => {
+export const ProgramFee = ({ Fee, Emi, CourseFeeAndFinancing , para}) => {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -25,10 +25,8 @@ export const ProgramFee = ({ Fee, Emi, CourseFeeAndFinancing }) => {
       </Popup>
       <div className={styles.header}>
         <h5>{CourseFeeAndFinancing}</h5>
-        <p>
-          We are dedicated to making our programs accessible. We are committed
-          to helping you find a way to budget for Data Science Course and offer a
-          variety of financing options to make it more economical.
+        <p>{para}
+          
         </p>
       </div>
       <div className={styles.wrap}>

@@ -129,10 +129,12 @@ export default function Home() {
           box3desc={MlCourseData[0].BoxShape.box3desc}
           Box4h5={MlCourseData[0].BoxShape.Box4h5}
           box4desc={MlCourseData[0].BoxShape.box4desc}
+          headh5= {MlCourseData[0].BoxShape.headh5}
           />
         </div>
         <CourseReview />
-        <Certificate />
+        <Certificate 
+        H4="Machine Learning Certification Program" />
         <OtherCertificate
         OCHead1={MlCourseData[0].OtherCertificate.OCHead1}
         OCP1={MlCourseData[0].OtherCertificate.OCP1}
@@ -153,7 +155,8 @@ export default function Home() {
           hours={MlCourseData[0].hours}
           project={MlCourseData[0].project}
         />
-          <OurExpert
+          <OurExpert 
+          H5={MlCourseData[0].OurExpert.H5}
           img1={MlCourseData[0].OurExpert.img1}
           img2={MlCourseData[0].OurExpert.img2}
           img3={MlCourseData[0].OurExpert.img3}

@@ -130,11 +130,14 @@ export default function Home() {
             box3desc={DataScienceCourseData[0].BoxShape.box3desc}
             Box4h5={DataScienceCourseData[0].BoxShape.Box4h5}
             box4desc={DataScienceCourseData[0].BoxShape.box4desc}
+            headh5= {DataScienceCourseData[0].BoxShape.headh5}
           />
         </div>
 
         <CourseReview />
-        <Certificate />
+        <Certificate 
+          H4="Data Science Certification Program"
+        />
         <SyllabusNew
           syllabus={DataScienceCourseData[0].syllabus}
           CSyllabus={DataScienceCourseData[0].CSyllabus}
@@ -145,6 +148,7 @@ export default function Home() {
           project={DataScienceCourseData[0].project}
         />
         <OurExpert
+          H5={DataScienceCourseData[0].OurExpert.H5}
           img1={DataScienceCourseData[0].OurExpert.img1}
           img2={DataScienceCourseData[0].OurExpert.img2}
           img3={DataScienceCourseData[0].OurExpert.img3}
@@ -170,7 +174,8 @@ export default function Home() {
           img20={DataScienceCourseData[0].OurExpert.img20}
         />
         <ProgramFee Fee={DataScienceCourseData[0].ProgramFee.Fee}
-         Emi={DataScienceCourseData[0].ProgramFee.Emi} CourseFeeAndFinancing={DataScienceCourseData[0].ProgramFee.CourseFeeAndFinancing} />
+         Emi={DataScienceCourseData[0].ProgramFee.Emi} CourseFeeAndFinancing={DataScienceCourseData[0].ProgramFee.CourseFeeAndFinancing} 
+         para={DataScienceCourseData[0].ProgramFee.para} />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project popupHead={DataScienceCourseData[0].Project.popupHead}

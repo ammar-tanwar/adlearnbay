@@ -129,11 +129,15 @@ export default function Home() {
           box3desc={AiCourseData[0].BoxShape.box3desc}
           Box4h5={AiCourseData[0].BoxShape.Box4h5}
           box4desc={AiCourseData[0].BoxShape.box4desc}
+          headh5= {AiCourseData[0].BoxShape.headh5}
+        
           />
         </div>
 
         <CourseReview />
-        <Certificate />
+        <Certificate  
+        H4="AI Certification Program"
+        />
         <OtherCertificate
           OCHead1={AiCourseData[0].OtherCertificate.OCHead1}
           OCP1={AiCourseData[0].OtherCertificate.OCP1}
@@ -155,6 +159,7 @@ export default function Home() {
           project={AiCourseData[0].project}
         />
           <OurExpert
+          H5={AiCourseData[0].OurExpert.H5}
           img1={AiCourseData[0].OurExpert.img1}
           img2={AiCourseData[0].OurExpert.img2}
           img3={AiCourseData[0].OurExpert.img3}
@@ -180,7 +185,8 @@ export default function Home() {
           img20={AiCourseData[0].OurExpert.img20}
         />
         <ProgramFee Emi={AiCourseData[0].ProgramFee.Emi}
-         Fee={AiCourseData[0].ProgramFee.Fee} CourseFeeAndFinancing={AiCourseData[0].ProgramFee.CourseFeeAndFinancing}/>
+         Fee={AiCourseData[0].ProgramFee.Fee} CourseFeeAndFinancing={AiCourseData[0].ProgramFee.CourseFeeAndFinancing}
+         para={AiCourseData[0].ProgramFee.para} />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project project={AiCourseData[0].Project.project}

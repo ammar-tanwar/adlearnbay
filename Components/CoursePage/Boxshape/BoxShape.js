@@ -24,6 +24,7 @@ const BoxShape = ({
   box3desc,
   Box4h5,
   box4desc,
+  headh5
 }) => {
   const [popups, setPopups] = useState(false);
 
@@ -134,7 +135,7 @@ const BoxShape = ({
         </div>
         <div className={styles.right}>
           <div className={styles.imgBack}>
-            <h5>Watch ours alumni’s making successful career transition</h5>
+            <h5>{headh5}</h5>
             <div className={styles.reviewWrap}>
               <Swiper
                 slidesPerView={mobile ? 1 : 1}

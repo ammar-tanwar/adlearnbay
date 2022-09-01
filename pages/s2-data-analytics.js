@@ -126,6 +126,8 @@ export default function Home() {
             box3desc={DataAnalyticsCourseData[0].BoxShape.box3desc}
             Box4h5={DataAnalyticsCourseData[0].BoxShape.Box4h5}
             box4desc={DataAnalyticsCourseData[0].BoxShape.box4desc}
+            headh5= {DataAnalyticsCourseData[0].BoxShape.headh5}
+
           />
         </div>
         <CourseReview />
@@ -148,7 +150,9 @@ export default function Home() {
           hours={DataAnalyticsCourseData[0].hours}
           project={DataAnalyticsCourseData[0].project}
         />
-        <OurExpert
+        <OurExpert 
+          H5={DataAnalyticsCourseData[0].OurExpert.H5}
+
           img1={DataAnalyticsCourseData[0].OurExpert.img1}
           img2={DataAnalyticsCourseData[0].OurExpert.img2}
           img3={DataAnalyticsCourseData[0].OurExpert.img3}
@@ -175,7 +179,8 @@ export default function Home() {
         />
         <ProgramFee Emi={DataAnalyticsCourseData[0].ProgramFee.Emi}
           Fee={DataAnalyticsCourseData[0].ProgramFee.Fee}
-          CourseFeeAndFinancing={DataAnalyticsCourseData[0].ProgramFee.CourseFeeAndFinancing} />
+          CourseFeeAndFinancing={DataAnalyticsCourseData[0].ProgramFee.CourseFeeAndFinancing} 
+          para={DataAnalyticsCourseData[0].ProgramFee.para} />
         <div className={styles.ProjectWrapper} id="project">
           <Project project={DataAnalyticsCourseData[0].Project.project}
             domain={DataAnalyticsCourseData[0].Project.domain} />

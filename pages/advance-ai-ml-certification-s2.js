@@ -154,6 +154,7 @@ export default function Home() {
       <Syllabus />
       <ToolsCovered />
       <Domain />
+      
       <div className={styles.ProjectWrapper} id="project">
         <Project />
       </div>
