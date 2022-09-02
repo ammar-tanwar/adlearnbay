@@ -268,8 +268,8 @@ export const FullStackWebCourseData = [
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 21st August 2022",
-                  "Time : 08.30 a.m. to 12.00 p.m.",
+                  "Date : 4th September 2022",
+                  "Time : 12:30 p.m. to 4 p.m.",
 
                 ],
               },
@@ -289,8 +289,8 @@ export const FullStackWebCourseData = [
               chap: {
                 title: "Weekday Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 25th August 2022",
-                  "Time : 08:00 a.m. to 10:00 a.m.",
+                  "Date : 9th September 2022",
+                  "Time : 8 p.m. to 10 p.m.",
                 ],
               },
             },
@@ -299,7 +299,7 @@ export const FullStackWebCourseData = [
                 title: "Weekday Batch 2 :- Date And time ",
                 desc: [
                   "Date : 26th August 2022",
-                  "Time : 08:00 p.m. to 10:00 p.m.",
+                  "Time : 8 p.m. to 10 p.m.",
                 ],
               },
             },

@@ -21,7 +21,6 @@ import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
 import Footer from "../Components/CoursePage/Footer/Footer";
 import OfferPopup from "../Components/CoursePage/OfferPopup/OfferPopup";
 
-
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -84,66 +83,66 @@ export default function Home() {
           </div>
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
-                     {/* <p>Fill the below Details to get started</p> */}
+            {/* <p>Fill the below Details to get started</p> */}
 
             <Form popup={true} setTrigger={setPopups} />
           </div>
         </Popup>
-        <OfferPopup/>
+        <OfferPopup />
         <FirstSection
-        deskTopPara={MlCourseData[0].FirstSection.deskTopPara} 
-        deskTopPara1={MlCourseData[0].FirstSection.deskTopPara1}
-        spanTitleText={MlCourseData[0].FirstSection.spanTitleText}
-        mTitle={MlCourseData[0].FirstSection.mTitle}
-        mTopPara={MlCourseData[0].FirstSection.mTopPara}
-        spanMTitleText={MlCourseData[0].FirstSection.spanMTitleText}
-        mTopPara1={MlCourseData[0].FirstSection.mTopPara1}
-        title={MlCourseData[0].FirstSection.title}
-        desc={MlCourseData[0].FirstSection.desc}
-        width={MlCourseData[0].FirstSection.width}
-        height={MlCourseData[0].FirstSection.height}
-        src={MlCourseData[0].FirstSection.src}
-        alt={MlCourseData[0].FirstSection.alt}
-        srcD={MlCourseData[0].FirstSection.srcD}
+          deskTopPara={MlCourseData[0].FirstSection.deskTopPara}
+          deskTopPara1={MlCourseData[0].FirstSection.deskTopPara1}
+          spanTitleText={MlCourseData[0].FirstSection.spanTitleText}
+          mTitle={MlCourseData[0].FirstSection.mTitle}
+          mTopPara={MlCourseData[0].FirstSection.mTopPara}
+          spanMTitleText={MlCourseData[0].FirstSection.spanMTitleText}
+          mTopPara1={MlCourseData[0].FirstSection.mTopPara1}
+          title={MlCourseData[0].FirstSection.title}
+          desc={MlCourseData[0].FirstSection.desc}
+          width={MlCourseData[0].FirstSection.width}
+          height={MlCourseData[0].FirstSection.height}
+          src={MlCourseData[0].FirstSection.src}
+          alt={MlCourseData[0].FirstSection.alt}
+          srcD={MlCourseData[0].FirstSection.srcD}
         />
         <div className={styles.program}>
           <ProgramInfo
-          p1={MlCourseData[0].ProgramInfo.p1}
-          p11={MlCourseData[0].ProgramInfo.p11}
-          p2={MlCourseData[0].ProgramInfo.p2}
-          p22={MlCourseData[0].ProgramInfo.p22}
-          p3={MlCourseData[0].ProgramInfo.p3}
-          p33={MlCourseData[0].ProgramInfo.p33}
-          p4={MlCourseData[0].ProgramInfo.p4}
-          p44={MlCourseData[0].ProgramInfo.p44}
+            p1={MlCourseData[0].ProgramInfo.p1}
+            p11={MlCourseData[0].ProgramInfo.p11}
+            p2={MlCourseData[0].ProgramInfo.p2}
+            p22={MlCourseData[0].ProgramInfo.p22}
+            p3={MlCourseData[0].ProgramInfo.p3}
+            p33={MlCourseData[0].ProgramInfo.p33}
+            p4={MlCourseData[0].ProgramInfo.p4}
+            p44={MlCourseData[0].ProgramInfo.p44}
           />
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
-          title={MlCourseData[0].BoxShape.title}
-          Box1h5={MlCourseData[0].BoxShape.Box1h5}
-          box1desc={MlCourseData[0].BoxShape.box1desc}
-          Box2h5={MlCourseData[0].BoxShape.Box2h5}
-          box2desc={MlCourseData[0].BoxShape.box2desc}
-          Box3h5={MlCourseData[0].BoxShape.Box3h5}
-          box3desc={MlCourseData[0].BoxShape.box3desc}
-          Box4h5={MlCourseData[0].BoxShape.Box4h5}
-          box4desc={MlCourseData[0].BoxShape.box4desc}
-          headh5= {MlCourseData[0].BoxShape.headh5}
+            title={MlCourseData[0].BoxShape.title}
+            Box1h5={MlCourseData[0].BoxShape.Box1h5}
+            box1desc={MlCourseData[0].BoxShape.box1desc}
+            Box2h5={MlCourseData[0].BoxShape.Box2h5}
+            box2desc={MlCourseData[0].BoxShape.box2desc}
+            Box3h5={MlCourseData[0].BoxShape.Box3h5}
+            box3desc={MlCourseData[0].BoxShape.box3desc}
+            Box4h5={MlCourseData[0].BoxShape.Box4h5}
+            box4desc={MlCourseData[0].BoxShape.box4desc}
+            headh5={MlCourseData[0].BoxShape.headh5}
           />
         </div>
         <CourseReview />
-        <Certificate 
-        H4="Machine Learning Certification Program" />
+        <Certificate
+          H4="Machine Learning Certification Program" />
         <OtherCertificate
-        OCHead1={MlCourseData[0].OtherCertificate.OCHead1}
-        OCP1={MlCourseData[0].OtherCertificate.OCP1}
-        OCHead2={MlCourseData[0].OtherCertificate.OCHead2}
-        OCP2={MlCourseData[0].OtherCertificate.OCP2}
-        OCHead3={MlCourseData[0].OtherCertificate.OCHead3}
-        OCP3={MlCourseData[0].OtherCertificate.OCP3}
-        OCHead4={MlCourseData[0].OtherCertificate.OCHead4}
-        OCP4={MlCourseData[0].OtherCertificate.OCP4}
+          OCHead1={MlCourseData[0].OtherCertificate.OCHead1}
+          OCP1={MlCourseData[0].OtherCertificate.OCP1}
+          OCHead2={MlCourseData[0].OtherCertificate.OCHead2}
+          OCP2={MlCourseData[0].OtherCertificate.OCP2}
+          OCHead3={MlCourseData[0].OtherCertificate.OCHead3}
+          OCP3={MlCourseData[0].OtherCertificate.OCP3}
+          OCHead4={MlCourseData[0].OtherCertificate.OCHead4}
+          OCP4={MlCourseData[0].OtherCertificate.OCP4}
         />
         <SyllabusNew
           syllabus={MlCourseData[0].syllabus}
@@ -155,7 +154,7 @@ export default function Home() {
           hours={MlCourseData[0].hours}
           project={MlCourseData[0].project}
         />
-          <OurExpert 
+        <OurExpert
           H5={MlCourseData[0].OurExpert.H5}
           img1={MlCourseData[0].OurExpert.img1}
           img2={MlCourseData[0].OurExpert.img2}
@@ -182,21 +181,29 @@ export default function Home() {
           img20={MlCourseData[0].OurExpert.img20}
         />
         <ProgramFee Emi={MlCourseData[0].ProgramFee.Emi}
-        Fee={MlCourseData[0].ProgramFee.Fee} CourseFeeAndFinancing={MlCourseData[0].ProgramFee.CourseFeeAndFinancing} />
+          Fee={MlCourseData[0].ProgramFee.Fee} CourseFeeAndFinancing={MlCourseData[0].ProgramFee.CourseFeeAndFinancing}
+          para={MlCourseData[0].ProgramFee.para} />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
-          <Project  project={MlCourseData[0].Project.project}
-          domain={MlCourseData[0].Project.domain}/>
+          <Project project={MlCourseData[0].Project.project}
+            domain={MlCourseData[0].Project.domain} />
         </div>
+
+
         <CourseFee
-        CourseFeeHead={MlCourseData[0].CourseFee.CourseFeeHead}
-        CourseFeePara={MlCourseData[0].CourseFee.CourseFeePara}
-        CourseFeelist1={MlCourseData[0].CourseFee.CourseFeelist1}
-        CourseFeelist2={MlCourseData[0].CourseFee.CourseFeelist2}
-        CourseFeelist3={MlCourseData[0].CourseFee.CourseFeelist3}
-        CourseFeelist4={MlCourseData[0].CourseFee.CourseFeelist4}
-        CourseFeelist5={MlCourseData[0].CourseFee.CourseFeelist5}
+          syllabusDesc={MlCourseData[0].syllabusDesc}
+          syllabus={MlCourseData[0].Batch}
+
+          CourseFeeHead={MlCourseData[0].BatchCourses.CourseFeeHead}
+          CourseFeePara={MlCourseData[0].BatchCourses.CourseFeePara}
+          CourseFeelist1={MlCourseData[0].BatchCourses.CourseFeelist1}
+          CourseFeelist2={MlCourseData[0].BatchCourses.CourseFeelist2}
+          CourseFeelist3={MlCourseData[0].BatchCourses.CourseFeelist3}
+          CourseFeelist4={MlCourseData[0].BatchCourses.CourseFeelist4}
+          CourseFeelist5={MlCourseData[0].BatchCourses.CourseFeelist5}
         />
+
+
         <LearnSupport />
         <Footer />
       </main>

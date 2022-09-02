@@ -419,19 +419,60 @@ export const MlCourseData = [
   },
 
 
-  BatchDetails: {
-    BatchHeader: "Advanced Data science and AI Next 2022 Cohort",
-    BatchName1: "weekday Batch",
-    BatchName2: "Weekday Batch",
-    weekDayBatchDate: "5 August 2022",
-    weekEndBatchDate: "29 July 2022",
-    weekDayBatchTime: "08:00 – 10:00 PM",
-    weekEndBatchTime: "08:00 – 10:00 PM",
-    weekEndBatch: "true",
-    weekDayBatch: "true",
+
+  Batch: [
+    {
+      Module0: {
+        title: "Weekend Batch :- (Sat - Sun)",
+        content: [
+          {
+            chap: {
+              title: "Batch 1 :- Date And time ",
+              desc: [
+                "Date : 4th September 2022",
+                "Time : 12:30 p.m. to 4 p.m..",
+
+              ],
+            },
+          },
+
+        ],
+        id: 0,
+        open: true,
+      },
+    },
+
+    {
+      Module0: {
+        title: "Weekday Batch  :- (Mon-Fri)",
+        content: [
+          {
+            chap: {
+              title: "Weekday Batch 1 :- Date And time ",
+              desc: [
+                "Date : 9th September 2022",
+                "Time :8 p.m. to 10 p.m.",
+              ],
+            },
+          },
+         
+        ],
+        id: 1,
+        open: false,
+      },
+    },
+  ],
+
+  BatchCourses: {
+    CourseFeeHead: "Machine Learning Course : Batch Details",
+    CourseFeePara: "Machine Learning Online Classroom",
+    CourseFeelist1: "Online Interactive Classes",
+    CourseFeelist2: "Weekend and Weekday Batches",
+    CourseFeelist3: "Extra Doubt Clearance Sessions",
+    CourseFeelist4: "Multiple Domain Selection Options",
+    CourseFeelist5: "Company-based Mock Interviews",
   },
-  FAQ: {
-    desc: "Learn from experts in live-interactive classes under Advanced data science and AI course with 100% job guarantee.",
-  },
+
+  
     },
   ];

@@ -85,25 +85,25 @@ export default function Home() {
           </div>
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
-                     {/* <p>Fill the below Details to get started</p> */}
+            {/* <p>Fill the below Details to get started</p> */}
 
             <Form popup={true} setTrigger={setPopups} />
           </div>
         </Popup>
-        <OfferPopup/>
+        <OfferPopup />
         <FirstSection
-          popupHead=  {DataScienceCourseData[0].FirstSection.popupHead}                 
-          deskTopPara={DataScienceCourseData[0].FirstSection.deskTopPara} 
-          mTopPara={DataScienceCourseData[0].FirstSection.mTopPara} 
-          mTitle={DataScienceCourseData[0].FirstSection.mTitle} 
-          spanMTitleText={DataScienceCourseData[0].FirstSection.spanMTitleText} 
-          title={DataScienceCourseData[0].FirstSection.title} 
-          spanTitleText={DataScienceCourseData[0].FirstSection.spanTitleText} 
-          desc={DataScienceCourseData[0].FirstSection.desc} 
-          src={DataScienceCourseData[0].FirstSection.src} 
-          width={DataScienceCourseData[0].FirstSection.width} 
-          height={DataScienceCourseData[0].FirstSection.height} 
-          alt={DataScienceCourseData[0].FirstSection.alt} 
+          popupHead={DataScienceCourseData[0].FirstSection.popupHead}
+          deskTopPara={DataScienceCourseData[0].FirstSection.deskTopPara}
+          mTopPara={DataScienceCourseData[0].FirstSection.mTopPara}
+          mTitle={DataScienceCourseData[0].FirstSection.mTitle}
+          spanMTitleText={DataScienceCourseData[0].FirstSection.spanMTitleText}
+          title={DataScienceCourseData[0].FirstSection.title}
+          spanTitleText={DataScienceCourseData[0].FirstSection.spanTitleText}
+          desc={DataScienceCourseData[0].FirstSection.desc}
+          src={DataScienceCourseData[0].FirstSection.src}
+          width={DataScienceCourseData[0].FirstSection.width}
+          height={DataScienceCourseData[0].FirstSection.height}
+          alt={DataScienceCourseData[0].FirstSection.alt}
           srcD={DataScienceCourseData[0].FirstSection.srcD}
         />
         <div className={styles.program}>
@@ -130,12 +130,12 @@ export default function Home() {
             box3desc={DataScienceCourseData[0].BoxShape.box3desc}
             Box4h5={DataScienceCourseData[0].BoxShape.Box4h5}
             box4desc={DataScienceCourseData[0].BoxShape.box4desc}
-            headh5= {DataScienceCourseData[0].BoxShape.headh5}
+            headh5={DataScienceCourseData[0].BoxShape.headh5}
           />
         </div>
 
         <CourseReview />
-        <Certificate 
+        <Certificate
           H4="Data Science Certification Program"
         />
         <SyllabusNew
@@ -174,26 +174,30 @@ export default function Home() {
           img20={DataScienceCourseData[0].OurExpert.img20}
         />
         <ProgramFee Fee={DataScienceCourseData[0].ProgramFee.Fee}
-         Emi={DataScienceCourseData[0].ProgramFee.Emi} CourseFeeAndFinancing={DataScienceCourseData[0].ProgramFee.CourseFeeAndFinancing} 
-         para={DataScienceCourseData[0].ProgramFee.para} />
+          Emi={DataScienceCourseData[0].ProgramFee.Emi} CourseFeeAndFinancing={DataScienceCourseData[0].ProgramFee.CourseFeeAndFinancing}
+          para={DataScienceCourseData[0].ProgramFee.para} />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project popupHead={DataScienceCourseData[0].Project.popupHead}
-           project={DataScienceCourseData[0].Project.project}
+            project={DataScienceCourseData[0].Project.project}
             domain={DataScienceCourseData[0].Project.domain} />
         </div>
+
         <CourseFee
-          CourseFeeHead={DataScienceCourseData[0].CourseFees.CourseFeeHead}
-          CourseFeePara={DataScienceCourseData[0].CourseFees.CourseFeePara}
-          CourseFeelist1={DataScienceCourseData[0].CourseFees.CourseFeelist1}
-          CourseFeelist2={DataScienceCourseData[0].CourseFees.CourseFeelist2}
-          CourseFeelist3={DataScienceCourseData[0].CourseFees.CourseFeelist3}
-          CourseFeelist4={DataScienceCourseData[0].CourseFees.CourseFeelist4}
-          CourseFeelist5={DataScienceCourseData[0].CourseFees.CourseFeelist5}
+          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
+          syllabus={DataScienceCourseData[0].Batch}
+
+          CourseFeeHead={DataScienceCourseData[0].BatchCourses.CourseFeeHead}
+          CourseFeePara={DataScienceCourseData[0].BatchCourses.CourseFeePara}
+          CourseFeelist1={DataScienceCourseData[0].BatchCourses.CourseFeelist1}
+          CourseFeelist2={DataScienceCourseData[0].BatchCourses.CourseFeelist2}
+          CourseFeelist3={DataScienceCourseData[0].BatchCourses.CourseFeelist3}
+          CourseFeelist4={DataScienceCourseData[0].BatchCourses.CourseFeelist4}
+          CourseFeelist5={DataScienceCourseData[0].BatchCourses.CourseFeelist5}
         />
         <LearnSupport />
         <Footer />
-      </main> 
+      </main>
     </div>
   );
 }
