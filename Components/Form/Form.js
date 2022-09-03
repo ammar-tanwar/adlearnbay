@@ -31,6 +31,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
   });
   useEffect(() => {
     setQuery({ ...query, phone: value, dateTime: startDate });
+    localStorage.setItem("email", JSON.stringify(query.email))
   }, [value, startDate]);
 
   // Update inputs value
@@ -186,6 +187,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
         dateTime: "",
         url: "",
       })
+
     );
     if (popup) {
       const off = () => {

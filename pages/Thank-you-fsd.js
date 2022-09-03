@@ -6,8 +6,32 @@ import { AiOutlineDownload } from "react-icons/ai";
 import { BsArrowLeftShort } from "react-icons/bs";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
 import Footer from "../Components/Footerfsdsq/Footer";
+import { useState } from "react";
+import { useEffect } from "react";
 
-const ThankYou = () => {
+const ThankYou = (initialState) => {
+
+  const [user, setUser] = useState()
+  
+
+
+
+  useEffect(() => {
+    const value = localStorage.getItem("email");
+    // const user = !!value ? JSON.parse(value) : undefined;
+    setUser(value)
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push( { 'event': '‘form_complete’',
+    'enhanced_conversion_data':{
+      "email":value
+    }
+  } ) 
+  console.log('window.dataLayer', window.dataLayer); 
+  }, [])
+
+  console.log("print",user)
+
+
   return (
     <div className={styles.main}>
       <Head>
@@ -32,7 +56,7 @@ const ThankYou = () => {
               "position":"right"
           },
           "brandSetting":{
-              "brandName":"Learnbay",
+              "brandName":"Learnbay", 
               "brandSubTitle":"The Learner's Path",
               "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
               "welcomeText":"Hi there! How can I help you?",
@@ -51,6 +75,11 @@ const ThankYou = () => {
             x.parentNode.insertBefore(s, x);`,
           }}
         />
+       
+
+       
+        
+
       </Head>
       <Navbar />
       <section className={styles.mains}>
@@ -160,3 +189,18 @@ const ThankYou = () => {
 };
 
 export default ThankYou;
+
+
+// <script
+//         type="application/ld+json"
+//         dangerouslySetInnerHTML={{
+//           __html:`
+//           window.dataLayer = window.dataLayer || [];
+//           window.dataLayer.push({
+//             ‘event’: ‘form_complete’,
+//             ‘enhanced_conversion_data’: {
+//               “email”: ${user}
+//             }
+//           `}}>
+        
+//         </script>

@@ -57,7 +57,7 @@ export default function Home() {
               "messageText":"Hello, I have a question about {{page_link}}",
               "backgroundColor":"#0a5f54",
               "ctaText":"Start Chat",
-              "borderRadius":"25",
+              "borderRadius":"25", 
               "autoShow":false,
               "phoneNumber":"+919606950936"
           }
