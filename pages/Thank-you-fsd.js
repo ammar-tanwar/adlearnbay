@@ -91,6 +91,7 @@ const ThankYou = () => {
       </Head>
       <Navbar />
       <section className={styles.mains}>
+      
         <div className={styles.left}>
           <h4 className={styles.hptop}>
             <b>Thank you!</b>
@@ -110,6 +111,7 @@ const ThankYou = () => {
             </div>
           </div>
         </div>
+
         <div className={styles.rightsfsd}>
           {/* <div>
           <Image

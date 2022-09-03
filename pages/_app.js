@@ -1,12 +1,12 @@
 import "../styles/globals.css";
 import "../styles/form.css";
 import Script from "next/script"
-import { CookiesProvider } from "react-cookie";
+
 function MyApp({ Component, pageProps }) {
   return (
     <>
-   
-   <Script
+
+      <Script
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=GTM-NN8XWH8`}
       />
@@ -21,9 +21,7 @@ function MyApp({ Component, pageProps }) {
             });
                 `}
       </Script>
-      <CookiesProvider>
       <Component {...pageProps} />
-      </CookiesProvider>
     </>
   );
 }

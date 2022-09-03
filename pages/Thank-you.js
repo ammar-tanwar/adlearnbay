@@ -1,11 +1,10 @@
 import React from "react";
 import styles from "../styles/ThankYou.module.css";
 import Head from "next/head";
-import Image from "next/image";
-import { AiOutlineDownload } from "react-icons/ai";
 import { BsArrowLeftShort } from "react-icons/bs";
-import Navbar from "../Components/CoursePage/Navbar/Navbar";
-import Footer from "../Components/Footerfsdsw/Footer";
+import NavbarThankYou from "../Components/CoursePage/Navbar/NavbarThankYou";
+import FooterThankYou from "../Components/Footerfsdsw/FooterThankYou";
+import CourseThankYou from "../Components/Home/Course/CourseThankYou";
 
 const ThankYou = () => {
   return (
@@ -52,9 +51,10 @@ const ThankYou = () => {
           }}
         />
       </Head>
-      <Navbar />
+      <NavbarThankYou />
+
       <section className={styles.mains}>
-        <div className={styles.left} style={{height:"80vh", marginBottom:"-70px"}} >
+        <div className={styles.left} >
           <h4 className={styles.hptop}>
             <b>Thank you!</b>
             <br />
@@ -67,14 +67,15 @@ const ThankYou = () => {
               <div>
                 <button className={styles.Button}>
                   <BsArrowLeftShort className="bIcons" />
-                  <a href="http://learnbay.co/">Go To Home</a>
+                  <a href="/">Go To Home</a>
                 </button>
               </div>
             </div>
           </div>
         </div>
+        <CourseThankYou/>
       </section>
-      <Footer />
+      <FooterThankYou />
     </div>
   );
 };

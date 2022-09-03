@@ -325,7 +325,9 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       (router.pathname === "/apply-for-counselling-data-science" &&
       downloadBrochure)
     ) {
-      router.push("/Thank-you-brochure");
+      // router.push("/Thank-you-brochure");
+      router.push("/Thank-you");
+
       return;
     }
 
@@ -346,7 +348,8 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       (router.pathname === "/full-stack-web-development-program" && downloadBrochure) ||
       (router.pathname === "/dsa-system-design" && downloadBrochure)
     ) {
-      router.push("/Thank-you-fsd");
+      // router.push("/Thank-you-fsd");
+      router.push("/Thank-you");
       return;
     }
 
@@ -435,7 +438,8 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       router.pathname === "/apply-for-counselling-fsd-s2" ||
       router.pathname === "/dsa-system-design" 
     ) {
-      router.push("/Thank-you-fsd");
+      // router.push("/Thank-you-fsd");
+      router.push("/Thank-you");
       return;
     }
   };
