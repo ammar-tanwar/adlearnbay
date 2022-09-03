@@ -28,7 +28,7 @@ const Footer = () => {
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Popular Courses</p>
           <a href="/data-science-certification-courses"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Advance Data Science & AI Certification</p></a>
-          <a href="/fswd"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Full Stack Web Development Program</p></a>
+          <a href="/dsa"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Data Structures & Algorithms and System Design</p></a>
           <a href="/fssd"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Full-Stack Software Development Program</p></a>
           <a href="/advance-ai-ml-certification"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Advance AI & ML Certification</p></a>
           <a href="/data-science-ai-cert-for-managers-leaders"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Data Science & AI Cert. For Managers & Leaders</p></a>

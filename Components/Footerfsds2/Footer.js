@@ -19,7 +19,7 @@ const Footer = () => {
                   objectFit="contain"
                   width="230px"
                   height="60px"
-                />
+                />   
               </a>
               <p className={styles.FooterInnerli}>The Full-Stack Developer Program is a demanding course that offers you everything you need to know about becoming a skillful developer. Prepare for MAANG interviews by brushing up on your technical skills. Enroll now for a smooth transition.</p>
               <span style={{display:"flex", marginTop:"20px"}}><IoMailSharp className="bIcons"  /><Link href="mailto:contacts@learnbay.co">contacts@learnbay.co</Link></span>

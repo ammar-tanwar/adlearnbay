@@ -41,7 +41,7 @@ const Footerfsd = () => {
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Courses</p>
-          <p className={styles.FooterInnerli}>Full Stack Web Development Course</p>
+          {/* <p className={styles.FooterInnerli}>Full Stack Web Development Course</p> */}
           <p className={styles.FooterInnerli}>Full Stack Software Development Course</p>
           <p className={styles.FooterInnerli}>Full Stack Data Structures & Algorithms Course</p>
          
@@ -78,27 +78,27 @@ const Footerfsd = () => {
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Pune</p>
         
-          <p className={styles.FooterInnerli}>Full Stack Web Development Course</p>
+          {/* <p className={styles.FooterInnerli}>Full Stack Web Development Course</p> */}
           <p className={styles.FooterInnerli}>Full Stack Software Development Course</p>
           <p className={styles.FooterInnerli}>Full Stack Data Structures & Algorithms Course</p>
 
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Mumbai</p>
-          <p className={styles.FooterInnerli}>Full Stack Web Development Course</p>
+          {/* <p className={styles.FooterInnerli}>Full Stack Web Development Course</p> */}
           <p className={styles.FooterInnerli}>Full Stack Software Development Course</p>
           <p className={styles.FooterInnerli}>Full Stack Data Structures & Algorithms Course</p>
 
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Chennai</p>
-          <p className={styles.FooterInnerli}>Full Stack Web Development Course</p>
+          {/* <p className={styles.FooterInnerli}>Full Stack Web Development Course</p> */}
           <p className={styles.FooterInnerli}>Full Stack Software Development Course</p>
           <p className={styles.FooterInnerli}>Full Stack Data Structures & Algorithms Course</p>
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Canada</p>
-          <p className={styles.FooterInnerli}>Full Stack Web Development Course</p>
+          {/* <p className={styles.FooterInnerli}>Full Stack Web Development Course</p> */}
           <p className={styles.FooterInnerli}>Full Stack Software Development Course</p>
           <p className={styles.FooterInnerli}>Full Stack Data Structures & Algorithms Course</p>
         </div>
@@ -108,26 +108,26 @@ const Footerfsd = () => {
       <div className={styles.FooterDiv}>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Bangalore</p>
-          <p className={styles.FooterInnerli}>Full Stack Web Development Course</p>
+          {/* <p className={styles.FooterInnerli}>Full Stack Web Development Course</p> */}
           <p className={styles.FooterInnerli}>Full Stack Software Development Course</p>
           <p className={styles.FooterInnerli}>Full Stack Data Structures & Algorithms Course</p>
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Hyderabad</p>
-          <p className={styles.FooterInnerli}>Full Stack Web Development Course</p>
+          {/* <p className={styles.FooterInnerli}>Full Stack Web Development Course</p> */}
           <p className={styles.FooterInnerli}>Full Stack Software Development Course</p>
           <p className={styles.FooterInnerli}>Full Stack Data Structures & Algorithms Course</p>
 
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Dubai</p>
-          <p className={styles.FooterInnerli}>Full Stack Web Development Course</p>
+          {/* <p className={styles.FooterInnerli}>Full Stack Web Development Course</p> */}
           <p className={styles.FooterInnerli}>Full Stack Software Development Course</p>
           <p className={styles.FooterInnerli}>Full Stack Data Structures & Algorithms Course</p>
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Delhi</p>
-          <p className={styles.FooterInnerli}>Full Stack Web Development Course</p>
+          {/* <p className={styles.FooterInnerli}>Full Stack Web Development Course</p> */}
           <p className={styles.FooterInnerli}>Full Stack Software Development Course</p>
           <p className={styles.FooterInnerli}>Full Stack Data Structures & Algorithms Course</p>
         </div>
