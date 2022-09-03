@@ -8,7 +8,7 @@ import Navbar from "../Components/CoursePage/Navbar/Navbar";
 import Form from "../Components/Form/Form";
 import Certificate from "../Components/CoursePage/Certificatejob/Certificate";
 import Project from "../Components/CoursePage/Project/Project";
-import OurExpert from "../Components/CoursePage/OurExpert/OurExpert"; 
+import OurExpert from "../Components/CoursePage/OurExpert/OurExpert";
 import CourseFee from "../Components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
 import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
@@ -19,7 +19,6 @@ import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
 import Footer from "../Components/CoursePage/Footer/Footer";
 import OfferPopup from "../Components/CoursePage/OfferPopup/OfferPopup";
-
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -82,51 +81,51 @@ export default function Home() {
           </div>
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
-                     {/* <p>Fill the below Details to get started</p> */}
+            {/* <p>Fill the below Details to get started</p> */}
 
             <Form popup={true} setTrigger={setPopups} />
           </div>
         </Popup>
-        <OfferPopup/>
+        <OfferPopup />
         <FirstSection
-        deskTopPara={JobGuaranteeCourseData[0].FirstSection.deskTopPara} 
-        deskTopPara1={JobGuaranteeCourseData[0].FirstSection.deskTopPara1}
-        spanTitleText={JobGuaranteeCourseData[0].FirstSection.spanTitleText}
-        mTitle={JobGuaranteeCourseData[0].FirstSection.mTitle}
-        mTopPara={JobGuaranteeCourseData[0].FirstSection.mTopPara}
-        spanMTitleText={JobGuaranteeCourseData[0].FirstSection.spanMTitleText}
-        mTopPara1={JobGuaranteeCourseData[0].FirstSection.mTopPara1}
-        title={JobGuaranteeCourseData[0].FirstSection.title}
-        desc={JobGuaranteeCourseData[0].FirstSection.desc}
-        width={JobGuaranteeCourseData[0].FirstSection.width}
-        height={JobGuaranteeCourseData[0].FirstSection.height}
-        src={JobGuaranteeCourseData[0].FirstSection.src}
-        alt={JobGuaranteeCourseData[0].FirstSection.alt}
-        srcD={JobGuaranteeCourseData[0].FirstSection.srcD}
+          deskTopPara={JobGuaranteeCourseData[0].FirstSection.deskTopPara}
+          deskTopPara1={JobGuaranteeCourseData[0].FirstSection.deskTopPara1}
+          spanTitleText={JobGuaranteeCourseData[0].FirstSection.spanTitleText}
+          mTitle={JobGuaranteeCourseData[0].FirstSection.mTitle}
+          mTopPara={JobGuaranteeCourseData[0].FirstSection.mTopPara}
+          spanMTitleText={JobGuaranteeCourseData[0].FirstSection.spanMTitleText}
+          mTopPara1={JobGuaranteeCourseData[0].FirstSection.mTopPara1}
+          title={JobGuaranteeCourseData[0].FirstSection.title}
+          desc={JobGuaranteeCourseData[0].FirstSection.desc}
+          width={JobGuaranteeCourseData[0].FirstSection.width}
+          height={JobGuaranteeCourseData[0].FirstSection.height}
+          src={JobGuaranteeCourseData[0].FirstSection.src}
+          alt={JobGuaranteeCourseData[0].FirstSection.alt}
+          srcD={JobGuaranteeCourseData[0].FirstSection.srcD}
         />
         <div className={styles.program}>
           <ProgramInfo
-          p1={JobGuaranteeCourseData[0].ProgramInfo.p1}
-          p11={JobGuaranteeCourseData[0].ProgramInfo.p11}
-          p2={JobGuaranteeCourseData[0].ProgramInfo.p2}
-          p22={JobGuaranteeCourseData[0].ProgramInfo.p22}
-          p3={JobGuaranteeCourseData[0].ProgramInfo.p3}
-          p33={JobGuaranteeCourseData[0].ProgramInfo.p33}
-          p4={JobGuaranteeCourseData[0].ProgramInfo.p4}
-          p44={JobGuaranteeCourseData[0].ProgramInfo.p44}
+            p1={JobGuaranteeCourseData[0].ProgramInfo.p1}
+            p11={JobGuaranteeCourseData[0].ProgramInfo.p11}
+            p2={JobGuaranteeCourseData[0].ProgramInfo.p2}
+            p22={JobGuaranteeCourseData[0].ProgramInfo.p22}
+            p3={JobGuaranteeCourseData[0].ProgramInfo.p3}
+            p33={JobGuaranteeCourseData[0].ProgramInfo.p33}
+            p4={JobGuaranteeCourseData[0].ProgramInfo.p4}
+            p44={JobGuaranteeCourseData[0].ProgramInfo.p44}
           />
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
-          title={JobGuaranteeCourseData[0].BoxShape.title}
-          Box1h5={JobGuaranteeCourseData[0].BoxShape.Box1h5}
-          box1desc={JobGuaranteeCourseData[0].BoxShape.box1desc}
-          Box2h5={JobGuaranteeCourseData[0].BoxShape.Box2h5}
-          box2desc={JobGuaranteeCourseData[0].BoxShape.box2desc}
-          Box3h5={JobGuaranteeCourseData[0].BoxShape.Box3h5}
-          box3desc={JobGuaranteeCourseData[0].BoxShape.box3desc}
-          Box4h5={JobGuaranteeCourseData[0].BoxShape.Box4h5}
-          box4desc={JobGuaranteeCourseData[0].BoxShape.box4desc}
+            title={JobGuaranteeCourseData[0].BoxShape.title}
+            Box1h5={JobGuaranteeCourseData[0].BoxShape.Box1h5}
+            box1desc={JobGuaranteeCourseData[0].BoxShape.box1desc}
+            Box2h5={JobGuaranteeCourseData[0].BoxShape.Box2h5}
+            box2desc={JobGuaranteeCourseData[0].BoxShape.box2desc}
+            Box3h5={JobGuaranteeCourseData[0].BoxShape.Box3h5}
+            box3desc={JobGuaranteeCourseData[0].BoxShape.box3desc}
+            Box4h5={JobGuaranteeCourseData[0].BoxShape.Box4h5}
+            box4desc={JobGuaranteeCourseData[0].BoxShape.box4desc}
           />
         </div>
         <CourseReview />
@@ -148,46 +147,54 @@ export default function Home() {
           project={JobGuaranteeCourseData[0].project}
         />
         <OurExpert
-        img1={JobGuaranteeCourseData[0].OurExpert.img1}
-        img2={JobGuaranteeCourseData[0].OurExpert.img2}
-        img3={JobGuaranteeCourseData[0].OurExpert.img3}
-        img4={JobGuaranteeCourseData[0].OurExpert.img4}
-        img5={JobGuaranteeCourseData[0].OurExpert.img5}
-        img6={JobGuaranteeCourseData[0].OurExpert.img6}
-        img7={JobGuaranteeCourseData[0].OurExpert.img7}
-        img8={JobGuaranteeCourseData[0].OurExpert.img8}
-        img9={JobGuaranteeCourseData[0].OurExpert.img9}
-        img10={JobGuaranteeCourseData[0].OurExpert.img10}
-        img11={JobGuaranteeCourseData[0].OurExpert.img11}
-        img12={JobGuaranteeCourseData[0].OurExpert.img12}
-        img13={JobGuaranteeCourseData[0].OurExpert.img13}
-        img14={JobGuaranteeCourseData[0].OurExpert.img14}
-        img15={JobGuaranteeCourseData[0].OurExpert.img15}
-        img16={JobGuaranteeCourseData[0].OurExpert.img16}
-        img17={JobGuaranteeCourseData[0].OurExpert.img17}
-        img18={JobGuaranteeCourseData[0].OurExpert.img18}
-        img19={JobGuaranteeCourseData[0].OurExpert.img19}
-        img21={JobGuaranteeCourseData[0].OurExpert.img21}
-        img22={JobGuaranteeCourseData[0].OurExpert.img22}
-        img23={JobGuaranteeCourseData[0].OurExpert.img23}
-        img20={JobGuaranteeCourseData[0].OurExpert.img20}
+          img1={JobGuaranteeCourseData[0].OurExpert.img1}
+          img2={JobGuaranteeCourseData[0].OurExpert.img2}
+          img3={JobGuaranteeCourseData[0].OurExpert.img3}
+          img4={JobGuaranteeCourseData[0].OurExpert.img4}
+          img5={JobGuaranteeCourseData[0].OurExpert.img5}
+          img6={JobGuaranteeCourseData[0].OurExpert.img6}
+          img7={JobGuaranteeCourseData[0].OurExpert.img7}
+          img8={JobGuaranteeCourseData[0].OurExpert.img8}
+          img9={JobGuaranteeCourseData[0].OurExpert.img9}
+          img10={JobGuaranteeCourseData[0].OurExpert.img10}
+          img11={JobGuaranteeCourseData[0].OurExpert.img11}
+          img12={JobGuaranteeCourseData[0].OurExpert.img12}
+          img13={JobGuaranteeCourseData[0].OurExpert.img13}
+          img14={JobGuaranteeCourseData[0].OurExpert.img14}
+          img15={JobGuaranteeCourseData[0].OurExpert.img15}
+          img16={JobGuaranteeCourseData[0].OurExpert.img16}
+          img17={JobGuaranteeCourseData[0].OurExpert.img17}
+          img18={JobGuaranteeCourseData[0].OurExpert.img18}
+          img19={JobGuaranteeCourseData[0].OurExpert.img19}
+          img21={JobGuaranteeCourseData[0].OurExpert.img21}
+          img22={JobGuaranteeCourseData[0].OurExpert.img22}
+          img23={JobGuaranteeCourseData[0].OurExpert.img23}
+          img20={JobGuaranteeCourseData[0].OurExpert.img20}
         />
-        <ProgramFee Emi ={JobGuaranteeCourseData[0].ProgramFee.Emi}
-        Fee={JobGuaranteeCourseData[0].ProgramFee.Fee} CourseFeeAndFinancing={JobGuaranteeCourseData[0].ProgramFee.CourseFeeAndFinancing} />
+        <ProgramFee Emi={JobGuaranteeCourseData[0].ProgramFee.Emi}
+          Fee={JobGuaranteeCourseData[0].ProgramFee.Fee} CourseFeeAndFinancing={JobGuaranteeCourseData[0].ProgramFee.CourseFeeAndFinancing} />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project project={JobGuaranteeCourseData[0].Project.project}
-          domain={JobGuaranteeCourseData[0].Project.domain} />
+            domain={JobGuaranteeCourseData[0].Project.domain} />
         </div>
+
+
         <CourseFee
-        CourseFeeHead={JobGuaranteeCourseData[0].CourseFee.CourseFeeHead}
-        CourseFeePara={JobGuaranteeCourseData[0].CourseFee.CourseFeePara}
-        CourseFeelist1={JobGuaranteeCourseData[0].CourseFee.CourseFeelist1}
-        CourseFeelist2={JobGuaranteeCourseData[0].CourseFee.CourseFeelist2}
-        CourseFeelist3={JobGuaranteeCourseData[0].CourseFee.CourseFeelist3}
-        CourseFeelist4={JobGuaranteeCourseData[0].CourseFee.CourseFeelist4}
-        CourseFeelist5={JobGuaranteeCourseData[0].CourseFee.CourseFeelist5}
+          syllabusDesc={JobGuaranteeCourseData[0].syllabusDesc}
+          syllabus={JobGuaranteeCourseData[0].Batch}
+
+          CourseFeeHead={JobGuaranteeCourseData[0].BatchCourses.CourseFeeHead}
+          CourseFeePara={JobGuaranteeCourseData[0].BatchCourses.CourseFeePara}
+          CourseFeelist1={JobGuaranteeCourseData[0].BatchCourses.CourseFeelist1}
+          CourseFeelist2={JobGuaranteeCourseData[0].BatchCourses.CourseFeelist2}
+          CourseFeelist3={JobGuaranteeCourseData[0].BatchCourses.CourseFeelist3}
+          CourseFeelist4={JobGuaranteeCourseData[0].BatchCourses.CourseFeelist4}
+          CourseFeelist5={JobGuaranteeCourseData[0].BatchCourses.CourseFeelist5}
         />
+
+
+
         <LearnSupport />
         <Footer />
       </main>

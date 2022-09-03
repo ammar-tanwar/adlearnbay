@@ -15,7 +15,7 @@ import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
 import Footer from "../Components/CoursePage/Footer/Footerfsd";
 import BoxShape1 from "../Components/CoursePage/BoxshapeFssd/BoxShape";
 import React, { useState } from "react";
-import Batch from "../Components/CoursePage/BatchDetails/Batch";
+import Batch from "../Components/CoursePage/BatchDetails/Batch"; 
 import OfferPopup from '../Components/CoursePage/OfferPopup/OfferPopup';
 
 

@@ -67,14 +67,14 @@ const ThankYou = () => {
               <div>
                 <button className={styles.Button}>
                   <BsArrowLeftShort className="bIcons" />
-                  <a href="/fswd-s1">Go To Home</a>
+                  <a href="/fssd-s1">Go To Home</a>
                 </button>
               </div>
             </div>
           </div>
         </div>
         <div className={styles.rightsfsd}>
-          <div>
+          {/* <div>
           <Image
             src="/full-stack-web.png"
             alt="data-science-course"
@@ -92,7 +92,7 @@ const ThankYou = () => {
                     Download Brochure
                   </a>
                 </button>
-          </div>
+          </div> */}
           <div>
           <Image
             src="/full-stack-Software.png"

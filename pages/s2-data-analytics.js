@@ -18,7 +18,6 @@ import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
 import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
 import Footer from "../Components/CoursePage/Footer/Footer";
 import OfferPopup from "../Components/CoursePage/OfferPopup/OfferPopup";
-
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -81,12 +80,12 @@ export default function Home() {
           </div>
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
-                     {/* <p>Fill the below Details to get started</p> */}
+            {/* <p>Fill the below Details to get started</p> */}
 
             <Form popup={true} setTrigger={setPopups} />
           </div>
         </Popup>
-        <OfferPopup/>
+        <OfferPopup />
         <FirstSection
           deskTopPara={DataAnalyticsCourseData[0].FirstSection.deskTopPara}
           deskTopPara1={DataAnalyticsCourseData[0].FirstSection.deskTopPara1}
@@ -126,6 +125,8 @@ export default function Home() {
             box3desc={DataAnalyticsCourseData[0].BoxShape.box3desc}
             Box4h5={DataAnalyticsCourseData[0].BoxShape.Box4h5}
             box4desc={DataAnalyticsCourseData[0].BoxShape.box4desc}
+            headh5={DataAnalyticsCourseData[0].BoxShape.headh5}
+
           />
         </div>
         <CourseReview />
@@ -149,6 +150,8 @@ export default function Home() {
           project={DataAnalyticsCourseData[0].project}
         />
         <OurExpert
+          H5={DataAnalyticsCourseData[0].OurExpert.H5}
+
           img1={DataAnalyticsCourseData[0].OurExpert.img1}
           img2={DataAnalyticsCourseData[0].OurExpert.img2}
           img3={DataAnalyticsCourseData[0].OurExpert.img3}
@@ -175,20 +178,29 @@ export default function Home() {
         />
         <ProgramFee Emi={DataAnalyticsCourseData[0].ProgramFee.Emi}
           Fee={DataAnalyticsCourseData[0].ProgramFee.Fee}
-          CourseFeeAndFinancing={DataAnalyticsCourseData[0].ProgramFee.CourseFeeAndFinancing} />
+          CourseFeeAndFinancing={DataAnalyticsCourseData[0].ProgramFee.CourseFeeAndFinancing}
+          para={DataAnalyticsCourseData[0].ProgramFee.para} />
         <div className={styles.ProjectWrapper} id="project">
           <Project project={DataAnalyticsCourseData[0].Project.project}
             domain={DataAnalyticsCourseData[0].Project.domain} />
         </div>
+
+
         <CourseFee
-          CourseFeeHead={DataAnalyticsCourseData[0].CourseFee.CourseFeeHead}
-          CourseFeePara={DataAnalyticsCourseData[0].CourseFee.CourseFeePara}
-          CourseFeelist1={DataAnalyticsCourseData[0].CourseFee.CourseFeelist1}
-          CourseFeelist2={DataAnalyticsCourseData[0].CourseFee.CourseFeelist2}
-          CourseFeelist3={DataAnalyticsCourseData[0].CourseFee.CourseFeelist3}
-          CourseFeelist4={DataAnalyticsCourseData[0].CourseFee.CourseFeelist4}
-          CourseFeelist5={DataAnalyticsCourseData[0].CourseFee.CourseFeelist5}
+          syllabusDesc={DataAnalyticsCourseData[0].syllabusDesc}
+          syllabus={DataAnalyticsCourseData[0].Batch}
+
+          CourseFeeHead={DataAnalyticsCourseData[0].BatchCourses.CourseFeeHead}
+          CourseFeePara={DataAnalyticsCourseData[0].BatchCourses.CourseFeePara}
+          CourseFeelist1={DataAnalyticsCourseData[0].BatchCourses.CourseFeelist1}
+          CourseFeelist2={DataAnalyticsCourseData[0].BatchCourses.CourseFeelist2}
+          CourseFeelist3={DataAnalyticsCourseData[0].BatchCourses.CourseFeelist3}
+          CourseFeelist4={DataAnalyticsCourseData[0].BatchCourses.CourseFeelist4}
+          CourseFeelist5={DataAnalyticsCourseData[0].BatchCourses.CourseFeelist5}
         />
+
+
+
         <LearnSupport />
         <Footer />
       </main>

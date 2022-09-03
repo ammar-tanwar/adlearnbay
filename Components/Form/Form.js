@@ -10,7 +10,11 @@ import addDays from "date-fns/addDays";
 import subDays from "date-fns/subDays";
 import getDay from "date-fns/getDay";
 
+
 const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
+
+
+
   const router = useRouter();
   let today = new Date();
   let time =
@@ -31,7 +35,14 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
   });
   useEffect(() => {
     setQuery({ ...query, phone: value, dateTime: startDate });
+
     localStorage.setItem("email", JSON.stringify(query.email))
+
+
+  
+    // sessionStorage.setItem("email", query.email);
+    // localStorage.setItem('email', JSON.stringify(query.email))
+
   }, [value, startDate]);
 
   // Update inputs value
@@ -47,7 +58,8 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
   let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
   if (
     router.pathname === "/fssd" ||
-    router.pathname === "/fswd" ||
+    // router.pathname === "/fswd" ||
+    router.pathname === "/dsa" ||
     router.pathname === "/data-science-certification-courses" ||
     router.pathname === "/" ||
     router.pathname === "/advance-ai-ml-certification" ||
@@ -146,9 +158,9 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
     router.pathname === "/fssd-s2" ||
     router.pathname === "/fssd-s4" ||
     router.pathname === "/fssd-s5" ||
-    router.pathname === "/fswd-s4" ||
-    router.pathname === "/fswd-s5" ||
-    router.pathname === "/fswd-s2" ||
+    // router.pathname === "/fswd-s4" ||
+    // router.pathname === "/fswd-s5" ||
+    // router.pathname === "/fswd-s2" ||
     router.pathname === "/dsa-s2" ||
     router.pathname === "/dsa-s4" ||
     router.pathname === "/apply-for-counselling-fsd-s2" ||
@@ -173,6 +185,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
     const formData = new FormData();
     Object.entries(query).forEach(([key, value]) => {
       formData.append(key, value);
+      
     });
     fetch(`${endPoint}`, {
       method: "POST",
@@ -186,8 +199,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
         workExperience: "",
         dateTime: "",
         url: "",
-      })
-
+      }),
     );
     if (popup) {
       const off = () => {
@@ -319,16 +331,16 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
 
     if (
       (router.pathname === "/fssd" && downloadBrochure) ||
-      (router.pathname === "/fswd" && downloadBrochure) ||
+      // (router.pathname === "/fswd" && downloadBrochure) ||
       (router.pathname === "/fssd-s2" && downloadBrochure) ||
       (router.pathname === "/fssd-s4" && downloadBrochure) ||
-      (router.pathname === "/fswd-s4" && downloadBrochure) ||
+      // (router.pathname === "/fswd-s4" && downloadBrochure) ||
       (router.pathname === "/fssd-s5" && downloadBrochure) ||
-      (router.pathname === "/fswd-s5" && downloadBrochure) ||
+      // (router.pathname === "/fswd-s5" && downloadBrochure) ||
       (router.pathname === "/dsa-s2" && downloadBrochure) ||
       (router.pathname === "/dsa-s4" && downloadBrochure) ||
       (router.pathname === "/dsa-s5" && downloadBrochure) ||
-      (router.pathname === "/fswd-s2" && downloadBrochure) ||
+      // (router.pathname === "/fswd-s2" && downloadBrochure) ||
       (router.pathname === "/full-stack-software-development-program" && downloadBrochure) ||
       (router.pathname === "/apply-for-counselling" && downloadBrochure) ||
       (router.pathname === "/full-stack-web-development-program" && downloadBrochure) ||
@@ -408,16 +420,16 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
     
     if (
       router.pathname === "/fssd" ||
-      router.pathname === "/fswd" ||
+      // router.pathname === "/fswd" ||
       router.pathname === "/fssd-s2" ||
       router.pathname === "/fssd-s4" ||
-      router.pathname === "/fswd-s4" ||
+      // router.pathname === "/fswd-s4" ||
       router.pathname === "/fssd-s5" ||
-      router.pathname === "/fswd-s5" ||
+      // router.pathname === "/fswd-s5" ||
       router.pathname === "/dsa-s2" ||
       router.pathname === "/dsa-s4" ||
       router.pathname === "/dsa-s5" ||
-      router.pathname === "/fswd-s2" ||
+      // router.pathname === "/fswd-s2" ||
       router.pathname === "/full-stack-software-development-program" ||
       router.pathname === "/full-stack-web-development-program" ||
       router.pathname === "/apply-for-counselling-fsd-s2" ||

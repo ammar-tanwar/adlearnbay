@@ -27,7 +27,7 @@ export const DataAnalyticsCourseData = [
       p44: "₹ 6,392/month",
     },
     BoxShape: {
-      title: "Explore Our Programs",
+      title: "Explore Our Data Analytics Certification Programs",
       Box1h5: "Custom-fit Training",
       box1desc: "Get specially designed modules as per your dream Data Analytics role. Master the trending analytical tools.",
       Box2h5: "Exclusive Hackathons",
@@ -36,10 +36,11 @@ export const DataAnalyticsCourseData = [
       box3desc: "Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts.",
       Box4h5: "Hands-on Experience",
       box4desc: "Get diligent real-world project experience, spanning from beginner’s level complexity, directly from relevant companies.",
+      headh5:"Watch ours alumni’s making successful Data Analytics career transition",
     },
 
     Certificate: {
-      title: "Course Completion Certificate from IBM",
+      title: "Data Analytic Course Completion Certificate from IBM",
       desc: "Complete your training with the internationally recognized certificate.",
       desc2: "Validate your Data Analytics skills with IBM Course Completion Certificate.",
       desc3: "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
@@ -48,7 +49,7 @@ export const DataAnalyticsCourseData = [
     },
 
     syllabusDesc:
-      "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All sessions are covered practically with real-time industrial projects and case studies.",
+      "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Data Analytic Course sessions are covered practically with real-time industrial projects and case studies.",
     popupHead: "Download Data science Course Brochure",
     srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
     hours: "180+ Hours",
@@ -640,7 +641,7 @@ export const DataAnalyticsCourseData = [
       },
       {
         Module0: {
-          title: "Module 9 :- TOOLS",
+          title: "Module 9 :- Data Analytics Course TOOLS",
           content: [
             {
               chap: {
@@ -1145,6 +1146,7 @@ export const DataAnalyticsCourseData = [
     ],
 
     OurExpert: {
+      H5:"Data Analytic Tools Covered",
       img1: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png",
       img2: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png",
       img3: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png",
@@ -1175,6 +1177,7 @@ export const DataAnalyticsCourseData = [
       Emi: "₹ 6,392/month",
       Fee: "₹ 65,000 +GST",
       CourseFeeAndFinancing:"Data Analytic Course Fee & Financing",
+      para:"We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Analytic Certification Course and offer avariety of financing options to make it more economical.",
     },
     Project: {
       project: "5+ Projects",
@@ -1190,21 +1193,60 @@ export const DataAnalyticsCourseData = [
       CourseFeelist5: "Company-based Mock Interviews",
     },
 
-
-
-    BatchDetails: {
-      BatchHeader: "Advanced Data science and AI Next 2022 Cohort",
-      BatchName1: "weekday Batch",
-      BatchName2: "Weekday Batch",
-      weekDayBatchDate: "5 August 2022",
-      weekEndBatchDate: "29 July 2022",
-      weekDayBatchTime: "08:00 – 10:00 PM",
-      weekEndBatchTime: "08:00 – 10:00 PM",
-      weekEndBatch: "true",
-      weekDayBatch: "true",
+    Batch: [
+      {
+        Module0: {
+          title: "Weekend Batch :- (Sat - Sun)",
+          content: [
+            {
+              chap: {
+                title: "Batch 1 :- Date And time ",
+                desc: [
+                  "Date : 4th September 2022",
+                  "Time : 12:30 p.m. to 4 p.m..",
+  
+                ],
+              },
+            },
+  
+          ],
+          id: 0,
+          open: true,
+        },
+      },
+  
+      {
+        Module0: {
+          title: "Weekday Batch  :- (Mon-Fri)",
+          content: [
+            {
+              chap: {
+                title: "Weekday Batch 1 :- Date And time ",
+                desc: [
+                  "Date : 9th September 2022",
+                  "Time :8 p.m. to 10 p.m.",
+                ],
+              },
+            },
+           
+          ],
+          id: 1,
+          open: false,
+        },
+      },
+    ],
+  
+    BatchCourses: {
+      CourseFeeHead: "Data Analytics Course : Batch Details",
+      CourseFeePara: "Data Analytics Online Classroom",
+      CourseFeelist1: "Online Interactive Classes",
+      CourseFeelist2: "Weekend and Weekday Batches",
+      CourseFeelist3: "Extra Doubt Clearance Sessions",
+      CourseFeelist4: "Project-Based Learning",
+      CourseFeelist5: "Company-based Mock Interviews",
     },
-    FAQ: {
-      desc: "Learn from experts in live-interactive classes under Advanced data science and AI course with 100% job guarantee.",
-    },
+  
+
+    
   },
 ];

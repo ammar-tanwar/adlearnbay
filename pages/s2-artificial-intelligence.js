@@ -21,7 +21,6 @@ import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
 import Footer from "../Components/CoursePage/Footer/Footer";
 import OfferPopup from "../Components/CoursePage/OfferPopup/OfferPopup";
 
-
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -77,21 +76,21 @@ export default function Home() {
         />
       </Head>
       <main>  <Navbar popup={true} />
- 
+
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
           </div>
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
-                     {/* <p>Fill the below Details to get started</p> */}
+            {/* <p>Fill the below Details to get started</p> */}
 
             <Form popup={true} setTrigger={setPopups} />
           </div>
         </Popup>
-        <OfferPopup/>
+        <OfferPopup />
         <FirstSection
-          deskTopPara={AiCourseData[0].FirstSection.deskTopPara} 
+          deskTopPara={AiCourseData[0].FirstSection.deskTopPara}
           deskTopPara1={AiCourseData[0].FirstSection.deskTopPara1}
           spanTitleText={AiCourseData[0].FirstSection.spanTitleText}
           mTitle={AiCourseData[0].FirstSection.mTitle}
@@ -120,20 +119,24 @@ export default function Home() {
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
-          title={AiCourseData[0].BoxShape.title}
-          Box1h5={AiCourseData[0].BoxShape.Box1h5}
-          box1desc={AiCourseData[0].BoxShape.box1desc}
-          Box2h5={AiCourseData[0].BoxShape.Box2h5}
-          box2desc={AiCourseData[0].BoxShape.box2desc}
-          Box3h5={AiCourseData[0].BoxShape.Box3h5}
-          box3desc={AiCourseData[0].BoxShape.box3desc}
-          Box4h5={AiCourseData[0].BoxShape.Box4h5}
-          box4desc={AiCourseData[0].BoxShape.box4desc}
+            title={AiCourseData[0].BoxShape.title}
+            Box1h5={AiCourseData[0].BoxShape.Box1h5}
+            box1desc={AiCourseData[0].BoxShape.box1desc}
+            Box2h5={AiCourseData[0].BoxShape.Box2h5}
+            box2desc={AiCourseData[0].BoxShape.box2desc}
+            Box3h5={AiCourseData[0].BoxShape.Box3h5}
+            box3desc={AiCourseData[0].BoxShape.box3desc}
+            Box4h5={AiCourseData[0].BoxShape.Box4h5}
+            box4desc={AiCourseData[0].BoxShape.box4desc}
+            headh5={AiCourseData[0].BoxShape.headh5}
+
           />
         </div>
 
         <CourseReview />
-        <Certificate />
+        <Certificate
+          H4="AI Certification Program"
+        />
         <OtherCertificate
           OCHead1={AiCourseData[0].OtherCertificate.OCHead1}
           OCP1={AiCourseData[0].OtherCertificate.OCP1}
@@ -154,7 +157,8 @@ export default function Home() {
           hours={AiCourseData[0].hours}
           project={AiCourseData[0].project}
         />
-          <OurExpert
+        <OurExpert
+          H5={AiCourseData[0].OurExpert.H5}
           img1={AiCourseData[0].OurExpert.img1}
           img2={AiCourseData[0].OurExpert.img2}
           img3={AiCourseData[0].OurExpert.img3}
@@ -180,21 +184,29 @@ export default function Home() {
           img20={AiCourseData[0].OurExpert.img20}
         />
         <ProgramFee Emi={AiCourseData[0].ProgramFee.Emi}
-         Fee={AiCourseData[0].ProgramFee.Fee} CourseFeeAndFinancing={AiCourseData[0].ProgramFee.CourseFeeAndFinancing}/>
+          Fee={AiCourseData[0].ProgramFee.Fee} CourseFeeAndFinancing={AiCourseData[0].ProgramFee.CourseFeeAndFinancing}
+          para={AiCourseData[0].ProgramFee.para} />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project project={AiCourseData[0].Project.project}
-           domain={AiCourseData[0].Project.domain} />
+            domain={AiCourseData[0].Project.domain} />
         </div>
+
+
         <CourseFee
-        CourseFeeHead={AiCourseData[0].CourseFee.CourseFeeHead}
-        CourseFeePara={AiCourseData[0].CourseFee.CourseFeePara}
-        CourseFeelist1={AiCourseData[0].CourseFee.CourseFeelist1}
-        CourseFeelist2={AiCourseData[0].CourseFee.CourseFeelist2}
-        CourseFeelist3={AiCourseData[0].CourseFee.CourseFeelist3}
-        CourseFeelist4={AiCourseData[0].CourseFee.CourseFeelist4}
-        CourseFeelist5={AiCourseData[0].CourseFee.CourseFeelist5}
+          syllabusDesc={AiCourseData[0].syllabusDesc}
+          syllabus={AiCourseData[0].Batch}
+
+          CourseFeeHead={AiCourseData[0].BatchCourses.CourseFeeHead}
+          CourseFeePara={AiCourseData[0].BatchCourses.CourseFeePara}
+          CourseFeelist1={AiCourseData[0].BatchCourses.CourseFeelist1}
+          CourseFeelist2={AiCourseData[0].BatchCourses.CourseFeelist2}
+          CourseFeelist3={AiCourseData[0].BatchCourses.CourseFeelist3}
+          CourseFeelist4={AiCourseData[0].BatchCourses.CourseFeelist4}
+          CourseFeelist5={AiCourseData[0].BatchCourses.CourseFeelist5}
         />
+
+
         <LearnSupport />
         <Footer />
       </main>

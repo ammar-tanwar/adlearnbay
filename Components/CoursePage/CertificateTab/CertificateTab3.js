@@ -8,10 +8,11 @@ import {
   Certificate4,
 } from "./CertificateDetail";
 
-function CertificateTab() {
+function CertificateTab({H4}) {
    
   return (
     <section className={styles.CertificateTab}>
+      <h4>{H4}</h4>
         <div className={styles.certificate}>
           
             

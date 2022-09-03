@@ -29,23 +29,23 @@ const CourseReview = () => {
       {" "}
       <div className={styles.reviewWrap}>
 
-      <Popup
-      trigger={popups}
-      setTrigger={setPopups}
-      className="popupModal"
-      downloadBrochure
-    >
-      <div className="leftPopup">
-        <div
-          className="whiteP"
-          style={{ width: "350px", height: "400px" }}
-        ></div>
-      </div>
-      <div className="RightPopup">
-        <h5>Download Placement Brochure</h5>
-        <Form setTrigger={setPopups} downloadBrochure />
-      </div>
-    </Popup>
+        <Popup
+          trigger={popups}
+          setTrigger={setPopups}
+          className="popupModal"
+          downloadBrochure
+        >
+          <div className="leftPopup">
+            <div
+              className="whiteP"
+              style={{ width: "350px", height: "400px" }}
+            ></div>
+          </div>
+          <div className="RightPopup">
+            <h5>Download Placement Brochure</h5>
+            <Form setTrigger={setPopups} downloadBrochure />
+          </div>
+        </Popup>
 
 
         <div className={styles.swiperleft}>
@@ -478,7 +478,7 @@ const CourseReview = () => {
           Download Placement Report <MdKeyboardArrowDown />
         </button>
       </div>
-     
+      
     </>
   );
 };

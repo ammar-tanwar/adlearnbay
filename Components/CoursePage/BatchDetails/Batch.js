@@ -161,17 +161,19 @@ function Batch({
               <div>
                 <div className={styles.BatchDetails}>
                   <p className={styles.list}><MdDateRange className={styles.icon} /><b>Date</b></p>
-                  <p className={styles.list}>21st August 2022</p>
-                  <p className={styles.list}>25th August 2022</p>
-                  <p className={styles.list}>26th August 2022</p>
+                  <p className={styles.list}>4th September 2022</p>
+                      <p className={styles.list}>9th September 2022</p>
+                      <p className={styles.list}>26th August 2022</p>
+
                 </div>
-              </div>
+              </div> 
               <div>
                 <div className={styles.BatchDetails}>
                   <p className={styles.list}><BiTimeFive className={styles.icon} /><b>Time</b></p>
-                  <p className={styles.list}>08.30 a.m. to 12.00 p.m.</p>
-                  <p className={styles.list}>08:00 a.m. to 10:00 a.m.</p>
-                  <p className={styles.list}>08:00 p.m. to 10:00 p.m.</p>
+                  <p className={styles.list}>12:30 p.m. to 4 p.m.</p>
+                      <p className={styles.list}>8 p.m. to 10 p.m.</p>
+                      <p className={styles.list}>8 p.m. to 10 p.m.</p>
+
                 </div>
               </div>
               <div className={styles.btnWrapper}>
