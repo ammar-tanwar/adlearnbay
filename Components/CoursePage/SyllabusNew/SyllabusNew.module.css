@@ -426,6 +426,12 @@
     font-size: 14px;
     padding: 20px 20px 20px 20px;
   }
+
+  .PProgram > p {
+    font-size: 15px;
+   
+  }
+
   .PProgramInner div,
   .PProgrammains p {
     display: flex;

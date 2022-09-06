@@ -43,7 +43,7 @@ const Footerfsd = () => {
           <p className={styles.FooterInnerP}>Courses</p>
           {/* <p className={styles.FooterInnerli}>Full Stack Web Development Course</p> */}
           <p className={styles.FooterInnerli}>Full Stack Software Development Course</p>
-          <p className={styles.FooterInnerli}>Full Stack Data Structures & Algorithms Course</p>
+          <p className={styles.FooterInnerli}>DSA and System Design Course</p>
          
         </div>
         <div className={styles.FooterDivInner}>
@@ -81,6 +81,9 @@ const Footerfsd = () => {
           {/* <p className={styles.FooterInnerli}>Full Stack Web Development Course</p> */}
           <p className={styles.FooterInnerli}>Full Stack Software Development Course</p>
           <p className={styles.FooterInnerli}>Full Stack Data Structures & Algorithms Course</p>
+          <p className={styles.FooterInnerli}>DSA And System Design Course</p>
+          <p className={styles.FooterInnerli}>Full Stack Software Development Training</p>
+          <p className={styles.FooterInnerli}>DSA and System Design Training</p>
 
         </div>
         <div className={styles.FooterDivInner}>
@@ -88,6 +91,9 @@ const Footerfsd = () => {
           {/* <p className={styles.FooterInnerli}>Full Stack Web Development Course</p> */}
           <p className={styles.FooterInnerli}>Full Stack Software Development Course</p>
           <p className={styles.FooterInnerli}>Full Stack Data Structures & Algorithms Course</p>
+          <p className={styles.FooterInnerli}>DSA And System Design Course</p>
+          <p className={styles.FooterInnerli}>Full Stack Software Development Training</p>
+          <p className={styles.FooterInnerli}>DSA and System Design Training</p>
 
         </div>
         <div className={styles.FooterDivInner}>
@@ -95,12 +101,18 @@ const Footerfsd = () => {
           {/* <p className={styles.FooterInnerli}>Full Stack Web Development Course</p> */}
           <p className={styles.FooterInnerli}>Full Stack Software Development Course</p>
           <p className={styles.FooterInnerli}>Full Stack Data Structures & Algorithms Course</p>
+          <p className={styles.FooterInnerli}>DSA And System Design Course</p>
+          <p className={styles.FooterInnerli}>Full Stack Software Development Training</p>
+          <p className={styles.FooterInnerli}>DSA and System Design Training</p>
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Canada</p>
           {/* <p className={styles.FooterInnerli}>Full Stack Web Development Course</p> */}
           <p className={styles.FooterInnerli}>Full Stack Software Development Course</p>
           <p className={styles.FooterInnerli}>Full Stack Data Structures & Algorithms Course</p>
+          <p className={styles.FooterInnerli}>DSA And System Design Course</p>
+          <p className={styles.FooterInnerli}>Full Stack Software Development Training</p>
+          <p className={styles.FooterInnerli}>DSA and System Design Training</p>
         </div>
       </div>
       
@@ -111,12 +123,18 @@ const Footerfsd = () => {
           {/* <p className={styles.FooterInnerli}>Full Stack Web Development Course</p> */}
           <p className={styles.FooterInnerli}>Full Stack Software Development Course</p>
           <p className={styles.FooterInnerli}>Full Stack Data Structures & Algorithms Course</p>
+          <p className={styles.FooterInnerli}>DSA And System Design Course</p>
+          <p className={styles.FooterInnerli}>Full Stack Software Development Training</p>
+          <p className={styles.FooterInnerli}>DSA and System Design Training</p>
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Hyderabad</p>
           {/* <p className={styles.FooterInnerli}>Full Stack Web Development Course</p> */}
           <p className={styles.FooterInnerli}>Full Stack Software Development Course</p>
           <p className={styles.FooterInnerli}>Full Stack Data Structures & Algorithms Course</p>
+          <p className={styles.FooterInnerli}>DSA And System Design Course</p>
+          <p className={styles.FooterInnerli}>Full Stack Software Development Training</p>
+          <p className={styles.FooterInnerli}>DSA and System Design Training</p>
 
         </div>
         <div className={styles.FooterDivInner}>
@@ -124,12 +142,18 @@ const Footerfsd = () => {
           {/* <p className={styles.FooterInnerli}>Full Stack Web Development Course</p> */}
           <p className={styles.FooterInnerli}>Full Stack Software Development Course</p>
           <p className={styles.FooterInnerli}>Full Stack Data Structures & Algorithms Course</p>
+          <p className={styles.FooterInnerli}>DSA And System Design Course</p>
+          <p className={styles.FooterInnerli}>Full Stack Software Development Training</p>
+          <p className={styles.FooterInnerli}>DSA and System Design Training</p>
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Delhi</p>
           {/* <p className={styles.FooterInnerli}>Full Stack Web Development Course</p> */}
           <p className={styles.FooterInnerli}>Full Stack Software Development Course</p>
           <p className={styles.FooterInnerli}>Full Stack Data Structures & Algorithms Course</p>
+          <p className={styles.FooterInnerli}>DSA And System Design Course</p>
+          <p className={styles.FooterInnerli}>Full Stack Software Development Training</p>
+          <p className={styles.FooterInnerli}>DSA and System Design Training</p>
         </div>
       </div>
       </div>

@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+
 import styles from "../styles/ThankYou.module.css";
 import Script from "next/script";
 import Head from "next/head";
@@ -10,23 +10,6 @@ import Footer from "../Components/Footerfsdsq/Footer";
 
 
 const ThankYou = () => {
-
-  const [user, setUser] = useState()
-  useEffect(() => {
-    const value = localStorage.getItem("email");
-    // const user = !!value ? JSON.parse(value) : undefined;
-    setUser(value)
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push( { 'event': '‘form_complete’',
-    'enhanced_conversion_data':{
-      "email":value
-    }
-  } ) 
-  console.log('window.dataLayer', window.dataLayer); 
-  }, [])
-
-  console.log("print",user)
-
   return (
     <div className={styles.main}>
       <Head>

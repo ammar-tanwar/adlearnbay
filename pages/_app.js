@@ -18,9 +18,10 @@ function MyApp({ Component, pageProps }) {
             gtag('js', new Date());
             gtag('config', 'GTM-NN8XWH8', {
               page_path: window.location.pathname,
-            });
+            },);
                 `}
       </Script>
+     
       <Component {...pageProps} />
     </>
   );

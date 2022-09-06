@@ -134,7 +134,7 @@
 .imgBack h5 {
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 22px;
   margin: 0;
   margin-bottom: 10px;
   line-height: 35px;
@@ -296,7 +296,7 @@
     margin: 50px 20px 50px 20px;
   }
   .boxWrapper h2 {
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 600;
     margin: 0;
     padding: 0;
@@ -305,7 +305,7 @@
     font-size: 24px;
   }
   .imgBack > h5 {
-    display: none;
+    display: block;
     font-size: 22px;
   }
   .boxActive {

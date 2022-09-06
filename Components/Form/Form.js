@@ -13,8 +13,6 @@ import getDay from "date-fns/getDay";
 
 const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
 
-
-
   const router = useRouter();
   let today = new Date();
   let time =
@@ -36,7 +34,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
   useEffect(() => {
     setQuery({ ...query, phone: value, dateTime: startDate });
 
-    localStorage.setItem("email", JSON.stringify(query.email))
+    // localStorage.setItem("email", JSON.stringify(query.email))
 
 
   
@@ -160,7 +158,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
     router.pathname === "/fssd-s5" ||
     // router.pathname === "/fswd-s4" ||
     // router.pathname === "/fswd-s5" ||
-    // router.pathname === "/fswd-s2" ||
+    router.pathname === "/fswd-s2" ||
     router.pathname === "/dsa-s2" ||
     router.pathname === "/dsa-s4" ||
     router.pathname === "/apply-for-counselling-fsd-s2" ||
@@ -325,8 +323,12 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       (router.pathname === "/apply-for-counselling-data-science" &&
       downloadBrochure)
     ) {
+      
       // router.push("/Thank-you-brochure");
+      // router.push(`/Thank-you?email=${query.email}`,"/Thank-you",{shallow:true})
+      // router.push(`/Thank-you?email=${query.email}`);
       router.push("/Thank-you");
+
 
       return;
     }
@@ -350,6 +352,11 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
     ) {
       // router.push("/Thank-you-fsd");
       router.push("/Thank-you");
+      // router.push(`/Thank-you?email=${query.email}`);
+      // router.push({ pathname: "/Thank-you", query: { email: query.email } },"/Thank-you")
+      // router.push(`/Thank-you?email=${query.email}`,"/Thank-you",{shallow:true})
+
+
       return;
     }
 
@@ -418,6 +425,11 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       router.pathname === "/apply-for-counselling-data-science"
     ) {
       router.push("/Thank-you");
+      // router.push(`/Thank-you?email=${query.email}`);
+      // router.push({ pathname: "/Thank-you", query: { email: query.email } },"/Thank-you")
+      // router.push(`/Thank-you?email=${query.email}`,"/Thank-you",{shallow:true})
+
+
       return;
     }
     
@@ -440,6 +452,11 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
     ) {
       // router.push("/Thank-you-fsd");
       router.push("/Thank-you");
+      // router.push(`/Thank-you?email=${query.email}`);
+      // router.push({ pathname: "/Thank-you", query: { email: query.email } },"/Thank-you")
+      // router.push(`/Thank-you?email=${query.email}`,"/Thank-you",{shallow:true})
+
+
       return;
     }
   };

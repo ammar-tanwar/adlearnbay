@@ -7,6 +7,9 @@ import FooterThankYou from "../Components/Footerfsdsw/FooterThankYou";
 import CourseThankYou from "../Components/Home/Course/CourseThankYou";
 
 const ThankYou = () => {
+  
+  // console.log("print",email.email)
+
   return (
     <div className={styles.main}>
       <Head>
@@ -50,6 +53,23 @@ const ThankYou = () => {
             x.parentNode.insertBefore(s, x);`,
           }}
         />
+
+        <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: `
+
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        ‘event’: ‘form_complete’,
+        ‘enhanced_conversion_data’: {
+          “email”: "test@gmail.com"
+        }
+      });
+
+      ` }}
+      />
+
       </Head>
       <NavbarThankYou />
 
@@ -81,3 +101,13 @@ const ThankYou = () => {
 };
 
 export default ThankYou;
+
+
+
+// export async function getServerSideProps(context){
+//   const email = context.query.email
+//   console.log("email22",email)
+//   return {
+//     props:{email}
+//   }
+// }

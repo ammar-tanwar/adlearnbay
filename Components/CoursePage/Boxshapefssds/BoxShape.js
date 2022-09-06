@@ -21,6 +21,7 @@ const BoxShape = ({
   box3desc,
   Box4h5,
   box4desc,
+  headh5
 }) => {
   const [hover, setHover] = useState(false);
   const [mobile, setMobile] = useState(false);
@@ -33,7 +34,7 @@ const BoxShape = ({
 
   return (
     <div className={styles.boxWrapper}>
-      <p className={styles.pTop}>Program Features</p>
+     
       <h2>{title}</h2>
       <div className={styles.BoxDiv}>
 
@@ -168,7 +169,7 @@ const BoxShape = ({
 
         <div className={styles.right}>
           <div className={styles.imgBack}>
-            <h5>Our proud alumni with successfull career transition</h5>
+            <h5>{headh5}</h5>
             <div className={styles.reviewWrap}>
 
               <Swiper

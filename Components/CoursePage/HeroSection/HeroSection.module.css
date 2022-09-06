@@ -24,7 +24,7 @@
   }
   .left h1 {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 52px;
     line-height: 58px;
     margin: 10px 0px;
     color: #000000;
@@ -37,7 +37,7 @@
     display: inline;
     align-items: center;
     width: max-content;
-    font-size: 36px;
+    font-size: 42px;
     background-color: #edb552;
   }
   .pBot {
@@ -332,7 +332,7 @@
     background: #f4fcfe;
   }
   .left h1 {
-    font-size: 26px;
+    font-size: 35px;
     margin: 0;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -346,7 +346,7 @@
     display: inline;
     padding: 5px;
 
-    font-size: 26px;
+    font-size: 29px;
     background-color: #edb552;
   }
 

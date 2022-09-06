@@ -26,7 +26,7 @@ export const FullStackSoftwareCourseData = [
         p44: "₹ 10,816/month",
       },
       BoxShape: {
-        title: "Why Enroll In This Program?",
+        title: "Full Stack Software Development Program Features",
         Box1h5: "Crack MAANG Interview",
         box1desc: "Learn in-depth DSA and crack interviews in product-based MNCs",
         Box2h5: "1:1 Mentorship",
@@ -35,11 +35,12 @@ export const FullStackSoftwareCourseData = [
         box3desc: "Gain technical expertise by working on challenging real-world projects",
         Box4h5: "Domain Specialization",
         box4desc: "Choose Domain electives on your work experience and work on Live Projects",
+        headh5:"Our proud alumni with successfull full stack Software development career transition"
   
       },
   
       BoxShape1: {
-        title: "Full Stack Development Courses ",
+        title: "Full Stack Software Development Courses ",
         Box1h5: "Real Work experience",
         box1desc:
           "Don’t just learn, apply your learning. Work directly with companies to build relevant industry experience.",
@@ -56,10 +57,10 @@ export const FullStackSoftwareCourseData = [
   
   
       syllabusDesc:
-        "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All sessions are covered practically with real-time industrial projects and case studies.",
+        "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All full stack software development course sessions are covered practically with real-time industrial projects and case studies.",
       popupHead: "Download  Course Brochure",
-      CSyllabus: "Software Development Syllabus",
-      CourseHighlights: "Full Stack Course Highlights",
+      CSyllabus: "Full Stack Software Development Syllabus",
+      CourseHighlights: "Software Development Course Highlights",
       srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
       hours: "300+ Hours",
       project: "12+ Real Time",
@@ -272,7 +273,7 @@ export const FullStackSoftwareCourseData = [
       ProgramFee: {
         Fee: "₹ 1,10,000 + GST",
         Emi: "₹ 10,816",
-        CourseFeeAndFinancing: "Full Stack Course Fee & Financing",
+        CourseFeeAndFinancing: "Full Stack Software Developerment Course Fee & Financing",
       },
       Project: {
         project: "12+ Projects",

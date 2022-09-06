@@ -58,24 +58,6 @@ const BoxShape = ({
         <div className={styles.left}>
           <div>
             <Image
-              src="/ds.png"
-              alt="data-science-course"
-              quality={100}
-              layout="intrinsic"
-              width="306"
-              height="150"
-            />
-            <p className={styles.Ptopp}>
-            Full-Stack Web
-            <br />Development Program 
-            </p>
-            <button className={styles.Button} onClick={popupShow}>
-              <AiOutlineDownload className="bIcons" />
-              Download Brochure
-            </button>
-          </div>
-          <div>
-            <Image
               src="/advanceds.png"
               alt="data-science-course"
               quality={100}
@@ -110,7 +92,6 @@ const BoxShape = ({
               Download Brochure
             </button>
           </div>
-
         </div>
 
       </div>
@@ -119,3 +100,26 @@ const BoxShape = ({
 };
 
 export default BoxShape;
+
+
+
+
+
+// <div>
+// <Image
+//   src="/ds.png"
+//   alt="data-science-course"
+//   quality={100}
+//   layout="intrinsic"
+//   width="306"
+//   height="150"
+// />
+// <p className={styles.Ptopp}>
+// Full-Stack Web
+// <br />Development Program 
+// </p>
+// <button className={styles.Button} onClick={popupShow}>
+//   <AiOutlineDownload className="bIcons" />
+//   Download Brochure
+// </button>
+// </div>
