@@ -444,7 +444,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       router.pathname === "/dsa-s2" ||
       router.pathname === "/dsa-s4" ||
       router.pathname === "/dsa-s5" ||
-      // router.pathname === "/fswd-s2" ||
+      router.pathname === "/fswd-s2" ||
       router.pathname === "/full-stack-software-development-program" ||
       router.pathname === "/full-stack-web-development-program" ||
       router.pathname === "/apply-for-counselling-fsd-s2" ||
