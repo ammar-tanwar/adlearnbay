@@ -2,6 +2,8 @@ import "../styles/globals.css";
 import "../styles/form.css";
 import Script from "next/script"
 
+
+
 function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -21,8 +23,8 @@ function MyApp({ Component, pageProps }) {
             },);
                 `}
       </Script>
-     
       <Component {...pageProps} />
+      
     </>
   );
 }

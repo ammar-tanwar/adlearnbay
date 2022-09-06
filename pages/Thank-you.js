@@ -6,10 +6,11 @@ import NavbarThankYou from "../Components/CoursePage/Navbar/NavbarThankYou";
 import FooterThankYou from "../Components/Footerfsdsw/FooterThankYou";
 import CourseThankYou from "../Components/Home/Course/CourseThankYou";
 
-const ThankYou = () => {
-  
-  // console.log("print",email.email)
+import cookies from "next-cookies"
 
+
+const ThankYou = ({initialName}) => {
+  
   return (
     <div className={styles.main}>
       <Head>
@@ -63,7 +64,7 @@ const ThankYou = () => {
       window.dataLayer.push({
         ‘event’: ‘form_complete’,
         ‘enhanced_conversion_data’: {
-          “email”: "test@gmail.com"
+          “email”:${initialName}
         }
       });
 
@@ -76,7 +77,7 @@ const ThankYou = () => {
       <section className={styles.mains}>
         <div className={styles.left} >
           <h4 className={styles.hptop}>
-            <b>Thank you!</b>
+            <b>Thank you!</b>  
             <br />
           </h4>
           <p className={styles.Ptop}>
@@ -103,6 +104,12 @@ const ThankYou = () => {
 export default ThankYou;
 
 
+
+ThankYou.getInitialProps = async (ctx) => {
+  return {
+    initialName: cookies(ctx).CARD || "",
+  };
+};
 
 // export async function getServerSideProps(context){
 //   const email = context.query.email

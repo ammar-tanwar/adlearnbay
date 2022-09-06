@@ -9,6 +9,7 @@ import setMinutes from "date-fns/setMinutes";
 import addDays from "date-fns/addDays";
 import subDays from "date-fns/subDays";
 import getDay from "date-fns/getDay";
+import { auth } from "../../lib/useCookies";
 
 
 const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
@@ -35,8 +36,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
     setQuery({ ...query, phone: value, dateTime: startDate });
 
     // localStorage.setItem("email", JSON.stringify(query.email))
-
-
+    auth(query.email)
   
     // sessionStorage.setItem("email", query.email);
     // localStorage.setItem('email', JSON.stringify(query.email))
@@ -52,7 +52,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       [name]: value,
     }));
   };
-
+  
   let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
   if (
     router.pathname === "/fssd" ||
@@ -180,6 +180,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
   // Form Submit function
   const formSubmit = (e) => {
     e.preventDefault();
+    
     const formData = new FormData();
     Object.entries(query).forEach(([key, value]) => {
       formData.append(key, value);
@@ -189,6 +190,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       method: "POST",
       body: formData,
     }).then(() =>
+
       setQuery({
         name: "",
         email: "",
@@ -325,8 +327,10 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
     ) {
       
       // router.push("/Thank-you-brochure");
+      
       // router.push(`/Thank-you?email=${query.email}`,"/Thank-you",{shallow:true})
       // router.push(`/Thank-you?email=${query.email}`);
+
       router.push("/Thank-you");
 
 
@@ -351,7 +355,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       (router.pathname === "/dsa-system-design" && downloadBrochure)
     ) {
       // router.push("/Thank-you-fsd");
-      router.push("/Thank-you");
+      router.push("/Thank-you");  
       // router.push(`/Thank-you?email=${query.email}`);
       // router.push({ pathname: "/Thank-you", query: { email: query.email } },"/Thank-you")
       // router.push(`/Thank-you?email=${query.email}`,"/Thank-you",{shallow:true})
