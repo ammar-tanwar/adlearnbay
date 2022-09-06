@@ -121,6 +121,7 @@ export default function Home() {
                     box3desc={DsaCourseData[0].BoxShape.box3desc}
                     Box4h5={DsaCourseData[0].BoxShape.Box4h5}
                     box4desc={DsaCourseData[0].BoxShape.box4desc}
+                    headh5={DsaCourseData[0].BoxShape.headh5}
                     />
                 </div>
 

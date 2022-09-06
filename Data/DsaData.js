@@ -3,9 +3,9 @@ export const DsaCourseData = [
     FirstSection: {
       deskTopPara: "MAANG's Best Interview Preparation Course trained by Top Experts",
       mTopPara: "MAANG's Best Interview Preparation Course trained by Top Experts",
-      mTitle: "Data Structure & Algorithms",
+      mTitle: "Data Structure Algorithms",
       spanMTitleText: "And System Design Course",
-      title: "Data Structure & Algorithms ",
+      title: "Data Structure Algorithms ",
       spanTitleText: "And System Design Course",
       desc: "Perform real-world industrial projects and use-cases.",
       src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/dsa-header-image.png",
@@ -25,7 +25,7 @@ export const DsaCourseData = [
       p44: "₹ 6,883/month",
     },
     BoxShape: {
-      title: "Why Enroll In This Program?",
+      title: "DSA and System Design Program Features",
       Box1h5: "Crack MAANG Interview",
       box1desc: "Learn in-depth DSA and crack interviews in product-based MNCs",
       Box2h5: "1:1 Mentorship",
@@ -34,7 +34,7 @@ export const DsaCourseData = [
       box3desc: "Gain technical expertise by working on challenging real-world projects",
       Box4h5: "250+ Hiring Partners",
       box4desc: "Get dedicated placement support with 100% Interview Guarantee",
-
+      headh5:"Our proud alumni with successfull DSA and System Design career transition"
     },
 
     BoxShape1: {
@@ -54,10 +54,10 @@ export const DsaCourseData = [
     },
 
     syllabusDesc:
-      "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All sessions are covered practically with real-time industrial projects and case studies.",
+      "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Data Structure Algorithms and System Design sessions are covered practically with real-time industrial projects and case studies.",
     popupHead: "Download Course Brochure",
-    CSyllabus: "Data Structures & Algorithms Syllabus",
-    CourseHighlights: "Full Stack Course Highlights",
+    CSyllabus: "Data Structures Algorithms and System Design Syllabus",
+    CourseHighlights: "DSA & System Design Course Highlights",
     srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf",
     hours: "200+ Hours",
     project: "12+ Real Time",
@@ -200,7 +200,7 @@ export const DsaCourseData = [
     ProgramFee: {
       Fee: "₹ 70,000 + GST",
       Emi: "₹ 6,883/month",
-      CourseFeeAndFinancing: "Full Stack Course Fee & Financing",
+      CourseFeeAndFinancing: "DSA and System Design Course Fee & Financing",
     },
     Project: {
       project: "12+ Projects",
@@ -260,7 +260,7 @@ export const DsaCourseData = [
 
     ],
     BatchCourses: {
-      CourseFeeHead: "Data Structure & Algorithms : Batch Details",
+      CourseFeeHead: "DSA and System Design : Batch Details",
       CourseFeePara: "Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",
