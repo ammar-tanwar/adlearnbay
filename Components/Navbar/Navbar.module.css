@@ -1,0 +1,313 @@
+.nav {
+  width: 100vw;
+  scroll-behavior: smooth;
+  font-size: 14px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255);
+  right: 0;
+  left: 0;
+  height: 70px;
+  padding: 0px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #2d9cd710;
+}
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.icon {
+  margin-left: 10px;
+}
+
+.ham {
+  display: inline;
+  justify-self: flex-start;
+  color: #0072bc;
+  cursor: pointer;
+  font-size: 28px;
+  margin-right: 10px;
+  margin-left: 5px;
+  margin-top: -5px;
+}
+.left button {
+  padding: 12px 20px;
+  outline: none;
+  background-color: #0072bc;
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 0px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.left button:hover {
+  background-color: #fff;
+  color: #0072bc;
+  border: 1px solid;
+  box-shadow: #0072bc 0px 0px 4px 0px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.right span {
+  margin-right: 30px;
+  font-size: 16px;
+
+  cursor: pointer;
+  font-weight: 400;
+}
+.right a {
+  font-weight: 600;
+}
+.right span:hover {
+  color: #0072bc;
+  transform: scale(1) translate(-0%, -20%);
+  transition: all 0.5s ease-in-out;
+  scroll-behavior: smooth;
+}
+.hide {
+  display: none;
+}
+.ham {
+  display: none;
+}
+.right button {
+  padding: 12px 25px;
+  font-size: 16px;
+  color: #0072bc;
+  background-color: transparent;
+  border: 2px solid #0072bc;
+  font-weight: 500;
+  /* box-shadow: #0072bc 0px 0px 4px 0px; */
+}
+.right button:hover {
+  background-color: #0072bc;
+  color: #fff;
+  border: 2px solid #0072bc;
+}
+
+.hoverBtn {
+  background-color: #f7f9fc;
+  color: #2d9cd7;
+  box-shadow: #2d9cd7 0px 0px 4px 0px;
+}
+.white {
+  background-color: transparent;
+  height: 600px;
+  width: 500px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #ff9562;
+  color: #fff;
+  font-size: 18px;
+  margin-right: 10px;
+  border: 1px solid #ff9562;
+  box-shadow: #ff9562 0px 0px 4px 0px !important;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  max-width: fit-content;
+  z-index: 1;
+  margin-top: 3px;
+  font-size: 16px;
+}
+
+/* Links inside the dropdown */
+.dropdownContent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width: 400px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdownContent a:hover {
+  background-color: #ff9562;
+  color: #fff;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #fff;
+  color: #ff9562;
+  border: 1px solid #ff9562;
+}
+@media (max-width: 1281px) {
+  .nav {
+    padding: 0 20px;
+  }
+  .right span {
+    margin-right: 30px;
+    font-size: 14px;
+
+    cursor: pointer;
+    font-weight: 400;
+  }
+}
+@media (max-width: 961px) {
+  .right span {
+    margin-right: 12px;
+  }
+  .nav {
+    padding: 0px 20px;
+  }
+  .right button {
+    padding: 12px 20px;
+    font-size: 14px;
+    color: #0072bc;
+    background-color: transparent;
+    border: 2px solid #0072bc;
+    font-weight: 500;
+    /* box-shadow: #0072bc 0px 0px 4px 0px; */
+  }
+}
+
+@media (max-width: 481px) {
+  .nav {
+    width: 100vw;
+    height: max-content;
+    scroll-behavior: smooth;
+    font-size: 14px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    height: 70px;
+    padding: 0px 10px;
+    display: flex;
+
+    align-items: center;
+  }
+  .left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 0;
+  }
+
+  .ham {
+    display: inline;
+    justify-self: flex-start;
+    color: #2d9cd7;
+    cursor: pointer;
+    font-size: 28px;
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: -5px;
+  }
+  .left button {
+    padding: 8px 10px;
+    outline: none;
+    background-color: #2d9cd7;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  .left button:hover {
+    background-color: #f7f9fc;
+    color: #2d9cd7;
+    box-shadow: #2d9cd7 0px 0px 4px 0px;
+  }
+  .right {
+    display: none;
+  }
+
+  .dropdown {
+    display: none;
+  }
+  .right span {
+    display: none;
+  }
+
+  .right button {
+    padding: 8px 10px;
+
+    box-shadow: #2d9cd7 0px 0px 4px 0px;
+
+    font-size: 14px;
+  }
+  .right button:hover {
+    background-color: #fff;
+  }
+  .hoverBtn {
+    background-color: #f7f9fc;
+    color: #2d9cd7;
+    box-shadow: #2d9cd7 0px 0px 4px 0px;
+  }
+  .white {
+    background-color: transparent;
+    height: 600px;
+    width: 500px;
+  }
+
+  .mobileWrapper .mobileMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 70px;
+    left: 0;
+    margin: auto;
+    width: 99vw;
+    height: max-content;
+    border-radius: 0 5px 5px 0;
+    background-color: white;
+    flex-flow: column;
+    position: absolute;
+    z-index: 999;
+  }
+  .mobileWrapper .mobileMenu a {
+    text-decoration: none;
+  }
+  .mobileWrapper .mobileMenu span {
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+  }
+  .mobileWrapper .mobileMenu span:hover {
+    color: #fff;
+    background-color: #2d9cd7;
+  }
+}
