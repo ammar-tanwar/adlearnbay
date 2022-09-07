@@ -34,8 +34,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
     setQuery({ ...query, phone: value, dateTime: startDate });
 
     // localStorage.setItem("email", JSON.stringify(query.email))
-    const emailData = query.email;
-    jsCookie.set("CARD", emailData, { expires: 14, secure: false });
 
     // sessionStorage.setItem("email", query.email);
     // localStorage.setItem('email', JSON.stringify(query.email))
@@ -50,6 +48,9 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       [name]: value,
     }));
   };
+
+  const emailData = query.email;
+  jsCookie.set("CARD", emailData, { expires: 14, secure: false });
 
   let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
   if (
