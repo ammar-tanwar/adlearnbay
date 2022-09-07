@@ -55,7 +55,7 @@ const ThankYou = ({initialName}) => {
           }}
         />
 
-        <script
+        <script 
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: `
@@ -76,6 +76,7 @@ const ThankYou = ({initialName}) => {
 
       <section className={styles.mains}>
         <div className={styles.left} >
+        
           <h4 className={styles.hptop}>
             <b>Thank you!</b>  
             <br />
