@@ -9,11 +9,9 @@ import setMinutes from "date-fns/setMinutes";
 import addDays from "date-fns/addDays";
 import subDays from "date-fns/subDays";
 import getDay from "date-fns/getDay";
-import { auth } from "../../lib/useCookies";
-
+import jsCookie from "js-cookie";
 
 const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
-
   const router = useRouter();
   let today = new Date();
   let time =
@@ -36,11 +34,11 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
     setQuery({ ...query, phone: value, dateTime: startDate });
 
     // localStorage.setItem("email", JSON.stringify(query.email))
-    auth(query.email)
-  
+    const emailData = query.email;
+    jsCookie.set("CARD", emailData, { expires: 14, secure: false });
+
     // sessionStorage.setItem("email", query.email);
     // localStorage.setItem('email', JSON.stringify(query.email))
-
   }, [value, startDate]);
 
   // Update inputs value
@@ -52,7 +50,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       [name]: value,
     }));
   };
-  
+
   let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
   if (
     router.pathname === "/fssd" ||
@@ -162,35 +160,32 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
     router.pathname === "/dsa-s2" ||
     router.pathname === "/dsa-s4" ||
     router.pathname === "/apply-for-counselling-fsd-s2" ||
-    router.pathname === "/dsa-s5" 
+    router.pathname === "/dsa-s5"
   ) {
     endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
   }
-  if (router.pathname === "/job-guarantee-or-money-back-data-science-ai-s8" ||
-  router.pathname === "/data-science-certification-courses-s10"
+  if (
+    router.pathname === "/job-guarantee-or-money-back-data-science-ai-s8" ||
+    router.pathname === "/data-science-certification-courses-s10"
   ) {
     endPoint = "https://getform.io/f/fd68bf82-a911-435e-9719-7c134a89a731";
   }
-  if (
-    router.pathname === "/apply-for-counselling-s3"
-  ) {
+  if (router.pathname === "/apply-for-counselling-s3") {
     endPoint = "https://getform.io/f/fd68bf82-a911-435e-9719-7c134a89a731";
   }
 
   // Form Submit function
   const formSubmit = (e) => {
     e.preventDefault();
-    
+
     const formData = new FormData();
     Object.entries(query).forEach(([key, value]) => {
       formData.append(key, value);
-      
     });
     fetch(`${endPoint}`, {
       method: "POST",
       body: formData,
     }).then(() =>
-
       setQuery({
         name: "",
         email: "",
@@ -199,7 +194,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
         workExperience: "",
         dateTime: "",
         url: "",
-      }),
+      })
     );
     if (popup) {
       const off = () => {
@@ -310,29 +305,21 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
         downloadBrochure) ||
       (router.pathname === "/job-guarantee-or-money-back-data-science-ai" &&
         downloadBrochure) ||
-      (router.pathname === "/" && 
-      downloadBrochure) ||
-      (router.pathname === "/s2-data-science" && 
-      downloadBrochure) ||
-      (router.pathname === "/s2-machine-learning" && 
-      downloadBrochure) ||
-      (router.pathname === "/s2-job-guarantee" && 
-      downloadBrochure) ||
-      (router.pathname === "/s2-data-analytics" && 
-      downloadBrochure) ||
-      (router.pathname === "/s2-artificial-intelligence" && 
-      downloadBrochure) ||
+      (router.pathname === "/" && downloadBrochure) ||
+      (router.pathname === "/s2-data-science" && downloadBrochure) ||
+      (router.pathname === "/s2-machine-learning" && downloadBrochure) ||
+      (router.pathname === "/s2-job-guarantee" && downloadBrochure) ||
+      (router.pathname === "/s2-data-analytics" && downloadBrochure) ||
+      (router.pathname === "/s2-artificial-intelligence" && downloadBrochure) ||
       (router.pathname === "/apply-for-counselling-data-science" &&
-      downloadBrochure)
+        downloadBrochure)
     ) {
-      
       // router.push("/Thank-you-brochure");
-      
+
       // router.push(`/Thank-you?email=${query.email}`,"/Thank-you",{shallow:true})
       // router.push(`/Thank-you?email=${query.email}`);
 
       router.push("/Thank-you");
-
 
       return;
     }
@@ -349,17 +336,18 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       (router.pathname === "/dsa-s4" && downloadBrochure) ||
       (router.pathname === "/dsa-s5" && downloadBrochure) ||
       // (router.pathname === "/fswd-s2" && downloadBrochure) ||
-      (router.pathname === "/full-stack-software-development-program" && downloadBrochure) ||
+      (router.pathname === "/full-stack-software-development-program" &&
+        downloadBrochure) ||
       (router.pathname === "/apply-for-counselling" && downloadBrochure) ||
-      (router.pathname === "/full-stack-web-development-program" && downloadBrochure) ||
+      (router.pathname === "/full-stack-web-development-program" &&
+        downloadBrochure) ||
       (router.pathname === "/dsa-system-design" && downloadBrochure)
     ) {
       // router.push("/Thank-you-fsd");
-      router.push("/Thank-you");  
+      router.push("/Thank-you");
       // router.push(`/Thank-you?email=${query.email}`);
       // router.push({ pathname: "/Thank-you", query: { email: query.email } },"/Thank-you")
       // router.push(`/Thank-you?email=${query.email}`,"/Thank-you",{shallow:true})
-
 
       return;
     }
@@ -424,7 +412,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       router.pathname === "/apply-for-counselling" ||
       router.pathname === "/s2-artificial-intelligence" ||
       router.pathname === "/apply-for-counselling-s2" ||
-    
       router.pathname === "/apply-for-counselling-s4" ||
       router.pathname === "/apply-for-counselling-data-science"
     ) {
@@ -433,10 +420,9 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       // router.push({ pathname: "/Thank-you", query: { email: query.email } },"/Thank-you")
       // router.push(`/Thank-you?email=${query.email}`,"/Thank-you",{shallow:true})
 
-
       return;
     }
-    
+
     if (
       router.pathname === "/fssd" ||
       // router.pathname === "/fswd" ||
@@ -452,14 +438,13 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       router.pathname === "/full-stack-software-development-program" ||
       router.pathname === "/full-stack-web-development-program" ||
       router.pathname === "/apply-for-counselling-fsd-s2" ||
-      router.pathname === "/dsa-system-design" 
+      router.pathname === "/dsa-system-design"
     ) {
       // router.push("/Thank-you-fsd");
       router.push("/Thank-you");
       // router.push(`/Thank-you?email=${query.email}`);
       // router.push({ pathname: "/Thank-you", query: { email: query.email } },"/Thank-you")
       // router.push(`/Thank-you?email=${query.email}`,"/Thank-you",{shallow:true})
-
 
       return;
     }
