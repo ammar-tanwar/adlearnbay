@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Image from "next/image";
 import styles from "./EventHeader.module.css";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";

@@ -389,7 +389,7 @@ function Syllabus({ dsa, radio }) {
                   <li>
                     High Level Design With Projects, Introduction to common
                     MicroService design patterns, Microservices & System
-                    components in real world Event Driven, Domain Driven, Rest
+                    Components in real world Event Driven, Domain Driven, Rest
                     API driven Architectures 3 Real time projects
                   </li>
                   <li>

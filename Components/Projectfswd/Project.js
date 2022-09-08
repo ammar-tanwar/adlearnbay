@@ -254,7 +254,7 @@ An increased content optimization feature and graphics optimization feature are 
                 </div>
                 <div className={styles.body}>
                   <p>
-                  In this project, you will learn about building and optimizing multi-use panels and components. Here, you need to work mainly on the front end. The skill that is mostly required for his projects is lookup function generation and portfolio panel designing. There must be a dedicated panel for live stock updates. 
+                  In this project, you will learn about building and optimizing multi-use panels and Components. Here, you need to work mainly on the front end. The skill that is mostly required for his projects is lookup function generation and portfolio panel designing. There must be a dedicated panel for live stock updates. 
                   </p>
                 </div>
               </div>
@@ -455,7 +455,7 @@ An increased content optimization feature and graphics optimization feature are 
                 </div>
                 <div className={styles.body}>
                   <p>
-                  In this project, you will learn about building and optimizing multi-use panels and components. Here, you need to work mainly on the front end. The skill that is mostly required for his projects is lookup function generation and portfolio panel designing. There must be a dedicated panel for live stock updates. 
+                  In this project, you will learn about building and optimizing multi-use panels and Components. Here, you need to work mainly on the front end. The skill that is mostly required for his projects is lookup function generation and portfolio panel designing. There must be a dedicated panel for live stock updates. 
                   </p>
                 </div>
               </div>

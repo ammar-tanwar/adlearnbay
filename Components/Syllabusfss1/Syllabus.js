@@ -321,7 +321,7 @@ function Syllabus ({ radio }) {
                 <div className={styles.ans}>
                   <li>Introduction to System Design – Why System Design Interview? Approaching And narrowing down a problem,Identifying an Abstract Design , Optimising And addressing the bottlenecks, Designing for resiliency and handling failures, Learn System Design (HLD + LLD) with hands on project</li>
                   <li>Component Modelling Messaging Queue Multithreading and Synchronisation, </li>
-                  <li>High Level Design With Projects, Introduction to common MicroService design patterns, Microservices & System components in real world Event Driven, Domain Driven, Rest API driven Architectures 3 Real time projects</li>
+                  <li>High Level Design With Projects, Introduction to common MicroService design patterns, Microservices & System Components in real world Event Driven, Domain Driven, Rest API driven Architectures 3 Real time projects</li>
                   <li>Low Level Design With Projects OOD and Design Patterns, API Design DB Schema Design for NoSQL and SQL Common LLD and API design questions</li>
                   <li>Load Balancing – Software And Hardware Load Balancers, Caching – Distributed And Global Cache,Content Distribution network(CDN),Sharding And Partitioning Methods,Common Problems of Sharding</li>
                   <li>Database Indexing,Proxies – Proxy Server ,Queues,SQL vs No SQL ,CAP Theorem in distributed Computer Systems,Distributed Hash Table And Consistent Hashing,Web sockets,Ajax Polling</li>

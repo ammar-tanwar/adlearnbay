@@ -39,7 +39,7 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3 }) => {
       <div>
         <p className={styles.paragramTitle}>About this Masterclass</p>
         <p>
-          React represents one of the most extensive Javascript libraries. It contains countless reusable components that help in building the desired user interface. Find out why developers are keen to explore everything about React: the working of a react library, the process of breaking down complex problems, and more.
+          React represents one of the most extensive Javascript libraries. It contains countless reusable Components that help in building the desired user interface. Find out why developers are keen to explore everything about React: the working of a react library, the process of breaking down complex problems, and more.
         </p>
         <p>Ready to deep dive into the world of React?</p>
         <p>Attend Siddharth Taneja in a FREE Masterclass on 20th September, Tuesday at 8 PM to acquire conceptual clarity on how cross-platform apps are built through React. Register now!</p>

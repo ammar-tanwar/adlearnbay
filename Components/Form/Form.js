@@ -3,15 +3,16 @@ import styles from "./Form.module.css";
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
 import { useRouter } from "next/router";
-import DatePicker from "react-datepicker";
-import setHours from "date-fns/setHours";
-import setMinutes from "date-fns/setMinutes";
-import addDays from "date-fns/addDays";
-import subDays from "date-fns/subDays";
+// import DatePicker from "react-datepicker";
+// import setHours from "date-fns/setHours";
+// import setMinutes from "date-fns/setMinutes";
+// import addDays from "date-fns/addDays";
+// import subDays from "date-fns/subDays";
 import getDay from "date-fns/getDay";
-import jsCookie from "js-cookie";
-import { useCookies } from "react-cookie"
-
+import { setCookie } from 'cookies-next';
+// import jsCookie from "js-cookie";
+// import { useCookies } from "react-cookie"
+import nookies from 'nookies'
 const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
   const router = useRouter();
   let today = new Date();
@@ -23,7 +24,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
   const [disable, setDisable] = useState(false);
   const [value, setValue] = useState();
 
-  const [cookie, setCookie] = useCookies(["email"])
+  // const [cookie, setCookie] = useCookies(["email"])
 
   const [query, setQuery] = useState({
     name: "",
@@ -36,11 +37,8 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
   useEffect(() => {
     setQuery({ ...query, phone: value, dateTime: startDate });
 
-    setCookie("email", query.email, {
-      path: "/",
-      sameSite: true,
-    })
-    
+ 
+
     // localStorage.setItem("email", JSON.stringify(query.email))
 
     // sessionStorage.setItem("email", query.email);
@@ -57,8 +55,14 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
     }));
   };
 
-  // const emailData = query.email;
+  const emailData = query.email;
+  nookies.set("email", 'fromGetInitialProps', emailData, {
+    maxAge: 30 * 24 * 60 * 60,
+    path: '/',
+  })
+  // setCookie("email", emailData, { path: '/' })
   // jsCookie.set("CARD", emailData, { expires: 14, secure: false });
+  
 
   let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
   if (
@@ -194,7 +198,8 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
     fetch(`${endPoint}`, {
       method: "POST",
       body: formData,
-    }).then(() =>
+    }).then((res) =>
+      console.log(res),
       setQuery({
         name: "",
         email: "",
@@ -640,3 +645,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
 };
 
 export default Form;
+
+
+
+

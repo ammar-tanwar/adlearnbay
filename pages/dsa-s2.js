@@ -16,7 +16,6 @@ import Footer from "../Components/CoursePage/Footer/Footerfsd";
 import BoxShape1 from "../Components/CoursePage/BoxshapeFssd/BoxShape";
 import React, { useState } from "react";
 import Batch from "../Components/CoursePage/BatchDetails/Batch"; 
-import OfferPopup from '../Components/CoursePage/OfferPopup/OfferPopup';
 
 
 export default function Home() {
@@ -83,7 +82,7 @@ export default function Home() {
                         <Form popup={true} setTrigger={setPopups} />
                     </div>
                 </Popup>
-                <OfferPopup/>
+               
                 <FirstSection
                     deskTopPara={DsaCourseData[0].FirstSection.deskTopPara}
                     mTopPara={DsaCourseData[0].FirstSection.mTopPara}

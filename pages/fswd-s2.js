@@ -18,7 +18,6 @@ import Certificate from "../Components/CoursePage/CertificateTab/CertificateTabW
 import BoxShape1 from "../Components/CoursePage/BoxshapeFssd/BoxShape";
 import React, { useState } from "react";
 import Batch from "../Components/CoursePage/BatchDetails/Batch";
-import OfferPopup from '../Components/CoursePage/OfferPopup/OfferPopup';
 
 export default function Home() {
     const [popups, setPopups] = useState(false);
@@ -84,7 +83,7 @@ export default function Home() {
                         <Form popup={true} setTrigger={setPopups} />
                     </div>
                 </Popup>
-                <OfferPopup/>
+          
                 <FirstSection
                 deskTopPara={FullStackWebCourseData[0].FirstSection.deskTopPara}
                 mTopPara={FullStackWebCourseData[0].FirstSection.mTopPara}

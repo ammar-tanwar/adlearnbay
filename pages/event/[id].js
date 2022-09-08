@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from "react";
 import Head from "next/head";
-import { EventHeader } from "../../components/Event/EventHeader/EventHeader";
+import { EventHeader } from "../../Components/Event/EventHeader/EventHeader";
 import styles from "../../styles/DataScienceEvent.module.css";
-import Form from "../../components/Form/Form";
+import Form from "../../Components/Form/Form";
 import { FiUserCheck } from "react-icons/fi";
 import Image from "next/image";
-import EventFeature from "../../components/Event/EventFeatures/EventFeature";
+import EventFeature from "../../Components/Event/EventFeatures/EventFeature";
 import { BsArrowRightCircleFill, BsDot } from "react-icons/bs";
-import Reviews from "../../components/CareerImpactHome/CareerImpact";
+import Reviews from "../../Components/CareerImpactHome/CareerImpact";
 import { TiTick } from "react-icons/ti";
 import { getAllPostIds, getPostData } from "../../lib/event";
-import Navbar from "../../components/Navbar/Navbar";
+import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Event/EventFooter/Footer"
 export default function DataScienceEvent({ eventData }) {
   const [mobile, setMobile] = useState(false);

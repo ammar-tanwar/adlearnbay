@@ -79,7 +79,7 @@ export default function Home() {
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
-      <OfferPopup/>
+   
       <Navbar
       
       Href="/data-science-certification-courses-s2"

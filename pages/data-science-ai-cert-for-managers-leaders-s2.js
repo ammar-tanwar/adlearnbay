@@ -81,7 +81,7 @@ export default function Home() {
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
-      <OfferPopup/>
+
       <Navbar 
 
       

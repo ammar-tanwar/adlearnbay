@@ -5,11 +5,13 @@ import { BsArrowLeftShort } from "react-icons/bs";
 import NavbarThankYou from "../Components/CoursePage/Navbar/NavbarThankYou";
 import FooterThankYou from "../Components/Footerfsdsw/FooterThankYou";
 import CourseThankYou from "../Components/Home/Course/CourseThankYou";
-import cookies from "next-cookies"
-import { parseCookies } from "../lib/parseCookies";
+// import cookies from "next-cookies"
+// import { parseCookies } from "../lib/parseCookies";
+// import jsCookie from "js-cookie";
+import nookies from 'nookies'
 
-const ThankYou = ({data}) => {
-    // console.log("data", data.email)
+const ThankYou = ({cookie1}) => {
+    console.log("data", cookie1)
     
   return (
     <div className={styles.main}>
@@ -64,7 +66,7 @@ const ThankYou = ({data}) => {
       window.dataLayer.push({
         ‘event’: ‘form_complete’,
         ‘enhanced_conversion_data’: {
-          “email”:${JSON.stringify(data.email)}
+          “email”:${cookie1}
         }
       });
 
@@ -105,23 +107,30 @@ const ThankYou = ({data}) => {
 export default ThankYou;
 
 
-
-
-
-ThankYou.getInitialProps = async ({ req, res }) => {
-  const data = parseCookies(req)
-
-if (res) {
-    if (Object.keys(data).length === 0 && data.constructor === Object) {
-      res.writeHead(301, { Location: "/" })
-      res.end()
-    }
-  }
-
+export async function getServerSideProps(context) {
+  const cookies = nookies.get(context)
+  const cookie1 = cookies.fromGetInitialProps
+  // console.log("cookies",cookie1)
   return {
-    data: data && data,
+    props:{cookie1}
   }
 }
+
+
+// ThankYou.getInitialProps = async ({ req, res }) => {
+//   const data = parseCookies(req)
+
+//   if (res) {
+//       if (Object.keys(data).length === 0 && data.constructor === Object) {
+//         res.writeHead(301, { Location: "/" })
+//         res.end()
+//       }
+//     }
+
+//   return {
+//     data: data && data,
+//   }
+// }
 
 // ThankYou.getInitialProps = async (ctx) => {
 //   return {

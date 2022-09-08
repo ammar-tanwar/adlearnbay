@@ -4,7 +4,6 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import Image from "next/image";
 import React from "react";
 import { useState } from "react";
-import { FaArrowDown, FaArrowRight, FaDownload } from "react-icons/fa";
 import { FaTwitter, FaFacebookF, FaLinkedinIn, FaYoutube, FaInstagram, FaApple, FaAndroid } from "react-icons/fa";
 
 const Footerfsd = () => {

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Fee.module.css";
-import Popup from "/components/Popup/Popup";
-import Form from "/components/Form/Form";
+import Popup from "/Components/Popup/Popup";
+import Form from "/Components/Form/Form";
 import Image from "next/image";
 import {BsArrowRight}from "react-icons/bs";
 

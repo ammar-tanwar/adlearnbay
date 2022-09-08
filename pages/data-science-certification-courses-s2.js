@@ -81,7 +81,7 @@ export default function Home() {
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
-      <OfferPopup/>
+  \
       <Navbar
        Href="/data-science-certification-courses-s2"
       Course="Advance Data Science & AI Certification"
