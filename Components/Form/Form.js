@@ -10,6 +10,7 @@ import addDays from "date-fns/addDays";
 import subDays from "date-fns/subDays";
 import getDay from "date-fns/getDay";
 import jsCookie from "js-cookie";
+import { useCookies } from "react-cookie"
 
 const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
   const router = useRouter();
@@ -22,6 +23,8 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
   const [disable, setDisable] = useState(false);
   const [value, setValue] = useState();
 
+  const [cookie, setCookie] = useCookies(["email"])
+
   const [query, setQuery] = useState({
     name: "",
     email: "",
@@ -33,6 +36,11 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
   useEffect(() => {
     setQuery({ ...query, phone: value, dateTime: startDate });
 
+    setCookie("email", query.email, {
+      path: "/",
+      sameSite: true,
+    })
+    
     // localStorage.setItem("email", JSON.stringify(query.email))
 
     // sessionStorage.setItem("email", query.email);
@@ -49,8 +57,8 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
     }));
   };
 
-  const emailData = query.email;
-  jsCookie.set("CARD", emailData, { expires: 14, secure: false });
+  // const emailData = query.email;
+  // jsCookie.set("CARD", emailData, { expires: 14, secure: false });
 
   let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
   if (

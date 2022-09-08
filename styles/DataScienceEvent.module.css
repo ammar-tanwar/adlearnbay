@@ -53,8 +53,8 @@
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 0 5px 0 rgb(45 156 215 / 31%);
-  position: sticky;
-    top: 80px;
+  position: fixed;
+    top: 2rem;
     margin-top: 50px;
 }
 .header {
@@ -509,10 +509,15 @@
     z-index: 0;
     flex-flow: column;
   }
+.form {
+  position: inherit;
+}
   .Page2,
   .Pages {
     grid-template-columns: 100%;
     padding: 30px 20px;
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   .why {

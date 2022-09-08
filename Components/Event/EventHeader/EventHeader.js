@@ -92,16 +92,10 @@ export const EventHeader = ({
           )}
           </section>
         </div>
+        
       </div>
-      <div className={styles.right}>
-        <Image
-          src={imgSrc}
-          alt={alt}
-          layout="intrinsic"
-          width={width}
-          height={height}
-        />
-      </div>
+      
     </section>
   );
 };
+

@@ -110,3 +110,81 @@
     padding-right: 10px;
   }
 }
+
+
+
+
+
+
+
+
+
+.paragramTitle {
+  padding: 9.5px;
+  border: 1px solid #f5f5f5;
+  box-sizing: inherit;
+  /* margin-top: 10px; */
+  margin-bottom: 10px;
+  font-size: 25px;
+  /* vertical-align: baseline; */
+  overflow: auto;
+  line-height: 1.42857;
+  /* word-break: break-word; */
+  /* overflow-wrap: break-word; */
+  color: #085294;
+  background-color: #f3fafe;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.listMargin{
+  margin-left: 30px;
+}
+.PreRequisites {
+  display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0.5rem  0;
+    padding-left: 16px;
+  
+  
+
+}
+.PreRequisites p {
+  width: 20rem;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    text-align: center;
+}
+.fontweight{
+  font-weight: bold;
+  margin: 0px;
+}
+
+
+
+@media (max-width: 481px) {
+  .PreRequisites {
+    display: block;
+      align-items: center;
+      justify-content: space-evenly;
+      margin: 0.5rem  0;
+      padding-left: 16px;
+    
+    
+  
+  }
+  .PreRequisites p {
+    width: 20rem;
+      padding: 1rem;
+      box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+      transition: 0.3s;
+      text-align: center;
+  }
+  .fontweight{
+    font-weight: bold;
+    margin: 0px;
+  }
+  }
+  

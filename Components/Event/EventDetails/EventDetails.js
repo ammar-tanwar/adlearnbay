@@ -24,6 +24,11 @@ const EventDetails = ({
     }
   }, [mobile]);
   return (
+
+
+
+
+    
     <div className={styles.Main}>
       <div className={styles.left}>
         <div className={styles.leftI}>

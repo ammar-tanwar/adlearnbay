@@ -5,12 +5,12 @@ import { BsArrowLeftShort } from "react-icons/bs";
 import NavbarThankYou from "../Components/CoursePage/Navbar/NavbarThankYou";
 import FooterThankYou from "../Components/Footerfsdsw/FooterThankYou";
 import CourseThankYou from "../Components/Home/Course/CourseThankYou";
-
 import cookies from "next-cookies"
+import { parseCookies } from "../lib/parseCookies";
 
-
-const ThankYou = ({initialName}) => {
-  
+const ThankYou = ({data}) => {
+    // console.log("data", data.email)
+    
   return (
     <div className={styles.main}>
       <Head>
@@ -64,7 +64,7 @@ const ThankYou = ({initialName}) => {
       window.dataLayer.push({
         ‘event’: ‘form_complete’,
         ‘enhanced_conversion_data’: {
-          “email”:${initialName}
+          “email”:${JSON.stringify(data.email)}
         }
       });
 
@@ -106,11 +106,28 @@ export default ThankYou;
 
 
 
-ThankYou.getInitialProps = async (ctx) => {
+
+
+ThankYou.getInitialProps = async ({ req, res }) => {
+  const data = parseCookies(req)
+
+if (res) {
+    if (Object.keys(data).length === 0 && data.constructor === Object) {
+      res.writeHead(301, { Location: "/" })
+      res.end()
+    }
+  }
+
   return {
-    initialName: cookies(ctx).CARD || "",
-  };
-};
+    data: data && data,
+  }
+}
+
+// ThankYou.getInitialProps = async (ctx) => {
+//   return {
+//     initialName: cookies(ctx).CARD || "",
+//   };
+// };
 
 // export async function getServerSideProps(context){
 //   const email = context.query.email

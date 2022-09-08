@@ -2,7 +2,7 @@
   display: block;
   grid-template-columns: 49% 49%;
   align-items: center;
-  margin: 70px 100px 70px 100px;
+
   justify-content: space-between;
   height: 100%;
 }

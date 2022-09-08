@@ -1,7 +1,7 @@
 import "../styles/globals.css";
 import "../styles/form.css";
 import Script from "next/script"
-
+import { CookiesProvider } from "react-cookie"
 
 
 function MyApp({ Component, pageProps }) {
@@ -23,8 +23,9 @@ function MyApp({ Component, pageProps }) {
             },);
                 `}
       </Script>
+      <CookiesProvider>
       <Component {...pageProps} />
-      
+      </CookiesProvider>
     </>
   );
 }

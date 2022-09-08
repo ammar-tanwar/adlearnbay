@@ -31,23 +31,23 @@ const CourseReview = () => {
     <>
       {" "}
       <div className={styles.reviewWrap}>
-      <Popup
-      trigger={popups}
-      setTrigger={setPopups}
-      className="popupModal"
-      downloadBrochure
-    >
-      <div className="leftPopup">
-        <div
-          className="whiteP"
-          style={{ width: "350px", height: "400px" }}
-        ></div>
-      </div>
-      <div className="RightPopup">
-        <h5>Download Placement Brochure</h5>
-        <Form setTrigger={setPopups} downloadBrochure />
-      </div>
-    </Popup>
+        <Popup
+          trigger={popups}
+          setTrigger={setPopups}
+          className="popupModal"
+          downloadBrochure
+        >
+          <div className="leftPopup">
+            <div
+              className="whiteP"
+              style={{ width: "350px", height: "400px" }}
+            ></div>
+          </div>
+          <div className="RightPopup">
+            <h5>Download Placement Brochure</h5>
+            <Form setTrigger={setPopups} downloadBrochure />
+          </div>
+        </Popup>
 
         <div className={styles.swiperleft}>
           <Swiper
@@ -77,11 +77,11 @@ const CourseReview = () => {
                   </div>
                   <div>
                     <p className={styles.para}>
-                    Before joining the DSA course I wasn’t
-confident on any of the topics. I can see
-the change in my coding abilities after
-the completion of the course! I even got
-referrals to product-based companies.
+                      Before joining the DSA course I wasn’t
+                      confident on any of the topics. I can see
+                      the change in my coding abilities after
+                      the completion of the course! I even got
+                      referrals to product-based companies.
                       <br />
                     </p>
                   </div>
@@ -106,13 +106,13 @@ referrals to product-based companies.
                   </div>
                   <div>
                     <p className={styles.para}>
-                    Excellent training and awesome
-environment! I took data structures
-and algorithm training in LearnBay .
-They teach concepts clearly and solved
-as many programs as possible.
-I was getting interview calls even
-before course completion.
+                      Excellent training and awesome
+                      environment! I took data structures
+                      and algorithm training in LearnBay .
+                      They teach concepts clearly and solved
+                      as many programs as possible.
+                      I was getting interview calls even
+                      before course completion.
 
                       <br />
                     </p>
@@ -138,13 +138,13 @@ before course completion.
                   </div>
                   <div>
                     <p className={styles.para}>
-                    This Course Helped me in getting 6
-month SDE INTERNSHIP at
-AMAZON,India.
-The advance DSA topics are taught and
-explained in such a simplified manner
-that even a newbie can catch up very
-easily.
+                      This Course Helped me in getting 6
+                      month SDE INTERNSHIP at
+                      AMAZON,India.
+                      The advance DSA topics are taught and
+                      explained in such a simplified manner
+                      that even a newbie can catch up very
+                      easily.
 
 
                       <br />
@@ -171,13 +171,13 @@ easily.
                   </div>
                   <div>
                     <p className={styles.para}>
-                    I have done the DS & Algo course from
-Learnbay. I learned from the basics
-time complexity, arrays, linked
-list, stack to advance data structures –
-trees, graphs etc. Getting into product
-based MNC was always my dream and
-this course helped me achieve it .
+                      I have done the DS & Algo course from
+                      Learnbay. I learned from the basics
+                      time complexity, arrays, linked
+                      list, stack to advance data structures –
+                      trees, graphs etc. Getting into product
+                      based MNC was always my dream and
+                      this course helped me achieve it .
 
 
 
@@ -205,12 +205,12 @@ this course helped me achieve it .
                   </div>
                   <div>
                     <p className={styles.para}>
-                    Before joining the DSA course I wasn’t
-confident on any of the topics. I can see
-the change in my coding abilities after
-the completion of the course! I even got
-interview calls from several product
-based companies.
+                      Before joining the DSA course I wasn’t
+                      confident on any of the topics. I can see
+                      the change in my coding abilities after
+                      the completion of the course! I even got
+                      interview calls from several product
+                      based companies.
 
 
 
@@ -239,13 +239,13 @@ based companies.
                   </div>
                   <div>
                     <p className={styles.para}>
-                    I attended ds algo course under
-Learnbay. They discussed multiple
-approaches to solve any problem
-starting from brute force to one with
-less complexity. Assignments, mock
-interviews and job referrals really
-helped me in my career.
+                      I attended ds algo course under
+                      Learnbay. They discussed multiple
+                      approaches to solve any problem
+                      starting from brute force to one with
+                      less complexity. Assignments, mock
+                      interviews and job referrals really
+                      helped me in my career.
 
                       <br />
                     </p>
@@ -271,13 +271,13 @@ helped me in my career.
                   </div>
                   <div>
                     <p className={styles.para}>
-                    I took DS course under Learnbay.
-Irrespective of implementation
-languages, one can join this. Their
-excellent training methodology helps to
-learn quickly. Their mock interviews with
-referrals to product based companies
-gave a good boost to my career
+                      I took DS course under Learnbay.
+                      Irrespective of implementation
+                      languages, one can join this. Their
+                      excellent training methodology helps to
+                      learn quickly. Their mock interviews with
+                      referrals to product based companies
+                      gave a good boost to my career
 
                       <br />
                     </p>
@@ -297,9 +297,9 @@ gave a good boost to my career
           height="82"
           layout="intrinsic"
         />
-        <button onClick={popupShow} style={{margin:"auto"}}>
-           Download Placement Report <MdKeyboardArrowDown />
-          </button>        
+        <button onClick={popupShow} style={{ margin: "auto" }}>
+          Download Placement Report <MdKeyboardArrowDown />
+        </button>
       </div>
     </>
   );
