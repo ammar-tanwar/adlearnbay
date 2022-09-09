@@ -84,7 +84,7 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3 }) => {
           <li>Master their synchronization</li>
           <li>How caches are managed</li>
         </div>
-      </div>
+      </div> 
 
       <div >
         <p className={styles.paragramTitle}>Meet SUPRIYA SHARMA</p>
