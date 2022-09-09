@@ -1,9 +1,4 @@
 .wrapper {
-  background-color: #f4fcfe;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  align-items: center;
-  padding: 20px 100px 20px;
   margin-top: 70px;
 }
 .left {
@@ -119,12 +114,6 @@
   }
 } */
 @media (max-width: 480px) {
-
-  .wrapper {
-    display: block;
-    padding: 50px 20px 30px;
-  }
-
   .right {
     margin: 30px 0px 20px 0px;
   }

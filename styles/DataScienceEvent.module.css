@@ -511,6 +511,7 @@
   }
 .form {
   position: inherit;
+  margin: 0;
 }
   .Page2,
   .Pages {

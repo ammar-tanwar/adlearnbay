@@ -9,11 +9,10 @@ import { useRouter } from "next/router";
 // import addDays from "date-fns/addDays";
 // import subDays from "date-fns/subDays";
 import getDay from "date-fns/getDay";
-import { setCookie } from 'cookies-next';
 // import jsCookie from "js-cookie";
 // import { useCookies } from "react-cookie"
-import nookies from 'nookies'
-const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
+
+const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
   const router = useRouter();
   let today = new Date();
   let time =
@@ -55,11 +54,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
     }));
   };
 
-  const emailData = query.email;
-  nookies.set("email", 'fromGetInitialProps', emailData, {
-    maxAge: 30 * 24 * 60 * 60,
-    path: '/',
-  })
+  // const emailData = query.email;
   // setCookie("email", emailData, { path: '/' })
   // jsCookie.set("CARD", emailData, { expires: 14, secure: false });
   
@@ -185,6 +180,15 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
   }
   if (router.pathname === "/apply-for-counselling-s3") {
     endPoint = "https://getform.io/f/fd68bf82-a911-435e-9719-7c134a89a731";
+  }
+
+  if (event) {
+    endPoint = "https://getform.io/f/df003555-86c7-4ae5-a7f8-98c21dd9ad92";
+  }
+
+  let btnTxt = "Apply for  Counseliing"
+  if (event){
+    btnTxt = "Register Now"
   }
 
   // Form Submit function
@@ -336,6 +340,10 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio }) => {
       router.push("/Thank-you");
 
       return;
+    }
+
+    if (event){
+      router.push("/Thank-you")
     }
 
     if (

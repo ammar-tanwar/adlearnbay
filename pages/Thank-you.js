@@ -8,10 +8,9 @@ import CourseThankYou from "../Components/Home/Course/CourseThankYou";
 // import cookies from "next-cookies"
 // import { parseCookies } from "../lib/parseCookies";
 // import jsCookie from "js-cookie";
-import nookies from 'nookies'
 
-const ThankYou = ({cookie1}) => {
-    console.log("data", cookie1)
+const ThankYou = () => {
+    // console.log("data", data.email)
     
   return (
     <div className={styles.main}>
@@ -66,7 +65,7 @@ const ThankYou = ({cookie1}) => {
       window.dataLayer.push({
         ‘event’: ‘form_complete’,
         ‘enhanced_conversion_data’: {
-          “email”:${cookie1}
+          “email”:""
         }
       });
 
@@ -107,14 +106,7 @@ const ThankYou = ({cookie1}) => {
 export default ThankYou;
 
 
-export async function getServerSideProps(context) {
-  const cookies = nookies.get(context)
-  const cookie1 = cookies.fromGetInitialProps
-  // console.log("cookies",cookie1)
-  return {
-    props:{cookie1}
-  }
-}
+
 
 
 // ThankYou.getInitialProps = async ({ req, res }) => {

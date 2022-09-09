@@ -2,16 +2,13 @@ import React, { useEffect, useState } from "react";
 import Head from "next/head";
 import { EventHeader } from "../../Components/Event/EventHeader/EventHeader";
 import styles from "../../styles/DataScienceEvent.module.css";
-import Form from "../../Components/Form/Form";
+import Form from "../../Components/Event/Form/Form";
 import { FiUserCheck } from "react-icons/fi";
-import Image from "next/image";
 import EventFeature from "../../Components/Event/EventFeatures/EventFeature";
-import { BsArrowRightCircleFill, BsDot } from "react-icons/bs";
-import Reviews from "../../Components/CareerImpactHome/CareerImpact";
-import { TiTick } from "react-icons/ti";
 import { getAllPostIds, getPostData } from "../../lib/event";
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Event/EventFooter/Footer"
+
 export default function DataScienceEvent({ eventData }) {
   const [mobile, setMobile] = useState(false);
 
@@ -59,7 +56,7 @@ export default function DataScienceEvent({ eventData }) {
       
         <div>
           <div className={styles.left}>
-            <div className={styles.prgrmFeature} id="Feature">
+            <div className={styles.prgrmFeature} >
               <EventFeature
                 title={eventData.data.feature.title}
                 h1={eventData.data.feature.h1}

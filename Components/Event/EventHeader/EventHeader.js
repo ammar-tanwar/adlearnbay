@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from "react";
 import styles from "./EventHeader.module.css";
-import Popup from "../../Popup/Popup";
-import Form from "../../Form/Form";
-import { FaArrowRight } from "react-icons/fa";
 
 export const EventHeader = ({
   title,
@@ -26,6 +23,7 @@ export const EventHeader = ({
   };
   useEffect(() => {
     let width = window.innerWidth;
+
     if (width < 481) {
       setMobile(true);
     }
@@ -35,65 +33,25 @@ export const EventHeader = ({
   }, [mobile]);
   return (
     <section className={styles.wrapper}>
-      <Popup
-        trigger={popups}
-        setTrigger={setPopups}
-        className="popupModal"
-        downloadBrochure
-      >
-        <div className="leftPopup">
-          <div
-            className="whiteP"
-            style={{ width: "350px", height: "400px" }}
-          ></div>
-        </div>
-        <div className="RightPopup">
-          <h5>Register Now for Webinar</h5>
-          <Form setTrigger={setPopups} event={true}/>
-        </div>
-      </Popup>
-      <div className={styles.left}>
-        <h1>
-          {title}
-          <span> {titleSpan}</span>
-        </h1>
-        <p className={styles.pBot}>{desc}</p>
-        <div className={styles.ButtonDiv}>
-        </div>
-        <div className={styles.info}>
-          <div className={styles.left1}>
-            <h5>Instructor</h5>
-            <p>{instructor}</p>
-          </div>
-          <div className={styles.middle}>
-            <h5>Date</h5>
-          <p>{eventDate}</p>
-          </div>
-          <div className={styles.right1}>
-            <h5>Time</h5>
-            <p>{eventTime}</p>
-          </div>
-        </div>
-        <div className={styles.right}>
-          <section className={styles.form}>
-            {today > eventDateInfo ? (
-            <a href={href1} target="_blank"><button className={styles.Button}>
-                          {" "}
-              Recorded Webinar
-              <FaArrowRight className="bIcons" />
-          </button></a>
-          ) : (
-              <button className={styles.Button} onClick={popupShow}>
-              {" "}
-              Register Now
-              <FaArrowRight className="bIcons" />
-            </button>
-          )}
-          </section>
-        </div>
-        
-      </div>
-      
+    { mobile ? (
+      <img
+      src="/Artboard1.jpg"
+      alt="Learnbay"
+      quality={100}
+      objectFit="contain"
+      width="100%"
+      height="400px"
+    />
+    ):(
+       <img
+      src="/Artboard.jpg"
+      alt="Learnbay"
+      quality={100}
+      objectFit="contain"
+      width="100%"
+      height="500px"
+    />
+    )}
     </section>
   );
 };

@@ -2,12 +2,10 @@ import React from "react";
 import styles from "./EventFeature.module.css";
 import Image from "next/image";
 import Reviews from "../../CareerImpactHome/CareerImpact";
+
 const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3 }) => {
   return (
-
-
-
-
+    
     <div className={styles.eFeature}>
       <div >
         <h1>How to build an E-Commerce Website with React?</h1>
@@ -36,7 +34,7 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3 }) => {
         <hr />
       </div>
 
-      <div>
+      <div id="Feature">
         <p className={styles.paragramTitle}>About this Masterclass</p>
         <p>
           React represents one of the most extensive Javascript libraries. It contains countless reusable Components that help in building the desired user interface. Find out why developers are keen to explore everything about React: the working of a react library, the process of breaking down complex problems, and more.
@@ -45,7 +43,7 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3 }) => {
         <p>Attend Siddharth Taneja in a FREE Masterclass on 20th September, Tuesday at 8 PM to acquire conceptual clarity on how cross-platform apps are built through React. Register now!</p>
       </div>
 
-      <div>
+      <div  id="trainer" >
         <p className={styles.paragramTitle}>What you will gain from this Masterclass</p>
         <div className={styles.listMargin} >
           <li>Build cross-platform apps using React from scratch</li>
@@ -130,7 +128,7 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3 }) => {
         />
       </div>
 
-      <div>
+      <div id="About">
         <p className={styles.paragramTitle}>What our Learners have to say</p>
         <div className={styles.eReview} id="review">
           <Reviews redirectFs={true} />
