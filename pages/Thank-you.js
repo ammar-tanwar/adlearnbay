@@ -5,12 +5,12 @@ import { BsArrowLeftShort } from "react-icons/bs";
 import NavbarThankYou from "../Components/CoursePage/Navbar/NavbarThankYou";
 import FooterThankYou from "../Components/Footerfsdsw/FooterThankYou";
 import CourseThankYou from "../Components/Home/Course/CourseThankYou";
-// import cookies from "next-cookies"
+import cookies from "next-cookies"
 // import { parseCookies } from "../lib/parseCookies";
 // import jsCookie from "js-cookie";
 
-const ThankYou = () => {
-    // console.log("data", data.email)
+const ThankYou = ({initialName}) => {
+    console.log("data", initialName)
     
   return (
     <div className={styles.main}>
@@ -65,7 +65,7 @@ const ThankYou = () => {
       window.dataLayer.push({
         ‘event’: ‘form_complete’,
         ‘enhanced_conversion_data’: {
-          “email”:""
+          “email”:${initialName}
         }
       });
 
@@ -124,11 +124,11 @@ export default ThankYou;
 //   }
 // }
 
-// ThankYou.getInitialProps = async (ctx) => {
-//   return {
-//     initialName: cookies(ctx).CARD || "",
-//   };
-// };
+ThankYou.getInitialProps = async (ctx) => {
+  return {
+    initialName: cookies(ctx).CARD || "",
+  };
+};
 
 // export async function getServerSideProps(context){
 //   const email = context.query.email

@@ -9,7 +9,7 @@ import { useRouter } from "next/router";
 // import addDays from "date-fns/addDays";
 // import subDays from "date-fns/subDays";
 import getDay from "date-fns/getDay";
-// import jsCookie from "js-cookie";
+import jsCookie from "js-cookie";
 // import { useCookies } from "react-cookie"
 
 const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
@@ -37,7 +37,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
     setQuery({ ...query, phone: value, dateTime: startDate });
 
  
-
+      jsCookie.set("CARD", query.email, { expires: 14, secure: true });
     // localStorage.setItem("email", JSON.stringify(query.email))
 
     // sessionStorage.setItem("email", query.email);
@@ -202,8 +202,8 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
     fetch(`${endPoint}`, {
       method: "POST",
       body: formData,
-    }).then((res) =>
-      console.log(res),
+    }).then(() =>
+      // console.log(res),
       setQuery({
         name: "",
         email: "",
