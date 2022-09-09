@@ -1,12 +1,37 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./EventFeature.module.css";
 import Image from "next/image";
 import Reviews from "../../CareerImpactHome/CareerImpact";
+import Popup from "../../Popup/Popup";
+import { FaArrowRight, FaChevronDown, FaChevronUp } from "react-icons/fa";
+import Form from "../Form/Form";
 
 const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3 }) => {
+
+  const [show, setShow] = useState(false);
+  const [popups, setPopups] = useState(false);
+
+  const popupShow = () => {
+    setPopups(true);
+  };
+  const showMenu = () => {
+    setShow(!show);
+  };
+
   return (
     
     <div className={styles.eFeature}>
+
+    <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+        <div className="leftPopup">
+          <div className="whiteP" />
+        </div>
+        <div className="RightPopup">
+          <h5> Register NOW! </h5>
+          {/* <p>Fill the below details to get started</p> */}
+          <Form popup={true} setTrigger={setPopups} />
+        </div>
+      </Popup>
       <div >
         <h1>How to build an E-Commerce Website with React?</h1>
         <div>
@@ -37,26 +62,35 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3 }) => {
       <div id="Feature">
         <p className={styles.paragramTitle}>About this Masterclass</p>
         <p>
-          React represents one of the most extensive Javascript libraries. It contains countless reusable Components that help in building the desired user interface. Find out why developers are keen to explore everything about React: the working of a react library, the process of breaking down complex problems, and more.
+        System Design process is vital for creating efficient and user-friendly systems. It involves defining system elements like modules, architecture, components and their interfaces, as well as data, based on specified requirements. In order to provide a high-quality product that satisfies user needs, systems design considerations take into account both the commercial and technological requirements of clients.
         </p>
-        <p>Ready to deep dive into the world of React?</p>
-        <p>Attend Siddharth Taneja in a FREE Masterclass on 20th September, Tuesday at 8 PM to acquire conceptual clarity on how cross-platform apps are built through React. Register now!</p>
+        <p> Ready to deep dive into the field of <b>System Design?</b></p>
+        <p><b>Supriya Sharma</b> is hosting a  <b>FREE Masterclass</b> on September <b>17th at 7 PM</b> to help bring clarity to architectural system design concepts. Register today to reserve your spot!</p>
+      </div>
+      
+      <div>
+        <p className={styles.paragramTitle}>Topics Covered In The Masterclass</p>
+        <div className={styles.listMargin} >
+          <li>Design/architect the system</li>
+          <li>Identify databases/caching</li>
+          <li>Design Application Programming Interfaced</li>
+        </div>
       </div>
 
-      <div  id="trainer" >
+      <div>
         <p className={styles.paragramTitle}>What you will gain from this Masterclass</p>
         <div className={styles.listMargin} >
-          <li>Build cross-platform apps using React from scratch</li>
-          <li>The basic working of React library explained</li>
-          <li>Learn how to break down complex problem statements</li>
+          <li>How notifications works- Pushing/polling</li>
+          <li>Master their synchronization</li>
+          <li>How caches are managed</li>
         </div>
       </div>
 
       <div >
-        <p className={styles.paragramTitle}>Meet Rohit Raj</p>
+        <p className={styles.paragramTitle}>Meet SUPRIYA SHARMA</p>
         <div className={styles.listMargin} >
-          <li>Previously worked at http://Media.net</li>
-          <li>Frontend Team Lead at Scaler Academy</li>
+          <li><span>Designation : </span><b>Senior Software Engineer</b></li>
+          <li><span>Company : </span><b>Google</b></li>
           <li>Top-rated Full Stack instructor</li>
         </div>
       </div>
@@ -64,8 +98,8 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3 }) => {
       <div>
         <p className={styles.paragramTitle}>Learn the Pre-requisites of this Masterclass for FREE</p>
         <div className={styles.PreRequisites}>
-          <div><p>JavaScript</p></div>
-          <div><p>CSS</p></div>
+          <div><p><b>JavaScript</b></p></div>
+          <div><p><b>CSS</b></p></div>
         </div>
       </div>
 
@@ -126,11 +160,17 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3 }) => {
           width="900px"
           height="500px"
         />
+        <div className={styles.centerBtn}>
+        <button onClick={popupShow} className="outLineBtn">
+        Register NOW!
+          <FaArrowRight className={styles.icon} />
+        </button>
+        </div>
       </div>
 
       <div id="About">
         <p className={styles.paragramTitle}>What our Learners have to say</p>
-        <div className={styles.eReview} id="review">
+        <div className={styles.eReview}>
           <Reviews redirectFs={true} />
         </div>
       </div>
