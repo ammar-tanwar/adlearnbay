@@ -131,7 +131,10 @@ export default function Home() {
             headh5={MlCourseData[0].BoxShape.headh5}
           />
         </div>
-        <CourseReview />
+        <CourseReview
+          p1="Working at HCL"
+          p2=" Working at TCS"
+          p3="Working at Capgemini" />
         <Certificate
           H4="Machine Learning Certification Program" />
         <OtherCertificate
@@ -186,7 +189,8 @@ export default function Home() {
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project project={MlCourseData[0].Project.project}
-            domain={MlCourseData[0].Project.domain} />
+            domain={MlCourseData[0].Project.domain}
+            projectTitle={MlCourseData[0].Project.projectTitle} />
         </div>
 
 

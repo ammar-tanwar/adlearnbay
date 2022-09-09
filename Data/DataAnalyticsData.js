@@ -1182,6 +1182,7 @@ export const DataAnalyticsCourseData = [
     Project: {
       project: "5+ Projects",
       domain: "7+",
+      projectTitle:"Hands-on Projects"
     },
     CourseFee: {
       CourseFeeHead: "Data Analytics Course : Batch Details",

@@ -8,7 +8,7 @@ import EventFeature from "../../Components/Event/EventFeatures/EventFeature";
 import { getAllPostIds, getPostData } from "../../lib/event";
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Event/EventFooter/Footer"
-
+import { demo } from "../../Data/demo";
 export default function DataScienceEvent({ eventData }) {
   const [mobile, setMobile] = useState(false);
 
@@ -34,21 +34,9 @@ export default function DataScienceEvent({ eventData }) {
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
         <link rel="canonical" href="https://www.learnbay.co/event" />
       </Head>
-      <Navbar event={true} />
+      <Navbar event={true}/>
       <div>
-        <EventHeader
-          title={eventData.data.header.title}
-          titleSpan={eventData.data.header.titleSpan}
-          desc={eventData.data.header.desc}
-          eventDate={eventData.data.header.eventDate}
-          eventTime={eventData.data.header.eventTime}
-          imgSrc={eventData.data.header.imgSrc}
-          alt={eventData.data.header.alt}
-          width={eventData.data.header.width}
-          height={eventData.data.header.height}
-          instructor={eventData.data.header.instructor}
-          href1={eventData.data.header.href1}
-        />
+        <EventHeader/>
       </div>
 
 
@@ -58,6 +46,7 @@ export default function DataScienceEvent({ eventData }) {
           <div className={styles.left}>
             <div className={styles.prgrmFeature} >
               <EventFeature
+              dta={demo}
                 title={eventData.data.feature.title}
                 h1={eventData.data.feature.h1}
                 h2={eventData.data.feature.h2}
@@ -72,10 +61,7 @@ export default function DataScienceEvent({ eventData }) {
             </div>
           </div>
         </div>
-
-
         <div>
-
           {today >= eventDateInfo ? (
             ""
           ) : (
@@ -88,7 +74,6 @@ export default function DataScienceEvent({ eventData }) {
                     {eventData.data.header.register}
                   </p>
                 </div>
-
                 <Form event={true} />
               </section>
             </div>

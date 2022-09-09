@@ -127,7 +127,10 @@ export default function Home() {
 
           />
         </div>
-        <CourseReview />
+        <CourseReview
+          p1="Working at HCL"
+          p2=" Working at TCS"
+          p3="Working at Capgemini" />
         <Certificate
           title={DataAnalyticsCourseData[0].Certificate.title}
           desc={DataAnalyticsCourseData[0].Certificate.desc}
@@ -180,7 +183,8 @@ export default function Home() {
           para={DataAnalyticsCourseData[0].ProgramFee.para} />
         <div className={styles.ProjectWrapper} id="project">
           <Project project={DataAnalyticsCourseData[0].Project.project}
-            domain={DataAnalyticsCourseData[0].Project.domain} />
+            domain={DataAnalyticsCourseData[0].Project.domain}
+            projectTitle={DataAnalyticsCourseData[0].Project.projectTitle} />
         </div>
 
 

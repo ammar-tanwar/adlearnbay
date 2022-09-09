@@ -44,9 +44,9 @@ const Navbar = ({ radio, event, dataScience, fullStack }) => {
           <div className="whiteP" />
         </div>
         <div className="RightPopup">
-          <h5> Register NOW! </h5>
+          <h5> Register NOW!</h5>
           {/* <p>Fill the below details to get started</p> */}
-          <Form popup={true} setTrigger={setPopups} />
+          <Form popup={true} setTrigger={setPopups} radio={radio} fullStack={fullStack} dataScience={dataScience} />
         </div>
       </Popup>
 

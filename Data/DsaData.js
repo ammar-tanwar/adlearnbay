@@ -205,6 +205,7 @@ export const DsaCourseData = [
     Project: {
       project: "12+ Projects",
       domain: "7+",
+      projectTitle:"Hands-on Projects"
     },
 
     Batch: [

@@ -14,7 +14,7 @@ import "swiper/css";
 
 import "swiper/css/pagination";
 
-const Project = ({ popupHead, project, domain }) => {
+const Project = ({ popupHead, project, domain,projectTitle }) => {
   const [popups, setPopups] = useState(false);
 
   const [device, setDevice] = useState();
@@ -51,7 +51,7 @@ const Project = ({ popupHead, project, domain }) => {
 
       <div className={styles.headWrapper}>
         <div className={styles.left}>
-          <h3>Hands-on Projects</h3>
+          <h3>{projectTitle}</h3>
 
           <div className={styles.iconWrapper}>
             <div className={styles.middle}>

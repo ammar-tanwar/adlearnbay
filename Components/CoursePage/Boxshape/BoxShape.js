@@ -12,7 +12,7 @@ import Form from "../../Form/Form";
 import Popup from "../../Popup/Popup";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
-import { Autoplay, Pagination } from "swiper";
+import { Autoplay, Pagination } from "swiper"; 
 
 const BoxShape = ({
   title,

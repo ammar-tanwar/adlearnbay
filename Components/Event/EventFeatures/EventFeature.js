@@ -19,7 +19,7 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3 }) => {
   };
 
   return (
-    
+  
     <div className={styles.eFeature}>
 
     <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
@@ -37,12 +37,12 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3 }) => {
         <div>
           <span>
             <span className={styles.fontweight}> STARTS ON :</span>
-            <span> September 20, 2022 8:00 PM (IST)</span>
+            <span> September 17, 2022 7:00 PM (IST)</span>
           </span>
           <br />
           <span>
             <span className={styles.fontweight}>ENDS ON : </span>
-            <span> September 20, 2022 11:00 PM (IST)</span>
+            <span> September 17, 2022 10:00 PM (IST)</span>
           </span>
           <br />
           <span>
@@ -177,19 +177,19 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3 }) => {
 
       <div >
         <p className={styles.paragramTitle}>About Learnbay Academy</p>
-        <p>Many engineers (like us!) enter software engineering almost by mistake, are exposed to ‘old’ teaching methods and are taught to ‘cram’ content. This creates gaps in an engineer’s CS learning, makes them under confident and prevents them from accelerating in their career. </p>
-        <p>Scaler Academy is tailor-made for engineers to master the foundations of CS (DSA & System Design) and to take their career to the next level, via: </p>
+        <p>Learnbay offers domain specialized courses in fields such as full-stack software development, Data Structure Algorithms and System Design </p>
+        <p>Are you an Engineer who’s not happy with the job and wants to upskill and get into MAANG companies? We are here with the best option, Learnbay’s software development and DSA system design courses are designed for the working professionals who wants to advance their career.</p>
+        <p>Highlighted features of Learnbay:</p>
         <div className={styles.listMargin} >
-          <li>A structured, guided and industry vetted curriculum</li>
-          <li>Live classes by faculty who have been there, done that</li>
-          <li>Regular 1:1 mentorship from industry veterans </li>
-          <li>A structured, guided and industry vetted curriculum</li>
-          <li>Live classes by faculty who have been there, done that</li>
-          <li>Regular 1:1 mentorship from industry veterans </li><li>A structured, guided and industry vetted curriculum</li>
-          <li>Live classes by faculty who have been there, done that</li>
-          <li>Regular 1:1 mentorship from industry veterans </li>
+          <li>A curriculum that has been developed, supervised, and approved by industry experts</li>
+          <li>1:1 mentorship, guided by top experts in the field</li>
+          <li>Gain technical expertise by working on challenging real- world projects </li>
+          <li>250 + hiring partners with dedicated placement support and 100% Interview guaranteed </li>
+          <li>NEW! Attend a free Demo Class now and the enroll for the domain you’re looking for.</li>
+          
         </div>
-        <p>The curriculum is designed to make you a solid engineer. Find out more about us at scaler.com/academy!</p>
+        <p>Know more about us through our website</p>
+        <p>https://www.learnbay.co/</p>
 
 
       </div>

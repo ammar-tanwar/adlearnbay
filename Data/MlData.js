@@ -407,7 +407,7 @@ export const MlCourseData = [
     para:"We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Machine Learning Certification Course and offer avariety of financing options to make it more economical.",
 
   },
-  Project: { project: "15+ Projects", domain: "7+", },
+  Project: { project: "15+ Projects", domain: "7+", projectTitle:"Hands-on Projects"},
   CourseFee: {
     CourseFeeHead: "Machine Learning Course : Batch Details",
     CourseFeePara: "Machine Learning Online Classroom",

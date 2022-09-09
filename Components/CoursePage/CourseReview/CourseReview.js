@@ -10,7 +10,7 @@ import styles from "./CourseReview.module.css";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
-const CourseReview = () => {
+const CourseReview = ({p1,p2,p3}) => {
 
   const [popups, setPopups] = useState(false);
 
@@ -99,7 +99,7 @@ const CourseReview = () => {
 
                 <div className={styles.contentRight}>
                   <div className={styles.name}>
-                    <p> Working at HCL</p>
+                    <p>{p1}</p>
                     <h5>Preksha Mishra</h5>
                   </div>
                   <div>
@@ -165,7 +165,7 @@ const CourseReview = () => {
 
                 <div className={styles.contentRight}>
                   <div className={styles.name}>
-                    <p> Working at TCS</p>
+                    <p>{p2}</p>
                     <h5>Mohammad Israr</h5>
                   </div>
                   <div>
@@ -280,7 +280,7 @@ const CourseReview = () => {
 
                 <div className={styles.contentRight}>
                   <div className={styles.name}>
-                    <p>Working at Capgemini</p>
+                    <p>{p3}</p>
                     <h5>Ritish Kumar</h5>
                   </div>
                   <div>

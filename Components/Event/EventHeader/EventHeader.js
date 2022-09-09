@@ -1,23 +1,15 @@
 import React, { useEffect, useState } from "react";
 import styles from "./EventHeader.module.css";
+import Popup from "../../Popup/Popup";
+import Form from "../../Form/Form";
+import { FaArrowRight } from "react-icons/fa";
+import Image from "next/image";
+export const EventHeader = () => {
 
-export const EventHeader = ({
-  title,
-  titleSpan,
-  desc,
-  instructor,
-  alt,
-  width,
-  height,
-  eventDate,
-  eventTime,
-  imgSrc,
-  href1,
-}) => {
   const [mobile, setMobile] = useState(false);
   const [popups, setPopups] = useState(false);
   let today = new Date();
-  let eventDateInfo = new Date(eventDate);
+ 
   const popupShow = () => {
     setPopups(true);
   };
@@ -38,7 +30,7 @@ export const EventHeader = ({
       src="/Artboard1.jpg"
       alt="Learnbay"
       quality={100}
-      objectFit="contain"
+      
       width="100%"
       height="400px"
     />
@@ -47,7 +39,7 @@ export const EventHeader = ({
       src="/Artboard.jpg"
       alt="Learnbay"
       quality={100}
-      objectFit="contain"
+     
       width="100%"
       height="500px"
     />

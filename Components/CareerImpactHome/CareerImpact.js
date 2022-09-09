@@ -13,7 +13,10 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Navigation, Pagination } from "swiper";
+import { Navigation, Pagination,Autoplay } from "swiper";
+import "swiper/css/pagination";
+import "swiper/css/autoplay";
+
 
 const CareerImpact = () => {
   const [mobile, setMobile] = useState(false);
@@ -33,9 +36,14 @@ const CareerImpact = () => {
             navigation={true}
             pagination={{ clickable: true }}
             grabCursor={true}
-            modules={[Pagination, Navigation]}
+            modules={[Pagination, Autoplay, Navigation]}
             className="mySwiper"
+            autoplay={{
+              delay: 2500,
+            }}
+            autoPlay={true}
           >
+
             <SwiperSlide className={styles.slide}>
               <div className={styles.content}>
                 <div className={styles.imgP}>

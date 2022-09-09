@@ -548,6 +548,7 @@ export const JobGuaranteeCourseData = [
     Project: {
       project: "15+ Projects",
       domain: "7+",
+      projectTitle:"Hands-on Projects"
     },
 
     CourseFee: {

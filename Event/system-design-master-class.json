@@ -1,22 +1,22 @@
 {
   "metaInfo": {
-    "title": "Introduction to Full Stack Web Development",
-    "desc": "Enroll in the Full stack course Event and learn from live classes. Get Knowledge by working on industry projects.",
+    "title": "Introduction to System Design",
+    "desc": "Enroll in the System Design Event and learn from live classes. Get Knowledge by working on industry projects.",
     "keyword": "Web Development",
     "canonical": "https://www.learnbay.co/Event/Introduction-to-Full-Stack-Web-Development"
   },
   "mainData": {
-    "title": "Introduction to Full Stack Web Development",
+    "title": "Introduction to System Design",
     "eventDate": "September 10, 2022",
-    "tag": "Fullstack",
+    "tag": "System Design",
     "eventTime": "11 a.m. to 1 p.m.",
     "Duration": "120min",
     "img": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Intro+to+Full+Stack+Web+Development.png",
     "register": "843"
   },
   "header": {
-    "title": "Introduction to Full Stack ",
-    "titleSpan": "Web Development",
+    "title": "Introduction to System Design ",
+    "titleSpan": "System Design",
     "desc": "For SDEs with 2+ years working Exp",
     "eventDate": "10th to 11th September",
     "eventTime": "11 a.m. to 1 p.m.",
@@ -30,7 +30,7 @@
   },
 
   "feature": {
-    "title": "Full Stack Masterclass Features",
+    "title": "System Design Masterclass Features",
     "h1": "Customized learning",
     "p1": "Fulfill your learning goals and get expert assistance.",
     "h2": "Live Classes",

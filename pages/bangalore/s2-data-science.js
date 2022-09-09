@@ -1,23 +1,25 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
-import FirstSection from "../Components/CoursePage/HeroSection/HeroSection";
-import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
-import BoxShape from "../Components/CoursePage/Boxshape/BoxShape";
-import Popup from "../Components/Popup/Popup";
-import Form from "../Components/Form/Form";
-import Navbar from "../Components/CoursePage/Navbar/Navbar";
-import Certificate from "../Components/CoursePage/CertificateTab/CertificateTabAdvance";
-import Project from "../Components/CoursePage/Project/Project";
-import OurExpert from "../Components/CoursePage/OurExpert/OurExpert";
-import CourseFee from "../Components/CoursePage/CourseFee/CourseFee";
-import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
-import Footer from "../Components/CoursePage/Footer/Footer";
-import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
-import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
+import styles from "../../styles/Home.module.css";
+import FirstSection from "../../Components/CoursePage/HeroSection/HeroSection";
+import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
+import BoxShape from "../../Components/CoursePage/Boxshape/BoxShape";
+import Popup from "../../Components/Popup/Popup";
+import Form from "../../Components/Form/Form";
+import Navbar from "../../Components/CoursePage/Navbar/Navbar";
+import Certificate from "../../Components/CoursePage/CertificateTab/CertificateTabAdvance";
+import Project from "../../Components/CoursePage/Project/Project";
+import OurExpert from "../../Components/CoursePage/OurExpert/OurExpert";
+import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
+import SyllabusNew from "../../Components/CoursePage/SyllabusNew/SyllabusNew";
+import Footer from "../../Components/CoursePage/Footer/Footer";
+import { ProgramFee } from "../../Components/CoursePage/ProgramFee/ProgramFee";
+import LearnSupport from "../../Components/CoursePage/LearnSupport/LearnSupport";
 import React, { useState } from "react";
-import { DataScienceCourseData } from "../Data/DataScienceCourse";
-import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
-import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
+import { DataScienceCourseData } from "../../Data/bangalore/DataScienceCourse";
+import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
+import CourseReview from "../../Components/CoursePage/CourseReview/CourseReview";
+
+
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -103,6 +105,7 @@ export default function Home() {
           height={DataScienceCourseData[0].FirstSection.height}
           alt={DataScienceCourseData[0].FirstSection.alt}
           srcD={DataScienceCourseData[0].FirstSection.srcD}
+        
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -132,10 +135,10 @@ export default function Home() {
           />
         </div>
 
-        <CourseReview
-          p1="Working at HCL"
-          p2=" Working at TCS"
-          p3="Working at Capgemini" />
+        <CourseReview 
+        p2=" Working at TCS, Bangalore"
+        p1="Working at HCL, Bangalore"
+        p3="Working at Capgemini, Bangalore"/>
         <Certificate
           H4="Data Science Certification Program"
         />
@@ -181,8 +184,8 @@ export default function Home() {
         <div className={styles.ProjectWrapper} id="project">
           <Project popupHead={DataScienceCourseData[0].Project.popupHead}
             project={DataScienceCourseData[0].Project.project}
-            domain={DataScienceCourseData[0].Project.domain}
-            projectTitle={DataScienceCourseData[0].Project.projectTitle} />
+            domain={DataScienceCourseData[0].Project.domain} 
+            projectTitle={DataScienceCourseData[0].Project.projectTitle}/>
         </div>
 
         <CourseFee

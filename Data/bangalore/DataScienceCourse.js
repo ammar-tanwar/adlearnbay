@@ -4,9 +4,9 @@ export const DataScienceCourseData = [
       popupHead: "Download Brochure",
       deskTopPara: "Choose Specialization over Generalization",
       mTopPara: "Choose Specialization over Generalization",
-      mTitle: "Data Science Course",
+      mTitle: "Data Science Course In Bangalore",
       spanMTitleText: "Domain Specialization For Professionals",
-      title: "Data Science Course",
+      title: "Data Science Course In Bangalore",
       spanTitleText: "Domain Specialization For Professionals",
       desc: "With new capstone projects, learn how to apply your previous domain expertise to make a successful transition.",
       src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png",
@@ -25,7 +25,7 @@ export const DataScienceCourseData = [
       p44: "₹ 7,768/month",
     },
     BoxShape: {
-      title: "Explore Our Data Science Certification Programs",
+      title: "Data Science Certification Programs in Bangalore",
       Box1h5: "1-on-1 Dedication",
       box1desc: "Live interactive session with expert for every individual",
       Box2h5: "Assured Interview Call",
@@ -37,7 +37,7 @@ export const DataScienceCourseData = [
       headh5:"Watch ours alumni’s making successful Data Science career transition",
     },
     syllabusDesc:
-      "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Data Science Course sessions are covered practically with real-time industrial projects and case studies.",
+      "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Data Science Course In Bangalore sessions are covered practically with real-time industrial projects and case studies.",
     popupHead: "Download Brochure",
     hours: "250+ Hours",
     project: "12+ Real Time",
@@ -315,17 +315,17 @@ export const DataScienceCourseData = [
     ProgramFee: {
       Fee: "₹79,000 + GST",
       Emi: "₹ 7,768/month",
-      CourseFeeAndFinancing:"Data Science Course Fee & Financing",
-      para:"We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Science Certification Course and offer avariety of financing options to make it more economical.",
+      CourseFeeAndFinancing:"Data Science Course Fee & Financing In Bangalore",
+      para:"We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Science Certification Course In Bangalore and offer avariety of financing options to make it more economical.",
     },
     Project: {
       popupHead: "Download Project Brochure",
       project: "12+ Projects",
       domain: "7+",
-      projectTitle:"Hands-on Projects"
+      projectTitle:"Hands-on Projects in Bangalore"
     },
     CourseFees: {
-      CourseFeeHead: "Data Science Course : Batch Details",
+      CourseFeeHead: "Data Science Course In Bangalore : Batch Details",
       CourseFeePara: "Data Science Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",
@@ -378,7 +378,7 @@ export const DataScienceCourseData = [
     ],
 
     BatchCourses: {
-      CourseFeeHead: "Data Science Course : Batch Details",
+      CourseFeeHead: "Data Science Course In Bangalore : Batch Details",
       CourseFeePara: "Data Science Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",

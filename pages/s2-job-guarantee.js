@@ -126,7 +126,10 @@ export default function Home() {
             box4desc={JobGuaranteeCourseData[0].BoxShape.box4desc}
           />
         </div>
-        <CourseReview />
+        <CourseReview
+          p1="Working at HCL"
+          p2=" Working at TCS"
+          p3="Working at Capgemini" />
         <Certificate
           title={JobGuaranteeCourseData[0].Certificate.title}
           desc={JobGuaranteeCourseData[0].Certificate.desc}
@@ -174,7 +177,8 @@ export default function Home() {
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project project={JobGuaranteeCourseData[0].Project.project}
-            domain={JobGuaranteeCourseData[0].Project.domain} />
+            domain={JobGuaranteeCourseData[0].Project.domain}
+            projectTitle={JobGuaranteeCourseData[0].Project.projectTitle} />
         </div>
 
 

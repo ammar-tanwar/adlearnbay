@@ -131,7 +131,10 @@ export default function Home() {
           />
         </div>
 
-        <CourseReview />
+        <CourseReview
+          p1="Working at HCL"
+          p2=" Working at TCS"
+          p3="Working at Capgemini" />
         <Certificate
           H4="AI Certification Program"
         />
@@ -187,7 +190,8 @@ export default function Home() {
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project project={AiCourseData[0].Project.project}
-            domain={AiCourseData[0].Project.domain} />
+            domain={AiCourseData[0].Project.domain}
+            projectTitle={AiCourseData[0].Project.projectTitle} />
         </div>
 
 
