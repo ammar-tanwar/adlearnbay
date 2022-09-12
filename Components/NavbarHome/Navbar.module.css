@@ -78,11 +78,11 @@
     font-weight: 500;
     box-shadow: #2D9CD7 0px 0px 4px 0px;
   }
-  .right button:hover {
+  /* .right button:hover {
     background-color: #fff;
     color: #2D9CD7;
     border: 1px solid #2D9CD7;
-  }
+  } */
   .hoverBtn {
     background-color: #f7f9fc;
     color: #2D9CD7;

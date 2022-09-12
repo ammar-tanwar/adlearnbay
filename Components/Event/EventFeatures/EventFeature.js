@@ -6,7 +6,7 @@ import Popup from "../../Popup/Popup";
 import { FaArrowRight, FaChevronDown, FaChevronUp } from "react-icons/fa";
 import Form from "../Form/Form";
 
-const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3 }) => {
+const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3,props }) => {
 
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
@@ -33,26 +33,26 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3 }) => {
         </div>
       </Popup>
       <div >
-        <h1>How to build an E-Commerce Website with React?</h1>
+        <h1>{props.Heading}</h1>
         <div>
           <span>
-            <span className={styles.fontweight}> STARTS ON :</span>
-            <span> September 17, 2022 7:00 PM (IST)</span>
+            <span className={styles.fontweight}>{props.StartON} STARTS ON :</span>
+            <span>{props.StartONT}</span>
           </span>
           <br />
           <span>
-            <span className={styles.fontweight}>ENDS ON : </span>
-            <span> September 17, 2022 10:00 PM (IST)</span>
+            <span className={styles.fontweight}>{props.EndON}</span>
+            <span>{props.EndONT} </span>
           </span>
           <br />
           <span>
-            <span className={styles.fontweight}> VENUE : </span>
-            <span> Online</span>
+            <span className={styles.fontweight}>{props.Venue} </span>
+            <span>{props.VenueO} </span>
           </span>
           <br />
           <span>
-            <span className={styles.fontweight}> DURATION : </span>
-            <span> 3 hours</span>
+            <span className={styles.fontweight}>{props.Duration}</span>
+            <span>{props.DurationT}</span>
           </span>
         </div>
         <br />
@@ -60,51 +60,49 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3 }) => {
       </div>
 
       <div id="Feature">
-        <p className={styles.paragramTitle}>About this Masterclass</p>
-        <p>
-        System Design process is vital for creating efficient and user-friendly systems. It involves defining system elements like modules, architecture, components and their interfaces, as well as data, based on specified requirements. In order to provide a high-quality product that satisfies user needs, systems design considerations take into account both the commercial and technological requirements of clients.
-        </p>
-        <p> Ready to deep dive into the field of <b>System Design?</b></p>
-        <p><b>Supriya Sharma</b> is hosting a  <b>FREE Masterclass</b> on September <b>17th at 7 PM</b> to help bring clarity to architectural system design concepts. Register today to reserve your spot!</p>
+        <p className={styles.paragramTitle}>{props.para1}</p>
+        <p>{props.paragraph1}</p>
+        <p>{props.paragraph2}</p>
+        <p>{props.paragraph3}</p>
       </div>
       
       <div>
-        <p className={styles.paragramTitle}>Topics Covered In The Masterclass</p>
+        <p className={styles.paragramTitle}>{props.para2}</p>
         <div className={styles.listMargin} >
-          <li>Design/architect the system</li>
-          <li>Identify databases/caching</li>
-          <li>Design Application Programming Interfaced</li>
+          <li>{props.paragraph24}</li>
+          <li>{props.paragraph4}</li>
+          <li>{props.paragraph5}</li>
         </div>
       </div>
 
       <div>
-        <p className={styles.paragramTitle}>What you will gain from this Masterclass</p>
+        <p className={styles.paragramTitle}>{props.para3}</p>
         <div className={styles.listMargin} >
-          <li>How notifications works- Pushing/polling</li>
-          <li>Master their synchronization</li>
-          <li>How caches are managed</li>
+          <li>{props.paragraph6}</li>
+          <li>{props.paragraph7}</li>
+          <li>{props.paragraph8}</li>
         </div>
       </div> 
 
       <div >
-        <p className={styles.paragramTitle}>Meet SUPRIYA SHARMA</p>
+        <p className={styles.paragramTitle}>{props.para4}</p>
         <div className={styles.listMargin} >
-          <li><span>Designation : </span><b>Senior Software Engineer</b></li>
-          <li><span>Company : </span><b>Google</b></li>
-          <li>Top-rated Full Stack instructor</li>
+          <li><span>{props.paragraph9}</span><b>{props.paragraph9_1}</b></li>
+          <li><span>{props.paragraph10}</span><b>{props.paragraph10_1}</b></li>
+          <li>{props.paragraph11}</li>
         </div>
       </div>
 
       <div>
-        <p className={styles.paragramTitle}>Learn the Pre-requisites of this Masterclass for FREE</p>
+        <p className={styles.paragramTitle}>{props.para5}</p>
         <div className={styles.PreRequisites}>
-          <div><p><b>JavaScript</b></p></div>
-          <div><p><b>CSS</b></p></div>
+          <div><p><b>{props.paragraph12}</b></p></div>
+          <div><p><b>{props.paragraph13}</b></p></div>
         </div>
       </div>
 
       <div>
-        <p className={styles.paragramTitle}>This Masterclass is for</p>
+        <p className={styles.paragramTitle}>{props.para6}</p>
       </div>
       <div style={{ margin: "15px 0px" }}>
         <div className={styles.bodyContent}>
@@ -169,27 +167,27 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3 }) => {
       </div>
 
       <div id="About">
-        <p className={styles.paragramTitle}>What our Learners have to say</p>
+        <p className={styles.paragramTitle}>{props.para7}</p>
         <div className={styles.eReview}>
           <Reviews redirectFs={true} />
         </div>
       </div>
 
       <div >
-        <p className={styles.paragramTitle}>About Learnbay Academy</p>
-        <p>Learnbay offers domain specialized courses in fields such as full-stack software development, Data Structure Algorithms and System Design </p>
-        <p>Are you an Engineer who’s not happy with the job and wants to upskill and get into MAANG companies? We are here with the best option, Learnbay’s software development and DSA system design courses are designed for the working professionals who wants to advance their career.</p>
-        <p>Highlighted features of Learnbay:</p>
-        <div className={styles.listMargin} >
-          <li>A curriculum that has been developed, supervised, and approved by industry experts</li>
-          <li>1:1 mentorship, guided by top experts in the field</li>
-          <li>Gain technical expertise by working on challenging real- world projects </li>
-          <li>250 + hiring partners with dedicated placement support and 100% Interview guaranteed </li>
-          <li>NEW! Attend a free Demo Class now and the enroll for the domain you’re looking for.</li>
+        <p className={styles.paragramTitle}>{props.para8}</p>
+        <p>{props.paragraph14}</p>
+        <p>{props.paragraph15}</p>
+        <p>{props.paragraph16}</p>
+        <div className={styles.listMargin}>
+          <li>{props.paragraph17}</li>
+          <li>{props.paragraph18}</li>
+          <li>{props.paragraph19}</li>
+          <li>{props.paragraph20}</li>
+          <li>{props.paragraph21}</li>
           
         </div>
-        <p>Know more about us through our website</p>
-        <p>https://www.learnbay.co/</p>
+        <p>{props.paragraph22}</p>
+        <p>{props.paragraph23}</p>
 
 
       </div>

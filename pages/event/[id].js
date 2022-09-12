@@ -34,19 +34,19 @@ export default function DataScienceEvent({ eventData }) {
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
         <link rel="canonical" href="https://www.learnbay.co/event" />
       </Head>
-      <Navbar event={true}/>
+      <Navbar event={true} />
       <div>
-        <EventHeader/>
+        <EventHeader />
       </div>
 
 
       <div className={today >= eventDateInfo ? styles.Pages : styles.Page2}>
-      
+
         <div>
           <div className={styles.left}>
             <div className={styles.prgrmFeature} >
               <EventFeature
-              dta={demo}
+                props={demo}
                 title={eventData.data.feature.title}
                 h1={eventData.data.feature.h1}
                 h2={eventData.data.feature.h2}
