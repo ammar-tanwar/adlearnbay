@@ -161,8 +161,8 @@ function CourseFee({
               <div>
                 <div className={styles.BatchDetails}>
                   <p className={styles.list}><MdDateRange className={styles.icon} /><b>Date</b></p>
-                  <p className={styles.list}>4th September 2022</p>
-                      <p className={styles.list}>9th September 2022</p>
+                  <p className={styles.list}>18th September 2022</p>
+                      <p className={styles.list}>16th September 2022</p>
                     
 
                 </div>
@@ -170,10 +170,10 @@ function CourseFee({
               <div>
                 <div className={styles.BatchDetails}>
                   <p className={styles.list}><BiTimeFive className={styles.icon} /><b>Time</b></p>
-                  <p className={styles.list}>12:30 p.m. to 4 p.m.</p>
-                      <p className={styles.list}>8 p.m. to 10 p.m.</p>
+                  <p className={styles.list}>8:30 a.m. to 12:00 p.m.</p>
+                  <p className={styles.list}>8 a.m. to 10 a.m.</p>
                       
-
+                      
                 </div>
               </div>
               <div className={styles.btnWrapper}>

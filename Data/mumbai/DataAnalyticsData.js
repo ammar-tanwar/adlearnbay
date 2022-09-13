@@ -1194,6 +1194,8 @@ export const DataAnalyticsCourseData = [
       CourseFeelist5: "Company-based Mock Interviews",
     },
 
+    
+  
     Batch: [
       {
         Module0: {
@@ -1203,8 +1205,8 @@ export const DataAnalyticsCourseData = [
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 4th September 2022",
-                  "Time : 12:30 p.m. to 4 p.m..",
+                  "Date : 18th September 2022",
+                  "Time : 8:30 a.m. to 12:00 p.m.",
   
                 ],
               },
@@ -1224,8 +1226,8 @@ export const DataAnalyticsCourseData = [
               chap: {
                 title: "Weekday Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 9th September 2022",
-                  "Time :8 p.m. to 10 p.m.",
+                  "Date : 16th September 2022",
+                  "Time : 8 a.m. to 10 a.m.",
                 ],
               },
             },
@@ -1236,7 +1238,7 @@ export const DataAnalyticsCourseData = [
         },
       },
     ],
-  
+
     BatchCourses: {
       CourseFeeHead: "Data Analytics Course in Mumbai : Batch Details",
       CourseFeePara: "Data Analytics Online Classroom",

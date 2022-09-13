@@ -291,7 +291,17 @@ export const FullStackSoftwareCourseData = [
                   title: "Batch 1 :- Date And time ",
                   desc: [
                     "Date : 4th September 2022",
-                    "Time : 12:30 p.m. to 4 p.m.",
+                    "Time :  08 a.m to 12 p.m.",
+  
+                  ],
+                },
+              },
+              {
+                chap: {
+                  title: "Batch 2 :- Date And time ",
+                  desc: [
+                    "Date : 25th September 2022",
+                    "Time :  08 a.m to 12 p.m.",
   
                   ],
                 },
@@ -303,33 +313,33 @@ export const FullStackSoftwareCourseData = [
           },
         },
   
-        {
-          Module0: {
-            title: "Weekday Batch  :- (Mon-Fri)",
-            content: [
-              {
-                chap: {
-                  title: "Weekday Batch 1 :- Date And time ",
-                  desc: [
-                    "Date : 9th September 2022",
-                    "Time : 8 p.m. to 10 p.m.",
-                  ],
-                },
-              },
-              {
-                chap: {
-                  title: "Weekday Batch 2 :- Date And time ",
-                  desc: [
-                    "Date : 26th August 2022",
-                    "Time : 8 p.m. to 10 p.m.",
-                  ],
-                },
-              },
-            ],
-            id: 1,
-            open: false,
-          },
-        },
+        // {
+        //   Module0: {
+        //     title: "Weekday Batch  :- (Mon-Fri)",
+        //     content: [
+        //       {
+        //         chap: {
+        //           title: "Weekday Batch 1 :- Date And time ",
+        //           desc: [
+        //             "Date : 9th September 2022",
+        //             "Time : 8 p.m. to 10 p.m.",
+        //           ],
+        //         },
+        //       },
+        //       {
+        //         chap: {
+        //           title: "Weekday Batch 2 :- Date And time ",
+        //           desc: [
+        //             "Date : 26th August 2022",
+        //             "Time : 8 p.m. to 10 p.m.",
+        //           ],
+        //         },
+        //       },
+        //     ],
+        //     id: 1,
+        //     open: false,
+        //   },
+        // },
   
   
       ],

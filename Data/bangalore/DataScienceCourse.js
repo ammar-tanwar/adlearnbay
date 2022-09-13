@@ -334,7 +334,7 @@ export const DataScienceCourseData = [
       CourseFeelist5: "Company-based Mock Interviews",
     },
    
-    Batch: [
+  Batch: [
       {
         Module0: {
           title: "Weekend Batch :- (Sat - Sun)",
@@ -343,19 +343,19 @@ export const DataScienceCourseData = [
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 4th September 2022",
-                  "Time : 12:30 p.m. to 4 p.m..",
-
+                  "Date : 18th September 2022",
+                  "Time : 8:30 a.m. to 12:00 p.m.",
+  
                 ],
               },
             },
-
+  
           ],
           id: 0,
           open: true,
         },
       },
-
+  
       {
         Module0: {
           title: "Weekday Batch  :- (Mon-Fri)",
@@ -364,8 +364,8 @@ export const DataScienceCourseData = [
               chap: {
                 title: "Weekday Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 9th September 2022",
-                  "Time :8 p.m. to 10 p.m.",
+                  "Date : 16th September 2022",
+                  "Time : 8 a.m. to 10 a.m.",
                 ],
               },
             },
