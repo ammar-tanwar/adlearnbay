@@ -174,7 +174,9 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
   }
   if (
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s8" ||
-    router.pathname === "/data-science-certification-courses-s10"
+    router.pathname === "/data-science-certification-courses-s10" ||
+    router.pathname === "/dsa-s3" ||
+    router.pathname === "/fssd-s3"
   ) {
     endPoint = "https://getform.io/f/fd68bf82-a911-435e-9719-7c134a89a731";
   }
@@ -449,6 +451,8 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
       router.pathname === "/fssd" ||
       // router.pathname === "/fswd" ||
       router.pathname === "/fssd-s2" ||
+      router.pathname === "/dsa-s3" ||
+      router.pathname === "/fssd-s3" ||
       router.pathname === "/fssd-s4" ||
       // router.pathname === "/fswd-s4" ||
       router.pathname === "/fssd-s5" ||
