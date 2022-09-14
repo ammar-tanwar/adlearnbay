@@ -301,7 +301,7 @@ export const FullStackSoftwareCourseData = [
                   title: "Batch 2 :- Date And time ",
                   desc: [
                     "Date : 25th September 2022",
-                    "Time :  08 a.m to 12 p.m.",
+                    "Time : 12:30 p.m to 04:00 p.m. ",
   
                   ],
                 },

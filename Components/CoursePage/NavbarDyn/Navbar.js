@@ -41,7 +41,7 @@ const Navbar = ({
           <h5>Apply For Counselling</h5>
                    {/* <p>Fill the below Details to get started</p> */}
 
-          <Form popup={true} setTrigger={setPopups}  radio={true} />
+          <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
       <nav className={styles.nav}>

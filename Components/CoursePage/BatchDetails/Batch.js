@@ -52,7 +52,7 @@ function Batch({
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <Form popup={true} setTrigger={setPopups}  radio={true} />
+          <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
       <h4 style={{ marginBottom: "30px" }}>{CourseFeeHead}</h4>
@@ -171,7 +171,7 @@ function Batch({
                 <div className={styles.BatchDetails}>
                   <p className={styles.list}><BiTimeFive className={styles.icon} /><b>Time</b></p>
                   <p className={styles.list}>8 a.m to 12 p.m.</p>
-                      <p className={styles.list}>8 a.m to 12 p.m.</p>
+                      <p className={styles.list}>12:30 p.m to 04:00 p.m.</p>
                    
 
                 </div>

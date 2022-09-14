@@ -34,7 +34,7 @@ export const DataScienceCourseData = [
       box3desc: "Get professionally trained from MAANG and MNC experts",
       Box4h5: "Crafted for professional",
       box4desc: "Prioritize growth and salary hike with in-demand skillset",
-      headh5:"Watch ours alumni’s making successful Data Science career transition",
+      headh5:"Watch our alumni’s making successful Data Science career transition",
     },
     syllabusDesc:
       "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Data Science Course In Delhi sessions are covered practically with real-time industrial projects and case studies.",

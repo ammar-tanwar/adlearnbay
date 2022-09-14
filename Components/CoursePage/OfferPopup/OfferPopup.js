@@ -20,7 +20,7 @@ const OfferPopup = () => {
       </div>
       <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <Form popup={true} setTrigger={setPopups}  radio={true} />
+          <Form popup={true} setTrigger={setPopups} />
       </div>
     </Popup>
   );
