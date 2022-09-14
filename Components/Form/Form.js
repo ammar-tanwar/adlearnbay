@@ -83,7 +83,50 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
     router.pathname === "/s2-data-analytics" ||
     router.pathname === "/s2-job-guarantee" ||
     router.pathname === "/apply-for-counselling-s2" ||
-    router.pathname === "/job-guarantee-or-money-back-data-science-ai-s9"
+    router.pathname === "/job-guarantee-or-money-back-data-science-ai-s9" ||
+      
+    //  BANGALORE
+
+    router.pathname === "/bangalore/s2-data-science" ||
+    router.pathname === "/bangalore/s2-machine-learning" ||
+    router.pathname === "/bangalore/s2-artificial-intelligence" ||
+    router.pathname === "/bangalore/s2-data-analytics" ||
+      
+    //  chennai
+
+    router.pathname === "/chennai/s2-data-science" ||
+    router.pathname === "/chennai/s2-machine-learning" ||
+    router.pathname === "/chennai/s2-artificial-intelligence" ||
+    router.pathname === "/chennai/s2-data-analytics" ||
+
+    //  delhi
+
+    router.pathname === "/delhi/s2-data-science" ||
+    router.pathname === "/delhi/s2-machine-learning" ||
+    router.pathname === "/delhi/s2-artificial-intelligence" ||
+    router.pathname === "/delhi/s2-data-analytics" ||
+
+    //  hyderabad
+
+    router.pathname === "/hyderabad/s2-data-science" ||
+    router.pathname === "/hyderabad/s2-machine-learning" ||
+    router.pathname === "/hyderabad/s2-artificial-intelligence" ||
+    router.pathname === "/hyderabad/s2-data-analytics" ||
+
+    //  mumbai
+    
+    router.pathname === "/mumbai/s2-data-science" ||
+    router.pathname === "/mumbai/s2-machine-learning" ||
+    router.pathname === "/mumbai/s2-artificial-intelligence" ||
+    router.pathname === "/mumbai/s2-data-analytics" ||
+
+      //  pune
+
+    router.pathname === "/pune/s2-data-science" ||
+    router.pathname === "/pune/s2-machine-learning" ||
+    router.pathname === "/pune/s2-artificial-intelligence" ||
+    router.pathname === "/pune/s2-data-analytics"
+
   ) {
     endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
   }
@@ -464,7 +507,53 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
       router.pathname === "/full-stack-software-development-program" ||
       router.pathname === "/full-stack-web-development-program" ||
       router.pathname === "/apply-for-counselling-fsd-s2" ||
-      router.pathname === "/dsa-system-design"
+      router.pathname === "/dsa-system-design" ||
+
+      //  BANGALORE
+
+    router.pathname === "/bangalore/s2-data-science" ||
+    router.pathname === "/bangalore/s2-machine-learning" ||
+    router.pathname === "/bangalore/s2-artificial-intelligence" ||
+    router.pathname === "/bangalore/s2-data-analytics" ||
+      
+    //  chennai
+
+    router.pathname === "/chennai/s2-data-science" ||
+    router.pathname === "/chennai/s2-machine-learning" ||
+    router.pathname === "/chennai/s2-artificial-intelligence" ||
+    router.pathname === "/chennai/s2-data-analytics" ||
+
+    //  delhi
+
+    router.pathname === "/delhi/s2-data-science" ||
+    router.pathname === "/delhi/s2-machine-learning" ||
+    router.pathname === "/delhi/s2-artificial-intelligence" ||
+    router.pathname === "/delhi/s2-data-analytics" ||
+
+    //  hyderabad
+
+    router.pathname === "/hyderabad/s2-data-science" ||
+    router.pathname === "/hyderabad/s2-machine-learning" ||
+    router.pathname === "/hyderabad/s2-artificial-intelligence" ||
+    router.pathname === "/hyderabad/s2-data-analytics" ||
+
+    //  mumbai
+    
+    router.pathname === "/mumbai/s2-data-science" ||
+    router.pathname === "/mumbai/s2-machine-learning" ||
+    router.pathname === "/mumbai/s2-artificial-intelligence" ||
+    router.pathname === "/mumbai/s2-data-analytics" ||
+
+      //  pune
+
+    router.pathname === "/pune/s2-data-science" ||
+    router.pathname === "/pune/s2-machine-learning" ||
+    router.pathname === "/pune/s2-artificial-intelligence" ||
+    router.pathname === "/pune/s2-data-analytics"
+
+
+
+
     ) {
       // router.push("/Thank-you-fsd");
       router.push("/Thank-you");
