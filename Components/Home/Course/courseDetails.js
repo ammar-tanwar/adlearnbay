@@ -40,7 +40,7 @@ export const viewAllD = [
     id: 4,
     img: "/Job-garranty.png",
     title: "Data Science and AI with ",
-    title1: "Job Guarantee Program",
+    title1: "100% Placement Assistance Program",
 
     para: [
       "400 hours of Interactive Learning",
@@ -139,7 +139,7 @@ export const ForProgrammersD = [
     id: 6,
     img: "/Job-garranty.png",
     title: "Data Science and AI with ",
-    title1: "Job Guarantee Program",
+    title1: "100% Placement Assistance Program",
     para: [
       "400 hours of Interactive Learning",
       "15 Projects + 3 Capstones",
@@ -190,7 +190,7 @@ export const ForNonProgrammerD = [
     id: 4,
     img: "/Job-garranty.png",
     title: "Data Science and AI with ",
-    title1: "Job Guarantee Program",
+    title1: "100% Placement Assistance Program",
 
     para: [
       "400 hours of Interactive Learning",
@@ -206,7 +206,7 @@ export const JobGuaranteeD = [
     id: 1,
     img: "/Job-garranty.png",
     title: "Data Science and AI with ",
-    title1: "Job Guarantee Program",
+    title1: "100% Placement Assistance Program",
     para: [
       "400 hours of Interactive Learning",
       "15 Projects + 3 Capstones",

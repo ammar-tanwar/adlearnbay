@@ -150,7 +150,7 @@ const ThankYou = () => {
               height="100"
             />
             <p className={styles.Ptopp}>
-              Job Guarantee or Money Back <br /> Data Science & AI Certification Program
+              100% Placement Assistance <br /> Data Science & AI Certification Program
             </p>
             <button className={styles.Button}>
               <AiOutlineDownload className="bIcons" />

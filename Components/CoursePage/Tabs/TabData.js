@@ -13,7 +13,7 @@ const TabData = [
   },
   {
     id: "Digital Marketing",
-    title: "100% Job Guaranteed",
+    title: "100% Placement Assistance",
   },
   {
     id: "Popular Courses",

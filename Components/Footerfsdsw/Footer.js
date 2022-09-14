@@ -33,7 +33,7 @@ const Footer = () => {
           <a href="/full-stack-software-development-program"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Full-Stack Software Development Program</p></a>
           <a href="https://learnbay.co/data-science-course/artificial-intelligence-certification-course/"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Advance AI & ML Certification</p></a>
           <a href="https://learnbay.co/data-science-course/data-science-ai-for-managers/"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Data Science & AI Cert. For Managers & Leaders</p></a>
-          <a href="https://learnbay.co/data-science-course/job-guarantee-or-money-back-data-science-ai-certification-course/"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Job Guarantee or Money Back - Data Science & AI</p></a>
+          <a href="https://learnbay.co/data-science-course/job-guarantee-or-money-back-data-science-ai-certification-course/"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />100% Placement Assistance - Data Science & AI</p></a>
           <a href="https://learnbay.co/data-science-course/data-analytics-business-analytics-programs-for-professionals/"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Data Analytics & Business Analytics Program | Fast Track Course</p></a>
           </div>
         <div className={styles.FooterDivInner}>

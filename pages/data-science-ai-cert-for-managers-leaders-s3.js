@@ -92,7 +92,7 @@ export default function Home() {
       Course2="Data Science & AI Cert. For Managers & Leaders"
 
       Href3="/job-guarantee-or-money-back-data-science-ai-s3"
-      Course3="Job Guarantee or Money Back – Data Science & AI"
+      Course3="100% Placement Assistance – Data Science & AI"
       
       
       />

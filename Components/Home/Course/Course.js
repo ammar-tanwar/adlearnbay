@@ -120,7 +120,7 @@ const Course = ({popupHead, radio}) => {
               Guarantee ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
             }
           >
-            100% Job Guaranteed
+            100% Placement Assistance
           </span>
           <span
             onClick={() => {

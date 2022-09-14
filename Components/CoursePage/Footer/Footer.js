@@ -46,7 +46,7 @@ const Footer = () => {
           <p className={styles.FooterInnerli}>Advance Data Science & AI Certification</p>
           <p className={styles.FooterInnerli}>Advance AI & ML Certification</p>
           <p className={styles.FooterInnerli}>Data Science & AI Cert. For Managers & Leaders</p>
-          <p className={styles.FooterInnerli}>Job Guarantee or Money Back – Data Science & AI</p>
+          <p className={styles.FooterInnerli}>100% Placement Assistance – Data Science & AI</p>
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Get Our Apps On</p>

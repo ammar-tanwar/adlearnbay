@@ -4,11 +4,11 @@ export const JobGuaranteeCourseData = [
       deskTopPara: "Boost your career opportunities ",
       deskTopPara1: "by developing relevant skills.",
       mTitle: "Data Science and AI Program ",
-      spanMTitleText: "With Job Guarantee",
+      spanMTitleText: "With 100% Placement Assistance",
       mTopPara: "Boost your career opportunities ",
       mTopPara1: "by developing relevant skills.",
       title: "Data Science and AI  ",
-      spanTitleText: "with 100% Job Guarantee Program",
+      spanTitleText: "with 100% Placement Assistance",
       desc: "✓ Domain Orientated approach ✓ Assured placement within 18 months.",
       src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course5.png",
       width: "829",
@@ -53,8 +53,8 @@ export const JobGuaranteeCourseData = [
     srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Job+Guarantee+or+100%25+Money+Back+Data+Science+%26+AI+Certification+Program+Learnbay.pdf",
     hours: "500+ Hours",
     project: "15+ Real Time",
-    CSyllabus:"Job Guarantee Course Syllabus",
-    CourseHighlights:"Job Guarantee Course Highlights",
+    CSyllabus:"100% Placement Assistance Course Syllabus",
+    CourseHighlights:"Placement Assistance Course Highlights",
     syllabus: [
       {
         Module0: {
@@ -542,7 +542,7 @@ export const JobGuaranteeCourseData = [
     ProgramFee: {
       Emi: "₹ 12,292/month",
       Fee: "₹ 1,25,000 +GST",
-    CourseFeeAndFinancing:"Job Guarantee Course Fee & Financing",
+    CourseFeeAndFinancing:"100% Placement Assistance Course Fee & Financing",
 
     },
     Project: {
@@ -553,8 +553,8 @@ export const JobGuaranteeCourseData = [
 
     CourseFee: {
 
-      CourseFeeHead: "Job Guarantee Course: Batch Details",
-      CourseFeePara: "Job Guarantee Online Classroom",
+      CourseFeeHead: "100% Placement Assistance Course: Batch Details",
+      CourseFeePara: "100% Placement Assistance Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",
       CourseFeelist3: "Extra Clearance Sessions",
@@ -607,8 +607,8 @@ export const JobGuaranteeCourseData = [
     ],
   
     BatchCourses: {
-      CourseFeeHead: "Job Guarantee Course: Batch Details",
-      CourseFeePara: "Job Guarantee Online Classroom",
+      CourseFeeHead: "100% Placement Assistance Course: Batch Details",
+      CourseFeePara: "100% Placement Assistance Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",
       CourseFeelist3: "Extra Clearance Sessions",

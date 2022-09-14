@@ -22,7 +22,7 @@ export const viewAllD = [
   {
     id: 4,
     img: "/guarantee.png",
-    title: "Job Guarantee or Money Back Data Science & AI Certification Program",
+    title: "100% Placement Assistance Data Science & AI Certification Program",
         link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Job+Guarantee+or+100%25+Money+Back+Data+Science+%26+AI+Certification+Program+Learnbay.pdf",
   },
   {
@@ -101,7 +101,7 @@ export const dataScience = [
   {
     id: 4,
     img: "/guarantee.png",
-    title: "Job Guarantee or Money Back Data Science & AI Certification Program",
+    title: "100% Placement Assistance Data Science & AI Certification Program",
         link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Job+Guarantee+or+100%25+Money+Back+Data+Science+%26+AI+Certification+Program+Learnbay.pdf",
   },
 

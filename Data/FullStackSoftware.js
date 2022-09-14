@@ -47,9 +47,9 @@ export const FullStackSoftwareCourseData = [
         Box2h5: "Build Your Own Course",
         box2desc:
           " Build personalized learning tracks to cater to your professional background and career goals.",
-        Box3h5: "100% Job Guarantee",
+        Box3h5: "100% Placement Assistance",
         box3desc:
-          " Get 100% job guarantee in top companies and startups. Also, receive guidance on resume building and interview.",
+          " Get 100% Placement Assistance in top companies and startups. Also, receive guidance on resume building and interview.",
         Box4h5: "For Professionals",
         box4desc:
           "This Advanced Data Science and AI course is for professionals. Programming experience is not required.",

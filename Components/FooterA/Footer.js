@@ -33,7 +33,7 @@ const Footer = () => {
           <p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />DSA & System Design</p>
           <p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Advance AI & ML Certification</p>
           <p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Data Science & AI Cert. For Managers & Leaders</p>
-          <p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Job Guarantee or Money Back - Data Science & AI</p>
+          <p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />100% Placement Assistance - Data Science & AI</p>
           </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Find Us Here</p>

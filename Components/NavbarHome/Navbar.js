@@ -56,7 +56,7 @@ const Navbar = ({ radio }) => {
                 <Link href="/data-science-ai-cert-for-managers-leaders">Data Science & AI Cert. For Managers & Leaders</Link>
               </span>
               <span onClick={showMenu}>
-                <Link href="/job-guarantee-or-money-back-data-science-ai">Job Guarantee or Money Back - Data Science & AI</Link>
+                <Link href="/job-guarantee-or-money-back-data-science-ai">100% Placement Assistance - Data Science & AI</Link>
               </span>
             </div>
           </div>
@@ -81,7 +81,7 @@ const Navbar = ({ radio }) => {
     <a href="/dsa">DSA & System Design</a>
     <a href="/advance-ai-ml-certification">Advance AI & ML Certification</a>
     <a href="/data-science-ai-cert-for-managers-leaders">Data Science & AI Cert. For Managers & Leaders</a>
-    <a href="/job-guarantee-or-money-back-data-science-ai">Job Guarantee or Money Back - Data Science & AI</a>
+    <a href="/job-guarantee-or-money-back-data-science-ai">100% Placement Assistance - Data Science & AI</a>
   </div>
 </div>
 

@@ -87,7 +87,7 @@ export default function Home() {
         deskTopPara="Experience-based certification course for professionals"
         mTopPara="Experience-based certification course for professionals"
         title="Data Science and AI Program"
-        spanTitleText="With 100% Job Guarantee or Money Back"
+        spanTitleText="With 100% Placement Assistance"
         desc="The course has been designed specifically for working professionals who choose to advance their careers in Data Science and AI."
       />
       <div className={styles.program}>

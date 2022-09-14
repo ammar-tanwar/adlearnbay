@@ -37,7 +37,7 @@ const Footer = () => {
           <a href="/data-science-certification-courses-s5"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Advance Data Science & AI Certification</p></a>
           <a href="/advance-ai-ml-certification-s5"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Advance AI & ML Certification</p></a>
           <a href="/data-science-ai-cert-for-managers-leaders-s5"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Data Science & AI Cert. For Managers & Leaders</p></a>
-          <a href="/job-guarantee-or-money-back-data-science-ai-s5"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Job Guarantee or Money Back – Data Science & AI</p></a>
+          <a href="/job-guarantee-or-money-back-data-science-ai-s5"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />100% Placement Assistance – Data Science & AI</p></a>
           </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Find Us Here</p>

@@ -73,7 +73,7 @@ const Fee = ({
             <span className={styles.PFeatures}>Projects + Capstones</span>
             <span className={styles.PFeatures}>Modules</span>
             <span className={styles.PFeatures}>Job Referrals</span>
-            <span className={styles.PFeatures}>Job Guarantee / Money Back</span>
+            <span className={styles.PFeatures}>100% Placement Assistance</span>
             <span className={styles.PFeatures}>Targeted Job Roles</span>
           </div>
           <div
@@ -201,7 +201,7 @@ const Fee = ({
             <span className={styles.PFeatures}> Projects + Capstones</span>
             <span className={styles.PFeatures}> Modules</span>
             <span className={styles.PFeatures}> Job Referrals</span>
-            <span className={styles.PFeatures}>Job Guarantee / Money Back</span>
+            <span className={styles.PFeatures}>100% Placement Assistance</span>
             <span className={styles.PFeatures}>Targeted Job Roles</span>
             <BsArrowRight/>
           </div>

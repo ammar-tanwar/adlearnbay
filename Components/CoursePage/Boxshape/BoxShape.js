@@ -124,7 +124,7 @@ const BoxShape = ({
             height="150"
           />
           <p className={styles.Ptopp}>
-          Job Guarantee or Money Back <br/> Data Science & AI Certification Program
+          100% Placement Assistance <br/> Data Science & AI Certification Program
           </p>
           <button className={styles.Button} onClick={popupShow}>
                   <AiOutlineDownload className="bIcons" />

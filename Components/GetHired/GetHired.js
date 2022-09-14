@@ -69,7 +69,7 @@ const GetHired = ({ radio }) => {
             <p>Special Classes for non-programmers</p>
           </div>
           <div className={styles.bottom}>
-          <p>100% Job Guaranteed Program</p>
+          <p>100% Placement Assistance</p>
           </div>
         </div>
         <div className={styles.right}>

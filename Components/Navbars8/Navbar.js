@@ -50,7 +50,7 @@ const Navbar = () => {
               </span>
 
               <span onClick={showMenu}>
-                <Link href="job-guarantee-or-money-back-data-science-ai-s7">Job Guarantee or Money Back – Data Science & AI</Link>
+                <Link href="job-guarantee-or-money-back-data-science-ai-s7">100% Placement Assistance – Data Science & AI</Link>
               </span>
             </div>
           </div> */}
@@ -70,7 +70,7 @@ const Navbar = () => {
     <a href="/data-science-certification-courses-s7">Advance Data Science & AI Certification</a>
     <a href="/advance-ai-ml-certification-s7">Advance AI & ML Certification</a>
 <a href="/data-science-ai-cert-for-managers-leaders-s7">Data Science & AI Cert. For Managers & Leaders</a>
-<a href="/job-guarantee-or-money-back-data-science-ai-s7">Job Guarantee or Money Back – Data Science & AI</a>
+<a href="/job-guarantee-or-money-back-data-science-ai-s7">100% Placement Assistance – Data Science & AI</a>
   </div>
 </div> */}
 

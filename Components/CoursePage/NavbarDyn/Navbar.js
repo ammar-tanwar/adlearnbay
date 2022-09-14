@@ -116,4 +116,4 @@ export default Navbar;
 
 // "/data-science-ai-cert-for-managers-leaders-s2">Data Science & AI Cert. For Managers & Leaders
 
-// "/job-guarantee-or-money-back-data-science-ai-s2">Job Guarantee or Money Back – Data Science & AI
+// "/job-guarantee-or-money-back-data-science-ai-s2">100% Placement Assistance – Data Science & AI

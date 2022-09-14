@@ -142,7 +142,7 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Data Science and AI With Job Guarantee</h5>
+                        <h5>Data Science and AI With 100% Placement Assistance</h5>
                         <span>
                           500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
@@ -243,7 +243,7 @@ const Tabs = ({ handleIcon }) => {
                   <a href="/job-guarantee-or-money-back-data-science-ai-certification-course">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
-                        <h5>Data Science and AI With Job Guarantee</h5>
+                        <h5>Data Science and AI With 100% Placement Assistance</h5>
                         <span>
                           500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
@@ -399,7 +399,7 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Data Science and AI With Job Guarantee</h5>
+                        <h5>Data Science and AI With 100% Placement Assistance</h5>
                         <span>
                           500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
@@ -541,7 +541,7 @@ const Tabs = ({ handleIcon }) => {
                   <a href="/job-guarantee-or-money-back-data-science-ai-certification-course">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
-                        <h5>Data Science and AI With Job Guarantee</h5>
+                        <h5>Data Science and AI With 100% Placement Assistance</h5>
                         <span>
                           500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
@@ -691,7 +691,7 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Data Science and AI With Job Guarantee</h5>
+                        <h5>Data Science and AI With 100% Placement Assistance</h5>
                         <span>
                           500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
@@ -759,7 +759,7 @@ const Tabs = ({ handleIcon }) => {
                   <a href="/job-guarantee-or-money-back-data-science-ai-certification-course">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
-                        <h5>Data Science and AI With Job Guarantee</h5>
+                        <h5>Data Science and AI With 100% Placement Assistance</h5>
                         <span>
                           500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
@@ -864,7 +864,7 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Data Science and AI With Job Guarantee</h5>
+                        <h5>Data Science and AI With 100% Placement Assistance</h5>
                         <span>
                           500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
@@ -972,7 +972,7 @@ const Tabs = ({ handleIcon }) => {
                   <a href="/job-guarantee-or-money-back-data-science-ai-certification-course">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
-                        <h5>Data Science and AI With Job Guarantee</h5>
+                        <h5>Data Science and AI With 100% Placement Assistance</h5>
                         <span>
                           500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>

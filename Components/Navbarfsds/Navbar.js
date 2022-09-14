@@ -61,7 +61,7 @@ const Navbar = () => {
                 <Link href="https://learnbay.co/data-science-course/data-science-ai-for-managers/">Data Science & AI Cert. For Managers & Leaders</Link>
               </span>
               <span onClick={showMenu}>
-                <Link href="https://learnbay.co/data-science-course/job-guarantee-or-money-back-data-science-ai-certification-course/">Job Guarantee or Money Back - Data Science & AI</Link>
+                <Link href="https://learnbay.co/data-science-course/job-guarantee-or-money-back-data-science-ai-certification-course/">100% Placement Assistance - Data Science & AI</Link>
               </span>
               <span onClick={showMenu}>
                 <Link href="https://learnbay.co/data-science-course/data-analytics-business-analytics-programs-for-professionals/">Data Analytics & Business Analytics Program | Fast Track Course</Link>
@@ -90,7 +90,7 @@ const Navbar = () => {
     <a href="/dsa-system-design">DSA & System Design</a>
     <a href="https://learnbay.co/data-science-course/artificial-intelligence-certification-course/">Advance AI & ML Certification</a>
     <a href="https://learnbay.co/data-science-course/data-science-ai-for-managers/">Data Science & AI Cert. For Managers & Leaders</a>
-    <a href="https://learnbay.co/data-science-course/job-guarantee-or-money-back-data-science-ai-certification-course/">Job Guarantee or Money Back - Data Science & AI</a>
+    <a href="https://learnbay.co/data-science-course/job-guarantee-or-money-back-data-science-ai-certification-course/">100% Placement Assistance - Data Science & AI</a>
     <a href="https://learnbay.co/data-science-course/data-analytics-business-analytics-programs-for-professionals/">Data Analytics & Business Analytics Program | Fast Track Course</a>
   </div>
 </div>

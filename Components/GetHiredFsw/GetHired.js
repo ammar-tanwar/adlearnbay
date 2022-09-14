@@ -116,7 +116,7 @@ const GetHired = ({ dsa, radio }) => {
             <div>
               <p>Course Fee</p>
               <h4 className={styles.righth}>₹1,20,000</h4>
-              <p>With 100% Job Guarantee</p>
+              <p>With 100% Placement Assistance</p>
               <button
                 onClick={popupShow}
                 style={{ margin: "auto", marginBottom: "20px" }}

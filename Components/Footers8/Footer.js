@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Popular Courses</p>
-          <a href="/job-guarantee-or-money-back-data-science-ai-s8"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Job Guarantee or Money Back – Data Science & AI</p></a>
+          <a href="/job-guarantee-or-money-back-data-science-ai-s8"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />100% Placement Assistance – Data Science & AI</p></a>
           </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Find Us Here</p>
