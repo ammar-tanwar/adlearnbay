@@ -72,7 +72,7 @@ const ThankYou = () => {
         ` }}
         />
       </Head>
-      <Navbar />
+      <Navbar radio={true} />
       <section className={styles.mains}>
       
         <div className={styles.left}>

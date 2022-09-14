@@ -76,10 +76,10 @@ export default function Home() {
           <h5>Apply For Counselling</h5>
                    {/* <p>Fill the below Details to get started</p> */}
 
-          <Form popup={true} setTrigger={setPopups} />
+          <Form popup={true} setTrigger={setPopups}  radio={true} />
         </div>
       </Popup>
-      <Navbar />
+      <Navbar radio={true} />
       <FirstSection
         deskTopPara="Become a Tech Leader and Start Landing Six Figures with ease"
         mTopPara="Become a Tech Leader and Start Landing Six Figures with ease"

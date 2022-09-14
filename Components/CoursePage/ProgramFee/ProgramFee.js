@@ -20,7 +20,7 @@ export const ProgramFee = ({ Fee, Emi, CourseFeeAndFinancing , para}) => {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <Form popup={true} setTrigger={setPopups} />
+          <Form popup={true} setTrigger={setPopups}  radio={true} />
         </div>
       </Popup>
       <div className={styles.header}>

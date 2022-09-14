@@ -51,7 +51,7 @@ function Counselling() {
           }}
         />
       </Head>
-      <Navbar />
+      <Navbar radio={true} />
       <div className={styles.formq}>
         <div className={styles.forml}></div>
         <div className={styles.formr}>

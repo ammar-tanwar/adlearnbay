@@ -52,7 +52,7 @@ const GetHired = ({
           <h5>Apply For Counselling</h5>
                    {/* <p>Fill the below Details to get started</p> */}
 
-          <Form popup={true} setTrigger={setPopups} />
+          <Form popup={true} setTrigger={setPopups}  radio={true} />
         </div>
       </Popup>
       <div className={styles.CInner}>

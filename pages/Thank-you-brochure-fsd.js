@@ -52,7 +52,7 @@ const ThankYou = () => {
           }}
         />
       </Head>
-      <Navbar />
+      <Navbar radio={true} />
       <section className={styles.mains}>
         <div className={styles.left}>
           <h4 className={styles.hptop}>

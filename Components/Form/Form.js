@@ -657,15 +657,16 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
         {radio ? (
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
             <input
-              id="Data Science Program"
-              value="Data Science Program"
-              name="platform"
-              required
-              type="radio"
-              onChange={handleParam()}
-            />
-            Data Science Program&nbsp;
-            <input
+            id="Data Science Program"
+            value="Data Science Program"
+            name="platform"
+            required
+            type="radio"
+            onChange={handleParam()}
+          />
+          Data Science Program&nbsp;
+         
+            <br/><input
               id="Full Stack Program"
               value="Full Stack Program"
               name="platform"
@@ -674,7 +675,8 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
               onChange={handleParam()}
             />
             Full Stack Program
-          </div>
+        
+            </div>
         ) : (
           ""
         )}

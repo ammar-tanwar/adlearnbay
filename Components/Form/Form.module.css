@@ -10,6 +10,7 @@
   width: 80%;
   height: 100%;
   margin-bottom: 20px;
+  text-align: left;
 }
 /* .formWrapper input {
   appearance: none;
@@ -19,6 +20,7 @@
   width: 80%;
   height: 100%;
   margin-bottom: 10px;
+  text-align: left;
 }
 .NameInput {
   border-radius: 2px;
