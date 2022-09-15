@@ -1,13 +1,13 @@
 {
     "metaInfo": {
-      "title": "Deep Analysis with SQL",
-      "desc": "Enroll in the Data Science course Event and learn from live classes. Get Knowledge by working on industry projects.",
+      "title": "Full Stack Software Development",
+      "desc": "Enroll in the Full Stack Software Development course Event and learn from live classes. Get Knowledge by working on industry projects.",
       "keyword": "SQL",
       "canonical": "https://www.learnbay.co/Event/Deep-Analysis-With-SQL"
     },
     "mainData": {
-      "title": "Deep Analysis with SQL",
-      "eventDate": "September 03, 2022",
+      "title": "Full Stack Software Development",
+      "eventDate": "September 21, 2022",
       "tag": "Fullstack",
       "eventTime": "12 P.M. to 2 P.M.",
       "Duration": "120min",
@@ -15,21 +15,21 @@
       "register": "843"
     },
     "header": {
-      "title": "Deep Analysis with SQL",
+      "title": "Full Stack Software Development",
       "titleSpan": "With Industry Expert",
       "desc": "For Professionals with 5+ years Working Exp",
-      "eventDate": "3rd to 4th September",
+      "eventDate": "20rd to 21th September",
       "eventTime": "12 P.M. to 2 P.M.",
       "imgSrc": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Nitish-Sir.png",
       "register": "843",
       "width": "600",
       "height": "560",
       "alt": "Header",
-      "instructor": "Mr. Nitish", 
+      "instructor": "Mr. Rohit Raj", 
       "href1": "#"
     },
     "feature": {
-      "title": "Data Science Masterclass Features",
+      "title": "Full Stack Software Development Masterclass Features",
       "h1": "Customized learning",
       "p1": "Fulfill your learning goals and get expert assistance.",
       "h2": "Live Classes",
@@ -42,8 +42,8 @@
     },
     "profile": {
       "pImg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/4.png",
-      "desc": "Data Scientist",
-      "pName": "Mr. Nitish",
+      "desc": "Full-Stack Software Developer",
+      "pName": "Mr. Rohit Raj",
  
       "mIcon": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/amazon1.png",
       "list1": "Data Scientist (5+)",
@@ -61,8 +61,8 @@
     },
     "whoCan": {
       "title": "This masterclass is for",
-      "heading1": "Data Scientist",
-      "para1": "Data Scientist aspirants who are aiming to accelerate their respective careers by upskilling with Data Science.",
+      "heading1": "Full Stack Software Development",
+      "para1": "Full Stack Software Development aspirants who are aiming to accelerate their respective careers by upskilling with Data Science.",
       "heading2": "Peer Working Professionals",
       "para2": "Professionals, irrespective of their domains, who have great enthusiasm to make a career transition into Data Science.",
       "heading3": "About Learnbay Academy",
