@@ -12,7 +12,7 @@ import getDay from "date-fns/getDay";
 import jsCookie from "js-cookie";
 // import { useCookies } from "react-cookie"
 
-const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
+const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) => {
   const router = useRouter();
   let today = new Date();
   let time =
@@ -36,8 +36,8 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
   useEffect(() => {
     setQuery({ ...query, phone: value, dateTime: startDate });
 
- 
-      jsCookie.set("CARD", query.email, { expires: 14, secure: true });
+
+    jsCookie.set("CARD", query.email, { expires: 14, secure: true });
     // localStorage.setItem("email", JSON.stringify(query.email))
 
     // sessionStorage.setItem("email", query.email);
@@ -57,7 +57,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
   // const emailData = query.email;
   // setCookie("email", emailData, { path: '/' })
   // jsCookie.set("CARD", emailData, { expires: 14, secure: false });
-  
+
 
   let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
   if (
@@ -84,14 +84,14 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
     router.pathname === "/s2-job-guarantee" ||
     router.pathname === "/apply-for-counselling-s2" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s9" ||
-      
+
     //  BANGALORE
 
     router.pathname === "/bangalore/s2-data-science" ||
     router.pathname === "/bangalore/s2-machine-learning" ||
     router.pathname === "/bangalore/s2-artificial-intelligence" ||
     router.pathname === "/bangalore/s2-data-analytics" ||
-      
+
     //  chennai
 
     router.pathname === "/chennai/s2-data-science" ||
@@ -114,13 +114,13 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
     router.pathname === "/hyderabad/s2-data-analytics" ||
 
     //  mumbai
-    
+
     router.pathname === "/mumbai/s2-data-science" ||
     router.pathname === "/mumbai/s2-machine-learning" ||
     router.pathname === "/mumbai/s2-artificial-intelligence" ||
     router.pathname === "/mumbai/s2-data-analytics" ||
 
-      //  pune
+    //  pune
 
     router.pathname === "/pune/s2-data-science" ||
     router.pathname === "/pune/s2-machine-learning" ||
@@ -232,7 +232,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
   }
 
   let btnTxt = "Apply for  Counseliing"
-  if (event){
+  if (event) {
     btnTxt = "Register Now"
   }
 
@@ -387,7 +387,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
       return;
     }
 
-    if (event){
+    if (event) {
       router.push("/Thank-you")
     }
 
@@ -511,45 +511,45 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
 
       //  BANGALORE
 
-    router.pathname === "/bangalore/s2-data-science" ||
-    router.pathname === "/bangalore/s2-machine-learning" ||
-    router.pathname === "/bangalore/s2-artificial-intelligence" ||
-    router.pathname === "/bangalore/s2-data-analytics" ||
-      
-    //  chennai
+      router.pathname === "/bangalore/s2-data-science" ||
+      router.pathname === "/bangalore/s2-machine-learning" ||
+      router.pathname === "/bangalore/s2-artificial-intelligence" ||
+      router.pathname === "/bangalore/s2-data-analytics" ||
 
-    router.pathname === "/chennai/s2-data-science" ||
-    router.pathname === "/chennai/s2-machine-learning" ||
-    router.pathname === "/chennai/s2-artificial-intelligence" ||
-    router.pathname === "/chennai/s2-data-analytics" ||
+      //  chennai
 
-    //  delhi
+      router.pathname === "/chennai/s2-data-science" ||
+      router.pathname === "/chennai/s2-machine-learning" ||
+      router.pathname === "/chennai/s2-artificial-intelligence" ||
+      router.pathname === "/chennai/s2-data-analytics" ||
 
-    router.pathname === "/delhi/s2-data-science" ||
-    router.pathname === "/delhi/s2-machine-learning" ||
-    router.pathname === "/delhi/s2-artificial-intelligence" ||
-    router.pathname === "/delhi/s2-data-analytics" ||
+      //  delhi
 
-    //  hyderabad
+      router.pathname === "/delhi/s2-data-science" ||
+      router.pathname === "/delhi/s2-machine-learning" ||
+      router.pathname === "/delhi/s2-artificial-intelligence" ||
+      router.pathname === "/delhi/s2-data-analytics" ||
 
-    router.pathname === "/hyderabad/s2-data-science" ||
-    router.pathname === "/hyderabad/s2-machine-learning" ||
-    router.pathname === "/hyderabad/s2-artificial-intelligence" ||
-    router.pathname === "/hyderabad/s2-data-analytics" ||
+      //  hyderabad
 
-    //  mumbai
-    
-    router.pathname === "/mumbai/s2-data-science" ||
-    router.pathname === "/mumbai/s2-machine-learning" ||
-    router.pathname === "/mumbai/s2-artificial-intelligence" ||
-    router.pathname === "/mumbai/s2-data-analytics" ||
+      router.pathname === "/hyderabad/s2-data-science" ||
+      router.pathname === "/hyderabad/s2-machine-learning" ||
+      router.pathname === "/hyderabad/s2-artificial-intelligence" ||
+      router.pathname === "/hyderabad/s2-data-analytics" ||
+
+      //  mumbai
+
+      router.pathname === "/mumbai/s2-data-science" ||
+      router.pathname === "/mumbai/s2-machine-learning" ||
+      router.pathname === "/mumbai/s2-artificial-intelligence" ||
+      router.pathname === "/mumbai/s2-data-analytics" ||
 
       //  pune
 
-    router.pathname === "/pune/s2-data-science" ||
-    router.pathname === "/pune/s2-machine-learning" ||
-    router.pathname === "/pune/s2-artificial-intelligence" ||
-    router.pathname === "/pune/s2-data-analytics"
+      router.pathname === "/pune/s2-data-science" ||
+      router.pathname === "/pune/s2-machine-learning" ||
+      router.pathname === "/pune/s2-artificial-intelligence" ||
+      router.pathname === "/pune/s2-data-analytics"
 
 
 
@@ -606,17 +606,17 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
             style={
               popup
                 ? {
-                    height: "50px",
-                    borderRadius: "8px",
-                    border: "1px solid grey",
-                    padding: "10px",
-                  }
+                  height: "50px",
+                  borderRadius: "8px",
+                  border: "1px solid grey",
+                  padding: "10px",
+                }
                 : {
-                    border: "0",
-                    height: "50px",
-                    borderRadius: "3px",
-                    borderBottom: "1px solid grey",
-                  }
+                  border: "0",
+                  height: "50px",
+                  borderRadius: "3px",
+                  borderBottom: "1px solid grey",
+                }
             }
             name="phone"
             rules={{ required: true }}
@@ -628,16 +628,41 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
             required
           />
         </div>
-        <div className={styles.formWrapper}>
-          <input
-            type="text"
-            name="jobDescription"
-            placeholder="Job Description*"
-            className={popup ? styles.EmailInputs : styles.EmailInput}
-            value={query.jobDescription}
-            onChange={handleParam()}
-          />
-        </div>
+
+        {jobDesc ? (
+          <>
+            <div className={styles.formWrapper}>
+              <input
+                type="text"
+                name="jobDescription"
+                placeholder="Job Description*"
+                className={popup ? styles.EmailInputs : styles.EmailInput}
+                value={query.jobDescription}
+                onChange={handleParam()}
+                
+              />
+
+            </div>
+          </>
+        ) : (
+          <>
+            {" "}
+            <div className={styles.formWrapper}>
+              <input
+                type="text"
+                name="jobDescription"
+                placeholder="Job Description*"
+                className={popup ? styles.EmailInputs : styles.EmailInput}
+                value={query.jobDescription}
+                onChange={handleParam()}
+                required
+              />
+            </div>
+          </>
+        )}
+
+
+
         <div className={popup ? styles.formWrappers : styles.formWrapper}>
           <select
             name="workExperience"
@@ -657,16 +682,16 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
         {radio ? (
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
             <input
-            id="Data Science Program"
-            value="Data Science Program"
-            name="platform"
-            required
-            type="radio"
-            onChange={handleParam()}
-          />
-          Data Science Program&nbsp;
-         
-            <br/><input
+              id="Data Science Program"
+              value="Data Science Program"
+              name="platform"
+              required
+              type="radio"
+              onChange={handleParam()}
+            />
+            Data Science Program&nbsp;
+
+            <br /><input
               id="Full Stack Program"
               value="Full Stack Program"
               name="platform"
@@ -675,8 +700,8 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
               onChange={handleParam()}
             />
             Full Stack Program
-        
-            </div>
+
+          </div>
         ) : (
           ""
         )}

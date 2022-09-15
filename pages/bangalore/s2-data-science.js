@@ -78,7 +78,8 @@ export default function Home() {
         />
 
       </Head>
-      <main>  <Navbar popup={true} />
+      <main>  
+      <Navbar popup={true} jobDesc={true}/>
 
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -87,8 +88,8 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below Details to get started</p> */}
-
-            <Form popup={true} setTrigger={setPopups} />
+            <Form popup={true} setTrigger={setPopups} jobDesc={true} />
+            
           </div>
         </Popup>
         <FirstSection

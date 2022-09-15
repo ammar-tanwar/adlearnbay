@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import styles from "./SyllabusNew.module.css";
+import styles from "./SyllabusNew1.module.css";
 import { MdOutlineLiveTv, MdOutlineLaptopMac } from "react-icons/md";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 import { FaDownload } from "react-icons/fa";
-import { 
+import {
   AiOutlineFundProjectionScreen,
   AiOutlineFieldTime,
 } from "react-icons/ai";
@@ -18,16 +18,10 @@ function SyllabusNew({
   syllabusDesc,
   popupHead,
   dataScience,
-  redirectDs,
-  redirectFs,
-  redirectDe,
-  redirectBa,
-  redirectBl,
   project,
   hours,
   srcD,
-  CSyllabus,
-  CourseHighlights,
+   fullStack,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -66,14 +60,18 @@ function SyllabusNew({
         </div>
         <div className="RightPopup">
           <h5>{popupHead}</h5>
-          <Form setTrigger={setPopups} downloadBrochure />
+          <p>Please enter the following details to initiate your download</p>
+          <Form
+            setTrigger={setPopups}
+            downloadBrochure
+            fullStack={fullStack} dataScience={dataScience}
+          />
         </div>
       </Popup>
-      
       <div className={styles.syllabusLeft}>
         <div className={styles.Syllabusbutton}>
           <div>
-            <h4>{CSyllabus}</h4>
+            <h4>Syllabus</h4>
           </div>
           <div className={styles.btnWrapper}>
             <button onClick={popupShow} style={{margin:"auto"}}>
@@ -160,13 +158,12 @@ function SyllabusNew({
         })}
         <div className={styles.white} />
       </div>
-      
       <div>
         <div className={styles.syllabusRight}>
           <div className={styles.PProgrammain}>
             <div className={styles.PProgram}>
               <p>
-                <span> {CourseHighlights}</span>
+                <span>Program High</span>lights
               </p>
             </div>
             <div className={styles.PProgramInner}>
@@ -211,15 +208,11 @@ function SyllabusNew({
             <div className={styles.PProgramInners}>
               <Form
                 dataScience={dataScience}
-                redirectDs={redirectDs}
-                redirectFs={redirectFs}
-                redirectBa={redirectBa}
-                redirectBl={redirectBl}
-                redirectDe={redirectDe}
+                fullStack={fullStack}
               />
             </div>
           </div>
-          <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/blue-shadow.svg" className={styles.shadowImg} />
+          <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/blue-shadow.svg" className={styles.shadowImg} alt="Learnbay data science" />
         </div>
       </div>
     </section>

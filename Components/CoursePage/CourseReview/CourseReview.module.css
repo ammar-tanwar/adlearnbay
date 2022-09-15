@@ -136,7 +136,7 @@
     width: 100%;
   }
   .slide {
-    height: 520px;
+    height: fit-content;
     margin-bottom: 50px;
   }
   .rightBottom {
