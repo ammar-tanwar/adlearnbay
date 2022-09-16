@@ -18,8 +18,8 @@ import React, { useState } from "react";
 import { DataScienceCourseData } from "../Data/DataScienceCourse";
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
-import DomainFaq from "../components/CoursePage/DomainFaq/DomainFaq";
-import { DomainFaqCourseData1 } from "../components/CoursePage/DomainFaq/DOmainFaqData";
+import DomainFaq from "../Components/CoursePage/DomainFaq/DomainFaq";
+import { DomainFaqCourseData1 } from "../Components/CoursePage/DomainFaq/DOmainFaqData";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -92,17 +92,17 @@ export default function Home() {
         </Popup>
         <FirstSection dataScience={true}
         deskTopPara="Choose Specialization over Generalization"
-        mTopPara="Choose Specialization over Generalization"
-        mTitle="Advanced Data Science and AI Program with"
-        spanMTitleText="Domain Specialization"
-        title="Advanced Data Science and AI Program"
-        spanTitleText="with Domain Specialization"
-        desc="With new capstone projects, learn how to apply your previous domain expertise to make a successful transition."
-        src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
-        width="900"
-        height="762"
-        alt="data science course"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
+          mTopPara="Choose Specialization over Generalization"
+          mTitle="Advanced Data Science and AI Program with"
+          spanMTitleText="Domain Specialization"
+          title="Advanced Data Science and AI Program"
+          spanTitleText="with Domain Specialization"
+          desc="With new capstone projects, learn how to apply your previous domain expertise to make a successful transition."
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
+          width="900"
+          height="762"
+          alt="data science course"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -185,7 +185,7 @@ export default function Home() {
             projectTitle={DataScienceCourseData[0].Project.projectTitle} />
         </div>
 
-        <CourseFee
+        <CourseFee  
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
           syllabus={DataScienceCourseData[0].Batch}
           CourseFeeHead="Advanced Data Science & AI Program : Batch Details"

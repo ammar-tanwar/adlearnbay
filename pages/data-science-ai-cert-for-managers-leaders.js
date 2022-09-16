@@ -1,20 +1,26 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import FirstSection from "../Components/HeroSectionManagers/HeroSection";
-import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
-import GetHired from "../Components/GetHiredManagers/GetHired";
-import Domain from "../Components/Domain/Domain";
-import BoxShape from "../Components/Boxshape/BoxShape";
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import FirstSection from "../Components/CoursePage/HeroSection/HeroSection1";
+import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
+import BoxShape from "../Components/CoursePage/Boxshape/BoxShape1";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
-import Certificate from "../Components/Certificate/Certificate";
-import Project from "../Components/Project/Project";
-import Syllabus from "../Components/SyllabusManagers/Syllabus";
-import ToolsCovered from "../Components/ToolsCoveredAdvance/ToolsCovered";
-import OurExpert from "../Components/OurExpert/OurExpert";
 import Navbar from "../Components/NavbarHome/Navbar";
-import Footer from "../Components/Footer/Footer";
+import Certificate from "../Components/CoursePage/CertificateTab/CertificateTabAdvance";
+import Project from "../Components/CoursePage/Project/Project";
+import OurExpert from "../Components/CoursePage/OurExpert/OurExpert";
+import CourseFee from "../Components/CoursePage/CourseFee/CourseFee";
+import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew1";
+import Footer from "../Components/FooterHome/Footer";
+import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
+import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
 import React, { useState } from "react";
+import { DsaiManagersCourseData } from "../Data/DataScienceManagers";
+import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
+import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
+import DomainFaq from "../Components/CoursePage/DomainFaq/DomainFaq";
+import OtherCertificate from "../Components/CoursePage/OtherCertificate6/OtherCertificate";
+import { DomainFaqCourseData1 } from "../Components/CoursePage/DomainFaq/DOmainFaqData";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -23,127 +29,194 @@ export default function Home() {
     setPopups(true);
   };
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Learnbay Courses</title>
-        <meta name="description" content="Learnbay Courses" />
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
-            var s = document.createElement('script');
-            s.type = 'text/javascript';
-            s.async = true;
-            s.src = url;
-            var options = {
-          "enabled":true,
-          "chatButtonSetting":{
-              "backgroundColor":"#4dc247",
-              "ctaText":"",
-              "borderRadius":"10",
-              "marginLeft":"0",
-              "marginBottom":"30",
-              "marginRight":"30",
-              "position":"right"
-          },
-          "brandSetting":{
-              "brandName":"Learnbay",
-              "brandSubTitle":"The Learner's Path",
-              "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
-              "welcomeText":"Hi there! How can I help you?",
-              "messageText":"Hello, I have a question about {{page_link}}",
-              "backgroundColor":"#0a5f54",
-              "ctaText":"Start Chat",
-              "borderRadius":"25",
-              "autoShow":false,
-              "phoneNumber":"+919606950936"
-          }
+    <div>
+    <Head>
+    <title> Data Science and Artificial Intelligence Program For Managers and
+    Leaders</title>
+    <meta
+      name="description"
+      content="Data Science and Artificial Intelligence Program For Managers and Leaders"
+    />
+    <link rel="icon" href="/Learnbay-Favicon-L.png" />
+    <script
+      dangerouslySetInnerHTML={{
+        __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url;
+        var options = {
+      "enabled":true,
+      "chatButtonSetting":{
+          "backgroundColor":"#4dc247",
+          "ctaText":"",
+          "borderRadius":"10",
+          "marginLeft":"0",
+          "marginBottom":"30",
+          "marginRight":"30",
+          "position":"right"
+      },
+      "brandSetting":{
+          "brandName":"Learnbay",
+          "brandSubTitle":"The Learner's Path",
+          "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
+          "welcomeText":"Hi there! How can I help you?",
+          "messageText":"Hello, I have a question about {{page_link}}",
+          "backgroundColor":"#0a5f54",
+          "ctaText":"Start Chat",
+          "borderRadius":"25",
+          "autoShow":false,
+          "phoneNumber":"+919606950936"
+      }
+    };
+        s.onload = function() {
+            CreateWhatsappChatWidget(options);
         };
-            s.onload = function() {
-                CreateWhatsappChatWidget(options);
-            };
-            var x = document.getElementsByTagName('script')[0];
-            x.parentNode.insertBefore(s, x);`,
-          }}
-        />
-      </Head>
-      <main>
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-        <div className="leftPopup">
-          <div className="whiteP" />
-        </div>
-        <div className="RightPopup">
-          <h5>Apply For Counselling</h5>
-                   {/* <p>Fill the below Details to get started</p> */}
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);`,
+      }}  
+    />
+  </Head>
+      <main>  <Navbar popup={true} dataScience={true} />
+        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+          <div className="leftPopup">
+            <div className="whiteP" />
+          </div>
+          <div className="RightPopup">
+            <h5>Apply For Counselling</h5>
+            {/* <p>Fill the below Details to get started</p> */}
 
-          <Form popup={true} setTrigger={setPopups} radio={true} />
-        </div>
-      </Popup>
-      <Navbar radio={true} />
-      <FirstSection radio={true}
-        deskTopPara="Experience-based certification course for professionals"
-        mTopPara="Experience-based certification course for professionals"
-        title="Full Stack Data Science & AI Course"
-        spanTitleText="For Tech Lead, Team Lead,Managers"
-        desc="Our course is best suited for professionals looking to change their current domain and start a New Career in Data Science and Artificial Intelligence in senior and leadership roles."
-      />
-      <div className={styles.program}>
-        <ProgramInfo
-          BatchDate="8+ Years Work Experience"
-          BatchDuration="Accredited with IBM"
-          Placement="15+ Real Time Projects"
-          EMI="₹ 9,342/month"
+            <Form popup={true} setTrigger={setPopups} dataScience={true} />
+          </div>
+        </Popup>
+        <FirstSection dataScience={true}
+        deskTopPara="Be a leader with Domain Specialization" 
+        mTopPara="Be a leader with Domain Specialization"
+        title="Data Science and Artificial Intelligence Program"
+        mTitle="Data Science and Artificial Intelligence Program"
+        spanTitleText=" For Managers and Leaders"
+        spanMTitleText=" For Managers and Leaders"
+        desc="Learn under the guidance of seasoned professionals to ace product-based MNC interviews, and earn capstone project certification."
+        src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course4.png"
+        width="758"
+        height="602"
+        alt="AiMl Header"
+        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
         />
-      </div>
-      <GetHired radio={true} />
-      <div className="Feature" id="Feature">
-        <BoxShape radio={true}
-          title="Why Enroll In This Program"
-          Box1h5="Custom-fit Learning modules"
-          box1desc="Learn with modules created just for your dream job. Become an extraordinarily demanding Leader and Manager."
-          Box2h5="Domain Destined"
-          box2desc="Obtain cutting-edge industrial leadership training in Data Science and AI fields. Choose from 10+ electives."
-          Box3h5="Premium Mentoring"
-          box3desc="Utilize the advantage of mock interviews and project handling training with FAANG Data Science Leads."
-          Box4h5="Hands-on Experience"
-          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
-        />
-      </div>
-      <div className={styles.ExpertWrapper}>
-        <div className={styles.expert}>
-          <h5>Our experts are from:</h5>
+        <div className={styles.program}>
+          <ProgramInfo
+            p1={DsaiManagersCourseData[0].ProgramInfo.p1}
+            p11={DsaiManagersCourseData[0].ProgramInfo.p11}
+            p2={DsaiManagersCourseData[0].ProgramInfo.p2}
+            p22={DsaiManagersCourseData[0].ProgramInfo.p22}
+            p3={DsaiManagersCourseData[0].ProgramInfo.p3}
+            p33={DsaiManagersCourseData[0].ProgramInfo.p33}
+            p4={DsaiManagersCourseData[0].ProgramInfo.p4}
+            p44={DsaiManagersCourseData[0].ProgramInfo.p44}
+          />
         </div>
-        <div className={styles.expertBody}>
-          <OurExpert />
-        </div>
-      </div>
-      <div className={styles.cta}>
-        <div className={styles.left}></div>
-        <div className={styles.middle}>
-          <h6>Talk to our team directly.</h6>
-          <p>Reach out and a learning consultant will get in touch with you shortly.</p>
-        </div>
-        <div className={styles.right}>
-          <button onClick={popupShow}>Enquire Now</button>
-        </div>
-      </div>
-      <Certificate radio={true}
-        popupHead="Download Brochure"
-        title="Earn a globally recognized Certified at the end of your learning journey."
-        desc="Get access to IBM cloud lab to keep an eye on trending industrial case studies of data mining, time-series forecasting, AI-based database management, and authenticated data handling."
-        desc2 ="Experts from IBM share their ideas and tactics to deal with tricky business problems within the regularly changing analytical environments."
-        desc3 ="Data Science Leads from IBM as instructors."
 
+        <div className={styles.Feature} id="Feature">
+        <BoxShape
+        title="Why Enroll In This Program?"
+            Box1h5="Custom-fit Training"
+            box1desc="Get specially designed modules as per your dream AI role. Learn latest ML applications."
+            Box2h5="Domain Focused"
+            box2desc="Obtain cutting-edge Al and ML skills as per demanding IT-industry standards. Choose any domain of your choice."
+            Box3h5="Premium Mentoring"
+            box3desc="Enjoy and learn from mock interviews and CV writing workshops with MAANG AI/ML industry experts."
+            Box4h5="Hands-on Experience"
+            box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
       />
-      <Syllabus radio={true} />
-      <ToolsCovered />
-      <Domain />
-      <div className={styles.ProjectWrapper} id="project">
-        <Project />
-      </div>
-       
-      <Footer />
-      </main> 
+        </div>
+        <DomainFaq FaqData={DomainFaqCourseData1} />
+        <CourseReview
+        p1="Working at HCL"
+        p2=" Working at TCS"
+        p3="Working at Capgemini" />
+
+        <Certificate
+          H4=" Certification Program"
+        />
+
+        <OtherCertificate
+          OCHead1="Machine Learning with Python"
+          OCP1="Validate your python expertise for ML algo designing."
+          OCHead2="Python for Data Science"
+          OCP2="Get certified on your advanced python skills."
+          OCHead3="Deep Learning Fundamentals"
+          OCP3="Earn industrial badge on neural networks, and convolutional networks like DL skills."
+          OCHead4="Sectoral Analytics Fundamentals – HR"
+          OCP4="Obtain certification in the use of analytical best practices in HR decision-making."
+          OCHead5="Sectoral Analytics Fundamentals – Marketing"
+          OCP5="Obtain certification in the use of analytical best practices in marketing decision-making."
+          OCHead6="Sectoral Analytics Fundamentals – Finance"
+          OCP6="Obtain certification in the use of analytical best practices in financial decision-making."
+        />
+
+
+
+
+
+        <SyllabusNew dataScience={true}
+          syllabus={DsaiManagersCourseData[0].syllabus}
+          syllabusDesc={DsaiManagersCourseData[0].syllabusDesc}
+          popupHead={DsaiManagersCourseData[0].popupHead}
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
+          hours="400+ Hours"
+          project="15+ Real Time"
+        />
+        <OurExpert
+          H5="Tools Covered"
+          img1={DsaiManagersCourseData[0].OurExpert.img1}
+          img2={DsaiManagersCourseData[0].OurExpert.img2}
+          img3={DsaiManagersCourseData[0].OurExpert.img3}
+          img4={DsaiManagersCourseData[0].OurExpert.img4}
+          img5={DsaiManagersCourseData[0].OurExpert.img5}
+          img6={DsaiManagersCourseData[0].OurExpert.img6}
+          img7={DsaiManagersCourseData[0].OurExpert.img7}
+          img8={DsaiManagersCourseData[0].OurExpert.img8}
+          img9={DsaiManagersCourseData[0].OurExpert.img9}
+          img10={DsaiManagersCourseData[0].OurExpert.img10}
+          img11={DsaiManagersCourseData[0].OurExpert.img11}
+          img12={DsaiManagersCourseData[0].OurExpert.img12}
+          img13={DsaiManagersCourseData[0].OurExpert.img13}
+          img14={DsaiManagersCourseData[0].OurExpert.img14}
+          img15={DsaiManagersCourseData[0].OurExpert.img15}
+          img16={DsaiManagersCourseData[0].OurExpert.img16}
+          img17={DsaiManagersCourseData[0].OurExpert.img17}
+          img18={DsaiManagersCourseData[0].OurExpert.img18}
+          img19={DsaiManagersCourseData[0].OurExpert.img19}
+          img21={DsaiManagersCourseData[0].OurExpert.img21}
+          img22={DsaiManagersCourseData[0].OurExpert.img22}
+          img23={DsaiManagersCourseData[0].OurExpert.img23}
+          img20={DsaiManagersCourseData[0].OurExpert.img20}
+        />
+        <ProgramFee Emi="₹ 9,342/month" Fee="₹ 95,000 +GST" CourseFeeAndFinancing="Program Fee & Financing"
+        para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."  />
+        <SliderTab />
+
+        <div className={styles.ProjectWrapper} id="project">
+        <Project popupHead={DsaiManagersCourseData[0].Project.popupHead}
+        project={DsaiManagersCourseData[0].Project.project}
+        domain={DsaiManagersCourseData[0].Project.domain}
+        projectTitle={DsaiManagersCourseData[0].Project.projectTitle} />
+        </div>
+
+        <CourseFee
+          syllabusDesc={DsaiManagersCourseData[0].syllabusDesc}
+          syllabus={DsaiManagersCourseData[0].Batch}
+          CourseFeeHead="Data Science & AI For Managers Program : Batch Details"
+          CourseFeePara="Online Classroom"
+          CourseFeelist1="Online Interactive Classes"
+          CourseFeelist2="Weekend and Weekday Batches"
+          CourseFeelist3="Extra Doubt Clearance Sessions"
+          CourseFeelist4="Multiple Domains + Project Expertise"
+          CourseFeelist5="Company-based Mock Interviews"
+        />
+        <LearnSupport />
+        <Footer />
+      </main>
     </div>
-  )
+  );
 }

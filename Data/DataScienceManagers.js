@@ -8,9 +8,14 @@ export const DsaiManagersCourseData = [
       desc: "Learn from mentors in live online classes. Work on Advance data science projects directly with companies and get real work       experience.",
     },
     ProgramInfo: {
-      BatchDate: "5 August 2022",
-      BatchDuration: "09 Months",
-      Placement: "100% Placement Assistance",
+      p1: "Global Recognition",
+      p11: "From IBM",
+      p2: "Industry Standard",
+      p22: "Training",
+      p3: "Career Assistance",
+      p33: "For Professionals",
+      p4: "Financing as low as",
+      p44: "₹ 9,342/month",
     },
     BoxShape: {
       title: "Why Join this Programme?",
@@ -332,6 +337,40 @@ export const DsaiManagersCourseData = [
         },
       },
     ],
+
+
+
+
+    OurExpert: {
+      H5:"Data Science Tools Covered",
+      img1:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png",
+      img2:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png",
+      img3:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png",
+      img4:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/4.png",
+      img5:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/5.png",
+      img6:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/6.png",
+      img7:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png",
+      img8:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png",
+      img9:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png",
+      img10:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/10.png",
+      img11:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/11.png",
+      img12:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/12.png",
+      img13:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/13.png",
+      img14:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/14.png",
+      img15:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/15.png",
+      img16:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/16.png",
+      img17:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/17.png",
+      img18:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/18.png",
+      img19:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/19.png",
+      img21:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png",
+      img22:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png",
+      img23:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png",
+      img20:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
+    },
+
+
+
+
     Review: {
       title: "Why get enrolled in our Advanced Data Science and AI course?",
       desc: " Learnbay’s Advanced Data Science and AI course with real-work experience is designed for creative minds and made for everyone. Take our data science training and experience the new era of education.",
@@ -347,6 +386,58 @@ export const DsaiManagersCourseData = [
       ProMaxPrice: "₹ 1,30,000 + GST",
       ProMaxDesc: " Get data science training with 100% Placement Assistance",
     },
+
+    Project: {
+      popupHead: "Download Project Brochure",
+      project: "15+ Projects",
+      domain: "7+",
+      projectTitle:"Hands-on Projects"
+    },
+    Batch: [
+      {
+        Module0: {
+          title: "Weekend Batch :- (Sat - Sun)",
+          content: [
+            {
+              chap: {
+                title: "Batch 1 :- Date And time ",
+                desc: [
+                  "Date : 18th September 2022",
+                  "Time : 8:30 a.m. to 12:00 p.m.",
+  
+                ],
+              },
+            },
+  
+          ],
+          id: 0,
+          open: true,
+        },
+      },
+  
+      {
+        Module0: {
+          title: "Weekday Batch  :- (Mon-Fri)",
+          content: [
+            {
+              chap: {
+                title: "Weekday Batch 1 :- Date And time ",
+                desc: [
+                  "Date : 16th September 2022",
+                  "Time : 8 a.m. to 10 a.m.",
+                ],
+              },
+            },
+           
+          ],
+          id: 1,
+          open: false,
+        },
+      },
+    ],
+
+
+
     BatchDetails: {
       BatchHeader: "Advanced Data science and AI Next 2022 Cohort",
       BatchName1: "weekday Batch",
