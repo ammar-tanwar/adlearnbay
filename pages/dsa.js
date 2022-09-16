@@ -90,8 +90,8 @@ export default function Home() {
         mTopPara="MAANG's Best Interview Preparation Course Trained by Top Experts"
         mTitle="Data Structures & Algorithms"
         spanMTitleText="Top Experts"
-        title="Data Structures Algorithms & System Design"
-        spanTitleText="Course"
+        title="Data Structures Algorithms & "
+        spanTitleText="System Design Course"
         desc="Perform real-world industrial projects and use-cases."
         src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/dsa-header-image.png"
         width="776"
@@ -132,7 +132,7 @@ export default function Home() {
         <SyllabusNew dataScience={true}
           syllabus={DsaCourseData[0].syllabus}
           syllabusDesc={DsaCourseData[0].syllabusDesc}
-          popupHead={DsaCourseData[0].popupHead}
+          popupHead="Download Course Brochure"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
           hours="200+ Hours"
           project="12+ Real Time"

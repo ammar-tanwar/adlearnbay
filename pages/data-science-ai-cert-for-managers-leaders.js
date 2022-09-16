@@ -161,7 +161,7 @@ export default function Home() {
         <SyllabusNew dataScience={true}
           syllabus={DsaiManagersCourseData[0].syllabus}
           syllabusDesc={DsaiManagersCourseData[0].syllabusDesc}
-          popupHead={DsaiManagersCourseData[0].popupHead}
+          popupHead="Download Course Brochure"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
           hours="400+ Hours"
           project="15+ Real Time"

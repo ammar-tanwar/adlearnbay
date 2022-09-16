@@ -86,12 +86,12 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection dataScience={true}
-        deskTopPara="Ace Your Coding Interview at MAANG and Achieve Your Dream Job"
-          mTopPara="Full Stack Software Development Course"
-          mTitle="Ace Your Coding Interview at MAANG and"
-          spanMTitleText="Achieve Your Dream Job"
-          title="Full Stack Software Development "
-          spanTitleText="Course"
+        deskTopPara="Ace Your Coding Interview at MAANG and Achieve Your Dream Job "
+          mTopPara="Ace Your Coding Interview at MAANG and Achieve Your Dream Job"
+          mTitle="Full Stack Software  "
+          spanMTitleText="Development Course"
+          title="Full Stack Software  "
+          spanTitleText="Development Course"
           desc="Best Interview Prep Course for Top Product Based MNCs"
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course9.png"
           width="791"
@@ -130,7 +130,7 @@ export default function Home() {
         <SyllabusNew dataScience={true}
           syllabus={FullStackSoftwareCourseData[0].syllabus}
           syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
-          popupHead={FullStackSoftwareCourseData[0].popupHead}
+          popupHead="Download Course Brochure"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
           hours="300+ Hours"
           project="12+ Real Time"

@@ -142,10 +142,10 @@ export default function Home() {
           src={JobGuaranteeCourseData[0].Certificate.src}
         />
 
-        <SyllabusNew dataScience={true}
+        <SyllabusNew 
           syllabus={JobGuaranteeCourseData[0].syllabus}
           syllabusDesc={JobGuaranteeCourseData[0].syllabusDesc}
-          popupHead={JobGuaranteeCourseData[0].popupHead}
+          popupHead="Download Course Brochure"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
           hours="500+ Hours"
           project="15+ Real Time"

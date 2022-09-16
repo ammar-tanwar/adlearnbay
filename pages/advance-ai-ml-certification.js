@@ -151,7 +151,7 @@ export default function Home() {
         <SyllabusNew dataScience={true}
           syllabus={AiCourseData[0].syllabus}
           syllabusDesc={AiCourseData[0].syllabusDesc}
-          popupHead={AiCourseData[0].popupHead}
+          popupHead="Download Course Brochure"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
           hours="350+ Hours"
           project="15+ Real Time"
@@ -197,7 +197,7 @@ export default function Home() {
         <CourseFee
           syllabusDesc={AiCourseData[0].syllabusDesc}
           syllabus={AiCourseData[0].Batch}
-          CourseFeeHead="Artificial Intelligence & Machine Learning Program : Batch Details"
+          CourseFeeHead="AI and ML Program : Batch Details"
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"
           CourseFeelist2="Weekend and Weekday Batches"
