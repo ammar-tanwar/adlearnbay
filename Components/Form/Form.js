@@ -619,13 +619,17 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
                 }
             }
             name="phone"
-            rules={{ required: true }}
+            rules={{ required: true}}
             defaultCountry="IN"
+            
             placeholder="Enter Phone Number"
             className={popup ? styles.Phones : styles.Phone}
             value={value}
             onChange={setValue}
+            limitMaxLength={true}
+           
             required
+            
           />
         </div>
 
