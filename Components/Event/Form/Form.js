@@ -149,6 +149,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
             className={popup ? styles.Phones : styles.Phone}
             value={value}
             onChange={setValue}
+            limitMaxLength
             required
           />
         </div>

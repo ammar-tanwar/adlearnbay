@@ -27,7 +27,7 @@ export const EventHeader = () => {
     <section className={styles.wrapper}>
     { mobile ? (
       <img
-      src="/Artboard1.jpg"
+      src="/Artboard11.jpg"
       alt="Learnbay"
       quality={100}
       
@@ -36,7 +36,7 @@ export const EventHeader = () => {
     />
     ):(
        <img
-      src="/Artboard.jpg"
+      src="/Artboard2.jpg"
       alt="Learnbay"
       quality={100}
      

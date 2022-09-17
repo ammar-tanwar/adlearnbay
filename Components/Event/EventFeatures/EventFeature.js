@@ -63,7 +63,7 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3,props })
         <p className={styles.paragramTitle}>{props.para1}</p>
         <p>{props.paragraph1}</p>
         <p>{props.paragraph2}</p>
-        <p>{props.paragraph3}</p>
+        <p><b>{props.paragraph2_1}</b>{props.paragraph3}</p>
       </div>
       
       <div>
@@ -81,6 +81,10 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3,props })
           <li>{props.paragraph6}</li>
           <li>{props.paragraph7}</li>
           <li>{props.paragraph8}</li>
+          <li>{props.paragraph6_1}</li>
+          <li>{props.paragraph7_1}</li>
+          <li>{props.paragraph8_1}</li>
+          <li>{props.paragraph8_2}</li>
         </div>
       </div> 
 
@@ -93,17 +97,18 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3,props })
         </div>
       </div>
 
-      <div>
-        <p className={styles.paragramTitle}>{props.para5}</p>
-        <div className={styles.PreRequisites}>
-          <div><p><b>{props.paragraph12}</b></p></div>
-          <div><p><b>{props.paragraph13}</b></p></div>
-        </div>
-      </div>
+      
 
       <div>
         <p className={styles.paragramTitle}>{props.para6}</p>
+        <div className={styles.listMargin} >
+          <li>{props.paragraph6_2}</li>
+          <li>{props.paragraph7_2}</li>
+          <li>{props.paragraph8_3}</li>
+        </div>
       </div>
+
+
       <div style={{ margin: "15px 0px" }}>
         <div className={styles.bodyContent}>
           <div className={styles.eLeft}>
@@ -151,13 +156,7 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3,props })
         </div>
       </div>
       <div>
-        <Image
-          src="/full-stack-web.png"
-          alt="price"
-          layout="intrinsic"
-          width="900px"
-          height="500px"
-        />
+       
         <div className={styles.centerBtn}>
         <button onClick={popupShow} className="outLineBtn">
         Register NOW!
@@ -199,3 +198,12 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3,props })
 };
 
 export default EventFeature;
+
+
+// <div>
+//         <p className={styles.paragramTitle}>{props.para5}</p>
+//         <div className={styles.PreRequisites}>
+//           <div><p><b>{props.paragraph12}</b></p></div>
+//           <div><p><b>{props.paragraph13}</b></p></div>
+//         </div>
+//       </div>
