@@ -36,7 +36,7 @@ export const EventHeader = () => {
     />
     ):(
        <img
-      src="/Artboard2.jpg"
+      src="/NewfileBanner.jpg"
       alt="Learnbay"
       quality={100}
      
