@@ -438,7 +438,7 @@
 }
 @media (max-width: 480px) {
   .container {
-    margin-bottom: 80px;
+    margin-bottom: 0px;
   }
   .Page {
     display: flex;

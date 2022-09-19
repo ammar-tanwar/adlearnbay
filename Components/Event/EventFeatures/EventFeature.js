@@ -6,7 +6,7 @@ import Popup from "../../Popup/Popup";
 import { FaArrowRight, FaChevronDown, FaChevronUp } from "react-icons/fa";
 import Form from "../Form/Form";
 
-const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3,props }) => {
+const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3, props }) => {
 
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
@@ -19,10 +19,9 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3,props })
   };
 
   return (
-  
-    <div className={styles.eFeature}>
 
-    <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+    <div className={styles.eFeature}>
+      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
         <div className="leftPopup">
           <div className="whiteP" />
         </div>
@@ -36,7 +35,7 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3,props })
         <h1>{props.Heading}</h1>
         <div>
           <span>
-            <span className={styles.fontweight}>{props.StartON} STARTS ON :</span>
+            <span className={styles.fontweight}>{props.StartON}</span>
             <span>{props.StartONT}</span>
           </span>
           <br />
@@ -63,21 +62,22 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3,props })
         <p className={styles.paragramTitle}>{props.para1}</p>
         <p>{props.paragraph1}</p>
         <p>{props.paragraph2}</p>
-        <p><b>{props.paragraph2_1}</b>{props.paragraph3}</p>
+        <p><b>{props.paragraph2_1}</b>{props.paragraph2_2}<b>{props.paragraph2_3}</b>{props.paragraph3}</p>
       </div>
-      
+
       <div>
         <p className={styles.paragramTitle}>{props.para2}</p>
-        <div className={styles.listMargin} >
+        <ul className={styles.listMargin} >
           <li>{props.paragraph24}</li>
           <li>{props.paragraph4}</li>
           <li>{props.paragraph5}</li>
-        </div>
+          </ul>
       </div>
 
       <div>
         <p className={styles.paragramTitle}>{props.para3}</p>
-        <div className={styles.listMargin} >
+       
+        <ul className={styles.listMargin} >
           <li>{props.paragraph6}</li>
           <li>{props.paragraph7}</li>
           <li>{props.paragraph8}</li>
@@ -85,29 +85,64 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3,props })
           <li>{props.paragraph7_1}</li>
           <li>{props.paragraph8_1}</li>
           <li>{props.paragraph8_2}</li>
-        </div>
-      </div> 
+          </ul>
+        
+      </div>
 
       <div >
         <p className={styles.paragramTitle}>{props.para4}</p>
-        <div className={styles.listMargin} >
+          <ul className={styles.listMargin} >
           <li><span>{props.paragraph9}</span><b>{props.paragraph9_1}</b></li>
           <li><span>{props.paragraph10}</span><b>{props.paragraph10_1}</b></li>
           <li>{props.paragraph11}</li>
-        </div>
+          </ul>
+        
       </div>
-
-      
 
       <div>
         <p className={styles.paragramTitle}>{props.para6}</p>
-        <div className={styles.listMargin} >
+       
+        <ul className={styles.listMargin} >
           <li>{props.paragraph6_2}</li>
           <li>{props.paragraph7_2}</li>
           <li>{props.paragraph8_3}</li>
+          </ul>
+        
+      </div>
+
+      <div>
+        <div className={styles.centerBtn}>
+          <button onClick={popupShow} className="outLineBtn">
+            Register NOW!
+            <FaArrowRight className={styles.icon} />
+          </button>
         </div>
       </div>
 
+      <div id="About">
+        <p className={styles.paragramTitle}>{props.para7}</p>
+        <div className={styles.eReview}>
+          <Reviews redirectFs={true} />
+        </div>
+      </div>
+
+      <div >
+        <p className={styles.paragramTitle}>{props.para8}</p>
+        <p>{props.paragraph14}</p>
+        <p>{props.paragraph15}</p>
+        <p>{props.paragraph16}</p>
+       
+        <ul className={styles.listMargin} >
+          <li>{props.paragraph17}</li>
+          <li>{props.paragraph18}</li>
+          <li>{props.paragraph19}</li>
+          <li>{props.paragraph20}</li>
+          <li>{props.paragraph21}</li>
+          </ul>
+        
+        <p>{props.paragraph22}</p>
+        <p>{props.paragraph23}</p>
+      </div>
 
       <div style={{ margin: "15px 0px" }}>
         <div className={styles.bodyContent}>
@@ -155,42 +190,6 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3,props })
           </div>
         </div>
       </div>
-      <div>
-       
-        <div className={styles.centerBtn}>
-        <button onClick={popupShow} className="outLineBtn">
-        Register NOW!
-          <FaArrowRight className={styles.icon} />
-        </button>
-        </div>
-      </div>
-
-      <div id="About">
-        <p className={styles.paragramTitle}>{props.para7}</p>
-        <div className={styles.eReview}>
-          <Reviews redirectFs={true} />
-        </div>
-      </div>
-
-      <div >
-        <p className={styles.paragramTitle}>{props.para8}</p>
-        <p>{props.paragraph14}</p>
-        <p>{props.paragraph15}</p>
-        <p>{props.paragraph16}</p>
-        <div className={styles.listMargin}>
-          <li>{props.paragraph17}</li>
-          <li>{props.paragraph18}</li>
-          <li>{props.paragraph19}</li>
-          <li>{props.paragraph20}</li>
-          <li>{props.paragraph21}</li>
-          
-        </div>
-        <p>{props.paragraph22}</p>
-        <p>{props.paragraph23}</p>
-
-
-      </div>
-
 
 
     </div>

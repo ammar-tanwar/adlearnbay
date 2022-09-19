@@ -1,7 +1,7 @@
 export const demo = 
     {
-        "Heading":"Learn Designing a System for a Social Networking site?",
-        "StartON":"StartON",
+        "Heading":"Learn Designing a System for a Social Networking Site",
+        "StartON":"STARTS ON :",
         "StartONT":" September 24, 2022 8:00 AM (IST)",
         "EndON":"ENDS ON : ",
         "EndONT":"September 24, 2022 11:00 AM (IST)",
@@ -16,7 +16,9 @@ export const demo =
 
         "paragraph2":" Ready to deep dive into the field of System Design?",
         "paragraph2_1":"Prakhar Agrawal",
-        "paragraph3":" is hosting a FREE Masterclass on September 24th starting at 8 AM to help bring clarity to System Design for Social Networking sites like Twitter . Register today to reserve your spot!",
+        "paragraph2_2":" is hosting a FREE Masterclass on",
+        "paragraph2_3":" September 24th starting at 8 AM",
+        "paragraph3":" to help bring clarity to System Design for Social Networking sites like Twitter . Register today to reserve your spot!",
 
         "para2":"Topics Covered In The Masterclass",
 
@@ -68,8 +70,7 @@ export const demo =
         "paragraph20":"250 + hiring partners with dedicated placement support and 100% Interview guaranteed ",
 
         "paragraph21":"NEW! Attend a free Demo Class now and the enroll for the domain you’re looking for.",
-        "paragraph22":"Know more about us through our website",
-        "paragraph23":"https://www.learnbay.co/",
+       
 
 
 
