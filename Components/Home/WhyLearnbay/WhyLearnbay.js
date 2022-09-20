@@ -6,8 +6,8 @@ import { IoCallOutline } from "react-icons/io5";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import { FaArrowRight, FaDownload } from "react-icons/fa";
-
 const WhyLearnbay = () => {
+
 
   const [popups, setPopups] = useState(false);
 

@@ -6,7 +6,7 @@ import { BsGraphUp } from "react-icons/bs";
 import { HomeBoxData } from "./BoxShapeData";
 
 const BoxShape = () => {
-
+ 
   const [hover, setHover] = useState(false);
 
   return (

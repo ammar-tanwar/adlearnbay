@@ -400,6 +400,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     if (
       (router.pathname === "/fssd" && downloadBrochure) ||
       // (router.pathname === "/fswd" && downloadBrochure) ||
+      (router.pathname === "/dsa" && downloadBrochure) ||
       (router.pathname === "/fssd-s2" && downloadBrochure) ||
       (router.pathname === "/fssd-s4" && downloadBrochure) ||
       // (router.pathname === "/fswd-s4" && downloadBrochure) ||
@@ -499,6 +500,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     if (
       router.pathname === "/fssd" ||
       // router.pathname === "/fswd" ||
+      router.pathname === "/dsa" ||
       router.pathname === "/fssd-s2" ||
       router.pathname === "/dsa-s3" ||
       router.pathname === "/fssd-s3" ||
