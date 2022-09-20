@@ -11,7 +11,7 @@ import Navbar from "../Components/NavbarHome/Navbar";
 import Footer from "../Components/FooterHome/Footer";
 import React, { useState } from "react";
 import BoxShape from "../Components/Boxshape/BoxShape1"
-import MultiTabs from "../components/Home/MultiTabs/MultiTabs";
+import MultiTabs from "../Components/Home/MultiTabs/MultiTabs";
 import FormSection from "../Components/Home/FormSection/FormSection"
 import CareerImpactHome from "../Components/Home/CareerImpactHome/CareerImpact"
 

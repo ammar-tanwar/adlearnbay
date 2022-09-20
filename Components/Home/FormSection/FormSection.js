@@ -8,10 +8,7 @@ const FormSection = (dataScience) => {
     <div className={styles.fromWrap}>
       <div className={styles.leftForm}>
         <h5>Apply For Free Career Counselling</h5>
-        <a href="tel:+919606950936"><button>
-          <MdCall />
-          +91 96069 50936  
-        </button></a>
+        
       </div>
       <div className={styles.rightForm}>
         <div className={styles.rightFormWrap}>
