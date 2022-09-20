@@ -6,6 +6,11 @@
   justify-content: space-between;
   height: 100%;
 }
+.pTop {
+  text-align: center;
+  font-size: 18px;
+  margin: 5px;
+}
 
 .RightUp {
   display: flex;
@@ -76,7 +81,7 @@
 
 .ReviewLeft {
   background: linear-gradient(rgba(35, 35, 35, 0.525), rgba(61, 60, 60, 0.8)),
-    url("/Video-testimonial-and-reviews-learnbay.webp"); /* Chrome 10-25, Safari 5.1-6 */
+    url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Video-testimonial-and-reviews-learnbay.webp"); /* Chrome 10-25, Safari 5.1-6 */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -102,23 +107,51 @@
 .slide {
   padding: 10px 20px;
   display: flex;
-  height: 350px;
+  height: 340px;
   flex-flow: column-reverse;
   justify-content: center;
   align-items: flex-start;
-  border-radius: 12px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #2d9cd750;
   border-radius: 10px;
-  box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
-  margin-bottom: 30px;
+  background: #ffffff;
+  box-shadow: 4px 4px 20px rgba(41, 121, 173, 0.25);
+  border-radius: 34px;
+  margin: 30px 10px 40px 10px;
 }
+.content {
+  display: grid;
+  grid-template-columns: 18% 65% 14%;
+  height: fit-content;
+  margin-top: 10px;
+}
+.cIcon {
+  margin-top: 20px;
+}
+.contentRight {
+  margin-top: 20px;
+}
+.para {
+  border-left: 5px solid #2d9cd7;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 
-.slide p {
-  padding: 10px;
-  border-radius: 10px;
-  border: 1px solid #2d9cd750;
+}
+.leftBottom,
+.rightBottom {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.leftBottomC h5 {
+  margin: 0;
+}
+.leftBottomC p {
+  margin: 0;
+  color: #6c6c6c;
 }
 
 .profile {
@@ -146,18 +179,27 @@
   margin: 0;
 }
 .name h5 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   margin: 0;
   color: #000;
 }
+
+@media (max-width: 961px) {
+  .CareerImpact {
+    margin: 70px 30px;
+  }
+.slide {
+  height: fit-content;
+}
+}
+
 @media (max-width: 481px) {
   .CareerImpact {
     display: block;
     align-items: center;
     margin: 0;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 40px 20px 40px 20px;
   }
 
   .RightUp {
@@ -185,7 +227,7 @@
 
   .ReviewLeft {
     background: linear-gradient(rgba(35, 35, 35, 0.525), rgba(61, 60, 60, 0.8)),
-      url("/Video-testimonial-and-reviews-learnbay.webp"); /* Chrome 10-25, Safari 5.1-6 */
+      url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Video-testimonial-and-reviews-learnbay.webp"); /* Chrome 10-25, Safari 5.1-6 */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -208,7 +250,20 @@
     margin-left: 0px;
     margin-right: 0px;
   }
+
   .slide {
-    height: 100%;
+    height: fit-content;
+    margin: 30px 0px 30px 0px;
   }
+
+.rightBottom {
+  display: block;
+  gap: 10px;
+  align-items: center;
+}
+.leftBottom {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
 }

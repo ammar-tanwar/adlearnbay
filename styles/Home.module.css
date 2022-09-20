@@ -6,7 +6,29 @@
 .program {
   height: max-content;
 }
-
+.boxShape {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 40px;
+}
+.boxWrap {
+  display: flex;
+  flex-flow: column;
+  padding: 30px 100px;
+}
+.boxWrap h2 {
+  margin: 0;
+  font-size: 37px;
+  text-align: center;
+}
+.boxp {
+  margin: 0px;
+  text-align: center;
+  color: #6c6c6c;
+  font-size: 18px;
+  margin: 5px;
+}
 .footer {
   display: flex;
   flex: 1;
@@ -227,6 +249,32 @@
     background-size: contain;
     padding: 30px 100px;
     align-items: center;
+  }
+  .boxShape {
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .boxWrap {
+    display: flex;
+    flex-flow: column;
+    padding: 10px 20px 0px 20px;
+  }
+  .boxWrap h2 {
+    margin: 0;
+    font-size: 26px;
+    text-align: center;
+  }
+  .boxp {
+    margin: 0px;
+    margin-top: 10px;
+    text-align: center;
+    color: #6c6c6c;
+    font-size: 14px;
   }
   .cta h6 {
     font-size: 22px;

@@ -11,7 +11,8 @@ import cookies from "next-cookies"
 
 const ThankYou = ({initialName}) => {
     console.log("data", initialName)
-    
+
+    const email = JSON.stringify(initialName)
   return (
     <div className={styles.main}>
       <Head>
@@ -65,7 +66,7 @@ const ThankYou = ({initialName}) => {
       window.dataLayer.push({
         ‘event’: ‘form_complete’,
         ‘enhanced_conversion_data’: {
-          “email”:${initialName}
+          “email”:${email}
         }
       });
 

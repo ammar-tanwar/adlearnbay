@@ -71,7 +71,7 @@ export const viewAllD = [
       "12 Projects + 2 Capstones",
       "Course Fee : ₹ 1,10,000 + GST",
     ],
-        link1: "/full-stack-software-development-program",
+        link1: "/fssd",
   },
 ];
 export const ForProgrammersD = [
@@ -97,7 +97,7 @@ export const ForProgrammersD = [
       "12 Projects + 2 Capstones",
       "Course Fee : ₹ 1,10,000 + GST",
     ],
-        link1: "/full-stack-software-development-program",
+        link1: "/fssd",
   },
   {
     id: 3,
@@ -250,6 +250,6 @@ export const StackD = [
       "12 Projects + 2 Capstones",
       "Course Fee : ₹ 1,10,000 + GST",
     ],
-        link1: "/full-stack-software-development-program",
+        link1: "/fssd",
   },
 ];

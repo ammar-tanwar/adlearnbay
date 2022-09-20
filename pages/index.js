@@ -1,19 +1,19 @@
 import Head from "next/head";
-import FirstSection from "../Components/Home/FirstSection/FirstSection";
-import Course from "../Components/Home/Course/Course";
+import styles from "../styles/Home.module.css";
+import FirstSection from "../Components/Home/FirstSection/FirstSection1";
+import Course from "../Components/Home/CourseHome/Course";
 import KeyFeatures from "../Components/Home/KeyFeatures/KeyFeatures";
 import WhyLearnbay from "../Components/Home/WhyLearnbay/WhyLearnbay";
-import Benefits from "../Components/Home/Benefits/Benefits";
-import LearnSupport from "../Components/Home/LearnSupport/LearnSupport";
-import CareerImpactHome from "../Components/Home/CareerImpactHome/CareerImpact";
+import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
 import Navbar from "../Components/NavbarHome/Navbar";
 import Footer from "../Components/FooterHome/Footer";
 import React, { useState } from "react";
-
-
-
+import BoxShape from "../Components/Boxshape/BoxShape1"
+import MultiTabs from "../components/Home/MultiTabs/MultiTabs";
+import FormSection from "../Components/Home/FormSection/FormSection"
+import CareerImpactHome from "../Components/Home/CareerImpactHome/CareerImpact"
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -66,29 +66,42 @@ export default function Home() {
           }}
         />
       </Head>
+
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
         <div className="leftPopup">
           <div className="whiteP" />
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-                   {/* <p>Fill the below Details to get started</p> */}
-
+          {/* <p>Fill the below Details to get started</p> */}
           <Form popup={true} setTrigger={setPopups} radio={true} />
         </div>
       </Popup>
+
       <Navbar radio={true} />
-      <FirstSection style={{margin:"20px"}} radio={true} />
+      <FirstSection style={{ margin: "20px" }} radio={true} />
+      <div className={styles.boxWrap}>
+        <h2>Get Certified & Move Towards Your Dream Job</h2>
+        <p className={styles.boxp}>
+          Our Domain Specialisation and Industry Certified Capstone Projects helps you to
+          make your past work experience relevant
+        </p>
+        <div className={styles.boxShape}>
+          <BoxShape/>
+        </div>
+      </div>
       <Course radio={true} />
       <KeyFeatures />
       <WhyLearnbay />
-      <Benefits />
+      <MultiTabs />
+      <FormSection dataScience={true} />
       <CareerImpactHome />
       <LearnSupport />
       <Footer />
     </div>
-    
+
   );
 }
 
 
+// <Course radio={true} />
