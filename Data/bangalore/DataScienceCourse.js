@@ -22,7 +22,7 @@ export const DataScienceCourseData = [
       p3: "Career Assistance",
       p33: "For Professionals",
       p4: "Financing as low as",
-      p44: "₹ 7,768/month",
+      p44: "₹ 8,358/month",
     },
     BoxShape: {
       title: "Data Science Certification Programs in Bangalore",
@@ -313,8 +313,8 @@ export const DataScienceCourseData = [
       img20: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
     ProgramFee: {
-      Fee: "₹79,000 + GST",
-      Emi: "₹ 7,768/month",
+      Fee: "₹85,000 + GST",
+      Emi: "₹ 8,358/month", 
       CourseFeeAndFinancing:"Data Science Course Fee & Financing In Bangalore",
       para:"We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Science Certification Course In Bangalore and offer avariety of financing options to make it more economical.",
     },

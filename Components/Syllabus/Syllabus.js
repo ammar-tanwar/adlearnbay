@@ -94,7 +94,7 @@ function Syllabus({ radio }) {
           </div> 
         </div>
         <p>
-          The Data Science and AI Certification Course With 100% 100% Placement Assistance
+          The Data Science and AI Certification Course With 100% Placement Assistance
           is curated by leading faculties and industry leaders. Especially, with
           the aim to provide practical learning experience with live interactive
           classes and projects.
@@ -497,7 +497,7 @@ Capstone Projects
             </p>
             <p style={{display:"flex"}}>
               <SiCodeproject className={styles.PIcons} />
-              15+ Industry Projects
+              20+ Industry Projects
             </p>
             <p style={{display:"flex"}}>
               <SiTimescale className={styles.PIcons} />

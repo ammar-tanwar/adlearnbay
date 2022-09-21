@@ -499,7 +499,7 @@ function Syllabus({ radio }) {
             </p>
             <p style={{display:"flex"}}>
               <SiTimescale className={styles.PIcons} />
-              3 Year Subscriptions
+              2 Year Subscriptions
             </p>
             <p style={{display:"flex"}}>
               <MdOutlineLaptopMac className={styles.PIcons} />

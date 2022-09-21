@@ -4,7 +4,7 @@ export const DsaiManagersCourseData = [
       deskTopPara: "Certification course for professionals",
       mTopPara: "Certification course for professionals",
       title: "Advance Data Science & AI with",
-      spanTitleText: "100% 100% Placement Assistance Program",
+      spanTitleText: "100% Placement Assistance Program",
       desc: "Learn from mentors in live online classes. Work on Advance data science projects directly with companies and get real work       experience.",
     },
     ProgramInfo: {

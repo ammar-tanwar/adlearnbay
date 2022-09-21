@@ -95,21 +95,21 @@ export default function Home() {
 
       
       />
-        <FirstSection
-          deskTopPara="Experience-based certification course for professionals"
-          mTopPara="Experience-based certification course for professionals"
-          title="Advance Data Science & AI Certification"
-          spanTitleText="Domain Specialization For Professionals"
-          desc="This Advance program is suitable for professionals having more than 1+ years of work experience in any programming or non programming domain."
-        />
-        <div className={styles.program}>
-          <ProgramInfo
-            BatchDate="1+ Years Work Experience"
-            BatchDuration="Accredited with IBM"
-            Placement="12+ Real Time Projects"
-            EMI="₹ 7,768/month"
-          />
-        </div>
+      <FirstSection
+      deskTopPara="Experience-based certification course for professionals"
+      mTopPara="Experience-based certification course for professionals"
+      title="Advance Data Science & AI Certification"
+      spanTitleText="Domain Specialization For Professionals"
+      desc="This Advance program is suitable for professionals having more than 6+ months of work experience in any programming or non programming domain."
+    />
+    <div className={styles.program}>
+      <ProgramInfo
+        BatchDate="1+ Years Work Experience"
+        BatchDuration="Accredited with IBM"
+        Placement="12+ Real Time Projects"
+        EMI="₹ 8,358/month"
+      />
+    </div>
         <GetHired />
         <div className="Feature" id="Feature">
           <BoxShape
@@ -154,10 +154,9 @@ export default function Home() {
         />
         <Syllabus />
         <ToolsCovered />
-        <Domain />
         <div className={styles.ProjectWrapper} id="project">
-          <Project />
-        </div>
+      <Project domainDetails="2+" projectDetails="12+"/>
+      </div>
 
         <Footer />
       </main>

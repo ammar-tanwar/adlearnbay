@@ -105,12 +105,12 @@ export default function Home() {
         desc="The course has been designed specifically for working professionals who choose to advance their careers in Data Science and AI."
       />
       <div className={styles.program}>
-        <ProgramInfo
-          BatchDate="2+ Years Work Experience"
-          BatchDuration="Accredited with IBM"
-          Placement="15+ Real Time Projects"
-          EMI="₹ 12,292/month"
-        />
+      <ProgramInfo
+      BatchDate="2+ Years Work Experience"
+      BatchDuration="Accredited with IBM"
+      Placement="20+ Real Time Projects"
+      EMI="₹ 10,816/month"
+    />
       </div>
       <GetHired />
       <div className="Feature" id="Feature">
@@ -154,9 +154,8 @@ export default function Home() {
       />
       <Syllabus />
       <ToolsCovered />
-      <Domain />
       <div className={styles.ProjectWrapper} id="project">
-        <Project />
+      <Project domainDetails="7+" projectDetails="20+"/>
       </div>
        
       <Footer />

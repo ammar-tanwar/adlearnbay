@@ -24,7 +24,7 @@ export const JobGuaranteeCourseData = [
       p3: "1:1",
       p33: "Career Support",
       p4: "Financing as low as",
-      p44: "₹ 12,292/month",
+      p44: "₹ 10,816/month",
     },
     BoxShape: {
       title: "Explore Our Programs",
@@ -52,7 +52,7 @@ export const JobGuaranteeCourseData = [
     popupHead: "Download Data science Course Brochure",
     srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Job+Guarantee+or+100%25+Money+Back+Data+Science+%26+AI+Certification+Program+Learnbay.pdf",
     hours: "500+ Hours",
-    project: "15+ Real Time",
+    project: "20+ Real Time",
     CSyllabus:"100% Placement Assistance Course Syllabus",
     CourseHighlights:"Placement Assistance Course Highlights",
     syllabus: [
@@ -540,13 +540,13 @@ export const JobGuaranteeCourseData = [
       img20: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
     ProgramFee: {
-      Emi: "₹ 12,292/month",
-      Fee: "₹ 1,25,000 +GST",
+      Emi: "₹ 10,816/month",
+      Fee: "₹ 1,10,000 +GST",
     CourseFeeAndFinancing:"100% Placement Assistance Course Fee & Financing",
 
     },
     Project: {
-      project: "15+ Projects",
+      project: "20+ Projects",
       domain: "7+",
       projectTitle:"Hands-on Projects"
     },

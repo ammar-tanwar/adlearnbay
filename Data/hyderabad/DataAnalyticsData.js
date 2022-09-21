@@ -53,7 +53,7 @@ export const DataAnalyticsCourseData = [
     popupHead: "Download Data science Course Brochure",
     srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
     hours: "180+ Hours",
-    project: "5+ Real Time",
+    project: "8+ Real Time",
 
     CSyllabus:"Data Analytics Course Syllabus",
     CourseHighlights:" Data Analytic Course Highlights",
@@ -1180,7 +1180,7 @@ export const DataAnalyticsCourseData = [
       para:"We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Analytic Certification Course in Hyderabad and offer avariety of financing options to make it more economical.",
     },
     Project: {
-      project: "5+ Projects",
+      project: "8+ Projects",
       domain: "7+",
       projectTitle:"Hands-on Projects in Hyderabad"
     },
