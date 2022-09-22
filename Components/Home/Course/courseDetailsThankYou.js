@@ -3,6 +3,7 @@ export const viewAllD = [
     id: 1,
     img: "/ds.png",
     title: "Data Science & AI Certification | Domain Specialisation For Professionals",
+
         link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf",
   },
   {

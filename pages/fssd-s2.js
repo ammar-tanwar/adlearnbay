@@ -8,7 +8,6 @@ import Navbar from "../Components/CoursePage/Navbar/Navbar";
 import Form from "../Components/Form/Form";
 import Project from "../Components/CoursePage/Projectfswd/Project";
 import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
-
 import { FullStackSoftwareCourseData } from "../Data/FullStackSoftware";
 import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
 import CourseReview from "../Components/CoursePage/CourseReviewdsas/CourseReview";
@@ -34,45 +33,44 @@ export default function Home() {
                 <script
                     dangerouslySetInnerHTML={{
                         __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
-            var s = document.createElement('script');
-            s.type = 'text/javascript';
-            s.async = true;
-            s.src = url;
-            var options = {
-          "enabled":true,
-          "chatButtonSetting":{
-              "backgroundColor":"#4dc247",
-              "ctaText":"",
-              "borderRadius":"10",
-              "marginLeft":"0",
-              "marginBottom":"30",
-              "marginRight":"30",
-              "position":"right"
-          },
-          "brandSetting":{
-              "brandName":"Learnbay",
-              "brandSubTitle":"The Learner's Path",
-              "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
-              "welcomeText":"Hi there! How can I help you?",
-              "messageText":"Hello, I have a question about {{page_link}}",
-              "backgroundColor":"#0a5f54",
-              "ctaText":"Start Chat",
-              "borderRadius":"25",
-              "autoShow":false,
-              "phoneNumber":"+919606950936"
-          }
-        };
-            s.onload = function() {
-                CreateWhatsappChatWidget(options);
-            };
-            var x = document.getElementsByTagName('script')[0];
-            x.parentNode.insertBefore(s, x);`,
+                        var s = document.createElement('script');
+                        s.type = 'text/javascript';
+                        s.async = true;
+                        s.src = url;
+                        var options = {
+                    "enabled":true,
+                    "chatButtonSetting":{
+                        "backgroundColor":"#4dc247",
+                        "ctaText":"",
+                        "borderRadius":"10",
+                        "marginLeft":"0",
+                        "marginBottom":"30",
+                        "marginRight":"30",
+                        "position":"right"
+                    },
+                    "brandSetting":{
+                        "brandName":"Learnbay",
+                        "brandSubTitle":"The Learner's Path",
+                        "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
+                        "welcomeText":"Hi there! How can I help you?",
+                        "messageText":"Hello, I have a question about {{page_link}}",
+                        "backgroundColor":"#0a5f54",
+                        "ctaText":"Start Chat",
+                        "borderRadius":"25",
+                        "autoShow":false,
+                        "phoneNumber":"+919606950936"
+                    }
+                    };
+                        s.onload = function() {
+                            CreateWhatsappChatWidget(options);
+                        };
+                        var x = document.getElementsByTagName('script')[0];
+                        x.parentNode.insertBefore(s, x);`,
                     }}
                 />
-
             </Head>
-            <main>  <Navbar popup={true} />
-
+            <main>
+                <Navbar popup={true} />
                 <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
                     <div className="leftPopup">
                         <div className="whiteP" />
@@ -82,8 +80,6 @@ export default function Home() {
                         <Form popup={true} setTrigger={setPopups} />
                     </div>
                 </Popup>
-            
-
                 <FirstSection
                     deskTopPara={FullStackSoftwareCourseData[0].FirstSection.deskTopPara}
                     mTopPara={FullStackSoftwareCourseData[0].FirstSection.mTopPara}
@@ -124,8 +120,6 @@ export default function Home() {
                         headh5={FullStackSoftwareCourseData[0].BoxShape.headh5}
                     />
                 </div>
-
-
                 <div className={styles.Feature} id="Feature">
                     <BoxShape1
                         title={FullStackSoftwareCourseData[0].BoxShape1.title}
@@ -150,7 +144,6 @@ export default function Home() {
                     hours={FullStackSoftwareCourseData[0].hours}
                     project={FullStackSoftwareCourseData[0].project}
                 />
-
                 <ProgramFee Fee={FullStackSoftwareCourseData[0].ProgramFee.Fee} Emi={FullStackSoftwareCourseData[0].ProgramFee.Emi}
                     CourseFeeAndFinancing={FullStackSoftwareCourseData[0].ProgramFee.CourseFeeAndFinancing}
 
@@ -158,11 +151,9 @@ export default function Home() {
                 <div className={styles.ProjectWrapper} id="project">
                     <Project project={FullStackSoftwareCourseData[0].Project.project} domain={FullStackSoftwareCourseData[0].Project.domain} />
                 </div>
-
                 <Batch
                     syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
                     syllabus={FullStackSoftwareCourseData[0].Batch}
-
                     CourseFeeHead={FullStackSoftwareCourseData[0].BatchCourses.CourseFeeHead}
                     CourseFeePara={FullStackSoftwareCourseData[0].BatchCourses.CourseFeePara}
                     CourseFeelist1={FullStackSoftwareCourseData[0].BatchCourses.CourseFeelist1}
@@ -171,7 +162,6 @@ export default function Home() {
                     CourseFeelist4={FullStackSoftwareCourseData[0].BatchCourses.CourseFeelist4}
                     CourseFeelist5={FullStackSoftwareCourseData[0].BatchCourses.CourseFeelist5}
                 />
-
                 <LearnSupport />
                 <Footer />
             </main>

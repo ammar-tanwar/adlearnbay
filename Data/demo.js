@@ -43,7 +43,7 @@ export const demo =
         "paragraph9_1":"Senior Software Engineer",
         "paragraph10":"Company : ",
         "paragraph10_1":"Google",
-        "paragraph11":"Top-rated Full Stack instructor",
+        
 
 
         "para5":"Learn the Pre-requisites of this Masterclass for FREE",
