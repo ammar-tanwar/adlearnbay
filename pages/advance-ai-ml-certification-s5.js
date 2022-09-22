@@ -3,7 +3,6 @@ import styles from '../styles/Home.module.css'
 import FirstSection from "../Components/HeroSectionAiMl/HeroSection";
 import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
 import GetHired from "../Components/GetHiredAiMl/GetHired";
-import Domain from "../Components/Domain/Domain";
 import BoxShape from "../Components/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";

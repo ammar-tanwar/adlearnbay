@@ -23,7 +23,7 @@ export default function Document() {
           name="facebook-domain-verification"
           content="xzlsit1skwzpjhylrt0y96nn3nbksu"
         />
-        <script src="https://www.googleoptimize.com/optimize.js?id=OPT-NQHBZ7H"></script>
+        <Script strategy="lazyOnload" src="https://www.googleoptimize.com/optimize.js?id=OPT-NQHBZ7H"></Script>
 
 
         <script 

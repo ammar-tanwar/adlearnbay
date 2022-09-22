@@ -10,7 +10,7 @@ import cookies from "next-cookies"
 // import jsCookie from "js-cookie";
 
 const ThankYou = ({initialName}) => {
-    console.log("data", initialName)
+    // console.log("data", initialName)
 
     const email = JSON.stringify(initialName)
   return (

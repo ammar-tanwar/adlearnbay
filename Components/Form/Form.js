@@ -58,8 +58,10 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
   // setCookie("email", emailData, { path: '/' })
   // jsCookie.set("CARD", emailData, { expires: 14, secure: false });
 
-
+  // -====================  Organic - S END POINT ==========================--------
   let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
+  // -====================  Organic - S END POINT ==========================--------
+
   if (
     router.pathname === "/fssd" ||
     // router.pathname === "/fswd" ||
@@ -70,8 +72,12 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     router.pathname === "/data-science-ai-cert-for-managers-leaders" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai"
   ) {
+      // -====================  Organic - S END POINT ==========================--------
     endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
+      // -====================  Organic - S END POINT ==========================--------
   }
+
+    // -==================== Google - S2 END POINT ==========================--------
   if (
     router.pathname === "/data-science-certification-courses-s2" ||
     router.pathname === "/advance-ai-ml-certification-s2" ||
@@ -134,16 +140,28 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     router.pathname === "/pune/s2-data-analytics"
 
   ) {
+      // -==================== Google - S2 END POINT ==========================--------
     endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
+      // -==================== Google - S2 END POINT ==========================--------
   }
+
+  // -==================== Facebook - S3 END POINT ==========================--------
+
   if (
     router.pathname === "/data-science-certification-courses-s3" ||
     router.pathname === "/advance-ai-ml-certification-s3" ||
     router.pathname === "/data-science-ai-cert-for-managers-leaders-s3" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s3"
   ) {
+      // -==================== Facebook - S3 END POINT ==========================--------
     endPoint = "https://getform.io/f/a876146f-2c5d-4a1f-b177-f993db3d7aaf";
+
+      // -==================== Facebook - S3 END POINT ==========================--------
   }
+
+
+    // -==================== Quora - S4 END POINT ==========================--------
+
   if (
     router.pathname === "/data-science-certification-courses-s4" ||
     router.pathname === "/advance-ai-ml-certification-s4" ||
@@ -152,8 +170,13 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     router.pathname === "/apply-for-counselling-s4" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s4"
   ) {
+      // -==================== Quora - S4 END POINT ==========================--------
     endPoint = "https://getform.io/f/1cfd5db8-ec05-4d26-b05f-6b73a81ebf89";
+      // -==================== Quora - S4 END POINT ==========================--------
   }
+
+
+  // -==================== Data Science Display Ads  END POINT ==========================--------
   if (
     router.pathname === "/data-science-certification-courses-sd" ||
     router.pathname === "/advance-ai-ml-certification-sd" ||
@@ -172,24 +195,45 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     router.pathname === "/data-science-ai-cert-for-managers-leaders-s4d" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s4d"
   ) {
+      // -==================== Data Science Display Ads  END POINT ==========================--------
     endPoint = "https://getform.io/f/773095f3-b69e-4071-9ffb-b2d6c6261891";
+      // -==================== Data Science Display Ads  END POINT ==========================--------
   }
+
+
+
+    // -==================== Transactional - S5  END POINT ==========================--------
+
   if (
     router.pathname === "/data-science-certification-courses-s5" ||
     router.pathname === "/advance-ai-ml-certification-s5" ||
     router.pathname === "/data-science-ai-cert-for-managers-leaders-s5" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s5"
   ) {
+
+      // -==================== Transactional - S5 END POINT ==========================--------
     endPoint = "https://getform.io/f/9c5b2164-1f56-4150-ad53-7944d6fe4363";
+      // -==================== Transactional - S5 END POINT ==========================--------
   }
+
+
+
+    // -====================  Returning Audience - S6 END POINT ==========================--------
+
   if (
     router.pathname === "/data-science-certification-courses-s6" ||
     router.pathname === "/advance-ai-ml-certification-s6" ||
     router.pathname === "/data-science-ai-cert-for-managers-leaders-s6" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s6"
   ) {
+      // -====================  Returning Audience - S6 END POINT ==========================--------
     endPoint = "https://getform.io/f/1c8cf486-31ef-4a7f-95b0-45c5f21e7b29";
+      // -====================  Returning Audience - S6 END POINT ==========================--------
   }
+
+
+  // -====================  LinkedIn - S7 END POINT ==========================--------
+
   if (
     router.pathname === "/data-science-certification-courses-s7" ||
     router.pathname === "/advance-ai-ml-certification-s7" ||
@@ -198,15 +242,26 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     router.pathname === "/apply-for-counselling" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s7"
   ) {
+      // -====================  LinkedIn - S7 END POINT ==========================--------
     endPoint = "https://getform.io/f/a0a0fb5b-0cba-4b29-9d35-03c35d0e0d28";
+      // -====================  LinkedIn - S7 END POINT ==========================--------
   }
+
+
+    // -====================  Website Learnbay END POINT ==========================--------
+
   if (
     router.pathname === "/full-stack-software-development-program" ||
     router.pathname === "/full-stack-web-development-program" ||
     router.pathname === "/dsa-system-design"
   ) {
+      // -====================  Website Learnbay END POINT ==========================--------
     endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
+      // -====================  Website Learnbay END POINT ==========================--------
   }
+
+
+    // -==================== FSD - Ads  END POINT ==========================--------
   if (
     router.pathname === "/fssd-s2" ||
     router.pathname === "/fssd-s4" ||
@@ -219,22 +274,35 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     router.pathname === "/apply-for-counselling-fsd-s2" ||
     router.pathname === "/dsa-s5"
   ) {
+
+      // -====================  FSD - Ads END POINT ==========================--------
     endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
+
+      // -====================  FSD - Ads END POINT ==========================--------
   }
+
+
+
+    // -==================== Offer Campaign END POINT ==========================--------
   if (
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s8" ||
     router.pathname === "/data-science-certification-courses-s10" ||
+    router.pathname === "/apply-for-counselling-s3" ||
     router.pathname === "/dsa-s3" ||
     router.pathname === "/fssd-s3"
   ) {
+      // -==================== Offer Campaign END POINT ==========================--------
     endPoint = "https://getform.io/f/fd68bf82-a911-435e-9719-7c134a89a731";
-  }
-  if (router.pathname === "/apply-for-counselling-s3") {
-    endPoint = "https://getform.io/f/fd68bf82-a911-435e-9719-7c134a89a731";
+      // -==================== Offer Campaign END POINT ==========================--------
   }
 
+
+    // -==================== Webinar = END POINT ==========================--------
   if (event) {
+
+      // -==================== Webinar =  END POINT ==========================--------
     endPoint = "https://getform.io/f/df003555-86c7-4ae5-a7f8-98c21dd9ad92";
+      // -==================== Webinar = END POINT ==========================--------
   }
 
   let btnTxt = "Apply for  Counseliing"
