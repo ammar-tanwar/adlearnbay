@@ -101,6 +101,7 @@
   position: absolute;
   margin-top: -40px;
   box-shadow: -1px 0px 10px 2px rgba(4, 135, 217, 0.1);
+  text-align: left;
 }
 .courseImg {
   width: 100%;
