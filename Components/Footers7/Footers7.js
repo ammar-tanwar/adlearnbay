@@ -1,4 +1,4 @@
-import styles from "../Footer/Footer.module.css";
+import styles from "../Footers7/Footers7.module.css";
 import { IoMailSharp } from "react-icons/io5";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import Link from "next/link";

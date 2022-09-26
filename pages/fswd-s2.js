@@ -19,6 +19,7 @@ import BoxShape1 from "../Components/CoursePage/BoxshapeFssd/BoxShape";
 import React, { useState } from "react";
 import Batch from "../Components/CoursePage/BatchDetails/Batch";
 
+
 export default function Home() {
     const [popups, setPopups] = useState(false);
 
@@ -34,8 +35,8 @@ export default function Home() {
                 <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
 
                 <script
-          dangerouslySetInnerHTML={{
-            __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
+                    dangerouslySetInnerHTML={{
+                        __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
             var s = document.createElement('script');
             s.type = 'text/javascript';
             s.async = true;
@@ -69,8 +70,8 @@ export default function Home() {
             };
             var x = document.getElementsByTagName('script')[0];
             x.parentNode.insertBefore(s, x);`,
-          }}
-        />
+                    }}
+                />
             </Head>
             <main>  <Navbar popup={true} />
 
@@ -83,44 +84,44 @@ export default function Home() {
                         <Form popup={true} setTrigger={setPopups} />
                     </div>
                 </Popup>
-          
+
                 <FirstSection
-                deskTopPara={FullStackWebCourseData[0].FirstSection.deskTopPara}
-                mTopPara={FullStackWebCourseData[0].FirstSection.mTopPara}
-                mTitle={FullStackWebCourseData[0].FirstSection.mTitle}
-                spanMTitleText={FullStackWebCourseData[0].FirstSection.spanMTitleText}
-                title={FullStackWebCourseData[0].FirstSection.title}
-                spanTitleText={FullStackWebCourseData[0].FirstSection.spanTitleText}
-                desc={FullStackWebCourseData[0].FirstSection.desc}
-                src={FullStackWebCourseData[0].FirstSection.src}
-                width={FullStackWebCourseData[0].FirstSection.width}
-                height={FullStackWebCourseData[0].FirstSection.height}
-                alt={FullStackWebCourseData[0].FirstSection.alt}
-                srcD={FullStackWebCourseData[0].FirstSection.srcD}
+                    deskTopPara={FullStackWebCourseData[0].FirstSection.deskTopPara}
+                    mTopPara={FullStackWebCourseData[0].FirstSection.mTopPara}
+                    mTitle={FullStackWebCourseData[0].FirstSection.mTitle}
+                    spanMTitleText={FullStackWebCourseData[0].FirstSection.spanMTitleText}
+                    title={FullStackWebCourseData[0].FirstSection.title}
+                    spanTitleText={FullStackWebCourseData[0].FirstSection.spanTitleText}
+                    desc={FullStackWebCourseData[0].FirstSection.desc}
+                    src={FullStackWebCourseData[0].FirstSection.src}
+                    width={FullStackWebCourseData[0].FirstSection.width}
+                    height={FullStackWebCourseData[0].FirstSection.height}
+                    alt={FullStackWebCourseData[0].FirstSection.alt}
+                    srcD={FullStackWebCourseData[0].FirstSection.srcD}
                 />
                 <div className={styles.program}>
                     <ProgramInfo
-                    p1={FullStackWebCourseData[0].ProgramInfo.p1}
-                    p11={FullStackWebCourseData[0].ProgramInfo.p11}
-                    p2={FullStackWebCourseData[0].ProgramInfo.p2}
-                    p22={FullStackWebCourseData[0].ProgramInfo.p22}
-                    p3={FullStackWebCourseData[0].ProgramInfo.p3}
-                    p33={FullStackWebCourseData[0].ProgramInfo.p33}
-                    p4={FullStackWebCourseData[0].ProgramInfo.p4}
-                    p44={FullStackWebCourseData[0].ProgramInfo.p44}
+                        p1={FullStackWebCourseData[0].ProgramInfo.p1}
+                        p11={FullStackWebCourseData[0].ProgramInfo.p11}
+                        p2={FullStackWebCourseData[0].ProgramInfo.p2}
+                        p22={FullStackWebCourseData[0].ProgramInfo.p22}
+                        p3={FullStackWebCourseData[0].ProgramInfo.p3}
+                        p33={FullStackWebCourseData[0].ProgramInfo.p33}
+                        p4={FullStackWebCourseData[0].ProgramInfo.p4}
+                        p44={FullStackWebCourseData[0].ProgramInfo.p44}
                     />
                 </div>
                 <div className="Feature" id="Feature">
                     <BoxShape
-                    title={FullStackWebCourseData[0].BoxShape.title}
-                    Box1h5={FullStackWebCourseData[0].BoxShape.Box1h5}
-                    box1desc={FullStackWebCourseData[0].BoxShape.box1desc}
-                    Box2h5={FullStackWebCourseData[0].BoxShape.Box2h5}
-                    box2desc={FullStackWebCourseData[0].BoxShape.box2desc}
-                    Box3h5={FullStackWebCourseData[0].BoxShape.Box3h5}
-                    box3desc={FullStackWebCourseData[0].BoxShape.box3desc}
-                    Box4h5={FullStackWebCourseData[0].BoxShape.Box4h5}
-                    box4desc={FullStackWebCourseData[0].BoxShape.box4desc}
+                        title={FullStackWebCourseData[0].BoxShape.title}
+                        Box1h5={FullStackWebCourseData[0].BoxShape.Box1h5}
+                        box1desc={FullStackWebCourseData[0].BoxShape.box1desc}
+                        Box2h5={FullStackWebCourseData[0].BoxShape.Box2h5}
+                        box2desc={FullStackWebCourseData[0].BoxShape.box2desc}
+                        Box3h5={FullStackWebCourseData[0].BoxShape.Box3h5}
+                        box3desc={FullStackWebCourseData[0].BoxShape.box3desc}
+                        Box4h5={FullStackWebCourseData[0].BoxShape.Box4h5}
+                        box4desc={FullStackWebCourseData[0].BoxShape.box4desc}
                         Box5h5={FullStackWebCourseData[0].BoxShape.Box5h5}
                         box5desc={FullStackWebCourseData[0].BoxShape.box5desc}
                         Box6h5={FullStackWebCourseData[0].BoxShape.Box6h5}
@@ -180,11 +181,11 @@ export default function Home() {
                     img20={FullStackWebCourseData[0].OurExpert.img20}
                 />
                 <ProgramFee Fee={FullStackWebCourseData[0].ProgramFee.Fee} Emi={FullStackWebCourseData[0].ProgramFee.Emi}
-                CourseFeeAndFinancing={FullStackWebCourseData[0].ProgramFee.CourseFeeAndFinancing}
+                    CourseFeeAndFinancing={FullStackWebCourseData[0].ProgramFee.CourseFeeAndFinancing}
 
                 />
                 <div className={styles.ProjectWrapper} id="project">
-                    <Project project={FullStackWebCourseData[0].Project.project} domain={FullStackWebCourseData[0].Project.domain}  />
+                    <Project project={FullStackWebCourseData[0].Project.project} domain={FullStackWebCourseData[0].Project.domain} />
                 </div>
                 <Batch
                     syllabusDesc={FullStackWebCourseData[0].syllabusDesc}
