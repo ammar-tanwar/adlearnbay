@@ -297,6 +297,16 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
   }
 
 
+      // -==================== Marketing ==========================--------
+      if (
+        router.pathname === "/apply-for-counselling-marketing"
+      ) {
+          // -==================== Marketing ==========================--------
+        endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
+          // -==================== Marketing ==========================--------
+      }
+
+
     // -==================== Webinar = END POINT ==========================--------
   if (event) {
 
@@ -555,7 +565,8 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
       router.pathname === "/s2-artificial-intelligence" ||
       router.pathname === "/apply-for-counselling-s2" ||
       router.pathname === "/apply-for-counselling-s4" ||
-      router.pathname === "/apply-for-counselling-data-science"
+      router.pathname === "/apply-for-counselling-data-science" ||
+      router.pathname === "/apply-for-counselling-marketing"
     ) {
       router.push("/Thank-you");
       // router.push(`/Thank-you?email=${query.email}`);
