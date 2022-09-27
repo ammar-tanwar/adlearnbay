@@ -45,7 +45,7 @@ export default function DataScienceEvent({ eventData }) {
         <div>
           <div className={styles.left}>
             <div className={styles.prgrmFeature} >
-              <EventFeature
+              <EventFeature event={true}
                 props={eventData.data.eventDeatureData}
                 title={eventData.data.feature.title}
                 h1={eventData.data.feature.h1}

@@ -6,7 +6,7 @@ import Popup from "../../Popup/Popup";
 import { FaArrowRight, FaChevronDown, FaChevronUp } from "react-icons/fa";
 import Form from "../Form/Form";
 
-const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3, props }) => {
+const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3, props, event }) => {
 
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
@@ -28,7 +28,7 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3, props }
         <div className="RightPopup">
           <h5> Register NOW! </h5>
           {/* <p>Fill the below details to get started</p> */}
-          <Form popup={true} setTrigger={setPopups} />
+          <Form popup={true} setTrigger={setPopups} event={true}/>
         </div>
       </Popup>
       <div className={styles.topicHead}>
