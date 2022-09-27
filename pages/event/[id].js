@@ -25,7 +25,7 @@ export default function DataScienceEvent({ eventData }) {
       setMobile(false);
     }
   }, [mobile]);
-
+  
   return (
     <div className={styles.container}>
       <Head>
@@ -46,7 +46,7 @@ export default function DataScienceEvent({ eventData }) {
           <div className={styles.left}>
             <div className={styles.prgrmFeature} >
               <EventFeature
-                props={demo}
+                props={eventData.data.eventDeatureData}
                 title={eventData.data.feature.title}
                 h1={eventData.data.feature.h1}
                 h2={eventData.data.feature.h2}
