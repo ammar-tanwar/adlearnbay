@@ -92,7 +92,7 @@ export default function Home() {
       </div>
       <Course radio={true} />
       <KeyFeatures />
-      <WhyLearnbay />
+      <WhyLearnbay radio={true}/>
       <MultiTabs />
       <FormSection dataScience={true} />
       <CareerImpactHome />

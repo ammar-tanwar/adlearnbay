@@ -25,7 +25,7 @@ const WhyLearnbay = () => {
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
          
-          <Form setTrigger={setPopups} />
+          <Form setTrigger={setPopups} radio={true} />
         </div>
       </Popup>
       <h4>Why Learnbay?</h4>

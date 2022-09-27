@@ -121,8 +121,6 @@ const Footer = () => {
             <p className={styles.FooterInnerli}>artificial intelligence AI course training Canada</p>
         </div>
       </div>
-      
-
       <div className={styles.FooterDiv}>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Bangalore</p>

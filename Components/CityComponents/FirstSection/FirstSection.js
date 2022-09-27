@@ -1,11 +1,8 @@
 import React, { useEffect, useState } from "react";
 import styles from "./FirstSection.module.css";
-import Image from "next/image";
 import "swiper/css";
 import "swiper/css/navigation";
 import { FaArrowRight, FaDownload } from "react-icons/fa";
-import Popup from "/Components/Popup/Popup";
-import Form from "/Components/Form/Form";
 
 
 export const FirstSection = () => {
@@ -36,12 +33,32 @@ export const FirstSection = () => {
   return (
     <section className={styles.wrapper}>
       <div className={styles.container}>
-            <h2>Background Image</h2>
-            <p>In this example, the background image is specified for the div element.</p>
-            <p>But you can specify the background image for any HTML element.</p>
-            <p>Try it for a paragraph, heading, and more.</p>
+      <div className={styles.leftDiv}>       
+       <h2>Data Scinece Course In Bangalore</h2>
+       <p>Data science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract or extrapolate knowledge and insights from noisy, structured and unstructured data, and apply knowledge from data across a broad range of application domains.</p>
+       <div className={styles.hiringpartners}>
+       
+       <div className={styles.verticalLine} >
+       <h1>3000+</h1>
+       <p>Learn Of Data Science</p>
+       </div>
+       
+       <div >
+       <h1>250+</h1>
+       <p>Hiring Partners</p>
+       </div>
+       </div>
+       
+       <button >
+       Apply for Counselling
+       <FaArrowRight style={{ marginLeft: "10px" }} />
+        </button>
         </div>
-        
+
+        <div className={styles.rightDiv}>
+        <h2>Hello Raghav</h2>
+        </div>
+        </div>
     </section>
   );
 };
