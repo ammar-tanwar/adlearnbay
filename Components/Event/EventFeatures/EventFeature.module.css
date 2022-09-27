@@ -43,6 +43,11 @@
   overflow: hidden;
   z-index: -1;
 }
+.topicHead h1{
+  font-size: 30px;
+}
+
+
 
 .eLeft h6,
 .eMiddle h6,
@@ -54,7 +59,7 @@
   margin-bottom: 5px;
   z-index: 1;
 }
-.eLeft p,
+.eLeft p, 
 .eMiddle p,
 .eRight p {
   margin: 0;
@@ -93,6 +98,11 @@
     height: 120px;
     width: 90%;
   }
+
+  .topicHead h1{
+    font-size: 34px;
+  }
+
   .eMiddle {
     background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Live-Classes-mobile.png");
     width: 100%;

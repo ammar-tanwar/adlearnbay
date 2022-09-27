@@ -31,7 +31,7 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3, props }
           <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
-      <div >
+      <div className={styles.topicHead}>
         <h1>{props.Heading}</h1>
         <div>
           <span>
@@ -71,6 +71,7 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3, props }
           <li>{props.paragraph24}</li>
           <li>{props.paragraph4}</li>
           <li>{props.paragraph5}</li>
+          <li>{props.paragraph5_1}</li>
           </ul>
       </div>
 
@@ -81,10 +82,7 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3, props }
           <li>{props.paragraph6}</li>
           <li>{props.paragraph7}</li>
           <li>{props.paragraph8}</li>
-          <li>{props.paragraph6_1}</li>
-          <li>{props.paragraph7_1}</li>
-          <li>{props.paragraph8_1}</li>
-          <li>{props.paragraph8_2}</li>
+    
           </ul>
         
       </div>
@@ -206,3 +204,12 @@ export default EventFeature;
 //           <div><p><b>{props.paragraph13}</b></p></div>
 //         </div>
 //       </div>
+
+
+
+
+
+// <li>{props.paragraph6_1}</li>
+//           <li>{props.paragraph7_1}</li>
+//           <li>{props.paragraph8_1}</li>
+//           <li>{props.paragraph8_2}</li>

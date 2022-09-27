@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Counseling.module.css'
-import {React,useState} from 'react'
+import {React, useState, useEffect} from 'react'
 import Navbar from "../Components/NavbarA/Navbar";
 import Footer from "../Components/CoursePage/Footer/Footer";
 import Form from "../Components/Form/Form";
@@ -8,6 +8,17 @@ import { FaArrowDown, FaArrowUp } from "react-icons/fa";
 import { MdWatchLater, MdLocationPin } from "react-icons/md";
 function demo() {
 
+    const [mobile, setMobile] = useState(false);
+    useEffect(() => {
+        let width = window.innerWidth;
+    
+        if (width < 481) {
+          setMobile(true);
+        }
+        if (width > 481) {
+          setMobile(false);
+        }
+      }, [mobile]);
     const [showMe, setShowMe] = useState(false);
     function toggle(){
       setShowMe(!showMe);
@@ -58,7 +69,9 @@ function demo() {
                 />
             </Head>
             <Navbar radio={true} />
-            <div className={styles.formq}>
+
+            {mobile? (
+                <div className={styles.formq}>
                 <div className={styles.forml}>
                     <div className={styles.div1}>LEARNBAY</div>
                     <h1>Free Profile Review and Career Counseling | By Experts</h1>
@@ -114,11 +127,46 @@ function demo() {
 
                 </div>
 
-            
                 <div className={styles.formr}>
                     <Form />
                 </div>
             </div>
+            ):(
+
+                <div className={styles.formq}>
+                <div className={styles.forml}>
+                    <div className={styles.div1}>LEARNBAY</div>
+                    <h1>Free Profile Review and Career Counseling | By Experts</h1>
+                    <div className={styles.timeDetail}>
+                        <p><MdWatchLater /> 15-20 &nbsp; Mins</p>
+                        <p> <MdLocationPin />Telephonic Discussion</p>
+                    </div>
+
+                    <div>
+                        <p>Book a session with a career counsellor or course advisor to go through your requirements in further detail.</p>
+                        <p><strong>TOPICS COVERED IN DISCUSSION:</strong></p>
+                        <ul>
+                            <li>Can a candidate from the non-programming and non-technical domain learn data science?</li>
+                            <li>Will your previous domain experience utilized?</li>
+                            <li>Course Curriculum</li>
+                            <li>Real-Time Projects List</li>
+                            <li>How to change the domain and whether your profile is suitable for data science?</li>
+                            <li>Career Options in the data science domain</li>
+                            <li>Placement Assistance and Job referrals </li>
+                            </ul>
+                        <p><strong>Minimum Duration:</strong>&nbsp;15 to 20 minutes.</p>
+                        <p>Your queries and doubts will be answered through this session with a professional.</p>
+                        <p>Thanks,</p>
+                        <p><strong>Team Learnbay</strong></p>
+                        </div>
+                </div>
+
+                <div className={styles.formr}>
+                    <Form />
+                </div>
+            </div>
+            )}
+            
             <Footer />
         </div>
     )
