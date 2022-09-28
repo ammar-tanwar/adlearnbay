@@ -34,16 +34,16 @@ export const DataScienceCourseData = [
       box3desc: "Get professionally trained from MAANG and MNC experts",
       Box4h5: "Crafted for professional",
       box4desc: "Prioritize growth and salary hike with in-demand skillset",
-      headh5:"Watch our alumni’s making successful Data Science career transition",
+      headh5: "Watch our alumni’s making successful Data Science career transition",
     },
     syllabusDesc:
       "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Data Science Course sessions are covered practically with real-time industrial projects and case studies.",
     popupHead: "Download Brochure",
     hours: "250+ Hours",
     project: "12+ Real Time",
-    CSyllabus:"Data Science Course Syllabus",
-    CourseHighlights:"Data Science Course Highlights",
-    
+    CSyllabus: "Data Science Course Syllabus",
+    CourseHighlights: "Data Science Course Highlights",
+
 
     syllabus: [
       {
@@ -287,7 +287,7 @@ export const DataScienceCourseData = [
       desc: " Learnbay’s Advanced Data Science and AI course with real-work experience is designed for creative minds and made for everyone. Take our data science training and experience the new era of education.",
     },
     OurExpert: {
-      H5:"Data Science Tools Covered",
+      H5: "Data Science Tools Covered",
       img1: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png",
       img2: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png",
       img3: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png",
@@ -315,14 +315,14 @@ export const DataScienceCourseData = [
     ProgramFee: {
       Fee: "₹85,000 + GST",
       Emi: "₹ 8,358/month",
-      CourseFeeAndFinancing:"Data Science Course Fee & Financing",
-      para:"We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Science Certification Course and offer avariety of financing options to make it more economical.",
+      CourseFeeAndFinancing: "Data Science Course Fee & Financing",
+      para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Science Certification Course and offer avariety of financing options to make it more economical.",
     },
     Project: {
       popupHead: "Download Project Brochure",
       project: "12+ Projects",
       domain: "7+",
-      projectTitle:"Hands-on Projects"
+      projectTitle: "Hands-on Projects"
     },
     CourseFees: {
       CourseFeeHead: "Data Science Course : Batch Details",
@@ -333,7 +333,8 @@ export const DataScienceCourseData = [
       CourseFeelist4: "Multiple Domain Selection Options",
       CourseFeelist5: "Company-based Mock Interviews",
     },
-   
+
+
     Batch: [
       {
         Module0: {
@@ -343,19 +344,19 @@ export const DataScienceCourseData = [
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 18th September 2022",
+                  "Date : 9th October 2022",
                   "Time : 8:30 a.m. to 12:00 p.m.",
-  
+
                 ],
               },
             },
-  
+
           ],
           id: 0,
           open: true,
         },
       },
-  
+
       {
         Module0: {
           title: "Weekday Batch  :- (Mon-Fri)",
@@ -364,18 +365,47 @@ export const DataScienceCourseData = [
               chap: {
                 title: "Weekday Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 16th September 2022",
+                  "Date : 14th October 2022",
                   "Time : 8 a.m. to 10 a.m.",
                 ],
               },
             },
-           
+            {
+              chap: {
+                title: "Weekday Batch 2 :- Date And time ",
+                desc: [
+                  "Date : 14th October 2022",
+                  "Time : 8 p.m. to 10 p.m.",
+                ],
+              },
+            },
+
           ],
           id: 1,
           open: false,
         },
       },
+      // {
+      //   Module0: {
+      //     title: "Weekday Batch  :- (Mon-Fri)",
+      //     content: [
+      //       {
+      //         chap: {
+      //           title: "Weekday Batch 1 :- Date And time ",
+      //           desc: [
+      //             "Date : 14th October 2022",
+      //             "Time : 8 p.m. to 10 p.m.",
+      //           ],
+      //         },
+      //       },
+
+      //     ],
+      //     id: 1,
+      //     open: false,
+      //   },
+      // },
     ],
+
 
     BatchCourses: {
       CourseFeeHead: "Data Science Course : Batch Details",

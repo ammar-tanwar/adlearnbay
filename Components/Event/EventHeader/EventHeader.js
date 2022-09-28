@@ -4,12 +4,13 @@ import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import { FaArrowRight } from "react-icons/fa";
 import Image from "next/image";
-export const EventHeader = () => {
 
+export const EventHeader = ({deskimg, mobimg}) => {
+  // console.log(deskimg)
   const [mobile, setMobile] = useState(false);
   const [popups, setPopups] = useState(false);
   let today = new Date();
- 
+
   const popupShow = () => {
     setPopups(true);
   };
@@ -24,27 +25,30 @@ export const EventHeader = () => {
     }
   }, [mobile]);
   return (
-    <section className={styles.wrapper}>
-    { mobile ? (
-      <img
-      src="/Mobile.jpg"
-      alt="Learnbay"
-      quality={100}
-      
-      width="100%"
-      height="400px"
-    />
-    ):(
-       <img
-      src="/Wesite.jpg"
-      alt="Learnbay"
-      quality={100}
-     
-      width="100%"
-      height="500px"
-    />
-    )}
-    </section>
+    <div>
+      <section className={styles.wrapper}>
+        {mobile ? (
+          <img
+            src={mobimg}
+            alt="Learnbay"
+            quality={100}
+
+            width="100%"
+            height="400px"
+          />
+        ) : (
+          <img
+            src={deskimg}
+            alt="Learnbay"
+            quality={100}
+            width="100%"
+            height="500px"
+          />
+        )}
+      </section>
+    </div>
   );
 };
 
+// /Mobile.jpg
+// /Wesite.jpg

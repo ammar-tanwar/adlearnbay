@@ -334,6 +334,7 @@ export const DataScienceCourseData = [
       CourseFeelist5: "Company-based Mock Interviews",
     },
    
+    
     Batch: [
       {
         Module0: {
@@ -343,7 +344,7 @@ export const DataScienceCourseData = [
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 18th September 2022",
+                  "Date : 9th October 2022",
                   "Time : 8:30 a.m. to 12:00 p.m.",
   
                 ],
@@ -364,8 +365,17 @@ export const DataScienceCourseData = [
               chap: {
                 title: "Weekday Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 16th September 2022",
+                  "Date : 14th October 2022",
                   "Time : 8 a.m. to 10 a.m.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Weekday Batch 2 :- Date And time ",
+                desc: [
+                  "Date : 14th October 2022",
+                  "Time : 8 p.m. to 10 p.m.",
                 ],
               },
             },
@@ -375,7 +385,27 @@ export const DataScienceCourseData = [
           open: false,
         },
       },
+      // {
+      //   Module0: {
+      //     title: "Weekday Batch  :- (Mon-Fri)",
+      //     content: [
+      //       {
+      //         chap: {
+      //           title: "Weekday Batch 1 :- Date And time ",
+      //           desc: [
+      //             "Date : 14th October 2022",
+      //             "Time : 8 p.m. to 10 p.m.",
+      //           ],
+      //         },
+      //       },
+           
+      //     ],
+      //     id: 1,
+      //     open: false,
+      //   },
+      // },
     ],
+  
 
     BatchCourses: {
       CourseFeeHead: "Data Science Course In Pune : Batch Details",

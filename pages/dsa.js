@@ -19,7 +19,7 @@ import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import CourseReview from "../Components/CoursePage/CourseReviewdsas/CourseReview";
 import DomainFaq from "../Components/CoursePage/DomainFaq/DomainFaq";
 import { DomainFaqCourseData1 } from "../Components/CoursePage/DomainFaq/DOmainFaqData";
-
+import Batch from "../Components/CoursePage/BatchDetails/Batch";
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -86,18 +86,18 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection dataScience={true}
-        deskTopPara="MAANG's Best Interview Preparation Course Trained by Top Experts"
-        mTopPara="MAANG's Best Interview Preparation Course Trained by Top Experts"
-        mTitle="Data Structures & Algorithms"
-        spanMTitleText="Top Experts"
-        title="Data Structures Algorithms & "
-        spanTitleText="System Design Course"
-        desc="Perform real-world industrial projects and use-cases."
-        src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/dsa-header-image.png"
-        width="776"
-        height="682"
-        alt="Full Stack"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf"
+          deskTopPara="MAANG's Best Interview Preparation Course Trained by Top Experts"
+          mTopPara="MAANG's Best Interview Preparation Course Trained by Top Experts"
+          mTitle="Data Structures & Algorithms"
+          spanMTitleText="Top Experts"
+          title="Data Structures Algorithms & "
+          spanTitleText="System Design Course"
+          desc="Perform real-world industrial projects and use-cases."
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/dsa-header-image.png"
+          width="776"
+          height="682"
+          alt="Full Stack"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -114,21 +114,21 @@ export default function Home() {
 
         <div className={styles.Feature} id="Feature">
           <BoxShape
-          title="Why Enroll In DSA & System Design?"
-          Box1h5="Crack MAANG Interview"
-          box1desc="Learn in-depth DSA and crack interviews in product-based MNCs"
-          Box2h5="1:1 Mentorship"
-          box2desc="Guided by mentors working In MNCs to support you for the tech interviews"
-          Box3h5="Practical Project Experience"
-          box3desc="Gain technical expertise by working on challenging real-world projects"
-          Box4h5="250+ Hiring Partners"
-          box4desc="Get dedicated placement support with 100% Interview Guarantee"
+            title="Why Enroll In DSA & System Design?"
+            Box1h5="Crack MAANG Interview"
+            box1desc="Learn in-depth DSA and crack interviews in product-based MNCs"
+            Box2h5="1:1 Mentorship"
+            box2desc="Guided by mentors working In MNCs to support you for the tech interviews"
+            Box3h5="Practical Project Experience"
+            box3desc="Gain technical expertise by working on challenging real-world projects"
+            Box4h5="250+ Hiring Partners"
+            box4desc="Get dedicated placement support with 100% Interview Guarantee"
           />
         </div>
         <DomainFaq FaqData={DomainFaqCourseData1} />
         <CourseReview />
 
-       
+
         <SyllabusNew dataScience={true}
           syllabus={DsaCourseData[0].syllabus}
           syllabusDesc={DsaCourseData[0].syllabusDesc}
@@ -136,8 +136,8 @@ export default function Home() {
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
           hours="200+ Hours"
           project="12+ Real Time"
-        /> 
-        
+        />
+
         <ProgramFee Fee={DsaCourseData[0].ProgramFee.Fee}
           Emi={DsaCourseData[0].ProgramFee.Emi} CourseFeeAndFinancing="Program Fee & Financing"
           para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." dataScience={true} />
@@ -150,16 +150,17 @@ export default function Home() {
             projectTitle={DsaCourseData[0].Project.projectTitle} />
         </div>
 
-        <CourseFee
+        <Batch
           syllabusDesc={DsaCourseData[0].syllabusDesc}
           syllabus={DsaCourseData[0].Batch}
-          CourseFeeHead="Data Structures Algorithms & System Design: Batch Details"
-          CourseFeePara="Online Classroom"
-          CourseFeelist1="Online Interactive Classes"
-          CourseFeelist2="Weekend and Weekday Batches"
-          CourseFeelist3="Extra Doubt Clearance Sessions"
-          CourseFeelist4="Multiple Domain Selection Options"
-          CourseFeelist5="Company-based Mock Interviews"
+
+          CourseFeeHead={DsaCourseData[0].BatchCourses.CourseFeeHead}
+          CourseFeePara={DsaCourseData[0].BatchCourses.CourseFeePara}
+          CourseFeelist1={DsaCourseData[0].BatchCourses.CourseFeelist1}
+          CourseFeelist2={DsaCourseData[0].BatchCourses.CourseFeelist2}
+          CourseFeelist3={DsaCourseData[0].BatchCourses.CourseFeelist3}
+          CourseFeelist4={DsaCourseData[0].BatchCourses.CourseFeelist4}
+          CourseFeelist5={DsaCourseData[0].BatchCourses.CourseFeelist5}
         />
         <LearnSupport />
         <Footer />

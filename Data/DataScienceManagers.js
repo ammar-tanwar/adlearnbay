@@ -342,30 +342,30 @@ export const DsaiManagersCourseData = [
 
 
     OurExpert: {
-      H5:"Data Science Tools Covered",
-      img1:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png",
-      img2:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png",
-      img3:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png",
-      img4:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/4.png",
-      img5:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/5.png",
-      img6:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/6.png",
-      img7:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png",
-      img8:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png",
-      img9:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png",
-      img10:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/10.png",
-      img11:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/11.png",
-      img12:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/12.png",
-      img13:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/13.png",
-      img14:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/14.png",
-      img15:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/15.png",
-      img16:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/16.png",
-      img17:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/17.png",
-      img18:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/18.png",
-      img19:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/19.png",
-      img21:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png",
-      img22:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png",
-      img23:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png",
-      img20:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
+      H5: "Data Science Tools Covered",
+      img1: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png",
+      img2: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png",
+      img3: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png",
+      img4: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/4.png",
+      img5: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/5.png",
+      img6: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/6.png",
+      img7: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png",
+      img8: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png",
+      img9: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png",
+      img10: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/10.png",
+      img11: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/11.png",
+      img12: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/12.png",
+      img13: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/13.png",
+      img14: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/14.png",
+      img15: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/15.png",
+      img16: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/16.png",
+      img17: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/17.png",
+      img18: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/18.png",
+      img19: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/19.png",
+      img21: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png",
+      img22: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png",
+      img23: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png",
+      img20: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
 
 
@@ -391,8 +391,9 @@ export const DsaiManagersCourseData = [
       popupHead: "Download Project Brochure",
       project: "15+ Projects",
       domain: "7+",
-      projectTitle:"Hands-on Projects"
+      projectTitle: "Hands-on Projects"
     },
+
     Batch: [
       {
         Module0: {
@@ -402,19 +403,19 @@ export const DsaiManagersCourseData = [
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 18th September 2022",
+                  "Date : 9th October 2022",
                   "Time : 8:30 a.m. to 12:00 p.m.",
-  
+
                 ],
               },
             },
-  
+
           ],
           id: 0,
           open: true,
         },
       },
-  
+
       {
         Module0: {
           title: "Weekday Batch  :- (Mon-Fri)",
@@ -423,17 +424,45 @@ export const DsaiManagersCourseData = [
               chap: {
                 title: "Weekday Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 16th September 2022",
+                  "Date : 14th October 2022",
                   "Time : 8 a.m. to 10 a.m.",
                 ],
               },
             },
-           
+            {
+              chap: {
+                title: "Weekday Batch 2 :- Date And time ",
+                desc: [
+                  "Date : 14th October 2022",
+                  "Time : 8 p.m. to 10 p.m.",
+                ],
+              },
+            },
+
           ],
           id: 1,
           open: false,
         },
       },
+      // {
+      //   Module0: {
+      //     title: "Weekday Batch  :- (Mon-Fri)",
+      //     content: [
+      //       {
+      //         chap: {
+      //           title: "Weekday Batch 1 :- Date And time ",
+      //           desc: [
+      //             "Date : 14th October 2022",
+      //             "Time : 8 p.m. to 10 p.m.",
+      //           ],
+      //         },
+      //       },
+
+      //     ],
+      //     id: 1,
+      //     open: false,
+      //   },
+      // },
     ],
 
 

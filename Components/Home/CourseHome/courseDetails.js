@@ -235,7 +235,7 @@ export const ForNonProgrammerD = [
     id: 4,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-with-job-guarantee.webp",
     title: "Data Science & AI with ",
-    title1: "Job Guarantee Program",
+    title1: "100% Placement Assistance Program",
     tag: "Data science",
     para: [
       "500 hours of Interactive Learning",

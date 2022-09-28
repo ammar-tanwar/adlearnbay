@@ -36,7 +36,7 @@ export const DataAnalyticsCourseData = [
       box3desc: "Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts.",
       Box4h5: "Hands-on Experience",
       box4desc: "Get diligent real-world project experience, spanning from beginner’s level complexity, directly from relevant companies.",
-      headh5:"Watch ours alumni’s making successful Data Analytics career transition",
+      headh5: "Watch ours alumni’s making successful Data Analytics career transition",
     },
 
     Certificate: {
@@ -55,9 +55,9 @@ export const DataAnalyticsCourseData = [
     hours: "180+ Hours",
     project: "8+ Real Time",
 
-    CSyllabus:"Data Analytic Course Syllabus",
-    CourseHighlights:" Data Analytic Course Highlights",
-   
+    CSyllabus: "Data Analytic Course Syllabus",
+    CourseHighlights: " Data Analytic Course Highlights",
+
     syllabus: [
       {
         Module0: {
@@ -1146,7 +1146,7 @@ export const DataAnalyticsCourseData = [
     ],
 
     OurExpert: {
-      H5:"Data Analytic Tools Covered",
+      H5: "Data Analytic Tools Covered",
       img1: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png",
       img2: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png",
       img3: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png",
@@ -1176,13 +1176,13 @@ export const DataAnalyticsCourseData = [
     ProgramFee: {
       Emi: "₹ 6,392/month",
       Fee: "₹ 65,000 +GST",
-      CourseFeeAndFinancing:"Data Analytic Course Fee & Financing",
-      para:"We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Analytic Certification Course and offer avariety of financing options to make it more economical.",
+      CourseFeeAndFinancing: "Data Analytic Course Fee & Financing",
+      para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Analytic Certification Course and offer avariety of financing options to make it more economical.",
     },
     Project: {
       project: "8+ Projects",
       domain: "7+",
-      projectTitle:"Hands-on Projects"
+      projectTitle: "Hands-on Projects"
     },
     CourseFee: {
       CourseFeeHead: "Data Analytics Course : Batch Details",
@@ -1203,19 +1203,19 @@ export const DataAnalyticsCourseData = [
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 18th September 2022",
+                  "Date : 9th October 2022",
                   "Time : 8:30 a.m. to 12:00 p.m.",
-  
+
                 ],
               },
             },
-  
+
           ],
           id: 0,
           open: true,
         },
       },
-  
+
       {
         Module0: {
           title: "Weekday Batch  :- (Mon-Fri)",
@@ -1224,19 +1224,48 @@ export const DataAnalyticsCourseData = [
               chap: {
                 title: "Weekday Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 16th September 2022",
+                  "Date : 14th October 2022",
                   "Time : 8 a.m. to 10 a.m.",
                 ],
               },
             },
-           
+            {
+              chap: {
+                title: "Weekday Batch 2 :- Date And time ",
+                desc: [
+                  "Date : 14th October 2022",
+                  "Time : 8 p.m. to 10 p.m.",
+                ],
+              },
+            },
+
           ],
           id: 1,
           open: false,
         },
       },
+      // {
+      //   Module0: {
+      //     title: "Weekday Batch  :- (Mon-Fri)",
+      //     content: [
+      //       {
+      //         chap: {
+      //           title: "Weekday Batch 1 :- Date And time ",
+      //           desc: [
+      //             "Date : 14th October 2022",
+      //             "Time : 8 p.m. to 10 p.m.",
+      //           ],
+      //         },
+      //       },
+
+      //     ],
+      //     id: 1,
+      //     open: false,
+      //   },
+      // },
     ],
-  
+
+
     BatchCourses: {
       CourseFeeHead: "Data Analytics Course : Batch Details",
       CourseFeePara: "Data Analytics Online Classroom",
@@ -1246,8 +1275,8 @@ export const DataAnalyticsCourseData = [
       CourseFeelist4: "Project-Based Learning",
       CourseFeelist5: "Company-based Mock Interviews",
     },
-  
 
-    
+
+
   },
 ];

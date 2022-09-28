@@ -6,6 +6,7 @@ import Footer from "../Components/CoursePage/Footer/Footer";
 import Form from "../Components/Form/Form";
 import { FaArrowDown, FaArrowUp } from "react-icons/fa";
 import { MdWatchLater, MdLocationPin } from "react-icons/md";
+import Script from 'next/script';
 function demo() {
 
     const [mobile, setMobile] = useState(false);
@@ -67,6 +68,24 @@ function demo() {
                 x.parentNode.insertBefore(s, x);`,
                     }}
                 />
+
+                
+      <Script
+      strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=GTM-NN8XWH8`}
+      />
+
+      <Script strategy="lazyOnload">
+        {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'GTM-NN8XWH8', {
+              page_path: window.location.pathname,
+            },);
+                `}
+      </Script>
+      
             </Head>
             <Navbar radio={true} />
 

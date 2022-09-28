@@ -422,48 +422,78 @@ export const AiCourseData = [
   },
 
 
-   Batch: [
-    {
-      Module0: {
-        title: "Weekend Batch :- (Sat - Sun)",
-        content: [
-          {
-            chap: {
-              title: "Batch 1 :- Date And time ",
-              desc: [
-                "Date : 18th September 2022",
-                "Time : 8:30 a.m. to 12:00 p.m.",
-
-              ],
+ 
+    Batch: [
+      {
+        Module0: {
+          title: "Weekend Batch :- (Sat - Sun)",
+          content: [
+            {
+              chap: {
+                title: "Batch 1 :- Date And time ",
+                desc: [
+                  "Date : 9th October 2022",
+                  "Time : 8:30 a.m. to 12:00 p.m.",
+  
+                ],
+              },
             },
-          },
-
-        ],
-        id: 0,
-        open: true,
+  
+          ],
+          id: 0,
+          open: true,
+        },
       },
-    },
-
-    {
-      Module0: {
-        title: "Weekday Batch  :- (Mon-Fri)",
-        content: [
-          {
-            chap: {
-              title: "Weekday Batch 1 :- Date And time ",
-              desc: [
-                "Date : 16th September 2022",
-                "Time : 8 a.m. to 10 a.m.",
-              ],
+  
+      {
+        Module0: {
+          title: "Weekday Batch  :- (Mon-Fri)",
+          content: [
+            {
+              chap: {
+                title: "Weekday Batch 1 :- Date And time ",
+                desc: [
+                  "Date : 14th October 2022",
+                  "Time : 8 a.m. to 10 a.m.",
+                ],
+              },
             },
-          },
-         
-        ],
-        id: 1,
-        open: false,
+            {
+              chap: {
+                title: "Weekday Batch 2 :- Date And time ",
+                desc: [
+                  "Date : 14th October 2022",
+                  "Time : 8 p.m. to 10 p.m.",
+                ],
+              },
+            },
+           
+          ],
+          id: 1,
+          open: false,
+        },
       },
-    },
-  ],
+      // {
+      //   Module0: {
+      //     title: "Weekday Batch  :- (Mon-Fri)",
+      //     content: [
+      //       {
+      //         chap: {
+      //           title: "Weekday Batch 1 :- Date And time ",
+      //           desc: [
+      //             "Date : 14th October 2022",
+      //             "Time : 8 p.m. to 10 p.m.",
+      //           ],
+      //         },
+      //       },
+           
+      //     ],
+      //     id: 1,
+      //     open: false,
+      //   },
+      // },
+    ],
+  
 
   BatchCourses: {
     CourseFeeHead: "Artificial Intelligence Course in Hyderabad : Batch Details",

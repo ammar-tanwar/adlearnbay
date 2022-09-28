@@ -19,7 +19,7 @@ import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import CourseReview from "../Components/CoursePage/CourseReviewdsas/CourseReview";
 import DomainFaq from "../Components/CoursePage/DomainFaq/DomainFaq";
 import { DomainFaqCourseData1 } from "../Components/CoursePage/DomainFaq/DOmainFaqData";
-
+import Batch from "../Components/CoursePage/BatchDetails/Batch";
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -86,7 +86,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection dataScience={true}
-        deskTopPara="Ace Your Coding Interview at MAANG and Achieve Your Dream Job "
+          deskTopPara="Ace Your Coding Interview at MAANG and Achieve Your Dream Job "
           mTopPara="Ace Your Coding Interview at MAANG and Achieve Your Dream Job"
           mTitle="Full Stack Software  "
           spanMTitleText="Development Course"
@@ -96,7 +96,7 @@ export default function Home() {
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course9.png"
           width="791"
           height="659"
-          alt="Full Stack" 
+          alt="Full Stack"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
         />
         <div className={styles.program}>
@@ -114,15 +114,15 @@ export default function Home() {
 
         <div className={styles.Feature} id="Feature">
           <BoxShape
-          title="Why Enroll In Full Stack Software Development Course?"
-          Box1h5="Crack MAANG Interview"
-          box1desc="Learn in-depth DSA and crack interviews in product-based MNCs"
-          Box2h5="1:1 Mentorship"
-          box2desc="Guided by mentors working in MNCs to support you for the tech interviews"
-          Box3h5="Practical Project Experience"
-          box3desc="Gain technical expertise by working on challenging real-world projects"
-          Box4h5="Domain Specialization"
-          box4desc="Choose Domain electives on your work experience and work on Live Projects"
+            title="Why Enroll In Full Stack Software Development Course?"
+            Box1h5="Crack MAANG Interview"
+            box1desc="Learn in-depth DSA and crack interviews in product-based MNCs"
+            Box2h5="1:1 Mentorship"
+            box2desc="Guided by mentors working in MNCs to support you for the tech interviews"
+            Box3h5="Practical Project Experience"
+            box3desc="Gain technical expertise by working on challenging real-world projects"
+            Box4h5="Domain Specialization"
+            box4desc="Choose Domain electives on your work experience and work on Live Projects"
           />
         </div>
         <DomainFaq FaqData={DomainFaqCourseData1} />
@@ -148,17 +148,19 @@ export default function Home() {
             projectTitle={FullStackSoftwareCourseData[0].Project.projectTitle} />
         </div>
 
-        <CourseFee
+        <Batch
           syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
           syllabus={FullStackSoftwareCourseData[0].Batch}
-          CourseFeeHead="Full Stack Software Development Course: Batch Details"
-          CourseFeePara="Online Classroom"
-          CourseFeelist1="Online Interactive Classes"
-          CourseFeelist2="Weekend and Weekday Batches"
-          CourseFeelist3="Extra Doubt Clearance Sessions"
-          CourseFeelist4="Multiple Domain Selection Options"
-          CourseFeelist5="Company-based Mock Interviews"
+          CourseFeeHead={FullStackSoftwareCourseData[0].BatchCourses.CourseFeeHead}
+          CourseFeePara={FullStackSoftwareCourseData[0].BatchCourses.CourseFeePara}
+          CourseFeelist1={FullStackSoftwareCourseData[0].BatchCourses.CourseFeelist1}
+          CourseFeelist2={FullStackSoftwareCourseData[0].BatchCourses.CourseFeelist2}
+          CourseFeelist3={FullStackSoftwareCourseData[0].BatchCourses.CourseFeelist3}
+          CourseFeelist4={FullStackSoftwareCourseData[0].BatchCourses.CourseFeelist4}
+          CourseFeelist5={FullStackSoftwareCourseData[0].BatchCourses.CourseFeelist5}
         />
+
+
         <LearnSupport />
         <Footer />
       </main>

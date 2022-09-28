@@ -8,7 +8,8 @@ import EventFeature from "../../Components/Event/EventFeatures/EventFeature";
 import { getAllPostIds, getPostData } from "../../lib/event";
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Event/EventFooter/Footer"
-import { demo } from "../../Data/demo";
+
+
 export default function DataScienceEvent({ eventData }) {
   const [mobile, setMobile] = useState(false);
 
@@ -36,9 +37,12 @@ export default function DataScienceEvent({ eventData }) {
       </Head>
       <Navbar event={true} />
       <div>
-        <EventHeader />
+        <EventHeader
+        deskimg={eventData.data.headImg.deskimg}
+        mobimg={eventData.data.headImg.mobimg}
+        />
       </div>
-
+ 
 
       <div className={today >= eventDateInfo ? styles.Pages : styles.Page2}>
 
@@ -95,6 +99,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const eventData = getPostData(params.id);
+  // console.log(eventData.data.headImg.deskimg)
   return {
     props: {
       eventData,

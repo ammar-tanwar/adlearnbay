@@ -161,7 +161,6 @@ export default function Home() {
                 <Batch
                     syllabusDesc={DsaCourseData[0].syllabusDesc}
                     syllabus={DsaCourseData[0].Batch}
-
                     CourseFeeHead={DsaCourseData[0].BatchCourses.CourseFeeHead}
                     CourseFeePara={DsaCourseData[0].BatchCourses.CourseFeePara}
                     CourseFeelist1={DsaCourseData[0].BatchCourses.CourseFeelist1}

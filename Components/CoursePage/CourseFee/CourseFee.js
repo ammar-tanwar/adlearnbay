@@ -155,15 +155,16 @@ function CourseFee({
                   <p className={styles.list}><AiOutlineBars className={styles.icon} /><b>Batch Type</b></p>
                   <p className={styles.list}>Weekend Batch (Sat-Sun)</p>
                   <p className={styles.list}>Weekday Batch (Mon-Fri)</p>
+                  <p className={styles.list}>Weekday Batch (Mon-Fri)</p>
                   
                 </div>
               </div>
               <div>
                 <div className={styles.BatchDetails}>
                   <p className={styles.list}><MdDateRange className={styles.icon} /><b>Date</b></p>
-                  <p className={styles.list}>18th September 2022</p>
-                      <p className={styles.list}>16th September 2022</p>
-                    
+                  <p className={styles.list}>9th October 2022</p>
+                      <p className={styles.list}>14th October 2022</p>
+                      <p className={styles.list}>14th October 2022</p>
 
                 </div>
               </div> 
@@ -172,7 +173,7 @@ function CourseFee({
                   <p className={styles.list}><BiTimeFive className={styles.icon} /><b>Time</b></p>
                   <p className={styles.list}>8:30 a.m. to 12:00 p.m.</p>
                   <p className={styles.list}>8 a.m. to 10 a.m.</p>
-                      
+                  <p className={styles.list}>8 p.m. to 10 p.m.</p>
                       
                 </div>
               </div>

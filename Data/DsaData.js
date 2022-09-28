@@ -34,7 +34,7 @@ export const DsaCourseData = [
       box3desc: "Gain technical expertise by working on challenging real-world projects",
       Box4h5: "250+ Hiring Partners",
       box4desc: "Get dedicated placement support with 100% Interview Guarantee",
-      headh5:"Our proud alumni with successfull DSA and System Design career transition"
+      headh5: "Our proud alumni with successfull DSA and System Design career transition"
     },
 
     BoxShape1: {
@@ -205,7 +205,7 @@ export const DsaCourseData = [
     Project: {
       project: "12+ Projects",
       domain: "7+",
-      projectTitle:"Hands-on Projects"
+      projectTitle: "Hands-on Projects"
     },
 
     Batch: [
@@ -217,23 +217,23 @@ export const DsaCourseData = [
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 4th September 2022",
-                  "Time :  08 a.m to 12 p.m.",
+                  "Date : 15th October 2022",
+                  "Time :  08:30 a.m to 12 p.m.",
 
                 ],
               },
             },
-            {
-              chap: {
-                title: "Batch 2 :- Date And time ",
-                desc: [
-                  "Date : 25th September 2022",
-                  "Time : 12:30 p.m to 04:00 p.m.",
-  ,
+            //           {
+            //             chap: {
+            //               title: "Batch 2 :- Date And time ",
+            //               desc: [
+            //                 "Date : 25th October 2022",
+            //                 "Time : 12:30 p.m to 04:00 p.m.",
+            // ,
 
-                ],
-              },
-            },
+            //               ],
+            //             },
+            //           },
 
           ],
           id: 0,
@@ -241,33 +241,33 @@ export const DsaCourseData = [
         },
       },
 
-      // {
-      //   Module0: {
-      //     title: "Weekday Batch  :- (Mon-Fri)",
-      //     content: [
-      //       {
-      //         chap: {
-      //           title: "Weekday Batch 1 :- Date And time ",
-      //           desc: [
-      //             "Date : 9th September 2022",
-      //             "Time : 8 p.m. to 10 p.m.",
-      //           ],
-      //         },
-      //       },
-      //       {
-      //         chap: {
-      //           title: "Weekday Batch 2 :- Date And time ",
-      //           desc: [
-      //             "Date : 26th August 2022",
-      //             "Time : 8 p.m. to 10 p.m.",
-      //           ],
-      //         },
-      //       },
-      //     ],
-      //     id: 1,
-      //     open: false,
-      //   },
-      // },
+      {
+        Module0: {
+          title: "Weekday Batch  :- (Mon-Fri)",
+          content: [
+            {
+              chap: {
+                title: "Weekday Batch 1 :- Date And time ",
+                desc: [
+                  "Date : 7th October 2022",
+                  "Time : 7:30 a.m. to 9:30 a.m.",
+                ],
+              },
+            },
+            //       {
+            //         chap: {
+            //           title: "Weekday Batch 2 :- Date And time ",
+            //           desc: [
+            //             "Date : 26th August 2022",
+            //             "Time : 8 p.m. to 10 p.m.",
+            //           ],
+            //         },
+            //       },
+          ],
+          id: 1,
+          open: false,
+        },
+      },
 
 
     ],

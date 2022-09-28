@@ -117,8 +117,12 @@
     "paragraph18":"1:1 mentorship, guided by top experts in the field",
     "paragraph19":"Gain technical expertise by working on challenging real- world projects ",
     "paragraph20":"250 + hiring partners with dedicated placement support and 100% Interview guaranteed ",
-    "paragraph21":"NEW! Attend a free Demo Class now and the enroll for the domain you’re looking for."
+    "paragraph21":"NEW! Attend a free Demo Class now and the enroll for the domain you’re looking for."  
    
+ },
+ "headImg":{
+  "deskimg":"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/dsaWebinarDesk.jpg",
+  "mobimg":"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/dsaWebinarMob.jpg"
  }
 
 }

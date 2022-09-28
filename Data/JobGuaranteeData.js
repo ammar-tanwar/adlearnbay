@@ -53,8 +53,8 @@ export const JobGuaranteeCourseData = [
     srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Job+Guarantee+or+100%25+Money+Back+Data+Science+%26+AI+Certification+Program+Learnbay.pdf",
     hours: "500+ Hours",
     project: "20+ Real Time",
-    CSyllabus:"100% Placement Assistance Course Syllabus",
-    CourseHighlights:"Placement Assistance Course Highlights",
+    CSyllabus: "100% Placement Assistance Course Syllabus",
+    CourseHighlights: "Placement Assistance Course Highlights",
     syllabus: [
       {
         Module0: {
@@ -542,13 +542,13 @@ export const JobGuaranteeCourseData = [
     ProgramFee: {
       Emi: "₹ 10,816/month",
       Fee: "₹ 1,10,000 +GST",
-    CourseFeeAndFinancing:"100% Placement Assistance Course Fee & Financing",
+      CourseFeeAndFinancing: "100% Placement Assistance Course Fee & Financing",
 
     },
     Project: {
       project: "20+ Projects",
       domain: "7+",
-      projectTitle:"Hands-on Projects"
+      projectTitle: "Hands-on Projects"
     },
 
     CourseFee: {
@@ -572,19 +572,19 @@ export const JobGuaranteeCourseData = [
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 18th September 2022",
+                  "Date : 9th October 2022",
                   "Time : 8:30 a.m. to 12:00 p.m.",
-  
+
                 ],
               },
             },
-  
+
           ],
           id: 0,
           open: true,
         },
       },
-  
+
       {
         Module0: {
           title: "Weekday Batch  :- (Mon-Fri)",
@@ -593,19 +593,47 @@ export const JobGuaranteeCourseData = [
               chap: {
                 title: "Weekday Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 16th September 2022",
+                  "Date : 14th October 2022",
                   "Time : 8 a.m. to 10 a.m.",
                 ],
               },
             },
-           
+            {
+              chap: {
+                title: "Weekday Batch 2 :- Date And time ",
+                desc: [
+                  "Date : 14th October 2022",
+                  "Time : 8 p.m. to 10 p.m.",
+                ],
+              },
+            },
+
           ],
           id: 1,
           open: false,
         },
       },
+      // {
+      //   Module0: {
+      //     title: "Weekday Batch  :- (Mon-Fri)",
+      //     content: [
+      //       {
+      //         chap: {
+      //           title: "Weekday Batch 1 :- Date And time ",
+      //           desc: [
+      //             "Date : 14th October 2022",
+      //             "Time : 8 p.m. to 10 p.m.",
+      //           ],
+      //         },
+      //       },
+
+      //     ],
+      //     id: 1,
+      //     open: false,
+      //   },
+      // },
     ],
-  
+
     BatchCourses: {
       CourseFeeHead: "100% Placement Assistance Course: Batch Details",
       CourseFeePara: "100% Placement Assistance Online Classroom",
@@ -618,6 +646,6 @@ export const JobGuaranteeCourseData = [
 
 
 
-    
+
   },
 ];
