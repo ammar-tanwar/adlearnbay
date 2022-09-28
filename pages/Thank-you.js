@@ -64,9 +64,9 @@ const ThankYou = ({initialName}) => {
 
       window.dataLayer = window.dataLayer || [];
       window.dataLayer.push({
-        ‘event’: ‘form_complete’,
-        ‘enhanced_conversion_data’: {
-          “email”:${email}
+        'event': 'form_complete',
+        'enhanced_conversion_data': {
+          "email":${email}
         }
       });
 
