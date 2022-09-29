@@ -6,13 +6,14 @@ import NavbarThankYou from "../Components/CoursePage/Navbar/NavbarThankYou";
 import FooterThankYou from "../Components/Footerfsdsw/FooterThankYou";
 import CourseThankYou from "../Components/Home/Course/CourseThankYou";
 import cookies from "next-cookies"
+import Script from "next/script";
 // import { parseCookies } from "../lib/parseCookies";
 // import jsCookie from "js-cookie";
 
-const ThankYou = ({initialName}) => {
-    // console.log("data", initialName)
+const ThankYou = ({ initialName }) => {
+  // console.log("data", initialName)
 
-    const email = JSON.stringify(initialName)
+  const email = JSON.stringify(initialName)
   return (
     <div className={styles.main}>
       <Head>
@@ -56,35 +57,32 @@ const ThankYou = ({initialName}) => {
             x.parentNode.insertBefore(s, x);`,
           }}
         />
-
-        <script 
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: `
-
-      window.dataLayer = window.dataLayer || [];
-      window.dataLayer.push({
-        'event': 'form_complete',
-        'enhanced_conversion_data': {
-          "email":${email}
-        }
-      });
-
+        
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push({
+            'event': 'form_complete',
+            'enhanced_conversion_data': {
+              "email": ${email}
+            }
+          });
       ` }}
-      />
+        />
 
       </Head>
       <NavbarThankYou />
 
       <section className={styles.mains}>
         <div className={styles.left} >
-        
+
           <h4 className={styles.hptop}>
-            <b>Thank you!</b>  
+            <b>Thank you!</b>
             <br />
           </h4>
           <p className={styles.Ptop}>
-          We Received your request and look forward to getting in touch soon.
+            We Received your request and look forward to getting in touch soon.
           </p>
           <div>
             <div className={styles.mainb}>
@@ -97,7 +95,7 @@ const ThankYou = ({initialName}) => {
             </div>
           </div>
         </div>
-        <CourseThankYou/>
+        <CourseThankYou />
       </section>
       <FooterThankYou />
     </div>

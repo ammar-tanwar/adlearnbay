@@ -52,7 +52,7 @@ function CourseFee({
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <Form popup={true} setTrigger={setPopups} />
+          <Form popup={true} setTrigger={setPopups}  />
         </div>
       </Popup>
       <h4 style={{ marginBottom: "30px" }}>{CourseFeeHead}</h4>

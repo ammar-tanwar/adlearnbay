@@ -6,6 +6,10 @@
 .program {
   height: max-content;
 }
+.programCity{
+  z-index: 999;
+  margin: -110px 0px;
+}
 .boxShape {
   display: flex;
   justify-content: space-evenly;
@@ -232,10 +236,19 @@
   margin: 80px 50px 0px 50px;  
 }
 
+
+
+
 @media (max-width: 481px) {
+
   .container {
     padding: 0 1rem;
     max-width: 100%;
+  }
+
+  .programCity{
+    z-index: 999;
+    margin: 0;
   }
   .cta {
     display: flex;

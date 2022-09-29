@@ -33,32 +33,32 @@ export const FirstSection = () => {
   return (
     <section className={styles.wrapper}>
       <div className={styles.container}>
-      <div className={styles.leftDiv}>       
-       <h2>Data Scinece Course In Bangalore</h2>
-       <p>Data science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract or extrapolate knowledge and insights from noisy, structured and unstructured data, and apply knowledge from data across a broad range of application domains.</p>
-       <div className={styles.hiringpartners}>
-       
-       <div className={styles.verticalLine} >
-       <h1>3000+</h1>
-       <p>Learn Of Data Science</p>
-       </div>
-       
-       <div >
-       <h1>250+</h1>
-       <p>Hiring Partners</p>
-       </div>
-       </div>
-       
-       <button >
-       Apply for Counselling
-       <FaArrowRight style={{ marginLeft: "10px" }} />
-        </button>
+        <div className={styles.leftDiv}>
+          <h1>Data Scinece Course In Bangalore</h1>
+          <p>Data science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract or extrapolate knowledge and insights from noisy, structured and unstructured data, and apply knowledge from data across a broad range of application domains.</p>
+          <div className={styles.hiringpartners}>
+
+            <div className={styles.verticalLine} >
+              <h1>3000+</h1>
+              <p>Learn Of Data Science</p>
+            </div>
+
+            <div className={styles.verticalLine1}>
+              <h1>250+</h1>
+              <p>Hiring Partners</p>
+            </div>
+          </div>
+
+          <div className={styles.counsilBtn}>
+          <button >
+            Apply for Counselling
+            <FaArrowRight style={{ marginLeft: "10px" }} />
+          </button>
+          </div>
         </div>
 
-        <div className={styles.rightDiv}>
-        <h2>Hello Raghav</h2>
-        </div>
-        </div>
+        <div className={styles.rightDiv}></div>
+      </div>
     </section>
   );
 };
