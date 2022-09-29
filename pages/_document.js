@@ -26,24 +26,13 @@ export default function Document() {
         <Script strategy="lazyOnload" src="https://www.googleoptimize.com/optimize.js?id=OPT-NQHBZ7H"></Script>
 
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: `
-          (function(w,d,s,l,i){
-            w[l]=w[l]||[];
-            w[l].push({‘gtm.start’:new Date().getTime(),event:‘gtm.js’});
-            var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),
-            dl=l!=‘dataLayer’?‘&l=‘+l:‘’;
-            j.async=true;
-            j.src=’https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-          })
-          (window,document,‘script’,‘dataLayer’,‘GTM-NN8XWH8’);
+    
 
-      ` }} />
-
-
+      <Script strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-NN8XWH8');`}}></Script>
 
 
 
@@ -77,12 +66,12 @@ export default function Document() {
         /> */}
       </Head>
       <body>
-        <noscript>
-          <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NN8XWH8" height="0" width="0" style={{ display: "none", visibility: "hidden" }}>
-          </iframe>
-        </noscript>
+      
 
+        <noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NN8XWH8"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>`}}></noscript>
         <noscript>
+
           <img height="1" width="1" style={{ display: "none" }} src="https://www.facebook.com/tr?id=443494164298902&ev=PageView&noscript=1" />
         </noscript>
 
@@ -99,3 +88,30 @@ export default function Document() {
     </Html>
   );
 }
+
+
+
+
+// <script
+// type="application/ld+json"
+// dangerouslySetInnerHTML={{
+//   __html: `
+// (function(w,d,s,l,i){
+//   w[l]=w[l]||[];
+//   w[l].push({‘gtm.start’:new Date().getTime(),event:‘gtm.js’});
+//   var f=d.getElementsByTagName(s)[0],
+//   j=d.createElement(s),
+//   dl=l!=‘dataLayer’?‘&l=‘+l:‘’;
+//   j.async=true;
+//   j.src=’https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+// })
+// (window,document,‘script’,‘dataLayer’,‘GTM-NN8XWH8’);
+
+// ` }} />
+
+
+
+// <noscript>
+// <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NN8XWH8" height="0" width="0" style={{ display: "none", visibility: "hidden" }}>
+// </iframe>
+// </noscript>
