@@ -60,7 +60,7 @@ export default function Home() {
                   "ctaText":"Start Chat",
                   "borderRadius":"25", 
                   "autoShow":false,
-                  "phoneNumber":"+919606950936"
+                  "phoneNumber":"+919731135221"
                 }
                 };
                 s.onload = function() {
