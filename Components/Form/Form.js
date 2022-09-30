@@ -89,6 +89,8 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     router.pathname === "/s2-data-analytics" ||
     router.pathname === "/s2-job-guarantee" ||
     router.pathname === "/apply-for-counselling-s2" ||
+    router.pathname === "/apply-for-counselling-data-science" ||
+    router.pathname === "/apply-for-counselling" ||
     
 
     //  BANGALORE
@@ -166,8 +168,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     router.pathname === "/data-science-certification-courses-s4" ||
     router.pathname === "/advance-ai-ml-certification-s4" ||
     router.pathname === "/data-science-ai-cert-for-managers-leaders-s4" ||
-    router.pathname === "/apply-for-counselling-data-science" ||
-    router.pathname === "/apply-for-counselling-s4" ||
+        router.pathname === "/apply-for-counselling-s4" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s4"
   ) {
       // -==================== Quora - S4 END POINT ==========================--------
@@ -240,8 +241,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     router.pathname === "/data-science-certification-courses-s7" ||
     router.pathname === "/advance-ai-ml-certification-s7" ||
     router.pathname === "/data-science-ai-cert-for-managers-leaders-s7" ||
-    router.pathname === "/apply-for-counselling-data-science" ||
-    router.pathname === "/apply-for-counselling" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s7"
   ) {
       // -====================  LinkedIn - S7 END POINT ==========================--------
