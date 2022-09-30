@@ -89,7 +89,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     router.pathname === "/s2-data-analytics" ||
     router.pathname === "/s2-job-guarantee" ||
     router.pathname === "/apply-for-counselling-s2" ||
-    router.pathname === "/job-guarantee-or-money-back-data-science-ai-s9" ||
+    
 
     //  BANGALORE
 
@@ -208,6 +208,8 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     router.pathname === "/data-science-certification-courses-s5" ||
     router.pathname === "/advance-ai-ml-certification-s5" ||
     router.pathname === "/data-science-ai-cert-for-managers-leaders-s5" ||
+    router.pathname === "/data-science-certification-courses-s10" ||
+    router.pathname === "/job-guarantee-or-money-back-data-science-ai-s9" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s5"
   ) {
 
@@ -286,9 +288,9 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     // -==================== Offer Campaign END POINT ==========================--------
   if (
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s8" ||
-    router.pathname === "/data-science-certification-courses-s10" ||
     router.pathname === "/apply-for-counselling-s3" ||
     router.pathname === "/dsa-s3" ||
+
     router.pathname === "/fssd-s3"
   ) {
       // -==================== Offer Campaign END POINT ==========================--------
