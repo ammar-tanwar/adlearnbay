@@ -1,24 +1,7 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import Script from "next/script";
 import React from "react";
-import { useRouter, Router } from 'next/router'
 
-
-// function FacebookPixel() {
-//   React.useEffect(() => {
-//     import("react-facebook-pixel")
-//       .then((x) => x.default)
-//       .then((ReactPixel) => {
-//         ReactPixel.init('443494164298902');
-//         ReactPixel.pageView();
-
-//         Router.events.on("routeChangeComplete", () => {
-//           ReactPixel.pageView();
-//         });
-//       });
-//   });
-//   return null;
-// }
 
 export default function Document() {
   return (
@@ -44,13 +27,8 @@ export default function Document() {
           content="xzlsit1skwzpjhylrt0y96nn3nbksu"
         />
         <Script strategy="lazyOnload" src="https://www.googleoptimize.com/optimize.js?id=OPT-NQHBZ7H"></Script>
-
-        
-
       </Head>
-     
       <body>
-  
         <Main />
         <NextScript />
       </body>

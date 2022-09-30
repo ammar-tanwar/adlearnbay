@@ -8,23 +8,24 @@ import { useRouter } from "next/router";
 
 
 function MyApp({ Component, pageProps }) {
-  const router = useRouter();
+  // const router = useRouter();
+  
   useEffect(() => {
     TagManager.initialize({gtmId:'GTM-NN8XWH8'})
-  }, [])
+  }, [0]);
 
-  useEffect(() => {
-    import('react-facebook-pixel')
-      .then((x) => x.default)
-      .then((ReactPixel) => {
-        ReactPixel.init('443494164298902')
-        ReactPixel.pageView()
+  // useEffect(() => {
+  //   import('react-facebook-pixel')
+  //     .then((x) => x.default)
+  //     .then((ReactPixel) => {
+  //       ReactPixel.init('443494164298902')
+  //       ReactPixel.pageView()
 
-        router.events.on('routeChangeComplete', () => {
-          ReactPixel.pageView()
-        })
-      })
-  }, [router.events])
+  //       router.events.on('routeChangeComplete', () => {
+  //         ReactPixel.pageView()
+  //       })
+  //     })
+  // }, [router.events]);
   
   return (
     <>
