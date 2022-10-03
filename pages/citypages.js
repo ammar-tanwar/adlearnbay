@@ -63,7 +63,19 @@ export default function Home() {
           />
         </div>
         <HiringPatners />
-        
+        <div className={styles.Feature} id="Feature">
+        <ProgramWithHighLight
+          title="Program Features"
+          Box1h5="Crack MAANG Interview"
+          box1desc="Learn in-depth DSA and crack interviews in product-based MNCs"
+          Box2h5="1:1 Mentorship"
+          box2desc="Guided by mentors working in MNCs to support you for the tech interviews"
+          Box3h5="Practical Project Experience"
+          box3desc="Gain technical expertise by working on challenging real-world projects"
+          Box4h5="Domain Specialization"
+          box4desc="Choose Domain electives on your work experience and work on Live Projects"
+        />
+      </div>
 
         <SyllabusNew
           syllabus={DataScienceCourseData[0].syllabus}
