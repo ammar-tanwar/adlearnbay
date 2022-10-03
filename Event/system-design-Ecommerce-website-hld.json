@@ -96,7 +96,7 @@
       
       "para4": "Meet Akshay Gagrani",
       "paragraph9": "Designation : ",
-      "paragraph9_1": "Senior Software Engineer",
+      "paragraph9_1": "Software Engineer",
       "paragraph10": "Company : ",
       "paragraph10_1": "Myntra",
 
@@ -124,8 +124,8 @@
       
     },
     "headImg":{
-      "deskimg":"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/ecommerceWebDesk.jpg",
-      "mobimg":"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/ecommerceWebMob.jpg"
+      "deskimg":"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/hldEcomWebsite.jpg",
+      "mobimg":"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/hldEcomMobile.jpg"
     }
   
   }

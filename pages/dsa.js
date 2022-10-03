@@ -125,10 +125,10 @@ export default function Home() {
             box4desc="Get dedicated placement support with 100% Interview Guarantee"
           />
         </div>
+
         <DomainFaq FaqData={DomainFaqCourseData1} />
         <CourseReview />
-
-
+        
         <SyllabusNew dataScience={true}
           syllabus={DsaCourseData[0].syllabus}
           syllabusDesc={DsaCourseData[0].syllabusDesc}
