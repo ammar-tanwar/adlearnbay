@@ -36,7 +36,7 @@ const Footerfsd = () => {
           </span>
           <span style={{ display: "flex", marginTop: "10px" }}>
             <BsFillTelephoneFill className="bIcons" />
-            (+91) 96069 50936
+            (+91) 97311 35221
           </span>
         </div>
         <div className={styles.FooterDivInner}>

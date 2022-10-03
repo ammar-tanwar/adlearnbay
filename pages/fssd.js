@@ -10,9 +10,9 @@ import Certificate from "../Components/CoursePage/CertificateTab/CertificateTabA
 import Project from "../Components/CoursePage/Project/Project";
 import CourseFee from "../Components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew1";
-import Footer from "../Components/FooterHome/Footer";
+import Footer from "../Components/FooterHome/Footerfsd";
 import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
-import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
+import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupportfsd";
 import React, { useState } from "react";
 import { FullStackSoftwareCourseData } from "../Data/FullStackSoftware";
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";

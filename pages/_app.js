@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
   
   useEffect(() => {
     TagManager.initialize({gtmId:'GTM-NN8XWH8'})
-  }, [0]);
+  }, []);
 
   // useEffect(() => {
   //   import('react-facebook-pixel')
