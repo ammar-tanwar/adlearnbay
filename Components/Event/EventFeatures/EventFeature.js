@@ -128,7 +128,7 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3, props, 
         <p className={styles.paragramTitle}>{props.para8}</p>
         <p>{props.paragraph14}</p>
         <p>{props.paragraph15}</p>
-        <p>{props.paragraph16}</p>
+        <p><strong>{props.paragraph16}</strong></p>
        
         <ul className={styles.listMargin} >
           <li>{props.paragraph17}</li>
