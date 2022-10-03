@@ -445,6 +445,9 @@
     flex-flow: column;
     background-image: none !important;
   }
+  .Pages .prgrmFeature{
+    margin: 0;
+  }
   .Back {
     height: 100%;
     text-align: left;
@@ -518,6 +521,7 @@
     grid-template-columns: 100%;
     padding: 30px 20px;
     display: flex;
+    margin-top: 0px;
     flex-direction: column-reverse;
   }
 
