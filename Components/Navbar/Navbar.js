@@ -52,16 +52,14 @@ const Navbar = ({ radio, event, dataScience, fullStack }) => {
 
       <nav className={styles.nav}>
         <div className={styles.left}>
-          <GiHamburgerMenu
-            className={styles.ham}
-            onClick={() => {
-              showMenu();
-              setIcon(false);
-            }}
-          />
+        <div className={styles.ham}>
+        <button onClick={popupShow} className="outLineBtn">
+        Register NOW!
+          <FaArrowRight className={styles.icon} />
+        </button>
+        </div>
 
-
-          <a href="#">
+          <a>
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
               alt="Learnbay"

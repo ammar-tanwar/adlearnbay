@@ -9,7 +9,7 @@ import { FiUser } from "react-icons/fi";
 import { BsGraphUp } from "react-icons/bs";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
-import { Autoplay, Pagination ,Navigation} from "swiper";
+import { Autoplay, Pagination, Navigation } from "swiper";
 
 const ProgramWithHighLight = ({
   title,
@@ -34,7 +34,7 @@ const ProgramWithHighLight = ({
 
   return (
     <div className={styles.boxWrapper}>
-     
+
       <h2>{title}</h2>
       <div className={styles.BoxDiv}>
 
@@ -86,7 +86,7 @@ const ProgramWithHighLight = ({
             </div>
           </div>
         </div>
-        
+
         <div className={styles.enrollprogramResp}>
           <div>
             <div>
@@ -165,77 +165,67 @@ const ProgramWithHighLight = ({
           </div>
         </div>
 
-
-
         <div className={styles.right}>
           <div className={styles.imgBack}>
-            <h5>{headh5}</h5>
+           
             <div className={styles.reviewWrap}>
+            <h5>Course HighLight</h5>
+              <div>
 
-              <Swiper
-                slidesPerView={mobile ? 1 : 1}
-                spaceBetween={mobile ? 10 : 20}
-                grabCursor={true}
-                autoplay={{
-                  delay: 2500,
-                }}
-                modules={[Pagination, Autoplay]}
-                pagination={true}
-                autoPlay={true}
-                className="mySwiper"
-              >
-                <SwiperSlide className={styles.swiperSlideer}>
-                  <p>
-                    Learnbay gives you a major platform to enhance your skills and learn the concepts in depth. The best thing about them is that the classes are flexible and they provide recorded videos of the lectures being taught that help you to brush up the concepts.
-                  </p>
-                  <div className={styles.profile}>
-                    <Image
-                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/harsh.jpeg"
-                      width="80"
-                      height="80"
-                      layout="intrinsic"
-                    />
-                    <div className={styles.name}>
-                      <h5>Harsh Jaiswal</h5>
-                      <p>SDE I at Livspace</p>
-                    </div>
+                <div className={styles.mainBox}>
+                  <div className={styles.innerBox}>
+                    <p className={styles.cContent}>
+                      4+ months
+                      <br />
+                      <span>Duration</span>
+                    </p>
                   </div>
-                </SwiperSlide>
-                <SwiperSlide className={styles.swiperSlideer}>
-                  <p>
-                    Have taken S/W Development course at this institute. Irrespective of implementation languages, one can join this. Cleared many tough concepts in an easy way. I was trying to switch to product based MNC and this course just made it possible.
-                  </p>
-                  <div className={styles.profile}>
-                    <Image
-                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/neha.jpeg"
-                      width="80"
-                      height="80"
-                      layout="intrinsic"
-                    />
-                    <div className={styles.name}>
-                      <h5>Neha Gour</h5>
-                      <p>Silicon Design Engineer 2</p>
-                    </div>
+                  <div className={styles.innerBox}>
+                    <p className={styles.cContent1}>
+                      IBM
+                      <br />
+                      <span>Certification</span>
+                    </p>
                   </div>
-                </SwiperSlide>
-                <SwiperSlide className={styles.swiperSlideer}>
-                  <p>
-                    I enrolled for Data Structures and Algorithms course at Learnbay.  teaching methodology has been really engaging. Trainers entertains all the approaches in the class which helped us to see the problems from multiple angles.
-                  </p>
-                  <div className={styles.profile}>
-                    <Image
-                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/nikhil-g.jpeg"
-                      width="80"
-                      height="80"
-                      layout="intrinsic"
-                    />
-                    <div className={styles.name}>
-                      <h5>Nikhil Goyal</h5>
-                      <p>SDE-2 at Amazon</p>
-                    </div>
+
+
+
+                </div>
+
+                <div className={styles.mainBox}>
+                  <div className={styles.innerBox}>
+                    <p className={styles.cContent}>
+                      2+ Years
+                      <br />
+                      <span>Subscription</span>
+                    </p>
                   </div>
-                </SwiperSlide>
-              </Swiper>
+                  <div className={styles.innerBox}>
+                    <p className={styles.cContent1}>
+                      12+
+                      <br />
+                      <span>Interview Calls</span>
+                    </p>
+                  </div>
+                </div>
+
+                <div className={styles.mainBox}>
+                  <div className={styles.innerBox}>
+                    <p className={styles.cContent}>
+                      12+ 
+                      <br />
+                      <span>Projects</span>
+                    </p>
+                  </div>
+                  <div className={styles.innerBox}>
+                    <p className={styles.cContent1}>
+                      7+
+                      <br />
+                      <span>Domain Electives</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
 
 
 

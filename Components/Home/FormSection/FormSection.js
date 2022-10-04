@@ -12,7 +12,7 @@ const FormSection = (dataScience) => {
       </div>
       <div className={styles.rightForm}>
         <div className={styles.rightFormWrap}>
-          <FormInline   dataScience={dataScience} />
+          <FormInline  radio={true} dataScience={dataScience} />
         </div>
       </div>
     </div>

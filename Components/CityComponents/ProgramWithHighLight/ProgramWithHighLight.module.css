@@ -154,7 +154,8 @@
     display: flex;
     flex-flow: column;
     gap: 10px;
-    padding: 50px 20px 50px 20px;
+    padding: 15px 20px 50px 20px;
+    text-align: center;
   }
   .profile {
     display: flex;
@@ -207,7 +208,27 @@
     display: none;
   }
   
-  
+
+
+
+  .mainBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: -1px 0px 2px 1px rgb(41 121 173 / 49%);
+  }
+
+  .innerBox{
+    box-shadow: -1px 0px 2px 1px rgb(41 121 173 / 49%);
+    width: 50%;
+    text-align: center;
+ 
+   
+  }
+  .cContent{
+    font-size: 19px;
+    font-weight: 600;
+  }
   
   
   @media (max-width: 1281px) {
