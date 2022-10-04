@@ -3,13 +3,18 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import styles from "./ProgramWithHighLight.module.css";
-import Image from "next/image";
-import { MdLiveTv } from "react-icons/md";
+import { MdLiveTv, MdOutlineMissedVideoCall, MdDomain, MdOutlineLiveTv } from "react-icons/md";
 import { FiUser } from "react-icons/fi";
+import { AiOutlineSafetyCertificate } from "react-icons/ai";
 import { BsGraphUp } from "react-icons/bs";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
-import { Autoplay, Pagination, Navigation } from "swiper";
+import { Autoplay, Navigation } from "swiper";
+import {
+  AiOutlineFundProjectionScreen,
+  AiOutlineFieldTime,
+} from "react-icons/ai";
+
 
 const ProgramWithHighLight = ({
   title,
@@ -167,58 +172,55 @@ const ProgramWithHighLight = ({
 
         <div className={styles.right}>
           <div className={styles.imgBack}>
-           
             <div className={styles.reviewWrap}>
-            <h5>Course HighLight</h5>
-              <div>
-
-                <div className={styles.mainBox}>
-                  <div className={styles.innerBox}>
+              <div className={styles.PProgrammain}>
+                <div className={styles.PProgram}>
+                  <p>
+                    <span>Course Details</span>
+                  </p>
+                </div>
+                <div className={styles.PProgramInner}>
+                  <div>
+                    <MdOutlineLiveTv className={styles.PIcons} />
                     <p className={styles.cContent}>
                       4+ months
                       <br />
                       <span>Duration</span>
                     </p>
                   </div>
-                  <div className={styles.innerBox}>
-                    <p className={styles.cContent1}>
+                  <div>
+                    <AiOutlineSafetyCertificate className={styles.PIcons} />
+                    <p className={styles.cContent}>
                       IBM
                       <br />
                       <span>Certification</span>
                     </p>
                   </div>
-
-
-
-                </div>
-
-                <div className={styles.mainBox}>
-                  <div className={styles.innerBox}>
+                  <div>
+                    <AiOutlineFieldTime className={styles.PIcons} />
                     <p className={styles.cContent}>
-                      2+ Years
-                      <br />
+                      2+ Years <br />
                       <span>Subscription</span>
                     </p>
                   </div>
-                  <div className={styles.innerBox}>
-                    <p className={styles.cContent1}>
-                      12+
-                      <br />
+                  <div>
+                    <MdOutlineMissedVideoCall className={styles.PIcons} />
+                    <p className={styles.cContent}>
+                      12+ <br />
                       <span>Interview Calls</span>
                     </p>
                   </div>
-                </div>
-
-                <div className={styles.mainBox}>
-                  <div className={styles.innerBox}>
+                  <div>
+                    <AiOutlineFundProjectionScreen className={styles.PIcons} />
                     <p className={styles.cContent}>
-                      12+ 
+                      12+
                       <br />
                       <span>Projects</span>
                     </p>
                   </div>
-                  <div className={styles.innerBox}>
-                    <p className={styles.cContent1}>
+                  <div>
+                    <MdDomain className={styles.PIcons} />
+                    <p className={styles.cContent}>
                       7+
                       <br />
                       <span>Domain Electives</span>
@@ -226,18 +228,15 @@ const ProgramWithHighLight = ({
                   </div>
                 </div>
               </div>
-
-
-
               <div className={styles.shadow}></div>
               <div className={styles.content}>
                 <div className={styles.leftContent}>
-                  <h5>+250%</h5>
-                  <p>Highest Salary Hike</p>
+                  <h5>Course Fee</h5>
+                 
                 </div>
                 <div className={styles.rightContent}>
-                  <h5>18 LPA</h5>
-                  <p>Average Salary Package</p>
+                  <h5>₹ 95,000 +GST</h5>
+                  
                 </div>
               </div>
             </div>

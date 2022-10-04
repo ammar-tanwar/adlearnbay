@@ -13,7 +13,7 @@ import { BsFillCircleFill } from "react-icons/bs";
 import { AiOutlineDownload } from "react-icons/ai";
 import Popup from "../../Popup/Popup";
 
-function SyllabusNew({
+function SyllabusNew({ 
   syllabus,
   syllabusDesc,
   popupHead,

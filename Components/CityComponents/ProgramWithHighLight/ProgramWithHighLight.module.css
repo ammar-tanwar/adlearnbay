@@ -210,6 +210,97 @@
   
 
 
+  /* --------------------------------------------------- */
+
+  .PProgram {
+    border-radius: 4px 4px 0px 0px;
+  }
+  .PProgram > p {
+    font-size: 25px;
+    margin: 0;
+    color: #0072bc;
+    font-weight: 600;
+    padding: 15px 20px 0px 20px;
+  }
+  .PProgram p span {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #edb552;
+  }
+
+  .PProgramInner {
+    display: grid;
+    grid-template-columns: 49% 49%;
+  
+    font-size: 14px;
+  
+    padding: 10px 20px 10px 50px;
+  }
+  .PProgramInners {
+    font-size: 14px;
+    padding: 40px 20px;
+  }
+
+  .PIcons {
+    font-size: 26px;
+    margin-right: 10px;
+    color: #edb552;
+  }
+  .PProgrammains {
+    background: #ffffff;
+    border-width: 0px 6px;
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+    border-style: solid;
+    border-color: #0072bc;
+    position: relative;
+    z-index: 10;
+    border-radius: 17px;
+  }
+
+  .PProgramInner div,
+.PProgrammains p {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.PProgrammains h5 {
+  margin: 0;
+  text-align: center;
+  font-size: 22px;
+  position: absolute;
+  margin: auto;
+  left: 45px;
+  top: -15px;
+  justify-content: center;
+  font-weight: 600;
+}
+.PProgrammains h5 span {
+  padding-bottom: 5px;
+  border-bottom: 4px solid #edb552;
+}
+.PProgramInner p {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+.PProgramInner p span {
+  font-size: 15px;
+  color: #7c7c7c;
+}
+.shadowImg {
+  position: absolute;
+  left: -10px;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  bottom: -40px;
+}
+
+
+
+
 
   .mainBox{
     display: flex;
@@ -230,6 +321,18 @@
     font-weight: 600;
   }
   
+
+
+
+
+
+
+
+
+
+/* ==================================================== */
+
+
   
   @media (max-width: 1281px) {
     .enrollprogramResp{
@@ -385,5 +488,76 @@
       border-radius: 50%;
       padding: 10px;
     }
+
+
+
+    .reviewWrap{ 
+      
+      background: #ffffff;
+      box-shadow: 0px 0px 10px rgb(237 181 82 / 30%);
+      border-radius: 16px;
+      display: flex;
+      flex-flow: column;
+      gap: 10px;
+      padding: 15px 20px 20px 15px;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+
+    .PProgramInner {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      font-size: 14px;
+      padding: 30px 0px 3px 0px;
+      justify-content: center;
+    }
+  
+    .PProgram > p {
+      font-size: 25px;
+     
+    }
+  
+    .PProgramInner div,
+    .PProgrammains p {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      align-items: center;
+    }
+    .PProgramInner p {
+      display: grid;
+      align-items: center;
+    }
+    .PProgrammains h5 {
+      left: 30px;
+    }
+
+
+    .PProgramInner p {
+      font-size: 22px;
+      font-weight: 600;
+      color: black;
+    }
+
+    .PProgramInner p span {
+      font-size: 16px;
+      color: #7c7c7c;
+    }
+
+    .leftContent h5 {
+      margin: 0;
+      color: #edb552;
+      font-size: 21px;
+      font-weight: 700;
+    }
+
+    .rightContent h5 {
+      margin: 0;
+      color: #0072bc;
+      font-size: 21px;
+      font-weight: 600;
+  }
+
   }
   
