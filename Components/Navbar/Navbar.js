@@ -46,18 +46,18 @@ const Navbar = ({ radio, event, dataScience, fullStack }) => {
         <div className="RightPopup">
           <h5> Register NOW!</h5>
           {/* <p>Fill the below details to get started</p> */}
-          <Form popup={true} setTrigger={setPopups} radio={radio} fullStack={fullStack} dataScience={dataScience} />
+          <Form popup={true} setTrigger={setPopups} event={true} radio={radio} fullStack={fullStack} dataScience={dataScience} />
         </div>
       </Popup>
 
       <nav className={styles.nav}>
         <div className={styles.left}>
-        <div className={styles.ham}>
-        <button onClick={popupShow} className="outLineBtn">
-        Register NOW!
-          <FaArrowRight className={styles.icon} />
-        </button>
-        </div>
+          <div className={styles.ham}>
+            <button onClick={popupShow} className="outLineBtn">
+              Register NOW!
+              <FaArrowRight className={styles.icon} />
+            </button>
+          </div>
 
           <a>
             <Image
@@ -73,7 +73,7 @@ const Navbar = ({ radio, event, dataScience, fullStack }) => {
         <div className={styles.right}>
 
           <button onClick={popupShow} className="outLineBtn">
-          Register NOW!
+            Register NOW!
             <FaArrowRight className={styles.icon} />
           </button>
         </div>
