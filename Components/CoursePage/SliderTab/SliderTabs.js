@@ -7,7 +7,7 @@ import { BiDownArrowAlt, BiUpArrowAlt } from "react-icons/bi";
 
 const SliderTabs = () => {
   const [viewAll, setViewAll] = useState(false);
-  const [oneYear, setOneYear] = useState(true);
+  const [oneYear, setOneYear] = useState(false);
   const [nonTech, setNonTech] = useState(false);
   const [Guarantee, setGuarantee] = useState(false);
   const [Retail, setRetail] = useState(false);
@@ -57,7 +57,7 @@ const SliderTabs = () => {
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-Understand the best practices for the finance sector.
+                  Understand the best practices for the finance sector.
                 </h6>
                 <p className={styles.para}>
                   Work on real-time projects using live data from companies like J.P Morgan, HDFC, etc for building recommendation systems, handling chatbots, and upcoming stock market prediction.
@@ -101,7 +101,7 @@ Understand the best practices for the finance sector.
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-Know data-driven consumer and market insights.
+                  Know data-driven consumer and market insights.
                 </h6>
                 <p className={styles.para}>
                   You will be wholly involved with the essential functional
@@ -146,7 +146,7 @@ Know data-driven consumer and market insights.
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-Incorporate future proof practices with Data Science and AI.
+                  Incorporate future proof practices with Data Science and AI.
                 </h6>
                 <p className={styles.para}>
                   Any working professional choosing this domain with prior
@@ -163,7 +163,7 @@ Incorporate future proof practices with Data Science and AI.
                     <p>Recognized Certificate</p>
                   </div>
                 </div>
-                
+
               </div>
               <div className={styles.right} style={{ paddingBottom: "40px" }}>
                 <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Healthcare-domain.webp" width="351" height="332" />
@@ -194,7 +194,7 @@ Incorporate future proof practices with Data Science and AI.
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-Gain a deeper understanding of business requirements and it's functionalities.
+                  Gain a deeper understanding of business requirements and it's functionalities.
                 </h6>
                 <p className={styles.para}>
                   With enhanced supply chain management and customer services,
@@ -211,7 +211,7 @@ Gain a deeper understanding of business requirements and it's functionalities.
                     <p> From IBM</p>
                   </div>
                 </div>
-                
+
               </div>
               <div className={styles.right}>
                 <Image
@@ -244,7 +244,7 @@ Gain a deeper understanding of business requirements and it's functionalities.
           {Guarantee ? (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
-              <h6>
+                <h6>
                   Work on projects implemented for business growth.
                 </h6>
                 <p className={styles.para}>
@@ -263,7 +263,7 @@ Gain a deeper understanding of business requirements and it's functionalities.
                     <p>Doubt Session</p>
                   </div>
                 </div>
-                
+
               </div>
               <div className={styles.right}>
                 <Image
@@ -296,7 +296,7 @@ Gain a deeper understanding of business requirements and it's functionalities.
           {viewAll ? (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
-              <h6>
+                <h6>
                   Study about applications of DS & AI is applicable in Manufacturing & Automotive.
                 </h6>
                 <p className={styles.para}>
@@ -315,7 +315,7 @@ Gain a deeper understanding of business requirements and it's functionalities.
                     <p> Certification</p>
                   </div>
                 </div>
-                
+
               </div>
               <div className={styles.right}>
                 <Image
@@ -348,7 +348,7 @@ Gain a deeper understanding of business requirements and it's functionalities.
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-Understand how an industry expands exponentially with AI.
+                  Understand how an industry expands exponentially with AI.
                 </h6>
                 <p className={styles.para}>
                   Pursue projects on recording sensors in seismic,
@@ -366,7 +366,7 @@ Understand how an industry expands exponentially with AI.
                     <p>Doubt Session</p>
                   </div>
                 </div>
-                
+
               </div>
               <div className={styles.right}>
                 <img
@@ -386,7 +386,7 @@ Understand how an industry expands exponentially with AI.
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-Understand the best practices for the finance sector.
+                  Understand the best practices for the finance sector.
                 </h6>
                 <p className={styles.para}>
                   Work on real-time projects using live data from companies like J.P Morgan, HDFC, etc for building recommendation systems, handling chatbots, and upcoming stock market prediction.
@@ -401,7 +401,7 @@ Understand the best practices for the finance sector.
                     <p>Trusted Learners</p>
                   </div>
                 </div>
-                
+
               </div>
 
               <div className={styles.right}>
@@ -415,7 +415,7 @@ Understand the best practices for the finance sector.
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-Know data-driven consumer and market insights.
+                  Know data-driven consumer and market insights.
                 </h6>
                 <p className={styles.para}>
                   You will be wholly involved with the essential functional
@@ -432,7 +432,7 @@ Know data-driven consumer and market insights.
                     <p>Accreditation</p>
                   </div>
                 </div>
-                
+
               </div>
               <div className={styles.right}>
                 <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/gobal-industry.webp" width="296" height="345" />
@@ -444,7 +444,7 @@ Know data-driven consumer and market insights.
           {Guarantee ? (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
-              <h6>
+                <h6>
                   Work on projects implemented for business growth.
                 </h6>
                 <p className={styles.para}>
@@ -463,7 +463,7 @@ Know data-driven consumer and market insights.
                     <p>Doubt Session</p>
                   </div>
                 </div>
-                
+
               </div>
               <div className={styles.right}>
                 <Image
@@ -481,7 +481,7 @@ Know data-driven consumer and market insights.
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-Incorporate future proof practices with Data Science and AI.
+                  Incorporate future proof practices with Data Science and AI.
                 </h6>
                 <p className={styles.para}>
                   Any working professional choosing this domain with prior
@@ -498,7 +498,7 @@ Incorporate future proof practices with Data Science and AI.
                     <p>Recognized Certificate</p>
                   </div>
                 </div>
-                
+
               </div>
               <div className={styles.right} style={{ paddingBottom: "40px" }}>
                 <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Healthcare-domain.webp" width="351" height="332" />
@@ -510,7 +510,7 @@ Incorporate future proof practices with Data Science and AI.
           {viewAll ? (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
-              <h6>
+                <h6>
                   Study about applications of DS & AI is applicable in Manufacturing & Automotive.
                 </h6>
                 <p className={styles.para}>
@@ -529,7 +529,7 @@ Incorporate future proof practices with Data Science and AI.
                     <p> Certification</p>
                   </div>
                 </div>
-                
+
               </div>
               <div className={styles.right}>
                 <Image
@@ -546,7 +546,7 @@ Incorporate future proof practices with Data Science and AI.
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-Gain a deeper understanding of business requirements and it's functionalities.
+                  Gain a deeper understanding of business requirements and it's functionalities.
                 </h6>
                 <p className={styles.para}>
                   With enhanced supply chain management and customer services,
@@ -563,7 +563,7 @@ Gain a deeper understanding of business requirements and it's functionalities.
                     <p> From IBM</p>
                   </div>
                 </div>
-                
+
               </div>
               <div className={styles.right}>
                 <Image
@@ -581,7 +581,7 @@ Gain a deeper understanding of business requirements and it's functionalities.
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-Understand how an industry expands exponentially with AI.
+                  Understand how an industry expands exponentially with AI.
                 </h6>
                 <p className={styles.para}>
                   Pursue projects on recording sensors in seismic,
@@ -599,7 +599,7 @@ Understand how an industry expands exponentially with AI.
                     <p>Doubt Session</p>
                   </div>
                 </div>
-                
+
               </div>
               <div className={styles.right}>
                 <img

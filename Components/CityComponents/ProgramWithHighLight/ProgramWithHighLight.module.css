@@ -11,7 +11,7 @@
   .boxWrapper h2 {
     font-size: 36px;
     font-weight: 800;
-    margin: 0;
+    margin-top: 20px;
     padding: 0;
   }
   .BoxDiv {
@@ -25,8 +25,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     width: 110%;
-  
-    padding-top: 70px;
+    padding-top: 50px;
   }
   .boxActive {
     position: relative;
@@ -153,7 +152,7 @@
     border-radius: 16px;
     display: flex;
     flex-flow: column;
-    gap: 10px;
+    gap: 30px;
     padding: 15px 20px 50px 20px;
     text-align: center;
   }
@@ -535,7 +534,7 @@
 
 
     .PProgramInner p {
-      font-size: 22px;
+      font-size: 18px;
       font-weight: 600;
       color: black;
     }
@@ -548,15 +547,20 @@
     .leftContent h5 {
       margin: 0;
       color: #edb552;
-      font-size: 21px;
+      font-size: 24px;
       font-weight: 700;
     }
 
     .rightContent h5 {
       margin: 0;
       color: #0072bc;
-      font-size: 21px;
+      font-size: 24px;
       font-weight: 600;
+  }
+
+
+  .content {
+    padding: 15px 0px 0px 0px;
   }
 
   }

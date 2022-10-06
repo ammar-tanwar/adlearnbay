@@ -213,7 +213,8 @@
 
   .leftSideP {
     box-shadow: rgba(133, 222, 255, 0.634) 0px 3px 8px;
-    padding: 20px;
+    /* padding: 20px; */
+    padding: 15px 10px 31px 5px;
     width: 100%;
     border-radius: 8px;
     margin: 20px 0px 10px 0px;
