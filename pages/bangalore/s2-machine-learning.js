@@ -19,7 +19,7 @@ import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import CourseReview from "../../Components/CoursePage/CourseReview/CourseReview";
 import { ProgramFee } from "../../Components/CoursePage/ProgramFee/ProgramFee";
 import Footer from "../../Components/CoursePage/Footer/Footer";
-
+ 
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -87,7 +87,7 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} jobDesc={true} />
           </div>
         </Popup>
-     
+
         <FirstSection
           deskTopPara={MlCourseData[0].FirstSection.deskTopPara}
           deskTopPara1={MlCourseData[0].FirstSection.deskTopPara1}
@@ -130,10 +130,10 @@ export default function Home() {
             headh5={MlCourseData[0].BoxShape.headh5}
           />
         </div>
-        <CourseReview 
-        p2=" Working at TCS, Bangalore"
-        p1="Working at HCL, Bangalore"
-        p3="Working at Capgemini, Bangalore"/>
+        <CourseReview
+          p2=" Working at TCS, Bangalore"
+          p1="Working at HCL, Bangalore"
+          p3="Working at Capgemini, Bangalore" />
         <Certificate
           H4="Machine Learning Certification Program" />
         <OtherCertificate

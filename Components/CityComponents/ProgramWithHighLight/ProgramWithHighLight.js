@@ -232,11 +232,11 @@ const ProgramWithHighLight = ({
               <div className={styles.content}>
                 <div className={styles.leftContent}>
                   <h5>Course Fee</h5>
-                 
+
                 </div>
                 <div className={styles.rightContent}>
                   <h5>₹ 95,000 +GST</h5>
-                  
+
                 </div>
               </div>
             </div>

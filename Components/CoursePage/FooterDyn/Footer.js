@@ -4,7 +4,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import Link from "next/link";
 import Image from "next/image";
 import React from "react";
-import { FaTwitter, FaFacebookF, FaLinkedinIn, FaYoutube, FaInstagram, FaCheck } from "react-icons/fa";
+
 
 const Footer = (
     {
@@ -65,4 +65,3 @@ export default React.memo(Footer);
 
 
 
- 

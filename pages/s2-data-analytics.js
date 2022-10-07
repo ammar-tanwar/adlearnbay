@@ -17,6 +17,7 @@ import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
 import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
 import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
 import Footer from "../Components/CoursePage/Footer/Footer";
+
 export default function Home() {
   const [popups, setPopups] = useState(false);
 

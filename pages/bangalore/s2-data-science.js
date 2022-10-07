@@ -78,8 +78,8 @@ export default function Home() {
         />
 
       </Head>
-      <main>  
-      <Navbar popup={true} jobDesc={true}/>
+      <main>
+        <Navbar popup={true} jobDesc={true} />
 
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -89,7 +89,7 @@ export default function Home() {
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below Details to get started</p> */}
             <Form popup={true} setTrigger={setPopups} jobDesc={true} />
-            
+
           </div>
         </Popup>
         <FirstSection
@@ -106,7 +106,7 @@ export default function Home() {
           height={DataScienceCourseData[0].FirstSection.height}
           alt={DataScienceCourseData[0].FirstSection.alt}
           srcD={DataScienceCourseData[0].FirstSection.srcD}
-        
+
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -136,10 +136,10 @@ export default function Home() {
           />
         </div>
 
-        <CourseReview 
-        p2=" Working at TCS, Bangalore"
-        p1="Working at HCL, Bangalore"
-        p3="Working at Capgemini, Bangalore"/>
+        <CourseReview
+          p2=" Working at TCS, Bangalore"
+          p1="Working at HCL, Bangalore"
+          p3="Working at Capgemini, Bangalore" />
         <Certificate
           H4="Data Science Certification Program"
         />
@@ -185,8 +185,8 @@ export default function Home() {
         <div className={styles.ProjectWrapper} id="project">
           <Project popupHead={DataScienceCourseData[0].Project.popupHead}
             project={DataScienceCourseData[0].Project.project}
-            domain={DataScienceCourseData[0].Project.domain} 
-            projectTitle={DataScienceCourseData[0].Project.projectTitle}/>
+            domain={DataScienceCourseData[0].Project.domain}
+            projectTitle={DataScienceCourseData[0].Project.projectTitle} />
         </div>
 
         <CourseFee

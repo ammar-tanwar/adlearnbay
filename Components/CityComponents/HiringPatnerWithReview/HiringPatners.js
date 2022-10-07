@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from "./HiringPatners.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -11,7 +11,7 @@ import { Autoplay, Pagination } from "swiper";
 
 function HiringPatners() {
 
-    const [hover, setHover] = useState(false);
+  const [hover, setHover] = useState(false);
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
     let width = window.innerWidth;
@@ -22,7 +22,7 @@ function HiringPatners() {
 
   return (
     <section className={styles.Features}>
- 
+
       <h6 className={styles.topHead}>Our Hiring Patners</h6>
       <div className={styles.FeatureWrap}>
         <div className={styles.LeftWrap}></div>
@@ -111,9 +111,9 @@ function HiringPatners() {
             </div>
           </div>
         </div>
-     
-    </div>
-  </section>
+
+      </div>
+    </section>
   )
 }
 

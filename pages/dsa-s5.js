@@ -6,14 +6,11 @@ import GetHired from "../Components/GetHiredFsw/GetHired";
 import BoxShape from "../Components/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
-import Certificate from "../Components/CertificateFsw/Certificate";
 import Project from "../Components/Projectfswd/Project";
 import Syllabus from "../Components/Syllabusdsa/Syllabus";
-import ToolsCovered from "../Components/ToolsCoveredfs/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
 import Navbar from "../Components/CoursePage/NavbarDyn/Navbar1";
-import Footer from "../Components/Footerfsds5/Footer"; 
-
+import Footer from "../Components/Footerfsds5/Footer";
 import React, { useState } from "react";
 
 export default function Home() {
@@ -74,23 +71,23 @@ export default function Home() {
           </div>
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
-                     {/* <p>Fill the below Details to get started</p> */}
+            {/* <p>Fill the below Details to get started</p> */}
 
             <Form popup={true} setTrigger={setPopups} />
           </div>
         </Popup>
-        <Navbar 
-        
-        Href="/fswd-s5"
-      Course="Full Stack Web Development Program"
+        <Navbar
 
-      Href1="/fssd-s5"
-      Course1="Full-Stack Software Development Program"
+          Href="/fswd-s5"
+          Course="Full Stack Web Development Program"
 
-      Href2="/dsa-s5"
-      Course2="DSA & System Design"
-    
-        
+          Href1="/fssd-s5"
+          Course1="Full-Stack Software Development Program"
+
+          Href2="/dsa-s5"
+          Course2="DSA & System Design"
+
+
         />
         <FirstSection
           deskTopPara="Ace your coding interview at MAANG and Achieve your Dream Job"

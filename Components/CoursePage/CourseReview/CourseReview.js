@@ -10,7 +10,8 @@ import styles from "./CourseReview.module.css";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
-const CourseReview = ({p1,p2,p3}) => {
+
+const CourseReview = ({ p1, p2, p3 }) => {
 
   const [popups, setPopups] = useState(false);
 
@@ -478,7 +479,7 @@ const CourseReview = ({p1,p2,p3}) => {
           Download Placement Report <MdKeyboardArrowDown />
         </button>
       </div>
-      
+
     </>
   );
 };

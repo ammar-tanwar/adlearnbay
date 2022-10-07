@@ -3,7 +3,6 @@ import styles from "../styles/Home.module.css";
 import FirstSection from "../Components/HeroSectionAdvance/HeroSection";
 import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
 import GetHired from "../Components/GetHiredAdvance/GetHired";
-import Domain from "../Components/Domain/Domain";
 import BoxShape from "../Components/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
@@ -18,7 +17,7 @@ import React, { useState } from "react";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
- 
+
   const popupShow = () => {
     setPopups(true);
   };
@@ -74,42 +73,42 @@ export default function Home() {
           </div>
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
-                     {/* <p>Fill the below Details to get started</p> */}
+            {/* <p>Fill the below Details to get started</p> */}
 
             <Form popup={true} setTrigger={setPopups} />
           </div>
         </Popup>
         <Navbar
-      
-      Href="/data-science-certification-courses-sd"
-      Course="Data Science & AI Certification"
 
-      Href1="/advance-ai-ml-certification-sd"
-      Course1="Advance AI & ML Certification"
+          Href="/data-science-certification-courses-sd"
+          Course="Data Science & AI Certification"
 
-      Href2="/data-science-ai-cert-for-managers-leaders-sd"
-      Course2="Data Science & AI Cert. For Managers & Leaders"
+          Href1="/advance-ai-ml-certification-sd"
+          Course1="Advance AI & ML Certification"
 
-      Href3="/job-guarantee-or-money-back-data-science-ai-sd"
-      Course3="100% Placement Assistance – Data Science & AI"
+          Href2="/data-science-ai-cert-for-managers-leaders-sd"
+          Course2="Data Science & AI Cert. For Managers & Leaders"
 
-      
-      />
-      <FirstSection
-      deskTopPara="Experience-based certification course for professionals"
-      mTopPara="Experience-based certification course for professionals"
-      title="Advance Data Science & AI Certification"
-      spanTitleText="Domain Specialization For Professionals"
-      desc="This Advance program is suitable for professionals having more than 6+ months of work experience in any programming or non programming domain."
-    />
-    <div className={styles.program}>
-      <ProgramInfo
-        BatchDate="1+ Years Work Experience"
-        BatchDuration="Accredited with IBM"
-        Placement="12+ Real Time Projects"
-        EMI="₹ 8,358/month"
-      />
-    </div>
+          Href3="/job-guarantee-or-money-back-data-science-ai-sd"
+          Course3="100% Placement Assistance – Data Science & AI"
+
+
+        />
+        <FirstSection
+          deskTopPara="Experience-based certification course for professionals"
+          mTopPara="Experience-based certification course for professionals"
+          title="Advance Data Science & AI Certification"
+          spanTitleText="Domain Specialization For Professionals"
+          desc="This Advance program is suitable for professionals having more than 6+ months of work experience in any programming or non programming domain."
+        />
+        <div className={styles.program}>
+          <ProgramInfo
+            BatchDate="1+ Years Work Experience"
+            BatchDuration="Accredited with IBM"
+            Placement="12+ Real Time Projects"
+            EMI="₹ 8,358/month"
+          />
+        </div>
         <GetHired />
         <div className="Feature" id="Feature">
           <BoxShape
@@ -155,8 +154,8 @@ export default function Home() {
         <Syllabus />
         <ToolsCovered />
         <div className={styles.ProjectWrapper} id="project">
-      <Project domainDetails="2+" projectDetails="12+"/>
-      </div>
+          <Project domainDetails="2+" projectDetails="12+" />
+        </div>
 
         <Footer />
       </main>

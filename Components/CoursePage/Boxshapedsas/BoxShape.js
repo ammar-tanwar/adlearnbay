@@ -7,9 +7,6 @@ import { FiUser } from "react-icons/fi";
 import { BsGraphUp } from "react-icons/bs";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-import "swiper/css";
-import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
 import { Autoplay, Navigation } from "swiper";

@@ -91,7 +91,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection dataScience={true}
-        deskTopPara="Choose Specialization over Generalization"
+          deskTopPara="Choose Specialization over Generalization"
           mTopPara="Choose Specialization over Generalization"
           mTitle="Advanced Data Science and AI Program with"
           spanMTitleText="Domain Specialization"
@@ -118,23 +118,23 @@ export default function Home() {
         </div>
 
         <div className={styles.Feature} id="Feature">
-        <BoxShape
-        title="Why Enroll In This Program?"
-        Box1h5="1-on-1 Dedication"
-        box1desc="Live interactive session with expert for every individual"
-        Box2h5="Assured Interview Call"
-        box2desc="Get job referrals powered by 250+ hiring partners"
-        Box3h5="Premium Mentoring"
-        box3desc="Get professionally trained from MAANG and MNC experts"
-        Box4h5="Crafted for professional"
-        box4desc="Prioritize growth and salary hike with in-demand skillset"
-      />
+          <BoxShape
+            title="Why Enroll In This Program?"
+            Box1h5="1-on-1 Dedication"
+            box1desc="Live interactive session with expert for every individual"
+            Box2h5="Assured Interview Call"
+            box2desc="Get job referrals powered by 250+ hiring partners"
+            Box3h5="Premium Mentoring"
+            box3desc="Get professionally trained from MAANG and MNC experts"
+            Box4h5="Crafted for professional"
+            box4desc="Prioritize growth and salary hike with in-demand skillset"
+          />
         </div>
         <DomainFaq FaqData={DomainFaqCourseData1} />
         <CourseReview
-        p1="Working at HCL"
-        p2=" Working at TCS"
-        p3="Working at Capgemini" />
+          p1="Working at HCL"
+          p2=" Working at TCS"
+          p3="Working at Capgemini" />
 
         <Certificate
           H4="Data Science Certification Program"
@@ -175,7 +175,7 @@ export default function Home() {
         />
         <ProgramFee Fee={DataScienceCourseData[0].ProgramFee.Fee}
           Emi={DataScienceCourseData[0].ProgramFee.Emi} CourseFeeAndFinancing="Program Fee & Financing"
-          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."  dataScience={true} />
+          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." dataScience={true} />
         <SliderTab />
 
         <div className={styles.ProjectWrapper} id="project">
@@ -185,7 +185,7 @@ export default function Home() {
             projectTitle={DataScienceCourseData[0].Project.projectTitle} />
         </div>
 
-        <CourseFee  
+        <CourseFee
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
           syllabus={DataScienceCourseData[0].Batch}
           CourseFeeHead="Advanced Data Science & AI Program : Batch Details"

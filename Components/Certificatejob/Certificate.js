@@ -28,7 +28,7 @@ const Certificate = ({ popupHead, title, desc, desc2, desc3, radio }) => {
         <div className="RightPopup">
           <h5>{popupHead}</h5>
           <p>Please enter the following details to initiate your download</p>
-          <Form setTrigger={setPopups} downloadBrochure radio={radio}/>
+          <Form setTrigger={setPopups} downloadBrochure radio={radio} />
         </div>
       </Popup>
       <div className={styles.left}>

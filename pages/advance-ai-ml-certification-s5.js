@@ -13,8 +13,6 @@ import ToolsCovered from "../Components/ToolsCoveredAdvance/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
 import Navbar from "../Components/CoursePage/NavbarDyn/Navbar";
 import Footer from "../Components/Footers5/Footer"; 
-  
-
 import React, { useState } from "react";
 
 export default function Home() {

@@ -5,13 +5,11 @@ import { BsCheck2 } from "react-icons/bs";
 import { FaDownload } from "react-icons/fa";
 import { GoDeviceDesktop } from "react-icons/go";
 import { AiOutlineBank } from "react-icons/ai";
-import ProjectPopup from "../ProjectPopup/ProjectPopup";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
 import Form from "../../Form/Form";
 import Popup from "../../Popup/Popup";
 import "swiper/css";
-
 import "swiper/css/pagination";
 
 const Project = ({ ChangeProject, project, domain }) => {
@@ -30,23 +28,23 @@ const Project = ({ ChangeProject, project, domain }) => {
 
   return (
     <div className={styles.projectHeader}>
-    <Popup
-    trigger={popups}
-    setTrigger={setPopups}
-    className="popupModal"
-    downloadBrochure
-  >
-    <div className="leftPopup">
-      <div
-        className="whiteP"
-        style={{ width: "350px", height: "400px" }}
-      ></div>
-    </div>
-    <div className="RightPopup">
-      <h5>Download Brochure</h5>
-      <Form setTrigger={setPopups} downloadBrochure />
-    </div>
-  </Popup>
+      <Popup
+        trigger={popups}
+        setTrigger={setPopups}
+        className="popupModal"
+        downloadBrochure
+      >
+        <div className="leftPopup">
+          <div
+            className="whiteP"
+            style={{ width: "350px", height: "400px" }}
+          ></div>
+        </div>
+        <div className="RightPopup">
+          <h5>Download Brochure</h5>
+          <Form setTrigger={setPopups} downloadBrochure />
+        </div>
+      </Popup>
 
       <div className={styles.headWrapper}>
         <div className={styles.left}>
@@ -86,7 +84,7 @@ const Project = ({ ChangeProject, project, domain }) => {
       </div>
 
       <div className={styles.container}>
-      <Swiper
+        <Swiper
           slidesPerView={1}
           spaceBetween={30}
           pagination={{
@@ -125,10 +123,10 @@ const Project = ({ ChangeProject, project, domain }) => {
             </div>
             <div className={styles.body}>
               <p>
-              Create an online application that
-displays the contents of a database in
-list form, modify or delete each record
-and add new ones.
+                Create an online application that
+                displays the contents of a database in
+                list form, modify or delete each record
+                and add new ones.
 
               </p>
             </div>
@@ -151,10 +149,10 @@ and add new ones.
             </div>
             <div className={styles.body}>
               <p>
-              Learn advanced API integration to
-connect two or more applications, via
-their APIs, that lets those systems
-exchange data.
+                Learn advanced API integration to
+                connect two or more applications, via
+                their APIs, that lets those systems
+                exchange data.
 
               </p>
             </div>
@@ -177,13 +175,13 @@ exchange data.
             </div>
             <div className={styles.body}>
               <p>
-              The connected website must offer
-signup, login/logout, and profile
-creation/editing. This must include a
-"wishlist box," a "order tracker,"
-personalized suggestions, personalized
-and occasional discount features, a
-chatbot, etc.
+                The connected website must offer
+                signup, login/logout, and profile
+                creation/editing. This must include a
+                "wishlist box," a "order tracker,"
+                personalized suggestions, personalized
+                and occasional discount features, a
+                chatbot, etc.
               </p>
             </div>
           </SwiperSlide>
@@ -205,12 +203,12 @@ chatbot, etc.
             </div>
             <div className={styles.body}>
               <p>
-              Develop Authentication technology that
-provides access control for systems by
-checking to see if a user’s credentials
-match the credentials in a database of
-authorized users or in a data
-authentication server.
+                Develop Authentication technology that
+                provides access control for systems by
+                checking to see if a user’s credentials
+                match the credentials in a database of
+                authorized users or in a data
+                authentication server.
               </p>
             </div>
           </SwiperSlide>
@@ -232,10 +230,10 @@ authentication server.
             </div>
             <div className={styles.body}>
               <p>
-              This is a full-stack web development
-project at the advanced level that
-includes seamless audio-video call
-management services. 
+                This is a full-stack web development
+                project at the advanced level that
+                includes seamless audio-video call
+                management services.
               </p>
             </div>
           </SwiperSlide>
@@ -257,12 +255,12 @@ management services.
             </div>
             <div className={styles.body}>
               <p>
-              Nothing more than creating a basic
-content management system is being
-done here. An increased content optimization
-feature and graphics optimization
-feature are required for such a website
-or application.
+                Nothing more than creating a basic
+                content management system is being
+                done here. An increased content optimization
+                feature and graphics optimization
+                feature are required for such a website
+                or application.
               </p>
             </div>
           </SwiperSlide>
@@ -284,10 +282,10 @@ or application.
             </div>
             <div className={styles.body}>
               <p>
-              Learn to integrate the payment gateway
-which is used to authorize and process
-credit card and debit payments for
-online businesses.
+                Learn to integrate the payment gateway
+                which is used to authorize and process
+                credit card and debit payments for
+                online businesses.
               </p>
             </div>
           </SwiperSlide>
@@ -309,21 +307,21 @@ online businesses.
             </div>
             <div className={styles.body}>
               <p>
-              These days workout trackers go far
-beyond the common pedometer.
-Workout trackers like Strava and FitBit
-track and store user data like heart rates
-and run times.
+                These days workout trackers go far
+                beyond the common pedometer.
+                Workout trackers like Strava and FitBit
+                track and store user data like heart rates
+                and run times.
               </p>
             </div>
           </SwiperSlide>
         </Swiper>
       </div>
 
-      <button className={styles.Button} onClick={popupShow} style={{margin:"auto", marginTop:"20px"}}>
-              <FaDownload className="bIcons" />
-              Download Brochure
-            </button>
+      <button className={styles.Button} onClick={popupShow} style={{ margin: "auto", marginTop: "20px" }}>
+        <FaDownload className="bIcons" />
+        Download Brochure
+      </button>
     </div>
   );
 };

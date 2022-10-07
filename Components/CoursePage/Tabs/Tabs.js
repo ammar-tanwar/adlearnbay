@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-
 import { IoIosArrowForward, IoIosArrowDown } from "react-icons/io";
 import TabData from "./TabData";
 import styles from "./Tabs.module.css";
@@ -569,7 +568,7 @@ const Tabs = ({ handleIcon }) => {
                           Data Analytics <br /> Program
                         </h5>
                         <span>
-                        180+ Hours <BsDot /> 5 & 6.5 Months{" "}
+                          180+ Hours <BsDot /> 5 & 6.5 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -580,7 +579,7 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>DSA & <br/>System Design</h5>
+                        <h5>DSA & <br />System Design</h5>
                         <span>
                           200+ Hours <BsDot /> 5 & 6 Months{" "}
                         </span>
@@ -676,7 +675,7 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>DSA & <br/>System Design</h5>
+                        <h5>DSA & <br />System Design</h5>
                         <span>
                           200+ Hours <BsDot /> 5 & 6 Months{" "}
                         </span>
@@ -788,12 +787,12 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                      <h5>
+                        <h5>
                           Data Analytics
                           <br /> Program
                         </h5>
                         <span>
-                        180+ Hours <BsDot /> 5 & 6.5 Months{" "}
+                          180+ Hours <BsDot /> 5 & 6.5 Months{" "}
                         </span>
                       </div>
                     </div>
@@ -842,7 +841,7 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>DSA & <br/>System Design</h5>
+                        <h5>DSA & <br />System Design</h5>
                         <span>
                           200+ Hours <BsDot /> 5 & 6 Months{" "}
                         </span>
@@ -851,7 +850,7 @@ const Tabs = ({ handleIcon }) => {
                   </a>
                 </div>
               </div>
-              
+
             ) : (
               ""
             )}
@@ -1000,7 +999,7 @@ const Tabs = ({ handleIcon }) => {
                           Data Analytics <br /> Program
                         </h5>
                         <span>
-                        180+ Hours <BsDot /> 5 & 6.5 Months{" "}
+                          180+ Hours <BsDot /> 5 & 6.5 Months{" "}
                         </span>
                       </div>
                     </div>

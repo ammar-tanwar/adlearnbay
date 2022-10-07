@@ -7,7 +7,7 @@ import Popup from "../Components/Popup/Popup";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
 import Form from "../Components/Form/Form";
 import Project from "../Components/CoursePage/Projectfswd/Project";
-import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee"; 
+import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
 import { DsaCourseData } from "../Data/DsaData";
 import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
 import CourseReview from "../Components/CoursePage/CourseReviewdsas/CourseReview";
@@ -15,7 +15,7 @@ import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupportfsd"
 import Footer from "../Components/CoursePage/Footer/Footerfsd";
 import BoxShape1 from "../Components/CoursePage/BoxshapeFssd/BoxShape";
 import React, { useState } from "react";
-import Batch from "../Components/CoursePage/BatchDetails/Batch"; 
+import Batch from "../Components/CoursePage/BatchDetails/Batch";
 
 
 export default function Home() {
@@ -27,8 +27,10 @@ export default function Home() {
     return (
         <div >
             <Head>
-                <title>DSA & System Design</title>
-                <meta name="description" content="DSA & System Design" />
+                <title>Data Structure Course Syllabus and DSA Training 2022
+                </title>
+                <meta name="description" content="Best way to learn Data Structures and Algorithms with System Design Course, mastering in JAVA, Python, C, C++. 1:1 Interaction in limited batch, No Cost EMI. 
+                " />
                 <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
                 <script
                     dangerouslySetInnerHTML={{
@@ -82,7 +84,7 @@ export default function Home() {
                         <Form popup={true} setTrigger={setPopups} />
                     </div>
                 </Popup>
-               
+
                 <FirstSection
                     deskTopPara={DsaCourseData[0].FirstSection.deskTopPara}
                     mTopPara={DsaCourseData[0].FirstSection.mTopPara}
@@ -111,16 +113,16 @@ export default function Home() {
                 </div>
                 <div className="Feature" id="Feature">
                     <BoxShape
-                    title={DsaCourseData[0].BoxShape.title}
-                    Box1h5={DsaCourseData[0].BoxShape.Box1h5}
-                    box1desc={DsaCourseData[0].BoxShape.box1desc}
-                    Box2h5={DsaCourseData[0].BoxShape.Box2h5}
-                    box2desc={DsaCourseData[0].BoxShape.box2desc}
-                    Box3h5={DsaCourseData[0].BoxShape.Box3h5}
-                    box3desc={DsaCourseData[0].BoxShape.box3desc}
-                    Box4h5={DsaCourseData[0].BoxShape.Box4h5}
-                    box4desc={DsaCourseData[0].BoxShape.box4desc}
-                    headh5={DsaCourseData[0].BoxShape.headh5}
+                        title={DsaCourseData[0].BoxShape.title}
+                        Box1h5={DsaCourseData[0].BoxShape.Box1h5}
+                        box1desc={DsaCourseData[0].BoxShape.box1desc}
+                        Box2h5={DsaCourseData[0].BoxShape.Box2h5}
+                        box2desc={DsaCourseData[0].BoxShape.box2desc}
+                        Box3h5={DsaCourseData[0].BoxShape.Box3h5}
+                        box3desc={DsaCourseData[0].BoxShape.box3desc}
+                        Box4h5={DsaCourseData[0].BoxShape.Box4h5}
+                        box4desc={DsaCourseData[0].BoxShape.box4desc}
+                        headh5={DsaCourseData[0].BoxShape.headh5}
                     />
                 </div>
 

@@ -12,9 +12,8 @@ import Domain from "../Components/DomainFss/Domain";
 import OurExpert from "../Components/OurExpert/OurExpert";
 import Navbar from "../Components/CoursePage/NavbarDyn/Navbar1";
 import Footer from "../Components/Footerfsds4/Footer";
-  
 import React, { useState } from "react";
- 
+
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -68,83 +67,83 @@ export default function Home() {
         />
       </Head>
       <main>
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-        <div className="leftPopup">
-          <div className="whiteP" />
-        </div>
-        <div className="RightPopup">
-          <h5>Apply For Counselling</h5>
-                   {/* <p>Fill the below Details to get started</p> */}
+        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+          <div className="leftPopup">
+            <div className="whiteP" />
+          </div>
+          <div className="RightPopup">
+            <h5>Apply For Counselling</h5>
+            {/* <p>Fill the below Details to get started</p> */}
 
-          <Form popup={true} setTrigger={setPopups} />
-        </div>
-      </Popup>
-      <Navbar
-      Href="/fswd-s4"
-      Course="Full Stack Web Development Program"
+            <Form popup={true} setTrigger={setPopups} />
+          </div>
+        </Popup>
+        <Navbar
+          Href="/fswd-s4"
+          Course="Full Stack Web Development Program"
 
-      Href1="/fssd-4"
-      Course1="Full-Stack Software Development Program"
+          Href1="/fssd-4"
+          Course1="Full-Stack Software Development Program"
 
-      Href2="/dsa-s4"
-      Course2="DSA & System Design"
+          Href2="/dsa-s4"
+          Course2="DSA & System Design"
 
-      
-      />
-      <FirstSection
-        deskTopPara="Become a Tech Leader and Start Landing Six Figures with ease"
-        mTopPara="Become a Tech Leader and Start Landing Six Figures with ease"
-        title="Full-Stack Software Development Program "
-        desc="Transform your career as a demanding software development expert. Sharpen your skills with real-time project experience."
-      />
-      <div className={styles.program}>
-        <ProgramInfo
-          BatchDate="Working Professionals"
-          BatchDuration="Accredited with IBM"
-          Placement="12+ Real Time Projects"
-          EMI="₹ 10,816/month"
+
         />
-      </div>
-      <GetHired />
-      <div className="Feature" id="Feature">
-        <BoxShape
-          title="Why Enroll In This Program"
-          Box1h5="Custom-fit Training"
-          box1desc="Learn with modules created just for your dream job. Become an extraordinarily demanding software developer."
-          Box2h5="Exclusive Hackathon"
-          box2desc="Sharpen your skills through multiple exclusive hackathons. Upskill your designing skills and coding speed."
-          Box3h5="Premium Mentoring"
-          box3desc="Exclusive mock interview sessions by experienced industry experts. Capstone projects under MNC software developer’s guidance."
-          Box4h5="Hands-on Experience"
-          box4desc="Learn by working hard on real-world projects that range from advanced levels of complexity to large-scale deployments."
+        <FirstSection
+          deskTopPara="Become a Tech Leader and Start Landing Six Figures with ease"
+          mTopPara="Become a Tech Leader and Start Landing Six Figures with ease"
+          title="Full-Stack Software Development Program "
+          desc="Transform your career as a demanding software development expert. Sharpen your skills with real-time project experience."
         />
-      </div>
-      <div className={styles.ExpertWrapper}>
-        <div className={styles.expert}>
-          <h5>Our experts are from:</h5>
+        <div className={styles.program}>
+          <ProgramInfo
+            BatchDate="Working Professionals"
+            BatchDuration="Accredited with IBM"
+            Placement="12+ Real Time Projects"
+            EMI="₹ 10,816/month"
+          />
         </div>
-        <div className={styles.expertBody}>
-          <OurExpert />
+        <GetHired />
+        <div className="Feature" id="Feature">
+          <BoxShape
+            title="Why Enroll In This Program"
+            Box1h5="Custom-fit Training"
+            box1desc="Learn with modules created just for your dream job. Become an extraordinarily demanding software developer."
+            Box2h5="Exclusive Hackathon"
+            box2desc="Sharpen your skills through multiple exclusive hackathons. Upskill your designing skills and coding speed."
+            Box3h5="Premium Mentoring"
+            box3desc="Exclusive mock interview sessions by experienced industry experts. Capstone projects under MNC software developer’s guidance."
+            Box4h5="Hands-on Experience"
+            box4desc="Learn by working hard on real-world projects that range from advanced levels of complexity to large-scale deployments."
+          />
         </div>
-      </div>
-      <div className={styles.cta}>
-        <div className={styles.left}></div>
-        <div className={styles.middle}>
-          <h6>Talk to our team directly.</h6>
-          <p>Reach out and a learning consultant will get in touch with you shortly.</p>
+        <div className={styles.ExpertWrapper}>
+          <div className={styles.expert}>
+            <h5>Our experts are from:</h5>
+          </div>
+          <div className={styles.expertBody}>
+            <OurExpert />
+          </div>
         </div>
-        <div className={styles.right}>
-          <button onClick={popupShow}>Enquire Now</button>
+        <div className={styles.cta}>
+          <div className={styles.left}></div>
+          <div className={styles.middle}>
+            <h6>Talk to our team directly.</h6>
+            <p>Reach out and a learning consultant will get in touch with you shortly.</p>
+          </div>
+          <div className={styles.right}>
+            <button onClick={popupShow}>Enquire Now</button>
+          </div>
         </div>
-      </div>
-      <Syllabus />
-      <Domain />
-      <div className={styles.ProjectWrapper} id="project">
-        <Project />
-      </div>
-       
-      <Footer />
-      </main> 
+        <Syllabus />
+        <Domain />
+        <div className={styles.ProjectWrapper} id="project">
+          <Project />
+        </div>
+
+        <Footer />
+      </main>
     </div>
   )
 }

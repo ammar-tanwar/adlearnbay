@@ -28,7 +28,7 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3, props, 
         <div className="RightPopup">
           <h5> Register NOW! </h5>
           {/* <p>Fill the below details to get started</p> */}
-          <Form popup={true} setTrigger={setPopups} event={true}/>
+          <Form popup={true} setTrigger={setPopups} event={true} />
         </div>
       </Popup>
       <div className={styles.topicHead}>
@@ -72,40 +72,40 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3, props, 
           <li>{props.paragraph4}</li>
           <li>{props.paragraph5}</li>
           <li>{props.paragraph5_1}</li>
-          </ul>
+        </ul>
       </div>
 
       <div>
         <p className={styles.paragramTitle}>{props.para3}</p>
-       
+
         <ul className={styles.listMargin} >
           <li>{props.paragraph6}</li>
           <li>{props.paragraph7}</li>
           <li>{props.paragraph8}</li>
-    
-          </ul>
-        
+
+        </ul>
+
       </div>
 
       <div >
         <p className={styles.paragramTitle}>{props.para4}</p>
-          <ul className={styles.listMargin} >
+        <ul className={styles.listMargin} >
           <li><span>{props.paragraph9}</span><b>{props.paragraph9_1}</b></li>
           <li><span>{props.paragraph10}</span><b>{props.paragraph10_1}</b></li>
-       
-          </ul>
-        
+
+        </ul>
+
       </div>
 
       <div>
         <p className={styles.paragramTitle}>{props.para6}</p>
-       
+
         <ul className={styles.listMargin} >
           <li>{props.paragraph6_2}</li>
           <li>{props.paragraph7_2}</li>
           <li>{props.paragraph8_3}</li>
-          </ul>
-        
+        </ul>
+
       </div>
 
       <div>
@@ -129,15 +129,15 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3, props, 
         <p>{props.paragraph14}</p>
         <p>{props.paragraph15}</p>
         <p><strong>{props.paragraph16}</strong></p>
-       
+
         <ul className={styles.listMargin} >
           <li>{props.paragraph17}</li>
           <li>{props.paragraph18}</li>
           <li>{props.paragraph19}</li>
           <li>{props.paragraph20}</li>
           <li>{props.paragraph21}</li>
-          </ul>
-        
+        </ul>
+
         <p>{props.paragraph22}</p>
         <p>{props.paragraph23}</p>
       </div>

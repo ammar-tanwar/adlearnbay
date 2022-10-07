@@ -414,7 +414,7 @@
     margin-top: -29px;
   }
   .PProgrammain {
-    background-image: url(/syllabus-sideLine.png);
+    /* background-image: url(/syllabus-sideLine.png); */
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;

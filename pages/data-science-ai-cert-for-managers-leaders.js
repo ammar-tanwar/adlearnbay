@@ -30,17 +30,17 @@ export default function Home() {
   };
   return (
     <div>
-    <Head>
-    <title> Data Science and Artificial Intelligence Program For Managers and
-    Leaders</title>
-    <meta
-      name="description"
-      content="Data Science and Artificial Intelligence Program For Managers and Leaders"
-    />
-    <link rel="icon" href="/Learnbay-Favicon-L.png" />
-    <script
-      dangerouslySetInnerHTML={{
-        __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
+      <Head>
+        <title> Data Science and Artificial Intelligence Program For Managers and
+          Leaders</title>
+        <meta
+          name="description"
+          content="Data Science and Artificial Intelligence Program For Managers and Leaders"
+        />
+        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
         var s = document.createElement('script');
         s.type = 'text/javascript';
         s.async = true;
@@ -74,9 +74,9 @@ export default function Home() {
         };
         var x = document.getElementsByTagName('script')[0];
         x.parentNode.insertBefore(s, x);`,
-      }}  
-    />
-  </Head>
+          }}
+        />
+      </Head>
       <main>  <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -90,18 +90,18 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection dataScience={true}
-        deskTopPara="Be a leader with Domain Specialization" 
-        mTopPara="Be a leader with Domain Specialization"
-        title="Data Science and Artificial Intelligence Program"
-        mTitle="Data Science and Artificial Intelligence Program"
-        spanTitleText=" For Managers and Leaders"
-        spanMTitleText=" For Managers and Leaders"
-        desc="Learn under the guidance of seasoned professionals to ace product-based MNC interviews, and earn capstone project certification."
-        src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course4.png"
-        width="758"
-        height="602"
-        alt="AiMl Header"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
+          deskTopPara="Be a leader with Domain Specialization"
+          mTopPara="Be a leader with Domain Specialization"
+          title="Data Science and Artificial Intelligence Program"
+          mTitle="Data Science and Artificial Intelligence Program"
+          spanTitleText=" For Managers and Leaders"
+          spanMTitleText=" For Managers and Leaders"
+          desc="Learn under the guidance of seasoned professionals to ace product-based MNC interviews, and earn capstone project certification."
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course4.png"
+          width="758"
+          height="602"
+          alt="AiMl Header"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -117,8 +117,8 @@ export default function Home() {
         </div>
 
         <div className={styles.Feature} id="Feature">
-        <BoxShape
-        title="Why Enroll In This Program?"
+          <BoxShape
+            title="Why Enroll In This Program?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream AI role. Learn latest ML applications."
             Box2h5="Domain Focused"
@@ -127,13 +127,13 @@ export default function Home() {
             box3desc="Enjoy and learn from mock interviews and CV writing workshops with MAANG AI/ML industry experts."
             Box4h5="Hands-on Experience"
             box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
-      />
+          />
         </div>
         <DomainFaq FaqData={DomainFaqCourseData1} />
         <CourseReview
-        p1="Working at HCL"
-        p2=" Working at TCS"
-        p3="Working at Capgemini" />
+          p1="Working at HCL"
+          p2=" Working at TCS"
+          p3="Working at Capgemini" />
 
         <Certificate
           H4=" Certification Program"
@@ -193,14 +193,14 @@ export default function Home() {
           img20={DsaiManagersCourseData[0].OurExpert.img20}
         />
         <ProgramFee Emi="₹ 9,342/month" Fee="₹ 95,000 +GST" CourseFeeAndFinancing="Program Fee & Financing"
-        para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."  />
+          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." />
         <SliderTab />
 
         <div className={styles.ProjectWrapper} id="project">
-        <Project popupHead={DsaiManagersCourseData[0].Project.popupHead}
-        project={DsaiManagersCourseData[0].Project.project}
-        domain={DsaiManagersCourseData[0].Project.domain}
-        projectTitle={DsaiManagersCourseData[0].Project.projectTitle} />
+          <Project popupHead={DsaiManagersCourseData[0].Project.popupHead}
+            project={DsaiManagersCourseData[0].Project.project}
+            domain={DsaiManagersCourseData[0].Project.domain}
+            projectTitle={DsaiManagersCourseData[0].Project.projectTitle} />
         </div>
 
         <CourseFee

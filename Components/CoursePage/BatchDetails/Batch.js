@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import styles from "./Batch.module.css";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 import { BsFillCircleFill } from "react-icons/bs";
-
 import { BiCheck } from "react-icons/bi";
 import { MdDateRange } from "react-icons/md";
 import { AiOutlineBars } from "react-icons/ai";
@@ -161,17 +160,17 @@ function Batch({
                 <div className={styles.BatchDetails}>
                   <p className={styles.list}><MdDateRange className={styles.icon} /><b>Date</b></p>
                   <p className={styles.list}>7th October 2022</p>
-                      <p className={styles.list}>15th October 2022</p>
-                  
+                  <p className={styles.list}>15th October 2022</p>
+
 
                 </div>
-              </div> 
+              </div>
               <div>
                 <div className={styles.BatchDetails}>
                   <p className={styles.list}><BiTimeFive className={styles.icon} /><b>Time</b></p>
                   <p className={styles.list}>7:30 a.m to 9:30 a.m.</p>
-                      <p className={styles.list}>8:30 a.m to 12:00 p.m.</p>
-                   
+                  <p className={styles.list}>8:30 a.m to 12:00 p.m.</p>
+
 
                 </div>
               </div>
@@ -189,12 +188,3 @@ function Batch({
 
 
 export default Batch
-
-
-
-// <p className={styles.list}>26th August 2022</p>
-
-
-// <p className={styles.list}>Weekday Batch (Mon-Fri)</p>
-
-// <p className={styles.list}>8 p.m. to 10 p.m.</p>

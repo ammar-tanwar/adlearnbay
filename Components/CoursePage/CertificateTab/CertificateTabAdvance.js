@@ -3,7 +3,6 @@ import styles from "./CertificateTab.module.css";
 import Image from 'next/image'
 import { BsCheck2 } from "react-icons/bs";
 import { FaArrowDown, FaArrowUp } from "react-icons/fa";
-import { MdWatchLater, MdLocationPin } from "react-icons/md";
 import {
   CertificateAdvance1,
   CertificateAdvance2,
@@ -70,7 +69,7 @@ function CertificateTab({ H4 }) {
 
                       <a className={styles.btnout} style={{ marginTop: "20px" }} onClick={toggle}>
                         {showMe ? (
-                          
+
                           <span style={{ color: "rgb(243 140 0)", float: "right" }}>Show less
                             <FaArrowUp style={{ marginLeft: "10px" }} />
                           </span>
@@ -82,7 +81,7 @@ function CertificateTab({ H4 }) {
                         }
 
                       </a>
-                     
+
                     </div>
 
                   </div>

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import styles from "./CourseFee.module.css";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 import { BsFillCircleFill } from "react-icons/bs";
-
 import { BiCheck } from "react-icons/bi";
 import { MdDateRange } from "react-icons/md";
 import { AiOutlineBars } from "react-icons/ai";
@@ -52,7 +51,7 @@ function CourseFee({
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <Form popup={true} setTrigger={setPopups}  />
+          <Form popup={true} setTrigger={setPopups} />
         </div>
       </Popup>
       <h4 style={{ marginBottom: "30px" }}>{CourseFeeHead}</h4>
@@ -156,25 +155,25 @@ function CourseFee({
                   <p className={styles.list}>Weekend Batch (Sat-Sun)</p>
                   <p className={styles.list}>Weekday Batch (Mon-Fri)</p>
                   <p className={styles.list}>Weekday Batch (Mon-Fri)</p>
-                  
+
                 </div>
               </div>
               <div>
                 <div className={styles.BatchDetails}>
                   <p className={styles.list}><MdDateRange className={styles.icon} /><b>Date</b></p>
                   <p className={styles.list}>9th October 2022</p>
-                      <p className={styles.list}>14th October 2022</p>
-                      <p className={styles.list}>14th October 2022</p>
+                  <p className={styles.list}>14th October 2022</p>
+                  <p className={styles.list}>14th October 2022</p>
 
                 </div>
-              </div> 
+              </div>
               <div>
                 <div className={styles.BatchDetails}>
                   <p className={styles.list}><BiTimeFive className={styles.icon} /><b>Time</b></p>
                   <p className={styles.list}>8:30 a.m. to 12:00 p.m.</p>
                   <p className={styles.list}>8 a.m. to 10 a.m.</p>
                   <p className={styles.list}>8 p.m. to 10 p.m.</p>
-                      
+
                 </div>
               </div>
               <div className={styles.btnWrapper}>

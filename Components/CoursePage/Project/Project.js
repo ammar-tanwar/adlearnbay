@@ -7,14 +7,13 @@ import { BsCheck2 } from "react-icons/bs";
 import { FaDownload } from "react-icons/fa";
 import { GoDeviceDesktop } from "react-icons/go";
 import { AiOutlineBank } from "react-icons/ai";
-import ProjectPopup from "../ProjectPopup/ProjectPopup";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
 import "swiper/css";
 
 import "swiper/css/pagination";
 
-const Project = ({ popupHead, project, domain,projectTitle }) => {
+const Project = ({ popupHead, project, domain, projectTitle }) => {
   const [popups, setPopups] = useState(false);
 
   const [device, setDevice] = useState();
@@ -234,7 +233,7 @@ const Project = ({ popupHead, project, domain,projectTitle }) => {
                 BMW allows existing customers to sell used cars but many
                 competitors are now offering better resale values...
               </p>
-                <span
+              <span
                 onClick={() => {
                   popupShow();
                   setTitle("Sales Domain");
@@ -392,8 +391,8 @@ const Project = ({ popupHead, project, domain,projectTitle }) => {
       </div>
 
       <div>
-      <div className={styles.btnWrapper}>
-          <button onClick={popupShow} style={{margin:"auto"}}>
+        <div className={styles.btnWrapper}>
+          <button onClick={popupShow} style={{ margin: "auto" }}>
             <FaDownload className="bIcons" />
             Project Brochure
           </button>

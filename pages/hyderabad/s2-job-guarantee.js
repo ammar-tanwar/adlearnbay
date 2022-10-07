@@ -5,7 +5,7 @@ import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
 import BoxShape from "../../Components/CoursePage/Boxshape/BoxShape";
 import Popup from "../../Components/Popup/Popup";
 import Navbar from "../../Components/CoursePage/Navbar/Navbar";
-import Form from "../../Components/Form/Form"; 
+import Form from "../../Components/Form/Form";
 import Certificate from "../../Components/CoursePage/Certificatejob/Certificate";
 import Project from "../../Components/CoursePage/Project/Project";
 import OurExpert from "../../Components/CoursePage/OurExpert/OurExpert";
@@ -18,6 +18,7 @@ import { ProgramFee } from "../../Components/CoursePage/ProgramFee/ProgramFee";
 import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import CourseReview from "../../Components/CoursePage/CourseReview/CourseReview";
 import Footer from "../../Components/CoursePage/Footer/Footer";
+
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -149,7 +150,7 @@ export default function Home() {
           project={JobGuaranteeCourseData[0].project}
         />
         <OurExpert
-        H5={JobGuaranteeCourseData[0].OurExpert.H5}
+          H5={JobGuaranteeCourseData[0].OurExpert.H5}
           img1={JobGuaranteeCourseData[0].OurExpert.img1}
           img2={JobGuaranteeCourseData[0].OurExpert.img2}
           img3={JobGuaranteeCourseData[0].OurExpert.img3}
@@ -175,7 +176,7 @@ export default function Home() {
           img20={JobGuaranteeCourseData[0].OurExpert.img20}
         />
         <ProgramFee Emi={JobGuaranteeCourseData[0].ProgramFee.Emi}
-          Fee={JobGuaranteeCourseData[0].ProgramFee.Fee}  para={JobGuaranteeCourseData[0].ProgramFee.para}  CourseFeeAndFinancing={JobGuaranteeCourseData[0].ProgramFee.CourseFeeAndFinancing} />
+          Fee={JobGuaranteeCourseData[0].ProgramFee.Fee} para={JobGuaranteeCourseData[0].ProgramFee.para} CourseFeeAndFinancing={JobGuaranteeCourseData[0].ProgramFee.CourseFeeAndFinancing} />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project project={JobGuaranteeCourseData[0].Project.project}

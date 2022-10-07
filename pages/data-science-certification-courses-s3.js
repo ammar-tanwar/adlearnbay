@@ -24,7 +24,7 @@ export default function Home() {
 
   const popupShow = () => {
     setPopups(true);
-  }; 
+  };
   return (
     <div>
       <Head>
@@ -71,33 +71,33 @@ export default function Home() {
         />
       </Head>
       <main>
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-        <div className="leftPopup">
-          <div className="whiteP" />
-        </div>
-        <div className="RightPopup">
-          <h5>Apply For Counselling</h5>
-                   {/* <p>Fill the below Details to get started</p> */}
+        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+          <div className="leftPopup">
+            <div className="whiteP" />
+          </div>
+          <div className="RightPopup">
+            <h5>Apply For Counselling</h5>
+            {/* <p>Fill the below Details to get started</p> */}
 
-          <Form popup={true} setTrigger={setPopups} />
-        </div>
-      </Popup>
-      <Navbar  
-      Href="/data-science-certification-courses-s3"
-      Course="Data Science & AI Certification"
+            <Form popup={true} setTrigger={setPopups} />
+          </div>
+        </Popup>
+        <Navbar
+          Href="/data-science-certification-courses-s3"
+          Course="Data Science & AI Certification"
 
-      Href1="/advance-ai-ml-certification-s3"
-      Course1="Advance AI & ML Certification"
+          Href1="/advance-ai-ml-certification-s3"
+          Course1="Advance AI & ML Certification"
 
-      Href2="/data-science-ai-cert-for-managers-leaders-s3"
-      Course2="Data Science & AI Cert. For Managers & Leaders"
+          Href2="/data-science-ai-cert-for-managers-leaders-s3"
+          Course2="Data Science & AI Cert. For Managers & Leaders"
 
-      Href3="/job-guarantee-or-money-back-data-science-ai-s3"
-      Course3="100% Placement Assistance – Data Science & AI"
+          Href3="/job-guarantee-or-money-back-data-science-ai-s3"
+          Course3="100% Placement Assistance – Data Science & AI"
 
-      />
+        />
         <FirstSection dataScience={true}
-        deskTopPara="Choose Specialization over Generalization"
+          deskTopPara="Choose Specialization over Generalization"
           mTopPara="Choose Specialization over Generalization"
           mTitle="Advanced Data Science and AI Program with"
           spanMTitleText="Domain Specialization"
@@ -124,23 +124,23 @@ export default function Home() {
         </div>
 
         <div className={styles.Feature} id="Feature">
-        <BoxShape
-        title="Why Enroll In This Program?"
-        Box1h5="1-on-1 Dedication"
-        box1desc="Live interactive session with expert for every individual"
-        Box2h5="Assured Interview Call"
-        box2desc="Get job referrals powered by 250+ hiring partners"
-        Box3h5="Premium Mentoring"
-        box3desc="Get professionally trained from MAANG and MNC experts"
-        Box4h5="Crafted for professional"
-        box4desc="Prioritize growth and salary hike with in-demand skillset"
-      />
+          <BoxShape
+            title="Why Enroll In This Program?"
+            Box1h5="1-on-1 Dedication"
+            box1desc="Live interactive session with expert for every individual"
+            Box2h5="Assured Interview Call"
+            box2desc="Get job referrals powered by 250+ hiring partners"
+            Box3h5="Premium Mentoring"
+            box3desc="Get professionally trained from MAANG and MNC experts"
+            Box4h5="Crafted for professional"
+            box4desc="Prioritize growth and salary hike with in-demand skillset"
+          />
         </div>
-       
+
         <CourseReview
-        p1="Working at HCL"
-        p2=" Working at TCS"
-        p3="Working at Capgemini" />
+          p1="Working at HCL"
+          p2=" Working at TCS"
+          p3="Working at Capgemini" />
 
         <Certificate
           H4="Data Science Certification Program"
@@ -181,7 +181,7 @@ export default function Home() {
         />
         <ProgramFee Fee={DataScienceCourseData[0].ProgramFee.Fee}
           Emi={DataScienceCourseData[0].ProgramFee.Emi} CourseFeeAndFinancing="Program Fee & Financing"
-          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."  dataScience={true} />
+          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." dataScience={true} />
         <SliderTab />
 
         <div className={styles.ProjectWrapper} id="project">
@@ -191,7 +191,7 @@ export default function Home() {
             projectTitle={DataScienceCourseData[0].Project.projectTitle} />
         </div>
 
-        <CourseFee  
+        <CourseFee
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
           syllabus={DataScienceCourseData[0].Batch}
           CourseFeeHead="Advanced Data Science & AI Program : Batch Details"

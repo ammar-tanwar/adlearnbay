@@ -9,24 +9,24 @@ import { FaTwitter, FaFacebookF, FaLinkedinIn, FaYoutube, FaInstagram, FaApple, 
 const Footerfsd = () => {
 
   const [showMe, setShowMe] = useState(false);
-  function toggle(){
+  function toggle() {
     setShowMe(!showMe);
   }
   return (
     <section className={styles.FooterSection}>
       <div className={styles.FooterDiv1}>
         <div className={styles.FooterDivInner}>
-            <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logo-light.png" alt="Learnbay" quality={100}
-              objectFit="contain" width="230px" height="60px" />
+          <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logo-light.png" alt="Learnbay" quality={100}
+            objectFit="contain" width="230px" height="60px" />
           <p className={styles.FooterInnerli}>Enroll now for Data Science Classroom (Bangalore) or online training with us
             and Master Data Analytics Skills which will help you to transform your career and start your career as a Data
             Scientist.</p>
           <div className={styles.FooterSocial}>
-              <FaTwitter className="bIcons" />
-              <FaFacebookF className="bIcons" />
-              <FaLinkedinIn className="bIcons" />
-              <FaYoutube className="bIcons" />
-              <FaInstagram className="bIcons" />
+            <FaTwitter className="bIcons" />
+            <FaFacebookF className="bIcons" />
+            <FaLinkedinIn className="bIcons" />
+            <FaYoutube className="bIcons" />
+            <FaInstagram className="bIcons" />
           </div>
           <span style={{ display: "flex", marginTop: "20px" }}>
             <IoMailSharp className="bIcons" />

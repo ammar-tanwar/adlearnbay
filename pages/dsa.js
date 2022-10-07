@@ -7,8 +7,6 @@ import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
 import Navbar from "../Components/NavbarHome/Navbar";
 import Project from "../Components/CoursePage/Project/Project";
-import OurExpert from "../Components/CoursePage/OurExpert/OurExpert";
-import CourseFee from "../Components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew1";
 import Footer from "../Components/FooterHome/Footerfsd";
 import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
@@ -20,6 +18,7 @@ import CourseReview from "../Components/CoursePage/CourseReviewdsas/CourseReview
 import DomainFaq from "../Components/CoursePage/DomainFaq/DomainFaq";
 import { DomainFaqCourseData1 } from "../Components/CoursePage/DomainFaq/DOmainFaqData";
 import Batch from "../Components/CoursePage/BatchDetails/Batch";
+
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -29,8 +28,10 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>DSA & System Design</title>
-        <meta name="description" content="DSA & System Design" />
+        <title>Data Structure Course Syllabus and DSA Training 2022
+        </title>
+        <meta name="description" content="Best way to learn Data Structures and Algorithms with System Design Course, mastering in JAVA, Python, C, C++. 1:1 Interaction in limited batch, No Cost EMI. 
+      " />
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{
@@ -128,7 +129,7 @@ export default function Home() {
 
         <DomainFaq FaqData={DomainFaqCourseData1} />
         <CourseReview />
-        
+
         <SyllabusNew dataScience={true}
           syllabus={DsaCourseData[0].syllabus}
           syllabusDesc={DsaCourseData[0].syllabusDesc}

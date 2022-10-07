@@ -74,7 +74,7 @@ export default function Home() {
           }}
         />
       </Head>
-      <main>  <Navbar popup={true} jobDesc={true}/>
+      <main>  <Navbar popup={true} jobDesc={true} />
 
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -84,7 +84,7 @@ export default function Home() {
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below Details to get started</p> */}
 
-            <Form popup={true} setTrigger={setPopups} jobDesc={true}/>
+            <Form popup={true} setTrigger={setPopups} jobDesc={true} />
           </div>
         </Popup>
         <FirstSection
@@ -131,10 +131,10 @@ export default function Home() {
           />
         </div>
 
-        <CourseReview 
-        p2=" Working at TCS, Delhi"
-        p1="Working at HCL, Delhi"
-        p3="Working at Capgemini, Delhi"/>
+        <CourseReview
+          p2=" Working at TCS, Delhi"
+          p1="Working at HCL, Delhi"
+          p3="Working at Capgemini, Delhi" />
         <Certificate
           H4="AI Certification Program"
         />

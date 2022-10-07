@@ -30,6 +30,13 @@ const SliderTabs = () => {
     }
   });
 
+  useEffect(() => {
+    let width = window.innerWidth;
+    if (width > 960) {
+      setOneYear(true);
+    }
+  });
+
   return (
     <div className={styles.Course} id="course">
       <h2>Domain Electives</h2>

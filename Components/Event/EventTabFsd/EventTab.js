@@ -13,7 +13,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 const EventTab = ({ data }) => {
 
-  
+
   const [viewAll, setViewAll] = useState(false);
   const [fullstack, setFullstack] = useState(true);
   const [mobile, setMobile] = useState(false);
@@ -274,7 +274,7 @@ const EventTab = ({ data }) => {
           ) : (
             ""
           )}
-        
+
         </div>
       </div>
     </div>

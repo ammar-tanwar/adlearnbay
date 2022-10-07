@@ -17,6 +17,7 @@ import LearnSupport from "../../Components/CoursePage/LearnSupport/LearnSupport"
 import CourseReview from "../../Components/CoursePage/CourseReview/CourseReview";
 import { ProgramFee } from "../../Components/CoursePage/ProgramFee/ProgramFee";
 import Footer from "../../Components/CoursePage/Footer/Footer";
+
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -71,7 +72,7 @@ export default function Home() {
           }}
         />
       </Head>
-      <main>  <Navbar popup={true} jobDesc={true}/>
+      <main>  <Navbar popup={true} jobDesc={true} />
 
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -127,10 +128,10 @@ export default function Home() {
 
           />
         </div>
-        <CourseReview 
-        p2=" Working at TCS, Bangalore"
-        p1="Working at HCL, Bangalore"
-        p3="Working at Capgemini, Bangalore"/>
+        <CourseReview
+          p2=" Working at TCS, Bangalore"
+          p1="Working at HCL, Bangalore"
+          p3="Working at Capgemini, Bangalore" />
         <Certificate
           title={DataAnalyticsCourseData[0].Certificate.title}
           desc={DataAnalyticsCourseData[0].Certificate.desc}

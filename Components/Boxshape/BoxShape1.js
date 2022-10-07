@@ -2,11 +2,10 @@ import React, { useState } from "react";
 import styles from "./BoxShape1.module.css";
 import { MdOutlineLiveTv } from "react-icons/md";
 import { BsGraphUp } from "react-icons/bs";
-
 import { HomeBoxData } from "./BoxShapeData";
 
 const BoxShape = () => {
- 
+
   const [hover, setHover] = useState(false);
 
   return (
@@ -31,7 +30,7 @@ const BoxShape = () => {
               width="60"
               height="60"
               loading="lazy"
-             alt="data science course in bangalore"
+              alt="data science course in bangalore"
             />
           ) : (
             <img
@@ -39,7 +38,7 @@ const BoxShape = () => {
               width="60"
               height="60"
               loading="lazy"
-             alt="data science course in bangalore"
+              alt="data science course in bangalore"
             />
           )}
         </div>

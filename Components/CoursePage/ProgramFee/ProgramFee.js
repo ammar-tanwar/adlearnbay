@@ -6,7 +6,7 @@ import Image from "next/image";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 
-export const ProgramFee = ({ Fee, Emi, CourseFeeAndFinancing , para}) => {
+export const ProgramFee = ({ Fee, Emi, CourseFeeAndFinancing, para }) => {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -26,7 +26,7 @@ export const ProgramFee = ({ Fee, Emi, CourseFeeAndFinancing , para}) => {
       <div className={styles.header}>
         <h5>{CourseFeeAndFinancing}</h5>
         <p>{para}
-          
+
         </p>
       </div>
       <div className={styles.wrap}>

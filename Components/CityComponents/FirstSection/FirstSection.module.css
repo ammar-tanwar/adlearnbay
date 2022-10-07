@@ -53,13 +53,13 @@
 @media  (max-width: 481px) {
   
 .container {
-  background-image: url(/ArtboardDemo.jpg);
+  /* background-image: url(/ArtboardDemo.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  background-size: cover; */
+  /* position: relative; */
   height: fit-content;
-  color: #cccccc;
+  /* color: #cccccc; */
   display: block;
 }
 .hiringpartners{

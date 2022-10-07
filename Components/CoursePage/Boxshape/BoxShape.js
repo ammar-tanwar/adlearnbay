@@ -4,15 +4,12 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import styles from "./BoxShape.module.css";
 import Image from "next/image";
-import { MdLiveTv } from "react-icons/md";
-import { FiUser } from "react-icons/fi";
 import { AiOutlineDownload } from "react-icons/ai";
-import { BsGraphUp } from "react-icons/bs";
 import Form from "../../Form/Form";
 import Popup from "../../Popup/Popup";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
-import { Autoplay, Pagination } from "swiper"; 
+import { Autoplay, Pagination } from "swiper";
 
 const BoxShape = ({
   title,
@@ -42,7 +39,7 @@ const BoxShape = ({
 
   return (
     <div className={styles.boxWrapper}>
-            <Popup
+      <Popup
         trigger={popups}
         setTrigger={setPopups}
         className="popupModal"
@@ -62,76 +59,76 @@ const BoxShape = ({
       </Popup>
       <h2>{title}</h2>
       <div className={styles.BoxDiv}>
-      <div className={styles.left}>
+        <div className={styles.left}>
           <div>
-          <Image
-            src="/ds.png"
-            alt="data-science-course"
-            quality={100}
-            layout="intrinsic"
-            width="306"
-            height="150"
-          />
-          <p className={styles.Ptopp}>
-          Data Science & AI Certification <br/> Domain Specialisation For Professionals
-          </p>
-          <button className={styles.Button} onClick={popupShow}>
-                  <AiOutlineDownload className="bIcons" />
-                    Download Brochure
-                </button>
+            <Image
+              src="/ds.png"
+              alt="data-science-course"
+              quality={100}
+              layout="intrinsic"
+              width="306"
+              height="150"
+            />
+            <p className={styles.Ptopp}>
+              Data Science & AI Certification <br /> Domain Specialisation For Professionals
+            </p>
+            <button className={styles.Button} onClick={popupShow}>
+              <AiOutlineDownload className="bIcons" />
+              Download Brochure
+            </button>
           </div>
           <div>
-          <Image
-            src="/advanceds.png"
-            alt="data-science-course"
-            quality={100}
-            layout="intrinsic"
-            width="306"
-            height="150"
-          />
-          <p className={styles.Ptopp}>
-          Advance AI & ML Certification <br/> Become AI Expert In Product based MNCs
-          </p>
-          <button className={styles.Button} onClick={popupShow}>
-                  <AiOutlineDownload className="bIcons" />
-                    Download Brochure
-                </button>
+            <Image
+              src="/advanceds.png"
+              alt="data-science-course"
+              quality={100}
+              layout="intrinsic"
+              width="306"
+              height="150"
+            />
+            <p className={styles.Ptopp}>
+              Advance AI & ML Certification <br /> Become AI Expert In Product based MNCs
+            </p>
+            <button className={styles.Button} onClick={popupShow}>
+              <AiOutlineDownload className="bIcons" />
+              Download Brochure
+            </button>
           </div>
           <div>
-          <Image
-            src="/ds.png"
-            alt="data-science-course"
-            quality={100}
-            layout="intrinsic"
-            width="306"
-            height="150"
-          />
-          <p className={styles.Ptopp}>
-          Data Science & AI Certification Program <br/>For Managers and Leaders
-          </p>
-          <button className={styles.Button} onClick={popupShow}>
-                  <AiOutlineDownload className="bIcons" />
-                    Download Brochure
-                </button>
+            <Image
+              src="/ds.png"
+              alt="data-science-course"
+              quality={100}
+              layout="intrinsic"
+              width="306"
+              height="150"
+            />
+            <p className={styles.Ptopp}>
+              Data Science & AI Certification Program <br />For Managers and Leaders
+            </p>
+            <button className={styles.Button} onClick={popupShow}>
+              <AiOutlineDownload className="bIcons" />
+              Download Brochure
+            </button>
           </div>
           <div>
-          <Image
-            src="/advanceds.png"
-            alt="data-science-course"
-            quality={100}
-            layout="intrinsic"
-            width="306"
-            height="150"
-          />
-          <p className={styles.Ptopp}>
-          100% Placement Assistance <br/> Data Science & AI Certification Program
-          </p>
-          <button className={styles.Button} onClick={popupShow}>
-                  <AiOutlineDownload className="bIcons" />
-                    Download Brochure
-                </button>
+            <Image
+              src="/advanceds.png"
+              alt="data-science-course"
+              quality={100}
+              layout="intrinsic"
+              width="306"
+              height="150"
+            />
+            <p className={styles.Ptopp}>
+              100% Placement Assistance <br /> Data Science & AI Certification Program
+            </p>
+            <button className={styles.Button} onClick={popupShow}>
+              <AiOutlineDownload className="bIcons" />
+              Download Brochure
+            </button>
           </div>
-          
+
         </div>
         <div className={styles.right}>
           <div className={styles.imgBack}>
@@ -172,7 +169,7 @@ const BoxShape = ({
                 </SwiperSlide>
                 <SwiperSlide className={styles.swiperSlideer}>
                   <p>
-                  Recommended to anyone who is trying to learn Data Science. Teachers go through every detail and in between they tells you what questions is mostly likely to ask in the interview! Which is important! Also gives you assignments for weekends! Overall really good experience! Worth it!
+                    Recommended to anyone who is trying to learn Data Science. Teachers go through every detail and in between they tells you what questions is mostly likely to ask in the interview! Which is important! Also gives you assignments for weekends! Overall really good experience! Worth it!
                   </p>
                   <div className={styles.profile}>
                     <Image
@@ -189,7 +186,7 @@ const BoxShape = ({
                 </SwiperSlide>
                 <SwiperSlide className={styles.swiperSlideer}>
                   <p>
-                  Learnbay has helped me a lot to learn data science applications in the e-commerce industry. The live class concept was really helpful in receiving proper DS training. Thanks to all my mentors and the placement team.
+                    Learnbay has helped me a lot to learn data science applications in the e-commerce industry. The live class concept was really helpful in receiving proper DS training. Thanks to all my mentors and the placement team.
                   </p>
                   <div className={styles.profile}>
                     <Image

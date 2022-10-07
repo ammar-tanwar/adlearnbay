@@ -66,8 +66,8 @@ const BoxShape = ({
               height="150"
             />
             <p className={styles.Ptopp}>
-            Full-Stack Software
-             <br />Development Program
+              Full-Stack Software
+              <br />Development Program
             </p>
             <button className={styles.Button} onClick={popupShow}>
               <AiOutlineDownload className="bIcons" />
@@ -84,8 +84,8 @@ const BoxShape = ({
               height="150"
             />
             <p className={styles.Ptopp}>
-            Data Structures Algorithms
-             <br />And System Design
+              Data Structures Algorithms
+              <br />And System Design
             </p>
             <button className={styles.Button} onClick={popupShow}>
               <AiOutlineDownload className="bIcons" />
@@ -100,26 +100,3 @@ const BoxShape = ({
 };
 
 export default BoxShape;
-
-
-
-
-
-// <div>
-// <Image
-//   src="/ds.png"
-//   alt="data-science-course"
-//   quality={100}
-//   layout="intrinsic"
-//   width="306"
-//   height="150"
-// />
-// <p className={styles.Ptopp}>
-// Full-Stack Web
-// <br />Development Program 
-// </p>
-// <button className={styles.Button} onClick={popupShow}>
-//   <AiOutlineDownload className="bIcons" />
-//   Download Brochure
-// </button>
-// </div>

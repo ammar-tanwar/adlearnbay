@@ -18,7 +18,7 @@ import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
 import Navbar from "../Components/CoursePage/NavbarDyn/Navbar";
 import Footer from "../Components/Footers4/Footers4";
- 
+
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -72,33 +72,33 @@ export default function Home() {
       </Head>
       <main>
 
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-        <div className="leftPopup">
-          <div className="whiteP" />
-        </div>
-        <div className="RightPopup">
-          <h5>Apply For Counselling</h5>
-                   {/* <p>Fill the below Details to get started</p> */}
+        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+          <div className="leftPopup">
+            <div className="whiteP" />
+          </div>
+          <div className="RightPopup">
+            <h5>Apply For Counselling</h5>
+            {/* <p>Fill the below Details to get started</p> */}
 
-          <Form popup={true} setTrigger={setPopups} />
-        </div>
-      </Popup>
+            <Form popup={true} setTrigger={setPopups} />
+          </div>
+        </Popup>
 
-      <Navbar  
-      Href="/data-science-certification-courses-s4"
-      Course="Data Science & AI Certification"
+        <Navbar
+          Href="/data-science-certification-courses-s4"
+          Course="Data Science & AI Certification"
 
-      Href1="/advance-ai-ml-certification-s4"
-      Course1="Advance AI & ML Certification"
+          Href1="/advance-ai-ml-certification-s4"
+          Course1="Advance AI & ML Certification"
 
-      Href2="/data-science-ai-cert-for-managers-leaders-s4"
-      Course2="Data Science & AI Cert. For Managers & Leaders"
+          Href2="/data-science-ai-cert-for-managers-leaders-s4"
+          Course2="Data Science & AI Cert. For Managers & Leaders"
 
-      Href3="/job-guarantee-or-money-back-data-science-ai-s4"
-      Course3="100% Placement Assistance – Data Science & AI"
+          Href3="/job-guarantee-or-money-back-data-science-ai-s4"
+          Course3="100% Placement Assistance – Data Science & AI"
 
-      />
-      <FirstSection dataScience={true}
+        />
+        <FirstSection dataScience={true}
           deskTopPara="Boost your career opportunities "
           deskTopPara1="by developing relevant skills."
           mTitle="Data Science and AI Program "
@@ -140,7 +140,7 @@ export default function Home() {
             box4desc="Get diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
           />
         </div>
-      
+
         <CourseReview
           p1="Working at HCL"
           p2=" Working at TCS"
@@ -154,7 +154,7 @@ export default function Home() {
           src={JobGuaranteeCourseData[0].Certificate.src}
         />
 
-        <SyllabusNew 
+        <SyllabusNew
           syllabus={JobGuaranteeCourseData[0].syllabus}
           syllabusDesc={JobGuaranteeCourseData[0].syllabusDesc}
           popupHead="Download Course Brochure"

@@ -7,6 +7,7 @@ import Form from "../Components/Form/Form";
 import { FaArrowDown, FaArrowUp } from "react-icons/fa";
 import { MdWatchLater, MdLocationPin } from "react-icons/md";
 import Script from 'next/script';
+
 function demo() {
 
     const [mobile, setMobile] = useState(false);

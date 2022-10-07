@@ -6,9 +6,7 @@ import BoxShape from "../Components/CoursePage/Boxshapefssds/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
 import Navbar from "../Components/NavbarHome/Navbar";
-import Certificate from "../Components/CoursePage/CertificateTab/CertificateTabAdvance";
 import Project from "../Components/CoursePage/Project/Project";
-import CourseFee from "../Components/CoursePage/CourseFee/CourseFee";
 import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew1";
 import Footer from "../Components/FooterHome/Footerfsd";
 import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
@@ -20,6 +18,7 @@ import CourseReview from "../Components/CoursePage/CourseReviewdsas/CourseReview
 import DomainFaq from "../Components/CoursePage/DomainFaq/DomainFaq";
 import { DomainFaqCourseData1 } from "../Components/CoursePage/DomainFaq/DOmainFaqData";
 import Batch from "../Components/CoursePage/BatchDetails/Batch";
+
 export default function Home() {
   const [popups, setPopups] = useState(false);
 

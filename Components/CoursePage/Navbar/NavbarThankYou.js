@@ -46,16 +46,16 @@ const Navbar = ({ radio }) => {
       </Popup>
       <nav className={styles.nav}>
         <div className={styles.left}>
-       
-            <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
-              alt="Learnbay"
-              quality={100}
-              objectFit="contain"
-              width={mobile ? "180" : "230"}
-              height="60px"
-            />
-          
+
+          <Image
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
+            alt="Learnbay"
+            quality={100}
+            objectFit="contain"
+            width={mobile ? "180" : "230"}
+            height="60px"
+          />
+
         </div>
       </nav>
     </div>

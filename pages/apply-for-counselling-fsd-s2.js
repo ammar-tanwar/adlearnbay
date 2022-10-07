@@ -6,6 +6,7 @@ import Footer from "../Components/CoursePage/Footer/Footer";
 import Form from "../Components/Form/Form";
 import { FaArrowDown, FaArrowUp } from "react-icons/fa";
 import { MdWatchLater, MdLocationPin } from "react-icons/md";
+
 function Counselling() {
 
     const [mobile, setMobile] = useState(false);

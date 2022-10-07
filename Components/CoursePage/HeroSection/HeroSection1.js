@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import styles from "./HeroSection1.module.css";
 import "swiper/css";
 import "swiper/css/navigation";
-import { FaArrowRight, FaDownload } from "react-icons/fa";
+import { FaArrowRight,  } from "react-icons/fa";
 import Image from "next/image";
 import Popup from "/Components/Popup/Popup";
 import Form from "/Components/Form/Form";
@@ -50,15 +50,15 @@ const HeroSection = ({
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-         
+
           <Form setTrigger={setPopups} />
         </div>
       </Popup>
       <div className={styles.left}>
         {mobile ? (
           <p className="pTop">
-            <b className="pTopp">{mTopPara}</b> 
-             <b className="pTopp">{mTopPara1}</b>
+            <b className="pTopp">{mTopPara}</b>
+            <b className="pTopp">{mTopPara1}</b>
           </p>
         ) : (
           <p className={styles.pTop}>
@@ -84,7 +84,7 @@ const HeroSection = ({
               <FaArrowRight style={{ marginLeft: "10px" }} />
             </button>
           </div>
-          
+
 
         </div>
         <div className={styles.bottom}>

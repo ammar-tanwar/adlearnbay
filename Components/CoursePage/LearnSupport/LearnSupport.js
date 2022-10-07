@@ -33,7 +33,7 @@ function LearnSupport() {
             </a>
             <a href="tel: +919606950936">
               <button className={styles.btn2}>
-                <MdCall /> +91 96069 50936 
+                <MdCall /> +91 96069 50936
               </button>
             </a>
           </div>

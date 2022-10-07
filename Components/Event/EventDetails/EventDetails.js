@@ -28,14 +28,14 @@ const EventDetails = ({
 
 
 
-    
+
     <div className={styles.Main}>
       <div className={styles.left}>
         <div className={styles.leftI}>
           {mobile ? (
-            <Image src={img1} width="25" height="25" layout="intrinsic"  alt="data science course in bangalore"/>
+            <Image src={img1} width="25" height="25" layout="intrinsic" alt="data science course in bangalore" />
           ) : (
-            <Image src={img1} width="45" height="45" layout="intrinsic" alt="data science course"/>
+            <Image src={img1} width="45" height="45" layout="intrinsic" alt="data science course" />
           )}
         </div>
         <div className={styles.rightI}>
@@ -46,9 +46,9 @@ const EventDetails = ({
       <div className={styles.middle}>
         <div className={styles.leftI}>
           {mobile ? (
-            <Image src={img2} width="25" height="25" layout="intrinsic" alt="data science course"/>
+            <Image src={img2} width="25" height="25" layout="intrinsic" alt="data science course" />
           ) : (
-            <Image src={img2} width="45" height="45" layout="intrinsic"  alt="data science course in bangalore"/>
+            <Image src={img2} width="45" height="45" layout="intrinsic" alt="data science course in bangalore" />
           )}
         </div>
         <div className={styles.rightI}>
@@ -59,9 +59,9 @@ const EventDetails = ({
       <div className={styles.right}>
         <div className={styles.leftI}>
           {mobile ? (
-            <Image src={img3} width="25" height="25" layout="intrinsic" alt="data science course"/>
+            <Image src={img3} width="25" height="25" layout="intrinsic" alt="data science course" />
           ) : (
-            <Image src={img3} width="45" height="45" layout="intrinsic"  alt="data science course in bangalore"/>
+            <Image src={img3} width="45" height="45" layout="intrinsic" alt="data science course in bangalore" />
           )}
         </div>
         <div className={styles.rightI}>

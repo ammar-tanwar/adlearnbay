@@ -56,7 +56,7 @@ export const DsaCourseData = [
     syllabusDesc:
       "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Data Structure Algorithms and System Design sessions are covered practically with real-time industrial projects and case studies.",
     popupHead: "Download Course Brochure",
-    CSyllabus: "Data Structures Algorithms and System Design Syllabus",
+    CSyllabus: "Data Structures Algorithms and System Design Course Syllabus",
     CourseHighlights: "DSA & System Design Course Highlights",
     srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf",
     hours: "200+ Hours",

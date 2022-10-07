@@ -21,6 +21,7 @@ import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
 import Footer from "../Components/CoursePage/Footer/Footer";
 import OfferPopup from "../Components/CoursePage/OfferPopup/OfferPopup";
 
+
 export default function Home() {
   const [popups, setPopups] = useState(false);
 

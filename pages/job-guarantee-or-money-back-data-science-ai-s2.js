@@ -3,7 +3,6 @@ import styles from '../styles/Home.module.css'
 import FirstSection from "../Components/HeroSection/HeroSection";
 import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
 import GetHired from "../Components/GetHired/GetHired";
-import Domain from "../Components/Domain/Domain";
 import BoxShape from "../Components/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
@@ -14,7 +13,6 @@ import ToolsCovered from "../Components/ToolsCovered/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
 import Navbar from "../Components/CoursePage/NavbarDyn/Navbar";
 import Footer from "../Components/Footers2/Footer";
-  
 import React, { useState } from "react";
 
 

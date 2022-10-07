@@ -3,7 +3,7 @@ import styles from "./Fee.module.css";
 import Popup from "/Components/Popup/Popup";
 import Form from "/Components/Form/Form";
 import Image from "next/image";
-import {BsArrowRight}from "react-icons/bs";
+import { BsArrowRight } from "react-icons/bs";
 
 const Fee = ({
   sub1,
@@ -53,7 +53,7 @@ const Fee = ({
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-                   {/* <p>Fill the below Details to get started</p> */}
+          {/* <p>Fill the below Details to get started</p> */}
 
           <Form popup={true} setTrigger={setPopups} />
         </div>
@@ -93,20 +93,20 @@ const Fee = ({
             <span className={styles.PFeatures}>{PFeatures14}</span>
             <span className={styles.PFeatures}>{PFeatures15}</span>
             <span className={styles.PFeatures}>{PFeatures16}
-              
+
             </span>
             <span className={styles.PFeatures}>{PFeatures17}
-              
+
             </span>
             <span className={styles.PFeatures}>{PFeatures18}</span>
-            <span className={styles.PFeatures} style={{paddingTop:"20px"}}>
+            <span className={styles.PFeatures} style={{ paddingTop: "20px" }}>
               <button className={styles.button} onClick={popupShow}>
                 Enroll Now
               </button>
             </span>
           </div>
           <div className={hover ? styles.fourth : styles.third}>
-          <span className={styles.sub}>{sub1}</span>
+            <span className={styles.sub}>{sub1}</span>
             <span className={styles.Price}>{Price1}</span>
             <span className={styles.PFeatures}>{PFeatures11}</span>
             <span className={styles.PFeatures}>{PFeatures12}</span>
@@ -114,13 +114,13 @@ const Fee = ({
             <span className={styles.PFeatures}>{PFeatures14}</span>
             <span className={styles.PFeatures}>{PFeatures15}</span>
             <span className={styles.PFeatures}>
-            {PFeatures16}
+              {PFeatures16}
             </span>
             <span className={styles.PFeatures}>
-            {PFeatures17}
+              {PFeatures17}
             </span>
             <span className={styles.PFeatures}>{PFeatures18}</span>
-            <span className={styles.PFeatures} style={{paddingTop:"20px"}}>
+            <span className={styles.PFeatures} style={{ paddingTop: "20px" }}>
               <button className={styles.button} onClick={popupShow}>
                 Enroll Now
               </button>
@@ -149,7 +149,7 @@ const Fee = ({
               {PFeatures27}
             </span>
             <span className={styles.PFeatures}>{PFeatures28}</span>
-            <span className={styles.PFeatures} style={{paddingTop:"20px"}}>
+            <span className={styles.PFeatures} style={{ paddingTop: "20px" }}>
               <button className={styles.outButton} onClick={popupShow}>
                 Enroll Now
               </button>
@@ -178,7 +178,7 @@ const Fee = ({
               {PFeatures37}
             </span>
             <span className={styles.PFeatures}>{PFeatures38}</span>
-            <span className={styles.PFeatures} style={{paddingTop:"20px"}}>
+            <span className={styles.PFeatures} style={{ paddingTop: "20px" }}>
               <button className={styles.outButton} onClick={popupShow}>
                 Enrol Now
               </button>
@@ -188,7 +188,7 @@ const Fee = ({
       ) : (
         <div className={styles.priceTable}>
           <div className={styles.first}>
-            <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/code.svg" width="40" height="40"/>
+            <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/code.svg" width="40" height="40" />
             <span
               className={styles.Price}
               style={{ marginBottom: "30px", marginTop: "0px" }}
@@ -203,17 +203,17 @@ const Fee = ({
             <span className={styles.PFeatures}> Job Referrals</span>
             <span className={styles.PFeatures}>100% Placement Assistance</span>
             <span className={styles.PFeatures}>Targeted Job Roles</span>
-            <BsArrowRight/>
+            <BsArrowRight />
           </div>
 
-          <div className={ styles.third}
-           onMouseEnter={() => {
-            setHover(true);
-          }}
-          onMouseLeave={() => {
-            setHover(false);
-          }}>
-          <span className={styles.sub}>{sub1}</span>
+          <div className={styles.third}
+            onMouseEnter={() => {
+              setHover(true);
+            }}
+            onMouseLeave={() => {
+              setHover(false);
+            }}>
+            <span className={styles.sub}>{sub1}</span>
             <span className={styles.Price}>{Price1}</span>
             <span className={styles.PFeatures}>{PFeatures11}</span>
             <span className={styles.PFeatures}>{PFeatures12}</span>
@@ -221,13 +221,13 @@ const Fee = ({
             <span className={styles.PFeatures}>{PFeatures14}</span>
             <span className={styles.PFeatures}>{PFeatures15}</span>
             <span className={styles.PFeatures}>{PFeatures16}
-              
+
             </span>
             <span className={styles.PFeatures}>{PFeatures17}
-              
+
             </span>
             <span className={styles.PFeatures}>{PFeatures18}</span>
-            <span className={styles.PFeatures} style={{paddingTop:"20px"}}>
+            <span className={styles.PFeatures} style={{ paddingTop: "20px" }}>
               <button className={styles.button} onClick={popupShow}>
                 Enrol Now
               </button>
@@ -235,7 +235,7 @@ const Fee = ({
           </div>
           <div
             className={hover ? styles.third : styles.fourth}
-           
+
           >
             <span className={styles.sub}>{sub2}</span>
             <span className={styles.Price}>{Price2}</span>
@@ -251,7 +251,7 @@ const Fee = ({
               {PFeatures27}
             </span>
             <span className={styles.PFeatures}>{PFeatures28}</span>
-            <span className={styles.PFeatures} style={{paddingTop:"20px"}}>
+            <span className={styles.PFeatures} style={{ paddingTop: "20px" }}>
               <button className={styles.button} onClick={popupShow}>
                 Enrol Now
               </button>
@@ -280,7 +280,7 @@ const Fee = ({
               {PFeatures37}
             </span>
             <span className={styles.PFeatures}>{PFeatures38}</span>
-            <span className={styles.PFeatures} style={{paddingTop:"20px"}}>
+            <span className={styles.PFeatures} style={{ paddingTop: "20px" }}>
               <button className={styles.button} onClick={popupShow}>
                 Enrol Now
               </button>

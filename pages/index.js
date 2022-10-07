@@ -87,12 +87,12 @@ export default function Home() {
           make your past work experience relevant
         </p>
         <div className={styles.boxShape}>
-          <BoxShape/>
+          <BoxShape />
         </div>
       </div>
       <Course radio={true} />
       <KeyFeatures />
-      <WhyLearnbay radio={true}/>
+      <WhyLearnbay radio={true} />
       <MultiTabs />
       <FormSection dataScience={true} />
       <CareerImpactHome />
@@ -102,6 +102,3 @@ export default function Home() {
 
   );
 }
-
-
-// <Course radio={true} />

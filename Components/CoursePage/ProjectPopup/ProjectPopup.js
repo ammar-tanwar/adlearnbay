@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import styles from "./ProjectPopup.module.scss";
-
-import {IoClose} from "react-icons/io5"
+import { IoClose } from "react-icons/io5"
 
 const ProjectPopup = (props) => {
   let color = "transparent";
@@ -36,17 +35,17 @@ const ProjectPopup = (props) => {
           />
         )}
 
-       <div className={styles.InnerGrid}>
-        <div className={styles.imgWrap}>
-          <img src={props.imgsrc} />
+        <div className={styles.InnerGrid}>
+          <div className={styles.imgWrap}>
+            <img src={props.imgsrc} />
+          </div>
+          <div className={styles.contentWrap}>
+            <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp" width="205px" height="auto" />
+            <h5  >{props.title}</h5>
+            <p>{props.desc}</p>
+          </div>
+
         </div>
-        <div className={styles.contentWrap}>
-         <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp" width="205px" height="auto"/>
-         <h5  >{props.title}</h5>
-         <p>{props.desc}</p>
-        </div>
-         
-       </div>
       </div>
     </div>
   ) : (

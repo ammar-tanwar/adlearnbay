@@ -39,7 +39,7 @@ const Navbar = ({
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-                   {/* <p>Fill the below Details to get started</p> */}
+          {/* <p>Fill the below Details to get started</p> */}
 
           <Form popup={true} setTrigger={setPopups} />
         </div>
@@ -64,15 +64,15 @@ const Navbar = ({
 
             </div>
           </div>
-            <Image
-              src="/Learnbay-Logo.png"
-              alt="Learnbay"
-              quality={100}
-              objectFit="contain"
-              width="230px"
-              height="60px"
-            />
-         
+          <Image
+            src="/Learnbay-Logo.png"
+            alt="Learnbay"
+            quality={100}
+            objectFit="contain"
+            width="230px"
+            height="60px"
+          />
+
         </div>
 
 
@@ -100,18 +100,3 @@ const Navbar = ({
 };
 
 export default Navbar;
-
-// <a href="/job-guarantee-or-money-back-data-science-ai-s2"> </a>
-
-
-// "/data-science-certification-courses-s2"
-
-// Advance Data Science & AI Certification
-
-// "/advance-ai-ml-certification-s2"
-
-// Advance AI & ML Certification
-
-// "/data-science-ai-cert-for-managers-leaders-s2">Data Science & AI Cert. For Managers & Leaders
-
-// "/job-guarantee-or-money-back-data-science-ai-s2">100% Placement Assistance – Data Science & AI

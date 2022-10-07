@@ -8,7 +8,7 @@ import getDay from "date-fns/getDay";
 const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
 
   const router = useRouter();
-  
+
   let today = new Date();
   let time =
     today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
@@ -41,16 +41,16 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
     }));
   };
 
-  
+
 
   let endPoint = "https://getform.io/f/df003555-86c7-4ae5-a7f8-98c21dd9ad92";
-  
+
   if (event) {
     endPoint = "https://getform.io/f/df003555-86c7-4ae5-a7f8-98c21dd9ad92";
   }
 
   let btnTxt = "Apply for  Counseliing"
-  if (event){
+  if (event) {
     btnTxt = "Register Now"
   }
 
@@ -82,7 +82,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
     }
 
     setDisable(true);
-    if (event){
+    if (event) {
       router.push("/Thank-you")
       return;
     }
@@ -130,17 +130,17 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
             style={
               popup
                 ? {
-                    height: "50px",
-                    borderRadius: "8px",
-                    border: "1px solid grey",
-                    padding: "10px",
-                  }
+                  height: "50px",
+                  borderRadius: "8px",
+                  border: "1px solid grey",
+                  padding: "10px",
+                }
                 : {
-                    border: "0",
-                    height: "50px",
-                    borderRadius: "3px",
-                    borderBottom: "1px solid grey",
-                  }
+                  border: "0",
+                  height: "50px",
+                  borderRadius: "3px",
+                  borderBottom: "1px solid grey",
+                }
             }
             name="phone"
             rules={{ required: true }}

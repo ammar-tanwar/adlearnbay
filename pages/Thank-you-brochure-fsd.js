@@ -7,6 +7,7 @@ import { BsArrowLeftShort } from "react-icons/bs";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
 import Footer from "../Components/Footerfsdsq/Footer";
 
+
 const ThankYou = () => {
   return (
     <div className={styles.main}>

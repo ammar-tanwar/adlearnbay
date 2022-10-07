@@ -8,7 +8,6 @@ import Navbar from "../Components/CoursePage/Navbar/Navbar";
 import Form from "../Components/Form/Form";
 import Project from "../Components/CoursePage/Projectfswd/Project";
 import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
-
 import { FullStackSoftwareCourseData } from "../Data/FullStackSoftware";
 import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
 import CourseReview from "../Components/CoursePage/CourseReviewdsas/CourseReview";
@@ -82,7 +81,7 @@ export default function Home() {
                         <Form popup={true} setTrigger={setPopups} />
                     </div>
                 </Popup>
-            
+
 
                 <FirstSection
                     deskTopPara={FullStackSoftwareCourseData[0].FirstSection.deskTopPara}

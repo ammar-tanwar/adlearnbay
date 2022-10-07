@@ -3,17 +3,15 @@ import styles from "./SyllabusNew.module.css";
 import { MdOutlineLiveTv, MdOutlineLaptopMac } from "react-icons/md";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 import { FaDownload } from "react-icons/fa";
-import { 
+import {
   AiOutlineFundProjectionScreen,
   AiOutlineFieldTime,
 } from "react-icons/ai";
 import Form from "../../Form/Form";
 import { BsFillCircleFill } from "react-icons/bs";
-
-import { AiOutlineDownload } from "react-icons/ai";
 import Popup from "../../Popup/Popup";
 
-function SyllabusNew({ 
+function SyllabusNew({
   syllabus,
   syllabusDesc,
   popupHead,
@@ -69,14 +67,14 @@ function SyllabusNew({
           <Form setTrigger={setPopups} downloadBrochure />
         </div>
       </Popup>
-      
+
       <div className={styles.syllabusLeft}>
         <div className={styles.Syllabusbutton}>
           <div>
             <h4>{CSyllabus}</h4>
           </div>
           <div className={styles.btnWrapper}>
-            <button onClick={popupShow} style={{margin:"auto"}}>
+            <button onClick={popupShow} style={{ margin: "auto" }}>
               <FaDownload className="bIcons" />
               Syllabus Brochure
             </button>
@@ -160,7 +158,7 @@ function SyllabusNew({
         })}
         <div className={styles.white} />
       </div>
-      
+
       <div>
         <div className={styles.syllabusRight}>
           <div className={styles.PProgrammain}>

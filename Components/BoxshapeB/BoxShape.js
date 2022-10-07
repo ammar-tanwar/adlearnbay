@@ -3,7 +3,6 @@ import Image from "next/image";
 import Popup from "../Popup/Popup";
 import styles from "./BoxShape.module.css";
 import { AiOutlineDownload } from "react-icons/ai";
-
 import Form from "../Form/Form";
 
 const BoxShape = ({
@@ -47,74 +46,74 @@ const BoxShape = ({
       <div className={styles.BoxDiv}>
         <div className={styles.left}>
           <div>
-          <Image
-            src="/ds.png"
-            alt="data-science-course"
-            quality={100}
-            layout="intrinsic"
-            width="306"
-            height="150"
-          />
-          <p className={styles.Ptopp}>
-          Data Science & AI Certification <br/> Domain Specialisation For Professionals
-          </p>
-          <button className={styles.Button} onClick={popupShow}>
-                  <AiOutlineDownload className="bIcons" />
-                    Download Brochure
-                </button>
+            <Image
+              src="/ds.png"
+              alt="data-science-course"
+              quality={100}
+              layout="intrinsic"
+              width="306"
+              height="150"
+            />
+            <p className={styles.Ptopp}>
+              Data Science & AI Certification <br /> Domain Specialisation For Professionals
+            </p>
+            <button className={styles.Button} onClick={popupShow}>
+              <AiOutlineDownload className="bIcons" />
+              Download Brochure
+            </button>
           </div>
           <div>
-          <Image
-            src="/advanceds.png"
-            alt="data-science-course"
-            quality={100}
-            layout="intrinsic"
-            width="306"
-            height="150"
-          />
-          <p className={styles.Ptopp}>
-          Advance AI & ML Certification <br/> Become AI Expert In Product based MNCs
-          </p>
-          <button className={styles.Button} onClick={popupShow}>
-                  <AiOutlineDownload className="bIcons" />
-                    Download Brochure
-                </button>
+            <Image
+              src="/advanceds.png"
+              alt="data-science-course"
+              quality={100}
+              layout="intrinsic"
+              width="306"
+              height="150"
+            />
+            <p className={styles.Ptopp}>
+              Advance AI & ML Certification <br /> Become AI Expert In Product based MNCs
+            </p>
+            <button className={styles.Button} onClick={popupShow}>
+              <AiOutlineDownload className="bIcons" />
+              Download Brochure
+            </button>
           </div>
           <div>
-          <Image
-            src="/ds.png"
-            alt="data-science-course"
-            quality={100}
-            layout="intrinsic"
-            width="306"
-            height="150"
-          />
-          <p className={styles.Ptopp}>
-          Data Science & AI Certification Program <br/>For Managers and Leaders
-          </p>
-          <button className={styles.Button} onClick={popupShow}>
-                  <AiOutlineDownload className="bIcons" />
-                    Download Brochure
-                </button>
+            <Image
+              src="/ds.png"
+              alt="data-science-course"
+              quality={100}
+              layout="intrinsic"
+              width="306"
+              height="150"
+            />
+            <p className={styles.Ptopp}>
+              Data Science & AI Certification Program <br />For Managers and Leaders
+            </p>
+            <button className={styles.Button} onClick={popupShow}>
+              <AiOutlineDownload className="bIcons" />
+              Download Brochure
+            </button>
           </div>
           <div>
-          <Image
-            src="/advanceds.png"
-            alt="data-science-course"
-            quality={100}
-            layout="intrinsic"
-            width="306"
-            height="150"
-          />
-          <p className={styles.Ptopp}>
-          100% Placement Assistance <br/> Data Science & AI Certification Program
-          </p>
-          <button className={styles.Button} onClick={popupShow}>
-                  <AiOutlineDownload className="bIcons" />
-                    Download Brochure
-                </button>
+            <Image
+              src="/advanceds.png"
+              alt="data-science-course"
+              quality={100}
+              layout="intrinsic"
+              width="306"
+              height="150"
+            />
+            <p className={styles.Ptopp}>
+              100% Placement Assistance <br /> Data Science & AI Certification Program
+            </p>
+            <button className={styles.Button} onClick={popupShow}>
+              <AiOutlineDownload className="bIcons" />
+              Download Brochure
+            </button>
           </div>
-          
+
         </div>
         <div className={styles.right}>
           <div className={styles.imgBack}>

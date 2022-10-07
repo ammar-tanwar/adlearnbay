@@ -11,7 +11,6 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 
-
 const CourseReview = () => {
 
   const [popups, setPopups] = useState(false);

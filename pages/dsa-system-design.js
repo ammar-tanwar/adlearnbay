@@ -6,14 +6,11 @@ import GetHired from "../Components/GetHiredFsw/GetHired";
 import BoxShape from "../Components/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
-import Certificate from "../Components/CertificateFsw/Certificate";
 import Project from "../Components/Projectfswd/Project";
 import Syllabus from "../Components/Syllabusfss/Syllabus";
-import ToolsCovered from "../Components/ToolsCoveredfs/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
 import Navbar from "../Components/Navbarfsds/Navbar";
 import Footer from "../Components/Footerfsds/Footer";
- 
 import React, { useState } from "react";
 
 export default function Home() {
@@ -74,7 +71,7 @@ export default function Home() {
           </div>
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
-                     {/* <p>Fill the below Details to get started</p> */}
+            {/* <p>Fill the below Details to get started</p> */}
 
             <Form popup={true} setTrigger={setPopups} />
           </div>

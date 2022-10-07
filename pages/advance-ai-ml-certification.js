@@ -21,6 +21,7 @@ import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
 import DomainFaq from "../Components/CoursePage/DomainFaq/DomainFaq";
 import { DomainFaqCourseData1 } from "../Components/CoursePage/DomainFaq/DOmainFaqData";
 import OtherCertificate from "../Components/CoursePage/OtherCertificate/OtherCertificate";
+
 export default function Home() {
   const [popups, setPopups] = useState(false);
 

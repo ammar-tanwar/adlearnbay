@@ -1,7 +1,5 @@
 import React from "react";
-
 import styles from "./BoxShape.module.css";
-
 import Form from "../Form/Form";
 
 const BoxShape = ({

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styles from "./DomainCourseFaq.module.css";
-
-import {AiOutlinePlus ,AiOutlineMinus} from "react-icons/ai"
+import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai"
 
 
 function DomainCourseFaq({ FaqData }) {

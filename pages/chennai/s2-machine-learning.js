@@ -74,7 +74,7 @@ export default function Home() {
           }}
         />
       </Head>
-      <main>  <Navbar popup={true} jobDesc={true}/>
+      <main>  <Navbar popup={true} jobDesc={true} />
 
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -84,10 +84,10 @@ export default function Home() {
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below Details to get started</p> */}
 
-            <Form popup={true} setTrigger={setPopups} jobDesc={true}/>
+            <Form popup={true} setTrigger={setPopups} jobDesc={true} />
           </div>
         </Popup>
-       
+
         <FirstSection
           deskTopPara={MlCourseData[0].FirstSection.deskTopPara}
           deskTopPara1={MlCourseData[0].FirstSection.deskTopPara1}
@@ -130,10 +130,10 @@ export default function Home() {
             headh5={MlCourseData[0].BoxShape.headh5}
           />
         </div>
-        <CourseReview 
-        p2=" Working at TCS, Chennai"
-        p1="Working at HCL, Chennai"
-        p3="Working at Capgemini, Chennai"/>
+        <CourseReview
+          p2=" Working at TCS, Chennai"
+          p1="Working at HCL, Chennai"
+          p3="Working at Capgemini, Chennai" />
         <Certificate
           H4="Machine Learning Certification Program" />
         <OtherCertificate

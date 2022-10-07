@@ -41,12 +41,12 @@ const Certificate = ({ popupHead, title, desc, desc2, desc3, radio }) => {
         <p className={styles.pBotC}>{desc2}</p>
         <p className={styles.pBotC}>{desc3}</p>
         <div>
-            <button className={styles.Button} onClick={popupShow}>
-              {" "}
-              <BiDownload className="bIcons" />
-              Download Brochure
-            </button>
-          </div>
+          <button className={styles.Button} onClick={popupShow}>
+            {" "}
+            <BiDownload className="bIcons" />
+            Download Brochure
+          </button>
+        </div>
       </div>
       <div className={styles.right}>
         <Swiper

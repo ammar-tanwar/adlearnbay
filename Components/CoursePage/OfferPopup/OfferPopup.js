@@ -3,7 +3,7 @@ import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 
 const OfferPopup = () => {
-  
+
   const [popups, setPopups] = useState(false);
 
   useEffect(() => {
@@ -14,13 +14,13 @@ const OfferPopup = () => {
   }, []);
 
   return (
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+    <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
       <div className="leftPopup">
-          <div className="whiteP" />
+        <div className="whiteP" />
       </div>
       <div className="RightPopup">
-          <h5>Apply For Counselling</h5>
-          <Form popup={true} setTrigger={setPopups} />
+        <h5>Apply For Counselling</h5>
+        <Form popup={true} setTrigger={setPopups} />
       </div>
     </Popup>
   );

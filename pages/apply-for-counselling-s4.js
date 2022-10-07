@@ -55,7 +55,7 @@ function Counselling() {
       <div className={styles.formq}>
         <div className={styles.forml}></div>
         <div className={styles.formr}>
-        <Form />
+          <Form />
         </div>
       </div>
       <Footer />

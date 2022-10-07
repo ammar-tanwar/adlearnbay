@@ -16,14 +16,12 @@ import React, { useState } from "react";
 import { DsaiManagersCourseData } from "../Data/DataScienceManagers";
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
-
 import OtherCertificate from "../Components/CoursePage/OtherCertificate6/OtherCertificate";
-
 import Navbar from "../Components/CoursePage/NavbarDyn/Navbar";
 import Footer from "../Components/Footers3/Footers3";
-  
- 
-export default function Home() { 
+
+
+export default function Home() {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -75,44 +73,44 @@ export default function Home() {
         />
       </Head>
       <main>
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-        <div className="leftPopup">
-          <div className="whiteP" />
-        </div>
-        <div className="RightPopup">
-          <h5>Apply For Counselling</h5>
-                   {/* <p>Fill the below Details to get started</p> */}
+        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+          <div className="leftPopup">
+            <div className="whiteP" />
+          </div>
+          <div className="RightPopup">
+            <h5>Apply For Counselling</h5>
+            {/* <p>Fill the below Details to get started</p> */}
 
-          <Form popup={true} setTrigger={setPopups} />
-        </div>
-      </Popup>
-      <Navbar  
-      Href="/data-science-certification-courses-s3"
-      Course="Data Science & AI Certification"
+            <Form popup={true} setTrigger={setPopups} />
+          </div>
+        </Popup>
+        <Navbar
+          Href="/data-science-certification-courses-s3"
+          Course="Data Science & AI Certification"
 
-      Href1="/advance-ai-ml-certification-s3"
-      Course1="Advance AI & ML Certification"
+          Href1="/advance-ai-ml-certification-s3"
+          Course1="Advance AI & ML Certification"
 
-      Href2="/data-science-ai-cert-for-managers-leaders-s3"
-      Course2="Data Science & AI Cert. For Managers & Leaders"
+          Href2="/data-science-ai-cert-for-managers-leaders-s3"
+          Course2="Data Science & AI Cert. For Managers & Leaders"
 
-      Href3="/job-guarantee-or-money-back-data-science-ai-s3"
-      Course3="100% Placement Assistance – Data Science & AI"
+          Href3="/job-guarantee-or-money-back-data-science-ai-s3"
+          Course3="100% Placement Assistance – Data Science & AI"
 
-      />
-      <FirstSection dataScience={true}
-        deskTopPara="Be a leader with Domain Specialization" 
-        mTopPara="Be a leader with Domain Specialization"
-        title="Data Science and Artificial Intelligence Program"
-        mTitle="Data Science and Artificial Intelligence Program"
-        spanTitleText=" For Managers and Leaders"
-        spanMTitleText=" For Managers and Leaders"
-        desc="Learn under the guidance of seasoned professionals to ace product-based MNC interviews, and earn capstone project certification."
-        src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course4.png"
-        width="758"
-        height="602"
-        alt="AiMl Header"
-        srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
+        />
+        <FirstSection dataScience={true}
+          deskTopPara="Be a leader with Domain Specialization"
+          mTopPara="Be a leader with Domain Specialization"
+          title="Data Science and Artificial Intelligence Program"
+          mTitle="Data Science and Artificial Intelligence Program"
+          spanTitleText=" For Managers and Leaders"
+          spanMTitleText=" For Managers and Leaders"
+          desc="Learn under the guidance of seasoned professionals to ace product-based MNC interviews, and earn capstone project certification."
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course4.png"
+          width="758"
+          height="602"
+          alt="AiMl Header"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -128,8 +126,8 @@ export default function Home() {
         </div>
 
         <div className={styles.Feature} id="Feature">
-        <BoxShape
-        title="Why Enroll In This Program?"
+          <BoxShape
+            title="Why Enroll In This Program?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream AI role. Learn latest ML applications."
             Box2h5="Domain Focused"
@@ -138,13 +136,13 @@ export default function Home() {
             box3desc="Enjoy and learn from mock interviews and CV writing workshops with MAANG AI/ML industry experts."
             Box4h5="Hands-on Experience"
             box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
-      />
+          />
         </div>
-    
+
         <CourseReview
-        p1="Working at HCL"
-        p2=" Working at TCS"
-        p3="Working at Capgemini" />
+          p1="Working at HCL"
+          p2=" Working at TCS"
+          p3="Working at Capgemini" />
 
         <Certificate
           H4=" Certification Program"
@@ -204,14 +202,14 @@ export default function Home() {
           img20={DsaiManagersCourseData[0].OurExpert.img20}
         />
         <ProgramFee Emi="₹ 9,342/month" Fee="₹ 95,000 +GST" CourseFeeAndFinancing="Program Fee & Financing"
-        para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."  />
+          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." />
         <SliderTab />
 
         <div className={styles.ProjectWrapper} id="project">
-        <Project popupHead={DsaiManagersCourseData[0].Project.popupHead}
-        project={DsaiManagersCourseData[0].Project.project}
-        domain={DsaiManagersCourseData[0].Project.domain}
-        projectTitle={DsaiManagersCourseData[0].Project.projectTitle} />
+          <Project popupHead={DsaiManagersCourseData[0].Project.popupHead}
+            project={DsaiManagersCourseData[0].Project.project}
+            domain={DsaiManagersCourseData[0].Project.domain}
+            projectTitle={DsaiManagersCourseData[0].Project.projectTitle} />
         </div>
 
         <CourseFee
@@ -227,7 +225,7 @@ export default function Home() {
         />
         <LearnSupport />
         <Footer />
-      </main> 
+      </main>
     </div>
   )
 }

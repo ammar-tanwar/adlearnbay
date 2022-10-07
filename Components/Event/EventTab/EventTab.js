@@ -11,6 +11,7 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+
 const EventTab = ({ data }) => {
   const [viewAll, setViewAll] = useState(false);
   const [dataScience, setDataScience] = useState(false);

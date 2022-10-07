@@ -1,13 +1,11 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { FaArrowRight, FaChevronDown, FaChevronUp } from "react-icons/fa";
+import { FaArrowRight,  } from "react-icons/fa";
 import styles from "./Navbar.module.css";
-import Link from "next/link";
-import { GiHamburgerMenu } from "react-icons/gi";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import { useRouter } from "next/router";
-import Tabs from "../Tabs/Tabs";
+
 
 const Navbar = ({ radio }) => {
   const router = useRouter();
@@ -50,16 +48,16 @@ const Navbar = ({ radio }) => {
       </Popup>
       <nav className={styles.nav}>
         <div className={styles.left}>
-       
-            <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
-              alt="Learnbay"
-              quality={100}
-              objectFit="contain"
-              width={mobile ? "180" : "230"}
-              height="60px"
-            />
-          
+
+          <Image
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
+            alt="Learnbay"
+            quality={100}
+            objectFit="contain"
+            width={mobile ? "180" : "230"}
+            height="60px"
+          />
+
         </div>
         <div className={styles.right}>
           <button onClick={popupShow} className="outLineBtn">

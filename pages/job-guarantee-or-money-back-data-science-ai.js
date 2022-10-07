@@ -20,6 +20,7 @@ import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
 import DomainFaq from "../Components/CoursePage/DomainFaq/DomainFaq";
 import { DomainFaqCourseData1 } from "../Components/CoursePage/DomainFaq/DOmainFaqData";
+
 export default function Home() {
   const [popups, setPopups] = useState(false);
 

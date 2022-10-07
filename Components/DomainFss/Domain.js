@@ -40,7 +40,7 @@ const Domain = () => {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-                   {/* <p>Fill the below Details to get started</p> */}
+          {/* <p>Fill the below Details to get started</p> */}
 
           <Form popup={true} setTrigger={setPopups} />
         </div>
@@ -51,8 +51,8 @@ const Domain = () => {
       </div>
       <div className={styles.imageBox}>
         <div className={styles.left}>
-        <div className={styles.top}>
-         <p>Full Stack Domain</p>
+          <div className={styles.top}>
+            <p>Full Stack Domain</p>
           </div>
           <div className={styles.middle}>
             <p>Product Engineer/Manager Domain</p>
@@ -62,22 +62,22 @@ const Domain = () => {
           </div>
         </div>
         <div className={styles.left}>
-        <div className={styles.top}>
-         <p> Web 3.0 Developer Domain</p>
+          <div className={styles.top}>
+            <p> Web 3.0 Developer Domain</p>
           </div>
           <div className={styles.middle}>
             <p>Devops & Clouds Domain</p>
           </div>
         </div>
         <div className={styles.right}>
-        <Image
-          src="/domain-new.png"
-          alt="data-science-course"
-          quality={100}
-          layout="intrinsic"
-          width="500"
-          height="250"
-        />
+          <Image
+            src="/domain-new.png"
+            alt="data-science-course"
+            quality={100}
+            layout="intrinsic"
+            width="500"
+            height="250"
+          />
         </div>
       </div>
     </section>

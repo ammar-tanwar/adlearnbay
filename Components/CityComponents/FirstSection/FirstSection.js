@@ -50,10 +50,10 @@ export const FirstSection = () => {
           </div>
 
           <div className={styles.counsilBtn}>
-          <button >
-            Apply for Counselling
-            <FaArrowRight style={{ marginLeft: "10px" }} />
-          </button>
+            <button >
+              Apply for Counselling
+              <FaArrowRight style={{ marginLeft: "10px" }} />
+            </button>
           </div>
         </div>
 

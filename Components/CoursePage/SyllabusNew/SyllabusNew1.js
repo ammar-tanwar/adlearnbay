@@ -9,8 +9,6 @@ import {
 } from "react-icons/ai";
 import Form from "../../Form/Form";
 import { BsFillCircleFill } from "react-icons/bs";
-
-import { AiOutlineDownload } from "react-icons/ai";
 import Popup from "../../Popup/Popup";
 
 function SyllabusNew({
@@ -21,7 +19,7 @@ function SyllabusNew({
   project,
   hours,
   srcD,
-   fullStack,
+  fullStack,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -74,7 +72,7 @@ function SyllabusNew({
             <h4>Syllabus</h4>
           </div>
           <div className={styles.btnWrapper}>
-            <button onClick={popupShow} style={{margin:"auto"}}>
+            <button onClick={popupShow} style={{ margin: "auto" }}>
               <FaDownload className="bIcons" />
               Syllabus Brochure
             </button>

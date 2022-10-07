@@ -9,7 +9,7 @@ import { FiUser } from "react-icons/fi";
 import { BsGraphUp } from "react-icons/bs";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
-import { Autoplay, Pagination ,Navigation} from "swiper";
+import { Autoplay, Pagination, Navigation } from "swiper";
 
 const BoxShape = ({
   title,
@@ -34,7 +34,7 @@ const BoxShape = ({
 
   return (
     <div className={styles.boxWrapper}>
-     
+
       <h2>{title}</h2>
       <div className={styles.BoxDiv}>
 
@@ -86,7 +86,7 @@ const BoxShape = ({
             </div>
           </div>
         </div>
-        
+
         <div className={styles.enrollprogramResp}>
           <div>
             <div>

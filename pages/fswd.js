@@ -13,7 +13,6 @@ import ToolsCovered from "../Components/ToolsCoveredfs/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
 import Navbar from "../Components/NavbarHome/Navbar";
 import Footer from "../Components/Footer/Footer";
-  
 import React, { useState } from "react";
  
 

@@ -40,7 +40,7 @@ const Domain = () => {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-                   {/* <p>Fill the below Details to get started</p> */}
+          {/* <p>Fill the below Details to get started</p> */}
 
           <Form popup={true} setTrigger={setPopups} />
         </div>
@@ -51,8 +51,8 @@ const Domain = () => {
       </div>
       <div className={styles.imageBox}>
         <div className={styles.left}>
-        <div className={styles.top}>
-         <p> Banking, Finance and Insurance Domain</p>
+          <div className={styles.top}>
+            <p> Banking, Finance and Insurance Domain</p>
           </div>
           <div className={styles.middle}>
             <p>Sales, Marketing and HR Domain</p>
@@ -68,8 +68,8 @@ const Domain = () => {
           </div>
         </div>
         <div className={styles.left}>
-        <div className={styles.top}>
-         <p> Media, Hospitality and Transportation Domain</p>
+          <div className={styles.top}>
+            <p> Media, Hospitality and Transportation Domain</p>
           </div>
           <div className={styles.middle}>
             <p>Energy, Oil and Gas Domain</p>
@@ -85,14 +85,14 @@ const Domain = () => {
           </div>
         </div>
         <div className={styles.right}>
-        <Image
-          src="/domain.webp"
-          alt="data-science-course"
-          quality={100}
-          layout="intrinsic"
-          width="500"
-          height="550"
-        />
+          <Image
+            src="/domain.webp"
+            alt="data-science-course"
+            quality={100}
+            layout="intrinsic"
+            width="500"
+            height="550"
+          />
         </div>
       </div>
     </section>

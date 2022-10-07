@@ -17,6 +17,7 @@ import BoxShape1 from "../Components/CoursePage/BoxshapeFssd/BoxShape";
 import React, { useState } from "react";
 import Batch from "../Components/CoursePage/BatchDetails/Batch";
 
+
 export default function Home() {
     const [popups, setPopups] = useState(false);
 

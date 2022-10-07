@@ -9,11 +9,11 @@ const Certificate = ({ title, desc, desc2, desc3, src }) => {
   return (
     <section className={styles.Certifcate}>
       <div className={styles.left}>
-      <p className="pTop">Global Recognition</p>
+        <p className="pTop">Global Recognition</p>
         <h4 style={{ marginBottom: "30px", textAlign: "left" }}>{title}</h4>
-        <p className={styles.pBotC}><BiCheckCircle className="bIcons" style={{color:"#2D9CD7", fontSize:"26px"}} />{desc}</p>
-        <p className={styles.pBotC}><BiCheckCircle className="bIcons" style={{color:"#2D9CD7", fontSize:"26px"}} />{desc2}</p>
-        <p className={styles.pBotC}><BiCheckCircle className="bIcons" style={{color:"#2D9CD7", fontSize:"26px"}} />{desc3}</p>
+        <p className={styles.pBotC}><BiCheckCircle className="bIcons" style={{ color: "#2D9CD7", fontSize: "26px" }} />{desc}</p>
+        <p className={styles.pBotC}><BiCheckCircle className="bIcons" style={{ color: "#2D9CD7", fontSize: "26px" }} />{desc2}</p>
+        <p className={styles.pBotC}><BiCheckCircle className="bIcons" style={{ color: "#2D9CD7", fontSize: "26px" }} />{desc3}</p>
       </div>
       <div className={styles.right}>
         <Image

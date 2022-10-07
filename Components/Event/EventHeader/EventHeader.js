@@ -1,19 +1,10 @@
 import React, { useEffect, useState } from "react";
 import styles from "./EventHeader.module.css";
-import Popup from "../../Popup/Popup";
-import Form from "../../Form/Form";
-import { FaArrowRight } from "react-icons/fa";
-import Image from "next/image";
 
 export const EventHeader = ({deskimg, mobimg}) => {
   // console.log(deskimg)
   const [mobile, setMobile] = useState(false);
-  const [popups, setPopups] = useState(false);
-  let today = new Date();
-
-  const popupShow = () => {
-    setPopups(true);
-  };
+  
   useEffect(() => {
     let width = window.innerWidth;
 
@@ -50,5 +41,3 @@ export const EventHeader = ({deskimg, mobimg}) => {
   );
 };
 
-// /Mobile.jpg
-// /Wesite.jpg

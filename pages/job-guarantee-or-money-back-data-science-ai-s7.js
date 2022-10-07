@@ -19,6 +19,7 @@ import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
 import Navbar from "../Components/CoursePage/NavbarDyn/Navbar";
 import Footer from "../Components/Footers7/Footers7";
  
+
 export default function Home() {
   const [popups, setPopups] = useState(false);
 

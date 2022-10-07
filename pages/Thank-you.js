@@ -6,12 +6,9 @@ import NavbarThankYou from "../Components/CoursePage/Navbar/NavbarThankYou";
 import FooterThankYou from "../Components/Footerfsdsw/FooterThankYou";
 import CourseThankYou from "../Components/Home/Course/CourseThankYou";
 import cookies from "next-cookies"
-import Script from "next/script";
-// import { parseCookies } from "../lib/parseCookies";
-// import jsCookie from "js-cookie";
+
 
 const ThankYou = ({ initialName }) => {
-  // console.log("data", initialName)
 
   const email = JSON.stringify(initialName)
   return (
@@ -105,34 +102,8 @@ const ThankYou = ({ initialName }) => {
 export default ThankYou;
 
 
-
-
-
-// ThankYou.getInitialProps = async ({ req, res }) => {
-//   const data = parseCookies(req)
-
-//   if (res) {
-//       if (Object.keys(data).length === 0 && data.constructor === Object) {
-//         res.writeHead(301, { Location: "/" })
-//         res.end()
-//       }
-//     }
-
-//   return {
-//     data: data && data,
-//   }
-// }
-
 ThankYou.getInitialProps = async (ctx) => {
   return {
     initialName: cookies(ctx).CARD || "",
   };
 };
-
-// export async function getServerSideProps(context){
-//   const email = context.query.email
-//   console.log("email22",email)
-//   return {
-//     props:{email}
-//   }
-// }

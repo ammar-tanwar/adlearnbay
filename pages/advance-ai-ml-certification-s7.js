@@ -16,7 +16,6 @@ import React, { useState } from "react";
 import { AiCourseData } from "../Data/AiData";
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
-
 import OtherCertificate from "../Components/CoursePage/OtherCertificate/OtherCertificate";
 import Navbar from "../Components/CoursePage/NavbarDyn/Navbar";
 import Footer from "../Components/Footers7/Footers7";

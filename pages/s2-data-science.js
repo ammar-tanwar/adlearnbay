@@ -19,6 +19,7 @@ import { DataScienceCourseData } from "../Data/DataScienceCourse";
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
 
+
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
