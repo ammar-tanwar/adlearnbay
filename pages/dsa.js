@@ -1,6 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import FirstSection from "../Components/CoursePage/HeroSection/HeroSection1";
+import FirstSection from "../Components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
 import BoxShape from "../Components/CoursePage/Boxshapefssds/BoxShape";
 import Popup from "../Components/Popup/Popup";
@@ -86,20 +86,20 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}
-          deskTopPara="MAANG's Best Interview Preparation Course Trained by Top Experts"
-          mTopPara="MAANG's Best Interview Preparation Course Trained by Top Experts"
-          mTitle="Data Structures & Algorithms"
-          spanMTitleText="Top Experts"
-          title="Data Structures Algorithms & "
-          spanTitleText="System Design Course"
-          desc="Perform real-world industrial projects and use-cases."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/dsa-header-image.png"
-          width="776"
-          height="682"
-          alt="Full Stack"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf"
-        />
+        <FirstSection
+        deskTopPara={DsaCourseData[0].FirstSection.deskTopPara}
+        mTopPara={DsaCourseData[0].FirstSection.mTopPara}
+        mTitle={DsaCourseData[0].FirstSection.mTitle}
+        spanMTitleText={DsaCourseData[0].FirstSection.spanMTitleText}
+        title={DsaCourseData[0].FirstSection.title}
+        spanTitleText={DsaCourseData[0].FirstSection.spanTitleText}
+        desc={DsaCourseData[0].FirstSection.desc}
+        src={DsaCourseData[0].FirstSection.src}
+        width={DsaCourseData[0].FirstSection.width}
+        height={DsaCourseData[0].FirstSection.height}
+        alt={DsaCourseData[0].FirstSection.alt}
+        srcD={DsaCourseData[0].FirstSection.srcD}
+    />
         <div className={styles.program}>
           <ProgramInfo
             p1={DsaCourseData[0].ProgramInfo.p1}

@@ -52,13 +52,23 @@ const BoxShape = ({
             </div>
             <div className={hover ? styles.box : styles.boxActive}>
               {hover ? (
-                <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Live-classes-home-alt.svg" loading="lazy" />
+                <Image
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Live-classes-home-alt.svg"
+                    alt="data-science"
+                    layout="intrinsic"
+                    width={170}
+                    height={153}
+                    loading="lazy"
+                  />
+                
               ) : (
-                <img
+                <Image
                   src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/capstone-live-home.svg"
                   alt="data-science"
                   className={styles.icon}
                   loading="lazy"
+                  width={170}
+                    height={153}
                 />
               )}
 
@@ -119,15 +129,25 @@ const BoxShape = ({
                 <SwiperSlide className={styles.slide}>
                   <div className={hover ? styles.box : styles.boxActive}>
                     {hover ? (
-                      <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Live-classes-home-alt.svg" loading="lazy" />
-                    ) : (
-                      <img
-                        src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/capstone-live-home.svg"
-                        alt="data-science"
-                        className={styles.icon}
-                        loading="lazy"
-                      />
-                    )}
+                <Image
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Live-classes-home-alt.svg"
+                    alt="data-science"
+                    layout="intrinsic"
+                    width={170}
+                    height={153}
+                    loading="lazy"
+                  />
+                
+              ) : (
+                <Image
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/capstone-live-home.svg"
+                  alt="data-science"
+                  className={styles.icon}
+                  loading="lazy"
+                  width={170}
+                    height={153}
+                />
+              )}
 
                     <h5>{Box2h5}</h5>
                     <p>{box2desc}</p>
@@ -211,6 +231,7 @@ const BoxShape = ({
                       width="80"
                       height="80"
                       layout="intrinsic"
+                      loading="lazy"
                     />
                     <div className={styles.name}>
                       <h5>Neha Gour</h5>
@@ -228,6 +249,7 @@ const BoxShape = ({
                       width="80"
                       height="80"
                       layout="intrinsic"
+                      loading="lazy"
                     />
                     <div className={styles.name}>
                       <h5>Nikhil Goyal</h5>
