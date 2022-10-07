@@ -28,6 +28,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     dateTime: "",
     url: router.asPath,
   });
+  
   useEffect(() => {
     setQuery({ ...query, phone: value, dateTime: startDate });
 
@@ -200,6 +201,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     router.pathname === "/data-science-ai-cert-for-managers-leaders-s5" ||
     router.pathname === "/data-science-certification-courses-s10" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s9" ||
+    router.pathname === "/apply-for-counselling-s3" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s5"
   ) {
 
@@ -276,7 +278,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
   // -==================== Offer Campaign END POINT ==========================--------
   if (
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s8" ||
-    router.pathname === "/apply-for-counselling-s3" ||
     router.pathname === "/dsa-s3" ||
 
     router.pathname === "/fssd-s3"
@@ -549,6 +550,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
       router.pathname === "/apply-for-counselling-s2" ||
       router.pathname === "/apply-for-counselling-s4" ||
       router.pathname === "/apply-for-counselling-data-science" ||
+      router.pathname === "/apply-for-counselling-s3" ||
       router.pathname === "/apply-for-counselling-marketing"
     ) {
       router.push("/Thank-you");

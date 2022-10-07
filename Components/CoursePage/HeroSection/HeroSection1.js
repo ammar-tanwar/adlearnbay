@@ -94,6 +94,7 @@ const HeroSection = ({
               width={mobile ? 180 : 261}
               height={mobile ? 46.2 : 67}
               layout="intrinsic"
+              alt="herosection"
             />
           </div>
           <div className={styles.rightBottom}>

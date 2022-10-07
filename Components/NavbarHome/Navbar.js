@@ -7,7 +7,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { FaChevronDown } from "react-icons/fa";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
- 
+
 const Navbar = ({ radio }) => {
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
@@ -27,7 +27,7 @@ const Navbar = ({ radio }) => {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-                   {/* <p>Fill the below Details to get started</p> */}
+          {/* <p>Fill the below Details to get started</p> */}
 
           <Form popup={true} setTrigger={setPopups} radio={radio} />
         </div>
@@ -72,26 +72,26 @@ const Navbar = ({ radio }) => {
           </a>
         </div>
         <div className={styles.right}>
-        <div className={styles.dropdown}>
-  <button className={styles.dropbtn}>All Courses <FaChevronDown style={{marginLeft:"5px"}} /></button>
-  <div className={styles.dropdownContent}>
-    <a href="/data-science-certification-courses">Advance Data Science & AI Certification</a>
-    {/* <a href="/fswd">Full Stack Web Development Program</a> */}
-    <a href="/fssd">Full-Stack Software Development Program</a>
-    <a href="/dsa">DSA & System Design</a>
-    <a href="/advance-ai-ml-certification">Advance AI & ML Certification</a>
-    <a href="/data-science-ai-cert-for-managers-leaders">Data Science & AI Cert. For Managers & Leaders</a>
-    <a href="/job-guarantee-or-money-back-data-science-ai">100% Placement Assistance - Data Science & AI</a>
-  </div>
-</div>
+          <div className={styles.dropdown}>
+            <button className={styles.dropbtn}>All Courses <FaChevronDown style={{ marginLeft: "5px" }} /></button>
+            <div className={styles.dropdownContent}>
+              <a href="/data-science-certification-courses">Advance Data Science & AI Certification</a>
+              {/* <a href="/fswd">Full Stack Web Development Program</a> */}
+              <a href="/fssd">Full-Stack Software Development Program</a>
+              <a href="/dsa">DSA & System Design</a>
+              <a href="/advance-ai-ml-certification">Advance AI & ML Certification</a>
+              <a href="/data-science-ai-cert-for-managers-leaders">Data Science & AI Cert. For Managers & Leaders</a>
+              <a href="/job-guarantee-or-money-back-data-science-ai">100% Placement Assistance - Data Science & AI</a>
+            </div>
+          </div>
 
 
           <button onClick={popupShow}>
-            Apply For Counselling <FiArrowRight style={{marginLeft:"5px"}}/>
+            Apply For Counselling <FiArrowRight style={{ marginLeft: "5px" }} />
           </button>
           <Popup></Popup>
         </div>
-        
+
       </nav>
     </div>
   );
