@@ -3,6 +3,56 @@
   margin: auto;
 }
 
+.container1 {
+  margin: 0px 100px;
+  
+}
+
+.info {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  margin-top: 40px;
+}
+.info h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 48px;
+  margin: 0;
+  text-align: center;
+  color: #0072bc;
+}
+
+
+.left,
+  .middle {
+    border-right: 1px solid grey;
+    padding-right: 20px;
+  }
+  .left,
+  .middle,
+  .right {
+    padding-right: 30px;
+  }
+  .middle,
+  .right {
+    padding-left: 30px;
+  }
+  .middle h5 {
+    color: #edb552;
+  }
+  .info p {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+  
+    color: #6c6c6c;
+  }
+
 .program {
   height: max-content;
 }
@@ -228,9 +278,22 @@
   background-position: center center;
   background-repeat: no-repeat;
   height: 600px;
+  
   background-size: cover;
   margin-top: 100px;
 }
+
+
+.formq1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: fit-content;
+  width: 100%;
+  align-items: center;
+  margin-top: 100px;
+  
+}
+
 
 .formr Form {
   margin: 80px 50px 0px 50px;  
@@ -244,6 +307,10 @@
   .container {
     padding: 0 1rem;
     max-width: 100%;
+  }
+
+  .container1 {
+    margin: 0;
   }
 
   .programCity{
@@ -320,6 +387,18 @@
 
     margin-bottom: 20px;
   }
+
+  .formq1 {
+    display: block;
+    background-image: none;
+    padding: 80px 0px;
+    height: fit-content;
+    margin: 0px 0px 30px 0px;
+    padding: 0px 20px;
+  }
+  .forml{
+    margin-top: 50px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -340,6 +419,7 @@
     background-image: none;
     margin-top: 0px;
   }
+ 
   
   .formr Form {
     margin: 100px 0px 0px 0px;  
