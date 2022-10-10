@@ -1,16 +1,21 @@
 
+.wrapper{
+  z-index: -12;
+}
 .container {
   background-image: url(/ArtboardDemo.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  /* position: relative; */
   height: 500px;
   color: #cccccc;
   display: grid;
   grid-template-columns: 70% 30%;
   z-index: -1;
 }
+
+
 .hiringpartners{
   display: flex;
   text-align: center;

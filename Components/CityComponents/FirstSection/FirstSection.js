@@ -3,7 +3,8 @@ import styles from "./FirstSection.module.css";
 import "swiper/css";
 import "swiper/css/navigation";
 import { FaArrowRight, FaDownload } from "react-icons/fa";
-
+import Popup from "../../Popup/Popup";
+import Form from "../../Form/Form";
 
 export const FirstSection = () => {
 
@@ -32,6 +33,16 @@ export const FirstSection = () => {
 
   return (
     <section className={styles.wrapper}>
+
+      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+        <div className="leftPopup">
+          <div className="whiteP" />
+        </div>
+        <div className="RightPopup">
+          <h5>Apply For Counselling</h5>
+          <Form popup={true} setTrigger={setPopups} />
+        </div>
+      </Popup>
       <div className={styles.container}>
         <div className={styles.leftDiv}>
           <h1>Data Scinece Course In Bangalore</h1>
@@ -50,7 +61,7 @@ export const FirstSection = () => {
           </div>
 
           <div className={styles.counsilBtn}>
-            <button >
+            <button onClick={popupShow}>
               Apply for Counselling
               <FaArrowRight style={{ marginLeft: "10px" }} />
             </button>

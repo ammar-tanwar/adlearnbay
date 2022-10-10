@@ -1,0 +1,61 @@
+.ContactNow {
+  background: url(/ArtboardDemo.jpg) center center/cover no-repeat;
+  padding: 70px 20px;
+  margin-bottom: 100px;
+  margin-top: 150px;
+}
+
+.container {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center !important;
+}
+
+.ContactNowHead {
+  font-size: 34px;
+  color: #fff;
+  font-weight: 700;
+  margin: 0;
+}
+
+.btnlight {
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-weight: 700;
+  margin-top: 20px;
+  display: inline-block;
+  font-size: 26px;
+}
+
+@media (max-width: 768px) {
+  .ContactNow {
+    padding: 50px 20px;
+    margin-top: unset;
+    margin-bottom: 65px;
+  }
+
+  .ContactNowHead {
+    font-size: 30px;
+  }
+
+  .btnlight {
+    padding: 8px 11px;
+  }
+}
+
+@media (max-width: 460px) {
+  .ContactNow {
+    margin-bottom: 40px;
+  }
+
+  .ContactNowHead {
+    font-size: 25px;
+  }
+
+  .btnlight {
+    font-size: 20px;
+  }
+}

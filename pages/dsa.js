@@ -30,8 +30,7 @@ export default function Home() {
       <Head>
         <title>Data Structure Course Syllabus and DSA Training 2022
         </title>
-        <meta name="description" content="Best way to learn Data Structures and Algorithms with System Design Course, mastering in JAVA, Python, C, C++. 1:1 Interaction in limited batch, No Cost EMI. 
-      " />
+        <meta name="description" content="Best way to learn Data Structures and Algorithms with System Design Course Online, mastering any one coding skill - Interaction in limited batch, No Cost EMI." />
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{

@@ -10,6 +10,7 @@ import FirstSection from "../Components/CityComponents/FirstSection/FirstSection
 import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
 import HiringPatners from "../Components/CityComponents/HiringPatnerWithReview/HiringPatners";
 import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
+import CityImage from "../Components/CityComponents/CityImages/CityImage";
 import OurExpert from "../Components/CoursePage/OurExpert/OurExpert";
 import { DataScienceCourseData } from "../Data/DataScienceCourse";
 import Certificate from "../Components/CoursePage/CertificateTab/CertificateTabAdvance";
@@ -87,6 +88,7 @@ export default function Home() {
           hours={DataScienceCourseData[0].hours}
           project={DataScienceCourseData[0].project}
         />
+        <CityImage />
 
         <OurExpert
           H5={DataScienceCourseData[0].OurExpert.H5}
