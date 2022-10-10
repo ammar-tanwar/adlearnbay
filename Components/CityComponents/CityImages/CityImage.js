@@ -27,10 +27,10 @@ function cityImage() {
                 </div>
             </Popup>
 
-            <section class={styles.ContactNow}>
-                <div class={styles.container}>
-                    <p class={styles.ContactNowHead}>Apply For Counselling</p>
-                    <button class={styles.btnlight} onClick={popupShow} >Request A CallBack</button>
+            <section className={styles.ContactNow}>
+                <div className={styles.container}>
+                    <p className={styles.ContactNowHead}>Apply For Counselling</p>
+                    <button className={styles.btnlight} onClick={popupShow} >Request A CallBack</button>
                 </div>
             </section>
 
