@@ -1,7 +1,7 @@
 
 
 .container321 {
-  background-image: url(/Artboardweb.jpg);
+  background-image: url(/BengaluruWeb.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -73,7 +73,7 @@
 @media  (max-width: 481px) {
   
 .container321 {
-  background-image: url(/Artboardmob.jpg);
+  background-image: url(/BengaluruMob.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
