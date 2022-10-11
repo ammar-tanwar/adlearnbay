@@ -6,7 +6,9 @@ import Image from "next/image";
 import React from "react";
 import {  FaCheck } from "react-icons/fa";
 
-const Footer = () => {
+const Footer = ({mobileNum}) => {
+  
+
   return (
     <section className={styles.FooterSection}>
       <div className={styles.FooterDiv}>
@@ -23,7 +25,11 @@ const Footer = () => {
 
           <p className={styles.FooterInnerli}>Enroll Now For Data Science Classroom (Bangalore) Or Online Training With Us And Master Data Analytics Skills Which Will Help You To Transform Your Career And Start Your Career As A Data Scientist.</p>
           <span style={{ display: "flex", marginTop: "20px" }}><IoMailSharp className="bIcons" />contacts@learnbay.co</span>
-          <span style={{ display: "flex", marginTop: "10px" }}><BsFillTelephoneFill className="bIcons" />(+91) 96069 50936</span>
+
+          {mobileNum ?(""):(
+            <span style={{ display: "flex", marginTop: "10px" }}><BsFillTelephoneFill className="bIcons" />(+91) 96069 50936</span>
+          )}
+          
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Popular Courses</p>

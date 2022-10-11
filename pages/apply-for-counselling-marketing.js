@@ -83,7 +83,7 @@ function Counselling() {
         </div>
         
       </div>
-      <Footer />
+      <Footer mobileNum={true}/>
     </div>
   )
 }
