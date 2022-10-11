@@ -1,6 +1,6 @@
 
 
-.container {
+.container321 {
   background-image: url(/Artboardweb.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -72,7 +72,7 @@
 
 @media  (max-width: 481px) {
   
-.container {
+.container321 {
   background-image: url(/Artboardmob.jpg);
   background-position: center;
   background-repeat: no-repeat;

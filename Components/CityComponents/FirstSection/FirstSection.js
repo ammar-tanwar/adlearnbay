@@ -46,7 +46,7 @@ export const FirstSection = () => {
 
 
       {mobile ? (
-        <div className={styles.container}>
+        <div className={styles.container321}>
           <div className={styles.leftDiv}>
             <h1>Data Science Course</h1>
 
@@ -76,7 +76,7 @@ export const FirstSection = () => {
 
 
       ) : (
-        <div className={styles.container}>
+        <div className={styles.container321}>
           <div className={styles.leftDiv}>
             <h1>Data Science Course In Bangalore</h1>
             <p>Data Science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract or extrapolate knowledge and insights from noisy, structured and unstructured data, and apply knowledge from data across a broad range of application domains.</p>

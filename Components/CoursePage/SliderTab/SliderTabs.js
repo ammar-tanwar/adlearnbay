@@ -7,7 +7,7 @@ import { BiDownArrowAlt, BiUpArrowAlt } from "react-icons/bi";
 
 const SliderTabs = () => {
   const [viewAll, setViewAll] = useState(false);
-  const [oneYear, setOneYear] = useState(false);
+  const [oneYear, setOneYear] = useState();
   const [nonTech, setNonTech] = useState(false);
   const [Guarantee, setGuarantee] = useState(false);
   const [Retail, setRetail] = useState(false);
@@ -20,6 +20,7 @@ const SliderTabs = () => {
     let width = window.innerWidth;
     if (width < 600) {
       setMobile(true);
+     
     }
   });
 
@@ -28,14 +29,17 @@ const SliderTabs = () => {
     if (width < 960) {
       setTab(true);
     }
+    
   });
+
+ 
 
   useEffect(() => {
     let width = window.innerWidth;
     if (width > 960) {
       setOneYear(true);
     }
-  });
+  },[0]);
 
   return (
     <div className={styles.Course} id="course">
