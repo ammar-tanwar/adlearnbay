@@ -29,8 +29,8 @@ function cityImage() {
 
             <section className={styles.ContactNow}>
                 <div className={styles.container}>
-                    <p className={styles.ContactNowHead}>Apply For Counselling</p>
-                    <button className={styles.btnlight} onClick={popupShow} >Request A CallBack</button>
+                    <p className={styles.ContactNowHead}>Apply For Counselling in <span className={styles.banglurufontsize}>ಬೆಂಗಳೂರು</span></p>
+                    <button className={styles.btnlight} onClick={popupShow} >Apply Now</button>
                 </div>
             </section>
 

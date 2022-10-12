@@ -5,6 +5,7 @@ import Reviews from "../../CareerImpactHome/CareerImpact";
 import Popup from "../../Popup/Popup";
 import { FaArrowRight, FaChevronDown, FaChevronUp } from "react-icons/fa";
 import Form from "../Form/Form";
+import Link from "next/link";
 
 const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3, props, event }) => {
 
@@ -61,11 +62,12 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3, props, 
       <div id="Feature">
         <p className={styles.paragramTitle}>{props.para1}</p>
         <p>{props.paragraph1}</p>
+        <p>{props.paragraph1_1}</p>
         <p>{props.paragraph2}</p>
         <p><b>{props.paragraph2_1}</b>{props.paragraph2_2}<b>{props.paragraph2_3}</b>{props.paragraph3}</p>
       </div>
 
-      <div>
+      <div className={styles.topicCover}>
         <p className={styles.paragramTitle}>{props.para2}</p>
         <ul className={styles.listMargin} >
           <li>{props.paragraph24}</li>
@@ -91,7 +93,14 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3, props, 
         <p className={styles.paragramTitle}>{props.para4}</p>
         <ul className={styles.listMargin} >
           <li><span>{props.paragraph9}</span><b>{props.paragraph9_1}</b></li>
-          <li><span>{props.paragraph10}</span><b>{props.paragraph10_1}</b></li>
+          <li><span>{props.paragraph10}</span>
+            <Link href="https://www.linkedin.com/in/prakhar-agrawal-58218279/">
+              <a target="_blank" rel="noopener noreferrer" className='link-item'>
+              <b style={{color:"#085294"}}>{props.paragraph10_1}</b>
+              </a>
+            </Link>
+
+          </li>
 
         </ul>
 

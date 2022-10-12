@@ -70,15 +70,26 @@
   font-size: 48px;
   color: #f14d5d;
 }
+
+.topicCover{
+  display: none;
+}
+
 @media (max-width: 1281px) {
   .eFeature {
     margin: 0px;
+  }
+  .topicCover{
+    display: none;
   }
 }
 
 @media (max-width: 1281px) {
   .eFeature h2 {
     font-size: 27px;
+  }
+  .topicCover{
+    display: none;
   }
   .bodyContent {
     display: flex;
@@ -90,6 +101,9 @@
   .eFeature h2 {
     font-size: 27px;
     text-align: center;
+  }
+  .topicCover{
+    display: none;
   }
   .eLeft,
   .eMiddle,
@@ -196,10 +210,12 @@
       justify-content: space-evenly;
       margin: 0.5rem  0;
       padding-left: 16px;
-    
-    
-  
   }
+
+  .topicCover{
+    display: none;
+  }
+  
   .PreRequisites p {
     width: 20rem;
       padding: 1rem;

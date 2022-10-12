@@ -1,10 +1,12 @@
 .ContactNow {
-  background: url(/demo123.jpg) center center/cover no-repeat;
+  background: url(/CenterCityWeb.jpg) center center/cover no-repeat;
   padding: 70px 20px;
-  margin-bottom: 100px;
-  margin-top: 150px;
+  margin-bottom: 70px;
+  margin-top: 70px;
 }
-
+.banglurufontsize{
+  font-size: 35px;
+}
 .container {
   width: 100%;
   padding-right: var(--bs-gutter-x, 0.75rem);
@@ -47,6 +49,13 @@
 }
 
 @media (max-width: 460px) {
+  .ContactNow {
+    background: url(/CenterCityMob.jpg) center center/cover no-repeat;
+    padding: 70px 20px;
+    margin-bottom: 100px;
+    margin-top: 150px;
+  }
+  
   .ContactNow {
     margin-bottom: 40px;
   }

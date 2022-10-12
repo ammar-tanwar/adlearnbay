@@ -5,12 +5,12 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* position: relative; */
   height: fit-content;
   color: #cccccc;
   display: grid;
   grid-template-columns: 54% 46%;
-  margin-top: 30px;
+  padding: 50px 100px 80px 100px;
+  margin-top: 70px;
   z-index: -1;
 }
 
@@ -20,16 +20,21 @@
   text-align: center;
   align-items: center;
 }
-.leftDiv{
+/* .leftDiv{
   margin: 72px;
   padding: 20px 17px 20px 0px;
-}
-.leftDiv h1{
+} */
+.container321 h1{
   font-size: 45px;
   margin: 15px 0px 0px 0px;
   color: white;
  }
 
+ .container321 p{
+  font-size: 19px;
+  margin: 10px 0px 7px 0px;
+  color: white;
+ }
 .verticalLine {
   border-right: 3px solid grey;
   margin: 0 10px;
@@ -46,11 +51,11 @@
   
 
 }
-.rightDiv{
+/* .rightDiv{
   margin: 100px;
-}
+} */
 .counsilBtn{
-  margin-top: 15px;
+  margin-top: 40px;
 }
 
 .counsilBtn button {
@@ -80,27 +85,35 @@
   height: 400px;
   color: #cccccc;
   display: block;
-
+  margin-top: 70px;
+  padding: 20px;
 }
+
+.parag{
+  display: none;
+}
+.spantag{
+  display: none;
+}
+
 .hiringpartners{
   display: flex;
   text-align: center;
   align-items: center;
-  margin: 85px 28px 0px 14px;
+  margin: 100px 20px 25px 0px;
 }
-.leftDiv{
-  margin: 70px 10px 0px 10px;
-  padding: 0px 10px 0px 10px;;
-}
-.leftDiv h1{
+
+.container321 h1{
   font-size: 34px;
-  padding: 20px 0px 4px 4px;
+  /* padding: 20px 0px 4px 4px; */
   color: white;
  }
- .leftDiv p{
+
+ .container321 p{
   color: white;
-  font-weight: 600;
+  font-weight: 700;
  }
+
 .verticalLine {
   border-right: 3px solid grey;
   margin: 0 10px;
@@ -112,15 +125,10 @@
   padding-right: 20px;
   margin-right: 25px;
 }
-.rightDiv{
-  margin: 0;
-}
+
 .counsilBtn{
   margin-top: 18px;
-  margin-bottom: 20px
+  /* margin-bottom: 20px */
 }
-
-
-
 
 }
