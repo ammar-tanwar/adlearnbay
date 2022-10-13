@@ -74,3 +74,6 @@ export const FirstSection = () => {
 
 
 export default FirstSection;
+
+
+// <img src="/BengaluruWeb.jpg" alt="Snow" style={{width:"100%"}}></img>

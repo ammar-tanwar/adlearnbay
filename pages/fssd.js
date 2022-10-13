@@ -30,7 +30,7 @@ export default function Home() {
       <Head>
         <title>Full Stack Software Development Course - Learnbay</title>
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-        <meta name="description" content="Full Stack Software Development Course with IBM certification. Learnbay provide advanced full stack Software developer course with placement guarantee. Enrol in our full stack Software developer course to enhance your career" />
+        <meta name="description" content="Full Stack Software Development Course on Learnbay. Get Advanced Full Stack Software Development Training with Industry projects and Interview Guarantee" />
         <meta name="Keywords" content="Full Stack Software Development Course, Full Stack Software Development Course training , Full Stack Software Development Course institute in India, best Full Stack Software Development Course institute, Full Stack Software developer Course ,Full Stack Software developer Course certification, Full Stack Software developer Course training institute , advanced Full Stack Software developer Course , Full Stack Software developer Course with placement guarantee, Full Stack Software developer Course with IBM certification" />
         <script
           dangerouslySetInnerHTML={{
