@@ -51,18 +51,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection />
-        <div className={styles.programCity}>
-          <ProgramInfo
-            p1={DataScienceCourseData[0].ProgramInfo.p1}
-            p11={DataScienceCourseData[0].ProgramInfo.p11}
-            p2={DataScienceCourseData[0].ProgramInfo.p2}
-            p22={DataScienceCourseData[0].ProgramInfo.p22}
-            p3={DataScienceCourseData[0].ProgramInfo.p3}
-            p33={DataScienceCourseData[0].ProgramInfo.p33}
-            p4={DataScienceCourseData[0].ProgramInfo.p4}
-            p44={DataScienceCourseData[0].ProgramInfo.p44}
-          />
-        </div>
+        
         <HiringPatners />
         <div className={styles.Feature} id="Feature">
 
@@ -132,3 +121,19 @@ export default function Home() {
     </div>
   );
 }
+
+
+
+
+// <div className={styles.programCity}>
+//           <ProgramInfo
+//             p1={DataScienceCourseData[0].ProgramInfo.p1}
+//             p11={DataScienceCourseData[0].ProgramInfo.p11}
+//             p2={DataScienceCourseData[0].ProgramInfo.p2}
+//             p22={DataScienceCourseData[0].ProgramInfo.p22}
+//             p3={DataScienceCourseData[0].ProgramInfo.p3}
+//             p33={DataScienceCourseData[0].ProgramInfo.p33}
+//             p4={DataScienceCourseData[0].ProgramInfo.p4}
+//             p44={DataScienceCourseData[0].ProgramInfo.p44}
+//           />
+//         </div>

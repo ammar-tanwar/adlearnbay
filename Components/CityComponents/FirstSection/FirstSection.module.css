@@ -1,24 +1,37 @@
 
 
 .container321 {
-  background-image: url(/BengaluruWeb.jpg);
+  /* background-image: url(/BengaluruWeb.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: fit-content;
-  color: #cccccc;
+  height: fit-content; */
+  /* color: #cccccc;
   display: grid;
   grid-template-columns: 54% 46%;
-  padding: 50px 100px 80px 100px;
-  margin-top: 70px;
-  z-index: -1;
+  padding: 50px 100px 80px 100px; */
+  position: relative;
+  top: 70px;
+  margin-bottom: 110px;
+}
+
+.container {
+  position:absolute;
+  top: 0px; 
+  padding: 50px 0px 0px 100px;  
+  /* margin-top: -42px; */
 }
 
 
+.program{
+  margin-left: -100px; 
+  margin-top: -40px;
+}
 .hiringpartners{
   display: flex;
   text-align: center;
   align-items: center;
+  margin-bottom: 35px;
 }
 /* .leftDiv{
   margin: 72px;
@@ -55,7 +68,7 @@
   margin: 100px;
 } */
 .counsilBtn{
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .counsilBtn button {
@@ -72,12 +85,15 @@
   border: 1px solid #0072bc;
 }
 
+.program1 {
+  display: none;
+}
 
 
 
 @media  (max-width: 481px) {
   
-.container321 {
+/* .container321 {
   background-image: url(/BengaluruMob.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -87,8 +103,20 @@
   display: block;
   margin-top: 70px;
   padding: 20px;
-}
+} */
 
+  .program {
+    display: none;
+  }
+
+  .program1 {
+    display: block;
+  }
+.container{
+  position: absolute;
+  top: 0px;
+  padding: 20px;
+}
 .parag{
   display: none;
 }
@@ -127,8 +155,7 @@
 }
 
 .counsilBtn{
-  margin-top: 18px;
-  /* margin-bottom: 20px */
+  margin: 18px 0px 80px 0px;
 }
 
 }

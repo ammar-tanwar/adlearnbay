@@ -296,6 +296,16 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     // -==================== Marketing ==========================--------
   }
 
+  // -==================== Email Marketing ==========================--------
+  if (
+    router.pathname === "/apply-for-counselling-email-marketing"
+  ) {
+    // -==================== Marketing ==========================--------
+    endPoint = "https://getform.io/f/94c74039-f505-4ebf-922e-b4728bd793e3";
+    // -==================== Email Marketing ==========================--------
+  }
+  
+
 
   // -==================== Webinar = END POINT ==========================--------
   if (event) {

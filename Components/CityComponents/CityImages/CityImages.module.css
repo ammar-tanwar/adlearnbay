@@ -1,19 +1,26 @@
-.ContactNow {
+/* .ContactNow {
   background: url(/CenterCityWeb.jpg) center center/cover no-repeat;
   padding: 70px 20px;
   margin-bottom: 70px;
   margin-top: 70px;
+} */
+
+.ContactNow {
+  position: relative;
+  padding: 70px 0px;
+  margin-bottom: 70px;
+  margin-top: 70px; 
 }
+
 .banglurufontsize{
   font-size: 35px;
 }
 .container {
-  width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
-  margin-right: auto;
-  margin-left: auto;
+  width: 100%; 
   text-align: center !important;
+  position:absolute;
+  top: 0px; 
+  margin: 160px 0px 0px 0px; 
 }
 
 .ContactNowHead {
@@ -21,6 +28,7 @@
   color: #fff;
   font-weight: 700;
   margin: 0;
+  
 }
 
 .btnlight {
@@ -30,11 +38,12 @@
   margin-top: 20px;
   display: inline-block;
   font-size: 26px;
+   
 }
 
 @media (max-width: 768px) {
   .ContactNow {
-    padding: 50px 20px;
+    /* padding: 50px 20px; */
     margin-top: unset;
     margin-bottom: 65px;
   }
@@ -49,15 +58,26 @@
 }
 
 @media (max-width: 460px) {
-  .ContactNow {
+  /* .ContactNow {
     background: url(/CenterCityMob.jpg) center center/cover no-repeat;
     padding: 70px 20px;
     margin-bottom: 100px;
     margin-top: 150px;
+  } */
+
+  .ContactNow {
+    position: relative;
+    margin-top: 40px;
+    padding: 20px 0px;
   }
   
-  .ContactNow {
-    margin-bottom: 40px;
+  .container {
+
+    width: 100%;
+    text-align: center !important;
+    position: absolute;
+    top: 0px;
+    margin: 100px 0px 0px 0px;
   }
 
   .ContactNowHead {
