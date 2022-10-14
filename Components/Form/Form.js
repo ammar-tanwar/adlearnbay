@@ -560,6 +560,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
       router.pathname === "/apply-for-counselling-s4" ||
       router.pathname === "/apply-for-counselling-data-science" ||
       router.pathname === "/apply-for-counselling-s3" ||
+      router.pathname === "/apply-for-counselling-email-marketing" ||
       router.pathname === "/apply-for-counselling-marketing"
     ) {
       router.push("/Thank-you");
