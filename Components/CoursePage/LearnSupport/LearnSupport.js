@@ -3,10 +3,16 @@ import { MdCall } from "react-icons/md";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import styles from "./LearnSupport.module.css";
 
-function LearnSupport() {
+function LearnSupport({headForCity,cityName}) {
   return (
     <>
-      <h4>24/7 Learner’s Support</h4>
+
+      {headForCity ? (
+        <h4>{cityName}</h4>
+        ) : (
+          <h4>24/7 Learner’s Support</h4>
+        )}
+      
       <div className={styles.LearnSupport}>
         <div className={styles.learnInnerR}>
           <img

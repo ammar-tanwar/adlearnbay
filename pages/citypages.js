@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
-import Footer from "../Components/CoursePage/Footer/Footer";
+import CityFooter from "../Components/CityComponents/CityFooter/CityFooter";
 import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
 import React, { useState } from "react";
 import FirstSection from "../Components/CityComponents/FirstSection/FirstSection";
@@ -52,7 +52,10 @@ export default function Home() {
         </Popup>
         <FirstSection />
         
-        <HiringPatners />
+        <HiringPatners
+        topHead="Our Hiring Patners In Bangalore"
+        
+        />
         <div className={styles.Feature} id="Feature">
 
           <ProgramWithHighLight
@@ -70,7 +73,7 @@ export default function Home() {
 
         <SyllabusNew
           syllabus={DataScienceCourseData[0].syllabus}
-          CSyllabus={DataScienceCourseData[0].CSyllabus}
+          CSyllabus="Data Science Course Syllabus In Bangalore"
           CourseHighlights={DataScienceCourseData[0].CourseHighlights}
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
           popupHead={DataScienceCourseData[0].popupHead}
@@ -106,17 +109,20 @@ export default function Home() {
           img20={DataScienceCourseData[0].OurExpert.img20}
         />
         <Certificate
-          H4="Data Science Certification Program"
+          H4="Data Science Certification Program In Bangalore"
         />
         <div className={styles.ProjectWrapper} id="project">
           <Project popupHead={DataScienceCourseData[0].Project.popupHead}
             project={DataScienceCourseData[0].Project.project}
             domain={DataScienceCourseData[0].Project.domain}
-            projectTitle={DataScienceCourseData[0].Project.projectTitle} />
+            projectTitle="Hands-on Projects In Bangalore" />
         </div>
         <SliderTab />
-        <LearnSupport />
-        <Footer />
+        <LearnSupport
+        headForCity={true} 
+        cityName="24/7 Learner’s Support In Bangalore"
+        />
+        <CityFooter />
       </main>
     </div>
   );

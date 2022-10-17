@@ -9,7 +9,7 @@ import "swiper/css/autoplay";
 import { Autoplay, Pagination } from "swiper";
 
 
-function HiringPatners() {
+function HiringPatners({topHead,}) {
 
   const [hover, setHover] = useState(false);
   const [mobile, setMobile] = useState(false);
@@ -23,7 +23,7 @@ function HiringPatners() {
   return (
     <section className={styles.Features}>
 
-      <h6 className={styles.topHead}>Our Hiring Patners</h6>
+      <h6 className={styles.topHead}>{topHead}</h6>
       <div className={styles.FeatureWrap}>
         <div className={styles.LeftWrap}></div>
         <div className={styles.right}>
