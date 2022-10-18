@@ -6,9 +6,9 @@ import { FaArrowRight, FaDownload } from "react-icons/fa";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import ProgramInfo from "../../CoursePage/ProgramInfo/ProgramInfo";
-import { DataScienceCourseData } from "../../../Data/DataScienceCourse";
+import { ProgramData } from "../../../Data/DataScienceCourse";
 import Image from "next/image";
-export const FirstSection = () => {
+export const FirstSection = ({DeskImg, MobImg, ProgramData, courseName, cityName,ptag}) => {
 
   const [mobile, setMobile] = useState(false);
 
@@ -36,9 +36,9 @@ export const FirstSection = () => {
   return (
     <section className={styles.container321}>
       {mobile ? (
-        <Image src="/BengaluruMob.jpg" alt="mob" height="400"  quality={100} width="400" />
+        <Image src={MobImg} alt="mob" height="450"  quality={100} layout="intrinsic" width="400" />
       ) : (
-        <Image src="/BengaluruWeb.jpg" alt="web" height="500" quality={100}  width="1520" />
+        <Image src={DeskImg} alt="web" height="500" quality={100} layout="intrinsic" width="1620" />
       )}
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
         <div className="leftPopup">
@@ -51,8 +51,8 @@ export const FirstSection = () => {
       </Popup>
 
       <div className={styles.container} >
-        <h1>Data Science Course <span className={styles.spantag}>In Bangalore</span></h1>
-        <p className={styles.parag} style={{ width: "50%" }}>Data Science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract or extrapolate knowledge and insights from noisy, structured and unstructured data, and apply knowledge from data across a broad range of application domains.</p>
+        <h1>{courseName} <span className={styles.spantag}>{cityName}</span></h1>
+        <p className={styles.parag} style={{ width: "50%" }}>{ptag}</p>
 
         <div className={styles.hiringpartners}>
           <div className={styles.verticalLine} >
@@ -73,14 +73,14 @@ export const FirstSection = () => {
         </div>
         <div className={styles.program}>
           <ProgramInfo
-            p1={DataScienceCourseData[0].ProgramInfo.p1}
-            p11={DataScienceCourseData[0].ProgramInfo.p11}
-            p2={DataScienceCourseData[0].ProgramInfo.p2}
-            p22={DataScienceCourseData[0].ProgramInfo.p22}
-            p3={DataScienceCourseData[0].ProgramInfo.p3}
-            p33={DataScienceCourseData[0].ProgramInfo.p33}
-            p4={DataScienceCourseData[0].ProgramInfo.p4}
-            p44={DataScienceCourseData[0].ProgramInfo.p44}
+            p1={ProgramData[0].ProgramInfo.p1}
+            p11={ProgramData[0].ProgramInfo.p11}
+            p2={ProgramData[0].ProgramInfo.p2}
+            p22={ProgramData[0].ProgramInfo.p22}
+            p3={ProgramData[0].ProgramInfo.p3}
+            p33={ProgramData[0].ProgramInfo.p33}
+            p4={ProgramData[0].ProgramInfo.p4}
+            p44={ProgramData[0].ProgramInfo.p44}
           />
         </div>
 
@@ -88,14 +88,14 @@ export const FirstSection = () => {
 
       <div className={styles.program1}>
         <ProgramInfo
-          p1={DataScienceCourseData[0].ProgramInfo.p1}
-          p11={DataScienceCourseData[0].ProgramInfo.p11}
-          p2={DataScienceCourseData[0].ProgramInfo.p2}
-          p22={DataScienceCourseData[0].ProgramInfo.p22}
-          p3={DataScienceCourseData[0].ProgramInfo.p3}
-          p33={DataScienceCourseData[0].ProgramInfo.p33}
-          p4={DataScienceCourseData[0].ProgramInfo.p4}
-          p44={DataScienceCourseData[0].ProgramInfo.p44}
+          p1={ProgramData[0].ProgramInfo.p1}
+          p11={ProgramData[0].ProgramInfo.p11}
+          p2={ProgramData[0].ProgramInfo.p2}
+          p22={ProgramData[0].ProgramInfo.p22}
+          p3={ProgramData[0].ProgramInfo.p3}
+          p33={ProgramData[0].ProgramInfo.p33}
+          p4={ProgramData[0].ProgramInfo.p4}
+          p44={ProgramData[0].ProgramInfo.p44}
         />
       </div>
 

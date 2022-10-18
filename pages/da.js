@@ -11,12 +11,11 @@ import HiringPatners from "../Components/CityComponents/HiringPatnerWithReview/H
 import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
 import CityImage from "../Components/CityComponents/CityImages/CityImage";
 import OurExpert from "../Components/CoursePage/OurExpert/OurExpert";
-import { DataScienceCourseData } from "../Data/DataScienceCourse";
 import Certificate from "../Components/CoursePage/CertificateTab/CertificateTabAdvance";
 import Project from "../Components/CoursePage/Project/Project";
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import ProgramWithHighLight from "../Components/CityComponents/ProgramWithHighLight/ProgramWithHighLight";
-
+import { DataAnalyticsCourseData } from "../Data/bangalore/DataAnalyticsData";
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -54,8 +53,8 @@ export default function Home() {
 
           DeskImg="/BengaluruWeb.jpg"
           MobImg="/BengaluruMob.jpg"
-          ProgramData={DataScienceCourseData}
-          courseName="Data Science Course"
+          ProgramData={DataAnalyticsCourseData}
+          courseName="Data Analytics Course"
           cityName="In Bangalore"
           ptag="Data Science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract or extrapolate knowledge and insights from noisy, structured and unstructured data, and apply knowledge from data across a broad range of application domains."
         />
@@ -68,32 +67,32 @@ export default function Home() {
 
           <ProgramWithHighLight
             title="Program Features"
-            Box1h5="Crack MAANG Interview"
-            box1desc="Learn in-depth DSA and crack interviews in product-based MNCs"
-            Box2h5="1:1 Mentorship"
-            box2desc="Guided by mentors working in MNCs to support you for the tech interviews"
-            Box3h5="Practical Project Experience"
-            box3desc="Gain technical expertise by working on challenging real-world projects"
-            Box4h5="Domain Specialization"
-            box4desc="Choose Domain electives on your work experience and work on Live Projects"
+            Box1h5={DataAnalyticsCourseData[0].BoxShape.Box1h5}
+            box1desc={DataAnalyticsCourseData[0].BoxShape.box1desc}
+            Box2h5={DataAnalyticsCourseData[0].BoxShape.Box2h5}
+            box2desc={DataAnalyticsCourseData[0].BoxShape.box2desc}
+            Box3h5={DataAnalyticsCourseData[0].BoxShape.Box3h5}
+            box3desc={DataAnalyticsCourseData[0].BoxShape.box3desc}
+            Box4h5={DataAnalyticsCourseData[0].BoxShape.Box4h5}
+            box4desc={DataAnalyticsCourseData[0].BoxShape.box4desc}
 
             HHeading="Course Details"
             Duration="4+ months"
             InterviewCalls=" 12+ "
-            Projects="12+"
-            CourseFee="₹ 95,000 +GST "
+            Projects="8+"
+            CourseFee="₹ 65,000 +GST "
             Domain="7+"
           />
         </div>
 
         <SyllabusNew
-          syllabus={DataScienceCourseData[0].syllabus}
-          CSyllabus="Data Science Course Syllabus In Bangalore"
-          CourseHighlights={DataScienceCourseData[0].CourseHighlights}
-          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
-          popupHead={DataScienceCourseData[0].popupHead}
-          hours={DataScienceCourseData[0].hours}
-          project={DataScienceCourseData[0].project}
+          syllabus={DataAnalyticsCourseData[0].syllabus}
+          CSyllabus="Data Analytics Course Syllabus In Bangalore"
+          CourseHighlights={DataAnalyticsCourseData[0].CourseHighlights}
+          syllabusDesc={DataAnalyticsCourseData[0].syllabusDesc}
+          popupHead={DataAnalyticsCourseData[0].popupHead}
+          hours={DataAnalyticsCourseData[0].hours}
+          project={DataAnalyticsCourseData[0].project}
         />
         <CityImage 
         DeskImg="/CenterCityWeb.jpg"
@@ -103,38 +102,38 @@ export default function Home() {
         />
 
         <OurExpert
-          H5={DataScienceCourseData[0].OurExpert.H5}
-          img1={DataScienceCourseData[0].OurExpert.img1}
-          img2={DataScienceCourseData[0].OurExpert.img2}
-          img3={DataScienceCourseData[0].OurExpert.img3}
-          img4={DataScienceCourseData[0].OurExpert.img4}
-          img5={DataScienceCourseData[0].OurExpert.img5}
-          img6={DataScienceCourseData[0].OurExpert.img6}
-          img7={DataScienceCourseData[0].OurExpert.img7}
-          img8={DataScienceCourseData[0].OurExpert.img8}
-          img9={DataScienceCourseData[0].OurExpert.img9}
-          img10={DataScienceCourseData[0].OurExpert.img10}
-          img11={DataScienceCourseData[0].OurExpert.img11}
-          img12={DataScienceCourseData[0].OurExpert.img12}
-          img13={DataScienceCourseData[0].OurExpert.img13}
-          img14={DataScienceCourseData[0].OurExpert.img14}
-          img15={DataScienceCourseData[0].OurExpert.img15}
-          img16={DataScienceCourseData[0].OurExpert.img16}
-          img17={DataScienceCourseData[0].OurExpert.img17}
-          img18={DataScienceCourseData[0].OurExpert.img18}
-          img19={DataScienceCourseData[0].OurExpert.img19}
-          img21={DataScienceCourseData[0].OurExpert.img21}
-          img22={DataScienceCourseData[0].OurExpert.img22}
-          img23={DataScienceCourseData[0].OurExpert.img23}
-          img20={DataScienceCourseData[0].OurExpert.img20}
+          H5={DataAnalyticsCourseData[0].OurExpert.H5}
+          img1={DataAnalyticsCourseData[0].OurExpert.img1}
+          img2={DataAnalyticsCourseData[0].OurExpert.img2}
+          img3={DataAnalyticsCourseData[0].OurExpert.img3}
+          img4={DataAnalyticsCourseData[0].OurExpert.img4}
+          img5={DataAnalyticsCourseData[0].OurExpert.img5}
+          img6={DataAnalyticsCourseData[0].OurExpert.img6}
+          img7={DataAnalyticsCourseData[0].OurExpert.img7}
+          img8={DataAnalyticsCourseData[0].OurExpert.img8}
+          img9={DataAnalyticsCourseData[0].OurExpert.img9}
+          img10={DataAnalyticsCourseData[0].OurExpert.img10}
+          img11={DataAnalyticsCourseData[0].OurExpert.img11}
+          img12={DataAnalyticsCourseData[0].OurExpert.img12}
+          img13={DataAnalyticsCourseData[0].OurExpert.img13}
+          img14={DataAnalyticsCourseData[0].OurExpert.img14}
+          img15={DataAnalyticsCourseData[0].OurExpert.img15}
+          img16={DataAnalyticsCourseData[0].OurExpert.img16}
+          img17={DataAnalyticsCourseData[0].OurExpert.img17}
+          img18={DataAnalyticsCourseData[0].OurExpert.img18}
+          img19={DataAnalyticsCourseData[0].OurExpert.img19}
+          img21={DataAnalyticsCourseData[0].OurExpert.img21}
+          img22={DataAnalyticsCourseData[0].OurExpert.img22}
+          img23={DataAnalyticsCourseData[0].OurExpert.img23}
+          img20={DataAnalyticsCourseData[0].OurExpert.img20}
         />
         <Certificate
-          H4="Data Science Certification Program In Bangalore"
+          H4="Data Analytics Program In Bangalore"
         />
         <div className={styles.ProjectWrapper} id="project">
-          <Project popupHead={DataScienceCourseData[0].Project.popupHead}
-            project={DataScienceCourseData[0].Project.project}
-            domain={DataScienceCourseData[0].Project.domain}
+          <Project popupHead={DataAnalyticsCourseData[0].Project.popupHead}
+            project={DataAnalyticsCourseData[0].Project.project}
+            domain={DataAnalyticsCourseData[0].Project.domain}
             projectTitle="Hands-on Projects In Bangalore" />
         </div>
         <SliderTab />

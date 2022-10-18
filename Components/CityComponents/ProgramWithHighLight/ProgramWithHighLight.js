@@ -26,6 +26,12 @@ const ProgramWithHighLight = ({
   box3desc,
   Box4h5,
   box4desc,
+  HHeading,
+  Duration,
+  InterviewCalls,
+  Projects,
+  CourseFee,
+  Domain,
   headh5
 }) => {
   const [hover, setHover] = useState(false);
@@ -176,14 +182,14 @@ const ProgramWithHighLight = ({
               <div className={styles.PProgrammain}>
                 <div className={styles.PProgram}>
                   <p>
-                    <span>Course Details</span>
+                    <span>{HHeading}</span>
                   </p>
                 </div>
                 <div className={styles.PProgramInner}>
                   <div>
                     <MdOutlineLiveTv className={styles.PIcons} />
                     <p className={styles.cContent}>
-                      4+ months
+                      {Duration}
                       <br />
                       <span>Duration</span>
                     </p>
@@ -206,14 +212,14 @@ const ProgramWithHighLight = ({
                   <div>
                     <MdOutlineMissedVideoCall className={styles.PIcons} />
                     <p className={styles.cContent}>
-                      12+ <br />
+                     {InterviewCalls}<br />
                       <span>Interview Calls</span>
                     </p>
                   </div>
                   <div>
                     <AiOutlineFundProjectionScreen className={styles.PIcons} />
                     <p className={styles.cContent}>
-                      12+
+                      {Projects}
                       <br />
                       <span>Projects</span>
                     </p>
@@ -221,7 +227,7 @@ const ProgramWithHighLight = ({
                   <div>
                     <MdDomain className={styles.PIcons} />
                     <p className={styles.cContent}>
-                      7+
+                      {Domain}
                       <br />
                       <span>Domain Electives</span>
                     </p>
@@ -235,7 +241,7 @@ const ProgramWithHighLight = ({
 
                 </div>
                 <div className={styles.rightContent}>
-                  <h5>₹ 95,000 +GST</h5>
+                  <h5>{CourseFee}</h5>
 
                 </div>
               </div>

@@ -11,11 +11,12 @@ import HiringPatners from "../Components/CityComponents/HiringPatnerWithReview/H
 import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
 import CityImage from "../Components/CityComponents/CityImages/CityImage";
 import OurExpert from "../Components/CoursePage/OurExpert/OurExpert";
-import { DataScienceCourseData } from "../Data/DataScienceCourse";
 import Certificate from "../Components/CoursePage/CertificateTab/CertificateTabAdvance";
 import Project from "../Components/CoursePage/Project/Project";
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import ProgramWithHighLight from "../Components/CityComponents/ProgramWithHighLight/ProgramWithHighLight";
+
+import { JobGuaranteeCourseData } from "../Data/bangalore/JobGuaranteeData";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -54,8 +55,8 @@ export default function Home() {
 
           DeskImg="/BengaluruWeb.jpg"
           MobImg="/BengaluruMob.jpg"
-          ProgramData={DataScienceCourseData}
-          courseName="Data Science Course"
+          ProgramData={JobGuaranteeCourseData}
+          courseName="100% Placement Assistance Program "
           cityName="In Bangalore"
           ptag="Data Science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract or extrapolate knowledge and insights from noisy, structured and unstructured data, and apply knowledge from data across a broad range of application domains."
         />
@@ -68,32 +69,32 @@ export default function Home() {
 
           <ProgramWithHighLight
             title="Program Features"
-            Box1h5="Crack MAANG Interview"
-            box1desc="Learn in-depth DSA and crack interviews in product-based MNCs"
-            Box2h5="1:1 Mentorship"
-            box2desc="Guided by mentors working in MNCs to support you for the tech interviews"
-            Box3h5="Practical Project Experience"
-            box3desc="Gain technical expertise by working on challenging real-world projects"
-            Box4h5="Domain Specialization"
-            box4desc="Choose Domain electives on your work experience and work on Live Projects"
+            Box1h5="Custom-fit Training"
+            box1desc="Get specially designed modules as per your dream job profile. Learn demanding DS/AI applications."
+            Box2h5="Domain Focused"
+            box2desc="Obtain cutting-edge skills as per demanding IT-industry standards. Choose from 10+ domains."
+            Box3h5="Premium Mentoring"
+            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG Data Science/AI experts."
+            Box4h5="Hands-on Experience"
+            box4desc="Get diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
 
             HHeading="Course Details"
-            Duration="4+ months"
-            InterviewCalls=" 12+ "
-            Projects="12+"
-            CourseFee="₹ 95,000 +GST "
+            Duration="6+ months"
+            InterviewCalls="unlimited"
+            Projects="20+"
+            CourseFee="₹ 1,10,000 +GST"
             Domain="7+"
           />
         </div>
 
         <SyllabusNew
-          syllabus={DataScienceCourseData[0].syllabus}
-          CSyllabus="Data Science Course Syllabus In Bangalore"
-          CourseHighlights={DataScienceCourseData[0].CourseHighlights}
-          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
-          popupHead={DataScienceCourseData[0].popupHead}
-          hours={DataScienceCourseData[0].hours}
-          project={DataScienceCourseData[0].project}
+          syllabus={JobGuaranteeCourseData[0].syllabus}
+          CSyllabus="100% Job Assistance Course Syllabus In Bangalore"
+          CourseHighlights={JobGuaranteeCourseData[0].CourseHighlights}
+          syllabusDesc={JobGuaranteeCourseData[0].syllabusDesc}
+          popupHead={JobGuaranteeCourseData[0].popupHead}
+          hours={JobGuaranteeCourseData[0].hours}
+          project={JobGuaranteeCourseData[0].project}
         />
         <CityImage 
         DeskImg="/CenterCityWeb.jpg"
@@ -103,38 +104,38 @@ export default function Home() {
         />
 
         <OurExpert
-          H5={DataScienceCourseData[0].OurExpert.H5}
-          img1={DataScienceCourseData[0].OurExpert.img1}
-          img2={DataScienceCourseData[0].OurExpert.img2}
-          img3={DataScienceCourseData[0].OurExpert.img3}
-          img4={DataScienceCourseData[0].OurExpert.img4}
-          img5={DataScienceCourseData[0].OurExpert.img5}
-          img6={DataScienceCourseData[0].OurExpert.img6}
-          img7={DataScienceCourseData[0].OurExpert.img7}
-          img8={DataScienceCourseData[0].OurExpert.img8}
-          img9={DataScienceCourseData[0].OurExpert.img9}
-          img10={DataScienceCourseData[0].OurExpert.img10}
-          img11={DataScienceCourseData[0].OurExpert.img11}
-          img12={DataScienceCourseData[0].OurExpert.img12}
-          img13={DataScienceCourseData[0].OurExpert.img13}
-          img14={DataScienceCourseData[0].OurExpert.img14}
-          img15={DataScienceCourseData[0].OurExpert.img15}
-          img16={DataScienceCourseData[0].OurExpert.img16}
-          img17={DataScienceCourseData[0].OurExpert.img17}
-          img18={DataScienceCourseData[0].OurExpert.img18}
-          img19={DataScienceCourseData[0].OurExpert.img19}
-          img21={DataScienceCourseData[0].OurExpert.img21}
-          img22={DataScienceCourseData[0].OurExpert.img22}
-          img23={DataScienceCourseData[0].OurExpert.img23}
-          img20={DataScienceCourseData[0].OurExpert.img20}
+          H5={JobGuaranteeCourseData[0].OurExpert.H5}
+          img1={JobGuaranteeCourseData[0].OurExpert.img1}
+          img2={JobGuaranteeCourseData[0].OurExpert.img2}
+          img3={JobGuaranteeCourseData[0].OurExpert.img3}
+          img4={JobGuaranteeCourseData[0].OurExpert.img4}
+          img5={JobGuaranteeCourseData[0].OurExpert.img5}
+          img6={JobGuaranteeCourseData[0].OurExpert.img6}
+          img7={JobGuaranteeCourseData[0].OurExpert.img7}
+          img8={JobGuaranteeCourseData[0].OurExpert.img8}
+          img9={JobGuaranteeCourseData[0].OurExpert.img9}
+          img10={JobGuaranteeCourseData[0].OurExpert.img10}
+          img11={JobGuaranteeCourseData[0].OurExpert.img11}
+          img12={JobGuaranteeCourseData[0].OurExpert.img12}
+          img13={JobGuaranteeCourseData[0].OurExpert.img13}
+          img14={JobGuaranteeCourseData[0].OurExpert.img14}
+          img15={JobGuaranteeCourseData[0].OurExpert.img15}
+          img16={JobGuaranteeCourseData[0].OurExpert.img16}
+          img17={JobGuaranteeCourseData[0].OurExpert.img17}
+          img18={JobGuaranteeCourseData[0].OurExpert.img18}
+          img19={JobGuaranteeCourseData[0].OurExpert.img19}
+          img21={JobGuaranteeCourseData[0].OurExpert.img21}
+          img22={JobGuaranteeCourseData[0].OurExpert.img22}
+          img23={JobGuaranteeCourseData[0].OurExpert.img23}
+          img20={JobGuaranteeCourseData[0].OurExpert.img20}
         />
         <Certificate
-          H4="Data Science Certification Program In Bangalore"
+          H4="100% Job Assistance Program In Bangalore"
         />
         <div className={styles.ProjectWrapper} id="project">
-          <Project popupHead={DataScienceCourseData[0].Project.popupHead}
-            project={DataScienceCourseData[0].Project.project}
-            domain={DataScienceCourseData[0].Project.domain}
+          <Project popupHead={JobGuaranteeCourseData[0].Project.popupHead}
+            project={JobGuaranteeCourseData[0].Project.project}
+            domain={JobGuaranteeCourseData[0].Project.domain}
             projectTitle="Hands-on Projects In Bangalore" />
         </div>
         <SliderTab />

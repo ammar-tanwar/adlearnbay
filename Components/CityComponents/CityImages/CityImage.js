@@ -4,7 +4,7 @@ import Popup from '../../Popup/Popup';
 import Form from '../../Form/Form';
 import Image from "next/image";
 
-function cityImage() {
+function cityImage({DeskImg, MobImg, cityName}) {
 
     const [show, setShow] = useState(false);
     const [popups, setPopups] = useState(false);
@@ -45,12 +45,12 @@ function cityImage() {
             </Popup>
            
             {mobile ? (
-                <Image src="/CenterCityMob.jpg" alt="Snow" height="300"  quality={100} width="400" />
+                <Image src={MobImg} alt="Snow" height="300"  layout="intrinsic" quality={100} width="480" />
               ) : (
-                <Image src="/CenterCityWeb.jpg" alt="Snow" quality={100}  height="300" width="1520" />
+                <Image src={DeskImg} alt="Snow1" quality={100} layout="intrinsic" height="300" width="1620" />
               )}
                 <div className={styles.container}>
-                    <p className={styles.ContactNowHead}>Apply For Counselling in <span className={styles.banglurufontsize}>ಬೆಂಗಳೂರು</span></p>
+                    <p className={styles.ContactNowHead}>Apply For Counselling in <span className={styles.banglurufontsize}>{cityName}</span></p>
                     <button className={styles.btnlight} onClick={popupShow} >Apply Now</button>
                 </div>
             </section>

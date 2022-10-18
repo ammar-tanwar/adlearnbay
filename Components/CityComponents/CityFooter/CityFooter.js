@@ -8,7 +8,7 @@ import Image from "next/image";
 import React from "react";
 import { FaTwitter, FaFacebookF, FaLinkedinIn, FaYoutube, FaInstagram, FaApple, FaAndroid } from "react-icons/fa";
 
-const CityFooter = () => {
+const CityFooter = ({cityName}) => {
 
     const [showMe, setShowMe] = useState(false);
     function toggle() {
@@ -67,9 +67,6 @@ const CityFooter = () => {
 
             </div>
 
-
-
-
             <div style={{
                 display: showMe ? "block" : "none"
             }}>
@@ -86,27 +83,27 @@ const CityFooter = () => {
                     <div className={styles.FooterDivInner}>
                         <p className={styles.FooterInnerP}>Data Science Course</p>
 
-                        <p className={styles.FooterInnerli}>Data Science Certification Course in Bangalore</p>
-                        <p className={styles.FooterInnerli}>Data Science Course Program in Bangalore</p>
-                        <p className={styles.FooterInnerli}>Data Science Institute in Bangalore</p>
+                        <p className={styles.FooterInnerli}>Data Science Certification Course in {cityName}</p>
+                        <p className={styles.FooterInnerli}>Data Science Course Program in {cityName}</p>
+                        <p className={styles.FooterInnerli}>Data Science Institute in {cityName}</p>
 
 
                     </div>
                     <div className={styles.FooterDivInner}>
                         <p className={styles.FooterInnerP}>Machine Learning Course</p>
 
-                        <p className={styles.FooterInnerli}>Machine Learning Certification Course in Bangalore</p>
-                        <p className={styles.FooterInnerli}>Machine Learning Course Program in Bangalore</p>
-                        <p className={styles.FooterInnerli}>Machine Learning Institute in Bangalore</p>
+                        <p className={styles.FooterInnerli}>Machine Learning Certification Course in {cityName}</p>
+                        <p className={styles.FooterInnerli}>Machine Learning Course Program in {cityName}</p>
+                        <p className={styles.FooterInnerli}>Machine Learning Institute in {cityName}</p>
 
 
                     </div>
                     <div className={styles.FooterDivInner}>
                         <p className={styles.FooterInnerP}>Artificial Intelligence Course</p>
 
-                        <p className={styles.FooterInnerli}>Artificial Intelligence Certification Course in Bangalore</p>
-                        <p className={styles.FooterInnerli}>Artificial Intelligence Course Program in Bangalore</p>
-                        <p className={styles.FooterInnerli}>Artificial Intelligence Institute in Bangalore</p>
+                        <p className={styles.FooterInnerli}>Artificial Intelligence Certification Course in {cityName}</p>
+                        <p className={styles.FooterInnerli}>Artificial Intelligence Course Program in {cityName}</p>
+                        <p className={styles.FooterInnerli}>Artificial Intelligence Institute in {cityName}</p>
 
                     </div>
 
@@ -120,18 +117,18 @@ const CityFooter = () => {
                     <div className={styles.FooterDivInner}>
                         <p className={styles.FooterInnerP}>Data Analytics Course</p>
 
-                        <p className={styles.FooterInnerli}>Data Analytics Certification Course in Bangalore</p>
-                        <p className={styles.FooterInnerli}>Data Analytics Course Program in Bangalore</p>
-                        <p className={styles.FooterInnerli}>Data Analytics Institute in Bangalore</p>
+                        <p className={styles.FooterInnerli}>Data Analytics Certification Course in {cityName}</p>
+                        <p className={styles.FooterInnerli}>Data Analytics Course Program in {cityName}</p>
+                        <p className={styles.FooterInnerli}>Data Analytics Institute in {cityName}</p>
                     </div>
 
 
                     <div className={styles.FooterDivInner}>
                         <p className={styles.FooterInnerP}>100% Job Assistance Course</p>
 
-                        <p className={styles.FooterInnerli}>100% Job Assistance Certification Course in Bangalore</p>
-                        <p className={styles.FooterInnerli}>100% Job Assistance Course Program in Bangalore</p>
-                        <p className={styles.FooterInnerli}>100% Job Assistance Institute in Bangalore</p>
+                        <p className={styles.FooterInnerli}>100% Job Assistance Certification Course in {cityName}</p>
+                        <p className={styles.FooterInnerli}>100% Job Assistance Course Program in {cityName}</p>
+                        <p className={styles.FooterInnerli}>100% Job Assistance Institute in {cityName}</p>
 
                     </div>
 
