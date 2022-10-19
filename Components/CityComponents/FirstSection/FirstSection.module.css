@@ -128,13 +128,14 @@
   display: flex;
   text-align: center;
   align-items: center;
-  margin: 100px 20px 25px 0px;
+  margin: 135px 20px 25px 0px;
 }
 
 .container321 h1{
-  font-size: 34px;
-  /* padding: 20px 0px 4px 4px; */
+  font-size: 33px;
   color: white;
+  margin: 0;
+
  }
 
  .container321 p{

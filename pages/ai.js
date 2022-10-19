@@ -55,7 +55,7 @@ export default function Home() {
           DeskImg="/BengaluruWeb.jpg"
           MobImg="/BengaluruMob.jpg"
           ProgramData={AiCourseData}
-          courseName="Advance Artificial Intelligence Course"
+          courseName="Artificial Intelligence Course"
           cityName="In Bangalore"
           ptag="Data Science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract or extrapolate knowledge and insights from noisy, structured and unstructured data, and apply knowledge from data across a broad range of application domains."
         />
