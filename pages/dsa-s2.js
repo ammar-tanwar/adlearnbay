@@ -172,7 +172,10 @@ export default function Home() {
                 />
                 <LearnSupport />
 
-                <Footer />
+                <Footer 
+                paraTag="Enroll now for Full Stack and DSA Program (Bangalore) and get master in Data Structures and System Design Skills which will help you to transform your career."
+                pTag={true}
+                />
             </main>
         </div>
     );

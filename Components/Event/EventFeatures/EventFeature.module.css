@@ -71,16 +71,11 @@
   color: #f14d5d;
 }
 
-.topicCover{
-  display: none;
-}
+
 
 @media (max-width: 1281px) {
   .eFeature {
     margin: 0px;
-  }
-  .topicCover{
-    display: none;
   }
 }
 
@@ -88,9 +83,7 @@
   .eFeature h2 {
     font-size: 27px;
   }
-  .topicCover{
-    display: none;
-  }
+
   .bodyContent {
     display: flex;
     flex-flow: column;
@@ -102,9 +95,7 @@
     font-size: 27px;
     text-align: center;
   }
-  .topicCover{
-    display: none;
-  }
+
   .eLeft,
   .eMiddle,
   .eRight {
@@ -212,9 +203,7 @@
       padding-left: 16px;
   }
 
-  .topicCover{
-    display: none;
-  }
+
   
   .PreRequisites p {
     width: 20rem;

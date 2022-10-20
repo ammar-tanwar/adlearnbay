@@ -164,7 +164,10 @@ export default function Home() {
                     CourseFeelist5={FullStackSoftwareCourseData[0].BatchCourses.CourseFeelist5}
                 />
                 <LearnSupport />
-                <Footer />
+                <Footer 
+                paraTag="Enroll now for DSA and Full stack software development course and get master as a Full stack Developer which will help you to transform your career."
+                pTag={true}
+                />
             </main>
         </div>
     );
