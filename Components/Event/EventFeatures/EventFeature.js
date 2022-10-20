@@ -92,7 +92,7 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3, props, 
         <ul className={styles.listMargin} >
           <li><span>{props.paragraph9}</span><b>{props.paragraph9_1}</b></li>
           <li><span>{props.paragraph10}</span>
-            <Link href="https://www.linkedin.com/in/prakhar-agrawal-58218279/">
+            <Link href={props.linkdinsrc}>
               <a target="_blank" rel="noopener noreferrer" className='link-item'>
               <b style={{color:"#085294"}}>{props.paragraph10_1}</b>
               </a>
