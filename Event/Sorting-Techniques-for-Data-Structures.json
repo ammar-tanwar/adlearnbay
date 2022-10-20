@@ -101,7 +101,7 @@
 
     "para4": "Meet Swapnil Narayan ",
     "paragraph9": "Designation : ",
-    "paragraph9_1": "Senior Software Engineer from one of the MAANG Companies",
+    "paragraph9_1": "Software Engineer at Microsoft",
     "paragraph10": "LinkedIn Profile : ",
     "paragraph10_1": "Click Here",
 
@@ -125,7 +125,7 @@
     "paragraph21": "NEW! Attend a free Demo Class now and the enroll for the domain you’re looking for."
   },
   "headImg": {
-    "deskimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/ottpltformeWebDesk.jpg",
-    "mobimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/ottpltformWebMob.jpg"
+    "deskimg": "/SortingWebDesk.jpg",
+    "mobimg": "/SortingWebMob.jpg"
   }
 }
