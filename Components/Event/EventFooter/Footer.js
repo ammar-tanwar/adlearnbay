@@ -18,9 +18,7 @@ const Footerfsd = () => {
         <div className={styles.FooterDivInner}>
           <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logo-light.png" alt="Learnbay" quality={100}
             objectFit="contain" width="230px" height="60px" />
-          <p className={styles.FooterInnerli}>Enroll now for Data Science Classroom (Bangalore) or online training with us
-            and Master Data Analytics Skills which will help you to transform your career and start your career as a Data
-            Scientist.</p>
+          <p className={styles.FooterInnerli}>Enroll now on DSA and System Design Webinars led by top Industry leaders from MAANG companies that will give you a complete understanding on the subject.</p>
           <div className={styles.FooterSocial}>
             <FaTwitter className="bIcons" />
             <FaFacebookF className="bIcons" />
@@ -34,7 +32,7 @@ const Footerfsd = () => {
           </span>
           <span style={{ display: "flex", marginTop: "10px" }}>
             <BsFillTelephoneFill className="bIcons" />
-            (+91) 96069 50936
+            (+91) 97311 35221
           </span>
         </div>
       </div>

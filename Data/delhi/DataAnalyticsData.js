@@ -1195,7 +1195,7 @@ export const DataAnalyticsCourseData = [
     },
 
     
-    Batch: [
+        Batch: [
       {
         Module0: {
           title: "Weekend Batch :- (Sat - Sun)",
@@ -1204,42 +1204,42 @@ export const DataAnalyticsCourseData = [
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 9th October 2022",
-                  "Time : 8:30 a.m. to 12:00 p.m.",
-  
+                  "Date : 30th October 2022",
+                  "Time : 12:30 p.m. to 04:00 p.m.",
+
                 ],
               },
             },
-  
+
           ],
           id: 0,
           open: true,
         },
       },
-  
+
       {
         Module0: {
-          title: "Weekday Batch  :- (Mon-Fri)",
+          title: "Weekday  Batch  :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Weekday Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 14th October 2022",
-                  "Time : 8 a.m. to 10 a.m.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Weekday Batch 2 :- Date And time ",
-                desc: [
-                  "Date : 14th October 2022",
+                  "Date : 21st October 2022",
                   "Time : 8 p.m. to 10 p.m.",
                 ],
               },
             },
-           
+            // {
+            //   chap: {
+            //     title: "Weekday Batch 2 :- Date And time ",
+            //     desc: [
+            //       "Date : 14th October 2022",
+            //       "Time : 8 p.m. to 10 p.m.",
+            //     ],
+            //   },
+            // },
+
           ],
           id: 1,
           open: false,
@@ -1258,14 +1258,13 @@ export const DataAnalyticsCourseData = [
       //           ],
       //         },
       //       },
-           
+
       //     ],
       //     id: 1,
       //     open: false,
       //   },
       // },
     ],
-  
   
     BatchCourses: {
       CourseFeeHead: "Data Analytics Course in Delhi : Batch Details",

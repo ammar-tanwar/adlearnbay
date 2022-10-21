@@ -290,8 +290,8 @@ export const FullStackSoftwareCourseData = [
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 15th October 2022",
-                  "Time :  08:30 a.m to 12 p.m.",
+                  "Date : 29th October 2022",
+                  "Time :  12:30 p.m to 04:00 p.m.",
 
                 ],
               },
@@ -322,7 +322,7 @@ export const FullStackSoftwareCourseData = [
               chap: {
                 title: "Weekday Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 7th October 2022",
+                  "Date : 31st October 2022",
                   "Time : 7:30 a.m. to 9:30 a.m.",
                 ],
               },

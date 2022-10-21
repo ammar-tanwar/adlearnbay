@@ -159,8 +159,8 @@ function Batch({
               <div>
                 <div className={styles.BatchDetails}>
                   <p className={styles.list}><MdDateRange className={styles.icon} /><b>Date</b></p>
-                  <p className={styles.list}>7th October 2022</p>
-                  <p className={styles.list}>15th October 2022</p>
+                  <p className={styles.list}>31st October 2022</p>
+                  <p className={styles.list}>29th October 2022</p>
 
 
                 </div>
@@ -169,7 +169,7 @@ function Batch({
                 <div className={styles.BatchDetails}>
                   <p className={styles.list}><BiTimeFive className={styles.icon} /><b>Time</b></p>
                   <p className={styles.list}>7:30 a.m to 9:30 a.m.</p>
-                  <p className={styles.list}>8:30 a.m to 12:00 p.m.</p>
+                  <p className={styles.list}>12:30 p.m to 04:00 p.m.</p>
 
 
                 </div>
