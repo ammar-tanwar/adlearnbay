@@ -55,7 +55,7 @@ export default function Home() {
               "ctaText":"Start Chat",
               "borderRadius":"25",
               "autoShow":false,
-              "phoneNumber":"+919606950936"
+              "phoneNumber":"+917795687988"
           }
         };
             s.onload = function() {
@@ -96,7 +96,7 @@ export default function Home() {
       <MultiTabs />
       <FormSection dataScience={true} />
       <CareerImpactHome />
-      <LearnSupport />
+      <LearnSupport  organicNum={true}/>
       <Footer />
     </div>
 
