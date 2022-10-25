@@ -25,16 +25,16 @@ export const DsaCourseData = [
       p44: "₹ 6,883/month",
     },
     BoxShape: {
-      title: "DSA and System Design Program Features",
+      title: "System Design & Data Structures and Algorithms Program Features",
       Box1h5: "Crack MAANG Interview",
-      box1desc: "Learn in-depth DSA and crack interviews in product-based MNCs",
+      box1desc: "Learn in-depth from Live DSA course and crack interviews in product-based MNCs ",
       Box2h5: "1:1 Mentorship",
       box2desc: "Guided by mentors working In MNCs to support you for the tech interviews",
       Box3h5: "Practical Project Experience",
       box3desc: "Gain technical expertise by working on challenging real-world projects",
       Box4h5: "250+ Hiring Partners",
       box4desc: "Get dedicated placement support with 100% Interview Guarantee",
-      headh5: "Our proud alumni with successfull DSA and System Design career transition"
+      headh5: "Our proud alumni with successful career transition with DSA and System Design Course"
     },
 
     BoxShape1: {
