@@ -11,6 +11,21 @@ import subDays from "date-fns/subDays";
 import getDay from "date-fns/getDay";
 
 const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience }) => {
+
+
+  const [mobile, setMobile] = useState(false);
+  
+  useEffect(() => {
+    let width = window.innerWidth;
+
+    if (width < 481) {
+      setMobile(true);
+    }
+    if (width > 481) {
+      setMobile(false);
+    }
+  }, [mobile]);
+
   const router = useRouter();
   let today = new Date();
   let time =
@@ -214,22 +229,22 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience })
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
             <input
               id="Data Science Program"
-              value="Data Science Program"
+              value="Data Science Courses"
               name="platform"
               required
               type="radio"
               onChange={handleParam()}
             />
-            Data Science Program&nbsp;
-            <input
+            Data Science Courses&nbsp;
+            {mobile ? (<br/>): ("")}<input
               id="Full Stack Program"
-              value="Full Stack Program"
+              value="Full Stack Software Dev Courses"
               name="platform"
               required
               type="radio"
               onChange={handleParam()}
             />
-            Full Stack Program
+            Full Stack Software Dev Courses
           </div>
         ) : (
           ""

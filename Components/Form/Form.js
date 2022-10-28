@@ -769,23 +769,23 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
             <input
               id="Data Science Program"
-              value="Data Science Program"
+              value="Data Science Courses"
               name="platform"
               required
               type="radio"
               onChange={handleParam()}
             />
-            Data Science Program&nbsp;
+            Data Science Courses&nbsp;
 
             <br /><input
               id="Full Stack Program"
-              value="Full Stack Program"
+              value="Full Stack Software Dev Courses"
               name="platform"
               required
               type="radio"
               onChange={handleParam()}
             />
-            Full Stack Program
+            Full Stack Software Dev Courses
 
           </div>
         ) : (
