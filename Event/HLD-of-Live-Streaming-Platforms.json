@@ -89,9 +89,10 @@
 
     "para2": "Topics covered in this Masterclass",
 
-    "paragraph24": "Workflow of using RTMP written over TCP for protection from data losses and higher resolution of video while uploading and transforming the video in real-time.",
-    "paragraph4": "Transformation service starts to pick up the tasks and publish in a queue which is pulled by workers.",
-    "paragraph5": "When the tasks get completed successfully, it then stores to DFS or distributed file system, parallelly informing by an event that the tasks are done.",
+    "paragraph24": "Understand how to design scalable systems.",
+    "paragraph4": "Multi-tier Architecture for streaming platforms. ",
+    "paragraph5": "Insights on data models, and building flows through asynchronous processing. ",
+    "paragraph5_1": "Understand use of micro-service architecture, queues, cache, indexes etc with  streaming platforms.",
 
     "para3": "What you will gain from this Masterclass",
 
