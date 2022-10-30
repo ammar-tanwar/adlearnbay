@@ -14,7 +14,7 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience })
 
 
   const [mobile, setMobile] = useState(false);
-  
+
   useEffect(() => {
     let width = window.innerWidth;
 
@@ -44,7 +44,7 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience })
     url: router.asPath,
   });
   useEffect(() => {
-    setQuery({ ...query, phone: value, dateTime: startDate  });
+    setQuery({ ...query, phone: value, dateTime: startDate });
   }, [value]);
 
   // Update inputs value
@@ -150,18 +150,18 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience })
               style={
                 popup
                   ? {
-                      height: "50px",
-                      borderRadius: "8px",
-                      border: "1px solid grey",
-                      padding: "10px",
-                    }
+                    height: "50px",
+                    borderRadius: "8px",
+                    border: "1px solid grey",
+                    padding: "10px",
+                  }
                   : {
-                      border: "0",
-                      height: "50px",
-                      padding: "10px",
-                      borderRadius: "8px",
-                      border: "1px solid grey",
-                    }
+                    border: "0",
+                    height: "50px",
+                    padding: "10px",
+                    borderRadius: "8px",
+                    border: "1px solid grey",
+                  }
               }
               name="phone"
               rules={{ required: true }}
@@ -227,6 +227,10 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience })
         </div> */}
         {radio ? (
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
+
+
+          { mobile ? (
+            <div>
             <input
               id="Data Science Program"
               value="Data Science Courses"
@@ -236,7 +240,7 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience })
               onChange={handleParam()}
             />
             Data Science Courses&nbsp;
-            {mobile ? (<br/>): ("")}<input
+            {mobile ? (<br />) : ("")}<input
               id="Full Stack Program"
               value="Full Stack Software Dev Courses"
               name="platform"
@@ -245,6 +249,36 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience })
               onChange={handleParam()}
             />
             Full stack Software Development <br/>&nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) courses
+            </div>
+            ):(
+              <>
+              <div className={styles.dsCourseInp}>
+              <input
+                id="Data Science Program"
+                value="Data Science Courses"
+                name="platform"
+                required
+                type="radio"
+                onChange={handleParam()}
+              />
+              Data Science Courses&nbsp;
+            </div>
+            <div className={styles.fsdCourseInp}>
+              <input
+                id="Full Stack Program"
+                value="Full Stack Software Dev Courses"
+                name="platform"
+                required
+                type="radio"
+                onChange={handleParam()}
+              />
+              Full stack Software Development (DSA & System Design) courses
+            </div>
+            </>
+              )}
+           
+
+            
           </div>
         ) : (
           ""

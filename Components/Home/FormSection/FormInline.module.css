@@ -12,6 +12,15 @@
   margin-bottom: 10px;
   text-align: center;
 }
+.dsCourseInp{
+  text-align: left;
+  margin-left: 65px;
+}
+.fsdCourseInp{
+  text-align: left;
+  margin-left: 65px;
+}
+
 
 .formWrappers {
   margin-bottom: 10px;
@@ -214,6 +223,7 @@
   width: 100%;
   display: block;
 }
+
 
 .formWrappers {
   width: 100%;
