@@ -244,7 +244,7 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience })
               type="radio"
               onChange={handleParam()}
             />
-            Full Stack Software Dev Courses
+            Full stack Software Development <br/>&nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) courses
           </div>
         ) : (
           ""
