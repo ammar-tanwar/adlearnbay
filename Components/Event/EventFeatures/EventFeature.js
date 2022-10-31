@@ -7,11 +7,11 @@ import { FaArrowRight, FaChevronDown, FaChevronUp } from "react-icons/fa";
 import Form from "../Form/Form";
 import Link from "next/link";
 
-const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3, props, event }) => {
+const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3, props, event ,eventDateInfo}) => {
 
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
-
+  let today = new Date();
   const popupShow = () => {
     setPopups(true);
   };
@@ -119,10 +119,15 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3, props, 
 
       <div>
         <div className={styles.centerBtn}>
+        {today >= eventDateInfo ? (
+          ""
+        ) : (
           <button onClick={popupShow} className="outLineBtn">
             Register NOW!
             <FaArrowRight className={styles.icon} />
           </button>
+        )}
+
         </div>
       </div>
 

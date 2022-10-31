@@ -9,12 +9,12 @@ import Popup from "../Popup/Popup";
 import Form from "../Event/Form/Form";
 import { useRouter } from "next/router";
 
-const Navbar = ({ radio, event, dataScience, fullStack }) => {
+const Navbar = ({ radio, event, dataScience, fullStack ,eventDateInfo}) => {
   const router = useRouter();
   const [icon, setIcon] = useState(false);
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
-
+  let today = new Date();
   const popupShow = () => {
     setPopups(true);
   };
@@ -71,11 +71,15 @@ const Navbar = ({ radio, event, dataScience, fullStack }) => {
           </a>
         </div>
         <div className={styles.right}>
-
+        {today >= eventDateInfo ? (
+          ""
+        ) : (
           <button onClick={popupShow} className="outLineBtn">
             Register NOW!
             <FaArrowRight className={styles.icon} />
           </button>
+
+        )}
         </div>
       </nav>
     </div>
@@ -83,6 +87,10 @@ const Navbar = ({ radio, event, dataScience, fullStack }) => {
 };
 
 export default Navbar;
+
+
+
+
 
 
 

@@ -35,7 +35,7 @@ export default function DataScienceEvent({ eventData }) {
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
         <link rel="canonical" href="https://www.learnbay.co/event" />
       </Head>
-      <Navbar event={true} />
+      <Navbar event={true} eventDateInfo={eventDateInfo}/>
       <div>
         <EventHeader
         deskimg={eventData.data.headImg.deskimg}
@@ -61,6 +61,7 @@ export default function DataScienceEvent({ eventData }) {
                 img1={eventData.data.feature.img1}
                 img2={eventData.data.feature.img2}
                 img3={eventData.data.feature.img3}
+                eventDateInfo={eventDateInfo}
               />
             </div>
           </div>
