@@ -91,7 +91,7 @@ export default function Home() {
         ProgramData={DataAnalyticsCourseData}
         courseName="Data Analytic Course"
         cityName="In Bangalore"
-        ptag="Data Science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract or extrapolate knowledge and insights from noisy, structured and unstructured data, and apply knowledge from data across a broad range of application domains."
+        ptag="Data Analytics is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract or extrapolate knowledge and insights from noisy, structured and unstructured data, and apply knowledge from data across a broad range of application domains."
       />
 
       <HiringPatners
