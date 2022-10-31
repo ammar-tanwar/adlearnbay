@@ -64,7 +64,6 @@ export default function Home() {
 
         />
         <div className={styles.Feature} id="Feature">
-
           <ProgramWithHighLight
             title="Program Features"
             Box1h5={DataAnalyticsCourseData[0].BoxShape.Box1h5}
