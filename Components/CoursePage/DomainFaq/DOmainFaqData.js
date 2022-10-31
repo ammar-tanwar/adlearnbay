@@ -19,8 +19,8 @@ export const DomainFaqCourseData1 = [
     },
     {
       id: 3,
-      ques: "3 Years Flexible Subscription",
-      ans: "Enjoy 3 years of limitless independence for accessing all the learning materials, live batches, and project sessions. Make your learning calendar as per your convenience. Professionals get to switch between weekdays and weekends.",
+      ques: "2 Years Flexible Subscription",
+      ans: "Enjoy 2 years of limitless independence for accessing all the learning materials, live batches, and project sessions. Make your learning calendar as per your convenience. Professionals get to switch between weekdays and weekends.",
       open: false,
     },
    
@@ -75,8 +75,8 @@ export const DomainFaqCourseData1 = [
     },
     {
       id: 3,
-      ques: "3 Years Flexible Subscription",
-      ans: "Enjoy 3 years of limitless independence for accessing all the learning materials, live batches, and project sessions. Make your learning calendar as per your convenience. Professionals get to switch between weekdays and weekends.",
+      ques: "2 Years Flexible Subscription",
+      ans: "Enjoy 2 years of limitless independence for accessing all the learning materials, live batches, and project sessions. Make your learning calendar as per your convenience. Professionals get to switch between weekdays and weekends.",
       open: false,
     },
    
@@ -103,8 +103,8 @@ export const DomainFaqCourseData1 = [
     },
     {
       id: 3,
-      ques: "3 Years Flexible Subscription",
-      ans: "Enjoy 3 years of limitless independence for accessing all the learning materials, live batches, and project sessions. Make your learning calendar as per your convenience. Professionals get to switch between weekdays and weekends.",
+      ques: "2 Years Flexible Subscription",
+      ans: "Enjoy 2 years of limitless independence for accessing all the learning materials, live batches, and project sessions. Make your learning calendar as per your convenience. Professionals get to switch between weekdays and weekends.",
       open: false,
     },
    
@@ -131,8 +131,8 @@ export const DomainFaqCourseData1 = [
     },
     {
       id: 3,
-      ques: "3 Years Flexible Subscription",
-      ans: "Enjoy 3 years of limitless independence for accessing all the learning materials, live batches, and project sessions. Make your learning calendar as per your convenience. Professionals get to switch between weekdays and weekends.",
+      ques: "2 Years Flexible Subscription",
+      ans: "Enjoy 2 years of limitless independence for accessing all the learning materials, live batches, and project sessions. Make your learning calendar as per your convenience. Professionals get to switch between weekdays and weekends.",
       open: false,
     },
    
