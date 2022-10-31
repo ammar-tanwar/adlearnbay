@@ -92,7 +92,7 @@ const Footer = () => {
             <p className={styles.FooterInnerli}>data analytics course training in pune</p>
             <p className={styles.FooterInnerli}>business analytics course training in pune</p>
             <p className={styles.FooterInnerli}>artificial intelligence AI course training pune</p>
-
+            <p className={styles.FooterInnerli}>Data Science and AI Master course training pune</p>
           </div>
           <div className={styles.FooterDivInner}>
             <p className={styles.FooterInnerP}>Mumbai</p>
@@ -101,6 +101,7 @@ const Footer = () => {
             <p className={styles.FooterInnerli}>data analytics course training in Mumbai</p>
             <p className={styles.FooterInnerli}>business analytics course training in Mumbai</p>
             <p className={styles.FooterInnerli}>artificial intelligence AI course training Mumbai</p>
+            <p className={styles.FooterInnerli}>Data Science and AI Master course training Mumbai</p>
 
           </div>
           <div className={styles.FooterDivInner}>
@@ -110,6 +111,8 @@ const Footer = () => {
             <p className={styles.FooterInnerli}>data analytics course training in Chennai</p>
             <p className={styles.FooterInnerli}>business analytics course training in Chennai</p>
             <p className={styles.FooterInnerli}>artificial intelligence AI course training Chennai</p>
+            <p className={styles.FooterInnerli}>Data Science and AI Master course training Chennai</p>
+
           </div>
           <div className={styles.FooterDivInner}>
             <p className={styles.FooterInnerP}>Canada</p>
@@ -118,6 +121,8 @@ const Footer = () => {
             <p className={styles.FooterInnerli}>data analytics course training in Canada</p>
             <p className={styles.FooterInnerli}>business analytics course training in Canada</p>
             <p className={styles.FooterInnerli}>artificial intelligence AI course training Canada</p>
+            <p className={styles.FooterInnerli}>Data Science and AI Master course training Canada</p>
+
           </div>
         </div>
         <div className={styles.FooterDiv}>
@@ -128,6 +133,8 @@ const Footer = () => {
             <p className={styles.FooterInnerli}>data analytics course training in Bangalore</p>
             <p className={styles.FooterInnerli}>business analytics course training in Bangalore</p>
             <p className={styles.FooterInnerli}>artificial intelligence AI course training Bangalore</p>
+            <p className={styles.FooterInnerli}>Data Science and AI Master course training Bangalore</p>
+
           </div>
           <div className={styles.FooterDivInner}>
             <p className={styles.FooterInnerP}>Hyderabad</p>
@@ -136,6 +143,8 @@ const Footer = () => {
             <p className={styles.FooterInnerli}>data analytics course training in Hyderabad</p>
             <p className={styles.FooterInnerli}>business analytics course training in Hyderabad</p>
             <p className={styles.FooterInnerli}>artificial intelligence AI course training Hyderabad</p>
+            <p className={styles.FooterInnerli}>Data Science and AI Master course training Hyderabad</p>
+
 
           </div>
           <div className={styles.FooterDivInner}>
@@ -145,6 +154,8 @@ const Footer = () => {
             <p className={styles.FooterInnerli}>data analytics course training in Dubai</p>
             <p className={styles.FooterInnerli}>business analytics course training in Dubai</p>
             <p className={styles.FooterInnerli}>artificial intelligence AI course training Dubai</p>
+            <p className={styles.FooterInnerli}>Data Science and AI Master course training Dubai</p>
+
           </div>
           <div className={styles.FooterDivInner}>
             <p className={styles.FooterInnerP}>Delhi</p>
@@ -153,6 +164,8 @@ const Footer = () => {
             <p className={styles.FooterInnerli}>data analytics course training in Delhi</p>
             <p className={styles.FooterInnerli}>business analytics course training in Delhi</p>
             <p className={styles.FooterInnerli}>artificial intelligence AI course training Delhi</p>
+            <p className={styles.FooterInnerli}>Data Science and AI Master course training Delhi</p>
+
           </div>
         </div>
       </div>

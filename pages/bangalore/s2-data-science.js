@@ -11,7 +11,7 @@ import HiringPatners from "../../Components/CityComponents/HiringPatnerWithRevie
 import SyllabusNew from "../../Components/CoursePage/SyllabusNew/SyllabusNew";
 import CityImage from "../../Components/CityComponents/CityImages/CityImage";
 import OurExpert from "../../Components/CoursePage/OurExpert/OurExpert";
-import { DataScienceCourseData } from "../../Data/DataScienceCourse";
+import { DataScienceCourseData } from "../../Data/bangalore/DataScienceCourse";
 import Certificate from "../../Components/CoursePage/CertificateTab/CertificateTabAdvance";
 import Project from "../../Components/CoursePage/Project/Project";
 import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";

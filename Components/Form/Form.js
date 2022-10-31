@@ -78,6 +78,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     router.pathname === "/s2-artificial-intelligence" ||
     router.pathname === "/s2-data-analytics" ||
     router.pathname === "/s2-job-guarantee" ||
+    router.pathname === "/s2-masters-program" ||
     router.pathname === "/apply-for-counselling-s2" ||
     router.pathname === "/apply-for-counselling-data-science" ||
     router.pathname === "/apply-for-counselling" ||
@@ -599,6 +600,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
       router.pathname === "/full-stack-web-development-program" ||
       router.pathname === "/apply-for-counselling-fsd-s2" ||
       router.pathname === "/dsa-system-design" ||
+      router.pathname === "/s2-masters-program" ||
 
       //  BANGALORE
 
