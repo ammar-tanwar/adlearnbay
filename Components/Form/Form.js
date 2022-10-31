@@ -295,6 +295,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
     // -==================== Marketing ==========================--------
   }
+ 
 
   // -==================== Email Marketing ==========================--------
   if (
@@ -306,6 +307,14 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
   }
   
 
+    // -====================  Returning Audience - S6 ==========================--------
+    if (
+      router.pathname === "/fssd-s6"
+    ) {
+      // -====================  Returning Audience - S6 ==========================--------
+      endPoint = "https://getform.io/f/1c8cf486-31ef-4a7f-95b0-45c5f21e7b29";
+      // -====================  Returning Audience - S6 ==========================--------
+    }
 
   // -==================== Webinar = END POINT ==========================--------
   if (event) {
@@ -561,6 +570,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
       router.pathname === "/apply-for-counselling-data-science" ||
       router.pathname === "/apply-for-counselling-s3" ||
       router.pathname === "/apply-for-counselling-email-marketing" ||
+   
       router.pathname === "/apply-for-counselling-marketing"
     ) {
       router.push("/Thank-you");
@@ -579,6 +589,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
       router.pathname === "/fssd-s4" ||
       // router.pathname === "/fswd-s4" ||
       router.pathname === "/fssd-s5" ||
+      router.pathname === "/fssd-s6" ||
       // router.pathname === "/fswd-s5" ||
       router.pathname === "/dsa-s2" ||
       router.pathname === "/dsa-s4" ||
@@ -785,7 +796,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
               type="radio"
               onChange={handleParam()}
             />
-            Full stack Software Development <br/>&nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) courses
+            Full stack Software Dev <br/>&nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) courses
           </div>
         ) : (
           ""
