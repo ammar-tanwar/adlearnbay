@@ -58,7 +58,7 @@ const HeroSection = ({
         {mobile ? (
           <p className="pTop">
             <b className="pTopp">{mTopPara}</b> <br />
-            <br /> <b className="pTopp">{mTopPara1}</b>
+            <b className="pTopp">{mTopPara1}</b>
           </p>
         ) : (
           <p className={styles.pTop}>

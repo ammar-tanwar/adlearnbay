@@ -86,8 +86,8 @@ export default function Home() {
         </Popup>
         <FirstSection
 
-        DeskImg="/BengaluruWeb.jpg"
-        MobImg="/BengaluruMob.jpg"
+        DeskImg="/BengaluruTopWeb.jpg"
+        MobImg="/BengaluruTopMob.jpg"
         ProgramData={DataAnalyticsCourseData}
         courseName="Data Analytic Course"
         cityName="In Bangalore"
@@ -95,7 +95,7 @@ export default function Home() {
       />
 
       <HiringPatners
-        topHead="Our Hiring Patners In Bangalore"
+        topHead="Our Hiring Partner In Bangalore"
 
       />
 
@@ -131,8 +131,8 @@ export default function Home() {
           project={DataAnalyticsCourseData[0].project}
         />
         <CityImage 
-        DeskImg="/CenterCityWeb.jpg"
-        MobImg="/CenterCityMob.jpg"
+        DeskImg="/CenterCityBangaloreWeb.jpg"
+        MobImg="/CenterCityBangaloreMob.jpg"
         cityName="ಬೆಂಗಳೂರು"
         
         />

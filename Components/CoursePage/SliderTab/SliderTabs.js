@@ -198,7 +198,7 @@ const SliderTabs = () => {
             }}
             className={Retail ? styles.ActiveSpan : styles.span}
           >
-            Retail & eCommerce
+            Retail & E-commerce
             {mobile ? Retail ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""}
           </span>
           {Retail ? (

@@ -87,15 +87,15 @@ export default function Home() {
         </Popup>
         <FirstSection
 
-          DeskImg="/BengaluruWeb.jpg"
-          MobImg="/BengaluruMob.jpg"
+          DeskImg="/BengaluruTopWeb.jpg"
+        MobImg="/BengaluruTopMob.jpg"
           ProgramData={AiCourseData}
           courseName="Artificial Intelligence Course"
           cityName="In Bangalore"
           ptag="Artificial Intelligence is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract or extrapolate knowledge and insights from noisy, structured and unstructured data, and apply knowledge from data across a broad range of application domains."
         />
         <HiringPatners
-          topHead="Our Hiring Patners In Bangalore"
+          topHead="Our Hiring Partner In Bangalore"
 
         />
        
@@ -131,8 +131,8 @@ export default function Home() {
         project={AiCourseData[0].project}
       />
       <CityImage 
-      DeskImg="/CenterCityWeb.jpg"
-      MobImg="/CenterCityMob.jpg"
+      DeskImg="/CenterCityBangaloreWeb.jpg"
+      MobImg="/CenterCityBangaloreMob.jpg"
       cityName="ಬೆಂಗಳೂರು"
       
       />

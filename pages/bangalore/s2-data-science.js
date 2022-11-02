@@ -90,8 +90,8 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-        DeskImg="/BengaluruWeb.jpg"
-        MobImg="/BengaluruMob.jpg"
+        DeskImg="/BengaluruTopWeb.jpg"
+        MobImg="/BengaluruTopMob.jpg"
         ProgramData={DataScienceCourseData}
         courseName="Data Science Course"
         cityName="In Bangalore"
@@ -99,7 +99,7 @@ export default function Home() {
 
         />
         <HiringPatners
-        topHead="Our Hiring Patners In Bangalore"
+        topHead="Our Hiring Partner In Bangalore"
 
       />
 
@@ -138,8 +138,8 @@ export default function Home() {
         />
 
         <CityImage 
-        DeskImg="/CenterCityWeb.jpg"
-        MobImg="/CenterCityMob.jpg"
+        DeskImg="/CenterCityBangaloreWeb.jpg"
+        MobImg="/CenterCityBangaloreMob.jpg"
         cityName="ಬೆಂಗಳೂರು"
         
         />

@@ -74,22 +74,14 @@ const ThankYou = ({ initialName }) => {
       <section className={styles.mains}>
         <div className={styles.left} >
 
-          <h4 className={styles.hptop}>
+          <h4 className={styles.hptop1}>
             <b>Thank you!</b>
             <br />
           </h4>
-          <p className={styles.Ptop}>
+          <p className={styles.Ptop1}>
             We Received your request and look forward to getting in touch soon.
           </p>
           <div>
-            <div className={styles.mainb}>
-              <div>
-                <button className={styles.Button}>
-                  <BsArrowLeftShort className="bIcons" />
-                  <a href="/">Go To Home</a>
-                </button>
-              </div>
-            </div>
           </div>
         </div>
         <CourseThankYou />
@@ -107,3 +99,17 @@ ThankYou.getInitialProps = async (ctx) => {
     initialName: cookies(ctx).CARD || "",
   };
 };
+
+
+
+
+
+
+// <div className={styles.mainb}>
+//               <div>
+//                 <button className={styles.Button}>
+//                   <BsArrowLeftShort className="bIcons" />
+//                   <a href="/">Go To Home</a>
+//                 </button>
+//               </div>
+//             </div>

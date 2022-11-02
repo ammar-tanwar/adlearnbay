@@ -79,6 +79,23 @@
     font-weight: 600;
   }
   
+  
+
+
+
+ .Ptop1 {
+  font-size: 35px;
+  margin: 15px;
+  color: white;
+  }
+
+.hptop1 {
+  color: #000;
+  font-size: 50px;
+  color: white;
+  margin: 0;
+  }
+
   .mainb {
     display: flex;
   }
@@ -142,6 +159,23 @@
       color: white;
       margin: 0;
     }
+
+
+    .hptop1 {
+      color: #000;
+      font-size: 46px;
+      color: white;
+      margin: 0;
+    }
+
+
+    .Ptop1 {
+      font-size: 21px;
+      margin: 15px;
+      color: white;
+    }
+  
+
   
     .Ptopp {
       font-size: 16px;
