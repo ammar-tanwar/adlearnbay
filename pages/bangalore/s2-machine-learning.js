@@ -103,7 +103,7 @@ export default function Home() {
         />
         <div className="Feature" id="Feature">
         <ProgramWithHighLight
-        title="Program Features"
+        title={MlCourseData[0].BoxShape.title}
         Box1h5={MlCourseData[0].BoxShape.Box1h5}
         box1desc={MlCourseData[0].BoxShape.box1desc}
         Box2h5={MlCourseData[0].BoxShape.Box2h5}

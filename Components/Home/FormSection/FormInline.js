@@ -227,8 +227,6 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience })
         </div> */}
         {radio ? (
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
-
-
           { mobile ? (
             <div>
             <input
@@ -248,7 +246,7 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience })
               type="radio"
               onChange={handleParam()}
             />
-            Full stack Software Dev <br/>&nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) courses
+            Full Stack Software Dev <br/>&nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) Courses
             </div>
             ):(
               <>
@@ -272,13 +270,10 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience })
                 type="radio"
                 onChange={handleParam()}
               />
-              Full stack Software Dev (DSA & System Design) courses
+              Full Stack Software Dev (DSA & System Design) Courses
             </div>
             </>
               )}
-           
-
-            
           </div>
         ) : (
           ""

@@ -102,7 +102,7 @@ export default function Home() {
         <div className={styles.Feature} id="Feature">
 
           <ProgramWithHighLight
-            title="Program Features"
+          title={AiCourseData[0].BoxShape.title}
             Box1h5={AiCourseData[0].BoxShape.Box1h5}
             box1desc={AiCourseData[0].BoxShape.box1desc}
             Box2h5={AiCourseData[0].BoxShape.Box2h5}

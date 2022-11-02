@@ -102,15 +102,15 @@ export default function Home() {
       <div className={styles.Feature} id="Feature">
 
         <ProgramWithHighLight
-          title="Program Features"
-          Box1h5="Custom-fit Training"
-          box1desc="Get specially designed modules as per your dream job profile. Learn demanding DS/AI applications."
-          Box2h5="Domain Focused"
-          box2desc="Obtain cutting-edge skills as per demanding IT-industry standards. Choose from 10+ domains."
-          Box3h5="Premium Mentoring"
-          box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG Data Science/AI experts."
-          Box4h5="Hands-on Experience"
-          box4desc="Get diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
+        title={JobGuaranteeCourseData[0].BoxShape.title}
+        Box1h5={JobGuaranteeCourseData[0].BoxShape.Box1h5}
+        box1desc={JobGuaranteeCourseData[0].BoxShape.box1desc}
+        Box2h5={JobGuaranteeCourseData[0].BoxShape.Box2h5}
+        box2desc={JobGuaranteeCourseData[0].BoxShape.box2desc}
+        Box3h5={JobGuaranteeCourseData[0].BoxShape.Box3h5}
+        box3desc={JobGuaranteeCourseData[0].BoxShape.box3desc}
+        Box4h5={JobGuaranteeCourseData[0].BoxShape.Box4h5}
+        box4desc={JobGuaranteeCourseData[0].BoxShape.box4desc}
 
           HHeading="Course Details"
           Duration="500+ Hours"
@@ -134,7 +134,6 @@ export default function Home() {
       DeskImg="/CenterCityWeb.jpg"
       MobImg="/CenterCityMob.jpg"
       cityName="ಬೆಂಗಳೂರು"
-      
       />
         
         <OurExpert

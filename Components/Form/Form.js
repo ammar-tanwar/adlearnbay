@@ -798,7 +798,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
               type="radio"
               onChange={handleParam()}
             />
-            Full stack Software Dev <br/>&nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) courses
+            Full Stack Software Dev <br/>&nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) Courses
           </div>
         ) : (
           ""

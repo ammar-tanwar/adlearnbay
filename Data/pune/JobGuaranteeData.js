@@ -597,8 +597,8 @@ export const JobGuaranteeCourseData = [
               chap: {
                 title: "Weekday Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 21st October 2022",
-                  "Time : 8 p.m. to 10 p.m.",
+                  "Date : 4th November 2022",
+                  "Time : 8 a.m. to 10 a.m.",
                 ],
               },
             },
