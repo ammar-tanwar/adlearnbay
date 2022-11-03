@@ -1,23 +1,23 @@
 import Head from "next/head";
 import styles from "../../styles/Home.module.css";
-import FirstSection from "../../Components/CoursePage/HeroSection/HeroSection";
-import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
-import BoxShape from "../../Components/CoursePage/Boxshape/BoxShape";
 import Popup from "../../Components/Popup/Popup";
 import Form from "../../Components/Form/Form";
 import Navbar from "../../Components/CoursePage/Navbar/Navbar";
-import Certificate from "../../Components/CoursePage/CertificateTab/CertificateTabAdvance";
-import Project from "../../Components/CoursePage/Project/Project";
-import OurExpert from "../../Components/CoursePage/OurExpert/OurExpert";
-import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
-import SyllabusNew from "../../Components/CoursePage/SyllabusNew/SyllabusNew";
-import Footer from "../../Components/CoursePage/Footer/Footer";
-import { ProgramFee } from "../../Components/CoursePage/ProgramFee/ProgramFee";
+import CityFooter from "../../Components/CityComponents/CityFooter/CityFooter";
 import LearnSupport from "../../Components/CoursePage/LearnSupport/LearnSupport";
 import React, { useState } from "react";
-import { DataScienceCourseData } from "../../Data/pune/DataScienceCourse";
+import FirstSection from "../../Components/CityComponents/FirstSection/FirstSection";
+import HiringPatners from "../../Components/CityComponents/HiringPatnerWithReview/HiringPatners";
+import SyllabusNew from "../../Components/CoursePage/SyllabusNew/SyllabusNew";
+import CityImage from "../../Components/CityComponents/CityImages/CityImage";
+import OurExpert from "../../Components/CoursePage/OurExpert/OurExpert";
+import Certificate from "../../Components/CoursePage/CertificateTab/CertificateTabAdvance";
+import Project from "../../Components/CoursePage/Project/Project";
 import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
-import CourseReview from "../../Components/CoursePage/CourseReview/CourseReview";
+import ProgramWithHighLight from "../../Components/CityComponents/ProgramWithHighLight/ProgramWithHighLight";
+import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
+import { DataScienceCourseData } from "../../Data/pune/DataScienceCourse";
+
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -90,36 +90,21 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          popupHead={DataScienceCourseData[0].FirstSection.popupHead}
-          deskTopPara={DataScienceCourseData[0].FirstSection.deskTopPara}
-          mTopPara={DataScienceCourseData[0].FirstSection.mTopPara}
-          mTitle={DataScienceCourseData[0].FirstSection.mTitle}
-          spanMTitleText={DataScienceCourseData[0].FirstSection.spanMTitleText}
-          title={DataScienceCourseData[0].FirstSection.title}
-          spanTitleText={DataScienceCourseData[0].FirstSection.spanTitleText}
-          desc={DataScienceCourseData[0].FirstSection.desc}
-          src={DataScienceCourseData[0].FirstSection.src}
-          width={DataScienceCourseData[0].FirstSection.width}
-          height={DataScienceCourseData[0].FirstSection.height}
-          alt={DataScienceCourseData[0].FirstSection.alt}
-          srcD={DataScienceCourseData[0].FirstSection.srcD}
+        DeskImg="/PuneTopWeb.jpg"
+        MobImg="/PuneTopMob.jpg"
+        ProgramData={DataScienceCourseData}
+        courseName="Data Science Course"
+        cityName="In Pune"
+        ptag="Data Science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract or extrapolate knowledge and insights from noisy, structured and unstructured data, and apply knowledge from data across a broad range of application domains."
 
         />
-        <div className={styles.program}>
-          <ProgramInfo
-            p1={DataScienceCourseData[0].ProgramInfo.p1}
-            p11={DataScienceCourseData[0].ProgramInfo.p11}
-            p2={DataScienceCourseData[0].ProgramInfo.p2}
-            p22={DataScienceCourseData[0].ProgramInfo.p22}
-            p3={DataScienceCourseData[0].ProgramInfo.p3}
-            p33={DataScienceCourseData[0].ProgramInfo.p33}
-            p4={DataScienceCourseData[0].ProgramInfo.p4}
-            p44={DataScienceCourseData[0].ProgramInfo.p44}
-          />
-        </div>
+        <HiringPatners
+        topHead="Our Hiring Partner In Pune"
+
+      />
 
         <div className={styles.Feature} id="Feature">
-          <BoxShape
+        <ProgramWithHighLight
             title={DataScienceCourseData[0].BoxShape.title}
             Box1h5={DataScienceCourseData[0].BoxShape.Box1h5}
             box1desc={DataScienceCourseData[0].BoxShape.box1desc}
@@ -129,25 +114,34 @@ export default function Home() {
             box3desc={DataScienceCourseData[0].BoxShape.box3desc}
             Box4h5={DataScienceCourseData[0].BoxShape.Box4h5}
             box4desc={DataScienceCourseData[0].BoxShape.box4desc}
-            headh5={DataScienceCourseData[0].BoxShape.headh5}
+
+            HHeading="Course Details"
+            Duration="250+ Hours"
+            InterviewCalls=" 10 "
+            Projects="12+"
+            CourseFee="₹ 85,000 +GST "
+            Domain="7+"
           />
         </div>
 
-        <CourseReview
-          p2=" Working at TCS, Pune"
-          p1="Working at HCL, Pune"
-          p3="Working at Capgemini, Pune" />
-        <Certificate
-          H4="Data Science Certification Program"
-        />
+       
+
+
         <SyllabusNew
           syllabus={DataScienceCourseData[0].syllabus}
-          CSyllabus={DataScienceCourseData[0].CSyllabus}
+          CSyllabus="Data Science Course Syllabus In Pune"
           CourseHighlights={DataScienceCourseData[0].CourseHighlights}
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
           popupHead={DataScienceCourseData[0].popupHead}
           hours={DataScienceCourseData[0].hours}
           project={DataScienceCourseData[0].project}
+        />
+
+        <CityImage 
+        DeskImg="/CenterCityPuneWeb.jpg"
+        MobImg="/CenterCityPuneMob.jpg"
+        cityName="पुणे"
+        
         />
         <OurExpert
           H5={DataScienceCourseData[0].OurExpert.H5}
@@ -175,16 +169,16 @@ export default function Home() {
           img23={DataScienceCourseData[0].OurExpert.img23}
           img20={DataScienceCourseData[0].OurExpert.img20}
         />
-        <ProgramFee Fee={DataScienceCourseData[0].ProgramFee.Fee}
-          Emi={DataScienceCourseData[0].ProgramFee.Emi} CourseFeeAndFinancing={DataScienceCourseData[0].ProgramFee.CourseFeeAndFinancing}
-          para={DataScienceCourseData[0].ProgramFee.para} />
-        <SliderTab />
+        <Certificate
+        H4="Data Science Certification Program In Pune"
+        />
         <div className={styles.ProjectWrapper} id="project">
           <Project popupHead={DataScienceCourseData[0].Project.popupHead}
             project={DataScienceCourseData[0].Project.project}
             domain={DataScienceCourseData[0].Project.domain}
-            projectTitle={DataScienceCourseData[0].Project.projectTitle} />
+            projectTitle="Hands-on Projects In Pune" />
         </div>
+        <SliderTab />
 
         <CourseFee
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
@@ -198,8 +192,12 @@ export default function Home() {
           CourseFeelist4={DataScienceCourseData[0].BatchCourses.CourseFeelist4}
           CourseFeelist5={DataScienceCourseData[0].BatchCourses.CourseFeelist5}
         />
-        <LearnSupport />
-        <Footer />
+        <LearnSupport
+        headForCity={true}
+        cityName="24/7 Learner’s Support In Pune"
+      />
+      <CityFooter 
+      cityName="Pune"/>
       </main>
     </div>
   );

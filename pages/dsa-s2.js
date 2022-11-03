@@ -155,6 +155,7 @@ export default function Home() {
 
                 <ProgramFee Fee={DsaCourseData[0].ProgramFee.Fee} Emi={DsaCourseData[0].ProgramFee.Emi}
                     CourseFeeAndFinancing={DsaCourseData[0].ProgramFee.CourseFeeAndFinancing}
+                    para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." dataScience={true}
                 />
                 <div className={styles.ProjectWrapper} id="project">
                     <Project project={DsaCourseData[0].Project.project} domain={DsaCourseData[0].Project.domain} />

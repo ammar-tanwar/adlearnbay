@@ -135,7 +135,7 @@ export default function Home() {
         <CityImage 
         DeskImg="/CenterCityPuneWeb.jpg"
         MobImg="/CenterCityPuneMob.jpg"
-        cityName="  पुणे"
+        cityName="पुणे"
         
         />
         <OurExpert

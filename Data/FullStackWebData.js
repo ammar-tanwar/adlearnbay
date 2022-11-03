@@ -3,9 +3,9 @@ export const FullStackWebCourseData = [
     FirstSection: {
       deskTopPara: "Be a demanding Developer to stay ahead",
       mTopPara: "Be a demanding Developer to stay ahead",
-      mTitle: "Full Stack Web Development Program",
+      mTitle: "Full Stack Web Development Course",
       spanMTitleText: "Crack MAANG Interviews",
-      title: "Full Stack Web Development Program",
+      title: "Full Stack Web Development Course",
       spanTitleText: "Crack MAANG Interviews",
       desc: "Learn ultimate methods from MNC specialists with real-world projects",
       src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/header-home.webp",
@@ -22,10 +22,10 @@ export const FullStackWebCourseData = [
       p3: "Practice With",
       p33: "Real-Time Projects",
       p4: "Financing as low as",
-      p44: "₹ 11,800/month",
+      p44: "₹ 8400/month",
     },
     BoxShape: {
-      title: "Why Enroll In This Program?",
+      title: "Full Stack Web Development Program Features",
       Box1h5: "Custom-fit Training",
       box1desc: "Learn latest tools & modules. Become an demanding developer.",
       Box2h5: "Interactive Learning",
@@ -38,6 +38,7 @@ export const FullStackWebCourseData = [
       box5desc: "Live interactive session with expert for every individual",
       Box6h5: "Assured Interview Call",
       box6desc: "Get job referrals powered by 250+ hiring partners",
+      headh5: "Our proud alumni with successfull full stack Web development career transition"
 
     },
 
@@ -224,6 +225,7 @@ export const FullStackWebCourseData = [
 
 
     OurExpert: {
+      H5: "Full Stack Web Development Tools Covered",
       img1: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/1.png",
       img2: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/2.png",
       img3: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/3.png",
@@ -250,36 +252,49 @@ export const FullStackWebCourseData = [
     },
 
     ProgramFee: {
-      Fee: "₹ 1,20,000 + GST",
-      Emi: "₹ 11,800/month",
-      CourseFeeAndFinancing: "Full Stack Course Fee & Financing",
+      Fee: "₹85,000 + GST",
+      Emi: "₹ 8400/month",
+      CourseFeeAndFinancing: "Full Stack Web Developerment Course Fee & Financing",
     },
     Project: {
       project: "12+ Projects",
       domain: "7+",
+      projectTitle: "Hands-on Projects"
     },
+  
 
     Batch: [
-      {
-        Module0: {
-          title: "Weekend Batch :- (Sat - Sun)",
-          content: [
-            {
-              chap: {
-                title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 4th September 2022",
-                  "Time : 12:30 p.m. to 4 p.m.",
+      // {
+      //   Module0: {
+      //     title: "Weekend Batch :- (Sat - Sun)",
+      //     content: [
+      //       {
+      //         chap: {
+      //           title: "Batch 1 :- Date And time ",
+      //           desc: [
+      //             "Date : 29th October 2022",
+      //             "Time :  12:30 p.m to 04:00 p.m.",
 
-                ],
-              },
-            },
+      //           ],
+      //         },
+      //       },
+      //       //           {
+      //       //             chap: {
+      //       //               title: "Batch 2 :- Date And time ",
+      //       //               desc: [
+      //       //                 "Date : 25th October 2022",
+      //       //                 "Time : 12:30 p.m to 04:00 p.m.",
+      //       // ,
 
-          ],
-          id: 0,
-          open: true,
-        },
-      },
+      //       //               ],
+      //       //             },
+      //       //           },
+
+      //     ],
+      //     id: 0,
+      //     open: true,
+      //   },
+      // },
 
       {
         Module0: {
@@ -289,8 +304,8 @@ export const FullStackWebCourseData = [
               chap: {
                 title: "Weekday Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 9th September 2022",
-                  "Time : 8 p.m. to 10 p.m.",
+                  "Date : 11th November 2022",
+                  "Time : 7:30 a.m to 10:00 a.m",
                 ],
               },
             },
@@ -298,8 +313,8 @@ export const FullStackWebCourseData = [
               chap: {
                 title: "Weekday Batch 2 :- Date And time ",
                 desc: [
-                  "Date : 26th August 2022",
-                  "Time : 8 p.m. to 10 p.m.",
+                  "Date : 19th November 2022",
+                  "Time : 7:30 a.m to 10:00 a.m",
                 ],
               },
             },

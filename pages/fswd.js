@@ -1,36 +1,42 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import FirstSection from "../Components/HeroSectionfsw/HeroSection";
-import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
-import GetHired from "../Components/GetHiredFsw/GetHired";
-import BoxShape from "../Components/Boxshape/BoxShape";
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import FirstSection from "../Components/CoursePage/HeroSection/HeroSection1";
+import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
+import BoxShape from "../Components/CoursePage/Boxshapefssds/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
-import Certificate from "../Components/CertificateFsw1/Certificate";
-import Project from "../Components/Projectfswd/Project";
-import Syllabus from "../Components/Syllabusfsw1/Syllabus";
-import ToolsCovered from "../Components/ToolsCoveredfs/ToolsCovered";
-import OurExpert from "../Components/OurExpert/OurExpert";
 import Navbar from "../Components/NavbarHome/Navbar";
-import Footer from "../Components/Footer/Footer";
+import Project from "../Components/CoursePage/Project/Project";
+import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew1";
+import Footer from "../Components/FooterHome/Footerfsd";
+import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
+import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
 import React, { useState } from "react";
- 
+import { FullStackWebCourseData } from "../Data/FullStackWebData";
+import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
+import CourseReview from "../Components/CoursePage/CourseReviewdsas/CourseReview";
+import DomainFaq from "../Components/CoursePage/DomainFaq/DomainFaq";
+import { DomainFaqCourseData1 } from "../Components/CoursePage/DomainFaq/DOmainFaqData";
+import Batch from "../Components/CoursePage/BatchDetails/Batch";
+
 
 export default function Home() {
-  const [popups, setPopups] = useState(false);
+    const [popups, setPopups] = useState(false);
 
-  const popupShow = () => {
-    setPopups(true);
-  };
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Learnbay Courses</title>
-        <meta name="description" content="Learnbay Courses" />
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
+    const popupShow = () => {
+        setPopups(true);
+    };
+    return (
+        <div >
+            <Head>
+                <title>Full Stack Web Development Course - Learnbay</title>
+                <meta name="description" content="Full Stack Web Development Course with IBM certification. Learnbay provide advanced full stack developer course with placement guarantee. Enrol in our full stack web developer course to enhance your career" />
+                <meta name="Keywords" content="Full Stack Web Development Course, Full Stack Web Development Course training , Full Stack Web Development Course institute in India, best Full Stack Web Development Course institute, Full Stack Web developer Course ,Full Stack Web developer Course certification, Full Stack Web developer Course training institute , advanced Full Stack Web developer Course , Full Stack Web developer Course with placement guarantee, Full Stack Web developer Course with IBM certification" />
+                <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
+
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
             var s = document.createElement('script');
             s.type = 'text/javascript';
             s.async = true;
@@ -56,7 +62,7 @@ export default function Home() {
               "ctaText":"Start Chat",
               "borderRadius":"25",
               "autoShow":false,
-              "phoneNumber":"+919606950936"
+              "phoneNumber":"+917795687988"
           }
         };
             s.onload = function() {
@@ -64,84 +70,105 @@ export default function Home() {
             };
             var x = document.getElementsByTagName('script')[0];
             x.parentNode.insertBefore(s, x);`,
-          }}
-        />
-      </Head>
-      <main>
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-        <div className="leftPopup">
-          <div className="whiteP" />
-        </div>
-        <div className="RightPopup">
-          <h5>Apply For Counselling</h5>
-                   {/* <p>Fill the below Details to get started</p> */}
+                    }}
+                />
+            </Head>
+            <main> <Navbar popup={true} dataScience={true} />
 
-          <Form popup={true} setTrigger={setPopups} radio={true} />
-        </div>
-      </Popup>
-      <Navbar radio={true} />
-      <FirstSection radio={true}
-        deskTopPara="Be a demanding Developer to stay ahead"
-        mTopPara="Be a demanding Developer to stay ahead"
-        title="Full Stack Web Development Program"
-        desc="As a seasoned web developer, you'll have an advantage in the employment market. Experts from MNCs teach you their unique methods via hands-on projects."
-      />
-      <div className={styles.program}>
-        <ProgramInfo
-          BatchDate="Working Professionals"
-          BatchDuration="Accredited with IBM"
-          Placement="12+ Real Time Projects"
-          EMI="₹ 11,800/month"
-        />
-      </div>
-      <GetHired radio={true} />
-      <div className="Feature" id="Feature">
-        <BoxShape radio={true}
-          title="Why Enroll In This Program"
-          Box1h5="Custom-fit Training"
-          box1desc="Learn with modules created just for your dream job. Become  an extraordinarily demanding web developer."
-          Box2h5="Interactive Learning"
-          box2desc="Enjoy an offline-like learning experience, even online. 100% interactive and live classes. Hybrid learning option also available."
-          Box3h5="Premium Mentoring"
-          box3desc="Take advantage of MAANG web developer simulated mock interviews. Hone your skills through webathons."
-          Box4h5="Hands-on Experience"
-          box4desc="Gain diligent experience in real-world projects ranging from advanced level complexity to amazing deployment scopes."
-        />
-      </div>
-      <div className={styles.ExpertWrapper}>
-        <div className={styles.expert}>
-          <h5>Our experts are from:</h5>
-        </div>
-        <div className={styles.expertBody}>
-          <OurExpert />
-        </div>
-      </div>
-      <div className={styles.cta}>
-        <div className={styles.left}></div>
-        <div className={styles.middle}>
-          <h6>Talk to our team directly.</h6>
-          <p>Reach out and a learning consultant will get in touch with you shortly.</p>
-        </div>
-        <div className={styles.right}>
-          <button onClick={popupShow}>Enquire Now</button>
-        </div>
-      </div>
-      <Certificate radio={true}
-        popupHead="Download Brochure"
-        title="Global Recognition : Course Completion Certificate from IBM"
-        desc="Complete your training with the internationally recognized certificate."
-        desc2 ="Validate your Web Development skills with IBM Course Completion Certificate."
-        desc3 ="Get acknowledged in IT sector by adding IBM Certificate to your profile."
+                <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+                    <div className="leftPopup">
+                        <div className="whiteP" />
+                    </div>
+                    <div className="RightPopup">
+                        <h5>Apply For Counselling</h5>
+                        <Form popup={true} setTrigger={setPopups} />
+                    </div>
+                </Popup>
 
-      />
-      <Syllabus radio={true} />
-      <ToolsCovered />
-      <div className={styles.ProjectWrapper} id="project">
-        <Project />
-      </div>
-       
-      <Footer />
-      </main> 
-    </div>
-  )
+                <FirstSection
+                    deskTopPara={FullStackWebCourseData[0].FirstSection.deskTopPara}
+                    mTopPara={FullStackWebCourseData[0].FirstSection.mTopPara}
+                    mTitle={FullStackWebCourseData[0].FirstSection.mTitle}
+                    spanMTitleText={FullStackWebCourseData[0].FirstSection.spanMTitleText}
+                    title={FullStackWebCourseData[0].FirstSection.title}
+                    spanTitleText={FullStackWebCourseData[0].FirstSection.spanTitleText}
+                    desc={FullStackWebCourseData[0].FirstSection.desc}
+                    src={FullStackWebCourseData[0].FirstSection.src}
+                    width={FullStackWebCourseData[0].FirstSection.width}
+                    height={FullStackWebCourseData[0].FirstSection.height}
+                    alt={FullStackWebCourseData[0].FirstSection.alt}
+                    srcD={FullStackWebCourseData[0].FirstSection.srcD}
+                />
+                <div className={styles.program}>
+                    <ProgramInfo
+                        p1={FullStackWebCourseData[0].ProgramInfo.p1}
+                        p11={FullStackWebCourseData[0].ProgramInfo.p11}
+                        p2={FullStackWebCourseData[0].ProgramInfo.p2}
+                        p22={FullStackWebCourseData[0].ProgramInfo.p22}
+                        p3={FullStackWebCourseData[0].ProgramInfo.p3}
+                        p33={FullStackWebCourseData[0].ProgramInfo.p33}
+                        p4={FullStackWebCourseData[0].ProgramInfo.p4}
+                        p44={FullStackWebCourseData[0].ProgramInfo.p44}
+                    />
+                </div>
+                <div className="Feature" id="Feature">
+                    <BoxShape
+                        title="Why Enroll In Full Stack Web Development Course?"
+                        Box1h5={FullStackWebCourseData[0].BoxShape.Box1h5}
+                        box1desc={FullStackWebCourseData[0].BoxShape.box1desc}
+                        Box2h5={FullStackWebCourseData[0].BoxShape.Box2h5}
+                        box2desc={FullStackWebCourseData[0].BoxShape.box2desc}
+                        Box3h5={FullStackWebCourseData[0].BoxShape.Box3h5}
+                        box3desc={FullStackWebCourseData[0].BoxShape.box3desc}
+                        Box4h5={FullStackWebCourseData[0].BoxShape.Box4h5}
+                        box4desc={FullStackWebCourseData[0].BoxShape.box4desc}
+                        headh5="Our proud alumni with successfull career transition"
+                    />
+                </div>
+
+
+                <DomainFaq FaqData={DomainFaqCourseData1} />
+                <CourseReview />
+                <SyllabusNew
+                    syllabus={FullStackWebCourseData[0].syllabus}
+                    syllabusDesc={FullStackWebCourseData[0].syllabusDesc}
+                    popupHead={FullStackWebCourseData[0].popupHead}
+                    CSyllabus={FullStackWebCourseData[0].CSyllabus}
+                    CourseHighlights={FullStackWebCourseData[0].CourseHighlights}
+                    srcD={FullStackWebCourseData[0].srcD}
+                    hours={FullStackWebCourseData[0].hours}
+                    project={FullStackWebCourseData[0].project}
+                />
+                
+                <ProgramFee Fee={FullStackWebCourseData[0].ProgramFee.Fee} Emi={FullStackWebCourseData[0].ProgramFee.Emi}
+                CourseFeeAndFinancing="Program Fee & Financing"
+                para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." dataScience={true} 
+
+                />
+                <SliderTab />
+                <div className={styles.ProjectWrapper} id="project">
+                <Project
+                  project={FullStackWebCourseData[0].Project.project}
+                  domain={FullStackWebCourseData[0].Project.domain}
+                  projectTitle={FullStackWebCourseData[0].Project.projectTitle} />
+              </div>
+
+
+                <Batch
+                    syllabusDesc={FullStackWebCourseData[0].syllabusDesc}
+                    syllabus={FullStackWebCourseData[0].Batch}
+
+                    CourseFeeHead={FullStackWebCourseData[0].BatchCourses.CourseFeeHead}
+                    CourseFeePara={FullStackWebCourseData[0].BatchCourses.CourseFeePara}
+                    CourseFeelist1={FullStackWebCourseData[0].BatchCourses.CourseFeelist1}
+                    CourseFeelist2={FullStackWebCourseData[0].BatchCourses.CourseFeelist2}
+                    CourseFeelist3={FullStackWebCourseData[0].BatchCourses.CourseFeelist3}
+                    CourseFeelist4={FullStackWebCourseData[0].BatchCourses.CourseFeelist4}
+                    CourseFeelist5={FullStackWebCourseData[0].BatchCourses.CourseFeelist5}
+                />
+                <LearnSupport  organicNum={true}/>
+                <Footer />
+            </main>
+        </div>
+    );
 }

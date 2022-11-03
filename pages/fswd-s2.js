@@ -2,24 +2,20 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import FirstSection from "../Components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
-import BoxShape from "../Components/CoursePage/Boxshapedsas/BoxShape";
+import BoxShape from "../Components/CoursePage/Boxshapefssds/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
 import Form from "../Components/Form/Form";
-import OurExpert from "../Components/CoursePage/OurExpert/OurExpert";
 import Project from "../Components/CoursePage/Projectfswd/Project";
 import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
-import { FullStackWebCourseData } from "../Data/FullStackWebData";
 import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
-import CourseReview from "../Components/CoursePage/CourseReviewfull/CourseReview";
-import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
+import CourseReview from "../Components/CoursePage/CourseReviewdsas/CourseReview";
+import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupportfsd";
 import Footer from "../Components/CoursePage/Footer/Footerfsd";
-import Certificate from "../Components/CoursePage/CertificateTab/CertificateTabWeb";
 import BoxShape1 from "../Components/CoursePage/BoxshapeFssd/BoxShape";
 import React, { useState } from "react";
 import Batch from "../Components/CoursePage/BatchDetails/Batch";
-
-
+import { FullStackWebCourseData } from "../Data/FullStackWebData";
 
 export default function Home() {
     const [popups, setPopups] = useState(false);
@@ -63,7 +59,7 @@ export default function Home() {
               "ctaText":"Start Chat",
               "borderRadius":"25",
               "autoShow":false,
-              "phoneNumber":"+919606950936"
+              "phoneNumber":"+919731135221"
           }
         };
             s.onload = function() {
@@ -123,10 +119,7 @@ export default function Home() {
                         box3desc={FullStackWebCourseData[0].BoxShape.box3desc}
                         Box4h5={FullStackWebCourseData[0].BoxShape.Box4h5}
                         box4desc={FullStackWebCourseData[0].BoxShape.box4desc}
-                        Box5h5={FullStackWebCourseData[0].BoxShape.Box5h5}
-                        box5desc={FullStackWebCourseData[0].BoxShape.box5desc}
-                        Box6h5={FullStackWebCourseData[0].BoxShape.Box6h5}
-                        box6desc={FullStackWebCourseData[0].BoxShape.box6desc}
+                        headh5={FullStackWebCourseData[0].BoxShape.headh5}
                     />
                 </div>
 
@@ -145,7 +138,6 @@ export default function Home() {
                     />
                 </div>
                 <CourseReview />
-                <Certificate />
                 <SyllabusNew
                     syllabus={FullStackWebCourseData[0].syllabus}
                     syllabusDesc={FullStackWebCourseData[0].syllabusDesc}
@@ -156,41 +148,22 @@ export default function Home() {
                     hours={FullStackWebCourseData[0].hours}
                     project={FullStackWebCourseData[0].project}
                 />
-                <OurExpert
-                    img1={FullStackWebCourseData[0].OurExpert.img1}
-                    img2={FullStackWebCourseData[0].OurExpert.img2}
-                    img3={FullStackWebCourseData[0].OurExpert.img3}
-                    img4={FullStackWebCourseData[0].OurExpert.img4}
-                    img5={FullStackWebCourseData[0].OurExpert.img5}
-                    img6={FullStackWebCourseData[0].OurExpert.img6}
-                    img7={FullStackWebCourseData[0].OurExpert.img7}
-                    img8={FullStackWebCourseData[0].OurExpert.img8}
-                    img9={FullStackWebCourseData[0].OurExpert.img9}
-                    img10={FullStackWebCourseData[0].OurExpert.img10}
-                    img11={FullStackWebCourseData[0].OurExpert.img11}
-                    img12={FullStackWebCourseData[0].OurExpert.img12}
-                    img13={FullStackWebCourseData[0].OurExpert.img13}
-                    img14={FullStackWebCourseData[0].OurExpert.img14}
-                    img15={FullStackWebCourseData[0].OurExpert.img15}
-                    img16={FullStackWebCourseData[0].OurExpert.img16}
-                    img17={FullStackWebCourseData[0].OurExpert.img17}
-                    img18={FullStackWebCourseData[0].OurExpert.img18}
-                    img19={FullStackWebCourseData[0].OurExpert.img19}
-                    img21={FullStackWebCourseData[0].OurExpert.img21}
-                    img22={FullStackWebCourseData[0].OurExpert.img22}
-                    img23={FullStackWebCourseData[0].OurExpert.img23}
-                    img20={FullStackWebCourseData[0].OurExpert.img20}
-                />
+                
                 <ProgramFee Fee={FullStackWebCourseData[0].ProgramFee.Fee} Emi={FullStackWebCourseData[0].ProgramFee.Emi}
                     CourseFeeAndFinancing={FullStackWebCourseData[0].ProgramFee.CourseFeeAndFinancing}
-
+                    para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." dataScience={true}
                 />
                 <div className={styles.ProjectWrapper} id="project">
-                    <Project project={FullStackWebCourseData[0].Project.project} domain={FullStackWebCourseData[0].Project.domain} />
+                    <Project project={FullStackWebCourseData[0].Project.project} domain={FullStackWebCourseData[0].Project.domain} 
+                   
+                    />
                 </div>
+
+
                 <Batch
                     syllabusDesc={FullStackWebCourseData[0].syllabusDesc}
                     syllabus={FullStackWebCourseData[0].Batch}
+
                     CourseFeeHead={FullStackWebCourseData[0].BatchCourses.CourseFeeHead}
                     CourseFeePara={FullStackWebCourseData[0].BatchCourses.CourseFeePara}
                     CourseFeelist1={FullStackWebCourseData[0].BatchCourses.CourseFeelist1}
@@ -200,7 +173,10 @@ export default function Home() {
                     CourseFeelist5={FullStackWebCourseData[0].BatchCourses.CourseFeelist5}
                 />
                 <LearnSupport />
-                <Footer />
+                <Footer 
+                paraTag="Enroll now for Full stack Web development course and get master as a Full stack Web Developer which will help you to transform your career."
+                pTag={true}
+                />
             </main>
         </div>
     );

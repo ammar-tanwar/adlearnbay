@@ -54,7 +54,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
 
   if (
     router.pathname === "/fssd" ||
-    // router.pathname === "/fswd" ||
+    router.pathname === "/fswd" ||
     router.pathname === "/dsa" ||
     router.pathname === "/data-science-certification-courses" ||
     router.pathname === "/" ||
@@ -483,7 +483,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
 
     if (
       (router.pathname === "/fssd" && downloadBrochure) ||
-      // (router.pathname === "/fswd" && downloadBrochure) ||
+      (router.pathname === "/fswd" && downloadBrochure) ||
       (router.pathname === "/dsa" && downloadBrochure) ||
       (router.pathname === "/fssd-s2" && downloadBrochure) ||
       (router.pathname === "/fssd-s4" && downloadBrochure) ||
@@ -493,7 +493,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
       (router.pathname === "/dsa-s2" && downloadBrochure) ||
       (router.pathname === "/dsa-s4" && downloadBrochure) ||
       (router.pathname === "/dsa-s5" && downloadBrochure) ||
-      // (router.pathname === "/fswd-s2" && downloadBrochure) ||
+      (router.pathname === "/fswd-s2" && downloadBrochure) ||
       (router.pathname === "/full-stack-software-development-program" &&
         downloadBrochure) ||
       (router.pathname === "/apply-for-counselling" && downloadBrochure) ||
@@ -582,7 +582,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
 
     if (
       router.pathname === "/fssd" ||
-      // router.pathname === "/fswd" ||
+      router.pathname === "/fswd" ||
       router.pathname === "/dsa" ||
       router.pathname === "/fssd-s2" ||
       router.pathname === "/dsa-s3" ||

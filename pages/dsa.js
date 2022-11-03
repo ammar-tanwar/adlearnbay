@@ -10,7 +10,7 @@ import Project from "../Components/CoursePage/Project/Project";
 import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew1";
 import Footer from "../Components/FooterHome/Footerfsd";
 import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
-import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupportfsd";
+import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
 import React, { useState } from "react";
 import { DsaCourseData } from "../Data/DsaData";
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
@@ -123,6 +123,7 @@ export default function Home() {
             box3desc="Gain technical expertise by working on challenging real-world projects"
             Box4h5="250+ Hiring Partners"
             box4desc="Get dedicated placement support with 100% Interview Guarantee"
+            headh5="Our proud alumni with successfull career transition"
           />
         </div>
 
@@ -144,7 +145,7 @@ export default function Home() {
         <SliderTab />
 
         <div className={styles.ProjectWrapper} id="project">
-          <Project popupHead={DsaCourseData[0].Project.popupHead}
+          <Project
             project={DsaCourseData[0].Project.project}
             domain={DsaCourseData[0].Project.domain}
             projectTitle={DsaCourseData[0].Project.projectTitle} />

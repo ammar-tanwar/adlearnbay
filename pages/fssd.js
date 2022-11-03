@@ -10,7 +10,7 @@ import Project from "../Components/CoursePage/Project/Project";
 import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew1";
 import Footer from "../Components/FooterHome/Footerfsd";
 import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
-import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupportfsd";
+import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
 import React, { useState } from "react";
 import { FullStackSoftwareCourseData } from "../Data/FullStackSoftware";
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
@@ -122,6 +122,7 @@ export default function Home() {
             box3desc="Gain technical expertise by working on challenging real-world projects"
             Box4h5="Domain Specialization"
             box4desc="Choose Domain electives on your work experience and work on Live Projects"
+            headh5="Our proud alumni with successfull career transition"
           />
         </div>
         <DomainFaq FaqData={DomainFaqCourseData1} />
@@ -141,7 +142,7 @@ export default function Home() {
         <SliderTab />
 
         <div className={styles.ProjectWrapper} id="project">
-          <Project popupHead={FullStackSoftwareCourseData[0].Project.popupHead}
+          <Project
             project={FullStackSoftwareCourseData[0].Project.project}
             domain={FullStackSoftwareCourseData[0].Project.domain}
             projectTitle={FullStackSoftwareCourseData[0].Project.projectTitle} />
