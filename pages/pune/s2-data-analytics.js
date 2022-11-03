@@ -93,7 +93,10 @@ export default function Home() {
         ProgramData={DataAnalyticsCourseData}
         courseName="Data Analytic Course"
         cityName="In Pune"
-        ptag="Data Analytics is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract or extrapolate knowledge and insights from noisy, structured and unstructured data, and apply knowledge from data across a broad range of application domains."
+        ptag="Data analytics is the process of examining data sets to identify trends 
+        and develop conclusions about the information contained within them. 
+        Join this course in Pune and get hands on experience by working with 
+        real data sets during Real time projects."
       />
 
       <HiringPatners

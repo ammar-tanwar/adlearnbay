@@ -57,7 +57,7 @@ export const FirstSection = ({DeskImg, MobImg, ProgramData, courseName, cityName
         <div className={styles.hiringpartners}>
           <div className={styles.verticalLine} >
             <h1>3000+</h1>
-            <p>Learn Of Data Science</p>
+            <p>Learner’s Of Data Science</p>
           </div>
           <div className={styles.verticalLine1}>
             <h1>250+</h1>

@@ -1,22 +1,24 @@
+
 import Head from "next/head";
 import styles from "../../styles/Home.module.css";
-import FirstSection from "../../Components/CoursePage/HeroSection/HeroSection";
-import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
-import BoxShape from "../../Components/CoursePage/Boxshape/BoxShape";
 import Popup from "../../Components/Popup/Popup";
-import Navbar from "../../Components/CoursePage/Navbar/Navbar";
 import Form from "../../Components/Form/Form";
-import Certificate from "../../Components/CoursePage/Certificatejob/Certificate";
-import Project from "../../Components/CoursePage/Project/Project";
-import OurExpert from "../../Components/CoursePage/OurExpert/OurExpert";
-import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
-import SyllabusNew from "../../Components/CoursePage/SyllabusNew/SyllabusNew";
-import React, { useState } from "react";
-import { DataAnalyticsCourseData } from "../../Data/hyderabad/DataAnalyticsData";
+import Navbar from "../../Components/CoursePage/Navbar/Navbar";
+import CityFooter from "../../Components/CityComponents/CityFooter/CityFooter";
 import LearnSupport from "../../Components/CoursePage/LearnSupport/LearnSupport";
-import CourseReview from "../../Components/CoursePage/CourseReview/CourseReview";
-import { ProgramFee } from "../../Components/CoursePage/ProgramFee/ProgramFee";
-import Footer from "../../Components/CoursePage/Footer/Footer";
+import React, { useState } from "react";
+import FirstSection from "../../Components/CityComponents/FirstSection/FirstSection";
+import HiringPatners from "../../Components/CityComponents/HiringPatnerWithReview/HiringPatners";
+import SyllabusNew from "../../Components/CoursePage/SyllabusNew/SyllabusNew";
+import CityImage from "../../Components/CityComponents/CityImages/CityImage";
+import OurExpert from "../../Components/CoursePage/OurExpert/OurExpert";
+import Certificate from "../../Components/CoursePage/CertificateTab/CertificateTabAdvance";
+import Project from "../../Components/CoursePage/Project/Project";
+import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
+import ProgramWithHighLight from "../../Components/CityComponents/ProgramWithHighLight/ProgramWithHighLight";
+import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
+import { DataAnalyticsCourseData } from "../../Data/hyderabad/DataAnalyticsData";
+
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -86,36 +88,27 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          deskTopPara={DataAnalyticsCourseData[0].FirstSection.deskTopPara}
-          deskTopPara1={DataAnalyticsCourseData[0].FirstSection.deskTopPara1}
-          spanTitleText={DataAnalyticsCourseData[0].FirstSection.spanTitleText}
-          mTitle={DataAnalyticsCourseData[0].FirstSection.mTitle}
-          mTopPara={DataAnalyticsCourseData[0].FirstSection.mTopPara}
-          spanMTitleText={DataAnalyticsCourseData[0].FirstSection.spanMTitleText}
-          mTopPara1={DataAnalyticsCourseData[0].FirstSection.mTopPara1}
-          title={DataAnalyticsCourseData[0].FirstSection.title}
-          desc={DataAnalyticsCourseData[0].FirstSection.desc}
-          width={DataAnalyticsCourseData[0].FirstSection.width}
-          height={DataAnalyticsCourseData[0].FirstSection.height}
-          src={DataAnalyticsCourseData[0].FirstSection.src}
-          alt={DataAnalyticsCourseData[0].FirstSection.alt}
-          srcD={DataAnalyticsCourseData[0].FirstSection.srcD}
-        />
-        <div className={styles.program}>
-          <ProgramInfo
-            p1={DataAnalyticsCourseData[0].ProgramInfo.p1}
-            p11={DataAnalyticsCourseData[0].ProgramInfo.p11}
-            p2={DataAnalyticsCourseData[0].ProgramInfo.p2}
-            p22={DataAnalyticsCourseData[0].ProgramInfo.p22}
-            p3={DataAnalyticsCourseData[0].ProgramInfo.p3}
-            p33={DataAnalyticsCourseData[0].ProgramInfo.p33}
-            p4={DataAnalyticsCourseData[0].ProgramInfo.p4}
-            p44={DataAnalyticsCourseData[0].ProgramInfo.p44}
-          />
-        </div>
-        <div className="Feature" id="Feature">
-          <BoxShape
-            title={DataAnalyticsCourseData[0].BoxShape.title}
+
+        DeskImg="/HyderabadTopWeb.jpg"
+        MobImg="/HyderabadTopMob.jpg"
+        ProgramData={DataAnalyticsCourseData}
+        courseName="Data Analytic Course"
+        cityName="In Hyderabad"
+        ptag="Data analytics is the process of examining data sets to identify trends 
+        and develop conclusions about the information contained within them. 
+        Upskill and lead with this course in Hyderabad which provides 100% 
+        Placement Assistance."
+      />
+
+      <HiringPatners
+        topHead="Our Hiring Partner In Hyderabad"
+
+      />
+
+      <div className={styles.Feature} id="Feature">
+
+          <ProgramWithHighLight
+          title={DataAnalyticsCourseData[0].BoxShape.title}
             Box1h5={DataAnalyticsCourseData[0].BoxShape.Box1h5}
             box1desc={DataAnalyticsCourseData[0].BoxShape.box1desc}
             Box2h5={DataAnalyticsCourseData[0].BoxShape.Box2h5}
@@ -124,33 +117,32 @@ export default function Home() {
             box3desc={DataAnalyticsCourseData[0].BoxShape.box3desc}
             Box4h5={DataAnalyticsCourseData[0].BoxShape.Box4h5}
             box4desc={DataAnalyticsCourseData[0].BoxShape.box4desc}
-            headh5={DataAnalyticsCourseData[0].BoxShape.headh5}
 
+            HHeading="Course Details"
+            Duration="180+ Hours"
+            InterviewCalls=" 5 "
+            Projects="8+"
+            CourseFee="₹ 65,000 +GST "
+            Domain="7+"
           />
         </div>
-        <CourseReview
-          p2=" Working at TCS, Hyderabad"
-          p1="Working at HCL, Hyderabad"
-          p3="Working at Capgemini, Hyderabad" />
-        <Certificate
-          title={DataAnalyticsCourseData[0].Certificate.title}
-          desc={DataAnalyticsCourseData[0].Certificate.desc}
-          desc2={DataAnalyticsCourseData[0].Certificate.desc2}
-          desc3={DataAnalyticsCourseData[0].Certificate.desc3}
-          src={DataAnalyticsCourseData[0].Certificate.src}
-          srcD={DataAnalyticsCourseData[0].Certificate.srcD}
-        ></Certificate>
 
         <SyllabusNew
           syllabus={DataAnalyticsCourseData[0].syllabus}
-          CSyllabus={DataAnalyticsCourseData[0].CSyllabus}
+          CSyllabus="Data Analytics Course Syllabus In Hyderabad"
           CourseHighlights={DataAnalyticsCourseData[0].CourseHighlights}
           syllabusDesc={DataAnalyticsCourseData[0].syllabusDesc}
           popupHead={DataAnalyticsCourseData[0].popupHead}
-          srcD={DataAnalyticsCourseData[0].srcD}
           hours={DataAnalyticsCourseData[0].hours}
           project={DataAnalyticsCourseData[0].project}
         />
+        <CityImage 
+        DeskImg="/CenterCityHyderabadWeb.jpg"
+        MobImg="/CenterCityHyderabadMob.jpg"
+        cityName="హైదరాబాద్"
+        
+        />
+       
         <OurExpert
           H5={DataAnalyticsCourseData[0].OurExpert.H5}
 
@@ -178,18 +170,19 @@ export default function Home() {
           img23={DataAnalyticsCourseData[0].OurExpert.img23}
           img20={DataAnalyticsCourseData[0].OurExpert.img20}
         />
-        <ProgramFee Emi={DataAnalyticsCourseData[0].ProgramFee.Emi}
-          Fee={DataAnalyticsCourseData[0].ProgramFee.Fee}
-          CourseFeeAndFinancing={DataAnalyticsCourseData[0].ProgramFee.CourseFeeAndFinancing}
-          para={DataAnalyticsCourseData[0].ProgramFee.para} />
-        <div className={styles.ProjectWrapper} id="project">
-          <Project project={DataAnalyticsCourseData[0].Project.project}
-            domain={DataAnalyticsCourseData[0].Project.domain}
-            projectTitle={DataAnalyticsCourseData[0].Project.projectTitle} />
-        </div>
+        <Certificate
+        H4="Data Analytics Program In Hyderabad"
+      />
+      <div className={styles.ProjectWrapper} id="project">
+        <Project popupHead={DataAnalyticsCourseData[0].Project.popupHead}
+          project={DataAnalyticsCourseData[0].Project.project}
+          domain={DataAnalyticsCourseData[0].Project.domain}
+          projectTitle="Hands-on Projects In Hyderabad" />
+      </div>
+      <SliderTab />
 
 
-        <CourseFee
+      <CourseFee
           syllabusDesc={DataAnalyticsCourseData[0].syllabusDesc}
           syllabus={DataAnalyticsCourseData[0].Batch}
 
@@ -201,11 +194,12 @@ export default function Home() {
           CourseFeelist4={DataAnalyticsCourseData[0].BatchCourses.CourseFeelist4}
           CourseFeelist5={DataAnalyticsCourseData[0].BatchCourses.CourseFeelist5}
         />
-
-
-
-        <LearnSupport />
-        <Footer />
+      <LearnSupport
+        headForCity={true}
+        cityName="24/7 Learner’s Support In Hyderabad"
+      />
+      <CityFooter 
+      cityName="Hyderabad"/>
       </main>
     </div>
   );

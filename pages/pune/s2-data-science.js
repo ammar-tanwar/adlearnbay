@@ -95,7 +95,10 @@ export default function Home() {
         ProgramData={DataScienceCourseData}
         courseName="Data Science Course"
         cityName="In Pune"
-        ptag="Data Science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract or extrapolate knowledge and insights from noisy, structured and unstructured data, and apply knowledge from data across a broad range of application domains."
+        ptag="Data science is the study of data with the aim of gaining critical 
+        business insights. It is a multidisciplinary method for analysing massive
+        volumes of data. Join this course in Pune and get hands on experience 
+        by working with real data sets during Real time projects."
 
         />
         <HiringPatners

@@ -93,7 +93,10 @@ export default function Home() {
           ProgramData={AiCourseData}
           courseName="Artificial Intelligence Course"
           cityName="In Pune"
-          ptag="Artificial Intelligence is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract or extrapolate knowledge and insights from noisy, structured and unstructured data, and apply knowledge from data across a broad range of application domains."
+          ptag="Artificial intelligence is the simulation of human intelligence in 
+          machines that are programmed to think and act like humans. Join this 
+          course in Pune and get hands on experience by working with real data 
+          sets during Real time projects."
         />
         <HiringPatners
           topHead="Our Hiring Partner In Pune"

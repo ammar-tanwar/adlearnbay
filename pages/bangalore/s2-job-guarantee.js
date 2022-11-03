@@ -92,7 +92,10 @@ export default function Home() {
         ProgramData={JobGuaranteeCourseData}
         courseName="100% Placement Assistance Program "
         cityName="In Bangalore"
-        ptag="Data Science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract or extrapolate knowledge and insights from noisy, structured and unstructured data, and apply knowledge from data across a broad range of application domains."
+        ptag="Real-time industrial projects will help you gain the finest level of 
+        technical expertise. Be a Master without a Master’s degree. This course
+        in Bangalore will provide you with hands-on experience with 
+        technologies such as R, Python, Tableau, Hadoop, and so on."
       />
 
       <HiringPatners

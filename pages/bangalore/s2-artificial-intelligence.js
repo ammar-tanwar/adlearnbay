@@ -92,7 +92,10 @@ export default function Home() {
           ProgramData={AiCourseData}
           courseName="Artificial Intelligence Course"
           cityName="In Bangalore"
-          ptag="Artificial Intelligence is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract or extrapolate knowledge and insights from noisy, structured and unstructured data, and apply knowledge from data across a broad range of application domains."
+          ptag="Artificial intelligence is the simulation of human intelligence in 
+          machines that are programmed to think and act like humans. This 
+          course in Bangalore will provide you with hands-on experience with 
+          technologies such as R, Python, Tableau, Hadoop, and so on."
         />
         <HiringPatners
           topHead="Our Hiring Partner In Bangalore"

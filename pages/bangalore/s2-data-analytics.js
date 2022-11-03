@@ -17,6 +17,8 @@ import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import ProgramWithHighLight from "../../Components/CityComponents/ProgramWithHighLight/ProgramWithHighLight";
 import { DataAnalyticsCourseData } from "../../Data/bangalore/DataAnalyticsData";
 import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
+
+
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -84,6 +86,8 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} jobDesc={true} />
           </div>
         </Popup>
+
+
         <FirstSection
 
         DeskImg="/BengaluruTopWeb.jpg"
@@ -91,7 +95,10 @@ export default function Home() {
         ProgramData={DataAnalyticsCourseData}
         courseName="Data Analytic Course"
         cityName="In Bangalore"
-        ptag="Data Analytics is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract or extrapolate knowledge and insights from noisy, structured and unstructured data, and apply knowledge from data across a broad range of application domains."
+        ptag="Data analytics is the process of examining data sets to identify trends 
+        and develop conclusions about the information contained within them. 
+        This course in Bangalore will provide you with hands-on experience 
+        with technologies such as R, Python, Tableau, Hadoop, and so on."
       />
 
       <HiringPatners

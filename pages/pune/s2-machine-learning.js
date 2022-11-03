@@ -93,7 +93,10 @@ export default function Home() {
         ProgramData={MlCourseData}
         courseName="Machine Learning Course"
         cityName="In Pune"
-        ptag="Machine Learning is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract or extrapolate knowledge and insights from noisy, structured and unstructured data, and apply knowledge from data across a broad range of application domains."
+        ptag="Machine learning is a subfield of artificial intelligence that is widely 
+        described as a machine's capability to imitate intelligent human 
+        behavior. Join this course in Pune and get hands on experience by 
+        working with real data sets during Real time projects."
      
         />
         <HiringPatners

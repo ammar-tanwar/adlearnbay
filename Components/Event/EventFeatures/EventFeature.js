@@ -99,16 +99,12 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3, props, 
               <b style={{color:"#085294"}}>{props.paragraph10_1}</b>
               </a>
             </Link>
-
           </li>
-
         </ul>
-
       </div>
 
       <div>
         <p className={styles.paragramTitle}>{props.para6}</p>
-
         <ul className={styles.listMargin} >
           <li>{props.paragraph6_2}</li>
           <li>{props.paragraph7_2}</li>

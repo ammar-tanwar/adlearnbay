@@ -90,21 +90,25 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-        DeskImg="/BengaluruTopWeb.jpg"
-        MobImg="/BengaluruTopMob.jpg"
-        ProgramData={DataScienceCourseData}
-        courseName="Data Science Course"
-        cityName="In Bangalore"
-        ptag="Data Science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract or extrapolate knowledge and insights from noisy, structured and unstructured data, and apply knowledge from data across a broad range of application domains."
+          DeskImg="/BengaluruTopWeb.jpg"
+          MobImg="/BengaluruTopMob.jpg"
+          ProgramData={DataScienceCourseData}
+          courseName="Data Science Course"
+          cityName="In Bangalore"
+          ptag="Data science is the study of data with the aim of gaining critical 
+        business insights. It is a multidisciplinary method for analyzing massive
+        volumes of data. This course in Bangalore will provide you with hands-
+        on experience with technologies such as R, Python, Tableau, Hadoop, 
+        and so on."
 
         />
         <HiringPatners
-        topHead="Our Hiring Partner In Bangalore"
+          topHead="Our Hiring Partner In Bangalore"
 
-      />
+        />
 
         <div className={styles.Feature} id="Feature">
-        <ProgramWithHighLight
+          <ProgramWithHighLight
             title={DataScienceCourseData[0].BoxShape.title}
             Box1h5={DataScienceCourseData[0].BoxShape.Box1h5}
             box1desc={DataScienceCourseData[0].BoxShape.box1desc}
@@ -124,7 +128,7 @@ export default function Home() {
           />
         </div>
 
-       
+
 
 
         <SyllabusNew
@@ -137,11 +141,11 @@ export default function Home() {
           project={DataScienceCourseData[0].project}
         />
 
-        <CityImage 
-        DeskImg="/CenterCityBangaloreWeb.jpg"
-        MobImg="/CenterCityBangaloreMob.jpg"
-        cityName="ಬೆಂಗಳೂರು"
-        
+        <CityImage
+          DeskImg="/CenterCityBangaloreWeb.jpg"
+          MobImg="/CenterCityBangaloreMob.jpg"
+          cityName="ಬೆಂಗಳೂರು"
+
         />
         <OurExpert
           H5={DataScienceCourseData[0].OurExpert.H5}
@@ -170,7 +174,7 @@ export default function Home() {
           img20={DataScienceCourseData[0].OurExpert.img20}
         />
         <Certificate
-        H4="Data Science Certification Program In Bangalore"
+          H4="Data Science Certification Program In Bangalore"
         />
         <div className={styles.ProjectWrapper} id="project">
           <Project popupHead={DataScienceCourseData[0].Project.popupHead}
@@ -193,11 +197,11 @@ export default function Home() {
           CourseFeelist5={DataScienceCourseData[0].BatchCourses.CourseFeelist5}
         />
         <LearnSupport
-        headForCity={true}
-        cityName="24/7 Learner’s Support In Bangalore"
-      />
-      <CityFooter 
-      cityName="Bangalore"/>
+          headForCity={true}
+          cityName="24/7 Learner’s Support In Bangalore"
+        />
+        <CityFooter
+          cityName="Bangalore" />
       </main>
     </div>
   );
