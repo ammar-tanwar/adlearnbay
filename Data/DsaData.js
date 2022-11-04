@@ -209,37 +209,37 @@ export const DsaCourseData = [
     },
 
     Batch: [
-      // {
-      //   Module0: {
-      //     title: "Weekend Batch :- (Sat - Sun)",
-      //     content: [
-      //       {
-      //         chap: {
-      //           title: "Batch 1 :- Date And time ",
-      //           desc: [
-      //             "Date : 29th October 2022",
-      //             "Time :  12:30 p.m to 04:00 p.m.",
+      {
+        Module0: {
+          title: "Weekend Batch :- (Sat - Sun)",
+          content: [
+            {
+              chap: {
+                title: "Batch 1 :- Date And time ",
+                desc: [
+                  "Date : 20th November  2022",
+                  "Time :  10:00 a.m to 01:30 p.m.",
 
-      //           ],
-      //         },
-      //       },
-      //       //           {
-      //       //             chap: {
-      //       //               title: "Batch 2 :- Date And time ",
-      //       //               desc: [
-      //       //                 "Date : 25th October 2022",
-      //       //                 "Time : 12:30 p.m to 04:00 p.m.",
-      //       // ,
+                ],
+              },
+            },
+            //           {
+            //             chap: {
+            //               title: "Batch 2 :- Date And time ",
+            //               desc: [
+            //                 "Date : 25th October 2022",
+            //                 "Time : 12:30 p.m to 04:00 p.m.",
+            // ,
 
-      //       //               ],
-      //       //             },
-      //       //           },
+            //               ],
+            //             },
+            //           },
 
-      //     ],
-      //     id: 0,
-      //     open: true,
-      //   },
-      // },
+          ],
+          id: 0,
+          open: true,
+        },
+      },
 
       {
         Module0: {
@@ -249,8 +249,8 @@ export const DsaCourseData = [
               chap: {
                 title: "Weekday Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 11th November 2022",
-                  "Time : 7:30 a.m to 10:00 a.m",
+                  "Date : 29th November 2022",
+                  "Time : 08:00 p.m to 10:30 p.m",
                 ],
               },
             },
@@ -258,8 +258,8 @@ export const DsaCourseData = [
               chap: {
                 title: "Weekday Batch 2 :- Date And time ",
                 desc: [
-                  "Date : 19th November 2022",
-                  "Time : 7:30 a.m to 10:00 a.m",
+                  "Date : 30th November 2022",
+                  "Time : 08:00 p.m to 10:30 p.m",
                 ],
               },
             },
@@ -272,7 +272,7 @@ export const DsaCourseData = [
 
     ],
     BatchCourses: {
-      CourseFeeHead: "DSA and System Design : Batch Details",
+      CourseFeeHead: "DSA and System Design  : Batch Details",
       CourseFeePara: "Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",

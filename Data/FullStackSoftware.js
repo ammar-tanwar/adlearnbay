@@ -59,7 +59,7 @@ export const FullStackSoftwareCourseData = [
     syllabusDesc:
       "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All full stack software development course sessions are covered practically with real-time industrial projects and case studies.",
     popupHead: "Download  Course Brochure",
-    CSyllabus: "Full Stack Software Development Syllabus",
+    CSyllabus: "Full Stack Software Development Course Syllabus",
     CourseHighlights: "Software Development Course Highlights",
     srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
     hours: "300+ Hours",
@@ -273,7 +273,7 @@ export const FullStackSoftwareCourseData = [
     ProgramFee: {
       Fee: "₹ 1,10,000 + GST",
       Emi: "₹ 10,816",
-      CourseFeeAndFinancing: "Full Stack Software Developerment Course Fee & Financing",
+      CourseFeeAndFinancing: "Full Stack Software Development Course Fee & Financing",
     },
     Project: {
       project: "12+ Projects",
@@ -282,37 +282,37 @@ export const FullStackSoftwareCourseData = [
     },
 
     Batch: [
-      // {
-      //   Module0: {
-      //     title: "Weekend Batch :- (Sat - Sun)",
-      //     content: [
-      //       {
-      //         chap: {
-      //           title: "Batch 1 :- Date And time ",
-      //           desc: [
-      //             "Date : 29th October 2022",
-      //             "Time :  12:30 p.m to 04:00 p.m.",
+      {
+        Module0: {
+          title: "Weekend Batch :- (Sat - Sun)",
+          content: [
+            {
+              chap: {
+                title: "Batch 1 :- Date And time ",
+                desc: [
+                  "Date : 20th November  2022",
+                  "Time :  10:00 a.m to 01:30 p.m.",
 
-      //           ],
-      //         },
-      //       },
-      //       //           {
-      //       //             chap: {
-      //       //               title: "Batch 2 :- Date And time ",
-      //       //               desc: [
-      //       //                 "Date : 25th October 2022",
-      //       //                 "Time : 12:30 p.m to 04:00 p.m.",
-      //       // ,
+                ],
+              },
+            },
+            //           {
+            //             chap: {
+            //               title: "Batch 2 :- Date And time ",
+            //               desc: [
+            //                 "Date : 25th October 2022",
+            //                 "Time : 12:30 p.m to 04:00 p.m.",
+            // ,
 
-      //       //               ],
-      //       //             },
-      //       //           },
+            //               ],
+            //             },
+            //           },
 
-      //     ],
-      //     id: 0,
-      //     open: true,
-      //   },
-      // },
+          ],
+          id: 0,
+          open: true,
+        },
+      },
 
       {
         Module0: {
@@ -322,8 +322,8 @@ export const FullStackSoftwareCourseData = [
               chap: {
                 title: "Weekday Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 11th November 2022",
-                  "Time : 7:30 a.m to 10:00 a.m",
+                  "Date : 29th November 2022",
+                  "Time : 08:00 p.m to 10:30 p.m",
                 ],
               },
             },
@@ -331,8 +331,8 @@ export const FullStackSoftwareCourseData = [
               chap: {
                 title: "Weekday Batch 2 :- Date And time ",
                 desc: [
-                  "Date : 19th November 2022",
-                  "Time : 7:30 a.m to 10:00 a.m",
+                  "Date : 30th November 2022",
+                  "Time : 08:00 p.m to 10:30 p.m",
                 ],
               },
             },
@@ -345,7 +345,7 @@ export const FullStackSoftwareCourseData = [
 
     ],
     BatchCourses: {
-      CourseFeeHead: "Full Stack Software Development: Batch Details",
+      CourseFeeHead: "Full Stack Software Development Program: Batch Details",
       CourseFeePara: "Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",

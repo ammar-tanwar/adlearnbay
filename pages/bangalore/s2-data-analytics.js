@@ -93,7 +93,7 @@ export default function Home() {
         DeskImg="/BengaluruTopWeb.jpg"
         MobImg="/BengaluruTopMob.jpg"
         ProgramData={DataAnalyticsCourseData}
-        courseName="Data Analytic Course"
+        courseName="Data Analytics Course"
         cityName="In Bangalore"
         ptag="Data analytics is the process of examining data sets to identify trends 
         and develop conclusions about the information contained within them. 
@@ -102,7 +102,7 @@ export default function Home() {
       />
 
       <HiringPatners
-        topHead="Our Hiring Partner In Bangalore"
+        topHead="Our Hiring Partner's In Bangalore"
 
       />
 

@@ -99,7 +99,7 @@ export default function Home() {
           sets during Real time projects."
         />
         <HiringPatners
-          topHead="Our Hiring Partner In Pune"
+          topHead="Our Hiring Partner's In Pune"
 
         />
        

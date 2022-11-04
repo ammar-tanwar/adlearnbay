@@ -102,7 +102,7 @@ export default function Home() {
      
         />
         <HiringPatners
-          topHead="Our Hiring Partner In Bangalore"
+          topHead="Our Hiring Partner's In Bangalore"
 
         />
         <div className="Feature" id="Feature">

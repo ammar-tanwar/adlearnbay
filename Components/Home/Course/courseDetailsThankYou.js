@@ -77,6 +77,12 @@ export const viewAllD = [
     title: "Data Science Project Brochure",
     link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
   },
+  {
+    id: 12,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/full-stack-web-development.webp",
+    title: "Full-Stack Web Development Program",
+    link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf",
+  },
 ];
 export const dataScience = [
   {
@@ -147,16 +153,23 @@ export const placementProject = [
 export const fullStackD = [
   {
     id: 1,
-    img: "/full-stack-Software.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/full-stack-developer-course.webp",
     title: "Full-Stack Software Development Program",
     
         link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf" ,
   },
   {
     id: 2,
-    img: "/Data-Analytics-1.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/dsa&system.webp",
     title: " DSA & System Design",
     
         link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf",
+  },
+  {
+    id: 3,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/full-stack-web-development.webp",
+    title: "Full-Stack Web Development Program",
+    
+        link1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf",
   },
 ];

@@ -92,11 +92,15 @@ export default function Home() {
           ProgramData={MlCourseData}
           courseName="Machine Learning Course"
           cityName="In Chennai"
-          ptag="Machine Learning is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract or extrapolate knowledge and insights from noisy, structured and unstructured data, and apply knowledge from data across a broad range of application domains."
+          ptag="Machine learning is a subfield of artificial intelligence that is widely 
+          described as a machine's capability to imitate intelligent human 
+          behavior. This course in Chennai is developed for working individuals 
+          who want to maximize their present industry expertise and change 
+          career."
 
         />
         <HiringPatners
-          topHead="Our Hiring Partner In Chennai"
+          topHead="Our Hiring Partner's In Chennai"
 
         />
 

@@ -100,7 +100,7 @@ export default function Home() {
      
         />
         <HiringPatners
-          topHead="Our Hiring Partner In Pune"
+          topHead="Our Hiring Partner's In Pune"
 
         />
         <div className="Feature" id="Feature">

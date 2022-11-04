@@ -99,7 +99,7 @@ export default function Home() {
           Placement Assistance."
         />
         <HiringPatners
-          topHead="Our Hiring Partner In Hyderabad"
+          topHead="Our Hiring Partner's In Hyderabad"
 
         />
        

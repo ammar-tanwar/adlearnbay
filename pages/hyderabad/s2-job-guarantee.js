@@ -101,7 +101,7 @@ export default function Home() {
       />
 
       <HiringPatners
-        topHead="Our Hiring Partner In Hyderabad"
+        topHead="Our Hiring Partner's In Hyderabad"
 
       />
       <div className={styles.Feature} id="Feature">

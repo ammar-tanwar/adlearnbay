@@ -91,7 +91,7 @@ export default function Home() {
         DeskImg="/PuneTopWeb.jpg"
         MobImg="/PuneTopMob.jpg"
         ProgramData={DataAnalyticsCourseData}
-        courseName="Data Analytic Course"
+        courseName="Data Analytics Course"
         cityName="In Pune"
         ptag="Data analytics is the process of examining data sets to identify trends 
         and develop conclusions about the information contained within them. 
@@ -100,7 +100,7 @@ export default function Home() {
       />
 
       <HiringPatners
-        topHead="Our Hiring Partner In Pune"
+        topHead="Our Hiring Partner's In Pune"
 
       />
 

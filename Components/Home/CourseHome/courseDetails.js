@@ -99,7 +99,23 @@ export const viewAllD = [
     link1: "/dsa",
    
   },
+  {
+    id: 8,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/full-stack-web-development.webp",
+    title: "Full-Stack Web ",
+    title1: "Development Program",
+    tag: "Full stack",
+    para: [
+      "300 hours of Interactive Learning",
+      "12 Projects + 2 Capstones",
+      "Course Fee : ₹ 85,000 + GST",
+    ],
+    link1: "/fswd",
+   
+  },
 ];
+
+
 export const ForProgrammersD = [
   {
     id: 1,
@@ -184,6 +200,20 @@ export const ForProgrammersD = [
       "Course Fee : ₹ 70,000 + GST",
     ],
     link1: "/dsa",
+   
+  },
+  {
+    id: 8,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/full-stack-web-development.webp",
+    title: "Full-Stack Web ",
+    title1: "Development Program",
+    tag: "Full stack",
+    para: [
+      "300 hours of Interactive Learning",
+      "12 Projects + 2 Capstones",
+      "Course Fee : ₹ 85,000 + GST",
+    ],
+    link1: "/fswd",
    
   },
 ];
@@ -307,6 +337,20 @@ export const StackD = [
       "Course Fee : ₹ 70,000 + GST",
     ],
     link1: "/dsa",
+   
+  },
+  {
+    id: 3,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/full-stack-web-development.webp",
+    title: "Full-Stack Web ",
+    title1: "Development Program",
+    tag: "Full stack",
+    para: [
+      "300 hours of Interactive Learning",
+      "12 Projects + 2 Capstones",
+      "Course Fee : ₹ 85,000 + GST",
+    ],
+    link1: "/fswd",
    
   },
 ];

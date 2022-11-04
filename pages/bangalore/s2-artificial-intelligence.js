@@ -98,7 +98,7 @@ export default function Home() {
           technologies such as R, Python, Tableau, Hadoop, and so on."
         />
         <HiringPatners
-          topHead="Our Hiring Partner In Bangalore"
+          topHead="Our Hiring Partner's In Bangalore"
 
         />
        
