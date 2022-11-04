@@ -101,7 +101,7 @@ export default function Home() {
             Box1h5="Custom-fit Training"
             box1desc="Learn with modules created just for your dream job. Become  an extraordinarily demanding web developer."
             Box2h5="Interactive Learning"
-            box2desc="Enjoy an offline-like learning experience, even online. 100% interactive and live classes. Hybrid learning option also available."
+            box2desc="Enjoy an offline-like learning experience, even online. 100% interactive and live classes. Hybrid learning option is also available."
             Box3h5="Premium Mentoring"
             box3desc="Take advantage of MAANG web developer simulated mock interviews. Hone your skills through webathons."
             Box4h5="Hands-on Experience"

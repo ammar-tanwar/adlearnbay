@@ -27,9 +27,9 @@ export const FullStackWebCourseData = [
     BoxShape: {
       title: "Full Stack Web Development Program Features",
       Box1h5: "Custom-fit Training",
-      box1desc: "Learn latest tools & modules. Become an demanding developer.",
+      box1desc: "Learn latest tools & modules. Become a demanding developer.",
       Box2h5: "Interactive Learning",
-      box2desc: "100% interactive and live classes. Hybrid learning option also available.",
+      box2desc: "100% interactive and live classes. Hybrid learning option is also available.",
       Box3h5: "Premium Mentoring",
       box3desc: "Take advantage of MAANG web developer simulated mock interviews.",
       Box4h5: "Hands-on Experience",

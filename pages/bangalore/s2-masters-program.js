@@ -1,25 +1,25 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
-import FirstSection from "../Components/CoursePage/HeroSection/HeroSection";
-import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
-import BoxShape from "../Components/CoursePage/Boxshape/BoxShape1";
-import Popup from "../Components/Popup/Popup";
-import Form from "../Components/Form/Form";
-import Navbar from "../Components/CoursePage/Navbar/Navbar";
-import Certificate from "../Components/CoursePage/CertificateTab/CertificateTabAdvance";
-import Project from "../Components/CoursePage/Project/Project";
-import OurExpert from "../Components/CoursePage/OurExpert/OurExpert";
-import CourseFee from "../Components/CoursePage/CourseFee/CourseFee";
-import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
-import Footer from "../Components/CoursePage/Footer/Footer";
-import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
-import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
+import styles from "../../styles/Home.module.css";
+import FirstSection from "../../Components/CoursePage/HeroSection/HeroSection";
+import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
+import BoxShape from "../../Components/CoursePage/Boxshape/BoxShape1";
+import Popup from "../../Components/Popup/Popup";
+import Form from "../../Components/Form/Form";
+import Navbar from "../../Components/CoursePage/Navbar/Navbar";
+import Certificate from "../../Components/CoursePage/CertificateTab/CertificateTabAdvance";
+import Project from "../../Components/CoursePage/Project/Project";
+import OurExpert from "../../Components/CoursePage/OurExpert/OurExpert";
+import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
+import SyllabusNew from "../../Components/CoursePage/SyllabusNew/SyllabusNew";
+import Footer from "../../Components/CoursePage/Footer/Footer";
+import { ProgramFee } from "../../Components/CoursePage/ProgramFee/ProgramFee";
+import LearnSupport from "../../Components/CoursePage/LearnSupport/LearnSupport";
 import React, { useState } from "react";
-import { mastersProgram } from "../Data/mastersProgram";
-import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
-import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
-import DomainFaq from "../Components/CoursePage/DomainFaq/DomainFaq";
-import { DomainFaqCourseData1 } from "../Components/CoursePage/DomainFaq/DOmainFaqData";
+import { mastersProgram } from "../../Data/bangalore/mastersProgram";
+import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
+import CourseReview from "../../Components/CoursePage/CourseReview/CourseReview";
+import DomainFaq from "../../Components/CoursePage/DomainFaq/DomainFaq";
+import { DomainFaqCourseData1 } from "../../Components/CoursePage/DomainFaq/DOmainFaqData";
 
 
 export default function Home() {
@@ -158,7 +158,7 @@ export default function Home() {
                 project={mastersProgram[0].project}
                 />
                 <OurExpert
-                    H5="Tools Covered"
+                    H5={mastersProgram[0].OurExpert.H5}
                     img1={mastersProgram[0].OurExpert.img1}
                     img2={mastersProgram[0].OurExpert.img2}
                     img3={mastersProgram[0].OurExpert.img3}
