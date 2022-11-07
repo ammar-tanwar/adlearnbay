@@ -16,7 +16,7 @@ import Project from "../../Components/CoursePage/Project/Project";
 import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import ProgramWithHighLight from "../../Components/CityComponents/ProgramWithHighLight/ProgramWithHighLight";
 import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
-import { mastersProgram } from "../../Data/bangalore/mastersProgram";
+import { mastersProgram } from "../../Data/delhi/mastersProgram";
 
 
 
@@ -101,20 +101,20 @@ export default function Home() {
                 <FirstSection
 
 
-                    DeskImg="/BengaluruTopWeb.jpg"
-                    MobImg="/BengaluruTopMob.jpg"
+                    DeskImg="/DelhiTopWeb.jpg"
+                    MobImg="/DelhiTopMob.jpg"
                     ProgramData={mastersProgram}
                     courseName="Data Science and AI Master Program"
-                    cityName="In Bangalore"
+                    cityName="In Delhi"
                     ptag="Data science is the study of data with the aim of gaining critical 
                     business insights. It is a multidisciplinary method for analyzing massive
-                    volumes of data. This course in Bangalore will provide you with hands-
+                    volumes of data. This course in Delhi will provide you with hands-
                     on experience with technologies such as R, Python, Tableau, Hadoop, 
                     and so on."
 
                 />
                 <HiringPatners
-                    topHead="Our Hiring Partner's In Bangalore"
+                    topHead="Our Hiring Partner's In Delhi"
 
                 />
                 <div className="Feature" id="Feature">
@@ -142,7 +142,7 @@ export default function Home() {
 
                 <SyllabusNew
                     syllabus={mastersProgram[0].syllabus}
-                    CSyllabus="Data Science and AI Master Course Syllabus In Bangalore"
+                    CSyllabus="Data Science and AI Master Course Syllabus In Delhi"
                     CourseHighlights={mastersProgram[0].CourseHighlights}
                     syllabusDesc={mastersProgram[0].syllabusDesc}
                     popupHead={mastersProgram[0].popupHead}
@@ -151,9 +151,9 @@ export default function Home() {
                 />
 
                 <CityImage
-                    DeskImg="/CenterCityBangaloreWeb.jpg"
-                    MobImg="/CenterCityBangaloreMob.jpg"
-                    cityName="ಬೆಂಗಳೂರು"
+                    DeskImg="/CenterCityDelhiWeb.jpg"
+                    MobImg="/CenterCityDelhiMob.jpg"
+                    cityName="दिल्ली"
 
                 />
                 <OurExpert
@@ -183,13 +183,13 @@ export default function Home() {
                     img20={mastersProgram[0].OurExpert.img20}
                 />
                 <Certificate
-                    H4="Master's Program In Bangalore"
+                    H4="Master's Program In Delhi"
                 />
                 <div className={styles.ProjectWrapper} id="project">
                     <Project popupHead={mastersProgram[0].Project.popupHead}
                         project={mastersProgram[0].Project.project}
                         domain={mastersProgram[0].Project.domain}
-                        projectTitle="Hands-on Projects In Bangalore" />
+                        projectTitle="Hands-on Projects In Delhi" />
                 </div>
                 <SliderTab />
                 <CourseFee
@@ -206,10 +206,10 @@ export default function Home() {
                 />
                 <LearnSupport
                     headForCity={true}
-                    cityName="24/7 Learner’s Support In Bangalore"
+                    cityName="24/7 Learner’s Support In Delhi"
                 />
                 <CityFooter
-                    cityName="Bangalore" />
+                    cityName="Delhi" />
             </main>
         </div>
     );

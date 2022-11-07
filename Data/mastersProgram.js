@@ -29,13 +29,13 @@ export const mastersProgram = [
     BoxShape: {
       title: "Why Enroll In This Program?",
       Box1h5: "Unlimited Interview Calls",
-      box1desc: "Get job assistance from industry specialist to crack top product-based companies ineterviews.",
+      box1desc: "Get job assistance from industry specialist to crack top product-based companies interviews.",
       Box2h5: "Select Multiple Domains",
       box2desc: "Obtain cutting-edge skills as per demanding IT-industry standards. Choose from 7+ domains.",
       Box3h5: "Premium Mentoring",
       box3desc: "Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG Data Science/AI experts.",
       Box4h5: "Hands-on Experience",
-      box4desc: "Perform 3 fresh capstone projects, spanning from advanced level complexity, to earn IBM cerrtification.",
+      box4desc: "Perform 3 fresh capstone projects, spanning from advanced level complexity, to earn IBM certification.",
     },
 
 

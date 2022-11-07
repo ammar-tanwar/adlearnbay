@@ -32,7 +32,8 @@ const ProgramWithHighLight = ({
   Projects,
   CourseFee,
   Domain,
-  headh5
+  headh5,
+  jobGuarantee
 }) => {
   const [hover, setHover] = useState(false);
   const [mobile, setMobile] = useState(false);
@@ -204,10 +205,18 @@ const ProgramWithHighLight = ({
                   </div>
                   <div>
                     <AiOutlineFieldTime className={styles.PIcons} />
-                    <p className={styles.cContent}>
+                    {jobGuarantee ? (
+                      <p className={styles.cContent}>
+                      3+ Years <br />
+                      <span>Subscription</span>
+                    </p>
+                    ):(
+                      <p className={styles.cContent}>
                       2+ Years <br />
                       <span>Subscription</span>
                     </p>
+                    )}
+                   
                   </div>
                   <div>
                     <MdOutlineMissedVideoCall className={styles.PIcons} />

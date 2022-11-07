@@ -132,6 +132,15 @@ const CityFooter = ({cityName}) => {
 
                     </div>
 
+                    <div className={styles.FooterDivInner}>
+                        <p className={styles.FooterInnerP}>Data Science and AI Master Course</p>
+
+                        <p className={styles.FooterInnerli}>Data Science and AI Master Certification Course in {cityName}</p>
+                        <p className={styles.FooterInnerli}>Data Science and AI Master Course Program in {cityName}</p>
+                        <p className={styles.FooterInnerli}>Data Science and AI Master Institute in {cityName}</p>
+
+                    </div>
+
                 </div>
 
             </div>

@@ -114,7 +114,7 @@ export default function Home() {
         box3desc={JobGuaranteeCourseData[0].BoxShape.box3desc}
         Box4h5={JobGuaranteeCourseData[0].BoxShape.Box4h5}
         box4desc={JobGuaranteeCourseData[0].BoxShape.box4desc}
-
+        jobGuarantee = {true}
           HHeading="Course Details"
           Duration="500+ Hours"
           InterviewCalls="unlimited"

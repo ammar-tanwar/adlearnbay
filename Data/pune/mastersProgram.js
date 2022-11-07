@@ -3,11 +3,11 @@ export const mastersProgram = [
     FirstSection: {
       deskTopPara: "Boost your career opportunities ",
       deskTopPara1: "by developing relevant skills.",
-      mTitle: "Data Science and AI Master Program In Bangalore",
+      mTitle: "Data Science and AI Master Program In Pune",
       spanMTitleText: "With Unlimited Interview Calls",
       mTopPara: "Boost your career opportunities ",
       mTopPara1: "by developing relevant skills.",
-      title: "Data Science and AI Master Program In Bangalore",
+      title: "Data Science and AI Master Program In Pune",
       spanTitleText: "With Unlimited Interview Calls",
       desc: "A complete guide with real-life exercises & domain oriented approach.",
       src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course5.png",
@@ -27,7 +27,7 @@ export const mastersProgram = [
       p44: "₹ 10,816/month",
     },
     BoxShape: {
-      title: "Data Science and AI Master Program In Bangalore",
+      title: "Data Science and AI Master Program In Pune",
       Box1h5: "Unlimited Interview Calls",
       box1desc: "Get job assistance from industry specialist to crack top product-based companies interviews.",
       Box2h5: "Select Multiple Domains",
@@ -39,7 +39,7 @@ export const mastersProgram = [
     },
 
     syllabusDesc:
-      "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Data Science and AI Master Course In Bangalore sessions are covered practically with real-time industrial projects and case studies.",
+      "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Data Science and AI Master Course In Pune sessions are covered practically with real-time industrial projects and case studies.",
     popupHead: "Download Data science Course Brochure",
     srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf",
     hours: "500+ Hours",
@@ -535,18 +535,18 @@ export const mastersProgram = [
     ProgramFee: {
       Emi: "₹ 10,816/month",
       Fee: "₹ 1,10,000 +GST",
-      CourseFeeAndFinancing: "Master's Program Fee & Financing In Bangalore",
+      CourseFeeAndFinancing: "Master's Program Fee & Financing In Pune",
       para:"We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." 
     },
     Project: {
       project: "20+ Projects",
       domain: "7+",
-      projectTitle: "Hands-on Projects in Bangalore"
+      projectTitle: "Hands-on Projects in Pune"
     },
 
     CourseFee: {
 
-      CourseFeeHead: "Data Science and AI Master Program In Bangalore : Batch Details",
+      CourseFeeHead: "Data Science and AI Master Program In Pune : Batch Details",
       CourseFeePara: "Data Science and AI Master Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",
@@ -628,7 +628,7 @@ export const mastersProgram = [
     ],
 
     BatchCourses: {
-      CourseFeeHead: "Data Science and AI Master Program In Bangalore: Batch Details",
+      CourseFeeHead: "Data Science and AI Master Program In Pune: Batch Details",
       CourseFeePara: "Data Science and AI Master Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",

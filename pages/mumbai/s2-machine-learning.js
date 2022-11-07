@@ -1,25 +1,23 @@
 import Head from "next/head";
 import styles from "../../styles/Home.module.css";
-import FirstSection from "../../Components/CoursePage/HeroSection/HeroSection";
-import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
-import BoxShape from "../../Components/CoursePage/Boxshape/BoxShape";
-import Navbar from "../../Components/CoursePage/Navbar/Navbar";
 import Popup from "../../Components/Popup/Popup";
 import Form from "../../Components/Form/Form";
-import Certificate from "../../Components/CoursePage/CertificateTab/CertificateTab3";
-import Project from "../../Components/CoursePage/Project/Project";
-import OurExpert from "../../Components/CoursePage/OurExpert/OurExpert";
-import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
-import SyllabusNew from "../../Components/CoursePage/SyllabusNew/SyllabusNew";
-import OtherCertificate from "../../Components/CoursePage/OtherCertificate/OtherCertificate";
-import { MlCourseData } from "../../Data/mumbai/MlData";
+import Navbar from "../../Components/CoursePage/Navbar/Navbar";
+import CityFooter from "../../Components/CityComponents/CityFooter/CityFooter";
 import LearnSupport from "../../Components/CoursePage/LearnSupport/LearnSupport";
 import React, { useState } from "react";
+import FirstSection from "../../Components/CityComponents/FirstSection/FirstSection";
+import HiringPatners from "../../Components/CityComponents/HiringPatnerWithReview/HiringPatners";
+import SyllabusNew from "../../Components/CoursePage/SyllabusNew/SyllabusNew";
+import CityImage from "../../Components/CityComponents/CityImages/CityImage";
+import OurExpert from "../../Components/CoursePage/OurExpert/OurExpert";
+import { MlCourseData } from "../../Data/mumbai/MlData";
+import Certificate from "../../Components/CoursePage/CertificateTab/CertificateTabAdvance";
+import Project from "../../Components/CoursePage/Project/Project";
 import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
-import CourseReview from "../../Components/CoursePage/CourseReview/CourseReview";
-import { ProgramFee } from "../../Components/CoursePage/ProgramFee/ProgramFee";
-import Footer from "../../Components/CoursePage/Footer/Footer";
-
+import ProgramWithHighLight from "../../Components/CityComponents/ProgramWithHighLight/ProgramWithHighLight";
+import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
+ 
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -29,7 +27,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Artificial Intelligence and Machine Learning Program</title>
+        <title>Advanced Machine Learning Program</title>
         <meta
           name="description"
           content="Artificial Intelligence and Machine Learning Program"
@@ -87,73 +85,63 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} jobDesc={true} />
           </div>
         </Popup>
+
         <FirstSection
-          deskTopPara={MlCourseData[0].FirstSection.deskTopPara}
-          deskTopPara1={MlCourseData[0].FirstSection.deskTopPara1}
-          spanTitleText={MlCourseData[0].FirstSection.spanTitleText}
-          mTitle={MlCourseData[0].FirstSection.mTitle}
-          mTopPara={MlCourseData[0].FirstSection.mTopPara}
-          spanMTitleText={MlCourseData[0].FirstSection.spanMTitleText}
-          mTopPara1={MlCourseData[0].FirstSection.mTopPara1}
-          title={MlCourseData[0].FirstSection.title}
-          desc={MlCourseData[0].FirstSection.desc}
-          width={MlCourseData[0].FirstSection.width}
-          height={MlCourseData[0].FirstSection.height}
-          src={MlCourseData[0].FirstSection.src}
-          alt={MlCourseData[0].FirstSection.alt}
-          srcD={MlCourseData[0].FirstSection.srcD}
+
+
+        DeskImg="/MumbaiTopWeb.jpg"
+        MobImg="/MumbaiTopMob.jpg"
+        ProgramData={MlCourseData}
+        courseName="Machine Learning Course"
+        cityName="In Mumbai"
+        ptag="Machine learning is a subfield of artificial intelligence that is widely 
+        described as a machine's capability to imitate intelligent human 
+        behavior. This course in Mumbai will provide you with hands-on 
+        experience with technologies such as R, Python, Tableau, Hadoop, and 
+        so on."
+     
         />
-        <div className={styles.program}>
-          <ProgramInfo
-            p1={MlCourseData[0].ProgramInfo.p1}
-            p11={MlCourseData[0].ProgramInfo.p11}
-            p2={MlCourseData[0].ProgramInfo.p2}
-            p22={MlCourseData[0].ProgramInfo.p22}
-            p3={MlCourseData[0].ProgramInfo.p3}
-            p33={MlCourseData[0].ProgramInfo.p33}
-            p4={MlCourseData[0].ProgramInfo.p4}
-            p44={MlCourseData[0].ProgramInfo.p44}
-          />
-        </div>
+        <HiringPatners
+          topHead="Our Hiring Partner's In Mumbai"
+
+        />
         <div className="Feature" id="Feature">
-          <BoxShape
-            title={MlCourseData[0].BoxShape.title}
-            Box1h5={MlCourseData[0].BoxShape.Box1h5}
-            box1desc={MlCourseData[0].BoxShape.box1desc}
-            Box2h5={MlCourseData[0].BoxShape.Box2h5}
-            box2desc={MlCourseData[0].BoxShape.box2desc}
-            Box3h5={MlCourseData[0].BoxShape.Box3h5}
-            box3desc={MlCourseData[0].BoxShape.box3desc}
-            Box4h5={MlCourseData[0].BoxShape.Box4h5}
-            box4desc={MlCourseData[0].BoxShape.box4desc}
-            headh5={MlCourseData[0].BoxShape.headh5}
-          />
+        <ProgramWithHighLight
+        title={MlCourseData[0].BoxShape.title}
+        Box1h5={MlCourseData[0].BoxShape.Box1h5}
+        box1desc={MlCourseData[0].BoxShape.box1desc}
+        Box2h5={MlCourseData[0].BoxShape.Box2h5}
+        box2desc={MlCourseData[0].BoxShape.box2desc}
+        Box3h5={MlCourseData[0].BoxShape.Box3h5}
+        box3desc={MlCourseData[0].BoxShape.box3desc}
+        Box4h5={MlCourseData[0].BoxShape.Box4h5}
+        box4desc={MlCourseData[0].BoxShape.box4desc}
+       
+
+        HHeading="Course Details"
+        Duration="350+ Hours"
+        InterviewCalls=" 10"
+        Projects="15+"
+        CourseFee="₹ 95,000 +GST "
+        Domain="7+"
+      />
         </div>
-        <CourseReview
-          p2=" Working at TCS, Mumbai"
-          p1="Working at HCL, Mumbai"
-          p3="Working at Capgemini, Mumbai" />
-        <Certificate
-          H4="Machine Learning Certification Program" />
-        <OtherCertificate
-          OCHead1={MlCourseData[0].OtherCertificate.OCHead1}
-          OCP1={MlCourseData[0].OtherCertificate.OCP1}
-          OCHead2={MlCourseData[0].OtherCertificate.OCHead2}
-          OCP2={MlCourseData[0].OtherCertificate.OCP2}
-          OCHead3={MlCourseData[0].OtherCertificate.OCHead3}
-          OCP3={MlCourseData[0].OtherCertificate.OCP3}
-          OCHead4={MlCourseData[0].OtherCertificate.OCHead4}
-          OCP4={MlCourseData[0].OtherCertificate.OCP4}
-        />
+
         <SyllabusNew
           syllabus={MlCourseData[0].syllabus}
-          CSyllabus={MlCourseData[0].CSyllabus}
+          CSyllabus="Machine Learning Course Syllabus In Mumbai"
           CourseHighlights={MlCourseData[0].CourseHighlights}
           syllabusDesc={MlCourseData[0].syllabusDesc}
           popupHead={MlCourseData[0].popupHead}
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
           hours={MlCourseData[0].hours}
           project={MlCourseData[0].project}
+        />
+       
+        <CityImage 
+        DeskImg="/CenterCityMumbaiWeb.jpg"
+        MobImg="/CenterCityMumbaiMob.jpg"
+        cityName="मुंबई"
+        
         />
         <OurExpert
           H5={MlCourseData[0].OurExpert.H5}
@@ -181,17 +169,16 @@ export default function Home() {
           img23={MlCourseData[0].OurExpert.img23}
           img20={MlCourseData[0].OurExpert.img20}
         />
-        <ProgramFee Emi={MlCourseData[0].ProgramFee.Emi}
-          Fee={MlCourseData[0].ProgramFee.Fee} CourseFeeAndFinancing={MlCourseData[0].ProgramFee.CourseFeeAndFinancing}
-          para={MlCourseData[0].ProgramFee.para} />
-        <SliderTab />
+        <Certificate
+          H4="Machine Learning Program In Mumbai"
+        />
         <div className={styles.ProjectWrapper} id="project">
-          <Project project={MlCourseData[0].Project.project}
+          <Project popupHead={MlCourseData[0].Project.popupHead}
+            project={MlCourseData[0].Project.project}
             domain={MlCourseData[0].Project.domain}
-            projectTitle={MlCourseData[0].Project.projectTitle} />
+            projectTitle="Hands-on Projects In Mumbai" />
         </div>
-
-
+        <SliderTab />
         <CourseFee
           syllabusDesc={MlCourseData[0].syllabusDesc}
           syllabus={MlCourseData[0].Batch}
@@ -204,10 +191,12 @@ export default function Home() {
           CourseFeelist4={MlCourseData[0].BatchCourses.CourseFeelist4}
           CourseFeelist5={MlCourseData[0].BatchCourses.CourseFeelist5}
         />
-
-
-        <LearnSupport />
-        <Footer />
+        <LearnSupport
+          headForCity={true}
+          cityName="24/7 Learner’s Support In Mumbai"
+        />
+        <CityFooter 
+        cityName="Mumbai"/>
       </main>
     </div>
   );
