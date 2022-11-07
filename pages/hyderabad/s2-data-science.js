@@ -29,12 +29,15 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>
-          Advanced Data Science and AI Program with Domain Specialization
+         <title>
+        Data Science course - Learnbay
         </title>
         <meta
           name="description"
-          content="Advanced Data Science and AI Program with Domain Specialization"
+          content="Advance certification online data science course with 100% placement assistance 
+          and get 1:1 Guaranteed interview calls, 12+ Real-time projects, 1+ Capstone 
+          projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
+          24/7 Learner’s support."
         />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script

@@ -28,10 +28,13 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Artificial Intelligence and Machine Learning Program</title>
+      <title>Machine Learning Course – Learnbay</title>
         <meta
           name="description"
-          content="Artificial Intelligence and Machine Learning Program"
+          content="Advance certification online Machine Learning course with 100% placement 
+          assistance and get 1:1 Guaranteed interview calls, 15+ Real-time projects, 1+ 
+          Capstone projects, 2 years of course subscription ,Lifetime Access to recorded 
+          classes and 24/7 Learner’s support."
         />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script

@@ -31,12 +31,16 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title> Data Science and Artificial Intelligence Program For Managers and
-          Leaders</title>
-        <meta
-          name="description"
-          content="Data Science and Artificial Intelligence Program For Managers and Leaders"
-        />
+      <title>
+      Data Science and Artificial Intelligence Program For Managers and Leaders - Learnbay
+      </title>
+      <meta
+        name="description"
+        content="Advance certification online  Data Science and Artificial Intelligence Program For Managers and Leaders course with 100% placement assistance 
+        and get 1:1 Guaranteed interview calls, 15+ Real-time projects, 1+ Capstone 
+        projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
+        24/7 Learner’s support."
+      />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{

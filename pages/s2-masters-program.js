@@ -31,10 +31,13 @@ export default function Home() {
     return (
         <div >
             <Head>
-                <title>Data Science and AI Master Program</title>
+                <title>Data Science and AI Master’s Program – Learnbay</title>
                 <meta
                     name="description"
-                    content="Data Science and AI Master Program"
+                    content="Online Data Science and AI Master’s Program with 100% placement assistance and 
+                    get  1:1 Guaranteed interview calls, 20+ Real-time projects, 3+ Capstone projects, 
+                    3 years of course subscription ,Lifetime Access to recorded classes and 24/7 
+                    Learner’s support."
                 />
                 <link
                     rel="canonical"
@@ -119,43 +122,43 @@ export default function Home() {
                 />
                 <div className={styles.program}>
                     <ProgramInfo
-                    p1={mastersProgram[0].ProgramInfo.p1}
-                    p11={mastersProgram[0].ProgramInfo.p11}
-                    p2={mastersProgram[0].ProgramInfo.p2}
-                    p22={mastersProgram[0].ProgramInfo.p22}
-                    p3={mastersProgram[0].ProgramInfo.p3}
-                    p33={mastersProgram[0].ProgramInfo.p33}
-                    p4={mastersProgram[0].ProgramInfo.p4}
-                    p44={mastersProgram[0].ProgramInfo.p44}
+                        p1={mastersProgram[0].ProgramInfo.p1}
+                        p11={mastersProgram[0].ProgramInfo.p11}
+                        p2={mastersProgram[0].ProgramInfo.p2}
+                        p22={mastersProgram[0].ProgramInfo.p22}
+                        p3={mastersProgram[0].ProgramInfo.p3}
+                        p33={mastersProgram[0].ProgramInfo.p33}
+                        p4={mastersProgram[0].ProgramInfo.p4}
+                        p44={mastersProgram[0].ProgramInfo.p44}
                     />
                 </div>
 
 
                 <div className={styles.Feature} id="Feature">
                     <BoxShape
-                    title={mastersProgram[0].BoxShape.title}
-                    Box1h5={mastersProgram[0].BoxShape.Box1h5}
-                    box1desc={mastersProgram[0].BoxShape.box1desc}
-                    Box2h5={mastersProgram[0].BoxShape.Box2h5}
-                    box2desc={mastersProgram[0].BoxShape.box2desc}
-                    Box3h5={mastersProgram[0].BoxShape.Box3h5}
-                    box3desc={mastersProgram[0].BoxShape.box3desc}
-                    Box4h5={mastersProgram[0].BoxShape.Box4h5}
-                    box4desc={mastersProgram[0].BoxShape.box4desc}
+                        title={mastersProgram[0].BoxShape.title}
+                        Box1h5={mastersProgram[0].BoxShape.Box1h5}
+                        box1desc={mastersProgram[0].BoxShape.box1desc}
+                        Box2h5={mastersProgram[0].BoxShape.Box2h5}
+                        box2desc={mastersProgram[0].BoxShape.box2desc}
+                        Box3h5={mastersProgram[0].BoxShape.Box3h5}
+                        box3desc={mastersProgram[0].BoxShape.box3desc}
+                        Box4h5={mastersProgram[0].BoxShape.Box4h5}
+                        box4desc={mastersProgram[0].BoxShape.box4desc}
                     />
                 </div>
                 <DomainFaq FaqData={DomainFaqCourseData1} />
                 <CourseReview />
                 <Certificate />
                 <SyllabusNew
-                syllabus={mastersProgram[0].syllabus}
-                CSyllabus={mastersProgram[0].CSyllabus}
-                CourseHighlights={mastersProgram[0].CourseHighlights}
-                syllabusDesc={mastersProgram[0].syllabusDesc}
-                popupHead={mastersProgram[0].popupHead}
-                srcD={mastersProgram[0].srcD}
-                hours={mastersProgram[0].hours}
-                project={mastersProgram[0].project}
+                    syllabus={mastersProgram[0].syllabus}
+                    CSyllabus={mastersProgram[0].CSyllabus}
+                    CourseHighlights={mastersProgram[0].CourseHighlights}
+                    syllabusDesc={mastersProgram[0].syllabusDesc}
+                    popupHead={mastersProgram[0].popupHead}
+                    srcD={mastersProgram[0].srcD}
+                    hours={mastersProgram[0].hours}
+                    project={mastersProgram[0].project}
                 />
                 <OurExpert
                     H5="Tools Covered"

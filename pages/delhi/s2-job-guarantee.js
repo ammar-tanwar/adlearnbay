@@ -26,10 +26,12 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Data Science and AI Program with 100% Job Guarantee</title>
+        <title>100% Placement Assistance Course - Learnbay</title>
         <meta
           name="description"
-          content="Data Science and AI Program with 100% Job Guarantee"
+          content="Advance certification 100% placement assistance course with 1:1 Guaranteed 
+          interview calls, 20+ Real-time projects, 3+ Capstone projects, 3 years of course 
+          subscription ,Lifetime Access to recorded classes and 24/7 Learner’s support."
         />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script

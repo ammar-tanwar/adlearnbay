@@ -28,10 +28,12 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Data Analytics Certification Program</title>
+        <title>Data Analytics course – Learnbay</title>
         <meta
           name="description"
-          content="Data Analytics Certification Program"
+          content="Advance certification online Data Analytics course with 100% placement assistance 
+          and get 1:1 Guaranteed interview calls, 8+ Real-time projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
+          24/7 Learner’s support."
         />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script

@@ -24,8 +24,14 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Learnbay Courses</title>
-        <meta name="description" content="Learnbay Courses" />
+       <title>Artificial Intelligence Course - Learnbay</title>
+        <meta
+          name="description"
+          content="Advance certification online Artificial Intelligence course with 100% placement 
+          assistance and get 1:1 Guaranteed interview calls, 15+ Real-time projects, 1+ 
+          Capstone projects, 2 years of course subscription ,Lifetime Access to recorded 
+          classes and 24/7 Learner’s support."
+        />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{

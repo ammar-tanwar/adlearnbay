@@ -28,10 +28,13 @@ export default function Home() {
     return (
         <div >
             <Head>
-                <title>Data Science and AI Master Program</title>
+                <title>Data Science and AI Master’s Program – Learnbay</title>
                 <meta
                     name="description"
-                    content="Data Science and AI Master Program"
+                    content="Online Data Science and AI Master’s Program with 100% placement assistance and 
+                    get  1:1 Guaranteed interview calls, 20+ Real-time projects, 3+ Capstone projects, 
+                    3 years of course subscription ,Lifetime Access to recorded classes and 24/7 
+                    Learner’s support."
                 />
                 <link
                     rel="canonical"

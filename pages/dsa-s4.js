@@ -22,8 +22,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Learnbay Courses</title>
-        <meta name="description" content="Learnbay Courses" />
+      <title>Data Structure Course Syllabus and DSA Training 2022
+      </title>
+      <meta name="description" content="Best way to learn Data Structures and Algorithms with System Design Course Online, mastering any one coding skill - Interaction in limited batch, No Cost EMI." />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{
