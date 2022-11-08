@@ -39,6 +39,8 @@ export default function Home() {
                     3 years of course subscription ,Lifetime Access to recorded classes and 24/7 
                     Learner’s support."
                 />
+                <meta name="Keywords" content="data science and ai master program, artificial intelligence master's programs, online master's program in artificial intelligence, masters in ai and data science course, masters course artificial intelligence for working professionals, artificial intelligence masters online course, masters program in data science and AI in india, masters course in data science for working professionals, data science masters programs online, best online masters program in artificial intelligence, online masters in ai course,  data science masters course, masters in data science online course, data science and artificial intelligence masters program,  master data science course, masters in data science online program" />
+                
                 <link
                     rel="canonical"
                     href="https://www.learnbay.co/data-science-ai-masters-program"

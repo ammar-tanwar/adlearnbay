@@ -37,6 +37,7 @@ export default function Home() {
           projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
           24/7 Learner’s support."
         />
+        <meta name="Keywords" content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee" />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{
@@ -98,11 +99,7 @@ export default function Home() {
           ProgramData={DataScienceCourseData}
           courseName="Data Science Course"
           cityName="In Mumbai"
-          ptag="Data science is the study of data with the aim of gaining critical 
-        business insights. It is a multidisciplinary method for analyzing massive
-        volumes of data. This course in Mumbai will provide you with hands-
-        on experience with technologies such as R, Python, Tableau, Hadoop, 
-        and so on."
+          ptag="Data science is the study of data with the aim of gaining critical business insights. It is a multidisciplinary method for analysing massive volumes of data.Unlock your career as a data scientist with this course in Mumbai."
 
         />
         <HiringPatners

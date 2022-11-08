@@ -243,7 +243,7 @@ export const DsaCourseData = [
 
       {
         Module0: {
-          title: "Weekday Batch  :- (Mon-Fri)",
+          title: "Weekday Batch  :- (Tue-Thu-Sat)",
           content: [
             {
               chap: {
@@ -254,6 +254,34 @@ export const DsaCourseData = [
                 ],
               },
             },
+            // {
+            //   chap: {
+            //     title: "Weekday Batch 2 :- Date And time ",
+            //     desc: [
+            //       "Date : 30th November 2022",
+            //       "Time : 08:00 p.m to 10:30 p.m",
+            //     ],
+            //   },
+            // },
+          ],
+          id: 1,
+          open: false,
+        },
+      },
+
+      {
+        Module0: {
+          title: "Weekday Batch  :- (Mon-Wed-Fri)",
+          content: [
+            // {
+            //   chap: {
+            //     title: "Weekday Batch 1 :- Date And time ",
+            //     desc: [
+            //       "Date : 29th November 2022",
+            //       "Time : 08:00 p.m to 10:30 p.m",
+            //     ],
+            //   },
+            // },
             {
               chap: {
                 title: "Weekday Batch 2 :- Date And time ",

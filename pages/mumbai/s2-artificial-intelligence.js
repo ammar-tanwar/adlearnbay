@@ -36,6 +36,7 @@ export default function Home() {
           classes and 24/7 Learner’s support."
         />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <meta name="Keywords" content="artificial intelligence course institute, artificial intelligence course fee, artificial intelligence certification, artificial intelligence training, advance artificial intelligence course, artificial intelligence course duration, artificial intelligence online course, artificial intelligence course, artificial intelligence course for working professional" /> 
         <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
@@ -95,10 +96,7 @@ export default function Home() {
           ProgramData={AiCourseData}
           courseName="Artificial Intelligence Course"
           cityName="In Mumbai"
-          ptag="Artificial intelligence is the simulation of human intelligence in 
-          machines that are programmed to think and act like humans. This 
-          course in Mumbai will provide you with hands-on experience with 
-          technologies such as R, Python, Tableau, Hadoop, and so on."
+          ptag="Artificial intelligence is the simulation of human intelligence in machines that are programmed to think and act like humans and it's algorithms are designed to make decisions, often using real-time data. Unlock your career with this course in Mumbai."
         />
         <HiringPatners
           topHead="Our Hiring Partner's In Mumbai"

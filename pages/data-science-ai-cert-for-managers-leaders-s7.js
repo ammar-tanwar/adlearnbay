@@ -40,7 +40,8 @@ export default function Home() {
         projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
         24/7 Learner’s support."
       />
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+      <meta name="Keywords" content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee" />
+      <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';

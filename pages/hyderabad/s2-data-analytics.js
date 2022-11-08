@@ -35,7 +35,7 @@ export default function Home() {
           content="Advance certification online Data Analytics course with 100% placement assistance 
           and get 1:1 Guaranteed interview calls, 8+ Real-time projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
           24/7 Learner’s support."
-        />
+        /> <meta name="Keywords" content="data analytics course, data analytics institute, data analytics course fee, data analytics certification, data analytics training, business analytics course, data analytics course duration, business analytics institute, business analytics certification, business analytics training" />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{

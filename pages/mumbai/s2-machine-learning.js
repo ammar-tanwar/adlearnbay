@@ -35,6 +35,7 @@ export default function Home() {
         Capstone projects, 2 years of course subscription ,Lifetime Access to recorded 
         classes and 24/7 Learner’s support."
       />
+      <meta name="Keywords" content="machine learning course, machine learning training, machine learning course institute, machine learning online course, machine learning course fee, advanced ml certification, machine learning course for working professional, advanced machine learning certification, advanced ml courses" />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{
@@ -97,11 +98,7 @@ export default function Home() {
         ProgramData={MlCourseData}
         courseName="Machine Learning Course"
         cityName="In Mumbai"
-        ptag="Machine learning is a subfield of artificial intelligence that is widely 
-        described as a machine's capability to imitate intelligent human 
-        behavior. This course in Mumbai will provide you with hands-on 
-        experience with technologies such as R, Python, Tableau, Hadoop, and 
-        so on."
+        ptag="Machine learning is a subfield of artificial intelligence that is widely described as a machine's capability to imitate intelligent human behavior. Unlock your career with this course in Mumbai."
      
         />
         <HiringPatners

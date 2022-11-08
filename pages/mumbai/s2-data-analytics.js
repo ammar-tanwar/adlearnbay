@@ -34,7 +34,7 @@ export default function Home() {
           content="Advance certification online Data Analytics course with 100% placement assistance 
           and get 1:1 Guaranteed interview calls, 8+ Real-time projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
           24/7 Learner’s support."
-        />
+        /> <meta name="Keywords" content="data analytics course, data analytics institute, data analytics course fee, data analytics certification, data analytics training, business analytics course, data analytics course duration, business analytics institute, business analytics certification, business analytics training" />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{
@@ -97,10 +97,7 @@ export default function Home() {
         ProgramData={DataAnalyticsCourseData}
         courseName="Data Analytics Course"
         cityName="In Mumbai"
-        ptag="Data analytics is the process of examining data sets to identify trends 
-        and develop conclusions about the information contained within them. 
-        This course in Mumbai will provide you with hands-on experience 
-        with technologies such as R, Python, Tableau, Hadoop, and so on."
+        ptag="Data analytics is the process of examining data sets to identify trends and develop conclusions about the information contained within them.Unlock your career as a data analyst with this course in Mumbai."
       />
 
       <HiringPatners

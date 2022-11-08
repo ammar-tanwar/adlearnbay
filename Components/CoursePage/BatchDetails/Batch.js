@@ -153,8 +153,8 @@ function Batch({
                 <div className={styles.BatchDetails}>
                   <p className={styles.list}><AiOutlineBars className={styles.icon} /><b>Batch Type</b></p>
                   <p className={styles.list}>Weekend Batch  (Sat-Sun)</p>
-                  <p className={styles.list}>Weekday Batch  (Mon-Fri)</p>
-                  <p className={styles.list}>Weekday Batch  (Mon-Fri)</p>
+                  <p className={styles.list}>Weekday Batch  (Tue-Thu-Sat)</p>
+                  <p className={styles.list}>Weekday Batch  (Mon-Wed-Fri)</p>
                 </div>
               </div>
               <div>

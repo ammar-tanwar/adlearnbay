@@ -32,7 +32,8 @@ export default function Home() {
           content="Advance certification 100% placement assistance course with 1:1 Guaranteed 
           interview calls, 20+ Real-time projects, 3+ Capstone projects, 3 years of course 
           subscription ,Lifetime Access to recorded classes and 24/7 Learner’s support."
-        />
+        /><meta name="Keywords" content="best data science course with placement assistance, data analytics course with job assistance, online data science course with placement assistance, data analytics online course with placement assistance, placement assistance data science course, job assitance machine learning courses, placement assistance artificial intelligence courses, data analytics course with placement assistance, machine learning course with placement assistance, data science Placement assistance program india, data science course with job assistance india, job assistance data science courses" />
+
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{
@@ -94,10 +95,7 @@ export default function Home() {
         ProgramData={JobGuaranteeCourseData}
         courseName="100% Placement Assistance Program "
         cityName="In Mumbai"
-        ptag="Real-time industrial projects will help you gain the finest level of 
-        technical expertise. Be a Master without a Master’s degree. This course
-        in Mumbai will provide you with hands-on experience with 
-        technologies such as R, Python, Tableau, Hadoop, and so on."
+        ptag="Real-time industrial projects will help you gain the finest level of technical expertise. Be a Master without a Master’s degree. Unlock your career with 100% Placement Assistance course in Mumbai."
       />
 
       <HiringPatners

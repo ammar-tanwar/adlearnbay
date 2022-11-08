@@ -38,7 +38,7 @@ export default function Home() {
       assistance and get 1:1 Guaranteed interview calls, 15+ Real-time projects, 1+ 
       Capstone projects, 2 years of course subscription ,Lifetime Access to recorded 
       classes and 24/7 Learner’s support."
-    />
+    /><meta name="Keywords" content="artificial intelligence course institute, artificial intelligence course fee, artificial intelligence certification, artificial intelligence training, advance artificial intelligence course, artificial intelligence course duration, artificial intelligence online course, artificial intelligence course, artificial intelligence course for working professional" /> 
     <link rel="icon" href="/Learnbay-Favicon-L.png" />
     <script
       dangerouslySetInnerHTML={{
