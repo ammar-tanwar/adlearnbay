@@ -17,7 +17,8 @@ import Project from "../../Components/CoursePage/Project/Project";
 import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import ProgramWithHighLight from "../../Components/CityComponents/ProgramWithHighLight/ProgramWithHighLight";
 import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
- 
+import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
+
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -91,11 +92,8 @@ export default function Home() {
         </Popup>
 
         <FirstSection
-
-
         DeskImg="/BengaluruTopWeb.jpg"
         MobImg="/BengaluruTopMob.jpg"
-        ProgramData={MlCourseData}
         courseName="Machine Learning Course"
         cityName="In Bangalore"
         ptag="Machine learning is a subfield of artificial intelligence that is widely 
@@ -103,8 +101,19 @@ export default function Home() {
         behavior. This course in Bangalore will provide you with hands-on 
         experience with technologies such as R, Python, Tableau, Hadoop, and 
         so on."
-     
         />
+        <div className={styles.program1}>
+        <ProgramInfo
+          p1={MlCourseData[0].ProgramInfo.p1}
+          p11={MlCourseData[0].ProgramInfo.p11}
+          p2={MlCourseData[0].ProgramInfo.p2}
+          p22={MlCourseData[0].ProgramInfo.p22}
+          p3={MlCourseData[0].ProgramInfo.p3}
+          p33={MlCourseData[0].ProgramInfo.p33}
+          p4={MlCourseData[0].ProgramInfo.p4}
+          p44={MlCourseData[0].ProgramInfo.p44}
+        />
+      </div>
         <HiringPatners
           topHead="Our Hiring Partner's In Bangalore"
 

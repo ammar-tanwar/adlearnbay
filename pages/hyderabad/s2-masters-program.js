@@ -17,7 +17,7 @@ import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import ProgramWithHighLight from "../../Components/CityComponents/ProgramWithHighLight/ProgramWithHighLight";
 import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
 import { mastersProgram } from "../../Data/hyderabad/mastersProgram";
-
+import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
 
 export default function Home() {
     const [popups, setPopups] = useState(false);
@@ -101,117 +101,126 @@ export default function Home() {
                     </div>
                 </Popup>
                 <FirstSection
-
-
-                DeskImg="/HyderabadTopWeb.jpg"
-                MobImg="/HyderabadTopMob.jpg"
-                ProgramData={mastersProgram}
-                courseName="Data Science and AI Master Program"
-                cityName="In Hyderabad"
-                ptag="Data science is the study of data with the aim of gaining critical 
+                    DeskImg="/HyderabadTopWeb.jpg"
+                    MobImg="/HyderabadTopMob.jpg"
+                    courseName="Data Science and AI Master Program"
+                    cityName="In Hyderabad"
+                    ptag="Data science is the study of data with the aim of gaining critical 
                 business insights. It is a multidisciplinary method for analyzing massive
                 volumes of data. This course in Hyderabad will provide you with hands-
                 on experience with technologies such as R, Python, Tableau, Hadoop, 
                 and so on."
-
-            />
-            <HiringPatners
-                topHead="Our Hiring Partner's In Hyderabad"
-
-            />
-            <div className="Feature" id="Feature">
-                <ProgramWithHighLight
-                 
-                    title={mastersProgram[0].BoxShape.title}
-                    Box1h5={mastersProgram[0].BoxShape.Box1h5}
-                    box1desc={mastersProgram[0].BoxShape.box1desc}
-                    Box2h5={mastersProgram[0].BoxShape.Box2h5}
-                    box2desc={mastersProgram[0].BoxShape.box2desc}
-                    Box3h5={mastersProgram[0].BoxShape.Box3h5}
-                    box3desc={mastersProgram[0].BoxShape.box3desc}
-                    Box4h5={mastersProgram[0].BoxShape.Box4h5}
-                    box4desc={mastersProgram[0].BoxShape.box4desc}
-
-                    jobGuarantee = {true}
-                    HHeading="Course Details"
-                    Duration="500+ Hours"
-                    InterviewCalls="Unlimited"
-                    Projects="20+"
-                    CourseFee="₹ 1,10,000 +GST"
-                    Domain="7+"
                 />
-            </div>
 
-            <SyllabusNew
-                syllabus={mastersProgram[0].syllabus}
-                CSyllabus="Data Science and AI Master Course Syllabus In Hyderabad"
-                CourseHighlights={mastersProgram[0].CourseHighlights}
-                syllabusDesc={mastersProgram[0].syllabusDesc}
-                popupHead={mastersProgram[0].popupHead}
-                hours={mastersProgram[0].hours}
-                project={mastersProgram[0].project}
-            />
+                <div className={styles.program1}>
+                    <ProgramInfo
+                        p1={mastersProgram[0].ProgramInfo.p1}
+                        p11={mastersProgram[0].ProgramInfo.p11}
+                        p2={mastersProgram[0].ProgramInfo.p2}
+                        p22={mastersProgram[0].ProgramInfo.p22}
+                        p3={mastersProgram[0].ProgramInfo.p3}
+                        p33={mastersProgram[0].ProgramInfo.p33}
+                        p4={mastersProgram[0].ProgramInfo.p4}
+                        p44={mastersProgram[0].ProgramInfo.p44}
+                    />
+                </div>
+                <HiringPatners
+                    topHead="Our Hiring Partner's In Hyderabad"
 
-            <CityImage
-                DeskImg="/CenterCityHyderabadWeb.jpg"
-                MobImg="/CenterCityHyderabadMob.jpg"
-                cityName="హైదరాబాద్"
+                />
+                <div className="Feature" id="Feature">
+                    <ProgramWithHighLight
 
-            />
-            <OurExpert
-                H5={mastersProgram[0].OurExpert.H5}
-                img1={mastersProgram[0].OurExpert.img1}
-                img2={mastersProgram[0].OurExpert.img2}
-                img3={mastersProgram[0].OurExpert.img3}
-                img4={mastersProgram[0].OurExpert.img4}
-                img5={mastersProgram[0].OurExpert.img5}
-                img6={mastersProgram[0].OurExpert.img6}
-                img7={mastersProgram[0].OurExpert.img7}
-                img8={mastersProgram[0].OurExpert.img8}
-                img9={mastersProgram[0].OurExpert.img9}
-                img10={mastersProgram[0].OurExpert.img10}
-                img11={mastersProgram[0].OurExpert.img11}
-                img12={mastersProgram[0].OurExpert.img12}
-                img13={mastersProgram[0].OurExpert.img13}
-                img14={mastersProgram[0].OurExpert.img14}
-                img15={mastersProgram[0].OurExpert.img15}
-                img16={mastersProgram[0].OurExpert.img16}
-                img17={mastersProgram[0].OurExpert.img17}
-                img18={mastersProgram[0].OurExpert.img18}
-                img19={mastersProgram[0].OurExpert.img19}
-                img21={mastersProgram[0].OurExpert.img21}
-                img22={mastersProgram[0].OurExpert.img22}
-                img23={mastersProgram[0].OurExpert.img23}
-                img20={mastersProgram[0].OurExpert.img20}
-            />
-            <Certificate
-                H4="Master's Program In Hyderabad"
-            />
-            <div className={styles.ProjectWrapper} id="project">
-                <Project popupHead={mastersProgram[0].Project.popupHead}
-                    project={mastersProgram[0].Project.project}
-                    domain={mastersProgram[0].Project.domain}
-                    projectTitle="Hands-on Projects In Hyderabad" />
-            </div>
-            <SliderTab />
-            <CourseFee
-                syllabusDesc={mastersProgram[0].syllabusDesc}
-                syllabus={mastersProgram[0].Batch}
+                        title={mastersProgram[0].BoxShape.title}
+                        Box1h5={mastersProgram[0].BoxShape.Box1h5}
+                        box1desc={mastersProgram[0].BoxShape.box1desc}
+                        Box2h5={mastersProgram[0].BoxShape.Box2h5}
+                        box2desc={mastersProgram[0].BoxShape.box2desc}
+                        Box3h5={mastersProgram[0].BoxShape.Box3h5}
+                        box3desc={mastersProgram[0].BoxShape.box3desc}
+                        Box4h5={mastersProgram[0].BoxShape.Box4h5}
+                        box4desc={mastersProgram[0].BoxShape.box4desc}
 
-                CourseFeeHead={mastersProgram[0].BatchCourses.CourseFeeHead}
-                CourseFeePara={mastersProgram[0].BatchCourses.CourseFeePara}
-                CourseFeelist1={mastersProgram[0].BatchCourses.CourseFeelist1}
-                CourseFeelist2={mastersProgram[0].BatchCourses.CourseFeelist2}
-                CourseFeelist3={mastersProgram[0].BatchCourses.CourseFeelist3}
-                CourseFeelist4={mastersProgram[0].BatchCourses.CourseFeelist4}
-                CourseFeelist5={mastersProgram[0].BatchCourses.CourseFeelist5}
-            />
-            <LearnSupport
-                headForCity={true}
-                cityName="24/7 Learner’s Support In Hyderabad"
-            />
-            <CityFooter
-                cityName="Hyderabad" />
+                        jobGuarantee={true}
+                        HHeading="Course Details"
+                        Duration="500+ Hours"
+                        InterviewCalls="Unlimited"
+                        Projects="20+"
+                        CourseFee="₹ 1,10,000 +GST"
+                        Domain="7+"
+                    />
+                </div>
+
+                <SyllabusNew
+                    syllabus={mastersProgram[0].syllabus}
+                    CSyllabus="Data Science and AI Master Course Syllabus In Hyderabad"
+                    CourseHighlights={mastersProgram[0].CourseHighlights}
+                    syllabusDesc={mastersProgram[0].syllabusDesc}
+                    popupHead={mastersProgram[0].popupHead}
+                    hours={mastersProgram[0].hours}
+                    project={mastersProgram[0].project}
+                />
+
+                <CityImage
+                    DeskImg="/CenterCityHyderabadWeb.jpg"
+                    MobImg="/CenterCityHyderabadMob.jpg"
+                    cityName="హైదరాబాద్"
+
+                />
+                <OurExpert
+                    H5={mastersProgram[0].OurExpert.H5}
+                    img1={mastersProgram[0].OurExpert.img1}
+                    img2={mastersProgram[0].OurExpert.img2}
+                    img3={mastersProgram[0].OurExpert.img3}
+                    img4={mastersProgram[0].OurExpert.img4}
+                    img5={mastersProgram[0].OurExpert.img5}
+                    img6={mastersProgram[0].OurExpert.img6}
+                    img7={mastersProgram[0].OurExpert.img7}
+                    img8={mastersProgram[0].OurExpert.img8}
+                    img9={mastersProgram[0].OurExpert.img9}
+                    img10={mastersProgram[0].OurExpert.img10}
+                    img11={mastersProgram[0].OurExpert.img11}
+                    img12={mastersProgram[0].OurExpert.img12}
+                    img13={mastersProgram[0].OurExpert.img13}
+                    img14={mastersProgram[0].OurExpert.img14}
+                    img15={mastersProgram[0].OurExpert.img15}
+                    img16={mastersProgram[0].OurExpert.img16}
+                    img17={mastersProgram[0].OurExpert.img17}
+                    img18={mastersProgram[0].OurExpert.img18}
+                    img19={mastersProgram[0].OurExpert.img19}
+                    img21={mastersProgram[0].OurExpert.img21}
+                    img22={mastersProgram[0].OurExpert.img22}
+                    img23={mastersProgram[0].OurExpert.img23}
+                    img20={mastersProgram[0].OurExpert.img20}
+                />
+                <Certificate
+                    H4="Master's Program In Hyderabad"
+                />
+                <div className={styles.ProjectWrapper} id="project">
+                    <Project popupHead={mastersProgram[0].Project.popupHead}
+                        project={mastersProgram[0].Project.project}
+                        domain={mastersProgram[0].Project.domain}
+                        projectTitle="Hands-on Projects In Hyderabad" />
+                </div>
+                <SliderTab />
+                <CourseFee
+                    syllabusDesc={mastersProgram[0].syllabusDesc}
+                    syllabus={mastersProgram[0].Batch}
+
+                    CourseFeeHead={mastersProgram[0].BatchCourses.CourseFeeHead}
+                    CourseFeePara={mastersProgram[0].BatchCourses.CourseFeePara}
+                    CourseFeelist1={mastersProgram[0].BatchCourses.CourseFeelist1}
+                    CourseFeelist2={mastersProgram[0].BatchCourses.CourseFeelist2}
+                    CourseFeelist3={mastersProgram[0].BatchCourses.CourseFeelist3}
+                    CourseFeelist4={mastersProgram[0].BatchCourses.CourseFeelist4}
+                    CourseFeelist5={mastersProgram[0].BatchCourses.CourseFeelist5}
+                />
+                <LearnSupport
+                    headForCity={true}
+                    cityName="24/7 Learner’s Support In Hyderabad"
+                />
+                <CityFooter
+                    cityName="Hyderabad" />
             </main>
         </div>
     );

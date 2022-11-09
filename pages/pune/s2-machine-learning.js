@@ -17,7 +17,7 @@ import Project from "../../Components/CoursePage/Project/Project";
 import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import ProgramWithHighLight from "../../Components/CityComponents/ProgramWithHighLight/ProgramWithHighLight";
 import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
- 
+import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -90,19 +90,28 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-
-
         DeskImg="/PuneTopWeb.jpg"
         MobImg="/PuneTopMob.jpg"
-        ProgramData={MlCourseData}
         courseName="Machine Learning Course"
         cityName="In Pune"
         ptag="Machine learning is a subfield of artificial intelligence that is widely 
         described as a machine's capability to imitate intelligent human 
         behavior. Join this course in Pune and get hands on experience by 
         working with real data sets during Real time projects."
-     
         />
+
+        <div className={styles.program1}>
+        <ProgramInfo
+          p1={MlCourseData[0].ProgramInfo.p1}
+          p11={MlCourseData[0].ProgramInfo.p11}
+          p2={MlCourseData[0].ProgramInfo.p2}
+          p22={MlCourseData[0].ProgramInfo.p22}
+          p3={MlCourseData[0].ProgramInfo.p3}
+          p33={MlCourseData[0].ProgramInfo.p33}
+          p4={MlCourseData[0].ProgramInfo.p4}
+          p44={MlCourseData[0].ProgramInfo.p44}
+        />
+      </div>
         <HiringPatners
           topHead="Our Hiring Partner's In Pune"
 

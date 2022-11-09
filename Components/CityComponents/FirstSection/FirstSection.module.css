@@ -12,13 +12,13 @@
   padding: 50px 100px 80px 100px; */
   position: relative;
   top: 70px;
-  margin-bottom: 110px;
+  /* margin-bottom: 110px; */
 }
 
 .container {
   position:absolute;
   top: 0px; 
-  padding: 20px 0px 0px 100px;  
+  padding: 30px 0px 0px 100px;  
   /* margin-top: -42px; */
 }
 
@@ -31,7 +31,10 @@
   display: flex;
   text-align: center;
   align-items: center;
-  margin-bottom: 35px;
+  /* margin-bottom: 35px; */
+  position: absolute;
+  top: 205px;
+  padding: 40px 0px 0px 100px;
 }
 /* .leftDiv{
   margin: 72px;
@@ -68,7 +71,9 @@
   margin: 100px;
 } */
 .counsilBtn{
-  margin-top: 10px;
+  position: absolute;
+  top: 345px;
+  padding: 40px 0px 0px 100px;
 }
 
 .counsilBtn button {
@@ -128,7 +133,10 @@
   display: flex;
   text-align: center;
   align-items: center;
-  margin: 135px 20px 25px 0px;
+  /* margin: 137px 20px 25px 0px; */
+  position: absolute;
+  top: 220px;
+  padding: 20px;
 }
 
 .container321 h1{
@@ -156,7 +164,9 @@
 }
 
 .counsilBtn{
-  margin: 18px 0px 80px 0px;
+  position: absolute;
+  top: 42vh;
+  padding: 20px;
 }
 
 }

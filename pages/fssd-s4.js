@@ -1,150 +1,175 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import FirstSection from "../Components/HeroSectionfss/HeroSection";
-import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
-import GetHired from "../Components/GetHiredFss/GetHired";
-import BoxShape from "../Components/Boxshape/BoxShape";
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import FirstSection from "../Components/CoursePage/HeroSection/HeroSection";
+import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
+import BoxShape from "../Components/CoursePage/Boxshapefssds/BoxShape";
 import Popup from "../Components/Popup/Popup";
+import Navbar from "../Components/CoursePage/Navbar/Navbar";
 import Form from "../Components/Form/Form";
-import Project from "../Components/Projectfswd/Project";
-import Syllabus from "../Components/Syllabusfss1/Syllabus";
-import Domain from "../Components/DomainFss/Domain";
-import OurExpert from "../Components/OurExpert/OurExpert";
-import Navbar from "../Components/CoursePage/NavbarDyn/Navbar1";
-import Footer from "../Components/Footerfsds4/Footer";
+import Project from "../Components/CoursePage/Projectfswd/Project";
+import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
+import { FullStackSoftwareCourseData } from "../Data/FullStackSoftware";
+import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
+import CourseReview from "../Components/CoursePage/CourseReviewdsas/CourseReview";
+import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupportfsd";
+import Footer from "../Components/CoursePage/Footer/Footerfsd";
+import BoxShape1 from "../Components/CoursePage/BoxshapeFssd/BoxShape";
 import React, { useState } from "react";
+import Batch from "../Components/CoursePage/BatchDetails/Batch";
 
 
 export default function Home() {
-  const [popups, setPopups] = useState(false);
+    const [popups, setPopups] = useState(false);
 
-  const popupShow = () => {
-    setPopups(true);
-  };
-  return (
-    <div className={styles.container}>
-      <Head>
-      <title>Full Stack Software Development Course - Learnbay</title>
-      <meta name="description" content="Full Stack Software Development Course on Learnbay. Get Advanced Full Stack Software Development Training with Industry projects and Interview Guarantee" />
-      <meta name="Keywords" content="Full Stack Software Development Course, Full Stack Software Development Course training , Full Stack Software Development Course institute in India, best Full Stack Software Development Course institute, Full Stack Software developer Course ,Full Stack Software developer Course certification, Full Stack Software developer Course training institute , advanced Full Stack Software developer Course , Full Stack Software developer Course with placement guarantee, Full Stack Software developer Course with IBM certification" />
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
-            var s = document.createElement('script');
-            s.type = 'text/javascript';
-            s.async = true;
-            s.src = url;
-            var options = {
-          "enabled":true,
-          "chatButtonSetting":{
-              "backgroundColor":"#4dc247",
-              "ctaText":"",
-              "borderRadius":"10",
-              "marginLeft":"0",
-              "marginBottom":"30",
-              "marginRight":"30",
-              "position":"right"
-          },
-          "brandSetting":{
-              "brandName":"Learnbay",
-              "brandSubTitle":"The Learner's Path",
-              "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
-              "welcomeText":"Hi there! How can I help you?",
-              "messageText":"Hello, I have a question about {{page_link}}",
-              "backgroundColor":"#0a5f54",
-              "ctaText":"Start Chat",
-              "borderRadius":"25",
-              "autoShow":false,
-              "phoneNumber":"+919606950936"
-          }
-        };
-            s.onload = function() {
-                CreateWhatsappChatWidget(options);
-            };
-            var x = document.getElementsByTagName('script')[0];
-            x.parentNode.insertBefore(s, x);`,
-          }}
-        />
-      </Head>
-      <main>
-        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-          <div className="leftPopup">
-            <div className="whiteP" />
-          </div>
-          <div className="RightPopup">
-            <h5>Apply For Counselling</h5>
-            {/* <p>Fill the below Details to get started</p> */}
+    const popupShow = () => {
+        setPopups(true);
+    };
+    return (
+        <div >
+            <Head>
+                <title>Full Stack Software Development Course - Learnbay</title>
+                <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
+                <meta name="description" content="Full Stack Software Development Course on Learnbay. Get Advanced Full Stack Software Development Training with Industry projects and Interview Guarantee" />
+                <meta name="Keywords" content="Full Stack Software Development Course, Full Stack Software Development Course training , Full Stack Software Development Course institute in India, best Full Stack Software Development Course institute, Full Stack Software developer Course ,Full Stack Software developer Course certification, Full Stack Software developer Course training institute , advanced Full Stack Software developer Course , Full Stack Software developer Course with placement guarantee, Full Stack Software developer Course with IBM certification" />
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
+                        var s = document.createElement('script');
+                        s.type = 'text/javascript';
+                        s.async = true;
+                        s.src = url;
+                        var options = {
+                    "enabled":true,
+                    "chatButtonSetting":{
+                        "backgroundColor":"#4dc247",
+                        "ctaText":"",
+                        "borderRadius":"10",
+                        "marginLeft":"0",
+                        "marginBottom":"30",
+                        "marginRight":"30",
+                        "position":"right"
+                    },
+                    "brandSetting":{
+                        "brandName":"Learnbay",
+                        "brandSubTitle":"The Learner's Path",
+                        "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
+                        "welcomeText":"Hi there! How can I help you?",
+                        "messageText":"Hello, I have a question about {{page_link}}",
+                        "backgroundColor":"#0a5f54",
+                        "ctaText":"Start Chat",
+                        "borderRadius":"25",
+                        "autoShow":false,
+                        "phoneNumber":"+919731135221"
+                    }
+                    };
+                        s.onload = function() {
+                            CreateWhatsappChatWidget(options);
+                        };
+                        var x = document.getElementsByTagName('script')[0];
+                        x.parentNode.insertBefore(s, x);`,
+                    }}
+                />
+            </Head>
+            <main>
+                <Navbar popup={true} />
+                <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+                    <div className="leftPopup">
+                        <div className="whiteP" />
+                    </div>
+                    <div className="RightPopup">
+                        <h5>Apply For Counselling</h5>
+                        <Form popup={true} setTrigger={setPopups} />
+                    </div>
+                </Popup>
+                <FirstSection
+                    deskTopPara={FullStackSoftwareCourseData[0].FirstSection.deskTopPara}
+                    mTopPara={FullStackSoftwareCourseData[0].FirstSection.mTopPara}
+                    mTitle={FullStackSoftwareCourseData[0].FirstSection.mTitle}
+                    spanMTitleText={FullStackSoftwareCourseData[0].FirstSection.spanMTitleText}
+                    title={FullStackSoftwareCourseData[0].FirstSection.title}
+                    spanTitleText={FullStackSoftwareCourseData[0].FirstSection.spanTitleText}
+                    desc={FullStackSoftwareCourseData[0].FirstSection.desc}
+                    src={FullStackSoftwareCourseData[0].FirstSection.src}
+                    width={FullStackSoftwareCourseData[0].FirstSection.width}
+                    height={FullStackSoftwareCourseData[0].FirstSection.height}
+                    alt={FullStackSoftwareCourseData[0].FirstSection.alt}
+                    srcD={FullStackSoftwareCourseData[0].FirstSection.srcD}
+                />
+                <div className={styles.program}>
+                    <ProgramInfo
+                        p1={FullStackSoftwareCourseData[0].ProgramInfo.p1}
+                        p11={FullStackSoftwareCourseData[0].ProgramInfo.p11}
+                        p2={FullStackSoftwareCourseData[0].ProgramInfo.p2}
+                        p22={FullStackSoftwareCourseData[0].ProgramInfo.p22}
+                        p3={FullStackSoftwareCourseData[0].ProgramInfo.p3}
+                        p33={FullStackSoftwareCourseData[0].ProgramInfo.p33}
+                        p4={FullStackSoftwareCourseData[0].ProgramInfo.p4}
+                        p44={FullStackSoftwareCourseData[0].ProgramInfo.p44}
+                    />
+                </div>
+                <div className="Feature" id="Feature">
+                    <BoxShape
+                        title={FullStackSoftwareCourseData[0].BoxShape.title}
+                        Box1h5={FullStackSoftwareCourseData[0].BoxShape.Box1h5}
+                        box1desc={FullStackSoftwareCourseData[0].BoxShape.box1desc}
+                        Box2h5={FullStackSoftwareCourseData[0].BoxShape.Box2h5}
+                        box2desc={FullStackSoftwareCourseData[0].BoxShape.box2desc}
+                        Box3h5={FullStackSoftwareCourseData[0].BoxShape.Box3h5}
+                        box3desc={FullStackSoftwareCourseData[0].BoxShape.box3desc}
+                        Box4h5={FullStackSoftwareCourseData[0].BoxShape.Box4h5}
+                        box4desc={FullStackSoftwareCourseData[0].BoxShape.box4desc}
+                        headh5={FullStackSoftwareCourseData[0].BoxShape.headh5}
+                    />
+                </div>
+                <div className={styles.Feature} id="Feature">
+                    <BoxShape1
+                        title={FullStackSoftwareCourseData[0].BoxShape1.title}
+                        Box1h5={FullStackSoftwareCourseData[0].BoxShape1.Box1h5}
+                        box1desc={FullStackSoftwareCourseData[0].BoxShape1.box1desc}
+                        Box2h5={FullStackSoftwareCourseData[0].BoxShape1.Box2h5}
+                        box2desc={FullStackSoftwareCourseData[0].BoxShape1.box2desc}
+                        Box3h5={FullStackSoftwareCourseData[0].BoxShape1.Box3h5}
+                        box3desc={FullStackSoftwareCourseData[0].BoxShape1.box3desc}
+                        Box4h5={FullStackSoftwareCourseData[0].BoxShape1.Box4h5}
+                        box4desc={FullStackSoftwareCourseData[0].BoxShape1.box4desc}
+                    />
+                </div>
+                <CourseReview />
+                <SyllabusNew
+                    syllabus={FullStackSoftwareCourseData[0].syllabus}
+                    syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
+                    popupHead={FullStackSoftwareCourseData[0].popupHead}
+                    CSyllabus={FullStackSoftwareCourseData[0].CSyllabus}
+                    CourseHighlights={FullStackSoftwareCourseData[0].CourseHighlights}
+                    srcD={FullStackSoftwareCourseData[0].srcD}
+                    hours={FullStackSoftwareCourseData[0].hours}
+                    project={FullStackSoftwareCourseData[0].project}
+                />
+                <ProgramFee Fee={FullStackSoftwareCourseData[0].ProgramFee.Fee} Emi={FullStackSoftwareCourseData[0].ProgramFee.Emi}
+                    CourseFeeAndFinancing={FullStackSoftwareCourseData[0].ProgramFee.CourseFeeAndFinancing}
+                    para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." dataScience={true}
 
-            <Form popup={true} setTrigger={setPopups} />
-          </div>
-        </Popup>
-        <Navbar
-          Href="/fswd-s4"
-          Course="Full Stack Web Development Program"
-
-          Href1="/fssd-4"
-          Course1="Full-Stack Software Development Program"
-
-          Href2="/dsa-s4"
-          Course2="DSA & System Design"
-
-
-        />
-        <FirstSection
-          deskTopPara="Become a Tech Leader and Start Landing Six Figures with ease"
-          mTopPara="Become a Tech Leader and Start Landing Six Figures with ease"
-          title="Full-Stack Software Development Program "
-          desc="Transform your career as a demanding software development expert. Sharpen your skills with real-time project experience."
-        />
-        <div className={styles.program}>
-          <ProgramInfo
-            BatchDate="Working Professionals"
-            BatchDuration="Accredited with IBM"
-            Placement="12+ Real Time Projects"
-            EMI="₹ 10,816/month"
-          />
+                />
+                <div className={styles.ProjectWrapper} id="project">
+                    <Project project={FullStackSoftwareCourseData[0].Project.project} domain={FullStackSoftwareCourseData[0].Project.domain} />
+                </div>
+                <Batch
+                    syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
+                    syllabus={FullStackSoftwareCourseData[0].Batch}
+                    CourseFeeHead={FullStackSoftwareCourseData[0].BatchCourses.CourseFeeHead}
+                    CourseFeePara={FullStackSoftwareCourseData[0].BatchCourses.CourseFeePara}
+                    CourseFeelist1={FullStackSoftwareCourseData[0].BatchCourses.CourseFeelist1}
+                    CourseFeelist2={FullStackSoftwareCourseData[0].BatchCourses.CourseFeelist2}
+                    CourseFeelist3={FullStackSoftwareCourseData[0].BatchCourses.CourseFeelist3}
+                    CourseFeelist4={FullStackSoftwareCourseData[0].BatchCourses.CourseFeelist4}
+                    CourseFeelist5={FullStackSoftwareCourseData[0].BatchCourses.CourseFeelist5}
+                />
+                <LearnSupport />
+                <Footer 
+                paraTag="Enroll now for DSA and Full stack software development course and get master as a Full stack Developer which will help you to transform your career."
+                pTag={true}
+                />
+            </main>
         </div>
-        <GetHired />
-        <div className="Feature" id="Feature">
-          <BoxShape
-            title="Why Enroll In This Program"
-            Box1h5="Custom-fit Training"
-            box1desc="Learn with modules created just for your dream job. Become an extraordinarily demanding software developer."
-            Box2h5="Exclusive Hackathon"
-            box2desc="Sharpen your skills through multiple exclusive hackathons. Upskill your designing skills and coding speed."
-            Box3h5="Premium Mentoring"
-            box3desc="Exclusive mock interview sessions by experienced industry experts. Capstone projects under MNC software developer’s guidance."
-            Box4h5="Hands-on Experience"
-            box4desc="Learn by working hard on real-world projects that range from advanced levels of complexity to large-scale deployments."
-          />
-        </div>
-        <div className={styles.ExpertWrapper}>
-          <div className={styles.expert}>
-            <h5>Our experts are from:</h5>
-          </div>
-          <div className={styles.expertBody}>
-            <OurExpert />
-          </div>
-        </div>
-        <div className={styles.cta}>
-          <div className={styles.left}></div>
-          <div className={styles.middle}>
-            <h6>Talk to our team directly.</h6>
-            <p>Reach out and a learning consultant will get in touch with you shortly.</p>
-          </div>
-          <div className={styles.right}>
-            <button onClick={popupShow}>Enquire Now</button>
-          </div>
-        </div>
-        <Syllabus />
-        <Domain />
-        <div className={styles.ProjectWrapper} id="project">
-          <Project />
-        </div>
-
-        <Footer />
-      </main>
-    </div>
-  )
+    );
 }

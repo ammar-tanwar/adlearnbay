@@ -17,7 +17,7 @@ import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import ProgramWithHighLight from "../../Components/CityComponents/ProgramWithHighLight/ProgramWithHighLight";
 import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
 import { mastersProgram } from "../../Data/chennai/mastersProgram";
-
+import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
 export default function Home() {
     const [popups, setPopups] = useState(false);
 
@@ -100,11 +100,8 @@ export default function Home() {
                     </div>
                 </Popup>
                 <FirstSection
-
-
                     DeskImg="/ChennaiTopWeb.jpg"
                     MobImg="/ChennaiTopMob.jpg"
-                    ProgramData={mastersProgram}
                     courseName="Data Science and AI Master Program"
                     cityName="In Chennai"
                     ptag="Data science is the study of data with the aim of gaining critical 
@@ -112,15 +109,26 @@ export default function Home() {
                     volumes of data. This course in Chennai will provide you with hands-
                     on experience with technologies such as R, Python, Tableau, Hadoop, 
                     and so on."
-
                 />
+
+                <div className={styles.program1}>
+                    <ProgramInfo
+                        p1={mastersProgram[0].ProgramInfo.p1}
+                        p11={mastersProgram[0].ProgramInfo.p11}
+                        p2={mastersProgram[0].ProgramInfo.p2}
+                        p22={mastersProgram[0].ProgramInfo.p22}
+                        p3={mastersProgram[0].ProgramInfo.p3}
+                        p33={mastersProgram[0].ProgramInfo.p33}
+                        p4={mastersProgram[0].ProgramInfo.p4}
+                        p44={mastersProgram[0].ProgramInfo.p44}
+                    />
+                </div>
                 <HiringPatners
                     topHead="Our Hiring Partner's In Chennai"
-
                 />
                 <div className="Feature" id="Feature">
                     <ProgramWithHighLight
-                     
+
                         title={mastersProgram[0].BoxShape.title}
                         Box1h5={mastersProgram[0].BoxShape.Box1h5}
                         box1desc={mastersProgram[0].BoxShape.box1desc}
@@ -131,7 +139,7 @@ export default function Home() {
                         Box4h5={mastersProgram[0].BoxShape.Box4h5}
                         box4desc={mastersProgram[0].BoxShape.box4desc}
 
-                        jobGuarantee = {true}
+                        jobGuarantee={true}
                         HHeading="Course Details"
                         Duration="500+ Hours"
                         InterviewCalls="Unlimited"

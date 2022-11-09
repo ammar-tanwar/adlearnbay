@@ -1,13 +1,13 @@
 {
     "metaInfo": {
-      "title": "Learn High Level System Design of an E-commerce website",
+      "title": "Masterclass",
       "desc": "Enroll in the System Design Event and learn from live classes. Get Knowledge by working on industry projects.",
       "keyword": "Web Development",
       "canonical": "https://www.learnbay.co/Event/Introduction-to-Full-Stack-Web-Development"
     },
     "mainData": {
-      "title": "Learn High Level System Design of an E-commerce website",
-      "eventDate": "November 12th, 2022",
+      "title": "Masterclass",
+      "eventDate": "November 26th, 2022",
       "tag": "System Design",
       "eventTime": "05 p.m. to 08 p.m.",
       "Duration": "180min",
@@ -15,10 +15,10 @@
       "register": "701"
     },
     "header": {
-      "title": "Learn High Level System Design of an E-commerce website",
+      "title": "Masterclass",
       "titleSpan": "System Design",
       "desc": "For SDEs with 2+ years working Exp",
-      "eventDate": "November 12th, 2022",
+      "eventDate": "November 26th, 2022",
       "eventTime": "05 p.m. to 08 p.m.",
       "imgSrc": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Wazid-Sir.png",
       "register": "701",
@@ -29,7 +29,7 @@
       "href1": ""
     },
     "feature": {
-      "title": "System Design Masterclass Features",
+      "title": "Masterclass",
       "h1": "Customized learning",
       "p1": "Fulfill your learning goals and get expert assistance.",
       "h2": "Live Classes",
@@ -49,7 +49,7 @@
       "list2": "2 Open-source contribution"
     },
     "whyUs": {
-      "title": "You will learn about",
+      "title": "This masterclass is for",
       "l1": "Introduction to Web Development",
       "l2": "What is Full Stack Web Development",
       "l3": "Web Development Job Roles and Market Demand",
@@ -93,7 +93,8 @@
       "paragraph6": "Understanding of how to approach designing questions",
       "paragraph7": "Tricks for System Design interviews",
       "paragraph8": "Learn about e2e architecture of e-commerce systems",
-      
+      "paragraph8_1": "Improved user experience to drive sales",
+     
       "para4": "Meet Akshay Gagrani",
       "paragraph9": "Designation : ",
       "paragraph9_1": "Software Engineer",

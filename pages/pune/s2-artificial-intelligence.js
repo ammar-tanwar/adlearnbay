@@ -17,7 +17,7 @@ import Project from "../../Components/CoursePage/Project/Project";
 import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import ProgramWithHighLight from "../../Components/CityComponents/ProgramWithHighLight/ProgramWithHighLight";
 import { AiCourseData } from "../../Data/pune/AiData";
-
+import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -91,10 +91,8 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-
         DeskImg="/PuneTopWeb.jpg"
         MobImg="/PuneTopMob.jpg"
-          ProgramData={AiCourseData}
           courseName="Artificial Intelligence Course"
           cityName="In Pune"
           ptag="Artificial intelligence is the simulation of human intelligence in 
@@ -102,9 +100,21 @@ export default function Home() {
           course in Pune and get hands on experience by working with real data 
           sets during Real time projects."
         />
+
+        <div className={styles.program1}>
+        <ProgramInfo
+          p1={AiCourseData[0].ProgramInfo.p1}
+          p11={AiCourseData[0].ProgramInfo.p11}
+          p2={AiCourseData[0].ProgramInfo.p2}
+          p22={AiCourseData[0].ProgramInfo.p22}
+          p3={AiCourseData[0].ProgramInfo.p3}
+          p33={AiCourseData[0].ProgramInfo.p33}
+          p4={AiCourseData[0].ProgramInfo.p4}
+          p44={AiCourseData[0].ProgramInfo.p44}
+        />
+      </div>
         <HiringPatners
           topHead="Our Hiring Partner's In Pune"
-
         />
        
         <div className={styles.Feature} id="Feature">

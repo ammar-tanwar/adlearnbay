@@ -17,7 +17,7 @@ import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import ProgramWithHighLight from "../../Components/CityComponents/ProgramWithHighLight/ProgramWithHighLight";
 import { DataAnalyticsCourseData } from "../../Data/pune/DataAnalyticsData";
 import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
-
+import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -89,10 +89,8 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-
         DeskImg="/PuneTopWeb.jpg"
         MobImg="/PuneTopMob.jpg"
-        ProgramData={DataAnalyticsCourseData}
         courseName="Data Analytics Course"
         cityName="In Pune"
         ptag="Data analytics is the process of examining data sets to identify trends 
@@ -100,7 +98,18 @@ export default function Home() {
         Join this course in Pune and get hands on experience by working with 
         real data sets during Real time projects."
       />
-
+      <div className={styles.program1}>
+      <ProgramInfo
+        p1={DataAnalyticsCourseData[0].ProgramInfo.p1}
+        p11={DataAnalyticsCourseData[0].ProgramInfo.p11}
+        p2={DataAnalyticsCourseData[0].ProgramInfo.p2}
+        p22={DataAnalyticsCourseData[0].ProgramInfo.p22}
+        p3={DataAnalyticsCourseData[0].ProgramInfo.p3}
+        p33={DataAnalyticsCourseData[0].ProgramInfo.p33}
+        p4={DataAnalyticsCourseData[0].ProgramInfo.p4}
+        p44={DataAnalyticsCourseData[0].ProgramInfo.p44}
+      />
+    </div>
       <HiringPatners
         topHead="Our Hiring Partner's In Pune"
 

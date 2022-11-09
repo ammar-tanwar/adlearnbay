@@ -17,6 +17,7 @@ import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import ProgramWithHighLight from "../../Components/CityComponents/ProgramWithHighLight/ProgramWithHighLight";
 import { JobGuaranteeCourseData } from "../../Data/bangalore/JobGuaranteeData";
 import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
+import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -89,10 +90,8 @@ export default function Home() {
         </Popup>
 
         <FirstSection
-
         DeskImg="/BengaluruTopWeb.jpg"
         MobImg="/BengaluruTopMob.jpg"
-        ProgramData={JobGuaranteeCourseData}
         courseName="100% Placement Assistance Program "
         cityName="In Bangalore"
         ptag="Real-time industrial projects will help you gain the finest level of 
@@ -101,6 +100,18 @@ export default function Home() {
         technologies such as R, Python, Tableau, Hadoop, and so on."
       />
 
+      <div className={styles.program1}>
+      <ProgramInfo
+        p1={JobGuaranteeCourseData[0].ProgramInfo.p1}
+        p11={JobGuaranteeCourseData[0].ProgramInfo.p11}
+        p2={JobGuaranteeCourseData[0].ProgramInfo.p2}
+        p22={JobGuaranteeCourseData[0].ProgramInfo.p22}
+        p3={JobGuaranteeCourseData[0].ProgramInfo.p3}
+        p33={JobGuaranteeCourseData[0].ProgramInfo.p33}
+        p4={JobGuaranteeCourseData[0].ProgramInfo.p4}
+        p44={JobGuaranteeCourseData[0].ProgramInfo.p44}
+      />
+    </div>
       <HiringPatners
         topHead="Our Hiring Partner's In Bangalore"
 

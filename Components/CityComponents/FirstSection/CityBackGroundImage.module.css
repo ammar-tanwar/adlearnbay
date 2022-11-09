@@ -1,0 +1,19 @@
+
+
+.bgWrapDesk {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+  z-index: -1;
+  }
+
+
+  
+.bgWrapMob {
+  position: relative;
+  height: 450px;
+  width: 100%;
+  overflow: hidden;
+  z-index: -1;
+  }

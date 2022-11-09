@@ -17,7 +17,7 @@ import Project from "../../Components/CoursePage/Project/Project";
 import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import ProgramWithHighLight from "../../Components/CityComponents/ProgramWithHighLight/ProgramWithHighLight";
 import { AiCourseData } from "../../Data/mumbai/AiData";
-
+import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -90,21 +90,30 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-
           DeskImg="/MumbaiTopWeb.jpg"
         MobImg="/MumbaiTopMob.jpg"
-          ProgramData={AiCourseData}
           courseName="Artificial Intelligence Course"
           cityName="In Mumbai"
           ptag="Artificial intelligence is the simulation of human intelligence in machines that are programmed to think and act like humans and it's algorithms are designed to make decisions, often using real-time data. Unlock your career with this course in Mumbai."
         />
+
+        <div className={styles.program1}>
+        <ProgramInfo
+          p1={AiCourseData[0].ProgramInfo.p1}
+          p11={AiCourseData[0].ProgramInfo.p11}
+          p2={AiCourseData[0].ProgramInfo.p2}
+          p22={AiCourseData[0].ProgramInfo.p22}
+          p3={AiCourseData[0].ProgramInfo.p3}
+          p33={AiCourseData[0].ProgramInfo.p33}
+          p4={AiCourseData[0].ProgramInfo.p4}
+          p44={AiCourseData[0].ProgramInfo.p44}
+        />
+      </div>
         <HiringPatners
           topHead="Our Hiring Partner's In Mumbai"
-
         />
        
         <div className={styles.Feature} id="Feature">
-
           <ProgramWithHighLight
           title={AiCourseData[0].BoxShape.title}
             Box1h5={AiCourseData[0].BoxShape.Box1h5}

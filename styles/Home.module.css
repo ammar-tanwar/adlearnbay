@@ -56,6 +56,12 @@
 .program {
   height: max-content;
 }
+
+.program1 {
+  margin-top: -40px;
+  margin-bottom: -80px
+}
+
 .programCity{
   z-index: 999;
   margin: -110px 0px;
@@ -316,6 +322,10 @@
   .programCity{
     z-index: 999;
     margin: 0;
+  }
+  .program1 {
+    margin-top: 125px;
+    margin-bottom: 50px;
   }
   .cta {
     display: flex;

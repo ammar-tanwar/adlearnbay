@@ -17,7 +17,7 @@ import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import ProgramWithHighLight from "../../Components/CityComponents/ProgramWithHighLight/ProgramWithHighLight";
 import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
 import { DataScienceCourseData } from "../../Data/pune/DataScienceCourse";
-
+import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -28,8 +28,8 @@ export default function Home() {
   return (
     <div>
       <Head>
-         <title>
-        Data Science course - Learnbay
+        <title>
+          Data Science course - Learnbay
         </title>
         <meta
           name="description"
@@ -94,24 +94,34 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-        DeskImg="/PuneTopWeb.jpg"
-        MobImg="/PuneTopMob.jpg"
-        ProgramData={DataScienceCourseData}
-        courseName="Data Science Course"
-        cityName="In Pune"
-        ptag="Data science is the study of data with the aim of gaining critical 
+          DeskImg="/PuneTopWeb.jpg"
+          MobImg="/PuneTopMob.jpg"
+          courseName="Data Science Course"
+          cityName="In Pune"
+          ptag="Data science is the study of data with the aim of gaining critical 
         business insights. It is a multidisciplinary method for analysing massive
         volumes of data. Join this course in Pune and get hands on experience 
         by working with real data sets during Real time projects."
+        />
+        <div className={styles.program1}>
+          <ProgramInfo
+            p1={DataScienceCourseData[0].ProgramInfo.p1}
+            p11={DataScienceCourseData[0].ProgramInfo.p11}
+            p2={DataScienceCourseData[0].ProgramInfo.p2}
+            p22={DataScienceCourseData[0].ProgramInfo.p22}
+            p3={DataScienceCourseData[0].ProgramInfo.p3}
+            p33={DataScienceCourseData[0].ProgramInfo.p33}
+            p4={DataScienceCourseData[0].ProgramInfo.p4}
+            p44={DataScienceCourseData[0].ProgramInfo.p44}
+          />
+        </div>
+        <HiringPatners
+          topHead="Our Hiring Partner's In Pune"
 
         />
-        <HiringPatners
-        topHead="Our Hiring Partner's In Pune"
-
-      />
 
         <div className={styles.Feature} id="Feature">
-        <ProgramWithHighLight
+          <ProgramWithHighLight
             title={DataScienceCourseData[0].BoxShape.title}
             Box1h5={DataScienceCourseData[0].BoxShape.Box1h5}
             box1desc={DataScienceCourseData[0].BoxShape.box1desc}
@@ -131,7 +141,7 @@ export default function Home() {
           />
         </div>
 
-       
+
 
 
         <SyllabusNew
@@ -144,11 +154,11 @@ export default function Home() {
           project={DataScienceCourseData[0].project}
         />
 
-        <CityImage 
-        DeskImg="/CenterCityPuneWeb.jpg"
-        MobImg="/CenterCityPuneMob.jpg"
-        cityName="पुणे"
-        
+        <CityImage
+          DeskImg="/CenterCityPuneWeb.jpg"
+          MobImg="/CenterCityPuneMob.jpg"
+          cityName="पुणे"
+
         />
         <OurExpert
           H5={DataScienceCourseData[0].OurExpert.H5}
@@ -177,7 +187,7 @@ export default function Home() {
           img20={DataScienceCourseData[0].OurExpert.img20}
         />
         <Certificate
-        H4="Data Science Certification Program In Pune"
+          H4="Data Science Certification Program In Pune"
         />
         <div className={styles.ProjectWrapper} id="project">
           <Project popupHead={DataScienceCourseData[0].Project.popupHead}
@@ -200,11 +210,11 @@ export default function Home() {
           CourseFeelist5={DataScienceCourseData[0].BatchCourses.CourseFeelist5}
         />
         <LearnSupport
-        headForCity={true}
-        cityName="24/7 Learner’s Support In Pune"
-      />
-      <CityFooter 
-      cityName="Pune"/>
+          headForCity={true}
+          cityName="24/7 Learner’s Support In Pune"
+        />
+        <CityFooter
+          cityName="Pune" />
       </main>
     </div>
   );

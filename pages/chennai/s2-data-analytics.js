@@ -17,7 +17,7 @@ import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import ProgramWithHighLight from "../../Components/CityComponents/ProgramWithHighLight/ProgramWithHighLight";
 import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
 import { DataAnalyticsCourseData } from "../../Data/chennai/DataAnalyticsData";
-
+import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -89,10 +89,8 @@ export default function Home() {
         </Popup>
 
         <FirstSection
-
         DeskImg="/ChennaiTopWeb.jpg"
         MobImg="/ChennaiTopMob.jpg"
-        ProgramData={DataAnalyticsCourseData}
         courseName="Data Analytics Course"
         cityName="In Chennai"
         ptag="Data analytics is the process of examining data sets to identify trends 
@@ -100,14 +98,23 @@ export default function Home() {
         This course in Chennai is developed for working individuals who want 
         to maximize their present industry expertise and change career."
       />
+      <div className={styles.program1}>
+        <ProgramInfo
+          p1={DataAnalyticsCourseData[0].ProgramInfo.p1}
+          p11={DataAnalyticsCourseData[0].ProgramInfo.p11}
+          p2={DataAnalyticsCourseData[0].ProgramInfo.p2}
+          p22={DataAnalyticsCourseData[0].ProgramInfo.p22}
+          p3={DataAnalyticsCourseData[0].ProgramInfo.p3}
+          p33={DataAnalyticsCourseData[0].ProgramInfo.p33}
+          p4={DataAnalyticsCourseData[0].ProgramInfo.p4}
+          p44={DataAnalyticsCourseData[0].ProgramInfo.p44}
+        />
+      </div>
 
       <HiringPatners
         topHead="Our Hiring Partner's In Chennai"
-
       />
-
       <div className={styles.Feature} id="Feature">
-
           <ProgramWithHighLight
           title={DataAnalyticsCourseData[0].BoxShape.title}
             Box1h5={DataAnalyticsCourseData[0].BoxShape.Box1h5}
