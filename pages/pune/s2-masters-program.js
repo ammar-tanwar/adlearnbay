@@ -105,11 +105,9 @@ export default function Home() {
                     MobImg="/PuneTopMob.jpg"
                     courseName="Data Science and AI Master Program"
                     cityName="In Pune"
-                    ptag="Data science is the study of data with the aim of gaining critical 
-                    business insights. It is a multidisciplinary method for analyzing massive
-                    volumes of data. This course in Pune will provide you with hands-
-                    on experience with technologies such as R, Python, Tableau, Hadoop, 
-                    and so on."
+                    ptag="Learn from experienced professionals how to ace product-based MNC 
+                    interviews and receive IBM Certification.This is an Industry oriented Master’s 
+                    program for Data Science and AI in Pune for working professionals."
                 />
 
                 <div className={styles.program1}>

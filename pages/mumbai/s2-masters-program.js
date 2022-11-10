@@ -105,11 +105,10 @@ export default function Home() {
                     MobImg="/MumbaiTopMob.jpg"
                     courseName="Data Science and AI Master Program"
                     cityName="In Mumbai"
-                    ptag="Data science is the study of data with the aim of gaining critical 
-                    business insights. It is a multidisciplinary method for analyzing massive
-                    volumes of data. This course in Mumbai will provide you with hands-
-                    on experience with technologies such as R, Python, Tableau, Hadoop, 
-                    and so on."
+                    ptag="Learn from experienced professionals how to ace product-based MNC 
+                    interviews and receive IBM Certification. This Master’s program for Data 
+                    Science and AI in Mumbai is specially designed for Working Professionals with
+                    a new and advanced curriculum."
                 />
 
                 <div className={styles.program1}>

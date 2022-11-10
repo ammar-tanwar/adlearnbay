@@ -105,11 +105,9 @@ export default function Home() {
                     MobImg="/HyderabadTopMob.jpg"
                     courseName="Data Science and AI Master Program"
                     cityName="In Hyderabad"
-                    ptag="Data science is the study of data with the aim of gaining critical 
-                business insights. It is a multidisciplinary method for analyzing massive
-                volumes of data. This course in Hyderabad will provide you with hands-
-                on experience with technologies such as R, Python, Tableau, Hadoop, 
-                and so on."
+                    ptag="Learn from experienced professionals how to ace product-based MNC 
+                    interviews and receive IBM Certification. Join this course in Hyderabad & 
+                    Accelerate your career with a Master’s in Data Science and AI."
                 />
 
                 <div className={styles.program1}>

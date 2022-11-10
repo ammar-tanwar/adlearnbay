@@ -106,11 +106,9 @@ export default function Home() {
                     MobImg="/BengaluruTopMob.jpg"
                     courseName="Data Science and AI Master Program"
                     cityName="In Bangalore"
-                    ptag="Data science is the study of data with the aim of gaining critical 
-                    business insights. It is a multidisciplinary method for analyzing massive
-                    volumes of data. This course in Bangalore will provide you with hands-
-                    on experience with technologies such as R, Python, Tableau, Hadoop, 
-                    and so on."
+                    ptag="Learn from experienced professionals how to ace product-based MNC 
+                    interviews and receive IBM Certification. Join this Master’s Program in 
+                    Bangalore and Secure a bright future for your career in Data Science and AI."
                 />
                 <div className={styles.program1}>
                 <ProgramInfo

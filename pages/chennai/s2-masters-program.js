@@ -104,11 +104,9 @@ export default function Home() {
                     MobImg="/ChennaiTopMob.jpg"
                     courseName="Data Science and AI Master Program"
                     cityName="In Chennai"
-                    ptag="Data science is the study of data with the aim of gaining critical 
-                    business insights. It is a multidisciplinary method for analyzing massive
-                    volumes of data. This course in Chennai will provide you with hands-
-                    on experience with technologies such as R, Python, Tableau, Hadoop, 
-                    and so on."
+                    ptag="Learn from experienced professionals how to ace product-based MNC 
+                    interviews and receive IBM Certification. Start a successful career in Data 
+                    Science and AI with the 13 months Master’s Program in Chennai."
                 />
 
                 <div className={styles.program1}>
