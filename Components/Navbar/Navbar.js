@@ -53,10 +53,16 @@ const Navbar = ({ radio, event, dataScience, fullStack ,eventDateInfo}) => {
       <nav className={styles.nav}>
         <div className={styles.left}>
           <div className={styles.ham}>
+          {today >= eventDateInfo ? (
+            ""
+          ) : (
             <button onClick={popupShow} className="outLineBtn">
-              Register NOW!
-              <FaArrowRight className={styles.icon} />
-            </button>
+            Register NOW!
+            <FaArrowRight className={styles.icon} />
+          </button>
+  
+          )}
+          
           </div>
 
           <a>
