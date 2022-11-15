@@ -284,7 +284,7 @@ export const FullStackSoftwareCourseData = [
     Batch: [
       {
         Module0: {
-          title: "Weekend Batch :- (Sat - Sun)",
+          title: "Weekend Morning Batch :- (Sat - Sun)",
           content: [
             {
               chap: {
@@ -296,18 +296,6 @@ export const FullStackSoftwareCourseData = [
                 ],
               },
             },
-            //           {
-            //             chap: {
-            //               title: "Batch 2 :- Date And time ",
-            //               desc: [
-            //                 "Date : 25th October 2022",
-            //                 "Time : 12:30 p.m to 04:00 p.m.",
-            // ,
-
-            //               ],
-            //             },
-            //           },
-
           ],
           id: 0,
           open: true,
@@ -316,51 +304,23 @@ export const FullStackSoftwareCourseData = [
 
       {
         Module0: {
-          title: "Weekday Batch  :- (Tue-Thu-Sat)",
+          title: "Weekday Evening Batch  :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Weekday Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 29th November 2022",
-                  "Time : 08:00 p.m to 10:30 p.m",
+                  "Date : 28th November 2022",
+                  "Time : 08:00 p.m to 10:00 p.m",
                 ],
               },
             },
-            // {
-            //   chap: {
-            //     title: "Weekday Batch 2 :- Date And time ",
-            //     desc: [
-            //       "Date : 30th November 2022",
-            //       "Time : 08:00 p.m to 10:30 p.m",
-            //     ],
-            //   },
-            // },
-          ],
-          id: 1,
-          open: false,
-        },
-      },
-
-      {
-        Module0: {
-          title: "Weekday Batch  :- (Mon-Wed-Fri)",
-          content: [
-            // {
-            //   chap: {
-            //     title: "Weekday Batch 1 :- Date And time ",
-            //     desc: [
-            //       "Date : 29th November 2022",
-            //       "Time : 08:00 p.m to 10:30 p.m",
-            //     ],
-            //   },
-            // },
             {
               chap: {
                 title: "Weekday Batch 2 :- Date And time ",
                 desc: [
-                  "Date : 30th November 2022",
-                  "Time : 08:00 p.m to 10:30 p.m",
+                  "Date : 29th November 2022",
+                  "Time : 08:00 p.m to 10:30 p.m  (TTS) (NP)",
                 ],
               },
             },
@@ -369,8 +329,6 @@ export const FullStackSoftwareCourseData = [
           open: false,
         },
       },
-
-
     ],
     BatchCourses: {
       CourseFeeHead: "Full Stack Software Development Program: Batch Details",

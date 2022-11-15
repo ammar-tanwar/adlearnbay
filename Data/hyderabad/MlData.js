@@ -421,17 +421,18 @@ export const MlCourseData = [
 
 
  
-        Batch: [
+      
+    Batch: [
       {
         Module0: {
-          title: "Weekend Batch :- (Sat - Sun)",
+          title: "Weekday Morning Batch :-  (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 30th October 2022",
-                  "Time : 12:30 p.m. to 04:00 p.m.",
+                  "Date : 18th November 2022",
+                  "Time : 8 AM to 10 AM",
 
                 ],
               },
@@ -445,52 +446,53 @@ export const MlCourseData = [
 
       {
         Module0: {
-          title: "Weekday  Batch  :- (Mon-Fri)",
+          title: "Weekday Evening Batch  :- (Mon-Fri)",
+          content: [
+            {
+              chap: {
+                title: "Batch 1 :- Date And time ",
+                desc: [
+                  "Date : 18th November 2022",
+                  "Time : 8 PM to 10 PM",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Weekday Batch 1 :- Date And time ",
+                desc: [
+                  "Date : 25th November 2022",
+                  "Time : 8 PM to 10 PM",
+                ],
+              },
+            },
+          ],
+          id: 1,
+          open: false,
+        },
+      },
+      
+      {
+        Module0: {
+          title: "Weekend Afternoon Batch  :- (Sat-Sun)",
           content: [
             {
               chap: {
                 title: "Weekday Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 4th November 2022",
-                  "Time : 8 a.m. to 10 a.m.",
+                  "Date : 27th November 2022",
+                  "Time : 12:30 PM to 4 PM",
                 ],
               },
             },
-            // {
-            //   chap: {
-            //     title: "Weekday Batch 2 :- Date And time ",
-            //     desc: [
-            //       "Date : 14th October 2022",
-            //       "Time : 8 p.m. to 10 p.m.",
-            //     ],
-            //   },
-            // },
 
           ],
           id: 1,
           open: false,
         },
       },
-      // {
-      //   Module0: {
-      //     title: "Weekday Batch  :- (Mon-Fri)",
-      //     content: [
-      //       {
-      //         chap: {
-      //           title: "Weekday Batch 1 :- Date And time ",
-      //           desc: [
-      //             "Date : 14th October 2022",
-      //             "Time : 8 p.m. to 10 p.m.",
-      //           ],
-      //         },
-      //       },
-
-      //     ],
-      //     id: 1,
-      //     open: false,
-      //   },
-      // },
     ],
+
 
   BatchCourses: {
     CourseFeeHead: "Machine Learning Course in Hyderabad: Batch Details",
