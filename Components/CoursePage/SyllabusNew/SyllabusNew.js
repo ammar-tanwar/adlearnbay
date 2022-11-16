@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "./SyllabusNew.module.css";
 import { MdOutlineLiveTv, MdOutlineLaptopMac } from "react-icons/md";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
-import { FaDownload } from "react-icons/fa";
+import { FaDownload,FaArrowRight } from "react-icons/fa";
 import {
   AiOutlineFundProjectionScreen,
   AiOutlineFieldTime,
@@ -10,6 +10,7 @@ import {
 import Form from "../../Form/Form";
 import { BsFillCircleFill } from "react-icons/bs";
 import Popup from "../../Popup/Popup";
+
 
 function SyllabusNew({
   syllabus,
@@ -26,6 +27,7 @@ function SyllabusNew({
   srcD,
   CSyllabus,
   CourseHighlights,
+  fsdlink,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -73,12 +75,29 @@ function SyllabusNew({
           <div>
             <h4>{CSyllabus}</h4>
           </div>
+
           <div className={styles.btnWrapper}>
+
+
+          
+          {fsdlink ? (
+            <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session"><button style={{ margin: "auto" }}>
+            <FaDownload className="bIcons" />
+            Syllabus Brochure
+          </button></a>
+          ) : (
             <button onClick={popupShow} style={{ margin: "auto" }}>
-              <FaDownload className="bIcons" />
-              Syllabus Brochure
-            </button>
+            <FaDownload className="bIcons" />
+            Syllabus Brochure
+          </button>
+          )}
+
+            
+
+
           </div>
+
+
         </div>
         <p>{syllabusDesc}</p>
 
@@ -207,7 +226,14 @@ function SyllabusNew({
               </h5>
             </div>
             <div className={styles.PProgramInners}>
-              <Form
+              {fsdlink ? (
+                <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session"><button style={{marginLeft: "40px"}}>
+                Apply for Counselling
+                <FaArrowRight style={{ marginLeft: "10px" }} />
+              </button></a>
+             
+              ):(
+                <Form
                 dataScience={dataScience}
                 redirectDs={redirectDs}
                 redirectFs={redirectFs}
@@ -215,6 +241,9 @@ function SyllabusNew({
                 redirectBl={redirectBl}
                 redirectDe={redirectDe}
               />
+              )}
+
+             
             </div>
           </div>
           <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/blue-shadow.svg" className={styles.shadowImg} />

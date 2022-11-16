@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import styles from "./HeroSection.module.css";
 import "swiper/css";
 import "swiper/css/navigation";
-import { FaArrowRight,  } from "react-icons/fa";
+import { FaArrowRight, } from "react-icons/fa";
 import Image from "next/image";
 import Popup from "/Components/Popup/Popup";
 import Form from "/Components/Form/Form";
@@ -23,6 +23,7 @@ const HeroSection = ({
   deskTopPara1,
   mTopPara1,
   popupHead,
+  fsdlink,
 }) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
@@ -79,10 +80,21 @@ const HeroSection = ({
         <p className={styles.pBot}>{desc}</p>
         <div className={styles.ButtonDiv}>
           <div className={styles.btnWrapper}>
-            <button onClick={popupShow}>
-              Apply for Counselling
-              <FaArrowRight style={{ marginLeft: "10px" }} />
-            </button>
+            {fsdlink ? (
+              <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session"><button >
+                Apply for Counselling
+                <FaArrowRight style={{ marginLeft: "10px" }} />
+              </button></a>
+            ) : (
+              <button onClick={popupShow}>
+                Apply for Counselling
+                <FaArrowRight style={{ marginLeft: "10px" }} />
+              </button>
+            )}
+
+
+
+
           </div>
 
 

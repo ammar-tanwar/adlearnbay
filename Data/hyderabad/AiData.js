@@ -339,41 +339,41 @@ export const AiCourseData = [
         open: false,
       },
     },
-    {
-      Module0: {
-        title: "Term 5 :- Essentials Tools",
-        content: [
-          {
-            chap: {
-              title:
-                "DSA",
-              desc: [
-                " Array Overview",
-                "String",
-                " Linked List",
-                " Queue",
-                " Stack",
-                " Heap",
-                " Trie",
-                " Tree, Binary Search Tree and AVL Tree",
-                " Segment Tree",
-                " Graph & Recursion",
-                " Introduction to recursion",
-                " Backtracking Algorithm",
-                " Searching",
-                "Sorting",
-                " Greedy Algorithm",
-                " Pattern Searching",
-                " Dynamic Programming",
+    // {
+    //   Module0: {
+    //     title: "Term 5 :- Essentials Tools",
+    //     content: [
+    //       {
+    //         chap: {
+    //           title:
+    //             "DSA",
+    //           desc: [
+    //             " Array Overview",
+    //             "String",
+    //             " Linked List",
+    //             " Queue",
+    //             " Stack",
+    //             " Heap",
+    //             " Trie",
+    //             " Tree, Binary Search Tree and AVL Tree",
+    //             " Segment Tree",
+    //             " Graph & Recursion",
+    //             " Introduction to recursion",
+    //             " Backtracking Algorithm",
+    //             " Searching",
+    //             "Sorting",
+    //             " Greedy Algorithm",
+    //             " Pattern Searching",
+    //             " Dynamic Programming",
 
-              ],
-            },
-          },
-        ],
-        id: 5,
-        open: false,
-      },
-    },
+    //           ],
+    //         },
+    //       },
+    //     ],
+    //     id: 5,
+    //     open: false,
+    //   },
+    // },
   ],
 
   OurExpert: {

@@ -11,7 +11,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 
-const CourseReview = () => {
+const CourseReview = ({fsdlink}) => {
 
   const [popups, setPopups] = useState(false);
 
@@ -296,9 +296,20 @@ const CourseReview = () => {
           height="82"
           layout="intrinsic"
         />
-        <button onClick={popupShow} style={{ margin: "auto" }}>
+
+        {fsdlink ? (
+          <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session"><button style={{ margin: "auto" }}>
+          Download Placement Report <MdKeyboardArrowDown />
+        </button></a>
+        ) : (
+          <button onClick={popupShow} style={{ margin: "auto" }}>
           Download Placement Report <MdKeyboardArrowDown />
         </button>
+        )}
+
+        
+
+
       </div>
     </>
   );

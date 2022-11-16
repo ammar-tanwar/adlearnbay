@@ -7,7 +7,7 @@ import Form from "../../Form/Form";
 import { useRouter } from "next/router";
 
 
-const Navbar = ({ radio }) => {
+const Navbar = ({ radio, fsdlink }) => {
   const router = useRouter();
   const [icon, setIcon] = useState(false);
   const [show, setShow] = useState(false);
@@ -60,13 +60,21 @@ const Navbar = ({ radio }) => {
 
         </div>
         <div className={styles.right}>
-          <button onClick={popupShow} className="outLineBtn">
+        {fsdlink ? (
+          <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session"><button className="outLineBtn">
+            Apply For Counselling
+            <FaArrowRight className={styles.icon} />
+          </button></a>
+          ):(
+            <button onClick={popupShow} className="outLineBtn">
             Apply For Counselling
             <FaArrowRight className={styles.icon} />
           </button>
+          )}
 
           <Popup></Popup>
         </div>
+
       </nav>
     </div>
   );

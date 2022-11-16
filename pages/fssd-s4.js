@@ -71,7 +71,7 @@ export default function Home() {
                 />
             </Head>
             <main>
-                <Navbar popup={true} />
+                <Navbar popup={true} fsdlink={true}/>
                 <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
                     <div className="leftPopup">
                         <div className="whiteP" />
@@ -94,6 +94,7 @@ export default function Home() {
                     height={FullStackSoftwareCourseData[0].FirstSection.height}
                     alt={FullStackSoftwareCourseData[0].FirstSection.alt}
                     srcD={FullStackSoftwareCourseData[0].FirstSection.srcD}
+                    fsdlink={true}
                 />
                 <div className={styles.program}>
                     <ProgramInfo
@@ -132,9 +133,10 @@ export default function Home() {
                         box3desc={FullStackSoftwareCourseData[0].BoxShape1.box3desc}
                         Box4h5={FullStackSoftwareCourseData[0].BoxShape1.Box4h5}
                         box4desc={FullStackSoftwareCourseData[0].BoxShape1.box4desc}
+                        fsdlink={true}
                     />
                 </div>
-                <CourseReview />
+                <CourseReview fsdlink={true}/>
                 <SyllabusNew
                     syllabus={FullStackSoftwareCourseData[0].syllabus}
                     syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
@@ -144,16 +146,19 @@ export default function Home() {
                     srcD={FullStackSoftwareCourseData[0].srcD}
                     hours={FullStackSoftwareCourseData[0].hours}
                     project={FullStackSoftwareCourseData[0].project}
+                    fsdlink={true}
                 />
                 <ProgramFee Fee={FullStackSoftwareCourseData[0].ProgramFee.Fee} Emi={FullStackSoftwareCourseData[0].ProgramFee.Emi}
                     CourseFeeAndFinancing={FullStackSoftwareCourseData[0].ProgramFee.CourseFeeAndFinancing}
+                    fsdlink={true}
                     para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." dataScience={true}
 
                 />
                 <div className={styles.ProjectWrapper} id="project">
-                    <Project project={FullStackSoftwareCourseData[0].Project.project} domain={FullStackSoftwareCourseData[0].Project.domain} />
+                    <Project project={FullStackSoftwareCourseData[0].Project.project} fsdlink={true} domain={FullStackSoftwareCourseData[0].Project.domain} />
                 </div>
                 <Batch
+                    fsdlink={true}
                     syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
                     syllabus={FullStackSoftwareCourseData[0].Batch}
                     CourseFeeHead={FullStackSoftwareCourseData[0].BatchCourses.CourseFeeHead}

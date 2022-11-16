@@ -19,6 +19,7 @@ const BoxShape = ({
   box3desc,
   Box4h5,
   box4desc,
+  fsdlink
 }) => {
   const [popups, setPopups] = useState(false);
 
@@ -69,10 +70,19 @@ const BoxShape = ({
               Full Stack Software
               <br />Development Program
             </p>
-            <button className={styles.Button} onClick={popupShow}>
-              <AiOutlineDownload className="bIcons" />
-              Download Brochure
-            </button>
+            {fsdlink ? (
+              <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session"><button className={styles.Button}>
+                <AiOutlineDownload className="bIcons" />
+                Download Brochure
+              </button></a>
+            ) : (
+              <button className={styles.Button} onClick={popupShow}>
+                <AiOutlineDownload className="bIcons" />
+                Download Brochure
+              </button>
+            )}
+
+
           </div>
           <div>
             <Image
@@ -87,10 +97,19 @@ const BoxShape = ({
               Data Structures Algorithms
               <br />And System Design
             </p>
-            <button className={styles.Button} onClick={popupShow}>
-              <AiOutlineDownload className="bIcons" />
-              Download Brochure
-            </button>
+
+            {fsdlink ? (
+              <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session"><button className={styles.Button}>
+                <AiOutlineDownload className="bIcons" />
+                Download Brochure
+              </button></a>
+            ) : (
+              <button className={styles.Button} onClick={popupShow}>
+                <AiOutlineDownload className="bIcons" />
+                Download Brochure
+              </button>
+            )}
+
           </div>
           <div>
             <Image
@@ -102,13 +121,24 @@ const BoxShape = ({
               height="150"
             />
             <p className={styles.Ptopp}>
-            Full Stack Web
+              Full Stack Web
               <br />Development Program
             </p>
-            <button className={styles.Button} onClick={popupShow}>
-              <AiOutlineDownload className="bIcons" />
-              Download Brochure
-            </button>
+
+
+            {fsdlink ? (
+              <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session"><button className={styles.Button}>
+                <AiOutlineDownload className="bIcons" />
+                Download Brochure
+              </button></a>
+            ) : (
+              <button className={styles.Button} onClick={popupShow}>
+                <AiOutlineDownload className="bIcons" />
+                Download Brochure
+              </button>
+            )}
+
+
           </div>
         </div>
 

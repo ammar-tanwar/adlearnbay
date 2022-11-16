@@ -12,7 +12,7 @@ import Popup from "../../Popup/Popup";
 import "swiper/css";
 import "swiper/css/pagination";
 
-const Project = ({ ChangeProject, project, domain }) => {
+const Project = ({ ChangeProject, project, domain,fsdlink }) => {
   const [popups, setPopups] = useState(false);
 
   const [device, setDevice] = useState();
@@ -318,10 +318,20 @@ const Project = ({ ChangeProject, project, domain }) => {
         </Swiper>
       </div>
 
-      <button className={styles.Button} onClick={popupShow} style={{ margin: "auto", marginTop: "20px" }}>
+      {fsdlink ? (
+        <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session"> <button className={styles.Button}  style={{ margin: "auto", marginTop: "20px" }}>
+        <FaDownload className="bIcons" />
+        Download Brochure
+      </button></a>
+      ) : (
+        <button className={styles.Button} onClick={popupShow} style={{ margin: "auto", marginTop: "20px" }}>
         <FaDownload className="bIcons" />
         Download Brochure
       </button>
+      )}
+      
+
+      
     </div>
   );
 };

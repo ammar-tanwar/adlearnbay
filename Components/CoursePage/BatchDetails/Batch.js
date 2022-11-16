@@ -18,6 +18,7 @@ function Batch({
   CourseFeelist3,
   CourseFeelist4,
   CourseFeelist5,
+  fsdlink,
 }) {
 
   const [popups, setPopups] = useState(false);
@@ -178,7 +179,14 @@ function Batch({
                 </div>
               </div>
               <div className={styles.btnWrapper}>
+
+              
+              {fsdlink ? (
+                <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session"> <button >Enroll Now</button></a>
+              ) : (
                 <button onClick={popupShow}>Enroll Now</button>
+              )}
+              
               </div>
             </div>
           </div>

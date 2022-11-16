@@ -6,7 +6,7 @@ import Image from "next/image";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 
-export const ProgramFee = ({ Fee, Emi, CourseFeeAndFinancing, para }) => {
+export const ProgramFee = ({ Fee, Emi, CourseFeeAndFinancing, para, fsdlink }) => {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -47,7 +47,14 @@ export const ProgramFee = ({ Fee, Emi, CourseFeeAndFinancing, para }) => {
             <div className={styles.bottom}>
               <p>Get professional training affordably</p>
               <h5>{Fee}</h5>
-              <button onClick={popupShow}>Enroll Now</button>
+
+              {fsdlink ? (
+                <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session"> <button >Enroll Now</button></a>
+              ) : (
+                <button onClick={popupShow}>Enroll Now</button>
+              )}
+              
+             
             </div>
           </div>
           <div className={styles.right}>
@@ -73,9 +80,19 @@ export const ProgramFee = ({ Fee, Emi, CourseFeeAndFinancing, para }) => {
             <div className={styles.bottomS}>
               <p>Get professional training affordably</p>
               <h5>{Emi}</h5>
-              <button style={{ margin: "auto" }} onClick={popupShow}>
+
+              {fsdlink ? (
+                <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session"> <button style={{ margin: "auto" }} >
+                Enroll Now
+              </button></a>
+              ) : (
+                <button style={{ margin: "auto" }} onClick={popupShow}>
                 Enroll Now
               </button>
+              )}
+
+
+              
             </div>
           </div>
         </div>
