@@ -46,7 +46,7 @@ export default function Home() {
             s.async = true;
             s.src = url;
             var options = {
-          "enabled":true,s
+          "enabled":true,
           "chatButtonSetting":{
               "backgroundColor":"#4dc247",
               "ctaText":"",

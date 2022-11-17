@@ -91,7 +91,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     router.pathname === "/bangalore/s2-artificial-intelligence" ||
     router.pathname === "/bangalore/s2-data-analytics" ||
     router.pathname === "/bangalore/s2-job-guarantee" ||
-
+    router.pathname === "/bangalore/s2-masters-program" ||
     //  chennai
 
     router.pathname === "/chennai/s2-data-science" ||
@@ -99,6 +99,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     router.pathname === "/chennai/s2-artificial-intelligence" ||
     router.pathname === "/chennai/s2-data-analytics" ||
     router.pathname === "/chennai/s2-job-guarantee" ||
+    router.pathname === "/chennai/s2-masters-program" ||
 
     //  delhi
 
@@ -107,6 +108,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     router.pathname === "/delhi/s2-artificial-intelligence" ||
     router.pathname === "/delhi/s2-data-analytics" ||
     router.pathname === "/delhi/s2-job-guarantee" ||
+    router.pathname === "/delhi/s2-masters-program" ||
 
     //  hyderabad
 
@@ -115,6 +117,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     router.pathname === "/hyderabad/s2-artificial-intelligence" ||
     router.pathname === "/hyderabad/s2-data-analytics" ||
     router.pathname === "/hyderabad/s2-job-guarantee" ||
+    router.pathname === "/hyderabad/s2-masters-program" ||
 
     //  mumbai
 
@@ -123,6 +126,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     router.pathname === "/mumbai/s2-artificial-intelligence" ||
     router.pathname === "/mumbai/s2-data-analytics" ||
     router.pathname === "/mumbai/s2-job-guarantee" ||
+    router.pathname === "/mumbai/s2-masters-program" ||
 
     //  pune
 
@@ -130,6 +134,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     router.pathname === "/pune/s2-machine-learning" ||
     router.pathname === "/pune/s2-artificial-intelligence" ||
     router.pathname === "/pune/s2-job-guarantee" ||
+    router.pathname === "/pune/s2-masters-program" ||
     router.pathname === "/pune/s2-data-analytics"
 
   ) {
@@ -609,6 +614,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
       router.pathname === "/bangalore/s2-artificial-intelligence" ||
       router.pathname === "/bangalore/s2-data-analytics" ||
       router.pathname === "/bangalore/s2-job-guarantee" ||
+      router.pathname === "/bangalore/s2-masters-program" ||
 
       //  chennai
 
@@ -617,6 +623,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
       router.pathname === "/chennai/s2-artificial-intelligence" ||
       router.pathname === "/chennai/s2-data-analytics" ||
       router.pathname === "/chennai/s2-job-guarantee" ||
+      router.pathname === "/chennai/s2-masters-program" ||
 
       //  delhi
 
@@ -625,6 +632,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
       router.pathname === "/delhi/s2-artificial-intelligence" ||
       router.pathname === "/delhi/s2-data-analytics" ||
       router.pathname === "/delhi/s2-job-guarantee" ||
+      router.pathname === "/delhi/s2-masters-program" ||
 
       //  hyderabad
 
@@ -633,6 +641,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
       router.pathname === "/hyderabad/s2-artificial-intelligence" ||
       router.pathname === "/hyderabad/s2-data-analytics" ||
       router.pathname === "/hyderabad/s2-job-guarantee" ||
+      router.pathname === "/hyderabad/s2-masters-program" ||
 
       //  mumbai
 
@@ -641,6 +650,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
       router.pathname === "/mumbai/s2-artificial-intelligence" ||
       router.pathname === "/mumbai/s2-data-analytics" ||
       router.pathname === "/mumbai/s2-job-guarantee" ||
+      router.pathname === "/mumbai/s2-masters-program" ||
 
       //  pune
 
@@ -648,6 +658,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
       router.pathname === "/pune/s2-machine-learning" ||
       router.pathname === "/pune/s2-artificial-intelligence" ||
       router.pathname === "/pune/s2-job-guarantee" ||
+      router.pathname === "/pune/s2-masters-program" ||
       router.pathname === "/pune/s2-data-analytics"
 
 
