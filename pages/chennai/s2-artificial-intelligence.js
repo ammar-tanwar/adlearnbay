@@ -90,8 +90,8 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityChennaiWeb.jpg"
-        MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityChennaiMob.jpg"
+        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/ChennaiTopWeb.jpg"
+        MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/ChennaiTopMob.jpg"
           courseName="Artificial Intelligence Course"
           cityName="In Chennai"
           ptag="Artificial intelligence is the simulation of human intelligence in 

@@ -149,7 +149,7 @@ export default function Home() {
       />
       <CityImage 
       DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityBangaloreWeb.jpg"
-                    MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityBangaloreMob.jpg"
+      MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityBangaloreMob.jpg"
       cityName="ಬೆಂಗಳೂರು"
       />
         

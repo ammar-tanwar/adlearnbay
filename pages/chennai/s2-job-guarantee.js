@@ -89,8 +89,8 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityChennaiWeb.jpg"
-                    MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityChennaiMob.jpg"
+        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/ChennaiTopWeb.jpg"
+        MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/ChennaiTopMob.jpg"
         courseName="100% Placement Assistance Program "
         cityName="In Chennai"
         ptag="Real-time industrial projects will help you gain the finest level of 
