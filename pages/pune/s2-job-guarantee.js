@@ -89,8 +89,8 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-        DeskImg="/PuneTopWeb.jpg"
-        MobImg="/PuneTopMob.jpg"
+        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/PuneTopWeb.jpg"
+        MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/PuneTopMob.jpg"
         courseName="100% Placement Assistance Program "
         cityName="In Pune"
         ptag="Real-time industrial projects will help you gain the finest level of 
@@ -148,8 +148,8 @@ export default function Home() {
         project={JobGuaranteeCourseData[0].project}
       />
       <CityImage 
-      DeskImg="/CenterCityPuneWeb.jpg"
-      MobImg="/CenterCityPuneMob.jpg"
+      DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityPuneWeb.jpg"
+      MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityPuneMob.jpg"
       cityName="पुणे"
       />
         

@@ -31,6 +31,7 @@ export const CityBackGroundImage = ({ DeskImg, MobImg }) => {
           layout="fill"
           objectFit="cover"
           quality={100}
+          priority={true}
         />
       </div>
     ):(
@@ -41,6 +42,7 @@ export const CityBackGroundImage = ({ DeskImg, MobImg }) => {
           layout="fill"
           objectFit="cover"
           quality={100}
+          priority={true}
         />
       </div>
     )}

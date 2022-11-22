@@ -92,8 +92,8 @@ export default function Home() {
         </Popup>
 
         <FirstSection
-        DeskImg="/BengaluruTopWeb.jpg"
-        MobImg="/BengaluruTopMob.jpg"
+        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/BengaluruTopWeb.jpg"
+          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/BengaluruTopMob.jpg"
         courseName="Machine Learning Course"
         cityName="In Bangalore"
         ptag="Machine learning is a subfield of artificial intelligence that is widely 
@@ -151,8 +151,8 @@ export default function Home() {
         />
        
         <CityImage 
-        DeskImg="/CenterCityBangaloreWeb.jpg"
-        MobImg="/CenterCityBangaloreMob.jpg"
+        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityBangaloreWeb.jpg"
+                    MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityBangaloreMob.jpg"
         cityName="ಬೆಂಗಳೂರು"
         
         />

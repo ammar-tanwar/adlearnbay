@@ -101,8 +101,8 @@ export default function Home() {
                     </div>
                 </Popup>
                 <FirstSection
-                    DeskImg="/MumbaiTopWeb.jpg"
-                    MobImg="/MumbaiTopMob.jpg"
+                    DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/MumbaiTopWeb.jpg"
+                    MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/MumbaiTopMob.jpg"
                     courseName="Data Science and AI Master Program"
                     cityName="In Mumbai"
                     ptag="Learn from experienced professionals how to ace product-based MNC 
@@ -160,8 +160,8 @@ export default function Home() {
                 />
 
                 <CityImage
-                    DeskImg="/CenterCityMumbaiWeb.jpg"
-                    MobImg="/CenterCityMumbaiMob.jpg"
+                    DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityMumbaiWeb.jpg"
+                    MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityMumbaiMob.jpg"
                     cityName="मुंबई"
 
                 />

@@ -91,8 +91,8 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          DeskImg="/ChennaiTopWeb.jpg"
-          MobImg="/ChennaiTopMob.jpg"
+        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/ChennaiTopWeb.jpg"
+        MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/ChennaiTopMob.jpg"
           courseName="Machine Learning Course"
           cityName="In Chennai"
           ptag="Machine learning is a subfield of artificial intelligence that is widely 
@@ -148,8 +148,8 @@ export default function Home() {
         />
        
         <CityImage 
-        DeskImg="/CenterCityChennaiWeb.jpg"
-        MobImg="/CenterCityChennaiMob.jpg"
+        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityChennaiWeb.jpg"
+        MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityChennaiMob.jpg"
         cityName="சென்னை"
         
         />

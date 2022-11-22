@@ -90,8 +90,8 @@ export default function Home() {
         </Popup>
 
         <FirstSection
-        DeskImg="/BengaluruTopWeb.jpg"
-        MobImg="/BengaluruTopMob.jpg"
+        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/BengaluruTopWeb.jpg"
+          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/BengaluruTopMob.jpg"
         courseName="100% Placement Assistance Program "
         cityName="In Bangalore"
         ptag="Real-time industrial projects will help you gain the finest level of 
@@ -148,8 +148,8 @@ export default function Home() {
         project={JobGuaranteeCourseData[0].project}
       />
       <CityImage 
-      DeskImg="/CenterCityBangaloreWeb.jpg"
-      MobImg="/CenterCityBangaloreMob.jpg"
+      DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityBangaloreWeb.jpg"
+                    MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityBangaloreMob.jpg"
       cityName="ಬೆಂಗಳೂರು"
       />
         

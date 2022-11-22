@@ -91,8 +91,8 @@ export default function Home() {
         </Popup>
 
         <FirstSection
-        DeskImg="/MumbaiTopWeb.jpg"
-        MobImg="/MumbaiTopMob.jpg"
+        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/MumbaiTopWeb.jpg"
+        MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/MumbaiTopMob.jpg"
         courseName="100% Placement Assistance Program "
         cityName="In Mumbai"
         ptag="Real-time industrial projects will help you gain the finest level of technical expertise. Be a Master without a Master’s degree. Unlock your career with 100% Placement Assistance course in Mumbai."
@@ -143,8 +143,8 @@ export default function Home() {
         project={JobGuaranteeCourseData[0].project}
       />
       <CityImage 
-      DeskImg="/CenterCityMumbaiWeb.jpg"
-      MobImg="/CenterCityMumbaiMob.jpg"
+      DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityMumbaiWeb.jpg"
+      MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityMumbaiMob.jpg"
       cityName="मुंबई"
       />
         

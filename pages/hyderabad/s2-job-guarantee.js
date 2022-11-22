@@ -91,8 +91,8 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-        DeskImg="/HyderabadTopWeb.jpg"
-        MobImg="/HyderabadTopMob.jpg"
+        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/HyderabadTopWeb.jpg"
+        MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/HyderabadTopMob.jpg"
         courseName="100% Placement Assistance Program "
         cityName="In Hyderabad"
         ptag="Real-time industrial projects will help you gain the finest level of 
@@ -147,8 +147,8 @@ export default function Home() {
         project={JobGuaranteeCourseData[0].project}
       />
       <CityImage 
-      DeskImg="/CenterCityHyderabadWeb.jpg"
-      MobImg="/CenterCityHyderabadMob.jpg"
+      DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityHyderabadWeb.jpg"
+      MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityHyderabadMob.jpg"
       cityName="హైదరాబాద్"
       />
         

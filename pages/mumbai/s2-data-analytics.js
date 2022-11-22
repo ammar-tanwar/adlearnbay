@@ -91,8 +91,8 @@ export default function Home() {
 
 
         <FirstSection
-        DeskImg="/MumbaiTopWeb.jpg"
-        MobImg="/MumbaiTopMob.jpg"
+        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/MumbaiTopWeb.jpg"
+        MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/MumbaiTopMob.jpg"
         courseName="Data Analytics Course"
         cityName="In Mumbai"
         ptag="Data analytics is the process of examining data sets to identify trends and develop conclusions about the information contained within them.Unlock your career as a data analyst with this course in Mumbai."
@@ -145,8 +145,8 @@ export default function Home() {
           project={DataAnalyticsCourseData[0].project}
         />
         <CityImage 
-        DeskImg="/CenterCityMumbaiWeb.jpg"
-        MobImg="/CenterCityMumbaiMob.jpg"
+        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityMumbaiWeb.jpg"
+        MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityMumbaiMob.jpg"
         cityName="मुंबई"
         
         />

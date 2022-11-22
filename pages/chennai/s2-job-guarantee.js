@@ -89,8 +89,8 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-        DeskImg="/ChennaiTopWeb.jpg"
-        MobImg="/ChennaiTopMob.jpg"
+        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityChennaiWeb.jpg"
+                    MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityChennaiMob.jpg"
         courseName="100% Placement Assistance Program "
         cityName="In Chennai"
         ptag="Real-time industrial projects will help you gain the finest level of 
@@ -146,8 +146,8 @@ export default function Home() {
         project={JobGuaranteeCourseData[0].project}
       />
       <CityImage 
-      DeskImg="/CenterCityChennaiWeb.jpg"
-      MobImg="/CenterCityChennaiMob.jpg"
+      DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityChennaiWeb.jpg"
+      MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityChennaiMob.jpg"
       cityName="சென்னை"
       />
         

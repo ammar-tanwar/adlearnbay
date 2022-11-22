@@ -91,8 +91,8 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-        DeskImg="/PuneTopWeb.jpg"
-        MobImg="/PuneTopMob.jpg"
+        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/PuneTopWeb.jpg"
+        MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/PuneTopMob.jpg"
           courseName="Artificial Intelligence Course"
           cityName="In Pune"
           ptag="Artificial intelligence is the simulation of human intelligence in 
@@ -149,8 +149,8 @@ export default function Home() {
         project={AiCourseData[0].project}
       />
       <CityImage 
-      DeskImg="/CenterCityPuneWeb.jpg"
-      MobImg="/CenterCityPuneMob.jpg"
+      DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityPuneWeb.jpg"
+      MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityPuneMob.jpg"
       cityName="पुणे"
       
       />

@@ -90,8 +90,8 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          DeskImg="/ChennaiTopWeb.jpg"
-        MobImg="/ChennaiTopMob.jpg"
+        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityChennaiWeb.jpg"
+        MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityChennaiMob.jpg"
           courseName="Artificial Intelligence Course"
           cityName="In Chennai"
           ptag="Artificial intelligence is the simulation of human intelligence in 
@@ -148,8 +148,8 @@ export default function Home() {
         project={AiCourseData[0].project}
       />
       <CityImage 
-      DeskImg="/CenterCityChennaiWeb.jpg"
-      MobImg="/CenterCityChennaiMob.jpg"
+      DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityChennaiWeb.jpg"
+      MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityChennaiMob.jpg"
       cityName="சென்னை"
       
       />

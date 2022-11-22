@@ -89,8 +89,8 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-        DeskImg="/BengaluruTopWeb.jpg"
-        MobImg="/BengaluruTopMob.jpg"
+        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/BengaluruTopWeb.jpg"
+          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/BengaluruTopMob.jpg"
         courseName="Data Analytics Course"
         cityName="In Bangalore"
         ptag="Data analytics is the process of examining data sets to identify trends 
@@ -149,8 +149,8 @@ export default function Home() {
           project={DataAnalyticsCourseData[0].project}
         />
         <CityImage 
-        DeskImg="/CenterCityBangaloreWeb.jpg"
-        MobImg="/CenterCityBangaloreMob.jpg"
+        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityBangaloreWeb.jpg"
+        MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityBangaloreMob.jpg"
         cityName="ಬೆಂಗಳೂರು"
         
         />

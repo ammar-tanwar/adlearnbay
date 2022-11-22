@@ -95,8 +95,8 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-        DeskImg="/HyderabadTopWeb.jpg"
-        MobImg="/HyderabadTopMob.jpg"
+        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/HyderabadTopWeb.jpg"
+        MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/HyderabadTopMob.jpg"
         courseName="Data Science Course"
         cityName="In Hyderabad"
         ptag="Data science is the study of data with the aim of gaining critical 
@@ -156,8 +156,8 @@ export default function Home() {
       />
 
       <CityImage
-        DeskImg="/CenterCityHyderabadWeb.jpg"
-        MobImg="/CenterCityHyderabadMob.jpg"
+        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityHyderabadWeb.jpg"
+        MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityHyderabadMob.jpg"
         cityName="హైదరాబాద్"
 
       />

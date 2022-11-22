@@ -94,8 +94,8 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          DeskImg="/MumbaiTopWeb.jpg"
-          MobImg="/MumbaiTopMob.jpg"
+          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/MumbaiTopWeb.jpg"
+          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/MumbaiTopMob.jpg"
           courseName="Data Science Course"
           cityName="In Mumbai"
           ptag="Data science is the study of data with the aim of gaining critical business insights. It is a multidisciplinary method for analysing massive volumes of data.Unlock your career as a data scientist with this course in Mumbai."
@@ -151,8 +151,8 @@ export default function Home() {
         />
 
         <CityImage
-          DeskImg="/CenterCityMumbaiWeb.jpg"
-          MobImg="/CenterCityMumbaiMob.jpg"
+          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityMumbaiWeb.jpg"
+          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityMumbaiMob.jpg"
           cityName="मुंबई"
 
         />
