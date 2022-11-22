@@ -30,7 +30,7 @@ export default function Home() {
     <div>
       <Head>
         <title>
-        Data Science course - Learnbay
+          Data Science course - Learnbay
         </title>
         <meta
           name="description"
@@ -39,8 +39,8 @@ export default function Home() {
           projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
           24/7 Learner’s support."
         />
-        
-          <meta name="Keywords" content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee" />
+
+        <meta name="Keywords" content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee" />
 
 
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
@@ -101,9 +101,9 @@ export default function Home() {
           popupHead={DataScienceCourseData[0].FirstSection.popupHead}
           deskTopPara={DataScienceCourseData[0].FirstSection.deskTopPara}
           mTopPara={DataScienceCourseData[0].FirstSection.mTopPara}
-          mTitle={DataScienceCourseData[0].FirstSection.mTitle}
+          mTitle="Data Science Course"
           spanMTitleText={DataScienceCourseData[0].FirstSection.spanMTitleText}
-          title={DataScienceCourseData[0].FirstSection.title}
+          title="Data Science Course"
           spanTitleText={DataScienceCourseData[0].FirstSection.spanTitleText}
           desc={DataScienceCourseData[0].FirstSection.desc}
           src={DataScienceCourseData[0].FirstSection.src}
@@ -127,7 +127,7 @@ export default function Home() {
 
         <div className={styles.Feature} id="Feature">
           <BoxShape
-            title={DataScienceCourseData[0].BoxShape.title}
+            title="Explore Our Data Science Certification Programs"
             Box1h5={DataScienceCourseData[0].BoxShape.Box1h5}
             box1desc={DataScienceCourseData[0].BoxShape.box1desc}
             Box2h5={DataScienceCourseData[0].BoxShape.Box2h5}
@@ -149,15 +149,15 @@ export default function Home() {
         />
         <SyllabusNew
           syllabus={DataScienceCourseData[0].syllabus}
-          CSyllabus={DataScienceCourseData[0].CSyllabus}
-          CourseHighlights={DataScienceCourseData[0].CourseHighlights}
-          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
+          CSyllabus="Data Science Course Syllabus"
+          CourseHighlights="Data Science Course Highlights"
+          syllabusDesc="Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Data Science Course sessions are covered practically with real-time industrial projects and case studies."
           popupHead={DataScienceCourseData[0].popupHead}
           hours={DataScienceCourseData[0].hours}
           project={DataScienceCourseData[0].project}
         />
         <OurExpert
-          H5={DataScienceCourseData[0].OurExpert.H5}
+          H5="Data Science Tools Covered"
           img1={DataScienceCourseData[0].OurExpert.img1}
           img2={DataScienceCourseData[0].OurExpert.img2}
           img3={DataScienceCourseData[0].OurExpert.img3}
@@ -183,8 +183,8 @@ export default function Home() {
           img20={DataScienceCourseData[0].OurExpert.img20}
         />
         <ProgramFee Fee={DataScienceCourseData[0].ProgramFee.Fee}
-          Emi={DataScienceCourseData[0].ProgramFee.Emi} CourseFeeAndFinancing={DataScienceCourseData[0].ProgramFee.CourseFeeAndFinancing}
-          para={DataScienceCourseData[0].ProgramFee.para} />
+          Emi={DataScienceCourseData[0].ProgramFee.Emi} CourseFeeAndFinancing="Data Science Course Fee & Financing"
+          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Science Certification Course and offer avariety of financing options to make it more economical." />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project popupHead={DataScienceCourseData[0].Project.popupHead}
@@ -197,8 +197,8 @@ export default function Home() {
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
           syllabus={DataScienceCourseData[0].Batch}
 
-          CourseFeeHead={DataScienceCourseData[0].BatchCourses.CourseFeeHead}
-          CourseFeePara={DataScienceCourseData[0].BatchCourses.CourseFeePara}
+          CourseFeeHead="Data Science Course : Batch Details"
+          CourseFeePara="Data Science Online Classroom"
           CourseFeelist1={DataScienceCourseData[0].BatchCourses.CourseFeelist1}
           CourseFeelist2={DataScienceCourseData[0].BatchCourses.CourseFeelist2}
           CourseFeelist3={DataScienceCourseData[0].BatchCourses.CourseFeelist3}

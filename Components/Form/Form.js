@@ -73,6 +73,10 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     router.pathname === "/advance-ai-ml-certification-s2" ||
     router.pathname === "/data-science-ai-cert-for-managers-leaders-s2" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s2" ||
+    router.pathname === "/s2-data-science-course" ||
+    router.pathname === "/s2-data-science-advance" ||
+    router.pathname === "/s2-data-science-masters" ||
+    router.pathname === "/s2-data-science-placement" ||
     router.pathname === "/s2-data-science" ||
     router.pathname === "/s2-machine-learning" ||
     router.pathname === "/s2-artificial-intelligence" ||
@@ -606,6 +610,12 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
       router.pathname === "/apply-for-counselling-fsd-s2" ||
       router.pathname === "/dsa-system-design" ||
       router.pathname === "/s2-masters-program" ||
+
+      router.pathname === "/s2-data-science-course" ||
+      router.pathname === "/s2-data-science-advance" ||
+      router.pathname === "/s2-data-science-masters" ||
+      router.pathname === "/s2-data-science-placement" ||
+
 
       //  BANGALORE
 
