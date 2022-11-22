@@ -160,7 +160,7 @@ const Project = ({ ChangeProject, projectDetails,domainDetails }) => {
                 </div>
                 <div className={styles.projectFooter}>
                   <img
-                    src="/Moodys-Project.webp"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Moodys-Project.webp"
                     alt="Moody's"
                     loading="lazy"
                   />
@@ -192,7 +192,7 @@ const Project = ({ ChangeProject, projectDetails,domainDetails }) => {
                   </div> */}
                 </div>
                 <div className={styles.projectFooter}>
-                  <img src="/Bloombreg.webp" alt="Bloomberg" loading="lazy" />
+                  <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Bloombreg.webp" alt="Bloomberg" loading="lazy" />
                 </div>
               </div>
               <div className={styles.project}>
@@ -220,7 +220,7 @@ const Project = ({ ChangeProject, projectDetails,domainDetails }) => {
                   </div> */}
                 </div>
                 <div className={styles.projectFooter}>
-                  <img src="/Razorpay.webp" alt="Razorpay" loading="lazy" />
+                  <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Razorpay.webp" alt="Razorpay" loading="lazy" />
                 </div>
               </div>
               <div className={styles.project}>
@@ -246,7 +246,7 @@ const Project = ({ ChangeProject, projectDetails,domainDetails }) => {
                   </div> */}
                 </div>
                 <div className={styles.projectFooter}>
-                  <img src="/Uber.webp" alt="Uber" loading="lazy" />
+                  <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Uber.webp" alt="Uber" loading="lazy" />
                 </div>
               </div>
               <div className={styles.project}>
@@ -272,7 +272,7 @@ const Project = ({ ChangeProject, projectDetails,domainDetails }) => {
                   </div> */}
                 </div>
                 <div className={styles.projectFooter}>
-                  <img src="/Mercedez.webp" alt="Mercedes" loading="lazy" />
+                  <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Mercedez.webp" alt="Mercedes" loading="lazy" />
                 </div>
               </div>
               <div className={styles.project}>
@@ -300,7 +300,7 @@ const Project = ({ ChangeProject, projectDetails,domainDetails }) => {
                   </div> */}
                 </div>
                 <div className={styles.projectFooter}>
-                  <img src="/Tesela.webp" alt="Tesela" loading="lazy" />
+                  <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Tesela.webp" alt="Tesela" loading="lazy" />
                 </div>
               </div>
               <div className={styles.project}>
@@ -329,7 +329,7 @@ const Project = ({ ChangeProject, projectDetails,domainDetails }) => {
                   </div> */}
                 </div>
                 <div className={styles.projectFooter}>
-                  <img loading="lazy" src="/lyft.webp" alt="lyft" />
+                  <img loading="lazy" src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/lyft.webp" alt="lyft" />
                 </div>
               </div>
               <div className={styles.project}>
@@ -355,7 +355,7 @@ const Project = ({ ChangeProject, projectDetails,domainDetails }) => {
                   </div> */}
                 </div>
                 <div className={styles.projectFooter}>
-                  <img loading="lazy" src="/Google.webp" alt="Google" />
+                  <img loading="lazy" src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Google.webp" alt="Google" />
                 </div>
               </div>
               <div className={styles.project}>
@@ -413,7 +413,7 @@ const Project = ({ ChangeProject, projectDetails,domainDetails }) => {
                   </div> */}
                 </div>
                 <div className={styles.projectFooter}>
-                  <img loading="lazy" src="/proscia.webp" alt="Proscia" />
+                  <img loading="lazy" src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/proscia.webp" alt="Proscia" />
                 </div>
               </div>
               <div className={styles.project}>
@@ -439,7 +439,7 @@ const Project = ({ ChangeProject, projectDetails,domainDetails }) => {
                   </div> */}
                 </div>
                 <div className={styles.projectFooter}>
-                  <img loading="lazy" src="Youtube.webp" alt="Youtube" />
+                  <img loading="lazy" src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Youtube.webp" alt="Youtube" />
                 </div>
               </div>
               <div className={styles.project}>
@@ -472,7 +472,7 @@ const Project = ({ ChangeProject, projectDetails,domainDetails }) => {
                 <div className={styles.projectFooter}>
                   <img
                     loading="lazy"
-                    src="/Google-play.webp"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Google-play.webp"
                     alt="GooglePlay"
                   />
                 </div>
@@ -503,7 +503,7 @@ const Project = ({ ChangeProject, projectDetails,domainDetails }) => {
                   </div> */}
                 </div>
                 <div className={styles.projectFooter}>
-                  <img loading="lazy" src="/soptify-logo.webp" alt="Spotify" />
+                  <img loading="lazy" src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/soptify-logo.webp" alt="Spotify" />
                 </div>
               </div>
               <div className={styles.project}>
@@ -533,7 +533,7 @@ const Project = ({ ChangeProject, projectDetails,domainDetails }) => {
                   </div> */}
                 </div>
                 <div className={styles.projectFooter}>
-                  <img loading="lazy" src="/Mckinsey.webp" alt="Mckinsey" />
+                  <img loading="lazy" src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Mckinsey.webp" alt="Mckinsey" />
                 </div>
               </div>
             </div>
@@ -613,7 +613,7 @@ const Project = ({ ChangeProject, projectDetails,domainDetails }) => {
                   </div>
                   <div className={styles.right}>
                   <Image
-            src="/1-1.png"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/1-1.png"
             alt="Learnbay"
             quality={100}
             objectFit="contain"
@@ -647,7 +647,7 @@ const Project = ({ ChangeProject, projectDetails,domainDetails }) => {
                   </div>
                   <div className={styles.right}>
                   <Image
-            src="/2-3.png"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/2-3.png"
             alt="Learnbay"
             quality={100}
             objectFit="contain"
@@ -681,7 +681,7 @@ const Project = ({ ChangeProject, projectDetails,domainDetails }) => {
                   </div>
                   <div className={styles.right}>
                   <Image
-            src="/Untitled-design-3.png"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Untitled-design-3.png"
             alt="Learnbay"
             quality={100}
             objectFit="contain"
@@ -715,7 +715,7 @@ const Project = ({ ChangeProject, projectDetails,domainDetails }) => {
                   </div>
                   <div className={styles.right}>
                   <Image
-            src="/Untitled-design-2.png"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Untitled-design-2.png"
             alt="Learnbay"
             quality={100}
             objectFit="contain"
@@ -749,7 +749,7 @@ const Project = ({ ChangeProject, projectDetails,domainDetails }) => {
                   </div>
                   <div className={styles.right}>
                   <Image
-            src="/12-1.png"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/12-1.png"
             alt="Learnbay"
             quality={100}
             objectFit="contain"
@@ -783,7 +783,7 @@ const Project = ({ ChangeProject, projectDetails,domainDetails }) => {
                   </div>
                   <div className={styles.right}>
                   <Image
-            src="/4(2).png"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/4(2).png"
             alt="Learnbay"
             quality={100}
             objectFit="contain"
@@ -818,7 +818,7 @@ const Project = ({ ChangeProject, projectDetails,domainDetails }) => {
                   </div>
                   <div className={styles.right}>
                   <Image
-            src="/5(2).png"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/5(2).png"
             alt="Learnbay"
             quality={100}
             objectFit="contain"
@@ -850,7 +850,7 @@ const Project = ({ ChangeProject, projectDetails,domainDetails }) => {
                   </div>
                   <div className={styles.right}>
                   <Image
-            src="/9-1.png"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/9-1.png"
             alt="Learnbay"
             quality={100}
             objectFit="contain"

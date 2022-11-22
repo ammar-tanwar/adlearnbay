@@ -25,7 +25,7 @@ function ToolsCovered() {
           />
         ) : (
           <Image
-            src="/job-tools-9-april.webp"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/job-tools-9-april.webp"
             alt="Learnbay"
             quality={100}
             objectFit="contain"

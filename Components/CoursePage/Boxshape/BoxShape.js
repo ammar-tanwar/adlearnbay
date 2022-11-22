@@ -62,7 +62,7 @@ const BoxShape = ({
         <div className={styles.left}>
           <div>
             <Image
-              src="/ds.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/ds.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"
@@ -79,7 +79,7 @@ const BoxShape = ({
           </div>
           <div>
             <Image
-              src="/advanceds.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/advanceds.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"
@@ -96,7 +96,7 @@ const BoxShape = ({
           </div>
           <div>
             <Image
-              src="/ds.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/ds.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"
@@ -113,7 +113,7 @@ const BoxShape = ({
           </div>
           <div>
             <Image
-              src="/advanceds.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/advanceds.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"

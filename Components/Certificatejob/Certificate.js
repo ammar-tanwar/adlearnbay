@@ -50,7 +50,7 @@ const Certificate = ({ popupHead, title, desc, desc2, desc3, radio }) => {
       <div className={styles.right}>
         <Image
           className="shadow"
-          src="/certificate.webp"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/certificate.webp"
           alt="Certificate"
           quality={100}
           layout="intrinsic"

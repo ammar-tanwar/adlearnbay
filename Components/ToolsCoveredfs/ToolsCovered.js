@@ -16,7 +16,7 @@ function ToolsCovered() {
       <div>
         {mobile ? (
           <Image
-            src="/tools-fs.png"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/tools-fs.png"
             alt="Learnbay"
             quality={100}
             objectFit="contain"
@@ -25,7 +25,7 @@ function ToolsCovered() {
           />
         ) : (
           <Image
-            src="/tools-fs.png"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/tools-fs.png"
             alt="Learnbay"
             quality={100}
             objectFit="contain"

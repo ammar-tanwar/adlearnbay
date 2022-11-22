@@ -3,6 +3,7 @@ import styles from "./BoxShape1.module.css";
 import { MdOutlineLiveTv } from "react-icons/md";
 import { BsGraphUp } from "react-icons/bs";
 import { HomeBoxData } from "./BoxShapeData";
+import Image from "next/image";
 
 const BoxShape = () => {
 
@@ -25,7 +26,7 @@ const BoxShape = () => {
         <div className={styles.imgBack}>
           <div className={hover ? styles.blurDivS : styles.blurDiv}></div>
           {hover ? (
-            <img
+            <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Live-classes-home-alt.svg"
               width="60"
               height="60"
@@ -33,7 +34,7 @@ const BoxShape = () => {
               alt="data science course in bangalore"
             />
           ) : (
-            <img
+            <Image
               src={HomeBoxData[1].img}
               width="60"
               height="60"

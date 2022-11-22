@@ -12,7 +12,7 @@ const Footer = () => {
       <div className={styles.FooterDiv}>
         <div className={styles.FooterDivInner}>
           <Image
-            src="/logo-light.png"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/logo-light.png"
             alt="Learnbay"
             quality={100}
             objectFit="contain"

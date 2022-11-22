@@ -37,7 +37,7 @@ const OurExpert = () => {
           >
             <SwiperSlide className={styles.slide}>
               <Image
-                src="/Amazon.png"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Amazon.png"
                 alt="amazon"
                 layout="intrinsic"
                 width="100"
@@ -47,7 +47,7 @@ const OurExpert = () => {
             </SwiperSlide>
             <SwiperSlide className={styles.slide}>
               <Image
-                src="/Capgemini.png"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Capgemini.png"
                 alt="capgemini"
                 layout="intrinsic"
                 width="150"
@@ -56,7 +56,7 @@ const OurExpert = () => {
             </SwiperSlide>
             <SwiperSlide className={styles.slide}>
               <Image
-                src="/Flipkart.png"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Flipkart.png"
                 alt="Flipkart"
                 quality={100}
                 layout="intrinsic"
@@ -66,7 +66,7 @@ const OurExpert = () => {
             </SwiperSlide>
             <SwiperSlide className={styles.slide}>
               <Image
-                src="/Google.png"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Google.png"
                 alt="Google"
                 layout="intrinsic"
                 width="150"
@@ -75,7 +75,7 @@ const OurExpert = () => {
             </SwiperSlide>
             <SwiperSlide className={styles.slide}>
               <Image
-                src="/Microsoft.png"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Microsoft.png"
                 alt="Microsoft"
                 layout="intrinsic"
                 width="150"
@@ -84,7 +84,7 @@ const OurExpert = () => {
             </SwiperSlide>
             <SwiperSlide className={styles.slide}>
               <Image
-                src="/Myntra.png"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Myntra.png"
                 alt="Myntra"
                 layout="intrinsic"
                 width="150"
@@ -93,7 +93,7 @@ const OurExpert = () => {
             </SwiperSlide>
             <SwiperSlide className={styles.slide}>
               <Image
-                src="/TCS.png"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/TCS.png"
                 alt="Tcs"
                 layout="intrinsic"
                 width="150"
@@ -102,7 +102,7 @@ const OurExpert = () => {
             </SwiperSlide>
             <SwiperSlide className={styles.slide}>
               <Image
-                src="/Wipro.png"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Wipro.png"
                 alt="Wipro"
                 layout="intrinsic"
                 objectFit="contain"

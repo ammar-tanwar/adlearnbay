@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper";
+import Image from "next/image";
 
 const Certificate = ({ popupHead, title, desc, desc2, desc3 }) => {
   const [popups, setPopups] = useState(false);
@@ -59,7 +60,7 @@ const Certificate = ({ popupHead, title, desc, desc2, desc3 }) => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img
+            <Image
               className="shadow"
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/certificate.webp"
               alt="learnbay"
@@ -70,7 +71,7 @@ const Certificate = ({ popupHead, title, desc, desc2, desc3 }) => {
             />
           </SwiperSlide>
           <SwiperSlide>
-            <img
+            <Image
               className="shadow"
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/certificate-png.webp"
               alt="learnbay"
