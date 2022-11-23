@@ -5,7 +5,6 @@
 
 .container1 {
   margin: 0px 100px;
-  
 }
 
 .info {
@@ -24,34 +23,33 @@
   color: #0072bc;
 }
 
-
 .left,
-  .middle {
-    border-right: 1px solid grey;
-    padding-right: 20px;
-  }
-  .left,
-  .middle,
-  .right {
-    padding-right: 30px;
-  }
-  .middle,
-  .right {
-    padding-left: 30px;
-  }
-  .middle h5 {
-    color: #edb552;
-  }
-  .info p {
-    margin: 0;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 27px;
-    text-align: center;
-  
-    color: #6c6c6c;
-  }
+.middle {
+  border-right: 1px solid grey;
+  padding-right: 20px;
+}
+.left,
+.middle,
+.right {
+  padding-right: 30px;
+}
+.middle,
+.right {
+  padding-left: 30px;
+}
+.middle h5 {
+  color: #edb552;
+}
+.info p {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+
+  color: #6c6c6c;
+}
 
 .program {
   height: max-content;
@@ -59,10 +57,10 @@
 
 .program1 {
   margin-top: -40px;
-  margin-bottom: -80px
+  margin-bottom: -80px;
 }
 
-.programCity{
+.programCity {
   z-index: 999;
   margin: -110px 0px;
 }
@@ -231,7 +229,7 @@
   margin-top: 40px;
 }
 .cta button:hover {
-  background-color: #2D9CD7;
+  background-color: #2d9cd7;
 }
 .ExpertWrapper {
   display: grid;
@@ -284,11 +282,10 @@
   background-position: center center;
   background-repeat: no-repeat;
   height: 600px;
-  
+
   background-size: cover;
   margin-top: 100px;
 }
-
 
 .formq1 {
   display: grid;
@@ -297,19 +294,98 @@
   width: 100%;
   align-items: center;
   margin-top: 100px;
-  
 }
-
 
 .formr Form {
-  margin: 80px 50px 0px 50px;  
+  margin: 80px 50px 0px 50px;
 }
 
+.formqS {
+  display: flex;
+  height: fit-content;
+  align-items: center;
+  margin: 100px 100px 50px 100px;
+}
 
+.formr Form {
+  margin: 80px 50px 0px 50px;
+}
 
+.formS > h5 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.formS > p {
+  color: #0072bc;
+  font-size: 24px;
+  margin: 10px 0px;
+}
+
+.formS FORM {
+  margin: 50px 0px 0px 0px;
+}
+
+.infoS {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.infoS p {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #6c6c6c;
+}
+
+.infoS h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 48px;
+  margin: 0;
+  text-align: center;
+  color: #0072bc;
+}
+
+.middle h5 {
+  color: #edb552;
+}
+
+.formSA {
+  width: 80%;
+}
+
+.formSA > h5 {
+  font-size: 30px;
+  margin: 0;
+  color: #0072bc;
+}
+
+.formSA > p {
+  font-size: 24px;
+  margin: 10px 0px;
+}
+
+.formqSA {
+  display: flex;
+  padding: 50px 100px;
+  align-items: center;
+}
+
+.imgH {
+  background-color: #0072bc;
+  text-align: center;
+  margin: 90px 0;
+}
 
 @media (max-width: 481px) {
-
   .container {
     padding: 0 1rem;
     max-width: 100%;
@@ -319,7 +395,7 @@
     margin: 0;
   }
 
-  .programCity{
+  .programCity {
     z-index: 999;
     margin: 0;
   }
@@ -406,9 +482,46 @@
     margin: 0px 0px 30px 0px;
     padding: 0px 20px;
   }
-  .forml{
+  .forml {
     margin-top: 50px;
   }
+  .formqS {
+    display: block;
+    margin: 70px 20px 50px 20px;
+  }
+  .formS FORM {
+    margin: 20px 0px 0px 0px;
+  }
+  .infoS {
+    display: flex;
+    gap: 0px;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+
+  }
+  .formqSA {
+    display: block;
+    padding: 20px 20px 0px 20px;
+  }
+  .formSA {
+    width: fit-content;
+  }
+  .imgH{
+    margin: 40px 0;
+  }
+  .left,
+.middle,
+.right {
+  padding-right: 20px;
+}
+.middle,
+.right {
+  padding-left: 20px;
+}
+.formSA > p {
+  font-size: 18px;
+}
 }
 
 @media (max-width: 600px) {
@@ -429,10 +542,8 @@
     background-image: none;
     margin-top: 0px;
   }
- 
-  
+
   .formr Form {
-    margin: 100px 0px 0px 0px;  
+    margin: 100px 0px 0px 0px;
   }
 }
-
