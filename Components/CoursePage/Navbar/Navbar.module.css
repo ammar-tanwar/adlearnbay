@@ -231,4 +231,12 @@
     margin-left: 5px;
     margin-top: -5px;
   }
+  .right button {
+    padding: 12px 20px;
+    font-size: 14px;
+    color: white;
+    background-color: #0072bc;
+    border: 2px solid #0072bc;
+    font-weight: 500;
+  }
   }

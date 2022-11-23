@@ -101,10 +101,10 @@ export default function Home() {
           popupHead={DataScienceCourseData[0].FirstSection.popupHead}
           deskTopPara={DataScienceCourseData[0].FirstSection.deskTopPara}
           mTopPara={DataScienceCourseData[0].FirstSection.mTopPara}
-          mTitle="Data Science Placement Assistance"
-          spanMTitleText="Course With Unlimited Interview Calls"
-          title="Data Science Placement Assistance"
-          spanTitleText="Course With Unlimited Interview Calls"
+          mTitle="Data Science Job Assistance Course -"
+          spanMTitleText=" Unlimited Interview Calls"
+          title="Data Science JOb Assistance Course"
+          spanTitleText="Unlimited Interview Calls"
           desc={DataScienceCourseData[0].FirstSection.desc}
           src={DataScienceCourseData[0].FirstSection.src}
           width={DataScienceCourseData[0].FirstSection.width}

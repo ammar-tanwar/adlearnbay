@@ -127,7 +127,7 @@ export default function Home() {
 
         <div className={styles.Feature} id="Feature">
           <BoxShape
-            title="Explore Our Data Science Certification Programs"
+            title="Explore Our Data Science Master Programs"
             Box1h5={DataScienceCourseData[0].BoxShape.Box1h5}
             box1desc={DataScienceCourseData[0].BoxShape.box1desc}
             Box2h5={DataScienceCourseData[0].BoxShape.Box2h5}
@@ -136,7 +136,7 @@ export default function Home() {
             box3desc={DataScienceCourseData[0].BoxShape.box3desc}
             Box4h5={DataScienceCourseData[0].BoxShape.Box4h5}
             box4desc={DataScienceCourseData[0].BoxShape.box4desc}
-            headh5={DataScienceCourseData[0].BoxShape.headh5}
+            headh5="Watch our alumni’s making successful Data Science Master career transition"
           />
         </div>
 

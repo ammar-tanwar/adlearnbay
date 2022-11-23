@@ -102,9 +102,9 @@ export default function Home() {
           deskTopPara={DataScienceCourseData[0].FirstSection.deskTopPara}
           mTopPara={DataScienceCourseData[0].FirstSection.mTopPara}
           mTitle="Advance Data Science Course"
-          spanMTitleText={DataScienceCourseData[0].FirstSection.spanMTitleText}
+          spanMTitleText="For Professionals"
           title="Advance Data Science Course"
-          spanTitleText={DataScienceCourseData[0].FirstSection.spanTitleText}
+          spanTitleText="For Professionals"
           desc={DataScienceCourseData[0].FirstSection.desc}
           src={DataScienceCourseData[0].FirstSection.src}
           width={DataScienceCourseData[0].FirstSection.width}
@@ -136,7 +136,7 @@ export default function Home() {
             box3desc={DataScienceCourseData[0].BoxShape.box3desc}
             Box4h5={DataScienceCourseData[0].BoxShape.Box4h5}
             box4desc={DataScienceCourseData[0].BoxShape.box4desc}
-            headh5={DataScienceCourseData[0].BoxShape.headh5}
+            headh5="Watch our alumni’s making successful Advance Data Science career transition"
           />
         </div>
 

@@ -69,7 +69,7 @@ const HeroSection = ({
         )}
         {mobile ? (
           <h1>
-            {mTitle}<br /> <span> {spanMTitleText}</span>
+            {mTitle} <span> {spanMTitleText}</span>
           </h1>
         ) : (
           <h1>
