@@ -333,6 +333,14 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     // -==================== Webinar = END POINT ==========================--------
   }
 
+  if (
+    router.pathname === "/step-up-with-learnbay"
+  ) {
+    // -====================  offer (step up with marketing) ==========================--------
+    endPoint = "https://getform.io/f/fd68bf82-a911-435e-9719-7c134a89a731";
+    // -====================  Returning Audience - S6 ==========================--------
+  }
+
   let btnTxt = "Apply for  Counseliing"
   if (event) {
     btnTxt = "Register Now"
@@ -487,6 +495,16 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
 
     if (event) {
       router.push("/Thank-you")
+    }
+
+    if (
+      (router.pathname === "/step-up-with-learnbay" && downloadBrochure) ||
+      router.pathname === "/step-up-with-learnbay"
+    ) {
+     
+      router.push("/Thank-you-marketing");
+     
+      return;
     }
 
     if (

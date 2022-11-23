@@ -1,10 +1,10 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import React from 'react'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import React from "react";
 import Navbar from "../Components/NavbarA/Navbar";
 import Footer from "../Components/FooterA/Footer";
 import Form from "../Components/Form/Form";
-import Image from 'next/image';
+import Image from "next/image";
 function Counselling() {
   return (
     <div className={styles.container1}>
@@ -15,8 +15,7 @@ function Counselling() {
       </Head>
       <Navbar radio={true} />
       <div className={styles.formq1}>
-
-      <div className={styles.formr}>
+        <div className={styles.formr}>
           <Form radio={true} />
         </div>
         <div className={styles.forml}>
@@ -41,13 +40,11 @@ function Counselling() {
               <p>Domain Electives</p>
             </div>
           </div>
-
         </div>
-        
       </div>
-      <Footer mobileNum={true}/>
+      <Footer mobileNum={true} />
     </div>
-  )
+  );
 }
 
-export default Counselling
+export default Counselling;
