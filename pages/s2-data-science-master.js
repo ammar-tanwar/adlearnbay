@@ -30,7 +30,7 @@ export default function Home() {
     <div>
       <Head>
         <title>
-          Data Science Masters course - Learnbay
+          Data Science Master course - Learnbay
         </title>
         <meta
           name="description"
@@ -101,10 +101,10 @@ export default function Home() {
           popupHead={DataScienceCourseData[0].FirstSection.popupHead}
           deskTopPara={DataScienceCourseData[0].FirstSection.deskTopPara}
           mTopPara={DataScienceCourseData[0].FirstSection.mTopPara}
-          mTitle="Data Science Masters Course"
-          spanMTitleText={DataScienceCourseData[0].FirstSection.spanMTitleText}
-          title="Data Science Masters Course"
-          spanTitleText={DataScienceCourseData[0].FirstSection.spanTitleText}
+          mTitle="Data Science Master Course"
+          spanMTitleText="For Managers and Leaders"
+          title="Data Science Master Course"
+          spanTitleText="For Managers and Leaders"
           desc={DataScienceCourseData[0].FirstSection.desc}
           src={DataScienceCourseData[0].FirstSection.src}
           width={DataScienceCourseData[0].FirstSection.width}
@@ -145,19 +145,19 @@ export default function Home() {
           p2=" Working at TCS"
           p3="Working at Capgemini" />
         <Certificate
-          H4="Data Science Masters Program"
+          H4="Data Science Master Program"
         />
         <SyllabusNew
           syllabus={DataScienceCourseData[0].syllabus}
-          CSyllabus="Data Science Masters Course Syllabus"
+          CSyllabus="Data Science Master Course Syllabus"
           CourseHighlights="Data Science Course Highlights"
-          syllabusDesc="Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Data Science Masters Course sessions are covered practically with real-time industrial projects and case studies."
+          syllabusDesc="Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Data Science Master Course sessions are covered practically with real-time industrial projects and case studies."
           popupHead={DataScienceCourseData[0].popupHead}
           hours={DataScienceCourseData[0].hours}
           project={DataScienceCourseData[0].project}
         />
         <OurExpert
-          H5="Data Science Masters Tools Covered"
+          H5="Data Science Master Tools Covered"
           img1={DataScienceCourseData[0].OurExpert.img1}
           img2={DataScienceCourseData[0].OurExpert.img2}
           img3={DataScienceCourseData[0].OurExpert.img3}
@@ -183,8 +183,8 @@ export default function Home() {
           img20={DataScienceCourseData[0].OurExpert.img20}
         />
         <ProgramFee Fee={DataScienceCourseData[0].ProgramFee.Fee}
-          Emi={DataScienceCourseData[0].ProgramFee.Emi} CourseFeeAndFinancing="Data Science Masters Course Fee & Financing"
-          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Masters Data Science Certification Course and offer avariety of financing options to make it more economical." />
+          Emi={DataScienceCourseData[0].ProgramFee.Emi} CourseFeeAndFinancing="Data Science Master Course Fee & Financing"
+          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Master Data Science Certification Course and offer avariety of financing options to make it more economical." />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project popupHead={DataScienceCourseData[0].Project.popupHead}
@@ -197,8 +197,8 @@ export default function Home() {
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
           syllabus={DataScienceCourseData[0].Batch}
 
-          CourseFeeHead="Data Science Masters Course : Batch Details"
-          CourseFeePara="Data Science Masters Online Classroom"
+          CourseFeeHead="Data Science Master Course : Batch Details"
+          CourseFeePara="Data Science Master Online Classroom"
           CourseFeelist1={DataScienceCourseData[0].BatchCourses.CourseFeelist1}
           CourseFeelist2={DataScienceCourseData[0].BatchCourses.CourseFeelist2}
           CourseFeelist3={DataScienceCourseData[0].BatchCourses.CourseFeelist3}
