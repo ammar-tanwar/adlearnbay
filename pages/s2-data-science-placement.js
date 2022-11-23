@@ -103,7 +103,7 @@ export default function Home() {
           mTopPara={DataScienceCourseData[0].FirstSection.mTopPara}
           mTitle="Data Science Job Assistance Course -"
           spanMTitleText=" Unlimited Interview Calls"
-          title="Data Science JOb Assistance Course"
+          title="Data Science Job Assistance Course"
           spanTitleText="Unlimited Interview Calls"
           desc={DataScienceCourseData[0].FirstSection.desc}
           src={DataScienceCourseData[0].FirstSection.src}

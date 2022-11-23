@@ -73,9 +73,23 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     router.pathname === "/advance-ai-ml-certification-s2" ||
     router.pathname === "/data-science-ai-cert-for-managers-leaders-s2" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s2" ||
+    
     router.pathname === "/s2-data-science-advance" ||
     router.pathname === "/s2-data-science-master" ||
     router.pathname === "/s2-data-science-placement" ||
+
+    router.pathname === "/s2-machine-learning-advance" ||
+    router.pathname === "/s2-machine-learning-master" ||
+    router.pathname === "/s2-machine-learning-placement" ||
+
+    router.pathname === "/s2-data-analytics-advance" ||
+    router.pathname === "/s2-data-analytics-master" ||
+    router.pathname === "/s2-data-analytics-placement" ||
+
+    router.pathname === "/s2-artificial-intelligence-advance" ||
+    router.pathname === "/s2-artificial-intelligence-master" ||
+    router.pathname === "/s2-artificial-intelligence-placement" ||
+
     router.pathname === "/s2-data-science" ||
     router.pathname === "/s2-machine-learning" ||
     router.pathname === "/s2-artificial-intelligence" ||
@@ -613,6 +627,18 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
       router.pathname === "/s2-data-science-advance" ||
       router.pathname === "/s2-data-science-master" ||
       router.pathname === "/s2-data-science-placement" ||
+
+      router.pathname === "/s2-machine-learning-advance" ||
+      router.pathname === "/s2-machine-learning-master" ||
+      router.pathname === "/s2-machine-learning-placement" ||
+
+      router.pathname === "/s2-data-analytics-advance" ||
+      router.pathname === "/s2-data-analytics-master" ||
+      router.pathname === "/s2-data-analytics-placement" ||
+
+      router.pathname === "/s2-artificial-intelligence-advance" ||
+      router.pathname === "/s2-artificial-intelligence-master" ||
+      router.pathname === "/s2-artificial-intelligence-placement" ||
 
 
       //  BANGALORE
