@@ -2,7 +2,6 @@ import { Html, Head, Main, NextScript } from "next/document";
 import Script from "next/script";
 import React from "react";
 
-
 export default function Document() {
   return (
     <Html>
@@ -26,13 +25,21 @@ export default function Document() {
           name="facebook-domain-verification"
           content="xzlsit1skwzpjhylrt0y96nn3nbksu"
         />
-        <Script strategy="lazyOnload" src="https://www.googleoptimize.com/optimize.js?id=OPT-NQHBZ7H"></Script>
+        <Script
+          strategy="lazyOnload"
+          src="https://www.googleoptimize.com/optimize.js?id=OPT-NQHBZ7H"
+        ></Script>
       </Head>
       <body>
         <Main />
         <NextScript />
+        <script
+          type="text/javascript"
+          src="https://crmplus.zoho.in/crm/javascript/zcga.js"
+        >
+          {" "}
+        </script>
       </body>
     </Html>
   );
 }
-

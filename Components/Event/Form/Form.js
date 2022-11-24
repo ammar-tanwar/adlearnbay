@@ -171,6 +171,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
             {downloadBrochure ? "Download Now" : "Apply Now"}
           </button>
         )}
+        <input type='hidden' id="zc_gad" name="zc_gad" value=""/>
       </form>
     </div>
   );
