@@ -145,7 +145,7 @@ const Course = () => {
                 })}
               </Swiper>
             </div>
-            <h5>Domain Elective</h5>
+            {/* <h5>Domain Elective</h5>
             <div className={styles.gridPanelDomain}>
               <Swiper
                 slidesPerView={mobile ? 1.1 : 3.2}
@@ -175,7 +175,7 @@ const Course = () => {
                   );
                 })}
               </Swiper>
-            </div>
+            </div> */}
           </div>
         ) : (
           ""

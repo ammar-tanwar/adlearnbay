@@ -1,0 +1,231 @@
+.Features {
+    display: grid;
+    flex-flow: column;
+    padding: 70px 100px;
+  }
+  .topHead {
+    text-align: center;
+    font-size: 35px;
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 800;
+  }
+  .FeatureWrap {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 57% 40%;
+    gap: 20px;
+    align-items: center;
+  }
+ 
+  .Features h1{
+    text-align: center;
+  }
+  
+  .LeftWrap {
+    background-image: url("/Hiring_Logo.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 460px;
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  .imgBack {
+    width: 80%;
+    height: max-content;
+    display: flex;
+    flex-flow: column;
+  }
+  .imgBack h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+    line-height: 35px;
+  
+    color: #000000;
+  }
+  .swiperSlideer {
+    display: flex;
+    flex-flow: column-reverse;
+    height: fit-content;
+    margin-bottom: 20px;
+  }
+  .reviewWrap {
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(237, 181, 82, 0.3);
+    border-radius: 16px;
+    display: flex;
+    flex-flow: column;
+    gap: 0px;
+    padding: 33px 20px 50px 20px;
+  }
+  .profile {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+  }
+  .profile h5 {
+    margin: 0ch;
+    font-size: 24px;
+  }
+  .profile p {
+    margin: 0;
+    color: #0072bc;
+  }
+  .shadow {
+    border: 0.6px solid #ffffff;
+    box-shadow: 0px 4px 4px rgba(237, 181, 82, 0.7);
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 20px 20px 0px 20px;
+  }
+  .leftContent {
+    flex-basis: 45%;
+    border-right: 1px solid grey;
+  }
+  .leftContent h5 {
+    margin: 0;
+    color: #edb552;
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .rightContent h5 {
+    margin: 0;
+    color: #0072bc;
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .leftContent p,
+  .rightContent p {
+    margin: 0;
+    color: #646464;
+    width: 80%;
+  }
+
+
+  @media (max-width: 1281px) {
+ 
+    .imgBack h5 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      margin: 0;
+      line-height: 35px;
+  
+      color: #000000;
+    }
+    .profile h5 {
+      font-size: 18px;
+    }
+    .leftContent h5 {
+      margin: 0;
+      color: #edb552;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .rightContent h5 {
+      margin: 0;
+      color: #0072bc;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .leftContent p,
+    .rightContent p {
+      margin: 0;
+      font-size: 14px;
+      color: #646464;
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .Features {
+      display: block;
+      flex-flow: column;
+      padding: 0px;
+      margin-top: 30px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 30px;
+    }
+    .FeatureWrap {
+      margin-top: 30px;
+      display: block;
+      align-items: center;
+    }
+    /* .LeftWrap {
+      display: flex;
+      flex-flow: column;
+      padding: 20px;
+    } */
+    .LeftWrap {
+      background-image: url("/Hiring_Logo.webp");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width:100%;
+      height: 230px;
+      margin-top: 20px;
+    }
+    .topHead {
+      font-size: 24px;
+      margin: 0;
+      text-align: center;
+      font-weight: 800;
+    }
+  }
+
+  @media (max-width: 481px) {
+       
+    .imgBack > h5 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      margin: 0;
+      line-height: 35px;
+      /* display: none;
+      font-size: 22px; */
+    }
+  
+    .imgBack {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .ImgB {
+      background-color: #ebf4ff;
+      width: 30%;
+      border-radius: 50%;
+      padding: 10px;
+    }
+    .ImgC {
+      background-color: #ebf4ff;
+      width: 30%;
+      border-radius: 50%;
+      padding: 10px;
+    }
+
+    .LeftWrap {
+      margin-bottom: 10px;
+    }
+
+    .reviewWrap {
+      padding: 10px 20px 10px 20px;
+    }
+
+  }
+  

@@ -1,5 +1,5 @@
 .Course {
-  padding: 0px 100px;
+  padding: 30px 100px 0px 100px;
 }
 .Course h2 {
   text-align: center;
@@ -67,7 +67,7 @@
 
   margin-top: 20px;
   gap: 20px;
-  padding: 0px 20px;
+  padding: 0px 0px;
   overflow: auto;
   position: relative;
   scroll-behavior: smooth;
@@ -75,10 +75,10 @@
   pointer-events: auto;
 }
 .Course h5 {
-  font-size: 24px;
+  font-size: 35px;
   margin: 0;
-
-  padding: 10px 60px;
+  padding: 10px 0px;
+  text-align: center;
 }
 .leftSide,
 .middleSide,
@@ -267,6 +267,7 @@
   }
   .Course h5 {
     padding: 10px;
+    font-size: 24px;
   }
   .contentBox {
     margin-top: -20px;

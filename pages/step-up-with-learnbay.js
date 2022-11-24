@@ -3,12 +3,16 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
+// import Form from "../Components/Event/Form/Form";
 import Navbar from "../Components/NavbarA/Navbar";
 import Footer from "../Components/CoursePage/Footer/Footer";
-import CareerImpactHome from "../Components/Home/CareerImpactHome/CareerImpact"
+import CareerImpactHome from "../Components/Home/CareerImpactHome/CareerImpact";
+import BoxShape from "../Components/Boxshape/BoxShape1";
+import SliderTabDS from "../Components/Marketing/SliderTabDS/SliderTabs";
+import SliderTabFS from "../Components/Marketing/SliderTabFS/SliderTabs";
+import HiringPatners from "../Components/Marketing/HiringPatnerWithReview/HiringPatners";
 import CourseDs from "../Components/Marketing/CourseHomeDS/Course";
 import CourseFs from "../Components/Marketing/CourseHomeFS/Course";
-import MultiTabs from "../Components/Marketing/MultiTabs/MultiTabs";
 import React, { useState } from "react";
 
 export default function Home() {
@@ -41,7 +45,13 @@ export default function Home() {
           <div className={styles.formS}>
             <h5>Make Great Career With India’s Finest Edtech Platform</h5>
             <p>Book a session for FREE!</p>
-            <Form radio={true} />
+            <div>
+            <div className={styles.rightF}>
+              <section className={styles.form}>
+              <Form radio={true} />
+              </section>
+            </div>
+        </div>
           </div>
           <div className={styles.forml}>
             <Image
@@ -77,6 +87,36 @@ export default function Home() {
               professionals had a successful and safe career transition with a
               250% salary hike from Learnbay, since 2015.
             </p>
+            <div className={styles.aboutStep}>
+              <div className={styles.aboutBox}>
+                <Image
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/mission.png"
+                  width="200"
+                  height="200"
+                  layout="intrinsic"
+                  alt="data science course in bangalore"
+                />
+                <p>
+                  Learnbay is an edtech platform dedicated exclusively to
+                  professionals. We provide Data Science and Full Stack
+                  Development programs dedicated to professionals only.
+                </p>
+              </div>
+              <div className={styles.aboutBox}>
+              <Image
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/mission.png"
+                  width="200"
+                  height="200"
+                  layout="intrinsic"
+                  alt="data science course in bangalore"
+                />
+                <p>
+                  Learnbay is an edtech platform dedicated exclusively to
+                  professionals. We provide Data Science and Full Stack
+                  Development programs dedicated to professionals only.
+                </p>
+              </div>
+            </div>
           </div>
           <div>
             <Image
@@ -89,19 +129,23 @@ export default function Home() {
           </div>
         </div>
         <CourseDs />
+        <SliderTabDS />
         <CourseFs />
-        <div className={styles.imgH}>
-            <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Hiring-partner-review.png"
-              width="1600px"
-              height="82px"
-              layout="intrinsic"
-              alt="data science course in bangalore"
-            />
+        <SliderTabFS />
+        <HiringPatners topHead="Our Hiring Partners" />
+        {/* <MultiTabs /> */}
+        <div className={styles.boxWrap}>
+          <h2>Get Certified & Move Towards Your Dream Job</h2>
+          <p className={styles.boxp}>
+            Our Domain Specialisation and Industry Certified Capstone Projects
+            helps you to make your past work experience relevant
+          </p>
+          <div className={styles.boxShape}>
+            <BoxShape />
           </div>
-      <MultiTabs />
-      <CareerImpactHome />
-        <Footer numEmailHide={true}/>
+        </div>
+        <CareerImpactHome />
+        <Footer numEmailHide={true} />
       </main>
     </div>
   );
