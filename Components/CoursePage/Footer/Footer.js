@@ -7,7 +7,7 @@ import Image from "next/image";
 import React from "react";
 import { FaTwitter, FaFacebookF, FaLinkedinIn, FaYoutube, FaInstagram, FaApple, FaAndroid } from "react-icons/fa";
 
-const Footer = () => {
+const Footer = ({ numEmailHide }) => {
 
   const [showMe, setShowMe] = useState(false);
   function toggle() {
@@ -31,14 +31,23 @@ const Footer = () => {
             <FaYoutube className="bIcons" />
             <FaInstagram className="bIcons" />
           </div>
-          <span style={{ display: "flex", marginTop: "20px" }}>
-            <IoMailSharp className="bIcons" />
-            contacts@learnbay.co
-          </span>
-          <span style={{ display: "flex", marginTop: "10px" }}>
-            <BsFillTelephoneFill className="bIcons" />
-            (+91) 96069 50936
-          </span>
+
+          {numEmailHide ? (
+            ""
+          ) : (
+
+            <>
+              <span style={{ display: "flex", marginTop: "20px" }}>
+                <IoMailSharp className="bIcons" />
+                contacts@learnbay.co
+              </span>
+              <span style={{ display: "flex", marginTop: "10px" }}>
+                <BsFillTelephoneFill className="bIcons" />
+                (+91) 96069 50936
+              </span>
+            </>
+          )}
+
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Courses</p>

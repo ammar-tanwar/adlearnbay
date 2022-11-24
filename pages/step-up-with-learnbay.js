@@ -101,7 +101,7 @@ export default function Home() {
           </div>
       <MultiTabs />
       <CareerImpactHome />
-        <Footer />
+        <Footer numEmailHide={true}/>
       </main>
     </div>
   );

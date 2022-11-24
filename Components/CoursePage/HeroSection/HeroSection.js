@@ -73,7 +73,7 @@ const HeroSection = ({
           </h1>
         ) : (
           <h1>
-            {title}<br /> <span> {spanTitleText}</span>
+            {title}<span> {spanTitleText}</span>
           </h1>
         )}
 
