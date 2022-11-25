@@ -153,6 +153,31 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
             required
           />
         </div>
+        {radio ? (
+          <div className={popup ? styles.formWrappers : styles.formWrapper}>
+            <input
+              id="Data Science Program"
+              value="Data Science Courses"
+              name="platform"
+              required
+              type="radio"
+              onChange={handleParam()}
+            />
+            Data Science Courses&nbsp;
+
+            <br /><input
+              id="Full Stack Program"
+              value="Full Stack Software Dev Courses"
+              name="platform"
+              required
+              type="radio"
+              onChange={handleParam()}
+            />
+            Full Stack Software Dev <br/>&nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) Courses
+          </div>
+        ) : (
+          ""
+        )}
         <p className={styles.FormText} style={{ fontSize: "10px" }}>
           By submitting the form, you agree to our Terms and Conditions and our
           Privacy Policy.

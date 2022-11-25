@@ -120,10 +120,10 @@ const Course = () => {
                             />
                             {para[1]}
                           </p>
-                          <p>
+                          {/* <p>
                             <BsCheckCircle className={styles.checkCircle} />
                             {para[2]}
-                          </p>
+                          </p> */}
                           <div className={styles.btnWrapper}>
                             <a onClick={popupShow}>
                               <button

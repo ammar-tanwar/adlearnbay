@@ -2,8 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Popup from "../Components/Popup/Popup";
-import Form from "../Components/Form/Form";
-// import Form from "../Components/Event/Form/Form";
+import Form from "../Components/Event/Form/Form";
 import Navbar from "../Components/NavbarA/Navbar";
 import Footer from "../Components/CoursePage/Footer/Footer";
 import CareerImpactHome from "../Components/Home/CareerImpactHome/CareerImpact";
@@ -91,29 +90,27 @@ export default function Home() {
               <div className={styles.aboutBox}>
                 <Image
                   src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/mission.png"
-                  width="200"
-                  height="200"
+                  width="100"
+                  height="100"
                   layout="intrinsic"
                   alt="data science course in bangalore"
                 />
                 <p>
                   Learnbay is an edtech platform dedicated exclusively to
-                  professionals. We provide Data Science and Full Stack
-                  Development programs dedicated to professionals only.
+                  professionals.
                 </p>
               </div>
               <div className={styles.aboutBox}>
               <Image
                   src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/mission.png"
-                  width="200"
-                  height="200"
+                  width="100"
+                  height="100"
                   layout="intrinsic"
                   alt="data science course in bangalore"
                 />
                 <p>
                   Learnbay is an edtech platform dedicated exclusively to
-                  professionals. We provide Data Science and Full Stack
-                  Development programs dedicated to professionals only.
+                  professionals. 
                 </p>
               </div>
             </div>
@@ -131,7 +128,6 @@ export default function Home() {
         <CourseDs />
         <SliderTabDS />
         <CourseFs />
-        <SliderTabFS />
         <HiringPatners topHead="Our Hiring Partners" />
         {/* <MultiTabs /> */}
         <div className={styles.boxWrap}>

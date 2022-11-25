@@ -302,10 +302,12 @@
 
 .formqS {
   display: grid;
+  width: -moz-fit-content;
   width: fit-content;
   grid-template-columns: 50% 50%;
   align-items: center;
-  margin: 100px 100px 50px 100px;
+  padding: 100px 100px 50px 100px;
+  background: cornsilk;
 }
 
 .formr Form {
@@ -325,14 +327,23 @@
 
 .formS FORM {
   margin: 30px 0px 0px 0px;
+  background: white;
+  padding: 30px 0px;
+  border-radius: 30px;
+  box-shadow: -1px 0px 10px 2px rgb(4 135 217 / 10%);
 }
 
 .infoS {
   display: flex;
   gap: 10px;
-  width: 100%;
-  margin-top: 40px;
+  width: fit-content;
   justify-content: center;
+  background: white;
+  margin: auto;
+  border-radius: 30px;
+  margin-top: 50px;
+  padding: 20px 10px 20px 30px;
+  box-shadow: -1px 0px 10px 2px rgb(4 135 217 / 10%);
 }
 
 .infoS p {
@@ -378,7 +389,6 @@
   display: flex;
   padding: 50px 100px;
   align-items: center;
-  background: aliceblue;
 }
 
 .imgH {
@@ -400,11 +410,12 @@
     box-shadow: -1px 0px 10px 2px rgb(4 135 217 / 10%);
     border-radius: 10px;
     background: white;
+    align-items: center;
 }
 
 .rightF {
-  width: 80%;
-  margin-left: -60px;
+  width: 70%;
+  /* margin-left: -60px; */
 }
 
 /* .formS > h5 {
@@ -544,10 +555,12 @@
   }
   .formqS {
     display: block;
-    margin: 70px 20px 50px 20px;
+    padding: 100px 20px 50px 20px;
+    width: 100%;
   }
   .formS FORM {
     margin: 20px 0px 0px 0px;
+    padding: 30px 10px;
   }
   .infoS {
     display: flex;
