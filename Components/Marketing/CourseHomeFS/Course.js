@@ -120,10 +120,10 @@ const Course = () => {
                             />
                             {para[1]}
                           </p>
-                          <p>
+                          {/* <p>
                             <BsCheckCircle className={styles.checkCircle} />
                             {para[2]}
-                          </p>
+                          </p> */}
                           <div className={styles.btnWrapper}>
                             <a onClick={popupShow}>
                               <button
@@ -145,7 +145,7 @@ const Course = () => {
                 })}
               </Swiper>
             </div>
-            <h5>Domain Elective</h5>
+            {/* <h5>Domain Elective</h5>
             <div className={styles.gridPanelDomain}>
               <Swiper
                 slidesPerView={mobile ? 1.1 : 3.2}
@@ -175,7 +175,7 @@ const Course = () => {
                   );
                 })}
               </Swiper>
-            </div>
+            </div> */}
           </div>
         ) : (
           ""

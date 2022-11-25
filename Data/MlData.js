@@ -29,14 +29,19 @@ export const MlCourseData = [
     BoxShape: {
       title: "Explore Our Machine Learning Certification Programs",
       Box1h5: "Custom-fit Training",
-      box1desc: "Get specially designed modules as per your dream AI role. Learn latest ML applications.",
+      box1desc:
+        "Get specially designed modules as per your dream AI role. Learn latest ML applications.",
       Box2h5: "Domain Focused",
-      box2desc: "Obtain cutting-edge Al and ML skills as per demanding IT-industry standards. Choose any domain of your choice.",
+      box2desc:
+        "Obtain cutting-edge Al and ML skills as per demanding IT-industry standards. Choose any domain of your choice.",
       Box3h5: "Premium Mentoring",
-      box3desc: "Enjoy and learn from mock interviews and CV writing workshops with MAANG AI/ML industry experts.",
+      box3desc:
+        "Enjoy and learn from mock interviews and CV writing workshops with MAANG AI/ML industry experts.",
       Box4h5: "Hands-on Experience",
-      box4desc: "Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies.",
-      headh5: "Watch ours alumni’s making successful Machine Learning career transition",
+      box4desc:
+        "Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies.",
+      headh5:
+        "Watch ours alumni’s making successful Machine Learning career transition",
     },
 
     OtherCertificate: {
@@ -49,7 +54,8 @@ export const MlCourseData = [
       OCHead4: "Accelerating Deep Learning with GPUs",
       OCP4: "Industrial badge on GPU handling mastery for Cloud, AI & ML.",
     },
-    syllabusDesc: "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Machine Learning Course sessions are covered practically with real-time industrial projects and case studies.",
+    syllabusDesc:
+      "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Machine Learning Course sessions are covered practically with real-time industrial projects and case studies.",
     popupHead: "Download Data science Course Brochure",
     hours: "350+ Hours",
     project: "15+ Real Time",
@@ -89,7 +95,6 @@ export const MlCourseData = [
                   "Mean, Median, Mode",
                   "Standard Deviation, Average. Probability, Permutations, and Combinations",
                   "Introduction to Linear Algebra",
-
                 ],
               },
             },
@@ -170,7 +175,7 @@ export const MlCourseData = [
                   "Hierarchical Clustering",
                   "Principal Component Analysis (PCA):",
                   "Support Vector Machine(SVM)",
-                  "Case Study on Recommendation Engine for e-commerce/retail chain & Twitter data analysis using NLP"
+                  "Case Study on Recommendation Engine for e-commerce/retail chain & Twitter data analysis using NLP",
                 ],
               },
             },
@@ -192,17 +197,13 @@ export const MlCourseData = [
                   "NoSQL, HBase & MongoDB",
                   "JSON Data & CRUD",
                   "Programming with SQL",
-
                 ],
               },
             },
             {
               chap: {
                 title: "Module 2 MongoDB",
-                desc: [
-                  "Introduction to MongoDB",
-                  "MongoDB (Advance)",
-                ],
+                desc: ["Introduction to MongoDB", "MongoDB (Advance)"],
               },
             },
             {
@@ -215,7 +216,6 @@ export const MlCourseData = [
                   "Tableau (Advance)",
                   "Hands-on: Connecting data source and data cleansing",
                   "Working with various charts, Deployment of Predictive model in visualization",
-
                 ],
               },
             },
@@ -225,7 +225,6 @@ export const MlCourseData = [
                 desc: [
                   "Getting Started With Power BI",
                   "Programming with Power BI",
-
                 ],
               },
             },
@@ -237,7 +236,6 @@ export const MlCourseData = [
                   "What is Spark",
                   "Getting to know PySpark ",
                   "Hands-on: Map reduce Use Case : Youtube data analysis & Spark RDD programming",
-
                 ],
               },
             },
@@ -289,7 +287,6 @@ export const MlCourseData = [
                   "Text Pre-Processing Techniques",
                   "Stemming",
                   "Projects And Case Study on Sentiment analysis for Twitter, web articles & Advanced Text Analytics & NLP",
-
                 ],
               },
             },
@@ -304,7 +301,6 @@ export const MlCourseData = [
                   "mage Classification and segmentation",
                   "Project: The Problem of Scale and Shape",
                   "Real-Time Use Case:  Single Shot MultiBox Detector & Object Localization",
-
                 ],
               },
             },
@@ -315,7 +311,6 @@ export const MlCourseData = [
                   "What is Reinforcement Learning - Basics",
                   "Approximation Methods for Reinforcement Learning",
                   "Projects and Case Studies on Solving Taxi Environment & Solving Frozen Lake",
-
                 ],
               },
             },
@@ -384,20 +379,31 @@ export const MlCourseData = [
       img7: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png",
       img8: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png",
       img9: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png",
-      img10: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/10.png",
-      img11: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/11.png",
-      img12: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/12.png",
-      img13: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/13.png",
-      img14: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/14.png",
-      img15: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/15.png",
-      img16: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/16.png",
-      img17: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/17.png",
-      img18: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/18.png",
-      img19: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/19.png",
+      img10:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/10.png",
+      img11:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/11.png",
+      img12:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/12.png",
+      img13:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/13.png",
+      img14:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/14.png",
+      img15:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/15.png",
+      img16:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/16.png",
+      img17:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/17.png",
+      img18:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/18.png",
+      img19:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/19.png",
       img21: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png",
       img22: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png",
       img23: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png",
-      img20: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
+      img20:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
 
     ProgramFee: {
@@ -405,9 +411,12 @@ export const MlCourseData = [
       Fee: "₹ 95,000 +GST",
       CourseFeeAndFinancing: " Machine Learning Course Fee & Financing",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Machine Learning Certification Course and offer avariety of financing options to make it more economical.",
-
     },
-    Project: { project: "15+ Projects", domain: "7+", projectTitle: "Hands-on Projects" },
+    Project: {
+      project: "15+ Projects",
+      domain: "7+",
+      projectTitle: "Hands-on Projects",
+    },
     CourseFee: {
       CourseFeeHead: "Machine Learning Course : Batch Details",
       CourseFeePara: "Machine Learning Online Classroom",
@@ -418,9 +427,6 @@ export const MlCourseData = [
       CourseFeelist5: "Company-based Mock Interviews",
     },
 
-
-
-  
     Batch: [
       {
         Module0: {
@@ -429,14 +435,9 @@ export const MlCourseData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 18th November 2022",
-                  "Time : 8 AM to 10 AM",
-
-                ],
+                desc: ["Date : 18th November 2022", "Time : 8 AM to 10 AM"],
               },
             },
-
           ],
           id: 0,
           open: true,
@@ -450,19 +451,13 @@ export const MlCourseData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 18th November 2022",
-                  "Time : 8 PM to 10 PM",
-                ],
+                desc: ["Date : 18th November 2022", "Time : 8 PM to 10 PM"],
               },
             },
             {
               chap: {
                 title: "Weekday Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 25th November 2022",
-                  "Time : 8 PM to 10 PM",
-                ],
+                desc: ["Date : 25th November 2022", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -470,7 +465,7 @@ export const MlCourseData = [
           open: false,
         },
       },
-      
+
       {
         Module0: {
           title: "Weekend Afternoon Batch  :- (Sat-Sun)",
@@ -478,20 +473,15 @@ export const MlCourseData = [
             {
               chap: {
                 title: "Weekday Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 27th November 2022",
-                  "Time : 12:30 PM to 4 PM",
-                ],
+                desc: ["Date : 27th November 2022", "Time : 12:30 PM to 4 PM"],
               },
             },
-
           ],
           id: 1,
           open: false,
         },
       },
     ],
-
 
     BatchCourses: {
       CourseFeeHead: "Machine Learning Course : Batch Details",
@@ -502,7 +492,5 @@ export const MlCourseData = [
       CourseFeelist4: "Multiple Domain Selection Options",
       CourseFeelist5: "Company-based Mock Interviews",
     },
-
-
   },
 ];

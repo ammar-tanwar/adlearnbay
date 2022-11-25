@@ -1,5 +1,6 @@
 .Course {
-  padding: 0px 100px;
+  padding: 30px 100px 50px 100px;
+  background: aliceblue;
 }
 .Course h2 {
   text-align: center;
@@ -36,8 +37,10 @@
 }
 .courses {
   background: #ffffff;
-  /* box-shadow: 0px 0px 8px rgba(40, 85, 122, 0.18); */
+  box-shadow: -1px 0px 10px 2px rgb(4 135 217 / 10%);
   margin-top: 30px;
+  border-radius: 21px;
+  padding: 20px;
 }
 
 /* .span {
@@ -64,10 +67,9 @@
   display: flex;
   height: 530px;
   width: 100%;
-
   margin-top: 20px;
   gap: 20px;
-  padding: 0px 20px;
+  padding: 0px 0px;
   overflow: auto;
   position: relative;
   scroll-behavior: smooth;
@@ -75,10 +77,10 @@
   pointer-events: auto;
 }
 .Course h5 {
-  font-size: 24px;
+  font-size: 35px;
   margin: 0;
-
-  padding: 10px 60px;
+  padding: 10px 0px;
+  text-align: center;
 }
 .leftSide,
 .middleSide,
@@ -162,7 +164,7 @@
 
 @media (max-width: 481px) {
   .Course {
-    padding: 0 20px;
+    padding: 1px 20px 20px 20px;
     margin-top: 30px;
     width: 100%;
   }
@@ -267,6 +269,7 @@
   }
   .Course h5 {
     padding: 10px;
+    font-size: 24px;
   }
   .contentBox {
     margin-top: -20px;
