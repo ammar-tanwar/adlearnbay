@@ -302,7 +302,8 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
     router.pathname === "/dsa-s3" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s9" ||
     router.pathname === "/apply-for-counselling-s3" ||
-    router.pathname === "/fssd-s3"
+    router.pathname === "/fssd-s3" ||
+    router.pathname === "/step-up-with-learnbay"
   ) {
     // -==================== Offer Campaign END POINT ==========================--------
     endPoint = "https://getform.io/f/fd68bf82-a911-435e-9719-7c134a89a731";
@@ -339,20 +340,21 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
       // -====================  Returning Audience - S6 ==========================--------
     }
 
+        // -====================  Apply For Counselling Scholarship ==========================--------
+        if (
+          router.pathname === "/apply-for-counselling-scholarship"
+        ) {
+          // -====================  Returning Audience - S6 ==========================--------
+          endPoint = "https://getform.io/f/69076866-e1f7-4cf3-a7d2-12603819a5a4";
+          // -====================  Returning Audience - S6 ==========================--------
+        }
+
   // -==================== Webinar = END POINT ==========================--------
   if (event) {
 
     // -==================== Webinar =  END POINT ==========================--------
     endPoint = "https://getform.io/f/df003555-86c7-4ae5-a7f8-98c21dd9ad92";
     // -==================== Webinar = END POINT ==========================--------
-  }
-
-  if (
-    router.pathname === "/step-up-with-learnbay"
-  ) {
-    // -====================  offer (step up with marketing) ==========================--------
-    endPoint = "https://getform.io/f/fd68bf82-a911-435e-9719-7c134a89a731";
-    // -====================  Returning Audience - S6 ==========================--------
   }
 
   let btnTxt = "Apply for  Counseliing"
@@ -618,6 +620,12 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
       
 
       return;
+    }
+
+    if (
+      router.pathname === "/apply-for-counselling-scholarship"
+    ) {
+      router.push("/Thank-you-scholarship");
     }
 
     if (
