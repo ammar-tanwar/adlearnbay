@@ -7,7 +7,7 @@ import getDay from "date-fns/getDay";
 import jsCookie from "js-cookie";
 
 
-const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) => {
+const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobPlace }) => {
   const router = useRouter();
   let today = new Date();
   let time =
@@ -799,6 +799,43 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
           />
         </div>
 
+        {jobPlace ? (
+          <>
+        {jobDesc ? (
+          <>
+            <div className={styles.formWrapper}>
+              <input
+                type="text"
+                name="jobDescription"
+                placeholder="Job Title or Qualification*"
+                className={popup ? styles.EmailInputs : styles.EmailInput}
+                value={query.jobDescription}
+                onChange={handleParam()}
+
+              />
+
+            </div>
+          </>
+        ) : (
+          <>
+            {" "}
+            <div className={styles.formWrapper}>
+              <input
+                type="text"
+                name="jobDescription"
+                placeholder="Job Description*"
+                className={popup ? styles.EmailInputs : styles.EmailInput}
+                value={query.jobDescription}
+                onChange={handleParam()}
+                required
+              />
+            </div>
+          </>
+        )}
+</>
+        ) : (
+          <>
+            {" "}
         {jobDesc ? (
           <>
             <div className={styles.formWrapper}>
@@ -829,6 +866,8 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc }) =>
               />
             </div>
           </>
+        )}
+ </>
         )}
 
 

@@ -81,7 +81,7 @@ function Counselling() {
                     </div>
 
                     <div className={styles.formr}>
-                        <Form />
+                        <Form jobPlace={true} jobDesc={true}/>
                     </div>
                 </div>
             <Footer />
