@@ -1,0 +1,135 @@
+{
+  "metaInfo": {
+    "title": "HLD of a Cab booking Application",
+    "desc": "Enroll in the System Design Event and learn from live classes. Get Knowledge by working on industry projects.",
+    "keyword": "Web Development",
+    "canonical": "https://www.learnbay.co/Event/Introduction-to-Full-Stack-Web-Development"
+  },
+  "mainData": {
+    "title": "HLD of a Cab booking Application",
+    "eventDate": "December 10, 2022",
+    "tag": "System Design",
+    "eventTime": "5 p.m. to 8 p.m.",
+    "Duration": "120min",
+    "img": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Intro+to+Full+Stack+Web+Development.png",
+    "register": "703"
+  },
+  "header": {
+    "title": "HLD of a Cab booking Application",
+    "titleSpan": "System Design",
+    "desc": "For SDEs with 2+ years working Exp",
+    "eventDate": "December 10, 2022",
+    "eventTime": "5 p.m. to 8 p.m.",
+    "imgSrc": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Wazid-Sir.png",
+    "register": "903",
+    "width": "600",
+    "height": "560",
+    "alt": "Header",
+    "instructor": "Mr. Wazid",
+    "href1": ""
+  },
+  "feature": {
+    "title": "System Design Masterclass Features",
+    "h1": "Customized learning",
+    "p1": "Fulfill your learning goals and get expert assistance.",
+    "h2": "Live Classes",
+    "p2": "Get 100% live sessions led by Full stack experts.",
+    "h3": "3 years subscription",
+    "p3": "Get 3 years of course subscription and life-time access to recorded classes.",
+    "img1": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Customized-Learning.png",
+    "img2": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Live-Classes.png",
+    "img3": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Shareable-Certification.png"
+  },
+  "profile": {
+    "pImg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/2.png",
+    "desc": "Full Stack Developer",
+    "pName": "Mr. Wazid",
+    "mIcon": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/amazon1.png",
+    "list1": "2+ years of experience in Web Development",
+    "list2": "2 Open-source contribution"
+  },
+  "whyUs": {
+    "title": "You will learn about",
+    "l1": "Introduction to Web Development",
+    "l2": "What is Full Stack Web Development",
+    "l3": "Web Development Job Roles and Market Demand",
+    "l4": "Hands-On project"
+  },
+  "whoCan": {
+    "title": "This masterclass is for",
+    "heading1": "Software Developers",
+    "para1": "  Software developers who are aiming to accelerate their respective careers by upskilling with Full stack development.",
+    "heading2": "Peer Working Professionals",
+    "para2": "Professionals, irrespective of their domains, who have great enthusiasm to make a career transition into Full stack development.",
+    "heading3": "About learnbay Academy",
+    "para3": " learnbay Academy is an ed-tech company, founded by alumni of IIT Kharagpur."
+  },
+  "eventDeatureData": {
+    "Heading": "HLD of a Cab booking Application",
+    "StartON": "STARTS ON :",
+    "StartONT": " December 10th, 2022 05:00 PM (IST)",
+    "EndON": "ENDS ON : ",
+    "EndONT": "December 10th, 2022 08:00 PM (IST)",
+    "Venue": "VENUE : ",
+    "VenueO": "Online",
+    "Duration": " DURATION : ",
+    "DurationT": " 3 hours",
+
+    "para1": "About this Masterclass",
+      "paragraph1": "Popular cab booking apps manage the heavy traffic and time complexity at the same time. What is it made of that can easily coordinate all of it? Have you ever thought how cool the designs of cab booking apps like Uber, Ola etc are?",
+
+      "paragraph1_1": " Get Ready for a ride into the world of High-Level Design of Cab booking apps",
+      "paragraph2_1": "Amit",
+      "paragraph2_2": " is hosting a FREE Masterclass on",
+      "paragraph2_3": " December 10th at 5 PM ",
+      "paragraph3": " Register today to reserve your spot.",
+
+      "para2": "Topics Covered In The Masterclass",
+      "paragraph24": "1. Learn how a cab booking system design works.",
+      "paragraph4": "2. Use of Real time data base management system and NoSQL.",
+      "paragraph5": "3. Learn how to scale system from countable users to millions of users.",
+     
+
+      "para3": "What you will gain from this Masterclass",
+      "paragraph6": "Discover various location-based system design concepts.",
+      "paragraph7": "Build the structures for applications and decide on the functional needs for modern Cab-booking services.",
+      "paragraph8": "Learn the traffic estimation, database design, cache schema & architecture behind Cab booking apps",
+     
+      "para4": "Meet Amit",
+      "paragraph9": "Designation : ",
+      "paragraph9_1": "Software Engineer",
+      "paragraph10": "Company : ",
+      "paragraph10_1": "Ex Paypal & Ex Samsung",
+
+      "linkdinsrc":"#",
+
+      "para5": "Learn the Pre-requisites of this Masterclass for FREE",
+      "paragraph12": "JavaScript",
+      "paragraph13": "CSS",
+
+      "para6": "This Masterclass is for",
+      "paragraph6_2": "SDEs Seeking Upskilling",
+      "paragraph7_2": "SDEs Wishing to convert to product companies from Service companies",
+      "paragraph8_3": "SDEs wanting to learn System Design",
+
+      "para7": "What our Learners have to say",
+
+      "para8": "About Learnbay Academy",
+      "paragraph14": "Learnbay offers domain specialized courses in fields such as full-stack software development, Data Structure Algorithms and System Design ",
+      "paragraph15": "Are you an Engineer who’s not happy with the job and wants to upskill and get into MAANG companies? We are here with the best option, Learnbay’s software development and DSA system design courses are designed for the working professionals who wants to advance their career.",
+      "paragraph16": "Highlighted features of Learnbay:",
+      "paragraph17": "A curriculum that has been developed, supervised, and approved by industry experts",
+      "paragraph18": "1:1 mentorship, guided by top experts in the field",
+      "paragraph19": "Gain technical expertise by working on challenging real- world projects ",
+      "paragraph20": "250 + hiring partners with dedicated placement support and 100% Interview guaranteed ",
+      "paragraph21": "NEW! Attend a free Demo Class now and the enroll for the domain you’re looking for."
+     
+      
+    },
+    "headImg":{
+      "deskimg":"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/hldEcomWebsite.jpg",
+      "mobimg":"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/hldEcomMobile.jpg"
+    }
+  
+  }
+  

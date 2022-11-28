@@ -74,7 +74,7 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3, props, 
           <li>{props.paragraph24}</li>
           <li>{props.paragraph4}</li>
           <li>{props.paragraph5}</li>
-          <li>{props.paragraph5_1}</li>
+          
         </ul>
       </div>
 
@@ -84,7 +84,7 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3, props, 
           <li>{props.paragraph6}</li>
           <li>{props.paragraph7}</li>
           <li>{props.paragraph8}</li>
-          <li>{props.paragraph8_1}</li>
+         
         </ul>
 
       </div>
@@ -205,6 +205,10 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3, props, 
 export default EventFeature;
 
 
+
+// <li>{props.paragraph5_1}</li>
+
+// <li>{props.paragraph8_1}</li>
 // <div>
 //         <p className={styles.paragramTitle}>{props.para5}</p>
 //         <div className={styles.PreRequisites}>
