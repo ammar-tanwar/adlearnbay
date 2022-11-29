@@ -3,9 +3,9 @@ export const FullStackWebCourseData = [
     FirstSection: {
       deskTopPara: "Be a demanding Developer to stay ahead",
       mTopPara: "Be a demanding Developer to stay ahead",
-      mTitle: "Full Stack Web Development Course",
+      mTitle: "Full Stack Web Development Course ",
       spanMTitleText: "Crack MAANG Interviews",
-      title: "Full Stack Web Development Course",
+      title: "Full Stack Web Development Course ",
       spanTitleText: "Crack MAANG Interviews",
       desc: "Learn ultimate methods from MNC specialists with real-world projects",
       src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/header-home.webp",
@@ -64,7 +64,7 @@ export const FullStackWebCourseData = [
     CSyllabus: "Full Stack Web Development Course Syllabus",
     CourseHighlights: "Full Stack Course Highlights",
     srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf",
-    hours: "300+ Hours",
+    hours: "200+ Hours",
     project: "12+ Real Time",
 
     syllabus: [
@@ -84,19 +84,19 @@ export const FullStackWebCourseData = [
                 ],
               },
             },
-            {
-              chap: {
-                title: "Topic 2 :- Programming Language Refresher: (Java & Python)",
-                desc: [
-                  "Syntax, Data Types, Variables, Loops, Conditionals, and If Statement",
-                  "OOPs, Built-in Modules in Python and Java",
-                  "Coding fundamentals",
-                  "Master the command line interface",
-                  "File Handling, Regular Expression, Exceptional Handling",
-                  "Collection, Framework, Modules & Packages",
-                ],
-              },
-            },
+            // {
+            //   chap: {
+            //     title: "Topic 2 :- Programming Language Refresher: (Java & Python)",
+            //     desc: [
+            //       "Syntax, Data Types, Variables, Loops, Conditionals, and If Statement",
+            //       "OOPs, Built-in Modules in Python and Java",
+            //       "Coding fundamentals",
+            //       "Master the command line interface",
+            //       "File Handling, Regular Expression, Exceptional Handling",
+            //       "Collection, Framework, Modules & Packages",
+            //     ],
+            //   },
+            // },
           ],
           id: 0,
           open: true,
@@ -175,13 +175,13 @@ export const FullStackWebCourseData = [
               chap: {
                 title: "Module 1 :- Real-time use cases and projects)",
                 desc: [
-                  "Authentication",
-                  "CRUD",
-                  "Payment Gateway Integration",
-                  "API Integration",
-                  "Video Conferencing Application",
-                  "Blog Site",
-                  "Workout Application",
+                  // "Authentication",
+                  // "CRUD",
+                  // "Payment Gateway Integration",
+                  // "API Integration",
+                  // "Video Conferencing Application",
+                  // "Blog Site",
+                  // "Workout Application",
                   "Buy/Sell Second-hand Products",
                   "On-Demand Home Service Application",
                   "Online Code Editor Application",

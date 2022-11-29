@@ -7,7 +7,7 @@
   },
   "mainData": {
     "title": "HLD of a Cab booking Application",
-    "eventDate": "December 10, 2022",
+    "eventDate": "December 18, 2022",
     "tag": "System Design",
     "eventTime": "5 p.m. to 8 p.m.",
     "Duration": "120min",
@@ -18,7 +18,7 @@
     "title": "HLD of a Cab booking Application",
     "titleSpan": "System Design",
     "desc": "For SDEs with 2+ years working Exp",
-    "eventDate": "December 10, 2022",
+    "eventDate": "December 18, 2022",
     "eventTime": "5 p.m. to 8 p.m.",
     "imgSrc": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Wazid-Sir.png",
     "register": "903",
@@ -67,9 +67,9 @@
   "eventDeatureData": {
     "Heading": "HLD of a Cab booking Application",
     "StartON": "STARTS ON :",
-    "StartONT": " December 10th, 2022 05:00 PM (IST)",
+    "StartONT": " December 18th, 2022 05:00 PM (IST)",
     "EndON": "ENDS ON : ",
-    "EndONT": "December 10th, 2022 08:00 PM (IST)",
+    "EndONT": "December 18th, 2022 08:00 PM (IST)",
     "Venue": "VENUE : ",
     "VenueO": "Online",
     "Duration": " DURATION : ",
@@ -81,13 +81,13 @@
       "paragraph1_1": " Get Ready for a ride into the world of High-Level Design of Cab booking apps",
       "paragraph2_1": "Amit",
       "paragraph2_2": " is hosting a FREE Masterclass on",
-      "paragraph2_3": " December 10th at 5 PM ",
+      "paragraph2_3": " December 18th at 5 PM ",
       "paragraph3": " Register today to reserve your spot.",
 
       "para2": "Topics Covered In The Masterclass",
-      "paragraph24": "1. Learn how a cab booking system design works.",
-      "paragraph4": "2. Use of Real time data base management system and NoSQL.",
-      "paragraph5": "3. Learn how to scale system from countable users to millions of users.",
+      "paragraph24": "Learn how a cab booking system design works.",
+      "paragraph4": "Use of Real time data base management system and NoSQL.",
+      "paragraph5": "Learn how to scale system from countable users to millions of users.",
      
 
       "para3": "What you will gain from this Masterclass",
