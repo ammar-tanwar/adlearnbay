@@ -55,7 +55,7 @@
     width: 1300px;
     margin-top: 50px;
     text-align: center;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 25% 25% 25% 25%;
   }
   
   .Ptop {
@@ -151,6 +151,7 @@
       font-size: 20px;
       margin: 15px;
       color: white;
+      text-align: center;
     }
     
     .hptop {

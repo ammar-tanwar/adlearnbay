@@ -83,7 +83,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
 
     setDisable(true);
     if (event) {
-      router.push("/Thank-you")
+      router.push("/Thank-you-fsd-webinar")
       return;
     }
   };
