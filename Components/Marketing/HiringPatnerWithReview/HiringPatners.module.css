@@ -23,11 +23,14 @@
   }
   
   .LeftWrap {
-    background-image: url("/Hiring_Logo.webp");
+    background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/marketing/web+banner+1.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 460px;
+    box-shadow: -1px 0px 10px 2px rgb(4 135 217 / 10%);
+    margin: 20px;
+    border-radius: 20px;
   }
 
   .right {
@@ -174,7 +177,7 @@
       padding: 20px;
     } */
     .LeftWrap {
-      background-image: url("/Hiring_Logo.webp");
+      background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/marketing/web+banner+1.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       width:100%;
@@ -220,7 +223,8 @@
     }
 
     .LeftWrap {
-      margin-bottom: 10px;
+      margin: 0;
+      margin-bottom: 20px !important;
     }
 
     .reviewWrap {
