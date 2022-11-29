@@ -11,7 +11,7 @@ const Footer = () => {
     <section className={styles.FooterSection}>
       <div className={styles.FooterDiv}>
         <div className={styles.FooterDivInner}>
-          <a href="/fswd-s1">
+         
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/logo-light.png"
               alt="Learnbay"
@@ -20,15 +20,16 @@ const Footer = () => {
               width="230px"
               height="60px"
             />
-          </a>
+          
           <p className={styles.FooterInnerli}>The Full-Stack Developer Program is a demanding course that offers you everything you need to know about becoming a skillful developer. Prepare for MAANG interviews by brushing up on your technical skills. Enroll now for a smooth transition.</p>
-          <span style={{ display: "flex", marginTop: "20px" }}><IoMailSharp className="bIcons" /><Link href="mailto:contacts@learnbay.co">contacts@learnbay.co</Link></span>
-          <span style={{ display: "flex", marginTop: "10px" }}><BsFillTelephoneFill className="bIcons" /><Link href="tel:+919606950936">(+91) 96069 50936</Link></span>
+          <span style={{ display: "flex", marginTop: "20px" }}><IoMailSharp className="bIcons" />contacts@learnbay.co</span>
+          <span style={{ display: "flex", marginTop: "10px" }}><BsFillTelephoneFill className="bIcons" />(+91) 96069 50936</span>
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Popular Courses</p>
-          {/* <a href="/fswd-s2"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Full Stack Web Development Program</p></a> */}
-          <a href="/fssd-s2"><p className={styles.FooterInnerli} style={{ display: "flex" }}><FaCheck className="bIcons" />Full-Stack Software Development Program</p></a>
+        <p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Full Stack Web Development Program</p>
+        <p className={styles.FooterInnerli} style={{ display: "flex" }}><FaCheck className="bIcons" />Full-Stack Software Development Program</p>
+        <p className={styles.FooterInnerli} style={{ display: "flex" }}><FaCheck className="bIcons" />Data Structure & Algorithms and System Design</p>
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Find Us Here</p>
