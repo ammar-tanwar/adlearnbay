@@ -62,7 +62,7 @@ export default function Home() {
               "ctaText":"Start Chat",
               "borderRadius":"25",
               "autoShow":false,
-              "phoneNumber":"+917795687988"
+              "phoneNumber":"+917349222263"
           }
         };
             s.onload = function() {
