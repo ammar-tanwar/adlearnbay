@@ -307,7 +307,7 @@
   grid-template-columns: 50% 50%;
   align-items: center;
   padding: 100px 100px 50px 100px;
-  background: cornsilk;
+  background: aliceblue;
 }
 
 .formr Form {
@@ -315,7 +315,7 @@
 }
 
 .formS > h5 {
-  font-size: 45px;
+  font-size: 60px;
   margin: 0;
 }
 
@@ -422,6 +422,166 @@
   font-size: px;
   margin: 0;
 } */
+
+.MVDiv {
+  padding: 30px 100px;
+}
+
+.about h4 {
+  font-size: 36px;
+  font-weight: 800;
+  padding-right: 120px;
+}
+.about h4 span {
+  color: white;
+  background-color: #edb552;
+  padding: 5px;
+}
+
+.divList p {
+  margin: 0px;
+}
+
+.FirstDiv {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.CDDiv {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  text-align: left;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.MiddleDiv {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.CDMDiv {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  text-align: left;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.CDText {
+  padding: 70px;
+}
+
+.CDText h3 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.PBot {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.FirstImg {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+
+  background-position: center;
+}
+
+.CDImg {
+  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/mission.png");
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+
+  background-position: center;
+}
+
+.MiddleImg {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+
+  background-position: center;
+}
+
+.CDMImg {
+  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/vision.png");
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+  background-position: center;
+}
+
+.FirstText {
+  padding: 50px;
+  padding-top: 0px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.FirstText h3 {
+  font-size: 30px;
+  color: #000;
+}
+
+.DivIcon {
+  display: flex;
+  margin-top: 30px;
+}
+
+.BoxIconuser {
+  color: white;
+  font-size: 50px;
+  padding: 10px;
+  background-color: #0072bc;
+  border-radius: 10px;
+}
+
+.BoxIconcompress {
+  color: white;
+  font-size: 50px;
+  padding: 10px;
+  background-color: #edb552;
+  border-radius: 10px;
+}
+
+.BoxIconclone {
+  color: white;
+  font-size: 50px;
+  padding: 10px;
+  background-color: #edb552;
+  border-radius: 10px;
+}
+
+.BoxIconcard {
+  color: white;
+  font-size: 50px;
+  padding: 10px;
+  background-color: #0072bc;
+  border-radius: 10px;
+}
+
+.iconBox p {
+  margin: 5px;
+}
 
 @media (max-width: 481px) {
   .container {
@@ -591,6 +751,40 @@
 }
 .formSA > p {
   font-size: 18px;
+}
+
+.MVDiv {
+  padding: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.FirstDiv {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  align-items: center;
+}
+.MiddleDiv {
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.FirstImg {
+  height: 210px;
+}
+
+.MiddleImg {
+  height: 210px;
+  width: 100%;
+}
+
+.FirstText {
+  padding: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 }
 

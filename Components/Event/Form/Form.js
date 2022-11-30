@@ -6,7 +6,6 @@ import { useRouter } from "next/router";
 import getDay from "date-fns/getDay";
 
 const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
-
   const router = useRouter();
 
   let today = new Date();
@@ -17,7 +16,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
   const [startDate, setStartDate] = useState();
   const [disable, setDisable] = useState(false);
   const [value, setValue] = useState();
-
 
   const [query, setQuery] = useState({
     name: "",
@@ -41,17 +39,22 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
     }));
   };
 
-
-
   let endPoint = "https://getform.io/f/df003555-86c7-4ae5-a7f8-98c21dd9ad92";
 
   if (event) {
     endPoint = "https://getform.io/f/df003555-86c7-4ae5-a7f8-98c21dd9ad92";
   }
 
-  let btnTxt = "Apply for  Counseliing"
+  // -==================== Step-Up-page ==========================--------
+  if (router.pathname === "/step-up-with-learnbay") {
+    // -==================== Step-Up-page END POINT ==========================--------
+    endPoint = "https://getform.io/f/fd68bf82-a911-435e-9719-7c134a89a731";
+    // -==================== Step-Up-page END POINT ==========================--------
+  }
+
+  let btnTxt = "Apply for  Counseliing";
   if (event) {
-    btnTxt = "Register Now"
+    btnTxt = "Register Now";
   }
 
   // Form Submit function
@@ -83,8 +86,12 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
 
     setDisable(true);
     if (event) {
-      router.push("/Thank-you-fsd-webinar")
+      router.push("/Thank-you-fsd-webinar");
       return;
+    }
+
+    if (router.pathname === "/step-up-with-learnbay") {
+      router.push("/Thank-you-marketing");
     }
   };
 
@@ -130,17 +137,17 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
             style={
               popup
                 ? {
-                  height: "50px",
-                  borderRadius: "8px",
-                  border: "1px solid grey",
-                  padding: "10px",
-                }
+                    height: "50px",
+                    borderRadius: "8px",
+                    border: "1px solid grey",
+                    padding: "10px",
+                  }
                 : {
-                  border: "0",
-                  height: "50px",
-                  borderRadius: "3px",
-                  borderBottom: "1px solid grey",
-                }
+                    border: "0",
+                    height: "50px",
+                    borderRadius: "3px",
+                    borderBottom: "1px solid grey",
+                  }
             }
             name="phone"
             rules={{ required: true }}
@@ -164,8 +171,8 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
               onChange={handleParam()}
             />
             Data Science Courses&nbsp;
-
-            <br /><input
+            <br />
+            <input
               id="Full Stack Program"
               value="Full Stack Software Dev Courses"
               name="platform"
@@ -173,7 +180,8 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
               type="radio"
               onChange={handleParam()}
             />
-            Full Stack Software Dev <br/>&nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) Courses
+            Full Stack Software Dev <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) Courses
           </div>
         ) : (
           ""
@@ -196,14 +204,10 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
             {downloadBrochure ? "Download Now" : "Apply Now"}
           </button>
         )}
-        <input type='hidden' id="zc_gad" name="zc_gad" value=""/>
+        <input type="hidden" id="zc_gad" name="zc_gad" value="" />
       </form>
     </div>
   );
 };
 
 export default Form;
-
-
-
-

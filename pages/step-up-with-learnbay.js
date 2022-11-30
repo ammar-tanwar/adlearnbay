@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Event/Form/Form";
-import Navbar from "../Components/NavbarA/Navbar";
+import Navbar from "../Components/CoursePage/Navbar/Navbar";
 import Footer from "../Components/CoursePage/Footer/Footer";
 import CareerImpactHome from "../Components/Home/CareerImpactHome/CareerImpact";
 import BoxShape from "../Components/Boxshape/BoxShape1";
@@ -13,6 +13,12 @@ import HiringPatners from "../Components/Marketing/HiringPatnerWithReview/Hiring
 import CourseDs from "../Components/Marketing/CourseHomeDS/Course";
 import CourseFs from "../Components/Marketing/CourseHomeFS/Course";
 import React, { useState } from "react";
+import {
+  FaUserFriends,
+  FaCompress,
+  FaAddressCard,
+  FaClone,
+} from "react-icons/fa";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -42,19 +48,19 @@ export default function Home() {
         </Popup>
         <div className={styles.formqS}>
           <div className={styles.formS}>
-            <h5>Make Great Career With India’s Finest Edtech Platform</h5>
-            <p>Book a session for FREE!</p>
+            <h5>Earning in peanuts? Upskill with Learnbay</h5>
+            <p>Book 1-1 free counselling session</p>
             <div>
-            <div className={styles.rightF}>
-              <section className={styles.form}>
-              <Form radio={true} />
-              </section>
+              <div className={styles.rightF}>
+                <section className={styles.form}>
+                  <Form radio={true} />
+                </section>
+              </div>
             </div>
-        </div>
           </div>
           <div className={styles.forml}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/landing+page.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/marketing/header.png"
               width="870"
               height="666"
               layout="intrinsic"
@@ -76,53 +82,74 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className={styles.formqSA}>
-          <div className={styles.formSA}>
-            <h5>About Us</h5>
-            <p>
-              Learnbay is an edtech platform dedicated exclusively to
-              professionals. We provide Data Science and Full Stack Development
-              programs dedicated to professionals only. More than 10,000+
-              professionals had a successful and safe career transition with a
-              250% salary hike from Learnbay, since 2015.
-            </p>
-            <div className={styles.aboutStep}>
-              <div className={styles.aboutBox}>
-                <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/mission.png"
-                  width="100"
-                  height="100"
-                  layout="intrinsic"
-                  alt="data science course in bangalore"
-                />
-                <p>
-                  Learnbay is an edtech platform dedicated exclusively to
-                  professionals.
-                </p>
-              </div>
-              <div className={styles.aboutBox}>
+        <div className={styles.MVDiv}>
+          <div className={styles.FirstDiv}>
+            <div className={styles.FirstImg}>
               <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/mission.png"
-                  width="100"
-                  height="100"
-                  layout="intrinsic"
-                  alt="data science course in bangalore"
-                />
-                <p>
-                  Learnbay is an edtech platform dedicated exclusively to
-                  professionals. 
-                </p>
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/marketing/mission.png"
+                width="517"
+                height="380"
+                layout="intrinsic"
+                alt="data science course in bangalore"
+              />
+            </div>
+            <div className={styles.FirstText}>
+              <h3>Mission</h3>
+              <p className={styles.list}>
+                Safeguarding your career, even under the most unstable job
+                market scenario, via the acquisition of emerging
+                technology-based unique skills.
+              </p>
+              <div className={styles.DivIcon}>
+                <div className={styles.iconBox}>
+                  <FaUserFriends
+                    className={styles.BoxIconuser}
+                    alt="data science course in bangalore"
+                  />
+                  <p> Literate everyone with data science knowledge.</p>
+                </div>
+                <div className={styles.iconBox}>
+                  <FaCompress
+                    className={styles.BoxIconcompress}
+                    alt="data science course in bangalore"
+                  />
+                  <p>
+                    Bust the myth that only IT pros can have lucrative careers.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-          <div>
-            <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/about+us.png"
-              width="870"
-              height="666"
-              layout="intrinsic"
-              alt="data science course in bangalore"
-            />
+          <div className={styles.MiddleDiv}>
+            <div className={styles.FirstText}>
+              <h3>Vision</h3>
+              <p className={styles.list}>
+                To lead the industrial training sector by generating demanding
+                professionals with future proof technical skills and knowledge.
+              </p>
+              <div className={styles.DivIcon}>
+                <div className={styles.iconBox}>
+                  <FaAddressCard
+                    className={styles.BoxIconcard}
+                    alt="Learnbay data science course"
+                  />
+                  <p>Provide scopes to techies & non-techies all alike.</p>
+                </div>
+                <div className={styles.iconBox}>
+                  <FaClone className={styles.BoxIconclone} />
+                  <p>Ensure an extremely personalized learning experience.</p>
+                </div>
+              </div>
+            </div>
+            <div className={styles.MiddleImg}>
+              <Image
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/marketing/vision.png"
+                width="517"
+                height="330"
+                layout="intrinsic"
+                alt="data science course"
+              />
+            </div>
           </div>
         </div>
         <CourseDs />
