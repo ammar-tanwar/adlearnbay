@@ -45,11 +45,13 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
     endPoint = "https://getform.io/f/df003555-86c7-4ae5-a7f8-98c21dd9ad92";
   }
 
-  // -==================== Step-Up-page ==========================--------
-  if (router.pathname === "/step-up-with-learnbay") {
-    // -==================== Step-Up-page END POINT ==========================--------
-    endPoint = "https://getform.io/f/fd68bf82-a911-435e-9719-7c134a89a731";
-    // -==================== Step-Up-page END POINT ==========================--------
+  // -==================== Marketing ==========================--------
+  if (
+    router.pathname === "/step-up-with-learnbay"
+  ) {
+    // -==================== Marketing ==========================--------
+    endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
+    // -==================== Marketing ==========================--------
   }
 
   let btnTxt = "Apply for  Counseliing";
