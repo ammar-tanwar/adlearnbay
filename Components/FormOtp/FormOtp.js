@@ -1,31 +1,28 @@
 
-import React from 'react';
+import React, { useState, useEffect } from "react";
 import styles from './FormOtp.module.css'
 import { useRouter } from "next/router";
-import PhoneInput from "react-phone-number-input";
 
 function FormOtp({ popup }) {
 
   const router = useRouter();
-  const [value, setValue] = React.useState();
+  const [btnHide, setBtnHide] = useState(false)
+  const [sendOtpBtnHide, setSendOtpBtnHide] = useState(false)
+  const [toggleClass, setToggleClass] = useState(false);
 
-  const [mobileNum, setMobileNum] = React.useState(true)
-  const [form, setForm] = React.useState({
+  const [form, setForm] = useState({
     name: '',
     email: '',
     phone: '',
     jobDescription: '',
     workExperience: '',
-    password: '',
+    otp: '',
     url: router.asPath,
   });
 
-  // React.useEffect(() => {
-  //   setForm({ ...form, phone: value });
-
-  // }, [value]);
-
-  const [toggleClass, setToggleClass] = React.useState(false);
+  useEffect(() => {
+    setForm({ ...form });
+  }, []);
 
   const handleForm = (e) => {
     const name = e.target.name;
@@ -36,34 +33,132 @@ function FormOtp({ popup }) {
         [name]: value,
       }
     ));
-
-    if (form.phone.length < 9 || form.phone.length >= 10) {
-      setMobileNum(true)
-    } else {
-      setMobileNum(false)
-    }
   };
 
-
-
-
   const annoyingSubmitButton = () => {
-    if (form.password.length < 6) {
+    if (form.phone.length < 10) {
       setToggleClass((prevState) => !prevState);
     }
   };
 
+  let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
+
+
+  const sendOtp = (e) => {
+    e.preventDefault();
+    const mobileNumber = form.phone
+    const data = fetch(`${"/api/Authentication/sendOtp"}`,
+      {
+        method: "POST",
+        body: JSON.stringify({ mobileNumber: mobileNumber }),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    )
+      .then(response => response.json())
+      .then(response => {
+        console.log("Response", response)
+        alert("message Send")
+
+        if (response.msg == 'OTP Sent Successfully') {
+          setSendOtpBtnHide(true)
+          setBtnHide(true)
+        } else if (response.msg == 'OTP Sending Failed Through API') {
+          setSendOtpBtnHide(false)
+          setBtnHide(false)
+        } else if (response.msg == "Mobile Number is Not Match from DataBase") {
+          setSendOtpBtnHide(false)
+          setBtnHide(false)
+        } else if (response.msg == "Invalid Phone Number") {
+          setSendOtpBtnHide(false)
+          setBtnHide(false)
+        } else {
+          console.log("API IS NOT WORKING")
+        }
+
+      })
+      .catch(err => {
+        console.log("API IS NOT WORKING")
+        console.log(err);
+      });
+  }
+
+  const formSubmit = (e) => {
+    e.preventDefault();
+    const formData = new FormData();
+    Object.entries(form).forEach(([key, value]) => {
+      formData.append(key, value);
+      console.log("key-", key, "-----", "value-", value)
+    });
+    const mobileNumber = form.phone
+    const otp = form.otp
+    const data = fetch(`${"/api/Authentication/matchOtp"}`,
+      {
+        method: "POST",
+        body: JSON.stringify({ mobileNumber: mobileNumber, otp: otp }),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    )
+      .then(response => response.json())
+      .then(response => {
+        console.log("Response", response)
+        alert("otp match ")
+
+        if (response.msg == 'OTP Validated Successfully') {
+          setSendOtpBtnHide(true)
+          setBtnHide(true)
+          fetch(`${endPoint}`, {
+            method: "POST",
+            body: formData,
+          })
+          .then(() =>
+            setForm({
+              name: "",
+              email: "",
+              jobDescription: "",
+              phone: "",
+              workExperience: "",
+              otp:'',
+              url: ""
+            })
+          );
+          if (router.pathname === "/otpForm") {
+            router.push("/Thank-you");
+          }
+
+        } else if (response.msg == 'OTP Not Validate') {
+          setSendOtpBtnHide(false)
+          setBtnHide(false)
+        } else if (response.msg == "OTP Expired") {
+          setSendOtpBtnHide(false)
+          setBtnHide(false)
+        } else if (response.msg == "Invalid Phone Number") {
+          setSendOtpBtnHide(false)
+          setBtnHide(false)
+        } else {
+          console.log("API IS NOT WORKING")
+        }
+      })
+      .catch(err => {
+        console.log("API IS NOT WORKING")
+        console.log(err);
+      });
+  };
+
+
+
   return (
     <>
       <section className={styles.formSection}>
-        <h1 className={styles.heading}>Annoying Submit Button 😡</h1>
+        <h1 className={styles.heading}>Annoying Submit Button</h1>
         <form
           autoComplete="false"
-          action="https://formspree.io/f/meqvlgqr"
+          onSubmit={formSubmit}
           method="POST"
         >
-
-
           <div className={styles.inputBlock}>
             <label className={styles.label}>
               Name <span className={styles.requiredLabel}>*</span>
@@ -110,7 +205,7 @@ function FormOtp({ popup }) {
           </div>
           <div className={styles.inputBlock}>
             <label className={styles.label}>
-            Work Experience <span className={styles.requiredLabel}>*</span>
+              Work Experience <span className={styles.requiredLabel}>*</span>
             </label>
             <select
               name="workExperience"
@@ -132,7 +227,7 @@ function FormOtp({ popup }) {
               Phone Number <span className={styles.requiredLabel}>*</span>
             </label>
             <input
-              className={`${styles.input} ${mobileNum ? styles.wrongInput : styles.correctInput}`}
+              className={`${styles.input} ${form.phone.length === 10 ? styles.correctInput : styles.wrongInput}`}
               type="number"
               name="phone"
               value={form.phone}
@@ -142,29 +237,58 @@ function FormOtp({ popup }) {
               required
             />
           </div>
-
-
           <div>
-            {mobileNum ? (
+            {form.phone.length === 10 ? (
+              ''
+            ) : (
               <p className={styles.warningMessage}>
                 Mobile Number length should be 10
               </p>
-            ) : (
-              ''
             )}
           </div>
-          <div
-            className={`${styles.submitButtonWrapper} ${toggleClass ? styles.float : ''}`}
-          >
-            <button
-              tabIndex={-1}
-              className={`${styles.submitButton} ${form.password.length > 6 ? styles.buttonSuccess : ''}`}
-
-              onMouseEnter={annoyingSubmitButton}
+          {btnHide ? (
+            <div className={styles.inputBlock}>
+              <label className={styles.label}>
+                Enter OTP <span className={styles.requiredLabel}>*</span>
+              </label>
+              <input
+                className={`${styles.input} ${form.otp.length === 4 ? styles.correctInput : styles.wrongInput}`}
+                type="text"
+                name="otp"
+                value={form.otp}
+                onChange={handleForm}
+                tabIndex={-1}
+                required
+                maxLength={4}
+                minLength={4}
+              />
+              <div
+                className={`${styles.submitButtonWrapper} ${toggleClass ? styles.float : ''}`}
+              >
+                <button
+                  tabIndex={-1}
+                  className={`${styles.submitButton} ${form.phone.length === 10 ? styles.buttonSuccess : ''}`}
+                  onMouseEnter={annoyingSubmitButton}
+                >
+                  Apply Now
+                </button>
+              </div>
+            </div>
+          ) : ("")}
+          {sendOtpBtnHide ? ("") : (
+            <div
+              className={`${styles.submitButtonWrapper} ${toggleClass ? styles.float : ''}`}
             >
-              Submit
-            </button>
-          </div>
+              <button
+                tabIndex={-1}
+                className={`${styles.submitButton} ${form.phone.length === 10 ? styles.buttonSuccess : ''}`}
+                onMouseEnter={annoyingSubmitButton}
+                onClick={sendOtp}
+              >
+                Send OTP
+              </button>
+            </div>
+          )}
         </form>
       </section>
 

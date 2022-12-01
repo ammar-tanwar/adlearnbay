@@ -7,17 +7,14 @@ export default async function handler(req, res) {
   if (req.method === "POST") {
     let { mobileNumber, otp } = req.body;
     // console.log(mobileNumber,otp,"request api");
-
     let addDateTime = new Date();
     addDateTime = addDateTime.toUTCString();
-
     let filter = /^[0-9]{10}$/;
     if (filter.test(mobileNumber)) {
-
       let data = await db.collection("otp").findOne({ "mobileNumber": mobileNumber});
-      console.log(data)
       if (data !== null) {
-        if (data.otp === otp) {
+        const dbOtp = data.otp
+        if (dbOtp == otp) {
           const filter = { mobileNumber: mobileNumber };
           const updateDoc = {
             $set: {
@@ -26,20 +23,18 @@ export default async function handler(req, res) {
               addDateTime: addDateTime,
             },
           };
-            
           let otpData = db.collection("otp").updateMany(filter, updateDoc);
-           res.status(200).json({ msg: "Otp Match Successfully"});
+          res.status(200).json({ msg: "OTP Validated Successfully"});
         }else{
-            res.status(200).json({ msg: "Wrong Otp Please Correct"});
+            res.status(200).json({ msg: "OTP Not Validate"});
         }
-
       }
       else {
-        res.status(200).json({ msg: "Wrong Otp"});
+        res.status(200).json({ msg: "OTP Expired"});
       }
     }
     else {
-      res.status(200).json({ data:{"mobileNumber":mobileNumber,"otp": otp}, msg: "Please Enter Correct Phone Number or OTP " });
+      res.status(200).json({msg: "Invalid Phone Number" });
     }
   }
 }

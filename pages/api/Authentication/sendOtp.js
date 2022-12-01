@@ -19,10 +19,10 @@ export default async function handler(req, res) {
 
     let filter = /^[0-9]{10}$/;
     if (filter.test(mobileNumber)) {
-
       let data = await db.collection("otp").findOne({ "mobileNumber": mobileNumber });
       if (data !== null) {
-        if (data.mobileNumber === mobileNumber) {
+        const mobileNumber1 = data.mobileNumber
+        if (mobileNumber1 === mobileNumber) {
           const filter = { mobileNumber: mobileNumber };
           const updateDoc = {
             $set: {
@@ -41,23 +41,17 @@ export default async function handler(req, res) {
             })
             .then(resp => {
               let data = resp.data
-
-              // if (data.)
-
               let otpData = db.collection("otp").updateMany(filter, updateDoc);
-              res.status(200).json({ msg: "message Send", data: data, "UserMSG": "User Updated Successfully" });
-
+              res.status(200).json({ msg: "OTP Sent Successfully", userStatus: "Already Exist" });
             })
             .catch(error => {
+              res.status(200).json({ msg: " OTP Sending Failed Through API" });
               console.error(error);
-              res.status(200).json({ msg: " message failed" });
             });
-
+        } else {
+          res.status(200).json({ msg: "Mobile Number is Not Match from DataBase" });
         }
-
-      }
-      else {
-
+      } else {
         axios
           .post(MTALKZ_SEND_SMS_POST_API_URL, {
             "apikey": MTALKZ_SEND_SMS_API_KEY,
@@ -68,7 +62,6 @@ export default async function handler(req, res) {
           })
           .then(resp => {
             let data = resp.data
-
             let otpData = db.collection("otp").insertOne({
               mobileNumber: mobileNumber,
               otp: otp,
@@ -78,18 +71,17 @@ export default async function handler(req, res) {
               },
               messageTemplate: message,
               addDateTime: addDateTime,
-
             });
-            res.status(200).json({ msg: "message Send", data: data, "UserMSG": "User Created Successfully" });
+            res.status(200).json({ msg: "OTP Sent Successfully", userStatus: 'New User' });
           })
           .catch(error => {
+            res.status(200).json({ msg: " OTP Sending Failed Through API" });
             console.error(error);
-            res.status(200).json({ msg: " message Failed" });
           });
       }
     }
     else {
-      res.status(200).json({ mobileNumber, msg: "Please Enter Correct Phone Number" });
+      res.status(200).json({msg: "Invalid Phone Number" });
     }
   }
 }
