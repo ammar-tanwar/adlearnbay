@@ -302,8 +302,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
     router.pathname === "/dsa-s3" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s9" ||
     router.pathname === "/apply-for-counselling-s3" ||
-    router.pathname === "/fssd-s3" ||
-    router.pathname === "/step-up-with-learnbay"
+    router.pathname === "/fssd-s3" 
   ) {
     // -==================== Offer Campaign END POINT ==========================--------
     endPoint = "https://getform.io/f/fd68bf82-a911-435e-9719-7c134a89a731";
@@ -313,7 +312,8 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
 
   // -==================== Marketing ==========================--------
   if (
-    router.pathname === "/apply-for-counselling-marketing"
+    router.pathname === "/apply-for-counselling-marketing"||
+    router.pathname === "/step-up-with-learnbay"
   ) {
     // -==================== Marketing ==========================--------
     endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
@@ -515,7 +515,8 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
 
     if (
       (router.pathname === "/step-up-with-learnbay" && downloadBrochure) ||
-      router.pathname === "/step-up-with-learnbay"
+      router.pathname === "/step-up-with-learnbay" ||
+      router.pathname === "/apply-for-counselling-marketing"
     ) {
      
       router.push("/Thank-you-marketing");
@@ -612,9 +613,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
       router.pathname === "/apply-for-counselling-s4" ||
       router.pathname === "/apply-for-counselling-data-science" ||
       router.pathname === "/apply-for-counselling-s3" ||
-      router.pathname === "/apply-for-counselling-email-marketing" ||
-   
-      router.pathname === "/apply-for-counselling-marketing"
+      router.pathname === "/apply-for-counselling-email-marketing"
     ) {
       router.push("/Thank-you");
       

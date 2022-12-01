@@ -82,7 +82,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className={styles.MVDiv}>
+        {/* <div className={styles.MVDiv}>
           <div className={styles.FirstDiv}>
             <div className={styles.FirstImg}>
               <Image
@@ -151,7 +151,54 @@ export default function Home() {
               />
             </div>
           </div>
-        </div>
+        </div> */}
+        <div className={styles.formqSA}>
+          <div className={styles.formSA}>
+            <h5>About Us</h5>
+            <p>
+              Learnbay is an edtech platform dedicated exclusively to
+              professionals. We provide Data Science and Full Stack Development
+              programs dedicated to professionals only. More than 10,000+
+              professionals had a successful and safe career transition with a
+              250% salary hike from Learnbay, since 2015.
+            </p>
+            <div className={styles.aboutStep}>
+              <div className={styles.aboutBox}>
+                <Image
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/marketing/mission+(1).png"
+                  width="100"
+                  height="100"
+                  layout="intrinsic"
+                  alt="data science course in bangalore"
+                />
+                <p>
+                Safeguarding your career, even under the most unstable job market scenario, via the acquisition of emerging technology-based unique skills.
+                </p>
+              </div>
+              <div className={styles.aboutBox}>
+              <Image
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/marketing/vision+2.png"
+                  width="100"
+                  height="100"
+                  layout="intrinsic"
+                  alt="data science course in bangalore"
+                />
+                <p>
+                To lead the industrial training sector by generating demanding professionals with future proof technical skills and knowledge.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <Image
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/marketing/logo+609x619.png"
+              width="870"
+              height="666"
+              layout="intrinsic"
+              alt="data science course in bangalore"
+            />
+          </div>
+          </div>
         <CourseDs />
         <SliderTabDS />
         <CourseFs />

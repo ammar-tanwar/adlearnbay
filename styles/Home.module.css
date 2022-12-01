@@ -617,6 +617,7 @@
     margin-bottom: 20px;
     display: grid;
     grid-template-columns: 30% 70%;
+    padding: 0px;
   }
 
   .container1 {
