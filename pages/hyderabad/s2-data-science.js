@@ -19,7 +19,6 @@ import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
 import { DataScienceCourseData } from "../../Data/hyderabad/DataScienceCourse";
 import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
 
-
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -29,9 +28,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-         <title>
-        Data Science course - Learnbay
-        </title>
+        <title>Data Science course - Learnbay</title>
         <meta
           name="description"
           content="Advance certification online data science course with 100% placement assistance 
@@ -39,7 +36,10 @@ export default function Home() {
           projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
           24/7 Learner’s support."
         />
-        <meta name="Keywords" content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee" />
+        <meta
+          name="Keywords"
+          content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee"
+        />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{
@@ -79,10 +79,10 @@ export default function Home() {
             x.parentNode.insertBefore(s, x);`,
           }}
         />
-
       </Head>
-      <main>  <Navbar popup={true} jobDesc={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} jobDesc={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -95,127 +95,113 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/HyderabadTopWeb.jpg"
-        MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/HyderabadTopMob.jpg"
-        courseName="Data Science Course"
-        cityName="In Hyderabad"
-        ptag="Data science is the study of data with the aim of gaining critical 
+          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/HyderabadTopWeb.jpg"
+          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/HyderabadTopMob.jpg"
+          courseName="Data Science Course"
+          cityName="In Hyderabad"
+          ptag="Data science is the study of data with the aim of gaining critical 
         business insights. It is a multidisciplinary method for analysing massive
         volumes of data. Upskill and lead with this course in Hyderabad which 
         provides 100% Placement Assistance."
-      />
-
-      <div className={styles.program1}>
-        <ProgramInfo
-          p1={DataScienceCourseData[0].ProgramInfo.p1}
-          p11={DataScienceCourseData[0].ProgramInfo.p11}
-          p2={DataScienceCourseData[0].ProgramInfo.p2}
-          p22={DataScienceCourseData[0].ProgramInfo.p22}
-          p3={DataScienceCourseData[0].ProgramInfo.p3}
-          p33={DataScienceCourseData[0].ProgramInfo.p33}
-          p4={DataScienceCourseData[0].ProgramInfo.p4}
-          p44={DataScienceCourseData[0].ProgramInfo.p44}
         />
-      </div>
-      <HiringPatners
-        topHead="Our Hiring Partner's In Hyderabad"
-      />
-
-      <div className={styles.Feature} id="Feature">
-        <ProgramWithHighLight
-          title={DataScienceCourseData[0].BoxShape.title}
-          Box1h5={DataScienceCourseData[0].BoxShape.Box1h5}
-          box1desc={DataScienceCourseData[0].BoxShape.box1desc}
-          Box2h5={DataScienceCourseData[0].BoxShape.Box2h5}
-          box2desc={DataScienceCourseData[0].BoxShape.box2desc}
-          Box3h5={DataScienceCourseData[0].BoxShape.Box3h5}
-          box3desc={DataScienceCourseData[0].BoxShape.box3desc}
-          Box4h5={DataScienceCourseData[0].BoxShape.Box4h5}
-          box4desc={DataScienceCourseData[0].BoxShape.box4desc}
-
-          HHeading="Course Details"
-          Duration="250+ Hours"
-          InterviewCalls=" 10 "
-          Projects="12+"
-          CourseFee="₹ 85,000 +GST "
-          Domain="7+"
+        <div className={styles.program1}>
+          <ProgramInfo
+            p1={DataScienceCourseData[0].ProgramInfo.p1}
+            p11={DataScienceCourseData[0].ProgramInfo.p11}
+            p2={DataScienceCourseData[0].ProgramInfo.p2}
+            p22={DataScienceCourseData[0].ProgramInfo.p22}
+            p3={DataScienceCourseData[0].ProgramInfo.p3}
+            p33={DataScienceCourseData[0].ProgramInfo.p33}
+            p4={DataScienceCourseData[0].ProgramInfo.p4}
+            p44={DataScienceCourseData[0].ProgramInfo.p44}
+          />
+        </div>
+        <HiringPatners topHead="Our Hiring Partner's In Hyderabad" />
+        <div className={styles.Feature} id="Feature">
+          <ProgramWithHighLight
+            title={DataScienceCourseData[0].BoxShape.title}
+            Box1h5={DataScienceCourseData[0].BoxShape.Box1h5}
+            box1desc={DataScienceCourseData[0].BoxShape.box1desc}
+            Box2h5={DataScienceCourseData[0].BoxShape.Box2h5}
+            box2desc={DataScienceCourseData[0].BoxShape.box2desc}
+            Box3h5={DataScienceCourseData[0].BoxShape.Box3h5}
+            box3desc={DataScienceCourseData[0].BoxShape.box3desc}
+            Box4h5={DataScienceCourseData[0].BoxShape.Box4h5}
+            box4desc={DataScienceCourseData[0].BoxShape.box4desc}
+            HHeading="Course Details"
+            Duration="250+ Hours"
+            InterviewCalls=" 10 "
+            Projects="12+"
+            CourseFee="₹ 90,000 +GST "
+            Domain="7+"
+          />
+        </div>
+        <SyllabusNew
+          syllabus={DataScienceCourseData[0].syllabus}
+          CSyllabus="Data Science Course Syllabus In Hyderabad"
+          CourseHighlights={DataScienceCourseData[0].CourseHighlights}
+          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
+          popupHead={DataScienceCourseData[0].popupHead}
+          hours={DataScienceCourseData[0].hours}
+          project={DataScienceCourseData[0].project}
         />
-      </div>
-
-
-
-
-      <SyllabusNew
-        syllabus={DataScienceCourseData[0].syllabus}
-        CSyllabus="Data Science Course Syllabus In Hyderabad"
-        CourseHighlights={DataScienceCourseData[0].CourseHighlights}
-        syllabusDesc={DataScienceCourseData[0].syllabusDesc}
-        popupHead={DataScienceCourseData[0].popupHead}
-        hours={DataScienceCourseData[0].hours}
-        project={DataScienceCourseData[0].project}
-      />
-
-      <CityImage
-        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityHyderabadWeb.jpg"
-        MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityHyderabadMob.jpg"
-        cityName="హైదరాబాద్"
-
-      />
-      <OurExpert
-        H5={DataScienceCourseData[0].OurExpert.H5}
-        img1={DataScienceCourseData[0].OurExpert.img1}
-        img2={DataScienceCourseData[0].OurExpert.img2}
-        img3={DataScienceCourseData[0].OurExpert.img3}
-        img4={DataScienceCourseData[0].OurExpert.img4}
-        img5={DataScienceCourseData[0].OurExpert.img5}
-        img6={DataScienceCourseData[0].OurExpert.img6}
-        img7={DataScienceCourseData[0].OurExpert.img7}
-        img8={DataScienceCourseData[0].OurExpert.img8}
-        img9={DataScienceCourseData[0].OurExpert.img9}
-        img10={DataScienceCourseData[0].OurExpert.img10}
-        img11={DataScienceCourseData[0].OurExpert.img11}
-        img12={DataScienceCourseData[0].OurExpert.img12}
-        img13={DataScienceCourseData[0].OurExpert.img13}
-        img14={DataScienceCourseData[0].OurExpert.img14}
-        img15={DataScienceCourseData[0].OurExpert.img15}
-        img16={DataScienceCourseData[0].OurExpert.img16}
-        img17={DataScienceCourseData[0].OurExpert.img17}
-        img18={DataScienceCourseData[0].OurExpert.img18}
-        img19={DataScienceCourseData[0].OurExpert.img19}
-        img21={DataScienceCourseData[0].OurExpert.img21}
-        img22={DataScienceCourseData[0].OurExpert.img22}
-        img23={DataScienceCourseData[0].OurExpert.img23}
-        img20={DataScienceCourseData[0].OurExpert.img20}
-      />
-      <Certificate
-        H4="Data Science Certification Program In Hyderabad"
-      />
-      <div className={styles.ProjectWrapper} id="project">
-        <Project popupHead={DataScienceCourseData[0].Project.popupHead}
-          project={DataScienceCourseData[0].Project.project}
-          domain={DataScienceCourseData[0].Project.domain}
-          projectTitle="Hands-on Projects In Hyderabad" />
-      </div>
-      <SliderTab />
-
-      <CourseFee
-        syllabusDesc={DataScienceCourseData[0].syllabusDesc}
-        syllabus={DataScienceCourseData[0].Batch}
-
-        CourseFeeHead={DataScienceCourseData[0].BatchCourses.CourseFeeHead}
-        CourseFeePara={DataScienceCourseData[0].BatchCourses.CourseFeePara}
-        CourseFeelist1={DataScienceCourseData[0].BatchCourses.CourseFeelist1}
-        CourseFeelist2={DataScienceCourseData[0].BatchCourses.CourseFeelist2}
-        CourseFeelist3={DataScienceCourseData[0].BatchCourses.CourseFeelist3}
-        CourseFeelist4={DataScienceCourseData[0].BatchCourses.CourseFeelist4}
-        CourseFeelist5={DataScienceCourseData[0].BatchCourses.CourseFeelist5}
-      />
-      <LearnSupport
-        headForCity={true}
-        cityName="24/7 Learner’s Support In Hyderabad"
-      />
-      <CityFooter
-        cityName="Hyderabad" />
+        <CityImage
+          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityHyderabadWeb.jpg"
+          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityHyderabadMob.jpg"
+          cityName="హైదరాబాద్"
+        />
+        <OurExpert
+          H5={DataScienceCourseData[0].OurExpert.H5}
+          img1={DataScienceCourseData[0].OurExpert.img1}
+          img2={DataScienceCourseData[0].OurExpert.img2}
+          img3={DataScienceCourseData[0].OurExpert.img3}
+          img4={DataScienceCourseData[0].OurExpert.img4}
+          img5={DataScienceCourseData[0].OurExpert.img5}
+          img6={DataScienceCourseData[0].OurExpert.img6}
+          img7={DataScienceCourseData[0].OurExpert.img7}
+          img8={DataScienceCourseData[0].OurExpert.img8}
+          img9={DataScienceCourseData[0].OurExpert.img9}
+          img10={DataScienceCourseData[0].OurExpert.img10}
+          img11={DataScienceCourseData[0].OurExpert.img11}
+          img12={DataScienceCourseData[0].OurExpert.img12}
+          img13={DataScienceCourseData[0].OurExpert.img13}
+          img14={DataScienceCourseData[0].OurExpert.img14}
+          img15={DataScienceCourseData[0].OurExpert.img15}
+          img16={DataScienceCourseData[0].OurExpert.img16}
+          img17={DataScienceCourseData[0].OurExpert.img17}
+          img18={DataScienceCourseData[0].OurExpert.img18}
+          img19={DataScienceCourseData[0].OurExpert.img19}
+          img21={DataScienceCourseData[0].OurExpert.img21}
+          img22={DataScienceCourseData[0].OurExpert.img22}
+          img23={DataScienceCourseData[0].OurExpert.img23}
+          img20={DataScienceCourseData[0].OurExpert.img20}
+        />
+        <Certificate H4="Data Science Certification Program In Hyderabad" />
+        <div className={styles.ProjectWrapper} id="project">
+          <Project
+            popupHead={DataScienceCourseData[0].Project.popupHead}
+            project={DataScienceCourseData[0].Project.project}
+            domain={DataScienceCourseData[0].Project.domain}
+            projectTitle="Hands-on Projects In Hyderabad"
+          />
+        </div>
+        <SliderTab />
+        <CourseFee
+          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
+          syllabus={DataScienceCourseData[0].Batch}
+          CourseFeeHead={DataScienceCourseData[0].BatchCourses.CourseFeeHead}
+          CourseFeePara={DataScienceCourseData[0].BatchCourses.CourseFeePara}
+          CourseFeelist1={DataScienceCourseData[0].BatchCourses.CourseFeelist1}
+          CourseFeelist2={DataScienceCourseData[0].BatchCourses.CourseFeelist2}
+          CourseFeelist3={DataScienceCourseData[0].BatchCourses.CourseFeelist3}
+          CourseFeelist4={DataScienceCourseData[0].BatchCourses.CourseFeelist4}
+          CourseFeelist5={DataScienceCourseData[0].BatchCourses.CourseFeelist5}
+        />
+        <LearnSupport
+          headForCity={true}
+          cityName="24/7 Learner’s Support In Hyderabad"
+        />
+        <CityFooter cityName="Hyderabad" />
       </main>
     </div>
   );

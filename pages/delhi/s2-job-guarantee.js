@@ -33,7 +33,11 @@ export default function Home() {
           content="Advance certification 100% placement assistance course with 1:1 Guaranteed 
           interview calls, 20+ Real-time projects, 3+ Capstone projects, 3 years of course 
           subscription ,Lifetime Access to recorded classes and 24/7 Learner’s support."
-        /><meta name="Keywords" content="best data science course with placement assistance, data analytics course with job assistance, online data science course with placement assistance, data analytics online course with placement assistance, placement assistance data science course, job assitance machine learning courses, placement assistance artificial intelligence courses, data analytics course with placement assistance, machine learning course with placement assistance, data science Placement assistance program india, data science course with job assistance india, job assistance data science courses" />
+        />
+        <meta
+          name="Keywords"
+          content="best data science course with placement assistance, data analytics course with job assistance, online data science course with placement assistance, data analytics online course with placement assistance, placement assistance data science course, job assitance machine learning courses, placement assistance artificial intelligence courses, data analytics course with placement assistance, machine learning course with placement assistance, data science Placement assistance program india, data science course with job assistance india, job assistance data science courses"
+        />
 
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
@@ -75,8 +79,9 @@ export default function Home() {
           }}
         />
       </Head>
-      <main>  <Navbar popup={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -89,66 +94,62 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/DelhiTopWeb.jpg"
-        MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/DelhiTopMob.jpg"
-        courseName="100% Placement Assistance Program "
-        cityName="In Delhi"
-        ptag="Real-time industrial projects will help you gain the finest level of 
+          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/DelhiTopWeb.jpg"
+          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/DelhiTopMob.jpg"
+          courseName="100% Placement Assistance Program "
+          cityName="In Delhi"
+          ptag="Real-time industrial projects will help you gain the finest level of 
         technical expertise. Be a Master without a Master’s degree. Improve 
         your knowledge with this course in Delhi and get 100% Placement 
         Assistance."
-      />
-      <div className={styles.program1}>
-      <ProgramInfo
-        p1={JobGuaranteeCourseData[0].ProgramInfo.p1}
-        p11={JobGuaranteeCourseData[0].ProgramInfo.p11}
-        p2={JobGuaranteeCourseData[0].ProgramInfo.p2}
-        p22={JobGuaranteeCourseData[0].ProgramInfo.p22}
-        p3={JobGuaranteeCourseData[0].ProgramInfo.p3}
-        p33={JobGuaranteeCourseData[0].ProgramInfo.p33}
-        p4={JobGuaranteeCourseData[0].ProgramInfo.p4}
-        p44={JobGuaranteeCourseData[0].ProgramInfo.p44}
-      />
-    </div>
-      <HiringPatners
-        topHead="Our Hiring Partner's In Delhi"
-      />
-      <div className={styles.Feature} id="Feature">
-        <ProgramWithHighLight
-        title={JobGuaranteeCourseData[0].BoxShape.title}
-        Box1h5={JobGuaranteeCourseData[0].BoxShape.Box1h5}
-        box1desc={JobGuaranteeCourseData[0].BoxShape.box1desc}
-        Box2h5={JobGuaranteeCourseData[0].BoxShape.Box2h5}
-        box2desc={JobGuaranteeCourseData[0].BoxShape.box2desc}
-        Box3h5={JobGuaranteeCourseData[0].BoxShape.Box3h5}
-        box3desc={JobGuaranteeCourseData[0].BoxShape.box3desc}
-        Box4h5={JobGuaranteeCourseData[0].BoxShape.Box4h5}
-        box4desc={JobGuaranteeCourseData[0].BoxShape.box4desc}
-        jobGuarantee = {true}
-          HHeading="Course Details"
-          Duration="500+ Hours"
-          InterviewCalls="unlimited"
-          Projects="20+"
-          CourseFee="₹ 1,10,000 +GST"
-          Domain="7+"
         />
-      </div>
-
-      <SyllabusNew
-        syllabus={JobGuaranteeCourseData[0].syllabus}
-        CSyllabus="100% Job Assistance Course Syllabus In Delhi"
-        CourseHighlights={JobGuaranteeCourseData[0].CourseHighlights}
-        syllabusDesc={JobGuaranteeCourseData[0].syllabusDesc}
-        popupHead={JobGuaranteeCourseData[0].popupHead}
-        hours={JobGuaranteeCourseData[0].hours}
-        project={JobGuaranteeCourseData[0].project}
-      />
-      <CityImage 
-      DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityDelhiWeb.jpg"
-      MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityDelhiMob.jpg"
-      cityName="दिल्ली"
-      />
-        
+        <div className={styles.program1}>
+          <ProgramInfo
+            p1={JobGuaranteeCourseData[0].ProgramInfo.p1}
+            p11={JobGuaranteeCourseData[0].ProgramInfo.p11}
+            p2={JobGuaranteeCourseData[0].ProgramInfo.p2}
+            p22={JobGuaranteeCourseData[0].ProgramInfo.p22}
+            p3={JobGuaranteeCourseData[0].ProgramInfo.p3}
+            p33={JobGuaranteeCourseData[0].ProgramInfo.p33}
+            p4={JobGuaranteeCourseData[0].ProgramInfo.p4}
+            p44={JobGuaranteeCourseData[0].ProgramInfo.p44}
+          />
+        </div>
+        <HiringPatners topHead="Our Hiring Partner's In Delhi" />
+        <div className={styles.Feature} id="Feature">
+          <ProgramWithHighLight
+            title={JobGuaranteeCourseData[0].BoxShape.title}
+            Box1h5={JobGuaranteeCourseData[0].BoxShape.Box1h5}
+            box1desc={JobGuaranteeCourseData[0].BoxShape.box1desc}
+            Box2h5={JobGuaranteeCourseData[0].BoxShape.Box2h5}
+            box2desc={JobGuaranteeCourseData[0].BoxShape.box2desc}
+            Box3h5={JobGuaranteeCourseData[0].BoxShape.Box3h5}
+            box3desc={JobGuaranteeCourseData[0].BoxShape.box3desc}
+            Box4h5={JobGuaranteeCourseData[0].BoxShape.Box4h5}
+            box4desc={JobGuaranteeCourseData[0].BoxShape.box4desc}
+            jobGuarantee={true}
+            HHeading="Course Details"
+            Duration="500+ Hours"
+            InterviewCalls="unlimited"
+            Projects="20+"
+            CourseFee="₹ 1,20,000 +GST"
+            Domain="7+"
+          />
+        </div>
+        <SyllabusNew
+          syllabus={JobGuaranteeCourseData[0].syllabus}
+          CSyllabus="100% Job Assistance Course Syllabus In Delhi"
+          CourseHighlights={JobGuaranteeCourseData[0].CourseHighlights}
+          syllabusDesc={JobGuaranteeCourseData[0].syllabusDesc}
+          popupHead={JobGuaranteeCourseData[0].popupHead}
+          hours={JobGuaranteeCourseData[0].hours}
+          project={JobGuaranteeCourseData[0].project}
+        />
+        <CityImage
+          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityDelhiWeb.jpg"
+          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityDelhiMob.jpg"
+          cityName="दिल्ली"
+        />
         <OurExpert
           H5={JobGuaranteeCourseData[0].OurExpert.H5}
           img1={JobGuaranteeCourseData[0].OurExpert.img1}
@@ -175,20 +176,19 @@ export default function Home() {
           img23={JobGuaranteeCourseData[0].OurExpert.img23}
           img20={JobGuaranteeCourseData[0].OurExpert.img20}
         />
-        <Certificate
-          H4="100% Job Assistance Program In Delhi"
-        />
+        <Certificate H4="100% Job Assistance Program In Delhi" />
         <div className={styles.ProjectWrapper} id="project">
-          <Project popupHead={JobGuaranteeCourseData[0].Project.popupHead}
+          <Project
+            popupHead={JobGuaranteeCourseData[0].Project.popupHead}
             project={JobGuaranteeCourseData[0].Project.project}
             domain={JobGuaranteeCourseData[0].Project.domain}
-            projectTitle="Hands-on Projects In Delhi" />
+            projectTitle="Hands-on Projects In Delhi"
+          />
         </div>
         <SliderTab />
         <CourseFee
           syllabusDesc={JobGuaranteeCourseData[0].syllabusDesc}
           syllabus={JobGuaranteeCourseData[0].Batch}
-
           CourseFeeHead={JobGuaranteeCourseData[0].BatchCourses.CourseFeeHead}
           CourseFeePara={JobGuaranteeCourseData[0].BatchCourses.CourseFeePara}
           CourseFeelist1={JobGuaranteeCourseData[0].BatchCourses.CourseFeelist1}
@@ -201,8 +201,7 @@ export default function Home() {
           headForCity={true}
           cityName="24/7 Learner’s Support In Delhi"
         />
-        <CityFooter 
-        cityName="Delhi"/>
+        <CityFooter cityName="Delhi" />
       </main>
     </div>
   );

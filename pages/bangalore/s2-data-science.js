@@ -28,9 +28,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-         <title>
-        Data Science course - Learnbay
-        </title>
+        <title>Data Science course - Learnbay</title>
         <meta
           name="description"
           content="Advance certification online data science course with 100% placement assistance 
@@ -38,7 +36,10 @@ export default function Home() {
           projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
           24/7 Learner’s support."
         />
-        <meta name="Keywords" content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee" />
+        <meta
+          name="Keywords"
+          content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee"
+        />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{
@@ -78,7 +79,6 @@ export default function Home() {
             x.parentNode.insertBefore(s, x);`,
           }}
         />
-
       </Head>
       <main>
         <Navbar popup={true} jobDesc={true} />
@@ -91,11 +91,9 @@ export default function Home() {
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below Details to get started</p> */}
             <Form popup={true} setTrigger={setPopups} jobDesc={true} />
-
           </div>
         </Popup>
         <FirstSection
-  
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/BengaluruTopWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/BengaluruTopMob.jpg"
           courseName="Data Science Course"
@@ -108,21 +106,18 @@ export default function Home() {
         />
 
         <div className={styles.program1}>
-        <ProgramInfo
-          p1={DataScienceCourseData[0].ProgramInfo.p1}
-          p11={DataScienceCourseData[0].ProgramInfo.p11}
-          p2={DataScienceCourseData[0].ProgramInfo.p2}
-          p22={DataScienceCourseData[0].ProgramInfo.p22}
-          p3={DataScienceCourseData[0].ProgramInfo.p3}
-          p33={DataScienceCourseData[0].ProgramInfo.p33}
-          p4={DataScienceCourseData[0].ProgramInfo.p4}
-          p44={DataScienceCourseData[0].ProgramInfo.p44}
-        />
-      </div>
-        <HiringPatners
-          topHead="Our Hiring Partner's In Bangalore"
-
-        />
+          <ProgramInfo
+            p1={DataScienceCourseData[0].ProgramInfo.p1}
+            p11={DataScienceCourseData[0].ProgramInfo.p11}
+            p2={DataScienceCourseData[0].ProgramInfo.p2}
+            p22={DataScienceCourseData[0].ProgramInfo.p22}
+            p3={DataScienceCourseData[0].ProgramInfo.p3}
+            p33={DataScienceCourseData[0].ProgramInfo.p33}
+            p4={DataScienceCourseData[0].ProgramInfo.p4}
+            p44={DataScienceCourseData[0].ProgramInfo.p44}
+          />
+        </div>
+        <HiringPatners topHead="Our Hiring Partner's In Bangalore" />
 
         <div className={styles.Feature} id="Feature">
           <ProgramWithHighLight
@@ -135,18 +130,14 @@ export default function Home() {
             box3desc={DataScienceCourseData[0].BoxShape.box3desc}
             Box4h5={DataScienceCourseData[0].BoxShape.Box4h5}
             box4desc={DataScienceCourseData[0].BoxShape.box4desc}
-
             HHeading="Course Details"
             Duration="250+ Hours"
             InterviewCalls=" 10 "
             Projects="12+"
-            CourseFee="₹ 85,000 +GST "
+            CourseFee="₹ 90,000 +GST "
             Domain="7+"
           />
         </div>
-
-
-
 
         <SyllabusNew
           syllabus={DataScienceCourseData[0].syllabus}
@@ -159,10 +150,9 @@ export default function Home() {
         />
 
         <CityImage
-        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityBangaloreWeb.jpg"
-        MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityBangaloreMob.jpg"
+          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityBangaloreWeb.jpg"
+          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityBangaloreMob.jpg"
           cityName="ಬೆಂಗಳೂರು"
-
         />
         <OurExpert
           H5={DataScienceCourseData[0].OurExpert.H5}
@@ -190,21 +180,20 @@ export default function Home() {
           img23={DataScienceCourseData[0].OurExpert.img23}
           img20={DataScienceCourseData[0].OurExpert.img20}
         />
-        <Certificate
-          H4="Data Science Certification Program In Bangalore"
-        />
+        <Certificate H4="Data Science Certification Program In Bangalore" />
         <div className={styles.ProjectWrapper} id="project">
-          <Project popupHead={DataScienceCourseData[0].Project.popupHead}
+          <Project
+            popupHead={DataScienceCourseData[0].Project.popupHead}
             project={DataScienceCourseData[0].Project.project}
             domain={DataScienceCourseData[0].Project.domain}
-            projectTitle="Hands-on Projects In Bangalore" />
+            projectTitle="Hands-on Projects In Bangalore"
+          />
         </div>
         <SliderTab />
 
         <CourseFee
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
           syllabus={DataScienceCourseData[0].Batch}
-
           CourseFeeHead={DataScienceCourseData[0].BatchCourses.CourseFeeHead}
           CourseFeePara={DataScienceCourseData[0].BatchCourses.CourseFeePara}
           CourseFeelist1={DataScienceCourseData[0].BatchCourses.CourseFeelist1}
@@ -217,8 +206,7 @@ export default function Home() {
           headForCity={true}
           cityName="24/7 Learner’s Support In Bangalore"
         />
-        <CityFooter
-          cityName="Bangalore" />
+        <CityFooter cityName="Bangalore" />
       </main>
     </div>
   );

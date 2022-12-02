@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-      <title>Machine Learning Course – Learnbay</title>
+        <title>Machine Learning Course – Learnbay</title>
         <meta
           name="description"
           content="Advance certification online Machine Learning course with 100% placement 
@@ -36,7 +36,10 @@ export default function Home() {
           Capstone projects, 2 years of course subscription ,Lifetime Access to recorded 
           classes and 24/7 Learner’s support."
         />
-        <meta name="Keywords" content="machine learning course, machine learning training, machine learning course institute, machine learning online course, machine learning course fee, advanced ml certification, machine learning course for working professional, advanced machine learning certification, advanced ml courses" />
+        <meta
+          name="Keywords"
+          content="machine learning course, machine learning training, machine learning course institute, machine learning online course, machine learning course fee, advanced ml certification, machine learning course for working professional, advanced machine learning certification, advanced ml courses"
+        />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{
@@ -91,8 +94,8 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/ChennaiTopWeb.jpg"
-        MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/ChennaiTopMob.jpg"
+          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/ChennaiTopWeb.jpg"
+          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/ChennaiTopMob.jpg"
           courseName="Machine Learning Course"
           cityName="In Chennai"
           ptag="Machine learning is a subfield of artificial intelligence that is widely 
@@ -103,20 +106,18 @@ export default function Home() {
         />
 
         <div className={styles.program1}>
-        <ProgramInfo
-          p1={MlCourseData[0].ProgramInfo.p1}
-          p11={MlCourseData[0].ProgramInfo.p11}
-          p2={MlCourseData[0].ProgramInfo.p2}
-          p22={MlCourseData[0].ProgramInfo.p22}
-          p3={MlCourseData[0].ProgramInfo.p3}
-          p33={MlCourseData[0].ProgramInfo.p33}
-          p4={MlCourseData[0].ProgramInfo.p4}
-          p44={MlCourseData[0].ProgramInfo.p44}
-        />
-      </div>
-        <HiringPatners
-          topHead="Our Hiring Partner's In Chennai"
-        />
+          <ProgramInfo
+            p1={MlCourseData[0].ProgramInfo.p1}
+            p11={MlCourseData[0].ProgramInfo.p11}
+            p2={MlCourseData[0].ProgramInfo.p2}
+            p22={MlCourseData[0].ProgramInfo.p22}
+            p3={MlCourseData[0].ProgramInfo.p3}
+            p33={MlCourseData[0].ProgramInfo.p33}
+            p4={MlCourseData[0].ProgramInfo.p4}
+            p44={MlCourseData[0].ProgramInfo.p44}
+          />
+        </div>
+        <HiringPatners topHead="Our Hiring Partner's In Chennai" />
         <div className="Feature" id="Feature">
           <ProgramWithHighLight
             title={MlCourseData[0].BoxShape.title}
@@ -132,12 +133,12 @@ export default function Home() {
             Duration="350+ Hours"
             InterviewCalls=" 10"
             Projects="15+"
-            CourseFee="₹ 95,000 +GST "
+            CourseFee="₹ 1,00,000 +GST "
             Domain="7+"
           />
-          </div>
+        </div>
 
-          <SyllabusNew
+        <SyllabusNew
           syllabus={MlCourseData[0].syllabus}
           CSyllabus="Machine Learning Course Syllabus In Chennai"
           CourseHighlights={MlCourseData[0].CourseHighlights}
@@ -146,54 +147,52 @@ export default function Home() {
           hours={MlCourseData[0].hours}
           project={MlCourseData[0].project}
         />
-       
-        <CityImage 
-        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityChennaiWeb.jpg"
-        MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityChennaiMob.jpg"
-        cityName="சென்னை"
-        
+
+        <CityImage
+          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityChennaiWeb.jpg"
+          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityChennaiMob.jpg"
+          cityName="சென்னை"
         />
 
-          <OurExpert
-            H5={MlCourseData[0].OurExpert.H5}
-            img1={MlCourseData[0].OurExpert.img1}
-            img2={MlCourseData[0].OurExpert.img2}
-            img3={MlCourseData[0].OurExpert.img3}
-            img4={MlCourseData[0].OurExpert.img4}
-            img5={MlCourseData[0].OurExpert.img5}
-            img6={MlCourseData[0].OurExpert.img6}
-            img7={MlCourseData[0].OurExpert.img7}
-            img8={MlCourseData[0].OurExpert.img8}
-            img9={MlCourseData[0].OurExpert.img9}
-            img10={MlCourseData[0].OurExpert.img10}
-            img11={MlCourseData[0].OurExpert.img11}
-            img12={MlCourseData[0].OurExpert.img12}
-            img13={MlCourseData[0].OurExpert.img13}
-            img14={MlCourseData[0].OurExpert.img14}
-            img15={MlCourseData[0].OurExpert.img15}
-            img16={MlCourseData[0].OurExpert.img16}
-            img17={MlCourseData[0].OurExpert.img17}
-            img18={MlCourseData[0].OurExpert.img18}
-            img19={MlCourseData[0].OurExpert.img19}
-            img21={MlCourseData[0].OurExpert.img21}
-            img22={MlCourseData[0].OurExpert.img22}
-            img23={MlCourseData[0].OurExpert.img23}
-            img20={MlCourseData[0].OurExpert.img20}
-          />
-          <Certificate
-          H4="Machine Learning Program In Chennai"
+        <OurExpert
+          H5={MlCourseData[0].OurExpert.H5}
+          img1={MlCourseData[0].OurExpert.img1}
+          img2={MlCourseData[0].OurExpert.img2}
+          img3={MlCourseData[0].OurExpert.img3}
+          img4={MlCourseData[0].OurExpert.img4}
+          img5={MlCourseData[0].OurExpert.img5}
+          img6={MlCourseData[0].OurExpert.img6}
+          img7={MlCourseData[0].OurExpert.img7}
+          img8={MlCourseData[0].OurExpert.img8}
+          img9={MlCourseData[0].OurExpert.img9}
+          img10={MlCourseData[0].OurExpert.img10}
+          img11={MlCourseData[0].OurExpert.img11}
+          img12={MlCourseData[0].OurExpert.img12}
+          img13={MlCourseData[0].OurExpert.img13}
+          img14={MlCourseData[0].OurExpert.img14}
+          img15={MlCourseData[0].OurExpert.img15}
+          img16={MlCourseData[0].OurExpert.img16}
+          img17={MlCourseData[0].OurExpert.img17}
+          img18={MlCourseData[0].OurExpert.img18}
+          img19={MlCourseData[0].OurExpert.img19}
+          img21={MlCourseData[0].OurExpert.img21}
+          img22={MlCourseData[0].OurExpert.img22}
+          img23={MlCourseData[0].OurExpert.img23}
+          img20={MlCourseData[0].OurExpert.img20}
         />
+        <Certificate H4="Machine Learning Program In Chennai" />
         <div className={styles.ProjectWrapper} id="project">
-          <Project popupHead={MlCourseData[0].Project.popupHead}
+          <Project
+            popupHead={MlCourseData[0].Project.popupHead}
             project={MlCourseData[0].Project.project}
             domain={MlCourseData[0].Project.domain}
-            projectTitle="Hands-on Projects In Chennai" />
+            projectTitle="Hands-on Projects In Chennai"
+          />
         </div>
         <SliderTab />
         <CourseFee
           syllabusDesc={MlCourseData[0].syllabusDesc}
           syllabus={MlCourseData[0].Batch}
-
           CourseFeeHead={MlCourseData[0].BatchCourses.CourseFeeHead}
           CourseFeePara={MlCourseData[0].BatchCourses.CourseFeePara}
           CourseFeelist1={MlCourseData[0].BatchCourses.CourseFeelist1}
@@ -206,8 +205,7 @@ export default function Home() {
           headForCity={true}
           cityName="24/7 Learner’s Support In Chennai"
         />
-        <CityFooter 
-        cityName="Chennai"/>
+        <CityFooter cityName="Chennai" />
       </main>
     </div>
   );

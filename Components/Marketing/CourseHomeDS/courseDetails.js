@@ -1,5 +1,4 @@
 export const viewAllD = [
-  
   {
     id: 1,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-program.png",
@@ -9,7 +8,7 @@ export const viewAllD = [
     para: [
       "200 hours of Interactive Learning",
       "8 Projects + 1 Capstone",
-      "Course Fee : ₹ 65,000 + GST",
+      "Course Fee : ₹ 70,000 + GST",
     ],
     link1: "/data-science-certification-courses",
     link2:
@@ -24,7 +23,7 @@ export const viewAllD = [
     para: [
       "250 hours of Interactive Learning",
       "12 Projects + 1 Capstones",
-      "Course Fee : ₹ 85,000 + GST",
+      "Course Fee : ₹ 90,000 + GST",
     ],
     link1: "/advance-data-science-certification-courses",
     link2:
@@ -39,7 +38,7 @@ export const viewAllD = [
     para: [
       "350 hours of Interactive Learning",
       "15 Projects + 1 Capstones",
-      "Course Fee : ₹ 95,000 + GST",
+      "Course Fee : ₹ 1,00,000 + GST",
     ],
     link1: "/artificial-intelligence-certification-course",
     link2:
@@ -54,7 +53,7 @@ export const viewAllD = [
     para: [
       "400 hours of Interactive Learning",
       "15 Projects + 1 Capstones",
-      "Course Fee : ₹ 95,000 + GST",
+      "Course Fee : ₹ 1,00,000 + GST",
     ],
     link1: "/data-science-ai-for-managers",
     link2:
@@ -69,7 +68,7 @@ export const viewAllD = [
     para: [
       "500 hours of Interactive Learning",
       "20 Projects + 3 Capstones",
-      "Course Fee : ₹ 1,10,000 + GST",
+      "Course Fee : ₹ 1,20,000 + GST",
     ],
     link1: "/data-science-ai-masters-program",
     link2:
@@ -84,7 +83,7 @@ export const viewAllD = [
     para: [
       "180 hours of Interactive Learning",
       "8 Projects",
-      "Course Fee : ₹ 65,000 + GST",
+      "Course Fee : ₹ 70,000 + GST",
     ],
     link1: "/data-analytics-certification-course",
     link2:
@@ -100,7 +99,7 @@ export const viewAllD = [
     para: [
       "200 hours of Interactive Learning",
       "8 Projects",
-      "Course Fee : ₹ 65,000 + GST",
+      "Course Fee : ₹ 70,000 + GST",
     ],
     link1: "/business-analytics-certification-course",
     link2:

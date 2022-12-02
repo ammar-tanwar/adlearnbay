@@ -1,5 +1,4 @@
 export const viewAllD = [
-  
   {
     id: 1,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/advance-data-science-ai-program.webp",
@@ -9,7 +8,7 @@ export const viewAllD = [
     para: [
       "250 hours of Interactive Learning",
       "12 Projects + 1 Capstones",
-      "Course Fee : ₹ 85,000 + GST",
+      "Course Fee : ₹ 90,000 + GST",
     ],
     link1: "/data-science-certification-courses",
   },
@@ -22,10 +21,9 @@ export const viewAllD = [
     para: [
       "350 hours of Interactive Learning",
       "15 Projects + 1 Capstones",
-      "Course Fee : ₹ 95,000 + GST",
+      "Course Fee : ₹ 1,00,000 + GST",
     ],
     link1: "/advance-ai-ml-certification",
-   
   },
   {
     id: 3,
@@ -36,10 +34,9 @@ export const viewAllD = [
     para: [
       "400 hours of Interactive Learning",
       "15 Projects + 1 Capstones",
-      "Course Fee : ₹ 95,000 + GST",
+      "Course Fee : ₹ 1,00,000 + GST",
     ],
     link1: "/data-science-ai-cert-for-managers-leaders",
-    
   },
   {
     id: 4,
@@ -50,10 +47,9 @@ export const viewAllD = [
     para: [
       "500 hours of Interactive Learning",
       "20 Projects + 3 Capstones",
-      "Course Fee : ₹ 1,10,000 + GST",
+      "Course Fee : ₹ 1,20,000 + GST",
     ],
     link1: "/job-guarantee-or-money-back-data-science-ai",
-    
   },
   {
     id: 5,
@@ -64,13 +60,11 @@ export const viewAllD = [
     para: [
       "180 hours of Interactive Learning",
       "8 Projects",
-      "Course Fee : ₹ 65,000 + GST",
+      "Course Fee : ₹ 70,000 + GST",
     ],
-    link1: "/",
-    
+    link1: "/s2-data-analytics",
   },
-  
-  
+
   {
     id: 6,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/full-stack-developer-course.webp",
@@ -83,7 +77,6 @@ export const viewAllD = [
       "Course Fee : ₹ 1,10,000 + GST",
     ],
     link1: "/fssd",
-    
   },
   {
     id: 7,
@@ -97,7 +90,6 @@ export const viewAllD = [
       "Course Fee : ₹ 70,000 + GST",
     ],
     link1: "/dsa",
-   
   },
   {
     id: 8,
@@ -111,10 +103,8 @@ export const viewAllD = [
       "Course Fee : ₹ 85,000 + GST",
     ],
     link1: "/fswd",
-   
   },
 ];
-
 
 export const ForProgrammersD = [
   {
@@ -126,10 +116,9 @@ export const ForProgrammersD = [
     para: [
       "250 hours of Interactive Learning",
       "12 Projects + 1 Capstones",
-      "Course Fee : ₹ 85,000 + GST",
+      "Course Fee : ₹ 90,000 + GST",
     ],
     link1: "/data-science-certification-courses",
-    
   },
   {
     id: 2,
@@ -143,7 +132,6 @@ export const ForProgrammersD = [
       "Course Fee : ₹ 1,10,000 + GST",
     ],
     link1: "/fssd",
-    
   },
   {
     id: 3,
@@ -154,10 +142,9 @@ export const ForProgrammersD = [
     para: [
       "400 hours of Interactive Learning",
       "15 Projects + 1 Capstones",
-      "Course Fee : ₹ 95,000 + GST",
+      "Course Fee : ₹ 1,00,000 + GST",
     ],
     link1: "/data-science-ai-cert-for-managers-leaders",
-    
   },
   {
     id: 4,
@@ -168,12 +155,11 @@ export const ForProgrammersD = [
     para: [
       "350 hours of Interactive Learning",
       "15 Projects + 1 Capstones",
-      "Course Fee : ₹ 95,000 + GST",
+      "Course Fee : ₹ 1,00,000 + GST",
     ],
-    link1:  "/advance-ai-ml-certification",
-    
+    link1: "/advance-ai-ml-certification",
   },
-  
+
   {
     id: 6,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-with-job-guarantee.webp",
@@ -183,10 +169,9 @@ export const ForProgrammersD = [
     para: [
       "500 hours of Interactive Learning",
       "20 Projects + 3 Capstones",
-      "Course Fee : ₹ 1,10,000 + GST",
+      "Course Fee : ₹ 1,20,000 + GST",
     ],
     link1: "/job-guarantee-or-money-back-data-science-ai",
-    
   },
   {
     id: 7,
@@ -200,7 +185,6 @@ export const ForProgrammersD = [
       "Course Fee : ₹ 70,000 + GST",
     ],
     link1: "/dsa",
-   
   },
   {
     id: 8,
@@ -214,11 +198,9 @@ export const ForProgrammersD = [
       "Course Fee : ₹ 85,000 + GST",
     ],
     link1: "/fswd",
-   
   },
 ];
 export const ForNonProgrammerD = [
-  
   {
     id: 1,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/advance-data-science-ai-program.webp",
@@ -228,10 +210,9 @@ export const ForNonProgrammerD = [
     para: [
       "250 hours of Interactive Learning",
       "12 Projects + 1 Capstones",
-      "Course Fee : ₹ 85,000 + GST",
+      "Course Fee : ₹ 90,000 + GST",
     ],
     link1: "/data-science-certification-courses",
-   
   },
   {
     id: 2,
@@ -242,10 +223,9 @@ export const ForNonProgrammerD = [
     para: [
       "350 hours of Interactive Learning",
       "15 Projects + 1 Capstones",
-      "Course Fee : ₹ 95,000 + GST",
+      "Course Fee : ₹ 1,00,000 + GST",
     ],
     link1: "/advance-ai-ml-certification",
-    
   },
   {
     id: 3,
@@ -256,10 +236,9 @@ export const ForNonProgrammerD = [
     para: [
       "400 hours of Interactive Learning",
       "15 Projects + 1 Capstones",
-      "Course Fee : ₹ 95,000 + GST",
+      "Course Fee : ₹ 1,00,000 + GST",
     ],
     link1: "/data-science-ai-cert-for-managers-leaders",
-    
   },
   {
     id: 4,
@@ -270,12 +249,11 @@ export const ForNonProgrammerD = [
     para: [
       "500 hours of Interactive Learning",
       "20 Projects + 3 Capstones",
-      "Course Fee : ₹ 1,10,000 + GST",
+      "Course Fee : ₹ 1,20,000 + GST",
     ],
     link1: "/job-guarantee-or-money-back-data-science-ai",
-   
   },
-  
+
   {
     id: 5,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/dsa&system.webp",
@@ -285,10 +263,9 @@ export const ForNonProgrammerD = [
     para: [
       "180 hours of Interactive Learning",
       "8 Projects",
-      "Course Fee : ₹ 65,000 + GST",
+      "Course Fee : ₹ 70,000 + GST",
     ],
-    link1: "/",
-   
+    link1: "/s2-data-analytics",
   },
 ];
 
@@ -302,15 +279,12 @@ export const JobGuaranteeD = [
     para: [
       "500 hours of Interactive Learning",
       "20 Projects + 3 Capstones",
-      "Course Fee : ₹ 1,10,000 + GST",
+      "Course Fee : ₹ 1,20,000 + GST",
     ],
     link1: "/job-guarantee-or-money-back-data-science-ai",
-    
   },
- 
 ];
 export const StackD = [
- 
   {
     id: 1,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/full-stack-developer-course.webp",
@@ -323,7 +297,6 @@ export const StackD = [
       "Course Fee : ₹ 1,10,000 + GST",
     ],
     link1: "/fssd",
-   
   },
   {
     id: 2,
@@ -337,7 +310,6 @@ export const StackD = [
       "Course Fee : ₹ 70,000 + GST",
     ],
     link1: "/dsa",
-   
   },
   {
     id: 3,
@@ -351,6 +323,5 @@ export const StackD = [
       "Course Fee : ₹ 85,000 + GST",
     ],
     link1: "/fswd",
-   
   },
 ];

@@ -6,7 +6,7 @@ export const DataAnalyticsCourseData = [
       mTopPara: "Get ahead of the competition  ",
       mTopPara1: "with popular skill sets.",
       mTitle: "Data Analytics Course in Bangalore",
-      spanMTitleText:"For Working Professionals",
+      spanMTitleText: "For Working Professionals",
       title: "Data Analytics Course in Bangalore",
       spanTitleText: "For Working Professionals",
       desc: "Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career.",
@@ -24,26 +24,33 @@ export const DataAnalyticsCourseData = [
       p3: "1:1",
       p33: "Career Support",
       p4: "Financing as low as",
-      p44: "₹ 6,884/month",
+      p44: "₹ 13,767/month",
     },
     BoxShape: {
       title: "Data Analytic Certification Programs in Bangalore",
       Box1h5: "Custom-fit Training",
-      box1desc: "Get specially designed modules as per your dream Data Analytics role. Master the trending analytical tools.",
+      box1desc:
+        "Get specially designed modules as per your dream Data Analytics role. Master the trending analytical tools.",
       Box2h5: "Exclusive Hackathons",
-      box2desc: "Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by Learnbay experts.",
+      box2desc:
+        "Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by Learnbay experts.",
       Box3h5: "Premium Mentoring",
-      box3desc: "Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts.",
+      box3desc:
+        "Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts.",
       Box4h5: "Hands-on Experience",
-      box4desc: "Get diligent real-world project experience, spanning from beginner’s level complexity, directly from relevant companies.",
-      headh5:"Watch ours alumni’s making successful Data Analytics career transition",
+      box4desc:
+        "Get diligent real-world project experience, spanning from beginner’s level complexity, directly from relevant companies.",
+      headh5:
+        "Watch ours alumni’s making successful Data Analytics career transition",
     },
 
     Certificate: {
       title: "Data Analytic Course Completion Certificate from IBM",
       desc: "Complete your training with the internationally recognized certificate.",
-      desc2: "Validate your Data Analytics skills with IBM Course Completion Certificate.",
-      desc3: "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
+      desc2:
+        "Validate your Data Analytics skills with IBM Course Completion Certificate.",
+      desc3:
+        "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
       src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BA-DA.jpeg",
       srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
     },
@@ -55,9 +62,9 @@ export const DataAnalyticsCourseData = [
     hours: "180+ Hours",
     project: "8+ Real Time",
 
-    CSyllabus:"Data Analytics Course Syllabus",
-    CourseHighlights:" Data Analytic Course Highlights",
-   
+    CSyllabus: "Data Analytics Course Syllabus",
+    CourseHighlights: " Data Analytic Course Highlights",
+
     syllabus: [
       {
         Module0: {
@@ -249,7 +256,7 @@ export const DataAnalyticsCourseData = [
     ],
 
     OurExpert: {
-      H5:"Data Analytic Tools Covered",
+      H5: "Data Analytic Tools Covered",
       img1: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png",
       img2: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png",
       img3: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png",
@@ -259,33 +266,44 @@ export const DataAnalyticsCourseData = [
       img7: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png",
       img8: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png",
       img9: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png",
-      img10: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/10.png",
-      img11: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/11.png",
-      img12: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/12.png",
-      img13: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/13.png",
-      img14: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/14.png",
-      img15: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/15.png",
-      img16: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/16.png",
-      img17: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/17.png",
-      img18: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/18.png",
-      img19: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/19.png",
+      img10:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/10.png",
+      img11:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/11.png",
+      img12:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/12.png",
+      img13:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/13.png",
+      img14:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/14.png",
+      img15:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/15.png",
+      img16:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/16.png",
+      img17:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/17.png",
+      img18:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/18.png",
+      img19:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/19.png",
       img21: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png",
       img22: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png",
       img23: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png",
-      img20: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
+      img20:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
 
- 
     ProgramFee: {
-      Emi: "₹ 6,884/month",
+      Emi: "₹ 13,767/month",
       Fee: "₹ 70,000 +GST",
-      CourseFeeAndFinancing:"Data Analytics Course Fee & Financing in Bangalore",
-      para:"We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Analytic Certification Course in Bangalore and offer avariety of financing options to make it more economical.",
+      CourseFeeAndFinancing:
+        "Data Analytics Course Fee & Financing in Bangalore",
+      para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Analytic Certification Course in Bangalore and offer avariety of financing options to make it more economical.",
     },
     Project: {
       project: "8+ Projects",
       domain: "7+",
-      projectTitle:"Hands-on Projects in Bangalore"
+      projectTitle: "Hands-on Projects in Bangalore",
     },
     CourseFee: {
       CourseFeeHead: "Data Analytics Course in Bangalore : Batch Details",
@@ -297,8 +315,6 @@ export const DataAnalyticsCourseData = [
       CourseFeelist5: "Company-based Mock Interviews",
     },
 
-    
-      
     Batch: [
       {
         Module0: {
@@ -307,14 +323,9 @@ export const DataAnalyticsCourseData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 18th November 2022",
-                  "Time : 8 AM to 10 AM",
-
-                ],
+                desc: ["Date : 18th November 2022", "Time : 8 AM to 10 AM"],
               },
             },
-
           ],
           id: 0,
           open: true,
@@ -328,19 +339,13 @@ export const DataAnalyticsCourseData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 18th November 2022",
-                  "Time : 8 PM to 10 PM",
-                ],
+                desc: ["Date : 18th November 2022", "Time : 8 PM to 10 PM"],
               },
             },
             {
               chap: {
                 title: "Weekday Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 25th November 2022",
-                  "Time : 8 PM to 10 PM",
-                ],
+                desc: ["Date : 25th November 2022", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -348,7 +353,7 @@ export const DataAnalyticsCourseData = [
           open: false,
         },
       },
-      
+
       {
         Module0: {
           title: "Weekend Afternoon Batch  :- (Sat-Sun)",
@@ -356,13 +361,9 @@ export const DataAnalyticsCourseData = [
             {
               chap: {
                 title: "Weekday Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 27th November 2022",
-                  "Time : 12:30 PM to 4 PM",
-                ],
+                desc: ["Date : 27th November 2022", "Time : 12:30 PM to 4 PM"],
               },
             },
-
           ],
           id: 1,
           open: false,
@@ -370,7 +371,6 @@ export const DataAnalyticsCourseData = [
       },
     ],
 
-  
     BatchCourses: {
       CourseFeeHead: "Data Analytics Course in Bangalore : Batch Details",
       CourseFeePara: "Data Analytics Online Classroom",
@@ -380,8 +380,5 @@ export const DataAnalyticsCourseData = [
       CourseFeelist4: "Project-Based Learning",
       CourseFeelist5: "Company-based Mock Interviews",
     },
-  
-
-    
   },
 ];

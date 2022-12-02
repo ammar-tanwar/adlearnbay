@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-      <title>Machine Learning Course – Learnbay</title>
+        <title>Machine Learning Course – Learnbay</title>
         <meta
           name="description"
           content="Advance certification online Machine Learning course with 100% placement 
@@ -36,7 +36,10 @@ export default function Home() {
           Capstone projects, 2 years of course subscription ,Lifetime Access to recorded 
           classes and 24/7 Learner’s support."
         />
-        <meta name="Keywords" content="machine learning course, machine learning training, machine learning course institute, machine learning online course, machine learning course fee, advanced ml certification, machine learning course for working professional, advanced machine learning certification, advanced ml courses" />
+        <meta
+          name="Keywords"
+          content="machine learning course, machine learning training, machine learning course institute, machine learning online course, machine learning course fee, advanced ml certification, machine learning course for working professional, advanced machine learning certification, advanced ml courses"
+        />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{
@@ -77,8 +80,9 @@ export default function Home() {
           }}
         />
       </Head>
-      <main>  <Navbar popup={true} jobDesc={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} jobDesc={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -91,53 +95,47 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/DelhiTopWeb.jpg"
-        MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/DelhiTopMob.jpg"
-        courseName="Machine Learning Course"
-        cityName="In Delhi"
-        ptag="Machine learning is a subfield of artificial intelligence that is widely 
+          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/DelhiTopWeb.jpg"
+          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/DelhiTopMob.jpg"
+          courseName="Machine Learning Course"
+          cityName="In Delhi"
+          ptag="Machine learning is a subfield of artificial intelligence that is widely 
         described as a machine's capability to imitate intelligent human 
         behavior. Improve your knowledge with this course in Delhi and get 
         100% Placement Assistance."
         />
         <div className={styles.program1}>
-        <ProgramInfo
-          p1={MlCourseData[0].ProgramInfo.p1}
-          p11={MlCourseData[0].ProgramInfo.p11}
-          p2={MlCourseData[0].ProgramInfo.p2}
-          p22={MlCourseData[0].ProgramInfo.p22}
-          p3={MlCourseData[0].ProgramInfo.p3}
-          p33={MlCourseData[0].ProgramInfo.p33}
-          p4={MlCourseData[0].ProgramInfo.p4}
-          p44={MlCourseData[0].ProgramInfo.p44}
-        />
-      </div>
-        <HiringPatners
-          topHead="Our Hiring Partner's In Delhi"
-
-        />
-        <div className="Feature" id="Feature">
-        <ProgramWithHighLight
-        title={MlCourseData[0].BoxShape.title}
-        Box1h5={MlCourseData[0].BoxShape.Box1h5}
-        box1desc={MlCourseData[0].BoxShape.box1desc}
-        Box2h5={MlCourseData[0].BoxShape.Box2h5}
-        box2desc={MlCourseData[0].BoxShape.box2desc}
-        Box3h5={MlCourseData[0].BoxShape.Box3h5}
-        box3desc={MlCourseData[0].BoxShape.box3desc}
-        Box4h5={MlCourseData[0].BoxShape.Box4h5}
-        box4desc={MlCourseData[0].BoxShape.box4desc}
-       
-
-        HHeading="Course Details"
-        Duration="350+ Hours"
-        InterviewCalls=" 10"
-        Projects="15+"
-        CourseFee="₹ 95,000 +GST "
-        Domain="7+"
-      />
+          <ProgramInfo
+            p1={MlCourseData[0].ProgramInfo.p1}
+            p11={MlCourseData[0].ProgramInfo.p11}
+            p2={MlCourseData[0].ProgramInfo.p2}
+            p22={MlCourseData[0].ProgramInfo.p22}
+            p3={MlCourseData[0].ProgramInfo.p3}
+            p33={MlCourseData[0].ProgramInfo.p33}
+            p4={MlCourseData[0].ProgramInfo.p4}
+            p44={MlCourseData[0].ProgramInfo.p44}
+          />
         </div>
-
+        <HiringPatners topHead="Our Hiring Partner's In Delhi" />
+        <div className="Feature" id="Feature">
+          <ProgramWithHighLight
+            title={MlCourseData[0].BoxShape.title}
+            Box1h5={MlCourseData[0].BoxShape.Box1h5}
+            box1desc={MlCourseData[0].BoxShape.box1desc}
+            Box2h5={MlCourseData[0].BoxShape.Box2h5}
+            box2desc={MlCourseData[0].BoxShape.box2desc}
+            Box3h5={MlCourseData[0].BoxShape.Box3h5}
+            box3desc={MlCourseData[0].BoxShape.box3desc}
+            Box4h5={MlCourseData[0].BoxShape.Box4h5}
+            box4desc={MlCourseData[0].BoxShape.box4desc}
+            HHeading="Course Details"
+            Duration="350+ Hours"
+            InterviewCalls=" 10"
+            Projects="15+"
+            CourseFee="₹ 1,00,000 +GST "
+            Domain="7+"
+          />
+        </div>
         <SyllabusNew
           syllabus={MlCourseData[0].syllabus}
           CSyllabus="Machine Learning Course Syllabus In Delhi"
@@ -147,12 +145,10 @@ export default function Home() {
           hours={MlCourseData[0].hours}
           project={MlCourseData[0].project}
         />
-       
-        <CityImage 
-        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityDelhiWeb.jpg"
-        MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityDelhiMob.jpg"
-        cityName="दिल्ली"
-        
+        <CityImage
+          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityDelhiWeb.jpg"
+          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityDelhiMob.jpg"
+          cityName="दिल्ली"
         />
         <OurExpert
           H5={MlCourseData[0].OurExpert.H5}
@@ -180,20 +176,19 @@ export default function Home() {
           img23={MlCourseData[0].OurExpert.img23}
           img20={MlCourseData[0].OurExpert.img20}
         />
-        <Certificate
-          H4="Machine Learning Program In Delhi"
-        />
+        <Certificate H4="Machine Learning Program In Delhi" />
         <div className={styles.ProjectWrapper} id="project">
-          <Project popupHead={MlCourseData[0].Project.popupHead}
+          <Project
+            popupHead={MlCourseData[0].Project.popupHead}
             project={MlCourseData[0].Project.project}
             domain={MlCourseData[0].Project.domain}
-            projectTitle="Hands-on Projects In Delhi" />
+            projectTitle="Hands-on Projects In Delhi"
+          />
         </div>
         <SliderTab />
         <CourseFee
           syllabusDesc={MlCourseData[0].syllabusDesc}
           syllabus={MlCourseData[0].Batch}
-
           CourseFeeHead={MlCourseData[0].BatchCourses.CourseFeeHead}
           CourseFeePara={MlCourseData[0].BatchCourses.CourseFeePara}
           CourseFeelist1={MlCourseData[0].BatchCourses.CourseFeelist1}
@@ -206,8 +201,7 @@ export default function Home() {
           headForCity={true}
           cityName="24/7 Learner’s Support In Delhi"
         />
-        <CityFooter 
-        cityName="Delhi"/>
+        <CityFooter cityName="Delhi" />
       </main>
     </div>
   );

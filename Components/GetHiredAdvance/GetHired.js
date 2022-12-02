@@ -3,7 +3,6 @@ import styles from "./GetHired.module.css";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
 
-
 const GetHired = ({ radio }) => {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
@@ -30,7 +29,6 @@ const GetHired = ({ radio }) => {
     }
   });
 
-
   return (
     <section className={styles.GetHired}>
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
@@ -39,7 +37,7 @@ const GetHired = ({ radio }) => {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-                   {/* <p>Fill the below Details to get started</p> */}
+          {/* <p>Fill the below Details to get started</p> */}
 
           <Form popup={true} setTrigger={setPopups} radio={radio} />
         </div>
@@ -51,34 +49,42 @@ const GetHired = ({ radio }) => {
       <div className={styles.imageBox}>
         <div className={styles.left}>
           <div className={styles.top}>
-         <p>Weekday Batches: 7 Months</p>
-<p>Monday – Friday – 2 hours every day</p>
+            <p>Weekday Batches: 7 Months</p>
+            <p>Monday – Friday – 2 hours every day</p>
           </div>
           <div className={styles.middle}>
-<p>100% Interview Guarantee</p>
+            <p>100% Interview Guarantee</p>
           </div>
           <div className={styles.bottom}>
-          <p>12+ Real Time Project from AI and ML</p>
+            <p>12+ Real Time Project from AI and ML</p>
           </div>
         </div>
         <div className={styles.left}>
           <div className={styles.top}>
-          <p>Weekend Batches: 9 Months<br /></p>
-          <p>Saturday & Sunday – 3.5 hours every day</p>
+            <p>
+              Weekend Batches: 9 Months
+              <br />
+            </p>
+            <p>Saturday & Sunday – 3.5 hours every day</p>
           </div>
           <div className={styles.middle}>
             <p>Special Classes for non-programmers</p>
           </div>
           <div className={styles.bottom}>
-<p>From Basics to Advance AI modules</p>
+            <p>From Basics to Advance AI modules</p>
           </div>
         </div>
         <div className={styles.right}>
-        <div>
-        <p>Course Fee</p>
-        <h4 className={styles.righth}>₹85,000</h4>
-        <p>2 Year Subscription</p>
-        <button onClick={popupShow} style={{margin:"auto", marginBottom:"20px"}}>Enroll Now</button>
+          <div>
+            <p>Course Fee</p>
+            <h4 className={styles.righth}>₹90,000</h4>
+            <p>2 Year Subscription</p>
+            <button
+              onClick={popupShow}
+              style={{ margin: "auto", marginBottom: "20px" }}
+            >
+              Enroll Now
+            </button>
           </div>
         </div>
       </div>

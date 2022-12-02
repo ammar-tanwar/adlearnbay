@@ -407,8 +407,8 @@ export const MlCourseData = [
     },
 
     ProgramFee: {
-    Emi: "₹ 9,833/month",
-      Fee: "₹ 10,0000 +GST",
+      Emi: "₹ 9,833/month",
+      Fee: "₹ 1,00,000 +GST",
       CourseFeeAndFinancing: " Machine Learning Course Fee & Financing",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Machine Learning Certification Course and offer avariety of financing options to make it more economical.",
     },

@@ -20,7 +20,6 @@ import OtherCertificate from "../Components/CoursePage/OtherCertificate6/OtherCe
 import Navbar from "../Components/CoursePage/NavbarDyn/Navbar";
 import Footer from "../Components/Footers7/Footers7";
 
-
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -30,18 +29,22 @@ export default function Home() {
   return (
     <div>
       <Head>
-      <title>
-      Data Science and Artificial Intelligence Program For Managers and Leaders - Learnbay
-      </title>
-      <meta
-        name="description"
-        content="Advance certification online  Data Science and Artificial Intelligence Program For Managers and Leaders course with 100% placement assistance 
+        <title>
+          Data Science and Artificial Intelligence Program For Managers and
+          Leaders - Learnbay
+        </title>
+        <meta
+          name="description"
+          content="Advance certification online  Data Science and Artificial Intelligence Program For Managers and Leaders course with 100% placement assistance 
         and get 1:1 Guaranteed interview calls, 15+ Real-time projects, 1+ Capstone 
         projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
         24/7 Learner’s support."
-      />
-      <meta name="Keywords" content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee" />
-      <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        />
+        <meta
+          name="Keywords"
+          content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee"
+        />
+        <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
@@ -96,18 +99,15 @@ export default function Home() {
         <Navbar
           Href="/data-science-certification-courses-s7"
           Course="Data Science & AI Certification"
-
           Href1="/advance-ai-ml-certification-s7"
           Course1="Advance AI & ML Certification"
-
           Href2="/data-science-ai-cert-for-managers-leaders-s7"
           Course2="Data Science & AI Cert. For Managers & Leaders"
-
           Href3="/job-guarantee-or-money-back-data-science-ai-s7"
           Course3="100% Placement Assistance – Data Science & AI"
-
         />
-        <FirstSection dataScience={true}
+        <FirstSection
+          dataScience={true}
           deskTopPara="Be a leader with Domain Specialization"
           mTopPara="Be a leader with Domain Specialization"
           title="Data Science and Artificial Intelligence Program"
@@ -151,11 +151,10 @@ export default function Home() {
         <CourseReview
           p1="Working at HCL"
           p2=" Working at TCS"
-          p3="Working at Capgemini" />
-
-        <Certificate
-          H4=" Certification Program"
+          p3="Working at Capgemini"
         />
+
+        <Certificate H4=" Certification Program" />
 
         <OtherCertificate
           OCHead1="Machine Learning with Python"
@@ -172,11 +171,8 @@ export default function Home() {
           OCP6="Obtain certification in the use of analytical best practices in financial decision-making."
         />
 
-
-
-
-
-        <SyllabusNew dataScience={true}
+        <SyllabusNew
+          dataScience={true}
           syllabus={DsaiManagersCourseData[0].syllabus}
           syllabusDesc={DsaiManagersCourseData[0].syllabusDesc}
           popupHead="Download Course Brochure"
@@ -210,15 +206,21 @@ export default function Home() {
           img23={DsaiManagersCourseData[0].OurExpert.img23}
           img20={DsaiManagersCourseData[0].OurExpert.img20}
         />
-        <ProgramFee Emi="₹ 9,342/month" Fee="₹ 95,000 +GST" CourseFeeAndFinancing="Program Fee & Financing"
-          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." />
+        <ProgramFee
+          Emi="₹ 9,833/month"
+          Fee="₹ 1,00,000 +GST"
+          CourseFeeAndFinancing="Program Fee & Financing"
+          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."
+        />
         <SliderTab />
 
         <div className={styles.ProjectWrapper} id="project">
-          <Project popupHead={DsaiManagersCourseData[0].Project.popupHead}
+          <Project
+            popupHead={DsaiManagersCourseData[0].Project.popupHead}
             project={DsaiManagersCourseData[0].Project.project}
             domain={DsaiManagersCourseData[0].Project.domain}
-            projectTitle={DsaiManagersCourseData[0].Project.projectTitle} />
+            projectTitle={DsaiManagersCourseData[0].Project.projectTitle}
+          />
         </div>
 
         <CourseFee
@@ -236,5 +238,5 @@ export default function Home() {
         <Footer />
       </main>
     </div>
-  )
+  );
 }

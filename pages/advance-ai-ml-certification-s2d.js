@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
 import FirstSection from "../Components/HeroSectionAiMl/HeroSection";
 import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
 import GetHired from "../Components/GetHiredAiMl/GetHired";
@@ -14,7 +14,7 @@ import OurExpert from "../Components/OurExpert/OurExpert";
 import Navbar from "../Components/CoursePage/NavbarDyn/Navbar";
 import Footer from "../Components/Footers2d/Footer";
 import React, { useState } from "react";
- 
+
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-       <title>Artificial Intelligence Course - Learnbay</title>
+        <title>Artificial Intelligence Course - Learnbay</title>
         <meta
           name="description"
           content="Advance certification online Artificial Intelligence course with 100% placement 
@@ -32,7 +32,10 @@ export default function Home() {
           Capstone projects, 2 years of course subscription ,Lifetime Access to recorded 
           classes and 24/7 Learner’s support."
         />
-        <meta name="Keywords" content="artificial intelligence course institute, artificial intelligence course fee, artificial intelligence certification, artificial intelligence training, advance artificial intelligence course, artificial intelligence course duration, artificial intelligence online course, artificial intelligence course, artificial intelligence course for working professional" /> 
+        <meta
+          name="Keywords"
+          content="artificial intelligence course institute, artificial intelligence course fee, artificial intelligence certification, artificial intelligence training, advance artificial intelligence course, artificial intelligence course duration, artificial intelligence online course, artificial intelligence course, artificial intelligence course for working professional"
+        />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{
@@ -74,98 +77,94 @@ export default function Home() {
         />
       </Head>
       <main>
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-        <div className="leftPopup">
-          <div className="whiteP" />
-        </div>
-        <div className="RightPopup">
-          <h5>Apply For Counselling</h5>
-                   {/* <p>Fill the below Details to get started</p> */}
+        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+          <div className="leftPopup">
+            <div className="whiteP" />
+          </div>
+          <div className="RightPopup">
+            <h5>Apply For Counselling</h5>
+            {/* <p>Fill the below Details to get started</p> */}
 
-          <Form popup={true} setTrigger={setPopups} />
-        </div>
-      </Popup>
-      <Navbar
-      Href="/data-science-certification-courses-s2d"
-      Course="Data Science & AI Certification"
-
-      Href1="/advance-ai-ml-certification-s2d"
-      Course1="Advance AI & ML Certification"
-
-      Href2="/data-science-ai-cert-for-managers-leaders-s2d"
-      Course2="Data Science & AI Cert. For Managers & Leaders"
-
-      Href3="/job-guarantee-or-money-back-data-science-ai-s2d"
-      Course3="100% Placement Assistance – Data Science & AI"
-
-      
-      
-      />
-      <FirstSection
-        deskTopPara="Experience-based certification course for professionals"
-        mTopPara="Experience-based certification course for professionals"
-        title="Advanced AI & ML Certification Program"
-        spanTitleText="For Top Product based MNC And Startup"
-        desc="
+            <Form popup={true} setTrigger={setPopups} />
+          </div>
+        </Popup>
+        <Navbar
+          Href="/data-science-certification-courses-s2d"
+          Course="Data Science & AI Certification"
+          Href1="/advance-ai-ml-certification-s2d"
+          Course1="Advance AI & ML Certification"
+          Href2="/data-science-ai-cert-for-managers-leaders-s2d"
+          Course2="Data Science & AI Cert. For Managers & Leaders"
+          Href3="/job-guarantee-or-money-back-data-science-ai-s2d"
+          Course3="100% Placement Assistance – Data Science & AI"
+        />
+        <FirstSection
+          deskTopPara="Experience-based certification course for professionals"
+          mTopPara="Experience-based certification course for professionals"
+          title="Advanced AI & ML Certification Program"
+          spanTitleText="For Top Product based MNC And Startup"
+          desc="
         AI Certification Course is designed with Domain Electives and Project Expertise for working professionals having 4+ years of experience in core tech and programming domain."
-      />
-      <div className={styles.program}>
-        <ProgramInfo
-          BatchDate="4+ Years Work Experience"
-          BatchDuration="Accredited with IBM"
-          Placement="15+ Real Time Projects"
-          EMI="₹ 9,342/month"
         />
-      </div>
-      <GetHired />
-      <div className="Feature" id="Feature">
-        <BoxShape
-          title="Why Enroll In This Program"
-          Box1h5="Custom-fit Training"
-          box1desc="Get specially designed modules as per your dream AI role. Learn latest ML applications."
-          Box2h5="Domain Focused"
-          box2desc="Obtain cutting-edge Al and ML skills as per demanding IT-industry standards. Choose any domain of your choice."
-          Box3h5="Premium Mentoring"
-          box3desc="Enjoy and learn from mock interviews and CV writing workshops with FAANG DS/AI industry experts."
-          Box4h5="Hands-on Experience"
-          box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
+        <div className={styles.program}>
+          <ProgramInfo
+            BatchDate="4+ Years Work Experience"
+            BatchDuration="Accredited with IBM"
+            Placement="15+ Real Time Projects"
+            EMI="₹ 9,833/month"
+          />
+        </div>
+        <GetHired />
+        <div className="Feature" id="Feature">
+          <BoxShape
+            title="Why Enroll In This Program"
+            Box1h5="Custom-fit Training"
+            box1desc="Get specially designed modules as per your dream AI role. Learn latest ML applications."
+            Box2h5="Domain Focused"
+            box2desc="Obtain cutting-edge Al and ML skills as per demanding IT-industry standards. Choose any domain of your choice."
+            Box3h5="Premium Mentoring"
+            box3desc="Enjoy and learn from mock interviews and CV writing workshops with FAANG DS/AI industry experts."
+            Box4h5="Hands-on Experience"
+            box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
+          />
+        </div>
+        <div className={styles.ExpertWrapper}>
+          <div className={styles.expert}>
+            <h5>Our experts are from:</h5>
+          </div>
+          <div className={styles.expertBody}>
+            <OurExpert />
+          </div>
+        </div>
+        <div className={styles.cta}>
+          <div className={styles.left}></div>
+          <div className={styles.middle}>
+            <h6>Talk to our team directly.</h6>
+            <p>
+              Reach out and a learning consultant will get in touch with you
+              shortly.
+            </p>
+          </div>
+          <div className={styles.right}>
+            <button onClick={popupShow}>Enquire Now</button>
+          </div>
+        </div>
+        <Certificate
+          popupHead="Download Brochure"
+          title="Earn a globally recognized Certified at the end of your learning journey."
+          desc="Get access to IBM cloud lab to keep an eye on trending industrial case studies of data mining, time-series forecasting, AI-based database management, and authenticated data handling."
+          desc2="Experts from IBM share their ideas and tactics to deal with tricky business problems within the regularly changing analytical environments."
+          desc3="Data Science Leads from IBM as instructors."
         />
-      </div>
-      <div className={styles.ExpertWrapper}>
-        <div className={styles.expert}>
-          <h5>Our experts are from:</h5>
-        </div>
-        <div className={styles.expertBody}>
-          <OurExpert />
-        </div>
-      </div>
-      <div className={styles.cta}>
-        <div className={styles.left}></div>
-        <div className={styles.middle}>
-          <h6>Talk to our team directly.</h6>
-          <p>Reach out and a learning consultant will get in touch with you shortly.</p>
-        </div>
-        <div className={styles.right}>
-          <button onClick={popupShow}>Enquire Now</button>
-        </div>
-      </div>
-      <Certificate
-        popupHead="Download Brochure"
-        title="Earn a globally recognized Certified at the end of your learning journey."
-        desc="Get access to IBM cloud lab to keep an eye on trending industrial case studies of data mining, time-series forecasting, AI-based database management, and authenticated data handling."
-        desc2 ="Experts from IBM share their ideas and tactics to deal with tricky business problems within the regularly changing analytical environments."
-        desc3 ="Data Science Leads from IBM as instructors."
+        <Syllabus />
+        <ToolsCovered />
 
-      />
-      <Syllabus />
-      <ToolsCovered />
-     
-      <div className={styles.ProjectWrapper} id="project">
-        <Project domainDetails="2+" projectDetails="15+"/>
-      </div>
-      
-      <Footer />
-      </main> 
+        <div className={styles.ProjectWrapper} id="project">
+          <Project domainDetails="2+" projectDetails="15+" />
+        </div>
+
+        <Footer />
+      </main>
     </div>
-  )
+  );
 }

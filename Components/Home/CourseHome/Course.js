@@ -106,7 +106,9 @@ const Course = () => {
               setGuarantee(false);
             }}
             style={
-              oneYear ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
+              oneYear
+                ? { background: "white", color: "#2D9CD7" }
+                : { background: "#E5F3FA" }
             }
           >
             Popular Courses
@@ -120,7 +122,9 @@ const Course = () => {
               setGuarantee(false);
             }}
             style={
-              nonTech ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
+              nonTech
+                ? { background: "white", color: "#2D9CD7" }
+                : { background: "#E5F3FA" }
             }
           >
             Data Science & AI
@@ -134,7 +138,9 @@ const Course = () => {
               setGuarantee(false);
             }}
             style={
-              Stack ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
+              Stack
+                ? { background: "white", color: "#2D9CD7" }
+                : { background: "#E5F3FA" }
             }
           >
             Full Stack Development
@@ -148,7 +154,9 @@ const Course = () => {
               setGuarantee(true);
             }}
             style={
-              Guarantee ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
+              Guarantee
+                ? { background: "white", color: "#2D9CD7" }
+                : { background: "#E5F3FA" }
             }
           >
             100% Placement Assistance
@@ -162,16 +170,17 @@ const Course = () => {
               setStack(false);
             }}
             style={
-              viewAll ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
+              viewAll
+                ? { background: "white", color: "#2D9CD7" }
+                : { background: "#E5F3FA" }
             }
           >
             View All
           </span>
-
         </div>
         {oneYear ? (
           <div className={styles.mPanel}>
-            <h5>Data Science (5) </h5>
+            <h5>Data Science (4) </h5>
             <div className={styles.gridPanel}>
               <Swiper
                 slidesPerView={mobile ? 1.1 : 3.2}
@@ -184,19 +193,20 @@ const Course = () => {
                 className="mySwiper"
               >
                 {filtteredForProgrammersD.map((viewAllData) => {
-                  const { id, title, title1, img, para, link1 } =
-                    viewAllData;
+                  const { id, title, title1, img, para, link1 } = viewAllData;
                   return (
                     <SwiperSlide className={styles.leftSide} key={id}>
                       <div key={id}>
-                        <a href={link1}><img
-                          src={img}
-                          layout="intrinsic"
-                          width="423px"
-                          height="252px"
-                          className={styles.courseImg}
-                          alt="data science course in bangalore"
-                        /></a>
+                        <a href={link1}>
+                          <img
+                            src={img}
+                            layout="intrinsic"
+                            width="423px"
+                            height="252px"
+                            className={styles.courseImg}
+                            alt="data science course in bangalore"
+                          />
+                        </a>
                         <div className={styles.contentBox}>
                           <h6>{title}</h6>
                           <h6>{title1}</h6>
@@ -212,20 +222,25 @@ const Course = () => {
                             {para[1]}
                           </p>
                           <p>
-                            < BsCheckCircle className={styles.checkCircle} />
+                            <BsCheckCircle className={styles.checkCircle} />
                             {para[2]}
                           </p>
                           <div className={styles.btnWrapper}>
                             <a href={link1}>
                               <button>View Details</button>
                             </a>
-                            <a onClick={popupShow} ><button className="outLineBtn" style={{ padding: "8px 15px" }}>
-                              Brochure
-                              <FiDownload
-                                className="bIcon"
-                                style={{ color: "#2979AD" }}
-                              />
-                            </button></a>
+                            <a onClick={popupShow}>
+                              <button
+                                className="outLineBtn"
+                                style={{ padding: "8px 15px" }}
+                              >
+                                Brochure
+                                <FiDownload
+                                  className="bIcon"
+                                  style={{ color: "#2979AD" }}
+                                />
+                              </button>
+                            </a>
                           </div>
                         </div>
                       </div>
@@ -234,7 +249,7 @@ const Course = () => {
                 })}
               </Swiper>
             </div>
-            <h5>Full Stack (2) </h5>
+            <h5>Full Stack (3) </h5>
             <div className={styles.gridPanel}>
               <Swiper
                 slidesPerView={mobile ? 1.1 : 3}
@@ -247,19 +262,20 @@ const Course = () => {
                 className="mySwiper"
               >
                 {filtteredStackF.map((viewAllData) => {
-                  const { id, title, title1, img, para, link1 } =
-                    viewAllData;
+                  const { id, title, title1, img, para, link1 } = viewAllData;
                   return (
                     <SwiperSlide className={styles.leftSide} key={id}>
                       <div className={styles.gridImg}>
-                        <a href={link1}><img
-                          src={img}
-                          layout="intrinsic"
-                          width="423px"
-                          height="252px"
-                          className={styles.courseImg}
-                          alt="data science course in bangalore"
-                        /></a>
+                        <a href={link1}>
+                          <img
+                            src={img}
+                            layout="intrinsic"
+                            width="423px"
+                            height="252px"
+                            className={styles.courseImg}
+                            alt="data science course in bangalore"
+                          />
+                        </a>
                       </div>
                       <div
                         className={styles.contentBox}
@@ -279,20 +295,25 @@ const Course = () => {
                           {para[1]}
                         </p>
                         <p>
-                          < BsCheckCircle className={styles.checkCircle} />
+                          <BsCheckCircle className={styles.checkCircle} />
                           {para[2]}
                         </p>
                         <div className={styles.btnWrapper}>
                           <a href={link1}>
                             <button>View Details</button>
                           </a>
-                          <a onClick={popupShow} ><button className="outLineBtn" style={{ padding: "8px 15px" }}>
-                            Brochure
-                            <FiDownload
-                              className="bIcon"
-                              style={{ color: "#2979AD" }}
-                            />
-                          </button></a>
+                          <a onClick={popupShow}>
+                            <button
+                              className="outLineBtn"
+                              style={{ padding: "8px 15px" }}
+                            >
+                              Brochure
+                              <FiDownload
+                                className="bIcon"
+                                style={{ color: "#2979AD" }}
+                              />
+                            </button>
+                          </a>
                         </div>
                       </div>
                     </SwiperSlide>
@@ -320,19 +341,20 @@ const Course = () => {
                 className="mySwiper"
               >
                 {filtteredNonProgrammerD.map((viewAllData) => {
-                  const { id, title, title1, img, para, link1 } =
-                    viewAllData;
+                  const { id, title, title1, img, para, link1 } = viewAllData;
                   return (
                     <SwiperSlide className={styles.leftSide} key={id}>
                       <div key={id}>
-                        <a href={link1}><img
-                          src={img}
-                          layout="intrinsic"
-                          width="423px"
-                          height="252px"
-                          alt="data science course in bangalore"
-                          className={styles.courseImg}
-                        /></a>
+                        <a href={link1}>
+                          <img
+                            src={img}
+                            layout="intrinsic"
+                            width="423px"
+                            height="252px"
+                            alt="data science course in bangalore"
+                            className={styles.courseImg}
+                          />
+                        </a>
                         <div className={styles.contentBox}>
                           <h6>{title}</h6>
                           <h6>{title1}</h6>
@@ -348,20 +370,25 @@ const Course = () => {
                             {para[1]}
                           </p>
                           <p>
-                            < BsCheckCircle className={styles.checkCircle} />
+                            <BsCheckCircle className={styles.checkCircle} />
                             {para[2]}
                           </p>
                           <div className={styles.btnWrapper}>
                             <a href={link1}>
                               <button>View Details</button>
                             </a>
-                            <a onClick={popupShow} ><button className="outLineBtn" style={{ padding: "8px 15px" }}>
-                              Brochure
-                              <FiDownload
-                                className="bIcon"
-                                style={{ color: "#2979AD" }}
-                              />
-                            </button></a>
+                            <a onClick={popupShow}>
+                              <button
+                                className="outLineBtn"
+                                style={{ padding: "8px 15px" }}
+                              >
+                                Brochure
+                                <FiDownload
+                                  className="bIcon"
+                                  style={{ color: "#2979AD" }}
+                                />
+                              </button>
+                            </a>
                           </div>
                         </div>
                       </div>
@@ -377,7 +404,7 @@ const Course = () => {
 
         {Stack ? (
           <div className={styles.mPanel}>
-            <h5>Full Stack (2) </h5>
+            <h5>Full Stack (3) </h5>
             <div className={styles.gridPanel}>
               <Swiper
                 slidesPerView={mobile ? 1.1 : 3}
@@ -390,19 +417,20 @@ const Course = () => {
                 className="mySwiper"
               >
                 {filtteredForProgrammersF.map((viewAllData) => {
-                  const { id, title, title1, img, para, link1 } =
-                    viewAllData;
+                  const { id, title, title1, img, para, link1 } = viewAllData;
                   return (
                     <SwiperSlide className={styles.leftSide} key={id}>
                       <div className={styles.gridImg}>
-                        <a href={link1}><img
-                          src={img}
-                          layout="intrinsic"
-                          width="423px"
-                          height="252px"
-                          alt="data science course"
-                          className={styles.courseImg}
-                        /></a>
+                        <a href={link1}>
+                          <img
+                            src={img}
+                            layout="intrinsic"
+                            width="423px"
+                            height="252px"
+                            alt="data science course"
+                            className={styles.courseImg}
+                          />
+                        </a>
                       </div>
                       <div
                         className={styles.contentBox}
@@ -422,20 +450,25 @@ const Course = () => {
                           {para[1]}
                         </p>
                         <p>
-                          < BsCheckCircle className={styles.checkCircle} />
+                          <BsCheckCircle className={styles.checkCircle} />
                           {para[2]}
                         </p>
                         <div className={styles.btnWrapper}>
                           <a href={link1}>
                             <button>View Details</button>
                           </a>
-                          <a onClick={popupShow} ><button className="outLineBtn" style={{ padding: "8px 15px" }}>
-                            Brochure
-                            <FiDownload
-                              className="bIcon"
-                              style={{ color: "#2979AD" }}
-                            />
-                          </button></a>
+                          <a onClick={popupShow}>
+                            <button
+                              className="outLineBtn"
+                              style={{ padding: "8px 15px" }}
+                            >
+                              Brochure
+                              <FiDownload
+                                className="bIcon"
+                                style={{ color: "#2979AD" }}
+                              />
+                            </button>
+                          </a>
                         </div>
                       </div>
                     </SwiperSlide>
@@ -463,19 +496,20 @@ const Course = () => {
                 className="mySwiper"
               >
                 {filtteredJobGuaranteeD.map((viewAllData) => {
-                  const { id, title, title1, img, para, link1 } =
-                    viewAllData;
+                  const { id, title, title1, img, para, link1 } = viewAllData;
                   return (
                     <SwiperSlide className={styles.leftSide} key={id}>
                       <div key={id}>
-                        <a href={link1}><img
-                          src={img}
-                          layout="intrinsic"
-                          width="423px"
-                          height="252px"
-                          alt="data science course"
-                          className={styles.courseImg}
-                        /></a>
+                        <a href={link1}>
+                          <img
+                            src={img}
+                            layout="intrinsic"
+                            width="423px"
+                            height="252px"
+                            alt="data science course"
+                            className={styles.courseImg}
+                          />
+                        </a>
                         <div className={styles.contentBox}>
                           <h6>{title}</h6>
                           <h6>{title1}</h6>
@@ -491,20 +525,25 @@ const Course = () => {
                             {para[1]}
                           </p>
                           <p>
-                            < BsCheckCircle className={styles.checkCircle} />
+                            <BsCheckCircle className={styles.checkCircle} />
                             {para[2]}
                           </p>
                           <div className={styles.btnWrapper}>
                             <a href={link1}>
                               <button>View Details</button>
                             </a>
-                            <a onClick={popupShow} ><button className="outLineBtn" style={{ padding: "8px 15px" }}>
-                              Brochure
-                              <FiDownload
-                                className="bIcon"
-                                style={{ color: "#2979AD" }}
-                              />
-                            </button></a>
+                            <a onClick={popupShow}>
+                              <button
+                                className="outLineBtn"
+                                style={{ padding: "8px 15px" }}
+                              >
+                                Brochure
+                                <FiDownload
+                                  className="bIcon"
+                                  style={{ color: "#2979AD" }}
+                                />
+                              </button>
+                            </a>
                           </div>
                         </div>
                       </div>
@@ -513,7 +552,7 @@ const Course = () => {
                 })}
               </Swiper>
             </div>
-            <h5>Full Stack (1) </h5>
+            {/* <h5>Full Stack (1) </h5>
             <div className={styles.gridPanel}>
               <Swiper
                 slidesPerView={mobile ? 1 : 3}
@@ -526,19 +565,20 @@ const Course = () => {
                 className="mySwiper"
               >
                 {filtteredJobGuaranteeF.map((viewAllData) => {
-                  const { id, title, title1, img, para, link1 } =
-                    viewAllData;
+                  const { id, title, title1, img, para, link1 } = viewAllData;
                   return (
                     <SwiperSlide className={styles.leftSide} key={id}>
                       <div className={styles.gridImg}>
-                        <a href={link1}><img
-                          src={img}
-                          layout="intrinsic"
-                          width="423px"
-                          height="252px"
-                          alt="data science course"
-                          className={styles.courseImg}
-                        /></a>
+                        <a href={link1}>
+                          <img
+                            src={img}
+                            layout="intrinsic"
+                            width="423px"
+                            height="252px"
+                            alt="data science course"
+                            className={styles.courseImg}
+                          />
+                        </a>
                       </div>
                       <div
                         className={styles.contentBox}
@@ -558,27 +598,32 @@ const Course = () => {
                           {para[1]}
                         </p>
                         <p>
-                          < BsCheckCircle className={styles.checkCircle} />
+                          <BsCheckCircle className={styles.checkCircle} />
                           {para[2]}
                         </p>
                         <div className={styles.btnWrapper}>
                           <a href={link1}>
                             <button>View Details</button>
                           </a>
-                          <a onClick={popupShow} ><button className="outLineBtn" style={{ padding: "8px 15px" }}>
-                            Brochure
-                            <FiDownload
-                              className="bIcon"
-                              style={{ color: "#2979AD" }}
-                            />
-                          </button></a>
+                          <a onClick={popupShow}>
+                            <button
+                              className="outLineBtn"
+                              style={{ padding: "8px 15px" }}
+                            >
+                              Brochure
+                              <FiDownload
+                                className="bIcon"
+                                style={{ color: "#2979AD" }}
+                              />
+                            </button>
+                          </a>
                         </div>
                       </div>
                     </SwiperSlide>
                   );
                 })}
               </Swiper>
-            </div>
+            </div> */}
           </div>
         ) : (
           ""
@@ -586,7 +631,7 @@ const Course = () => {
 
         {viewAll ? (
           <div className={styles.mPanel}>
-            <h5>Data Science (7) </h5>
+            <h5>Data Science (5) </h5>
             <div className={styles.gridPanel}>
               <Swiper
                 slidesPerView={mobile ? 1.1 : 3.2}
@@ -599,19 +644,20 @@ const Course = () => {
                 className="mySwiper"
               >
                 {filtteredViewAllD.map((viewAllData) => {
-                  const { id, title, title1, img, para, link1 } =
-                    viewAllData;
+                  const { id, title, title1, img, para, link1 } = viewAllData;
                   return (
                     <SwiperSlide className={styles.leftSide} key={id}>
                       <div key={id}>
-                        <a href={link1}><img
-                          src={img}
-                          layout="intrinsic"
-                          width="423px"
-                          height="252px"
-                          alt="data science course in bangalore"
-                          className={styles.courseImg}
-                        /></a>
+                        <a href={link1}>
+                          <img
+                            src={img}
+                            layout="intrinsic"
+                            width="423px"
+                            height="252px"
+                            alt="data science course in bangalore"
+                            className={styles.courseImg}
+                          />
+                        </a>
                         <div className={styles.contentBox}>
                           <h6>{title}</h6>
                           <h6>{title1}</h6>
@@ -627,20 +673,25 @@ const Course = () => {
                             {para[1]}
                           </p>
                           <p>
-                            < BsCheckCircle className={styles.checkCircle} />
+                            <BsCheckCircle className={styles.checkCircle} />
                             {para[2]}
                           </p>
                           <div className={styles.btnWrapper}>
                             <a href={link1}>
                               <button>View Details</button>
                             </a>
-                            <a onClick={popupShow} ><button className="outLineBtn" style={{ padding: "8px 15px" }}>
-                              Brochure
-                              <FiDownload
-                                className="bIcon"
-                                style={{ color: "#2979AD" }}
-                              />
-                            </button></a>
+                            <a onClick={popupShow}>
+                              <button
+                                className="outLineBtn"
+                                style={{ padding: "8px 15px" }}
+                              >
+                                Brochure
+                                <FiDownload
+                                  className="bIcon"
+                                  style={{ color: "#2979AD" }}
+                                />
+                              </button>
+                            </a>
                           </div>
                         </div>
                       </div>
@@ -649,7 +700,7 @@ const Course = () => {
                 })}
               </Swiper>
             </div>
-            <h5>Full Stack (2) </h5>
+            <h5>Full Stack (3) </h5>
             <div className={styles.gridPanel}>
               <Swiper
                 slidesPerView={mobile ? 1.1 : 3}
@@ -662,18 +713,19 @@ const Course = () => {
                 className="mySwiper"
               >
                 {filtteredViewAllF.map((viewAllData) => {
-                  const { id, title, title1, img, para, link1 } =
-                    viewAllData;
+                  const { id, title, title1, img, para, link1 } = viewAllData;
                   return (
                     <SwiperSlide className={styles.leftSide} key={id}>
-                      <a href={link1}><img
-                        src={img}
-                        layout="intrinsic"
-                        width="423px"
-                        height="252px"
-                        alt="data science course in bangalore"
-                        className={styles.courseImg}
-                      /></a>
+                      <a href={link1}>
+                        <img
+                          src={img}
+                          layout="intrinsic"
+                          width="423px"
+                          height="252px"
+                          alt="data science course in bangalore"
+                          className={styles.courseImg}
+                        />
+                      </a>
                       <div
                         className={styles.contentBox}
                         style={{ marginTop: "452px" }}
@@ -692,20 +744,25 @@ const Course = () => {
                           {para[1]}
                         </p>
                         <p>
-                          < BsCheckCircle className={styles.checkCircle} />
+                          <BsCheckCircle className={styles.checkCircle} />
                           {para[2]}
                         </p>
                         <div className={styles.btnWrapper}>
                           <a href={link1}>
                             <button>View Details</button>
                           </a>
-                          <a onClick={popupShow} ><button className="outLineBtn" style={{ padding: "8px 15px" }}>
-                            Brochure
-                            <FiDownload
-                              className="bIcon"
-                              style={{ color: "#2979AD" }}
-                            />
-                          </button></a>
+                          <a onClick={popupShow}>
+                            <button
+                              className="outLineBtn"
+                              style={{ padding: "8px 15px" }}
+                            >
+                              Brochure
+                              <FiDownload
+                                className="bIcon"
+                                style={{ color: "#2979AD" }}
+                              />
+                            </button>
+                          </a>
                         </div>
                       </div>
                     </SwiperSlide>

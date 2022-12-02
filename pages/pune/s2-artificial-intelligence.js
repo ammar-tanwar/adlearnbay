@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-      <title>Artificial Intelligence Course - Learnbay</title>
+        <title>Artificial Intelligence Course - Learnbay</title>
         <meta
           name="description"
           content="Advance certification online Artificial Intelligence course with 100% placement 
@@ -36,7 +36,10 @@ export default function Home() {
           Capstone projects, 2 years of course subscription ,Lifetime Access to recorded 
           classes and 24/7 Learner’s support."
         />
-        <meta name="Keywords" content="artificial intelligence course institute, artificial intelligence course fee, artificial intelligence certification, artificial intelligence training, advance artificial intelligence course, artificial intelligence course duration, artificial intelligence online course, artificial intelligence course, artificial intelligence course for working professional" /> 
+        <meta
+          name="Keywords"
+          content="artificial intelligence course institute, artificial intelligence course fee, artificial intelligence certification, artificial intelligence training, advance artificial intelligence course, artificial intelligence course duration, artificial intelligence online course, artificial intelligence course, artificial intelligence course for working professional"
+        />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{
@@ -77,8 +80,9 @@ export default function Home() {
           }}
         />
       </Head>
-      <main>  <Navbar popup={true} jobDesc={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} jobDesc={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -91,8 +95,8 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-        DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/PuneTopWeb.jpg"
-        MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/PuneTopMob.jpg"
+          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/PuneTopWeb.jpg"
+          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/PuneTopMob.jpg"
           courseName="Artificial Intelligence Course"
           cityName="In Pune"
           ptag="Artificial intelligence is the simulation of human intelligence in 
@@ -100,27 +104,22 @@ export default function Home() {
           course in Pune and get hands on experience by working with real data 
           sets during Real time projects."
         />
-
         <div className={styles.program1}>
-        <ProgramInfo
-          p1={AiCourseData[0].ProgramInfo.p1}
-          p11={AiCourseData[0].ProgramInfo.p11}
-          p2={AiCourseData[0].ProgramInfo.p2}
-          p22={AiCourseData[0].ProgramInfo.p22}
-          p3={AiCourseData[0].ProgramInfo.p3}
-          p33={AiCourseData[0].ProgramInfo.p33}
-          p4={AiCourseData[0].ProgramInfo.p4}
-          p44={AiCourseData[0].ProgramInfo.p44}
-        />
-      </div>
-        <HiringPatners
-          topHead="Our Hiring Partner's In Pune"
-        />
-       
+          <ProgramInfo
+            p1={AiCourseData[0].ProgramInfo.p1}
+            p11={AiCourseData[0].ProgramInfo.p11}
+            p2={AiCourseData[0].ProgramInfo.p2}
+            p22={AiCourseData[0].ProgramInfo.p22}
+            p3={AiCourseData[0].ProgramInfo.p3}
+            p33={AiCourseData[0].ProgramInfo.p33}
+            p4={AiCourseData[0].ProgramInfo.p4}
+            p44={AiCourseData[0].ProgramInfo.p44}
+          />
+        </div>
+        <HiringPatners topHead="Our Hiring Partner's In Pune" />
         <div className={styles.Feature} id="Feature">
-
           <ProgramWithHighLight
-          title={AiCourseData[0].BoxShape.title}
+            title={AiCourseData[0].BoxShape.title}
             Box1h5={AiCourseData[0].BoxShape.Box1h5}
             box1desc={AiCourseData[0].BoxShape.box1desc}
             Box2h5={AiCourseData[0].BoxShape.Box2h5}
@@ -129,32 +128,28 @@ export default function Home() {
             box3desc={AiCourseData[0].BoxShape.box3desc}
             Box4h5={AiCourseData[0].BoxShape.Box4h5}
             box4desc={AiCourseData[0].BoxShape.box4desc}
-
             HHeading="Course Details"
             Duration="350+ Hours"
             InterviewCalls=" 10 "
             Projects="15+"
-            CourseFee="₹ 95,000 +GST "
+            CourseFee="₹ 1,00,000 +GST "
             Domain="7+"
           />
         </div>
-
         <SyllabusNew
-        syllabus={AiCourseData[0].syllabus}
-        CSyllabus="Artificial Intelligence Course Syllabus In Pune"
-        CourseHighlights={AiCourseData[0].CourseHighlights}
-        syllabusDesc={AiCourseData[0].syllabusDesc}
-        popupHead={AiCourseData[0].popupHead}
-        hours={AiCourseData[0].hours}
-        project={AiCourseData[0].project}
-      />
-      <CityImage 
-      DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityPuneWeb.jpg"
-      MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityPuneMob.jpg"
-      cityName="पुणे"
-      
-      />
-        
+          syllabus={AiCourseData[0].syllabus}
+          CSyllabus="Artificial Intelligence Course Syllabus In Pune"
+          CourseHighlights={AiCourseData[0].CourseHighlights}
+          syllabusDesc={AiCourseData[0].syllabusDesc}
+          popupHead={AiCourseData[0].popupHead}
+          hours={AiCourseData[0].hours}
+          project={AiCourseData[0].project}
+        />
+        <CityImage
+          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityPuneWeb.jpg"
+          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityPuneMob.jpg"
+          cityName="पुणे"
+        />
         <OurExpert
           H5={AiCourseData[0].OurExpert.H5}
           img1={AiCourseData[0].OurExpert.img1}
@@ -181,21 +176,19 @@ export default function Home() {
           img23={AiCourseData[0].OurExpert.img23}
           img20={AiCourseData[0].OurExpert.img20}
         />
-        <Certificate
-        H4="Artificial Intelligence Program In Pune"
-      />
-      <div className={styles.ProjectWrapper} id="project">
-        <Project popupHead={AiCourseData[0].Project.popupHead}
-          project={AiCourseData[0].Project.project}
-          domain={AiCourseData[0].Project.domain}
-          projectTitle="Hands-on Projects In Pune" />
-      </div>
-      <SliderTab />
-
-      <CourseFee
+        <Certificate H4="Artificial Intelligence Program In Pune" />
+        <div className={styles.ProjectWrapper} id="project">
+          <Project
+            popupHead={AiCourseData[0].Project.popupHead}
+            project={AiCourseData[0].Project.project}
+            domain={AiCourseData[0].Project.domain}
+            projectTitle="Hands-on Projects In Pune"
+          />
+        </div>
+        <SliderTab />
+        <CourseFee
           syllabusDesc={AiCourseData[0].syllabusDesc}
           syllabus={AiCourseData[0].Batch}
-
           CourseFeeHead={AiCourseData[0].BatchCourses.CourseFeeHead}
           CourseFeePara={AiCourseData[0].BatchCourses.CourseFeePara}
           CourseFeelist1={AiCourseData[0].BatchCourses.CourseFeelist1}
@@ -204,15 +197,11 @@ export default function Home() {
           CourseFeelist4={AiCourseData[0].BatchCourses.CourseFeelist4}
           CourseFeelist5={AiCourseData[0].BatchCourses.CourseFeelist5}
         />
-
-
-
-      <LearnSupport
-        headForCity={true}
-        cityName="24/7 Learner’s Support In Pune"
-      />
-      <CityFooter 
-      cityName="Pune"/>
+        <LearnSupport
+          headForCity={true}
+          cityName="24/7 Learner’s Support In Pune"
+        />
+        <CityFooter cityName="Pune" />
       </main>
     </div>
   );

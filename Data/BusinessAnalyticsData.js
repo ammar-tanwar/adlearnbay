@@ -1,20 +1,19 @@
 export const BusinessAnalyticsCourseData = [
   {
     FirstSection: {
-
-      deskTopPara:"Develop Work-Ready Skills ",
-      deskTopPara1:"You Can Use Right Away",
-      mTopPara:"Develop Work-Ready Skills ",
-      mTopPara1:"You Can Use Right Away",
-      mTitle:"Business Analytics Certification Course ",
-      spanMTitleText:"For Professionals",
-      title:"Business Analytics Certification Course ",
-      spanTitleText:"For Professionals",
-      desc:"Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career.",
-      src:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course7.png",
-      width:"674",
-      height:"623",
-      alt:"AiMl Header",
+      deskTopPara: "Develop Work-Ready Skills ",
+      deskTopPara1: "You Can Use Right Away",
+      mTopPara: "Develop Work-Ready Skills ",
+      mTopPara1: "You Can Use Right Away",
+      mTitle: "Business Analytics Certification Course ",
+      spanMTitleText: "For Professionals",
+      title: "Business Analytics Certification Course ",
+      spanTitleText: "For Professionals",
+      desc: "Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career.",
+      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course7.png",
+      width: "674",
+      height: "623",
+      alt: "AiMl Header",
       srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
     },
     ProgramInfo: {
@@ -25,21 +24,25 @@ export const BusinessAnalyticsCourseData = [
       p3: "1:1",
       p33: "Career Support",
       p4: "Financing as low as",
-      p44: "₹ 6,884/month",
+      p44: "₹ 13,767/month",
     },
     BoxShape: {
       title: "Why Enroll In This Program?",
       Box1h5: "Custom-fit Training",
-      box1desc: "Get specially designed modules as per your dream Business Analytics role. Learn innovative BI applications.",
+      box1desc:
+        "Get specially designed modules as per your dream Business Analytics role. Learn innovative BI applications.",
       Box2h5: "Exclusive Hackathons",
-      box2desc: "Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by Learnbay experts.",
+      box2desc:
+        "Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by Learnbay experts.",
       Box3h5: "Premium Mentoring",
-      box3desc: "Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts.",
+      box3desc:
+        "Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts.",
       Box4h5: "Hands-on Experience",
-      box4desc: "Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies.",
-      headh5: "Watch our alumni’s making successful Data Science career transition",
+      box4desc:
+        "Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies.",
+      headh5:
+        "Watch our alumni’s making successful Data Science career transition",
     },
-
 
     syllabusDesc:
       "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Business Analytics Course sessions are covered practically with real-time industrial projects and case studies.",
@@ -243,23 +246,34 @@ export const BusinessAnalyticsCourseData = [
       img7: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png",
       img8: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png",
       img9: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png",
-      img10: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/10.png",
-      img11: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/11.png",
-      img12: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/12.png",
-      img13: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/13.png",
-      img14: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/14.png",
-      img15: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/15.png",
-      img16: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/16.png",
-      img17: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/17.png",
-      img18: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/18.png",
-      img19: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/19.png",
+      img10:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/10.png",
+      img11:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/11.png",
+      img12:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/12.png",
+      img13:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/13.png",
+      img14:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/14.png",
+      img15:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/15.png",
+      img16:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/16.png",
+      img17:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/17.png",
+      img18:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/18.png",
+      img19:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/19.png",
       img21: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png",
       img22: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png",
       img23: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png",
-      img20: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
+      img20:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
     ProgramFee: {
-      Emi: "₹ 6,884/month",
+      Emi: "₹ 13,767/month",
       Fee: "₹ 70,000 +GST",
       CourseFeeAndFinancing: "Business Analytics Course Fee & Financing",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Business Analytics Certification Course and offer avariety of financing options to make it more economical.",
@@ -268,7 +282,7 @@ export const BusinessAnalyticsCourseData = [
       popupHead: "Download Project Brochure",
       project: "8+ Projects",
       domain: "7+",
-      projectTitle: "Hands-on Projects"
+      projectTitle: "Hands-on Projects",
     },
     CourseFees: {
       CourseFeeHead: "Business Analytics Course : Batch Details",
@@ -280,7 +294,6 @@ export const BusinessAnalyticsCourseData = [
       CourseFeelist5: "Company-based Mock Interviews",
     },
 
-
     Batch: [
       {
         Module0: {
@@ -289,14 +302,9 @@ export const BusinessAnalyticsCourseData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 18th November 2022",
-                  "Time : 8 AM to 10 AM",
-
-                ],
+                desc: ["Date : 18th November 2022", "Time : 8 AM to 10 AM"],
               },
             },
-
           ],
           id: 0,
           open: true,
@@ -310,19 +318,13 @@ export const BusinessAnalyticsCourseData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 18th November 2022",
-                  "Time : 8 PM to 10 PM",
-                ],
+                desc: ["Date : 18th November 2022", "Time : 8 PM to 10 PM"],
               },
             },
             {
               chap: {
                 title: "Weekday Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 25th November 2022",
-                  "Time : 8 PM to 10 PM",
-                ],
+                desc: ["Date : 25th November 2022", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -338,20 +340,15 @@ export const BusinessAnalyticsCourseData = [
             {
               chap: {
                 title: "Weekday Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 27th November 2022",
-                  "Time : 12:30 PM to 4 PM",
-                ],
+                desc: ["Date : 27th November 2022", "Time : 12:30 PM to 4 PM"],
               },
             },
-
           ],
           id: 1,
           open: false,
         },
       },
     ],
-
 
     BatchCourses: {
       CourseFeeHead: "Business Analytics Course : Batch Details",

@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
 import FirstSection from "../Components/HeroSectionManagers/HeroSection";
 import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
 import GetHired from "../Components/GetHiredManagers/GetHired";
@@ -24,18 +24,22 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-      <title>
-      Data Science and Artificial Intelligence Program For Managers and Leaders - Learnbay
-      </title>
-      <meta
-        name="description"
-        content="Advance certification online  Data Science and Artificial Intelligence Program For Managers and Leaders course with 100% placement assistance 
+        <title>
+          Data Science and Artificial Intelligence Program For Managers and
+          Leaders - Learnbay
+        </title>
+        <meta
+          name="description"
+          content="Advance certification online  Data Science and Artificial Intelligence Program For Managers and Leaders course with 100% placement assistance 
         and get 1:1 Guaranteed interview calls, 15+ Real-time projects, 1+ Capstone 
         projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
         24/7 Learner’s support."
-      />
-      <meta name="Keywords" content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee" />
-      <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        />
+        <meta
+          name="Keywords"
+          content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee"
+        />
+        <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
@@ -88,20 +92,14 @@ export default function Home() {
           </div>
         </Popup>
         <Navbar
-
           Href="/data-science-certification-courses-s3d"
           Course="Data Science & AI Certification"
-
           Href1="/advance-ai-ml-certification-s3d"
           Course1="Advance AI & ML Certification"
-
           Href2="/data-science-ai-cert-for-managers-leaders-s3d"
           Course2="Data Science & AI Cert. For Managers & Leaders"
-
           Href3="/job-guarantee-or-money-back-data-science-ai-s3d"
           Course3="100% Placement Assistance – Data Science & AI"
-
-
         />
         <FirstSection
           deskTopPara="Experience-based certification course for professionals"
@@ -115,7 +113,7 @@ export default function Home() {
             BatchDate="8+ Years Work Experience"
             BatchDuration="Accredited with IBM"
             Placement="15+ Real Time Projects"
-            EMI="₹ 9,342/month"
+            EMI="₹ 9,833/month"
           />
         </div>
         <GetHired />
@@ -144,7 +142,10 @@ export default function Home() {
           <div className={styles.left}></div>
           <div className={styles.middle}>
             <h6>Talk to our team directly.</h6>
-            <p>Reach out and a learning consultant will get in touch with you shortly.</p>
+            <p>
+              Reach out and a learning consultant will get in touch with you
+              shortly.
+            </p>
           </div>
           <div className={styles.right}>
             <button onClick={popupShow}>Enquire Now</button>
@@ -156,7 +157,6 @@ export default function Home() {
           desc="Get access to IBM cloud lab to keep an eye on trending industrial case studies of data mining, time-series forecasting, AI-based database management, and authenticated data handling."
           desc2="Experts from IBM share their ideas and tactics to deal with tricky business problems within the regularly changing analytical environments."
           desc3="Data Science Leads from IBM as instructors."
-
         />
         <Syllabus />
         <ToolsCovered />
@@ -168,5 +168,5 @@ export default function Home() {
         <Footer />
       </main>
     </div>
-  )
+  );
 }
