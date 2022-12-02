@@ -7,8 +7,8 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { FaChevronDown } from "react-icons/fa";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
-
-const Navbar = ({ radio }) => {
+import FormOtp from "../FormOtp/FormOtp"
+const Navbar = ({ radio, formotp }) => {
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
 
@@ -20,6 +20,8 @@ const Navbar = ({ radio }) => {
   };
 
   return (
+
+
     <div>
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
         <div className="leftPopup">
@@ -29,7 +31,12 @@ const Navbar = ({ radio }) => {
           <h5>Apply For Counselling</h5>
           {/* <p>Fill the below Details to get started</p> */}
 
-          <Form popup={true} setTrigger={setPopups} radio={radio} />
+          {formotp ?(
+            <FormOtp popup={true} />
+          ):(
+            <Form popup={true} setTrigger={setPopups} radio={radio} />
+          )}
+          
         </div>
       </Popup>
       <nav className={styles.nav}>

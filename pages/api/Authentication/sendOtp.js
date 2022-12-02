@@ -43,7 +43,7 @@ export default async function handler(req, res) {
             })
             .then((resp) => {
               let data = resp.data;
-              console.log(data);
+              // console.log(data);
               let otpData = db.collection("otp").updateMany(filter, updateDoc);
               res.status(200).json({
                 msg: "OTP Sent Successfully",
@@ -70,7 +70,7 @@ export default async function handler(req, res) {
           })
           .then((resp) => {
             let data = resp.data;
-            console.log(data);
+            // console.log(data);
 
             let otpData = db.collection("otp").insertOne({
               mobileNumber: mobileNumber,

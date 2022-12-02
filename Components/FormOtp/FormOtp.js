@@ -44,6 +44,15 @@ function FormOtp({ popup, radio }) {
   let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
 
 
+  if (
+    
+    router.pathname === "/dsa"
+  ) {
+    // -====================  Organic - S END POINT ==========================--------
+    endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
+    // -====================  Organic - S END POINT ==========================--------
+  }
+
   const sendOtp = (e) => {
     e.preventDefault();
     const mobileNumber = form.phone
@@ -59,7 +68,7 @@ function FormOtp({ popup, radio }) {
       .then(response => response.json())
       .then(response => {
         console.log("Response", response)
-        alert("message Send")
+        
 
         if (response.msg == 'OTP Sent Successfully') {
           setSendOtpBtnHide(true)
@@ -105,7 +114,7 @@ function FormOtp({ popup, radio }) {
       .then(response => response.json())
       .then(response => {
         console.log("Response", response)
-        alert("otp match ")
+       
 
         if (response.msg == 'OTP Validated Successfully') {
           setSendOtpBtnHide(true)
@@ -125,7 +134,10 @@ function FormOtp({ popup, radio }) {
               url: ""
             })
           );
-          if (router.pathname === "/otpForm") {
+          if (router.pathname === "/otpForm" ||
+          router.pathname === "/dsa"
+          
+          ) {
             router.push("/Thank-you");
           }
 
