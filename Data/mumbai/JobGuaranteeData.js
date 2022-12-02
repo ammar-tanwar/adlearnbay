@@ -542,8 +542,8 @@ export const JobGuaranteeCourseData = [
       img20: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
     ProgramFee: {
-      Emi: "₹ 10,816/month",
-      Fee: "₹ 1,10,000 +GST",
+       Emi: "₹ 11,800/month",
+      Fee: "₹ 1,20,000 +GST",
     CourseFeeAndFinancing:"100% Placement Assistance Course Fee & Financing In Mumbai",
     para:"We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for 100% Placement Assistance Course In Mumbai and offer avariety of financing options to make it more economical.",
     },

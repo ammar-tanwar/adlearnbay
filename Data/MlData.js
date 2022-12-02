@@ -24,7 +24,7 @@ export const MlCourseData = [
       p3: "Career Assistance",
       p33: "For Professionals",
       p4: "Financing as low as",
-      p44: "₹ 9,342/month",
+      p44: "₹ 9,833/month",
     },
     BoxShape: {
       title: "Explore Our Machine Learning Certification Programs",
@@ -407,8 +407,8 @@ export const MlCourseData = [
     },
 
     ProgramFee: {
-      Emi: "₹ 9,342/month",
-      Fee: "₹ 95,000 +GST",
+    Emi: "₹ 9,833/month",
+      Fee: "₹ 10,0000 +GST",
       CourseFeeAndFinancing: " Machine Learning Course Fee & Financing",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Machine Learning Certification Course and offer avariety of financing options to make it more economical.",
     },

@@ -24,7 +24,7 @@ export const JobGuaranteeCourseData = [
       p3: "1:1",
       p33: "Career Support",
       p4: "Financing as low as",
-      p44: "₹ 10,816/month",
+      p44: "₹ 11,800/month",
     },
     BoxShape: {
       title: "100% Job Assistance Programs in Bangalore",
@@ -542,8 +542,8 @@ export const JobGuaranteeCourseData = [
       img20: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
     ProgramFee: {
-      Emi: "₹ 10,816/month",
-      Fee: "₹ 1,10,000 +GST",
+       Emi: "₹ 11,800/month",
+      Fee: "₹ 1,20,000 +GST",
     CourseFeeAndFinancing:"100% Placement Assistance Course Fee & Financing In Bangalore",
     para:"We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for 100% Placement Assistance Course In Bangalore and offer avariety of financing options to make it more economical.",
     },

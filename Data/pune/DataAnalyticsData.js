@@ -24,7 +24,7 @@ export const DataAnalyticsCourseData = [
       p3: "1:1",
       p33: "Career Support",
       p4: "Financing as low as",
-      p44: "₹ 6,392/month",
+      p44: "₹ 6,884/month",
     },
     BoxShape: {
       title: "Data Analytic Certification Programs in Pune",
@@ -277,8 +277,8 @@ export const DataAnalyticsCourseData = [
 
 
     ProgramFee: {
-      Emi: "₹ 6,392/month",
-      Fee: "₹ 65,000 +GST",
+      Emi: "₹ 6,884/month",
+      Fee: "₹ 70,000 +GST",
       CourseFeeAndFinancing:"Data Analytics Course Fee & Financing in Pune",
       para:"We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Analytic Certification Course in Pune and offer avariety of financing options to make it more economical.",
     },

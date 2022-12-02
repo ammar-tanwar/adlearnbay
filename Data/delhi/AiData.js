@@ -24,7 +24,7 @@ export const AiCourseData = [
       p3: "Career Assistance",
       p33: "For Professionals",
       p4: "Financing as low as",
-      p44: "₹ 9,342/month",
+      p44: "₹ 9,833/month",
     },
 
     BoxShape: {
@@ -404,8 +404,8 @@ export const AiCourseData = [
   },
 
   ProgramFee: {
-    Emi: "₹ 9,342/month",
-    Fee: "₹ 95,000 +GST",
+    Emi: "₹ 9,833/month",
+Fee: "₹ 10,0000 +GST",
     CourseFeeAndFinancing:"Artificial Intelligence Course Fee & Financing in Delhi",
     para:"We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for AI Certification Course in Delhi and offer avariety of financing options to make it more economical.",
   },

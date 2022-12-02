@@ -15,7 +15,7 @@ export const DsaiManagersCourseData = [
       p3: "Career Assistance",
       p33: "For Professionals",
       p4: "Financing as low as",
-      p44: "₹ 9,342/month",
+      p44: "₹ 9,833/month",
     },
     BoxShape: {
       title: "Why Join this Programme?",
@@ -465,10 +465,6 @@ export const DsaiManagersCourseData = [
         },
       },
     ],
-
-
-
-
     BatchDetails: {
       BatchHeader: "Advanced Data science and AI Next 2022 Cohort",
       BatchName1: "weekday Batch",
