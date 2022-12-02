@@ -8,7 +8,7 @@ export default async function handler(req, res) {
     let { mobileNumber } = req.body;
     // console.log(mobileNumber, "request api");
     var otp = Math.floor(1000 + Math.random() * 9000);
-    console.log(otp);
+    // console.log(otp);
     let addDateTime = new Date();
     addDateTime = addDateTime.toUTCString();
 
