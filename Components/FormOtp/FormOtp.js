@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import styles from './FormOtp.module.css'
 import { useRouter } from "next/router";
 
-function FormOtp({ popup }) {
+function FormOtp({ popup, radio }) {
 
   const router = useRouter();
   const [btnHide, setBtnHide] = useState(false)
@@ -16,7 +16,7 @@ function FormOtp({ popup }) {
     phone: '',
     jobDescription: '',
     workExperience: '',
-    otp: '',
+    otp: '', 
     url: router.asPath,
   });
 
@@ -152,50 +152,42 @@ function FormOtp({ popup }) {
 
   return (
     <>
-      <section className={styles.formSection}>
-        <h1 className={styles.heading}>Annoying Submit Button</h1>
+      <section className={styles.App}>
         <form
           autoComplete="false"
           onSubmit={formSubmit}
           method="POST"
         >
-          <div className={styles.inputBlock}>
-            <label className={styles.label}>
-              Name <span className={styles.requiredLabel}>*</span>
-            </label>
+          <div className={styles.formWrapper}>
             <input
-              className={`${styles.input} ${form.name.length < 3 ? styles.wrongInput : styles.correctInput}`}
+              className={popup ? styles.NameInputs : styles.NameInput}
               type="text"
               name="name"
               value={form.name}
               onChange={handleForm}
-              placeholder="zain.sadaqet@gmail.com"
+              placeholder="Enter your Full Name*"
+              style={{ borderBottom: "1px solid grey" }}
               tabIndex={-1}
               required
             />
           </div>
-          <div className={styles.inputBlock}>
-            <label className={styles.label}>
-              Email <span className={styles.requiredLabel}>*</span>
-            </label>
+          <div className={styles.formWrapper}>
             <input
-              className={`${styles.input} ${form.email.length < 6 ? styles.wrongInput : styles.correctInput}`}
+              className={popup ? styles.EmailInputs : styles.EmailInput}
               type="email"
               name="email"
               value={form.email}
               onChange={handleForm}
-              placeholder="zain.sadaqet@gmail.com"
+              placeholder="Enter Your Email*"
               tabIndex={-1}
               required
             />
           </div>
-          <div className={styles.inputBlock}>
-            <label className={styles.label}>
-              Job Description <span className={styles.requiredLabel}>*</span>
-            </label>
+          <div className={styles.formWrapper}>
             <input
-              className={`${styles.input} ${form.jobDescription.length < 6 ? styles.wrongInput : styles.correctInput}`}
-              type="text"
+              className={popup ? styles.EmailInputs : styles.EmailInput}
+                placeholder="Job Title or Qualification*"
+                type="text"
               name="jobDescription"
               value={form.jobDescription}
               onChange={handleForm}
@@ -203,10 +195,7 @@ function FormOtp({ popup }) {
               required
             />
           </div>
-          <div className={styles.inputBlock}>
-            <label className={styles.label}>
-              Work Experience <span className={styles.requiredLabel}>*</span>
-            </label>
+          <div className={popup ? styles.formWrappers : styles.formWrapper}>
             <select
               name="workExperience"
               required
@@ -222,12 +211,66 @@ function FormOtp({ popup }) {
             </select>
 
           </div>
-          <div className={styles.inputBlock}>
-            <label className={styles.label}>
-              Phone Number <span className={styles.requiredLabel}>*</span>
-            </label>
+
+          {radio ? (
+          <div className={popup ? styles.formWrappers : styles.formWrapper}>
             <input
-              className={`${styles.input} ${form.phone.length === 10 ? styles.correctInput : styles.wrongInput}`}
+              id="Data Science Program"
+              value="Data Science Courses"
+              name="platform"
+              required
+              type="radio"
+              onChange={handleParam()}
+            />
+            Data Science Courses&nbsp;
+
+            <br /><input
+              id="Full Stack Program"
+              value="Full Stack Software Dev Courses"
+              name="platform"
+              required
+              type="radio"
+              onChange={handleParam()}
+            />
+            Full Stack Software Dev <br/>&nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) Courses
+          </div>
+        ) : (
+          ""
+        )}
+
+        {popup ? (
+          <div className={popup ? styles.formWrappers : styles.formWrapper}>
+            <input
+              type="hidden"
+              id="url"
+              name="url"
+              value={router.asPath}
+            ></input>
+          </div>
+        ) : (
+          ""
+        )}
+
+          <div className={styles.formWrapper}>
+            <input
+            style={
+              popup
+                ? {
+                  height: "50px",
+                  borderRadius: "8px",
+                  border: "1px solid grey",
+                  padding: "10px",
+                  width: "100%"
+                }
+                : {
+                  border: "0",
+                  height: "50px",
+                  width: "100%",
+                  borderRadius: "3px",
+                  borderBottom: "1px solid grey",
+                }
+            }
+              className={popup ? styles.Phones : styles.Phone}
               type="number"
               name="phone"
               value={form.phone}
@@ -246,28 +289,45 @@ function FormOtp({ popup }) {
               </p>
             )}
           </div>
-          {btnHide ? (
-            <div className={styles.inputBlock}>
-              <label className={styles.label}>
-                Enter OTP <span className={styles.requiredLabel}>*</span>
-              </label>
+        {btnHide ? (
+            <div className={styles.formWrapper}>
               <input
-                className={`${styles.input} ${form.otp.length === 4 ? styles.correctInput : styles.wrongInput}`}
+              style={
+                popup
+                  ? {
+                    height: "50px",
+                    borderRadius: "8px",
+                    border: "1px solid grey",
+                    padding: "10px",
+                    marginBottom: "30px",
+                    width: "100%"
+                  }
+                  : {
+                    border: "0",
+                    height: "50px",
+                    borderRadius: "3px",
+                    width: "100%",
+                    marginBottom: "30px",
+                    borderBottom: "1px solid grey",
+                  }
+              }
+                className={popup ? styles.Phones : styles.Phone}
                 type="text"
                 name="otp"
                 value={form.otp}
                 onChange={handleForm}
                 tabIndex={-1}
                 required
+                placeholder="Enter OTP"
                 maxLength={4}
                 minLength={4}
               />
               <div
-                className={`${styles.submitButtonWrapper} ${toggleClass ? styles.float : ''}`}
+                className={styles.button}
               >
                 <button
                   tabIndex={-1}
-                  className={`${styles.submitButton} ${form.phone.length === 10 ? styles.buttonSuccess : ''}`}
+                  className={styles.button}
                   onMouseEnter={annoyingSubmitButton}
                 >
                   Apply Now
@@ -277,11 +337,11 @@ function FormOtp({ popup }) {
           ) : ("")}
           {sendOtpBtnHide ? ("") : (
             <div
-              className={`${styles.submitButtonWrapper} ${toggleClass ? styles.float : ''}`}
+              className={styles.button}
             >
               <button
                 tabIndex={-1}
-                className={`${styles.submitButton} ${form.phone.length === 10 ? styles.buttonSuccess : ''}`}
+                className={styles.button}
                 onMouseEnter={annoyingSubmitButton}
                 onClick={sendOtp}
               >
@@ -289,6 +349,11 @@ function FormOtp({ popup }) {
               </button>
             </div>
           )}
+          <p className={styles.FormText} style={{ fontSize: "10px" }}>
+          By submitting the form, you agree to our Terms and Conditions and our
+          Privacy Policy.
+        </p>
+        <input type='hidden' id="zc_gad" name="zc_gad" value=""/>
         </form>
       </section>
 
