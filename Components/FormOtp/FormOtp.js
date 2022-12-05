@@ -4,7 +4,7 @@ import styles from './FormOtp.module.css'
 import { useRouter } from "next/router";
 import PhoneInput from "react-phone-number-input";
 
-function FormOtp({ popup, radio }) {
+function FormOtp({ popup, radio, event, downloadBrochure }) {
 
   const router = useRouter();
   const [btnHide, setBtnHide] = useState(false)
@@ -42,16 +42,93 @@ function FormOtp({ popup, radio }) {
   };
 
 
+  // -====================  Organic - S END POINT ==========================--------
   let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
+  // -====================  Organic - S END POINT ==========================--------
 
   if (
-
+    router.pathname === "/fssd" ||
+    router.pathname === "/fswd" ||
     router.pathname === "/dsa"
   ) {
     // -====================  Organic - S END POINT ==========================--------
     endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
     // -====================  Organic - S END POINT ==========================--------
   }
+
+
+
+  // -==================== FSD - Ads  END POINT ==========================--------
+  if (
+    router.pathname === "/fssd-s2" ||
+    router.pathname === "/fssd-s4" ||
+    router.pathname === "/fssd-s5" ||
+    // router.pathname === "/fswd-s4" ||
+    // router.pathname === "/fswd-s5" ||
+    router.pathname === "/fswd-s2" ||
+    router.pathname === "/dsa-s2" ||
+    router.pathname === "/dsa-s4" ||
+    router.pathname === "/apply-for-counselling-fsd-s2" ||
+    router.pathname === "/dsa-s5"
+  ) {
+
+    // -====================  FSD - Ads END POINT ==========================--------
+    endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
+
+    // -====================  FSD - Ads END POINT ==========================--------
+  }
+
+
+
+  // -==================== Offer Campaign END POINT ==========================--------
+  if (
+
+    router.pathname === "/dsa-s3" ||
+    router.pathname === "/fssd-s3"
+  ) {
+    // -==================== Offer Campaign END POINT ==========================--------
+    endPoint = "https://getform.io/f/fd68bf82-a911-435e-9719-7c134a89a731";
+    // -==================== Offer Campaign END POINT ==========================--------
+  }
+
+  // -====================  Website Learnbay END POINT ==========================--------
+
+  if (
+    router.pathname === "/full-stack-software-development-program" ||
+    router.pathname === "/full-stack-web-development-program" ||
+    router.pathname === "/dsa-system-design"
+  ) {
+    // -====================  Website Learnbay END POINT ==========================--------
+    endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
+    // -====================  Website Learnbay END POINT ==========================--------
+  }
+
+  // -====================  Returning Audience - S6 ==========================--------
+  if (
+    router.pathname === "/fssd-s6"
+  ) {
+    // -====================  Returning Audience - S6 ==========================--------
+    endPoint = "https://getform.io/f/1c8cf486-31ef-4a7f-95b0-45c5f21e7b29";
+    // -====================  Returning Audience - S6 ==========================--------
+  }
+
+  // -==================== Webinar = END POINT ==========================--------
+  if (event) {
+
+    // -==================== Webinar =  END POINT ==========================--------
+    endPoint = "https://getform.io/f/df003555-86c7-4ae5-a7f8-98c21dd9ad92";
+    // -==================== Webinar = END POINT ==========================--------
+  }
+
+
+  let btnTxt = "Apply for  Counseliing"
+  if (event) {
+    btnTxt = "Register Now"
+  }
+
+
+
+
 
 
   const sendOtp = (e) => {
@@ -64,7 +141,7 @@ function FormOtp({ popup, radio }) {
     });
 
     const mobileNumber = form.phone
-    console.log(mobileNumber)
+    // console.log(mobileNumber)
     if (mobileNumber !== undefined) {
       const regex = /(\+91)/g;
       const str = mobileNumber.toString();
@@ -73,7 +150,7 @@ function FormOtp({ popup, radio }) {
       // console.log(result)
       const num = result.split("-")[0];
       const mobileNumber1 = result.split("-")[1];
-      console.log(mobileNumber1)
+      // console.log(mobileNumber1)
 
       if (num === '+91') {
         setupdateMobileNumber(mobileNumber1)
@@ -88,7 +165,7 @@ function FormOtp({ popup, radio }) {
         )
           .then(response => response.json())
           .then(response => {
-            console.log("Response", response)
+            // console.log("Response", response)
             if (response.msg == 'OTP Sent Successfully') {
               setToggle(false)
               setAlertMSG("OTP Sent Successfully")
@@ -130,18 +207,67 @@ function FormOtp({ popup, radio }) {
               url: ""
             })
           );
-        if (router.pathname === "/otpForm" ||
-          router.pathname === "/dsa"
 
+        if (event) {
+          router.push("/Thank-you")
+        }
+        if (
+          (router.pathname === "/fssd" && downloadBrochure) ||
+          (router.pathname === "/fswd" && downloadBrochure) ||
+          (router.pathname === "/dsa" && downloadBrochure) ||
+          (router.pathname === "/fssd-s2" && downloadBrochure) ||
+          (router.pathname === "/fssd-s4" && downloadBrochure) ||
+          // (router.pathname === "/fswd-s4" && downloadBrochure) ||
+          (router.pathname === "/fssd-s5" && downloadBrochure) ||
+          // (router.pathname === "/fswd-s5" && downloadBrochure) ||
+          (router.pathname === "/dsa-s2" && downloadBrochure) ||
+          (router.pathname === "/dsa-s4" && downloadBrochure) ||
+          (router.pathname === "/dsa-s5" && downloadBrochure) ||
+          (router.pathname === "/fswd-s2" && downloadBrochure) ||
+          (router.pathname === "/full-stack-software-development-program" &&
+            downloadBrochure) ||
+          (router.pathname === "/apply-for-counselling" && downloadBrochure) ||
+          (router.pathname === "/full-stack-web-development-program" &&
+            downloadBrochure) ||
+          (router.pathname === "/dsa-system-design" && downloadBrochure)
+        ) {
+
+          router.push("/Thank-you");
+
+          return;
+        }
+
+        if (
+          router.pathname === "/fssd" ||
+          router.pathname === "/fswd" ||
+          router.pathname === "/dsa" ||
+          router.pathname === "/fssd-s2" ||
+          router.pathname === "/dsa-s3" ||
+          router.pathname === "/fssd-s3" ||
+          router.pathname === "/fssd-s4" ||
+          // router.pathname === "/fswd-s4" ||
+          router.pathname === "/fssd-s5" ||
+          router.pathname === "/fssd-s6" ||
+          // router.pathname === "/fswd-s5" ||
+          router.pathname === "/dsa-s2" ||
+          router.pathname === "/dsa-s4" ||
+          router.pathname === "/dsa-s5" ||
+          router.pathname === "/fswd-s2" ||
+          router.pathname === "/full-stack-software-development-program" ||
+          router.pathname === "/full-stack-web-development-program" ||
+          router.pathname === "/apply-for-counselling-fsd-s2" ||
+          router.pathname === "/dsa-system-design"
         ) {
           router.push("/Thank-you");
+
+          return;
         }
       }
 
     } else {
       setToggle(false)
       setAlertMSG("Please Enter Number")
-      console.log("please enter number")
+      // console.log("please enter number")
     }
   }
 
@@ -169,7 +295,7 @@ function FormOtp({ popup, radio }) {
     )
       .then(response => response.json())
       .then(response => {
-        console.log("Response", response)
+        // console.log("Response", response)
 
         if (response.msg == 'OTP Validated Successfully') {
           setToggle(false)
@@ -180,10 +306,59 @@ function FormOtp({ popup, radio }) {
             method: "POST",
             body: formData,
           })
-          if (router.pathname === "/otpForm" ||
-            router.pathname === "/dsa"
+          if (event) {
+            router.push("/Thank-you")
+          }
+          if (
+            (router.pathname === "/fssd" && downloadBrochure) ||
+            (router.pathname === "/fswd" && downloadBrochure) ||
+            (router.pathname === "/dsa" && downloadBrochure) ||
+            (router.pathname === "/fssd-s2" && downloadBrochure) ||
+            (router.pathname === "/fssd-s4" && downloadBrochure) ||
+            // (router.pathname === "/fswd-s4" && downloadBrochure) ||
+            (router.pathname === "/fssd-s5" && downloadBrochure) ||
+            // (router.pathname === "/fswd-s5" && downloadBrochure) ||
+            (router.pathname === "/dsa-s2" && downloadBrochure) ||
+            (router.pathname === "/dsa-s4" && downloadBrochure) ||
+            (router.pathname === "/dsa-s5" && downloadBrochure) ||
+            (router.pathname === "/fswd-s2" && downloadBrochure) ||
+            (router.pathname === "/full-stack-software-development-program" &&
+              downloadBrochure) ||
+            (router.pathname === "/apply-for-counselling" && downloadBrochure) ||
+            (router.pathname === "/full-stack-web-development-program" &&
+              downloadBrochure) ||
+            (router.pathname === "/dsa-system-design" && downloadBrochure)
+          ) {
+
+            router.push("/Thank-you");
+
+            return;
+          }
+
+          if (
+            router.pathname === "/fssd" ||
+            router.pathname === "/fswd" ||
+            router.pathname === "/dsa" ||
+            router.pathname === "/fssd-s2" ||
+            router.pathname === "/dsa-s3" ||
+            router.pathname === "/fssd-s3" ||
+            router.pathname === "/fssd-s4" ||
+            // router.pathname === "/fswd-s4" ||
+            router.pathname === "/fssd-s5" ||
+            router.pathname === "/fssd-s6" ||
+            // router.pathname === "/fswd-s5" ||
+            router.pathname === "/dsa-s2" ||
+            router.pathname === "/dsa-s4" ||
+            router.pathname === "/dsa-s5" ||
+            router.pathname === "/fswd-s2" ||
+            router.pathname === "/full-stack-software-development-program" ||
+            router.pathname === "/full-stack-web-development-program" ||
+            router.pathname === "/apply-for-counselling-fsd-s2" ||
+            router.pathname === "/dsa-system-design"
           ) {
             router.push("/Thank-you");
+
+            return;
           }
 
         } else if (response.msg == 'OTP Not Validate') {
@@ -245,7 +420,7 @@ function FormOtp({ popup, radio }) {
           <div className={styles.formWrapper}>
             <input
               className={popup ? styles.EmailInputs : styles.EmailInput}
-              placeholder="Job Title or Qualification*"
+              placeholder="Job Description*"
               type="text"
               name="jobDescription"
               value={form.jobDescription}
@@ -271,31 +446,7 @@ function FormOtp({ popup, radio }) {
 
           </div>
 
-          {radio ? (
-            <div className={popup ? styles.formWrappers : styles.formWrapper}>
-              <input
-                id="Data Science Program"
-                value="Data Science Courses"
-                name="platform"
-                required
-                type="radio"
-                onChange={handleParam()}
-              />
-              Data Science Courses&nbsp;
 
-              <br /><input
-                id="Full Stack Program"
-                value="Full Stack Software Dev Courses"
-                name="platform"
-                required
-                type="radio"
-                onChange={handleParam()}
-              />
-              Full Stack Software Dev <br />&nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) Courses
-            </div>
-          ) : (
-            ""
-          )}
 
           {popup ? (
             <div className={popup ? styles.formWrappers : styles.formWrapper}>
@@ -340,7 +491,7 @@ function FormOtp({ popup, radio }) {
             />
 
           </div>
-          
+
 
           {btnHide ? (
             <div className={styles.formWrapper}>
@@ -376,29 +527,55 @@ function FormOtp({ popup, radio }) {
                 minLength={4}
               />
 
-              <div
-                className={styles.button}
-              >
-                <button
-                  tabIndex={-1}
-                  className={styles.button}
 
-                >
-                  Apply Now
-                </button>
-              </div>
             </div>
           ) : ("")}
-          
-          <div>
-          { toggle ? (
-            ''
+
+          {radio ? (
+            <div className={popup ? styles.formWrappers : styles.formWrapper}>
+              <input
+                id="Data Science Program"
+                value="Data Science Courses"
+                name="platform"
+                required
+                type="radio"
+                onChange={handleForm}
+              />
+              Data Science Courses&nbsp;
+
+              <br /><input
+                id="Full Stack Program"
+                value="Full Stack Software Dev Courses"
+                name="platform"
+                required
+                type="radio"
+                onChange={handleForm}
+              />
+              Full Stack Software Dev <br />&nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) Courses
+            </div>
           ) : (
-            <p className={styles.warningMessage}>
-              {alertMSG}
-            </p>
+            ""
           )}
-        </div>
+
+
+
+
+          <div>
+            {toggle ? (
+              ''
+            ) : (
+              <p className={styles.warningMessage}>
+                {alertMSG}
+              </p>
+            )}
+          </div>
+
+
+          <p className={styles.FormText} style={{ fontSize: "10px" }}>
+            By submitting the form, you agree to our Terms and Conditions and our
+            Privacy Policy.
+          </p>
+
           {sendOtpBtnHide ? ("") : (
             <div
               className={styles.button}
@@ -408,19 +585,29 @@ function FormOtp({ popup, radio }) {
                 className={styles.button}
 
                 onClick={sendOtp}
-                
+
               >
                 Apply Now
               </button>
             </div>
           )}
 
-          
+          {btnHide ? (
+            <div
+              className={styles.button}
+            >
+              <button
+                tabIndex={-1}
+                className={styles.button}
 
-          <p className={styles.FormText} style={{ fontSize: "10px" }}>
-            By submitting the form, you agree to our Terms and Conditions and our
-            Privacy Policy.
-          </p>
+              >
+                Apply Now
+              </button>
+            </div>
+          ) : ("")}
+
+
+
           <input type='hidden' id="zc_gad" name="zc_gad" value="" />
         </form>
       </section>

@@ -30,6 +30,7 @@ function SyllabusNew({
   CourseHighlights,
   fsdlink,
   formotp,
+  syllabusFormotp
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -84,6 +85,7 @@ function SyllabusNew({
 
           <div className={styles.btnWrapper}>
 
+          
 
           
           {fsdlink ? (
@@ -97,9 +99,6 @@ function SyllabusNew({
             Syllabus Brochure
           </button>
           )}
-
-            
-
 
           </div>
 
@@ -232,6 +231,15 @@ function SyllabusNew({
               </h5>
             </div>
             <div className={styles.PProgramInners}>
+
+            {syllabusFormotp ? (
+
+              <>
+              <FormOtp /> 
+              
+              </>
+            ):(
+              <>
               {fsdlink ? (
                 <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session"><button style={{marginLeft: "40px"}}>
                 Apply for Counselling
@@ -248,7 +256,14 @@ function SyllabusNew({
                 redirectBl={redirectBl}
                 redirectDe={redirectDe}
               />
-              )}             
+              )}   
+              
+              </>
+            )}
+
+
+
+                      
             </div>
           </div>
           <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/blue-shadow.svg" className={styles.shadowImg} />
@@ -259,3 +274,29 @@ function SyllabusNew({
 }
 
 export default SyllabusNew;
+
+
+
+
+
+
+
+
+
+// {fsdlink ? (
+//   <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session"><button style={{marginLeft: "40px"}}>
+//   Apply for Counselling
+//   <FaArrowRight style={{ marginLeft: "10px" }} />
+// </button></a>
+
+// ):(
+
+//   <Form
+//   dataScience={dataScience}
+//   redirectDs={redirectDs}
+//   redirectFs={redirectFs}
+//   redirectBa={redirectBa}
+//   redirectBl={redirectBl}
+//   redirectDe={redirectDe}
+// />
+// )}     
