@@ -322,5 +322,28 @@
       margin-left: 10px;
       margin-right: 10px;
     }
+    .popupInnersotp {
+      background-image: none !important;
+      padding: 30px 20px;
+      max-width: 100%;
+
+      backdrop-filter: blur(16px) saturate(180%);
+      -webkit-backdrop-filter: blur(16px) saturate(180%);
+      background-color: white;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .closeBtn {
+      position: absolute;
+      background-color: white;
+      cursor: pointer;
+      border-radius: 50%;
+      border: 1px solid #2d9cd7;
+      border-color: blue;
+      color: #2d9cd7;
+      top: 5px;
+      right: 10px;
+      font-size: 25px;
+    }
   }
 }
