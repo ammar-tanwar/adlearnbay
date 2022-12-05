@@ -503,7 +503,7 @@ function FormOtp({ popup, radio, event, downloadBrochure }) {
                       borderRadius: "8px",
                       border: "1px solid grey",
                       padding: "10px",
-                      marginBottom: "30px",
+                      marginBottom: "0px",
                       width: "100%"
                     }
                     : {
@@ -511,7 +511,7 @@ function FormOtp({ popup, radio, event, downloadBrochure }) {
                       height: "50px",
                       borderRadius: "3px",
                       width: "100%",
-                      marginBottom: "30px",
+                      marginBottom: "0px",
                       borderBottom: "1px solid grey",
                     }
                 }
@@ -564,7 +564,7 @@ function FormOtp({ popup, radio, event, downloadBrochure }) {
             {toggle ? (
               ''
             ) : (
-              <p className={styles.warningMessage}>
+              <p className={styles.alert}>
                 {alertMSG}
               </p>
             )}
