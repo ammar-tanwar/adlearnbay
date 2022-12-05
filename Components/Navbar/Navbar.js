@@ -48,7 +48,7 @@ const Navbar = ({ radio, event, dataScience, fullStack ,eventDateInfo, formotp})
           <h5> Register NOW!</h5>
           {/* <p>Fill the below details to get started</p> */}
           {formotp ?(
-            <FormOtp popup={true} />
+            <FormOtp popup={true} event={true} setTrigger={setPopups} jobDescription={true} workExperience={true}/>
           ):(
             <Form popup={true} setTrigger={setPopups} event={true} radio={radio} fullStack={fullStack} dataScience={dataScience} />
           )}

@@ -4,7 +4,7 @@ import styles from './FormOtp.module.css'
 import { useRouter } from "next/router";
 import PhoneInput from "react-phone-number-input";
 
-function FormOtp({ popup, radio, event, downloadBrochure,jobDescription,workExperience }) {
+function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workExperience }) {
 
   const router = useRouter();
   const [btnHide, setBtnHide] = useState(false)
@@ -300,15 +300,17 @@ function FormOtp({ popup, radio, event, downloadBrochure,jobDescription,workExpe
         if (response.msg == 'OTP Validated Successfully') {
           setToggle(false)
           setAlertMSG("OTP Validated Successfully")
-          setSendOtpBtnHide(true)
-          setBtnHide(true)
+
           fetch(`${endPoint}`, {
             method: "POST",
             body: formData,
           })
+          console.log("@@@@@@@CHECKCHCECE",event)
           if (event) {
             router.push("/Thank-you-fsd-webinar");
           }
+
+          console.log("@@@@@@@CHECKCHCECE")
           if (
             (router.pathname === "/fssd" && downloadBrochure) ||
             (router.pathname === "/fswd" && downloadBrochure) ||
@@ -360,6 +362,9 @@ function FormOtp({ popup, radio, event, downloadBrochure,jobDescription,workExpe
 
             return;
           }
+
+          setSendOtpBtnHide(true)
+          setBtnHide(true)
 
         } else if (response.msg == 'OTP Not Validate') {
           setToggle(false)
@@ -418,42 +423,42 @@ function FormOtp({ popup, radio, event, downloadBrochure,jobDescription,workExpe
             />
           </div>
 
-          {jobDescription ? (""):(
+          {jobDescription ? ("") : (
             <div className={styles.formWrapper}>
-            <input
-              className={popup ? styles.EmailInputs : styles.EmailInput}
-              placeholder="Job Description*"
-              type="text"
-              name="jobDescription"
-              value={form.jobDescription}
-              onChange={handleForm}
-              tabIndex={-1}
-              required
-            />
-          </div>
+              <input
+                className={popup ? styles.EmailInputs : styles.EmailInput}
+                placeholder="Job Description*"
+                type="text"
+                name="jobDescription"
+                value={form.jobDescription}
+                onChange={handleForm}
+                tabIndex={-1}
+                required
+              />
+            </div>
           )}
 
-          {workExperience ? (""):(
+          {workExperience ? ("") : (
             <div className={popup ? styles.formWrappers : styles.formWrapper}>
-            <select
-              name="workExperience"
-              required
-              value={form.workExperience}
-              onChange={handleForm}
-            >
-              <option value="Work Experience">Work Experience</option>
-              <option value="1 to 3 year">Fresher or 0 year</option>
-              <option value="1 to 3 year">1 to 3 year</option>
-              <option value="3 to 7 year">3 to 7 year</option>
-              <option value="7 to 12 year">7 to 12 year</option>
-              <option value="12+ year">12+ year</option>
-            </select>
+              <select
+                name="workExperience"
+                required
+                value={form.workExperience}
+                onChange={handleForm}
+              >
+                <option value="Work Experience">Work Experience</option>
+                <option value="1 to 3 year">Fresher or 0 year</option>
+                <option value="1 to 3 year">1 to 3 year</option>
+                <option value="3 to 7 year">3 to 7 year</option>
+                <option value="7 to 12 year">7 to 12 year</option>
+                <option value="12+ year">12+ year</option>
+              </select>
 
-          </div>
+            </div>
 
           )}
 
-        
+
           {popup ? (
             <div className={popup ? styles.formWrappers : styles.formWrapper}>
               <input
