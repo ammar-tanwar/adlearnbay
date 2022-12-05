@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Event/Form/Form";
-import Navbar from "../Components/CoursePage/Navbar/Navbar";
+import Navbar from "../Components/Marketing/Navbar/Navbar";
 import Footer from "../Components/CoursePage/Footer/Footer";
 import CareerImpactHome from "../Components/Home/CareerImpactHome/CareerImpact";
 import BoxShape from "../Components/Boxshape/BoxShape1";

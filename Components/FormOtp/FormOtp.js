@@ -305,12 +305,12 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
             method: "POST",
             body: formData,
           })
-          console.log("@@@@@@@CHECKCHCECE",event)
+          // console.log("@@@@@@@CHECKCHCECE",event)
           if (event) {
             router.push("/Thank-you-fsd-webinar");
           }
 
-          console.log("@@@@@@@CHECKCHCECE")
+          // console.log("@@@@@@@CHECKCHCECE")
           if (
             (router.pathname === "/fssd" && downloadBrochure) ||
             (router.pathname === "/fswd" && downloadBrochure) ||

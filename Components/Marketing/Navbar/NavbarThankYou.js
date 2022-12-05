@@ -1,14 +1,11 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { FaArrowRight,  } from "react-icons/fa";
 import styles from "./Navbar.module.css";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
-import FormOtp from "../../FormOtp/FormOtp";
 import { useRouter } from "next/router";
 
-
-const Navbar = ({ radio, fsdlink, formotp }) => {
+const Navbar = ({ radio }) => {
   const router = useRouter();
   const [icon, setIcon] = useState(false);
   const [show, setShow] = useState(false);
@@ -44,11 +41,7 @@ const Navbar = ({ radio, fsdlink, formotp }) => {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          {formotp ?(
-          <FormOtp popup={true} radio={radio}/>
-          ):(
           <Form popup={true} setTrigger={setPopups} radio={radio} />
-          )}
         </div>
       </Popup>
       <nav className={styles.nav}>
@@ -64,22 +57,6 @@ const Navbar = ({ radio, fsdlink, formotp }) => {
           />
 
         </div>
-        <div className={styles.right}>
-        {fsdlink ? (
-          <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session"><button className="outLineBtn">
-            Apply For Counselling
-            <FaArrowRight className={styles.icon} />
-          </button></a>
-          ):(
-            <button onClick={popupShow} className="outLineBtn">
-            Apply For Counselling
-            <FaArrowRight className={styles.icon} />
-          </button>
-          )}
-
-          <Popup></Popup>
-        </div>
-
       </nav>
     </div>
   );
