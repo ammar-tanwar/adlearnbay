@@ -5,7 +5,8 @@ import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
 import GetHired from "../Components/GetHiredFsw/GetHired";
 import BoxShape from "../Components/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
-import Form from "../Components/Form/Form";
+import Form from "../Components/FormOtp/FormOtp";
+import FormOtp from "../Components/FormOtp/FormOtp"
 import Project from "../Components/Projectfswd/Project";
 import Syllabus from "../Components/Syllabusdsa/Syllabus";
 import OurExpert from "../Components/OurExpert/OurExpert";
@@ -13,7 +14,7 @@ import Navbar from "../Components/CoursePage/NavbarDyn/Navbar1";
 import Footer from "../Components/Footerfsds5/Footer";
 import React, { useState } from "react";
 
-export default function Home() {
+export default function Home({formotp}) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -73,8 +74,11 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below Details to get started</p> */}
-
+            {formotp ?(
+          <FormOtp popup={true}/>
+          ):(
             <Form popup={true} setTrigger={setPopups} />
+          )}
           </div>
         </Popup>
         <Navbar formotp= {true}
@@ -90,7 +94,7 @@ export default function Home() {
 
 
         />
-        <FirstSection
+        <FirstSection formotp= {true}
           deskTopPara="Ace your coding interview at MAANG and Achieve your Dream Job"
           mTopPara="Ace your coding interview at MAANG and Achieve your Dream Job"
           title="Data Structures & Algorithms"
@@ -109,9 +113,9 @@ export default function Home() {
             EMI="₹ 6,883/month"
           />
         </div>
-        <GetHired dsa={true} />
+        <GetHired dsa={true} formotp= {true}/>
         <div className="Feature" id="Feature">
-          <BoxShape
+          <BoxShape formotp= {true}
             title="Why Enroll In This Program"
             Box1h5="Custom-fit Training"
             box1desc="Learn with modules created just for your dream job. Become an extraordinarily demanding software developer."
@@ -141,10 +145,10 @@ export default function Home() {
             </p>
           </div>
           <div className={styles.right}>
-            <button onClick={popupShow}>Enquire Now</button>
+            <button onClick={popupShow} formotp={true}>Enquire Now</button>
           </div>
         </div>
-        <Syllabus />
+        <Syllabus formotp= {true}/>
 
         <div className={styles.ProjectWrapper} id="project">
           <Project />

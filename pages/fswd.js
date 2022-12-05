@@ -73,7 +73,7 @@ export default function Home() {
                     }}
                 />
             </Head>
-            <main> <Navbar popup={true} dataScience={true} />
+            <main> <Navbar popup={true} dataScience={true} formotp={true}/>
 
                 <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
                     <div className="leftPopup">
@@ -85,7 +85,7 @@ export default function Home() {
                     </div>
                 </Popup>
 
-                <FirstSection
+                <FirstSection formotp={true}
                     deskTopPara={FullStackWebCourseData[0].FirstSection.deskTopPara}
                     mTopPara={FullStackWebCourseData[0].FirstSection.mTopPara}
                     mTitle={FullStackWebCourseData[0].FirstSection.mTitle}
@@ -128,8 +128,8 @@ export default function Home() {
 
 
                 <DomainFaq FaqData={DomainFaqCourseData1} />
-                <CourseReview />
-                <SyllabusNew
+                <CourseReview formotp={true}/>
+                <SyllabusNew formotp={true}
                     syllabus={FullStackWebCourseData[0].syllabus}
                     syllabusDesc={FullStackWebCourseData[0].syllabusDesc}
                     popupHead={FullStackWebCourseData[0].popupHead}
@@ -140,21 +140,21 @@ export default function Home() {
                     project={FullStackWebCourseData[0].project}
                 />
                 
-                <ProgramFee Fee={FullStackWebCourseData[0].ProgramFee.Fee} Emi={FullStackWebCourseData[0].ProgramFee.Emi}
+                <ProgramFee Fee={FullStackWebCourseData[0].ProgramFee.Fee} Emi={FullStackWebCourseData[0].ProgramFee.Emi} formotp={true}
                 CourseFeeAndFinancing="Program Fee & Financing"
                 para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." dataScience={true} 
 
                 />
                 <SliderTab />
                 <div className={styles.ProjectWrapper} id="project">
-                <Project
+                <Project formotp={true}
                   project={FullStackWebCourseData[0].Project.project}
                   domain={FullStackWebCourseData[0].Project.domain}
                   projectTitle={FullStackWebCourseData[0].Project.projectTitle} />
               </div>
 
 
-                <Batch
+                <Batch formotp={true}
                     syllabusDesc={FullStackWebCourseData[0].syllabusDesc}
                     syllabus={FullStackWebCourseData[0].Batch}
 

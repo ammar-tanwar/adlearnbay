@@ -2,6 +2,7 @@ import styles from "./project.module.scss";
 import React, { useState } from "react";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
+import FormOtp from "../../FormOtp/FormOtp";
 import Image from "next/image";
 import { BsCheck2 } from "react-icons/bs";
 import { FaDownload } from "react-icons/fa";
@@ -13,7 +14,7 @@ import "swiper/css";
 
 import "swiper/css/pagination";
 
-const Project = ({ popupHead, project, domain, projectTitle }) => {
+const Project = ({ popupHead, project, domain, projectTitle, formotp }) => {
   const [popups, setPopups] = useState(false);
 
   const [device, setDevice] = useState();
@@ -44,7 +45,11 @@ const Project = ({ popupHead, project, domain, projectTitle }) => {
         <div className="RightPopup">
           <h5>{popupHead}</h5>
           <p>Please enter the following details to initiate your download</p>
-          <Form setTrigger={setPopups} downloadBrochure />
+          {formotp ?(
+            <FormOtp popup={true} />
+          ):(
+            <Form setTrigger={setPopups} downloadBrochure />
+          )}
         </div>
       </Popup>
 

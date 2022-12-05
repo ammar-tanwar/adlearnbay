@@ -72,7 +72,7 @@ export default function Home() {
         />
 
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} />
+      <main>  <Navbar popup={true} dataScience={true} formotp={true}/>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -84,7 +84,7 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}
+        <FirstSection dataScience={true} formotp={true}
           deskTopPara="Ace Your Coding Interview at MAANG and Achieve Your Dream Job "
           mTopPara="Ace Your Coding Interview at MAANG and Achieve Your Dream Job"
           mTitle="Full Stack Software  "
@@ -112,7 +112,7 @@ export default function Home() {
         </div>
 
         <div className={styles.Feature} id="Feature">
-          <BoxShape
+          <BoxShape formotp={true}
             title="Why Enroll In Full Stack Software Development Course?"
             Box1h5="Crack MAANG Interview"
             box1desc="Learn in-depth DSA and crack interviews in product-based MNCs"
@@ -126,8 +126,8 @@ export default function Home() {
           />
         </div>
         <DomainFaq FaqData={DomainFaqCourseData1} />
-        <CourseReview />
-        <SyllabusNew dataScience={true}
+        <CourseReview formotp={true}/>
+        <SyllabusNew dataScience={true} formotp={true}
           syllabus={FullStackSoftwareCourseData[0].syllabus}
           syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
           popupHead="Download Course Brochure"
@@ -136,19 +136,19 @@ export default function Home() {
           project="12+ Real Time"
         />
 
-        <ProgramFee Fee={FullStackSoftwareCourseData[0].ProgramFee.Fee}
+        <ProgramFee Fee={FullStackSoftwareCourseData[0].ProgramFee.Fee} formotp={true}
           Emi={FullStackSoftwareCourseData[0].ProgramFee.Emi} CourseFeeAndFinancing="Program Fee & Financing"
           para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." dataScience={true} />
         <SliderTab />
 
         <div className={styles.ProjectWrapper} id="project">
-          <Project
+          <Project formotp={true}
             project={FullStackSoftwareCourseData[0].Project.project}
             domain={FullStackSoftwareCourseData[0].Project.domain}
             projectTitle={FullStackSoftwareCourseData[0].Project.projectTitle} />
         </div>
 
-        <Batch
+        <Batch formotp={true}
           syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
           syllabus={FullStackSoftwareCourseData[0].Batch}
           CourseFeeHead={FullStackSoftwareCourseData[0].BatchCourses.CourseFeeHead}

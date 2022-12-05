@@ -5,7 +5,7 @@ import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
 import GetHired from "../Components/GetHiredFsw/GetHired";
 import BoxShape from "../Components/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
-import Form from "../Components/Form/Form";
+import Form from "../Components/FormOtp/FormOtp";
 import Certificate from "../Components/CertificateFsw1/Certificate";
 import Project from "../Components/Projectfswd/Project";
 import Syllabus from "../Components/Syllabusfsw1/Syllabus";
@@ -91,7 +91,7 @@ export default function Home() {
       Course2="DSA & System Design"
       
       />
-      <FirstSection
+      <FirstSection formotp= {true}
         deskTopPara="Be a demanding Developer to stay ahead"
         mTopPara="Be a demanding Developer to stay ahead"
         title="Full Stack Web Development Program"
@@ -105,9 +105,9 @@ export default function Home() {
           EMI="₹ 8,358/month"
         />
       </div>
-      <GetHired />
+      <GetHired formotp= {true}/>
       <div className="Feature" id="Feature">
-        <BoxShape
+        <BoxShape formotp= {true}
           title="Why Enroll In This Program"
           Box1h5="Custom-fit Training"
           box1desc="Learn with modules created just for your dream job. Become  an extraordinarily demanding web developer."
@@ -137,7 +137,7 @@ export default function Home() {
           <button onClick={popupShow}>Enquire Now</button>
         </div>
       </div>
-      <Certificate
+      <Certificate formotp= {true}
         popupHead="Download Brochure"
         title="Global Recognition : Course Completion Certificate from IBM"
         desc="Complete your training with the internationally recognized certificate."
@@ -145,7 +145,7 @@ export default function Home() {
         desc3 ="Get acknowledged in IT sector by adding IBM Certificate to your profile."
 
       />
-      <Syllabus />
+      <Syllabus formotp= {true}/>
       <ToolsCovered />
       <div className={styles.ProjectWrapper} id="project">
         <Project />

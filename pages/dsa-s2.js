@@ -84,7 +84,7 @@ export default function Home() {
                     </div>
                 </Popup>
 
-                <FirstSection
+                <FirstSection formotp= {true}
                     deskTopPara={DsaCourseData[0].FirstSection.deskTopPara}
                     mTopPara={DsaCourseData[0].FirstSection.mTopPara}
                     mTitle={DsaCourseData[0].FirstSection.mTitle}
@@ -97,7 +97,6 @@ export default function Home() {
                     height={DsaCourseData[0].FirstSection.height}
                     alt={DsaCourseData[0].FirstSection.alt}
                     srcD={DsaCourseData[0].FirstSection.srcD}
-                    formotp= {true}
                 />
                 <div className={styles.program}>
                     <ProgramInfo
@@ -128,7 +127,7 @@ export default function Home() {
 
 
                 <div className={styles.Feature} id="Feature">
-                    <BoxShape1
+                    <BoxShape1 formotp= {true}
                         title={DsaCourseData[0].BoxShape1.title}
                         Box1h5={DsaCourseData[0].BoxShape1.Box1h5}
                         box1desc={DsaCourseData[0].BoxShape1.box1desc}
@@ -138,11 +137,10 @@ export default function Home() {
                         box3desc={DsaCourseData[0].BoxShape1.box3desc}
                         Box4h5={DsaCourseData[0].BoxShape1.Box4h5}
                         box4desc={DsaCourseData[0].BoxShape1.box4desc}
-                        formotp= {true}
                     />
                 </div>
                 <CourseReview formotp= {true}/>
-                <SyllabusNew
+                <SyllabusNew formotp= {true}
                     syllabus={DsaCourseData[0].syllabus}
                     syllabusDesc={DsaCourseData[0].syllabusDesc}
                     popupHead={DsaCourseData[0].popupHead}
@@ -151,20 +149,18 @@ export default function Home() {
                     srcD={DsaCourseData[0].srcD}
                     hours={DsaCourseData[0].hours}
                     project={DsaCourseData[0].project}
-                    formotp= {true}
                     syllabusFormotp={true}
                 />
 
 
-                <ProgramFee Fee={DsaCourseData[0].ProgramFee.Fee} Emi={DsaCourseData[0].ProgramFee.Emi}
+                <ProgramFee Fee={DsaCourseData[0].ProgramFee.Fee} Emi={DsaCourseData[0].ProgramFee.Emi} formotp= {true}
                     CourseFeeAndFinancing={DsaCourseData[0].ProgramFee.CourseFeeAndFinancing}
-                    formotp= {true}
                     para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." dataScience={true}
                 />
                 <div className={styles.ProjectWrapper} id="project">
                     <Project project={DsaCourseData[0].Project.project} domain={DsaCourseData[0].Project.domain} formotp= {true}/>
                 </div>
-                <Batch
+                <Batch formotp= {true}
                     syllabusDesc={DsaCourseData[0].syllabusDesc}
                     syllabus={DsaCourseData[0].Batch}
                     CourseFeeHead={DsaCourseData[0].BatchCourses.CourseFeeHead}
@@ -174,7 +170,6 @@ export default function Home() {
                     CourseFeelist3={DsaCourseData[0].BatchCourses.CourseFeelist3}
                     CourseFeelist4={DsaCourseData[0].BatchCourses.CourseFeelist4}
                     CourseFeelist5={DsaCourseData[0].BatchCourses.CourseFeelist5}
-                    formotp= {true}
                 />
                 <div className={styles.boxContent}>
                     <div className={styles.FirstBox}>
