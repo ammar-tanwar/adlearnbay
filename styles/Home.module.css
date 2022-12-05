@@ -407,10 +407,10 @@
   padding: 10px;
   display: grid;
   grid-template-columns: 30% 70%;
-    box-shadow: -1px 0px 10px 2px rgb(4 135 217 / 10%);
-    border-radius: 10px;
-    background: white;
-    align-items: center;
+  box-shadow: -1px 0px 10px 2px rgb(4 135 217 / 10%);
+  border-radius: 10px;
+  background: white;
+  align-items: center;
 }
 
 .rightF {
@@ -583,6 +583,39 @@
   margin: 5px;
 }
 
+.boxContent {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 80px 100px 80px 100px;
+  box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+  align-items: center;
+  height: 100%;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.FirstBox {
+  border-radius: 10px;
+  margin: 0px 30px;
+}
+
+.SecondP {
+  font-weight: 400;
+  text-align: justify;
+}
+
+.InnerBox {
+  padding: 10px 20px;
+  box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.FirstP {
+  font-size: 30px;
+  margin: 0;
+  font-weight: 600;
+}
 @media (max-width: 481px) {
   .container {
     padding: 0 1rem;
@@ -604,7 +637,7 @@
   .formSA > h5 {
     font-size: 24px;
   }
-  
+
   .formSA > p {
     font-size: 18px;
   }
@@ -612,7 +645,7 @@
   .aboutStep {
     display: block;
   }
-  
+
   .aboutBox {
     margin-bottom: 20px;
     display: grid;
@@ -729,7 +762,6 @@
     width: 100%;
     margin-top: 40px;
     justify-content: center;
-
   }
   .formqSA {
     display: block;
@@ -738,55 +770,55 @@
   .formSA {
     width: fit-content;
   }
-  .imgH{
+  .imgH {
     margin: 40px 0;
   }
   .left,
-.middle,
-.right {
-  padding-right: 20px;
-}
-.middle,
-.right {
-  padding-left: 20px;
-}
-.formSA > p {
-  font-size: 18px;
-}
+  .middle,
+  .right {
+    padding-right: 20px;
+  }
+  .middle,
+  .right {
+    padding-left: 20px;
+  }
+  .formSA > p {
+    font-size: 18px;
+  }
 
-.MVDiv {
-  padding: 20px;
-  padding-top: 0;
-  padding-bottom: 0;
-}
-.FirstDiv {
-  display: block;
-  text-align: center;
-  margin-top: 30px;
-  align-items: center;
-}
-.MiddleDiv {
-  display: flex;
-  flex-direction: column-reverse;
-  text-align: center;
-  margin-top: 30px;
-  align-items: center;
-}
+  .MVDiv {
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .FirstDiv {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    align-items: center;
+  }
+  .MiddleDiv {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-top: 30px;
+    align-items: center;
+  }
 
-.FirstImg {
-  height: 210px;
-}
+  .FirstImg {
+    height: 210px;
+  }
 
-.MiddleImg {
-  height: 210px;
-  width: 100%;
-}
+  .MiddleImg {
+    height: 210px;
+    width: 100%;
+  }
 
-.FirstText {
-  padding: 20px;
-  padding-top: 0;
-  padding-bottom: 0;
-}
+  .FirstText {
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
 
 @media (max-width: 600px) {
@@ -810,5 +842,35 @@
 
   .formr Form {
     margin: 100px 0px 0px 0px;
+  }
+  .boxContent {
+    display: block;
+    margin: 20px;
+    box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .FirstBox {
+    border-radius: 10px;
+    margin: 0px;
+  }
+  
+  .SecondP {
+    font-weight: 400;
+    text-align: justify;
+  }
+  
+  .InnerBox {
+    padding: 10px 20px;
+    box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
+    margin: 20px 0; 
+    border-radius: 10px;
+  }
+  
+  .FirstP {
+    font-size: 28px;
+    margin: 0;
+    font-weight: 600;
   }
 }
