@@ -85,7 +85,18 @@
   color: rgb(167, 167, 167);
   font-size: 16px;
 }
-
+.formWrapperOtp {
+  margin-bottom: 10px;
+  width: 80%;
+  height: 100%;
+  margin-bottom: 20px;
+  text-align: left;
+  display: flex;
+  gap: 10px;
+}
+.formWrapperOtp button {
+  padding: 15px;
+}
 .formWrapper select {
   height: 50px;
   width: 100%;

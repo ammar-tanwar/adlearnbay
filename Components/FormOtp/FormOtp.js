@@ -2,13 +2,17 @@
 import React, { useState, useEffect } from "react";
 import styles from './FormOtp.module.css'
 import { useRouter } from "next/router";
+import PhoneInput from "react-phone-number-input";
 
 function FormOtp({ popup, radio }) {
 
   const router = useRouter();
   const [btnHide, setBtnHide] = useState(false)
   const [sendOtpBtnHide, setSendOtpBtnHide] = useState(false)
-  const [toggleClass, setToggleClass] = useState(false);
+  const [value, setValue] = useState();
+  const [updateMobileNumber, setupdateMobileNumber] = useState();
+  const [alertMSG, setAlertMSG] = useState("");
+  const [toggle, setToggle] = useState(true);
 
   const [form, setForm] = useState({
     name: '',
@@ -16,15 +20,17 @@ function FormOtp({ popup, radio }) {
     phone: '',
     jobDescription: '',
     workExperience: '',
-    otp: '', 
+    otp: '',
     url: router.asPath,
   });
 
   useEffect(() => {
-    setForm({ ...form });
-  }, []);
+    setForm({ ...form, phone: value });
+
+  }, [value]);
 
   const handleForm = (e) => {
+
     const name = e.target.name;
     const value = e.target.value;
     setForm((formProps) => (
@@ -35,17 +41,11 @@ function FormOtp({ popup, radio }) {
     ));
   };
 
-  const annoyingSubmitButton = () => {
-    if (form.phone.length < 10) {
-      setToggleClass((prevState) => !prevState);
-    }
-  };
 
   let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
 
-
   if (
-    
+
     router.pathname === "/dsa"
   ) {
     // -====================  Organic - S END POINT ==========================--------
@@ -53,54 +53,110 @@ function FormOtp({ popup, radio }) {
     // -====================  Organic - S END POINT ==========================--------
   }
 
+
   const sendOtp = (e) => {
     e.preventDefault();
+
+    const formData = new FormData();
+    Object.entries(form).forEach(([key, value]) => {
+      formData.append(key, value);
+      // console.log("key-", key, "-----", "value-", value)
+    });
+
     const mobileNumber = form.phone
-    const data = fetch(`${"/api/Authentication/sendOtp"}`,
-      {
-        method: "POST",
-        body: JSON.stringify({ mobileNumber: mobileNumber }),
-        headers: {
-          "Content-Type": "application/json",
-        },
-      }
-    )
-      .then(response => response.json())
-      .then(response => {
-        console.log("Response", response)
-        
+    console.log(mobileNumber)
+    if (mobileNumber !== undefined) {
+      const regex = /(\+91)/g;
+      const str = mobileNumber.toString();
+      const subst = `\$1-`;
+      const result = str.replace(regex, subst);
+      // console.log(result)
+      const num = result.split("-")[0];
+      const mobileNumber1 = result.split("-")[1];
+      console.log(mobileNumber1)
 
-        if (response.msg == 'OTP Sent Successfully') {
-          setSendOtpBtnHide(true)
-          setBtnHide(true)
-        } else if (response.msg == 'OTP Sending Failed Through API') {
-          setSendOtpBtnHide(false)
-          setBtnHide(false)
-        } else if (response.msg == "Mobile Number is Not Match from DataBase") {
-          setSendOtpBtnHide(false)
-          setBtnHide(false)
-        } else if (response.msg == "Invalid Phone Number") {
-          setSendOtpBtnHide(false)
-          setBtnHide(false)
-        } else {
-          console.log("API IS NOT WORKING")
+      if (num === '+91') {
+        setupdateMobileNumber(mobileNumber1)
+        const data = fetch(`${"/api/Authentication/sendOtp"}`,
+          {
+            method: "POST",
+            body: JSON.stringify({ mobileNumber: mobileNumber1 }),
+            headers: {
+              "Content-Type": "application/json",
+            },
+          }
+        )
+          .then(response => response.json())
+          .then(response => {
+            console.log("Response", response)
+            if (response.msg == 'OTP Sent Successfully') {
+              setToggle(false)
+              setAlertMSG("OTP Sent Successfully")
+              setSendOtpBtnHide(true)
+              setBtnHide(true)
+
+            } else if (response.msg == 'OTP Sending Failed Through API') {
+              setSendOtpBtnHide(false)
+              setBtnHide(false)
+            } else if (response.msg == "Mobile Number is Not Match from DataBase") {
+              setSendOtpBtnHide(false)
+              setBtnHide(false)
+            } else if (response.msg == "Invalid Phone Number") {
+              setToggle(false)
+              setAlertMSG("Invalid Phone Number")
+              setSendOtpBtnHide(false)
+              setBtnHide(false)
+            } else {
+              console.log("API IS NOT WORKING")
+            }
+          })
+          .catch(err => {
+            console.log("API IS NOT WORKING")
+            console.log(err);
+          });
+      } else {
+        fetch(`${endPoint}`, {
+          method: "POST",
+          body: formData,
+        })
+          .then(() =>
+            setForm({
+              name: "",
+              email: "",
+              jobDescription: "",
+              phone: "",
+              workExperience: "",
+              otp: '',
+              url: ""
+            })
+          );
+        if (router.pathname === "/otpForm" ||
+          router.pathname === "/dsa"
+
+        ) {
+          router.push("/Thank-you");
         }
+      }
 
-      })
-      .catch(err => {
-        console.log("API IS NOT WORKING")
-        console.log(err);
-      });
+    } else {
+      setToggle(false)
+      setAlertMSG("Please Enter Number")
+      console.log("please enter number")
+    }
   }
 
   const formSubmit = (e) => {
     e.preventDefault();
+    setSendOtpBtnHide(true)
+    setBtnHide(true)
     const formData = new FormData();
+
     Object.entries(form).forEach(([key, value]) => {
       formData.append(key, value);
-      console.log("key-", key, "-----", "value-", value)
+      // console.log("key-", key, "-----", "value-", value)
     });
-    const mobileNumber = form.phone
+
+    const mobileNumber = updateMobileNumber
     const otp = form.otp
     const data = fetch(`${"/api/Authentication/matchOtp"}`,
       {
@@ -114,40 +170,33 @@ function FormOtp({ popup, radio }) {
       .then(response => response.json())
       .then(response => {
         console.log("Response", response)
-       
 
         if (response.msg == 'OTP Validated Successfully') {
+          setToggle(false)
+          setAlertMSG("OTP Validated Successfully")
           setSendOtpBtnHide(true)
           setBtnHide(true)
           fetch(`${endPoint}`, {
             method: "POST",
             body: formData,
           })
-          .then(() =>
-            setForm({
-              name: "",
-              email: "",
-              jobDescription: "",
-              phone: "",
-              workExperience: "",
-              otp:'',
-              url: ""
-            })
-          );
           if (router.pathname === "/otpForm" ||
-          router.pathname === "/dsa"
-          
+            router.pathname === "/dsa"
           ) {
             router.push("/Thank-you");
           }
 
         } else if (response.msg == 'OTP Not Validate') {
-          setSendOtpBtnHide(false)
-          setBtnHide(false)
+          setToggle(false)
+          setAlertMSG("OTP Not Validate")
+          setSendOtpBtnHide(true)
+          setBtnHide(true)
         } else if (response.msg == "OTP Expired") {
           setSendOtpBtnHide(false)
           setBtnHide(false)
         } else if (response.msg == "Invalid Phone Number") {
+          setToggle(false)
+          setAlertMSG("Invalid Phone Number")
           setSendOtpBtnHide(false)
           setBtnHide(false)
         } else {
@@ -159,8 +208,6 @@ function FormOtp({ popup, radio }) {
         console.log(err);
       });
   };
-
-
 
   return (
     <>
@@ -198,8 +245,8 @@ function FormOtp({ popup, radio }) {
           <div className={styles.formWrapper}>
             <input
               className={popup ? styles.EmailInputs : styles.EmailInput}
-                placeholder="Job Title or Qualification*"
-                type="text"
+              placeholder="Job Title or Qualification*"
+              type="text"
               name="jobDescription"
               value={form.jobDescription}
               onChange={handleForm}
@@ -225,85 +272,46 @@ function FormOtp({ popup, radio }) {
           </div>
 
           {radio ? (
-          <div className={popup ? styles.formWrappers : styles.formWrapper}>
-            <input
-              id="Data Science Program"
-              value="Data Science Courses"
-              name="platform"
-              required
-              type="radio"
-              onChange={handleParam()}
-            />
-            Data Science Courses&nbsp;
+            <div className={popup ? styles.formWrappers : styles.formWrapper}>
+              <input
+                id="Data Science Program"
+                value="Data Science Courses"
+                name="platform"
+                required
+                type="radio"
+                onChange={handleParam()}
+              />
+              Data Science Courses&nbsp;
 
-            <br /><input
-              id="Full Stack Program"
-              value="Full Stack Software Dev Courses"
-              name="platform"
-              required
-              type="radio"
-              onChange={handleParam()}
-            />
-            Full Stack Software Dev <br/>&nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) Courses
-          </div>
-        ) : (
-          ""
-        )}
+              <br /><input
+                id="Full Stack Program"
+                value="Full Stack Software Dev Courses"
+                name="platform"
+                required
+                type="radio"
+                onChange={handleParam()}
+              />
+              Full Stack Software Dev <br />&nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) Courses
+            </div>
+          ) : (
+            ""
+          )}
 
-        {popup ? (
-          <div className={popup ? styles.formWrappers : styles.formWrapper}>
-            <input
-              type="hidden"
-              id="url"
-              name="url"
-              value={router.asPath}
-            ></input>
-          </div>
-        ) : (
-          ""
-        )}
+          {popup ? (
+            <div className={popup ? styles.formWrappers : styles.formWrapper}>
+              <input
+                type="hidden"
+                id="url"
+                name="url"
+                value={router.asPath}
+              ></input>
+            </div>
+          ) : (
+            ""
+          )}
 
           <div className={styles.formWrapper}>
-            <input
-            style={
-              popup
-                ? {
-                  height: "50px",
-                  borderRadius: "8px",
-                  border: "1px solid grey",
-                  padding: "10px",
-                  width: "100%"
-                }
-                : {
-                  border: "0",
-                  height: "50px",
-                  width: "100%",
-                  borderRadius: "3px",
-                  borderBottom: "1px solid grey",
-                }
-            }
-              className={popup ? styles.Phones : styles.Phone}
-              type="number"
-              name="phone"
-              value={form.phone}
-              onChange={handleForm}
-              tabIndex={-1}
-              placeholder="Enter Phone Number"
-              required
-            />
-          </div>
-          <div>
-            {form.phone.length === 10 ? (
-              ''
-            ) : (
-              <p className={styles.warningMessage}>
-                Mobile Number length should be 10
-              </p>
-            )}
-          </div>
-        {btnHide ? (
-            <div className={styles.formWrapper}>
-              <input
+            <PhoneInput
               style={
                 popup
                   ? {
@@ -311,18 +319,51 @@ function FormOtp({ popup, radio }) {
                     borderRadius: "8px",
                     border: "1px solid grey",
                     padding: "10px",
-                    marginBottom: "30px",
-                    width: "100%"
                   }
                   : {
                     border: "0",
                     height: "50px",
                     borderRadius: "3px",
-                    width: "100%",
-                    marginBottom: "30px",
                     borderBottom: "1px solid grey",
                   }
               }
+              name="phone"
+              rules={{ required: true }}
+              defaultCountry="IN"
+
+              placeholder="Enter Phone Number"
+              className={popup ? styles.Phones : styles.Phone}
+              value={value}
+              onChange={setValue}
+              limitMaxLength={true}
+              required
+            />
+
+          </div>
+          
+
+          {btnHide ? (
+            <div className={styles.formWrapper}>
+              <input
+                style={
+                  popup
+                    ? {
+                      height: "50px",
+                      borderRadius: "8px",
+                      border: "1px solid grey",
+                      padding: "10px",
+                      marginBottom: "30px",
+                      width: "100%"
+                    }
+                    : {
+                      border: "0",
+                      height: "50px",
+                      borderRadius: "3px",
+                      width: "100%",
+                      marginBottom: "30px",
+                      borderBottom: "1px solid grey",
+                    }
+                }
                 className={popup ? styles.Phones : styles.Phone}
                 type="text"
                 name="otp"
@@ -334,19 +375,30 @@ function FormOtp({ popup, radio }) {
                 maxLength={4}
                 minLength={4}
               />
+
               <div
                 className={styles.button}
               >
                 <button
                   tabIndex={-1}
                   className={styles.button}
-                  onMouseEnter={annoyingSubmitButton}
+
                 >
                   Apply Now
                 </button>
               </div>
             </div>
           ) : ("")}
+          
+          <div>
+          { toggle ? (
+            ''
+          ) : (
+            <p className={styles.warningMessage}>
+              {alertMSG}
+            </p>
+          )}
+        </div>
           {sendOtpBtnHide ? ("") : (
             <div
               className={styles.button}
@@ -354,18 +406,22 @@ function FormOtp({ popup, radio }) {
               <button
                 tabIndex={-1}
                 className={styles.button}
-                onMouseEnter={annoyingSubmitButton}
+
                 onClick={sendOtp}
+                
               >
-                Send OTP
+                Apply Now
               </button>
             </div>
           )}
+
+          
+
           <p className={styles.FormText} style={{ fontSize: "10px" }}>
-          By submitting the form, you agree to our Terms and Conditions and our
-          Privacy Policy.
-        </p>
-        <input type='hidden' id="zc_gad" name="zc_gad" value=""/>
+            By submitting the form, you agree to our Terms and Conditions and our
+            Privacy Policy.
+          </p>
+          <input type='hidden' id="zc_gad" name="zc_gad" value="" />
         </form>
       </section>
 
@@ -374,5 +430,6 @@ function FormOtp({ popup, radio }) {
 }
 
 export default FormOtp;
+
 
 
