@@ -10,6 +10,7 @@ import {
 import Form from "../../Form/Form";
 import { BsFillCircleFill } from "react-icons/bs";
 import Popup from "../../Popup/Popup";
+import FormOtp from "../../FormOtp/FormOtp";
 
 function SyllabusNew({
   syllabus,
@@ -20,6 +21,7 @@ function SyllabusNew({
   hours,
   srcD,
   fullStack,
+  formotp,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -59,11 +61,15 @@ function SyllabusNew({
         <div className="RightPopup">
           <h5>{popupHead}</h5>
           <p>Please enter the following details to initiate your download</p>
+          {formotp ?(
+            <FormOtp popup={true} />
+          ):(
           <Form
             setTrigger={setPopups}
             downloadBrochure
             fullStack={fullStack} dataScience={dataScience}
           />
+          )}
         </div>
       </Popup>
       <div className={styles.syllabusLeft}>
@@ -204,10 +210,15 @@ function SyllabusNew({
               </h5>
             </div>
             <div className={styles.PProgramInners}>
+            {formotp ?(
+            <FormOtp popup={true} dataScience={dataScience}
+            fullStack={fullStack}/>
+          ):(
               <Form
                 dataScience={dataScience}
                 fullStack={fullStack}
               />
+          )}
             </div>
           </div>
           <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/blue-shadow.svg" className={styles.shadowImg} alt="Learnbay data science" />

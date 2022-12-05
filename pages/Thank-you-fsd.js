@@ -1,4 +1,3 @@
-
 import styles from "../styles/ThankYou.module.css";
 import Head from "next/head";
 import Image from "next/image";
@@ -70,7 +69,7 @@ const ThankYou = () => {
         ` }}
         />
       </Head>
-      <Navbar radio={true} />
+      <Navbar radio={true} formotp= {true}/>
       <section className={styles.mains}>
       
         <div className={styles.left}>

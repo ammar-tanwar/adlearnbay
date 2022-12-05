@@ -7,10 +7,11 @@ import { FiUserCheck } from "react-icons/fi";
 import EventFeature from "../../Components/Event/EventFeatures/EventFeature";
 import { getAllPostIds, getPostData } from "../../lib/event";
 import Navbar from "../../Components/Navbar/Navbar";
-import Footer from "../../Components/Event/EventFooter/Footer"
+import FormOtp from "../../Components/FormOtp/FormOtp";
+import Footer from "../../Components/Event/EventFooter/Footer";
 
 
-export default function DataScienceEvent({ eventData }) {
+export default function DataScienceEvent({ eventData, formotp }) {
   const [mobile, setMobile] = useState(false);
 
   let today = new Date();
@@ -35,9 +36,9 @@ export default function DataScienceEvent({ eventData }) {
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
         <link rel="canonical" href="https://www.learnbay.co/event" />
       </Head>
-      <Navbar event={true} eventDateInfo={eventDateInfo}/>
+      <Navbar event={true} eventDateInfo={eventDateInfo} formotp= {true}/>
       <div>
-        <EventHeader
+        <EventHeader formotp= {true}
         deskimg={eventData.data.headImg.deskimg}
         mobimg={eventData.data.headImg.mobimg}
         />
@@ -79,7 +80,7 @@ export default function DataScienceEvent({ eventData }) {
                     {eventData.data.header.register}
                   </p>
                 </div>
-                <Form event={true} />
+                <FormOtp event={true} formotp= {true}/>
               </section>
             </div>
           )}

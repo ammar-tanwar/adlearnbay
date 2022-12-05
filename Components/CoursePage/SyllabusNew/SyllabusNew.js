@@ -10,6 +10,7 @@ import {
 import Form from "../../Form/Form";
 import { BsFillCircleFill } from "react-icons/bs";
 import Popup from "../../Popup/Popup";
+import FormOtp from "../../FormOtp/FormOtp";
 
 
 function SyllabusNew({
@@ -28,6 +29,7 @@ function SyllabusNew({
   CSyllabus,
   CourseHighlights,
   fsdlink,
+  formotp,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -66,7 +68,11 @@ function SyllabusNew({
         </div>
         <div className="RightPopup">
           <h5>{popupHead}</h5>
+          {formotp ?(
+            <FormOtp popup={true} />
+          ):(
           <Form setTrigger={setPopups} downloadBrochure />
+          )}
         </div>
       </Popup>
 
@@ -233,6 +239,7 @@ function SyllabusNew({
               </button></a>
              
               ):(
+
                 <Form
                 dataScience={dataScience}
                 redirectDs={redirectDs}
@@ -241,9 +248,7 @@ function SyllabusNew({
                 redirectBl={redirectBl}
                 redirectDe={redirectDe}
               />
-              )}
-
-             
+              )}             
             </div>
           </div>
           <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/blue-shadow.svg" className={styles.shadowImg} />

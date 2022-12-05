@@ -77,7 +77,7 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} />
           </div>
         </Popup>
-        <Navbar
+        <Navbar formotp= {true}
 
           Href="/fswd-s4"
           Course="Full Stack Web Development Program"

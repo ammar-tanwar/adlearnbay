@@ -5,8 +5,9 @@ import styles from "./ProgramFee.module.css";
 import Image from "next/image";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
+import FormOtp from "../../FormOtp/FormOtp";
 
-export const ProgramFee = ({ Fee, Emi, CourseFeeAndFinancing, para, fsdlink }) => {
+export const ProgramFee = ({ Fee, Emi, CourseFeeAndFinancing, para, fsdlink, formotp }) => {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -20,7 +21,11 @@ export const ProgramFee = ({ Fee, Emi, CourseFeeAndFinancing, para, fsdlink }) =
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
+          {formotp ?(
+          <FormOtp popup={true}/>
+          ):(
           <Form popup={true} setTrigger={setPopups} />
+          )}
         </div>
       </Popup>
       <div className={styles.header}>

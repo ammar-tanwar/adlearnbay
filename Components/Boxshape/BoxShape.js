@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./BoxShape.module.css";
 import Form from "../Form/Form";
+import FormOtp from "../FormOtp/FormOtp";
 import Image from "next/image";
 const BoxShape = ({
   title,
@@ -12,7 +13,8 @@ const BoxShape = ({
   box3desc,
   Box4h5,
   box4desc,
-  radio
+  radio,
+  formotp,
 }) => {
   return (
     <div className={styles.boxWrapper}>
@@ -85,7 +87,12 @@ const BoxShape = ({
                 Talk to our counsellors Now <br />
                 <span>Apply For free Profile Review</span>
               </h5>
-              <Form radio={radio} />
+              {formotp ?(
+            <FormOtp popup={true} />
+          ):(
+            <Form radio={radio} />
+          )}
+              
             </div>
           </div>
         </div>

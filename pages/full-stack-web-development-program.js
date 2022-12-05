@@ -6,6 +6,7 @@ import GetHired from "../Components/GetHiredFsw/GetHired";
 import BoxShape from "../Components/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
+import FormOtp from "../Components/FormOtp/FormOtp";
 import Certificate from "../Components/CertificateFsw/Certificate";
 import Project from "../Components/Projectfswd/Project";
 import Syllabus from "../Components/Syllabusfsw/Syllabus";
@@ -16,7 +17,7 @@ import Footer from "../Components/Footerfsds/Footer";
 import React, { useState } from "react";
 
 
-export default function Home() {
+export default function Home({formotp}) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -75,28 +76,31 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below Details to get started</p> */}
-
+            {formotp ?(
+            <FormOtp popup={true}/>
+          ):(
             <Form popup={true} setTrigger={setPopups} />
+          )}
           </div>
         </Popup>
-        <Navbar radio={true} />
-        <FirstSection
+        <Navbar radio={true} formotp={true}/>
+        <FirstSection formotp={true}
           deskTopPara="Be a demanding Developer to stay ahead"
           mTopPara="Be a demanding Developer to stay ahead"
           title="Full Stack Web Development Program"
           desc="As a seasoned web developer, you'll have an advantage in the employment market. Experts from MNCs teach you their unique methods via hands-on projects."
         />
         <div className={styles.program}>
-          <ProgramInfo
+          <ProgramInfo 
             BatchDate="Working Professionals"
             BatchDuration="Accredited with IBM"
             Placement="12+ Real Time Projects"
             EMI="₹ 11,800/month"
           />
         </div>
-        <GetHired />
+        <GetHired formotp={true}/>
         <div className="Feature" id="Feature">
-          <BoxShape
+          <BoxShape formotp={true}
             title="Why Enroll In This Program"
             Box1h5="Custom-fit Training"
             box1desc="Learn with modules created just for your dream job. Become  an extraordinarily demanding web developer."
@@ -123,7 +127,7 @@ export default function Home() {
             <p>Reach out and a learning consultant will get in touch with you shortly.</p>
           </div>
           <div className={styles.right}>
-            <button onClick={popupShow}>Enquire Now</button>
+            <button onClick={popupShow} formotp={true}>Enquire Now</button>
           </div>
         </div>
         <Certificate
@@ -134,7 +138,7 @@ export default function Home() {
           desc3="Get acknowledged in IT sector by adding IBM Certificate to your profile."
 
         />
-        <Syllabus />
+        <Syllabus formotp={true}/>
         <ToolsCovered />
         <div className={styles.ProjectWrapper} id="project">
           <Project />

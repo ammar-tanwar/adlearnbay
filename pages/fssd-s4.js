@@ -71,7 +71,7 @@ export default function Home() {
                 />
             </Head>
             <main>
-                <Navbar popup={true} fsdlink={true}/>
+                <Navbar popup={true} fsdlink={true} formotp= {true}/>
                 <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
                     <div className="leftPopup">
                         <div className="whiteP" />

@@ -4,10 +4,11 @@ import { FaArrowRight,  } from "react-icons/fa";
 import styles from "./Navbar.module.css";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
+import FormOtp from "../../FormOtp/FormOtp";
 import { useRouter } from "next/router";
 
 
-const Navbar = ({ radio, fsdlink }) => {
+const Navbar = ({ radio, fsdlink, formotp }) => {
   const router = useRouter();
   const [icon, setIcon] = useState(false);
   const [show, setShow] = useState(false);
@@ -43,7 +44,11 @@ const Navbar = ({ radio, fsdlink }) => {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
+          {formotp ?(
+          <FormOtp popup={true} radio={radio}/>
+          ):(
           <Form popup={true} setTrigger={setPopups} radio={radio} />
+          )}
         </div>
       </Popup>
       <nav className={styles.nav}>

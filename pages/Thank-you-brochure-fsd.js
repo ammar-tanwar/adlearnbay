@@ -53,7 +53,7 @@ const ThankYou = () => {
           }}
         />
       </Head>
-      <Navbar radio={true} />
+      <Navbar radio={true} formotp= {true}/>
       <section className={styles.mains}>
         <div className={styles.left}>
           <h4 className={styles.hptop}>

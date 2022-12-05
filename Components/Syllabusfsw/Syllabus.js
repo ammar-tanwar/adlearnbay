@@ -8,12 +8,13 @@ import {
 } from "react-icons/md";
 import { SiCodeproject, SiTimescale } from "react-icons/si";
 import Form from "../Form/Form";
+import FormOtp from "../FormOtp/FormOtp";
 import { BsFillCircleFill } from "react-icons/bs";
 
 import { AiOutlineDownload } from "react-icons/ai";
 import Popup from "../Popup/Popup";
 
-function Syllabus() {
+function Syllabus({formotp}) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -694,7 +695,11 @@ function Syllabus() {
             <p>Request More Information</p>
           </div>
           <div className={styles.PProgramInner}>
+          {formotp ?(
+            <FormOtp />
+          ):(
             <Form />
+          )}
           </div>
         </div>
       </div>

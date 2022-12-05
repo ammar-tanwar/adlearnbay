@@ -5,6 +5,7 @@ import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
 import BoxShape from "../Components/CoursePage/Boxshapefssds/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
+import FormOtp from "../Components/FormOtp/FormOtp";
 import Form from "../Components/Form/Form";
 import Project from "../Components/CoursePage/Projectfswd/Project";
 import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
@@ -72,7 +73,7 @@ export default function Home() {
 
 
             </Head>
-            <main>  <Navbar popup={true} />
+            <main>  <Navbar popup={true} formotp= {true}/>
 
                 <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
                     <div className="leftPopup">

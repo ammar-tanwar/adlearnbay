@@ -4,6 +4,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { FaArrowRight, } from "react-icons/fa";
 import Image from "next/image";
+import FormOtp from "/Components/FormOtp/FormOtp";
 import Popup from "/Components/Popup/Popup";
 import Form from "/Components/Form/Form";
 
@@ -24,6 +25,7 @@ const HeroSection = ({
   mTopPara1,
   popupHead,
   fsdlink,
+  formotp,
 }) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
@@ -51,8 +53,11 @@ const HeroSection = ({
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-
+          {formotp ?(
+            <FormOtp popup={true} />
+          ):(
           <Form setTrigger={setPopups} />
+          )}
         </div>
       </Popup>
       <div className={styles.left}>

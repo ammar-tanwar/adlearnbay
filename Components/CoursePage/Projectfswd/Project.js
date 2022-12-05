@@ -11,8 +11,9 @@ import Form from "../../Form/Form";
 import Popup from "../../Popup/Popup";
 import "swiper/css";
 import "swiper/css/pagination";
+import FormOtp from "../../FormOtp/FormOtp";
 
-const Project = ({ ChangeProject, project, domain,fsdlink }) => {
+const Project = ({ ChangeProject, project, domain,fsdlink, formotp }) => {
   const [popups, setPopups] = useState(false);
 
   const [device, setDevice] = useState();
@@ -42,7 +43,11 @@ const Project = ({ ChangeProject, project, domain,fsdlink }) => {
         </div>
         <div className="RightPopup">
           <h5>Download Brochure</h5>
-          <Form setTrigger={setPopups} downloadBrochure />
+          {formotp ?(
+          <FormOtp popup={true}/>
+          ):(
+            <Form setTrigger={setPopups} downloadBrochure />
+          )}
         </div>
       </Popup>
 

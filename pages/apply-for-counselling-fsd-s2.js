@@ -3,6 +3,7 @@ import styles from '../styles/Counseling.module.css'
 import {React, useState, useEffect} from 'react'
 import Navbar from "../Components/NavbarA/Navbar";
 import Footer from "../Components/CoursePage/Footer/Footer";
+import FormOtp from "../Components/FormOtp/FormOtp"
 import Form from "../Components/Form/Form";
 import { FaArrowDown, FaArrowUp } from "react-icons/fa";
 import { MdWatchLater, MdLocationPin } from "react-icons/md";
@@ -69,7 +70,7 @@ function Counselling() {
                     }}
                 />
             </Head>
-            <Navbar radio={true} />
+            <Navbar radio={true} formotp= {true}/>
 
             {mobile? (
                 <div className={styles.formq}>
@@ -163,7 +164,7 @@ function Counselling() {
                 </div>
 
                 <div className={styles.formr}>
-                    <Form />
+                    <FormOtp /> 
                 </div>
             </div>
             )}

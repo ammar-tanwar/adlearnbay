@@ -76,7 +76,7 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} />
           </div>
         </Popup>
-        <Navbar radio={true} />
+        <Navbar radio={true} formotp= {true}/>
         <FirstSection
           deskTopPara="Ace your coding interview at MAANG and Achieve your Dream Job"
           mTopPara="Ace your coding interview at MAANG and Achieve your Dream Job"

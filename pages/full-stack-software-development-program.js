@@ -78,7 +78,7 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} />
           </div>
         </Popup>
-        <Navbar radio={true} />
+        <Navbar radio={true} formotp= {true}/>
         <FirstSection
           deskTopPara="Become a Tech Leader and Start Landing Six Figures with ease"
           mTopPara="Become a Tech Leader and Start Landing Six Figures with ease"

@@ -6,10 +6,11 @@ import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
 import Popup from "../Popup/Popup";
 // import Form from "../Form/Form";
-import Form from "../Event/Form/Form";
+import FormOtp from "../FormOtp/FormOtp"
+import Form from "../Event/Form/Form"; 
 import { useRouter } from "next/router";
 
-const Navbar = ({ radio, event, dataScience, fullStack ,eventDateInfo}) => {
+const Navbar = ({ radio, event, dataScience, fullStack ,eventDateInfo, formotp}) => {
   const router = useRouter();
   const [icon, setIcon] = useState(false);
   const [show, setShow] = useState(false);
@@ -46,7 +47,11 @@ const Navbar = ({ radio, event, dataScience, fullStack ,eventDateInfo}) => {
         <div className="RightPopup">
           <h5> Register NOW!</h5>
           {/* <p>Fill the below details to get started</p> */}
-          <Form popup={true} setTrigger={setPopups} event={true} radio={radio} fullStack={fullStack} dataScience={dataScience} />
+          {formotp ?(
+            <FormOtp popup={true} />
+          ):(
+            <Form popup={true} setTrigger={setPopups} event={true} radio={radio} fullStack={fullStack} dataScience={dataScience} />
+          )}
         </div>
       </Popup>
 

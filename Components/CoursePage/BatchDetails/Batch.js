@@ -8,6 +8,7 @@ import { AiOutlineBars } from "react-icons/ai";
 import { BiTimeFive } from "react-icons/bi";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
+import FormOtp from "../../FormOtp/FormOtp";
 
 function Batch({
   syllabus,
@@ -18,6 +19,7 @@ function Batch({
   CourseFeelist3,
   CourseFeelist4,
   CourseFeelist5,
+  formotp,
   fsdlink,
 }) {
 
@@ -52,7 +54,11 @@ function Batch({
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <Form popup={true} setTrigger={setPopups} />
+          {formotp ?(
+          <FormOtp popup={true}/>
+          ):(
+            <Form popup={true} setTrigger={setPopups} />
+          )}
         </div>
       </Popup>
       <h4 style={{ marginBottom: "30px" }}>{CourseFeeHead}</h4>
