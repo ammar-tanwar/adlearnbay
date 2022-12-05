@@ -3,12 +3,13 @@ import styles from "./Certificate.module.css";
 import { BiDownload } from "react-icons/bi";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
+import FormOtp from "../FormOtp/FormOtp";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper";
 import Image from "next/image";
-const Certificate = ({ popupHead, title, desc, desc2, desc3, radio }) => {
+const Certificate = ({ popupHead, title, desc, desc2, desc3, radio, formotp }) => {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -31,7 +32,11 @@ const Certificate = ({ popupHead, title, desc, desc2, desc3, radio }) => {
         <div className="RightPopup">
           <h5>{popupHead}</h5>
           <p>Please enter the following details to initiate your download</p>
-          <Form setTrigger={setPopups} downloadBrochure radio={radio} />
+          {formotp ?(
+          <FormOtp popup={true}/>
+          ):(
+            <Form setTrigger={setPopups} downloadBrochure radio={radio} />
+          )}
         </div>
       </Popup>
       <div className={styles.left}>

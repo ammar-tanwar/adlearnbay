@@ -82,7 +82,7 @@ export default function Home() {
                     </div>
                 </Popup>
 
-                <FirstSection
+                <FirstSection formotp= {true}
                     deskTopPara={FullStackWebCourseData[0].FirstSection.deskTopPara}
                     mTopPara={FullStackWebCourseData[0].FirstSection.mTopPara}
                     mTitle={FullStackWebCourseData[0].FirstSection.mTitle}
@@ -125,7 +125,7 @@ export default function Home() {
 
 
                 <div className={styles.Feature} id="Feature">
-                    <BoxShape1
+                    <BoxShape1 formotp= {true}
                         title={FullStackWebCourseData[0].BoxShape1.title}
                         Box1h5={FullStackWebCourseData[0].BoxShape1.Box1h5}
                         box1desc={FullStackWebCourseData[0].BoxShape1.box1desc}
@@ -137,8 +137,8 @@ export default function Home() {
                         box4desc={FullStackWebCourseData[0].BoxShape1.box4desc}
                     />
                 </div>
-                <CourseReview />
-                <SyllabusNew
+                <CourseReview formotp= {true}/>
+                <SyllabusNew formotp= {true}
                     syllabus={FullStackWebCourseData[0].syllabus}
                     syllabusDesc={FullStackWebCourseData[0].syllabusDesc}
                     popupHead={FullStackWebCourseData[0].popupHead}
@@ -151,18 +151,18 @@ export default function Home() {
                     syllabusFormotp={true}
                 />
                 
-                <ProgramFee Fee={FullStackWebCourseData[0].ProgramFee.Fee} Emi={FullStackWebCourseData[0].ProgramFee.Emi}
+                <ProgramFee Fee={FullStackWebCourseData[0].ProgramFee.Fee} Emi={FullStackWebCourseData[0].ProgramFee.Emi} formotp= {true}
                     CourseFeeAndFinancing={FullStackWebCourseData[0].ProgramFee.CourseFeeAndFinancing}
                     para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." dataScience={true}
                 />
                 <div className={styles.ProjectWrapper} id="project">
-                    <Project project={FullStackWebCourseData[0].Project.project} domain={FullStackWebCourseData[0].Project.domain} 
+                    <Project project={FullStackWebCourseData[0].Project.project} domain={FullStackWebCourseData[0].Project.domain} formotp= {true}
                    
                     />
                 </div>
 
 
-                <Batch
+                <Batch formotp= {true}
                     syllabusDesc={FullStackWebCourseData[0].syllabusDesc}
                     syllabus={FullStackWebCourseData[0].Batch}
 

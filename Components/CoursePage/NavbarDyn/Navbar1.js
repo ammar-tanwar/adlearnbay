@@ -6,6 +6,7 @@ import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaChevronDown } from "react-icons/fa";
 import Popup from "../../Popup/Popup";
+import FormOtp from "../../FormOtp/FormOtp";
 import Form from "../../Form/Form";
 
 
@@ -18,6 +19,7 @@ const Navbar = ({
   Course1,
   Course2,
   Course3,
+  formotp,
 
 
 }) => {
@@ -40,8 +42,11 @@ const Navbar = ({
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           {/* <p>Fill the below Details to get started</p> */}
-
-          <Form popup={true} setTrigger={setPopups} />
+          {formotp ?(
+          <FormOtp popup={true}/>
+          ):(
+            <Form popup={true} setTrigger={setPopups} />
+          )}
         </div>
       </Popup>
       <nav className={styles.nav}>

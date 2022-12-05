@@ -84,7 +84,7 @@ export default function Home() {
                     </div>
                 </Popup>
 
-                <FirstSection
+                <FirstSection formotp= {true}
                     deskTopPara={DsaCourseData[0].FirstSection.deskTopPara}
                     mTopPara={DsaCourseData[0].FirstSection.mTopPara}
                     mTitle={DsaCourseData[0].FirstSection.mTitle}
@@ -127,7 +127,7 @@ export default function Home() {
 
 
                 <div className={styles.Feature} id="Feature">
-                    <BoxShape1
+                    <BoxShape1 formotp= {true}
                         title={DsaCourseData[0].BoxShape1.title}
                         Box1h5={DsaCourseData[0].BoxShape1.Box1h5}
                         box1desc={DsaCourseData[0].BoxShape1.box1desc}
@@ -140,8 +140,8 @@ export default function Home() {
 
                     />
                 </div>
-                <CourseReview />
-                <SyllabusNew
+                <CourseReview formotp= {true}/>
+                <SyllabusNew formotp= {true}
                     syllabus={DsaCourseData[0].syllabus}
                     syllabusDesc={DsaCourseData[0].syllabusDesc}
                     popupHead={DsaCourseData[0].popupHead}
@@ -155,13 +155,13 @@ export default function Home() {
                 />
 
 
-                <ProgramFee Fee={DsaCourseData[0].ProgramFee.Fee} Emi={DsaCourseData[0].ProgramFee.Emi}
+                <ProgramFee Fee={DsaCourseData[0].ProgramFee.Fee} Emi={DsaCourseData[0].ProgramFee.Emi} formotp= {true}
                     CourseFeeAndFinancing={DsaCourseData[0].ProgramFee.CourseFeeAndFinancing}
                 />
                 <div className={styles.ProjectWrapper} id="project">
-                    <Project project={DsaCourseData[0].Project.project} domain={DsaCourseData[0].Project.domain} />
+                    <Project project={DsaCourseData[0].Project.project} domain={DsaCourseData[0].Project.domain} formotp= {true}/>
                 </div>
-                <Batch
+                <Batch formotp= {true}
                     syllabusDesc={DsaCourseData[0].syllabusDesc}
                     syllabus={DsaCourseData[0].Batch}
 

@@ -8,12 +8,13 @@ import {
 } from "react-icons/md";
 import { SiCodeproject, SiTimescale } from "react-icons/si";
 import Form from "../Form/Form";
+import FormOtp from "../FormOtp/FormOtp";
 import { BsFillCircleFill } from "react-icons/bs";
 
 import { AiOutlineDownload } from "react-icons/ai";
 import Popup from "../Popup/Popup";
 
-function Syllabus ({ radio }) {
+function Syllabus ({ radio, formotp }) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -93,7 +94,11 @@ function Syllabus ({ radio }) {
         <div className="RightPopup">
           <h5>Download Brochure</h5>
           <p>Please enter the following details to initiate your download</p>
-          <Form setTrigger={setPopups} downloadBrochure radio={radio}/>
+          {formotp ?(
+          <FormOtp popup={true}/>
+          ):(
+            <Form setTrigger={setPopups} downloadBrochure radio={radio}/>
+          )}
         </div>
       </Popup>
       <div className={styles.syllabusLeft}>
@@ -585,7 +590,11 @@ function Syllabus ({ radio }) {
             <p>Request More Information</p>
           </div>
           <div className={styles.PProgramInner}>
+          {formotp ?(
+          <FormOtp popup={true}/>
+          ):(
             <Form radio={radio} />
+          )}
           </div>
         </div>
       </div>
