@@ -147,6 +147,8 @@ export default function Home() {
                     srcD={FullStackWebCourseData[0].srcD}
                     hours={FullStackWebCourseData[0].hours}
                     project={FullStackWebCourseData[0].project}
+                    formotp= {true}
+                    syllabusFormotp={true}
                 />
                 
                 <ProgramFee Fee={FullStackWebCourseData[0].ProgramFee.Fee} Emi={FullStackWebCourseData[0].ProgramFee.Emi}

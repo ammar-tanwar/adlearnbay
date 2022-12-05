@@ -137,6 +137,8 @@ export default function Home() {
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
           hours="200+ Hours"
           project="12+ Real Time"
+          formotp= {true}
+          
         />
 
         <ProgramFee Fee={DsaCourseData[0].ProgramFee.Fee}

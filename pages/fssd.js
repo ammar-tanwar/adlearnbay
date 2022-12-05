@@ -134,6 +134,8 @@ export default function Home() {
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
           hours="300+ Hours"
           project="12+ Real Time"
+          formotp= {true}
+          
         />
 
         <ProgramFee Fee={FullStackSoftwareCourseData[0].ProgramFee.Fee}
