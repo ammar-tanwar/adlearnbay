@@ -13,6 +13,7 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
   const [updateMobileNumber, setupdateMobileNumber] = useState();
   const [alertMSG, setAlertMSG] = useState("");
   const [toggle, setToggle] = useState(true);
+  const [disable, setDisable] = useState(false);
 
   const [form, setForm] = useState({
     name: '',
@@ -208,6 +209,7 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
             })
           );
 
+        setDisable(true);
         if (event) {
           router.push("/Thank-you-fsd-webinar");
         }
@@ -300,11 +302,14 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
         if (response.msg == 'OTP Validated Successfully') {
           setToggle(false)
           setAlertMSG("OTP Validated Successfully")
+          setSendOtpBtnHide(false)
+          setBtnHide(false)
 
           fetch(`${endPoint}`, {
             method: "POST",
             body: formData,
           })
+          setDisable(true);
           // console.log("@@@@@@@CHECKCHCECE",event)
           if (event) {
             router.push("/Thank-you-fsd-webinar");
@@ -604,20 +609,27 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
           )}
 
           {btnHide ? (
-            <div
-              className={styles.button}
-            >
-              <button
-                tabIndex={-1}
-                className={styles.button}
+            <>
 
-              >
-                Apply Now
-              </button>
-            </div>
+              {disable ? (
+                <div className={styles.ring}>
+                  <div className={styles.ldsring}>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </div>
+                </div>
+              ) : (
+                <div className={styles.button}>
+
+                  <button type="submit" disabled={disable} tabIndex={-1} className={styles.button}>
+                    Apply Now
+                  </button>
+                </div>
+              )}
+            </>
           ) : ("")}
-
-
 
           <input type='hidden' id="zc_gad" name="zc_gad" value="" />
         </form>
@@ -628,6 +640,5 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
 }
 
 export default FormOtp;
-
 
 
