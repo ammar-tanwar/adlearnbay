@@ -58,12 +58,7 @@ const Course = () => {
 
   return (
     <div className={styles.Course} id="course">
-      <Popup
-        trigger={popups}
-        setTrigger={setPopups}
-        className="popupModal"
-        downloadBrochure
-      >
+      <Popup trigger={popups} setTrigger={setPopups} className="popupModal" formIMG={true}>
         <div className="leftPopup">
           <div
             className="whiteP"
@@ -73,7 +68,7 @@ const Course = () => {
         <div className="RightPopup">
           <h5>Download Brochure</h5>
           <p>Please enter the following details to initiate your download</p>
-          <Form setTrigger={setPopups} downloadBrochure radio={true} />
+          <Form setTrigger={setPopups} downloadBrochure radio={true}/>
         </div>
       </Popup>
       <div className={styles.courses}>

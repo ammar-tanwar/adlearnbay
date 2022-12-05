@@ -58,12 +58,7 @@ const Course = () => {
 
   return (
     <div className={styles.Course} id="course">
-      <Popup
-        trigger={popups}
-        setTrigger={setPopups}
-        className="popupModal"
-        downloadBrochure
-      >
+    <Popup trigger={popups} setTrigger={setPopups} className="popupModal" formIMG={true}>
         <div className="leftPopup">
           <div
             className="whiteP"

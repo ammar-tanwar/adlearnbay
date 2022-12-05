@@ -4,6 +4,8 @@ import { AiFillCloseCircle } from "react-icons/ai";
 
 const Popup = (props) => {
   let color = "transparent";
+
+  // console.log(props.formIMG)
   if (props.price) color = "white";
   useEffect(() => {
     if (props.trigger) {
@@ -14,29 +16,60 @@ const Popup = (props) => {
   }, [props.trigger]);
   return props.trigger ? (
     <div className={styles.popup}>
-      <div
-        className={
-          props.downloadBrochure ? styles.popupInners : styles.popupInner
-        }
-      >
-        {props.downloadBrochure ? (
-          <AiFillCloseCircle
-            className={styles.closeBtn}
-            onClick={() => {
-              props.setTrigger(false);
-            }}
-          />
-        ) : (
-          <AiFillCloseCircle
-            className={styles.closeBtn}
-            onClick={() => {
-              props.setTrigger(false);
-            }}
-          />
-        )}
+    
 
-        {props.children}
-      </div>
+    {props.formIMG ? (
+
+      <div
+      className={
+        props.downloadBrochure ? styles.popupInners : styles.popupInnersotp
+      }
+    >
+      {props.downloadBrochure ? (
+        <AiFillCloseCircle
+          className={styles.closeBtn}
+          onClick={() => {
+            props.setTrigger(false);
+          }}
+        />
+      ) : (
+        <AiFillCloseCircle
+          className={styles.closeBtn}
+          onClick={() => {
+            props.setTrigger(false);
+          }}
+        />
+      )}
+
+      {props.children}
+    </div>
+    ):(
+      <div
+      className={
+        props.downloadBrochure ? styles.popupInners : styles.popupInner
+      }
+    >
+      {props.downloadBrochure ? (
+        <AiFillCloseCircle
+          className={styles.closeBtn}
+          onClick={() => {
+            props.setTrigger(false);
+          }}
+        />
+      ) : (
+        <AiFillCloseCircle
+          className={styles.closeBtn}
+          onClick={() => {
+            props.setTrigger(false);
+          }}
+        />
+      )}
+
+      {props.children}
+    </div>
+    )}
+    
+     
     </div>
   ) : (
     ""

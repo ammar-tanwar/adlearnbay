@@ -38,7 +38,7 @@ const Navbar = ({ radio, fsdlink, formotp }) => {
 
   return (
     <div>
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+      <Popup trigger={popups} setTrigger={setPopups} className="popupModal" formIMG={true}>
         <div className="leftPopup">
           <div className="whiteP" />
         </div>

@@ -4,7 +4,7 @@ import styles from './FormOtp.module.css'
 import { useRouter } from "next/router";
 import PhoneInput from "react-phone-number-input";
 
-function FormOtp({ popup, radio, event, downloadBrochure }) {
+function FormOtp({ popup, radio, event, downloadBrochure,jobDescription,workExperience }) {
 
   const router = useRouter();
   const [btnHide, setBtnHide] = useState(false)
@@ -209,7 +209,7 @@ function FormOtp({ popup, radio, event, downloadBrochure }) {
           );
 
         if (event) {
-          router.push("/Thank-you")
+          router.push("/Thank-you-fsd-webinar");
         }
         if (
           (router.pathname === "/fssd" && downloadBrochure) ||
@@ -307,7 +307,7 @@ function FormOtp({ popup, radio, event, downloadBrochure }) {
             body: formData,
           })
           if (event) {
-            router.push("/Thank-you")
+            router.push("/Thank-you-fsd-webinar");
           }
           if (
             (router.pathname === "/fssd" && downloadBrochure) ||
@@ -417,7 +417,9 @@ function FormOtp({ popup, radio, event, downloadBrochure }) {
               required
             />
           </div>
-          <div className={styles.formWrapper}>
+
+          {jobDescription ? (""):(
+            <div className={styles.formWrapper}>
             <input
               className={popup ? styles.EmailInputs : styles.EmailInput}
               placeholder="Job Description*"
@@ -429,7 +431,10 @@ function FormOtp({ popup, radio, event, downloadBrochure }) {
               required
             />
           </div>
-          <div className={popup ? styles.formWrappers : styles.formWrapper}>
+          )}
+
+          {workExperience ? (""):(
+            <div className={popup ? styles.formWrappers : styles.formWrapper}>
             <select
               name="workExperience"
               required
@@ -446,8 +451,9 @@ function FormOtp({ popup, radio, event, downloadBrochure }) {
 
           </div>
 
+          )}
 
-
+        
           {popup ? (
             <div className={popup ? styles.formWrappers : styles.formWrapper}>
               <input

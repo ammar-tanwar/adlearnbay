@@ -150,7 +150,7 @@ export default function Home() {
                     srcD={DsaCourseData[0].srcD}
                     hours={DsaCourseData[0].hours}
                     project={DsaCourseData[0].project}
-                    formotp= {true}
+                    
                     syllabusFormotp={true}
                 />
 

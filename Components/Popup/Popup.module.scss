@@ -100,6 +100,36 @@
         font-size: 25px;
       }
     }
+
+    .popupInnersotp {
+      background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/header+h.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: left;
+      position: relative;
+      display: grid;
+      grid-template-columns: 49% 49%;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 30px 40px;
+      width: 60%;
+      height: fit-content;
+      border-radius: 10px;
+      background-color: white;
+      text-align: center;
+      .closeBtn {
+        position: absolute;
+        background-color: white;
+        cursor: pointer;
+        border-radius: 50%;
+        border: 1px solid #2D9CD7;
+        border-color: blue;
+        color: #2D9CD7;
+        top: 5px;
+        right: 10px;
+        font-size: 25px;
+      }
+    }
   }
 }
 

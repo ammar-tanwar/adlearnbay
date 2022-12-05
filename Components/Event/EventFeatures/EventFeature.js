@@ -4,7 +4,7 @@ import Image from "next/image";
 import Reviews from "../../CareerImpactHome/CareerImpact";
 import Popup from "../../Popup/Popup";
 import { FaArrowRight, FaChevronDown, FaChevronUp } from "react-icons/fa";
-import Form from "../Form/Form";
+import FormOtp from "../../FormOtp/FormOtp";
 import Link from "next/link";
 
 const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3, props, event ,eventDateInfo}) => {
@@ -29,7 +29,7 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3, props, 
         <div className="RightPopup">
           <h5> Register NOW! </h5>
           {/* <p>Fill the below details to get started</p> */}
-          <Form popup={true} setTrigger={setPopups} event={true} />
+          <FormOtp event={true} formotp= {true} jobDescription={true} workExperience={true}/>
         </div>
       </Popup>
 

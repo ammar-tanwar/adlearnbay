@@ -80,7 +80,7 @@ export default function DataScienceEvent({ eventData, formotp }) {
                     {eventData.data.header.register}
                   </p>
                 </div>
-                <FormOtp event={true} formotp= {true}/>
+                <FormOtp event={true} formotp= {true} jobDescription={true} workExperience={true}/>
               </section>
             </div>
           )}
