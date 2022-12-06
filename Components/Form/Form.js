@@ -73,7 +73,12 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
     router.pathname === "/advance-ai-ml-certification-s2" ||
     router.pathname === "/data-science-ai-cert-for-managers-leaders-s2" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s2" ||
-    
+
+    router.pathname === "/s2-business-analytics" ||
+    router.pathname === "/s2-business-analytics-advance" ||
+    router.pathname === "/s2-business-analytics-master" ||
+    router.pathname === "/s2-business-analytics-placement" ||
+
     router.pathname === "/s2-data-science-advance" ||
     router.pathname === "/s2-data-science-master" ||
     router.pathname === "/s2-data-science-placement" ||
@@ -648,6 +653,11 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
       router.pathname === "/apply-for-counselling-fsd-s2" ||
       router.pathname === "/dsa-system-design" ||
       router.pathname === "/s2-masters-program" ||
+
+      router.pathname === "/s2-business-analytics" ||
+      router.pathname === "/s2-business-analytics-advance" ||
+      router.pathname === "/s2-business-analytics-master" ||
+      router.pathname === "/s2-business-analytics-placement" ||
 
       router.pathname === "/s2-data-science-advance" ||
       router.pathname === "/s2-data-science-master" ||
