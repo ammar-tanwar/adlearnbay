@@ -1,4 +1,4 @@
-
+import React from "react";
 import styles from "../styles/ThankYou.module.css";
 import Head from "next/head";
 import Image from "next/image";
@@ -7,9 +7,11 @@ import { BsArrowLeftShort } from "react-icons/bs";
 import Navbar from "../Components/CoursePage/Navbar/NavbarThankYou";
 import Footer from "../Components/Footerfsdsq/Footer";
 import cookies from "next-cookies"
-const ThankYou = ({ initialName }) => {
+
+const ThankYouFsd = ({ initialName }) => {
 
   const email = JSON.stringify(initialName)
+  
   return (
     <div className={styles.main}>
     <Head>
@@ -43,7 +45,7 @@ const ThankYou = ({ initialName }) => {
           "ctaText":"Start Chat",
           "borderRadius":"25",
           "autoShow":false,
-          "phoneNumber":"+919606950936"
+          "phoneNumber":"+919731135221"
       }
     };
         s.onload = function() {
@@ -55,17 +57,17 @@ const ThankYou = ({ initialName }) => {
     />
     
     <script
-      dangerouslySetInnerHTML={{
-        __html: `
-      window.dataLayer = window.dataLayer || [];
-      window.dataLayer.push({
-        'event': 'form_complete',
-        'enhanced_conversion_data': {
-          "email": ${email}
-        }
-      });
-  ` }}
-    />
+    dangerouslySetInnerHTML={{
+      __html: `
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      'event': 'form_complete',
+      'enhanced_conversion_data': {
+        "email": ${email}
+      }
+    });
+` }}
+  />
 
   </Head>
       <Navbar radio={true} formotp= {true}/>
@@ -176,17 +178,18 @@ const ThankYou = ({ initialName }) => {
   );
 };
 
-export default ThankYou;
+export default ThankYouFsd;
 
 
 
 
 
-ThankYou.getInitialProps = async (ctx) => {
+ThankYouFsd.getInitialProps = async (ctx) => {
   return {
     initialName: cookies(ctx).CARD || "",
   };
 };
+
 
 
 

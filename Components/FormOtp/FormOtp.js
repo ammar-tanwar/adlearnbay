@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import styles from './FormOtp.module.css'
 import { useRouter } from "next/router";
 import PhoneInput from "react-phone-number-input";
+import jsCookie from "js-cookie";
 
 function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workExperience }) {
 
@@ -27,6 +28,7 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
 
   useEffect(() => {
     setForm({ ...form, phone: value });
+    jsCookie.set("CARD", form.email, { expires: 14, secure: true });
 
   }, [value]);
 

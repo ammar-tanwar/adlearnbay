@@ -557,7 +557,7 @@ export const mastersProgram = [
 
 
   
-    Batch: [
+   Batch: [
       {
         Module0: {
           title: "Weekday Morning Batch :-  (Mon-Fri)",
@@ -566,7 +566,7 @@ export const mastersProgram = [
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 18th November 2022",
+                  "Date : 9th December 2022",
                   "Time : 8 AM to 10 AM",
 
                 ],
@@ -587,20 +587,20 @@ export const mastersProgram = [
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 18th November 2022",
+                  "Date : 9th December 2022",
                   "Time : 8 PM to 10 PM",
                 ],
               },
             },
-            {
-              chap: {
-                title: "Weekday Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 25th November 2022",
-                  "Time : 8 PM to 10 PM",
-                ],
-              },
-            },
+            // {
+            //   chap: {
+            //     title: "Weekday Batch 1 :- Date And time ",
+            //     desc: [
+            //       "Date : 25th November 2022",
+            //       "Time : 8 PM to 10 PM",
+            //     ],
+            //   },
+            // },
           ],
           id: 1,
           open: false,
@@ -609,14 +609,14 @@ export const mastersProgram = [
       
       {
         Module0: {
-          title: "Weekend Afternoon Batch  :- (Sat-Sun)",
+          title: "Weekend Morning Batch  :- (Sat-Sun)",
           content: [
             {
               chap: {
                 title: "Weekday Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 27th November 2022",
-                  "Time : 12:30 PM to 4 PM",
+                  "Date : 11th December 2022",
+                  "Time : 8:30 AM to 12 PM",
                 ],
               },
             },
