@@ -11,7 +11,7 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Popup from "../../Popup/Popup";
-import Form from "../../Form/Form";
+import Form from "../../Event/Form/Form";
 
 import {
   viewAllD,
@@ -68,7 +68,7 @@ const Course = () => {
         <div className="RightPopup">
           <h5>Download Brochure</h5>
           <p>Please enter the following details to initiate your download</p>
-          <Form setTrigger={setPopups} downloadBrochure radio={true} />
+          <Form setTrigger={setPopups} downloadBrochure radio={true} stepupJobExp={true}/>
         </div>
       </Popup>
       <div className={styles.courses}>

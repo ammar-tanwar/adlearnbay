@@ -25,6 +25,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
     email: "",
     phone: "",
     workExperience: "",
+    jobDescription: "",
     dateTime: "",
     url: router.asPath,
   });
@@ -851,7 +852,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
               <input
                 type="text"
                 name="jobDescription"
-                placeholder="Job Description*"
+                placeholder="Job Title or Domain"
                 className={popup ? styles.EmailInputs : styles.EmailInput}
                 value={query.jobDescription}
                 onChange={handleParam()}
@@ -867,7 +868,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
               <input
                 type="text"
                 name="jobDescription"
-                placeholder="Job Description*"
+                placeholder="Job Title or Domain"
                 className={popup ? styles.EmailInputs : styles.EmailInput}
                 value={query.jobDescription}
                 onChange={handleParam()}

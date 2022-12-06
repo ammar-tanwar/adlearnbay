@@ -5,7 +5,7 @@ import PhoneInput from "react-phone-number-input";
 import { useRouter } from "next/router";
 import getDay from "date-fns/getDay";
 
-const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
+const Form = ({ popup, setTrigger, downloadBrochure, radio, event, stepupJobExp }) => {
   const router = useRouter();
 
   let today = new Date();
@@ -75,6 +75,8 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
         name: "",
         email: "",
         phone: "",
+        workExperience: "",
+        jobDescription: "",
         dateTime: "",
         url: "",
       })
@@ -139,17 +141,17 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
             style={
               popup
                 ? {
-                    height: "50px",
-                    borderRadius: "8px",
-                    border: "1px solid grey",
-                    padding: "10px",
-                  }
+                  height: "50px",
+                  borderRadius: "8px",
+                  border: "1px solid grey",
+                  padding: "10px",
+                }
                 : {
-                    border: "0",
-                    height: "50px",
-                    borderRadius: "3px",
-                    borderBottom: "1px solid grey",
-                  }
+                  border: "0",
+                  height: "50px",
+                  borderRadius: "3px",
+                  borderBottom: "1px solid grey",
+                }
             }
             name="phone"
             rules={{ required: true }}
@@ -162,6 +164,42 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event }) => {
             required
           />
         </div>
+
+
+        {stepupJobExp ? (
+          <>
+            <div className={styles.formWrapper}>
+              <input
+                type="text"
+                name="jobDescription"
+                placeholder="Job Profile"
+                className={popup ? styles.EmailInputs : styles.EmailInput}
+                value={query.jobDescription}
+                onChange={handleParam()}
+              />
+
+            </div>
+
+            <div className={popup ? styles.formWrappers : styles.formWrapper}>
+              <select
+                name="workExperience"
+                required
+                value={query.workExperience}
+                onChange={handleParam()}
+              >
+                <option value="Work Experience">Work Experience</option>
+                <option value="1 to 3 year">Fresher or 0 year</option>
+                <option value="1 to 3 year">1 to 3 year</option>
+                <option value="3 to 7 year">3 to 7 year</option>
+                <option value="7 to 12 year">7 to 12 year</option>
+                <option value="12+ year">12+ year</option>
+              </select>
+            </div>
+          </>
+        ) : ("")}
+
+
+
         {radio ? (
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
             <input

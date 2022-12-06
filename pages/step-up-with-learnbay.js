@@ -34,7 +34,7 @@ export default function Home() {
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
       <main>
-        <Navbar radio={true} />
+        <Navbar radio={true} stepupJobExp={true}/>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal" formIMG={true}>
           <div className="leftPopup">
             <div className="whiteP" />
@@ -43,7 +43,7 @@ export default function Home() {
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below Details to get started</p> */}
 
-            <Form popup={true} setTrigger={setPopups} />
+            <Form popup={true} setTrigger={setPopups} stepupJobExp={true}/>
           </div>
         </Popup>
         <div className={styles.formqS}>
@@ -53,7 +53,7 @@ export default function Home() {
             <div>
               <div className={styles.rightF}>
                 <section className={styles.form}>
-                  <Form radio={true} />
+                  <Form radio={true} stepupJobExp={true}/>
                 </section>
               </div>
             </div>
