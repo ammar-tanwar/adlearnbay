@@ -2,7 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import FirstSection from "../Components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
-import BoxShape from "../Components/CoursePage/Boxshape/BoxShape1";
+import BoxShape from "../Components/CoursePage/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
 import Form from "../Components/Form/Form";
@@ -120,9 +120,11 @@ export default function Home() {
             p44={BusinessAnalyticsCourseData[0].ProgramInfo.p44}
           />
         </div>
+
+
         <div className="Feature" id="Feature">
           <BoxShape
-          title="Explore Our Advance Business Analytics  Programs"
+          title="Explore Our Advance Business Analytics Certification Programs"
             Box1h5={BusinessAnalyticsCourseData[0].BoxShape.Box1h5}
             box1desc={BusinessAnalyticsCourseData[0].BoxShape.box1desc}
             Box2h5={BusinessAnalyticsCourseData[0].BoxShape.Box2h5}
