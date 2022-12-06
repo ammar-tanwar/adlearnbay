@@ -142,8 +142,10 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
     });
 
     const mobileNumber = form.phone
+    const name = form.name
+    const email = form.email
     // console.log(mobileNumber)
-    if (mobileNumber !== undefined) {
+    if (mobileNumber !== undefined  && name !== '' && email !== '') {
       const regex = /(\+91)/g;
       const str = mobileNumber.toString();
       const subst = `\$1-`;
@@ -268,7 +270,7 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
 
     } else {
       setToggle(false)
-      setAlertMSG("Please Enter Number")
+      setAlertMSG("Please Enter Empty Fields")
       // console.log("please enter number")
     }
   }
@@ -411,8 +413,7 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
               onChange={handleForm}
               placeholder="Enter your Full Name*"
               style={{ borderBottom: "1px solid grey" }}
-              tabIndex={-1}
-              required
+              required={true}
             />
           </div>
           <div className={styles.formWrapper}>
@@ -423,8 +424,7 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
               value={form.email}
               onChange={handleForm}
               placeholder="Enter Your Email*"
-              tabIndex={-1}
-              required
+              required={true}
             />
           </div>
 
@@ -437,7 +437,7 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
                 name="jobDescription"
                 value={form.jobDescription}
                 onChange={handleForm}
-                tabIndex={-1}
+                
                 required
               />
             </div>
@@ -536,7 +536,7 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
                 name="otp"
                 value={form.otp}
                 onChange={handleForm}
-                tabIndex={-1}
+                
                 required
                 placeholder="Enter OTP"
                 maxLength={4}
@@ -597,9 +597,9 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
               className={styles.button}
             >
               <button
-                tabIndex={-1}
+                
                 className={styles.button}
-
+                
                 onClick={sendOtp}
 
               >
@@ -623,7 +623,7 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
               ) : (
                 <div className={styles.button}>
 
-                  <button type="submit" disabled={disable} tabIndex={-1} className={styles.button}>
+                  <button  disabled={disable}  className={styles.button}>
                     Apply Now
                   </button>
                 </div>
