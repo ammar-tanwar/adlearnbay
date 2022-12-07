@@ -15,10 +15,12 @@ const BoxShape = ({
   box4desc,
   radio,
   formotp,
+  formotpForS3DS,
+  p,
 }) => {
   return (
     <div className={styles.boxWrapper}>
-      <p className="pTop">Program Features</p>
+      <p className="pTop">{p}</p>
       <h2>{title}</h2>
       <div className={styles.BoxDiv}>
         <div className={styles.left}>
@@ -87,11 +89,20 @@ const BoxShape = ({
                 Talk to our counsellors Now <br />
                 <span>Apply For free Profile Review</span>
               </h5>
-              {formotp ?(
-            <FormOtp popup={true} />
-          ):(
-            <Form radio={radio} />
-          )}
+
+              {formotpForS3DS ?(
+                <FormOtp popup={true} brief={true} currentCompany={true}/>
+              ):(
+             <>
+             {formotp ?(
+              <FormOtp popup={true} />
+            ):(
+              <Form radio={radio} />
+            )}
+             </>
+              )}
+
+              
               
             </div>
           </div>

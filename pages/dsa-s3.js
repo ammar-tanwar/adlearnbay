@@ -11,7 +11,7 @@ import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
 import { DsaCourseData } from "../Data/DsaData";
 import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
 import CourseReview from "../Components/CoursePage/CourseReviewdsas/CourseReview";
-import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
+import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupportfsd";
 import Footer from "../Components/CoursePage/Footer/Footerfsd";
 import BoxShape1 from "../Components/CoursePage/BoxshapeFssd/BoxShape";
 import React, { useState } from "react";

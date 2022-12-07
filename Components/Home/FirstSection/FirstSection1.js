@@ -4,8 +4,9 @@ import { FaChevronDown, FaBell } from "react-icons/fa";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import Image from "next/image";
+import FormOtp from "../../FormOtp/FormOtp";
 
-const FirstSection = ({dataScience}) => {
+const FirstSection = ({dataScience,heading, headingSpan, ptop,des,p1,p2,p3,h1,h2,h3,formotp,formotpForS3DS}) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
@@ -33,17 +34,31 @@ const FirstSection = ({dataScience}) => {
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           {/* <p>Fill the below details to get started</p> */}
-          <Form popup={true} setTrigger={setPopups} radio={true}  dataScience={dataScience} />
+          {formotpForS3DS ?(
+            <FormOtp popup={true} brief={true} currentCompany={true}/>
+          ):(
+         <>
+         {formotp ?(
+          <FormOtp popup={true} radio={radio}/>
+          ):(
+            <Form popup={true} setTrigger={setPopups} radio={true}  dataScience={dataScience} />
+          )}
+         
+         </>
+          )}
+
+          
         </div>
       </Popup> 
       <div className={styles.leftSide}>
+       <p className={styles.pTop1}>{ptop}</p>
         <h1>
-          #1 Domain Specialised Certification Program For{" "}
-          <span>Working Professionals</span>
+          {heading}{" "}
+          <span>{headingSpan}</span>
         </h1>
         <p className={styles.pTop}>
-          Use your domain expertise to build a meaningful career. Crack interview
-          in top product based MNCs and MAANG with confidence
+        {des}
+          
         </p>
 
         <div className={styles.btnWrapper}>
@@ -58,16 +73,16 @@ const FirstSection = ({dataScience}) => {
         </div>
         <div className={styles.info}>
           <div className={styles.left}>
-            <h5>1:1</h5>
-            <p>Dedicated Mentorship</p>
+            <h5>{h1}</h5>
+            <p>{p1}</p>
           </div>
           <div className={styles.middle}>
-            <h5>100%</h5>
-            <p>Assured Interview</p>
+            <h5>{h2}</h5>
+            <p>{p2}</p>
           </div>
           <div className={styles.right}>
-            <h5>7+</h5>
-            <p>Domain Electives</p>
+            <h5>{h3}</h5>
+            <p>{p3}</p>
           </div>
         </div>
       </div>

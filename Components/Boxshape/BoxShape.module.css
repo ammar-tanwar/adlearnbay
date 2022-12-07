@@ -11,6 +11,7 @@
 .BoxDiv {
   display: grid;
   grid-template-columns: 55% 45%;
+  align-items: center;
 }
 .left {
   display: flex;
@@ -18,11 +19,17 @@
   justify-content: space-between;
   flex-wrap: wrap;
   width: 110%;
+  height: 450px;
 }
 .box {
   margin-top: 0px;
-  width: 49%;
+  width: 48%;
   margin-right: 5px;
+  box-shadow: -1px 0px 10px 2px rgb(4 135 217 / 10%);
+  padding: 20px;
+  border-radius: 20px;
+  height: fit-content;
+  align-items: center;
 }
 .box h5 {
   font-size: 22px;
@@ -33,7 +40,7 @@
 .box p {
   font-size: 16px;
   color: #54595f;
-  padding-right: 80px;
+  padding-right: 0px;
 }
 .ImgB {
   background-color: #ebf4ff;
@@ -116,6 +123,8 @@
     gap: 10px;
     margin-bottom: 30px;
     width: 100%;
+    display: block;
+    height: fit-content;
   }
   .box h5 {
     font-size: 16px;

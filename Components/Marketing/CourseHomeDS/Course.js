@@ -12,7 +12,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Popup from "../../Popup/Popup";
 import Form from "../../Event/Form/Form";
-
+import FormOtp from "../../FormOtp/FormOtp";
 import {
   viewAllD,
   ForProgrammersD,
@@ -21,7 +21,7 @@ import {
   StackD,
 } from "./courseDetails";
 
-const Course = () => {
+const Course = ({ formotpForS3DS }) => {
   const [viewAll, setViewAll] = useState(true);
   const [oneYear, setOneYear] = useState(false);
   const [nonTech, setNonTech] = useState(false);
@@ -58,19 +58,43 @@ const Course = () => {
 
   return (
     <div className={styles.Course} id="course">
+
+    {formotpForS3DS ? (
+      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+      <div className="leftPopup">
+        <div
+          className="whiteP"
+          style={{ width: "350px", height: "400px" }}
+        ></div>
+      </div>
+      <div className="RightPopup">
+        <h5>Download Brochure</h5>
+        <p>Please enter the following details to initiate your download</p>
+
+        <FormOtp popup={true} brief={true} currentCompany={true} />
+
+      </div>
+    </Popup>
+    ):(
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal" formIMG={true}>
-        <div className="leftPopup">
-          <div
-            className="whiteP"
-            style={{ width: "350px", height: "400px" }}
-          ></div>
-        </div>
-        <div className="RightPopup">
-          <h5>Download Brochure</h5>
-          <p>Please enter the following details to initiate your download</p>
-          <Form setTrigger={setPopups} downloadBrochure radio={true} stepupJobExp={true}/>
-        </div>
-      </Popup>
+      <div className="leftPopup">
+        <div
+          className="whiteP"
+          style={{ width: "350px", height: "400px" }}
+        ></div>
+      </div>
+      <div className="RightPopup">
+        <h5>Download Brochure</h5>
+        <p>Please enter the following details to initiate your download</p>
+
+        <Form setTrigger={setPopups} downloadBrochure radio={true} stepupJobExp={true}/>
+
+      </div>
+    </Popup>
+    )}
+     
+
+
       <div className={styles.courses}>
         {viewAll ? (
           <div className={styles.mPanel}>

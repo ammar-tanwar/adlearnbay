@@ -70,6 +70,11 @@
   width: 100%;
   margin-top: 40px;
 }
+.transitionProcess h1{
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+}
 .boxWrap {
   display: flex;
   flex-flow: column;

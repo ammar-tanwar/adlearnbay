@@ -82,7 +82,7 @@ function LearnSupport({headForCity,cityName, organicNum, organicNumber}) {
           ):(
             <div className={styles.btnWrap}>
             <a
-              href="https://api.whatsapp.com/send?phone=917349222263&text=Hello,"
+              href="https://api.whatsapp.com/send?phone=919606950936&text=Hello,"
               target="_blank"
             >
               <button className={styles.btn1}>
@@ -91,9 +91,9 @@ function LearnSupport({headForCity,cityName, organicNum, organicNumber}) {
             </a>
 
 
-            <a href="tel: +917795687988">
+            <a href="tel: +919606950936">
               <button className={styles.btn2}>
-                <MdCall /> +91 77956 87988
+                <MdCall /> +91 96069 50936
               </button>
             </a>
           </div>

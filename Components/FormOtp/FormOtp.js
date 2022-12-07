@@ -63,7 +63,9 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
 
 
   if (
+    router.pathname === "/s2-data-science-banking" ||
     router.pathname === "/s3-data-science" 
+    
   ) {
     // -==================== Google - S2 END POINT ==========================--------
     endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
@@ -272,6 +274,7 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
           router.pathname === "/full-stack-web-development-program" ||
           router.pathname === "/apply-for-counselling-fsd-s2" ||
           router.pathname === "/s3-data-science" ||
+          router.pathname === "/s2-data-science-banking" ||
           router.pathname === "/dsa-system-design"
         ) {
           router.push("/Thank-you");
@@ -376,6 +379,7 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
             router.pathname === "/full-stack-web-development-program" ||
             router.pathname === "/apply-for-counselling-fsd-s2" ||
             router.pathname === "/s3-data-science" ||
+            router.pathname === "/s2-data-science-banking" ||
             router.pathname === "/dsa-system-design"
           ) {
             router.push("/Thank-you");

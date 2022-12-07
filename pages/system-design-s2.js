@@ -171,6 +171,28 @@ export default function Home() {
                     CourseFeelist4={DsaCourseData[0].BatchCourses.CourseFeelist4}
                     CourseFeelist5={DsaCourseData[0].BatchCourses.CourseFeelist5}
                 />
+
+
+                <div className={styles.boxContent}>
+                <div className={styles.FirstBox}>
+                    <p className={styles.FirstP}>How will the System Design Course help you as an SDE?</p>
+                    <p className={styles.SecondP}>System Design is the process of defining, creating, and designing systems that meet a company's or organization's specific objectives and expectations. A System designer applies modelling languages to convey information and knowledge in a system structure that is regulated by a uniform set of guidelines and criteria. The designs might be expressed in textual or graphical modelling languages. System Design can be categorized into High level system design and low-level system design. A developer who’s trying to switch to product company needs to Learn System Design course not only to clear the interview round but also to prove his skillset in system designing.</p>
+                </div>
+                <div>
+                    <div className={styles.InnerBox}>
+                        <p className={styles.SecondP}>The focus of both high-level and low-level system design courses is on your ability to build and scale technically based systems in general.</p>
+                    </div>
+                    <div className={styles.InnerBox}>
+                        <p className={styles.SecondP}>In order to establish scalable systems that can serve millions of people, system design course will help to overcome difficulties.</p>
+                    </div>
+                    <div className={styles.InnerBox}>
+                        <p className={styles.SecondP}>System Design course will help the transition to product based companies easier as they also prepare you for the interview.</p>
+                    </div>
+                </div>
+            </div>
+
+
+
                 <LearnSupport />
 
                 <Footer 

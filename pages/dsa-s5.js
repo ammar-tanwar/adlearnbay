@@ -14,7 +14,7 @@ import Navbar from "../Components/CoursePage/NavbarDyn/Navbar1";
 import Footer from "../Components/Footerfsds5/Footer";
 import React, { useState } from "react";
 
-export default function Home({formotp}) {
+export default function Home({ formotp }) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -23,9 +23,9 @@ export default function Home({formotp}) {
   return (
     <div className={styles.container}>
       <Head>
-      <title>Data Structure Course Syllabus and DSA Training 2022
-      </title>
-      <meta name="description" content="Best way to learn Data Structures and Algorithms with System Design Course Online, mastering any one coding skill - Interaction in limited batch, No Cost EMI." />
+        <title>Data Structure Course Syllabus and DSA Training 2022
+        </title>
+        <meta name="description" content="Best way to learn Data Structures and Algorithms with System Design Course Online, mastering any one coding skill - Interaction in limited batch, No Cost EMI." />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{
@@ -74,14 +74,14 @@ export default function Home({formotp}) {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below Details to get started</p> */}
-            {formotp ?(
-          <FormOtp popup={true}/>
-          ):(
-            <Form popup={true} setTrigger={setPopups} />
-          )}
+            {formotp ? (
+              <FormOtp popup={true} />
+            ) : (
+              <Form popup={true} setTrigger={setPopups} />
+            )}
           </div>
         </Popup>
-        <Navbar formotp= {true}
+        <Navbar formotp={true}
 
           Href="/fswd-s5"
           Course="Full Stack Web Development Program"
@@ -94,7 +94,7 @@ export default function Home({formotp}) {
 
 
         />
-        <FirstSection formotp= {true}
+        <FirstSection formotp={true}
           deskTopPara="Ace your coding interview at MAANG and Achieve your Dream Job"
           mTopPara="Ace your coding interview at MAANG and Achieve your Dream Job"
           title="Data Structures & Algorithms"
@@ -113,9 +113,10 @@ export default function Home({formotp}) {
             EMI="₹ 6,883/month"
           />
         </div>
-        <GetHired dsa={true} formotp= {true}/>
+        <GetHired dsa={true} formotp={true} />
         <div className="Feature" id="Feature">
-          <BoxShape formotp= {true}
+          <BoxShape formotp={true}
+            p="Program Features"
             title="Why Enroll In This Program"
             Box1h5="Custom-fit Training"
             box1desc="Learn with modules created just for your dream job. Become an extraordinarily demanding software developer."
@@ -148,7 +149,7 @@ export default function Home({formotp}) {
             <button onClick={popupShow} formotp={true}>Enquire Now</button>
           </div>
         </div>
-        <Syllabus formotp= {true}/>
+        <Syllabus formotp={true} />
 
         <div className={styles.ProjectWrapper} id="project">
           <Project />
