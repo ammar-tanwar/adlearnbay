@@ -10,8 +10,9 @@ import styles from "./CourseReview.module.css";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
+import FormOtp from "../../FormOtp/FormOtp";
 
-const CourseReview = ({ p1, p2, p3 }) => {
+const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS }) => {
 
   const [popups, setPopups] = useState(false);
 
@@ -44,7 +45,23 @@ const CourseReview = ({ p1, p2, p3 }) => {
           </div>
           <div className="RightPopup">
             <h5>Download Placement Brochure</h5>
+
+            {formotpForS3DS ?(
+              <FormOtp popup={true} brief={true} currentCompany={true}/>
+            ):(
+           <>
+           {formotp ?(
+            <FormOtp popup={true} setTrigger={setPopups}/>
+          ):(
             <Form setTrigger={setPopups} downloadBrochure />
+          )}
+           
+           </>
+            )}
+
+
+            
+            
           </div>
         </Popup>
 

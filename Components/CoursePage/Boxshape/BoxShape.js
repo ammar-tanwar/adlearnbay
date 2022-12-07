@@ -6,6 +6,7 @@ import styles from "./BoxShape.module.css";
 import Image from "next/image";
 import { AiOutlineDownload } from "react-icons/ai";
 import Form from "../../Form/Form";
+import FormOtp from "../../FormOtp/FormOtp";
 import Popup from "../../Popup/Popup";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
@@ -16,12 +17,14 @@ const BoxShape = ({
   Box1h5,
   box1desc,
   Box2h5,
-  box2desc,
+  box2desc, 
   Box3h5,
   box3desc,
   Box4h5,
   box4desc,
-  headh5
+  headh5,
+  formotp,
+  formotpForS3DS,
 }) => {
   const [popups, setPopups] = useState(false);
 
@@ -54,7 +57,23 @@ const BoxShape = ({
         <div className="RightPopup">
           <h5>Download Brochure</h5>
           <p>Please enter the following details to initiate your download</p>
+
+          {formotpForS3DS ?(
+            <FormOtp popup={true} brief={true} currentCompany={true}/>
+          ):(
+         <>
+         
+         {formotp ?(
+          <FormOtp popup={true} />
+        ):(
           <Form setTrigger={setPopups} downloadBrochure />
+        )}
+         
+         </>
+          )}
+
+         
+          
         </div>
       </Popup>
       <h2>{title}</h2>

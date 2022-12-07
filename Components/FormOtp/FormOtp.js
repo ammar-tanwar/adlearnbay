@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import PhoneInput from "react-phone-number-input";
 import jsCookie from "js-cookie";
 
-function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workExperience }) {
+function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workExperience,brief ,currentCompany }) {
 
   const router = useRouter();
   const [btnHide, setBtnHide] = useState(false)
@@ -22,6 +22,8 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
     phone: '',
     jobDescription: '',
     workExperience: '',
+    currentCompany:'',
+    brief:'',
     otp: '',
     url: router.asPath,
   });
@@ -60,6 +62,13 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
   }
 
 
+  if (
+    router.pathname === "/s3-data-science" 
+  ) {
+    // -==================== Google - S2 END POINT ==========================--------
+    endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
+    // -==================== Google - S2 END POINT ==========================--------
+  }
 
   // -==================== FSD - Ads  END POINT ==========================--------
   if (
@@ -262,6 +271,7 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
           router.pathname === "/full-stack-software-development-program" ||
           router.pathname === "/full-stack-web-development-program" ||
           router.pathname === "/apply-for-counselling-fsd-s2" ||
+          router.pathname === "/s3-data-science" ||
           router.pathname === "/dsa-system-design"
         ) {
           router.push("/Thank-you");
@@ -365,6 +375,7 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
             router.pathname === "/full-stack-software-development-program" ||
             router.pathname === "/full-stack-web-development-program" ||
             router.pathname === "/apply-for-counselling-fsd-s2" ||
+            router.pathname === "/s3-data-science" ||
             router.pathname === "/dsa-system-design"
           ) {
             router.push("/Thank-you");
@@ -434,7 +445,7 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
             <div className={styles.formWrapper}>
               <input
                 className={popup ? styles.EmailInputs : styles.EmailInput}
-                placeholder="Job Description*"
+                placeholder="Job Title or Domain*"
                 type="text"
                 name="jobDescription"
                 value={form.jobDescription}
@@ -460,24 +471,43 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
                 <option value="7 to 12 year">7 to 12 year</option>
                 <option value="12+ year">12+ year</option>
               </select>
-
             </div>
-
           )}
 
-
-          {popup ? (
-            <div className={popup ? styles.formWrappers : styles.formWrapper}>
+          {currentCompany ? (
+            <div className={styles.formWrapper}>
               <input
-                type="hidden"
-                id="url"
-                name="url"
-                value={router.asPath}
-              ></input>
+                className={popup ? styles.EmailInputs : styles.EmailInput}
+                placeholder="Current Company*"
+                type="text"
+                name="currentCompany"
+                value={form.currentCompany}
+                onChange={handleForm}
+                required
+              />
             </div>
           ) : (
             ""
           )}
+
+
+          {brief ? (
+            <div className={styles.formWrapper}>
+            <input
+              className={popup ? styles.EmailInputs : styles.EmailInput}
+              placeholder="Brief*"
+              type="text"
+              name="brief"
+              value={form.brief}
+              onChange={handleForm}
+              required
+            />
+          </div>
+          ) : (
+            ""
+          )}
+          
+          
 
           <div className={styles.formWrapper}>
             <PhoneInput
@@ -632,6 +662,20 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
               )}
             </>
           ) : ("")}
+          
+          
+          {popup ? (
+            <div className={popup ? styles.formWrappers : styles.formWrapper}>
+              <input
+                type="hidden"
+                id="url"
+                name="url"
+                value={router.asPath}
+              ></input>
+            </div>
+          ) : (
+            ""
+          )}
 
           <input type='hidden' id="zc_gad" name="zc_gad" value="" />
         </form>

@@ -8,6 +8,7 @@ import { AiOutlineBars } from "react-icons/ai";
 import { BiTimeFive } from "react-icons/bi";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
+import FormOtp from "../../FormOtp/FormOtp";
 
 function CourseFee({
   syllabus,
@@ -18,6 +19,8 @@ function CourseFee({
   CourseFeelist3,
   CourseFeelist4,
   CourseFeelist5,
+  formotp,
+  formotpForS3DS,
 }) {
 
   const [popups, setPopups] = useState(false);
@@ -51,7 +54,22 @@ function CourseFee({
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <Form popup={true} setTrigger={setPopups} />
+
+          { formotpForS3DS ?(
+            <FormOtp popup={true} brief={true} currentCompany={true}/>
+          ):(
+            
+            <>
+            {formotp ?(
+              <FormOtp popup={true} setTrigger={setPopups}/>
+            ):(
+              <Form popup={true} setTrigger={setPopups} />
+            )}
+            
+            </>
+          )}
+
+          
         </div>
       </Popup>
       <h4 style={{ marginBottom: "30px" }}>{CourseFeeHead}</h4>

@@ -14,7 +14,7 @@ import "swiper/css";
 
 import "swiper/css/pagination";
 
-const Project = ({ popupHead, project, domain, projectTitle, formotp }) => {
+const Project = ({ popupHead, project, domain, projectTitle, formotp,formotpForS3DS }) => {
   const [popups, setPopups] = useState(false);
 
   const [device, setDevice] = useState();
@@ -45,11 +45,21 @@ const Project = ({ popupHead, project, domain, projectTitle, formotp }) => {
         <div className="RightPopup">
           <h5>{popupHead}</h5>
           <p>Please enter the following details to initiate your download</p>
-          {formotp ?(
-            <FormOtp popup={true} />
+
+          { formotpForS3DS ? (
+            <FormOtp popup={true} brief={true} currentCompany={true}/>
           ):(
-            <Form setTrigger={setPopups} downloadBrochure />
+
+            <>
+            {formotp ?(
+              <FormOtp popup={true} />
+            ):(
+              <Form setTrigger={setPopups} downloadBrochure />
+            )}
+            </>
           )}
+
+       
         </div>
       </Popup>
 

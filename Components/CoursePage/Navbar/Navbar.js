@@ -8,7 +8,7 @@ import FormOtp from "../../FormOtp/FormOtp";
 import { useRouter } from "next/router";
 
 
-const Navbar = ({ radio, fsdlink, formotp }) => {
+const Navbar = ({ radio, fsdlink, formotp,formotpForS3DS }) => {
   const router = useRouter();
   const [icon, setIcon] = useState(false);
   const [show, setShow] = useState(false);
@@ -44,11 +44,21 @@ const Navbar = ({ radio, fsdlink, formotp }) => {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          {formotp ?(
+
+          {formotpForS3DS ?(
+            <FormOtp popup={true} brief={true} currentCompany={true}/>
+          ):(
+         <>
+         {formotp ?(
           <FormOtp popup={true} radio={radio}/>
           ):(
           <Form popup={true} setTrigger={setPopups} radio={radio} />
           )}
+         
+         </>
+          )}
+
+
         </div>
       </Popup>
       <nav className={styles.nav}>

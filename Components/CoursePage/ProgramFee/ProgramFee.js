@@ -7,7 +7,7 @@ import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
 
-export const ProgramFee = ({ Fee, Emi, CourseFeeAndFinancing, para, fsdlink, formotp }) => {
+export const ProgramFee = ({ Fee, Emi, CourseFeeAndFinancing, para, fsdlink, formotp,formotpForS3DS }) => {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -21,11 +21,22 @@ export const ProgramFee = ({ Fee, Emi, CourseFeeAndFinancing, para, fsdlink, for
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          {formotp ?(
-          <FormOtp popup={true}/>
+
+          { formotpForS3DS ? (
+            <FormOtp popup={true} brief={true} currentCompany={true}/>
           ):(
-          <Form popup={true} setTrigger={setPopups} />
+
+            <>
+            {formotp ?(
+              <FormOtp popup={true}/>
+              ):(
+              <Form popup={true} setTrigger={setPopups} />
+              )}
+
+            </>
           )}
+
+          
         </div>
       </Popup>
       <div className={styles.header}>

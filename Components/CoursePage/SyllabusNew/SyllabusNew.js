@@ -30,7 +30,8 @@ function SyllabusNew({
   CourseHighlights,
   fsdlink,
   formotp,
-  syllabusFormotp
+  syllabusFormotp,
+  formotpForS3DS
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -69,11 +70,20 @@ function SyllabusNew({
         </div>
         <div className="RightPopup">
           <h5>{popupHead}</h5>
-          {formotp ?(
-            <FormOtp popup={true} />
+
+          { formotpForS3DS ?(
+            <FormOtp popup={true} brief={true} currentCompany={true}/>
           ):(
-          <Form setTrigger={setPopups} downloadBrochure />
+            <>
+            {formotp ?(
+              <FormOtp popup={true} />
+            ):(
+            <Form setTrigger={setPopups} downloadBrochure />
+            )}
+            </>
           )}
+          
+         
         </div>
       </Popup>
 
@@ -235,8 +245,13 @@ function SyllabusNew({
             {syllabusFormotp ? (
 
               <>
-              <FormOtp /> 
-              
+              { formotpForS3DS ?(
+                <FormOtp popup={true} brief={true} currentCompany={true}/>
+              ):(
+                <>
+                <FormOtp /> 
+                </>
+              )}
               </>
             ):(
               <>
