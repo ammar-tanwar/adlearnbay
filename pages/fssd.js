@@ -92,7 +92,7 @@ export default function Home() {
           title="Full Stack Software  "
           spanTitleText="Development Course"
           desc="Best Interview Prep Course for Top Product Based MNCs"
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course9.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/W+Dev.png"
           width="791"
           height="659"
           alt="Full Stack"
@@ -134,8 +134,6 @@ export default function Home() {
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
           hours="300+ Hours"
           project="12+ Real Time"
-          formotp= {true}
-          
         />
 
         <ProgramFee Fee={FullStackSoftwareCourseData[0].ProgramFee.Fee} formotp={true}

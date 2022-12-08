@@ -141,7 +141,7 @@ const Project = ({ popupHead, project, domain, projectTitle, formotp,formotpForS
             <div className={styles.body}>
               <p>
                 IBM intends to boost their HR department by identifying
-                employees' masked inconsistency...
+                employee's masked inconsistency...
               </p>
               <span
                 onClick={() => {

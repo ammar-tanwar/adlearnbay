@@ -9,7 +9,7 @@ export const DataScienceCourseData = [
       title: "Data Science Course ",
       spanTitleText: "Domain Specialization For Professionals",
       desc: "With new capstone projects, learn how to apply your previous domain expertise to make a successful transition.",
-      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png",
+      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ADSAI.png",
       width: "900",
       height: "762",
       alt: "AiMl Header",

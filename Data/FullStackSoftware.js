@@ -9,7 +9,7 @@ export const FullStackSoftwareCourseData = [
       title: "Full Stack Software",
       spanTitleText: " Development Program ",
       desc: "Best Interview Prep Course for Top Product Based MNCs",
-      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course9.png",
+      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/W+Dev.png",
       width: "791",
       height: "659",
       alt: "Full Stack",

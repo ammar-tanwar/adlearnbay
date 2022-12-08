@@ -100,7 +100,7 @@ export default function Home() {
           title="Data Science and AI Program "
           spanTitleText="With 100% Placement Assistance"
           desc="✓ Domain Orientated approach ✓ Assured placement within 18 months."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course5.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/DSAI+Masters.png"
           width="829"
           height="646"
           alt="AiMl Header"

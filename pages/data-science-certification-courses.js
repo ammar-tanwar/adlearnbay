@@ -102,7 +102,7 @@ export default function Home() {
           title="Advanced Data Science and AI Program"
           spanTitleText="with Domain Specialization"
           desc="With new capstone projects, learn how to apply your previous domain expertise to make a successful transition."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ADSAI.png"
           width="900"
           height="762"
           alt="data science course"

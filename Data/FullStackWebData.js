@@ -8,7 +8,7 @@ export const FullStackWebCourseData = [
       title: "Full Stack Web Development Course ",
       spanTitleText: "Crack MAANG Interviews",
       desc: "Learn ultimate methods from MNC specialists with real-world projects",
-      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/header-home.webp",
+      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Web+Development.png",
       width: "780",
       height: "603",
       alt: "Full Stack",

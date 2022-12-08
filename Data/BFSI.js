@@ -9,7 +9,7 @@ export const BFSIData = [
       title: "Banking, Finance, Services & Insurance Domain ",
       spanTitleText: "(BFSI)",
       desc: "Develop leadership skills by gaining a better knowledge of data and making more informed choices regarding prospects, customers, product lines, market opportunities, and team performance.",
-      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png",
+      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ADSAI.png",
       width: "900",
       height: "762",
       alt: "AiMl Header",

@@ -52,7 +52,7 @@ export const BusinessAnalyticsCourseData = [
     project: "8+ Real Time",
 
     CSyllabus: "Business Analytics Course Syllabus",
-    CourseHighlights: "Business Analytics Course Highlights",
+    CourseHighlights: "Course Highlights",
     syllabus: [
       {
         Module0: {
@@ -276,7 +276,7 @@ export const BusinessAnalyticsCourseData = [
       Emi: "₹ 13,767/month",
       Fee: "₹ 70,000 +GST",
       CourseFeeAndFinancing: "Business Analytics Course Fee & Financing",
-      para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Business Analytics Certification Course and offer avariety of financing options to make it more economical.",
+      para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Business Analytics Certification Course and offer a variety of financing options to make it more economical.",
     },
     Project: {
       popupHead: "Download Project Brochure",

@@ -144,7 +144,7 @@ export default function Home() {
                     srcD={FullStackSoftwareCourseData[0].srcD}
                     hours={FullStackSoftwareCourseData[0].hours}
                     project={FullStackSoftwareCourseData[0].project}
-                    formotp= {true}
+                    
                     syllabusFormotp={true}
                 />
                 <ProgramFee Fee={FullStackSoftwareCourseData[0].ProgramFee.Fee} Emi={FullStackSoftwareCourseData[0].ProgramFee.Emi} formotp= {true}
