@@ -9,7 +9,7 @@ import FormOtp from "../Components/FormOtp/FormOtp";
 import Form from "../Components/Form/Form";
 import Project from "../Components/CoursePage/Projectfswd/Project";
 import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
-import { DsaCourseData } from "../Data/DsaData";
+import { DataStructureAlgorithmData } from "../Data/DataStructureAlgorithm";
 import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
 import CourseReview from "../Components/CoursePage/CourseReviewdsas/CourseReview";
 import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupportfsd";
@@ -86,91 +86,91 @@ export default function Home() {
                 </Popup>
 
                 <FirstSection formotp= {true}
-                    deskTopPara={DsaCourseData[0].FirstSection.deskTopPara}
-                    mTopPara={DsaCourseData[0].FirstSection.mTopPara}
-                    mTitle={DsaCourseData[0].FirstSection.mTitle}
-                    spanMTitleText={DsaCourseData[0].FirstSection.spanMTitleText}
-                    title={DsaCourseData[0].FirstSection.title}
-                    spanTitleText={DsaCourseData[0].FirstSection.spanTitleText}
-                    desc={DsaCourseData[0].FirstSection.desc}
-                    src={DsaCourseData[0].FirstSection.src}
-                    width={DsaCourseData[0].FirstSection.width}
-                    height={DsaCourseData[0].FirstSection.height}
-                    alt={DsaCourseData[0].FirstSection.alt}
-                    srcD={DsaCourseData[0].FirstSection.srcD}
+                    deskTopPara={DataStructureAlgorithmData[0].FirstSection.deskTopPara}
+                    mTopPara={DataStructureAlgorithmData[0].FirstSection.mTopPara}
+                    mTitle={DataStructureAlgorithmData[0].FirstSection.mTitle}
+                    spanMTitleText={DataStructureAlgorithmData[0].FirstSection.spanMTitleText}
+                    title={DataStructureAlgorithmData[0].FirstSection.title}
+                    spanTitleText={DataStructureAlgorithmData[0].FirstSection.spanTitleText}
+                    desc={DataStructureAlgorithmData[0].FirstSection.desc}
+                    src={DataStructureAlgorithmData[0].FirstSection.src}
+                    width={DataStructureAlgorithmData[0].FirstSection.width}
+                    height={DataStructureAlgorithmData[0].FirstSection.height}
+                    alt={DataStructureAlgorithmData[0].FirstSection.alt}
+                    srcD={DataStructureAlgorithmData[0].FirstSection.srcD}
                 />
                 <div className={styles.program}>
                     <ProgramInfo
-                        p1={DsaCourseData[0].ProgramInfo.p1}
-                        p11={DsaCourseData[0].ProgramInfo.p11}
-                        p2={DsaCourseData[0].ProgramInfo.p2}
-                        p22={DsaCourseData[0].ProgramInfo.p22}
-                        p3={DsaCourseData[0].ProgramInfo.p3}
-                        p33={DsaCourseData[0].ProgramInfo.p33}
-                        p4={DsaCourseData[0].ProgramInfo.p4}
-                        p44={DsaCourseData[0].ProgramInfo.p44}
+                        p1={DataStructureAlgorithmData[0].ProgramInfo.p1}
+                        p11={DataStructureAlgorithmData[0].ProgramInfo.p11}
+                        p2={DataStructureAlgorithmData[0].ProgramInfo.p2}
+                        p22={DataStructureAlgorithmData[0].ProgramInfo.p22}
+                        p3={DataStructureAlgorithmData[0].ProgramInfo.p3}
+                        p33={DataStructureAlgorithmData[0].ProgramInfo.p33}
+                        p4={DataStructureAlgorithmData[0].ProgramInfo.p4}
+                        p44={DataStructureAlgorithmData[0].ProgramInfo.p44}
                     />
                 </div>
                 <div className="Feature" id="Feature">
                     <BoxShape 
-                        title={DsaCourseData[0].BoxShape.title}
-                        Box1h5={DsaCourseData[0].BoxShape.Box1h5}
-                        box1desc={DsaCourseData[0].BoxShape.box1desc}
-                        Box2h5={DsaCourseData[0].BoxShape.Box2h5}
-                        box2desc={DsaCourseData[0].BoxShape.box2desc}
-                        Box3h5={DsaCourseData[0].BoxShape.Box3h5}
-                        box3desc={DsaCourseData[0].BoxShape.box3desc}
-                        Box4h5={DsaCourseData[0].BoxShape.Box4h5}
-                        box4desc={DsaCourseData[0].BoxShape.box4desc}
-                        headh5={DsaCourseData[0].BoxShape.headh5}
+                        title={DataStructureAlgorithmData[0].BoxShape.title}
+                        Box1h5={DataStructureAlgorithmData[0].BoxShape.Box1h5}
+                        box1desc={DataStructureAlgorithmData[0].BoxShape.box1desc}
+                        Box2h5={DataStructureAlgorithmData[0].BoxShape.Box2h5}
+                        box2desc={DataStructureAlgorithmData[0].BoxShape.box2desc}
+                        Box3h5={DataStructureAlgorithmData[0].BoxShape.Box3h5}
+                        box3desc={DataStructureAlgorithmData[0].BoxShape.box3desc}
+                        Box4h5={DataStructureAlgorithmData[0].BoxShape.Box4h5}
+                        box4desc={DataStructureAlgorithmData[0].BoxShape.box4desc}
+                        headh5={DataStructureAlgorithmData[0].BoxShape.headh5}
                     />
                 </div>
 
 
                 <div className={styles.Feature} id="Feature">
                     <BoxShape1 formotp= {true}
-                        title={DsaCourseData[0].BoxShape1.title}
-                        Box1h5={DsaCourseData[0].BoxShape1.Box1h5}
-                        box1desc={DsaCourseData[0].BoxShape1.box1desc}
-                        Box2h5={DsaCourseData[0].BoxShape1.Box2h5}
-                        box2desc={DsaCourseData[0].BoxShape1.box2desc}
-                        Box3h5={DsaCourseData[0].BoxShape1.Box3h5}
-                        box3desc={DsaCourseData[0].BoxShape1.box3desc}
-                        Box4h5={DsaCourseData[0].BoxShape1.Box4h5}
-                        box4desc={DsaCourseData[0].BoxShape1.box4desc}
+                        title={DataStructureAlgorithmData[0].BoxShape1.title}
+                        Box1h5={DataStructureAlgorithmData[0].BoxShape1.Box1h5}
+                        box1desc={DataStructureAlgorithmData[0].BoxShape1.box1desc}
+                        Box2h5={DataStructureAlgorithmData[0].BoxShape1.Box2h5}
+                        box2desc={DataStructureAlgorithmData[0].BoxShape1.box2desc}
+                        Box3h5={DataStructureAlgorithmData[0].BoxShape1.Box3h5}
+                        box3desc={DataStructureAlgorithmData[0].BoxShape1.box3desc}
+                        Box4h5={DataStructureAlgorithmData[0].BoxShape1.Box4h5}
+                        box4desc={DataStructureAlgorithmData[0].BoxShape1.box4desc}
 
                     />
                 </div>
                 <CourseReview formotp= {true}/>
                 <SyllabusNew formotp= {true}
-                    syllabus={DsaCourseData[0].syllabus}
-                    syllabusDesc={DsaCourseData[0].syllabusDesc}
-                    popupHead={DsaCourseData[0].popupHead}
-                    CSyllabus={DsaCourseData[0].CSyllabus}
-                    CourseHighlights={DsaCourseData[0].CourseHighlights}
-                    srcD={DsaCourseData[0].srcD}
-                    hours={DsaCourseData[0].hours}
-                    project={DsaCourseData[0].project}
+                    syllabus={DataStructureAlgorithmData[0].syllabus}
+                    syllabusDesc={DataStructureAlgorithmData[0].syllabusDesc}
+                    popupHead={DataStructureAlgorithmData[0].popupHead}
+                    CSyllabus={DataStructureAlgorithmData[0].CSyllabus}
+                    CourseHighlights={DataStructureAlgorithmData[0].CourseHighlights}
+                    srcD={DataStructureAlgorithmData[0].srcD}
+                    hours={DataStructureAlgorithmData[0].hours}
+                    project={DataStructureAlgorithmData[0].project}
                 />
 
 
-                <ProgramFee Fee={DsaCourseData[0].ProgramFee.Fee} Emi={DsaCourseData[0].ProgramFee.Emi} formotp= {true}
-                    CourseFeeAndFinancing={DsaCourseData[0].ProgramFee.CourseFeeAndFinancing}
+                <ProgramFee Fee={DataStructureAlgorithmData[0].ProgramFee.Fee} Emi={DataStructureAlgorithmData[0].ProgramFee.Emi} formotp= {true}
+                    CourseFeeAndFinancing={DataStructureAlgorithmData[0].ProgramFee.CourseFeeAndFinancing}
                     para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." dataScience={true}
                 />
                 <div className={styles.ProjectWrapper} id="project">
-                    <Project project={DsaCourseData[0].Project.project} domain={DsaCourseData[0].Project.domain} formotp= {true}/>
+                    <Project project={DataStructureAlgorithmData[0].Project.project} domain={DataStructureAlgorithmData[0].Project.domain} formotp= {true}/>
                 </div>
                 <Batch formotp= {true}
-                    syllabusDesc={DsaCourseData[0].syllabusDesc}
-                    syllabus={DsaCourseData[0].Batch}
-                    CourseFeeHead={DsaCourseData[0].BatchCourses.CourseFeeHead}
-                    CourseFeePara={DsaCourseData[0].BatchCourses.CourseFeePara}
-                    CourseFeelist1={DsaCourseData[0].BatchCourses.CourseFeelist1}
-                    CourseFeelist2={DsaCourseData[0].BatchCourses.CourseFeelist2}
-                    CourseFeelist3={DsaCourseData[0].BatchCourses.CourseFeelist3}
-                    CourseFeelist4={DsaCourseData[0].BatchCourses.CourseFeelist4}
-                    CourseFeelist5={DsaCourseData[0].BatchCourses.CourseFeelist5}
+                    syllabusDesc={DataStructureAlgorithmData[0].syllabusDesc}
+                    syllabus={DataStructureAlgorithmData[0].Batch}
+                    CourseFeeHead={DataStructureAlgorithmData[0].BatchCourses.CourseFeeHead}
+                    CourseFeePara={DataStructureAlgorithmData[0].BatchCourses.CourseFeePara}
+                    CourseFeelist1={DataStructureAlgorithmData[0].BatchCourses.CourseFeelist1}
+                    CourseFeelist2={DataStructureAlgorithmData[0].BatchCourses.CourseFeelist2}
+                    CourseFeelist3={DataStructureAlgorithmData[0].BatchCourses.CourseFeelist3}
+                    CourseFeelist4={DataStructureAlgorithmData[0].BatchCourses.CourseFeelist4}
+                    CourseFeelist5={DataStructureAlgorithmData[0].BatchCourses.CourseFeelist5}
                 />
                 <LearnSupport />
 
