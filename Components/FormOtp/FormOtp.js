@@ -54,6 +54,8 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
   if (
     router.pathname === "/fssd" ||
     router.pathname === "/fswd" ||
+    router.pathname === "/data-structure-algorithm" ||
+    router.pathname === "/system-design" ||
     router.pathname === "/dsa"
   ) {
     // -====================  Organic - S END POINT ==========================--------
@@ -82,6 +84,10 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
     router.pathname === "/fswd-s2" ||
     router.pathname === "/dsa-s2" ||
     router.pathname === "/dsa-s4" ||
+
+    router.pathname === "/data-structure-algorithm-s2" ||
+    router.pathname === "/system-design-s2" ||
+    
     router.pathname === "/apply-for-counselling-fsd-s2" ||
     router.pathname === "/dsa-s5"
   ) {
@@ -275,6 +281,13 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
           router.pathname === "/apply-for-counselling-fsd-s2" ||
           router.pathname === "/s3-data-science" ||
           router.pathname === "/s2-data-science-banking" ||
+
+          router.pathname === "/data-structure-algorithm" ||
+          router.pathname === "/system-design" ||
+
+          router.pathname === "/data-structure-algorithm-s2" ||
+          router.pathname === "/system-design-s2" ||
+
           router.pathname === "/dsa-system-design"
         ) {
           router.push("/Thank-you");
@@ -380,6 +393,12 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
             router.pathname === "/apply-for-counselling-fsd-s2" ||
             router.pathname === "/s3-data-science" ||
             router.pathname === "/s2-data-science-banking" ||
+
+            router.pathname === "/data-structure-algorithm-s2" ||
+            router.pathname === "/system-design-s2" ||
+
+            router.pathname === "/data-structure-algorithm" ||
+            router.pathname === "/system-design" ||
             router.pathname === "/dsa-system-design"
           ) {
             router.push("/Thank-you");
@@ -469,7 +488,7 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
                 onChange={handleForm}
               >
                 <option value="Work Experience">Work Experience</option>
-                <option value="1 to 3 year">Fresher or 0 year</option>
+                <option value="Fresher or 0 year">Fresher or 0 year</option>
                 <option value="1 to 3 year">1 to 3 year</option>
                 <option value="3 to 7 year">3 to 7 year</option>
                 <option value="7 to 12 year">7 to 12 year</option>
