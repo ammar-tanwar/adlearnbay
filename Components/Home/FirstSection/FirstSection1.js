@@ -88,7 +88,7 @@ const FirstSection = ({dataScience,heading, headingSpan, ptop,des,p1,p2,p3,h1,h2
       </div>
       <div className={styles.rightSide}>
         <Image
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Home+Page.png"
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Web+Development.png"
           width="870"
           height="666"
           layout="intrinsic"

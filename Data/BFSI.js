@@ -2,14 +2,14 @@ export const BFSIData = [
   {
     FirstSection: {
       popupHead: "Download Brochure",
-      deskTopPara: "Domain Specialization & Project Expertise",
-      mTopPara: "Domain Specialization & Project Expertise",
+      deskTopPara: "Data Science Domain Specialization Course",
+      mTopPara: "Data Science Domain Specialization Course",
       mTitle: "Banking, Finance, Services & Insurance Domain ",
       spanMTitleText: "(BFSI)",
       title: "Banking, Finance, Services & Insurance Domain ",
       spanTitleText: "(BFSI)",
       desc: "Develop leadership skills by gaining a better knowledge of data and making more informed choices regarding prospects, customers, product lines, market opportunities, and team performance.",
-      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ADSAI.png",
+      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Web+Development.png",
       width: "900",
       height: "762",
       alt: "AiMl Header",
@@ -48,37 +48,16 @@ export const BFSIData = [
     syllabus: [
       {
         Module0: {
-          title: "Module 0 :- Preparatory Classes (Programming + Maths)",
+          title: "Module 1 :- Introduction to Banking Finance & Insurance Domain",
           content: [
             {
               chap: {
-                title: "Cohort Orientation ",
+                title: "",
                 desc: [
-                  "A brief introduction to tools related to data ",
-                  "Learn about particular real-time projects and Capstone projects",
-                  "Data and its impact on career opportunities",
-                  "Utilizing data, to enhance industrial operations and management",
-                ],
-              },
-            },
-
-            {
-              chap: {
-                title: "Chapter 2: Fundamentals of Programming",
-                desc: [
-                  "Introduction to Anaconda & Jupyter notebook",
-                  "Flavors of python Introduction to Git, GitHub",
-                  "Python Fundamentals",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Chapter 3: Fundamentals of Statistics",
-                desc: [
-                  "Mean, Median, Mode",
-                  "Standard Deviation, Average. Probability, Permutations, and Combinations",
-                  "Introduction to Linear Algebra",
+                  "In this Introductory session, you will learn the basic banking sector information.",
+                  "We'll be looking at several financial organizations and the many different kinds of financial services they offer to their customers.",
+                  "To understand how a bank produces return, we may look at a bank's balance sheet and income statement.",
+                  "We will conclude with a brief overview of several career options in banking.",
                 ],
               },
             },
@@ -89,25 +68,17 @@ export const BFSIData = [
       },
       {
         Module0: {
-          title: "Term 1 :- Python for Data Science",
+          title: "Module 2 :- Financial Institutions and their Services",
           content: [
             {
               chap: {
-                title: "Module 1 Python Programming",
+                title: "",
                 desc: [
-                  "Programming Basics & Environment Setup",
-                  "Python Programming Overview",
-                  "Strings, Decisions & Loop Control",
+                  "Types of Financial institutions",
+                  "Organization of Financial Institutions",
+                  "Universal Banks, Large Banks, Investment Banks, Community Banks, Online Banks, Credit Unions, Cooperative Banks",
                   "Python Data Types",
-                  "Functions And Modules",
-                  "Class hands-on: 8+ Programs to be covered in the functions, Lambda, modules, Generators, and Packages class",
-                  "File I/O And Exceptional Handling and Regular Expression",
-                  "Class hands-on: 10+ Programs to be covered in class from File IO, Reg-ex and exception handling",
-                  "Data Analysis Using Numpy",
-                  "Data Analysis Using Pandas",
-                  "Data Visualization using Matplotlib",
-                  "Data Visualization using Seaborn",
-                  "Case Study on Numpy, Pandas, Matplotlib 1 Case Study on Pandas And Seaborn",
+                  "Banking Services, Retail Banking, private Banking, Business Banking, Commercial Banking, Corporate Banking, Investment Banking",
                 ],
               },
             },
@@ -118,46 +89,14 @@ export const BFSIData = [
       },
       {
         Module0: {
-          title: "Term 2 :- Statistics and Machine Learning",
+          title: "Module 3 :- How returns are generated in Financial Institutions?",
           content: [
             {
               chap: {
-                title: "Module 1 Statistics",
+                title: "",
                 desc: [
-                  "Fundamentals of Math and Probability",
-                  "All about Population & Sample",
-                  "Introduction to Statistics, Statistical Thinking",
-                  "Descriptive Statistics",
-                  " Inferential Statistics",
-                  "Hypothesis Testing",
-                  "Linear Algebra",
-                  "Data Processing & Exploratory Data Analysis",
-                  "EDA",
-                  "Statistics Assignments: Total 4 practice sets and Assignments from Statistics",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 2 Machine Learning",
-                desc: [
-                  "Introduction to Machine Learning",
-                  "Regression and Classification Models",
-                  "Linear Regression Model",
-                  "Data Preprocessing",
-                  "Encoding the Data",
-                  "Logistic Regression Model",
-                  "Evaluation Metrics for Classification model",
-                  "K Nearest Neighbours Model",
-                  "Decision Tree Model",
-                  "Random Forest Model",
-                  "Hyperparameter Tuning",
-                  "Naive Baye’s Model",
-                  "Case Study on Kart Model Business & Random Forest",
-                  "K Means and Hierarchical Clustering",
-                  "Hierarchical Clustering",
-                  "Principal Component Analysis (PCA):",
-                  "Support Vector Machine(SVM)",
+                  "Bank’s Balance Sheet, Income Statement, Net Interest Income, Components of total revenue.",
+                  "Measuring returns in a bank, The impact of Leverage, The importance of Operating Efficiency, Asset Liability Matching and Securitization",
                 ],
               },
             },
@@ -168,66 +107,14 @@ export const BFSIData = [
       },
       {
         Module0: {
-          title: "Term 3 :- Data Science Course Tools",
+          title: "Module 4 :- Managing customer data, Customer segmentation and Real-time and predictive analytics",
           content: [
             {
               chap: {
                 title: "Module 1 SQL",
                 desc: [
-                  "SQL and RDBMS",
-                  "Advance SQL",
-                  "NoSQL, HBase & MongoDB",
-                  "JSON Data & CRUD",
-                  "Programming with SQL",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 2 MongoDB",
-                desc: ["Introduction to MongoDB", "MongoDB (Advance)"],
-              },
-            },
-
-            {
-              chap: {
-                title: "Module 3 Tableau ",
-                desc: [
-                  "Introduction to Tableau",
-                  "Visual Analytics",
-                  "Dashboard and Stories",
-                  "Hands-on: Connecting data source and data cleansing",
-                  "Working with various charts, Deployment of Predictive model in visualization",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 4 PowerBI",
-                desc: [
-                  "Getting Started With Power BI",
-                  "Programming with Power BI",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 5 Big Data & Spark Analytics",
-                desc: [
-                  "Introduction To Hadoop & Big Data",
-                  "What is Spark",
-                  "Getting to know PySpark",
-                  "Hands-on: Map reduce Use Case : Youtube data analysis & Spark RDD programming",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 6 Time Series",
-                desc: [
-                  "Introduction to Time Series Forecasting",
-                  "Introduction to ARIMA Models",
-                  "Case Study on Time series classification of smartphone data to predict user behavior, Performing Time Series Analysis on Stock Prices & Time series forecasting of sales data",
+                  "Here we will learn how Machine Learning and Analytics can be useful to counter a shrinking customer base by trying a number of different retention techniques with significant results.",
+                  "With this one will be able to predict which currently active customers are likely to reduce their business with banks which in turn may reduce the churn percentage.",
                 ],
               },
             },
@@ -238,40 +125,30 @@ export const BFSIData = [
       },
       {
         Module0: {
-          title: "Term 4 :- Artificial Intelligence Tools",
+          title: "Module 5 :- Process Automation, Security",
           content: [
             {
               chap: {
-                title: "Module 1 Deep Learning Using Tensorflow",
+                title: "",
                 desc: [
-                  "Introduction to Deep Learning And TensorFlow",
-                  "TensorFlow Classification Examples",
-                  "Understanding Neural Networks With TensorFlow",
-                  "Convolutional Neural Network (CNN)",
-                  "Project on Building a CNN for Image Classification",
+                  "This module will help you understand in identifying “high net worth or potential “prospects and customers, Improve the ability to target products and services to prospects or customers, Maximise the specific elements of the offer (product, pricing, channel) and allow senior management to make informed operational decisions.",
                 ],
               },
             },
+          ],
+          id: 4,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Module 6 - Fraud detection, Underwriting and credit scoring and Risk modeling for investment banks",
+          content: [
             {
               chap: {
-                title: "Module 2 Natural Language Processing (NLP)",
+                title: "",
                 desc: [
-                  "Natural Language Processing",
-                  "Text Analysis",
-                  "KNN",
-                  "Use cases on NLP: Sentiment analysis for marketing",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 3 Model Training & Deployment Using (AWS GCP)",
-                desc: [
-                  "AWS (Amazon Web Services)?",
-                  "GCP (Google Cloud Platform)",
-                  "Introduction to AWS and GCP Cloud ML Engine,",
-                  "Deploying Machine Learning Model",
-                  "Training Machine Learning Model",
+                  "The Analytics in this module will help you to understand how banks identify right customers for lending, monitor collections, predict and reduce delinquencies and reduce NPA and increase profitability.",
                 ],
               },
             },

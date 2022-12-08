@@ -80,7 +80,7 @@ export default function Home() {
         />
 
       </Head>
-      <main>  <Navbar popup={true} formotpForS3DS={true} />
+      <main>  <Navbar popup={true}  />
 
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -90,14 +90,14 @@ export default function Home() {
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below Details to get started</p> */}
 
-            <FormOtp popup={true} setTrigger={setPopups} brief={true} currentCompany={true} />
+            <FormOtp popup={true} setTrigger={setPopups}  />
           </div>
         </Popup>
         <FirstSection
-          ptop="Domain Specialization & Project Expertise"
+          ptop="Data Science Domain Specialization Course"
           heading="Banking, Finance, Services & Insurance Domain"
           headingSpan="(BFSI)"
-          des="Develop leadership skills by gaining a better knowledge of data and making more informed choices regarding prospects, customers, product lines, market opportunities, and team performance."
+          des="Develop leadership skills by gaining a better knowledge of data science and making more informed choices regarding prospects, customers, product lines, market opportunities, and team performance."
           h1="6"
           p1="Industry
         Relevant Projects"
@@ -107,13 +107,13 @@ export default function Home() {
           h3="100%"
           p3="Interview
         Guarantee"
-        formotpForS3DS={true}
+        
         />
 
 
 
         <div className={styles.container} id="Feature">
-          <BoxShape formotpForS3DS={true}
+          <BoxShape 
             title="Why domain
             specialization?"
 
@@ -138,12 +138,12 @@ export default function Home() {
           />
         </div>
 
-        <CourseDs formotpForS3DS={true}/>
+        <CourseDs />
         <CourseReview
           p1="Working at HCL"
           p2=" Working at TCS"
           p3="Working at Capgemini"
-          formotpForS3DS={true}
+         
         />
 
         <SyllabusNew
@@ -154,8 +154,7 @@ export default function Home() {
           popupHead={BFSIData[0].popupHead}
           hours={BFSIData[0].hours}
           project={BFSIData[0].project}
-          formotpForS3DS={true}
-          syllabusFormotp={true}
+         
         />
         <OurExpert
           H5={BFSIData[0].OurExpert.H5}
@@ -197,22 +196,17 @@ export default function Home() {
           />
         </div>
 
-        <div className={styles.ProjectWrapper} id="project">
-          <BankingProject popupHead={BFSIData[0].Project.popupHead}
-            project={BFSIData[0].Project.project}
-            domain={BFSIData[0].Project.domain}
-            projectTitle={BFSIData[0].Project.projectTitle1} formotpForS3DS={true}
-            props={BFSIData[0].Project}
-          />
-        </div>
-
+        
         <SliderTab />
+      
         <div className={styles.ProjectWrapper} id="project">
-          <Project popupHead={BFSIData[0].Project.popupHead}
-            project={BFSIData[0].Project.project}
-            domain={BFSIData[0].Project.domain}
-            projectTitle={BFSIData[0].Project.projectTitle} formotpForS3DS={true} />
-        </div>
+        <BankingProject popupHead={BFSIData[0].Project.popupHead}
+          project={BFSIData[0].Project.project}
+          domain={BFSIData[0].Project.domain}
+          projectTitle={BFSIData[0].Project.projectTitle1} 
+          props={BFSIData[0].Project}
+        />
+      </div>
 
         <CourseFee
           syllabusDesc={BFSIData[0].syllabusDesc}
@@ -225,7 +219,7 @@ export default function Home() {
           CourseFeelist3={BFSIData[0].BatchCourses.CourseFeelist3}
           CourseFeelist4={BFSIData[0].BatchCourses.CourseFeelist4}
           CourseFeelist5={BFSIData[0].BatchCourses.CourseFeelist5}
-          formotpForS3DS={true}
+         
         />
         <LearnSupport />
         <Footer />

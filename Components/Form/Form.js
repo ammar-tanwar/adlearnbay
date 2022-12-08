@@ -97,6 +97,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
     router.pathname === "/s2-artificial-intelligence-placement" ||
 
     router.pathname === "/s2-data-science" ||
+    router.pathname === "/s2-data-science-banking" ||
     router.pathname === "/s2-machine-learning" ||
     router.pathname === "/s2-artificial-intelligence" ||
     router.pathname === "/s2-data-analytics" ||
@@ -654,6 +655,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
       router.pathname === "/apply-for-counselling-fsd-s2" ||
       router.pathname === "/dsa-system-design" ||
       router.pathname === "/s2-masters-program" ||
+      router.pathname === "/s2-data-science-banking" ||
 
       router.pathname === "/s2-business-analytics" ||
       router.pathname === "/s2-business-analytics-advance" ||
