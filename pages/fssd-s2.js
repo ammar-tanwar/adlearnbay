@@ -135,7 +135,7 @@ export default function Home() {
                     />
                 </div>
                 <CourseReview formotp= {true}/>
-                <SyllabusNew formotp= {true}
+                <SyllabusNew formotp= {true} 
                     syllabus={FullStackSoftwareCourseData[0].syllabus}
                     syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
                     popupHead={FullStackSoftwareCourseData[0].popupHead}

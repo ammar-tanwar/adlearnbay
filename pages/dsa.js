@@ -130,15 +130,13 @@ export default function Home() {
         <DomainFaq FaqData={DomainFaqCourseData1} />
         <CourseReview formotp={true} />
 
-        <SyllabusNew dataScience={true} formotp={true}
+        <SyllabusNew dataScience={true} formotp={true} syllabusFormotp={true}
           syllabus={DsaCourseData[0].syllabus}
           syllabusDesc={DsaCourseData[0].syllabusDesc}
           popupHead="Download Course Brochure"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
           hours="200+ Hours"
           project="12+ Real Time"
-          formotp= {true}
-          
         />
 
         <ProgramFee Fee={DsaCourseData[0].ProgramFee.Fee} formotp={true}

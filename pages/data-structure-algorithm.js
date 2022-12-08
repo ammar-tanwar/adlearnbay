@@ -130,7 +130,7 @@ export default function Home() {
         <DomainFaq FaqData={DomainFaqCourseData1} />
         <CourseReview formotp= {true}/>
 
-        <SyllabusNew dataScience={true} formotp= {true}
+        <SyllabusNew formotp= {true} syllabusFormotp={true}
           syllabus={DsaCourseData[0].syllabus}
           syllabusDesc={DsaCourseData[0].syllabusDesc}
           popupHead="Download Course Brochure"

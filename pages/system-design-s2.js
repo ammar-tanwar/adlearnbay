@@ -141,7 +141,7 @@ export default function Home() {
                     />
                 </div>
                 <CourseReview formotp={true} />
-                <SyllabusNew formotp={true}
+                <SyllabusNew formotp={true} syllabusFormotp={true}
                     syllabus={SytstemDesignCourseData[0].syllabus}
                     syllabusDesc={SytstemDesignCourseData[0].syllabusDesc}
                     popupHead={SytstemDesignCourseData[0].popupHead}

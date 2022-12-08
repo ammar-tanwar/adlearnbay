@@ -142,7 +142,7 @@ export default function Home() {
                     />
                 </div>
                 <CourseReview formotp= {true}/>
-                <SyllabusNew formotp= {true}
+                <SyllabusNew formotp={true} syllabusFormotp={true}
                     syllabus={DataStructureAlgorithmData[0].syllabus}
                     syllabusDesc={DataStructureAlgorithmData[0].syllabusDesc}
                     popupHead={DataStructureAlgorithmData[0].popupHead}

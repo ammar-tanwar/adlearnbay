@@ -147,7 +147,6 @@ export default function Home() {
                     srcD={FullStackWebCourseData[0].srcD}
                     hours={FullStackWebCourseData[0].hours}
                     project={FullStackWebCourseData[0].project}
-                    formotp= {true}
                     syllabusFormotp={true}
                 />
                 

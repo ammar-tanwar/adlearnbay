@@ -127,7 +127,7 @@ export default function Home() {
         </div>
         <DomainFaq FaqData={DomainFaqCourseData1} />
         <CourseReview formotp={true}/>
-        <SyllabusNew dataScience={true} formotp={true}
+        <SyllabusNew dataScience={true} formotp={true} syllabusFormotp={true}
           syllabus={FullStackSoftwareCourseData[0].syllabus}
           syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
           popupHead="Download Course Brochure"

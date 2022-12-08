@@ -129,7 +129,7 @@ export default function Home() {
 
                 <DomainFaq FaqData={DomainFaqCourseData1} />
                 <CourseReview formotp={true}/>
-                <SyllabusNew formotp={true}
+                <SyllabusNew formotp={true} syllabusFormotp={true}
                     syllabus={FullStackWebCourseData[0].syllabus}
                     syllabusDesc={FullStackWebCourseData[0].syllabusDesc}
                     popupHead={FullStackWebCourseData[0].popupHead}
