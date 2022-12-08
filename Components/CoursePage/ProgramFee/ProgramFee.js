@@ -23,7 +23,7 @@ export const ProgramFee = ({ Fee, Emi, CourseFeeAndFinancing, para, fsdlink, for
           <h5>Apply For Counselling</h5>
 
           { formotpForS3DS ? (
-            <FormOtp popup={true} brief={true} currentCompany={true}/>
+            <FormOtp popup={true} brief={true} currentCompany={true} fsddesc={true}/>
           ):(
 
             <>

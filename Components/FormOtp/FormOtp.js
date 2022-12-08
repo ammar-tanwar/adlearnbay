@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import PhoneInput from "react-phone-number-input";
 import jsCookie from "js-cookie";
 
-function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workExperience,brief ,currentCompany }) {
+function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workExperience,brief ,currentCompany,fsddesc }) {
 
   const router = useRouter();
   const [btnHide, setBtnHide] = useState(false)
@@ -468,7 +468,7 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
             <div className={styles.formWrapper}>
               <input
                 className={popup ? styles.EmailInputs : styles.EmailInput}
-                placeholder="Job Title or Domain*"
+                placeholder={fsddesc ? "Job Title or Domain*": "Job Description*"}
                 type="text"
                 name="jobDescription"
                 value={form.jobDescription}
