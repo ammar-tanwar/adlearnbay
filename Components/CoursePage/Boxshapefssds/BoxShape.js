@@ -56,8 +56,8 @@ const BoxShape = ({
                     src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Live-classes-home-alt.svg"
                     alt="data-science"
                     layout="intrinsic"
-                    width={170}
-                    height={153}
+                    width={60}
+                    height={60}
                     loading="lazy"
                   />
                 
@@ -67,8 +67,8 @@ const BoxShape = ({
                   alt="data-science"
                   className={styles.icon}
                   loading="lazy"
-                  width={170}
-                    height={153}
+                  width={60}
+                    height={60}
                 />
               )}
 
@@ -133,8 +133,8 @@ const BoxShape = ({
                     src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Live-classes-home-alt.svg"
                     alt="data-science"
                     layout="intrinsic"
-                    width={170}
-                    height={153}
+                    width={60}
+                    height={60}
                     loading="lazy"
                   />
                 
@@ -144,8 +144,8 @@ const BoxShape = ({
                   alt="data-science"
                   className={styles.icon}
                   loading="lazy"
-                  width={170}
-                    height={153}
+                  width={60}
+                    height={60}
                 />
               )}
 
