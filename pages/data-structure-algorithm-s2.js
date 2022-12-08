@@ -172,6 +172,25 @@ export default function Home() {
                     CourseFeelist4={DataStructureAlgorithmData[0].BatchCourses.CourseFeelist4}
                     CourseFeelist5={DataStructureAlgorithmData[0].BatchCourses.CourseFeelist5}
                 />
+
+                <div className={styles.boxContent}>
+                <div className={styles.FirstBox}>
+                    <p className={styles.FirstP}>Why is it important to learn DSA to get into product-based companies?</p>
+                    <p className={styles.SecondP}>Data structures are generally used to organize, process, retrieve, and store data on computers for efficient use. Proper understanding of data structures and algorithms helps software engineers to write the right code. Data structures and Algorithms are an important part of computer science and help to understand the problem on a deeper level. They are widely used in artificial intelligence, operating systems, graphics and other fields. If the programmer is not familiar with data structures and algorithms course, he may not be able to write efficient data handling code. Hence a programmer who’s trying to switch to product company needs to Learn Data structures and algorithms course.</p>
+                </div>
+                <div>
+                    <div className={styles.InnerBox}>
+                        <p className={styles.SecondP}>Most product based companies looks at how great your DSA skills are and how you use it on a daily basis to solve problems and for that you require to learn DSA course</p>
+                    </div>
+                    <div className={styles.InnerBox}>
+                        <p className={styles.SecondP}>Data Structure course can helps one to understand how to apply the right data structures and that it is an important step in managing your data well and writing efficient code.</p>
+                    </div>
+                    <div className={styles.InnerBox}>
+                        <p className={styles.SecondP}>DSA course will help the transition to product based companies easier as they also prepare you for the interview.</p>
+                    </div>
+                </div>
+            </div>
+
                 <LearnSupport />
 
                 <Footer 

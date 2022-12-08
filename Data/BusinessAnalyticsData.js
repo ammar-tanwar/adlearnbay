@@ -10,7 +10,7 @@ export const BusinessAnalyticsCourseData = [
       title: "Business Analytics Certification Course ",
       spanTitleText: "For Professionals",
       desc: "Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career.",
-      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course7.png",
+      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Businesss+Analytics.png",
       width: "674",
       height: "623",
       alt: "AiMl Header",

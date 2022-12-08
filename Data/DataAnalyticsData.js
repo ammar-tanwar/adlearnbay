@@ -10,7 +10,7 @@ export const DataAnalyticsCourseData = [
       title: "Data Analytics Course",
       spanTitleText: "For Working Professionals",
       desc: "Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career.",
-      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course6.png",
+      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Data+Analytics.png",
       width: "760",
       height: "611",
       alt: "AiMl Header",

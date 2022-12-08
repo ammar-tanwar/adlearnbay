@@ -8,7 +8,7 @@ export const DsaCourseData = [
       title: "Data Structure Algorithms ",
       spanTitleText: "And System Design Course",
       desc: "Perform real-world industrial projects and use-cases.",
-      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/dsa-header-image.png",
+      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/DSA.png",
       width: "776",
       height: "682",
       alt: "Full Stack",
