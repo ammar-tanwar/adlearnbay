@@ -114,7 +114,7 @@
 .bottomReview button {
   background-color: white;
   color: #0072bc;
-  margin-top: 20px;
+  margin-top: 20px !important;
 }
 @media (max-width: 1281px) {
   .reviewWrap {

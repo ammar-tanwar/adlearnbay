@@ -170,10 +170,10 @@ function CourseFee({
               <div>
                 <div className={styles.BatchDetails}>
                   <p className={styles.list}><AiOutlineBars className={styles.icon} /><b>Batch Type</b></p>
-                  <p className={styles.list}>Weekday Morning (Mon-Fri)</p>
+                  <p className={styles.list}>Weekend Afternoon (Sat-Sun)</p>
                   <p className={styles.list}>Weekday Evening (Mon-Fri)</p>
                  
-                  <p className={styles.list}>Weekend Morning (Sat-Sun)</p>
+                
                  
 
                 </div>
@@ -181,10 +181,9 @@ function CourseFee({
               <div>
                 <div className={styles.BatchDetails}>
                   <p className={styles.list}><MdDateRange className={styles.icon} /><b>Date</b></p>
-                  <p className={styles.list}>9th December 2022</p>
-                  <p className={styles.list}>9th December 2022</p>
+                  <p className={styles.list}>18th December 2022</p>
+                  <p className={styles.list}>23th December 2022</p>
                  
-                  <p className={styles.list}>11th December 2022</p>
                   
 
                 </div>
@@ -192,9 +191,9 @@ function CourseFee({
               <div>
                 <div className={styles.BatchDetails}>
                   <p className={styles.list}><BiTimeFive className={styles.icon} /><b>Time</b></p>
-                  <p className={styles.list}>8 AM to 10 AM</p>
+                  <p className={styles.list}>12.30 PM to 4 PM</p>
                   <p className={styles.list}>8 PM to 10 PM</p>
-                  <p className={styles.list}>8:30 AM to 12 PM</p>
+                 
                   
 
                 </div>
