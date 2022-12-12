@@ -22,9 +22,9 @@ const Footer = () => {
             />
           </a>
           <p className={styles.FooterInnerli}>
-            Enrol now for data science courses, System designing or full stack
-            development courses. Master the most demanding skills of job market
-            and experience and ever growing and lucrative career transformation.
+            Enroll Now For Data Science Classroom (Bangalore) Or Online Training
+            With Us And Master Data Analytics Skills Which Will Help You To
+            Transform Your Career And Start Your Career As A Data Scientist.
           </p>
           <span style={{ display: "flex", marginTop: "20px" }}>
             <IoMailSharp className="bIcons" />
