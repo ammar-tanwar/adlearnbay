@@ -12,6 +12,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Popup from "../../Popup/Popup";
 import Form from "../../Event/Form/Form";
+import Form1 from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
 import {
   viewAllD,
@@ -21,7 +22,7 @@ import {
   StackD,
 } from "./courseDetails";
 
-const Course = ({ formotpForS3DS }) => {
+const Course = ({ peanutbtrIMG }) => {
   const [viewAll, setViewAll] = useState(true);
   const [oneYear, setOneYear] = useState(false);
   const [nonTech, setNonTech] = useState(false);
@@ -59,7 +60,7 @@ const Course = ({ formotpForS3DS }) => {
   return (
     <div className={styles.Course} id="course">
 
-    {formotpForS3DS ? (
+    {peanutbtrIMG ? (
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
       <div className="leftPopup">
         <div
@@ -71,12 +72,14 @@ const Course = ({ formotpForS3DS }) => {
         <h5>Download Brochure</h5>
         <p>Please enter the following details to initiate your download</p>
 
-        <FormOtp popup={true} brief={true} currentCompany={true} />
+        
+        <Form1 setTrigger={setPopups} />
 
       </div>
     </Popup>
     ):(
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal" formIMG={true}>
+      
       <div className="leftPopup">
         <div
           className="whiteP"
@@ -91,8 +94,8 @@ const Course = ({ formotpForS3DS }) => {
 
       </div>
     </Popup>
-    )}
-     
+   
+     )}
 
 
       <div className={styles.courses}>

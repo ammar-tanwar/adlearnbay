@@ -80,7 +80,7 @@ export default function Home() {
         />
 
       </Head>
-      <main>  <Navbar popup={true}  />
+      <main>  <Navbar popup={true} />
 
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -90,7 +90,7 @@ export default function Home() {
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below Details to get started</p> */}
 
-            <FormOtp popup={true} setTrigger={setPopups}  />
+            <FormOtp popup={true} setTrigger={setPopups} />
           </div>
         </Popup>
         <FirstSection
@@ -107,13 +107,11 @@ export default function Home() {
           h3="100%"
           p3="Interview
         Guarantee"
-        
+          withOutRadioForm={true}
         />
 
-
-
         <div className={styles.container} id="Feature">
-          <BoxShape 
+          <BoxShape
             title="Why domain
             specialization?"
 
@@ -138,12 +136,12 @@ export default function Home() {
           />
         </div>
 
-        <CourseDs />
+        <CourseDs peanutbtrIMG={true} />
         <CourseReview
           p1="Working at HCL"
           p2=" Working at TCS"
           p3="Working at Capgemini"
-         
+
         />
 
         <SyllabusNew
@@ -154,7 +152,7 @@ export default function Home() {
           popupHead={BFSIData[0].popupHead}
           hours={BFSIData[0].hours}
           project={BFSIData[0].project}
-         
+
         />
         <OurExpert
           H5={BFSIData[0].OurExpert.H5}
@@ -183,11 +181,11 @@ export default function Home() {
           img20={BFSIData[0].OurExpert.img20}
         />
 
-       
-       
+
+
         <div className={styles.transitionProcess}>
-        <h1>Transition Process</h1>
-       
+          <h1>Transition Process</h1>
+
           <Image
             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Infographic+2.jpg"
             width="1500px"
@@ -196,17 +194,17 @@ export default function Home() {
           />
         </div>
 
-        
+
         <SliderTab />
-      
+
         <div className={styles.ProjectWrapper} id="project">
-        <BankingProject popupHead={BFSIData[0].Project.popupHead}
-          project={BFSIData[0].Project.project}
-          domain={BFSIData[0].Project.domain}
-          projectTitle={BFSIData[0].Project.projectTitle1} 
-          props={BFSIData[0].Project}
-        />
-      </div>
+          <BankingProject popupHead={BFSIData[0].Project.popupHead}
+            project={BFSIData[0].Project.project}
+            domain={BFSIData[0].Project.domain}
+            projectTitle={BFSIData[0].Project.projectTitle1}
+            props={BFSIData[0].Project}
+          />
+        </div>
 
         <CourseFee
           syllabusDesc={BFSIData[0].syllabusDesc}
@@ -219,7 +217,7 @@ export default function Home() {
           CourseFeelist3={BFSIData[0].BatchCourses.CourseFeelist3}
           CourseFeelist4={BFSIData[0].BatchCourses.CourseFeelist4}
           CourseFeelist5={BFSIData[0].BatchCourses.CourseFeelist5}
-         
+
         />
         <LearnSupport />
         <Footer />

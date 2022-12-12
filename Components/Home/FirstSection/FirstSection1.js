@@ -6,7 +6,7 @@ import Form from "../../Form/Form";
 import Image from "next/image";
 import FormOtp from "../../FormOtp/FormOtp";
 
-const FirstSection = ({dataScience,heading, headingSpan, ptop,des,p1,p2,p3,h1,h2,h3,formotp,formotpForS3DS}) => {
+const FirstSection = ({dataScience,heading, headingSpan, ptop,des,p1,p2,p3,h1,h2,h3,withOutRadioForm}) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
@@ -34,20 +34,11 @@ const FirstSection = ({dataScience,heading, headingSpan, ptop,des,p1,p2,p3,h1,h2
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           {/* <p>Fill the below details to get started</p> */}
-          {formotpForS3DS ?(
-            <FormOtp popup={true} brief={true} currentCompany={true}/>
-          ):(
-         <>
-         {formotp ?(
-          <FormOtp popup={true} radio={radio}/>
+         {withOutRadioForm ?(
+          <Form popup={true} setTrigger={setPopups} />
           ):(
             <Form popup={true} setTrigger={setPopups} radio={true}  dataScience={dataScience} />
           )}
-         
-         </>
-          )}
-
-          
         </div>
       </Popup> 
       <div className={styles.leftSide}>

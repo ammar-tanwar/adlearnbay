@@ -65,7 +65,7 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
 
 
   if (
-    router.pathname === "/s2-data-science-banking" ||
+    
     router.pathname === "/s3-data-science" 
     
   ) {
@@ -280,7 +280,7 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
           router.pathname === "/full-stack-web-development-program" ||
           router.pathname === "/apply-for-counselling-fsd-s2" ||
           router.pathname === "/s3-data-science" ||
-          router.pathname === "/s2-data-science-banking" ||
+          
 
           router.pathname === "/data-structure-algorithm" ||
           router.pathname === "/system-design" ||
@@ -392,7 +392,7 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
             router.pathname === "/full-stack-web-development-program" ||
             router.pathname === "/apply-for-counselling-fsd-s2" ||
             router.pathname === "/s3-data-science" ||
-            router.pathname === "/s2-data-science-banking" ||
+            
 
             router.pathname === "/data-structure-algorithm-s2" ||
             router.pathname === "/system-design-s2" ||
