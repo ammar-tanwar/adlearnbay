@@ -21,7 +21,7 @@ const Footer = () => {
               height="60px"
             />
           </a>
-          <p className={styles.FooterInnerli}>Enroll Now For Data Science Classroom (Bangalore) Or Online Training With Us And Master Data Analytics Skills Which Will Help You To Transform Your Career And Start Your Career As A Data Scientist.</p>
+          <p className={styles.FooterInnerli}>Enrol now for data science courses, System designing or full stack development  courses. Master the most demanding skills of job market and experience and ever growing and lucrative career transformation.</p>
           <span style={{ display: "flex", marginTop: "20px" }}><IoMailSharp className="bIcons" /><Link href="mailto:contacts@learnbay.co">contacts@learnbay.co</Link></span>
           <span style={{ display: "flex", marginTop: "10px" }}><BsFillTelephoneFill className="bIcons" /><Link href="tel:+919606950936">(+91) 96069 50936</Link></span>
         </div>
