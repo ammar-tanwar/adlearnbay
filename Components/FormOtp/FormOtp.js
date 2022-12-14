@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import PhoneInput from "react-phone-number-input";
 import jsCookie from "js-cookie";
 
-function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workExperience,brief ,currentCompany,fsddesc }) {
+function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workExperience,brief ,currentCompany,fsddesc, eventRadio }) {
 
   const router = useRouter();
   const [btnHide, setBtnHide] = useState(false)
@@ -628,6 +628,34 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
             ""
           )}
 
+
+          {eventRadio ? (
+            <div className={popup ? styles.formWrappers : styles.formWrapper}>
+              <input
+                id="Student"
+                value="Student"
+                name="platform"
+                required
+                type="radio"
+                onChange={handleForm}
+              />
+              Student&nbsp;
+
+              <br /><input
+                id="Working Professional"
+                value="Working Professional"
+                name="platform"
+                required
+                type="radio"
+                onChange={handleForm}
+              />
+              Working Professional&nbsp; <br />
+            </div>
+          ) : (
+            ""
+          )}
+
+          
 
 
 
