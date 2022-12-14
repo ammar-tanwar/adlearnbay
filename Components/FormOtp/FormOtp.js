@@ -629,6 +629,7 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
           )}
 
 
+
           {eventRadio ? (
             <div className={popup ? styles.formWrappers : styles.formWrapper}>
               <input
@@ -656,9 +657,6 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
           )}
 
           
-
-
-
           <div>
             {toggle ? (
               ''
