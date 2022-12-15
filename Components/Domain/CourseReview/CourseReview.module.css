@@ -1,0 +1,213 @@
+.reviewWrap {
+  padding: 80px 0px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgHire {
+  background-color: #256F9F;
+  padding: 20px 10px;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.swiperleft {
+  width: 45%;
+}
+.slide {
+  padding: 20px 50px;
+  display: flex;
+  height: 380px;
+
+  margin-top: 15px;
+  flex-flow: column-reverse;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 10px;
+  background: aliceblue;
+  border-radius: 20px 0px 0px 20px;
+}
+.content {
+  display: grid;
+  grid-template-columns: 18% 65% 14%;
+  height: fit-content;
+  margin-top: 10px;
+}
+.cIcon {
+  margin-top: 20px;
+}
+.contentRight {
+  margin-top: 20px;
+}
+.para {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px 0px 0px 0px;
+  text-align: justify;
+
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.leftBottom,
+.rightBottom {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.leftBottomC h5 {
+  margin: 0;
+  color: #256F9F;
+  font-size: 18px;
+}
+.leftBottomC p {
+  margin: 0;
+  color: #000;
+  font-size: 14px;
+}
+
+.leftBottomC {
+  text-align: left;
+}
+
+.profile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.profile img {
+  border-radius: 50%;
+}
+.RIcon {
+  color: #f7d800;
+  font-size: 16px;
+}
+.name {
+  display: flex;
+  flex-flow: column-reverse;
+  align-items: flex-start;
+  gap: 5px;
+}
+.name p {
+  font-size: 18px;
+  color: #000;
+  margin: 0;
+}
+.name h5 {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0;
+  color: #256F9F;
+}
+
+
+.bottomReview {
+  padding: 30px 0px 30px 100px;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+.bottomReview h5 {
+  font-size: 50px;
+  color: #000;
+  margin: 0;
+  font-weight: 600;
+  border-bottom: 5px solid #ECB552;
+    width: 70%;
+    padding-bottom: 10px;
+}
+
+.swiperleft h5 {
+  font-size: 26px;
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.bottomReview p {
+  color: #000;
+  font-size: 22px;
+}
+.btn {
+  background-color: #edb552;
+  padding: 14px 28px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 0;
+  width: fit-content;
+  margin-top: 50px;
+}
+.btn:hover {
+  background-color: #0072bc;
+}
+
+.hikeImg {
+  background-color: #0072bc;
+  border-radius: 20px !important;
+  padding: 10px !important;
+}
+
+@media (max-width: 481px) {
+  .reviewWrap {
+    padding: 30px 20px 0px 20px;
+    display: block;
+  }
+
+  .bottomReview h5 {
+    font-size: 24px;
+    font-weight: 800;
+    width: 80%;
+  }
+
+  .bottomReview p {
+    color: #000;
+    font-size: 18px;
+  }
+
+  .swiperleft {
+    width: 100%;
+  }
+  .slide {
+    height: fit-content;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+    margin-top: 30px;
+    border-radius: 20px;
+  }
+  .rightBottom {
+    display: block;
+    gap: 10px;
+    align-items: center;
+  }
+  .leftBottom {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .bottomReview {
+    padding: 0px;
+    margin-top: 30px;
+  }
+  .imgHire {
+    background-color: #256F9F;
+    padding: 10px 5px;
+    border-radius: 10px;
+  }
+  .btn {
+    padding: 14px 10px;
+    font-size: 14px;
+    margin: 30px 0;
+  }
+  .para {
+    padding: 10px 0px;
+  }
+
+  .swiperleft h5 {
+    margin-bottom: 0px;
+  }
+}

@@ -16,6 +16,17 @@
   justify-content: flex-start;
 }
 
+.pBot {
+  text-align: center;
+}
+
+.mPanel > p {
+  text-align: center;
+  padding: 0px 350px;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
 .listPanel span {
   padding: 20px;
   font-weight: 600;
@@ -275,5 +286,11 @@
   }
   .contentBox {
     margin-top: -20px;
+  }
+
+  .mPanel > p {
+    padding: 0px 20px;
+    margin: 0;
+    margin-bottom: 20px;
   }
 }

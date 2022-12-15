@@ -1,22 +1,20 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import FirstSection from "../Components/Home/FirstSection/FirstSection1";
-import BoxShape from "../Components/Boxshape/BoxShape";
+import FirstSection from "../Components/Domain/FirstSection/FirstSection";
+import BoxShape from "../Components/Domain/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import FormOtp from "../Components/FormOtp/FormOtp";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
-import Project from "../Components/CoursePage/Project/Project";
-import BankingProject from "../Components/CoursePage/Project/BankingProject";
+import BankingProject from "../Components/Domain/Project/BankingProject";
 import OurExpert from "../Components/CoursePage/OurExpert/OurExpert";
-import CourseFee from "../Components/CoursePage/CourseFee/CourseFee";
-import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
+import SyllabusNew from "../Components/Domain/SyllabusNew/SyllabusNew";
 import Footer from "../Components/CoursePage/Footer/Footer";
-import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
+import LearnSupport from "../Components/Domain/LearnSupport/LearnSupport";
 import React, { useState } from "react";
 import { BFSIData } from "../Data/BFSI";
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
-import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
-import CourseDs from "../Components/Marketing/CourseHomeDS/Course";
+import CourseReview from "../Components/Domain/CourseReview/CourseReview";
+import CourseDs from "../Components/Domain/CourseHomeDS/Course";
 import Image from "next/image";
 
 export default function Home() {
@@ -28,9 +26,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>
-          Data Science course - Learnbay
-        </title>
+        <title>Data Science course - Learnbay</title>
         <meta
           name="description"
           content="Advance certification online data science course with 100% placement assistance 
@@ -38,7 +34,10 @@ export default function Home() {
           projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
           24/7 Learner’s support."
         />
-        <meta name="Keywords" content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee" />
+        <meta
+          name="Keywords"
+          content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee"
+        />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{
@@ -78,10 +77,10 @@ export default function Home() {
             x.parentNode.insertBefore(s, x);`,
           }}
         />
-
       </Head>
-      <main>  <Navbar popup={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -95,9 +94,11 @@ export default function Home() {
         </Popup>
         <FirstSection
           ptop="Data Science Domain Specialization Course"
-          heading="Banking, Finance, Services & Insurance Domain"
-          headingSpan="(BFSI)"
-          des="Develop leadership skills by gaining a better knowledge of data science and making more informed choices regarding prospects, customers, product lines, market opportunities, and team performance."
+          heading1="Be the"
+          headingSpan1="master"
+          heading2="of"
+          headingSpan2="your domain"
+          des="Specialized courses in the Banking, Finance, Services & Insurance (BFSI) domain created to help you get ahead in your career"
           h1="6"
           p1="Industry
         Relevant Projects"
@@ -109,41 +110,25 @@ export default function Home() {
         Guarantee"
           withOutRadioForm={true}
         />
-
-        <div className={styles.container} id="Feature">
-          <BoxShape
-            title="Why domain
-            specialization?"
-
-            box1desc="Data science skill efficacy is all
-            about using your domain-specific
-            knowledge in a balanced way using
-            data-driven methods."
-
-            box2desc="As a result, if you don't have domain
-            expertise, your data science abilities
-            are useless.
-            "
-
-            box3desc="Even so, these are the main reasons
-            why experienced workers seeking
-            career changes are in greater
-            demand."
-
-            box4desc="Learn how to succeed in an increasingly competitive market with
-            advanced tools and technology by using proven methodology.
-            "
-          />
-        </div>
-
+        <BoxShape
+          title="When you learn more,
+            you earn more."
+          p="Through our courses, you can: "
+          box1desc="Earn an increment of up to 200% in your next job
+            with your added skill sets"
+          box2desc="Succeed in an increasingly competitive market
+            with advanced tools and technology"
+          box3desc="Master your data analysis skills and create
+            a dynamic dashboard to describe your insights"
+          box4desc="Develop leadership skills by gaining better knowledge
+            of data and make more informed decisions"
+        />
         <CourseDs peanutbtrIMG={true} />
         <CourseReview
           p1="Working at HCL"
           p2=" Working at TCS"
           p3="Working at Capgemini"
-
         />
-
         <SyllabusNew
           syllabus={BFSIData[0].syllabus}
           CSyllabus={BFSIData[0].CSyllabus}
@@ -152,7 +137,6 @@ export default function Home() {
           popupHead={BFSIData[0].popupHead}
           hours={BFSIData[0].hours}
           project={BFSIData[0].project}
-
         />
         <OurExpert
           H5={BFSIData[0].OurExpert.H5}
@@ -180,45 +164,29 @@ export default function Home() {
           img23={BFSIData[0].OurExpert.img23}
           img20={BFSIData[0].OurExpert.img20}
         />
-
-
-
-        <div className={styles.transitionProcess}>
-          <h1>Transition Process</h1>
-
+        <div className={styles.transition}>
+          <h1>We’ll make sure your career evolution is seamless</h1>
+          <p>
+            Here’s how you’ll transition from the start till the end of your
+            Learnbay journey:
+          </p>
           <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Infographic+2.jpg"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/TP.png"
             width="1500px"
-            height="500px"
-            layout="responsive"
+            height="700px"
+            layout="intrinsic"
           />
         </div>
-
-
         <SliderTab />
-
         <div className={styles.ProjectWrapper} id="project">
-          <BankingProject popupHead={BFSIData[0].Project.popupHead}
+          <BankingProject
+            popupHead={BFSIData[0].Project.popupHead}
             project={BFSIData[0].Project.project}
             domain={BFSIData[0].Project.domain}
             projectTitle={BFSIData[0].Project.projectTitle1}
             props={BFSIData[0].Project}
           />
         </div>
-
-        <CourseFee
-          syllabusDesc={BFSIData[0].syllabusDesc}
-          syllabus={BFSIData[0].Batch}
-
-          CourseFeeHead={BFSIData[0].BatchCourses.CourseFeeHead}
-          CourseFeePara={BFSIData[0].BatchCourses.CourseFeePara}
-          CourseFeelist1={BFSIData[0].BatchCourses.CourseFeelist1}
-          CourseFeelist2={BFSIData[0].BatchCourses.CourseFeelist2}
-          CourseFeelist3={BFSIData[0].BatchCourses.CourseFeelist3}
-          CourseFeelist4={BFSIData[0].BatchCourses.CourseFeelist4}
-          CourseFeelist5={BFSIData[0].BatchCourses.CourseFeelist5}
-
-        />
         <LearnSupport />
         <Footer />
       </main>

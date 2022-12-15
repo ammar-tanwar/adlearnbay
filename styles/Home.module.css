@@ -70,11 +70,23 @@
   width: 100%;
   margin-top: 40px;
 }
-.transitionProcess h1{
+
+.transition {
+  padding: 50px 100px;
+  text-align: center;
+}
+
+.transition h1{
   font-size: 36px;
   font-weight: 800;
   text-align: center;
 }
+
+.transition p{
+font-size: 18px;
+margin-bottom: -40px;
+}
+
 .boxWrap {
   display: flex;
   flex-flow: column;
@@ -824,6 +836,17 @@
     padding-top: 0;
     padding-bottom: 0;
   }
+  .transition {
+    padding: 20px;
+  }
+  
+  .transition h1{
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 50px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -878,4 +901,8 @@
     margin: 0;
     font-weight: 600;
   }
+  .transition p{
+    font-size: 16px;
+    margin-bottom: 10px;
+    }
 }

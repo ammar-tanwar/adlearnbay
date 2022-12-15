@@ -45,9 +45,8 @@
   display: flex;
   width: 100%;
   flex-flow: column;
-  background: #ffffff;
-
   border-radius: 16px;
+  height: fit-content;
 }
 .listPanel .gridPanel {
   display: none;
@@ -74,8 +73,8 @@
   font-size: 20px;
   cursor: pointer;
   color: black;
-  background-color: white;
   justify-content: start;
+  border-radius: 6px 6px 6px 6px;
 }
 .gridPanel {
   display: grid;

@@ -20,7 +20,7 @@ const OurExpert = ({ H5, img1, img2, img3, img4, img5, img6, img7, img8, img9, i
     <section className={styles.GetHired}>
       <div className={styles.CInner}>
         <h5>{H5}</h5>
-        <div>
+        <div className={styles.swiperB}>
           <Swiper
             spaceBetween={10}
             centeredSlides={true}

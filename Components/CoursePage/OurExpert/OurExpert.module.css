@@ -2,22 +2,34 @@
   display: grid;
   grid-template-columns: 100%;
   align-items: center;
-  margin: 100px 20px 50px 20px;
+  margin: 100px 0px 50px 0px;
 }
 
 .CInner h5 {
   font-size: 36px;
   font-weight: 800;
-  margin: 0px 0px 50px 0px;
+  margin: 0px;
   text-align: center;
+}
+
+.swiperB {
+  background-color: #EFF8FE;
+  padding: 30px 0px;
+  margin-top: 30px;
 }
 
 @media (max-width: 481px) {
   .CInner h5 {
     margin: 0px 0px 30px 0px;
-    font-size: 31px;
+    font-size: 24px;
+    color: #000;
   }
   .GetHired {
     margin: 40px 20px 0px 20px;
+  }
+  .swiperB {
+    background-color: white;
+    padding: 0px;
+    margin-top: 30px;
   }
 }

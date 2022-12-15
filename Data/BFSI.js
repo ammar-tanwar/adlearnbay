@@ -41,23 +41,20 @@ export const BFSIData = [
     popupHead: "Download Brochure",
     hours: "250+ Hours",
     project: "12+ Real Time",
-    CSyllabus: "Domain Training",
-    CourseHighlights: "Domain Training Highlights",
+    CSyllabus: "Course content",
+    CourseHighlights: "Course content Highlights",
 
 
     syllabus: [
       {
         Module0: {
-          title: "Module 1 :- Introduction to Banking Finance & Insurance Domain",
+          title: "Module 1 :- Introduction to banking finance & insurance domain",
           content: [
             {
               chap: {
                 title: "",
                 desc: [
-                  "In this Introductory session, you will learn the basic banking sector information.",
-                  "We'll be looking at several financial organizations and the many different kinds of financial services they offer to their customers.",
-                  "To understand how a bank produces return, we may look at a bank's balance sheet and income statement.",
-                  "We will conclude with a brief overview of several career options in banking.",
+                  "In the introductory session, you will learn the basics of the banking sector. We’ll look at several financial organizations and the different kinds of services they offer. The module will be concluded with a brief overview of the different career options one can pursue in banking.",
                 ],
               },
             },
@@ -68,17 +65,17 @@ export const BFSIData = [
       },
       {
         Module0: {
-          title: "Module 2 :- Financial Institutions and their Services",
+          title: "Module 2 :- Financial institutions and their services",
           content: [
             {
               chap: {
                 title: "",
                 desc: [
-                  "Types of Financial institutions",
-                  "Organization of Financial Institutions",
-                  "Universal Banks, Large Banks, Investment Banks, Community Banks, Online Banks, Credit Unions, Cooperative Banks",
-                  "Python Data Types",
-                  "Banking Services, Retail Banking, private Banking, Business Banking, Commercial Banking, Corporate Banking, Investment Banking",
+                  "Learn about:",
+                  "The types of financial institutions",
+                  "Organization of financial institutions",
+                  "Universal banks, large banks, investment banks, community banks, online banks, credit unions, cooperative banks",
+                  "Banking services, retail banking, private banking, business banking, commercial banking, corporate banking, investment banking",
                 ],
               },
             },
@@ -89,14 +86,15 @@ export const BFSIData = [
       },
       {
         Module0: {
-          title: "Module 3 :- How returns are generated in Financial Institutions?",
+          title: "Module 3 :- How returns are generated in financial institutions",
           content: [
             {
               chap: {
                 title: "",
                 desc: [
-                  "Bank’s Balance Sheet, Income Statement, Net Interest Income, Components of total revenue.",
-                  "Measuring returns in a bank, The impact of Leverage, The importance of Operating Efficiency, Asset Liability Matching and Securitization",
+                  "Learn about:",
+                  "Bank balance sheet, income statement, net interest income, and components of total revenue",
+                  "Measuring returns in a bank, the impact of leverage, the importance of operating efficiency, asset liability matching, and securitization",
                 ],
               },
             },
@@ -107,14 +105,13 @@ export const BFSIData = [
       },
       {
         Module0: {
-          title: "Module 4 :- Managing customer data, Customer segmentation and Real-time and predictive analytics",
+          title: "Module 4 :- Managing customer data, customer segmentation & real-time and predictive analytics",
           content: [
             {
               chap: {
-                title: "Module 1 SQL",
+                title: "",
                 desc: [
-                  "Here we will learn how Machine Learning and Analytics can be useful to counter a shrinking customer base by trying a number of different retention techniques with significant results.",
-                  "With this one will be able to predict which currently active customers are likely to reduce their business with banks which in turn may reduce the churn percentage.",
+                  "Learn how machine learning & analytics can be useful to counter a shrinking customer base, by trying several retention techniques. You will be able to predict which active customers are likely to reduce their business with banks, and those who may reduce the churn percentage.",
                 ],
               },
             },
@@ -125,13 +122,15 @@ export const BFSIData = [
       },
       {
         Module0: {
-          title: "Module 5 :- Process Automation, Security",
+          title: "Module 5 :- Process automation and security",
           content: [
             {
               chap: {
                 title: "",
                 desc: [
-                  "This module will help you understand in identifying “high net worth or potential “prospects and customers, Improve the ability to target products and services to prospects or customers, Maximise the specific elements of the offer (product, pricing, channel) and allow senior management to make informed operational decisions.",
+                  "Identify high net worth or potential prospects & customers",
+                  "Improve the ability to target products & services",
+                  "Maximize the specific elements of the offer (product, pricing, channel) and allow senior management to make informed operational decisions",
                 ],
               },
             },
@@ -142,13 +141,13 @@ export const BFSIData = [
       },
       {
         Module0: {
-          title: "Module 6 - Fraud detection, Underwriting and credit scoring and Risk modeling for investment banks",
+          title: "Module 6 - Fraud detection, underwriting, credit scoring, and risk modeling for investment banks",
           content: [
             {
               chap: {
                 title: "",
                 desc: [
-                  "The Analytics in this module will help you to understand how banks identify right customers for lending, monitor collections, predict and reduce delinquencies and reduce NPA and increase profitability.",
+                  "The analytics in this module will help you understand how banks identify the right customers for lending, monitor collections, predict & reduce delinquencies and reduce NPA to increase profitability",
                 ],
               },
             },
