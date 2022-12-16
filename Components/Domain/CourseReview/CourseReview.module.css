@@ -161,7 +161,7 @@
   .bottomReview h5 {
     font-size: 24px;
     font-weight: 800;
-    width: 80%;
+    width: 85%;
   }
 
   .bottomReview p {
@@ -173,8 +173,8 @@
     width: 100%;
   }
   .slide {
-    height: fit-content;
-    margin-bottom: 20px;
+    height: 485px;
+    margin-bottom: 40px;
     padding: 0px 10px;
     margin-top: 30px;
     border-radius: 20px;

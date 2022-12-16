@@ -450,7 +450,7 @@
 
   .PProgram > p {
     font-size: 15px;
-   
+    padding: 0;
   }
 
   .PProgramInner div,

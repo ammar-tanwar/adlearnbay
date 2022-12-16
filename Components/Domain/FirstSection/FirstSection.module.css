@@ -207,6 +207,7 @@ height: 80vh;
   }
   .pTop {
     font-size: 18px;
+    margin-top: 25px;
   }
   .btnWrapper {
     margin-top: 10px;
@@ -232,12 +233,12 @@ height: 80vh;
       padding: 20px;
     }
     .First h1 {
-      font-size: 25px;
-      line-height: 37px;
+      font-size: 30px;
+      line-height: 50px;
     }
     .First h1 span {
-      font-size: 27px;
-      line-height: 37px;
+      font-size: 30px;
+      line-height: 60px;
       background-position: 0 2.5rem;
     }
     .leftSide {

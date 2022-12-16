@@ -47,12 +47,12 @@
 }
 
 .ImgB3{
-  width: 63px;
+  width: 69px;
   height: auto;
 }
 
 .ImgB4{
-  width: 62px;
+  width: 75px;
   height: auto;
 }
 
@@ -131,29 +131,33 @@
     margin-bottom: 50px;
   }
   .ImgB1{
-    width: 120px;
+    width: 80px;
     background: #0d4a9b;
+    height: 55px;
     padding: 10px;
     border-radius: 10px;
   }
   
   .ImgB2{
-    width: 90px;
+    width: 89px;
     background: #0d4a9b;
+    height: 55px;
     padding: 10px;
     border-radius: 10px;
   }
   
   .ImgB3{
-    width: 105px;
+    width: 93px;
     background: #0d4a9b;
+    height: 55px;
     padding: 10px;
     border-radius: 10px;
   }
   
   .ImgB4{
-    width: 120px;
+    width: 99px;
     background: #0d4a9b;
+    height: 55px;
     padding: 10px;
     border-radius: 10px;
   }
