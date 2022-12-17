@@ -106,8 +106,8 @@ const FirstSection = ({
         <Image
             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/rightside.png"
             layout="intrinsic"
-            width="600"
-            height="400"
+            width="550"
+            height="350"
             loading="lazy"
             alt="data science course in bangalore"
             className={styles.vIcon}

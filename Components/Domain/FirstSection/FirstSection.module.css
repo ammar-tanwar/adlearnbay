@@ -1,12 +1,12 @@
 .First {
-    padding: 20px 100px 20px 100px;
+    padding: 100px 100px 50px 100px;
     display: grid;
-    grid-template-columns: 45% 55%;
+    grid-template-columns: 50% 45%;
     gap: 50px;
     background-size: cover;
     background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/Header.png");
     align-items: center;
-height: 80vh;
+height: fit-content;
   }
   
   .leftSide {
@@ -109,7 +109,6 @@ height: 80vh;
     gap: 20px;
     width: 100%;
     margin-top: 50px;
-    justify-content: center;
   }
   .info h5 {
     font-style: normal;
@@ -127,7 +126,7 @@ height: 80vh;
     padding: 0;
     background-color: #fff;
     border-radius: 10px;
-    padding: 10px 20px;
+    padding: 10px 10px;
     box-shadow: -1px 0px 10px 2px rgb(4 135 217 / 10%);
   }
   .middle h5 {

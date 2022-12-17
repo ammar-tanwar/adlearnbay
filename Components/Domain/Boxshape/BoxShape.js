@@ -26,7 +26,7 @@ const BoxShape = ({
         <div className={styles.box}>
             <div className={styles.ImgB}>
             </div>
-            <p className={styles.pTop}>{p}</p>
+            <b><p className={styles.pTop}>{p}</p></b>
           </div>
           <div className={styles.box}>
             <div className={styles.ImgB1}>

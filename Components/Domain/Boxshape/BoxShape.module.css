@@ -67,8 +67,8 @@
   margin-top: 10px;
 }
 .box p {
-  font-size: 16px;
-  color: #54595f;
+  font-size: 18px;
+  color: #000;
   padding-right: 0px;
 }
 
@@ -195,7 +195,7 @@
     padding: 10px 10px 0px 10px;
   }
   .box p {
-    font-size: 14px;
+    font-size: 16px;
     padding-right: 0px;
   }
   .imgBack {
