@@ -249,7 +249,8 @@ height: fit-content;
     }
 
   .info {
-    display: block;
+    display: none;
+    width: fit-content;
   }
   .rightSide {
     padding-top: 20px;
