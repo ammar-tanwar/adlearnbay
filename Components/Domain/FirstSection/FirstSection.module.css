@@ -230,6 +230,7 @@ height: fit-content;
       display: flex;
       flex-flow: column;
       padding: 20px;
+      height: fit-content;
     }
     .First h1 {
       font-size: 30px;
@@ -248,7 +249,7 @@ height: fit-content;
     }
 
   .info {
-    gap: 0;
+    display: block;
   }
   .rightSide {
     padding-top: 20px;
@@ -281,6 +282,7 @@ height: fit-content;
     box-shadow: -1px 0px 10px 2px rgb(4 135 217 / 10%);
     margin: 0px 5px 0px 2px;
     width: 100%;
+    margin-bottom: 10px;
   }
 }
   
