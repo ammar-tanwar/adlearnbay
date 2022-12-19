@@ -124,8 +124,6 @@
 
 @media (max-width: 481px) {
   .boxWrapper {
-    padding-left: 0px;
-    padding-right: 0px;
     padding: 50px 20px 0px 20px;
     background: #fff;
     margin-bottom: 50px;

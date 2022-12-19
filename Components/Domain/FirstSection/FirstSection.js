@@ -78,11 +78,11 @@ const FirstSection = ({
           <p className={styles.pTop}>{des}</p>
 
           <div className={styles.btnWrapper}>
-            {/* <a href="#course">
+            <a href="#course">
               <button className={styles.outLineBtn}>
                 Courses <FaChevronDown className="bIcons" />
               </button>
-            </a> */}
+            </a>
             <button onClick={popupShow} className={styles.btn}>
               Enquire Now <FaBell className="bIcons" />
             </button>
