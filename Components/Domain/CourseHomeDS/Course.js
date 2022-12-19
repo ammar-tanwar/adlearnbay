@@ -3,17 +3,16 @@ import styles from "./Course.module.css";
 import { FiDownload } from "react-icons/fi";
 import { BiTimeFive } from "react-icons/bi";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
-import { BsCheckCircle } from "react-icons/bs";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import Image from "next/image";
 import Popup from "../../Popup/Popup";
 import Form from "../../Event/Form/Form";
 import Form1 from "../../Form/Form";
-import FormOtp from "../../FormOtp/FormOtp";
 import {
   viewAllD,
   ForProgrammersD,
@@ -120,7 +119,7 @@ const Course = ({ peanutbtrIMG }) => {
                     <SwiperSlide className={styles.leftSide} key={id}>
                       <div key={id}>
                         <a href={link1}>
-                          <img
+                          <Image
                             src={img}
                             layout="intrinsic"
                             width="423px"
@@ -185,7 +184,7 @@ const Course = ({ peanutbtrIMG }) => {
                   return (
                     <SwiperSlide className={styles.leftSide} key={id}>
                       <a href={link1}>
-                        <img
+                        <Image
                           src={img}
                           layout="intrinsic"
                           width="423px"

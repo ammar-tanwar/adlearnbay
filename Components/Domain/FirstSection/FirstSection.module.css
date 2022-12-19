@@ -279,7 +279,7 @@ height: fit-content;
     border-radius: 10px;
     padding: 10px 20px;
     box-shadow: -1px 0px 10px 2px rgb(4 135 217 / 10%);
-    margin: 0px 5px;
+    margin: 0px 5px 0px 2px;
     width: 100%;
   }
 }
