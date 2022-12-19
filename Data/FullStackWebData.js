@@ -263,17 +263,18 @@ Fee: "₹90,000 + GST",
     },
   
 
+
      Batch: [
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Wed-Fri)",
+          title: "Weekday Evening(WD) Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 16th December 2022",
-                  "Time :  8 PM to 10:30 PM",
+                  "Date : 23th December 2022",
+                  "Time :  8 PM to 10:00 PM",
 
                 ],
               },
@@ -286,26 +287,35 @@ Fee: "₹90,000 + GST",
 
       {
         Module0: {
-          title: "Weekend Evening Batch  :- (Sat-Sun)",
+          title: "Weekday Morning(SD) Batch  :- (Mon-Wed-Fri)",
           content: [
             {
               chap: {
-                title: "Weekday Batch 1 :- Date And time ",
+                title: "Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 18th December 2022",
-                  "Time : 12:30 PM to 4 PM",
+                  "Date : 30th December 2022",
+                  "Time : 07:00 AM to 09:00 AM",
                 ],
               },
             },
-            // {
-            //   chap: {
-            //     title: "Weekday Batch 2 :- Date And time ",
-            //     desc: [
-            //       "Date : 29th November 2022",
-            //       "Time : 08:00 p.m to 10:30 p.m  (TTS) (NP)",
-            //     ],
-            //   },
-            // },
+          ],
+          id: 1,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Weekend Evening(SD) Batch  :- (Sat-Sun)",
+          content: [
+            {
+              chap: {
+                title: "Batch 1 :- Date And time ",
+                desc: [
+                  "Date : 24th December 2022",
+                  "Time : 12:30 PM to 04:00 PM",
+                ],
+              },
+            },
           ],
           id: 1,
           open: false,

@@ -297,14 +297,33 @@ export const BusinessAnalyticsCourseData = [
     Batch: [
       {
         Module0: {
-          title: "Weekend Afternoon Batch :- (Sat-Sun)",
+          title: "Weekday Evening Batch  :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 18th December 2022",
-                  "Time : 12.30 PM to 4 PM",
+                  "Date : 6th January 2023",
+                  "Time : 8 PM to 10 PM",
+                ],
+              },
+            },
+          ],
+          id: 1,
+          open: false,
+        },
+      },
+
+      {
+        Module0: {
+          title: "Weekend Morning Batch :- (Sat-Sun)",
+          content: [
+            {
+              chap: {
+                title: "Batch 1 :- Date And time ",
+                desc: [
+                  "Date : 8th January 2023",
+                  "Time : 08.30 AM to 12 PM",
 
                 ],
               },
@@ -316,44 +335,37 @@ export const BusinessAnalyticsCourseData = [
         },
       },
 
-      // {
-      //   Module0: {
-      //     title: "Weekday Evening Batch  :- (Mon-Fri)",
-      //     content: [
-      //       {
-      //         chap: {
-      //           title: "Batch 1 :- Date And time ",
-      //           desc: [
-      //             "Date : 9th December 2022",
-      //             "Time : 8 PM to 10 PM",
-      //           ],
-      //         },
-      //       },
-      //       // {
-      //       //   chap: {
-      //       //     title: "Weekday Batch 1 :- Date And time ",
-      //       //     desc: [
-      //       //       "Date : 25th November 2022",
-      //       //       "Time : 8 PM to 10 PM",
-      //       //     ],
-      //       //   },
-      //       // },
-      //     ],
-      //     id: 1,
-      //     open: false,
-      //   },
-      // },
-      
       {
         Module0: {
-          title: "Weekday Evening Batch  :- (Mon-Fri)",
+          title: "Weekend Afternoon Batch :- (Sat-Sun)",
+          content: [
+            {
+              chap: {
+                title: "Batch 1 :- Date And time ",
+                desc: [
+                  "Date : 15th January 2023",
+                  "Time : 12.30 PM to 4 PM",
+
+                ],
+              },
+            },
+
+          ],
+          id: 0,
+          open: true,
+        },
+      },
+     
+      {
+        Module0: {
+          title: "Weekday Morning  Batch  :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Weekday Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 23th December 2022",
-                  "Time : 8 PM to 10 PM",
+                  "Date : 13th January 2023",
+                  "Time : 8 AM to 10 AM",
                 ],
               },
             },
