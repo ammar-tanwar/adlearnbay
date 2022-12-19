@@ -69,9 +69,9 @@ const FirstSection = ({ radio }) => {
         </p>
         <b><span ref={el}></span></b>
         <div className={styles.btnWrapper}>
-          <a href="#course"><button className={styles.outLineBtn}>
+          {/* <a href="#course"><button className={styles.outLineBtn}>
             Courses <FaChevronDown className="bIcon" />
-          </button></a>
+          </button></a> */}
           <button  onClick={popupShow} className={styles.btn}>
             Enquire Now <FaBell className="bIcons" />
           </button>
