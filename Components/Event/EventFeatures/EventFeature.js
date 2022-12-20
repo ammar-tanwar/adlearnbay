@@ -65,7 +65,7 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3, props, 
         <p className={styles.paragramTitle}>{props.para1}</p>
         <p>{props.paragraph1}</p>
         <p>{props.paragraph1_1}</p>
-        <p>{props.paragraph2_0}<b>{props.paragraph2_1}</b>{props.paragraph2_2}<b>{props.paragraph2_3}</b>{props.paragraph3}</p>
+        
       </div>
 
       <div className={styles.topicCover}>
@@ -74,20 +74,10 @@ const EventFeature = ({ title, h1, h2, h3, p1, p2, p3, img1, img2, img3, props, 
           <li>{props.paragraph24}</li>
           <li>{props.paragraph4}</li>
           <li>{props.paragraph5}</li>
-          
-        </ul>
-      </div>
-
-      <div>
-        <p className={styles.paragramTitle}>{props.para3}</p>
-        <ul className={styles.listMargin} >
           <li>{props.paragraph6}</li>
-          <li>{props.paragraph7}</li>
-          <li>{props.paragraph8}</li>
-         
         </ul>
-
       </div>
+
 
       <div >
         <p className={styles.paragramTitle}>{props.para4}</p>
@@ -237,3 +227,17 @@ export default EventFeature;
 // <b style={{color:"#085294"}}>{props.paragraph10_1}</b>
 // </a>
 // </Link>
+
+
+// <p>{props.paragraph2_0}<b>{props.paragraph2_1}</b>{props.paragraph2_2}<b>{props.paragraph2_3}</b>{props.paragraph3}</p>
+
+// <div>
+//         <p className={styles.paragramTitle}>{props.para3}</p>
+//         <ul className={styles.listMargin} >
+//           <li>{props.paragraph6}</li>
+//           <li>{props.paragraph7}</li>
+//           <li>{props.paragraph8}</li>
+         
+//         </ul>
+
+//       </div>

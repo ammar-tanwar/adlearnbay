@@ -229,24 +229,24 @@ export const DataStructureAlgorithmData = [
         },
       },
 
-      {
-        Module0: {
-          title: "Weekday Morning(SD) Batch  :- (Mon-Wed-Fri)",
-          content: [
-            {
-              chap: {
-                title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 30th December 2022",
-                  "Time : 07:00 AM to 09:00 AM",
-                ],
-              },
-            },
-          ],
-          id: 1,
-          open: false,
-        },
-      },
+      // {
+      //   Module0: {
+      //     title: "Weekday Morning(SD) Batch  :- (Mon-Wed-Fri)",
+      //     content: [
+      //       {
+      //         chap: {
+      //           title: "Batch 1 :- Date And time ",
+      //           desc: [
+      //             "Date : 30th December 2022",
+      //             "Time : 07:00 AM to 09:00 AM",
+      //           ],
+      //         },
+      //       },
+      //     ],
+      //     id: 1,
+      //     open: false,
+      //   },
+      // },
       {
         Module0: {
           title: "Weekend Evening(SD) Batch  :- (Sat-Sun)",
@@ -266,6 +266,7 @@ export const DataStructureAlgorithmData = [
         },
       },
     ],
+    
     BatchCourses: {
       CourseFeeHead: "Data Structures and Algorithms  : Batch Details",
       CourseFeePara: "Online Classroom",

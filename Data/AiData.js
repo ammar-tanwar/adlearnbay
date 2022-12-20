@@ -437,7 +437,28 @@ export const AiCourseData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 6th January 2023", "Time : 8 PM to 10 PM"],
+                desc: [
+                  "Date : 23rd December 2022",
+                  "Time : 8 PM to 10 PM",
+                ],
+              },
+            },
+          ],
+          id: 1,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Weekday Evening Batch  :- (Mon-Fri)",
+          content: [
+            {
+              chap: {
+                title: "Batch 1 :- Date And time ",
+                desc: [
+                  "Date : 6th January 2023",
+                  "Time : 8 PM to 10 PM",
+                ],
               },
             },
           ],
@@ -446,21 +467,26 @@ export const AiCourseData = [
         },
       },
 
-      {
-        Module0: {
-          title: "Weekend Morning Batch :- (Sat-Sun)",
-          content: [
-            {
-              chap: {
-                title: "Batch 1 :- Date And time ",
-                desc: ["Date : 8th January 2023", "Time : 08.30 AM to 12 PM"],
-              },
-            },
-          ],
-          id: 0,
-          open: true,
-        },
-      },
+      // {
+      //   Module0: {
+      //     title: "Weekend Morning Batch :- (Sat-Sun)",
+      //     content: [
+      //       {
+      //         chap: {
+      //           title: "Batch 1 :- Date And time ",
+      //           desc: [
+      //             "Date : 8th January 2023",
+      //             "Time : 08.30 AM to 12 PM",
+
+      //           ],
+      //         },
+      //       },
+
+      //     ],
+      //     id: 0,
+      //     open: true,
+      //   },
+      // },
 
       // {
       //   Module0: {
@@ -482,7 +508,7 @@ export const AiCourseData = [
       //     open: true,
       //   },
       // },
-
+     
       // {
       //   Module0: {
       //     title: "Weekday Morning  Batch  :- (Mon-Fri)",

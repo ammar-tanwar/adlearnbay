@@ -289,7 +289,11 @@ export const FullStackSoftwareCourseData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 23rd December 2022", "Time :  8 PM to 10:00 PM"],
+                desc: [
+                  "Date : 23rd December 2022",
+                  "Time :  8 PM to 10:00 PM",
+
+                ],
               },
             },
           ],
@@ -298,24 +302,24 @@ export const FullStackSoftwareCourseData = [
         },
       },
 
-      {
-        Module0: {
-          title: "Weekday Morning(SD) Batch  :- (Mon-Wed-Fri)",
-          content: [
-            {
-              chap: {
-                title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 30th December 2022",
-                  "Time : 07:00 AM to 09:00 AM",
-                ],
-              },
-            },
-          ],
-          id: 1,
-          open: false,
-        },
-      },
+      // {
+      //   Module0: {
+      //     title: "Weekday Morning(SD) Batch  :- (Mon-Wed-Fri)",
+      //     content: [
+      //       {
+      //         chap: {
+      //           title: "Batch 1 :- Date And time ",
+      //           desc: [
+      //             "Date : 30th December 2022",
+      //             "Time : 07:00 AM to 09:00 AM",
+      //           ],
+      //         },
+      //       },
+      //     ],
+      //     id: 1,
+      //     open: false,
+      //   },
+      // },
       {
         Module0: {
           title: "Weekend Evening(SD) Batch  :- (Sat-Sun)",
@@ -335,6 +339,7 @@ export const FullStackSoftwareCourseData = [
         },
       },
     ],
+    
     BatchCourses: {
       CourseFeeHead: "Full Stack Software Development Program: Batch Details",
       CourseFeePara: "Online Classroom",
