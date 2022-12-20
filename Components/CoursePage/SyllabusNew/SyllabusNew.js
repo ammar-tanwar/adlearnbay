@@ -72,7 +72,7 @@ function SyllabusNew({
           <h5>{popupHead}</h5>
 
           { formotpForS3DS ?(
-            <FormOtp popup={true} brief={true} currentCompany={true} fsddesc={true}/>
+            <FormOtp popup={true} QuesMean={true} fsddesc={true}/>
           ):(
             <>
             {formotp ?(
@@ -246,7 +246,7 @@ function SyllabusNew({
 
               <>
               { formotpForS3DS ?(
-                <FormOtp popup={true} brief={true} currentCompany={true} fsddesc={true}/>
+                <FormOtp popup={true} QuesMean={true} fsddesc={true}/>
               ):(
                 <>
                 <FormOtp /> 

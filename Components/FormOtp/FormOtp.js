@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import PhoneInput from "react-phone-number-input";
 import jsCookie from "js-cookie";
 
-function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workExperience,brief ,currentCompany,fsddesc, eventRadio }) {
+function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workExperience,brief ,currentCompany,fsddesc, eventRadio, QuesMean }) {
 
   const router = useRouter();
   const [btnHide, setBtnHide] = useState(false)
@@ -525,6 +525,47 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
               onChange={handleForm}
               required
             />
+          </div>
+          ) : (
+            ""
+          )}
+
+{QuesMean ? (
+            <div className={popup ? styles.formWrappers : styles.formWrapper}>
+  <label>Find the median value of :- <b>20, 30, 10</b></label><br />
+  <div style={{display:"flex"}}>
+            <input
+              id="15"
+              value="15"
+              name="MeanValue"
+              required
+              type="radio"
+              onChange={handleForm}
+            />
+            15&nbsp;
+
+            <br />
+            <input
+              id="10"
+              value="10"
+              name="MeanValue"
+              required
+              type="radio"
+              onChange={handleForm}
+            />
+            10&nbsp;
+
+            <br />
+            <input
+              id="20"
+              value="20"
+              name="MeanValue"
+              required
+              type="radio"
+              onChange={handleForm}
+            />
+            20
+            </div>
           </div>
           ) : (
             ""

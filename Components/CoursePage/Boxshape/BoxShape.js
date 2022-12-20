@@ -59,7 +59,7 @@ const BoxShape = ({
           <p>Please enter the following details to initiate your download</p>
 
           {formotpForS3DS ?(
-            <FormOtp popup={true} brief={true} currentCompany={true} fsddesc={true}/>
+            <FormOtp popup={true} QuesMean={true} fsddesc={true}/>
           ):(
          <>
          

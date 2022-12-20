@@ -47,7 +47,7 @@ const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS }) => {
             <h5>Download Placement Brochure</h5>
 
             {formotpForS3DS ?(
-              <FormOtp popup={true} brief={true} currentCompany={true} fsddesc={true}/>
+              <FormOtp popup={true} QuesMean={true} fsddesc={true}/>
             ):(
            <>
            {formotp ?(

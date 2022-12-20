@@ -56,7 +56,7 @@ const HeroSection = ({
           <h5>Apply For Counselling</h5>
 
           {formotpForS3DS ?(
-            <FormOtp popup={true} brief={true} currentCompany={true} fsddesc={true}/>
+            <FormOtp popup={true} QuesMean={true} fsddesc={true}/>
           ):(
           <>
           {formotp ?(

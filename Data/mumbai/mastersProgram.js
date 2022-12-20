@@ -29,13 +29,17 @@ export const mastersProgram = [
     BoxShape: {
       title: "Data Science and AI Master Program In Mumbai",
       Box1h5: "Unlimited Interview Calls",
-      box1desc: "Get job assistance from industry specialist to crack top product-based companies interviews.",
+      box1desc:
+        "Get job assistance from industry specialist to crack top product-based companies interviews.",
       Box2h5: "Select Multiple Domains",
-      box2desc: "Obtain cutting-edge skills as per demanding IT-industry standards. Choose from 7+ domains.",
+      box2desc:
+        "Obtain cutting-edge skills as per demanding IT-industry standards. Choose from 7+ domains.",
       Box3h5: "Premium Mentoring",
-      box3desc: "Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG Data Science/AI experts.",
+      box3desc:
+        "Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG Data Science/AI experts.",
       Box4h5: "Hands-on Experience",
-      box4desc: "Perform 3 fresh capstone projects, spanning from advanced level complexity, to earn IBM certification.",
+      box4desc:
+        "Perform 3 fresh capstone projects, spanning from advanced level complexity, to earn IBM certification.",
     },
 
     syllabusDesc:
@@ -507,7 +511,7 @@ export const mastersProgram = [
       },
     ],
     OurExpert: {
-      H5:"Master's Program Tools Covered",
+      H5: "Master's Program Tools Covered",
       img1: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png",
       img2: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png",
       img3: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png",
@@ -517,36 +521,47 @@ export const mastersProgram = [
       img7: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png",
       img8: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png",
       img9: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png",
-      img10: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/10.png",
-      img11: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/11.png",
-      img12: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/12.png",
-      img13: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/13.png",
-      img14: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/14.png",
-      img15: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/15.png",
-      img16: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/16.png",
-      img17: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/17.png",
-      img18: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/18.png",
-      img19: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/19.png",
+      img10:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/10.png",
+      img11:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/11.png",
+      img12:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/12.png",
+      img13:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/13.png",
+      img14:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/14.png",
+      img15:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/15.png",
+      img16:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/16.png",
+      img17:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/17.png",
+      img18:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/18.png",
+      img19:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/19.png",
       img21: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png",
       img22: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png",
       img23: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png",
-      img20: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
+      img20:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
     ProgramFee: {
-       Emi: "₹ 11,800/month",
+      Emi: "₹ 11,800/month",
       Fee: "₹ 1,20,000 +GST",
       CourseFeeAndFinancing: "Master's Program Fee & Financing In Mumbai",
-      para:"We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." 
+      para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical.",
     },
     Project: {
       project: "20+ Projects",
       domain: "7+",
-      projectTitle: "Hands-on Projects in Mumbai"
+      projectTitle: "Hands-on Projects in Mumbai",
     },
 
     CourseFee: {
-
-      CourseFeeHead: "Data Science and AI Master Program In Mumbai : Batch Details",
+      CourseFeeHead:
+        "Data Science and AI Master Program In Mumbai : Batch Details",
       CourseFeePara: "Data Science and AI Master Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",
@@ -555,8 +570,6 @@ export const mastersProgram = [
       CourseFeelist5: "Company-based Mock Interviews",
     },
 
-
-  
     Batch: [
       {
         Module0: {
@@ -565,10 +578,7 @@ export const mastersProgram = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 6th January 2023",
-                  "Time : 8 PM to 10 PM",
-                ],
+                desc: ["Date : 6th January 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -584,65 +594,60 @@ export const mastersProgram = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 8th January 2023",
-                  "Time : 08.30 AM to 12 PM",
-
-                ],
+                desc: ["Date : 8th January 2023", "Time : 08.30 AM to 12 PM"],
               },
             },
-
           ],
           id: 0,
           open: true,
         },
       },
 
-      {
-        Module0: {
-          title: "Weekend Afternoon Batch :- (Sat-Sun)",
-          content: [
-            {
-              chap: {
-                title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 15th January 2023",
-                  "Time : 12.30 PM to 4 PM",
+      // {
+      //   Module0: {
+      //     title: "Weekend Afternoon Batch :- (Sat-Sun)",
+      //     content: [
+      //       {
+      //         chap: {
+      //           title: "Batch 1 :- Date And time ",
+      //           desc: [
+      //             "Date : 15th January 2023",
+      //             "Time : 12.30 PM to 4 PM",
 
-                ],
-              },
-            },
+      //           ],
+      //         },
+      //       },
 
-          ],
-          id: 0,
-          open: true,
-        },
-      },
-     
-      {
-        Module0: {
-          title: "Weekday Morning  Batch  :- (Mon-Fri)",
-          content: [
-            {
-              chap: {
-                title: "Weekday Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 13th January 2023",
-                  "Time : 8 AM to 10 AM",
-                ],
-              },
-            },
+      //     ],
+      //     id: 0,
+      //     open: true,
+      //   },
+      // },
 
-          ],
-          id: 1,
-          open: false,
-        },
-      },
+      // {
+      //   Module0: {
+      //     title: "Weekday Morning  Batch  :- (Mon-Fri)",
+      //     content: [
+      //       {
+      //         chap: {
+      //           title: "Weekday Batch 1 :- Date And time ",
+      //           desc: [
+      //             "Date : 13th January 2023",
+      //             "Time : 8 AM to 10 AM",
+      //           ],
+      //         },
+      //       },
+
+      //     ],
+      //     id: 1,
+      //     open: false,
+      //   },
+      // },
     ],
 
-
     BatchCourses: {
-      CourseFeeHead: "Data Science and AI Master Program In Mumbai: Batch Details",
+      CourseFeeHead:
+        "Data Science and AI Master Program In Mumbai: Batch Details",
       CourseFeePara: "Data Science and AI Master Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",

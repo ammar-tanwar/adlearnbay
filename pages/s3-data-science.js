@@ -94,7 +94,7 @@ export default function Home() {
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below Details to get started</p> */}
 
-            <FormOtp popup={true} setTrigger={setPopups} brief={true} currentCompany={true} fsddesc={true}/>
+            <FormOtp popup={true} setTrigger={setPopups} QuesMean={true} fsddesc={true}/>
           </div>
         </Popup>
         <FirstSection

@@ -29,22 +29,28 @@ export const JobGuaranteeCourseData = [
     BoxShape: {
       title: "100% Job Assistance Programs in Pune",
       Box1h5: "Custom-fit Training",
-      box1desc: "Get specially designed modules as per your dream job profile. Learn demanding DS/AI applications.",
+      box1desc:
+        "Get specially designed modules as per your dream job profile. Learn demanding DS/AI applications.",
       Box2h5: "Domain Focused",
-      box2desc: "Obtain cutting-edge skills as per demanding IT-industry standards. Choose from 10+ domains.",
+      box2desc:
+        "Obtain cutting-edge skills as per demanding IT-industry standards. Choose from 10+ domains.",
       Box3h5: "Premium Mentoring",
-      box3desc: "Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG Data Science/AI experts.",
+      box3desc:
+        "Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG Data Science/AI experts.",
       Box4h5: "Hands-on Experience",
-      box4desc: "Get diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments.",
-      headh5:"Watch our alumni’s making successful Data Science career transition",
+      box4desc:
+        "Get diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments.",
+      headh5:
+        "Watch our alumni’s making successful Data Science career transition",
     },
-
 
     Certificate: {
       title: "Course Completion Certificate from IBM",
       desc: "Complete your training with the internationally recognized certificate.",
-      desc2: "Validate your Data Science and AI skills with IBM Course Completion Certificate.",
-      desc3: "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
+      desc2:
+        "Validate your Data Science and AI skills with IBM Course Completion Certificate.",
+      desc3:
+        "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
       src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/DS-AI-1.jpeg",
     },
 
@@ -54,8 +60,8 @@ export const JobGuaranteeCourseData = [
     srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Job+Guarantee+or+100%25+Money+Back+Data+Science+%26+AI+Certification+Program+Learnbay.pdf",
     hours: "500+ Hours",
     project: "20+ Real Time",
-    CSyllabus:"100% Job Assistance Course Syllabus",
-    CourseHighlights:"Placement Assistance Course Highlights",
+    CSyllabus: "100% Job Assistance Course Syllabus",
+    CourseHighlights: "Placement Assistance Course Highlights",
     syllabus: [
       {
         Module0: {
@@ -516,7 +522,7 @@ export const JobGuaranteeCourseData = [
       },
     ],
     OurExpert: {
-      H5:"Job Assistance Tools Covered",
+      H5: "Job Assistance Tools Covered",
       img1: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png",
       img2: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png",
       img3: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png",
@@ -526,36 +532,47 @@ export const JobGuaranteeCourseData = [
       img7: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png",
       img8: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png",
       img9: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png",
-      img10: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/10.png",
-      img11: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/11.png",
-      img12: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/12.png",
-      img13: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/13.png",
-      img14: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/14.png",
-      img15: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/15.png",
-      img16: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/16.png",
-      img17: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/17.png",
-      img18: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/18.png",
-      img19: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/19.png",
+      img10:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/10.png",
+      img11:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/11.png",
+      img12:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/12.png",
+      img13:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/13.png",
+      img14:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/14.png",
+      img15:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/15.png",
+      img16:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/16.png",
+      img17:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/17.png",
+      img18:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/18.png",
+      img19:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/19.png",
       img21: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png",
       img22: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png",
       img23: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png",
-      img20: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
+      img20:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
     ProgramFee: {
-       Emi: "₹ 11,800/month",
+      Emi: "₹ 11,800/month",
       Fee: "₹ 1,20,000 +GST",
-    CourseFeeAndFinancing:"100% Placement Assistance Course Fee & Financing In Pune",
-    para:"We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for 100% Placement Assistance Course In Pune and offer avariety of financing options to make it more economical.",
+      CourseFeeAndFinancing:
+        "100% Placement Assistance Course Fee & Financing In Pune",
+      para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for 100% Placement Assistance Course In Pune and offer avariety of financing options to make it more economical.",
     },
     Project: {
       popupHead: "Download Project Brochure",
       project: "20+ Projects",
       domain: "7+",
-      projectTitle:"Hands-on Projects in Pune"
+      projectTitle: "Hands-on Projects in Pune",
     },
 
     CourseFee: {
-
       CourseFeeHead: "100% Placement Assistance Course In Pune: Batch Details",
       CourseFeePara: "100% Placement Assistance Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
@@ -565,9 +582,6 @@ export const JobGuaranteeCourseData = [
       CourseFeelist5: "Company-based Mock Interviews",
     },
 
-
-    
-      
     Batch: [
       {
         Module0: {
@@ -576,10 +590,7 @@ export const JobGuaranteeCourseData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 6th January 2023",
-                  "Time : 8 PM to 10 PM",
-                ],
+                desc: ["Date : 6th January 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -595,63 +606,57 @@ export const JobGuaranteeCourseData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 8th January 2023",
-                  "Time : 08.30 AM to 12 PM",
-
-                ],
+                desc: ["Date : 8th January 2023", "Time : 08.30 AM to 12 PM"],
               },
             },
-
           ],
           id: 0,
           open: true,
         },
       },
 
-      {
-        Module0: {
-          title: "Weekend Afternoon Batch :- (Sat-Sun)",
-          content: [
-            {
-              chap: {
-                title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 15th January 2023",
-                  "Time : 12.30 PM to 4 PM",
+      // {
+      //   Module0: {
+      //     title: "Weekend Afternoon Batch :- (Sat-Sun)",
+      //     content: [
+      //       {
+      //         chap: {
+      //           title: "Batch 1 :- Date And time ",
+      //           desc: [
+      //             "Date : 15th January 2023",
+      //             "Time : 12.30 PM to 4 PM",
 
-                ],
-              },
-            },
+      //           ],
+      //         },
+      //       },
 
-          ],
-          id: 0,
-          open: true,
-        },
-      },
-     
-      {
-        Module0: {
-          title: "Weekday Morning  Batch  :- (Mon-Fri)",
-          content: [
-            {
-              chap: {
-                title: "Weekday Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 13th January 2023",
-                  "Time : 8 AM to 10 AM",
-                ],
-              },
-            },
+      //     ],
+      //     id: 0,
+      //     open: true,
+      //   },
+      // },
 
-          ],
-          id: 1,
-          open: false,
-        },
-      },
+      // {
+      //   Module0: {
+      //     title: "Weekday Morning  Batch  :- (Mon-Fri)",
+      //     content: [
+      //       {
+      //         chap: {
+      //           title: "Weekday Batch 1 :- Date And time ",
+      //           desc: [
+      //             "Date : 13th January 2023",
+      //             "Time : 8 AM to 10 AM",
+      //           ],
+      //         },
+      //       },
+
+      //     ],
+      //     id: 1,
+      //     open: false,
+      //   },
+      // },
     ],
 
-  
     BatchCourses: {
       CourseFeeHead: "100% Placement Assistance Course In Pune: Batch Details",
       CourseFeePara: "100% Placement Assistance Online Classroom",
@@ -661,9 +666,5 @@ export const JobGuaranteeCourseData = [
       CourseFeelist4: "Multiple Domain & Project Experties Selection Options",
       CourseFeelist5: "Company-based Mock Interviews",
     },
-
-
-
-    
   },
 ];

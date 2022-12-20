@@ -338,9 +338,6 @@ export const DsaiManagersCourseData = [
       },
     ],
 
-
-
-
     OurExpert: {
       H5: "Data Science Tools Covered",
       img1: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png",
@@ -352,24 +349,32 @@ export const DsaiManagersCourseData = [
       img7: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png",
       img8: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png",
       img9: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png",
-      img10: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/10.png",
-      img11: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/11.png",
-      img12: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/12.png",
-      img13: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/13.png",
-      img14: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/14.png",
-      img15: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/15.png",
-      img16: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/16.png",
-      img17: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/17.png",
-      img18: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/18.png",
-      img19: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/19.png",
+      img10:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/10.png",
+      img11:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/11.png",
+      img12:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/12.png",
+      img13:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/13.png",
+      img14:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/14.png",
+      img15:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/15.png",
+      img16:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/16.png",
+      img17:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/17.png",
+      img18:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/18.png",
+      img19:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/19.png",
       img21: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png",
       img22: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png",
       img23: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png",
-      img20: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
+      img20:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
-
-
-
 
     Review: {
       title: "Why get enrolled in our Advanced Data Science and AI course?",
@@ -391,10 +396,9 @@ export const DsaiManagersCourseData = [
       popupHead: "Download Project Brochure",
       project: "15+ Projects",
       domain: "7+",
-      projectTitle: "Hands-on Projects"
+      projectTitle: "Hands-on Projects",
     },
 
-  
     Batch: [
       {
         Module0: {
@@ -403,10 +407,7 @@ export const DsaiManagersCourseData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 6th January 2023",
-                  "Time : 8 PM to 10 PM",
-                ],
+                desc: ["Date : 6th January 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -422,60 +423,55 @@ export const DsaiManagersCourseData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 8th January 2023",
-                  "Time : 08.30 AM to 12 PM",
-
-                ],
+                desc: ["Date : 8th January 2023", "Time : 08.30 AM to 12 PM"],
               },
             },
-
           ],
           id: 0,
           open: true,
         },
       },
 
-      {
-        Module0: {
-          title: "Weekend Afternoon Batch :- (Sat-Sun)",
-          content: [
-            {
-              chap: {
-                title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 15th January 2023",
-                  "Time : 12.30 PM to 4 PM",
+      // {
+      //   Module0: {
+      //     title: "Weekend Afternoon Batch :- (Sat-Sun)",
+      //     content: [
+      //       {
+      //         chap: {
+      //           title: "Batch 1 :- Date And time ",
+      //           desc: [
+      //             "Date : 15th January 2023",
+      //             "Time : 12.30 PM to 4 PM",
 
-                ],
-              },
-            },
+      //           ],
+      //         },
+      //       },
 
-          ],
-          id: 0,
-          open: true,
-        },
-      },
-     
-      {
-        Module0: {
-          title: "Weekday Morning  Batch  :- (Mon-Fri)",
-          content: [
-            {
-              chap: {
-                title: "Weekday Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 13th January 2023",
-                  "Time : 8 AM to 10 AM",
-                ],
-              },
-            },
+      //     ],
+      //     id: 0,
+      //     open: true,
+      //   },
+      // },
 
-          ],
-          id: 1,
-          open: false,
-        },
-      },
+      // {
+      //   Module0: {
+      //     title: "Weekday Morning  Batch  :- (Mon-Fri)",
+      //     content: [
+      //       {
+      //         chap: {
+      //           title: "Weekday Batch 1 :- Date And time ",
+      //           desc: [
+      //             "Date : 13th January 2023",
+      //             "Time : 8 AM to 10 AM",
+      //           ],
+      //         },
+      //       },
+
+      //     ],
+      //     id: 1,
+      //     open: false,
+      //   },
+      // },
     ],
     BatchDetails: {
       BatchHeader: "Advanced Data science and AI Next 2022 Cohort",
