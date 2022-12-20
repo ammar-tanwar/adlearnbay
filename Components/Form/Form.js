@@ -83,6 +83,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
     router.pathname === "/s2-data-science-advance" ||
     router.pathname === "/s2-data-science-master" ||
     router.pathname === "/s2-data-science-placement" ||
+    router.pathname === "/s2-data-science-certification" ||
 
     router.pathname === "/s2-machine-learning-advance" ||
     router.pathname === "/s2-machine-learning-master" ||
@@ -665,6 +666,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
       router.pathname === "/s2-data-science-advance" ||
       router.pathname === "/s2-data-science-master" ||
       router.pathname === "/s2-data-science-placement" ||
+      router.pathname === "/s2-data-science-certification" ||
 
       router.pathname === "/s2-machine-learning-advance" ||
       router.pathname === "/s2-machine-learning-master" ||
