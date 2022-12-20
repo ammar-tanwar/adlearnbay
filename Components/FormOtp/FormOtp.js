@@ -532,7 +532,7 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
 
 {QuesMean ? (
             <div className={popup ? styles.formWrappers : styles.formWrapper}>
-  <label>Find the median value of :- <b>20, 30, 10</b></label><br />
+  <label>Find the average value of :- <b>20, 30, 10, 20</b></label><br />
   <div style={{display:"flex"}}>
             <input
               id="15"
