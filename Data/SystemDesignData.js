@@ -1,8 +1,10 @@
 export const SytstemDesignCourseData = [
   {
     FirstSection: {
-      deskTopPara: "MAANG's Best Interview Preparation Course trained by Top Experts",
-      mTopPara: "MAANG's Best Interview Preparation Course trained by Top Experts",
+      deskTopPara:
+        "MAANG's Best Interview Preparation Course trained by Top Experts",
+      mTopPara:
+        "MAANG's Best Interview Preparation Course trained by Top Experts",
       mTitle: "Advance System Design",
       spanMTitleText: "Course",
       title: "Advance System Design  ",
@@ -27,14 +29,18 @@ export const SytstemDesignCourseData = [
     BoxShape: {
       title: "System Design Program Features",
       Box1h5: "Crack MAANG Interview",
-      box1desc: "Learn in-depth from Live System Design course and crack interviews in product-based MNCs ",
+      box1desc:
+        "Learn in-depth from Live System Design course and crack interviews in product-based MNCs ",
       Box2h5: "1:1 Mentorship",
-      box2desc: "Guided by mentors working In MNCs to support you for the tech interviews",
+      box2desc:
+        "Guided by mentors working In MNCs to support you for the tech interviews",
       Box3h5: "Practical Project Experience",
-      box3desc: "Gain technical expertise by working on challenging real-world projects",
+      box3desc:
+        "Gain technical expertise by working on challenging real-world projects",
       Box4h5: "250+ Hiring Partners",
       box4desc: "Get dedicated placement support with 100% Interview Guarantee",
-      headh5: "Our proud alumni with successful career transition with System Design Course"
+      headh5:
+        "Our proud alumni with successful career transition with System Design Course",
     },
 
     BoxShape1: {
@@ -80,7 +86,8 @@ export const SytstemDesignCourseData = [
             },
             {
               chap: {
-                title: "Topic 1 :- Analysis of Algorithms, Space and Time complexity",
+                title:
+                  "Topic 1 :- Analysis of Algorithms, Space and Time complexity",
                 desc: [
                   "Big-O, Big-Omega, and Big-Theta notations ",
                   "Best, average, and worst-case Complexities hierarchy",
@@ -205,7 +212,7 @@ export const SytstemDesignCourseData = [
     Project: {
       project: "12+ Projects",
       domain: "7+",
-      projectTitle: "Hands-on Projects"
+      projectTitle: "Hands-on Projects",
     },
 
     Batch: [
@@ -216,11 +223,7 @@ export const SytstemDesignCourseData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 23th December 2022",
-                  "Time :  8 PM to 10:00 PM",
-
-                ],
+                desc: ["Date : 23rd December 2022", "Time :  8 PM to 10:00 PM"],
               },
             },
           ],
@@ -275,6 +278,5 @@ export const SytstemDesignCourseData = [
       CourseFeelist4: "Multiple Domain Selection Options",
       CourseFeelist5: "Company-based Mock Interviews",
     },
-
   },
 ];

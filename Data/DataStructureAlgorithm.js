@@ -217,7 +217,7 @@ export const DataStructureAlgorithmData = [
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 23th December 2022",
+                  "Date : 23rd December 2022",
                   "Time :  8 PM to 10:00 PM",
 
                 ],

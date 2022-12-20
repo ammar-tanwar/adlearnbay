@@ -29,17 +29,19 @@ export const FullStackWebCourseData = [
       Box1h5: "Custom-fit Training",
       box1desc: "Learn latest tools & modules. Become a demanding developer.",
       Box2h5: "Interactive Learning",
-      box2desc: "100% interactive and live classes. Hybrid learning option is also available.",
+      box2desc:
+        "100% interactive and live classes. Hybrid learning option is also available.",
       Box3h5: "Premium Mentoring",
-      box3desc: "Take advantage of MAANG web developer simulated mock interviews.",
+      box3desc:
+        "Take advantage of MAANG web developer simulated mock interviews.",
       Box4h5: "Hands-on Experience",
       box4desc: "Gain real-time experience with industrial projects.",
       Box5h5: "1-on-1 Dedication",
       box5desc: "Live interactive session with expert for every individual",
       Box6h5: "Assured Interview Call",
       box6desc: "Get job referrals powered by 250+ hiring partners",
-      headh5: "Our proud alumni with successfull full stack Web development career transition"
-
+      headh5:
+        "Our proud alumni with successfull full stack Web development career transition",
     },
 
     BoxShape1: {
@@ -223,7 +225,6 @@ export const FullStackWebCourseData = [
       },
     ],
 
-
     OurExpert: {
       H5: "Full Stack Web Development Tools Covered",
       img1: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/1.png",
@@ -235,36 +236,49 @@ export const FullStackWebCourseData = [
       img7: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/7.png",
       img8: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/8.png",
       img9: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/9.png",
-      img10: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/10.png",
-      img11: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/11.png",
-      img12: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/12.png",
-      img13: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/13.png",
-      img14: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/14.png",
-      img15: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/1.png",
-      img16: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/2.png",
-      img17: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/3.png",
-      img18: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/4.png",
-      img19: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/5.png",
-      img21: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/6.png",
-      img22: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/7.png",
-      img23: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/8.png",
-      img20: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/9.png",
+      img10:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/10.png",
+      img11:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/11.png",
+      img12:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/12.png",
+      img13:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/13.png",
+      img14:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/14.png",
+      img15:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/1.png",
+      img16:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/2.png",
+      img17:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/3.png",
+      img18:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/4.png",
+      img19:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/5.png",
+      img21:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/6.png",
+      img22:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/7.png",
+      img23:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/8.png",
+      img20:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/9.png",
     },
 
     ProgramFee: {
-Fee: "₹90,000 + GST",
-      Emi: "₹ 8,850/month", 
-      CourseFeeAndFinancing: "Full Stack Web Development Course Fee & Financing",
+      Fee: "₹90,000 + GST",
+      Emi: "₹ 8,850/month",
+      CourseFeeAndFinancing:
+        "Full Stack Web Development Course Fee & Financing",
     },
     Project: {
       project: "12+ Projects",
       domain: "7+",
-      projectTitle: "Hands-on Projects"
+      projectTitle: "Hands-on Projects",
     },
-  
 
-
-     Batch: [
+    Batch: [
       {
         Module0: {
           title: "Weekday Evening(WD) Batch :- (Mon-Fri)",
@@ -272,11 +286,7 @@ Fee: "₹90,000 + GST",
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 23th December 2022",
-                  "Time :  8 PM to 10:00 PM",
-
-                ],
+                desc: ["Date : 23rd December 2022", "Time :  8 PM to 10:00 PM"],
               },
             },
           ],
@@ -331,6 +341,5 @@ Fee: "₹90,000 + GST",
       CourseFeelist4: "Multiple Domain Selection Options",
       CourseFeelist5: "Company-based Mock Interviews",
     },
-
   },
 ];

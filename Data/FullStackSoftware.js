@@ -1,8 +1,8 @@
-
 export const FullStackSoftwareCourseData = [
   {
     FirstSection: {
-      deskTopPara: "Ace Your Coding Interview at MAANG and Achieve Your Dream Job",
+      deskTopPara:
+        "Ace Your Coding Interview at MAANG and Achieve Your Dream Job",
       mTopPara: "Ace Your Coding Interview at MAANG and Achieve Your Dream Job",
       mTitle: "Full Stack Software Development Program",
       spanMTitleText: "Achieve Your Dream Job",
@@ -30,13 +30,16 @@ export const FullStackSoftwareCourseData = [
       Box1h5: "Crack MAANG Interview",
       box1desc: "Learn in-depth DSA and crack interviews in product-based MNCs",
       Box2h5: "1:1 Mentorship",
-      box2desc: "Guided by mentors working in MNCs to support you for the tech interviews",
+      box2desc:
+        "Guided by mentors working in MNCs to support you for the tech interviews",
       Box3h5: "Practical Project Experience",
-      box3desc: "Gain technical expertise by working on challenging real-world projects",
+      box3desc:
+        "Gain technical expertise by working on challenging real-world projects",
       Box4h5: "Domain Specialization",
-      box4desc: "Choose Domain electives on your work experience and work on Live Projects",
-      headh5: "Our proud alumni with successfull full stack Software development career transition"
-
+      box4desc:
+        "Choose Domain electives on your work experience and work on Live Projects",
+      headh5:
+        "Our proud alumni with successfull full stack Software development career transition",
     },
 
     BoxShape1: {
@@ -54,7 +57,6 @@ export const FullStackSoftwareCourseData = [
       box4desc:
         "This Advanced Data Science and AI course is for professionals. Programming experience is not required.",
     },
-
 
     syllabusDesc:
       "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All full stack software development course sessions are covered practically with real-time industrial projects and case studies.",
@@ -83,7 +85,8 @@ export const FullStackSoftwareCourseData = [
             },
             {
               chap: {
-                title: "Topic 1 :- Analysis of Algorithms, Space and Time complexity",
+                title:
+                  "Topic 1 :- Analysis of Algorithms, Space and Time complexity",
                 desc: [
                   "Big-O, Big-Omega, and Big-Theta notations ",
                   "Best, average, and worst-case Complexities hierarchy",
@@ -204,11 +207,7 @@ export const FullStackSoftwareCourseData = [
             {
               chap: {
                 title: "Module 1 :- FullStack",
-                desc: [
-                  "Programming Essentials",
-                  "Frontend",
-                  "Backend",
-                ],
+                desc: ["Programming Essentials", "Frontend", "Backend"],
               },
             },
             {
@@ -273,15 +272,16 @@ export const FullStackSoftwareCourseData = [
     ProgramFee: {
       Fee: "₹ 1,10,000 + GST",
       Emi: "₹ 10,816",
-      CourseFeeAndFinancing: "Full Stack Software Development Course Fee & Financing",
+      CourseFeeAndFinancing:
+        "Full Stack Software Development Course Fee & Financing",
     },
     Project: {
       project: "12+ Projects",
       domain: "7+",
-      projectTitle: "Hands-on Projects"
+      projectTitle: "Hands-on Projects",
     },
 
-     Batch: [
+    Batch: [
       {
         Module0: {
           title: "Weekday Evening(WD) Batch :- (Mon-Fri)",
@@ -289,11 +289,7 @@ export const FullStackSoftwareCourseData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 23th December 2022",
-                  "Time :  8 PM to 10:00 PM",
-
-                ],
+                desc: ["Date : 23rd December 2022", "Time :  8 PM to 10:00 PM"],
               },
             },
           ],
@@ -348,7 +344,5 @@ export const FullStackSoftwareCourseData = [
       CourseFeelist4: "Multiple Domain Selection Options",
       CourseFeelist5: "Company-based Mock Interviews",
     },
-
-
   },
 ];
