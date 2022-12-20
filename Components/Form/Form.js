@@ -96,6 +96,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
     router.pathname === "/s2-artificial-intelligence-advance" ||
     router.pathname === "/s2-artificial-intelligence-master" ||
     router.pathname === "/s2-artificial-intelligence-placement" ||
+    router.pathname === "/s2-artificial-intelligence-certification" ||
 
     router.pathname === "/s2-data-science" ||
     router.pathname === "/s2-data-science-banking" ||
@@ -679,6 +680,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
       router.pathname === "/s2-artificial-intelligence-advance" ||
       router.pathname === "/s2-artificial-intelligence-master" ||
       router.pathname === "/s2-artificial-intelligence-placement" ||
+      router.pathname === "/s2-artificial-intelligence-certification" ||
 
 
       //  BANGALORE
