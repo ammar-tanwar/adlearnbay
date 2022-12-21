@@ -1,0 +1,125 @@
+{
+  "metaInfo": {
+    "title": "Masterclass",
+    "desc": "Enroll in the System Design Event and learn from live classes. Get Knowledge by working on industry projects.",
+    "keyword": "Web Development",
+    "canonical": "https://www.learnbay.co/Event/Introduction-to-Full-Stack-Web-Development"
+  },
+  "mainData": {
+    "title": "Masterclass",
+    "eventDate": "December 30, 2022",
+    "tag": "System Design",
+    "eventTime": "5 p.m. to 8 p.m.",
+    "Duration": "120min",
+    "img": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Intro+to+Full+Stack+Web+Development.png",
+    "register": "951"
+  },
+  "header": {
+    "title": "Masterclass",
+    "titleSpan": "System Design",
+    "desc": "For SDEs with 2+ years working Exp",
+    "eventDate": "December 30, 2022",
+    "eventTime": "5 p.m. to 8 p.m.",
+    "imgSrc": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Wazid-Sir.png",
+    "register": "951",
+    "width": "600",
+    "height": "560",
+    "alt": "Header",
+    "instructor": "Mr. Wazid",
+    "href1": ""
+  },
+  "feature": {
+    "title": "Masterclass",
+    "h1": "Customized learning",
+    "p1": "Fulfill your learning goals and get expert assistance.",
+    "h2": "Live Classes",
+    "p2": "Get 100% live sessions led by Full stack experts.",
+    "h3": "3 years subscription",
+    "p3": "Get 3 years of course subscription and life-time access to recorded classes.",
+    "img1": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Customized-Learning.png",
+    "img2": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Live-Classes.png",
+    "img3": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Shareable-Certification.png"
+  },
+  "profile": {
+    "pImg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/2.png",
+    "desc": "Full Stack Developer",
+    "pName": "Mr. Wazid",
+    "mIcon": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/amazon1.png",
+    "list1": "2+ years of experience in Web Development",
+    "list2": "2 Open-source contribution"
+  },
+  "whyUs": {
+    "title": "You will learn about",
+    "l1": "Introduction to Web Development",
+    "l2": "What is Full Stack Web Development",
+    "l3": "Web Development Job Roles and Market Demand",
+    "l4": "Hands-On project"
+  },
+  "whoCan": {
+    "title": "This masterclass is for",
+    "heading1": "Software Developers",
+    "para1": "  Software developers who are aiming to accelerate their respective careers by upskilling with Full stack development.",
+    "heading2": "Peer Working Professionals",
+    "para2": "Professionals, irrespective of their domains, who have great enthusiasm to make a career transition into Full stack development.",
+    "heading3": "About learnbay Academy",
+    "para3": " learnbay Academy is an ed-tech company, founded by alumni of IIT Kharagpur."
+  },
+  "eventDeatureData": {
+    "para1": "About this Masterclass",
+
+    "paragraph1": "A data structure is a designated location that can be used to store and organise data as well as an algorithm is a set of procedures used to solve a certain problem. One can only develop efficient and optimised computer programmes by learning data structures and algorithms.",
+
+    "paragraph1_1": "Ready to dive deep into Data Structures?",
+
+    "paragraph2_0": "Then Join ",
+    "paragraph2_1": "Akshay Gagrani ",
+    "paragraph2_2": " who is hosting a FREE Masterclass on",
+    "paragraph2_3": " November 12th at 5 PM.",
+    "paragraph3": " Register today to reserve your spot.",
+
+    "para2": "Topics covered in this Masterclass",
+
+    "paragraph24": "Tree and it's implementation",
+    "paragraph4": "Implementation of Graphs and it's important Algorithms",
+    "paragraph5": "Understanding Recursion with Examples ",
+    "paragraph5_1": "Understand Backtracking with Practice Problems",
+
+    "para3": "What you will gain from this Masterclass",
+
+    "paragraph6": "Gain understanding of the the above topics from 0 to 100",
+    "paragraph7": "Remove fear of these difficult topics by learning via hands on session",
+    "paragraph8": "Gain learning of how to approach coding problems",
+    "paragraph8_1": "Solve various complex interview questions using the data structures",
+   
+
+    "para4": "Akshay Gagrani ",
+    "paragraph9": "Software Engineer",
+    "paragraph9_1": "Software Engineer at Myntra",
+    "paragraph10": "LinkedIn Profile : ",
+    "paragraph10_1": "Click Here",
+
+    "trainerImage":"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/Group+26.png",
+
+
+    "para6": "This Masterclass is for",
+
+    "paragraph6_2": "SDEs Seeking Upskilling",
+    "paragraph7_2": "SDEs Wishing to convert to product companies from Service companies",
+    "paragraph8_3": "SDEs wanting to learn Data Structures and Algorithm",
+
+    "para7": "What our Learners have to say",
+    "para8": "About Learnbay Academy",
+    "paragraph14": "Learnbay offers domain specialized courses in fields such as full-stack software development, Data Structure Algorithms and System Design ",
+    "paragraph15": "Are you an Engineer who’s not happy with the job and wants to upskill and get into MAANG companies? We are here with the best option, Learnbay’s software development and DSA system design courses are designed for the working professionals who wants to advance their career.",
+    "paragraph16": "Highlighted features of Learnbay:",
+    "paragraph17": "A curriculum that has been developed, supervised, and approved by industry experts",
+    "paragraph18": "1:1 mentorship, guided by top experts in the field",
+    "paragraph19": "Gain technical expertise by working on challenging real- world projects ",
+    "paragraph20": "250 + hiring partners with dedicated placement support and 100% Interview guaranteed ",
+    "paragraph21": "NEW! Attend a free Demo Class now and the enroll for the domain you’re looking for."
+  },
+  "headImg": {
+    "deskimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/CdsaLiveWebDesk.jpg",
+    "mobimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/CdsaLiveWebMob.jpg"
+  }
+}
