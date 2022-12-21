@@ -52,7 +52,7 @@ function Batch({
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           {formotp ? (
-            <FormOtp popup={true} />
+            <FormOtp popup={true} eventRadio={true}/>
           ) : (
             <Form popup={true} setTrigger={setPopups} />
           )}

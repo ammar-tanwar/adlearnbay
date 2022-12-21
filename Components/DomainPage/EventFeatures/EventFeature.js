@@ -18,7 +18,8 @@ const EventFeature = ({
   img1,
   img2,
   img3,
-  trainerImage,
+  img4,
+  trainer,
   props,
   eventDateInfo,
 }) => {
@@ -53,13 +54,13 @@ const EventFeature = ({
       <div id="Feature">
         <p className={styles.paragramTitle}>{props.para1}</p>
         <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/Line+48.png"
-                layout="intrinsic"
-                width="90%"
-                height="5px"
-                loading="lazy"
-                alt="backImg"
-              />
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/Line+48.png"
+          layout="intrinsic"
+          width="90%"
+          height="5px"
+          loading="lazy"
+          alt="backImg"
+        />
         <p>{props.paragraph1}</p>
         <p>{props.paragraph1_1}</p>
       </div>
@@ -67,13 +68,13 @@ const EventFeature = ({
       <div className={styles.topicCover}>
         <p className={styles.paragramTitle}>{props.para2}</p>
         <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/Line+48.png"
-                layout="intrinsic"
-                width="90%"
-                height="5px"
-                loading="lazy"
-                alt="backImg"
-              />
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/Line+48.png"
+          layout="intrinsic"
+          width="90%"
+          height="5px"
+          loading="lazy"
+          alt="backImg"
+        />
         <ul className={styles.listMargin}>
           <div className={styles.iconList}>
             <p className={styles.iconP}>
@@ -98,51 +99,77 @@ const EventFeature = ({
         </ul>
       </div>
 
-      <div>
-        <p>{props.para4}</p>
-        <ul className={styles.listMargin}>
-          <li>
-            <span>{props.paragraph9}</span>
-            <b>{props.paragraph9_1}</b>
-          </li>
-          <li>
-            <span>{props.paragraph10}</span>
-
-            <b style={{ color: "#085294" }}>{props.paragraph10_1}</b>
-          </li>
-        </ul>
-      </div>
-
       <div className={styles.backTrainer}>
         <p>About the Speaker</p>
         <div>
-          <div>
+          <div className={styles.innerDiv}>
             <div>
-            <Image
-                src={trainerImage}
+              <Image
+                src={img4}
                 layout="intrinsic"
-                width="250px"
-                height="250px"
+                objectFit="cover"
+                quality={100}
+                width="100px"
+                height="100px"
                 loading="lazy"
                 alt="backImg"
               />
             </div>
             <div>
-              <p>{props.para4}</p>
+              <p className={styles.trainerHead}>{props.para4}</p>
               <p>{props.paragraph9}</p>
-              <p>{props.paragraph9_1}</p>
+              <p>
+                Company:{" "}
+                <span className={styles.spanT}>{props.paragraph9_1}</span>
+              </p>
             </div>
           </div>
         </div>
       </div>
 
-      <div>
+      <div className={styles.master}>
         <p className={styles.paragramTitle}>{props.para6}</p>
-        <ul className={styles.listMargin}>
-          <li>{props.paragraph6_2}</li>
-          <li>{props.paragraph7_2}</li>
-          <li>{props.paragraph8_3}</li>
-        </ul>
+        <Image
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/Line+48.png"
+          layout="intrinsic"
+          width="90%"
+          height="5px"
+          loading="lazy"
+          alt="backImg"
+        />
+        <div>
+          <Image
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/user-avatar+1.png"
+            layout="intrinsic"
+            width="50px"
+            height="50px"
+            loading="lazy"
+            alt="backImg"
+          />
+          <p>{props.paragraph6_2}</p>
+        </div>
+        <div>
+          <Image
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/programmer+1.png"
+            layout="intrinsic"
+            width="50px"
+            height="50px"
+            loading="lazy"
+            alt="backImg"
+          />
+          <p>{props.paragraph7_2}</p>
+        </div>
+        <div>
+          <Image
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/experience+1.png"
+            layout="intrinsic"
+            width="50px"
+            height="50px"
+            loading="lazy"
+            alt="backImg"
+          />
+          <p>{props.paragraph8_3}</p>
+        </div>
       </div>
 
       <div>

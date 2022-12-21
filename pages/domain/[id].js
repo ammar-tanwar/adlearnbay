@@ -62,6 +62,7 @@ export default function DataScienceEvent({ eventData, formotp }) {
                 img1={eventData.data.feature.img1}
                 img2={eventData.data.feature.img2}
                 img3={eventData.data.feature.img3}
+                img4={eventData.data.eventDeatureData.img4}
                 eventDateInfo={eventDateInfo}
               />
             </div>

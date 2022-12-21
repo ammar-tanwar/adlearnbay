@@ -118,6 +118,42 @@
   background-size: contain;
   padding: 50px;
   background-repeat: no-repeat;
+  margin-top: 50px;
+}
+
+.backTrainer > p {
+  font-size: 20px;
+  margin: 0 0 20px 0;
+  font-weight: 600;
+}
+
+.innerDiv {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.innerDiv p {
+margin: 0;
+margin-bottom: 10px;
+}
+
+.trainerHead {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.spanT {
+  color: #00A0E9;
+}
+
+.master {
+  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/Rectangle+257.png");
+  width: auto;
+  background-size: contain;
+  padding: 10px 50px 30px 50px;
+  background-repeat: no-repeat;
+  margin-top: 80px;
 }
 
 @media (max-width: 1281px) {

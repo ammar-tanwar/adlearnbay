@@ -675,25 +675,39 @@ function FormOtp({
 
           {eventRadio ? (
             <div className={popup ? styles.formWrappers : styles.formWrapper}>
-              <input
-                id="Student"
-                value="Student"
-                name="platform"
-                required
-                type="radio"
-                onChange={handleForm}
-              />
-              Student&nbsp;
+              <label>
+              What is the output of <b>10%3</b>
+              </label>
               <br />
               <input
-                id="Working Professional"
-                value="Working Professional"
+                id="1"
+                value="1"
                 name="platform"
                 required
                 type="radio"
                 onChange={handleForm}
               />
-              Working Professional&nbsp; <br />
+              1&nbsp;
+              <br />
+              <input
+                id="3"
+                value="3"
+                name="platform"
+                required
+                type="radio"
+                onChange={handleForm}
+              />
+              3&nbsp;
+              <br />
+              <input
+                id="5"
+                value="5"
+                name="platform"
+                required
+                type="radio"
+                onChange={handleForm}
+              />
+              5&nbsp; <br />
             </div>
           ) : (
             ""
