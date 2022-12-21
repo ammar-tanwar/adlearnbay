@@ -1,15 +1,26 @@
-
 import React, { useState, useEffect } from "react";
-import styles from './FormOtp.module.css'
+import styles from "./FormOtp.module.css";
 import { useRouter } from "next/router";
 import PhoneInput from "react-phone-number-input";
 import jsCookie from "js-cookie";
 
-function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workExperience,brief ,currentCompany,fsddesc, eventRadio, QuesMean }) {
-
+function FormOtp({
+  popup,
+  radio,
+  event,
+  downloadBrochure,
+  jobDescription,
+  workExperience,
+  brief,
+  currentCompany,
+  fsddesc,
+  eventRadio,
+  QuesMean,
+  jobTitle,
+}) {
   const router = useRouter();
-  const [btnHide, setBtnHide] = useState(false)
-  const [sendOtpBtnHide, setSendOtpBtnHide] = useState(false)
+  const [btnHide, setBtnHide] = useState(false);
+  const [sendOtpBtnHide, setSendOtpBtnHide] = useState(false);
   const [value, setValue] = useState();
   const [updateMobileNumber, setupdateMobileNumber] = useState();
   const [alertMSG, setAlertMSG] = useState("");
@@ -17,35 +28,30 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
   const [disable, setDisable] = useState(false);
 
   const [form, setForm] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    jobDescription: '',
-    workExperience: '',
-    currentCompany:'',
-    brief:'',
-    otp: '',
+    name: "",
+    email: "",
+    phone: "",
+    jobDescription: "",
+    workExperience: "",
+    currentCompany: "",
+    brief: "",
+    otp: "",
     url: router.asPath,
   });
 
   useEffect(() => {
     setForm({ ...form, phone: value });
     jsCookie.set("CARD", form.email, { expires: 14, secure: true });
-
   }, [value]);
 
   const handleForm = (e) => {
-
     const name = e.target.name;
     const value = e.target.value;
-    setForm((formProps) => (
-      {
-        ...formProps,
-        [name]: value,
-      }
-    ));
+    setForm((formProps) => ({
+      ...formProps,
+      [name]: value,
+    }));
   };
-
 
   // -====================  Organic - S END POINT ==========================--------
   let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
@@ -63,12 +69,7 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
     // -====================  Organic - S END POINT ==========================--------
   }
 
-
-  if (
-    
-    router.pathname === "/s3-data-science" 
-    
-  ) {
+  if (router.pathname === "/s3-data-science") {
     // -==================== Google - S2 END POINT ==========================--------
     endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
     // -==================== Google - S2 END POINT ==========================--------
@@ -84,28 +85,19 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
     router.pathname === "/fswd-s2" ||
     router.pathname === "/dsa-s2" ||
     router.pathname === "/dsa-s4" ||
-
     router.pathname === "/data-structure-algorithm-s2" ||
     router.pathname === "/system-design-s2" ||
-    
     router.pathname === "/apply-for-counselling-fsd-s2" ||
     router.pathname === "/dsa-s5"
   ) {
-
     // -====================  FSD - Ads END POINT ==========================--------
     endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
 
     // -====================  FSD - Ads END POINT ==========================--------
   }
 
-
-
   // -==================== Offer Campaign END POINT ==========================--------
-  if (
-
-    router.pathname === "/dsa-s3" ||
-    router.pathname === "/fssd-s3"
-  ) {
+  if (router.pathname === "/dsa-s3" || router.pathname === "/fssd-s3") {
     // -==================== Offer Campaign END POINT ==========================--------
     endPoint = "https://getform.io/f/fd68bf82-a911-435e-9719-7c134a89a731";
     // -==================== Offer Campaign END POINT ==========================--------
@@ -124,9 +116,7 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
   }
 
   // -====================  Returning Audience - S6 ==========================--------
-  if (
-    router.pathname === "/fssd-s6"
-  ) {
+  if (router.pathname === "/fssd-s6") {
     // -====================  Returning Audience - S6 ==========================--------
     endPoint = "https://getform.io/f/1c8cf486-31ef-4a7f-95b0-45c5f21e7b29";
     // -====================  Returning Audience - S6 ==========================--------
@@ -134,22 +124,15 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
 
   // -==================== Webinar = END POINT ==========================--------
   if (event) {
-
     // -==================== Webinar =  END POINT ==========================--------
     endPoint = "https://getform.io/f/df003555-86c7-4ae5-a7f8-98c21dd9ad92";
     // -==================== Webinar = END POINT ==========================--------
   }
 
-
-  let btnTxt = "Apply for  Counseliing"
+  let btnTxt = "Apply for  Counseliing";
   if (event) {
-    btnTxt = "Register Now"
+    btnTxt = "Register Now";
   }
-
-
-
-
-
 
   const sendOtp = (e) => {
     e.preventDefault();
@@ -160,11 +143,11 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
       // console.log("key-", key, "-----", "value-", value)
     });
 
-    const mobileNumber = form.phone
-    const name = form.name
-    const email = form.email
+    const mobileNumber = form.phone;
+    const name = form.name;
+    const email = form.email;
     // console.log(mobileNumber)
-    if (mobileNumber !== undefined  && name !== '' && email !== '') {
+    if (mobileNumber !== undefined && name !== "" && email !== "") {
       const regex = /(\+91)/g;
       const str = mobileNumber.toString();
       const subst = `\$1-`;
@@ -174,61 +157,59 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
       const mobileNumber1 = result.split("-")[1];
       // console.log(mobileNumber1)
 
-      if (num === '+91') {
-        setupdateMobileNumber(mobileNumber1)
-        const data = fetch(`${"/api/Authentication/sendOtp"}`,
-          {
-            method: "POST",
-            body: JSON.stringify({ mobileNumber: mobileNumber1 }),
-            headers: {
-              "Content-Type": "application/json",
-            },
-          }
-        )
-          .then(response => response.json())
-          .then(response => {
+      if (num === "+91") {
+        setupdateMobileNumber(mobileNumber1);
+        const data = fetch(`${"/api/Authentication/sendOtp"}`, {
+          method: "POST",
+          body: JSON.stringify({ mobileNumber: mobileNumber1 }),
+          headers: {
+            "Content-Type": "application/json",
+          },
+        })
+          .then((response) => response.json())
+          .then((response) => {
             // console.log("Response", response)
-            if (response.msg == 'OTP Sent Successfully') {
-              setToggle(false)
-              setAlertMSG("OTP Sent Successfully")
-              setSendOtpBtnHide(true)
-              setBtnHide(true)
-
-            } else if (response.msg == 'OTP Sending Failed Through API') {
-              setSendOtpBtnHide(false)
-              setBtnHide(false)
-            } else if (response.msg == "Mobile Number is Not Match from DataBase") {
-              setSendOtpBtnHide(false)
-              setBtnHide(false)
+            if (response.msg == "OTP Sent Successfully") {
+              setToggle(false);
+              setAlertMSG("OTP Sent Successfully");
+              setSendOtpBtnHide(true);
+              setBtnHide(true);
+            } else if (response.msg == "OTP Sending Failed Through API") {
+              setSendOtpBtnHide(false);
+              setBtnHide(false);
+            } else if (
+              response.msg == "Mobile Number is Not Match from DataBase"
+            ) {
+              setSendOtpBtnHide(false);
+              setBtnHide(false);
             } else if (response.msg == "Invalid Phone Number") {
-              setToggle(false)
-              setAlertMSG("Invalid Phone Number")
-              setSendOtpBtnHide(false)
-              setBtnHide(false)
+              setToggle(false);
+              setAlertMSG("Invalid Phone Number");
+              setSendOtpBtnHide(false);
+              setBtnHide(false);
             } else {
-              console.log("API IS NOT WORKING")
+              console.log("API IS NOT WORKING");
             }
           })
-          .catch(err => {
-            console.log("API IS NOT WORKING")
+          .catch((err) => {
+            console.log("API IS NOT WORKING");
             console.log(err);
           });
       } else {
         fetch(`${endPoint}`, {
           method: "POST",
           body: formData,
-        })
-          .then(() =>
-            setForm({
-              name: "",
-              email: "",
-              jobDescription: "",
-              phone: "",
-              workExperience: "",
-              otp: '',
-              url: ""
-            })
-          );
+        }).then(() =>
+          setForm({
+            name: "",
+            email: "",
+            jobDescription: "",
+            phone: "",
+            workExperience: "",
+            otp: "",
+            url: "",
+          })
+        );
 
         setDisable(true);
         if (event) {
@@ -254,7 +235,6 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
             downloadBrochure) ||
           (router.pathname === "/dsa-system-design" && downloadBrochure)
         ) {
-
           router.push("/Thank-you");
 
           return;
@@ -280,14 +260,10 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
           router.pathname === "/full-stack-web-development-program" ||
           router.pathname === "/apply-for-counselling-fsd-s2" ||
           router.pathname === "/s3-data-science" ||
-          
-
           router.pathname === "/data-structure-algorithm" ||
           router.pathname === "/system-design" ||
-
           router.pathname === "/data-structure-algorithm-s2" ||
           router.pathname === "/system-design-s2" ||
-
           router.pathname === "/dsa-system-design"
         ) {
           router.push("/Thank-you");
@@ -295,18 +271,17 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
           return;
         }
       }
-
     } else {
-      setToggle(false)
-      setAlertMSG("Please Enter Empty Fields")
+      setToggle(false);
+      setAlertMSG("Please Enter Empty Fields");
       // console.log("please enter number")
     }
-  }
+  };
 
   const formSubmit = (e) => {
     e.preventDefault();
-    setSendOtpBtnHide(true)
-    setBtnHide(true)
+    setSendOtpBtnHide(true);
+    setBtnHide(true);
     const formData = new FormData();
 
     Object.entries(form).forEach(([key, value]) => {
@@ -314,31 +289,29 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
       // console.log("key-", key, "-----", "value-", value)
     });
 
-    const mobileNumber = updateMobileNumber
-    const otp = form.otp
-    const data = fetch(`${"/api/Authentication/matchOtp"}`,
-      {
-        method: "POST",
-        body: JSON.stringify({ mobileNumber: mobileNumber, otp: otp }),
-        headers: {
-          "Content-Type": "application/json",
-        },
-      }
-    )
-      .then(response => response.json())
-      .then(response => {
+    const mobileNumber = updateMobileNumber;
+    const otp = form.otp;
+    const data = fetch(`${"/api/Authentication/matchOtp"}`, {
+      method: "POST",
+      body: JSON.stringify({ mobileNumber: mobileNumber, otp: otp }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
+      .then((response) => response.json())
+      .then((response) => {
         // console.log("Response", response)
 
-        if (response.msg == 'OTP Validated Successfully') {
-          setToggle(false)
-          setAlertMSG("OTP Validated Successfully")
-          setSendOtpBtnHide(false)
-          setBtnHide(false)
+        if (response.msg == "OTP Validated Successfully") {
+          setToggle(false);
+          setAlertMSG("OTP Validated Successfully");
+          setSendOtpBtnHide(false);
+          setBtnHide(false);
 
           fetch(`${endPoint}`, {
             method: "POST",
             body: formData,
-          })
+          });
           setDisable(true);
           // console.log("@@@@@@@CHECKCHCECE",event)
           if (event) {
@@ -361,12 +334,12 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
             (router.pathname === "/fswd-s2" && downloadBrochure) ||
             (router.pathname === "/full-stack-software-development-program" &&
               downloadBrochure) ||
-            (router.pathname === "/apply-for-counselling" && downloadBrochure) ||
+            (router.pathname === "/apply-for-counselling" &&
+              downloadBrochure) ||
             (router.pathname === "/full-stack-web-development-program" &&
               downloadBrochure) ||
             (router.pathname === "/dsa-system-design" && downloadBrochure)
           ) {
-
             router.push("/Thank-you");
 
             return;
@@ -392,11 +365,8 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
             router.pathname === "/full-stack-web-development-program" ||
             router.pathname === "/apply-for-counselling-fsd-s2" ||
             router.pathname === "/s3-data-science" ||
-            
-
             router.pathname === "/data-structure-algorithm-s2" ||
             router.pathname === "/system-design-s2" ||
-
             router.pathname === "/data-structure-algorithm" ||
             router.pathname === "/system-design" ||
             router.pathname === "/dsa-system-design"
@@ -406,28 +376,27 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
             return;
           }
 
-          setSendOtpBtnHide(true)
-          setBtnHide(true)
-
-        } else if (response.msg == 'OTP Not Validate') {
-          setToggle(false)
-          setAlertMSG("OTP Not Validate")
-          setSendOtpBtnHide(true)
-          setBtnHide(true)
+          setSendOtpBtnHide(true);
+          setBtnHide(true);
+        } else if (response.msg == "OTP Not Validate") {
+          setToggle(false);
+          setAlertMSG("OTP Not Validate");
+          setSendOtpBtnHide(true);
+          setBtnHide(true);
         } else if (response.msg == "OTP Expired") {
-          setSendOtpBtnHide(false)
-          setBtnHide(false)
+          setSendOtpBtnHide(false);
+          setBtnHide(false);
         } else if (response.msg == "Invalid Phone Number") {
-          setToggle(false)
-          setAlertMSG("Invalid Phone Number")
-          setSendOtpBtnHide(false)
-          setBtnHide(false)
+          setToggle(false);
+          setAlertMSG("Invalid Phone Number");
+          setSendOtpBtnHide(false);
+          setBtnHide(false);
         } else {
-          console.log("API IS NOT WORKING")
+          console.log("API IS NOT WORKING");
         }
       })
-      .catch(err => {
-        console.log("API IS NOT WORKING")
+      .catch((err) => {
+        console.log("API IS NOT WORKING");
         console.log(err);
       });
   };
@@ -435,11 +404,7 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
   return (
     <>
       <section className={styles.App}>
-        <form
-          autoComplete="false"
-          onSubmit={formSubmit}
-          method="POST"
-        >
+        <form autoComplete="false" onSubmit={formSubmit} method="POST">
           <div className={styles.formWrapper}>
             <input
               className={popup ? styles.NameInputs : styles.NameInput}
@@ -464,22 +429,61 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
             />
           </div>
 
-          {jobDescription ? ("") : (
+          {jobDescription ? (
+            ""
+          ) : (
             <div className={styles.formWrapper}>
               <input
                 className={popup ? styles.EmailInputs : styles.EmailInput}
-                placeholder={fsddesc ? "Job Title or Domain*": "Job Description*"}
+                placeholder={
+                  fsddesc ? "Job Title or Domain*" : "Job Description*"
+                }
                 type="text"
                 name="jobDescription"
                 value={form.jobDescription}
                 onChange={handleForm}
-                
                 required
               />
             </div>
           )}
 
-          {workExperience ? ("") : (
+          {jobTitle ? (
+            <div className={popup ? styles.formWrappers : styles.formWrapper}>
+              <input
+                className={popup ? styles.EmailInputs : styles.EmailInput}
+                placeholder={
+                  fsddesc ? "Job Title or Domain*" : "Job Description*"
+                }
+                type="text"
+                list="jobDescription"
+                name="jobDescription"
+                value={form.jobDescription}
+                onChange={handleForm}
+                required
+              />
+              <datalist id="jobDescription">
+                <option value="" selected="selected" disabled="disabled">
+                  -- select one --
+                </option>
+                  <option value="Banking, Financial, Services and Insurance">Banking, Financial, Services and Insurance</option>
+                  <option value="Marketing and Sales">Marketing and Sales</option>
+                  <option value="Healthcare">Healthcare</option>
+                  <option value="Retail and E-Commerce">Retail and E-Commerce</option>
+                  <option value="Media and Hospitality">Media and Hospitality</option>
+                  <option value="Manufacturing">Manufacturing</option>
+                  <option value="Energy, Oil and Gas">Energy, Oil and Gas</option>
+                  <option value="HR">HR</option>
+                  <option value="IT">IT</option>
+                  <option value="Other">Other</option>
+              </datalist>
+            </div>
+          ) : (
+            ""
+          )}
+
+          {workExperience ? (
+            ""
+          ) : (
             <div className={popup ? styles.formWrappers : styles.formWrapper}>
               <select
                 name="workExperience"
@@ -513,87 +517,84 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
             ""
           )}
 
-
           {brief ? (
             <div className={styles.formWrapper}>
-            <input
-              className={popup ? styles.EmailInputs : styles.EmailInput}
-              placeholder="Brief*"
-              type="text"
-              name="brief"
-              value={form.brief}
-              onChange={handleForm}
-              required
-            />
-          </div>
-          ) : (
-            ""
-          )}
-
-{QuesMean ? (
-            <div className={popup ? styles.formWrappers : styles.formWrapper}>
-  <label>Find the average value of :- <b>20, 30, 10, 20</b></label><br />
-  <div style={{display:"flex"}}>
-            <input
-              id="15"
-              value="15"
-              name="MeanValue"
-              required
-              type="radio"
-              onChange={handleForm}
-            />
-            15&nbsp;
-
-            <br />
-            <input
-              id="10"
-              value="10"
-              name="MeanValue"
-              required
-              type="radio"
-              onChange={handleForm}
-            />
-            10&nbsp;
-
-            <br />
-            <input
-              id="20"
-              value="20"
-              name="MeanValue"
-              required
-              type="radio"
-              onChange={handleForm}
-            />
-            20
+              <input
+                className={popup ? styles.EmailInputs : styles.EmailInput}
+                placeholder="Brief*"
+                type="text"
+                name="brief"
+                value={form.brief}
+                onChange={handleForm}
+                required
+              />
             </div>
-          </div>
           ) : (
             ""
           )}
-          
-          
+
+          {QuesMean ? (
+            <div className={popup ? styles.formWrappers : styles.formWrapper}>
+              <label>
+                Find the average value of :- <b>20, 30, 10, 20</b>
+              </label>
+              <br />
+              <div style={{ display: "flex" }}>
+                <input
+                  id="15"
+                  value="15"
+                  name="MeanValue"
+                  required
+                  type="radio"
+                  onChange={handleForm}
+                />
+                15&nbsp;
+                <br />
+                <input
+                  id="10"
+                  value="10"
+                  name="MeanValue"
+                  required
+                  type="radio"
+                  onChange={handleForm}
+                />
+                10&nbsp;
+                <br />
+                <input
+                  id="20"
+                  value="20"
+                  name="MeanValue"
+                  required
+                  type="radio"
+                  onChange={handleForm}
+                />
+                20
+              </div>
+            </div>
+          ) : (
+            ""
+          )}
 
           <div className={styles.formWrapper}>
             <PhoneInput
               style={
                 popup
                   ? {
-                    height: "50px",
-                    borderRadius: "8px",
-                    border: "1px solid grey",
-                    padding: "10px",
-                  }
+                      height: "50px",
+                      borderRadius: "8px",
+                      border: "1px solid grey",
+                      padding: "10px",
+                    }
                   : {
-                    border: "0",
-                    height: "50px",
-                    borderRadius: "3px",
-                    borderBottom: "1px solid grey",
-                  }
+                      border: "0",
+                      height: "50px",
+                      borderRadius: "3px",
+                      borderBottom: "1px solid grey",
+                    }
               }
               name="phone"
               rules={{ required: true }}
               defaultCountry="IN"
-
               placeholder="Enter Phone Number"
               className={popup ? styles.Phones : styles.Phone}
               value={value}
@@ -601,9 +602,7 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
               limitMaxLength={true}
               required
             />
-
           </div>
-
 
           {btnHide ? (
             <div className={styles.formWrapper}>
@@ -611,37 +610,36 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
                 style={
                   popup
                     ? {
-                      height: "50px",
-                      borderRadius: "8px",
-                      border: "1px solid grey",
-                      padding: "10px",
-                      marginBottom: "0px",
-                      width: "100%"
-                    }
+                        height: "50px",
+                        borderRadius: "8px",
+                        border: "1px solid grey",
+                        padding: "10px",
+                        marginBottom: "0px",
+                        width: "100%",
+                      }
                     : {
-                      border: "0",
-                      height: "50px",
-                      borderRadius: "3px",
-                      width: "100%",
-                      marginBottom: "0px",
-                      borderBottom: "1px solid grey",
-                    }
+                        border: "0",
+                        height: "50px",
+                        borderRadius: "3px",
+                        width: "100%",
+                        marginBottom: "0px",
+                        borderBottom: "1px solid grey",
+                      }
                 }
                 className={popup ? styles.Phones : styles.Phone}
                 type="text"
                 name="otp"
                 value={form.otp}
                 onChange={handleForm}
-                
                 required
                 placeholder="Enter OTP"
                 maxLength={4}
                 minLength={4}
               />
-
-
             </div>
-          ) : ("")}
+          ) : (
+            ""
+          )}
 
           {radio ? (
             <div className={popup ? styles.formWrappers : styles.formWrapper}>
@@ -654,8 +652,8 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
                 onChange={handleForm}
               />
               Data Science Courses&nbsp;
-
-              <br /><input
+              <br />
+              <input
                 id="Full Stack Program"
                 value="Full Stack Software Dev Courses"
                 name="platform"
@@ -663,13 +661,12 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
                 type="radio"
                 onChange={handleForm}
               />
-              Full Stack Software Dev <br />&nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) Courses
+              Full Stack Software Dev <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) Courses
             </div>
           ) : (
             ""
           )}
-
-
 
           {eventRadio ? (
             <div className={popup ? styles.formWrappers : styles.formWrapper}>
@@ -682,8 +679,8 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
                 onChange={handleForm}
               />
               Student&nbsp;
-
-              <br /><input
+              <br />
+              <input
                 id="Working Professional"
                 value="Working Professional"
                 name="platform"
@@ -697,34 +694,18 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
             ""
           )}
 
-          
-          <div>
-            {toggle ? (
-              ''
-            ) : (
-              <p className={styles.alert}>
-                {alertMSG}
-              </p>
-            )}
-          </div>
-
+          <div>{toggle ? "" : <p className={styles.alert}>{alertMSG}</p>}</div>
 
           <p className={styles.FormText} style={{ fontSize: "10px" }}>
-            By submitting the form, you agree to our Terms and Conditions and our
-            Privacy Policy.
+            By submitting the form, you agree to our Terms and Conditions and
+            our Privacy Policy.
           </p>
 
-          {sendOtpBtnHide ? ("") : (
-            <div
-              className={styles.button}
-            >
-              <button
-                
-                className={styles.button}
-                
-                onClick={sendOtp}
-
-              >
+          {sendOtpBtnHide ? (
+            ""
+          ) : (
+            <div className={styles.button}>
+              <button className={styles.button} onClick={sendOtp}>
                 Apply Now
               </button>
             </div>
@@ -732,7 +713,6 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
 
           {btnHide ? (
             <>
-
               {disable ? (
                 <div className={styles.ring}>
                   <div className={styles.ldsring}>
@@ -744,16 +724,16 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
                 </div>
               ) : (
                 <div className={styles.button}>
-
-                  <button  disabled={disable}  className={styles.button}>
+                  <button disabled={disable} className={styles.button}>
                     Apply Now
                   </button>
                 </div>
               )}
             </>
-          ) : ("")}
-          
-          
+          ) : (
+            ""
+          )}
+
           {popup ? (
             <div className={popup ? styles.formWrappers : styles.formWrapper}>
               <input
@@ -767,14 +747,11 @@ function FormOtp({ popup, radio, event, downloadBrochure, jobDescription, workEx
             ""
           )}
 
-          <input type='hidden' id="zc_gad" name="zc_gad" value="" />
+          <input type="hidden" id="zc_gad" name="zc_gad" value="" />
         </form>
       </section>
-
     </>
   );
 }
 
 export default FormOtp;
-
-

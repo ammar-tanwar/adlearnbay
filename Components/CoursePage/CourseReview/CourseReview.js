@@ -13,7 +13,6 @@ import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
 
 const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS }) => {
-
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -30,7 +29,6 @@ const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS }) => {
     <>
       {" "}
       <div className={styles.reviewWrap}>
-
         <Popup
           trigger={popups}
           setTrigger={setPopups}
@@ -46,25 +44,25 @@ const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS }) => {
           <div className="RightPopup">
             <h5>Download Placement Brochure</h5>
 
-            {formotpForS3DS ?(
-              <FormOtp popup={true} QuesMean={true} fsddesc={true}/>
-            ):(
-           <>
-           {formotp ?(
-            <FormOtp popup={true} setTrigger={setPopups}/>
-          ):(
-            <Form setTrigger={setPopups} downloadBrochure />
-          )}
-           
-           </>
+            {formotpForS3DS ? (
+              <FormOtp
+                popup={true}
+                QuesMean={true}
+                jobTitle={true}
+                jobDescription={true}
+                fsddesc={true}
+              />
+            ) : (
+              <>
+                {formotp ? (
+                  <FormOtp popup={true} setTrigger={setPopups} />
+                ) : (
+                  <Form setTrigger={setPopups} downloadBrochure />
+                )}
+              </>
             )}
-
-
-            
-            
           </div>
         </Popup>
-
 
         <div className={styles.swiperleft}>
           <Swiper
@@ -94,7 +92,10 @@ const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS }) => {
                   <div className={styles.leftBottomC}>
                     <p>Watch More On</p>
                   </div>
-                  <a href="https://www.youtube.com/watch?v=vSjfKdIzUjY" target="_blank">
+                  <a
+                    href="https://www.youtube.com/watch?v=vSjfKdIzUjY"
+                    target="_blank"
+                  >
                     <Image
                       src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/reviewYtIcon.png"
                       width="107"
@@ -160,7 +161,10 @@ const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS }) => {
                   <div className={styles.leftBottomC}>
                     <p>Watch More On</p>
                   </div>
-                  <a href="https://www.youtube.com/watch?v=x_EmBJ-h7DE" target="_blank">
+                  <a
+                    href="https://www.youtube.com/watch?v=x_EmBJ-h7DE"
+                    target="_blank"
+                  >
                     <Image
                       src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/reviewYtIcon.png"
                       width="107"
@@ -496,7 +500,6 @@ const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS }) => {
           Download Placement Report <MdKeyboardArrowDown />
         </button>
       </div>
-
     </>
   );
 };

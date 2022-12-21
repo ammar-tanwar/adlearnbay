@@ -7,7 +7,15 @@ import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
 
-export const ProgramFee = ({ Fee, Emi, CourseFeeAndFinancing, para, fsdlink, formotp,formotpForS3DS }) => {
+export const ProgramFee = ({
+  Fee,
+  Emi,
+  CourseFeeAndFinancing,
+  para,
+  fsdlink,
+  formotp,
+  formotpForS3DS,
+}) => {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -22,28 +30,28 @@ export const ProgramFee = ({ Fee, Emi, CourseFeeAndFinancing, para, fsdlink, for
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
 
-          { formotpForS3DS ? (
-            <FormOtp popup={true} QuesMean={true} fsddesc={true}/>
-          ):(
-
+          {formotpForS3DS ? (
+            <FormOtp
+              popup={true}
+              QuesMean={true}
+              jobTitle={true}
+              jobDescription={true}
+              fsddesc={true}
+            />
+          ) : (
             <>
-            {formotp ?(
-              <FormOtp popup={true}/>
-              ):(
-              <Form popup={true} setTrigger={setPopups} />
+              {formotp ? (
+                <FormOtp popup={true} />
+              ) : (
+                <Form popup={true} setTrigger={setPopups} />
               )}
-
             </>
           )}
-
-          
         </div>
       </Popup>
       <div className={styles.header}>
         <h5>{CourseFeeAndFinancing}</h5>
-        <p>{para}
-
-        </p>
+        <p>{para}</p>
       </div>
       <div className={styles.wrap}>
         <div className={styles.feeWrapper}>
@@ -65,12 +73,13 @@ export const ProgramFee = ({ Fee, Emi, CourseFeeAndFinancing, para, fsdlink, for
               <h5>{Fee}</h5>
 
               {fsdlink ? (
-                <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session"> <button >Enroll Now</button></a>
+                <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session">
+                  {" "}
+                  <button>Enroll Now</button>
+                </a>
               ) : (
                 <button onClick={popupShow}>Enroll Now</button>
               )}
-              
-             
             </div>
           </div>
           <div className={styles.right}>
@@ -98,17 +107,15 @@ export const ProgramFee = ({ Fee, Emi, CourseFeeAndFinancing, para, fsdlink, for
               <h5>{Emi}</h5>
 
               {fsdlink ? (
-                <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session"> <button style={{ margin: "auto" }} >
-                Enroll Now
-              </button></a>
+                <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session">
+                  {" "}
+                  <button style={{ margin: "auto" }}>Enroll Now</button>
+                </a>
               ) : (
                 <button style={{ margin: "auto" }} onClick={popupShow}>
-                Enroll Now
-              </button>
+                  Enroll Now
+                </button>
               )}
-
-
-              
             </div>
           </div>
         </div>

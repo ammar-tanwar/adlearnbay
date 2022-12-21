@@ -19,7 +19,6 @@ import { DataScienceCourseData } from "../Data/DataScienceCourse";
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
 
-
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -29,9 +28,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>
-        Data Science course - Learnbay
-        </title>
+        <title>Data Science course - Learnbay</title>
         <meta
           name="description"
           content="Advance certification online data science course with 100% placement assistance 
@@ -39,9 +36,11 @@ export default function Home() {
           projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
           24/7 Learner’s support."
         />
-        
-          <meta name="Keywords" content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee" />
 
+        <meta
+          name="Keywords"
+          content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee"
+        />
 
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
@@ -82,10 +81,10 @@ export default function Home() {
             x.parentNode.insertBefore(s, x);`,
           }}
         />
-
       </Head>
-      <main>  <Navbar popup={true} formotpForS3DS={true}/>
-
+      <main>
+        {" "}
+        <Navbar popup={true} formotpForS3DS={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -94,7 +93,14 @@ export default function Home() {
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below Details to get started</p> */}
 
-            <FormOtp popup={true} setTrigger={setPopups} QuesMean={true} fsddesc={true}/>
+            <FormOtp
+              popup={true}
+              setTrigger={setPopups}
+              jobTitle={true}
+              jobDescription={true}
+              QuesMean={true}
+              fsddesc={true}
+            />
           </div>
         </Popup>
         <FirstSection
@@ -125,7 +131,6 @@ export default function Home() {
             p44={DataScienceCourseData[0].ProgramInfo.p44}
           />
         </div>
-
         <div className={styles.Feature} id="Feature">
           <BoxShape
             title={DataScienceCourseData[0].BoxShape.title}
@@ -141,16 +146,13 @@ export default function Home() {
             formotpForS3DS={true}
           />
         </div>
-
         <CourseReview
           p1="Working at HCL"
           p2=" Working at TCS"
-          p3="Working at Capgemini" 
+          p3="Working at Capgemini"
           formotpForS3DS={true}
-          />
-        <Certificate
-          H4="Data Science Certification Program"
         />
+        <Certificate H4="Data Science Certification Program" />
         <SyllabusNew
           syllabus={DataScienceCourseData[0].syllabus}
           CSyllabus={DataScienceCourseData[0].CSyllabus}
@@ -188,21 +190,28 @@ export default function Home() {
           img23={DataScienceCourseData[0].OurExpert.img23}
           img20={DataScienceCourseData[0].OurExpert.img20}
         />
-        <ProgramFee Fee={DataScienceCourseData[0].ProgramFee.Fee}
-          Emi={DataScienceCourseData[0].ProgramFee.Emi} CourseFeeAndFinancing={DataScienceCourseData[0].ProgramFee.CourseFeeAndFinancing}
-          para={DataScienceCourseData[0].ProgramFee.para} formotpForS3DS={true} />
+        <ProgramFee
+          Fee={DataScienceCourseData[0].ProgramFee.Fee}
+          Emi={DataScienceCourseData[0].ProgramFee.Emi}
+          CourseFeeAndFinancing={
+            DataScienceCourseData[0].ProgramFee.CourseFeeAndFinancing
+          }
+          para={DataScienceCourseData[0].ProgramFee.para}
+          formotpForS3DS={true}
+        />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
-          <Project popupHead={DataScienceCourseData[0].Project.popupHead}
+          <Project
+            popupHead={DataScienceCourseData[0].Project.popupHead}
             project={DataScienceCourseData[0].Project.project}
             domain={DataScienceCourseData[0].Project.domain}
-            projectTitle={DataScienceCourseData[0].Project.projectTitle} formotpForS3DS={true} />
+            projectTitle={DataScienceCourseData[0].Project.projectTitle}
+            formotpForS3DS={true}
+          />
         </div>
-
         <CourseFee
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
           syllabus={DataScienceCourseData[0].Batch}
-
           CourseFeeHead={DataScienceCourseData[0].BatchCourses.CourseFeeHead}
           CourseFeePara={DataScienceCourseData[0].BatchCourses.CourseFeePara}
           CourseFeelist1={DataScienceCourseData[0].BatchCourses.CourseFeelist1}

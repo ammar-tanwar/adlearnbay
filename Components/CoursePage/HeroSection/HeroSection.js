@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import styles from "./HeroSection.module.css";
 import "swiper/css";
 import "swiper/css/navigation";
-import { FaArrowRight, } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 import Image from "next/image";
 import FormOtp from "/Components/FormOtp/FormOtp";
 import Popup from "/Components/Popup/Popup";
@@ -55,20 +55,23 @@ const HeroSection = ({
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
 
-          {formotpForS3DS ?(
-            <FormOtp popup={true} QuesMean={true} fsddesc={true}/>
-          ):(
-          <>
-          {formotp ?(
-            <FormOtp popup={true}/>
-          ):(
-          <Form setTrigger={setPopups} />
+          {formotpForS3DS ? (
+            <FormOtp
+              popup={true}
+              QuesMean={true}
+              jobTitle={true}
+              jobDescription={true}
+              fsddesc={true}
+            />
+          ) : (
+            <>
+              {formotp ? (
+                <FormOtp popup={true} />
+              ) : (
+                <Form setTrigger={setPopups} />
+              )}
+            </>
           )}
-          
-          </>
-          )}
-
-        
         </div>
       </Popup>
       <div className={styles.left}>
@@ -89,7 +92,8 @@ const HeroSection = ({
           </h1>
         ) : (
           <h1>
-            {title}<span> {spanTitleText}</span>
+            {title}
+            <span> {spanTitleText}</span>
           </h1>
         )}
 
@@ -97,23 +101,19 @@ const HeroSection = ({
         <div className={styles.ButtonDiv}>
           <div className={styles.btnWrapper}>
             {fsdlink ? (
-              <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session"><button >
-                Apply for Counselling
-                <FaArrowRight style={{ marginLeft: "10px" }} />
-              </button></a>
+              <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session">
+                <button>
+                  Apply for Counselling
+                  <FaArrowRight style={{ marginLeft: "10px" }} />
+                </button>
+              </a>
             ) : (
               <button onClick={popupShow}>
                 Apply for Counselling
                 <FaArrowRight style={{ marginLeft: "10px" }} />
               </button>
             )}
-
-
-
-
           </div>
-
-
         </div>
         <div className={styles.bottom}>
           <div className={styles.leftBottom}>

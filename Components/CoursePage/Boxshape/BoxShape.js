@@ -17,7 +17,7 @@ const BoxShape = ({
   Box1h5,
   box1desc,
   Box2h5,
-  box2desc, 
+  box2desc,
   Box3h5,
   box3desc,
   Box4h5,
@@ -58,22 +58,23 @@ const BoxShape = ({
           <h5>Download Brochure</h5>
           <p>Please enter the following details to initiate your download</p>
 
-          {formotpForS3DS ?(
-            <FormOtp popup={true} QuesMean={true} fsddesc={true}/>
-          ):(
-         <>
-         
-         {formotp ?(
-          <FormOtp popup={true} />
-        ):(
-          <Form setTrigger={setPopups} downloadBrochure />
-        )}
-         
-         </>
+          {formotpForS3DS ? (
+            <FormOtp
+              popup={true}
+              QuesMean={true}
+              jobTitle={true}
+              jobDescription={true}
+              fsddesc={true}
+            />
+          ) : (
+            <>
+              {formotp ? (
+                <FormOtp popup={true} />
+              ) : (
+                <Form setTrigger={setPopups} downloadBrochure />
+              )}
+            </>
           )}
-
-         
-          
         </div>
       </Popup>
       <h2>{title}</h2>
@@ -89,7 +90,8 @@ const BoxShape = ({
               height="150"
             />
             <p className={styles.Ptopp}>
-              Data Science & AI Certification <br /> Domain Specialisation For Professionals
+              Data Science & AI Certification <br /> Domain Specialisation For
+              Professionals
             </p>
             <button className={styles.Button} onClick={popupShow}>
               <AiOutlineDownload className="bIcons" />
@@ -106,7 +108,8 @@ const BoxShape = ({
               height="150"
             />
             <p className={styles.Ptopp}>
-              Advance AI & ML Certification <br /> Become AI Expert In Product based MNCs
+              Advance AI & ML Certification <br /> Become AI Expert In Product
+              based MNCs
             </p>
             <button className={styles.Button} onClick={popupShow}>
               <AiOutlineDownload className="bIcons" />
@@ -123,7 +126,8 @@ const BoxShape = ({
               height="150"
             />
             <p className={styles.Ptopp}>
-              Data Science & AI Certification Program <br />For Managers and Leaders
+              Data Science & AI Certification Program <br />
+              For Managers and Leaders
             </p>
             <button className={styles.Button} onClick={popupShow}>
               <AiOutlineDownload className="bIcons" />
@@ -140,14 +144,14 @@ const BoxShape = ({
               height="150"
             />
             <p className={styles.Ptopp}>
-              100% Placement Assistance <br /> Data Science & AI Certification Program
+              100% Placement Assistance <br /> Data Science & AI Certification
+              Program
             </p>
             <button className={styles.Button} onClick={popupShow}>
               <AiOutlineDownload className="bIcons" />
               Download Brochure
             </button>
           </div>
-
         </div>
         <div className={styles.right}>
           <div className={styles.imgBack}>
@@ -167,10 +171,10 @@ const BoxShape = ({
               >
                 <SwiperSlide className={styles.swiperSlideer}>
                   <p>
-                    Learnbay taught me data science. Thanks to Learnbay's
-                    domain specialization course, I landed a job in my prior
-                    sector and was regarded as an experienced applicant by my
-                    firm. I consistently increased my data science knowledge and
+                    Learnbay taught me data science. Thanks to Learnbay's domain
+                    specialization course, I landed a job in my prior sector and
+                    was regarded as an experienced applicant by my firm. I
+                    consistently increased my data science knowledge and
                     experience, which led to a 250% hike.
                   </p>
                   <div className={styles.profile}>
@@ -188,7 +192,11 @@ const BoxShape = ({
                 </SwiperSlide>
                 <SwiperSlide className={styles.swiperSlideer}>
                   <p>
-                    Recommended to anyone who is trying to learn Data Science. Teachers go through every detail and in between they tells you what questions is mostly likely to ask in the interview! Which is important! Also gives you assignments for weekends! Overall really good experience! Worth it!
+                    Recommended to anyone who is trying to learn Data Science.
+                    Teachers go through every detail and in between they tells
+                    you what questions is mostly likely to ask in the interview!
+                    Which is important! Also gives you assignments for weekends!
+                    Overall really good experience! Worth it!
                   </p>
                   <div className={styles.profile}>
                     <Image
@@ -205,7 +213,10 @@ const BoxShape = ({
                 </SwiperSlide>
                 <SwiperSlide className={styles.swiperSlideer}>
                   <p>
-                    Learnbay has helped me a lot to learn data science applications in the e-commerce industry. The live class concept was really helpful in receiving proper DS training. Thanks to all my mentors and the placement team.
+                    Learnbay has helped me a lot to learn data science
+                    applications in the e-commerce industry. The live class
+                    concept was really helpful in receiving proper DS training.
+                    Thanks to all my mentors and the placement team.
                   </p>
                   <div className={styles.profile}>
                     <Image
