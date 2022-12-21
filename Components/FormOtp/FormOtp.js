@@ -84,6 +84,7 @@ function FormOtp({
     // router.pathname === "/fswd-s5" ||
     router.pathname === "/fswd-s2" ||
     router.pathname === "/dsa-s2" ||
+    router.pathname === "/w2a-s2" ||
     router.pathname === "/dsa-s4" ||
     router.pathname === "/data-structure-algorithm-s2" ||
     router.pathname === "/system-design-s2" ||
@@ -225,6 +226,7 @@ function FormOtp({
           (router.pathname === "/fssd-s5" && downloadBrochure) ||
           // (router.pathname === "/fswd-s5" && downloadBrochure) ||
           (router.pathname === "/dsa-s2" && downloadBrochure) ||
+          (router.pathname === "/w2a-s2" && downloadBrochure) ||
           (router.pathname === "/dsa-s4" && downloadBrochure) ||
           (router.pathname === "/dsa-s5" && downloadBrochure) ||
           (router.pathname === "/fswd-s2" && downloadBrochure) ||
@@ -253,6 +255,7 @@ function FormOtp({
           router.pathname === "/fssd-s6" ||
           // router.pathname === "/fswd-s5" ||
           router.pathname === "/dsa-s2" ||
+          router.pathname === "/w2a-s2" ||
           router.pathname === "/dsa-s4" ||
           router.pathname === "/dsa-s5" ||
           router.pathname === "/fswd-s2" ||
@@ -329,6 +332,7 @@ function FormOtp({
             (router.pathname === "/fssd-s5" && downloadBrochure) ||
             // (router.pathname === "/fswd-s5" && downloadBrochure) ||
             (router.pathname === "/dsa-s2" && downloadBrochure) ||
+            (router.pathname === "/w2a-s2" && downloadBrochure) ||
             (router.pathname === "/dsa-s4" && downloadBrochure) ||
             (router.pathname === "/dsa-s5" && downloadBrochure) ||
             (router.pathname === "/fswd-s2" && downloadBrochure) ||
@@ -358,6 +362,7 @@ function FormOtp({
             router.pathname === "/fssd-s6" ||
             // router.pathname === "/fswd-s5" ||
             router.pathname === "/dsa-s2" ||
+            router.pathname === "/w2a-s2" ||
             router.pathname === "/dsa-s4" ||
             router.pathname === "/dsa-s5" ||
             router.pathname === "/fswd-s2" ||
