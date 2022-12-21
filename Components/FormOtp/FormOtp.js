@@ -20,6 +20,7 @@ function FormOtp({
 }) {
   const router = useRouter();
   const [btnHide, setBtnHide] = useState(false);
+  const [radioBtn, setRadioBtn] = useState(0);
   const [sendOtpBtnHide, setSendOtpBtnHide] = useState(false);
   const [value, setValue] = useState();
   const [updateMobileNumber, setupdateMobileNumber] = useState();
@@ -44,9 +45,22 @@ function FormOtp({
     jsCookie.set("CARD", form.email, { expires: 14, secure: true });
   }, [value]);
 
+  // console.log("radioBtn-",radioBtn)
+
+  const handleRadio = (e) => {
+    const name = e.target.name;
+    const value = e.target.value;
+    // console.log("name-",name)
+    // console.log("value-",value)
+    if (name === 'platform'){
+      setRadioBtn(value)
+    }
+  }
+
   const handleForm = (e) => {
     const name = e.target.name;
     const value = e.target.value;
+   
     setForm((formProps) => ({
       ...formProps,
       [name]: value,
@@ -148,6 +162,13 @@ function FormOtp({
     const name = form.name;
     const email = form.email;
     // console.log(mobileNumber)
+
+    if (radioBtn == 5 || radioBtn == 3){
+      setToggle(false);
+      setAlertMSG("Sorry! You are not eligible")
+      return false
+    }
+
     if (mobileNumber !== undefined && name !== "" && email !== "") {
       const regex = /(\+91)/g;
       const str = mobileNumber.toString();
@@ -197,21 +218,21 @@ function FormOtp({
             console.log(err);
           });
       } else {
-        fetch(`${endPoint}`, {
-          method: "POST",
-          body: formData,
-        }).then(() =>
-          setForm({
-            name: "",
-            email: "",
-            jobDescription: "",
-            phone: "",
-            workExperience: "",
-            otp: "",
-            url: "",
-          })
-        );
-
+          fetch(`${endPoint}`, {
+            method: "POST",
+            body: formData,
+          }).then(() =>
+            setForm({
+              name: "",
+              email: "",
+              jobDescription: "",
+              phone: "",
+              workExperience: "",
+              otp: "",
+              url: "",
+            })
+          );
+    
         setDisable(true);
         if (event) {
           router.push("/Thank-you-fsd-webinar");
@@ -294,6 +315,12 @@ function FormOtp({
 
     const mobileNumber = updateMobileNumber;
     const otp = form.otp;
+
+    if (radioBtn == 5 || radioBtn == 3){
+      setToggle(false);
+      setAlertMSG("Sorry! You are not eligible")
+      return false
+    }
     const data = fetch(`${"/api/Authentication/matchOtp"}`, {
       method: "POST",
       body: JSON.stringify({ mobileNumber: mobileNumber, otp: otp }),
@@ -310,6 +337,8 @@ function FormOtp({
           setAlertMSG("OTP Validated Successfully");
           setSendOtpBtnHide(false);
           setBtnHide(false);
+
+
 
           fetch(`${endPoint}`, {
             method: "POST",
@@ -685,7 +714,7 @@ function FormOtp({
                 name="platform"
                 required
                 type="radio"
-                onChange={handleForm}
+                onChange={handleRadio}
               />
               1&nbsp;
               <br />
@@ -695,7 +724,7 @@ function FormOtp({
                 name="platform"
                 required
                 type="radio"
-                onChange={handleForm}
+                onChange={handleRadio}
               />
               3&nbsp;
               <br />
@@ -705,7 +734,7 @@ function FormOtp({
                 name="platform"
                 required
                 type="radio"
-                onChange={handleForm}
+                onChange={handleRadio}
               />
               5&nbsp; <br />
             </div>

@@ -7,7 +7,7 @@ import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
 import { useRouter } from "next/router";
 
-const Navbar = ({ radio, fsdlink, formotp, formotpForS3DS }) => {
+const Navbar = ({ radio, fsdlink, formotp, formotpForS3DS,eventQRadio }) => {
   const router = useRouter();
   const [icon, setIcon] = useState(false);
   const [show, setShow] = useState(false);
@@ -44,23 +44,39 @@ const Navbar = ({ radio, fsdlink, formotp, formotpForS3DS }) => {
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
 
-          {formotpForS3DS ? (
-            <FormOtp
-              popup={true}
-              QuesMean={true}
-              jobTitle={true}
-              jobDescription={true}
-              fsddesc={true}
-            />
-          ) : (
+          {eventQRadio ? (
             <>
-              {formotp ? (
-                <FormOtp popup={true} radio={radio} />
-              ) : (
-                <Form popup={true} setTrigger={setPopups} radio={radio} />
-              )}
+            <FormOtp popup={true} eventRadio={true} />
+            </>
+          ):(
+          <>
+            {formotpForS3DS ? (
+              <FormOtp
+                popup={true}
+                QuesMean={true}
+                jobTitle={true}
+                jobDescription={true}
+                fsddesc={true}
+              />
+            ) : (
+              <>
+                {formotp ? (
+                  <FormOtp popup={true} radio={radio} />
+  
+                ) : (
+                  <Form popup={true} setTrigger={setPopups} radio={radio} />
+                )}
+              </>
+            )}
             </>
           )}
+
+
+
+        
+
+
+
         </div>
       </Popup>
       <nav className={styles.nav}>
@@ -97,3 +113,30 @@ const Navbar = ({ radio, fsdlink, formotp, formotpForS3DS }) => {
 };
 
 export default Navbar;
+
+
+
+
+
+
+
+
+
+// {formotpForS3DS ? (
+//   <FormOtp
+//     popup={true}
+//     QuesMean={true}
+//     jobTitle={true}
+//     jobDescription={true}
+//     fsddesc={true}
+//   />
+// ) : (
+//   <>
+//     {formotp ? (
+//       <FormOtp popup={true} radio={radio} />
+
+//     ) : (
+//       <Form popup={true} setTrigger={setPopups} radio={radio} />
+//     )}
+//   </>
+// )}
