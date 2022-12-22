@@ -21,7 +21,8 @@
     "eventDate": "December 30, 2022",
     "eventTime": "5 p.m. to 8 p.m.",
     "imgSrc": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Wazid-Sir.png",
-    "register": "951",
+    "register": "674",
+    "likes": "587",
     "width": "600",
     "height": "560",
     "alt": "Header",
@@ -32,13 +33,15 @@
     "title": "Masterclass",
     "h1": "Customized learning",
     "p1": "Fulfill your learning goals and get expert assistance.",
-    "h2": "Live Classes",
+    "h2": "Doman Specialisation",
     "p2": "Get 100% live sessions led by Full stack experts.",
-    "h3": "3 years subscription",
+    "h3": "Live Classes",
+    "h4": "3 years subscription",
     "p3": "Get 3 years of course subscription and life-time access to recorded classes.",
-    "img1": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Customized-Learning.png",
-    "img2": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Live-Classes.png",
-    "img3": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Shareable-Certification.png"
+    "img1": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/1.png",
+    "img2": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/2.png",
+    "img3": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/3.png",
+    "img5": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/4.png"
   },
   "profile": {
     "pImg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/2.png",
@@ -118,7 +121,7 @@
     "paragraph21": "NEW! Attend a free Demo Class now and the enroll for the domain you’re looking for."
   },
   "headImg": {
-    "deskimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/CdsaLiveWebDesk.jpg",
-    "mobimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/CdsaLiveWebMob.jpg"
+    "deskimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/interviewPreparationMobile.jpg",
+    "mobimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/interviewPreparationWebsite.jpg"
   }
 }

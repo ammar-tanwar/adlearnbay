@@ -7,16 +7,15 @@
   margin: 0px 0px 20px 0px;
 }
 .bodyContent {
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
+  display: flex;
   justify-content: space-evenly;
+  margin-top: 10px;
 }
-.centerBtn{
+.centerBtn {
   display: flex;
   justify-content: center;
-
 }
-.centerBtn button{
+.centerBtn button {
   background-color: #0072bc;
   color: #fff;
   border: 2px solid #0072bc;
@@ -31,35 +30,22 @@
   box-shadow: 0 0 5px 0 rgb(45 156 215 / 31%);
   margin-right: 10px;
   border-radius: 10px;
+  text-align: center;
 }
 
-.imgBack {
-  position: absolute;
-  height: 100%;
-  left: 0;
-  top: 0;
-  border-radius: 10px;
-  width: 100%;
-  overflow: hidden;
-  z-index: -1;
-}
-.topicHead h1{
+.topicHead h1 {
   font-size: 30px;
 }
-
-
 
 .eLeft h6,
 .eMiddle h6,
 .eRight h6 {
   font-size: 18px;
   margin: 0;
-
-  margin-top: 70px;
   margin-bottom: 5px;
   z-index: 1;
 }
-.eLeft p, 
+.eLeft p,
 .eMiddle p,
 .eRight p {
   margin: 0;
@@ -71,9 +57,15 @@
   color: #f14d5d;
 }
 
+.iconDiv {
+  display: flex;
+  align-items: center;
+}
+
 .icon {
-  color: #00A0E9;
+  color: #00a0e9;
   font-size: 16px;
+  margin: 0px 10px;
 }
 
 .iconP {
@@ -90,24 +82,24 @@
   letter-spacing: 1px;
   font-weight: bold;
 }
-.listMargin{
+.listMargin {
   margin-left: 0px;
 }
 .PreRequisites {
   display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 0.5rem  0;
-    padding-left: 16px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0.5rem 0;
+  padding-left: 16px;
 }
 .PreRequisites p {
   width: 20rem;
-    padding: 1rem;
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-    transition: 0.3s;
-    text-align: center;
+  padding: 1rem;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  text-align: center;
 }
-.fontweight{
+.fontweight {
   font-weight: bold;
   margin: 0px;
 }
@@ -134,8 +126,8 @@
 }
 
 .innerDiv p {
-margin: 0;
-margin-bottom: 10px;
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 .trainerHead {
@@ -144,16 +136,34 @@ margin-bottom: 10px;
 }
 
 .spanT {
-  color: #00A0E9;
+  color: #00a0e9;
 }
 
 .master {
   background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/Rectangle+257.png");
   width: auto;
-  background-size: contain;
+  background-size: cover;
   padding: 10px 50px 30px 50px;
   background-repeat: no-repeat;
-  margin-top: 80px;
+  margin: 50px 0px;
+}
+
+.iconP {
+  display: flex;
+}
+
+.paragramTitleReview {
+  background-color: #2979a8;
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+.paragramTitlestrong {
+  font-size: 20px;
+  margin: 30px 0px 0px 0px;
 }
 
 @media (max-width: 1281px) {
@@ -179,73 +189,121 @@ margin-bottom: 10px;
     text-align: center;
   }
 
-  .eLeft,
-  .eMiddle,
-  .eRight {
-    padding-left: 110px;
-    height: 120px;
-    width: 90%;
-  }
-
-  .topicHead h1{
+  .topicHead h1 {
     font-size: 34px;
   }
 
-  .eMiddle {
-    background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Live-Classes-mobile.png");
-    width: 100%;
-    padding-left: 90px;
-  }
-  .eRight {
-    width: 100%;
-    padding-left: 90px;
-    background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Shareable-Certification-mobile.png");
-  }
-  .eLeft {
-    width: 100%;
-    padding-left: 90px;
-    background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Customized-Learning-mobile.png");
-  }
   .eLeft h6,
   .eMiddle h6,
   .eRight h6 {
     margin-top: 8px;
   }
+
+  .eLeft,
+  .eMiddle,
+  .eRight {
+    margin-right: 0px;
+  }
+
   .eLeft p,
   .eMiddle p,
   .eRight p {
     padding-right: 10px;
   }
-  .centerBtn{
+  .centerBtn {
     display: flex;
     justify-content: center;
-   
   }
-
 }
-
 
 @media (max-width: 481px) {
   .PreRequisites {
     display: block;
-      align-items: center;
-      justify-content: space-evenly;
-      margin: 0.5rem  0;
-      padding-left: 16px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0.5rem 0;
+    padding-left: 16px;
   }
 
+  .paragramTitle {
+    font-size: 22px;
+    margin-top: 30px;
+  }
 
-  
   .PreRequisites p {
     width: 20rem;
-      padding: 1rem;
-      box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-      transition: 0.3s;
-      text-align: center;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    text-align: center;
   }
-  .fontweight{
+  .fontweight {
     font-weight: bold;
     margin: 0px;
   }
+
+  .iconDiv {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
   }
-  
+
+  .backTrainer {
+    background-image: none;
+    background-color: #fff;
+    box-shadow: 0px 0px 25px rgba(237, 187, 82, 0.3);
+    width: fit-content;
+    padding: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px 0px;
+    border-radius: 20px;
+  }
+
+  .master {
+    background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/Rectangle+257.png");
+    width: auto;
+    background-size: cover;
+    padding: 20px;
+    background-repeat: no-repeat;
+    margin: 20px 0px;
+  }
+
+  .iconP {
+    display: grid;
+    margin: 8px 0px;
+    grid-template-columns: 10% 90%;
+  }
+
+  .paragramTitleReview {
+    font-size: 20px;
+    margin: 30px 0px 0px 0px;
+  }
+
+  .iconPs {
+    margin: 8px;
+  }
+
+  .innerDiv {
+    gap: 10px;
+  }
+
+  .trainerHead {
+    font-size: 18px;
+  }
+
+  .innerDiv p {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+
+  .backTrainer > p {
+    margin: 0 0 15px 0;
+  }
+
+  .bodyContent {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}

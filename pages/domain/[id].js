@@ -7,8 +7,9 @@ import { FiUserCheck } from "react-icons/fi";
 import EventFeature from "../../Components/DomainPage/EventFeatures/EventFeature";
 import { getAllPostIds, getPostData } from "../../lib/domain";
 import Navbar from "../../Components/Navbar/Navbar";
-import FormOtp from "../../Components/FormOtp/FormOtp";
+import FormOtp from "../../Components/DomainPage/FormOtp/FormOtp";
 import Footer from "../../Components/DomainPage/EventFooter/Footer";
+import { FaHeart, FaUserFriends } from "react-icons/fa";
 
 
 export default function DataScienceEvent({ eventData, formotp }) {
@@ -56,12 +57,14 @@ export default function DataScienceEvent({ eventData, formotp }) {
                 h1={eventData.data.feature.h1}
                 h2={eventData.data.feature.h2}
                 h3={eventData.data.feature.h3}
+                h4={eventData.data.feature.h4}
                 p1={eventData.data.feature.p1}
                 p2={eventData.data.feature.p2}
                 p3={eventData.data.feature.p3}
                 img1={eventData.data.feature.img1}
                 img2={eventData.data.feature.img2}
                 img3={eventData.data.feature.img3}
+                img5={eventData.data.feature.img5}
                 img4={eventData.data.eventDeatureData.img4}
                 eventDateInfo={eventDateInfo}
               />
@@ -72,16 +75,22 @@ export default function DataScienceEvent({ eventData, formotp }) {
           {today >= eventDateInfo ? (
             ""
           ) : (
-            <div className={styles.right}>
-              <section className={styles.form}>
-                <div className={styles.header}>
+            <div className={styles.rightDomain}>
+              <section className={styles.formDomain}>
+                <div className={styles.headerDomain}>
                   <h3>Register NOW!</h3>
-                  <p>
-                    <FiUserCheck className={styles.Icon} />
-                    {eventData.data.header.register}
-                  </p>
                 </div>
                 <FormOtp event={true} formotp= {true} jobDescription={true} workExperience={true}/>
+                <div className={styles.iconsRegister}>
+                <p className={styles.iconsRegisterp}>
+                    <FaUserFriends className={styles.IconDomain} style={{color:"#EDBB52"}} />
+                    {eventData.data.header.register}
+                  </p>
+                  <p className={styles.iconsRegisterp}>
+                    <FaHeart className={styles.IconDomain} style={{color:"red"}} />
+                    {eventData.data.header.likes}
+                  </p>
+                  </div>
               </section>
             </div>
           )}

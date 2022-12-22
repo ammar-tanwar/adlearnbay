@@ -447,7 +447,6 @@ function FormOtp({
               value={form.name}
               onChange={handleForm}
               placeholder="Enter your Full Name*"
-              style={{ borderBottom: "1px solid grey" }}
               required={true}
             />
           </div>
@@ -611,26 +610,12 @@ function FormOtp({
 
           <div className={styles.formWrapper}>
             <PhoneInput
-              style={
-                popup
-                  ? {
-                      height: "50px",
-                      borderRadius: "8px",
-                      border: "1px solid grey",
-                      padding: "10px",
-                    }
-                  : {
-                      border: "0",
-                      height: "50px",
-                      borderRadius: "3px",
-                      borderBottom: "1px solid grey",
-                    }
-              }
               name="phone"
               rules={{ required: true }}
               defaultCountry="IN"
               placeholder="Enter Phone Number"
               className={popup ? styles.Phones : styles.Phone}
+              style={{padding:"2px 2px"}}
               value={value}
               onChange={setValue}
               limitMaxLength={true}

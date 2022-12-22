@@ -407,6 +407,60 @@
   padding: 20px 100px;
 }
 
+.rightDomain {
+  display: flex;
+  position: unset;
+  z-index: 0;
+  flex-flow: column;
+}
+
+.formDomain {
+  background-color: #ffffff90;
+  display: flex;
+  flex-flow: column;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 5px 0 rgb(45 156 215 / 31%);
+  position: fixed;
+    top: 2rem;
+    margin-top: 50px;
+}
+
+.headerDomain {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerDomain h3 {
+  margin: auto;
+  color: #000;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.IconDomain {
+  margin-right: 5px;
+  color: #0077b5;
+}
+
+.iconsRegister {
+  display: flex;
+  justify-content: space-between;
+  padding:  10px 20px 0px 20px;
+  align-items: center;
+}
+
+.iconsRegisterp {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.IconDomain {
+  font-size: 24px;
+}
+
 /* event main page style end*/
 
 @media (max-width: 1281px) {
@@ -523,6 +577,22 @@
     display: flex;
     margin-top: 0px;
     flex-direction: column-reverse;
+  }
+
+  .formDomain {
+    grid-template-columns: 100%;
+    padding: 30px 20px;
+    display: flex;
+    margin-top: 0px;
+    position: initial;
+  }
+
+  .rightDomain {
+    display: flex;
+    position: unset;
+    z-index: 0;
+    flex-flow: column;
+    margin-bottom: 30px;
   }
 
   .why {

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "./EventFeature.module.css";
 import Image from "next/image";
-import Reviews from "../../CareerImpactHome/CareerImpact";
+import Reviews from "../../DomainPage/CareerImpactHome/CareerImpact";
 import Popup from "../../Popup/Popup";
 import { FaArrowRight, FaCheck, FaChevronUp } from "react-icons/fa";
 import FormOtp from "../../FormOtp/FormOtp";
@@ -12,12 +12,14 @@ const EventFeature = ({
   h1,
   h2,
   h3,
+  h4,
   p1,
   p2,
   p3,
   img1,
   img2,
   img3,
+  img5,
   img4,
   trainer,
   props,
@@ -75,28 +77,26 @@ const EventFeature = ({
           loading="lazy"
           alt="backImg"
         />
-        <ul className={styles.listMargin}>
-          <div className={styles.iconList}>
-            <p className={styles.iconP}>
-              <FaCheck className={styles.icon} />
-              {props.paragraph24}
-            </p>
-            <p className={styles.iconP}>
-              <FaCheck className={styles.icon} />
-              {props.paragraph4}
-            </p>
+        <div className={styles.iconList}>
+          <div className={styles.iconDiv}>
+            <FaCheck className={styles.icon} />{" "}
+            <p className={styles.iconPs}>{props.paragraph24}</p>
           </div>
-          <div className={styles.iconList}>
-            <p className={styles.iconP}>
-              <FaCheck className={styles.icon} />
-              {props.paragraph5}
-            </p>
-            <p className={styles.iconP}>
-              <FaCheck className={styles.icon} />
-              {props.paragraph6}
-            </p>
+          <div className={styles.iconDiv}>
+            <FaCheck className={styles.icon} />
+            <p className={styles.iconPs}>{props.paragraph4}</p>
           </div>
-        </ul>
+        </div>
+        <div className={styles.iconList}>
+          <div className={styles.iconDiv}>
+            <FaCheck className={styles.icon} />
+            <p className={styles.iconPs}>{props.paragraph5}</p>
+          </div>
+          <div className={styles.iconDiv}>
+            <FaCheck className={styles.icon} />
+            <p className={styles.iconPs}>{props.paragraph6}</p>
+          </div>
+        </div>
       </div>
 
       <div className={styles.backTrainer}>
@@ -137,34 +137,34 @@ const EventFeature = ({
           loading="lazy"
           alt="backImg"
         />
-        <div>
+        <div className={styles.iconP}>
           <Image
             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/user-avatar+1.png"
             layout="intrinsic"
-            width="50px"
-            height="50px"
+            width="30px"
+            height="30px"
             loading="lazy"
             alt="backImg"
           />
           <p>{props.paragraph6_2}</p>
         </div>
-        <div>
+        <div className={styles.iconP}>
           <Image
             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/programmer+1.png"
             layout="intrinsic"
-            width="50px"
-            height="50px"
+            width="30px"
+            height="30px"
             loading="lazy"
             alt="backImg"
           />
           <p>{props.paragraph7_2}</p>
         </div>
-        <div>
+        <div className={styles.iconP}>
           <Image
             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/experience+1.png"
             layout="intrinsic"
-            width="50px"
-            height="50px"
+            width="30px"
+            height="30px"
             loading="lazy"
             alt="backImg"
           />
@@ -172,21 +172,8 @@ const EventFeature = ({
         </div>
       </div>
 
-      <div>
-        <div className={styles.centerBtn}>
-          {today >= eventDateInfo ? (
-            ""
-          ) : (
-            <button onClick={popupShow} className="outLineBtn">
-              Register NOW!
-              <FaArrowRight className={styles.icon} />
-            </button>
-          )}
-        </div>
-      </div>
-
       <div id="About">
-        <p className={styles.paragramTitle}>{props.para7}</p>
+        <p className={styles.paragramTitleReview}>{props.para7}</p>
         <div className={styles.eReview}>
           <Reviews redirectFs={true} />
         </div>
@@ -194,12 +181,27 @@ const EventFeature = ({
 
       <div>
         <p className={styles.paragramTitle}>{props.para8}</p>
+        <Image
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/Line+48.png"
+          layout="intrinsic"
+          width="90%"
+          height="5px"
+          loading="lazy"
+          alt="backImg"
+        />
         <p>{props.paragraph14}</p>
         <p>{props.paragraph15}</p>
-        <p>
+        <p className={styles.paragramTitlestrong}>
           <strong>{props.paragraph16}</strong>
         </p>
-
+        <Image
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/Line+51.png"
+          layout="intrinsic"
+          width="90%"
+          height="5px"
+          loading="lazy"
+          alt="backImg"
+        />
         <ul className={styles.listMargin}>
           <li>{props.paragraph17}</li>
           <li>{props.paragraph18}</li>
@@ -218,43 +220,61 @@ const EventFeature = ({
             <div className={styles.imgBack}>
               <Image
                 src={img1}
-                layout="fill"
+                layout="intrinsic"
                 objectFit="cover"
-                quality={100}
+                width="70px"
+                height="70px"
                 loading="lazy"
                 alt="backImg"
               />
             </div>
             <h6>{h1}</h6>
-            <p>{p1}</p>
+            {/* <p>{p1}</p> */}
           </div>
           <div className={styles.eMiddle}>
             <div className={styles.imgBack}>
               <Image
                 src={img2}
-                layout="fill"
+                layout="intrinsic"
                 objectFit="cover"
-                quality={100}
+                width="70px"
+                height="70px"
                 loading="lazy"
                 alt="backImg"
               />
             </div>
             <h6>{h2}</h6>
-            <p>{p2}</p>
+            {/* <p>{p2}</p> */}
           </div>
           <div className={styles.eRight}>
             <div className={styles.imgBack}>
               <Image
                 src={img3}
-                layout="fill"
+                layout="intrinsic"
                 objectFit="cover"
-                quality={100}
+                width="70px"
+                height="70px"
                 loading="lazy"
                 alt="backImg"
               />
             </div>
             <h6>{h3}</h6>
-            <p>{p3}</p>
+            {/* <p>{p3}</p> */}
+          </div>
+          <div className={styles.eRight}>
+            <div className={styles.imgBack}>
+              <Image
+                src={img5}
+                layout="intrinsic"
+                objectFit="cover"
+                width="70px"
+                height="70px"
+                loading="lazy"
+                alt="backImg"
+              />
+            </div>
+            <h6>{h4}</h6>
+            {/* <p>{p3}</p> */}
           </div>
         </div>
       </div>
