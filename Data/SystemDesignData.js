@@ -11,7 +11,7 @@ export const SytstemDesignCourseData = [
       spanTitleText: "Course",
       desc: "Perform real-world industrial projects and use-cases.",
       src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/web34.webp",
-      width: "476",
+      width: "410",
       height: "482",
       alt: "Full Stack",
       srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf",
