@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import Head from "next/head";
 import { EventHeader } from "../../Components/DomainPage/EventHeader/EventHeader";
 import styles from "../../styles/DataScienceEvent.module.css";
-import Form from "../../Components/DomainPage/Form/Form";
-import { FiUserCheck } from "react-icons/fi";
 import EventFeature from "../../Components/DomainPage/EventFeatures/EventFeature";
 import { getAllPostIds, getPostData } from "../../lib/domain";
 import Navbar from "../../Components/Navbar/Navbar";
@@ -37,7 +35,7 @@ export default function DataScienceEvent({ eventData, formotp }) {
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
         <link rel="canonical" href="https://www.learnbay.co/event" />
       </Head>
-      <Navbar event={true} eventDateInfo={eventDateInfo} formotp= {true}/>
+      <Navbar domain={true} eventDateInfo={eventDateInfo} formotp= {true}/>
       <div>
         <EventHeader formotp= {true}
         deskimg={eventData.data.headImg.deskimg}
@@ -80,7 +78,7 @@ export default function DataScienceEvent({ eventData, formotp }) {
                 <div className={styles.headerDomain}>
                   <h3>Register NOW!</h3>
                 </div>
-                <FormOtp event={true} formotp= {true} jobDescription={true} workExperience={true}/>
+                <FormOtp domain={true} formotp= {true} jobDescription={true} workExperience={true}/>
                 <div className={styles.iconsRegister}>
                 <p className={styles.iconsRegisterp}>
                     <FaUserFriends className={styles.IconDomain} style={{color:"#EDBB52"}} />

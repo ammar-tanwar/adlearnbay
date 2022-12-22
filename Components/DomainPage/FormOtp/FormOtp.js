@@ -7,7 +7,7 @@ import jsCookie from "js-cookie";
 function FormOtp({
   popup,
   radio,
-  event,
+  domain,
   downloadBrochure,
   jobDescription,
   workExperience,
@@ -138,14 +138,14 @@ function FormOtp({
   }
 
   // -==================== Webinar = END POINT ==========================--------
-  if (event) {
+  if (domain) {
     // -==================== Webinar =  END POINT ==========================--------
     endPoint = "https://getform.io/f/df003555-86c7-4ae5-a7f8-98c21dd9ad92";
     // -==================== Webinar = END POINT ==========================--------
   }
 
   let btnTxt = "Apply for  Counseliing";
-  if (event) {
+  if (domain) {
     btnTxt = "Register Now";
   }
 
@@ -234,8 +234,8 @@ function FormOtp({
           );
     
         setDisable(true);
-        if (event) {
-          router.push("/Thank-you-fsd-webinar");
+        if (domain) {
+          router.push("/Thank-you-ds-webinar");
         }
         if (
           (router.pathname === "/fssd" && downloadBrochure) ||
@@ -346,8 +346,8 @@ function FormOtp({
           });
           setDisable(true);
           // console.log("@@@@@@@CHECKCHCECE",event)
-          if (event) {
-            router.push("/Thank-you-fsd-webinar");
+          if (domain) {
+            router.push("/Thank-you-ds-webinar");
           }
 
           // console.log("@@@@@@@CHECKCHCECE")
