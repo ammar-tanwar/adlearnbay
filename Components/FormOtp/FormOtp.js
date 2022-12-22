@@ -705,9 +705,10 @@ function FormOtp({
           {eventRadio ? (
             <div className={popup ? styles.formWrappers : styles.formWrapper}>
               <label>
-              What is the output of <b>10%3</b>
+              What is the output of <b>10 % 3 ?</b>
               </label>
               <br />
+              <div style={{ display: "flex" }}>
               <input
                 id="1"
                 value="1"
@@ -737,6 +738,7 @@ function FormOtp({
                 onChange={handleRadio}
               />
               5&nbsp; <br />
+              </div>
             </div>
           ) : (
             ""

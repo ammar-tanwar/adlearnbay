@@ -27,6 +27,7 @@ const HeroSection = ({
   fsdlink,
   formotp,
   formotpForS3DS,
+  eventQRadio,
 }) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
@@ -54,7 +55,12 @@ const HeroSection = ({
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-
+          {eventQRadio ? (
+            <>
+            <FormOtp popup={true} eventRadio={true} />
+            </>
+          ):(
+          <>
           {formotpForS3DS ? (
             <FormOtp
               popup={true}
@@ -69,9 +75,11 @@ const HeroSection = ({
                 <FormOtp popup={true} />
               ) : (
                 <Form setTrigger={setPopups} />
+                )}
+                </>
               )}
-            </>
-          )}
+              </>
+            )}
         </div>
       </Popup>
       <div className={styles.left}>

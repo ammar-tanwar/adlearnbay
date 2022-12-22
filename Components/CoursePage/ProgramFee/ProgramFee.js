@@ -15,6 +15,7 @@ export const ProgramFee = ({
   fsdlink,
   formotp,
   formotpForS3DS,
+  eventQRadio,
 }) => {
   const [popups, setPopups] = useState(false);
 
@@ -29,7 +30,12 @@ export const ProgramFee = ({
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-
+          {eventQRadio ? (
+            <>
+            <FormOtp popup={true} eventRadio={true} />
+            </>
+          ):(
+          <>
           {formotpForS3DS ? (
             <FormOtp
               popup={true}
@@ -44,9 +50,12 @@ export const ProgramFee = ({
                 <FormOtp popup={true} />
               ) : (
                 <Form popup={true} setTrigger={setPopups} />
+                )}
+                </>
               )}
-            </>
-          )}
+              </>
+            )}
+          
         </div>
       </Popup>
       <div className={styles.header}>

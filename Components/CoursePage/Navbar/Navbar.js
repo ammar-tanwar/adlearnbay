@@ -34,7 +34,7 @@ const Navbar = ({ radio, fsdlink, formotp, formotpForS3DS,eventQRadio }) => {
       setMobile(false);
     }
   });
-
+ 
   return (
     <div>
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">

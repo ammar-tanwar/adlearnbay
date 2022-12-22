@@ -84,7 +84,7 @@ export default function Home() {
                     </div>
                 </Popup>
 
-                <FirstSection formotp={true}
+                <FirstSection formotp={true} eventQRadio={true}
                     deskTopPara={DsaCourseData[0].FirstSection.deskTopPara}
                     mTopPara={DsaCourseData[0].FirstSection.mTopPara}
                     mTitle={DsaCourseData[0].FirstSection.mTitle}
@@ -127,7 +127,7 @@ export default function Home() {
 
 
                 <div className={styles.Feature} id="Feature">
-                    <BoxShape1 formotp={true}
+                    <BoxShape1 formotp={true} eventQRadio={true}
                         title={DsaCourseData[0].BoxShape1.title}
                         Box1h5={DsaCourseData[0].BoxShape1.Box1h5}
                         box1desc={DsaCourseData[0].BoxShape1.box1desc}
@@ -139,8 +139,8 @@ export default function Home() {
                         box4desc={DsaCourseData[0].BoxShape1.box4desc}
                     />
                 </div>
-                <CourseReview formotp={true} />
-                <SyllabusNew formotp={true}
+                <CourseReview formotp={true} eventQRadio={true} />
+                <SyllabusNew formotp={true} eventQRadio={true}
                     syllabus={DsaCourseData[0].syllabus}
                     syllabusDesc={DsaCourseData[0].syllabusDesc}
                     popupHead={DsaCourseData[0].popupHead}
@@ -153,14 +153,14 @@ export default function Home() {
                 />
 
 
-                <ProgramFee Fee={DsaCourseData[0].ProgramFee.Fee} Emi={DsaCourseData[0].ProgramFee.Emi} formotp={true}
+                <ProgramFee Fee={DsaCourseData[0].ProgramFee.Fee} Emi={DsaCourseData[0].ProgramFee.Emi} formotp={true} eventQRadio={true}
                     CourseFeeAndFinancing={DsaCourseData[0].ProgramFee.CourseFeeAndFinancing}
                     para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." dataScience={true}
                 />
                 <div className={styles.ProjectWrapper} id="project">
-                    <Project project={DsaCourseData[0].Project.project} domain={DsaCourseData[0].Project.domain} formotp={true} />
+                    <Project project={DsaCourseData[0].Project.project} domain={DsaCourseData[0].Project.domain} formotp={true} eventQRadio={true} />
                 </div>
-                <Batch formotp={true}
+                <Batch formotp={true} eventQRadio={true}
                     syllabusDesc={DsaCourseData[0].syllabusDesc}
                     syllabus={DsaCourseData[0].Batch}
                     CourseFeeHead={DsaCourseData[0].BatchCourses.CourseFeeHead}

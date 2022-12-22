@@ -20,6 +20,7 @@ function Batch({
   CourseFeelist4,
   CourseFeelist5,
   formotp,
+  eventQRadio,
   fsdlink,
 }) {
   const [popups, setPopups] = useState(false);
@@ -51,10 +52,18 @@ function Batch({
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
+          {eventQRadio ? (
+            <>
+            <FormOtp popup={true} eventRadio={true} />
+            </>
+          ):(
+          <>
           {formotp ? (
-            <FormOtp popup={true} QuesMean={true}/>
+            <FormOtp popup={true}/>
           ) : (
             <Form popup={true} setTrigger={setPopups} />
+            )}
+            </>
           )}
         </div>
       </Popup>

@@ -20,6 +20,7 @@ const BoxShape = ({
   box3desc,
   Box4h5,
   box4desc,
+  eventQRadio,
   formotp,
   fsdlink,
 }) => {
@@ -53,10 +54,18 @@ const BoxShape = ({
         </div>
         <div className="RightPopup">
           <h5>Download Brochure</h5>
+          {eventQRadio ? (
+            <>
+            <FormOtp popup={true} eventRadio={true} />
+            </>
+          ):(
+          <>
           {formotp ?(
           <FormOtp popup={true}/>
           ):(
             <Form setTrigger={setPopups} downloadBrochure />
+            )}
+            </>
           )}
         </div>
       </Popup>

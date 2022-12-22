@@ -12,7 +12,7 @@ import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
 
-const CourseReview = ({fsdlink, formotp}) => {
+const CourseReview = ({fsdlink, formotp, eventQRadio}) => {
 
   const [popups, setPopups] = useState(false);
 
@@ -45,10 +45,18 @@ const CourseReview = ({fsdlink, formotp}) => {
           </div>
           <div className="RightPopup">
             <h5>Download Placement Brochure</h5>
+            {eventQRadio ? (
+            <>
+            <FormOtp popup={true} eventRadio={true} />
+            </>
+          ):(
+          <>
             {formotp ?(
             <FormOtp popup={true} setTrigger={setPopups} downloadBrochure/>
           ):(
             <Form setTrigger={setPopups} downloadBrochure />
+            )}
+            </>
           )}
           </div>
         </Popup>

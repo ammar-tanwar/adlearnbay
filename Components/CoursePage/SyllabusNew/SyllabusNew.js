@@ -31,6 +31,7 @@ function SyllabusNew({
   formotp,
   syllabusFormotp,
   formotpForS3DS,
+  eventQRadio,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -70,20 +71,28 @@ function SyllabusNew({
         <div className="RightPopup">
           <h5>{popupHead}</h5>
 
-          {formotpForS3DS ? (
-            <FormOtp
-              popup={true}
-              QuesMean={true}
-              jobTitle={true}
-              jobDescription={true}
-              fsddesc={true}
-            />
+          {eventQRadio ? (
+            <>
+              <FormOtp popup={true} eventRadio={true} />
+            </>
           ) : (
             <>
-              {formotp ? (
-                <FormOtp popup={true} />
+              {formotpForS3DS ? (
+                <FormOtp
+                  popup={true}
+                  QuesMean={true}
+                  jobTitle={true}
+                  jobDescription={true}
+                  fsddesc={true}
+                />
               ) : (
-                <Form setTrigger={setPopups} downloadBrochure />
+                <>
+                  {formotp ? (
+                    <FormOtp popup={true} />
+                  ) : (
+                    <Form setTrigger={setPopups} downloadBrochure />
+                  )}
+                </>
               )}
             </>
           )}
@@ -239,6 +248,12 @@ function SyllabusNew({
               </h5>
             </div>
             <div className={styles.PProgramInners}>
+            {eventQRadio ? (
+            <>
+            <FormOtp popup={true} eventRadio={true} />
+            </>
+          ):(
+          <>
               {syllabusFormotp ? (
                 <>
                   {formotpForS3DS ? (
@@ -273,9 +288,11 @@ function SyllabusNew({
                       redirectBl={redirectBl}
                       redirectDe={redirectDe}
                     />
+                    )}
+                    </>
                   )}
-                </>
-              )}
+                  </>
+                )}
             </div>
           </div>
           <img
