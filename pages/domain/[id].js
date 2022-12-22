@@ -35,7 +35,7 @@ export default function DataScienceEvent({ eventData, formotp }) {
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
         <link rel="canonical" href="https://www.learnbay.co/event" />
       </Head>
-      <Navbar domain={true} eventDateInfo={eventDateInfo} formotp= {true}/>
+      <Navbar domain={true} eventDateInfo={eventDateInfo} formotp= {true} domainOTPForm={true}/>
       <div>
         <EventHeader formotp= {true}
         deskimg={eventData.data.headImg.deskimg}
