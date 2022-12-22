@@ -1,11 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { FaArrowRight, FaChevronDown, FaChevronUp } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 import styles from "./Navbar.module.css";
-import Link from "next/link";
-import { GiHamburgerMenu } from "react-icons/gi";
 import Popup from "../Popup/Popup";
-// import Form from "../Form/Form";
 import FormOtp from "../FormOtp/FormOtp"
 import Form from "../Event/Form/Form";  
 import { useRouter } from "next/router";

@@ -626,26 +626,7 @@ function FormOtp({
           {btnHide ? (
             <div className={styles.formWrapper}>
               <input
-                style={
-                  popup
-                    ? {
-                        height: "50px",
-                        borderRadius: "8px",
-                        border: "1px solid grey",
-                        padding: "10px",
-                        marginBottom: "0px",
-                        width: "100%",
-                      }
-                    : {
-                        border: "0",
-                        height: "50px",
-                        borderRadius: "3px",
-                        width: "100%",
-                        marginBottom: "0px",
-                        borderBottom: "1px solid grey",
-                      }
-                }
-                className={popup ? styles.Phones : styles.Phone}
+                className={popup ? styles.EmailInputs : styles.EmailInput}
                 type="text"
                 name="otp"
                 value={form.otp}
