@@ -4,7 +4,7 @@ import Image from "next/image";
 import Reviews from "../../DomainPage/CareerImpactHome/CareerImpact";
 import Popup from "../../Popup/Popup";
 import { FaArrowRight, FaCheck, FaChevronUp } from "react-icons/fa";
-import FormOtp from "../FormOtp/FormOtp";
+import FormOtp from "../../DomainPage/FormOtp/FormOtp";
 import Link from "next/link";
 
 const EventFeature = ({
@@ -28,6 +28,7 @@ const EventFeature = ({
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
   let today = new Date();
+
   const popupShow = () => {
     setPopups(true);
   };
@@ -49,6 +50,7 @@ const EventFeature = ({
             formotp={true}
             jobDescription={true}
             workExperience={true}
+            domain={true}
           />
         </div>
       </Popup>
