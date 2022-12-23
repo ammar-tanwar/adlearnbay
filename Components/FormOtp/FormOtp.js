@@ -140,7 +140,7 @@ function FormOtp({
   // -==================== Webinar = END POINT ==========================--------
   if (event) {
     // -==================== Webinar =  END POINT ==========================--------
-    endPoint = "https://getform.io/f/df003555-86c7-4ae5-a7f8-98c21dd9ad92";
+    endPoint = "https://getform.io/f/69076866-e1f7-4cf3-a7d2-12603819a5a4";
     // -==================== Webinar = END POINT ==========================--------
   }
 

@@ -4,7 +4,7 @@ import Image from "next/image";
 import Reviews from "../../DomainPage/CareerImpactHome/CareerImpact";
 import Popup from "../../Popup/Popup";
 import { FaArrowRight, FaCheck, FaChevronUp } from "react-icons/fa";
-import FormOtp from "../../FormOtp/FormOtp";
+import FormOtp from "../FormOtp/FormOtp";
 import Link from "next/link";
 
 const EventFeature = ({
@@ -98,7 +98,18 @@ const EventFeature = ({
           </div>
         </div>
       </div>
-
+      <div>
+        <div className={styles.centerBtn}>
+          {today >= eventDateInfo ? (
+            ""
+          ) : (
+            <button onClick={popupShow} className="outLineBtn">
+              Register NOW!
+              <FaArrowRight className={styles.iconB} />
+            </button>
+          )}
+        </div>
+      </div>
       <div className={styles.backTrainer}>
         <p>About the Speaker</p>
         <div>
@@ -213,7 +224,18 @@ const EventFeature = ({
         <p>{props.paragraph22}</p>
         <p>{props.paragraph23}</p>
       </div>
-
+      <div>
+        <div className={styles.centerBtn}>
+          {today >= eventDateInfo ? (
+            ""
+          ) : (
+            <button onClick={popupShow} className="outLineBtn">
+              Register NOW!
+              <FaArrowRight className={styles.iconB} />
+            </button>
+          )}
+        </div>
+      </div>
       <div style={{ margin: "15px 0px" }}>
         <div className={styles.bodyContent}>
           <div className={styles.eLeft}>

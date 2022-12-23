@@ -78,13 +78,9 @@ function SyllabusNew({
           ) : (
             <>
               {formotpForS3DS ? (
-                <FormOtp
-                  popup={true}
-                  QuesMean={true}
-                  jobTitle={true}
-                  jobDescription={true}
-                  fsddesc={true}
-                />
+              <Form
+                QuesMean={true}  
+              />
               ) : (
                 <>
                   {formotp ? (
@@ -257,13 +253,9 @@ function SyllabusNew({
               {syllabusFormotp ? (
                 <>
                   {formotpForS3DS ? (
-                    <FormOtp
-                      popup={true}
-                      QuesMean={true}
-                      jobTitle={true}
-                      jobDescription={true}
-                      fsddesc={true}
-                    />
+              <Form
+                QuesMean={true}  
+              />
                   ) : (
                     <>
                       <FormOtp />

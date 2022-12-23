@@ -6,8 +6,16 @@ import { useRouter } from "next/router";
 import getDay from "date-fns/getDay";
 import jsCookie from "js-cookie";
 
-
-const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobPlace }) => {
+const Form = ({
+  popup,
+  setTrigger,
+  downloadBrochure,
+  radio,
+  event,
+  jobDesc,
+  jobPlace,
+  QuesMean,
+}) => {
   const router = useRouter();
   let today = new Date();
   let time =
@@ -18,8 +26,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
   const [disable, setDisable] = useState(false);
   const [value, setValue] = useState();
 
-  
-
   const [query, setQuery] = useState({
     name: "",
     email: "",
@@ -29,13 +35,11 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
     dateTime: "",
     url: router.asPath,
   });
-  
+
   useEffect(() => {
     setQuery({ ...query, phone: value, dateTime: startDate });
 
-
     jsCookie.set("CARD", query.email, { expires: 14, secure: true });
-    
   }, [value, startDate]);
 
   // Update inputs value
@@ -48,7 +52,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
     }));
   };
 
-  
   // -====================  Organic - S END POINT ==========================--------
   let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
   // -====================  Organic - S END POINT ==========================--------
@@ -74,31 +77,26 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
     router.pathname === "/advance-ai-ml-certification-s2" ||
     router.pathname === "/data-science-ai-cert-for-managers-leaders-s2" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s2" ||
-
     router.pathname === "/s2-business-analytics" ||
     router.pathname === "/s2-business-analytics-advance" ||
     router.pathname === "/s2-business-analytics-master" ||
     router.pathname === "/s2-business-analytics-placement" ||
-
     router.pathname === "/s2-data-science-advance" ||
     router.pathname === "/s2-data-science-master" ||
     router.pathname === "/s2-data-science-placement" ||
     router.pathname === "/s2-data-science-certification" ||
-
     router.pathname === "/s2-machine-learning-advance" ||
     router.pathname === "/s2-machine-learning-master" ||
     router.pathname === "/s2-machine-learning-placement" ||
-
     router.pathname === "/s2-data-analytics-advance" ||
     router.pathname === "/s2-data-analytics-master" ||
     router.pathname === "/s2-data-analytics-placement" ||
-
     router.pathname === "/s2-artificial-intelligence-advance" ||
     router.pathname === "/s2-artificial-intelligence-master" ||
     router.pathname === "/s2-artificial-intelligence-placement" ||
     router.pathname === "/s2-artificial-intelligence-certification" ||
-
     router.pathname === "/s2-data-science" ||
+    router.pathname === "/s3-data-science" ||
     router.pathname === "/s2-data-science-banking" ||
     router.pathname === "/s2-machine-learning" ||
     router.pathname === "/s2-artificial-intelligence" ||
@@ -108,8 +106,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
     router.pathname === "/apply-for-counselling-s2" ||
     router.pathname === "/apply-for-counselling-data-science" ||
     router.pathname === "/apply-for-counselling" ||
-
-
     //  BANGALORE
 
     router.pathname === "/bangalore/s2-data-science" ||
@@ -126,7 +122,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
     router.pathname === "/chennai/s2-data-analytics" ||
     router.pathname === "/chennai/s2-job-guarantee" ||
     router.pathname === "/chennai/s2-masters-program" ||
-
     //  delhi
 
     router.pathname === "/delhi/s2-data-science" ||
@@ -135,7 +130,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
     router.pathname === "/delhi/s2-data-analytics" ||
     router.pathname === "/delhi/s2-job-guarantee" ||
     router.pathname === "/delhi/s2-masters-program" ||
-
     //  hyderabad
 
     router.pathname === "/hyderabad/s2-data-science" ||
@@ -144,7 +138,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
     router.pathname === "/hyderabad/s2-data-analytics" ||
     router.pathname === "/hyderabad/s2-job-guarantee" ||
     router.pathname === "/hyderabad/s2-masters-program" ||
-
     //  mumbai
 
     router.pathname === "/mumbai/s2-data-science" ||
@@ -153,7 +146,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
     router.pathname === "/mumbai/s2-data-analytics" ||
     router.pathname === "/mumbai/s2-job-guarantee" ||
     router.pathname === "/mumbai/s2-masters-program" ||
-
     //  pune
 
     router.pathname === "/pune/s2-data-science" ||
@@ -162,7 +154,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
     router.pathname === "/pune/s2-job-guarantee" ||
     router.pathname === "/pune/s2-masters-program" ||
     router.pathname === "/pune/s2-data-analytics"
-
   ) {
     // -==================== Google - S2 END POINT ==========================--------
     endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
@@ -183,7 +174,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
     // -==================== Facebook - S3 END POINT ==========================--------
   }
 
-
   // -==================== Quora - S4 END POINT ==========================--------
 
   if (
@@ -197,7 +187,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
     endPoint = "https://getform.io/f/1cfd5db8-ec05-4d26-b05f-6b73a81ebf89";
     // -==================== Quora - S4 END POINT ==========================--------
   }
-
 
   // -==================== Data Science Display Ads  END POINT ==========================--------
   if (
@@ -223,8 +212,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
     // -==================== Data Science Display Ads  END POINT ==========================--------
   }
 
-
-
   // -==================== Transactional - S5  END POINT ==========================--------
 
   if (
@@ -234,13 +221,10 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
     router.pathname === "/data-science-certification-courses-s10" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s5"
   ) {
-
     // -==================== Transactional - S5 END POINT ==========================--------
     endPoint = "https://getform.io/f/9c5b2164-1f56-4150-ad53-7944d6fe4363";
     // -==================== Transactional - S5 END POINT ==========================--------
   }
-
-
 
   // -====================  Returning Audience - S6 END POINT ==========================--------
 
@@ -255,7 +239,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
     // -====================  Returning Audience - S6 END POINT ==========================--------
   }
 
-
   // -====================  LinkedIn - S7 END POINT ==========================--------
 
   if (
@@ -269,7 +252,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
     // -====================  LinkedIn - S7 END POINT ==========================--------
   }
 
-
   // -====================  Website Learnbay END POINT ==========================--------
 
   if (
@@ -281,7 +263,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
     endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
     // -====================  Website Learnbay END POINT ==========================--------
   }
-
 
   // -==================== FSD - Ads  END POINT ==========================--------
   if (
@@ -296,14 +277,11 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
     router.pathname === "/apply-for-counselling-fsd-s2" ||
     router.pathname === "/dsa-s5"
   ) {
-
     // -====================  FSD - Ads END POINT ==========================--------
     endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
 
     // -====================  FSD - Ads END POINT ==========================--------
   }
-
-
 
   // -==================== Offer Campaign END POINT ==========================--------
   if (
@@ -311,64 +289,54 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
     router.pathname === "/dsa-s3" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s9" ||
     router.pathname === "/apply-for-counselling-s3" ||
-    router.pathname === "/fssd-s3" 
+    router.pathname === "/fssd-s3"
   ) {
     // -==================== Offer Campaign END POINT ==========================--------
     endPoint = "https://getform.io/f/fd68bf82-a911-435e-9719-7c134a89a731";
     // -==================== Offer Campaign END POINT ==========================--------
   }
 
-
   // -==================== Marketing ==========================--------
   if (
-    router.pathname === "/apply-for-counselling-marketing"||
+    router.pathname === "/apply-for-counselling-marketing" ||
     router.pathname === "/step-up-with-learnbay"
   ) {
     // -==================== Marketing ==========================--------
     endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
     // -==================== Marketing ==========================--------
   }
- 
 
   // -==================== Email Marketing ==========================--------
-  if (
-    router.pathname === "/apply-for-counselling-email-marketing"
-  ) {
+  if (router.pathname === "/apply-for-counselling-email-marketing") {
     // -==================== Marketing ==========================--------
     endPoint = "https://getform.io/f/94c74039-f505-4ebf-922e-b4728bd793e3";
     // -==================== Email Marketing ==========================--------
   }
-  
 
+  // -====================  Returning Audience - S6 ==========================--------
+  if (router.pathname === "/fssd-s6") {
     // -====================  Returning Audience - S6 ==========================--------
-    if (
-      router.pathname === "/fssd-s6"
-    ) {
-      // -====================  Returning Audience - S6 ==========================--------
-      endPoint = "https://getform.io/f/1c8cf486-31ef-4a7f-95b0-45c5f21e7b29";
-      // -====================  Returning Audience - S6 ==========================--------
-    }
+    endPoint = "https://getform.io/f/1c8cf486-31ef-4a7f-95b0-45c5f21e7b29";
+    // -====================  Returning Audience - S6 ==========================--------
+  }
 
-        // -====================  Apply For Counselling Scholarship ==========================--------
-        if (
-          router.pathname === "/apply-for-counselling-scholarship"
-        ) {
-          // -====================  Returning Audience - S6 ==========================--------
-          endPoint = "https://getform.io/f/69076866-e1f7-4cf3-a7d2-12603819a5a4";
-          // -====================  Returning Audience - S6 ==========================--------
-        }
+  // -====================  Apply For Counselling Scholarship ==========================--------
+  if (router.pathname === "/apply-for-counselling-scholarship") {
+    // -====================  Returning Audience - S6 ==========================--------
+    endPoint = "https://getform.io/f/69076866-e1f7-4cf3-a7d2-12603819a5a4";
+    // -====================  Returning Audience - S6 ==========================--------
+  }
 
   // -==================== Webinar = END POINT ==========================--------
   if (event) {
-
     // -==================== Webinar =  END POINT ==========================--------
     endPoint = "https://getform.io/f/df003555-86c7-4ae5-a7f8-98c21dd9ad92";
     // -==================== Webinar = END POINT ==========================--------
   }
 
-  let btnTxt = "Apply for  Counseliing"
+  let btnTxt = "Apply for  Counseliing";
   if (event) {
-    btnTxt = "Register Now"
+    btnTxt = "Register Now";
   }
 
   // Form Submit function
@@ -505,6 +473,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
         downloadBrochure) ||
       (router.pathname === "/" && downloadBrochure) ||
       (router.pathname === "/s2-data-science" && downloadBrochure) ||
+      (router.pathname === "/s3-data-science" && downloadBrochure) ||
       (router.pathname === "/s2-machine-learning" && downloadBrochure) ||
       (router.pathname === "/s2-job-guarantee" && downloadBrochure) ||
       (router.pathname === "/s2-data-analytics" && downloadBrochure) ||
@@ -512,14 +481,13 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
       (router.pathname === "/apply-for-counselling-data-science" &&
         downloadBrochure)
     ) {
-     
       router.push("/Thank-you");
 
       return;
     }
 
     if (event) {
-      router.push("/Thank-you")
+      router.push("/Thank-you");
     }
 
     if (
@@ -527,9 +495,8 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
       router.pathname === "/step-up-with-learnbay" ||
       router.pathname === "/apply-for-counselling-marketing"
     ) {
-     
       router.push("/Thank-you-marketing");
-     
+
       return;
     }
 
@@ -553,9 +520,8 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
         downloadBrochure) ||
       (router.pathname === "/dsa-system-design" && downloadBrochure)
     ) {
-     
       router.push("/Thank-you");
-     
+
       return;
     }
 
@@ -613,6 +579,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
       router.pathname === "/job-guarantee-or-money-back-data-science-ai-s8" ||
       router.pathname === "/job-guarantee-or-money-back-data-science-ai-s9" ||
       router.pathname === "/s2-data-science" ||
+      router.pathname === "/s3-data-science" ||
       router.pathname === "/s2-machine-learning" ||
       router.pathname === "/s2-job-guarantee" ||
       router.pathname === "/s2-data-analytics" ||
@@ -625,14 +592,11 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
       router.pathname === "/apply-for-counselling-email-marketing"
     ) {
       router.push("/Thank-you");
-      
 
       return;
     }
 
-    if (
-      router.pathname === "/apply-for-counselling-scholarship"
-    ) {
+    if (router.pathname === "/apply-for-counselling-scholarship") {
       router.push("/Thank-you-scholarship");
     }
 
@@ -658,31 +622,24 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
       router.pathname === "/dsa-system-design" ||
       router.pathname === "/s2-masters-program" ||
       router.pathname === "/s2-data-science-banking" ||
-
       router.pathname === "/s2-business-analytics" ||
       router.pathname === "/s2-business-analytics-advance" ||
       router.pathname === "/s2-business-analytics-master" ||
       router.pathname === "/s2-business-analytics-placement" ||
-
       router.pathname === "/s2-data-science-advance" ||
       router.pathname === "/s2-data-science-master" ||
       router.pathname === "/s2-data-science-placement" ||
       router.pathname === "/s2-data-science-certification" ||
-
       router.pathname === "/s2-machine-learning-advance" ||
       router.pathname === "/s2-machine-learning-master" ||
       router.pathname === "/s2-machine-learning-placement" ||
-
       router.pathname === "/s2-data-analytics-advance" ||
       router.pathname === "/s2-data-analytics-master" ||
       router.pathname === "/s2-data-analytics-placement" ||
-
       router.pathname === "/s2-artificial-intelligence-advance" ||
       router.pathname === "/s2-artificial-intelligence-master" ||
       router.pathname === "/s2-artificial-intelligence-placement" ||
       router.pathname === "/s2-artificial-intelligence-certification" ||
-
-
       //  BANGALORE
 
       router.pathname === "/bangalore/s2-data-science" ||
@@ -691,7 +648,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
       router.pathname === "/bangalore/s2-data-analytics" ||
       router.pathname === "/bangalore/s2-job-guarantee" ||
       router.pathname === "/bangalore/s2-masters-program" ||
-
       //  chennai
 
       router.pathname === "/chennai/s2-data-science" ||
@@ -700,7 +656,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
       router.pathname === "/chennai/s2-data-analytics" ||
       router.pathname === "/chennai/s2-job-guarantee" ||
       router.pathname === "/chennai/s2-masters-program" ||
-
       //  delhi
 
       router.pathname === "/delhi/s2-data-science" ||
@@ -709,7 +664,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
       router.pathname === "/delhi/s2-data-analytics" ||
       router.pathname === "/delhi/s2-job-guarantee" ||
       router.pathname === "/delhi/s2-masters-program" ||
-
       //  hyderabad
 
       router.pathname === "/hyderabad/s2-data-science" ||
@@ -718,7 +672,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
       router.pathname === "/hyderabad/s2-data-analytics" ||
       router.pathname === "/hyderabad/s2-job-guarantee" ||
       router.pathname === "/hyderabad/s2-masters-program" ||
-
       //  mumbai
 
       router.pathname === "/mumbai/s2-data-science" ||
@@ -727,7 +680,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
       router.pathname === "/mumbai/s2-data-analytics" ||
       router.pathname === "/mumbai/s2-job-guarantee" ||
       router.pathname === "/mumbai/s2-masters-program" ||
-
       //  pune
 
       router.pathname === "/pune/s2-data-science" ||
@@ -736,13 +688,9 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
       router.pathname === "/pune/s2-job-guarantee" ||
       router.pathname === "/pune/s2-masters-program" ||
       router.pathname === "/pune/s2-data-analytics"
-
-
-
-
     ) {
       router.push("/Thank-you");
-     
+
       return;
     }
   };
@@ -788,105 +736,96 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
             style={
               popup
                 ? {
-                  height: "50px",
-                  borderRadius: "8px",
-                  border: "1px solid grey",
-                  padding: "10px",
-                }
+                    height: "50px",
+                    borderRadius: "8px",
+                    border: "1px solid grey",
+                    padding: "10px",
+                  }
                 : {
-                  border: "0",
-                  height: "50px",
-                  borderRadius: "3px",
-                  borderBottom: "1px solid grey",
-                }
+                    border: "0",
+                    height: "50px",
+                    borderRadius: "3px",
+                    borderBottom: "1px solid grey",
+                  }
             }
             name="phone"
             rules={{ required: true }}
             defaultCountry="IN"
-
             placeholder="Enter Phone Number"
             className={popup ? styles.Phones : styles.Phone}
             value={value}
             onChange={setValue}
             limitMaxLength={true}
-
             required
-
           />
         </div>
 
         {jobPlace ? (
           <>
-        {jobDesc ? (
-          <>
-            <div className={styles.formWrapper}>
-              <input
-                type="text"
-                name="jobDescription"
-                placeholder="Job Title or Qualification*"
-                className={popup ? styles.EmailInputs : styles.EmailInput}
-                value={query.jobDescription}
-                onChange={handleParam()}
-
-              />
-
-            </div>
+            {jobDesc ? (
+              <>
+                <div className={styles.formWrapper}>
+                  <input
+                    type="text"
+                    name="jobDescription"
+                    placeholder="Job Title or Qualification*"
+                    className={popup ? styles.EmailInputs : styles.EmailInput}
+                    value={query.jobDescription}
+                    onChange={handleParam()}
+                  />
+                </div>
+              </>
+            ) : (
+              <>
+                {" "}
+                <div className={styles.formWrapper}>
+                  <input
+                    type="text"
+                    name="jobDescription"
+                    placeholder="Job Description*"
+                    className={popup ? styles.EmailInputs : styles.EmailInput}
+                    value={query.jobDescription}
+                    onChange={handleParam()}
+                    required
+                  />
+                </div>
+              </>
+            )}
           </>
         ) : (
           <>
             {" "}
-            <div className={styles.formWrapper}>
-              <input
-                type="text"
-                name="jobDescription"
-                placeholder="Job Description*"
-                className={popup ? styles.EmailInputs : styles.EmailInput}
-                value={query.jobDescription}
-                onChange={handleParam()}
-                required
-              />
-            </div>
+            {jobDesc ? (
+              <>
+                <div className={styles.formWrapper}>
+                  <input
+                    type="text"
+                    name="jobDescription"
+                    placeholder="Job Title or Domain"
+                    className={popup ? styles.EmailInputs : styles.EmailInput}
+                    value={query.jobDescription}
+                    onChange={handleParam()}
+                  />
+                </div>
+              </>
+            ) : (
+              <>
+                {" "}
+                <div className={styles.formWrapper}>
+                  <input
+                    type="text"
+                    name="jobDescription"
+                    placeholder="Job Title or Domain"
+                    className={popup ? styles.EmailInputs : styles.EmailInput}
+                    value={query.jobDescription}
+                    onChange={handleParam()}
+                    required
+                  />
+                </div>
+              </>
+            )}
           </>
         )}
-</>
-        ) : (
-          <>
-            {" "}
-        {jobDesc ? (
-          <>
-            <div className={styles.formWrapper}>
-              <input
-                type="text"
-                name="jobDescription"
-                placeholder="Job Title or Domain"
-                className={popup ? styles.EmailInputs : styles.EmailInput}
-                value={query.jobDescription}
-                onChange={handleParam()}
-
-              />
-
-            </div>
-          </>
-        ) : (
-          <>
-            {" "}
-            <div className={styles.formWrapper}>
-              <input
-                type="text"
-                name="jobDescription"
-                placeholder="Job Title or Domain"
-                className={popup ? styles.EmailInputs : styles.EmailInput}
-                value={query.jobDescription}
-                onChange={handleParam()}
-                required
-              />
-            </div>
-          </>
-        )}
- </>
-        )}
-
-
 
         <div className={popup ? styles.formWrappers : styles.formWrapper}>
           <select
@@ -915,8 +854,8 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
               onChange={handleParam()}
             />
             Data Science Courses&nbsp;
-
-            <br /><input
+            <br />
+            <input
               id="Full Stack Program"
               value="Full Stack Software Dev Courses"
               name="platform"
@@ -924,7 +863,8 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
               type="radio"
               onChange={handleParam()}
             />
-            Full Stack Software Dev <br/>&nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) Courses
+            Full Stack Software Dev <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) Courses
           </div>
         ) : (
           ""
@@ -938,6 +878,48 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
               name="url"
               value={router.asPath}
             ></input>
+          </div>
+        ) : (
+          ""
+        )}
+        
+        {QuesMean ? (
+          <div className={popup ? styles.formWrappers : styles.formWrapper}>
+            <label>
+              Find the average value of :- <b>20, 30, 10, 20</b>
+            </label>
+            <br />
+            <div style={{ display: "flex" }}>
+              <input
+                id="15"
+                value="15"
+                name="MeanValue"
+                required
+                type="radio"
+                onChange={handleParam()}
+              />
+              15&nbsp;
+              <br />
+              <input
+                id="10"
+                value="10"
+                name="MeanValue"
+                required
+                type="radio"
+                onChange={handleParam()}
+              />
+              10&nbsp;
+              <br />
+              <input
+                id="20"
+                value="20"
+                name="MeanValue"
+                required
+                type="radio"
+                onChange={handleParam()}
+              />
+              20
+            </div>
           </div>
         ) : (
           ""
@@ -991,14 +973,10 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, jobDesc, jobP
             {downloadBrochure ? "Download Now" : "Apply Now"}
           </button>
         )}
-        <input type='hidden' id="zc_gad" name="zc_gad" value=""/>
+        <input type="hidden" id="zc_gad" name="zc_gad" value="" />
       </form>
     </div>
   );
 };
 
 export default Form;
-
-
-
-

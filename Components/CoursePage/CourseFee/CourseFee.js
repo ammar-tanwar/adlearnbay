@@ -53,13 +53,7 @@ function CourseFee({
           <h5>Apply For Counselling</h5>
 
           {formotpForS3DS ? (
-            <FormOtp
-              popup={true}
-              QuesMean={true}
-              jobTitle={true}
-              jobDescription={true}
-              fsddesc={true}
-            />
+            <Form QuesMean={true} />
           ) : (
             <>
               {formotp ? (

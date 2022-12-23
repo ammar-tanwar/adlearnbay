@@ -32,30 +32,23 @@ export const ProgramFee = ({
           <h5>Apply For Counselling</h5>
           {eventQRadio ? (
             <>
-            <FormOtp popup={true} eventRadio={true} />
+              <FormOtp popup={true} eventRadio={true} />
             </>
-          ):(
-          <>
-          {formotpForS3DS ? (
-            <FormOtp
-              popup={true}
-              QuesMean={true}
-              jobTitle={true}
-              jobDescription={true}
-              fsddesc={true}
-            />
           ) : (
             <>
-              {formotp ? (
-                <FormOtp popup={true} />
+              {formotpForS3DS ? (
+                <Form QuesMean={true} />
               ) : (
-                <Form popup={true} setTrigger={setPopups} />
-                )}
+                <>
+                  {formotp ? (
+                    <FormOtp popup={true} />
+                  ) : (
+                    <Form popup={true} setTrigger={setPopups} />
+                  )}
                 </>
               )}
-              </>
-            )}
-          
+            </>
+          )}
         </div>
       </Popup>
       <div className={styles.header}>
