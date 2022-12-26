@@ -279,54 +279,36 @@ export const FullStackWebCourseData = [
     },
 
     Batch: [
-      {
-        Module0: {
-          title: "Weekday Evening(WD) Batch :- (Mon-Fri)",
-          content: [
-            {
-              chap: {
-                title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 23rd December 2022",
-                  "Time :  8 PM to 10:00 PM",
-
-                ],
-              },
-            },
-          ],
-          id: 0,
-          open: true,
-        },
-      },
-
       // {
       //   Module0: {
-      //     title: "Weekday Morning(SD) Batch  :- (Mon-Wed-Fri)",
+      //     title: "Weekday Evening(WD) Batch :- (Mon-Fri)",
       //     content: [
       //       {
       //         chap: {
       //           title: "Batch 1 :- Date And time ",
       //           desc: [
-      //             "Date : 30th December 2022",
-      //             "Time : 07:00 AM to 09:00 AM",
+      //             "Date : 23rd December 2022",
+      //             "Time :  8 PM to 10:00 PM",
+
       //           ],
       //         },
       //       },
       //     ],
-      //     id: 1,
-      //     open: false,
+      //     id: 0,
+      //     open: true,
       //   },
       // },
+
       {
         Module0: {
-          title: "Weekend Evening(SD) Batch  :- (Sat-Sun)",
+          title: "Weekday Morning(SD) Batch  :- (Mon-Wed-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 24th December 2022",
-                  "Time : 12:30 PM to 04:00 PM",
+                  "Date : 30th December 2022",
+                  "Time : 07:00 AM to 09:00 AM",
                 ],
               },
             },
@@ -335,8 +317,26 @@ export const FullStackWebCourseData = [
           open: false,
         },
       },
+      // {
+      //   Module0: {
+      //     title: "Weekend Evening(SD) Batch  :- (Sat-Sun)",
+      //     content: [
+      //       {
+      //         chap: {
+      //           title: "Batch 1 :- Date And time ",
+      //           desc: [
+      //             "Date : 24th December 2022",
+      //             "Time : 12:30 PM to 04:00 PM",
+      //           ],
+      //         },
+      //       },
+      //     ],
+      //     id: 1,
+      //     open: false,
+      //   },
+      // },
     ],
-    
+   
     BatchCourses: {
       CourseFeeHead: "Full Stack Web Development Program: Batch Details",
       CourseFeePara: "Online Classroom",
