@@ -106,7 +106,7 @@ to the next level</h5>
                     <p>Salary Hike</p>
                   </div>
                 </div>
-                <div className={styles.rightBottom}>
+                {/* <div className={styles.rightBottom}>
                   <div className={styles.leftBottomC}>
                     <p>Watch More On</p>
                   </div>
@@ -121,7 +121,7 @@ to the next level</h5>
                       layout="intrinsic"
                     />
                   </a>
-                </div>
+                </div> */}
               </div>
               <div className={styles.content}>
                 <div className={styles.imgP}>
@@ -176,7 +176,7 @@ to the next level</h5>
                     <p>Salary Hike</p>
                   </div>
                 </div>
-                <div className={styles.rightBottom}>
+                {/* <div className={styles.rightBottom}>
                   <div className={styles.leftBottomC}>
                     <p>Watch More On</p>
                   </div>
@@ -191,7 +191,7 @@ to the next level</h5>
                       layout="intrinsic"
                     />
                   </a>
-                </div>
+                </div> */}
               </div>
               <div className={styles.content}>
                 <div className={styles.imgP}>
@@ -245,7 +245,7 @@ to the next level</h5>
                     <p>Salary Hike</p>
                   </div>
                 </div>
-                <div className={styles.rightBottom}>
+                {/* <div className={styles.rightBottom}>
                   <div className={styles.leftBottomC}>
                     <p>Watch More On</p>
                   </div>
@@ -257,7 +257,7 @@ to the next level</h5>
                       layout="intrinsic"
                     />
                   </a>
-                </div>
+                </div> */}
               </div>
               <div className={styles.content}>
                 <div className={styles.imgP}>

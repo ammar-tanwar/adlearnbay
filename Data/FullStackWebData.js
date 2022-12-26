@@ -22,7 +22,7 @@ export const FullStackWebCourseData = [
       p3: "Practice With",
       p33: "Real-Time Projects",
       p4: "Financing as low as",
-      p44: "₹ 8,850/month",
+      p44: "₹ 6,884/month",
     },
     BoxShape: {
       title: "Full Stack Web Development Program Features",
@@ -267,8 +267,8 @@ export const FullStackWebCourseData = [
     },
 
     ProgramFee: {
-      Fee: "₹90,000 + GST",
-      Emi: "₹ 8,850/month",
+      Fee: "₹70,000 + GST",
+      Emi: "₹ 6,884/month",
       CourseFeeAndFinancing:
         "Full Stack Web Development Course Fee & Financing",
     },

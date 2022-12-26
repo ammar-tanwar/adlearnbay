@@ -84,7 +84,9 @@ const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS }) => {
                     <p>Salary Hike</p>
                   </div>
                 </div>
-                <div className={styles.rightBottom}>
+
+
+                {/* <div className={styles.rightBottom}>
                   <div className={styles.leftBottomC}>
                     <p>Watch More On</p>
                   </div>
@@ -99,7 +101,9 @@ const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS }) => {
                       layout="intrinsic"
                     />
                   </a>
-                </div>
+                </div> */}
+
+
               </div>
               <div className={styles.content}>
                 <div className={styles.imgP}>
@@ -153,7 +157,9 @@ const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS }) => {
                     <p>Salary Hike</p>
                   </div>
                 </div>
-                <div className={styles.rightBottom}>
+
+
+                {/* <div className={styles.rightBottom}>
                   <div className={styles.leftBottomC}>
                     <p>Watch More On</p>
                   </div>
@@ -168,7 +174,9 @@ const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS }) => {
                       layout="intrinsic"
                     />
                   </a>
-                </div>
+                </div> */}
+
+
               </div>
               <div className={styles.content}>
                 <div className={styles.imgP}>
@@ -221,7 +229,8 @@ const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS }) => {
                     <p>Salary Hike</p>
                   </div>
                 </div>
-                <div className={styles.rightBottom}>
+                
+                {/* <div className={styles.rightBottom}>
                   <div className={styles.leftBottomC}>
                     <p>Watch More On</p>
                   </div>
@@ -233,7 +242,10 @@ const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS }) => {
                       layout="intrinsic"
                     />
                   </a>
-                </div>
+                </div> */}
+
+
+
               </div>
               <div className={styles.content}>
                 <div className={styles.imgP}>
