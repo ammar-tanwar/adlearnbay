@@ -104,10 +104,10 @@ const FirstSection = ({
         </div>
         <div className={styles.rightSide}>
         <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/rightside.png"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/thumbnail.jpeg"
             layout="intrinsic"
-            width="550"
-            height="350"
+            width="627"
+            height="353"
             loading="lazy"
             alt="data science course in bangalore"
             className={styles.vIcon}

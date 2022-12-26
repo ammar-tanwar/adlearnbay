@@ -30,7 +30,7 @@ height: fit-content;
     font-weight: 700;
     font-size: 28px;
     line-height: 38px;
-  
+    border-radius: 20px;
     color: #edb552;
   }
   .First h1 span {
