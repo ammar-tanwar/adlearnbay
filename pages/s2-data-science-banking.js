@@ -94,10 +94,10 @@ export default function Home() {
         </Popup>
         <FirstSection
           ptop="Data Science Domain Specialization Course"
-          heading1="Be the"
-          headingSpan1="master"
-          heading2="of"
-          headingSpan2="your domain"
+          heading1="Become an "
+          headingSpan1="Expert"
+          heading2=" in"
+          headingSpan2="BFSI domain"
           des="Specialized courses in the Banking, Finance, Services & Insurance (BFSI) domain created to help you get ahead in your career"
           h1="6"
           p1="Industry
