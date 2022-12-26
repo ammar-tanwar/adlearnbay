@@ -179,8 +179,7 @@ function Batch({
                     <AiOutlineBars className={styles.icon} />
                     <b>Batch Type</b>
                   </p>
-                  
-                 
+                   <p className={styles.list}>Weekday Morning(SD) (Mon-Wed-Fri)</p>
                    <p className={styles.list}>Weekday Morning(SD) (Mon-Wed-Fri)</p>
                 </div>
               </div>
@@ -190,9 +189,8 @@ function Batch({
                     <MdDateRange className={styles.icon} />
                     <b>Date</b>
                   </p>
-                 
-                 
                   <p className={styles.list}>30th December 2022</p>
+                  <p className={styles.list}>4th January 2023</p>
                 </div>
               </div>
               <div>
@@ -201,8 +199,7 @@ function Batch({
                     <BiTimeFive className={styles.icon} />
                     <b>Time</b>
                   </p>
-                
-                  
+                 <p className={styles.list}>07:00 AM to 09:00 AM</p>
                  <p className={styles.list}>07:00 AM to 09:00 AM</p>
                 </div>
               </div>
