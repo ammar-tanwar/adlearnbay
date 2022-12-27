@@ -117,7 +117,6 @@ export default function Home() {
           height={DataScienceCourseData[0].FirstSection.height}
           alt={DataScienceCourseData[0].FirstSection.alt}
           srcD={DataScienceCourseData[0].FirstSection.srcD}
-        
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -143,14 +142,12 @@ export default function Home() {
             Box4h5={DataScienceCourseData[0].BoxShape.Box4h5}
             box4desc={DataScienceCourseData[0].BoxShape.box4desc}
             headh5={DataScienceCourseData[0].BoxShape.headh5}
-          
           />
         </div>
         <CourseReview formotpForS3DS={true}
           p1="Working at HCL"
           p2=" Working at TCS"
           p3="Working at Capgemini"
-        
         />
         <Certificate H4="Data Science Certification Program" />
         <SyllabusNew formotpForS3DS={true}
@@ -161,7 +158,6 @@ export default function Home() {
           popupHead={DataScienceCourseData[0].popupHead}
           hours={DataScienceCourseData[0].hours}
           project={DataScienceCourseData[0].project}
-        
           syllabusFormotp={true}
         />
         <OurExpert
@@ -197,7 +193,6 @@ export default function Home() {
             DataScienceCourseData[0].ProgramFee.CourseFeeAndFinancing
           }
           para={DataScienceCourseData[0].ProgramFee.para}
-        
         />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
@@ -206,7 +201,6 @@ export default function Home() {
             project={DataScienceCourseData[0].Project.project}
             domain={DataScienceCourseData[0].Project.domain}
             projectTitle={DataScienceCourseData[0].Project.projectTitle}
-          
           />
         </div>
         <CourseFee formotpForS3DS={true}
@@ -219,7 +213,6 @@ export default function Home() {
           CourseFeelist3={DataScienceCourseData[0].BatchCourses.CourseFeelist3}
           CourseFeelist4={DataScienceCourseData[0].BatchCourses.CourseFeelist4}
           CourseFeelist5={DataScienceCourseData[0].BatchCourses.CourseFeelist5}
-        
         />
         <LearnSupport />
         <Footer />

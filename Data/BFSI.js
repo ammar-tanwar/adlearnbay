@@ -42,7 +42,6 @@ export const BFSIData = [
       hSRC:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Hiring-partner-review.png",
       rewHead:"Accelerating countless careers to the next level",
     },
-
     syllabusDesc:
       "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Domain Training sessions are covered practically with real-time industrial projects and case studies.",
     popupHead: "Download Brochure",
