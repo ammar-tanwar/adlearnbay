@@ -26,7 +26,7 @@ export default function DataScienceEvent({ eventData, formotp }) {
       setMobile(false);
     }
   }, [mobile]);
-  
+
   return (
     <div className={styles.container}>
       <Head>
@@ -35,14 +35,14 @@ export default function DataScienceEvent({ eventData, formotp }) {
         <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
         <link rel="canonical" href="https://www.learnbay.co/event" />
       </Head>
-      <Navbar domain={true} eventDateInfo={eventDateInfo} formotp= {true} domainOTPForm={true}/>
+      <Navbar domain={true} eventDateInfo={eventDateInfo} formotp={true} domainOTPForm={true} />
       <div>
-        <EventHeader formotp= {true}
-        deskimg={eventData.data.headImg.deskimg}
-        mobimg={eventData.data.headImg.mobimg}
+        <EventHeader formotp={true}
+          deskimg={eventData.data.headImg.deskimg}
+          mobimg={eventData.data.headImg.mobimg}
         />
       </div>
- 
+
 
       <div className={today >= eventDateInfo ? styles.Pages : styles.Page2}>
 
@@ -78,17 +78,17 @@ export default function DataScienceEvent({ eventData, formotp }) {
                 <div className={styles.headerDomain}>
                   <h3>Register NOW!</h3>
                 </div>
-                <FormOtp domain={true} formotp= {true} jobDescription={true} workExperience={true}/>
+                <FormOtp domain={true} formotp={true} jobDescription={true} workExperience={true} />
                 <div className={styles.iconsRegister}>
-                <p className={styles.iconsRegisterp}>
-                    <FaUserFriends className={styles.IconDomain} style={{color:"#EDBB52"}} />
+                  <p className={styles.iconsRegisterp}>
+                    <FaUserFriends className={styles.IconDomain} style={{ color: "#EDBB52" }} />
                     {eventData.data.header.register}
                   </p>
                   <p className={styles.iconsRegisterp}>
-                    <FaHeart className={styles.IconDomain} style={{color:"red"}} />
+                    <FaHeart className={styles.IconDomain} style={{ color: "red" }} />
                     {eventData.data.header.likes}
                   </p>
-                  </div>
+                </div>
               </section>
             </div>
           )}

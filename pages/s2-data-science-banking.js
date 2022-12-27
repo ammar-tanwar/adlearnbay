@@ -93,41 +93,33 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          ptop="Data Science Domain Specialization Course"
-          heading1="Be the"
-          headingSpan1="master"
-          heading2="of"
-          headingSpan2="your domain"
-          des="Specialized courses in the Banking, Finance, Services & Insurance (BFSI) domain created to help you get ahead in your career"
-          h1="6"
-          p1="Industry
-        Relevant Projects"
-          h2="20+ "
-          p2="Case Studies &
-        Assignments"
-          h3="100%"
-          p3="Interview
-        Guarantee"
+          ptop={BFSIData[0].FirstSection.ptop}
+          heading1={BFSIData[0].FirstSection.heading1}
+          headingSpan1={BFSIData[0].FirstSection.headingSpan1}
+          heading2={BFSIData[0].FirstSection.heading2}
+          headingSpan2={BFSIData[0].FirstSection.headingSpan2}
+          des={BFSIData[0].FirstSection.des}
+          h1={BFSIData[0].FirstSection.h1}
+          p1={BFSIData[0].FirstSection.p1}
+          h2={BFSIData[0].FirstSection.h2}
+          p2={BFSIData[0].FirstSection.p2}
+          h3={BFSIData[0].FirstSection.h3}
+          p3={BFSIData[0].FirstSection.p3}
           withOutRadioForm={true}
         />
         <BoxShape
-          title="When you learn more,
-            you earn more."
-          p="Through our courses, you can: "
-          box1desc="Earn an increment of up to 200% in your next job
-            with your added skill sets"
-          box2desc="Succeed in an increasingly competitive market
-            with advanced tools and technology"
-          box3desc="Master your data analysis skills and create
-            a dynamic dashboard to describe your insights"
-          box4desc="Develop leadership skills by gaining better knowledge
-            of data and make more informed decisions"
+          p={BFSIData[0].BoxShape.p}
+          title={BFSIData[0].BoxShape.title}
+          box1desc={BFSIData[0].BoxShape.box1desc}
+          box2desc={BFSIData[0].BoxShape.box2desc}
+          box3desc={BFSIData[0].BoxShape.box3desc}
+          box4desc={BFSIData[0].BoxShape.box4desc}
         />
         <CourseDs peanutbtrIMG={true} />
         <CourseReview
-          p1="Working at HCL"
-          p2=" Working at TCS"
-          p3="Working at Capgemini"
+          p1={BFSIData[0].BoxShape.p1}
+          p2={BFSIData[0].BoxShape.p2}
+          p3={BFSIData[0].BoxShape.p3}
         />
         <SyllabusNew
           syllabus={BFSIData[0].syllabus}

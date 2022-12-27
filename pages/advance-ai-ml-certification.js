@@ -14,7 +14,7 @@ import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew1";
 import Footer from "../Components/FooterHome/Footer";
 import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
 import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
-import React, { useState } from "react"; 
+import React, { useState } from "react";
 import { AiCourseData } from "../Data/AiData";
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
@@ -30,19 +30,19 @@ export default function Home() {
   };
   return (
     <div>
-    <Head>
-    <title>Artificial Intelligence Course - Learnbay</title>
-    <meta
-      name="description"
-      content="Advance certification online Artificial Intelligence course with 100% placement 
+      <Head>
+        <title>Artificial Intelligence Course - Learnbay</title>
+        <meta
+          name="description"
+          content="Advance certification online Artificial Intelligence course with 100% placement 
       assistance and get 1:1 Guaranteed interview calls, 15+ Real-time projects, 1+ 
       Capstone projects, 2 years of course subscription ,Lifetime Access to recorded 
       classes and 24/7 Learner’s support."
-    /><meta name="Keywords" content="artificial intelligence course institute, artificial intelligence course fee, artificial intelligence certification, artificial intelligence training, advance artificial intelligence course, artificial intelligence course duration, artificial intelligence online course, artificial intelligence course, artificial intelligence course for working professional" /> 
-    <link rel="icon" href="/Learnbay-Favicon-L.png" />
-    <script
-      dangerouslySetInnerHTML={{
-        __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
+        /><meta name="Keywords" content="artificial intelligence course institute, artificial intelligence course fee, artificial intelligence certification, artificial intelligence training, advance artificial intelligence course, artificial intelligence course duration, artificial intelligence online course, artificial intelligence course, artificial intelligence course for working professional" />
+        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
         var s = document.createElement('script');
         s.type = 'text/javascript';
         s.async = true;
@@ -76,9 +76,9 @@ export default function Home() {
         };
         var x = document.getElementsByTagName('script')[0];
         x.parentNode.insertBefore(s, x);`,
-      }}
-    />
-  </Head>
+          }}
+        />
+      </Head>
       <main>  <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -92,7 +92,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection dataScience={true}
-        deskTopPara="Boost Your Professional Growth "
+          deskTopPara="Boost Your Professional Growth "
           deskTopPara1="To a Whole New Level"
           spanTitleText="Advance Program"
           mTitle="Artificial Intelligence and Machine Learning"
@@ -121,8 +121,8 @@ export default function Home() {
         </div>
 
         <div className={styles.Feature} id="Feature">
-        <BoxShape
-        title="Why Enroll In This Program?"
+          <BoxShape
+            title="Why Enroll In This Program?"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed modules as per your dream AI role. Learn latest ML applications."
             Box2h5="Domain Focused"
@@ -131,13 +131,13 @@ export default function Home() {
             box3desc="Enjoy and learn from mock interviews and CV writing workshops with MAANG AI/ML industry experts."
             Box4h5="Hands-on Experience"
             box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
-      />
+          />
         </div>
         <DomainFaq FaqData={DomainFaqCourseData1} />
         <CourseReview
-        p1="Working at HCL"
-        p2=" Working at TCS"
-        p3="Working at Capgemini" />
+          p1="Working at HCL"
+          p2=" Working at TCS"
+          p3="Working at Capgemini" />
 
         <Certificate
           H4=" Certification Program"
@@ -188,7 +188,7 @@ export default function Home() {
         />
         <ProgramFee Fee={AiCourseData[0].ProgramFee.Fee}
           Emi={AiCourseData[0].ProgramFee.Emi} CourseFeeAndFinancing="Program Fee & Financing"
-          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."  dataScience={true} />
+          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." dataScience={true} />
         <SliderTab />
 
         <div className={styles.ProjectWrapper} id="project">
@@ -209,7 +209,7 @@ export default function Home() {
           CourseFeelist4="Multiple Domain Selection Options"
           CourseFeelist5="Company-based Mock Interviews"
         />
-        <LearnSupport  organicNum={true}/>
+        <LearnSupport organicNum={true} />
         <Footer />
       </main>
     </div>
