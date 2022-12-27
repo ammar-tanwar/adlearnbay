@@ -31,7 +31,7 @@ const BoxShape = ({
           <div className={styles.box}>
             <div className={styles.ImgB1}>
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/2.png"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/Salary+Hike.png"
                 alt="custome-fit-learning-module"
                 width="40"
                 height="40"
@@ -44,7 +44,7 @@ const BoxShape = ({
           <div className={styles.box}>
             <div className={styles.ImgB2}>
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/1.png"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/Data+analysis.png"
                 alt="data-science"
                 width="40"
                 height="40"
@@ -57,7 +57,7 @@ const BoxShape = ({
           <div className={styles.box}>
             <div className={styles.ImgB3}>
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/3.png"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/Succeed.png"
                 alt="Job Guarantee"
                 width="40"
                 height="40"
@@ -70,7 +70,7 @@ const BoxShape = ({
           <div className={styles.box}>
             <div className={styles.ImgB4}>
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/4.png"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/Leader.png"
                 alt="Eligibility Criteria"
                 width="40"
                 height="40"

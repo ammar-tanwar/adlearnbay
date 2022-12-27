@@ -14,8 +14,8 @@ import React, { useState } from "react";
 import { BFSIData } from "../Data/BFSI";
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import CourseReview from "../Components/Domain/CourseReview/CourseReview";
-import CourseDs from "../Components/Domain/CourseHomeDS/Course";
 import Image from "next/image";
+
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -115,7 +115,24 @@ export default function Home() {
           box3desc={BFSIData[0].BoxShape.box3desc}
           box4desc={BFSIData[0].BoxShape.box4desc}
         />
-        <CourseDs peanutbtrIMG={true} />
+        {/* <CourseDs peanutbtrIMG={true} /> */}
+        <div className={styles.section4}>
+          <div className={styles.section41}>
+            <h2>You’re one step closer to becoming a Data Scientist</h2>
+            <p>Register for our Data Science & AI Master Program and take your career to new heights</p>
+            <div className={styles.section42}>
+              <p>Hands-on<br /><span>Experience</span></p>
+              <p>Premium 1-on-1<br/><span> Mentoring</span></p>
+              <p>Unlimited<br/><span>Job Interview Calls</span></p>
+              <p>250% <br/><span>Salary Hike</span></p>
+            </div>
+          </div>
+          <div>
+          <Image
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Domain-faq-right.png" width="519" height="350" layout="intrinsic"
+          />
+          </div>
+        </div>
         <CourseReview
           p1={BFSIData[0].BoxShape.p1}
           p2={BFSIData[0].BoxShape.p2}
