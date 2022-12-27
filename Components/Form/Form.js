@@ -101,6 +101,9 @@ const Form = ({
     router.pathname === "/s2-data-science" ||
     router.pathname === "/s3-data-science" ||
     router.pathname === "/s2-data-science-banking" ||
+    router.pathname === "/s2-data-science-hr" ||
+    router.pathname === "/s2-data-science-sales" ||
+    router.pathname === "/s2-data-science-marketing" ||
     router.pathname === "/s2-machine-learning" ||
     router.pathname === "/s2-artificial-intelligence" ||
     router.pathname === "/s2-data-analytics" ||
@@ -625,6 +628,9 @@ const Form = ({
       router.pathname === "/dsa-system-design" ||
       router.pathname === "/s2-masters-program" ||
       router.pathname === "/s2-data-science-banking" ||
+      router.pathname === "/s2-data-science-hr" ||
+      router.pathname === "/s2-data-science-sales" ||
+      router.pathname === "/s2-data-science-marketing" ||
       router.pathname === "/s2-business-analytics" ||
       router.pathname === "/s2-business-analytics-advance" ||
       router.pathname === "/s2-business-analytics-master" ||

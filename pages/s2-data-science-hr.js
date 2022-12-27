@@ -11,7 +11,7 @@ import SyllabusNew from "../Components/Domain/SyllabusNew/SyllabusNew";
 import Footer from "../Components/CoursePage/Footer/Footer";
 import LearnSupport from "../Components/Domain/LearnSupport/LearnSupport";
 import React, { useState } from "react";
-import { BFSIData } from "../Data/Domain";
+import { HRData } from "../Data/Domain";
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import CourseReview from "../Components/Domain/CourseReview/CourseReview";
 import Image from "next/image";
@@ -92,27 +92,27 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          ptop={BFSIData[0].FirstSection.ptop}
-          heading1={BFSIData[0].FirstSection.heading1}
-          headingSpan1={BFSIData[0].FirstSection.headingSpan1}
-          heading2={BFSIData[0].FirstSection.heading2}
-          headingSpan2={BFSIData[0].FirstSection.headingSpan2}
-          des={BFSIData[0].FirstSection.des}
-          h1={BFSIData[0].FirstSection.h1}
-          p1={BFSIData[0].FirstSection.p1}
-          h2={BFSIData[0].FirstSection.h2}
-          p2={BFSIData[0].FirstSection.p2}
-          h3={BFSIData[0].FirstSection.h3}
-          p3={BFSIData[0].FirstSection.p3}
+          ptop={HRData[0].FirstSection.ptop}
+          heading1={HRData[0].FirstSection.heading1}
+          headingSpan1={HRData[0].FirstSection.headingSpan1}
+          heading2={HRData[0].FirstSection.heading2}
+          headingSpan2={HRData[0].FirstSection.headingSpan2}
+          des={HRData[0].FirstSection.des}
+          h1={HRData[0].FirstSection.h1}
+          p1={HRData[0].FirstSection.p1}
+          h2={HRData[0].FirstSection.h2}
+          p2={HRData[0].FirstSection.p2}
+          h3={HRData[0].FirstSection.h3}
+          p3={HRData[0].FirstSection.p3}
           withOutRadioForm={true}
         />
         <BoxShape
-          p={BFSIData[0].BoxShape.p}
-          title={BFSIData[0].BoxShape.title}
-          box1desc={BFSIData[0].BoxShape.box1desc}
-          box2desc={BFSIData[0].BoxShape.box2desc}
-          box3desc={BFSIData[0].BoxShape.box3desc}
-          box4desc={BFSIData[0].BoxShape.box4desc}
+          p={HRData[0].BoxShape.p}
+          title={HRData[0].BoxShape.title}
+          box1desc={HRData[0].BoxShape.box1desc}
+          box2desc={HRData[0].BoxShape.box2desc}
+          box3desc={HRData[0].BoxShape.box3desc}
+          box4desc={HRData[0].BoxShape.box4desc}
         />
         {/* <CourseDs peanutbtrIMG={true} /> */}
         <div className={styles.section4}>
@@ -154,49 +154,49 @@ export default function Home() {
           </div>
         </div>
         <CourseReview
-          p1={BFSIData[0].CourseReview.p1}
-          p2={BFSIData[0].CourseReview.p2}
-          p3={BFSIData[0].CourseReview.p3}
-          h1={BFSIData[0].CourseReview.h1}
-          h2={BFSIData[0].CourseReview.h2}
-          h2p={BFSIData[0].CourseReview.h2p}
-          hSRC={BFSIData[0].CourseReview.hSRC}
-          rewHead={BFSIData[0].CourseReview.rewHead}
+          p1={HRData[0].CourseReview.p1}
+          p2={HRData[0].CourseReview.p2}
+          p3={HRData[0].CourseReview.p3}
+          h1={HRData[0].CourseReview.h1}
+          h2={HRData[0].CourseReview.h2}
+          h2p={HRData[0].CourseReview.h2p}
+          hSRC={HRData[0].CourseReview.hSRC}
+          rewHead={HRData[0].CourseReview.rewHead}
         />
         <SyllabusNew
-          syllabus={BFSIData[0].syllabus}
-          CSyllabus={BFSIData[0].CSyllabus}
-          CourseHighlights={BFSIData[0].CourseHighlights}
-          syllabusDesc={BFSIData[0].syllabusDesc}
-          popupHead={BFSIData[0].popupHead}
-          hours={BFSIData[0].hours}
-          project={BFSIData[0].project}
+          syllabus={HRData[0].syllabus}
+          CSyllabus={HRData[0].CSyllabus}
+          CourseHighlights={HRData[0].CourseHighlights}
+          syllabusDesc={HRData[0].syllabusDesc}
+          popupHead={HRData[0].popupHead}
+          hours={HRData[0].hours}
+          project={HRData[0].project}
         />
         <OurExpert
-          H5={BFSIData[0].OurExpert.H5}
-          img1={BFSIData[0].OurExpert.img1}
-          img2={BFSIData[0].OurExpert.img2}
-          img3={BFSIData[0].OurExpert.img3}
-          img4={BFSIData[0].OurExpert.img4}
-          img5={BFSIData[0].OurExpert.img5}
-          img6={BFSIData[0].OurExpert.img6}
-          img7={BFSIData[0].OurExpert.img7}
-          img8={BFSIData[0].OurExpert.img8}
-          img9={BFSIData[0].OurExpert.img9}
-          img10={BFSIData[0].OurExpert.img10}
-          img11={BFSIData[0].OurExpert.img11}
-          img12={BFSIData[0].OurExpert.img12}
-          img13={BFSIData[0].OurExpert.img13}
-          img14={BFSIData[0].OurExpert.img14}
-          img15={BFSIData[0].OurExpert.img15}
-          img16={BFSIData[0].OurExpert.img16}
-          img17={BFSIData[0].OurExpert.img17}
-          img18={BFSIData[0].OurExpert.img18}
-          img19={BFSIData[0].OurExpert.img19}
-          img21={BFSIData[0].OurExpert.img21}
-          img22={BFSIData[0].OurExpert.img22}
-          img23={BFSIData[0].OurExpert.img23}
-          img20={BFSIData[0].OurExpert.img20}
+          H5={HRData[0].OurExpert.H5}
+          img1={HRData[0].OurExpert.img1}
+          img2={HRData[0].OurExpert.img2}
+          img3={HRData[0].OurExpert.img3}
+          img4={HRData[0].OurExpert.img4}
+          img5={HRData[0].OurExpert.img5}
+          img6={HRData[0].OurExpert.img6}
+          img7={HRData[0].OurExpert.img7}
+          img8={HRData[0].OurExpert.img8}
+          img9={HRData[0].OurExpert.img9}
+          img10={HRData[0].OurExpert.img10}
+          img11={HRData[0].OurExpert.img11}
+          img12={HRData[0].OurExpert.img12}
+          img13={HRData[0].OurExpert.img13}
+          img14={HRData[0].OurExpert.img14}
+          img15={HRData[0].OurExpert.img15}
+          img16={HRData[0].OurExpert.img16}
+          img17={HRData[0].OurExpert.img17}
+          img18={HRData[0].OurExpert.img18}
+          img19={HRData[0].OurExpert.img19}
+          img21={HRData[0].OurExpert.img21}
+          img22={HRData[0].OurExpert.img22}
+          img23={HRData[0].OurExpert.img23}
+          img20={HRData[0].OurExpert.img20}
         />
         <div className={styles.transition}>
           <h1>We’ll make sure your career evolution is seamless</h1>
@@ -214,11 +214,11 @@ export default function Home() {
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <BankingProject
-            popupHead={BFSIData[0].Project.popupHead}
-            project={BFSIData[0].Project.project}
-            domain={BFSIData[0].Project.domain}
-            projectTitle={BFSIData[0].Project.projectTitle1}
-            props={BFSIData[0].Project}
+            popupHead={HRData[0].Project.popupHead}
+            project={HRData[0].Project.project}
+            domain={HRData[0].Project.domain}
+            projectTitle={HRData[0].Project.projectTitle1}
+            props={HRData[0].Project}
           />
         </div>
         <LearnSupport />
