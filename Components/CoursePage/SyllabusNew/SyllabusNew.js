@@ -78,9 +78,7 @@ function SyllabusNew({
           ) : (
             <>
               {formotpForS3DS ? (
-              <Form
-                QuesMean={true}  
-              />
+                <Form QuesMean={true} jobTitle={true} jobPlacee={true} />
               ) : (
                 <>
                   {formotp ? (
@@ -244,47 +242,49 @@ function SyllabusNew({
               </h5>
             </div>
             <div className={styles.PProgramInners}>
-            {eventQRadio ? (
-            <>
-            <FormOtp popup={true} eventRadio={true} />
-            </>
-          ):(
-          <>
-              {syllabusFormotp ? (
+              {eventQRadio ? (
                 <>
-                  {formotpForS3DS ? (
-              <Form
-                QuesMean={true}  
-              />
-                  ) : (
-                    <>
-                      <FormOtp />
-                    </>
-                  )}
+                  <FormOtp popup={true} eventRadio={true} />
                 </>
               ) : (
                 <>
-                  {fsdlink ? (
-                    <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session">
-                      <button style={{ marginLeft: "40px" }}>
-                        Apply for Counselling
-                        <FaArrowRight style={{ marginLeft: "10px" }} />
-                      </button>
-                    </a>
+                  {syllabusFormotp ? (
+                    <>
+                      {formotpForS3DS ? (
+                        <Form
+                          QuesMean={true}
+                          jobTitle={true}
+                          jobPlacee={true}
+                        />
+                      ) : (
+                        <>
+                          <FormOtp />
+                        </>
+                      )}
+                    </>
                   ) : (
-                    <Form
-                      dataScience={dataScience}
-                      redirectDs={redirectDs}
-                      redirectFs={redirectFs}
-                      redirectBa={redirectBa}
-                      redirectBl={redirectBl}
-                      redirectDe={redirectDe}
-                    />
-                    )}
+                    <>
+                      {fsdlink ? (
+                        <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session">
+                          <button style={{ marginLeft: "40px" }}>
+                            Apply for Counselling
+                            <FaArrowRight style={{ marginLeft: "10px" }} />
+                          </button>
+                        </a>
+                      ) : (
+                        <Form
+                          dataScience={dataScience}
+                          redirectDs={redirectDs}
+                          redirectFs={redirectFs}
+                          redirectBa={redirectBa}
+                          redirectBl={redirectBl}
+                          redirectDe={redirectDe}
+                        />
+                      )}
                     </>
                   )}
-                  </>
-                )}
+                </>
+              )}
             </div>
           </div>
           <img

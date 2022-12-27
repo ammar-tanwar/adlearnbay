@@ -499,15 +499,14 @@ function FormOtp({
                 <option value="" selected="selected" disabled="disabled">
                   -- select one --
                 </option>
-                  <option value="Banking, Financial, Services and Insurance">Banking, Financial, Services and Insurance</option>
+                  <option value="Banking and Finance (BFSI)">Banking and Finance (BFSI)</option>
                   <option value="Marketing and Sales">Marketing and Sales</option>
                   <option value="Healthcare">Healthcare</option>
                   <option value="Retail and E-Commerce">Retail and E-Commerce</option>
-                  <option value="Media and Hospitality">Media and Hospitality</option>
                   <option value="Manufacturing">Manufacturing</option>
                   <option value="Energy, Oil and Gas">Energy, Oil and Gas</option>
-                  <option value="HR">HR</option>
-                  <option value="IT">IT</option>
+                  <option value="Human Resources">Human Resources</option>
+                  <option value="IT/Software Development">IT/Software Development</option>
                   <option value="Other">Other</option>
               </datalist>
             </div>

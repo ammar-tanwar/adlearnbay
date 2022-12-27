@@ -59,7 +59,7 @@ const BoxShape = ({
           <p>Please enter the following details to initiate your download</p>
 
           {formotpForS3DS ? (
-            <Form QuesMean={true} />
+            <Form QuesMean={true} jobTitle={true} jobPlacee={true} />
           ) : (
             <>
               {formotp ? (

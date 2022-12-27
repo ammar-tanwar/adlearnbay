@@ -15,6 +15,9 @@ const Form = ({
   jobDesc,
   jobPlace,
   QuesMean,
+  jobTitle,
+  fsddesc,
+  jobPlacee,
 }) => {
   const router = useRouter();
   let today = new Date();
@@ -760,71 +763,124 @@ const Form = ({
           />
         </div>
 
-        {jobPlace ? (
-          <>
-            {jobDesc ? (
-              <>
-                <div className={styles.formWrapper}>
-                  <input
-                    type="text"
-                    name="jobDescription"
-                    placeholder="Job Title or Qualification*"
-                    className={popup ? styles.EmailInputs : styles.EmailInput}
-                    value={query.jobDescription}
-                    onChange={handleParam()}
-                  />
-                </div>
-              </>
-            ) : (
-              <>
-                {" "}
-                <div className={styles.formWrapper}>
-                  <input
-                    type="text"
-                    name="jobDescription"
-                    placeholder="Job Description*"
-                    className={popup ? styles.EmailInputs : styles.EmailInput}
-                    value={query.jobDescription}
-                    onChange={handleParam()}
-                    required
-                  />
-                </div>
-              </>
-            )}
-          </>
+        {jobPlacee ? (
+          ""
         ) : (
           <>
-            {" "}
-            {jobDesc ? (
+            {jobPlace ? (
               <>
-                <div className={styles.formWrapper}>
-                  <input
-                    type="text"
-                    name="jobDescription"
-                    placeholder="Job Title or Domain"
-                    className={popup ? styles.EmailInputs : styles.EmailInput}
-                    value={query.jobDescription}
-                    onChange={handleParam()}
-                  />
-                </div>
+                {jobDesc ? (
+                  <>
+                    <div className={styles.formWrapper}>
+                      <input
+                        type="text"
+                        name="jobDescription"
+                        placeholder="Job Title or Qualification*"
+                        className={
+                          popup ? styles.EmailInputs : styles.EmailInput
+                        }
+                        value={query.jobDescription}
+                        onChange={handleParam()}
+                      />
+                    </div>
+                  </>
+                ) : (
+                  <>
+                    {" "}
+                    <div className={styles.formWrapper}>
+                      <input
+                        type="text"
+                        name="jobDescription"
+                        placeholder="Job Description*"
+                        className={
+                          popup ? styles.EmailInputs : styles.EmailInput
+                        }
+                        value={query.jobDescription}
+                        onChange={handleParam()}
+                        required
+                      />
+                    </div>
+                  </>
+                )}
               </>
             ) : (
               <>
                 {" "}
-                <div className={styles.formWrapper}>
-                  <input
-                    type="text"
-                    name="jobDescription"
-                    placeholder="Job Title or Domain"
-                    className={popup ? styles.EmailInputs : styles.EmailInput}
-                    value={query.jobDescription}
-                    onChange={handleParam()}
-                    required
-                  />
-                </div>
+                {jobDesc ? (
+                  <>
+                    <div className={styles.formWrapper}>
+                      <input
+                        type="text"
+                        name="jobDescription"
+                        placeholder="Job Title or Domain"
+                        className={
+                          popup ? styles.EmailInputs : styles.EmailInput
+                        }
+                        value={query.jobDescription}
+                        onChange={handleParam()}
+                      />
+                    </div>
+                  </>
+                ) : (
+                  <>
+                    {" "}
+                    <div className={styles.formWrapper}>
+                      <input
+                        type="text"
+                        name="jobDescription"
+                        placeholder="Job Title or Domain"
+                        className={
+                          popup ? styles.EmailInputs : styles.EmailInput
+                        }
+                        value={query.jobDescription}
+                        onChange={handleParam()}
+                        required
+                      />
+                    </div>
+                  </>
+                )}
               </>
             )}
           </>
+        )}
+
+        {jobTitle ? (
+          <div className={popup ? styles.formWrappers : styles.formWrapper}>
+            <input
+              className={popup ? styles.EmailInputs : styles.EmailInput}
+              placeholder={
+                fsddesc ? "Job Title or Domain*" : "Job Description*"
+              }
+              type="text"
+              list="jobDescription"
+              name="jobDescription"
+              value={query.jobDescription}
+              onChange={handleParam()}
+              required
+            />
+            <datalist id="jobDescription">
+              <option value="" selected="selected" disabled="disabled">
+                -- select one --
+              </option>
+              <option value="Banking and Finance (BFSI)">
+                Banking and Finance (BFSI)
+              </option>
+              <option value="Marketing and Sales">Marketing and Sales</option>
+              <option value="Healthcare">Healthcare</option>
+              <option value="Retail and E-Commerce">
+                Retail and E-Commerce
+              </option>
+              <option value="Manufacturing">Manufacturing</option>
+              <option value="Energy, Oil and Gas">Energy, Oil and Gas</option>
+              <option value="Human Resources">Human Resources</option>
+              <option value="IT/Software Development">
+                IT/Software Development
+              </option>
+              <option value="Other">Other</option>
+            </datalist>
+          </div>
+        ) : (
+          ""
         )}
 
         <div className={popup ? styles.formWrappers : styles.formWrapper}>
@@ -882,7 +938,7 @@ const Form = ({
         ) : (
           ""
         )}
-        
+
         {QuesMean ? (
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
             <label>

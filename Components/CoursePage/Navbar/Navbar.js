@@ -51,9 +51,7 @@ const Navbar = ({ radio, fsdlink, formotp, formotpForS3DS,eventQRadio }) => {
           ):(
           <>
             {formotpForS3DS ? (
-              <Form
-                QuesMean={true}  
-              />
+                <Form QuesMean={true} jobTitle={true} jobPlacee={true} />
             ) : (
               <>
                 {formotp ? (
