@@ -45,9 +45,7 @@ const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS }) => {
             <h5>Download Placement Brochure</h5>
 
             {formotpForS3DS ? (
-              <Form
-                QuesMean={true}  
-              />
+              <Form QuesMean={true} jobTitle={true} jobPlacee={true} />
             ) : (
               <>
                 {formotp ? (
@@ -85,7 +83,6 @@ const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS }) => {
                   </div>
                 </div>
 
-
                 {/* <div className={styles.rightBottom}>
                   <div className={styles.leftBottomC}>
                     <p>Watch More On</p>
@@ -102,8 +99,6 @@ const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS }) => {
                     />
                   </a>
                 </div> */}
-
-
               </div>
               <div className={styles.content}>
                 <div className={styles.imgP}>
@@ -158,7 +153,6 @@ const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS }) => {
                   </div>
                 </div>
 
-
                 {/* <div className={styles.rightBottom}>
                   <div className={styles.leftBottomC}>
                     <p>Watch More On</p>
@@ -175,8 +169,6 @@ const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS }) => {
                     />
                   </a>
                 </div> */}
-
-
               </div>
               <div className={styles.content}>
                 <div className={styles.imgP}>
@@ -229,7 +221,7 @@ const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS }) => {
                     <p>Salary Hike</p>
                   </div>
                 </div>
-                
+
                 {/* <div className={styles.rightBottom}>
                   <div className={styles.leftBottomC}>
                     <p>Watch More On</p>
@@ -243,9 +235,6 @@ const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS }) => {
                     />
                   </a>
                 </div> */}
-
-
-
               </div>
               <div className={styles.content}>
                 <div className={styles.imgP}>
