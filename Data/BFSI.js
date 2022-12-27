@@ -36,6 +36,11 @@ export const BFSIData = [
       p1:"Working at HCL",
       p2:" Working at TCS",
       p3:"Working at Capgemini",
+      h1:"We only make promises",
+      h2:"we can keep",
+      h2p:"Get assured interview calls from top recruiters",
+      hSRC:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Hiring-partner-review.png",
+      rewHead:"Accelerating countless careers to the next level",
     },
 
     syllabusDesc:

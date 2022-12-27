@@ -134,9 +134,14 @@ export default function Home() {
           </div>
         </div>
         <CourseReview
-          p1={BFSIData[0].BoxShape.p1}
-          p2={BFSIData[0].BoxShape.p2}
-          p3={BFSIData[0].BoxShape.p3}
+          p1={BFSIData[0].CourseReview.p1}
+          p2={BFSIData[0].CourseReview.p2}
+          p3={BFSIData[0].CourseReview.p3}
+          h1={BFSIData[0].CourseReview.h1}
+          h2={BFSIData[0].CourseReview.h2}
+          h2p={BFSIData[0].CourseReview.h2p}
+          hSRC={BFSIData[0].CourseReview.hSRC}
+          rewHead={BFSIData[0].CourseReview.rewHead}
         />
         <SyllabusNew
           syllabus={BFSIData[0].syllabus}

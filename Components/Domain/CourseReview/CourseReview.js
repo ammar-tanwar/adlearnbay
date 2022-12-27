@@ -12,7 +12,7 @@ import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
 
-const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS }) => {
+const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS,h1,h2,h2p ,hSRC,rewHead }) => {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -64,15 +64,15 @@ const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS }) => {
         </Popup>
 
         <div className={styles.bottomReview}>
-          <h5>We only make promises<br/> we can keep</h5>
-          <p>Get assured interview calls from top recruiters</p>
+          <h5>{h1}<br />{h2} </h5>
+          <p>{h2p}</p>
           <div className={styles.imgHire}>
-          <Image 
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Hiring-partner-review.png"
-            width="1603"
-            height="82"
-            layout="intrinsic"
-          />
+            <Image
+              src={hSRC}
+              width="1603"
+              height="82"
+              layout="intrinsic"
+            />
           </div>
 
           <button onClick={popupShow} className={styles.btn}>
@@ -80,8 +80,7 @@ const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS }) => {
           </button>
         </div>
         <div className={styles.swiperleft}>
-        <h5>Accelerating countless careers
-to the next level</h5>
+          <h5>{rewHead}</h5>
           <Swiper
             slidesPerView={mobile ? 1.02 : 1}
             spaceBetween={mobile ? 10 : 10}
