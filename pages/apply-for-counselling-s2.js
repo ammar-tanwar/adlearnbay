@@ -6,7 +6,7 @@ import Footer from "../Components/FooterA/Footer";
 import Form from "../Components/Form/Form";
 
 function Counselling() {
-  return (
+  return ( 
     <div className={styles.container}>
       <Head>
         <title>Learnbay Courses</title>
