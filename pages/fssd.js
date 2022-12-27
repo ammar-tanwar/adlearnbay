@@ -72,7 +72,7 @@ export default function Home() {
         />
 
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} formotp={true}/>
+      <main>  <Navbar popup={true} dataScience={true} formotp={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -126,7 +126,7 @@ export default function Home() {
           />
         </div>
         <DomainFaq FaqData={DomainFaqCourseData1} />
-        <CourseReview formotp={true}/>
+        <CourseReview formotp={true} />
         <SyllabusNew dataScience={true} formotp={true} syllabusFormotp={true}
           syllabus={FullStackSoftwareCourseData[0].syllabus}
           syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
@@ -161,7 +161,7 @@ export default function Home() {
         />
 
 
-        <LearnSupport  organicNum={true}/>
+        <LearnSupport organicNum={true} />
         <Footer />
       </main>
     </div>

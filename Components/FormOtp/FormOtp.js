@@ -52,7 +52,7 @@ function FormOtp({
     const value = e.target.value;
     // console.log("name-",name)
     // console.log("value-",value)
-    if (name === 'platform'){
+    if (name === 'platform') {
       setRadioBtn(value)
     }
   }
@@ -60,7 +60,7 @@ function FormOtp({
   const handleForm = (e) => {
     const name = e.target.name;
     const value = e.target.value;
-   
+
     setForm((formProps) => ({
       ...formProps,
       [name]: value,
@@ -163,7 +163,7 @@ function FormOtp({
     const email = form.email;
     // console.log(mobileNumber)
 
-    if (radioBtn == 4 || radioBtn == 2 || radioBtn == 3){
+    if (radioBtn == 4 || radioBtn == 2 || radioBtn == 3) {
       setToggle(false);
       setAlertMSG("Sorry! You are not eligible")
       return false
@@ -218,21 +218,21 @@ function FormOtp({
             console.log(err);
           });
       } else {
-          fetch(`${endPoint}`, {
-            method: "POST",
-            body: formData,
-          }).then(() =>
-            setForm({
-              name: "",
-              email: "",
-              jobDescription: "",
-              phone: "",
-              workExperience: "",
-              otp: "",
-              url: "",
-            })
-          );
-    
+        fetch(`${endPoint}`, {
+          method: "POST",
+          body: formData,
+        }).then(() =>
+          setForm({
+            name: "",
+            email: "",
+            jobDescription: "",
+            phone: "",
+            workExperience: "",
+            otp: "",
+            url: "",
+          })
+        );
+
         setDisable(true);
         if (event) {
           router.push("/Thank-you-fsd-webinar");
@@ -316,7 +316,7 @@ function FormOtp({
     const mobileNumber = updateMobileNumber;
     const otp = form.otp;
 
-    if (radioBtn == 5 || radioBtn == 3){
+    if (radioBtn == 5 || radioBtn == 3) {
       setToggle(false);
       setAlertMSG("Sorry! You are not eligible")
       return false
@@ -499,15 +499,15 @@ function FormOtp({
                 <option value="" selected="selected" disabled="disabled">
                   -- select one --
                 </option>
-                  <option value="Banking and Finance (BFSI)">Banking and Finance (BFSI)</option>
-                  <option value="Marketing and Sales">Marketing and Sales</option>
-                  <option value="Healthcare">Healthcare</option>
-                  <option value="Retail and E-Commerce">Retail and E-Commerce</option>
-                  <option value="Manufacturing">Manufacturing</option>
-                  <option value="Energy, Oil and Gas">Energy, Oil and Gas</option>
-                  <option value="Human Resources">Human Resources</option>
-                  <option value="IT/Software Development">IT/Software Development</option>
-                  <option value="Other">Other</option>
+                <option value="Banking and Finance (BFSI)">Banking and Finance (BFSI)</option>
+                <option value="Marketing and Sales">Marketing and Sales</option>
+                <option value="Healthcare">Healthcare</option>
+                <option value="Retail and E-Commerce">Retail and E-Commerce</option>
+                <option value="Manufacturing">Manufacturing</option>
+                <option value="Energy, Oil and Gas">Energy, Oil and Gas</option>
+                <option value="Human Resources">Human Resources</option>
+                <option value="IT/Software Development">IT/Software Development</option>
+                <option value="Other">Other</option>
               </datalist>
             </div>
           ) : (
@@ -613,17 +613,17 @@ function FormOtp({
               style={
                 popup
                   ? {
-                      height: "50px",
-                      borderRadius: "8px",
-                      border: "1px solid grey",
-                      padding: "10px",
-                    }
+                    height: "50px",
+                    borderRadius: "8px",
+                    border: "1px solid grey",
+                    padding: "10px",
+                  }
                   : {
-                      border: "0",
-                      height: "50px",
-                      borderRadius: "3px",
-                      borderBottom: "1px solid grey",
-                    }
+                    border: "0",
+                    height: "50px",
+                    borderRadius: "3px",
+                    borderBottom: "1px solid grey",
+                  }
               }
               name="phone"
               rules={{ required: true }}
@@ -643,21 +643,21 @@ function FormOtp({
                 style={
                   popup
                     ? {
-                        height: "50px",
-                        borderRadius: "8px",
-                        border: "1px solid grey",
-                        padding: "10px",
-                        marginBottom: "0px",
-                        width: "100%",
-                      }
+                      height: "50px",
+                      borderRadius: "8px",
+                      border: "1px solid grey",
+                      padding: "10px",
+                      marginBottom: "0px",
+                      width: "100%",
+                    }
                     : {
-                        border: "0",
-                        height: "50px",
-                        borderRadius: "3px",
-                        width: "100%",
-                        marginBottom: "0px",
-                        borderBottom: "1px solid grey",
-                      }
+                      border: "0",
+                      height: "50px",
+                      borderRadius: "3px",
+                      width: "100%",
+                      marginBottom: "0px",
+                      borderBottom: "1px solid grey",
+                    }
                 }
                 className={popup ? styles.Phones : styles.Phone}
                 type="text"
@@ -704,48 +704,48 @@ function FormOtp({
           {eventRadio ? (
             <div className={popup ? styles.formWrappers : styles.formWrapper}>
               <label>
-              What is the output of <b>10 % 3 ?</b>
+                What is the output of <b>10 % 3 ?</b>
               </label>
               <br />
               <div style={{ display: "flex" }}>
-              <input
-                id="4"
-                value="4"
-                name="platform"
-                required
-                type="radio"
-                onChange={handleRadio}
-              />
-              4&nbsp;
-              <br />
-              <input
-                id="2"
-                value="2"
-                name="platform"
-                required
-                type="radio"
-                onChange={handleRadio}
-              />
-              2&nbsp;
-              <br />
-              <input
-                id="1"
-                value="1"
-                name="platform"
-                required
-                type="radio"
-                onChange={handleRadio}
-              />
-              1&nbsp; <br />
-              <input
-                id="3"
-                value="3"
-                name="platform"
-                required
-                type="radio"
-                onChange={handleRadio}
-              />
-              3&nbsp; <br />
+                <input
+                  id="4"
+                  value="4"
+                  name="platform"
+                  required
+                  type="radio"
+                  onChange={handleRadio}
+                />
+                4&nbsp;
+                <br />
+                <input
+                  id="2"
+                  value="2"
+                  name="platform"
+                  required
+                  type="radio"
+                  onChange={handleRadio}
+                />
+                2&nbsp;
+                <br />
+                <input
+                  id="1"
+                  value="1"
+                  name="platform"
+                  required
+                  type="radio"
+                  onChange={handleRadio}
+                />
+                1&nbsp; <br />
+                <input
+                  id="3"
+                  value="3"
+                  name="platform"
+                  required
+                  type="radio"
+                  onChange={handleRadio}
+                />
+                3&nbsp; <br />
               </div>
             </div>
           ) : (

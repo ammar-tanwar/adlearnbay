@@ -54,7 +54,7 @@ const ThankYou = ({ initialName }) => {
             x.parentNode.insertBefore(s, x);`,
           }}
         />
-        
+
         <script
           dangerouslySetInnerHTML={{
             __html: `

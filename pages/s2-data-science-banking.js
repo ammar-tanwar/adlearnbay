@@ -122,15 +122,15 @@ export default function Home() {
             <p>Register for our Data Science & AI Master Program and take your career to new heights</p>
             <div className={styles.section42}>
               <p>Hands-on<br /><span>Experience</span></p>
-              <p>Premium 1-on-1<br/><span> Mentoring</span></p>
-              <p>Unlimited<br/><span>Job Interview Calls</span></p>
-              <p>250% <br/><span>Salary Hike</span></p>
+              <p>Premium 1-on-1<br /><span> Mentoring</span></p>
+              <p>Unlimited<br /><span>Job Interview Calls</span></p>
+              <p>250% <br /><span>Salary Hike</span></p>
             </div>
           </div>
           <div>
-          <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Domain-faq-right.png" width="519" height="350" layout="intrinsic"
-          />
+            <Image
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Domain-faq-right.png" width="519" height="350" layout="intrinsic"
+            />
           </div>
         </div>
         <CourseReview

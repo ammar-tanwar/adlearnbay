@@ -118,7 +118,7 @@ export default function Home() {
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
-          title="Explore Our Advance Data Analytics Certification Programs"
+            title="Explore Our Advance Data Analytics Certification Programs"
             Box1h5={DataAnalyticsCourseData[0].BoxShape.Box1h5}
             box1desc={DataAnalyticsCourseData[0].BoxShape.box1desc}
             Box2h5={DataAnalyticsCourseData[0].BoxShape.Box2h5}
@@ -154,7 +154,7 @@ export default function Home() {
           project={DataAnalyticsCourseData[0].project}
         />
         <OurExpert
-        H5="Advance Data Analytics Tools Covered"
+          H5="Advance Data Analytics Tools Covered"
           img1={DataAnalyticsCourseData[0].OurExpert.img1}
           img2={DataAnalyticsCourseData[0].OurExpert.img2}
           img3={DataAnalyticsCourseData[0].OurExpert.img3}

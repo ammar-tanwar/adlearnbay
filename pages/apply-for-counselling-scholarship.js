@@ -70,20 +70,20 @@ function Counselling() {
                 />
             </Head>
             <Navbar radio={true} />
-                <div className={styles.formq}>
-                    <div className={styles.formlScho}>
-                        <div className={styles.div1}>LEARNBAY</div>
-                        <h1>Receive upto 15% Scholarship on your course fee.</h1>
-                        <div>
-                            <p>Learnbay online scholarship is for inspired and motivated individuals who wish to upgrade their career. Give your career a lift with this scholarship, this is your chance to Learn and lead anywhere!</p>
-                            <p>Get your profile reviewed by connecting with one of our counsellors now.</p>
-                        </div>
-                    </div>
-
-                    <div className={styles.formr}>
-                        <Form jobPlace={true} jobDesc={true}/>
+            <div className={styles.formq}>
+                <div className={styles.formlScho}>
+                    <div className={styles.div1}>LEARNBAY</div>
+                    <h1>Receive upto 15% Scholarship on your course fee.</h1>
+                    <div>
+                        <p>Learnbay online scholarship is for inspired and motivated individuals who wish to upgrade their career. Give your career a lift with this scholarship, this is your chance to Learn and lead anywhere!</p>
+                        <p>Get your profile reviewed by connecting with one of our counsellors now.</p>
                     </div>
                 </div>
+
+                <div className={styles.formr}>
+                    <Form jobPlace={true} jobDesc={true} />
+                </div>
+            </div>
             <Footer />
         </div>
     )

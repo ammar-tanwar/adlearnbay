@@ -30,13 +30,13 @@ export default function Home() {
   return (
     <div>
       <Head>
-      <title>100% Placement Assistance Course - Learnbay</title>
-      <meta
-        name="description"
-        content="Advance certification 100% placement assistance course with 1:1 Guaranteed 
+        <title>100% Placement Assistance Course - Learnbay</title>
+        <meta
+          name="description"
+          content="Advance certification 100% placement assistance course with 1:1 Guaranteed 
         interview calls, 20+ Real-time projects, 3+ Capstone projects, 3 years of course 
         subscription ,Lifetime Access to recorded classes and 24/7 Learner’s support."
-      /><meta name="Keywords" content="best data science course with placement assistance, data analytics course with job assistance, online data science course with placement assistance, data analytics online course with placement assistance, placement assistance data science course, job assitance machine learning courses, placement assistance artificial intelligence courses, data analytics course with placement assistance, machine learning course with placement assistance, data science Placement assistance program india, data science course with job assistance india, job assistance data science courses" />
+        /><meta name="Keywords" content="best data science course with placement assistance, data analytics course with job assistance, online data science course with placement assistance, data analytics online course with placement assistance, placement assistance data science course, job assitance machine learning courses, placement assistance artificial intelligence courses, data analytics course with placement assistance, machine learning course with placement assistance, data science Placement assistance program india, data science course with job assistance india, job assistance data science courses" />
 
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
@@ -146,7 +146,7 @@ export default function Home() {
           src={JobGuaranteeCourseData[0].Certificate.src}
         />
 
-        <SyllabusNew 
+        <SyllabusNew
           syllabus={JobGuaranteeCourseData[0].syllabus}
           syllabusDesc={JobGuaranteeCourseData[0].syllabusDesc}
           popupHead="Download Course Brochure"
@@ -204,7 +204,7 @@ export default function Home() {
           CourseFeelist4="Multiple Domain & Project Experties Selection Options"
           CourseFeelist5="Company-based Mock Interviews"
         />
-        <LearnSupport  organicNum={true}/>
+        <LearnSupport organicNum={true} />
         <Footer />
       </main>
     </div>

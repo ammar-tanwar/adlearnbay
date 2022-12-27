@@ -73,7 +73,7 @@ export default function Home() {
 
 
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} formotp= {true}/>
+      <main>  <Navbar popup={true} dataScience={true} formotp={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -85,20 +85,20 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection formotp= {true}
-        deskTopPara={DsaCourseData[0].FirstSection.deskTopPara}
-        mTopPara={DsaCourseData[0].FirstSection.mTopPara}
-        mTitle={DsaCourseData[0].FirstSection.mTitle}
-        spanMTitleText={DsaCourseData[0].FirstSection.spanMTitleText}
-        title={DsaCourseData[0].FirstSection.title}
-        spanTitleText={DsaCourseData[0].FirstSection.spanTitleText}
-        desc={DsaCourseData[0].FirstSection.desc}
-        src={DsaCourseData[0].FirstSection.src}
-        width={DsaCourseData[0].FirstSection.width}
-        height={DsaCourseData[0].FirstSection.height}
-        alt={DsaCourseData[0].FirstSection.alt}
-        srcD={DsaCourseData[0].FirstSection.srcD}
-    />
+        <FirstSection formotp={true}
+          deskTopPara={DsaCourseData[0].FirstSection.deskTopPara}
+          mTopPara={DsaCourseData[0].FirstSection.mTopPara}
+          mTitle={DsaCourseData[0].FirstSection.mTitle}
+          spanMTitleText={DsaCourseData[0].FirstSection.spanMTitleText}
+          title={DsaCourseData[0].FirstSection.title}
+          spanTitleText={DsaCourseData[0].FirstSection.spanTitleText}
+          desc={DsaCourseData[0].FirstSection.desc}
+          src={DsaCourseData[0].FirstSection.src}
+          width={DsaCourseData[0].FirstSection.width}
+          height={DsaCourseData[0].FirstSection.height}
+          alt={DsaCourseData[0].FirstSection.alt}
+          srcD={DsaCourseData[0].FirstSection.srcD}
+        />
         <div className={styles.program}>
           <ProgramInfo
             p1={DsaCourseData[0].ProgramInfo.p1}
@@ -128,9 +128,9 @@ export default function Home() {
         </div>
 
         <DomainFaq FaqData={DomainFaqCourseData1} />
-        <CourseReview formotp= {true}/>
+        <CourseReview formotp={true} />
 
-        <SyllabusNew formotp= {true} syllabusFormotp={true}
+        <SyllabusNew formotp={true} syllabusFormotp={true}
           syllabus={DsaCourseData[0].syllabus}
           syllabusDesc={DsaCourseData[0].syllabusDesc}
           popupHead="Download Course Brochure"
@@ -139,19 +139,19 @@ export default function Home() {
           project="12+ Real Time"
         />
 
-        <ProgramFee Fee={DsaCourseData[0].ProgramFee.Fee} formotp= {true}
+        <ProgramFee Fee={DsaCourseData[0].ProgramFee.Fee} formotp={true}
           Emi={DsaCourseData[0].ProgramFee.Emi} CourseFeeAndFinancing="Program Fee & Financing"
           para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." dataScience={true} />
         <SliderTab />
 
         <div className={styles.ProjectWrapper} id="project">
-          <Project formotp= {true}
+          <Project formotp={true}
             project={DsaCourseData[0].Project.project}
             domain={DsaCourseData[0].Project.domain}
             projectTitle={DsaCourseData[0].Project.projectTitle} />
         </div>
 
-        <Batch formotp= {true}
+        <Batch formotp={true}
           syllabusDesc={DsaCourseData[0].syllabusDesc}
           syllabus={DsaCourseData[0].Batch}
 
@@ -163,7 +163,7 @@ export default function Home() {
           CourseFeelist4={DsaCourseData[0].BatchCourses.CourseFeelist4}
           CourseFeelist5={DsaCourseData[0].BatchCourses.CourseFeelist5}
         />
-        <LearnSupport  organicNum={true}/>
+        <LearnSupport organicNum={true} />
         <Footer />
       </main>
     </div>

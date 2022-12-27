@@ -13,7 +13,7 @@ function Counselling() {
         <meta name="description" content="Learnbay Courses" />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
-      <Navbar radio={true} /> 
+      <Navbar radio={true} />
       <div className={styles.formq1}>
         <div className={styles.formr}>
           <h1 className={styles.markH1}>#1 Domain Specialised Certification Program For <span className={styles.markSpan}>Working Professionals</span></h1>

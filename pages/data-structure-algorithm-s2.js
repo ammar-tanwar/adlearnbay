@@ -73,7 +73,7 @@ export default function Home() {
 
 
             </Head>
-            <main>  <Navbar popup={true} formotp= {true}/>
+            <main>  <Navbar popup={true} formotp={true} />
 
                 <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
                     <div className="leftPopup">
@@ -85,7 +85,7 @@ export default function Home() {
                     </div>
                 </Popup>
 
-                <FirstSection formotp= {true}
+                <FirstSection formotp={true}
                     deskTopPara={DataStructureAlgorithmData[0].FirstSection.deskTopPara}
                     mTopPara={DataStructureAlgorithmData[0].FirstSection.mTopPara}
                     mTitle={DataStructureAlgorithmData[0].FirstSection.mTitle}
@@ -112,7 +112,7 @@ export default function Home() {
                     />
                 </div>
                 <div className="Feature" id="Feature">
-                    <BoxShape 
+                    <BoxShape
                         title={DataStructureAlgorithmData[0].BoxShape.title}
                         Box1h5={DataStructureAlgorithmData[0].BoxShape.Box1h5}
                         box1desc={DataStructureAlgorithmData[0].BoxShape.box1desc}
@@ -128,7 +128,7 @@ export default function Home() {
 
 
                 <div className={styles.Feature} id="Feature">
-                    <BoxShape1 formotp= {true}
+                    <BoxShape1 formotp={true}
                         title={DataStructureAlgorithmData[0].BoxShape1.title}
                         Box1h5={DataStructureAlgorithmData[0].BoxShape1.Box1h5}
                         box1desc={DataStructureAlgorithmData[0].BoxShape1.box1desc}
@@ -141,7 +141,7 @@ export default function Home() {
 
                     />
                 </div>
-                <CourseReview formotp= {true}/>
+                <CourseReview formotp={true} />
                 <SyllabusNew formotp={true} syllabusFormotp={true}
                     syllabus={DataStructureAlgorithmData[0].syllabus}
                     syllabusDesc={DataStructureAlgorithmData[0].syllabusDesc}
@@ -154,14 +154,14 @@ export default function Home() {
                 />
 
 
-                <ProgramFee Fee={DataStructureAlgorithmData[0].ProgramFee.Fee} Emi={DataStructureAlgorithmData[0].ProgramFee.Emi} formotp= {true}
+                <ProgramFee Fee={DataStructureAlgorithmData[0].ProgramFee.Fee} Emi={DataStructureAlgorithmData[0].ProgramFee.Emi} formotp={true}
                     CourseFeeAndFinancing={DataStructureAlgorithmData[0].ProgramFee.CourseFeeAndFinancing}
                     para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." dataScience={true}
                 />
                 <div className={styles.ProjectWrapper} id="project">
-                    <Project project={DataStructureAlgorithmData[0].Project.project} domain={DataStructureAlgorithmData[0].Project.domain} formotp= {true}/>
+                    <Project project={DataStructureAlgorithmData[0].Project.project} domain={DataStructureAlgorithmData[0].Project.domain} formotp={true} />
                 </div>
-                <Batch formotp= {true}
+                <Batch formotp={true}
                     syllabusDesc={DataStructureAlgorithmData[0].syllabusDesc}
                     syllabus={DataStructureAlgorithmData[0].Batch}
                     CourseFeeHead={DataStructureAlgorithmData[0].BatchCourses.CourseFeeHead}
@@ -174,28 +174,28 @@ export default function Home() {
                 />
 
                 <div className={styles.boxContent}>
-                <div className={styles.FirstBox}>
-                    <p className={styles.FirstP}>Why is it important to learn DSA to get into product-based companies?</p>
-                    <p className={styles.SecondP}>Data structures are generally used to organize, process, retrieve, and store data on computers for efficient use. Proper understanding of data structures and algorithms helps software engineers to write the right code. Data structures and Algorithms are an important part of computer science and help to understand the problem on a deeper level. They are widely used in artificial intelligence, operating systems, graphics and other fields. If the programmer is not familiar with data structures and algorithms course, he may not be able to write efficient data handling code. Hence a programmer who’s trying to switch to product company needs to Learn Data structures and algorithms course.</p>
+                    <div className={styles.FirstBox}>
+                        <p className={styles.FirstP}>Why is it important to learn DSA to get into product-based companies?</p>
+                        <p className={styles.SecondP}>Data structures are generally used to organize, process, retrieve, and store data on computers for efficient use. Proper understanding of data structures and algorithms helps software engineers to write the right code. Data structures and Algorithms are an important part of computer science and help to understand the problem on a deeper level. They are widely used in artificial intelligence, operating systems, graphics and other fields. If the programmer is not familiar with data structures and algorithms course, he may not be able to write efficient data handling code. Hence a programmer who’s trying to switch to product company needs to Learn Data structures and algorithms course.</p>
+                    </div>
+                    <div>
+                        <div className={styles.InnerBox}>
+                            <p className={styles.SecondP}>Most product based companies looks at how great your DSA skills are and how you use it on a daily basis to solve problems and for that you require to learn DSA course</p>
+                        </div>
+                        <div className={styles.InnerBox}>
+                            <p className={styles.SecondP}>Data Structure course can helps one to understand how to apply the right data structures and that it is an important step in managing your data well and writing efficient code.</p>
+                        </div>
+                        <div className={styles.InnerBox}>
+                            <p className={styles.SecondP}>DSA course will help the transition to product based companies easier as they also prepare you for the interview.</p>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <div className={styles.InnerBox}>
-                        <p className={styles.SecondP}>Most product based companies looks at how great your DSA skills are and how you use it on a daily basis to solve problems and for that you require to learn DSA course</p>
-                    </div>
-                    <div className={styles.InnerBox}>
-                        <p className={styles.SecondP}>Data Structure course can helps one to understand how to apply the right data structures and that it is an important step in managing your data well and writing efficient code.</p>
-                    </div>
-                    <div className={styles.InnerBox}>
-                        <p className={styles.SecondP}>DSA course will help the transition to product based companies easier as they also prepare you for the interview.</p>
-                    </div>
-                </div>
-            </div>
 
                 <LearnSupport />
 
-                <Footer 
-                paraTag="Enroll now for Full Stack and DSA Program (Bangalore) and get master in Data Structures and System Design Skills which will help you to transform your career."
-                pTag={true}
+                <Footer
+                    paraTag="Enroll now for Full Stack and DSA Program (Bangalore) and get master in Data Structures and System Design Skills which will help you to transform your career."
+                    pTag={true}
                 />
             </main>
         </div>

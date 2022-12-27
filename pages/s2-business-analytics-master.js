@@ -122,7 +122,7 @@ export default function Home() {
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
-          title="Explore Our Business Analytics Master Programs"
+            title="Explore Our Business Analytics Master Programs"
             Box1h5={BusinessAnalyticsCourseData[0].BoxShape.Box1h5}
             box1desc={BusinessAnalyticsCourseData[0].BoxShape.box1desc}
             Box2h5={BusinessAnalyticsCourseData[0].BoxShape.Box2h5}
@@ -140,11 +140,11 @@ export default function Home() {
           p2=" Working at TCS"
           p3="Working at Capgemini" />
         <Certificate
-        title="Course Completion Certificate from IBM"
-        desc="Complete your training with the internationally recognized certificate."
-        desc2="Validate your Business Analytics skills with IBM Course Completion Certificate."
-        desc3="Get acknowledged in IT sector by adding IBM Certificate to your profile."
-        src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BA-DA.jpeg"
+          title="Course Completion Certificate from IBM"
+          desc="Complete your training with the internationally recognized certificate."
+          desc2="Validate your Business Analytics skills with IBM Course Completion Certificate."
+          desc3="Get acknowledged in IT sector by adding IBM Certificate to your profile."
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BA-DA.jpeg"
         ></Certificate>
 
         <SyllabusNew
@@ -158,7 +158,7 @@ export default function Home() {
           project={BusinessAnalyticsCourseData[0].project}
         />
         <OurExpert
-        H5="Business Analytics Tools Covered"
+          H5="Business Analytics Tools Covered"
           img1={BusinessAnalyticsCourseData[0].OurExpert.img1}
           img2={BusinessAnalyticsCourseData[0].OurExpert.img2}
           img3={BusinessAnalyticsCourseData[0].OurExpert.img3}

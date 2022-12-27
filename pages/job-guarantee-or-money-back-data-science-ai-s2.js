@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css' 
+import styles from '../styles/Home.module.css'
 import FirstSection from "../Components/HeroSection/HeroSection";
 import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
 import GetHired from "../Components/GetHired/GetHired";
@@ -25,13 +25,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-      <title>100% Placement Assistance Course - Learnbay</title>
-      <meta
-        name="description"
-        content="Advance certification 100% placement assistance course with 1:1 Guaranteed 
+        <title>100% Placement Assistance Course - Learnbay</title>
+        <meta
+          name="description"
+          content="Advance certification 100% placement assistance course with 1:1 Guaranteed 
         interview calls, 20+ Real-time projects, 3+ Capstone projects, 3 years of course 
         subscription ,Lifetime Access to recorded classes and 24/7 Learner’s support."
-      /><meta name="Keywords" content="best data science course with placement assistance, data analytics course with job assistance, online data science course with placement assistance, data analytics online course with placement assistance, placement assistance data science course, job assitance machine learning courses, placement assistance artificial intelligence courses, data analytics course with placement assistance, machine learning course with placement assistance, data science Placement assistance program india, data science course with job assistance india, job assistance data science courses" />
+        /><meta name="Keywords" content="best data science course with placement assistance, data analytics course with job assistance, online data science course with placement assistance, data analytics online course with placement assistance, placement assistance data science course, job assitance machine learning courses, placement assistance artificial intelligence courses, data analytics course with placement assistance, machine learning course with placement assistance, data science Placement assistance program india, data science course with job assistance india, job assistance data science courses" />
 
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
@@ -74,98 +74,98 @@ export default function Home() {
         />
       </Head>
       <main>
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-        <div className="leftPopup">
-          <div className="whiteP" />
-        </div>
-        <div className="RightPopup">
-          <h5>Apply For Counselling</h5>
-                   {/* <p>Fill the below Details to get started</p> */}
+        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+          <div className="leftPopup">
+            <div className="whiteP" />
+          </div>
+          <div className="RightPopup">
+            <h5>Apply For Counselling</h5>
+            {/* <p>Fill the below Details to get started</p> */}
 
-          <Form popup={true} setTrigger={setPopups} />
-        </div>
-      </Popup>
-   
-      <Navbar 
-      
-      Href="/data-science-certification-courses-s2"
-      Course="Data Science & AI Certification"
+            <Form popup={true} setTrigger={setPopups} />
+          </div>
+        </Popup>
 
-      Href1="/advance-ai-ml-certification-s2"
-      Course1="Advance AI & ML Certification"
+        <Navbar
 
-      Href2="/data-science-ai-cert-for-managers-leaders-s2"
-      Course2="Data Science & AI Cert. For Managers & Leaders"
+          Href="/data-science-certification-courses-s2"
+          Course="Data Science & AI Certification"
 
-      Href3="/job-guarantee-or-money-back-data-science-ai-s2"
-      Course3="100% Placement Assistance – Data Science & AI"
-      
-      
-      
-      />
-      <FirstSection
-        deskTopPara="Experience-based certification course for professionals"
-        mTopPara="Experience-based certification course for professionals"
-        title="Data Science and AI Program"
-        spanTitleText="With 100% Placement Assistance"
-        desc="The course has been designed specifically for working professionals who choose to advance their careers in Data Science and AI."
-      />
-      <div className={styles.program}>
-        <ProgramInfo
-          BatchDate="2+ Years Work Experience"
-          BatchDuration="Accredited with IBM"
-          Placement="20+ Real Time Projects"
-          EMI="₹ 10,816/month"
+          Href1="/advance-ai-ml-certification-s2"
+          Course1="Advance AI & ML Certification"
+
+          Href2="/data-science-ai-cert-for-managers-leaders-s2"
+          Course2="Data Science & AI Cert. For Managers & Leaders"
+
+          Href3="/job-guarantee-or-money-back-data-science-ai-s2"
+          Course3="100% Placement Assistance – Data Science & AI"
+
+
+
         />
-      </div>
-      <GetHired />
-      <div className="Feature" id="Feature">
-        <BoxShape
-          title="Why Enroll In This Program"
-          Box1h5="Custom-fit Training"
-          box1desc="Get specially designed molecules as per your dream DS/AI role. Learn demanding DS/AI applications."
-          Box2h5="Domain Focused"
-          box2desc="Obtain cutting-edge DS/Al skills as per demanding IT-industry standards. Choose from 10+ domains."
-          Box3h5="Premium Mentoring"
-          box3desc="Enjoy the edge of mock interviews and CV writing workshops with FAANG Data Science/AI whizzes."
-          Box4h5="Hands-on Experience"
-          box4desc="Get diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
+        <FirstSection
+          deskTopPara="Experience-based certification course for professionals"
+          mTopPara="Experience-based certification course for professionals"
+          title="Data Science and AI Program"
+          spanTitleText="With 100% Placement Assistance"
+          desc="The course has been designed specifically for working professionals who choose to advance their careers in Data Science and AI."
         />
-      </div>
-      <div className={styles.ExpertWrapper}>
-        <div className={styles.expert}>
-          <h5>Our experts are from:</h5>
+        <div className={styles.program}>
+          <ProgramInfo
+            BatchDate="2+ Years Work Experience"
+            BatchDuration="Accredited with IBM"
+            Placement="20+ Real Time Projects"
+            EMI="₹ 10,816/month"
+          />
         </div>
-        <div className={styles.expertBody}>
-          <OurExpert />
+        <GetHired />
+        <div className="Feature" id="Feature">
+          <BoxShape
+            title="Why Enroll In This Program"
+            Box1h5="Custom-fit Training"
+            box1desc="Get specially designed molecules as per your dream DS/AI role. Learn demanding DS/AI applications."
+            Box2h5="Domain Focused"
+            box2desc="Obtain cutting-edge DS/Al skills as per demanding IT-industry standards. Choose from 10+ domains."
+            Box3h5="Premium Mentoring"
+            box3desc="Enjoy the edge of mock interviews and CV writing workshops with FAANG Data Science/AI whizzes."
+            Box4h5="Hands-on Experience"
+            box4desc="Get diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
+          />
         </div>
-      </div>
-      <div className={styles.cta}>
-        <div className={styles.left}></div>
-        <div className={styles.middle}>
-          <h6>Talk to our team directly.</h6>
-          <p>Reach out and a learning consultant will get in touch with you shortly.</p>
+        <div className={styles.ExpertWrapper}>
+          <div className={styles.expert}>
+            <h5>Our experts are from:</h5>
+          </div>
+          <div className={styles.expertBody}>
+            <OurExpert />
+          </div>
         </div>
-        <div className={styles.right}>
-          <button onClick={popupShow}>Enquire Now</button>
+        <div className={styles.cta}>
+          <div className={styles.left}></div>
+          <div className={styles.middle}>
+            <h6>Talk to our team directly.</h6>
+            <p>Reach out and a learning consultant will get in touch with you shortly.</p>
+          </div>
+          <div className={styles.right}>
+            <button onClick={popupShow}>Enquire Now</button>
+          </div>
         </div>
-      </div>
-      <Certificate
-        popupHead="Download Brochure"
-        title="Earn a globally recognized Certified at the end of your learning journey."
-        desc="Get access to IBM cloud lab to keep an eye on trending industrial case studies of data mining, time-series forecasting, AI-based database management, and authenticated data handling."
-        desc2 ="Experts from IBM share their ideas and tactics to deal with tricky business problems within the regularly changing analytical environments."
-        desc3 ="Data Science Leads from IBM as instructors."
+        <Certificate
+          popupHead="Download Brochure"
+          title="Earn a globally recognized Certified at the end of your learning journey."
+          desc="Get access to IBM cloud lab to keep an eye on trending industrial case studies of data mining, time-series forecasting, AI-based database management, and authenticated data handling."
+          desc2="Experts from IBM share their ideas and tactics to deal with tricky business problems within the regularly changing analytical environments."
+          desc3="Data Science Leads from IBM as instructors."
 
-      />
-      <Syllabus />
-      <ToolsCovered />
-      <div className={styles.ProjectWrapper} id="project">
-      <Project domainDetails="7+" projectDetails="20+"/>
-      </div>
-       
-      <Footer />
-      </main> 
+        />
+        <Syllabus />
+        <ToolsCovered />
+        <div className={styles.ProjectWrapper} id="project">
+          <Project domainDetails="7+" projectDetails="20+" />
+        </div>
+
+        <Footer />
+      </main>
     </div>
   )
 }

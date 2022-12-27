@@ -30,18 +30,18 @@ export default function Home() {
   return (
     <div>
       <Head>
-      <title>
-      Data Science course - Learnbay
-      </title>
-      <meta
-        name="description"
-        content="Advance certification online data science course with 100% placement assistance 
+        <title>
+          Data Science course - Learnbay
+        </title>
+        <meta
+          name="description"
+          content="Advance certification online data science course with 100% placement assistance 
         and get 1:1 Guaranteed interview calls, 12+ Real-time projects, 1+ Capstone 
         projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
         24/7 Learner’s support."
-      />
-      <meta name="Keywords" content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee" />
-      <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        />
+        <meta name="Keywords" content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee" />
+        <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
@@ -200,7 +200,7 @@ export default function Home() {
           CourseFeelist4="Multiple Domain Selection Options"
           CourseFeelist5="Company-based Mock Interviews"
         />
-        <LearnSupport  organicNum={true}/>
+        <LearnSupport organicNum={true} />
         <Footer />
       </main>
     </div>

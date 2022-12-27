@@ -18,7 +18,7 @@ import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
 import Navbar from "../Components/CoursePage/NavbarDyn/Navbar";
 import Footer from "../Components/Footers3/Footers3";
- 
+
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -29,13 +29,13 @@ export default function Home() {
   return (
     <div>
       <Head>
-      <title>100% Placement Assistance Course - Learnbay</title>
-      <meta
-        name="description"
-        content="Advance certification 100% placement assistance course with 1:1 Guaranteed 
+        <title>100% Placement Assistance Course - Learnbay</title>
+        <meta
+          name="description"
+          content="Advance certification 100% placement assistance course with 1:1 Guaranteed 
         interview calls, 20+ Real-time projects, 3+ Capstone projects, 3 years of course 
         subscription ,Lifetime Access to recorded classes and 24/7 Learner’s support."
-      /><meta name="Keywords" content="best data science course with placement assistance, data analytics course with job assistance, online data science course with placement assistance, data analytics online course with placement assistance, placement assistance data science course, job assitance machine learning courses, placement assistance artificial intelligence courses, data analytics course with placement assistance, machine learning course with placement assistance, data science Placement assistance program india, data science course with job assistance india, job assistance data science courses" />
+        /><meta name="Keywords" content="best data science course with placement assistance, data analytics course with job assistance, online data science course with placement assistance, data analytics online course with placement assistance, placement assistance data science course, job assitance machine learning courses, placement assistance artificial intelligence courses, data analytics course with placement assistance, machine learning course with placement assistance, data science Placement assistance program india, data science course with job assistance india, job assistance data science courses" />
 
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
@@ -79,33 +79,33 @@ export default function Home() {
       </Head>
       <main>
 
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-        <div className="leftPopup">
-          <div className="whiteP" />
-        </div>
-        <div className="RightPopup">
-          <h5>Apply For Counselling</h5>
-                   {/* <p>Fill the below Details to get started</p> */}
+        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+          <div className="leftPopup">
+            <div className="whiteP" />
+          </div>
+          <div className="RightPopup">
+            <h5>Apply For Counselling</h5>
+            {/* <p>Fill the below Details to get started</p> */}
 
-          <Form popup={true} setTrigger={setPopups} />
-        </div>
-      </Popup>
+            <Form popup={true} setTrigger={setPopups} />
+          </div>
+        </Popup>
 
-      <Navbar  
-      Href="/data-science-certification-courses-s3"
-      Course="Data Science & AI Certification"
+        <Navbar
+          Href="/data-science-certification-courses-s3"
+          Course="Data Science & AI Certification"
 
-      Href1="/advance-ai-ml-certification-s3"
-      Course1="Advance AI & ML Certification"
+          Href1="/advance-ai-ml-certification-s3"
+          Course1="Advance AI & ML Certification"
 
-      Href2="/data-science-ai-cert-for-managers-leaders-s3"
-      Course2="Data Science & AI Cert. For Managers & Leaders"
+          Href2="/data-science-ai-cert-for-managers-leaders-s3"
+          Course2="Data Science & AI Cert. For Managers & Leaders"
 
-      Href3="/job-guarantee-or-money-back-data-science-ai-s3"
-      Course3="100% Placement Assistance – Data Science & AI"
+          Href3="/job-guarantee-or-money-back-data-science-ai-s3"
+          Course3="100% Placement Assistance – Data Science & AI"
 
-      />
-      <FirstSection dataScience={true}
+        />
+        <FirstSection dataScience={true}
           deskTopPara="Boost your career opportunities "
           deskTopPara1="by developing relevant skills."
           mTitle="Data Science and AI Program "
@@ -147,7 +147,7 @@ export default function Home() {
             box4desc="Get diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
           />
         </div>
-      
+
         <CourseReview
           p1="Working at HCL"
           p2=" Working at TCS"
@@ -161,7 +161,7 @@ export default function Home() {
           src={JobGuaranteeCourseData[0].Certificate.src}
         />
 
-        <SyllabusNew 
+        <SyllabusNew
           syllabus={JobGuaranteeCourseData[0].syllabus}
           syllabusDesc={JobGuaranteeCourseData[0].syllabusDesc}
           popupHead="Download Course Brochure"

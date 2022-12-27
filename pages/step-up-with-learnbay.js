@@ -34,7 +34,7 @@ export default function Home() {
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
       </Head>
       <main>
-        <Navbar radio={true} stepupJobExp={true}/>
+        <Navbar radio={true} stepupJobExp={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal" formIMG={true}>
           <div className="leftPopup">
             <div className="whiteP" />
@@ -43,7 +43,7 @@ export default function Home() {
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below Details to get started</p> */}
 
-            <Form popup={true} setTrigger={setPopups} stepupJobExp={true}/>
+            <Form popup={true} setTrigger={setPopups} stepupJobExp={true} />
           </div>
         </Popup>
         <div className={styles.formqS}>
@@ -53,7 +53,7 @@ export default function Home() {
             <div>
               <div className={styles.rightF}>
                 <section className={styles.form}>
-                  <Form radio={true} stepupJobExp={true}/>
+                  <Form radio={true} stepupJobExp={true} />
                 </section>
               </div>
             </div>
@@ -172,11 +172,11 @@ export default function Home() {
                   alt="data science course in bangalore"
                 />
                 <p>
-                Safeguarding your career, even under the most unstable job market scenario, via the acquisition of emerging technology-based unique skills.
+                  Safeguarding your career, even under the most unstable job market scenario, via the acquisition of emerging technology-based unique skills.
                 </p>
               </div>
               <div className={styles.aboutBox}>
-              <Image
+                <Image
                   src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/marketing/vision+2.png"
                   width="100"
                   height="100"
@@ -184,7 +184,7 @@ export default function Home() {
                   alt="data science course in bangalore"
                 />
                 <p>
-                To lead the industrial training sector by generating demanding professionals with future proof technical skills and knowledge.
+                  To lead the industrial training sector by generating demanding professionals with future proof technical skills and knowledge.
                 </p>
               </div>
             </div>
@@ -198,7 +198,7 @@ export default function Home() {
               alt="data science course in bangalore"
             />
           </div>
-          </div>
+        </div>
         <CourseDs />
         <SliderTabDS />
         <CourseFs />

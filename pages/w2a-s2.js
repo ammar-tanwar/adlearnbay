@@ -72,7 +72,7 @@ export default function Home() {
 
 
             </Head>
-            <main>  <Navbar popup={true} eventQRadio={true}/>
+            <main>  <Navbar popup={true} eventQRadio={true} />
 
                 <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
                     <div className="leftPopup">
@@ -80,7 +80,7 @@ export default function Home() {
                     </div>
                     <div className="RightPopup">
                         <h5>Apply For Counselling</h5>
-                        <Form popup={true} setTrigger={setPopups}/>
+                        <Form popup={true} setTrigger={setPopups} />
                     </div>
                 </Popup>
 

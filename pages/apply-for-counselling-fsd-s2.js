@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Counseling.module.css'
-import {React, useState, useEffect} from 'react'
+import { React, useState, useEffect } from 'react'
 import Navbar from "../Components/NavbarA/Navbar";
 import Footer from "../Components/CoursePage/Footer/Footer";
 import FormOtp from "../Components/FormOtp/FormOtp"
@@ -13,17 +13,17 @@ function Counselling() {
     const [mobile, setMobile] = useState(false);
     useEffect(() => {
         let width = window.innerWidth;
-    
+
         if (width < 481) {
-          setMobile(true);
+            setMobile(true);
         }
         if (width > 481) {
-          setMobile(false);
+            setMobile(false);
         }
-      }, [mobile]);
+    }, [mobile]);
     const [showMe, setShowMe] = useState(false);
-    function toggle(){
-      setShowMe(!showMe);
+    function toggle() {
+        setShowMe(!showMe);
     }
     return (
         <div>
@@ -70,105 +70,105 @@ function Counselling() {
                     }}
                 />
             </Head>
-            <Navbar radio={true} formotp= {true}/>
+            <Navbar radio={true} formotp={true} />
 
-            {mobile? (
+            {mobile ? (
                 <div className={styles.formq}>
-                <div className={styles.forml}>
-                    <div className={styles.div1}>LEARNBAY</div>
-                    <h1>Free Profile Review and Career Counseling | By Experts</h1>
-                    <div className={styles.timeDetail}>
-                        <p><MdWatchLater /> 15-20 &nbsp; Mins</p>
-                        <p> <MdLocationPin />Telephonic Discussion</p>
-                    </div>
-
-                    <div>
-                        <p>Book a session with a career counsellor or course advisor to go through your requirements in further detail.</p>
-                        <p><strong>TOPICS COVERED IN DISCUSSION:</strong></p>
-
-                        
-                        <div style={{
-                            display: showMe?"block":"none"
-                          }}>
-                        <ul>
-                            <li>Can a candidate from the non-programming and non-technical domain learn data science?</li>
-                            <li>Will your previous domain experience utilized?</li>
-                            <li>Course Curriculum</li>
-                            <li>Real-Time Projects List</li>
-                            <li>How to change the domain and whether your profile is suitable for data science?</li>
-                            <li>Career Options in the data science domain</li>
-                            <li>Placement Assistance and Job referrals </li>
-                        
-                            </ul>
-
-                        <p><strong>Minimum Duration:</strong>&nbsp;15 to 20 minutes.</p>
-                        <p>Your queries and doubts will be answered through this session with a professional.</p>
-                        <p>Thanks,</p>
-                        <p><strong>Team Learnbay</strong></p>
+                    <div className={styles.forml}>
+                        <div className={styles.div1}>LEARNBAY</div>
+                        <h1>Free Profile Review and Career Counseling | By Experts</h1>
+                        <div className={styles.timeDetail}>
+                            <p><MdWatchLater /> 15-20 &nbsp; Mins</p>
+                            <p> <MdLocationPin />Telephonic Discussion</p>
                         </div>
 
-                        
+                        <div>
+                            <p>Book a session with a career counsellor or course advisor to go through your requirements in further detail.</p>
+                            <p><strong>TOPICS COVERED IN DISCUSSION:</strong></p>
+
+
+                            <div style={{
+                                display: showMe ? "block" : "none"
+                            }}>
+                                <ul>
+                                    <li>Can a candidate from the non-programming and non-technical domain learn data science?</li>
+                                    <li>Will your previous domain experience utilized?</li>
+                                    <li>Course Curriculum</li>
+                                    <li>Real-Time Projects List</li>
+                                    <li>How to change the domain and whether your profile is suitable for data science?</li>
+                                    <li>Career Options in the data science domain</li>
+                                    <li>Placement Assistance and Job referrals </li>
+
+                                </ul>
+
+                                <p><strong>Minimum Duration:</strong>&nbsp;15 to 20 minutes.</p>
+                                <p>Your queries and doubts will be answered through this session with a professional.</p>
+                                <p>Thanks,</p>
+                                <p><strong>Team Learnbay</strong></p>
+                            </div>
+
+
+                        </div>
+
+                        <a className={styles.btnout} style={{ marginTop: "20px" }} onClick={toggle}>
+
+
+                            {showMe ? (
+                                <span style={{ color: "#0070f3" }}>Show less
+                                    <FaArrowUp style={{ marginLeft: "10px" }} />
+                                </span>
+                            ) : (
+                                <span style={{ color: "#0070f3" }}>Show more
+                                    <FaArrowDown style={{ marginLeft: "10px" }} />
+                                </span>
+                            )
+                            }
+
+                        </a>
+
+
                     </div>
 
-                    <a className={styles.btnout} style={{ marginTop: "20px"}} onClick={toggle}>
-
-
-                    {showMe ? (
-                        <span style={{color:"#0070f3"}}>Show less
-                        <FaArrowUp style={{ marginLeft: "10px" }} /> 
-                        </span>
-                      ) : (
-                        <span style={{color:"#0070f3"}}>Show more
-                        <FaArrowDown style={{ marginLeft: "10px" }} /> 
-                        </span>
-                      )
-                     }
-                        
-                      </a>
-
-
+                    <div className={styles.formr}>
+                        <Form />
+                    </div>
                 </div>
-
-                <div className={styles.formr}>
-                    <Form />
-                </div>
-            </div>
-            ):(
+            ) : (
 
                 <div className={styles.formq}>
-                <div className={styles.forml}>
-                    <div className={styles.div1}>LEARNBAY</div>
-                    <h1>Free Profile Review and Career Counseling | By Experts</h1>
-                    <div className={styles.timeDetail}>
-                        <p><MdWatchLater /> 15-20 &nbsp; Mins</p>
-                        <p> <MdLocationPin />Telephonic Discussion</p>
+                    <div className={styles.forml}>
+                        <div className={styles.div1}>LEARNBAY</div>
+                        <h1>Free Profile Review and Career Counseling | By Experts</h1>
+                        <div className={styles.timeDetail}>
+                            <p><MdWatchLater /> 15-20 &nbsp; Mins</p>
+                            <p> <MdLocationPin />Telephonic Discussion</p>
+                        </div>
+
+                        <div>
+                            <p>Book a session with a career counsellor or course advisor to go through your requirements in further detail.</p>
+                            <p><strong>TOPICS COVERED IN DISCUSSION:</strong></p>
+                            <ul>
+                                <li>Can a candidate from the non-programming and non-technical domain learn data science?</li>
+                                <li>Will your previous domain experience utilized?</li>
+                                <li>Course Curriculum</li>
+                                <li>Real-Time Projects List</li>
+                                <li>How to change the domain and whether your profile is suitable for data science?</li>
+                                <li>Career Options in the data science domain</li>
+                                <li>Placement Assistance and Job referrals </li>
+                            </ul>
+                            <p><strong>Minimum Duration:</strong>&nbsp;15 to 20 minutes.</p>
+                            <p>Your queries and doubts will be answered through this session with a professional.</p>
+                            <p>Thanks,</p>
+                            <p><strong>Team Learnbay</strong></p>
+                        </div>
                     </div>
 
-                    <div>
-                        <p>Book a session with a career counsellor or course advisor to go through your requirements in further detail.</p>
-                        <p><strong>TOPICS COVERED IN DISCUSSION:</strong></p>
-                        <ul>
-                            <li>Can a candidate from the non-programming and non-technical domain learn data science?</li>
-                            <li>Will your previous domain experience utilized?</li>
-                            <li>Course Curriculum</li>
-                            <li>Real-Time Projects List</li>
-                            <li>How to change the domain and whether your profile is suitable for data science?</li>
-                            <li>Career Options in the data science domain</li>
-                            <li>Placement Assistance and Job referrals </li>
-                            </ul>
-                        <p><strong>Minimum Duration:</strong>&nbsp;15 to 20 minutes.</p>
-                        <p>Your queries and doubts will be answered through this session with a professional.</p>
-                        <p>Thanks,</p>
-                        <p><strong>Team Learnbay</strong></p>
-                        </div>
+                    <div className={styles.formr}>
+                        <FormOtp />
+                    </div>
                 </div>
-
-                <div className={styles.formr}>
-                    <FormOtp /> 
-                </div>
-            </div>
             )}
-            
+
             <Footer />
         </div>
     )

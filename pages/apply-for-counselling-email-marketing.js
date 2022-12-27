@@ -16,7 +16,7 @@ function Counselling() {
       <Navbar radio={true} />
       <div className={styles.formq1}>
 
-      <div className={styles.formr}>
+        <div className={styles.formr}>
           <Form radio={true} />
         </div>
         <div className={styles.forml}>
@@ -43,9 +43,9 @@ function Counselling() {
           </div>
 
         </div>
-        
+
       </div>
-      <Footer mobileNum={true}/>
+      <Footer mobileNum={true} />
     </div>
   )
 }

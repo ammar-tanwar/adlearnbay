@@ -73,7 +73,7 @@ export default function Home() {
 
 
       </Head>
-      <main>  <Navbar popup={true} radio={true} formotp= {true}/>
+      <main>  <Navbar popup={true} radio={true} formotp={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -86,19 +86,19 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection formotp={true}
-        deskTopPara={DsaCourseData[0].FirstSection.deskTopPara}
-        mTopPara={DsaCourseData[0].FirstSection.mTopPara}
-        mTitle={DsaCourseData[0].FirstSection.mTitle}
-        spanMTitleText={DsaCourseData[0].FirstSection.spanMTitleText}
-        title={DsaCourseData[0].FirstSection.title}
-        spanTitleText={DsaCourseData[0].FirstSection.spanTitleText}
-        desc={DsaCourseData[0].FirstSection.desc}
-        src={DsaCourseData[0].FirstSection.src}
-        width={DsaCourseData[0].FirstSection.width}
-        height={DsaCourseData[0].FirstSection.height}
-        alt={DsaCourseData[0].FirstSection.alt}
-        srcD={DsaCourseData[0].FirstSection.srcD}
-    />
+          deskTopPara={DsaCourseData[0].FirstSection.deskTopPara}
+          mTopPara={DsaCourseData[0].FirstSection.mTopPara}
+          mTitle={DsaCourseData[0].FirstSection.mTitle}
+          spanMTitleText={DsaCourseData[0].FirstSection.spanMTitleText}
+          title={DsaCourseData[0].FirstSection.title}
+          spanTitleText={DsaCourseData[0].FirstSection.spanTitleText}
+          desc={DsaCourseData[0].FirstSection.desc}
+          src={DsaCourseData[0].FirstSection.src}
+          width={DsaCourseData[0].FirstSection.width}
+          height={DsaCourseData[0].FirstSection.height}
+          alt={DsaCourseData[0].FirstSection.alt}
+          srcD={DsaCourseData[0].FirstSection.srcD}
+        />
         <div className={styles.program}>
           <ProgramInfo
             p1={DsaCourseData[0].ProgramInfo.p1}
@@ -163,7 +163,7 @@ export default function Home() {
           CourseFeelist4={DsaCourseData[0].BatchCourses.CourseFeelist4}
           CourseFeelist5={DsaCourseData[0].BatchCourses.CourseFeelist5}
         />
-        <LearnSupport  organicNum={true}/>
+        <LearnSupport organicNum={true} />
         <Footer />
       </main>
     </div>

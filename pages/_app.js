@@ -7,16 +7,16 @@ import TagManager from 'react-gtm-module';
 
 
 function MyApp({ Component, pageProps }) {
-  
+
   useEffect(() => {
-    TagManager.initialize({gtmId:'GTM-NN8XWH8'})
+    TagManager.initialize({ gtmId: 'GTM-NN8XWH8' })
   }, []);
 
-  
+
   return (
     <>
       <Script
-      strategy="lazyOnload"
+        strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=GTM-NN8XWH8`}
       ></Script>
       <Script strategy="lazyOnload">
@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }) {
             },);
                 `}
       </Script>
-      
+
       <CookiesProvider>
         <Component {...pageProps} />
       </CookiesProvider>

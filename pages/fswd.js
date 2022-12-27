@@ -73,7 +73,7 @@ export default function Home() {
                     }}
                 />
             </Head>
-            <main> <Navbar popup={true} dataScience={true} formotp={true}/>
+            <main> <Navbar popup={true} dataScience={true} formotp={true} />
 
                 <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
                     <div className="leftPopup">
@@ -128,7 +128,7 @@ export default function Home() {
 
 
                 <DomainFaq FaqData={DomainFaqCourseData1} />
-                <CourseReview formotp={true}/>
+                <CourseReview formotp={true} />
                 <SyllabusNew formotp={true} syllabusFormotp={true}
                     syllabus={FullStackWebCourseData[0].syllabus}
                     syllabusDesc={FullStackWebCourseData[0].syllabusDesc}
@@ -138,21 +138,21 @@ export default function Home() {
                     srcD={FullStackWebCourseData[0].srcD}
                     hours={FullStackWebCourseData[0].hours}
                     project={FullStackWebCourseData[0].project}
-                  
+
                 />
-                
+
                 <ProgramFee Fee={FullStackWebCourseData[0].ProgramFee.Fee} Emi={FullStackWebCourseData[0].ProgramFee.Emi} formotp={true}
-                CourseFeeAndFinancing="Program Fee & Financing"
-                para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." dataScience={true} 
+                    CourseFeeAndFinancing="Program Fee & Financing"
+                    para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." dataScience={true}
 
                 />
                 <SliderTab />
                 <div className={styles.ProjectWrapper} id="project">
-                <Project formotp={true}
-                  project={FullStackWebCourseData[0].Project.project}
-                  domain={FullStackWebCourseData[0].Project.domain}
-                  projectTitle={FullStackWebCourseData[0].Project.projectTitle} />
-              </div>
+                    <Project formotp={true}
+                        project={FullStackWebCourseData[0].Project.project}
+                        domain={FullStackWebCourseData[0].Project.domain}
+                        projectTitle={FullStackWebCourseData[0].Project.projectTitle} />
+                </div>
 
 
                 <Batch formotp={true}
@@ -167,7 +167,7 @@ export default function Home() {
                     CourseFeelist4={FullStackWebCourseData[0].BatchCourses.CourseFeelist4}
                     CourseFeelist5={FullStackWebCourseData[0].BatchCourses.CourseFeelist5}
                 />
-                <LearnSupport  organicNum={true}/>
+                <LearnSupport organicNum={true} />
                 <Footer />
             </main>
         </div>

@@ -30,7 +30,7 @@ export default function Home() {
     <div>
       <Head>
         <title>
-        Data Science course - Learnbay
+          Data Science course - Learnbay
         </title>
         <meta
           name="description"
@@ -39,8 +39,8 @@ export default function Home() {
           projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
           24/7 Learner’s support."
         />
-        
-          <meta name="Keywords" content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee" />
+
+        <meta name="Keywords" content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee" />
 
 
         <link rel="icon" href="/Learnbay-Favicon-L.png" />

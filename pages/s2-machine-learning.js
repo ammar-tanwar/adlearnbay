@@ -96,7 +96,7 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} />
           </div>
         </Popup>
-        
+
         <FirstSection
           deskTopPara={MlCourseData[0].FirstSection.deskTopPara}
           deskTopPara1={MlCourseData[0].FirstSection.deskTopPara1}

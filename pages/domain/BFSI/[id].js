@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import Head from "next/head";
-import { EventHeader } from "../../Components/DomainPage/EventHeader/EventHeader";
-import styles from "../../styles/DataScienceEvent.module.css";
-import EventFeature from "../../Components/DomainPage/EventFeatures/EventFeature";
-import { getAllPostIds, getPostData } from "../../lib/domain";
-import Navbar from "../../Components/Navbar/Navbar";
-import FormOtp from "../../Components/DomainPage/FormOtp/FormOtp";
-import Footer from "../../Components/DomainPage/EventFooter/Footer";
+import { EventHeader } from "../../../Components/DomainPage/EventHeader/EventHeader";
+import styles from "../../../styles/DataScienceEvent.module.css";
+import EventFeature from "../../../Components/DomainPage/EventFeatures/EventFeature";
+import { getAllPostIds, getPostData } from "../../../lib/domain";
+import Navbar from "../../../Components/Navbar/Navbar";
+import FormOtp from "../../../Components/DomainPage/FormOtp/FormOtp";
+import Footer from "../../../Components/DomainPage/EventFooter/Footer";
 import { FaHeart, FaUserFriends } from "react-icons/fa";
 
 

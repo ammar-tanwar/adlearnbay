@@ -27,9 +27,9 @@ export default function Home() {
     return (
         <div >
             <Head>
-            <title>Data Structure Course Syllabus and DSA Training 2022
-            </title>
-            <meta name="description" content="Best way to learn Data Structures and Algorithms with System Design Course Online, mastering any one coding skill - Interaction in limited batch, No Cost EMI." />
+                <title>Data Structure Course Syllabus and DSA Training 2022
+                </title>
+                <meta name="description" content="Best way to learn Data Structures and Algorithms with System Design Course Online, mastering any one coding skill - Interaction in limited batch, No Cost EMI." />
                 <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
                 <script
                     dangerouslySetInnerHTML={{
@@ -72,7 +72,7 @@ export default function Home() {
 
 
             </Head>
-            <main>  <Navbar popup={true} formotp= {true}/>
+            <main>  <Navbar popup={true} formotp={true} />
 
                 <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
                     <div className="leftPopup">
@@ -84,7 +84,7 @@ export default function Home() {
                     </div>
                 </Popup>
 
-                <FirstSection formotp= {true}
+                <FirstSection formotp={true}
                     deskTopPara={DsaCourseData[0].FirstSection.deskTopPara}
                     mTopPara={DsaCourseData[0].FirstSection.mTopPara}
                     mTitle={DsaCourseData[0].FirstSection.mTitle}
@@ -127,7 +127,7 @@ export default function Home() {
 
 
                 <div className={styles.Feature} id="Feature">
-                    <BoxShape1 formotp= {true}
+                    <BoxShape1 formotp={true}
                         title={DsaCourseData[0].BoxShape1.title}
                         Box1h5={DsaCourseData[0].BoxShape1.Box1h5}
                         box1desc={DsaCourseData[0].BoxShape1.box1desc}
@@ -140,8 +140,8 @@ export default function Home() {
 
                     />
                 </div>
-                <CourseReview formotp= {true}/>
-                <SyllabusNew formotp= {true}
+                <CourseReview formotp={true} />
+                <SyllabusNew formotp={true}
                     syllabus={DsaCourseData[0].syllabus}
                     syllabusDesc={DsaCourseData[0].syllabusDesc}
                     popupHead={DsaCourseData[0].popupHead}
@@ -150,18 +150,18 @@ export default function Home() {
                     srcD={DsaCourseData[0].srcD}
                     hours={DsaCourseData[0].hours}
                     project={DsaCourseData[0].project}
-                    
+
                     syllabusFormotp={true}
                 />
 
 
-                <ProgramFee Fee={DsaCourseData[0].ProgramFee.Fee} Emi={DsaCourseData[0].ProgramFee.Emi} formotp= {true}
+                <ProgramFee Fee={DsaCourseData[0].ProgramFee.Fee} Emi={DsaCourseData[0].ProgramFee.Emi} formotp={true}
                     CourseFeeAndFinancing={DsaCourseData[0].ProgramFee.CourseFeeAndFinancing}
                 />
                 <div className={styles.ProjectWrapper} id="project">
-                    <Project project={DsaCourseData[0].Project.project} domain={DsaCourseData[0].Project.domain} formotp= {true}/>
+                    <Project project={DsaCourseData[0].Project.project} domain={DsaCourseData[0].Project.domain} formotp={true} />
                 </div>
-                <Batch formotp= {true}
+                <Batch formotp={true}
                     syllabusDesc={DsaCourseData[0].syllabusDesc}
                     syllabus={DsaCourseData[0].Batch}
 

@@ -118,7 +118,7 @@ export default function Home() {
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
-          title="Explore Our Data Analytics Master Programs"
+            title="Explore Our Data Analytics Master Programs"
             Box1h5={DataAnalyticsCourseData[0].BoxShape.Box1h5}
             box1desc={DataAnalyticsCourseData[0].BoxShape.box1desc}
             Box2h5={DataAnalyticsCourseData[0].BoxShape.Box2h5}
@@ -154,7 +154,7 @@ export default function Home() {
           project={DataAnalyticsCourseData[0].project}
         />
         <OurExpert
-        H5=" Data Analytics Master Tools Covered"
+          H5=" Data Analytics Master Tools Covered"
           img1={DataAnalyticsCourseData[0].OurExpert.img1}
           img2={DataAnalyticsCourseData[0].OurExpert.img2}
           img3={DataAnalyticsCourseData[0].OurExpert.img3}

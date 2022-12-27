@@ -70,7 +70,7 @@ export default function Home() {
                 />
 
             </Head>
-            <main>  <Navbar popup={true} formotp= {true}/>
+            <main>  <Navbar popup={true} formotp={true} />
 
                 <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
                     <div className="leftPopup">
@@ -83,7 +83,7 @@ export default function Home() {
                 </Popup>
 
 
-                <FirstSection formotp= {true}
+                <FirstSection formotp={true}
                     deskTopPara={FullStackSoftwareCourseData[0].FirstSection.deskTopPara}
                     mTopPara={FullStackSoftwareCourseData[0].FirstSection.mTopPara}
                     mTitle={FullStackSoftwareCourseData[0].FirstSection.mTitle}
@@ -126,7 +126,7 @@ export default function Home() {
 
 
                 <div className={styles.Feature} id="Feature">
-                    <BoxShape1 formotp= {true}
+                    <BoxShape1 formotp={true}
                         title={FullStackSoftwareCourseData[0].BoxShape1.title}
                         Box1h5={FullStackSoftwareCourseData[0].BoxShape1.Box1h5}
                         box1desc={FullStackSoftwareCourseData[0].BoxShape1.box1desc}
@@ -138,8 +138,8 @@ export default function Home() {
                         box4desc={FullStackSoftwareCourseData[0].BoxShape1.box4desc}
                     />
                 </div>
-                <CourseReview formotp= {true}/>
-                <SyllabusNew formotp= {true}
+                <CourseReview formotp={true} />
+                <SyllabusNew formotp={true}
                     syllabus={FullStackSoftwareCourseData[0].syllabus}
                     syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
                     popupHead={FullStackSoftwareCourseData[0].popupHead}
@@ -151,15 +151,15 @@ export default function Home() {
                     syllabusFormotp={true}
                 />
 
-                <ProgramFee Fee={FullStackSoftwareCourseData[0].ProgramFee.Fee} Emi={FullStackSoftwareCourseData[0].ProgramFee.Emi} formotp= {true}
+                <ProgramFee Fee={FullStackSoftwareCourseData[0].ProgramFee.Fee} Emi={FullStackSoftwareCourseData[0].ProgramFee.Emi} formotp={true}
                     CourseFeeAndFinancing={FullStackSoftwareCourseData[0].ProgramFee.CourseFeeAndFinancing}
 
                 />
                 <div className={styles.ProjectWrapper} id="project">
-                    <Project project={FullStackSoftwareCourseData[0].Project.project} domain={FullStackSoftwareCourseData[0].Project.domain} formotp= {true}/>
+                    <Project project={FullStackSoftwareCourseData[0].Project.project} domain={FullStackSoftwareCourseData[0].Project.domain} formotp={true} />
                 </div>
 
-                <Batch formotp= {true}
+                <Batch formotp={true}
                     syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
                     syllabus={FullStackSoftwareCourseData[0].Batch}
 

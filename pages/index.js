@@ -79,18 +79,18 @@ export default function Home() {
       </Popup>
 
       <Navbar radio={true} />
-      <FirstSection 
-      heading="#1 Domain Specialised Certification Program For"
-      headingSpan="Working Professionals"
-      des="Use your domain expertise to build a meaningful career. Crack interview
+      <FirstSection
+        heading="#1 Domain Specialised Certification Program For"
+        headingSpan="Working Professionals"
+        des="Use your domain expertise to build a meaningful career. Crack interview
       in top product based MNCs and MAANG with confidence"
-      h1="1:1"
-      p1="Dedicated Mentorship"
-      h2="100%"
-      p2="Assured Interview"
-      h3="7+"
-      p3="Domain Electives"
-      style={{ margin: "20px" }} radio={true} />
+        h1="1:1"
+        p1="Dedicated Mentorship"
+        h2="100%"
+        p2="Assured Interview"
+        h3="7+"
+        p3="Domain Electives"
+        style={{ margin: "20px" }} radio={true} />
       <div className={styles.boxWrap}>
         <h2>Get Certified & Move Towards Your Dream Job</h2>
         <p className={styles.boxp}>
@@ -107,7 +107,7 @@ export default function Home() {
       <MultiTabs />
       <FormSection dataScience={true} />
       <CareerImpactHome />
-      <LearnSupport  organicNum={true}/>
+      <LearnSupport organicNum={true} />
       <Footer />
     </div>
 
