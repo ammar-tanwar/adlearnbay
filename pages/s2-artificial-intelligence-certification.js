@@ -212,8 +212,6 @@ export default function Home() {
           CourseFeelist4={AiCourseData[0].BatchCourses.CourseFeelist4}
           CourseFeelist5={AiCourseData[0].BatchCourses.CourseFeelist5}
         />
-
-
         <LearnSupport />
         <Footer />
       </main>
