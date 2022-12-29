@@ -11,7 +11,7 @@ import cookies from "next-cookies"
 const ThankYouFsd = ({ initialName }) => {
 
   const email = JSON.stringify(initialName)
-  
+   
   return (
     <div className={styles.main}>
     <Head>
