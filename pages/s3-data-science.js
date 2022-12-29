@@ -215,7 +215,7 @@ export default function Home() {
         />
         <LearnSupport />
         <Footer />
-      </main>
+      </main>  
     </div>
   );
 }

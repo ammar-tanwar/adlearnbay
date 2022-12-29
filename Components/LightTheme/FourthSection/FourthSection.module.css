@@ -1,0 +1,69 @@
+.section4 {
+    padding: 70px 100px 0px 100px;
+}
+
+.section4Box {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.section4 h1 {
+    font-size: 37px;
+    text-align: center;
+}
+
+.boxSection4 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px solid #F0F8FA;
+    margin: 12px;
+    box-shadow: -1px 0 10px 2px rgb(4 135 217 / 10%);
+}
+
+.IconBoxBlue {
+    background: #2979A8;
+    font-size: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.IconBoxOrange {
+    background: #EDBB52;
+    font-size: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.IconSection4Orange {
+    font-size: 40px;
+    padding: 7px;
+    border-radius: 10px;
+    background: #EDBB52;
+    color: #fff;
+}
+
+.iconText4Bblue {
+    padding: 0px 20px;
+    margin-top: -20px;
+    z-index: 1;
+    border-bottom: 4px solid #2979A8;
+    border-radius: 10px;
+}
+
+.iconText4Borange {
+    padding: 0px 20px;
+    margin-top: -20px;
+    z-index: 1;
+    border-bottom: 4px solid #EDBB52;
+    border-radius: 10px;
+}
+
+.section4P {
+    margin: 10px 0px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 0px;
+}

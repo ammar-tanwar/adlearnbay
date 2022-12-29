@@ -99,6 +99,7 @@ const Form = ({
     router.pathname === "/s2-artificial-intelligence-placement" ||
     router.pathname === "/s2-artificial-intelligence-certification" ||
     router.pathname === "/s2-data-science" ||
+    router.pathname === "/s2-light" ||
     router.pathname === "/s3-data-science" ||
     router.pathname === "/s2-data-science-banking" ||
     router.pathname === "/s2-data-science-hr" ||
@@ -479,6 +480,7 @@ const Form = ({
         downloadBrochure) ||
       (router.pathname === "/" && downloadBrochure) ||
       (router.pathname === "/s2-data-science" && downloadBrochure) ||
+      (router.pathname === "/s2-light" && downloadBrochure) ||
       (router.pathname === "/s3-data-science" && downloadBrochure) ||
       (router.pathname === "/s2-machine-learning" && downloadBrochure) ||
       (router.pathname === "/s2-job-guarantee" && downloadBrochure) ||
@@ -585,6 +587,7 @@ const Form = ({
       router.pathname === "/job-guarantee-or-money-back-data-science-ai-s8" ||
       router.pathname === "/job-guarantee-or-money-back-data-science-ai-s9" ||
       router.pathname === "/s2-data-science" ||
+      router.pathname === "/s2-light" ||
       router.pathname === "/s3-data-science" ||
       router.pathname === "/s2-machine-learning" ||
       router.pathname === "/s2-job-guarantee" ||

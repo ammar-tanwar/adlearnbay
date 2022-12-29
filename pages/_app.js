@@ -10,26 +10,28 @@ function MyApp({ Component, pageProps }) {
 
   useEffect(() => {
     TagManager.initialize({ gtmId: 'GTM-NN8XWH8' })
-  }, []);
+  }, [0]);
 
 
   return (
     <>
+      
+
       <Script
-        strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=GTM-NN8XWH8`}
-      ></Script>
-      <Script strategy="lazyOnload">
-        {`
-            window.dataLayer = window.dataLayer || [];
+      strategy="lazyOnload"
+      onError={(err) => {
+        console.error('Error', err)
+      }}
+      onLoad={() => {
+        // Function to perform after loading the script
+        window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'GTM-NN8XWH8', {
               page_path: window.location.pathname,
             },);
-                `}
-      </Script>
-
+      }}
+    />
       <CookiesProvider>
         <Component {...pageProps} />
       </CookiesProvider>
@@ -38,3 +40,25 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
+
+
+
+
+
+// <Script
+//         strategy="lazyOnload"
+//         src={`https://www.googletagmanager.com/gtag/js?id=GTM-NN8XWH8`}
+//       ></Script>
+
+
+
+// <Script strategy="lazyOnload">
+//   {`
+//       window.dataLayer = window.dataLayer || [];
+//       function gtag(){dataLayer.push(arguments);}
+//       gtag('js', new Date());
+//       gtag('config', 'GTM-NN8XWH8', {
+//         page_path: window.location.pathname,
+//       },);
+//           `}
+// </Script>

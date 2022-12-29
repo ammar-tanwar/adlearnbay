@@ -7,9 +7,20 @@
   z-index: 9;
   height: 100%;
   position: absolute;
-  margin: 50px 100px;
+  margin: 0px 100px;
   top: 0;
   left: 0;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 65% 35%;
+  width: 59vw;
+  align-items: center;
+}
+
+.relativeDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .topBox {
@@ -34,22 +45,22 @@
 
 .h1 {
   margin: 0;
-  font-size: 110px;
-  color: #fff;
+  font-size: 60px;
+  color: #edbb52;
   font-weight: 800;
 }
 
 .p {
   margin: 0;
   color: #fff;
-  font-size: 60px;
+  font-size: 28px;
   font-weight: 800;
 }
 
 .imgBox {
   display: flex;
-  margin: 30px 0px 40px 0px;
-  justify-content: space-between;
+  /* margin: 0px 0px 0px 0px; */
+  justify-content: left;
   gap: 50px;
 }
 
@@ -73,7 +84,7 @@
 }
 
 .mentor {
-  color: #EDBB52;
+  color: #edbb52;
   font-size: 22px;
   font-weight: 700;
 }
@@ -84,9 +95,9 @@
   font-weight: 400;
 }
 
-.DivStyle {
+/* .DivStyle {
   margin-top: 20px;
-}
+} */
 
 .left {
   display: flex;
@@ -276,7 +287,7 @@
   .wrapper {
     margin-top: 70px;
   }
-  
+
   .relative {
     z-index: 9;
     position: absolute;
@@ -286,63 +297,65 @@
     margin-top: 40px;
     padding: 0px 20px;
     width: 100%;
+    display: block;
   }
-  
+
   .topBox {
     border-radius: 20px;
     border: 1px solid #fff;
     color: #fff;
     width: fit-content;
-    font-size: 18px;
-    padding: 5px 30px;
+    font-size: 16px;
+    padding: 5px 10px;
     display: flex;
     align-items: center;
   }
-  
+
   .icon {
     background-color: #2975a4;
-    font-size: 50px;
+    font-size: 42px;
     padding: 10px 0px 10px 5px;
     border-radius: 22px;
     margin: -20px 10px;
     border: 1px solid;
   }
-  
+
   .h1 {
     margin: 0;
-    font-size: 60px;
-    color: #fff;
+    font-size: 38px;
+    color: #edbb52;
     font-weight: 800;
   }
-  
+
   .p {
     margin: 0;
     color: #fff;
-    font-size: 40px;
-    font-weight: 800;
+    font-size: 18px;
+    font-weight: 600;
   }
-  
+
   .imgBox {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin: 20px 0px 30px 0px;
+    margin: 32px 0px 40px 0px;
+
   }
-  
+
   .firstText {
-    font-size: 18px;
+    font-size: 15px;
     margin: 0;
     font-weight: 700;
     color: #fff;
   }
-  
+
   .secondText {
     font-size: 16px;
     margin: 0;
     font-weight: 400;
     color: #fff;
   }
-  
+
   .imgText {
     display: flex;
     gap: 20px;
@@ -351,17 +364,25 @@
   .imgText span {
     width: 50px !important;
   }
-  
+
   .mentor {
-    color: #EDBB52;
+    color: #edbb52;
     font-size: 18px;
     font-weight: 700;
     margin: 0;
   }
-  
+
   .mentorSpan {
     color: #fff;
     font-size: 18px;
     font-weight: 400;
+  }
+
+  .relativeDiv {
+    display: block;
+  }
+
+  .none {
+    display: none;
   }
 }

@@ -1,13 +1,20 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowRight, FaDownload } from "react-icons/fa";
 import styles from "./Navbar.module.css";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
 import { useRouter } from "next/router";
 
-const Navbar = ({ radio, fsdlink, formotp, formotpForS3DS,eventQRadio }) => {
+const Navbar = ({
+  radio,
+  fsdlink,
+  formotp,
+  formotpForS3DS,
+  eventQRadio,
+  brochureButton,
+}) => {
   const router = useRouter();
   const [icon, setIcon] = useState(false);
   const [show, setShow] = useState(false);
@@ -34,7 +41,7 @@ const Navbar = ({ radio, fsdlink, formotp, formotpForS3DS,eventQRadio }) => {
       setMobile(false);
     }
   });
- 
+
   return (
     <div>
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
@@ -42,35 +49,45 @@ const Navbar = ({ radio, fsdlink, formotp, formotpForS3DS,eventQRadio }) => {
           <div className="whiteP" />
         </div>
         <div className="RightPopup">
-          <h5>Apply For Counselling</h5>
-
-          {eventQRadio ? (
+          {brochureButton ? (
+            <h5>Download Brochure</h5>
+          ) : (
+            <h5>Apply For Counselling</h5>
+          )}
+          {brochureButton ? (
+            <Form
+              popup={true}
+              setTrigger={setPopups}
+              downloadBrochure
+              radio={radio}
+            />
+          ) : (
             <>
-            <FormOtp popup={true} eventRadio={true} />
-            </>
-          ):(
-          <>
-            {formotpForS3DS ? (
-                <Form QuesMean={true} jobTitle={true} jobPlacee={true} />
-            ) : (
-              <>
-                {formotp ? (
-                  <FormOtp popup={true} radio={radio} />
-  
-                ) : (
-              <Form popup={true} setTrigger={setPopups} radio={radio} />
-                )}
-              </>
-            )}
+              {eventQRadio ? (
+                <>
+                  <FormOtp popup={true} eventRadio={true} />
+                </>
+              ) : (
+                <>
+                  {formotpForS3DS ? (
+                    <Form QuesMean={true} jobTitle={true} jobPlacee={true} />
+                  ) : (
+                    <>
+                      {formotp ? (
+                        <FormOtp popup={true} radio={radio} />
+                      ) : (
+                        <Form
+                          popup={true}
+                          setTrigger={setPopups}
+                          radio={radio}
+                        />
+                      )}
+                    </>
+                  )}
+                </>
+              )}
             </>
           )}
-
-
-
-        
-
-
-
         </div>
       </Popup>
       <nav className={styles.nav}>
@@ -85,18 +102,27 @@ const Navbar = ({ radio, fsdlink, formotp, formotpForS3DS,eventQRadio }) => {
           />
         </div>
         <div className={styles.right}>
-          {fsdlink ? (
-            <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session">
-              <button className="outLineBtn">
-                Apply For Counselling
-                <FaArrowRight className={styles.icon} />
-              </button>
-            </a>
-          ) : (
+          {brochureButton ? (
             <button onClick={popupShow} className="outLineBtn">
-              Apply For Counselling
-              <FaArrowRight className={styles.icon} />
+              Download Brochure
+              <FaDownload className={styles.icon} />
             </button>
+          ) : (
+            <>
+              {fsdlink ? (
+                <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session">
+                  <button className="outLineBtn">
+                    Apply For Counselling
+                    <FaArrowRight className={styles.icon} />
+                  </button>
+                </a>
+              ) : (
+                <button onClick={popupShow} className="outLineBtn">
+                  Apply For Counselling
+                  <FaArrowRight className={styles.icon} />
+                </button>
+              )}
+            </>
           )}
 
           <Popup></Popup>
@@ -107,14 +133,6 @@ const Navbar = ({ radio, fsdlink, formotp, formotpForS3DS,eventQRadio }) => {
 };
 
 export default Navbar;
-
-
-
-
-
-
-
-
 
 // {formotpForS3DS ? (
 //   <FormOtp
