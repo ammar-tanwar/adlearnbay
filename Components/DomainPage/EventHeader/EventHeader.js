@@ -27,7 +27,7 @@ export const EventHeader = ({ deskimg, mobimg }) => {
               alt="Learnbay"
               quality={100}
               width="500px"
-              height="600px"
+              height="470px"
             />
           ) : (
             <Image
@@ -35,19 +35,16 @@ export const EventHeader = ({ deskimg, mobimg }) => {
               alt="Learnbay"
               quality={100}
               width="1700px"
-              height="630px"
+              height="550px"
             />
           )}
         </div>
         <div className={styles.relative}>
-          <div className={styles.topBox}>
-            <span>Free</span>
-            <FaPlay className={styles.icon} />
-            <span>Webinar</span>
-          </div>
+          <div className={styles.relativeDiv}>
           <div className={styles.DivStyle}>
-            <h1 className={styles.h1}>SQL</h1>
-            <p className={styles.p}>Fundamentals</p>
+          <p className={styles.p}>Predicting Possible <span style={{color:"#edbb52"}}>Loan Default</span> Using</p>
+            <h1 className={styles.h1}>Machine Learning</h1>
+            {/* <p className={styles.p}>Fundamentals</p> */}
           </div>
           <div className={styles.imgBox}>
             <div className={styles.imgText}>
@@ -61,8 +58,8 @@ export const EventHeader = ({ deskimg, mobimg }) => {
                 alt="backImg"
               />
               <div className={styles.Text}>
-                <p className={styles.firstText}>27th - 28th</p>
-                <p className={styles.secondText}>December</p>
+                <p className={styles.firstText}>8th</p>
+                <p className={styles.secondText}>January</p>
               </div>
             </div>
             <div className={styles.imgText}>
@@ -76,14 +73,32 @@ export const EventHeader = ({ deskimg, mobimg }) => {
                 alt="backImg"
               />
               <div className={styles.Text}>
-                <p className={styles.firstText}>11AM - 1PM</p>
-                <p className={styles.secondText}>2 Hr Session</p>
+                <p className={styles.firstText}>12:30 - 3:30 PM</p>
+                <p className={styles.secondText}>3 Hr Session</p>
               </div>
             </div>
           </div>
-          <div>
-            <p className={styles.mentor}>Akshay Gagrani <span className={styles.mentorSpan}>Software Engineer</span></p>
+          <div className={styles.topBox}>
+            <span>Free</span>
+            <FaPlay className={styles.icon} />
+            <span>Webinar</span>
           </div>
+          {/* <div>
+            <p className={styles.mentor}>
+              Akshay Gagrani{" "}
+              <span className={styles.mentorSpan}>Software Engineer</span>
+            </p>
+          </div> */}
+          </div>
+          <div className={styles.none}><Image
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/Kumar+Sundram.png"
+                layout="intrinsic"
+                objectFit="cover"
+                width="281px"
+                height="408px"
+                loading="lazy"
+                alt="backImg"
+              /></div>
         </div>
       </section>
     </div>
