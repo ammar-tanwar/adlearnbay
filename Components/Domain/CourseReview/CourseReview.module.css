@@ -194,7 +194,7 @@
     margin-top: 0px;
   }
   .imgHire {
-    background-color: #256F9F;
+    background-color: #edb55220;
     padding: 10px 5px;
     border-radius: 10px;
   }
@@ -209,5 +209,13 @@
 
   .swiperleft h5 {
     margin-bottom: 0px;
+  }
+
+  .contentRight {
+    margin-top: 0px;
+  }
+
+  .name p {
+    text-align: left;
   }
 }
