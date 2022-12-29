@@ -1,6 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import FirstSection from "../Components/CoursePage/HeroSection/HeroSection";
+// import FirstSection from "";
 import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
 import BoxShape from "../Components/CoursePage/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
@@ -18,7 +18,9 @@ import React, { useState } from "react";
 import { DataScienceCourseData } from "../Data/DataScienceCourse";
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
+import dynamic from 'next/dynamic'
 
+const FirstSection = dynamic(() => import('../Components/CoursePage/HeroSection/HeroSection'))
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
