@@ -1,7 +1,7 @@
 import Head from "next/head";
 import React, { useState } from "react";
 import dynamic from 'next/dynamic'
-import  { DataAnalyticsCourseData }  from "../../Data/chennai/DataAnalyticsData";
+import { DataAnalyticsCourseData } from "../../Data/chennai/DataAnalyticsData";
 const FirstSection = dynamic(() => import('../../Components/CityComponents/FirstSection/FirstSection'))
 const styles = dynamic(() => import('../../styles/Home.module.css'))
 const Popup = dynamic(() => import('../../Components/Popup/Popup'))
@@ -219,34 +219,3 @@ export default function Home() {
     </div>
   );
 }
-
-
-
-
-
-
-
-
-
-// ___________============================================================
-
-
-// import styles from "../../styles/Home.module.css";
-// import Popup from "../../Components/Popup/Popup";
-// import Form from "../../Components/Form/Form";
-// import Navbar from "../../Components/CoursePage/Navbar/Navbar";
-// import CityFooter from "../../Components/CityComponents/CityFooter/CityFooter";
-// import LearnSupport from "../../Components/CoursePage/LearnSupport/LearnSupport";
-
-// import FirstSection from "../../Components/CityComponents/FirstSection/FirstSection";
-// import HiringPatners from "../../Components/CityComponents/HiringPatnerWithReview/HiringPatners";
-// import SyllabusNew from "../../Components/CoursePage/SyllabusNew/SyllabusNew";
-// import CityImage from "../../Components/CityComponents/CityImages/CityImage";
-// import OurExpert from "../../Components/CoursePage/OurExpert/OurExpert";
-// import Certificate from "../../Components/CoursePage/CertificateTab/CertificateTabAdvance";
-// import Project from "../../Components/CoursePage/Project/Project";
-// import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
-// import ProgramWithHighLight from "../../Components/CityComponents/ProgramWithHighLight/ProgramWithHighLight";
-// import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
-// import  DataAnalyticsCourseData  from "../../Data/chennai/DataAnalyticsData";
-// import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
