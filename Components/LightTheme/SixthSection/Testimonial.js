@@ -164,6 +164,7 @@ function Testimonial() {
                       <br />
                     </p>
                   </div>
+                  <div className={styles.line}></div>
                   <div className={styles.imgP}>
                     <Image
                       src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ritesh-home.png"
@@ -195,6 +196,7 @@ function Testimonial() {
                       <br />
                     </p>
                   </div>
+                  <div className={styles.line}></div>
                   <div className={styles.imgP}>
                     <Image
                       src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/saurabh-home.png"
@@ -226,6 +228,7 @@ function Testimonial() {
                         <br />
                       </p>
                     </div>
+                  <div className={styles.line}></div>
                     <div>
                       <Image
                         src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/abhishek-home.png"
@@ -260,6 +263,7 @@ function Testimonial() {
                           <br />
                         </p>
                       </div>
+                  <div className={styles.line}></div>
                       <div className={styles.imgP}>
                         <Image
                           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/vishal-home.png"
