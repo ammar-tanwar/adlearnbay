@@ -15,8 +15,6 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-      
-
       <Script
       strategy="lazyOnload"
       onError={(err) => {

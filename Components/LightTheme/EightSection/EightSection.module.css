@@ -1,0 +1,46 @@
+.EightSection {
+    position: sticky;
+    bottom: 0;
+    z-index: 999;
+    background: #fff;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: -1px 0 10px 2px rgb(4 135 217 / 10%);
+    align-items: center;
+}
+
+.EightSection button {
+    margin: auto;
+    padding: 12px 25px;
+    font-size: 22px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #0072BC;
+    border: 1px solid #fff;
+    font-weight: 700;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.EightSection button:hover {
+    background: #EDBB52;
+    color: #fff;
+}
+
+.icon {
+    margin-left: 10px;
+}
+
+.EightSection p {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.hide {
+    opacity:0;
+}
+.show {
+    opacity:1;
+  
+}

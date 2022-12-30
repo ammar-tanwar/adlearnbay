@@ -28,7 +28,7 @@
 
 .QuoteBlue {
     font-size: 30px;
-    color: #28557A;
+    color: #0072BC;
 }
 
 .line {
@@ -125,7 +125,7 @@
     font-size: 16px;
     font-weight: 400;
     fill: #ffffff;
-    color: #28557a;
+    color: #0072BC;
     background-color: white;
   
     border-style: solid;
@@ -136,7 +136,7 @@
   }
   
   .btn2:hover {
-    background-color: #28557a;
+    background-color: #0072BC;
     color: white;
     border: 1px solid #fff;
   }
@@ -156,7 +156,7 @@
   font-size: 18px;
   color: #fff;
   border-radius: 10px;
-  background-color: #2979A8;
+  background-color: #0072BC;
   border: 1px solid #fff;
   font-weight: 700;
   box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);

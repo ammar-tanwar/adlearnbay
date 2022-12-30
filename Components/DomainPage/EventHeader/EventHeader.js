@@ -27,7 +27,7 @@ export const EventHeader = ({ deskimg, mobimg }) => {
               alt="Learnbay"
               quality={100}
               width="500px"
-              height="470px"
+              height="570px"
             />
           ) : (
             <Image
@@ -42,8 +42,8 @@ export const EventHeader = ({ deskimg, mobimg }) => {
         <div className={styles.relative}>
           <div className={styles.relativeDiv}>
           <div className={styles.DivStyle}>
-          <p className={styles.p}>Predicting Possible <span style={{color:"#edbb52"}}>Loan Default</span> Using</p>
-            <h1 className={styles.h1}>Machine Learning</h1>
+          <p className={styles.p}>Advance your Career in <span className={styles.spanP}>Banking Domain</span> as a</p>
+            <p className={styles.h1}>Data Scientist</p>
             {/* <p className={styles.p}>Fundamentals</p> */}
           </div>
           <div className={styles.imgBox}>
@@ -52,14 +52,14 @@ export const EventHeader = ({ deskimg, mobimg }) => {
                 src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/Group+32.png"
                 layout="intrinsic"
                 objectFit="cover"
-                width="70px"
-                height="70px"
+                width="60px"
+                height="60px"
                 loading="lazy"
                 alt="backImg"
               />
               <div className={styles.Text}>
-                <p className={styles.firstText}>8th</p>
-                <p className={styles.secondText}>January</p>
+                <p className={styles.firstText}>8th Jan</p>
+                <p className={styles.secondText}>Sunday</p>
               </div>
             </div>
             <div className={styles.imgText}>
@@ -67,8 +67,8 @@ export const EventHeader = ({ deskimg, mobimg }) => {
                 src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/Group+33.png"
                 layout="intrinsic"
                 objectFit="cover"
-                width="70px"
-                height="70px"
+                width="60px"
+                height="60px"
                 loading="lazy"
                 alt="backImg"
               />
@@ -90,15 +90,15 @@ export const EventHeader = ({ deskimg, mobimg }) => {
             </p>
           </div> */}
           </div>
-          <div className={styles.none}><Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/Kumar+Sundram.png"
+          {/* <div className={styles.none}><Image
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/DeskUtkarh.png"
                 layout="intrinsic"
                 objectFit="cover"
-                width="281px"
-                height="408px"
+                width="441px"
+                height="476px"
                 loading="lazy"
                 alt="backImg"
-              /></div>
+              /></div> */}
         </div>
       </section>
     </div>

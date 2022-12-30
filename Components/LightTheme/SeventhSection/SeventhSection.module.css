@@ -70,7 +70,7 @@
     font-size: 16px;
     font-weight: 400;
     fill: #ffffff;
-    color: #28557a;
+    color: #0072BC;
     background-color: white;
   
     border-style: solid;
@@ -81,7 +81,7 @@
   }
   
   .btn2:hover {
-    background-color: #28557a;
+    background-color: #0072BC;
     color: white;
     border: 1px solid #fff;
   }

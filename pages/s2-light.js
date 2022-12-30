@@ -1,10 +1,8 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import React, { useState } from "react";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
-import Footer from "../Components/CoursePage/Footer/Footer";
-import React, { useState } from "react";
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import HeroSection from "../Components/LightTheme/FirstSection/HeroSection";
 import Testimonial from "../Components/LightTheme/SixthSection/Testimonial";
@@ -12,6 +10,7 @@ import SecondSection from "../Components/LightTheme/SecondSection/SecondSection"
 import ThirdSection from "../Components/LightTheme/ThirdSection/ThirdSection";
 import FourthSection from "../Components/LightTheme/FourthSection/FourthSection";
 import SeventhSection from "../Components/LightTheme/SeventhSection/SeventhSection";
+import EightSection from "../Components/LightTheme/EightSection/EightSection";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -95,7 +94,7 @@ export default function Home() {
         <SliderTab />
         <Testimonial />
         <SeventhSection />
-        <Footer />
+        <EightSection />
       </main>
     </div>
   );
