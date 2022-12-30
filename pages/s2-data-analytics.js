@@ -128,7 +128,6 @@ export default function Home() {
             Box4h5={DataAnalyticsCourseData[0].BoxShape.Box4h5}
             box4desc={DataAnalyticsCourseData[0].BoxShape.box4desc}
             headh5={DataAnalyticsCourseData[0].BoxShape.headh5}
-
           />
         </div>
         <CourseReview
