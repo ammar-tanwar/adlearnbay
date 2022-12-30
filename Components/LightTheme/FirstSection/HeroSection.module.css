@@ -50,10 +50,12 @@
 
 .whitep, .bluep  {
     padding: 15px 20px;
-    border-radius: 50px;
+    border-radius: 10px;
     box-shadow: -1px 0 10px 2px rgb(4 135 217 / 10%);
     text-align: center;
     padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .whitep {
