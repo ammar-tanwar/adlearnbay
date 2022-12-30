@@ -1,13 +1,7 @@
 import styles from "./HeroSection.module.css";
 import React, { useState } from "react";
-import {
-  FaArrowRight,
-  FaBook,
-  FaDownload,
-  FaPlay,
-  FaRegIdBadge,
-  FaStar,
-} from "react-icons/fa";
+import { FaArrowRight, FaHandshake } from "react-icons/fa";
+import { RiUserSearchLine } from "react-icons/ri";
 import Image from "next/image";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
@@ -48,18 +42,23 @@ function HeroSection() {
             <FaArrowRight className={styles.icon} />
           </button>
           <div className={styles.twoBox}>
-            <p className={styles.whitep}>
-              <em>
+            <div className={styles.twoBoxDivWhite}>
+              <RiUserSearchLine className={styles.IconBoxBlue} />
+              <p className={styles.whitep}>
                 <span>10k+</span>
-              </em>{" "}
-              Careers Reshaped
-            </p>
-            <p className={styles.bluep}>
-              <em>
+                <br />
+                Careers Reshaped
+              </p>
+            </div>
+            <div className={styles.line}></div>
+            <div className={styles.twoBoxDivWhite}>
+              <FaHandshake className={styles.IconBoxBlue} />
+              <p className={styles.whitep}>
                 <span>250+</span>
-              </em>{" "}
-              Hiring Partners
-            </p>
+                <br />
+                Hiring Partners
+              </p>
+            </div>
           </div>
         </div>
         <div className={styles.sectionDiv}>

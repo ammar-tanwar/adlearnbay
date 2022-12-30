@@ -1,260 +1,111 @@
 .section1 {
-    padding: 130px 100px 70px 100px;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    background-color: #F0F8FA;
-    gap: 50px;
-    align-items: center;
+  padding: 130px 100px 70px 100px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: #f0f8fa;
+  gap: 50px;
+  align-items: center;
 }
 
 .sectionDiv h1 {
-    margin: 0px 0px 20px 0px;
-    font-size: 37px;
+  margin: 0px 0px 20px 0px;
+  font-size: 37px;
 }
 
 .sectionDiv p {
-    margin: 0px;
-    font-size: 18px;
+  margin: 0px;
+  font-size: 18px;
 }
 
 .sectionDiv button {
-    margin-top: 40px;
-    padding: 12px 25px;
-    font-size: 18px;
-    color: white;
-    border-radius: 10px;
-    background-color: #EDBB52;
-    border: 1px solid #fff;
-    font-weight: 700;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 40px;
+  padding: 12px 25px;
+  font-size: 18px;
+  color: white;
+  border-radius: 10px;
+  background-color: #edbb52;
+  border: 1px solid #fff;
+  font-weight: 700;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .sectionDiv button:hover {
-    background-color: #2979A8;
-    border: 1px solid #fff;
+  background-color: #0072BC;
+  border: 1px solid #fff;
 }
 
 .icon {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
-
+.twoBoxDivWhite span {
+  margin-right: 15px !important;
+}
 
 .twoBox {
     width: fit-content;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 30px;
-    margin-top: 50px;
-}
-
-.whitep, .bluep  {
-    padding: 15px 20px;
-    border-radius: 10px;
-    box-shadow: -1px 0 10px 2px rgb(4 135 217 / 10%);
-    text-align: center;
-    padding: 10px 20px;
     display: flex;
-    flex-direction: column;
-}
-
-.whitep {
-background-color: #fff;
+    margin-top: 50px;
+    border-radius: 10px;
 }
 
 .whitep span {
-    color: #2979A8;
-    font-weight: 700;
-    font-size: 22px;
+  font-weight: 600;
+  font-size: 22px;
 }
 
-.bluep span {
-    color: #fff;
-    font-weight: 700;
-    font-size: 22px;
-
+.whitep {
+    text-align: left;
 }
 
 .bluep {
-    background-color: #2979A8;
+    text-align: left;
     color: #fff;
 }
 
-.section2 {
-    padding: 50px 100px 0px 100px;
-    text-align: center;
+.bluep span {
+  color: #fff;
+  font-weight: 700;
+  font-size: 22px;
 }
 
-.section2 h1 {
-    font-size: 37px;
+.IconBoxBlue {
+  font-size: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  color: #edbb52;
+  margin-right: 15px;
+}
+
+.IconBoxWhite {
+  background: #fff;
+  font-size: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  color: #0072BC;
+  margin-right: 15px;
+}
+
+.twoBoxDivWhite {
+  display: flex;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.twoBoxDivBlue {
+  display: flex;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: -1px 0 10px 2px rgb(4 135 217 / 10%);
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #0072BC;
+  align-items: center;
 }
 
 .line {
     border: 1px solid #000;
-    margin: 0px 20px 0px 10px;
-}
-
-.DivImg {
-    display: flex;
-    justify-content: center;
-    margin: 50px 0px;
-}
-
-.tagline {
-    font-size: 26px;
-    font-weight: 500;
-    margin: 0;
-}
-
-.BoxIconDiv {
-    display: flex;
-    margin: 70px 0px;
-    background-color: #E1F1F533;
-    box-shadow: -1px 0 10px 2px rgb(4 135 217 / 10%);
-    border-radius: 10px;
-}
-
-.BoxIcon {
-    padding: 30px;
-}
-
-.lineWhite {
-    border: 1px solid #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    margin: 30px 0px;
-}
-
-.IconBoxBlue {
-    background: #2979A8;
-    font-size: 40px;
-    padding: 5px;
-    border-radius: 10px;
-    color: #fff;
-}
-
-.IconBoxOrange {
-    background: #EDBB52;
-    font-size: 40px;
-    padding: 5px;
-    border-radius: 10px;
-    color: #fff;
-}
-
-.section3 {
-    margin: 0px 100px;
-    display: grid;
-    grid-template-columns: 30% 70%;
-    background: linear-gradient(90deg, rgba(225, 241, 245, 0.5) 0.18%, rgba(225, 241, 245, 0) 46.58%, rgba(225, 241, 245, 0.5) 99.17%);
-    align-items: center;
-    border-radius: 50px;
-    border: 1px solid #2979A8;
-}
-
-.section3 h1 {
-    font-size: 37px;
-    margin: 0;
-}
-
-.leftSide {
-    background: linear-gradient(90deg, #28557A -1.56%, #2979A8 101.87%);
-    border-radius: 60px;;
-    padding: 30px 50px;
-    border-radius: 50px;
-    height: 100%;
-    color: #fff;
-    align-items: center;
-    display: flex;
-}
-
-.rightSide {
-    padding: 40px 50px 30px 50px;
-    color: #000;
-}
-
-.rightSideP {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    font-size: 20px;
-}
-
-.rightSide p {
-    display: flex;
-    align-items: center;
-    margin: 0;
-    margin-bottom: 20px;
-    font-weight: 600;
-    justify-content: center;
-    gap: 15px;
-}
-
-.rightSide button {
-    margin: auto;
-    padding: 12px 25px;
-    font-size: 18px;
-    color: #fff;
-    border-radius: 10px;
-    background-color: #2979A8;
-    border: 1px solid #fff;
-    font-weight: 700;
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-    margin-top: 20px;
-}
-
-.rightSide button:hover {
-    background: #EDBB52;
-    color: #fff;
-}
-
-.section4 {
-    padding: 70px 100px 0px 100px;
-}
-
-.section4Box {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-}
-
-.section4 h1 {
-    font-size: 37px;
-    text-align: center;
-}
-
-.boxSection4 {
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    border: 2px solid #F0F8FA;
-    margin: 12px;
-    box-shadow: -1px 0 10px 2px rgb(4 135 217 / 10%);
-}
-
-.IconSection4Orange {
-    font-size: 40px;
-    padding: 7px;
-    border-radius: 10px;
-    background: #EDBB52;
-    color: #fff;
-}
-
-.iconText4Bblue {
-    padding: 0px 20px;
-    margin-top: -20px;
-    z-index: 1;
-    border-bottom: 4px solid #2979A8;
-    border-radius: 10px;
-}
-
-.iconText4Borange {
-    padding: 0px 20px;
-    margin-top: -20px;
-    z-index: 1;
-    border-bottom: 4px solid #EDBB52;
-    border-radius: 10px;
-}
-
-.section4P {
     margin: 10px 0px;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 20px 0px;
 }
