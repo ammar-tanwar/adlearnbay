@@ -53,7 +53,8 @@
     display: grid;
     margin: auto;
     width: 1300px;
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
     text-align: center;
     grid-template-columns: 25% 25% 25% 25%;
   }
