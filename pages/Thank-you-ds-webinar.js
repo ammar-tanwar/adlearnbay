@@ -94,14 +94,14 @@ const ThankYouFsd = ({ initialName }) => {
         </div>
 
         <div className={styles.rightsfsd}>
-          <div>
+          {/* <div>
             <Image
               src="/full-stack-web.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"
               width="306"
-              height="150"
+              height="200"
             />
             <p className={styles.Ptopp}>
               Data Science & AI Certification | Domain Specialisation For
@@ -116,15 +116,15 @@ const ThankYouFsd = ({ initialName }) => {
                 Download Brochure
               </a>
             </button>
-          </div>
+          </div> */}
           <div>
             <Image
-              src="/full-stack-Software.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/advance-data-science-ai-program.webp"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"
               width="306"
-              height="150"
+              height="200"
             />
             <p className={styles.Ptopp}>
               Advance AI & ML Certification | Become AI Expert In Product based
@@ -142,12 +142,12 @@ const ThankYouFsd = ({ initialName }) => {
           </div>
           <div>
             <Image
-              src="/advanceds.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"
               width="306"
-              height="150"
+              height="200"
             />
             <p className={styles.Ptopp}>
               Data Science & AI Certification Program For Managers and Leaders
@@ -165,12 +165,12 @@ const ThankYouFsd = ({ initialName }) => {
 
           <div>
             <Image
-              src="/AIML.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/advance%20-ai-ml-for-tech-professionals.webp"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"
               width="306"
-              height="150"
+              height="200"
             />
             <p className={styles.Ptopp}>
               100% Placement Assistance Data Science & AI Certification Program
@@ -185,9 +185,49 @@ const ThankYouFsd = ({ initialName }) => {
               </a>
             </button>
           </div>
+          <div>
+            <Image
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/dsa&system.webp"
+              alt="data-science-course"
+              quality={100}
+              layout="intrinsic"
+              width="306"
+              height="200"
+            />
+            <p className={styles.Ptopp}>Data<br/> Analytics Program</p>
+            <button className={styles.Button}>
+              <AiOutlineDownload className="bIcons" />
+              <a
+                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
+                target="_blank"
+              >
+                Download Brochure
+              </a>
+            </button>
+          </div>
         </div>
 
         <div className={styles.rightsfsd}>
+          <div>
+            <Image
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/business-analytics.png"
+              alt="data-science-course"
+              quality={100}
+              layout="intrinsic"
+              width="306"
+              height="200"
+            />
+            <p className={styles.Ptopp}>Business Analytics Program</p>
+            <button className={styles.Button}>
+              <AiOutlineDownload className="bIcons" />
+              <a
+                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf"
+                target="_blank"
+              >
+                Download Brochure
+              </a>
+            </button>
+          </div>
           <div>
             <Image
               src="/DABA.png"
@@ -195,7 +235,7 @@ const ThankYouFsd = ({ initialName }) => {
               quality={100}
               layout="intrinsic"
               width="306"
-              height="150"
+              height="200"
             />
             <p className={styles.Ptopp}>Data Science Placement Report</p>
             <button className={styles.Button}>
@@ -216,13 +256,33 @@ const ThankYouFsd = ({ initialName }) => {
               quality={100}
               layout="intrinsic"
               width="306"
-              height="150"
+              height="200"
             />
             <p className={styles.Ptopp}>Data Science Project Brochure</p>
             <button className={styles.Button}>
               <AiOutlineDownload className="bIcons" />
               <a
                 href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
+                target="_blank"
+              >
+                Download Brochure
+              </a>
+            </button>
+          </div>
+          <div>
+            <Image
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Advance-Data-Science-1.png"
+              alt="data-science-course"
+              quality={100}
+              layout="intrinsic"
+              width="306"
+              height="200"
+            />
+            <p className={styles.Ptopp}>Banking Domain Brochure</p>
+            <button className={styles.Button}>
+              <AiOutlineDownload className="bIcons" />
+              <a
+                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf"
                 target="_blank"
               >
                 Download Brochure

@@ -45,6 +45,7 @@
   font-size: 18px;
   margin: 0;
   margin-bottom: 5px;
+  margin-top: 5px;
   z-index: 1;
 }
 .eLeft p,
@@ -74,6 +75,11 @@
   color: #fff;
   font-size: 16px;
   margin: 0px 10px;
+}
+
+.iconG {
+  color: #787C7D;
+  font-size: 24px;
 }
 
 .iconP {
@@ -160,6 +166,10 @@
   display: flex;
 }
 
+.TopMargin {
+  margin-top: 20px;
+}
+
 .paragramTitleReview {
   background-color: #2979a8;
   font-size: 25px;
@@ -172,6 +182,34 @@
 .paragramTitlestrong {
   font-size: 20px;
   margin: 30px 0px 0px 0px;
+}
+
+.iconBlue {
+  font-size: 50px;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: #0072bc;
+  color: #fff;
+}
+
+.iconOrange {
+  font-size: 50px;
+  padding: 0px 5px;
+  border-radius: 10px;
+  background-color: #EDBB52;
+  color: #fff;
+}
+
+.iconPs {
+  margin: 5px;
+}
+
+.iconList {
+  margin: 20px 0px;
+}
+
+.spanTrainerImg span {
+  border-radius: 10px;
 }
 
 @media (max-width: 1281px) {
@@ -266,6 +304,7 @@
     background-repeat: no-repeat;
     margin: 20px 0px;
     border-radius: 20px;
+    width: 100%;
   }
 
   .master {
@@ -313,5 +352,16 @@
   .bodyContent {
     display: grid;
     grid-template-columns: 50% 50%;
+  }
+  .iconBlue {
+    font-size: 42px;
+  }
+  
+  .iconOrange {
+    font-size: 42px;
+  }
+  .listMargin {
+    margin-left: 0px;
+    padding: 0px 20px;
   }
 }

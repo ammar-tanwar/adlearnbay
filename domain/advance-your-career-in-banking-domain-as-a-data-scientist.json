@@ -31,12 +31,12 @@
   },
   "feature": {
     "title": "Masterclass",
-    "h1": "Customized learning",
+    "h1": "100% Live Classes",
     "p1": "Fulfill your learning goals and get expert assistance.",
-    "h2": "Doman Specialisation",
+    "h2": "Customized Learning",
     "p2": "Get 100% live sessions led by Full stack experts.",
-    "h3": "Live Classes",
-    "h4": "3 years subscription",
+    "h3": "IBM Certified Projects",
+    "h4": "3-year Subscription",
     "p3": "Get 3 years of course subscription and life-time access to recorded classes.",
     "img1": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/1.png",
     "img2": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/2.png",
@@ -70,9 +70,13 @@
   "eventDeatureData": {
     "para1": "About this Masterclass",
 
-    "paragraph1": "A data structure is a designated location that can be used to store and organise data as well as an algorithm is a set of procedures used to solve a certain problem. One can only develop efficient and optimised computer programmes by learning data structures and algorithms.",
+    "paragraph1": "The role of data science in banking has become increasingly important in recent years. Banks are always looking for ways to optimize their operations, and data scientists are the ones who help them do it.",
 
-    "paragraph1_1": "Ready to dive deep into Data Structures?",
+    "paragraph1_1": "In this webinar, we'll share the skills and knowledge you need to become a banking data science expert. We'll also cover the current job market and career advancement opportunities to help you take your career to new heights.",
+
+    "paragraph1_2": "So, put on your data science cap and join us on this journey to become the King of Banking.",
+
+    "paragraph1_3": "We can't wait to help you succeed!",
 
     "paragraph2_0": "Then Join ",
     "paragraph2_1": "Akshay Gagrani ",
@@ -82,43 +86,47 @@
 
     "para2": "Topics covered in this Masterclass",
 
-    "paragraph24": "Tree and it's implementation",
-    "paragraph4": "Implementation of Graphs and it's important Algorithms",
-    "paragraph5": "Understanding Recursion with Examples ",
-    "paragraph5_1": "Understand Backtracking with Practice Problems",
+    "paragraph24": "Adoption & Application of AI, ML & Big Data in Banking",
+    "paragraph4": "Integration of Business with Technology & its Benefits",
+    "paragraph5": "Cost-Cutting using AI Fraud Detection & Automation using AI",
+    "paragraph5_1": "Compliance Risks & Bias in AI for Banks",
+    "paragraph5_2": "Market & Technology Trends Driving the Adoption of AI in Banking",
+    "paragraph5_3": "ROI Measurement Criteria with AI in Banking",
 
     "para3": "What you will gain from this Masterclass",
 
-    "paragraph6": "Gain understanding of the the above topics from 0 to 100",
     "paragraph7": "Remove fear of these difficult topics by learning via hands on session",
     "paragraph8": "Gain learning of how to approach coding problems",
     "paragraph8_1": "Solve various complex interview questions using the data structures",
    
 
-    "para4": "Akshay Gagrani ",
-    "paragraph9": "Designation: Software Engineer",
-    "paragraph9_1": "Myntra",
+    "para4": "Utkarsh Kulshrestha",
+    "paragraph9": "Designation : Data Scientist",
+    "paragraph9_1": "JP Morgan",
     "paragraph10": "LinkedIn Profile : ",
     "paragraph10_1": "Click Here",
-    "img4": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/Group+26.png",
+    "img4": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/Untitled-1.jpg",
 
 
     "para6": "This Masterclass is for",
 
-    "paragraph6_2": "SDEs Seeking Upskilling",
-    "paragraph7_2": "SDEs Wishing to convert to product companies from Service companies",
-    "paragraph8_3": "SDEs wanting to learn Data Structures and Algorithm",
+    "paragraph6_2": "Banking professionals looking to upskill in data science in the banking domain",
+    "paragraph7_2": "BFSI professionals who want to predict loan defaults and forecast insurance pricing",
+    "paragraph8_3": "Executive-level BFSI professionals dreaming of securing a position at the forefront of BFSI",
+    "paragraph8_4": "BFSI managers & leaders who want to incorporate data-driven practices into their business",
+    "paragraph8_5": "Data scientists looking to make a meaningful impact in the banking domain",
 
     "para7": "What our Learners have to say",
     "para8": "About Learnbay Academy",
-    "paragraph14": "Learnbay offers domain specialized courses in fields such as full-stack software development, Data Structure Algorithms and System Design ",
-    "paragraph15": "Are you an Engineer who’s not happy with the job and wants to upskill and get into MAANG companies? We are here with the best option, Learnbay’s software development and DSA system design courses are designed for the working professionals who wants to advance their career.",
-    "paragraph16": "Highlighted features of Learnbay:",
-    "paragraph17": "A curriculum that has been developed, supervised, and approved by industry experts",
-    "paragraph18": "1:1 mentorship, guided by top experts in the field",
-    "paragraph19": "Gain technical expertise by working on challenging real- world projects ",
-    "paragraph20": "250 + hiring partners with dedicated placement support and 100% Interview guaranteed ",
-    "paragraph21": "NEW! Attend a free Demo Class now and the enroll for the domain you’re looking for."
+    "paragraph14": "Welcome to Learnbay!",
+    "paragraph15": "We are a leading provider of specialized courses in data science, data analytics, artificial intelligence and full-stack software development. We are dedicated to helping working professionals advance their careers and gain the technical expertise needed to succeed in the fast-paced world of technology.",
+    "paragraph16": "Some of our standout features include: ",
+    "paragraph17": "Curriculum that is developed, supervised and approved by industry experts",
+    "paragraph18": "1:1 mentorship from top experts in the field",
+    "paragraph19": "Opportunities to gain technical expertise through real-world projects",
+    "paragraph20": "Over 250 hiring partners and dedicated placement support",
+    "paragraph21": "100% guarantee interview calls",
+    "paragraph22": "Sign up for a free demo class and enroll in the domain of your choice."
   },
   "headImg": {
     "deskimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/WebsiteImg.png",

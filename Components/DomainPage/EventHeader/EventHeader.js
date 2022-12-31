@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { FaCheck, FaPlay } from "react-icons/fa";
+import { FaCalendarAlt, FaPlay, FaClock } from "react-icons/fa";
 import styles from "./EventHeader.module.css";
 import Image from "next/image";
 
@@ -48,7 +48,7 @@ export const EventHeader = ({ deskimg, mobimg }) => {
           </div>
           <div className={styles.imgBox}>
             <div className={styles.imgText}>
-              <Image
+              {/* <Image
                 src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/Group+32.png"
                 layout="intrinsic"
                 objectFit="cover"
@@ -56,14 +56,15 @@ export const EventHeader = ({ deskimg, mobimg }) => {
                 height="60px"
                 loading="lazy"
                 alt="backImg"
-              />
+              /> */}
+              <FaCalendarAlt className={styles.iconOrange} />
               <div className={styles.Text}>
                 <p className={styles.firstText}>8th Jan</p>
                 <p className={styles.secondText}>Sunday</p>
               </div>
             </div>
             <div className={styles.imgText}>
-              <Image
+              {/* <Image
                 src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/Group+33.png"
                 layout="intrinsic"
                 objectFit="cover"
@@ -71,9 +72,10 @@ export const EventHeader = ({ deskimg, mobimg }) => {
                 height="60px"
                 loading="lazy"
                 alt="backImg"
-              />
+              /> */}
+              <FaClock className={styles.iconOrange} />
               <div className={styles.Text}>
-                <p className={styles.firstText}>12:30 - 3:30 PM</p>
+                <p className={styles.firstText}>5 - 8 PM</p>
                 <p className={styles.secondText}>3 Hr Session</p>
               </div>
             </div>
