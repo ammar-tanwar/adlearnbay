@@ -3,7 +3,12 @@ import styles from "./EventFeature.module.css";
 import Image from "next/image";
 import Reviews from "../../DomainPage/CareerImpactHome/CareerImpact";
 import Popup from "../../Popup/Popup";
-import { FaArrowRight, FaCheck, FaChevronUp } from "react-icons/fa";
+import { FaArrowRight, FaCheck, FaUserGraduate, FaUserTie, FaLaptopCode } from "react-icons/fa";
+import { GiReceiveMoney, GiRank3 } from "react-icons/gi"
+import { GrCertificate } from "react-icons/gr"
+import { HiIdentification, HiOutlineBadgeCheck } from "react-icons/hi"
+import {MdAltRoute, MdAnalytics, MdLiveTv} from "react-icons/md"
+import { TbDeviceDesktopAnalytics } from "react-icons/go"
 import FormOtp from "../../DomainPage/FormOtp/FormOtp";
 import Link from "next/link";
 
@@ -67,6 +72,8 @@ const EventFeature = ({
         />
         <p>{props.paragraph1}</p>
         <p>{props.paragraph1_1}</p>
+        <p>{props.paragraph1_2}</p>
+        <p>{props.paragraph1_3}</p>
       </div>
 
       <div className={styles.topicCover}>
@@ -88,15 +95,21 @@ const EventFeature = ({
             <FaCheck className={styles.icon} />
             <p className={styles.iconPs}>{props.paragraph4}</p>
           </div>
-        </div>
-        <div className={styles.iconList}>
           <div className={styles.iconDiv}>
             <FaCheck className={styles.icon} />
             <p className={styles.iconPs}>{props.paragraph5}</p>
           </div>
           <div className={styles.iconDiv}>
             <FaCheck className={styles.icon} />
-            <p className={styles.iconPs}>{props.paragraph6}</p>
+            <p className={styles.iconPs}>{props.paragraph5_1}</p>
+          </div>
+          <div className={styles.iconDiv}>
+            <FaCheck className={styles.icon} />
+            <p className={styles.iconPs}>{props.paragraph5_2}</p>
+          </div>
+          <div className={styles.iconDiv}>
+            <FaCheck className={styles.icon} />
+            <p className={styles.iconPs}>{props.paragraph5_3}</p>
           </div>
         </div>
       </div>
@@ -116,7 +129,7 @@ const EventFeature = ({
         <p>About the Speaker</p>
         <div>
           <div className={styles.innerDiv}>
-            <div>
+            <div  className={styles.spanTrainerImg}>
               <Image
                 src={img4}
                 layout="intrinsic"
@@ -132,7 +145,7 @@ const EventFeature = ({
               <p className={styles.trainerHead}>{props.para4}</p>
               <p>{props.paragraph9}</p>
               <p>
-                Company:{" "}
+                Company :{" "}
                 <span className={styles.spanT}>{props.paragraph9_1}</span>
               </p>
             </div>
@@ -142,46 +155,75 @@ const EventFeature = ({
 
       <div className={styles.master}>
         <p className={styles.paragramTitle}>{props.para6}</p>
-        <Image
+        {/* <Image
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/Line+48.png"
           layout="intrinsic"
           width="90%"
           height="5px"
           loading="lazy"
           alt="backImg"
-        />
+        /> */}
+        <div className={styles.TopMargin}>
         <div className={styles.iconP}>
-          <Image
+          {/* <Image
             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/user-avatar+1.png"
             layout="intrinsic"
             width="30px"
             height="30px"
             loading="lazy"
             alt="backImg"
-          />
+          /> */}
+          <FaUserTie className={styles.iconG} />
           <p>{props.paragraph6_2}</p>
         </div>
         <div className={styles.iconP}>
-          <Image
+          {/* <Image
             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/programmer+1.png"
             layout="intrinsic"
             width="30px"
             height="30px"
             loading="lazy"
             alt="backImg"
-          />
+          /> */}
+          <GiReceiveMoney className={styles.iconG} />
           <p>{props.paragraph7_2}</p>
         </div>
         <div className={styles.iconP}>
-          <Image
+          {/* <Image
             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/experience+1.png"
             layout="intrinsic"
             width="30px"
             height="30px"
             loading="lazy"
             alt="backImg"
-          />
+          /> */}
+          <HiIdentification className={styles.iconG} />
           <p>{props.paragraph8_3}</p>
+        </div>
+        <div className={styles.iconP}>
+          {/* <Image
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/experience+1.png"
+            layout="intrinsic"
+            width="30px"
+            height="30px"
+            loading="lazy"
+            alt="backImg"
+          /> */}
+          <MdAltRoute className={styles.iconG} />
+          <p>{props.paragraph8_4}</p>
+        </div>
+        <div className={styles.iconP}>
+          {/* <Image
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/experience+1.png"
+            layout="intrinsic"
+            width="30px"
+            height="30px"
+            loading="lazy"
+            alt="backImg"
+          /> */}
+          <MdAnalytics className={styles.iconG} />
+          <p>{props.paragraph8_5}</p>
+        </div>
         </div>
       </div>
 
@@ -241,7 +283,7 @@ const EventFeature = ({
       <div style={{ margin: "15px 0px" }}>
         <div className={styles.bodyContent}>
           <div className={styles.eLeft}>
-            <div className={styles.imgBack}>
+            {/* <div className={styles.imgBack}>
               <Image
                 src={img1}
                 layout="intrinsic"
@@ -251,12 +293,13 @@ const EventFeature = ({
                 loading="lazy"
                 alt="backImg"
               />
-            </div>
+            </div> */}
+              <MdLiveTv className={styles.iconBlue} />
             <h6>{h1}</h6>
             {/* <p>{p1}</p> */}
           </div>
           <div className={styles.eMiddle}>
-            <div className={styles.imgBack}>
+            {/* <div className={styles.imgBack}>
               <Image
                 src={img2}
                 layout="intrinsic"
@@ -266,12 +309,13 @@ const EventFeature = ({
                 loading="lazy"
                 alt="backImg"
               />
-            </div>
+            </div> */}
+            <FaLaptopCode className={styles.iconOrange} />
             <h6>{h2}</h6>
             {/* <p>{p2}</p> */}
           </div>
           <div className={styles.eRight}>
-            <div className={styles.imgBack}>
+            {/* <div className={styles.imgBack}>
               <Image
                 src={img3}
                 layout="intrinsic"
@@ -281,12 +325,13 @@ const EventFeature = ({
                 loading="lazy"
                 alt="backImg"
               />
-            </div>
+            </div> */}
+            <FaUserGraduate className={styles.iconBlue} />
             <h6>{h3}</h6>
             {/* <p>{p3}</p> */}
           </div>
           <div className={styles.eRight}>
-            <div className={styles.imgBack}>
+            {/* <div className={styles.imgBack}>
               <Image
                 src={img5}
                 layout="intrinsic"
@@ -296,7 +341,8 @@ const EventFeature = ({
                 loading="lazy"
                 alt="backImg"
               />
-            </div>
+            </div> */}
+            <HiOutlineBadgeCheck className={styles.iconOrange} />
             <h6>{h4}</h6>
             {/* <p>{p3}</p> */}
           </div>
