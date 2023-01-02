@@ -22,7 +22,7 @@ export const BFSIData = [
       p3: "Career Assistance",
       p33: "For Professionals",
       p4: "Financing as low as",
-      p44: "₹ 8,850/month",
+      p44: "₹ 9,341/month",
     },
     BoxShape: {
       title:"When you learn more, you earn more.",
@@ -209,8 +209,8 @@ export const BFSIData = [
         "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
     ProgramFee: {
-      Fee: "₹90,000 + GST",
-      Emi: "₹ 8,850/month",
+      Fee: "₹95,000 + GST",
+      Emi: "₹ 9,341/month",
       CourseFeeAndFinancing: "Data Science Course Fee & Financing",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Science Certification Course and offer avariety of financing options to make it more economical.",
     },
@@ -382,7 +382,7 @@ export const HRData = [
       p3: "Career Assistance",
       p33: "For Professionals",
       p4: "Financing as low as",
-      p44: "₹ 8,850/month",
+      p44: "₹ 9,341/month",
     },
     BoxShape: {
       title:"When you learn more, you earn more.",
@@ -569,8 +569,8 @@ export const HRData = [
         "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
     ProgramFee: {
-      Fee: "₹90,000 + GST",
-      Emi: "₹ 8,850/month",
+      Fee: "₹95,000 + GST",
+      Emi: "₹ 9,341/month",
       CourseFeeAndFinancing: "Data Science Course Fee & Financing",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Science Certification Course and offer avariety of financing options to make it more economical.",
     },
@@ -742,7 +742,7 @@ export const MarketingData = [
       p3: "Career Assistance",
       p33: "For Professionals",
       p4: "Financing as low as",
-      p44: "₹ 8,850/month",
+      p44: "₹ 9,341/month",
     },
     BoxShape: {
       title:"When you learn more, you earn more.",
@@ -929,8 +929,8 @@ export const MarketingData = [
         "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
     ProgramFee: {
-      Fee: "₹90,000 + GST",
-      Emi: "₹ 8,850/month",
+      Fee: "₹95,000 + GST",
+      Emi: "₹ 9,341/month",
       CourseFeeAndFinancing: "Data Science Course Fee & Financing",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Science Certification Course and offer avariety of financing options to make it more economical.",
     },
@@ -1102,7 +1102,7 @@ export const SalesData = [
       p3: "Career Assistance",
       p33: "For Professionals",
       p4: "Financing as low as",
-      p44: "₹ 8,850/month",
+      p44: "₹ 9,341/month",
     },
     BoxShape: {
       title:"When you learn more, you earn more.",
@@ -1289,8 +1289,8 @@ export const SalesData = [
         "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
     ProgramFee: {
-      Fee: "₹90,000 + GST",
-      Emi: "₹ 8,850/month",
+      Fee: "₹95,000 + GST",
+      Emi: "₹ 9,341/month",
       CourseFeeAndFinancing: "Data Science Course Fee & Financing",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Science Certification Course and offer avariety of financing options to make it more economical.",
     },

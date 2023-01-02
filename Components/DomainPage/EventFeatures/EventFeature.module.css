@@ -78,7 +78,7 @@
 }
 
 .iconG {
-  color: #787C7D;
+  color: #787c7d;
   font-size: 24px;
 }
 
@@ -119,12 +119,11 @@
 }
 
 .backTrainer {
-  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/Group+25+(1).png");
-  width: auto;
-  background-size: contain;
-  padding: 50px;
-  background-repeat: no-repeat;
+  width: 600px;
+  padding: 30px 50px;
   margin-top: 50px;
+  box-shadow: 0px 0px 25px rgb(237 187 82 / 30%);
+  border-radius: 20px;
 }
 
 .backTrainer > p {
@@ -154,7 +153,11 @@
 }
 
 .master {
-  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/Rectangle+257.png");
+  background: linear-gradient(
+    89.93deg,
+    #e1f1f5 0.41%,
+    rgba(217, 217, 217, 0) 56.5%
+  );
   width: auto;
   background-size: cover;
   padding: 10px 50px 30px 50px;
@@ -196,7 +199,7 @@
   font-size: 50px;
   padding: 0px 5px;
   border-radius: 10px;
-  background-color: #EDBB52;
+  background-color: #edbb52;
   color: #fff;
 }
 
@@ -298,7 +301,6 @@
     background-image: none;
     background-color: #fff;
     box-shadow: 0px 0px 25px rgba(237, 187, 82, 0.3);
-    width: fit-content;
     padding: 20px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -308,7 +310,11 @@
   }
 
   .master {
-    background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/Rectangle+257.png");
+    background: linear-gradient(
+      89.93deg,
+      #e1f1f5 0.41%,
+      rgba(217, 217, 217, 0) 56.5%
+    );
     width: auto;
     background-size: cover;
     padding: 20px;
@@ -356,7 +362,7 @@
   .iconBlue {
     font-size: 42px;
   }
-  
+
   .iconOrange {
     font-size: 42px;
   }

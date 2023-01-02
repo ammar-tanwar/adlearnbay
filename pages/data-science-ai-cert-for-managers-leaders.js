@@ -197,8 +197,8 @@ export default function Home() {
           img20={DsaiManagersCourseData[0].OurExpert.img20}
         />
         <ProgramFee
-          Emi="₹ 9,833/month"
-          Fee="₹ 1,00,000 +GST"
+          Emi="₹ 10,325/month"
+          Fee="₹ 1,05,000 +GST"
           CourseFeeAndFinancing="Program Fee & Financing"
           para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."
         />

@@ -24,7 +24,7 @@ export const DataAnalyticsCourseData = [
       p3: "1:1",
       p33: "Career Support",
       p4: "Financing as low as",
-      p44: "₹ 13,767/month",
+      p44: "₹ 14,750/month",
     },
     BoxShape: {
       title: "Data Analytic Certification Programs in Hyderabad",
@@ -293,8 +293,8 @@ export const DataAnalyticsCourseData = [
     },
 
     ProgramFee: {
-      Emi: "₹ 13,767/month",
-      Fee: "₹ 70,000 +GST",
+      Emi: "₹ 14,750/month",
+      Fee: "₹ 75,000 +GST",
       CourseFeeAndFinancing:
         "Data Analytics Course Fee & Financing in Hyderabad",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Analytic Certification Course in Hyderabad and offer avariety of financing options to make it more economical.",

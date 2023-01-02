@@ -69,8 +69,6 @@ export default function Home() {
                                 x.parentNode.insertBefore(s, x);`,
                     }}
                 />
-
-
             </Head>
             <main>  <Navbar popup={true} formotp={true} />
 
@@ -124,8 +122,6 @@ export default function Home() {
                         headh5={DsaCourseData[0].BoxShape.headh5}
                     />
                 </div>
-
-
                 <div className={styles.Feature} id="Feature">
                     <BoxShape1 formotp={true}
                         title={DsaCourseData[0].BoxShape1.title}
@@ -151,8 +147,6 @@ export default function Home() {
                     project={DsaCourseData[0].project}
                     syllabusFormotp={true}
                 />
-
-
                 <ProgramFee Fee={DsaCourseData[0].ProgramFee.Fee} Emi={DsaCourseData[0].ProgramFee.Emi} formotp={true}
                     CourseFeeAndFinancing={DsaCourseData[0].ProgramFee.CourseFeeAndFinancing}
                     para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." dataScience={true}
@@ -171,9 +165,7 @@ export default function Home() {
                     CourseFeelist4={DsaCourseData[0].BatchCourses.CourseFeelist4}
                     CourseFeelist5={DsaCourseData[0].BatchCourses.CourseFeelist5}
                 />
-
                 <LearnSupport />
-
                 <Footer
                     paraTag="Enroll now for Full Stack and DSA Program (Bangalore) and get master in Data Structures and System Design Skills which will help you to transform your career."
                     pTag={true}

@@ -24,7 +24,7 @@ export const JobGuaranteeCourseData = [
       p3: "1:1",
       p33: "Career Support",
       p4: "Financing as low as",
-      p44: "₹ 11,800/month",
+      p44: "₹ 12,291/month",
     },
     BoxShape: {
       title: "Explore Our Programs",
@@ -556,8 +556,8 @@ export const JobGuaranteeCourseData = [
         "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
     ProgramFee: {
-      Emi: "₹ 11,800/month",
-      Fee: "₹ 1,20,000 +GST",
+      Emi: "₹ 12,291/month",
+      Fee: "₹ 1,25,000 +GST",
       CourseFeeAndFinancing: "100% Placement Assistance Course Fee & Financing",
     },
     Project: {

@@ -73,7 +73,7 @@ const GetHired = ({ radio }) => {
         <div className={styles.right}>
           <div>
             <p>Course Fee</p>
-            <h4 className={styles.righth}>₹1,20,000</h4>
+            <h4 className={styles.righth}>₹1,25,000</h4>
             <p>3 Year Subscription</p>
             <button
               onClick={popupShow}
