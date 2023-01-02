@@ -15,7 +15,7 @@ export const DsaiManagersCourseData = [
       p3: "Career Assistance",
       p33: "For Professionals",
       p4: "Financing as low as",
-      p44: "₹ 9,833/month",
+      p44: "₹ 10,325/month",
     },
     BoxShape: {
       title: "Why Join this Programme?",

@@ -22,7 +22,7 @@ export const DataScienceCourseData = [
       p3: "Career Assistance",
       p33: "For Professionals",
       p4: "Financing as low as",
-      p44: "₹ 8,850/month",
+      p44: "₹ 9,341/month",
     },
     BoxShape: {
       title: "Explore Our Data Science Certification Programs",
@@ -313,8 +313,8 @@ export const DataScienceCourseData = [
       img20: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
     ProgramFee: {
-Fee: "₹90,000 + GST",
-      Emi: "₹ 8,850/month", 
+      Fee: "₹95,000 + GST",
+      Emi: "₹ 9,341/month", 
       CourseFeeAndFinancing: "Data Science Course Fee & Financing",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Science Certification Course and offer avariety of financing options to make it more economical.",
     },

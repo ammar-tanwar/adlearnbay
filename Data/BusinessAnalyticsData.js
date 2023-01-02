@@ -24,7 +24,7 @@ export const BusinessAnalyticsCourseData = [
       p3: "1:1",
       p33: "Career Support",
       p4: "Financing as low as",
-      p44: "₹ 13,767/month",
+      p44: "₹ 14,750/month",
     },
     BoxShape: {
       title: "Why Enroll In This Program?",
@@ -273,8 +273,8 @@ export const BusinessAnalyticsCourseData = [
         "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
     ProgramFee: {
-      Emi: "₹ 13,767/month",
-      Fee: "₹ 70,000 +GST",
+      Emi: "₹ 14,750/month",
+      Fee: "₹ 75,000 +GST",
       CourseFeeAndFinancing: "Business Analytics Course Fee & Financing",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Business Analytics Certification Course and offer a variety of financing options to make it more economical.",
     },

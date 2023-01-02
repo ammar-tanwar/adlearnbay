@@ -24,7 +24,7 @@ export const AiCourseData = [
       p3: "Career Assistance",
       p33: "For Professionals",
       p4: "Financing as low as",
-      p44: "₹ 9,833/month",
+      p44: "₹ 10,325/month",
     },
 
     BoxShape: {
@@ -408,8 +408,8 @@ export const AiCourseData = [
     },
 
     ProgramFee: {
-      Emi: "₹ 9,833/month",
-      Fee: "₹ 1,00,000 +GST",
+      Emi: "₹ 10,325/month",
+      Fee: "₹ 1,05,000 +GST",
       CourseFeeAndFinancing:
         "Artificial Intelligence Course Fee & Financing in Chennai",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for AI Certification Course in Chennai and offer avariety of financing options to make it more economical.",

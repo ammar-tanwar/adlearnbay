@@ -8,7 +8,7 @@ export const viewAllD = [
     para: [
       "250 hours of Interactive Learning",
       "12 Projects + 1 Capstones",
-      "Course Fee : ₹ 90,000 + GST",
+      "Course Fee : ₹ 95,000 + GST",
     ],
     link1: "/data-science-certification-courses",
   },
@@ -21,7 +21,7 @@ export const viewAllD = [
     para: [
       "350 hours of Interactive Learning",
       "15 Projects + 1 Capstones",
-      "Course Fee : ₹ 1,00,000 + GST",
+      "Course Fee : ₹ 1,05,000 + GST",
     ],
     link1: "/advance-ai-ml-certification",
   },
@@ -34,7 +34,7 @@ export const viewAllD = [
     para: [
       "400 hours of Interactive Learning",
       "15 Projects + 1 Capstones",
-      "Course Fee : ₹ 1,00,000 + GST",
+      "Course Fee : ₹ 1,05,000 + GST",
     ],
     link1: "/data-science-ai-cert-for-managers-leaders",
   },
@@ -47,7 +47,7 @@ export const viewAllD = [
     para: [
       "500 hours of Interactive Learning",
       "20 Projects + 3 Capstones",
-      "Course Fee : ₹ 1,20,000 + GST",
+      "Course Fee : ₹ 1,25,000 + GST",
     ],
     link1: "/job-guarantee-or-money-back-data-science-ai",
   },
@@ -60,7 +60,7 @@ export const viewAllD = [
     para: [
       "180 hours of Interactive Learning",
       "8 Projects",
-      "Course Fee : ₹ 70,000 + GST",
+      "Course Fee : ₹ 75,000 + GST",
     ],
     link1: "/s2-data-analytics",
   },
@@ -116,7 +116,7 @@ export const ForProgrammersD = [
     para: [
       "250 hours of Interactive Learning",
       "12 Projects + 1 Capstones",
-      "Course Fee : ₹ 90,000 + GST",
+      "Course Fee : ₹ 95,000 + GST",
     ],
     link1: "/data-science-certification-courses",
   },
@@ -142,7 +142,7 @@ export const ForProgrammersD = [
     para: [
       "400 hours of Interactive Learning",
       "15 Projects + 1 Capstones",
-      "Course Fee : ₹ 1,00,000 + GST",
+      "Course Fee : ₹ 1,05,000 + GST",
     ],
     link1: "/data-science-ai-cert-for-managers-leaders",
   },
@@ -155,7 +155,7 @@ export const ForProgrammersD = [
     para: [
       "350 hours of Interactive Learning",
       "15 Projects + 1 Capstones",
-      "Course Fee : ₹ 1,00,000 + GST",
+      "Course Fee : ₹ 1,05,000 + GST",
     ],
     link1: "/advance-ai-ml-certification",
   },
@@ -169,7 +169,7 @@ export const ForProgrammersD = [
     para: [
       "500 hours of Interactive Learning",
       "20 Projects + 3 Capstones",
-      "Course Fee : ₹ 1,20,000 + GST",
+      "Course Fee : ₹ 1,25,000 + GST",
     ],
     link1: "/job-guarantee-or-money-back-data-science-ai",
   },
@@ -210,7 +210,7 @@ export const ForNonProgrammerD = [
     para: [
       "250 hours of Interactive Learning",
       "12 Projects + 1 Capstones",
-      "Course Fee : ₹ 90,000 + GST",
+      "Course Fee : ₹ 95,000 + GST",
     ],
     link1: "/data-science-certification-courses",
   },
@@ -223,7 +223,7 @@ export const ForNonProgrammerD = [
     para: [
       "350 hours of Interactive Learning",
       "15 Projects + 1 Capstones",
-      "Course Fee : ₹ 1,00,000 + GST",
+      "Course Fee : ₹ 1,05,000 + GST",
     ],
     link1: "/advance-ai-ml-certification",
   },
@@ -236,7 +236,7 @@ export const ForNonProgrammerD = [
     para: [
       "400 hours of Interactive Learning",
       "15 Projects + 1 Capstones",
-      "Course Fee : ₹ 1,00,000 + GST",
+      "Course Fee : ₹ 1,05,000 + GST",
     ],
     link1: "/data-science-ai-cert-for-managers-leaders",
   },
@@ -249,7 +249,7 @@ export const ForNonProgrammerD = [
     para: [
       "500 hours of Interactive Learning",
       "20 Projects + 3 Capstones",
-      "Course Fee : ₹ 1,20,000 + GST",
+      "Course Fee : ₹ 1,25,000 + GST",
     ],
     link1: "/job-guarantee-or-money-back-data-science-ai",
   },
@@ -263,7 +263,7 @@ export const ForNonProgrammerD = [
     para: [
       "180 hours of Interactive Learning",
       "8 Projects",
-      "Course Fee : ₹ 70,000 + GST",
+      "Course Fee : ₹ 75,000 + GST",
     ],
     link1: "/s2-data-analytics",
   },
@@ -279,7 +279,7 @@ export const JobGuaranteeD = [
     para: [
       "500 hours of Interactive Learning",
       "20 Projects + 3 Capstones",
-      "Course Fee : ₹ 1,20,000 + GST",
+      "Course Fee : ₹ 1,25,000 + GST",
     ],
     link1: "/job-guarantee-or-money-back-data-science-ai",
   },

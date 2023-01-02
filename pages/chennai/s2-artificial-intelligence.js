@@ -131,7 +131,7 @@ export default function Home() {
             Duration="350+ Hours"
             InterviewCalls=" 10 "
             Projects="15+"
-            CourseFee="₹ 1,00,000 +GST "
+            CourseFee="₹ 1,05,000 +GST "
             Domain="7+"
           />
         </div>
