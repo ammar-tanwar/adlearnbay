@@ -373,9 +373,8 @@ const Form = ({
         phone: "",
         workExperience: "",
         dateTime: "",
-        url: "",
-      })
-
+        url: router.asPath,
+      }),
     );
     if (popup) {
       const off = () => {
