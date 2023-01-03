@@ -57,3 +57,37 @@
     border-radius: 10px;
     color: #fff;
 }
+
+@media (max-width: 481px) {
+    .section2 {
+        padding: 20px;
+    }
+
+    .BoxIconDiv {
+        display: grid;
+        grid-template-columns: 60% 60% 60% 60%;
+        overflow-x: auto;
+        margin: 30px 0px;
+    }
+
+    .lineWhite {
+display: none;
+    }
+    .section2 h1 {
+        font-size: 30px;
+    }
+    .DivImg {
+        margin: 30px 0px;
+    }
+    .tagline {
+        font-size: 22px;
+    }
+    .BoxIcon {
+        padding: 15px 5px;
+    }
+    .BoxIcon p {
+        font-size: 16px;
+        margin: 0;
+        margin-top: 10px;
+    }
+}

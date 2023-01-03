@@ -68,17 +68,31 @@
 }
 
 .IconBoxBlue {
-    background: #0072BC;
     font-size: 40px;
     padding: 5px;
     border-radius: 10px;
-    color: #fff;
+    color: #EDBB52;
 }
 
 .IconBoxOrange {
-    background: #EDBB52;
     font-size: 40px;
     padding: 5px;
     border-radius: 10px;
-    color: #fff;
+    color: #EDBB52;
+}
+
+@media (max-width: 480px) {
+    .section3 {
+        margin: 0px 20px;
+        display: block;
+    }
+    .section3 h1 {
+        font-size: 30px;
+    }
+    .rightSide {
+        padding: 20px;
+    }
+    .rightSideP {
+        display: block;
+    }
 }
