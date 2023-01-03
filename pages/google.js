@@ -12,7 +12,8 @@ function Counselling() {
       <Head>
         <title>Learnbay Courses</title>
         <meta name="description" content="Learnbay Courses" />
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+ <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
+
       </Head>
       <Navbar radio={true} />
         <div className={styles.formq}>
