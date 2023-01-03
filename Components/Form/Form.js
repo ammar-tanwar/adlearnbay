@@ -18,6 +18,8 @@ const Form = ({
   jobTitle,
   fsddesc,
   jobPlacee,
+  google,
+  workExperience,
 }) => {
   const router = useRouter();
   let today = new Date();
@@ -252,6 +254,7 @@ const Form = ({
     router.pathname === "/data-science-certification-courses-s7" ||
     router.pathname === "/advance-ai-ml-certification-s7" ||
     router.pathname === "/data-science-ai-cert-for-managers-leaders-s7" ||
+    router.pathname === "/google" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s7"
   ) {
     // -====================  LinkedIn - S7 END POINT ==========================--------
@@ -891,7 +894,7 @@ const Form = ({
         ) : (
           ""
         )}
-
+{/* 
         <div className={popup ? styles.formWrappers : styles.formWrapper}>
           <select
             name="workExperience"
@@ -906,7 +909,45 @@ const Form = ({
             <option value="7 to 12 year">7 to 12 year</option>
             <option value="12+ year">12+ year</option>
           </select>
+        </div> */}
+
+        {workExperience ? (
+            ""
+          ) : (
+            <div className={popup ? styles.formWrappers : styles.formWrapper}>
+              <select
+            name="workExperience"
+            required
+            value={query.workExperience}
+            onChange={handleParam()}
+          >
+                <option value="Work Experience">Work Experience</option>
+            <option value="Fresher or 0 year">Fresher or 0 year</option>
+            <option value="1 to 3 year">1 to 3 year</option>
+            <option value="3 to 7 year">3 to 7 year</option>
+            <option value="7 to 12 year">7 to 12 year</option>
+            <option value="12+ year">12+ year</option>
+              </select>
+            </div>
+          )}
+
+        {google ? (
+          <div className={popup ? styles.formWrappers : styles.formWrapper}>
+          <select
+            name="google"
+            required
+            value={query.google}
+            onChange={handleParam()}
+          >
+            <option value="Select One">Select One</option>
+            <option value="Calls">Calls</option>
+            <option value="WhatsApp">WhatsApp</option>
+            <option value="Referral">Referral</option>
+          </select>
         </div>
+        ) : (
+          ""
+        )}
 
         {radio ? (
           <div className={popup ? styles.formWrappers : styles.formWrapper}>

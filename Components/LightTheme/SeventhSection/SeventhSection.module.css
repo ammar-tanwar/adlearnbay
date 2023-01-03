@@ -4,13 +4,13 @@
 
 .LearnSupport {
     padding: 0px 100px;
-    background: linear-gradient(90deg, #28557A 0.8%, #2979A8 101.17%);;
+    background: linear-gradient(90deg, #28557A 0.8%, #2979A8 101.17%);
     display: flex;
     align-items: center;
     box-shadow: -1px 0px 10px 2px rgb(4 135 217 / 10%);
     justify-content: space-evenly;
   }
-  
+
   .pBot {
     font-style: normal;
     font-weight: 400;
@@ -21,6 +21,7 @@
     padding-right: 80px;
     color: #fff;
   }
+
   .LearnSupport .pTop {
     color: #EDBB52;
     margin: 0;
@@ -89,4 +90,32 @@
   .bIcon {
     font-size: 20px;
     margin-left: 10px;
+  }
+
+  @media (max-width: 481px) {
+    .LearnSupport {
+      padding: 40px 20px 0px 20px; 
+      display: block;
+    }
+    .LearnSupport .pTop {
+      font-size: 26px;
+    }
+    .LearnSupport h5 {
+      font-size: 30px;
+      line-height: 35px;
+    }
+
+    .pBot {
+      font-size: 20px;
+      line-height: 30px;
+      padding-right: 0px;
+      color: #fff;
+    }
+
+    .btnWrap {
+      display: grid;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      gap: 20px;
+    }
   }

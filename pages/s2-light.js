@@ -11,6 +11,7 @@ import ThirdSection from "../Components/LightTheme/ThirdSection/ThirdSection";
 import FourthSection from "../Components/LightTheme/FourthSection/FourthSection";
 import SeventhSection from "../Components/LightTheme/SeventhSection/SeventhSection";
 import EightSection from "../Components/LightTheme/EightSection/EightSection";
+import SyllabusSection from "../Components/LightTheme/SyllabusSection/SyllabusSection";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -91,6 +92,7 @@ export default function Home() {
         <SecondSection />
         <ThirdSection />
         <FourthSection />
+        <SyllabusSection />
         <SliderTab />
         <Testimonial />
         <SeventhSection />

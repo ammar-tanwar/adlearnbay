@@ -46,7 +46,6 @@
     width: fit-content;
     display: flex;
     margin-top: 50px;
-    border-radius: 10px;
 }
 
 .whitep span {
@@ -108,4 +107,37 @@
 .line {
     border: 1px solid #000;
     margin: 10px 0px;
+}
+
+@media (max-width: 480px) {
+  .section1 {
+    padding: 100px 20px 30px 20px;
+    display: block;
+    gap: 50px;
+  }
+  .sectionDiv h1 {
+    font-size: 32px;
+  }
+  .twoBox {
+    display: flex;
+    margin: 30px 0px;
+}
+.twoBoxDivWhite {
+  padding: 0px;
+}
+.sectionDiv button {
+  margin: 20px 0px;
+}
+.line {
+  margin: 0px 15px;
+}
+.sectionDiv .twoBoxDivWhite p {
+  margin: 0px;
+  font-size: 14px;
+}
+.IconBoxBlue {
+  padding: 0px;
+  margin-right: 10px;
+  font-size: 40px;
+}
 }

@@ -44,7 +44,7 @@ function Testimonial() {
         <div className={styles.Testimonial}>
           <div className={styles.swiperleft}>
             <Swiper
-              slidesPerView={mobile ? 1.02 : 3}
+              slidesPerView={mobile ? 1 : 3}
               spaceBetween={mobile ? 10 : 15}
               pagination={{ clickable: true }}
               autoplay={{
