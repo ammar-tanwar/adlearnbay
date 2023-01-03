@@ -945,9 +945,9 @@ const Form = ({
         {google ? (
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
             <select
-              name="google"
+              name="WAdropdown"
               required
-              value={query.google}
+              value={query.WAdropdown}
               onChange={handleParam()}
             >
               <option value="Select One">Select One</option>
