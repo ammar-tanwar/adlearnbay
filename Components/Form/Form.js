@@ -194,6 +194,7 @@ const Form = ({
     router.pathname === "/advance-ai-ml-certification-s4" ||
     router.pathname === "/data-science-ai-cert-for-managers-leaders-s4" ||
     router.pathname === "/apply-for-counselling-s4" ||
+    router.pathname === "/google" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s4"
   ) {
     // -==================== Quora - S4 END POINT ==========================--------
@@ -258,7 +259,6 @@ const Form = ({
     router.pathname === "/data-science-certification-courses-s7" ||
     router.pathname === "/advance-ai-ml-certification-s7" ||
     router.pathname === "/data-science-ai-cert-for-managers-leaders-s7" ||
-    router.pathname === "/google" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s7"
   ) {
     // -====================  LinkedIn - S7 END POINT ==========================--------
@@ -347,7 +347,7 @@ const Form = ({
     endPoint = "https://getform.io/f/df003555-86c7-4ae5-a7f8-98c21dd9ad92";
     // -==================== Webinar = END POINT ==========================--------
   }
-
+ 
   let btnTxt = "Apply for  Counseliing";
   if (event) {
     btnTxt = "Register Now";
