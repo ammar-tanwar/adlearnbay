@@ -22,10 +22,8 @@ function Counselling() {
             width="400px"
             height="500px"
             alt="LearnsupportImg"
-            
           />
           </div>
-
           <div className={styles.formr}>
             <Form google={true} workExperience={true} />
           </div>

@@ -41,6 +41,12 @@
   background-color: rgba(255, 255, 255);
   height: 50px;
 }
+
+.alert {
+  margin: 0;
+  color: #2C9CD7 !important;
+  font-size: 18px !important;
+}
 .EmailInput {
   border-radius: 2px;
   border: 0;

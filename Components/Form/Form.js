@@ -20,6 +20,7 @@ const Form = ({
   jobPlacee,
   google,
   workExperience,
+  googlePopUp
 }) => {
   const router = useRouter();
   let today = new Date();
@@ -29,6 +30,8 @@ const Form = ({
   //offset to maintain time zone difference
   const [startDate, setStartDate] = useState();
   const [disable, setDisable] = useState(false);
+  const [alertMSG, setAlertMSG] = useState("");
+  const [toggle, setToggle] = useState(true);
   const [value, setValue] = useState();
 
   const [query, setQuery] = useState({
@@ -708,6 +711,12 @@ const Form = ({
 
       return;
     }
+
+    if (router.pathname === "/google"){
+      setToggle(false);
+      setAlertMSG("Form Submitted successfully");
+      router.reload(window.location.pathname);
+    }
   };
   const isWeekday = (date) => {
     const day = getDay(date);
@@ -1065,6 +1074,8 @@ const Form = ({
           By submitting the form, you agree to our Terms and Conditions and our
           Privacy Policy.
         </p>
+
+        <div>{toggle ? "" : <p className={styles.alert}>{alertMSG}</p>}</div>
         {disable ? (
           <div className={styles.ring}>
             <div className={styles.ldsring}>
