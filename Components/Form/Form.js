@@ -20,7 +20,7 @@ const Form = ({
   jobPlacee,
   google,
   workExperience,
-  googlePopUp
+  
 }) => {
   const router = useRouter();
   let today = new Date();
@@ -47,7 +47,8 @@ const Form = ({
   useEffect(() => {
     setQuery({ ...query, phone: value, dateTime: startDate });
 
-    jsCookie.set("CARD", query.email, { expires: 14, secure: true });
+    jsCookie.set("CARD", query.email, { expires: 14, secure: true });  
+    
   }, [value, startDate]);
 
   // Update inputs value
@@ -364,7 +365,7 @@ const Form = ({
       method: "POST",
       body: formData,
     }).then(() =>
-      // console.log(res),
+      setAlertMSG(""),
       setQuery({
         name: "",
         email: "",
@@ -374,6 +375,7 @@ const Form = ({
         dateTime: "",
         url: "",
       })
+
     );
     if (popup) {
       const off = () => {
@@ -383,6 +385,7 @@ const Form = ({
     }
 
     setDisable(true);
+
     if (
       (router.pathname === "/data-science-certification-courses-sd" &&
         downloadBrochure) ||
@@ -711,11 +714,11 @@ const Form = ({
 
       return;
     }
-
-    if (router.pathname === "/google"){
+    if (router.pathname === "/google") {
       setToggle(false);
       setAlertMSG("Form Submitted successfully");
-      router.reload(window.location.pathname);
+      setDisable(false);  
+      setValue("")
     }
   };
   const isWeekday = (date) => {
@@ -760,17 +763,17 @@ const Form = ({
             style={
               popup
                 ? {
-                    height: "50px",
-                    borderRadius: "8px",
-                    border: "1px solid grey",
-                    padding: "10px",
-                  }
+                  height: "50px",
+                  borderRadius: "8px",
+                  border: "1px solid grey",
+                  padding: "10px",
+                }
                 : {
-                    border: "0",
-                    height: "50px",
-                    borderRadius: "3px",
-                    borderBottom: "1px solid grey",
-                  }
+                  border: "0",
+                  height: "50px",
+                  borderRadius: "3px",
+                  borderBottom: "1px solid grey",
+                }
             }
             name="phone"
             rules={{ required: true }}
@@ -903,7 +906,7 @@ const Form = ({
         ) : (
           ""
         )}
-{/* 
+        {/* 
         <div className={popup ? styles.formWrappers : styles.formWrapper}>
           <select
             name="workExperience"
@@ -921,39 +924,39 @@ const Form = ({
         </div> */}
 
         {workExperience ? (
-            ""
-          ) : (
-            <div className={popup ? styles.formWrappers : styles.formWrapper}>
-              <select
-            name="workExperience"
-            required
-            value={query.workExperience}
-            onChange={handleParam()}
-          >
-                <option value="Work Experience">Work Experience</option>
-            <option value="Fresher or 0 year">Fresher or 0 year</option>
-            <option value="1 to 3 year">1 to 3 year</option>
-            <option value="3 to 7 year">3 to 7 year</option>
-            <option value="7 to 12 year">7 to 12 year</option>
-            <option value="12+ year">12+ year</option>
-              </select>
-            </div>
-          )}
+          ""
+        ) : (
+          <div className={popup ? styles.formWrappers : styles.formWrapper}>
+            <select
+              name="workExperience"
+              required
+              value={query.workExperience}
+              onChange={handleParam()}
+            >
+              <option value="Work Experience">Work Experience</option>
+              <option value="Fresher or 0 year">Fresher or 0 year</option>
+              <option value="1 to 3 year">1 to 3 year</option>
+              <option value="3 to 7 year">3 to 7 year</option>
+              <option value="7 to 12 year">7 to 12 year</option>
+              <option value="12+ year">12+ year</option>
+            </select>
+          </div>
+        )}
 
         {google ? (
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
-          <select
-            name="google"
-            required
-            value={query.google}
-            onChange={handleParam()}
-          >
-            <option value="Select One">Select One</option>
-            <option value="Calls">Calls</option>
-            <option value="WhatsApp">WhatsApp</option>
-            <option value="Referral">Referral</option>
-          </select>
-        </div>
+            <select
+              name="google"
+              required
+              value={query.google}
+              onChange={handleParam()}
+            >
+              <option value="Select One">Select One</option>
+              <option value="Calls">Calls</option>
+              <option value="WhatsApp">WhatsApp</option>
+              <option value="Referral">Referral</option>
+            </select>
+          </div>
         ) : (
           ""
         )}
@@ -1075,7 +1078,10 @@ const Form = ({
           Privacy Policy.
         </p>
 
-        <div>{toggle ? "" : <p className={styles.alert}>{alertMSG}</p>}</div>
+       <div>{toggle ? "" : <p className={styles.alert}>{alertMSG}</p>}</div> 
+       
+
+
         {disable ? (
           <div className={styles.ring}>
             <div className={styles.ldsring}>

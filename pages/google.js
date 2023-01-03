@@ -28,8 +28,6 @@ function Counselling() {
             <Form google={true} workExperience={true} />
           </div>
         </div>
-
-      <Footer />
     </div>
   );
 }
