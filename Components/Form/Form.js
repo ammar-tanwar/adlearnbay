@@ -18,6 +18,9 @@ const Form = ({
   jobTitle,
   fsddesc,
   jobPlacee,
+  google,
+  workExperience,
+  
 }) => {
   const router = useRouter();
   let today = new Date();
@@ -27,6 +30,8 @@ const Form = ({
   //offset to maintain time zone difference
   const [startDate, setStartDate] = useState();
   const [disable, setDisable] = useState(false);
+  const [alertMSG, setAlertMSG] = useState("");
+  const [toggle, setToggle] = useState(true);
   const [value, setValue] = useState();
 
   const [query, setQuery] = useState({
@@ -42,7 +47,8 @@ const Form = ({
   useEffect(() => {
     setQuery({ ...query, phone: value, dateTime: startDate });
 
-    jsCookie.set("CARD", query.email, { expires: 14, secure: true });
+    jsCookie.set("CARD", query.email, { expires: 14, secure: true });  
+    
   }, [value, startDate]);
 
   // Update inputs value
@@ -188,6 +194,7 @@ const Form = ({
     router.pathname === "/advance-ai-ml-certification-s4" ||
     router.pathname === "/data-science-ai-cert-for-managers-leaders-s4" ||
     router.pathname === "/apply-for-counselling-s4" ||
+    router.pathname === "/google" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s4"
   ) {
     // -==================== Quora - S4 END POINT ==========================--------
@@ -340,7 +347,7 @@ const Form = ({
     endPoint = "https://getform.io/f/df003555-86c7-4ae5-a7f8-98c21dd9ad92";
     // -==================== Webinar = END POINT ==========================--------
   }
-
+ 
   let btnTxt = "Apply for  Counseliing";
   if (event) {
     btnTxt = "Register Now";
@@ -358,7 +365,7 @@ const Form = ({
       method: "POST",
       body: formData,
     }).then(() =>
-      // console.log(res),
+      setAlertMSG(""),
       setQuery({
         name: "",
         email: "",
@@ -366,8 +373,8 @@ const Form = ({
         phone: "",
         workExperience: "",
         dateTime: "",
-        url: "",
-      })
+        url: router.asPath,
+      }),
     );
     if (popup) {
       const off = () => {
@@ -377,6 +384,7 @@ const Form = ({
     }
 
     setDisable(true);
+
     if (
       (router.pathname === "/data-science-certification-courses-sd" &&
         downloadBrochure) ||
@@ -705,6 +713,12 @@ const Form = ({
 
       return;
     }
+    if (router.pathname === "/google") {
+      setToggle(false);
+      setAlertMSG("Form Submitted successfully");
+      setDisable(false);  
+      setValue("")
+    }
   };
   const isWeekday = (date) => {
     const day = getDay(date);
@@ -748,17 +762,17 @@ const Form = ({
             style={
               popup
                 ? {
-                    height: "50px",
-                    borderRadius: "8px",
-                    border: "1px solid grey",
-                    padding: "10px",
-                  }
+                  height: "50px",
+                  borderRadius: "8px",
+                  border: "1px solid grey",
+                  padding: "10px",
+                }
                 : {
-                    border: "0",
-                    height: "50px",
-                    borderRadius: "3px",
-                    borderBottom: "1px solid grey",
-                  }
+                  border: "0",
+                  height: "50px",
+                  borderRadius: "3px",
+                  borderBottom: "1px solid grey",
+                }
             }
             name="phone"
             rules={{ required: true }}
@@ -891,7 +905,7 @@ const Form = ({
         ) : (
           ""
         )}
-
+        {/* 
         <div className={popup ? styles.formWrappers : styles.formWrapper}>
           <select
             name="workExperience"
@@ -906,7 +920,45 @@ const Form = ({
             <option value="7 to 12 year">7 to 12 year</option>
             <option value="12+ year">12+ year</option>
           </select>
-        </div>
+        </div> */}
+
+        {workExperience ? (
+          ""
+        ) : (
+          <div className={popup ? styles.formWrappers : styles.formWrapper}>
+            <select
+              name="workExperience"
+              required
+              value={query.workExperience}
+              onChange={handleParam()}
+            >
+              <option value="Work Experience">Work Experience</option>
+              <option value="Fresher or 0 year">Fresher or 0 year</option>
+              <option value="1 to 3 year">1 to 3 year</option>
+              <option value="3 to 7 year">3 to 7 year</option>
+              <option value="7 to 12 year">7 to 12 year</option>
+              <option value="12+ year">12+ year</option>
+            </select>
+          </div>
+        )}
+
+        {google ? (
+          <div className={popup ? styles.formWrappers : styles.formWrapper}>
+            <select
+              name="WAdropdown"
+              required
+              value={query.WAdropdown}
+              onChange={handleParam()}
+            >
+              <option value="Select One">Select One</option>
+              <option value="Calls">Calls</option>
+              <option value="WhatsApp">WhatsApp</option>
+              <option value="Referral">Referral</option>
+            </select>
+          </div>
+        ) : (
+          ""
+        )}
 
         {radio ? (
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
@@ -1024,6 +1076,11 @@ const Form = ({
           By submitting the form, you agree to our Terms and Conditions and our
           Privacy Policy.
         </p>
+
+       <div>{toggle ? "" : <p className={styles.alert}>{alertMSG}</p>}</div> 
+       
+
+
         {disable ? (
           <div className={styles.ring}>
             <div className={styles.ldsring}>

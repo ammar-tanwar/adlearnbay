@@ -4,12 +4,12 @@ import { FaArrowRight } from "react-icons/fa";
 import styles from "./Navbar.module.css";
 import Popup from "../Popup/Popup";
 import FormOtp from "../FormOtp/FormOtp"
-import Form from "../Event/Form/Form";  
+import Form from "../Event/Form/Form";
 import { useRouter } from "next/router";
 
 import FormOtpDoamin from "../DomainPage/FormOtp/FormOtp";
 
-const Navbar = ({ radio, event, dataScience, fullStack ,eventDateInfo, formotp, domainOTPForm}) => {
+const Navbar = ({ radio, event, dataScience, fullStack, eventDateInfo, formotp, domainOTPForm }) => {
   const router = useRouter();
   const [icon, setIcon] = useState(false);
   const [show, setShow] = useState(false);
@@ -45,46 +45,35 @@ const Navbar = ({ radio, event, dataScience, fullStack ,eventDateInfo, formotp, 
         </div>
         <div className="RightPopup">
           <h5> Register NOW!</h5>
-          {/* <p>Fill the below details to get started</p> */}
-
-
           {domainOTPForm ? (
             <>
-            <FormOtpDoamin domain={true} formotp= {true} jobDescription={true} workExperience={true}/>
+              <FormOtpDoamin domain={true} formotp={true} jobDescription={true} workExperience={true} />
             </>
-            
-            ):(
+
+          ) : (
             <>
-            {formotp ?(
-              <FormOtp popup={true} event={true} setTrigger={setPopups} jobDescription={true} workExperience={true}/>
-            ):(
-              <Form popup={true} setTrigger={setPopups} event={true} radio={radio} fullStack={fullStack} dataScience={dataScience} />
-            )}
+              {formotp ? (
+                <FormOtp popup={true} event={true} setTrigger={setPopups} jobDescription={true} workExperience={true} />
+              ) : (
+                <Form popup={true} setTrigger={setPopups} event={true} radio={radio} fullStack={fullStack} dataScience={dataScience} />
+              )}
 
             </>)}
-            
-          
-
-
-
         </div>
       </Popup>
-
       <nav className={styles.nav}>
         <div className={styles.left}>
           <div className={styles.ham}>
-          {today >= eventDateInfo ? (
-            ""
-          ) : (
-            <button onClick={popupShow} className="outLineBtn">
-            Register NOW!
-            <FaArrowRight className={styles.icon} />
-          </button>
-  
-          )}
-          
-          </div>
+            {today >= eventDateInfo ? (
+              ""
+            ) : (
+              <button onClick={popupShow} className="outLineBtn">
+                Register NOW!
+                <FaArrowRight className={styles.icon} />
+              </button>
 
+            )}
+          </div>
           <a>
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
@@ -97,15 +86,14 @@ const Navbar = ({ radio, event, dataScience, fullStack ,eventDateInfo, formotp, 
           </a>
         </div>
         <div className={styles.right}>
-        {today >= eventDateInfo ? (
-          ""
-        ) : (
-          <button onClick={popupShow} className="outLineBtn">
-            Register NOW!
-            <FaArrowRight className={styles.icon} />
-          </button>
-
-        )}
+          {today >= eventDateInfo ? (
+            ""
+          ) : (
+            <button onClick={popupShow} className="outLineBtn">
+              Register NOW!
+              <FaArrowRight className={styles.icon} />
+            </button>
+          )}
         </div>
       </nav>
     </div>
@@ -115,41 +103,3 @@ const Navbar = ({ radio, event, dataScience, fullStack ,eventDateInfo, formotp, 
 export default Navbar;
 
 
-
-
-
-
-
-// <div className={styles.right}>
-// <span>
-//     <Link href="#Feature">Program Features</Link>
-//   </span>
-
-//   <span>
-//     <Link href="#trainer">Trainer Details</Link>
-//   </span>
-//   <span>
-//     <Link href="#About">Learn About</Link>
-//   </span>
-// <button onClick={popupShow} className="outLineBtn">
-// Apply For Counselling
-// <FaArrowRight className={styles.icon} />
-// </button>
-// </div>
-
-
-
-// <div className={show ? styles.mobileWrapper : styles.hide}>
-//             <div className={styles.mobileMenu}>
-//             <span>
-//                 <Link href="#Feature">Program Features</Link>
-//               </span>
-
-//               <span>
-//                 <Link href="#trainer">Trainer Details</Link>
-//               </span>
-//               <span>
-//                 <Link href="#About">Learn About</Link>
-//               </span>
-//             </div>
-//           </div>

@@ -4,7 +4,7 @@ import styles from "./EventHeader.module.css";
 import Image from "next/image";
 
 export const EventHeader = ({ deskimg, mobimg }) => {
-  // console.log(deskimg)
+
   const [mobile, setMobile] = useState(false);
 
   useEffect(() => {
@@ -44,19 +44,9 @@ export const EventHeader = ({ deskimg, mobimg }) => {
           <div className={styles.DivStyle}>
           <p className={styles.p}>Advance your Career in <span className={styles.spanP}>Banking Domain</span> as a</p>
             <p className={styles.h1}>Data Scientist</p>
-            {/* <p className={styles.p}>Fundamentals</p> */}
           </div>
           <div className={styles.imgBox}>
             <div className={styles.imgText}>
-              {/* <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/Group+32.png"
-                layout="intrinsic"
-                objectFit="cover"
-                width="60px"
-                height="60px"
-                loading="lazy"
-                alt="backImg"
-              /> */}
               <FaCalendarAlt className={styles.iconOrange} />
               <div className={styles.Text}>
                 <p className={styles.firstText}>8th Jan</p>
@@ -64,15 +54,6 @@ export const EventHeader = ({ deskimg, mobimg }) => {
               </div>
             </div>
             <div className={styles.imgText}>
-              {/* <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/Group+33.png"
-                layout="intrinsic"
-                objectFit="cover"
-                width="60px"
-                height="60px"
-                loading="lazy"
-                alt="backImg"
-              /> */}
               <FaClock className={styles.iconOrange} />
               <div className={styles.Text}>
                 <p className={styles.firstText}>5 - 8 PM</p>
@@ -85,22 +66,7 @@ export const EventHeader = ({ deskimg, mobimg }) => {
             <FaPlay className={styles.icon} />
             <span>Webinar</span>
           </div>
-          {/* <div>
-            <p className={styles.mentor}>
-              Akshay Gagrani{" "}
-              <span className={styles.mentorSpan}>Software Engineer</span>
-            </p>
-          </div> */}
           </div>
-          {/* <div className={styles.none}><Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/DeskUtkarh.png"
-                layout="intrinsic"
-                objectFit="cover"
-                width="441px"
-                height="476px"
-                loading="lazy"
-                alt="backImg"
-              /></div> */}
         </div>
       </section>
     </div>

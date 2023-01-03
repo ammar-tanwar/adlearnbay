@@ -42,10 +42,7 @@ export default function DataScienceEvent({ eventData, formotp }) {
           mobimg={eventData.data.headImg.mobimg}
         />
       </div>
-
-
       <div className={today >= eventDateInfo ? styles.Pages : styles.Page2}>
-
         <div>
           <div className={styles.left}>
             <div className={styles.prgrmFeature} >
@@ -109,7 +106,6 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const eventData = getPostData(params.id);
-  // console.log(eventData.data.headImg.deskimg)
   return {
     props: {
       eventData,

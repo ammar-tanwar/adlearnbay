@@ -167,3 +167,22 @@
   background: #EDBB52;
   color: #fff;
 }
+
+@media (max-width: 481px) {
+  .Section1 h1 {
+    font-size: 30px;
+    padding: 20px;
+    margin: 40px 0px 0px 0px;
+}
+.Testimonial {
+  padding: 30px 20px;
+}
+.slide {
+  height: fit-content;
+}
+.mainSlider {
+  padding: 20px;
+  height: 520px;
+  margin: 10px 5px 40px 5px;
+}
+}

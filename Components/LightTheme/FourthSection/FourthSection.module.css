@@ -67,3 +67,20 @@
     font-weight: 500;
     padding: 20px 0px;
 }
+
+@media (max-width: 480px) {
+    .section4 {
+        padding: 20px;
+    }
+    .section4 h1 {
+        font-size: 30px;
+    }
+    .section4Box {
+        display: grid;
+        grid-template-columns: 90% 90% 90% 90%;
+        overflow-y: auto;
+    }
+    .boxSection4 {
+        width: 300px;
+    }
+}

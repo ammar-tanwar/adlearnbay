@@ -42,5 +42,14 @@
 }
 .show {
     opacity:1;
-  
+}
+
+@media (max-width: 480px) {
+    .EightSection {
+        position: initial;
+        padding: 20px;
+        display: grid;
+        text-align: center;
+        gap: 10px;
+    }
 }
