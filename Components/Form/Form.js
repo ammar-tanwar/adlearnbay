@@ -714,10 +714,11 @@ const Form = ({
       return;
     }
     if (router.pathname === "/google") {
-      setToggle(false);
-      setAlertMSG("Form Submitted successfully");
-      setDisable(false);  
-      setValue("")
+      // setToggle(false);
+      // setAlertMSG("Form Submitted successfully");
+      // setDisable(false);  
+      // setValue("")
+      router.push("/submitted");
     }
   };
   const isWeekday = (date) => {
