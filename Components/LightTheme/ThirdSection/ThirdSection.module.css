@@ -40,13 +40,13 @@
 }
 
 .rightSide p {
-    display: flex;
+    display: grid;
+    grid-template-columns: 10% 86%;
     align-items: center;
     margin: 0;
     margin-bottom: 20px;
     font-weight: 600;
-    justify-content: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 .rightSide button {

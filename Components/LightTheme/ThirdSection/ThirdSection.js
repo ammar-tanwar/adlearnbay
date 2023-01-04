@@ -28,28 +28,28 @@ function ThirdSection() {
       <div className={styles.rightSideP}>
         <p>
           <FaStar className={styles.IconBoxOrange} />
-          Advanced AI/ML Program
+          Advance Data Science & AI Certification Program
         </p>
         <p>
           <FaStar className={styles.IconBoxBlue} />
-          Advanced AI/ML Program
+          Advance AI & ML Certification Program
         </p>
         <p>
           <FaStar className={styles.IconBoxBlue} />
-          Advanced AI/ML Program
+          Data Science & AI Certification Program For Managers
         </p>
         <p>
+          <FaStar className={styles.IconBoxOrange} />
+          100% Placement Assistance Data Science & AI Certification Program
+        </p>
+        {/* <p>
           <FaStar className={styles.IconBoxOrange} />
           Advanced AI/ML Program
         </p>
         <p>
-          <FaStar className={styles.IconBoxOrange} />
-          Advanced AI/ML Program
-        </p>
-        <p>
           <FaStar className={styles.IconBoxBlue} />
           Advanced AI/ML Program
-        </p>
+        </p> */}
       </div>
       <button onClick={popupShow}>
         Download Brochure

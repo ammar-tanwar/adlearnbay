@@ -30,6 +30,21 @@
     background-color: #E1F1F533;
     box-shadow: -1px 0 10px 2px rgb(4 135 217 / 10%);
     border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+.HeadP {
+    font-size: 18px;
+    color: #000;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.HeadPP {
+    font-size: 22px;
+    color: #000;
+    margin: 0px;
+    font-weight: 700;
 }
 
 .BoxIcon {
@@ -85,9 +100,16 @@ display: none;
     .BoxIcon {
         padding: 15px 5px;
     }
-    .BoxIcon p {
+    /* .BoxIcon p {
         font-size: 16px;
         margin: 0;
-        margin-top: 10px;
+    } */
+
+    .HeadP {
+        font-size: 16px;
+    }
+    
+    .HeadPP {
+        font-size: 20px;
     }
 }
