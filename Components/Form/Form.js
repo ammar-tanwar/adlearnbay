@@ -20,7 +20,7 @@ const Form = ({
   jobPlacee,
   google,
   workExperience,
-  
+
 }) => {
   const router = useRouter();
   let today = new Date();
@@ -41,14 +41,15 @@ const Form = ({
     workExperience: "",
     jobDescription: "",
     dateTime: "",
+    WAdropdown: "",
     url: router.asPath,
   });
 
   useEffect(() => {
     setQuery({ ...query, phone: value, dateTime: startDate });
 
-    jsCookie.set("CARD", query.email, { expires: 14, secure: true });  
-    
+    jsCookie.set("CARD", query.email, { expires: 14, secure: true });
+
   }, [value, startDate]);
 
   // Update inputs value
@@ -59,7 +60,9 @@ const Form = ({
       ...prevState,
       [name]: value,
     }));
+
   };
+
 
   // -====================  Organic - S END POINT ==========================--------
   let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
@@ -347,7 +350,7 @@ const Form = ({
     endPoint = "https://getform.io/f/df003555-86c7-4ae5-a7f8-98c21dd9ad92";
     // -==================== Webinar = END POINT ==========================--------
   }
- 
+
   let btnTxt = "Apply for  Counseliing";
   if (event) {
     btnTxt = "Register Now";
@@ -373,6 +376,7 @@ const Form = ({
         phone: "",
         workExperience: "",
         dateTime: "",
+        WAdropdown: "",
         url: router.asPath,
       }),
     );
@@ -714,11 +718,10 @@ const Form = ({
       return;
     }
     if (router.pathname === "/google") {
-      // setToggle(false);
-      // setAlertMSG("Form Submitted successfully");
-      // setDisable(false);  
-      // setValue("")
-      router.push("/submitted");
+      setToggle(false);
+      setAlertMSG("Form Submitted successfully");
+      setDisable(false);
+      setValue("")
     }
   };
   const isWeekday = (date) => {
@@ -1078,8 +1081,8 @@ const Form = ({
           Privacy Policy.
         </p>
 
-       <div>{toggle ? "" : <p className={styles.alert}>{alertMSG}</p>}</div> 
-       
+        <div>{toggle ? "" : <p className={styles.alert}>{alertMSG}</p>}</div>
+
 
 
         {disable ? (
