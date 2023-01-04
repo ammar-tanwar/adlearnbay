@@ -31,22 +31,26 @@ function SecondSection() {
     <div className={styles.BoxIconDiv}>
       <div className={styles.BoxIcon}>
         <FaPlay className={styles.IconBoxBlue} />
-        <p>Awarded 5 stars in the Young Universities category</p>
+        <p className={styles.HeadP}>Global Recognition</p>
+        <p className={styles.HeadPP}>From IBM</p>
       </div>
       <div className={styles.lineWhite}></div>
       <div className={styles.BoxIcon}>
         <FaStar className={styles.IconBoxOrange} />
-        <p>Awarded 5 stars in the Young Universities category</p>
+        <p className={styles.HeadP}>Industry Standard</p>
+        <p className={styles.HeadPP}>Training</p>
       </div>
       <div className={styles.lineWhite}></div>
       <div className={styles.BoxIcon}>
         <FaBook className={styles.IconBoxBlue} />
-        <p>Awarded 5 stars in the Young Universities category</p>
+        <p className={styles.HeadP}>Career Assistance</p>
+        <p className={styles.HeadPP}>For Professionals</p>
       </div>
       <div className={styles.lineWhite}></div>
       <div className={styles.BoxIcon}>
         <FaRegIdBadge className={styles.IconBoxOrange} />
-        <p>Awarded 5 stars in the Young Universities category</p>
+        <p className={styles.HeadP}>Financing as low as</p>
+        <p className={styles.HeadPP}>₹ 9,342/month</p>
       </div>
     </div>
   </div>

@@ -26,16 +26,14 @@ function HeroSection() {
       <div className={styles.section1}>
         <div className={styles.sectionDiv}>
           <h1>
-            Data Science
+            Data Science Course
             <span style={{ color: "#0072BC" }}>
               {" "}
-              Domain Specialization
+              Domain Specialization for Professionals
             </span>{" "}
-            Course for Professionals
           </h1>
           <p>
-            With new capstone projects, learn how to apply your previous domain
-            expertise to make a successful transition.
+          With new capstone projects, learn how to apply your previous domain expertise to make a successful transition.
           </p>
           <button className={styles.button} onClick={popupShow}>
             Apply for Counselling

@@ -1,201 +1,184 @@
 .Syllabus {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    padding: 100px 100px 50px 100px;
-    gap: 30px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 100px 100px 50px 100px;
+  gap: 50px;
 }
 
 .leftDiv h1 {
-    font-size: 37px;
-    margin: 0;
+  font-size: 37px;
+  margin: 0;
 }
 
 .desc {
-    font-size: 18px !important;
+  font-size: 18px !important;
 }
 
 .whitep {
-    font-size: 12px;
+  font-size: 12px;
 }
 
-.Syllabus button {
-    padding: 12px 25px;
-    font-size: 18px;
-    color: white;
-    border-radius: 10px;
-    background-color: #edbb52;
-    border: 1px solid #fff;
-    font-weight: 700;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
+.pSpanDiv {
+  display: flex;
+  gap: 30px;
+}
 
-  .leftDiv {
-    padding: 10px 0px;
+.pH {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0px 0px 30px 0px;
+  margin-top: -5px;
+}
+
+.p {
+  font-size: 18px;
+  margin: 0px;
+  margin-top: -5px;
+}
+
+.round {
+  border: 1px solid #0072bc;
+  border-radius: 50px;
+  padding: 5px;
+  width: 15px;
+  margin-top: 0px;
+  height: 15px;
+}
+
+.roundLine {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line {
+  border: 1px dashed #000;
+  height: 40px;
+  width: 0;
+}
+
+.buttonHead button {
+  padding: 12px 25px;
+  font-size: 18px;
+  color: white;
+  border-radius: 10px;
+  background-color: #edbb52;
+  border: 1px solid #fff;
+  font-weight: 700;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.buttonHead button:hover {
+  background-color: #0072bc;
+  border: 1px solid #fff;
+}
+
+.icon {
+  margin-left: 10px;
+}
+
+.twoBoxDivWhite span {
+  margin-right: 15px !important;
+}
+
+.twoBoxDivWhite {
+  display: flex;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 5px;
+  align-items: center;
+}
+
+.twoBox {
+  width: fit-content;
+  display: flex;
+  gap: 10px;
+  background: #f0f8fa;
+  border-radius: 20px;
+}
+
+.rightDiv {
+  margin-top: 15px;
+}
+
+.whitep span {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.whitep {
+  text-align: left;
+}
+
+.IconBoxBlue {
+  font-size: 40px;
+  padding: 5px;
+  border-radius: 10px;
+  color: #edbb52;
+  margin-right: 10px;
+}
+
+.buttonHead {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 481px) {
+  .Syllabus {
+    display: block;
+    padding: 30px 20px;
+    gap: 30px;
   }
-  
-  .Syllabus button:hover {
-    background-color: #0072BC;
-    border: 1px solid #fff;
-  }
-  
-  .icon {
-    margin-left: 10px;
+  .twoBox {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
   }
 
   .rightDiv1 {
-    display: block;
-    gap: 20px;
+    margin-top: 20px;
   }
 
-  .boxDiv {
-    display: flex;
-    border: 20px;
-    gap: 20px;
-    padding: 10px 20px;
-    border-radius: 20px;
-    align-items: flex-start;
-  }
-
-  .topHead {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-  }
-
-  .iconBlue {
-    background: #fff;
-    color: #0072BC;
-    padding: 10px;
-    font-size: 40px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);;
-  }
-
-  .Hp {
-    font-size: 18px;
-    font-weight: 600;
-    margin: 0;
-  }
-
-  .p {
-    margin: 0;
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-  }
-
-  .twoBoxDivWhite span {
-    margin-right: 15px !important;
-  }
-
-  .twoBoxDivWhite {
-    display: flex;
-    border-radius: 10px;
-    text-align: center;
-    padding: 10px 5px;
-    align-items: center;
-  }
-  
-  .twoBox {
-      width: fit-content;
-      display: flex;
-      gap: 10px;
-      background: #f0f8fa;
-      border-radius: 20px;
-  }
-  
   .whitep span {
-    font-weight: 600;
-    font-size: 14px;
-  }
-  
-  .whitep {
-      text-align: left;
-  }
-  
-  .bluep {
-      text-align: left;
-      color: #fff;
-  }
-  
-  .bluep span {
-    color: #fff;
-    font-weight: 700;
-    font-size: 22px;
-  }
-  
-  .IconBoxBlue {
-    font-size: 40px;
-    padding: 5px;
-    border-radius: 10px;
-    color: #edbb52;
-    margin-right: 10px;
-  }
-
-  .pFlex {
-    margin-top: 5px;
-  }
-
-  .iconCheck {
-    color: #0072BC;
     font-size: 16px;
   }
 
- .Syllabus .btnout {
-    padding: 0px;
-    font-size: 18px;
-    color: #0072BC;
-    border-radius: 0px;
-    background-color: #fff;
-    border: 0px solid #fff;
-    font-weight: 700;
-    box-shadow: none;
-    margin-top: 10px;
-  }
-
-  .Syllabus .btnout:hover {
-    background-color: #fff;
-    color: #edbb52;
-    border: 0;
+  .Syllabus button {
+    font-size: 14px;
+    padding: 10px;
   }
 
   .buttonHead {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 
-@media (max-width: 481px) {
-    .Syllabus {
-        display: block;
-        padding: 30px 20px;
-        gap: 30px;
-    }
-    .twoBox {
-        width: 100%;
-        display: grid;
-        grid-template-columns: 50% 50%;
-    }
+  .boxDiv {
+    padding: 10px 0px;
+  }
 
-    .rightDiv1 {
-        margin-top: 20px;
-      }
+  .line,
+  .lineL {
+    border: 1px solid #000;
+    height: 0px;
+    width: 10px;
+  }
 
-      .whitep span {
-        font-size: 16px;
-      }
+  .round {
+    display: none;
+  }
 
-      .Syllabus button {
-        font-size: 14px;
-        padding: 10px;
-      }
+  .pSpanDiv {
+    display: grid;
+    grid-template-columns: 25% 2% 68%;
+    gap: 20px;
+    padding-bottom: 30px;
+    align-items: center;
+  }
 
-      .buttonHead {
-        margin-bottom: 20px;
-      }
-
-      .boxDiv {
-        padding: 10px 0px;
-      }
+  .pH {
+    padding: 0px;
+    margin-top: 0px;
+  }
 }
