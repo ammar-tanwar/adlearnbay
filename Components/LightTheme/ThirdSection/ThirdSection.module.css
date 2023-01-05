@@ -2,9 +2,9 @@
     margin: 0px 100px;
     display: grid;
     grid-template-columns: 30% 70%;
-    background: linear-gradient(90deg, rgba(225, 241, 245, 0.5) 0.18%, rgba(225, 241, 245, 0) 46.58%, rgba(225, 241, 245, 0.5) 99.17%);
+    /* background: linear-gradient(90deg, rgba(225, 241, 245, 0.5) 0.18%, rgba(225, 241, 245, 0) 46.58%, rgba(225, 241, 245, 0.5) 99.17%); */
     align-items: center;
-    border-radius: 50px;
+    border-radius: 20px;
     border: 1px solid #0072BC;
 }
 
@@ -17,7 +17,7 @@
     background: linear-gradient(90deg, #28557A -1.56%, #0072BC 101.87%);
     border-radius: 60px;;
     padding: 30px 50px;
-    border-radius: 50px;
+    border-radius: 20px;
     height: 100%;
     color: #fff;
     align-items: center;
