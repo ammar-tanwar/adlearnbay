@@ -4,14 +4,14 @@ import Image from "next/image";
 import { FaRegIdBadge, FaRegCalendarCheck, FaLaptopCode } from "react-icons/fa";
 import { BiSelectMultiple } from "react-icons/bi"
 
-function FourthSection() {
+function FourthSection({h1, img1,img2,img3,img4}) {
   return (
     <div className={styles.section4}>
-    <h1>Program Highlights</h1>
+    <h1>{h1}</h1>
     <div className={styles.section4Box}>
       <div className={styles.boxSection4Blue}>
         <Image
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/DataScinceLight1.png"
+          src={img1}
           width="220"
           height="220"
           layout="intrinsic"
@@ -23,7 +23,7 @@ function FourthSection() {
       </div>
       <div className={styles.boxSection4Orange}>
         <Image
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/DataScinceLight1.png"
+          src={img2}
           width="220"
           height="220"
           layout="intrinsic"
@@ -35,7 +35,7 @@ function FourthSection() {
       </div>
       <div className={styles.boxSection4Blue}>
         <Image
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/DataScinceLight1.png"
+          src={img3}
           width="220"
           height="220"
           layout="intrinsic"
@@ -47,7 +47,7 @@ function FourthSection() {
       </div>
       <div className={styles.boxSection4Orange}>
         <Image
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/DataScinceLight1.png"
+          src={img4}
           width="220"
           height="220"
           layout="intrinsic"
