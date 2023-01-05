@@ -6,7 +6,7 @@ import Image from "next/image";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 
-function HeroSection({h1, hSpan, para, sideImg}) {
+function HeroSection({h1, hSpan, para, sideImg, deskTopPara}) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -25,6 +25,9 @@ function HeroSection({h1, hSpan, para, sideImg}) {
       </Popup>
       <div className={styles.section1}>
         <div className={styles.sectionDiv}>
+        <p className={styles.pTop}>
+            {deskTopPara}
+          </p>
           <h1>
           {h1}
            
