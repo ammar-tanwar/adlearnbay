@@ -6,7 +6,7 @@ import Image from "next/image";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 
-function HeroSection() {
+function HeroSection({h1, hSpan, para, sideImg}) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -26,14 +26,17 @@ function HeroSection() {
       <div className={styles.section1}>
         <div className={styles.sectionDiv}>
           <h1>
-            Data Science Course
+          {h1}
+           
             <span style={{ color: "#0072BC" }}>
               {" "}
-              Domain Specialization for Professionals
+              {hSpan}
+             
             </span>{" "}
           </h1>
           <p>
-          With new capstone projects, learn how to apply your previous domain expertise to make a successful transition.
+          {para}
+          
           </p>
           <button className={styles.button} onClick={popupShow}>
             Apply for Counselling
@@ -61,7 +64,7 @@ function HeroSection() {
         </div>
         <div className={styles.sectionDiv}>
           <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/DataScinceLight1.png"
+            src={sideImg}
             width="600"
             height="400"
             layout="intrinsic"

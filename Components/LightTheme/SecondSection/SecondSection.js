@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 import Image from "next/image";
 
-function SecondSection() {
+function SecondSection({p1, p2, p3, p4, p11, p22, p33, p44}) {
   return (
     <div className={styles.section2}>
     <h1>Earn Your Online Professional Certification from</h1>
@@ -31,26 +31,26 @@ function SecondSection() {
     <div className={styles.BoxIconDiv}>
       <div className={styles.BoxIcon}>
         <FaPlay className={styles.IconBoxBlue} />
-        <p className={styles.HeadP}>Global Recognition</p>
-        <p className={styles.HeadPP}>From IBM</p>
+        <p className={styles.HeadP}>{p1}</p>
+        <p className={styles.HeadPP}>{p11}</p>
       </div>
       <div className={styles.lineWhite}></div>
       <div className={styles.BoxIcon}>
         <FaStar className={styles.IconBoxOrange} />
-        <p className={styles.HeadP}>Industry Standard</p>
-        <p className={styles.HeadPP}>Training</p>
+        <p className={styles.HeadP}>{p2}</p>
+        <p className={styles.HeadPP}>{p22}</p>
       </div>
       <div className={styles.lineWhite}></div>
       <div className={styles.BoxIcon}>
         <FaBook className={styles.IconBoxBlue} />
-        <p className={styles.HeadP}>Career Assistance</p>
-        <p className={styles.HeadPP}>For Professionals</p>
+        <p className={styles.HeadP}>{p3}</p>
+        <p className={styles.HeadPP}>{p33}</p>
       </div>
       <div className={styles.lineWhite}></div>
       <div className={styles.BoxIcon}>
         <FaRegIdBadge className={styles.IconBoxOrange} />
-        <p className={styles.HeadP}>Financing as low as</p>
-        <p className={styles.HeadPP}>₹ 9,342/month</p>
+        <p className={styles.HeadP}>{p4}</p>
+        <p className={styles.HeadPP}>{p44}</p>
       </div>
     </div>
   </div>

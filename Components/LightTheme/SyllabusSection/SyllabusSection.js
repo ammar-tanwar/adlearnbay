@@ -7,10 +7,8 @@ import { RiProjector2Line } from "react-icons/ri";
 import { BiBadgeCheck } from "react-icons/bi";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
-
-function SyllabusSection() {
+function SyllabusSection({desc, Hours, Projects, Module0, Module1, Module2, Module3, Module4}) {
   const [popups, setPopups] = useState(false);
-
   const popupShow = () => {
     setPopups(true);
   };
@@ -37,17 +35,12 @@ function SyllabusSection() {
             <FaDownload className={styles.icon} />
           </button>
         </div>
-        <p className={styles.desc}>
-          Learnbay provides Live, Interactive Online Sessions guided by
-          Professionals working in top MNCs. All Data Science Course sessions
-          are covered practically with real-time industrial projects and case
-          studies.
-        </p>
+        <p className={styles.desc}>{desc}</p>
         <div className={styles.twoBox}>
           <div className={styles.twoBoxDivWhite}>
             <MdOutlineOndemandVideo className={styles.IconBoxBlue} />
             <p className={styles.whitep}>
-              <span>250+ Hours</span>
+              <span>{Hours}</span>
               <br />
               Live sessions
             </p>
@@ -63,7 +56,7 @@ function SyllabusSection() {
           <div className={styles.twoBoxDivWhite}>
             <AiOutlineFundProjectionScreen className={styles.IconBoxBlue} />
             <p className={styles.whitep}>
-              <span>12+ projects</span>
+              <span>{Projects}</span>
               <br />
               Real Time
             </p>
@@ -87,7 +80,7 @@ function SyllabusSection() {
               <div className={styles.line}></div>
             </div>
             <p className={styles.p}>
-              Preparatory Classes (Programming + Maths)
+              {Module0}
             </p>
           </div>
           <div className={styles.pSpanDiv}>
@@ -96,7 +89,7 @@ function SyllabusSection() {
               <div className={styles.round}></div>
               <div className={styles.line}></div>
             </div>
-            <p className={styles.p}>Python for Data Science</p>
+            <p className={styles.p}>{Module1}</p>
           </div>
           <div className={styles.pSpanDiv}>
             <p className={styles.pH}>Module 2</p>
@@ -104,7 +97,7 @@ function SyllabusSection() {
               <div className={styles.round}></div>
               <div className={styles.line}></div>
             </div>
-            <p className={styles.p}>Statistics and Machine Learning</p>
+            <p className={styles.p}>{Module2}</p>
           </div>
           <div className={styles.pSpanDiv}>
             <p className={styles.pH}>Module 3</p>
@@ -112,7 +105,7 @@ function SyllabusSection() {
               <div className={styles.round}></div>
               <div className={styles.line}></div>
             </div>
-            <p className={styles.p}>Data Science Course Tools</p>
+            <p className={styles.p}>{Module3}</p>
           </div>
           <div className={styles.pSpanDiv}>
             <p className={styles.pH}>Module 4</p>
@@ -120,12 +113,11 @@ function SyllabusSection() {
               <div className={styles.round}></div>
               <div className={styles.lineL}></div>
             </div>
-            <p className={styles.p}>Artificial Intelligence Tools</p>
+            <p className={styles.p}>{Module4}</p>
           </div>
         </div>
       </div>
     </section>
   );
 }
-
 export default SyllabusSection;

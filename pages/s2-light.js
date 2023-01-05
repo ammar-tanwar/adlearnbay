@@ -88,11 +88,42 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} />
           </div>
         </Popup>
-        <HeroSection />
-        <SecondSection />
+        <HeroSection
+          h1=" Data Science Course"
+          hSpan=" Domain Specialization for Professionals"
+          para="With new capstone projects, learn how to apply your previous domain expertise to make a successful transition."
+          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/DataScinceLight1.png"
+        />
+        <SecondSection
+          p1="Global Recognition"
+          p11="From IBM"
+          p2="Industry Standard"
+          p22="Training"
+          p3="Career Assistance"
+          p33="For Professionals"
+          p4="Financing as low as"
+          p44="₹ 9,342/month" />
         <ThirdSection />
-        <FourthSection />
-        <SyllabusSection />
+        <FourthSection
+          h1="Program Highlights"
+          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/DataScinceLight1.png"
+          img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/DataScinceLight1.png"
+          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/DataScinceLight1.png"
+          img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/DataScinceLight1.png"
+        />
+        <SyllabusSection
+          desc="Learnbay provides Live, Interactive Online Sessions guided by
+          Professionals working in top MNCs. All Data Science Course sessions
+          are covered practically with real-time industrial projects and case
+          studies."
+          Hours="250+ Hours"
+          Projects="12+ projects"
+          Module0="Preparatory Classes (Programming + Maths)"
+          Module1="Python for Data Science"
+          Module2="Statistics and Machine Learning"
+          Module3="Data Science Course Tools"
+          Module4="Artificial Intelligence Tools"
+        />
         <SliderTab />
         <Testimonial />
         <SeventhSection />
