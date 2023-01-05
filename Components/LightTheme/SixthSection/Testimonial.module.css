@@ -170,9 +170,10 @@
 
 @media (max-width: 481px) {
   .Section1 h1 {
-    font-size: 30px;
+    font-size: 24px;
     padding: 20px;
     margin: 40px 0px 0px 0px;
+    font-weight: 800;
 }
 .Testimonial {
   padding: 30px 20px;
