@@ -89,9 +89,10 @@ export default function Home() {
           </div>
         </Popup>
         <HeroSection
-          h1=" Data Science Course"
-          hSpan=" Domain Specialization for Professionals"
-          para="With new capstone projects, learn how to apply your previous domain expertise to make a successful transition."
+        deskTopPara="Boost Your Professional Growth To a Whole New Level"
+          h1="Advance Artificial Intelligence Course"
+          hSpan="With Domain Specialization"
+          para="With demanding industry projects, you can acquire the most advanced technical expertise possible. Be a master even without a master's degree."
           sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/DataScinceLight1.png"
         />
         <SecondSection
@@ -102,7 +103,7 @@ export default function Home() {
           p3="Career Assistance"
           p33="For Professionals"
           p4="Financing as low as"
-          p44="₹ 9,342/month" />
+          p44="₹ 10,325/month" />
         <ThirdSection />
         <FourthSection
           h1="Program Highlights"
@@ -112,12 +113,9 @@ export default function Home() {
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/DataScinceLight1.png"
         />
         <SyllabusSection
-          desc="Learnbay provides Live, Interactive Online Sessions guided by
-          Professionals working in top MNCs. All Data Science Course sessions
-          are covered practically with real-time industrial projects and case
-          studies."
-          Hours="250+ Hours"
-          Projects="12+ projects"
+          desc="Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Artificial Intelligence Course sessions are covered practically with real-time industrial projects and case studies."
+          Hours="350+ Hours"
+          Projects="15+ projects"
           Module0="Preparatory Classes (Programming + Maths)"
           Module1="Python for Data Science"
           Module2="Statistics and Machine Learning"

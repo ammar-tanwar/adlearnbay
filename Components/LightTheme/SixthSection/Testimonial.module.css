@@ -6,7 +6,7 @@
 
 .Testimonial {
     background: linear-gradient(90deg, rgba(225, 241, 245, 0.5) 0.18%, rgba(225, 241, 245, 0) 46.58%, rgba(225, 241, 245, 0.5) 99.17%);;
-    padding: 50px 100px;
+    padding: 0px 100px 30px 100px;
 }
 
 .slide {
@@ -16,7 +16,8 @@
 .mainSlider {
     background: #fff;
     border-radius: 10px;
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    /* box-shadow: 0px 4px 4px rgb(0 0 0 / 25%); */
+    box-shadow: -1px 0 10px 2px rgb(4 135 217 / 10%);
     padding: 30px;
     height: 470px;
 }
@@ -166,6 +167,10 @@
 .button:hover {
   background: #EDBB52;
   color: #fff;
+}
+
+.FeeSection {
+  padding: 50px 100px 0px 100px;
 }
 
 @media (max-width: 481px) {
