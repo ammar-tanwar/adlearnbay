@@ -34,7 +34,8 @@ export const DataScienceCourseData = [
       box3desc: "Get professionally trained from MAANG and MNC experts",
       Box4h5: "Crafted for professional",
       box4desc: "Prioritize growth and salary hike with in-demand skillset",
-      headh5: "Watch our alumni’s making successful Data Science career transition",
+      headh5:
+        "Watch our alumni’s making successful Data Science career transition",
     },
     syllabusDesc:
       "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Data Science Course sessions are covered practically with real-time industrial projects and case studies.",
@@ -43,7 +44,6 @@ export const DataScienceCourseData = [
     project: "12+ Real Time",
     CSyllabus: "Data Science Course Syllabus",
     CourseHighlights: "Data Science Course Highlights",
-
 
     syllabus: [
       {
@@ -297,24 +297,35 @@ export const DataScienceCourseData = [
       img7: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png",
       img8: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png",
       img9: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png",
-      img10: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/10.png",
-      img11: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/11.png",
-      img12: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/12.png",
-      img13: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/13.png",
-      img14: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/14.png",
-      img15: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/15.png",
-      img16: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/16.png",
-      img17: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/17.png",
-      img18: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/18.png",
-      img19: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/19.png",
+      img10:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/10.png",
+      img11:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/11.png",
+      img12:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/12.png",
+      img13:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/13.png",
+      img14:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/14.png",
+      img15:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/15.png",
+      img16:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/16.png",
+      img17:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/17.png",
+      img18:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/18.png",
+      img19:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/19.png",
       img21: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/7.png",
       img22: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/8.png",
       img23: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/9.png",
-      img20: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
+      img20:
+        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
     ProgramFee: {
       Fee: "₹95,000 + GST",
-      Emi: "₹ 9,341/month", 
+      Emi: "₹ 9,341/month",
       CourseFeeAndFinancing: "Data Science Course Fee & Financing",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Science Certification Course and offer avariety of financing options to make it more economical.",
     },
@@ -322,7 +333,7 @@ export const DataScienceCourseData = [
       popupHead: "Download Project Brochure",
       project: "12+ Projects",
       domain: "7+",
-      projectTitle: "Hands-on Projects"
+      projectTitle: "Hands-on Projects",
     },
     CourseFees: {
       CourseFeeHead: "Data Science Course : Batch Details",
@@ -334,28 +345,7 @@ export const DataScienceCourseData = [
       CourseFeelist5: "Company-based Mock Interviews",
     },
 
-
     Batch: [
-      
-      {
-        Module0: {
-          title: "Weekday Evening Batch  :- (Mon-Fri)",
-          content: [
-            {
-              chap: {
-                title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 6th January 2023",
-                  "Time : 8 PM to 10 PM",
-                ],
-              },
-            },
-          ],
-          id: 1,
-          open: false,
-        },
-      },
-
       {
         Module0: {
           title: "Weekend Morning Batch :- (Sat-Sun)",
@@ -363,17 +353,28 @@ export const DataScienceCourseData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 8th January 2023",
-                  "Time : 08.30 AM to 12 PM",
-
-                ],
+                desc: ["Date : 8th January 2023", "Time : 08.30 AM to 12 PM"],
               },
             },
-
           ],
           id: 0,
           open: true,
+        },
+      },
+
+      {
+        Module0: {
+          title: "Weekday Morning  Batch  :- (Mon-Fri)",
+          content: [
+            {
+              chap: {
+                title: "Weekday Batch 1 :- Date And time ",
+                desc: ["Date : 13th January 2023", "Time : 8 AM to 10 AM"],
+              },
+            },
+          ],
+          id: 1,
+          open: false,
         },
       },
 
@@ -397,28 +398,7 @@ export const DataScienceCourseData = [
       //     open: true,
       //   },
       // },
-     
-      // {
-      //   Module0: {
-      //     title: "Weekday Morning  Batch  :- (Mon-Fri)",
-      //     content: [
-      //       {
-      //         chap: {
-      //           title: "Weekday Batch 1 :- Date And time ",
-      //           desc: [
-      //             "Date : 13th January 2023",
-      //             "Time : 8 AM to 10 AM",
-      //           ],
-      //         },
-      //       },
-
-      //     ],
-      //     id: 1,
-      //     open: false,
-      //   },
-      // },
     ],
-
 
     BatchCourses: {
       CourseFeeHead: "Data Science Course : Batch Details",
