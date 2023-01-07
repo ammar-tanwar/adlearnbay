@@ -429,26 +429,6 @@ export const MlCourseData = [
     },
 
     Batch: [
-      
-      {
-        Module0: {
-          title: "Weekday Evening Batch  :- (Mon-Fri)",
-          content: [
-            {
-              chap: {
-                title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 6th January 2023",
-                  "Time : 8 PM to 10 PM",
-                ],
-              },
-            },
-          ],
-          id: 1,
-          open: false,
-        },
-      },
-
       {
         Module0: {
           title: "Weekend Morning Batch :- (Sat-Sun)",
@@ -456,17 +436,28 @@ export const MlCourseData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 8th January 2023",
-                  "Time : 08.30 AM to 12 PM",
-
-                ],
+                desc: ["Date : 8th January 2023", "Time : 08.30 AM to 12 PM"],
               },
             },
-
           ],
           id: 0,
           open: true,
+        },
+      },
+
+      {
+        Module0: {
+          title: "Weekday Morning  Batch  :- (Mon-Fri)",
+          content: [
+            {
+              chap: {
+                title: "Weekday Batch 1 :- Date And time ",
+                desc: ["Date : 13th January 2023", "Time : 8 AM to 10 AM"],
+              },
+            },
+          ],
+          id: 1,
+          open: false,
         },
       },
 
@@ -490,29 +481,9 @@ export const MlCourseData = [
       //     open: true,
       //   },
       // },
-     
-      // {
-      //   Module0: {
-      //     title: "Weekday Morning  Batch  :- (Mon-Fri)",
-      //     content: [
-      //       {
-      //         chap: {
-      //           title: "Weekday Batch 1 :- Date And time ",
-      //           desc: [
-      //             "Date : 13th January 2023",
-      //             "Time : 8 AM to 10 AM",
-      //           ],
-      //         },
-      //       },
-
-      //     ],
-      //     id: 1,
-      //     open: false,
-      //   },
-      // },
     ],
 
-BatchCourses: {
+    BatchCourses: {
       CourseFeeHead: "Machine Learning Course in Mumbai: Batch Details",
       CourseFeePara: "Machine Learning Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
