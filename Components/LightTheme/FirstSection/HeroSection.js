@@ -136,12 +136,6 @@ function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
                 </div>
               </div>
             </div>
-            {/* <div className={styles.loaderWrapper}>
-              <div className={styles.seatLoader}>
-                <p className={styles.loaderPercentage}>91%</p>
-              </div>
-              <p className={styles.label}>Seats filled</p>
-            </div> */}
             <div>
               <Example label="Default">
                 <CircularProgressbar value={circleValue} text={`${circleValue}%`} />
