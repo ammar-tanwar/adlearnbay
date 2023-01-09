@@ -4,8 +4,6 @@ import { FaArrowRight, } from "react-icons/fa";
 import Image from "next/image";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
-
-
 import {
   CircularProgressbar,
 } from "react-circular-progressbar";
@@ -66,7 +64,6 @@ function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
     if (t.total <= 0) {
       clearInterval(interval);
     }
-
     if (t.days == 7) {
       setCircleValue(73)
     } else if (t.days == 6) {
@@ -141,6 +138,7 @@ function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
                 <CircularProgressbar value={circleValue} text={`${circleValue}%`} />
               </Example>
             </div>
+
           </div>
         </div>
         <div className={styles.sectionDiv}>

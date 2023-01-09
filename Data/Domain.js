@@ -1,18 +1,18 @@
 export const BFSIData = [
   {
     FirstSection: {
-      ptop:"Data Science Domain Specialization Course",
-      heading1:"Become an ",
-      headingSpan1:"Expert",
-      heading2:"in",
-      headingSpan2:"BFSI domain",
-      des:"Specialized courses in the Banking, Finance, Services & Insurance (BFSI) domain created to help you get ahead in your career",
-      h1:"6",
-      p1:"Industry Relevant Projects",
-      h2:"20+ ",
-      p2:"Case Studies & Assignments",
-      h3:"100%",
-      p3:"Interview Guarantee",
+      ptop: "Data Science Domain Specialization Course",
+      heading1: "Become an ",
+      headingSpan1: "Expert",
+      heading2: "in",
+      headingSpan2: "BFSI domain",
+      des: "Specialized courses in the Banking, Finance, Services & Insurance (BFSI) domain created to help you get ahead in your career",
+      h1: "6",
+      p1: "Industry Relevant Projects",
+      h2: "20+ ",
+      p2: "Case Studies & Assignments",
+      h3: "100%",
+      p3: "Interview Guarantee",
     },
     ProgramInfo: {
       p1: "Global Recognition",
@@ -25,22 +25,26 @@ export const BFSIData = [
       p44: "₹ 9,341/month",
     },
     BoxShape: {
-      title:"When you learn more, you earn more.",
-      p:"Through our courses, you can: ",
-      box1desc:"Earn an increment of up to 200% in your next job with your added skill sets",
-      box2desc:"Succeed in an increasingly competitive market with advanced tools and technology",
-      box3desc:"Master your data analysis skills and create a dynamic dashboard to describe your insights",
-      box4desc:"Develop leadership skills by gaining better knowledge of data and make more informed decisions",
+      title: "When you learn more, you earn more.",
+      p: "Through our courses, you can: ",
+      box1desc:
+        "Earn an increment of up to 200% in your next job with your added skill sets",
+      box2desc:
+        "Succeed in an increasingly competitive market with advanced tools and technology",
+      box3desc:
+        "Master your data analysis skills and create a dynamic dashboard to describe your insights",
+      box4desc:
+        "Develop leadership skills by gaining better knowledge of data and make more informed decisions",
     },
-    CourseReview:{
-      p1:"Working at HCL",
-      p2:" Working at TCS",
-      p3:"Working at Capgemini",
-      h1:"We only make promises",
-      h2:"we can keep",
-      h2p:"Get assured interview calls from top recruiters",
-      hSRC:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/hiring-banking.png",
-      rewHead:"Accelerating countless careers to the next level",
+    CourseReview: {
+      p1: "Working at HCL",
+      p2: " Working at TCS",
+      p3: "Working at Capgemini",
+      h1: "We only make promises",
+      h2: "we can keep",
+      h2p: "Get assured interview calls from top recruiters",
+      hSRC: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/hiring-banking.png",
+      rewHead: "Accelerating countless careers to the next level",
     },
     syllabusDesc:
       "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Domain Training sessions are covered practically with real-time industrial projects and case studies.",
@@ -262,26 +266,6 @@ export const BFSIData = [
     },
 
     Batch: [
-      
-      {
-        Module0: {
-          title: "Weekday Evening Batch  :- (Mon-Fri)",
-          content: [
-            {
-              chap: {
-                title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 6th January 2023",
-                  "Time : 8 PM to 10 PM",
-                ],
-              },
-            },
-          ],
-          id: 1,
-          open: false,
-        },
-      },
-
       {
         Module0: {
           title: "Weekend Morning Batch :- (Sat-Sun)",
@@ -289,17 +273,28 @@ export const BFSIData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 8th January 2023",
-                  "Time : 08.30 AM to 12 PM",
-
-                ],
+                desc: ["Date : 8th January 2023", "Time : 08.30 AM to 12 PM"],
               },
             },
-
           ],
           id: 0,
           open: true,
+        },
+      },
+
+      {
+        Module0: {
+          title: "Weekday Morning  Batch  :- (Mon-Fri)",
+          content: [
+            {
+              chap: {
+                title: "Weekday Batch 1 :- Date And time ",
+                desc: ["Date : 13th January 2023", "Time : 8 AM to 10 AM"],
+              },
+            },
+          ],
+          id: 1,
+          open: false,
         },
       },
 
@@ -323,28 +318,7 @@ export const BFSIData = [
       //     open: true,
       //   },
       // },
-     
-      // {
-      //   Module0: {
-      //     title: "Weekday Morning  Batch  :- (Mon-Fri)",
-      //     content: [
-      //       {
-      //         chap: {
-      //           title: "Weekday Batch 1 :- Date And time ",
-      //           desc: [
-      //             "Date : 13th January 2023",
-      //             "Time : 8 AM to 10 AM",
-      //           ],
-      //         },
-      //       },
-
-      //     ],
-      //     id: 1,
-      //     open: false,
-      //   },
-      // },
     ],
-
 
     BatchCourses: {
       CourseFeeHead: "Data Science Course : Batch Details",
@@ -361,18 +335,18 @@ export const BFSIData = [
 export const HRData = [
   {
     FirstSection: {
-      ptop:"Data Science Domain Specialization Course",
-      heading1:"Become an ",
-      headingSpan1:"Expert",
-      heading2:"in",
-      headingSpan2:"HR domain",
-      des:"Specialized courses in the Human Resources (HR) domain created to help you get ahead in your career",
-      h1:"6",
-      p1:"Industry Relevant Projects",
-      h2:"20+ ",
-      p2:"Case Studies & Assignments",
-      h3:"100%",
-      p3:"Interview Guarantee",
+      ptop: "Data Science Domain Specialization Course",
+      heading1: "Become an ",
+      headingSpan1: "Expert",
+      heading2: "in",
+      headingSpan2: "HR domain",
+      des: "Specialized courses in the Human Resources (HR) domain created to help you get ahead in your career",
+      h1: "6",
+      p1: "Industry Relevant Projects",
+      h2: "20+ ",
+      p2: "Case Studies & Assignments",
+      h3: "100%",
+      p3: "Interview Guarantee",
     },
     ProgramInfo: {
       p1: "Global Recognition",
@@ -385,22 +359,26 @@ export const HRData = [
       p44: "₹ 9,341/month",
     },
     BoxShape: {
-      title:"When you learn more, you earn more.",
-      p:"Through our courses, you can: ",
-      box1desc:"Earn an increment of up to 200% in your next job with your added skill sets",
-      box2desc:"Succeed in an increasingly competitive market with advanced tools and technology",
-      box3desc:"Master your data analysis skills and create a dynamic dashboard to describe your insights",
-      box4desc:"Develop leadership skills by gaining better knowledge of data and make more informed decisions",
+      title: "When you learn more, you earn more.",
+      p: "Through our courses, you can: ",
+      box1desc:
+        "Earn an increment of up to 200% in your next job with your added skill sets",
+      box2desc:
+        "Succeed in an increasingly competitive market with advanced tools and technology",
+      box3desc:
+        "Master your data analysis skills and create a dynamic dashboard to describe your insights",
+      box4desc:
+        "Develop leadership skills by gaining better knowledge of data and make more informed decisions",
     },
-    CourseReview:{
-      p1:"Working at HCL",
-      p2:" Working at TCS",
-      p3:"Working at Capgemini",
-      h1:"We only make promises",
-      h2:"we can keep",
-      h2p:"Get assured interview calls from top recruiters",
-      hSRC:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/hiring-banking.png",
-      rewHead:"Accelerating countless careers to the next level",
+    CourseReview: {
+      p1: "Working at HCL",
+      p2: " Working at TCS",
+      p3: "Working at Capgemini",
+      h1: "We only make promises",
+      h2: "we can keep",
+      h2p: "Get assured interview calls from top recruiters",
+      hSRC: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/hiring-banking.png",
+      rewHead: "Accelerating countless careers to the next level",
     },
     syllabusDesc:
       "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Domain Training sessions are covered practically with real-time industrial projects and case studies.",
@@ -622,26 +600,6 @@ export const HRData = [
     },
 
     Batch: [
-      
-      {
-        Module0: {
-          title: "Weekday Evening Batch  :- (Mon-Fri)",
-          content: [
-            {
-              chap: {
-                title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 6th January 2023",
-                  "Time : 8 PM to 10 PM",
-                ],
-              },
-            },
-          ],
-          id: 1,
-          open: false,
-        },
-      },
-
       {
         Module0: {
           title: "Weekend Morning Batch :- (Sat-Sun)",
@@ -649,17 +607,28 @@ export const HRData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 8th January 2023",
-                  "Time : 08.30 AM to 12 PM",
-
-                ],
+                desc: ["Date : 8th January 2023", "Time : 08.30 AM to 12 PM"],
               },
             },
-
           ],
           id: 0,
           open: true,
+        },
+      },
+
+      {
+        Module0: {
+          title: "Weekday Morning  Batch  :- (Mon-Fri)",
+          content: [
+            {
+              chap: {
+                title: "Weekday Batch 1 :- Date And time ",
+                desc: ["Date : 13th January 2023", "Time : 8 AM to 10 AM"],
+              },
+            },
+          ],
+          id: 1,
+          open: false,
         },
       },
 
@@ -683,28 +652,7 @@ export const HRData = [
       //     open: true,
       //   },
       // },
-     
-      // {
-      //   Module0: {
-      //     title: "Weekday Morning  Batch  :- (Mon-Fri)",
-      //     content: [
-      //       {
-      //         chap: {
-      //           title: "Weekday Batch 1 :- Date And time ",
-      //           desc: [
-      //             "Date : 13th January 2023",
-      //             "Time : 8 AM to 10 AM",
-      //           ],
-      //         },
-      //       },
-
-      //     ],
-      //     id: 1,
-      //     open: false,
-      //   },
-      // },
     ],
-
 
     BatchCourses: {
       CourseFeeHead: "Data Science Course : Batch Details",
@@ -721,18 +669,18 @@ export const HRData = [
 export const MarketingData = [
   {
     FirstSection: {
-      ptop:"Data Science Domain Specialization Course",
-      heading1:"Become an ",
-      headingSpan1:"Expert",
-      heading2:"in",
-      headingSpan2:"Marketing domain",
-      des:"Specialized courses in the Marketing domain created to help you get ahead in your career",
-      h1:"6",
-      p1:"Industry Relevant Projects",
-      h2:"20+ ",
-      p2:"Case Studies & Assignments",
-      h3:"100%",
-      p3:"Interview Guarantee",
+      ptop: "Data Science Domain Specialization Course",
+      heading1: "Become an ",
+      headingSpan1: "Expert",
+      heading2: "in",
+      headingSpan2: "Marketing domain",
+      des: "Specialized courses in the Marketing domain created to help you get ahead in your career",
+      h1: "6",
+      p1: "Industry Relevant Projects",
+      h2: "20+ ",
+      p2: "Case Studies & Assignments",
+      h3: "100%",
+      p3: "Interview Guarantee",
     },
     ProgramInfo: {
       p1: "Global Recognition",
@@ -745,22 +693,26 @@ export const MarketingData = [
       p44: "₹ 9,341/month",
     },
     BoxShape: {
-      title:"When you learn more, you earn more.",
-      p:"Through our courses, you can: ",
-      box1desc:"Earn an increment of up to 200% in your next job with your added skill sets",
-      box2desc:"Succeed in an increasingly competitive market with advanced tools and technology",
-      box3desc:"Master your data analysis skills and create a dynamic dashboard to describe your insights",
-      box4desc:"Develop leadership skills by gaining better knowledge of data and make more informed decisions",
+      title: "When you learn more, you earn more.",
+      p: "Through our courses, you can: ",
+      box1desc:
+        "Earn an increment of up to 200% in your next job with your added skill sets",
+      box2desc:
+        "Succeed in an increasingly competitive market with advanced tools and technology",
+      box3desc:
+        "Master your data analysis skills and create a dynamic dashboard to describe your insights",
+      box4desc:
+        "Develop leadership skills by gaining better knowledge of data and make more informed decisions",
     },
-    CourseReview:{
-      p1:"Working at HCL",
-      p2:" Working at TCS",
-      p3:"Working at Capgemini",
-      h1:"We only make promises",
-      h2:"we can keep",
-      h2p:"Get assured interview calls from top recruiters",
-      hSRC:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/hiring-banking.png",
-      rewHead:"Accelerating countless careers to the next level",
+    CourseReview: {
+      p1: "Working at HCL",
+      p2: " Working at TCS",
+      p3: "Working at Capgemini",
+      h1: "We only make promises",
+      h2: "we can keep",
+      h2p: "Get assured interview calls from top recruiters",
+      hSRC: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/hiring-banking.png",
+      rewHead: "Accelerating countless careers to the next level",
     },
     syllabusDesc:
       "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Domain Training sessions are covered practically with real-time industrial projects and case studies.",
@@ -982,26 +934,6 @@ export const MarketingData = [
     },
 
     Batch: [
-      
-      {
-        Module0: {
-          title: "Weekday Evening Batch  :- (Mon-Fri)",
-          content: [
-            {
-              chap: {
-                title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 6th January 2023",
-                  "Time : 8 PM to 10 PM",
-                ],
-              },
-            },
-          ],
-          id: 1,
-          open: false,
-        },
-      },
-
       {
         Module0: {
           title: "Weekend Morning Batch :- (Sat-Sun)",
@@ -1009,17 +941,28 @@ export const MarketingData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 8th January 2023",
-                  "Time : 08.30 AM to 12 PM",
-
-                ],
+                desc: ["Date : 8th January 2023", "Time : 08.30 AM to 12 PM"],
               },
             },
-
           ],
           id: 0,
           open: true,
+        },
+      },
+
+      {
+        Module0: {
+          title: "Weekday Morning  Batch  :- (Mon-Fri)",
+          content: [
+            {
+              chap: {
+                title: "Weekday Batch 1 :- Date And time ",
+                desc: ["Date : 13th January 2023", "Time : 8 AM to 10 AM"],
+              },
+            },
+          ],
+          id: 1,
+          open: false,
         },
       },
 
@@ -1043,28 +986,7 @@ export const MarketingData = [
       //     open: true,
       //   },
       // },
-     
-      // {
-      //   Module0: {
-      //     title: "Weekday Morning  Batch  :- (Mon-Fri)",
-      //     content: [
-      //       {
-      //         chap: {
-      //           title: "Weekday Batch 1 :- Date And time ",
-      //           desc: [
-      //             "Date : 13th January 2023",
-      //             "Time : 8 AM to 10 AM",
-      //           ],
-      //         },
-      //       },
-
-      //     ],
-      //     id: 1,
-      //     open: false,
-      //   },
-      // },
     ],
-
 
     BatchCourses: {
       CourseFeeHead: "Data Science Course : Batch Details",
@@ -1081,18 +1003,18 @@ export const MarketingData = [
 export const SalesData = [
   {
     FirstSection: {
-      ptop:"Data Science Domain Specialization Course",
-      heading1:"Become an ",
-      headingSpan1:"Expert",
-      heading2:"in",
-      headingSpan2:"Sales domain",
-      des:"Specialized courses in the Sales domain created to help you get ahead in your career",
-      h1:"6",
-      p1:"Industry Relevant Projects",
-      h2:"20+ ",
-      p2:"Case Studies & Assignments",
-      h3:"100%",
-      p3:"Interview Guarantee",
+      ptop: "Data Science Domain Specialization Course",
+      heading1: "Become an ",
+      headingSpan1: "Expert",
+      heading2: "in",
+      headingSpan2: "Sales domain",
+      des: "Specialized courses in the Sales domain created to help you get ahead in your career",
+      h1: "6",
+      p1: "Industry Relevant Projects",
+      h2: "20+ ",
+      p2: "Case Studies & Assignments",
+      h3: "100%",
+      p3: "Interview Guarantee",
     },
     ProgramInfo: {
       p1: "Global Recognition",
@@ -1105,22 +1027,26 @@ export const SalesData = [
       p44: "₹ 9,341/month",
     },
     BoxShape: {
-      title:"When you learn more, you earn more.",
-      p:"Through our courses, you can: ",
-      box1desc:"Earn an increment of up to 200% in your next job with your added skill sets",
-      box2desc:"Succeed in an increasingly competitive market with advanced tools and technology",
-      box3desc:"Master your data analysis skills and create a dynamic dashboard to describe your insights",
-      box4desc:"Develop leadership skills by gaining better knowledge of data and make more informed decisions",
+      title: "When you learn more, you earn more.",
+      p: "Through our courses, you can: ",
+      box1desc:
+        "Earn an increment of up to 200% in your next job with your added skill sets",
+      box2desc:
+        "Succeed in an increasingly competitive market with advanced tools and technology",
+      box3desc:
+        "Master your data analysis skills and create a dynamic dashboard to describe your insights",
+      box4desc:
+        "Develop leadership skills by gaining better knowledge of data and make more informed decisions",
     },
-    CourseReview:{
-      p1:"Working at HCL",
-      p2:" Working at TCS",
-      p3:"Working at Capgemini",
-      h1:"We only make promises",
-      h2:"we can keep",
-      h2p:"Get assured interview calls from top recruiters",
-      hSRC:"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/hiring-banking.png",
-      rewHead:"Accelerating countless careers to the next level",
+    CourseReview: {
+      p1: "Working at HCL",
+      p2: " Working at TCS",
+      p3: "Working at Capgemini",
+      h1: "We only make promises",
+      h2: "we can keep",
+      h2p: "Get assured interview calls from top recruiters",
+      hSRC: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/hiring-banking.png",
+      rewHead: "Accelerating countless careers to the next level",
     },
     syllabusDesc:
       "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Domain Training sessions are covered practically with real-time industrial projects and case studies.",
@@ -1342,26 +1268,6 @@ export const SalesData = [
     },
 
     Batch: [
-      
-      {
-        Module0: {
-          title: "Weekday Evening Batch  :- (Mon-Fri)",
-          content: [
-            {
-              chap: {
-                title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 6th January 2023",
-                  "Time : 8 PM to 10 PM",
-                ],
-              },
-            },
-          ],
-          id: 1,
-          open: false,
-        },
-      },
-
       {
         Module0: {
           title: "Weekend Morning Batch :- (Sat-Sun)",
@@ -1369,17 +1275,28 @@ export const SalesData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 8th January 2023",
-                  "Time : 08.30 AM to 12 PM",
-
-                ],
+                desc: ["Date : 8th January 2023", "Time : 08.30 AM to 12 PM"],
               },
             },
-
           ],
           id: 0,
           open: true,
+        },
+      },
+
+      {
+        Module0: {
+          title: "Weekday Morning  Batch  :- (Mon-Fri)",
+          content: [
+            {
+              chap: {
+                title: "Weekday Batch 1 :- Date And time ",
+                desc: ["Date : 13th January 2023", "Time : 8 AM to 10 AM"],
+              },
+            },
+          ],
+          id: 1,
+          open: false,
         },
       },
 
@@ -1403,28 +1320,7 @@ export const SalesData = [
       //     open: true,
       //   },
       // },
-     
-      // {
-      //   Module0: {
-      //     title: "Weekday Morning  Batch  :- (Mon-Fri)",
-      //     content: [
-      //       {
-      //         chap: {
-      //           title: "Weekday Batch 1 :- Date And time ",
-      //           desc: [
-      //             "Date : 13th January 2023",
-      //             "Time : 8 AM to 10 AM",
-      //           ],
-      //         },
-      //       },
-
-      //     ],
-      //     id: 1,
-      //     open: false,
-      //   },
-      // },
     ],
-
 
     BatchCourses: {
       CourseFeeHead: "Data Science Course : Batch Details",
