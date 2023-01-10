@@ -12,7 +12,7 @@ export default async function handler(req, res) {
     let addDateTime = new Date();
     addDateTime = addDateTime.toUTCString();
 
-    const MTALKZ_SEND_SMS_POST_API_URL = "http://msg.mtalkz.com/V2/http-api-post.php";
+    const MTALKZ_SEND_SMS_POST_API_URL = "https://msg.mtalkz.com/V2/http-api-post.php";
     const MTALKZ_SEND_SMS_API_KEY = "ASnH8bAWcDjKVJao";
     const MTALKZ_SEND_SMS_SENDERID = "LEABAY";
     const message = `${otp} is your OTP for registration. Use this for phone verification. Do not share this OTP for security reasons. Thanks, Learnbay.`;
