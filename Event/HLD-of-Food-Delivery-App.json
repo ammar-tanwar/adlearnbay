@@ -1,0 +1,129 @@
+{
+  "metaInfo": {
+    "title": "HLD of Food Delivery App",
+    "desc": "Enroll in the System Design Event and learn from live classes. Get Knowledge by working on industry projects.",
+    "keyword": "Web Development",
+    "canonical": "https://www.learnbay.co/Event/Introduction-to-Full-Stack-Web-Development"
+  },
+  "mainData": {
+    "title": "HLD of Food Delivery App",
+    "eventDate": "January 21, 2023",
+    "tag": "System Design",
+    "eventTime": "5 p.m. to 8 p.m.",
+    "Duration": "120min",
+    "img": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Intro+to+Full+Stack+Web+Development.png",
+    "register": "903"
+  },
+  "header": {
+    "title": "HLD of Food Delivery App",
+    "titleSpan": "System Design",
+    "desc": "For SDEs with 2+ years working Exp",
+    "eventDate": "January 21, 2023",
+    "eventTime": "5 p.m. to 8 p.m.",
+    "imgSrc": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Wazid-Sir.png",
+    "register": "903",
+    "width": "600",
+    "height": "560",
+    "alt": "Header",
+    "instructor": "Mr. Wazid",
+    "href1": ""
+  },
+  "feature": {
+    "title": "System Design Masterclass Features",
+    "h1": "Customized learning",
+    "p1": "Fulfill your learning goals and get expert assistance.",
+    "h2": "Live Classes",
+    "p2": "Get 100% live sessions led by Full stack experts.",
+    "h3": "3 years subscription",
+    "p3": "Get 3 years of course subscription and life-time access to recorded classes.",
+    "img1": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Customized-Learning.png",
+    "img2": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Live-Classes.png",
+    "img3": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Shareable-Certification.png"
+  },
+  "profile": {
+    "pImg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/2.png",
+    "desc": "Full Stack Developer",
+    "pName": "Mr. Wazid",
+    "mIcon": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/amazon1.png",
+    "list1": "2+ years of experience in Web Development",
+    "list2": "2 Open-source contribution"
+  },
+  "whyUs": {
+    "title": "You will learn about",
+    "l1": "Introduction to Web Development",
+    "l2": "What is Full Stack Web Development",
+    "l3": "Web Development Job Roles and Market Demand",
+    "l4": "Hands-On project"
+  },
+  "whoCan": {
+    "title": "This masterclass is for",
+    "heading1": "Software Developers",
+    "para1": "  Software developers who are aiming to accelerate their respective careers by upskilling with Full stack development.",
+    "heading2": "Peer Working Professionals",
+    "para2": "Professionals, irrespective of their domains, who have great enthusiasm to make a career transition into Full stack development.",
+    "heading3": "About learnbay Academy",
+    "para3": " learnbay Academy is an ed-tech company, founded by alumni of IIT Kharagpur."
+  },
+
+  
+  "eventDeatureData": {
+    "Heading": "HLD of Food Delivery App",
+    "StartON": "STARTS ON :",
+    "StartONT": " January 21st, 2023 05:00 PM (IST)",
+    "EndON": "ENDS ON : ",
+    "EndONT": "January 21st, 2023 08:00 PM (IST)",
+    "Venue": "VENUE : ",
+    "VenueO": "Online",
+    "Duration": " DURATION : ",
+    "DurationT": " 2 hours",
+
+    "para1": "About this Masterclass",
+      "paragraph1": "Are you hungry for some knowledge about the high-level design of food delivery apps? Look no further!",
+      "paragraph1_1": "In this webinar, we'll delve into the delicious details of how apps like Swiggy and Zomato manage to bring your favourite meals straight to your door. From coordinating complex delivery logistics to satisfying your cravings in a snap, we'll explore the technology that made these apps highly successful.",
+      
+
+      "para2": "Masterclass highlights ",
+      "paragraph24": "Understand the design & functionality of a food delivery app ",
+      "paragraph4": "Study the use of data flow diagrams for an online food ordering system",
+      "paragraph5": "Familiarize yourself with real-time database management systems & NoSQL",
+      "paragraph6": "Learn techniques for scaling a system to accommodate millions of users",
+  
+      "para4": "Meet Nikhil",
+      "paragraph9": "Designation : ",
+      "paragraph9_1": " Software Development Engineer",
+      "paragraph10": "Company : ",
+      "paragraph10_1": "SDE, Ex Amazon",
+
+      "linkdinsrc":"#",
+
+      "para5": "Learn the Pre-requisites of this Masterclass for FREE",
+      "paragraph12": "JavaScript",
+      "paragraph13": "CSS",
+
+      "para6": "This Masterclass is for",
+      "paragraph6_2": "SDEs Seeking Upskilling",
+      "paragraph7_2": "SDEs Wishing to convert to product companies from Service companies",
+      "paragraph8_3": "SDEs wanting to learn System Design",
+
+      "para7": "What our Learners have to say",
+
+      "para8": "About Learnbay Academy",
+      "paragraph14": "Welcome to Learnbay!",
+      "paragraph15": "We are a leading provider of specialized courses in Data Structures and System Design in our Full Stack Software Development Program. We are dedicated to helping working professionals advance their careers and gain the technical expertise needed to succeed in the fast-paced world of technology.",
+      "paragraph16": "Some of our standout features include:",
+      "paragraph17": "Curriculum that is developed, supervised and approved by industry experts",
+      "paragraph18": "1:1 mentorship, guided by top experts in the field",
+      "paragraph19": "Opportunities to gain technical expertise through real-world projects",
+      "paragraph20": "Over 250 hiring partners and dedicated placement support",
+      "paragraph21": "100% guarantee interview calls",
+
+      "paragraph22":"Sign up for a free demo class and enroll in the domain of your choice."
+ 
+    },
+    "headImg":{
+      "deskimg":"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/foodDeliveryWebsite.jpg",
+      "mobimg":"https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/foodDeliveryMobile.jpg"
+    }
+  
+  }
+  
