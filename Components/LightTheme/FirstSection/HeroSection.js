@@ -4,12 +4,11 @@ import { FaArrowRight, } from "react-icons/fa";
 import Image from "next/image";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
-
-
 import {
   CircularProgressbar,
 } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
+
 
 function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
   const [popups, setPopups] = useState(false);
@@ -40,6 +39,7 @@ function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
     };
   }
 
+
   function getNextSaturday() {
     var now = new Date();
     var nextSaturday = new Date();
@@ -66,7 +66,6 @@ function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
     if (t.total <= 0) {
       clearInterval(interval);
     }
-
     if (t.days == 7) {
       setCircleValue(73)
     } else if (t.days == 6) {
@@ -155,7 +154,7 @@ function Example(props) {
   return (
     <div>
       <div>
-        <div className={styles.circleWidth}>{props.children}</div>
+        <div className={styles.circleWidth} >{props.children}</div>
       </div>
     </div>
   );
