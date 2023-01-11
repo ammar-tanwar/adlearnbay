@@ -9,6 +9,7 @@ import {
 } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
+
 function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
   const [popups, setPopups] = useState(false);
   const [days, setDays] = useState(0);
@@ -37,6 +38,7 @@ function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
       'seconds': seconds
     };
   }
+
 
   function getNextSaturday() {
     var now = new Date();
@@ -138,7 +140,6 @@ function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
                 <CircularProgressbar value={circleValue} text={`${circleValue}%`} />
               </Example>
             </div>
-
           </div>
         </div>
         <div className={styles.sectionDiv}>
@@ -151,9 +152,9 @@ function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
 
 function Example(props) {
   return (
-    <div style={{ marginBottom: 80 }}>
-      <div style={{ marginTop: 30, display: "flex" }}>
-        <div style={{ width: "30%", paddingRight: 30 }}>{props.children}</div>
+    <div>
+      <div>
+        <div className={styles.circleWidth} >{props.children}</div>
       </div>
     </div>
   );
