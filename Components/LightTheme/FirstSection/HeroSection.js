@@ -10,7 +10,6 @@ import {
 } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
-
 function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
   const [popups, setPopups] = useState(false);
   const [days, setDays] = useState(0);
@@ -40,12 +39,12 @@ function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
     };
   }
 
-
   function getNextSaturday() {
     var now = new Date();
     var nextSaturday = new Date();
-    nextSaturday.setDate(now.getDate() + (6 - 1 - now.getDay() + 7) % 7 + 1);
+    nextSaturday.setDate(now.getDate() + (7 - 1 - now.getDay() + 7) % 7 + 1);
     nextSaturday.setHours(11, 0, 0, 0);
+    // console.log("Sat",nextSaturday)
     return nextSaturday;
   }
 
@@ -68,21 +67,21 @@ function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
       clearInterval(interval);
     }
     if (t.days == 7) {
-      setCircleValue(73)
-    } else if (t.days == 6) {
       setCircleValue(75)
+    } else if (t.days == 6) {
+      setCircleValue(77)
     } else if (t.days == 5) {
-      setCircleValue(79)
+      setCircleValue(80)
     } else if (t.days == 4) {
-      setCircleValue(81)
+      setCircleValue(83)
     } else if (t.days == 3) {
-      setCircleValue(85)
+      setCircleValue(86)
     } else if (t.days == 2) {
       setCircleValue(89)
     } else if (t.days == 1) {
-      setCircleValue(93)
+      setCircleValue(92)
     } else if (t.days == 0) {
-      setCircleValue(97)
+      setCircleValue(95)
     }
   }, 1000);
 
@@ -139,13 +138,15 @@ function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
             <div>
               <Example label="Default">
                 <CircularProgressbar value={circleValue} text={`${circleValue}%`} styles={buildStyles({
-          textColor: "black",
-          pathColor: "#0072BC",
-          trailColor: "white",
-          textSize: "26px"
-        })} />
+                  textColor: "black",
+                  pathColor: "#0072BC",
+                  trailColor: "white",
+                  textSize: "26px"
+                })} />
+
               </Example>
             </div>
+
           </div>
         </div>
         <div className={styles.sectionDiv}>
@@ -158,8 +159,8 @@ function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
 
 function Example(props) {
   return (
-    <div>
-      <div>
+    <div >
+      <div >
         <div className={styles.circleWidth} >{props.children}</div>
       </div>
     </div>
