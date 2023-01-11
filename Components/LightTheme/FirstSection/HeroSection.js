@@ -135,7 +135,7 @@ function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
             </div>
             <div>
               <Example label="Default">
-                <CircularProgressbar value={circleValue} text={`${circleValue}%`}/>
+                <CircularProgressbar value={circleValue} text={`${circleValue}%`} />
               </Example>
             </div>
 
