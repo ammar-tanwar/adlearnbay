@@ -6,7 +6,7 @@ import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import {
   CircularProgressbar,
-  
+  buildStyles,
 } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
@@ -137,7 +137,13 @@ function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
             </div>
             <div>
               <Example label="Default">
-                <CircularProgressbar value={circleValue} text={`${circleValue}%`}/>
+                <CircularProgressbar value={circleValue} text={`${circleValue}%`} styles={buildStyles({
+                  textColor: "black",
+                  pathColor: "#0072BC",
+                  trailColor: "white",
+                  textSize: "26px"
+                })} />
+
               </Example>
             </div>
 
