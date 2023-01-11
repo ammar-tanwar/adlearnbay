@@ -1,46 +1,89 @@
 import styles from "./HeroSection.module.css";
 import React, { useState } from "react";
-import { FaArrowRight, FaHandshake } from "react-icons/fa";
-import { RiUserSearchLine } from "react-icons/ri";
+import { FaArrowRight, } from "react-icons/fa";
 import Image from "next/image";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
+import {
+  CircularProgressbar,
+} from "react-circular-progressbar";
+import "react-circular-progressbar/dist/styles.css";
 
 function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
   const [popups, setPopups] = useState(false);
-  const [partyTime, setPartyTime] = useState(false);
   const [days, setDays] = useState(0);
   const [hours, setHours] = useState(0);
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
+  const [circleValue, setCircleValue] = useState(75)
 
   const popupShow = () => {
     setPopups(true);
   };
-  const target = new Date("1/12/2023 12:04:59");
+
+  function getTimeRemaining(endtime) {
+    // console.log("getTimeRemaining",endtime)
+    var t = Date.parse(endtime) - Date.parse(new Date());
+    var seconds = Math.floor((t / 1000) % 60);
+    var minutes = Math.floor((t / 1000 / 60) % 60);
+    var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+    var days = Math.floor(t / (1000 * 60 * 60 * 24));
+
+    return {
+      'total': t,
+      'days': days,
+      'hours': hours,
+      'minutes': minutes,
+      'seconds': seconds
+    };
+  }
+
+  function getNextSaturday() {
+    var now = new Date();
+    var nextSaturday = new Date();
+    nextSaturday.setDate(now.getDate() + (6 - 1 - now.getDay() + 7) % 7 + 1);
+    nextSaturday.setHours(11, 0, 0, 0);
+    return nextSaturday;
+  }
+
+  function convertToEST(date) {
+    const estOffset = -5.0
+    const utc = date.getTime() + (date.getTimezoneOffset() * 60000);
+    return new Date(utc + (3600000 * estOffset));
+  }
+
+  var deadline = getNextSaturday();
 
   const interval = setInterval(() => {
-    const now = new Date();
-    const difference = target.getTime() - now.getTime();
+    var t = getTimeRemaining(deadline);
+    setDays(t.days)
+    setHours(t.hours)
+    setMinutes(t.minutes)
+    setSeconds(t.seconds)
 
-    const d = Math.floor(difference / (1000 * 60 * 60 * 24));
-    setDays(d);
-
-    const h = Math.floor(
-      (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-    );
-    setHours(h);
-
-    const m = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
-    setMinutes(m);
-
-    const s = Math.floor((difference % (1000 * 60)) / 1000);
-    setSeconds(s);
-
-    if (d <= 0 && h <= 0 && m <= 0 && s <= 0) {
-      setPartyTime(true);
+    if (t.total <= 0) {
+      clearInterval(interval);
+    }
+    if (t.days == 7) {
+      setCircleValue(73)
+    } else if (t.days == 6) {
+      setCircleValue(75)
+    } else if (t.days == 5) {
+      setCircleValue(79)
+    } else if (t.days == 4) {
+      setCircleValue(81)
+    } else if (t.days == 3) {
+      setCircleValue(85)
+    } else if (t.days == 2) {
+      setCircleValue(89)
+    } else if (t.days == 1) {
+      setCircleValue(93)
+    } else if (t.days == 0) {
+      setCircleValue(97)
     }
   }, 1000);
+
+
 
   return (
     <section>
@@ -90,12 +133,12 @@ function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
                 </div>
               </div>
             </div>
-            {/* <div className={styles.loaderWrapper}>
-              <div className={styles.seatLoader}>
-                <p className={styles.loaderPercentage}>91%</p>
-              </div>
-              <p className={styles.label}>Seats filled</p>
-            </div> */}
+            <div>
+              <Example label="Default">
+                <CircularProgressbar value={circleValue} text={`${circleValue}%`} />
+              </Example>
+            </div>
+
           </div>
         </div>
         <div className={styles.sectionDiv}>
@@ -103,6 +146,16 @@ function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
         </div>
       </div>
     </section>
+  );
+}
+
+function Example(props) {
+  return (
+    <div style={{ marginBottom: 80 }}>
+      <div style={{ marginTop: 30, display: "flex" }}>
+        <div style={{ width: "30%", paddingRight: 30 }}>{props.children}</div>
+      </div>
+    </div>
   );
 }
 
@@ -127,3 +180,12 @@ export default HeroSection;
               </p>
             </div> */
 }
+
+
+
+// <div className={styles.loaderWrapper}>
+//               <div className={styles.seatLoader}>
+//                 <p className={styles.loaderPercentage}>91%</p>
+//               </div>
+//               <p className={styles.label}>Seats filled</p>
+//             </div>
