@@ -47,6 +47,7 @@
   display: flex;
   margin-top: 20px;
   gap: 30px;
+  align-items: center;
 }
 
 .whitep span {
@@ -156,8 +157,12 @@
   font-size: 15px;
 }
 
+.circleWidth {
+  width: 22%;
+}
 
-@media (min-width: 641px) {
+
+@media (max-width: 641px) {
   .section1 {
     padding: 80px 20px 0px 20px;
     display: grid;

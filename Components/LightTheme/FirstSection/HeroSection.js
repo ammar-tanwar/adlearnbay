@@ -153,9 +153,9 @@ function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
 
 function Example(props) {
   return (
-    <div style={{ marginBottom: 80 }}>
-      <div style={{ marginTop: 30, display: "flex" }}>
-        <div style={{ width: "30%", paddingRight: 30 }}>{props.children}</div>
+    <div>
+      <div>
+        <div className={styles.circleWidth}>{props.children}</div>
       </div>
     </div>
   );
