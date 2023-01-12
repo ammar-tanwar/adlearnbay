@@ -161,6 +161,10 @@
   width: 22%;
 }
 
+.sectionDiv span {
+  border-radius: 20px;
+}
+
 
 @media (max-width: 641px) {
   .section1 {

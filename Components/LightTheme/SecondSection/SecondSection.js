@@ -31,26 +31,26 @@ function SecondSection({p1, p2, p3, p4, p11, p22, p33, p44}) {
     <div className={styles.BoxIconDiv}>
       <div className={styles.BoxIcon}>
         <FaPlay className={styles.IconBoxBlue} />
-        <p className={styles.HeadP}>{p1}</p>
-        <p className={styles.HeadPP}>{p11}</p>
+        <p className={styles.HeadPP}>{p1}</p>
+        <p className={styles.HeadP}>{p11}</p>
       </div>
       <div className={styles.lineWhite}></div>
       <div className={styles.BoxIcon}>
         <FaStar className={styles.IconBoxOrange} />
-        <p className={styles.HeadP}>{p2}</p>
-        <p className={styles.HeadPP}>{p22}</p>
+        <p className={styles.HeadPP}>{p2}</p>
+        <p className={styles.HeadP}>{p22}</p>
       </div>
       <div className={styles.lineWhite}></div>
       <div className={styles.BoxIcon}>
         <FaBook className={styles.IconBoxBlue} />
-        <p className={styles.HeadP}>{p3}</p>
-        <p className={styles.HeadPP}>{p33}</p>
+        <p className={styles.HeadPP}>{p3}</p>
+        <p className={styles.HeadP}>{p33}</p>
       </div>
       <div className={styles.lineWhite}></div>
       <div className={styles.BoxIcon}>
         <FaRegIdBadge className={styles.IconBoxOrange} />
-        <p className={styles.HeadP}>{p4}</p>
-        <p className={styles.HeadPP}>{p44}</p>
+        <p className={styles.HeadPP}>{p4}</p>
+        <p className={styles.HeadP}>{p44}</p>
       </div>
     </div>
   </div>
