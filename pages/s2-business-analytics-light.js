@@ -89,31 +89,31 @@ export default function Home() {
           </div>
         </Popup>
         <HeroSection
-                deskTopPara="Develop Work-Ready Skills You Can Use Right Away"
+          deskTopPara="Acquire practical skills you can apply immediately"
           h1="Business Analytics Certification Course"
           hSpan="For Professionals"
           para="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
-          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/DataScinceLight1.png"
+          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/business+analytics.jpg"
         />
         <SecondSection
-          p1="Aimed for"
-          p11="Early professionals"
-          p2="Salary Package"
-          p22="12 LPA - 20 LPA"
-          p3="1:1"
-          p33="Career Support"
-          p4="Financing as low as"
-          p44="₹ 14,750/month" />
+          p1="IBM Certified"
+          p11="Capstone Projects"
+          p2="5-star"
+          p22="Industry-standard Training"
+          p3="3-year"
+          p33="Subscription Model"
+          p4="1:1 Support"
+          p44="Dedicated Program" />
         <ThirdSection />
         <FourthSection
           h1="Program Highlights"
-          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/DataScinceLight1.png"
-          img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/DataScinceLight1.png"
-          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/DataScinceLight1.png"
-          img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/DataScinceLight1.png"
+          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
+          img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/weekend+and+weekday+batch.jpg"
+          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/extra+dout+clearance+sessionn.jpg"
+          img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
         />
         <SyllabusSection
-          desc="Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Business Analytics Course sessions are covered practically with real-time industrial projects and case studies."
+          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our business analytics courses feature practical training with real-time projects and case studies."
           Hours="200+ Hours"
           Projects="8+ projects"
           Module0="Preparatory Classes (Programming + Maths)"

@@ -105,6 +105,7 @@ const Form = ({
     router.pathname === "/s2-data-analytics-placement" ||
     router.pathname === "/s2-artificial-intelligence-advance" ||
     router.pathname === "/s2-artificial-intelligence-master" ||
+    router.pathname === "/s2-artificial-intelligence-training" ||
     router.pathname === "/s2-artificial-intelligence-placement" ||
     router.pathname === "/s2-artificial-intelligence-certification" ||
     router.pathname === "/s2-data-science" ||
@@ -664,6 +665,7 @@ const Form = ({
       router.pathname === "/s2-data-analytics-placement" ||
       router.pathname === "/s2-artificial-intelligence-advance" ||
       router.pathname === "/s2-artificial-intelligence-master" ||
+      router.pathname === "/s2-artificial-intelligence-training" ||
       router.pathname === "/s2-artificial-intelligence-placement" ||
       router.pathname === "/s2-artificial-intelligence-certification" ||
       //  BANGALORE

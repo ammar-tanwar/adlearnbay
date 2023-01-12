@@ -37,7 +37,6 @@
     font-size: 18px;
     color: #000;
     margin: 0px;
-    margin-top: 10px;
 }
 
 .HeadPP {
@@ -45,6 +44,7 @@
     color: #000;
     margin: 0px;
     font-weight: 700;
+    margin-top: 10px;
 }
 
 .BoxIcon {
