@@ -93,6 +93,7 @@ const Form = ({
     router.pathname === "/s2-business-analytics-advance" ||
     router.pathname === "/s2-business-analytics-master" ||
     router.pathname === "/s2-business-analytics-placement" ||
+    router.pathname === "/s2-business-analytics-training" ||
     router.pathname === "/s2-data-science-advance" ||
     router.pathname === "/s2-data-science-master" ||
     router.pathname === "/s2-data-science-placement" ||
@@ -100,6 +101,8 @@ const Form = ({
     router.pathname === "/s2-machine-learning-advance" ||
     router.pathname === "/s2-machine-learning-master" ||
     router.pathname === "/s2-machine-learning-placement" ||
+    router.pathname === "/s2-machine-learning-certificate" ||
+    router.pathname === "/s2-machine-learning-training" ||
     router.pathname === "/s2-data-analytics-advance" ||
     router.pathname === "/s2-data-analytics-master" ||
     router.pathname === "/s2-data-analytics-placement" ||
@@ -652,6 +655,7 @@ const Form = ({
       router.pathname === "/s2-business-analytics-advance" ||
       router.pathname === "/s2-business-analytics-master" ||
       router.pathname === "/s2-business-analytics-placement" ||
+      router.pathname === "/s2-business-analytics-training" ||
       router.pathname === "/s2-data-science-advance" ||
       router.pathname === "/s2-data-science-master" ||
       router.pathname === "/s4-data-science" ||
@@ -660,6 +664,8 @@ const Form = ({
       router.pathname === "/s2-machine-learning-advance" ||
       router.pathname === "/s2-machine-learning-master" ||
       router.pathname === "/s2-machine-learning-placement" ||
+      router.pathname === "/s2-machine-learning-certificate" ||
+      router.pathname === "/s2-machine-learning-training" ||
       router.pathname === "/s2-data-analytics-advance" ||
       router.pathname === "/s2-data-analytics-master" ||
       router.pathname === "/s2-data-analytics-placement" ||
