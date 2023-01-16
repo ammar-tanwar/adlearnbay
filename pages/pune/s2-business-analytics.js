@@ -101,9 +101,9 @@ export default function Home() {
           courseName="Business Analytics Course"
           cityName="In Pune"
           ptag="Business analytics is the process of examining data sets to identify trends 
-      and develop conclusions about the information contained within them. 
-      This course in Pune will provide you with hands-on experience 
-      with technologies such as R, Python, Tableau, Hadoop, and so on."
+          and develop conclusions about the information contained within them. 
+          Join this course in Pune and get hands on experience by working with 
+          real data sets during Real time projects."
         />
         <div className={styles.program1}>
           <ProgramInfo

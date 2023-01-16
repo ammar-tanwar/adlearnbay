@@ -101,9 +101,9 @@ export default function Home() {
           courseName="Business Analytics Course"
           cityName="In Delhi"
           ptag="Business analytics is the process of examining data sets to identify trends 
-      and develop conclusions about the information contained within them. 
-      This course in Delhi will provide you with hands-on experience 
-      with technologies such as R, Python, Tableau, Hadoop, and so on."
+          and develop conclusions about the information contained within them. 
+          Improve your knowledge with this course in Delhi and get 100% 
+          Placement Assistance."
         />
         <div className={styles.program1}>
           <ProgramInfo
