@@ -265,23 +265,7 @@ export const BFSIData = [
       CourseFeelist5: "Company-based Mock Interviews",
     },
 
-    Batch: [
-      {
-        Module0: {
-          title: "Weekend Afternoon Batch  :- (Sat-Sun)",
-          content: [
-            {
-              chap: {
-                title: "Weekend Batch 1 :- Date And time ",
-                desc: ["Date : 15th January 2023", "Time : 12:30 PM to 4 PM"],
-              },
-            },
-          ],
-          id: 1,
-          open: false,
-        },
-      },
-
+       Batch: [
       {
         Module0: {
           title: "Weekday Evening Batch :- (Mon-Fri)",
@@ -290,6 +274,21 @@ export const BFSIData = [
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: ["Date : 27th January 2023", "Time : 8 PM to 10 PM"],
+              },
+            },
+          ],
+          id: 0,
+          open: true,
+        },
+      },
+      {
+        Module0: {
+          title: "Weekend Morning Batch :- (Sat-Sun)",
+          content: [
+            {
+              chap: {
+                title: "Batch 1 :- Date And time ",
+                desc: ["Date : 29th January 2023", "Time : 08:30 AM to 12 PM"],
               },
             },
           ],
@@ -578,23 +577,7 @@ export const HRData = [
       CourseFeelist5: "Company-based Mock Interviews",
     },
 
-    Batch: [
-      {
-        Module0: {
-          title: "Weekend Afternoon Batch  :- (Sat-Sun)",
-          content: [
-            {
-              chap: {
-                title: "Weekend Batch 1 :- Date And time ",
-                desc: ["Date : 15th January 2023", "Time : 12:30 PM to 4 PM"],
-              },
-            },
-          ],
-          id: 1,
-          open: false,
-        },
-      },
-
+       Batch: [
       {
         Module0: {
           title: "Weekday Evening Batch :- (Mon-Fri)",
@@ -603,6 +586,21 @@ export const HRData = [
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: ["Date : 27th January 2023", "Time : 8 PM to 10 PM"],
+              },
+            },
+          ],
+          id: 0,
+          open: true,
+        },
+      },
+      {
+        Module0: {
+          title: "Weekend Morning Batch :- (Sat-Sun)",
+          content: [
+            {
+              chap: {
+                title: "Batch 1 :- Date And time ",
+                desc: ["Date : 29th January 2023", "Time : 08:30 AM to 12 PM"],
               },
             },
           ],
@@ -891,23 +889,7 @@ export const MarketingData = [
       CourseFeelist5: "Company-based Mock Interviews",
     },
 
-    Batch: [
-      {
-        Module0: {
-          title: "Weekend Afternoon Batch  :- (Sat-Sun)",
-          content: [
-            {
-              chap: {
-                title: "Weekend Batch 1 :- Date And time ",
-                desc: ["Date : 15th January 2023", "Time : 12:30 PM to 4 PM"],
-              },
-            },
-          ],
-          id: 1,
-          open: false,
-        },
-      },
-
+       Batch: [
       {
         Module0: {
           title: "Weekday Evening Batch :- (Mon-Fri)",
@@ -916,6 +898,21 @@ export const MarketingData = [
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: ["Date : 27th January 2023", "Time : 8 PM to 10 PM"],
+              },
+            },
+          ],
+          id: 0,
+          open: true,
+        },
+      },
+      {
+        Module0: {
+          title: "Weekend Morning Batch :- (Sat-Sun)",
+          content: [
+            {
+              chap: {
+                title: "Batch 1 :- Date And time ",
+                desc: ["Date : 29th January 2023", "Time : 08:30 AM to 12 PM"],
               },
             },
           ],
@@ -1204,23 +1201,7 @@ export const SalesData = [
       CourseFeelist5: "Company-based Mock Interviews",
     },
 
-    Batch: [
-      {
-        Module0: {
-          title: "Weekend Afternoon Batch  :- (Sat-Sun)",
-          content: [
-            {
-              chap: {
-                title: "Weekend Batch 1 :- Date And time ",
-                desc: ["Date : 15th January 2023", "Time : 12:30 PM to 4 PM"],
-              },
-            },
-          ],
-          id: 1,
-          open: false,
-        },
-      },
-
+       Batch: [
       {
         Module0: {
           title: "Weekday Evening Batch :- (Mon-Fri)",
@@ -1229,6 +1210,21 @@ export const SalesData = [
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: ["Date : 27th January 2023", "Time : 8 PM to 10 PM"],
+              },
+            },
+          ],
+          id: 0,
+          open: true,
+        },
+      },
+      {
+        Module0: {
+          title: "Weekend Morning Batch :- (Sat-Sun)",
+          content: [
+            {
+              chap: {
+                title: "Batch 1 :- Date And time ",
+                desc: ["Date : 29th January 2023", "Time : 08:30 AM to 12 PM"],
               },
             },
           ],
