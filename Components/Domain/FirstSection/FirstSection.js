@@ -78,9 +78,9 @@ const FirstSection = ({
           <p className={styles.pTop}>{des}</p>
 
           <div className={styles.btnWrapper}>
-            <a href="#course">
+            <a href="#syllabus">
               <button className={styles.outLineBtn}>
-                Courses <FaChevronDown className="bIcons" />
+                Syllabus <FaChevronDown className="bIcons" />
               </button>
             </a>
             <button onClick={popupShow} className={styles.btn}>

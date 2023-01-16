@@ -1,10 +1,44 @@
 .mains {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.Back {
+  background-color: #f4fcfe;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 59% 39%;
+  align-items: center;
+  margin: auto;
+  padding: 0px 100px;
+  margin-top: 70px;
+  color: black;
+}
+
+.Back h4 {
+  text-align: left;
+}
+
+.thankh4 {
+  font-size: 50px;
+  margin: 0;
+  line-height: 40px;
+  margin-bottom: 40px;
+  color: #2D9CD7;
+}
+
+.thankspan {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1px;
+  color: #000;
+}
   .mains1 {
     display: flex;
     flex-direction: column;
@@ -113,6 +147,26 @@
       align-items: center;
       justify-content: center;
       height: 100%;
+    }
+  
+    .Back {
+      height: 100%;
+      text-align: left;
+      padding: 40px 20px 30px 20px;
+      display: block;
+    }
+  
+    .Back h4 {
+      text-align: center;
+    }
+
+    .thankspan {
+      font-size: 20px;
+    }
+
+    .thankh4 {
+      line-height: 30px;
+      font-size: 40px;
     }
 
     .left {

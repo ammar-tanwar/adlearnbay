@@ -15,6 +15,7 @@ import {
     dataScience,
     placementProject,
     fullStackD,
+    nonTechD,
 } from "./courseDetailsThankYou";
 
 function CourseThankYou() {
@@ -77,6 +78,20 @@ function CourseThankYou() {
                     </span>
                     <span
                         onClick={() => {
+                            setViewAll(false);
+                            setOneYear(false);
+                            setNonTech(true);
+                            setStack(false);
+                            setGuarantee(false);
+                        }}
+                        style={
+                            nonTech ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
+                        }
+                    >
+                        Domain Brochure
+                    </span>
+                    <span
+                        onClick={() => {
                             setViewAll(true);
                             setOneYear(false);
                             setNonTech(false);
@@ -103,7 +118,7 @@ function CourseThankYou() {
                                         alt="data-science-course"
                                         quality={100}
                                         width="306"
-                                        height="150"
+                                        height="230"
                                     />
 
                                     <p className={styles.Ptopp}>
@@ -138,7 +153,7 @@ function CourseThankYou() {
                                         alt="data-science-course"
                                         quality={100}
                                         width="306"
-                                        height="150"
+                                        height="230"
                                     />
                                     <p className={styles.Ptopp}>
                                         {title}
@@ -172,7 +187,7 @@ function CourseThankYou() {
                                         alt="data-science-course"
                                         quality={100}
                                         width="306"
-                                        height="150"
+                                        height="230"
                                     />
                                     <p className={styles.Ptopp}>
                                         {title}
@@ -193,8 +208,41 @@ function CourseThankYou() {
                     ""
                 )}
                 {Stack ? (
+                                        <div className={styles.gridPanel}>
+                                        {fullStackD.map((viewAllData) => {
+                                            const { id, title, title1, img, para, link1 } = viewAllData;
+                                            return (
+                                                <div className={styles.leftSide} key={id}>
+                                                    <Image
+                                                        src={img}
+                                                        layout="intrinsic"
+                                                        className={styles.courseImg}
+                                                        alt="data-science-course"
+                                                        quality={100}
+                                                        width="306"
+                                                        height="230"
+                                                    />
+                                                    <p className={styles.Ptopp}>
+                                                        {title}
+                                                    </p>
+                                                    <div className={styles.btnWrapper}>
+                                                        <button className={styles.Button}>
+                                                            <AiOutlineDownload className="bIcons" />
+                                                            <a href={link1} target="_blank" >
+                                                                Download Brochure
+                                                            </a>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            );
+                                        })}
+                                    </div>
+                ) : (
+                    ""
+                )}
+                {nonTech ? (
                     <div className={styles.gridPanel}>
-                        {fullStackD.map((viewAllData) => {
+                        {nonTechD.map((viewAllData) => {
                             const { id, title, title1, img, para, link1 } = viewAllData;
                             return (
                                 <div className={styles.leftSide} key={id}>
@@ -205,7 +253,7 @@ function CourseThankYou() {
                                         alt="data-science-course"
                                         quality={100}
                                         width="306"
-                                        height="150"
+                                        height="300"
                                     />
                                     <p className={styles.Ptopp}>
                                         {title}

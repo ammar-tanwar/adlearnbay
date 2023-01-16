@@ -63,7 +63,7 @@ export const DataAnalyticsCourseData = [
     project: "8+ Real Time",
 
     CSyllabus: "Data Analytic Course Syllabus",
-    CourseHighlights: " Data Analytic Course Highlights",
+    CourseHighlights: "Course Highlights",
 
     syllabus: [
       {
