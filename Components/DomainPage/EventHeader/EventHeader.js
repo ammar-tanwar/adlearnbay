@@ -42,21 +42,21 @@ export const EventHeader = ({ deskimg, mobimg }) => {
         <div className={styles.relative}>
           <div className={styles.relativeDiv}>
           <div className={styles.DivStyle}>
-          <p className={styles.p}>Advance your Career in <span className={styles.spanP}>Banking Domain</span> as a</p>
-            <p className={styles.h1}>Data Scientist</p>
+          <p className={styles.h1}>Customer Analytics</p>
+          <p className={styles.p}>in <span className={styles.spanP}>BFSI sector : Understand Your Customers </span> </p>
           </div>
           <div className={styles.imgBox}>
             <div className={styles.imgText}>
               <FaCalendarAlt className={styles.iconOrange} />
               <div className={styles.Text}>
-                <p className={styles.firstText}>8th Jan</p>
-                <p className={styles.secondText}>Sunday</p>
+                <p className={styles.firstText}>25th Jan</p>
+                <p className={styles.secondText}>Wednesday</p>
               </div>
             </div>
             <div className={styles.imgText}>
               <FaClock className={styles.iconOrange} />
               <div className={styles.Text}>
-                <p className={styles.firstText}>5 - 8 PM</p>
+                <p className={styles.firstText}>7 - 10 PM</p>
                 <p className={styles.secondText}>3 Hr Session</p>
               </div>
             </div>

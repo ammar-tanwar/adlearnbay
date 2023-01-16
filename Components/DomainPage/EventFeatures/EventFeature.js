@@ -69,7 +69,7 @@ const EventFeature = ({
         <p>{props.paragraph1}</p>
         <p>{props.paragraph1_1}</p>
         <p>{props.paragraph1_2}</p>
-        <p>{props.paragraph1_3}</p>
+        
       </div>
       <div className={styles.topicCover}>
         <p className={styles.paragramTitle}>{props.para2}</p>
@@ -101,10 +101,6 @@ const EventFeature = ({
           <div className={styles.iconDiv}>
             <FaCheck className={styles.icon} />
             <p className={styles.iconPs}>{props.paragraph5_2}</p>
-          </div>
-          <div className={styles.iconDiv}>
-            <FaCheck className={styles.icon} />
-            <p className={styles.iconPs}>{props.paragraph5_3}</p>
           </div>
         </div>
       </div>
