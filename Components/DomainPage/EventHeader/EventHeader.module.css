@@ -56,8 +56,8 @@
 
 .h1 {
   margin: 0;
-  font-size: 73px;
-  color: #0072bc;
+  font-size: 57px;
+  color: black;
   font-weight: 800;
   margin-left: -5px;
   margin-top: -6px;
@@ -67,13 +67,13 @@
 .p {
   margin: 0;
   color: #000;
-  font-size: 23px;
+  font-size: 25px;
 }
 
 .spanP {
   color: #0072bc;
   font-weight: 800;
-  font-size: 24px;
+  font-size: 26px;
 }
 
 .imgBox {
@@ -275,7 +275,7 @@
 
   .info p {
     font-size: 18px;
-    line-height: 24x;
+    line-height: 24px;
   }
   .EventInfo {
     display: flex;
@@ -343,23 +343,24 @@
 
   .h1 {
     margin: 0;
-    font-size: 44px;
-    color: #0072bc;
+    font-size: 35px;
+    color:black;
     font-weight: 800;
     margin-left: -3px;
+    margin-bottom: 5px;
   }
 
   .p {
     margin: 0;
     color: #000;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 29px;
   }
 
   .spanP {
     color: #0072bc;
     font-weight: 800;
-    font-size: 24px;
+    font-size: 23px;
   }
 
   .imgBox {
@@ -414,10 +415,10 @@
     display: none;
   }
 
-  .spanP::before {
+  /* .spanP::before {
     content: "\a";
     white-space: pre;
-  }
+  } */
 
   .iconOrange {
     font-size: 42px;

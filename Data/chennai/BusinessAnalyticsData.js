@@ -1,49 +1,69 @@
-export const DataScienceCourseData = [
+export const BusinessAnalyticsCourseData = [
   {
     FirstSection: {
-      popupHead: "Download Brochure",
-      deskTopPara: "Choose Specialization over Generalization",
-      mTopPara: "Choose Specialization over Generalization",
-      mTitle: "Data Science Course In Chennai",
-      spanMTitleText: "Domain Specialization For Professionals",
-      title: "Data Science Course In Chennai",
-      spanTitleText: "Domain Specialization For Professionals",
-      desc: "With new capstone projects, learn how to apply your previous domain expertise to make a successful transition.",
-      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course2.png",
-      width: "900",
-      height: "762",
+      deskTopPara: "Develop Work-Ready Skills ",
+      deskTopPara1: "You Can Use Right Away",
+      mTopPara: "Develop Work-Ready Skills ",
+      mTopPara1: "You Can Use Right Away",
+      mTitle: "Business Analytics Course in Chennai",
+      spanMTitleText: "For Professionals",
+      title: "Business Analytics Course in Chennai",
+      spanTitleText: "For Professionals",
+      desc: "Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career.",
+      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/Businesss+Analytics.png",
+      width: "674",
+      height: "623",
       alt: "AiMl Header",
+      srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
     },
     ProgramInfo: {
-      p1: "Global Recognition",
-      p11: "From IBM",
-      p2: "Industry Standard",
-      p22: "Training",
-      p3: "Career Assistance",
-      p33: "For Professionals",
+      p1: "Aimed for",
+      p11: "Early professionals",
+      p2: "12 LPA - 20 LPA",
+      p22: "Salary Package",
+      p3: "1:1",
+      p33: "Career Support",
       p4: "Financing as low as",
-      p44: "₹ 9,341/month",
+      p44: "₹ 14,750/month",
     },
     BoxShape: {
-      title: "Data Science Certification Programs in Chennai",
-      Box1h5: "1-on-1 Dedication",
-      box1desc: "Live interactive session with expert for every individual",
-      Box2h5: "Assured Interview Call",
-      box2desc: "Get job referrals powered by 250+ hiring partners",
+      title: "Business Analytics Certification Programs in Chennai",
+      Box1h5: "Custom-fit Training",
+      box1desc:
+        "Get specially designed modules as per your dream Business Analytics role. Learn innovative BI applications.",
+      Box2h5: "Exclusive Hackathons",
+      box2desc:
+        "Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by Learnbay experts.",
       Box3h5: "Premium Mentoring",
-      box3desc: "Get professionally trained from MAANG and MNC experts",
-      Box4h5: "Crafted for professional",
-      box4desc: "Prioritize growth and salary hike with in-demand skillset",
+      box3desc:
+        "Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts.",
+      Box4h5: "Hands-on Experience",
+      box4desc:
+        "Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies.",
       headh5:
         "Watch our alumni’s making successful Data Science career transition",
     },
+
+    Certificate: {
+      title: "Business Analytics Course Completion Certificate from IBM",
+      desc: "Complete your training with the internationally recognized certificate.",
+      desc2:
+        "Validate your Business Analytics skills with IBM Course Completion Certificate.",
+      desc3:
+        "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
+      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BA-DA.jpeg",
+      srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
+    },
+
     syllabusDesc:
-      "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Data Science Course In Chennai sessions are covered practically with real-time industrial projects and case studies.",
-    popupHead: "Download Brochure",
-    hours: "250+ Hours",
-    project: "12+ Real Time",
-    CSyllabus: "Data Science Course Syllabus",
-    CourseHighlights: "Data Science Course Highlights",
+      "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Business Analytics Course in Chennai sessions are covered practically with real-time industrial projects and case studies.",
+    popupHead: "Download Data science Course Brochure",
+    srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
+    hours: "200+ Hours",
+    project: "8+ Real Time",
+
+    CSyllabus: "Business Analytics Course Syllabus",
+    CourseHighlights: "Business Analytics Course Highlights",
 
     syllabus: [
       {
@@ -52,10 +72,10 @@ export const DataScienceCourseData = [
           content: [
             {
               chap: {
-                title: "Cohort Orientation ",
+                title: "Topic 1 :- Cohort Orientation ",
                 desc: [
                   "A brief introduction to tools related to data ",
-                  "Learn about particular real-time projects and Capstone projects",
+                  "Learn about particular real-time projects and Capstone projects ",
                   "Data and its impact on career opportunities",
                   "Utilizing data, to enhance industrial operations and management",
                 ],
@@ -64,7 +84,7 @@ export const DataScienceCourseData = [
 
             {
               chap: {
-                title: "Chapter 2: Fundamentals of Programming",
+                title: "Topic 2 :- Fundamentals of Programming",
                 desc: [
                   "Introduction to Anaconda & Jupyter notebook",
                   "Flavors of python Introduction to Git, GitHub",
@@ -74,7 +94,7 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                title: "Chapter 3: Fundamentals of Statistics",
+                title: "Topic 3 :- Fundamentals of Statistics",
                 desc: [
                   "Mean, Median, Mode",
                   "Standard Deviation, Average. Probability, Permutations, and Combinations",
@@ -93,21 +113,18 @@ export const DataScienceCourseData = [
           content: [
             {
               chap: {
-                title: "Module 1 Python Programming",
+                title: "Module 1 :- Python Programming",
                 desc: [
                   "Programming Basics & Environment Setup",
                   "Python Programming Overview",
                   "Strings, Decisions & Loop Control",
                   "Python Data Types",
-                  "Functions And Modules",
-                  "Class hands-on: 8+ Programs to be covered in the functions, Lambda, modules, Generators, and Packages class",
-                  "File I/O And Exceptional Handling and Regular Expression",
-                  "Class hands-on: 10+ Programs to be covered in class from File IO, Reg-ex and exception handling",
+                  "Functions And Modules Class hands-on: 8+ Programs to be covered in the functions, Lambda, modules, Generators, and Packages class.",
+                  "File I/O And Exceptional Handling and Regular Expression Class hands-on: 10+ Programs to be covered in class from File IO, Reg-ex and exception handling.",
                   "Data Analysis Using Numpy",
                   "Data Analysis Using Pandas",
                   "Data Visualization using Matplotlib",
-                  "Data Visualization using Seaborn",
-                  "Case Study on Numpy, Pandas, Matplotlib 1 Case Study on Pandas And Seaborn",
+                  "Data Visualization using Seaborn 3 Case Study on Numpy, Pandas, Matplotlib 1 Case Study on Pandas And Seaborn",
                 ],
               },
             },
@@ -118,46 +135,21 @@ export const DataScienceCourseData = [
       },
       {
         Module0: {
-          title: "Term 2 :- Statistics and Machine Learning",
+          title: "Term 2 :- Statistics",
           content: [
             {
               chap: {
-                title: "Module 1 Statistics",
+                title: "Module 1 :- Statistics",
                 desc: [
                   "Fundamentals of Math and Probability",
                   "All about Population & Sample",
                   "Introduction to Statistics, Statistical Thinking",
                   "Descriptive Statistics",
-                  " Inferential Statistics",
+                  "Inferential Statistics",
                   "Hypothesis Testing",
                   "Linear Algebra",
                   "Data Processing & Exploratory Data Analysis",
-                  "EDA",
-                  "Statistics Assignments: Total 4 practice sets and Assignments from Statistics",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 2 Machine Learning",
-                desc: [
-                  "Introduction to Machine Learning",
-                  "Regression and Classification Models",
-                  "Linear Regression Model",
-                  "Data Preprocessing",
-                  "Encoding the Data",
-                  "Logistic Regression Model",
-                  "Evaluation Metrics for Classification model",
-                  "K Nearest Neighbours Model",
-                  "Decision Tree Model",
-                  "Random Forest Model",
-                  "Hyperparameter Tuning",
-                  "Naive Baye’s Model",
-                  "Case Study on Kart Model Business & Random Forest",
-                  "K Means and Hierarchical Clustering",
-                  "Hierarchical Clustering",
-                  "Principal Component Analysis (PCA):",
-                  "Support Vector Machine(SVM)",
+                  "EDA Statistics Assignments: Total 4 practice sets and Assignments from Statistics",
                 ],
               },
             },
@@ -168,11 +160,11 @@ export const DataScienceCourseData = [
       },
       {
         Module0: {
-          title: "Term 3 :- Data Science Course Tools",
+          title: "Term 3 :- Data Science Tools",
           content: [
             {
               chap: {
-                title: "Module 1 SQL",
+                title: "Module 1 :- SQL",
                 desc: [
                   "SQL and RDBMS",
                   "Advance SQL",
@@ -184,26 +176,7 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                title: "Module 2 MongoDB",
-                desc: ["Introduction to MongoDB", "MongoDB (Advance)"],
-              },
-            },
-
-            {
-              chap: {
-                title: "Module 3 Tableau ",
-                desc: [
-                  "Introduction to Tableau",
-                  "Visual Analytics",
-                  "Dashboard and Stories",
-                  "Hands-on: Connecting data source and data cleansing",
-                  "Working with various charts, Deployment of Predictive model in visualization",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 4 PowerBI",
+                title: "Module 2 :- PowerBI",
                 desc: [
                   "Getting Started With Power BI",
                   "Programming with Power BI",
@@ -212,22 +185,20 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                title: "Module 5 Big Data & Spark Analytics",
+                title: "Module 3 :- Big Data & Spark Analytics",
                 desc: [
                   "Introduction To Hadoop & Big Data",
                   "What is Spark",
-                  "Getting to know PySpark",
-                  "Hands-on: Map reduce Use Case : Youtube data analysis & Spark RDD programming",
+                  "Getting to know PySpark Hands-on: Map reduce Use Case : Youtube data analysis & Spark RDD programming",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 6 Time Series",
+                title: "Module 4 :- Time Series",
                 desc: [
                   "Introduction to Time Series Forecasting",
-                  "Introduction to ARIMA Models",
-                  "Case Study on Time series classification of smartphone data to predict user behavior, Performing Time Series Analysis on Stock Prices & Time series forecasting of sales data",
+                  " Introduction to ARIMA Models Case Study on Time series classification of smartphone data to predict user behavior, Performing Time Series Analysis on Stock Prices & Time series forecasting of sales data",
                 ],
               },
             },
@@ -238,40 +209,34 @@ export const DataScienceCourseData = [
       },
       {
         Module0: {
-          title: "Term 4 :- Artificial Intelligence Tools",
+          title: "Term 4 :- Essentials Tools",
           content: [
             {
               chap: {
-                title: "Module 1 Deep Learning Using Tensorflow",
+                title: "Module 1 :- Business Analytics",
                 desc: [
-                  "Introduction to Deep Learning And TensorFlow",
-                  "TensorFlow Classification Examples",
-                  "Understanding Neural Networks With TensorFlow",
-                  "Convolutional Neural Network (CNN)",
-                  "Project on Building a CNN for Image Classification",
+                  "Introduction to Business Analysis",
+                  "Stakeholders in Business Analysis",
+                  "Formulating Requirements",
+                  "Flowchart and Modelling",
+                  "Analysing and Transforming Requirements",
+                  "Finalising Requirements",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 2 Natural Language Processing (NLP)",
+                title: "Module 2 :- Excel",
                 desc: [
-                  "Natural Language Processing",
-                  "Text Analysis",
-                  "KNN",
-                  "Use cases on NLP: Sentiment analysis for marketing",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 3 Model Training & Deployment Using (AWS GCP)",
-                desc: [
-                  "AWS (Amazon Web Services)?",
-                  "GCP (Google Cloud Platform)",
-                  "Introduction to AWS and GCP Cloud ML Engine,",
-                  "Deploying Machine Learning Model",
-                  "Training Machine Learning Model",
+                  "Getting started with Excel",
+                  "Using Excel Toolbars: Hiding, Displaying, and Moving Toolbars",
+                  "Switching Between Sheets in a Workbook",
+                  "Entering Date Values and using AutoComplete",
+                  "Inserting and Deleting Cells, Rows, and Columns",
+                  "Working with the Forms Menu",
+                  "Creating & Working with Charts",
+                  "Changing a Chart Type and Working with Pie Charts",
+                  "Data Analysis & Pivot Tables",
                 ],
               },
             },
@@ -282,12 +247,8 @@ export const DataScienceCourseData = [
       },
     ],
 
-    Review: {
-      title: "Why get enrolled in our Advanced Data Science and AI course?",
-      desc: " Learnbay’s Advanced Data Science and AI course with real-work experience is designed for creative minds and made for everyone. Take our data science training and experience the new era of education.",
-    },
     OurExpert: {
-      H5: "Data Science Tools Covered",
+      H5: "Business Analytics Tools Covered",
       img1: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png",
       img2: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png",
       img3: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png",
@@ -324,20 +285,20 @@ export const DataScienceCourseData = [
         "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
     ProgramFee: {
-      Fee: "₹95,000 + GST",
-      Emi: "₹ 9,341/month",
-      CourseFeeAndFinancing: "Data Science Course Fee & Financing In Chennai",
-      para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Science Certification Course In Chennai and offer avariety of financing options to make it more economical.",
+      Emi: "₹ 14,750/month",
+      Fee: "₹ 75,000 +GST",
+      CourseFeeAndFinancing: "Business Analytics Course Fee & Financing in Chennai",
+      para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Business Analytics Certification Course in Chennai and offer a variety of financing options to make it more economical.",
     },
     Project: {
       popupHead: "Download Project Brochure",
-      project: "12+ Projects",
+      project: "8+ Projects",
       domain: "7+",
       projectTitle: "Hands-on Projects in Chennai",
     },
     CourseFees: {
-      CourseFeeHead: "Data Science Course In Chennai : Batch Details",
-      CourseFeePara: "Data Science Online Classroom",
+      CourseFeeHead: "Business Analytics Course in Chennai : Batch Details",
+      CourseFeePara: "Business Analytics Course Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",
       CourseFeelist3: "Extra Doubt Clearance Sessions",
@@ -345,7 +306,7 @@ export const DataScienceCourseData = [
       CourseFeelist5: "Company-based Mock Interviews",
     },
 
-       Batch: [
+        Batch: [
       {
         Module0: {
           title: "Weekday Evening Batch :- (Mon-Fri)",
@@ -377,10 +338,9 @@ export const DataScienceCourseData = [
         },
       },
     ],
-
     BatchCourses: {
-      CourseFeeHead: "Data Science Course In Chennai : Batch Details",
-      CourseFeePara: "Data Science Online Classroom",
+      CourseFeeHead: "Business Analytics Course in Chennai : Batch Details",
+      CourseFeePara: "Business Analytics Course Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",
       CourseFeelist3: "Extra Doubt Clearance Sessions",

@@ -8,7 +8,7 @@ import Image from "next/image";
 import React from "react";
 import { FaTwitter, FaFacebookF, FaLinkedinIn, FaYoutube, FaInstagram, FaApple, FaAndroid } from "react-icons/fa";
 
-const CityFooter = ({cityName}) => {
+const CityFooter = ({ cityName }) => {
 
     const [showMe, setShowMe] = useState(false);
     function toggle() {
@@ -43,9 +43,12 @@ const CityFooter = ({cityName}) => {
                 </div>
                 <div className={styles.FooterDivInner}>
                     <p className={styles.FooterInnerP}>Courses</p>
+                    <p className={styles.FooterInnerli}>Data Analytics</p>
+                    <p className={styles.FooterInnerli}>Business Analytics</p>
                     <p className={styles.FooterInnerli}>Advance Data Science & AI Certification</p>
                     <p className={styles.FooterInnerli}>Advance AI & ML Certification</p>
                     <p className={styles.FooterInnerli}>Data Science & AI Cert. For Managers & Leaders</p>
+                    <p className={styles.FooterInnerli}>Data Science & AI Master Program</p>
                     <p className={styles.FooterInnerli}>100% Placement Assistance – Data Science & AI</p>
                 </div>
                 <div className={styles.FooterDivInner}>
@@ -71,14 +74,10 @@ const CityFooter = ({cityName}) => {
                 display: showMe ? "block" : "none"
             }}>
 
-
-
                 <div className={styles.FooterDiv} style={{
                     borderTop: "1px solid", borderBottom: "1px solid",
                     borderColor: "#ffffff50"
                 }}>
-
-
 
                     <div className={styles.FooterDivInner}>
                         <p className={styles.FooterInnerP}>Data Science Course</p>
@@ -107,10 +106,6 @@ const CityFooter = ({cityName}) => {
 
                     </div>
 
-
-
-
-
                 </div>
                 <div className={styles.FooterDiv}>
 
@@ -124,11 +119,11 @@ const CityFooter = ({cityName}) => {
 
 
                     <div className={styles.FooterDivInner}>
-                        <p className={styles.FooterInnerP}>100% Job Assistance Course</p>
+                        <p className={styles.FooterInnerP}>Business Analytics Course</p>
 
-                        <p className={styles.FooterInnerli}>100% Job Assistance Certification Course in {cityName}</p>
-                        <p className={styles.FooterInnerli}>100% Job Assistance Course Program in {cityName}</p>
-                        <p className={styles.FooterInnerli}>100% Job Assistance Institute in {cityName}</p>
+                        <p className={styles.FooterInnerli}>Business Analytics Certification Course in {cityName}</p>
+                        <p className={styles.FooterInnerli}>Business Analytics Course Program in {cityName}</p>
+                        <p className={styles.FooterInnerli}>Business Analytics Institute in {cityName}</p>
 
                     </div>
 

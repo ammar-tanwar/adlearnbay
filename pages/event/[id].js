@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Head from "next/head";
 import { EventHeader } from "../../Components/Event/EventHeader/EventHeader";
 import styles from "../../styles/DataScienceEvent.module.css";
-import Form from "../../Components/Event/Form/Form";
 import { FiUserCheck } from "react-icons/fi";
 import EventFeature from "../../Components/Event/EventFeatures/EventFeature";
 import { getAllPostIds, getPostData } from "../../lib/event";
