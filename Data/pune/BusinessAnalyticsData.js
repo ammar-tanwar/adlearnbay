@@ -306,45 +306,38 @@ export const BusinessAnalyticsCourseData = [
       CourseFeelist5: "Company-based Mock Interviews",
     },
 
-    Batch: [
-        {
-        Module0: {
-          title: "Weekday Morning  Batch  :- (Mon-Fri)",
-          content: [
-            {
-              chap: {
-                title: "Weekday Batch 1 :- Date And time ",
-                desc: ["Date : 13th January 2023", "Time : 8 AM to 10 AM"],
-              },
-            },
-          ],
-          id: 1,
-          open: false,
-        },
-      },
-
+        Batch: [
       {
         Module0: {
-          title: "Weekend Afternoon Batch :- (Sat-Sun)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 15th January 2023",
-                  "Time : 12.30 PM to 4 PM",
-
-                ],
+                desc: ["Date : 27th January 2023", "Time : 8 PM to 10 PM"],
               },
             },
-
+          ],
+          id: 0,
+          open: true,
+        },
+      },
+      {
+        Module0: {
+          title: "Weekend Morning Batch :- (Sat-Sun)",
+          content: [
+            {
+              chap: {
+                title: "Batch 1 :- Date And time ",
+                desc: ["Date : 29th January 2023", "Time : 08:30 AM to 12 PM"],
+              },
+            },
           ],
           id: 0,
           open: true,
         },
       },
     ],
-
     BatchCourses: {
       CourseFeeHead: "Business Analytics Course in Pune : Batch Details",
       CourseFeePara: "Business Analytics Course Online Classroom",
