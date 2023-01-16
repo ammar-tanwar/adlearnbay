@@ -32,7 +32,7 @@ const BoxShape = ({
                 className={styles.icon}
                 width="40"
                 height="40"
-                loading="lazy"
+                loading="lazy" 
               />
             </div>
 
