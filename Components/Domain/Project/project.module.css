@@ -108,14 +108,7 @@
   margin-left: 20px !important;
   padding: 20px;
   width: fit-content;
-  height: fit-content !important;
-}
-
-.headPara {
-  margin-top: -170px;
-  z-index: 9999;
-  position: absolute;
-  margin-left: 0px 80px;
+  height: 400px !important;
 }
 
 .body > span {
@@ -131,14 +124,26 @@
   margin: 0px 20px 20px 20px;
 }
 
+.headernew {
+  width: 100%;
+  background: #29648D;
+  padding: 10px 0px 0px 0px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 13px 0px rgb(0 114 188 / 15%);
+}
+
 .headernew p {
   background-color: #fff;
   margin: 15px 0px 15px 30px;
   padding: 10px 20px;
   width: fit-content;
   border-radius: 10px;
-  top: 70px;
-  position: absolute;
+  /* top: 70px; */
+  /* position: absolute; */
+  font-size: 14px;
+  margin-bottom: -15px;
+  box-shadow: 0px 0px 13px 0px rgb(0 114 188 / 15%);
 }
 
 .headernew h5 {
@@ -184,20 +189,17 @@
     width: 92% !important;
     margin-left: 10px !important;
   }
-  .headPara {
-    margin-top: -130px;
-    z-index: 9999;
-    position: absolute;
-    margin-left: 0px 80px;
+
+  .headernew {
+    margin-bottom: 30px;
   }
+  
   .headernew p {
-    margin: 0px 0px 0px 20px;
+    margin: 5px 0px -10px 20px;
     padding: 10px 20px;
     width: fit-content;
     border-radius: 10px;
-    top: 60px;
     font-size: 14px;
-    position: absolute;
   }
   
   .headernew h5 {

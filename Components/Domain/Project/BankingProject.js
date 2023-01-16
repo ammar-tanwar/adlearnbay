@@ -132,14 +132,14 @@ const Project = ({
           <SwiperSlide className={styles.projectnew}>
             <div className={styles.headernew}>
               <div className={styles.leftnew}>
-                <Image
+                {/* <Image
                   src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/Union.png"
                   layout="intrinsic"
                   width="420px"
                   height="200px"
                   loading="lazy"
                   alt="data science course in bangalore"
-                />
+                /> */}
                 <div className={styles.headPara}>
                   <h5>{props.projectName1}</h5>
                   <p>{props.domainName1}</p>
@@ -179,14 +179,14 @@ const Project = ({
           <SwiperSlide className={styles.projectnew}>
             <div className={styles.headernew}>
               <div className={styles.leftnew}>
-              <Image
+              {/* <Image
                   src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/Union.png"
                   layout="intrinsic"
                   width="420px"
                   height="200px"
                   loading="lazy"
                   alt="data science course in bangalore"
-                />
+                /> */}
                 <div className={styles.headPara}>
                 <h5>{props.projectName2}</h5>
                 <p>{props.domainName2}</p>
@@ -226,14 +226,14 @@ const Project = ({
           <SwiperSlide className={styles.projectnew}>
             <div className={styles.headernew}>
               <div className={styles.leftnew}>
-              <Image
+              {/* <Image
                   src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/Union.png"
                   layout="intrinsic"
                   width="420px"
                   height="200px"
                   loading="lazy"
                   alt="data science course in bangalore"
-                />
+                /> */}
                 <div className={styles.headPara}>
                 <h5>{props.projectName3}</h5>
                 <p>{props.domainName3}</p>
@@ -273,14 +273,14 @@ const Project = ({
           <SwiperSlide className={styles.projectnew}>
             <div className={styles.headernew}>
               <div className={styles.leftnew}>
-              <Image
+              {/* <Image
                   src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/Union.png"
                   layout="intrinsic"
                   width="420px"
                   height="200px"
                   loading="lazy"
                   alt="data science course in bangalore"
-                />
+                /> */}
                 <div className={styles.headPara}>
                 <h5>{props.projectName4}</h5>
                 <p>{props.domainName4}</p>
@@ -320,14 +320,14 @@ const Project = ({
           <SwiperSlide className={styles.projectnew}>
             <div className={styles.headernew}>
               <div className={styles.leftnew}>
-              <Image
+              {/* <Image
                   src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/Union.png"
                   layout="intrinsic"
                   width="420px"
                   height="200px"
                   loading="lazy"
                   alt="data science course in bangalore"
-                />
+                /> */}
                 <div className={styles.headPara}>
                 <h5>{props.projectName5}</h5>
                 <p>{props.domainName5}</p>
@@ -367,14 +367,14 @@ const Project = ({
           <SwiperSlide className={styles.projectnew}>
             <div className={styles.headernew}>
               <div className={styles.leftnew}>
-              <Image
+              {/* <Image
                   src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/Union.png"
                   layout="intrinsic"
                   width="420px"
                   height="200px"
                   loading="lazy"
                   alt="data science course in bangalore"
-                />
+                /> */}
                 <div className={styles.headPara}>
                 <h5>{props.projectName6}</h5>
                 <p>{props.domainName6}</p>

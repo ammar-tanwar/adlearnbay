@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/ThankYou.module.css";
 import Head from "next/head";
-import { BsArrowLeftShort } from "react-icons/bs";
+import Image from "next/image";
 import NavbarThankYou from "../Components/CoursePage/Navbar/NavbarThankYou";
 import FooterThankYou from "../Components/Footerfsdsw/FooterThankYou";
 import CourseThankYou from "../Components/Home/Course/CourseThankYou";
@@ -72,16 +72,19 @@ const ThankYou = ({ initialName }) => {
       <NavbarThankYou />
 
       <section className={styles.mains}>
-        <div className={styles.left} >
-
-          <h4 className={styles.hptop1}>
-            <b>Thank you!</b>
+      <div className={styles.Back}>
+          <h4 className={styles.thankh4}>
+            Thank you!
             <br />
-          </h4>
-          <p className={styles.Ptop1}>
-            We Received your request and look forward to getting in touch soon.
-          </p>
+          <span className={styles.thankspan}>
+            We Received your request and look forward to getting in touch soon.</span></h4>
           <div>
+            <Image
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/thank-header.png"
+              width="522"
+              height="380"
+              layout="intrinsic"
+            />
           </div>
         </div>
         <CourseThankYou />
@@ -99,17 +102,3 @@ ThankYou.getInitialProps = async (ctx) => {
     initialName: cookies(ctx).CARD || "",
   };
 };
-
-
-
-
-
-
-// <div className={styles.mainb}>
-//               <div>
-//                 <button className={styles.Button}>
-//                   <BsArrowLeftShort className="bIcons" />
-//                   <a href="/">Go To Home</a>
-//                 </button>
-//               </div>
-//             </div>
