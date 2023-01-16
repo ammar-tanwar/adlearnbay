@@ -370,13 +370,17 @@ export const HRData = [
       {
         Module0: {
           title:
-            "Module 1 :- Introduction to banking finance & insurance domain",
+            "Module 1 :- Introduction to HR Domain",
           content: [
             {
               chap: {
                 title: "",
                 desc: [
-                  "In the introductory session, you will learn the basics of the banking sector. We’ll look at several financial organizations and the different kinds of services they offer. The module will be concluded with a brief overview of the different career options one can pursue in banking.",
+                  "In this introductory session, you will gain knowledge on digitised human resources and the people management sector. You will get introduced to the basic knowledge of HR processes, analytical practices for people management followed in world-class companies. The foremost goal of this module is to make the candidates aware of the available and upcoming scopes of data science career switch within the HR domain.",
+                  "Theories of organisational development based on analytics",
+                  "Strategies of HR leadership in a data-driven way",
+                  "The digitised people management process",
+                  "Importance of data analytics in people management",
                 ],
               },
             },
@@ -387,17 +391,20 @@ export const HRData = [
       },
       {
         Module0: {
-          title: "Module 2 :- Financial institutions and their services",
+          title: "Module 2 :- Introduction to HR analytics",
           content: [
             {
               chap: {
                 title: "",
                 desc: [
                   "Learn about:",
-                  "The types of financial institutions",
-                  "Organization of financial institutions",
-                  "Universal banks, large banks, investment banks, community banks, online banks, credit unions, cooperative banks",
-                  "Banking services, retail banking, private banking, business banking, commercial banking, corporate banking, investment banking",
+                  "Turnover",
+                  "Recruitment",
+                  "Relevant and high-quality data collection and filtration process",
+                  "Employee engagement and employee satisfaction",
+                  "Understanding of the core process of HR analytics",
+                  "Basic use of cloud-based systems.",
+                  "Use of social media analytics to handle employee dissatisfaction effectively."
                 ],
               },
             },
@@ -409,15 +416,17 @@ export const HRData = [
       {
         Module0: {
           title:
-            "Module 3 :- How returns are generated in financial institutions",
+            "Module 3 :- Implementation of automation in people management",
           content: [
             {
               chap: {
                 title: "",
                 desc: [
-                  "Learn about:",
-                  "Bank balance sheet, income statement, net interest income, and components of total revenue",
-                  "Measuring returns in a bank, the impact of leverage, the importance of operating efficiency, asset liability matching, and securitization",
+                  "This module allows you to automate all the time-consuming HR processes related to employee onboarding, lever request approval, leave calculations, performance management, exit interviews, etc.",
+                  "You will learn the strategies of using deep learning and NLP technologies to automate the above processes. At the end of the modules, you will be able to deliver human interference-free but highly precise",
+                  "Actionable insights",
+                  "Risk mitigations",
+                  "Omni-channel assessment."
                 ],
               },
             },
@@ -429,55 +438,20 @@ export const HRData = [
       {
         Module0: {
           title:
-            "Module 4 :- Managing customer data, customer segmentation & real-time and predictive analytics",
+            "Module 4 :- Understanding of core analytical approaches of Attrition and Increasing Retention, increased retention, salary decisions and promotional information.",
           content: [
             {
               chap: {
                 title: "",
                 desc: [
-                  "Learn how machine learning & analytics can be useful to counter a shrinking customer base, by trying several retention techniques. You will be able to predict which active customers are likely to reduce their business with banks, and those who may reduce the churn percentage.",
+                  "You will be able to develop several AIpowered gamification apps for your company that will help in the live measurement of employee engagement, efforts, and productivities but in an employee-friendly manner.",
+                  "This module also includes tool-based training on dashboard designing, graphical analysis, using tools like Seaborn, Matplotlib, OpenCV, etc. You will be able to implement better employee support by deploying several machine learning models that help in emotion-based analytics of employee engagement, job satisfaction, etc.",
+                  "Besides, you will learn about the basics of Big Data Technology and its use in the HR domain via tools like Hadoop and MongoDB."
                 ],
               },
             },
           ],
           id: 3,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "Module 5 :- Process automation and security",
-          content: [
-            {
-              chap: {
-                title: "",
-                desc: [
-                  "Identify high net worth or potential prospects & customers",
-                  "Improve the ability to target products & services",
-                  "Maximize the specific elements of the offer (product, pricing, channel) and allow senior management to make informed operational decisions",
-                ],
-              },
-            },
-          ],
-          id: 4,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title:
-            "Module 6 - Fraud detection, underwriting, credit scoring, and risk modeling for investment banks",
-          content: [
-            {
-              chap: {
-                title: "",
-                desc: [
-                  "The analytics in this module will help you understand how banks identify the right customers for lending, monitor collections, predict & reduce delinquencies and reduce NPA to increase profitability",
-                ],
-              },
-            },
-          ],
-          id: 4,
           open: false,
         },
       },
@@ -537,35 +511,34 @@ export const HRData = [
       projectTitle: "Hands-on Projects",
       projectTitle1: "HR Projects",
 
-      domainName1: "Banking Domain",
-      projectName1: "Loan Default Prediction",
+      domainName1: "HR Domain",
+      projectName1: "IBM HR Analytics",
       domainParagraph1:
-        "The bank wants to improve their services by finding interesting groups of clients. Fortunately, the bank stores...",
+        "Applying analytic processes to the human resource department of an organization in the hope of improving employee...",
 
-      domainName2: "Banking Domain",
-      projectName2: "Identify Fraudulent credit card transactions",
+      domainName2: "HR Domain",
+      projectName2: "Model development of talent analysis",
       domainParagraph2:
-        "To recognize fraudulent credit card transactions so that customers are not charged for items that they did not...",
+        "This project involves segmentation, statistical analysis, and the formation of models. For statistical analysis, a large...",
 
-      domainName3: "Insurance Domain",
-      projectName3: "Claims Prediction",
+      domainName3: "HR Domain",
+      projectName3: "Resume Parsing",
       domainParagraph3:
-        "The insurance industry is particularly interested in future forecasting. Accurate forecasting allows the...",
-
-      domainName4: "Insurance Domain",
-      projectName4: "Forecasting Insurance Pricing",
+        "Recruiters and HR departments in businesses have to sift through thousands of qualified applicants. Either they require a...",
+        domainName4: "HR Domain",
+      projectName4: "IBM HR Analytics",
       domainParagraph4:
-        "Insurance firms should collect a higher premium than the amount paid to the insured person in order to generate a...",
+        "Applying analytic processes to the human resource department of an organization in the hope of improving employee...",
 
-      domainName5: "Finance Domain",
-      projectName5: "Analysing Risk in Finance Industry",
+      domainName5: "HR Domain",
+      projectName5: "Model development of talent analysis",
       domainParagraph5:
-        "One of the most important fields of data science and business intelligence in finance is risk analytics. Risk analytics...",
+        "This project involves segmentation, statistical analysis, and the formation of models. For statistical analysis, a large...",
 
-      domainName6: "Finance Domain",
-      projectName6: "Algorithmic Trading",
+      domainName6: "HR Domain",
+      projectName6: "Resume Parsing",
       domainParagraph6:
-        "The most significant aspect of financial institutions is algorithmic trading...",
+        "Recruiters and HR departments in businesses have to sift through thousands of qualified applicants. Either they require a...",
     },
     CourseFees: {
       CourseFeeHead: "Data Science Course : Batch Details",
@@ -682,13 +655,21 @@ export const MarketingData = [
       {
         Module0: {
           title:
-            "Module 1 :- Introduction to banking finance & insurance domain",
+            "Module 1 :- Introduction to Marketing and Sales Domain",
           content: [
             {
               chap: {
                 title: "",
                 desc: [
-                  "In the introductory session, you will learn the basics of the banking sector. We’ll look at several financial organizations and the different kinds of services they offer. The module will be concluded with a brief overview of the different career options one can pursue in banking.",
+                  "In this introductory session, you will gain knowledge on the primary digitized sales and marketing sector. We'll be looking at the marketing and sales processes of several top-notch organizations.",
+                  "The fundamental goal of this module is to make the student understand the scopes of data analytics in marketing and sales practices and make them aware of fundamental theories and terms used in both domains.",
+                  "Finally, we will conclude with a brief overview of several career options in sales and marketing. This module will cover the following.",
+                  "Theories of pricing",
+                  "Process of customer needs identification, etc.",
+                  "Theories of productivity enhancement",
+                  "Salesforce management.",
+                  "Brand management",
+                  "Relationship between Big Data and sales & marketing",
                 ],
               },
             },
@@ -699,17 +680,18 @@ export const MarketingData = [
       },
       {
         Module0: {
-          title: "Module 2 :- Financial institutions and their services",
+          title: "Module 2 :- Basics of Digital Marketing",
           content: [
             {
               chap: {
                 title: "",
                 desc: [
-                  "Learn about:",
-                  "The types of financial institutions",
-                  "Organization of financial institutions",
-                  "Universal banks, large banks, investment banks, community banks, online banks, credit unions, cooperative banks",
-                  "Banking services, retail banking, private banking, business banking, commercial banking, corporate banking, investment banking",
+                  "Search Engine Optimization",
+                  "Social Media Marketing",
+                  "Content Marketing",
+                  "Email Marketing",
+                  "Pay-per-click advertising",
+                  "Mobile Marketing",
                 ],
               },
             },
@@ -721,15 +703,20 @@ export const MarketingData = [
       {
         Module0: {
           title:
-            "Module 3 :- How returns are generated in financial institutions",
+            "Module 3 :- Introduction to Marketing analytics",
           content: [
             {
               chap: {
                 title: "",
                 desc: [
-                  "Learn about:",
-                  "Bank balance sheet, income statement, net interest income, and components of total revenue",
-                  "Measuring returns in a bank, the impact of leverage, the importance of operating efficiency, asset liability matching, and securitization",
+                  "Market mix model",
+                  "Matrix analysis- Reach, Frequency and engagements, conversion rate, ROI",
+                  "Performance analysis of marketing campaigns",
+                  "Advanced web analytics",
+                  "Google Analytics",
+                  "Application of data visualization",
+                  "Video report generation",
+                  "Social media analytics",
                 ],
               },
             },
@@ -741,55 +728,22 @@ export const MarketingData = [
       {
         Module0: {
           title:
-            "Module 4 :- Managing customer data, customer segmentation & real-time and predictive analytics",
+            "Module 4 :- Advanced Knowledge on Web Analytic including Clickstream data and tagging",
           content: [
             {
               chap: {
                 title: "",
                 desc: [
-                  "Learn how machine learning & analytics can be useful to counter a shrinking customer base, by trying several retention techniques. You will be able to predict which active customers are likely to reduce their business with banks, and those who may reduce the churn percentage.",
+                  "This module will help you to learn more about data collection and data handling. With the core concepts as well as practical studies of data mining and database management. At the end of this module, you will be able to apply your data-driven knowledge on",
+                  "Analytical customer segmentation based on touchpoint engagement, purchase pattern (time series analysis and forecasting)",
+                  "Identification of upcoming customer churns and respective precautions",
+                  "Real-time predictive analytics on customer behavior, bringing the right product at the right time and target marketing.",
+                  "And every solution will be through ML studies (machine learning algorithms, models and tools). The crucial concept that will be used in this module is NLP.",
                 ],
               },
             },
           ],
           id: 3,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "Module 5 :- Process automation and security",
-          content: [
-            {
-              chap: {
-                title: "",
-                desc: [
-                  "Identify high net worth or potential prospects & customers",
-                  "Improve the ability to target products & services",
-                  "Maximize the specific elements of the offer (product, pricing, channel) and allow senior management to make informed operational decisions",
-                ],
-              },
-            },
-          ],
-          id: 4,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title:
-            "Module 6 - Fraud detection, underwriting, credit scoring, and risk modeling for investment banks",
-          content: [
-            {
-              chap: {
-                title: "",
-                desc: [
-                  "The analytics in this module will help you understand how banks identify the right customers for lending, monitor collections, predict & reduce delinquencies and reduce NPA to increase profitability",
-                ],
-              },
-            },
-          ],
-          id: 4,
           open: false,
         },
       },
@@ -849,35 +803,35 @@ export const MarketingData = [
       projectTitle: "Hands-on Projects",
       projectTitle1: "Marketing Projects",
 
-      domainName1: "Banking Domain",
-      projectName1: "Loan Default Prediction",
+      domainName1: "Marketing Domain",
+      projectName1: "Analysis of the market basket",
       domainParagraph1:
-        "The bank wants to improve their services by finding interesting groups of clients. Fortunately, the bank stores...",
+        "Market basket analysis describes the methods for unsupervised learning that are used to collect and...",
 
-      domainName2: "Banking Domain",
-      projectName2: "Identify Fraudulent credit card transactions",
+      domainName2: "Marketing Domain",
+      projectName2: "Interactive analytics & real-time interaction",
       domainParagraph2:
-        "To recognize fraudulent credit card transactions so that customers are not charged for items that they did not...",
+        "Real-time analytics allow companies to track and analyze consumer activity in real time, delivering...",
 
-      domainName3: "Insurance Domain",
-      projectName3: "Claims Prediction",
+      domainName3: "Marketing Domain",
+      projectName3: "Keyword Generation for social media ads",
       domainParagraph3:
-        "The insurance industry is particularly interested in future forecasting. Accurate forecasting allows the...",
+        "In this project, we will generate new but insightful keywords for target marketing campaigns in social media....",
 
-      domainName4: "Insurance Domain",
-      projectName4: "Forecasting Insurance Pricing",
+      domainName4: "Marketing Domain",
+      projectName4: "Content strategy",
       domainParagraph4:
-        "Insurance firms should collect a higher premium than the amount paid to the insured person in order to generate a...",
+        "Even minor things like word choice and color may be tested serially. By predicting when these creative...",
 
-      domainName5: "Finance Domain",
-      projectName5: "Analysing Risk in Finance Industry",
-      domainParagraph5:
-        "One of the most important fields of data science and business intelligence in finance is risk analytics. Risk analytics...",
-
-      domainName6: "Finance Domain",
-      projectName6: "Algorithmic Trading",
-      domainParagraph6:
-        "The most significant aspect of financial institutions is algorithmic trading...",
+        domainName5: "Marketing Domain",
+        projectName5: "Analysis of the market basket",
+        domainParagraph5:
+          "Market basket analysis describes the methods for unsupervised learning that are used to collect and...",
+  
+        domainName6: "Marketing Domain",
+        projectName6: "Interactive analytics & real-time interaction",
+        domainParagraph6:
+          "Real-time analytics allow companies to track and analyze consumer activity in real time, delivering...",
     },
     CourseFees: {
       CourseFeeHead: "Data Science Course : Batch Details",
@@ -994,13 +948,16 @@ export const SalesData = [
       {
         Module0: {
           title:
-            "Module 1 :- Introduction to banking finance & insurance domain",
+            "Module 1 :- Sales Pipeline analysis/sales performance analysis- the betterment of cross-selling, upselling and improvement of CLV",
           content: [
             {
               chap: {
                 title: "",
                 desc: [
-                  "In the introductory session, you will learn the basics of the banking sector. We’ll look at several financial organizations and the different kinds of services they offer. The module will be concluded with a brief overview of the different career options one can pursue in banking.",
+                  "This module will help you to learn the strategies of working with categorical data. In addition, this module will include training on dashboard creation, graphical representation, using tools like Seaborn, Matplotlib, etc.",
+                  "This module includes human emotion analysis and text mining techniques to analyze customer sentiments to create USPs.",
+                  "Moreover, you will be trained on the data analytics related to personalized crossselling recommendations.",
+                  "Besides, you will learn the data-driven identification of customer loyalty analysis to foster future sales. This will also help in lowering the fraudulent activities of customers.",
                 ],
               },
             },
@@ -1011,17 +968,17 @@ export const SalesData = [
       },
       {
         Module0: {
-          title: "Module 2 :- Financial institutions and their services",
+          title: "Module 2 :- Implementation of automation and security in sales",
           content: [
             {
               chap: {
                 title: "",
                 desc: [
-                  "Learn about:",
-                  "The types of financial institutions",
-                  "Organization of financial institutions",
-                  "Universal banks, large banks, investment banks, community banks, online banks, credit unions, cooperative banks",
-                  "Banking services, retail banking, private banking, business banking, commercial banking, corporate banking, investment banking",
+                  "This module allows you to mechanize all your tedious and critical sales tasks with the help of data-driven techniques, AI tools, business intelligence software, and machine learning approaches.",
+                  "The skill you earn from this module will help foster your productivity with",
+                  "improved degrees of accuracy,",
+                  "generate consistent sales data across the organization through cloud deployment of ML,",
+                  "and reduce customer query response time with deep learning assisted automated chatbots.",
                 ],
               },
             },
@@ -1033,75 +990,19 @@ export const SalesData = [
       {
         Module0: {
           title:
-            "Module 3 :- How returns are generated in financial institutions",
+            "Module 3 :- AI-Based optimization of sales channel",
           content: [
             {
               chap: {
                 title: "",
                 desc: [
-                  "Learn about:",
-                  "Bank balance sheet, income statement, net interest income, and components of total revenue",
-                  "Measuring returns in a bank, the impact of leverage, the importance of operating efficiency, asset liability matching, and securitization",
+                  "This module will allow you to implements AI-based sales channel optimization. The key focus of the ML algorithms generate at these modules will be on live analysis and insight generations of the geographical, time variable, and crossplatform customer buying behaviors- So that you can come up with easy and human interference-free cross channel sales profit management.",
+                  "This module will help you to dive deeper into the EDA and complex machine learning algorithms like KNN, XGboost, etc.",
                 ],
               },
             },
           ],
           id: 2,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title:
-            "Module 4 :- Managing customer data, customer segmentation & real-time and predictive analytics",
-          content: [
-            {
-              chap: {
-                title: "",
-                desc: [
-                  "Learn how machine learning & analytics can be useful to counter a shrinking customer base, by trying several retention techniques. You will be able to predict which active customers are likely to reduce their business with banks, and those who may reduce the churn percentage.",
-                ],
-              },
-            },
-          ],
-          id: 3,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "Module 5 :- Process automation and security",
-          content: [
-            {
-              chap: {
-                title: "",
-                desc: [
-                  "Identify high net worth or potential prospects & customers",
-                  "Improve the ability to target products & services",
-                  "Maximize the specific elements of the offer (product, pricing, channel) and allow senior management to make informed operational decisions",
-                ],
-              },
-            },
-          ],
-          id: 4,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title:
-            "Module 6 - Fraud detection, underwriting, credit scoring, and risk modeling for investment banks",
-          content: [
-            {
-              chap: {
-                title: "",
-                desc: [
-                  "The analytics in this module will help you understand how banks identify the right customers for lending, monitor collections, predict & reduce delinquencies and reduce NPA to increase profitability",
-                ],
-              },
-            },
-          ],
-          id: 4,
           open: false,
         },
       },
@@ -1161,35 +1062,35 @@ export const SalesData = [
       projectTitle: "Hands-on Projects",
       projectTitle1: "Sales Projects",
 
-      domainName1: "Banking Domain",
-      projectName1: "Loan Default Prediction",
+      domainName1: "Sales Domain",
+      projectName1: "Controlling Churn",
       domainParagraph1:
-        "The bank wants to improve their services by finding interesting groups of clients. Fortunately, the bank stores...",
+        "It is essential for salespeople to anticipate client purchases, and analyze the pattern of customer...",
 
-      domainName2: "Banking Domain",
-      projectName2: "Identify Fraudulent credit card transactions",
+      domainName2: "Sales Domain",
+      projectName2: "Sales Prediction",
       domainParagraph2:
-        "To recognize fraudulent credit card transactions so that customers are not charged for items that they did not...",
+        "Big-Bazzar will use this machinelearning model to try to understandthe qualities of products and stores...",
 
-      domainName3: "Insurance Domain",
-      projectName3: "Claims Prediction",
-      domainParagraph3:
-        "The insurance industry is particularly interested in future forecasting. Accurate forecasting allows the...",
+        domainName3: "Sales Domain",
+        projectName3: "Controlling Churn",
+        domainParagraph3:
+          "It is essential for salespeople to anticipate client purchases, and analyze the pattern of customer...",
+  
+        domainName4: "Sales Domain",
+        projectName4: "Sales Prediction",
+        domainParagraph4:
+          "Big-Bazzar will use this machinelearning model to try to understandthe qualities of products and stores...",
 
-      domainName4: "Insurance Domain",
-      projectName4: "Forecasting Insurance Pricing",
-      domainParagraph4:
-        "Insurance firms should collect a higher premium than the amount paid to the insured person in order to generate a...",
+          domainName5: "Sales Domain",
+          projectName5: "Controlling Churn",
+          domainParagraph5:
+            "It is essential for salespeople to anticipate client purchases, and analyze the pattern of customer...",
 
-      domainName5: "Finance Domain",
-      projectName5: "Analysing Risk in Finance Industry",
-      domainParagraph5:
-        "One of the most important fields of data science and business intelligence in finance is risk analytics. Risk analytics...",
-
-      domainName6: "Finance Domain",
-      projectName6: "Algorithmic Trading",
-      domainParagraph6:
-        "The most significant aspect of financial institutions is algorithmic trading...",
+          domainName6: "Sales Domain",
+          projectName6: "Sales Prediction",
+          domainParagraph6:
+            "Big-Bazzar will use this machinelearning model to try to understandthe qualities of products and stores...",
     },
     CourseFees: {
       CourseFeeHead: "Data Science Course : Batch Details",

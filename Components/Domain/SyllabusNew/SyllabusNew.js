@@ -3,7 +3,6 @@ import styles from "./SyllabusNew.module.css";
 import { MdOutlineLiveTv, MdOutlineLaptopMac } from "react-icons/md";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 import { FaDownload, FaArrowRight } from "react-icons/fa";
-import Image from "next/image";
 import {
   AiOutlineFundProjectionScreen,
   AiOutlineFieldTime,
@@ -25,7 +24,6 @@ function SyllabusNew({
   redirectBl,
   project,
   hours,
-  srcD,
   CSyllabus,
   CourseHighlights,
   fsdlink,
@@ -55,7 +53,7 @@ function SyllabusNew({
   };
 
   return (
-    <section className={styles.Syllabus}>
+    <section className={styles.Syllabus} id="syllabus">
       <Popup
         trigger={popups}
         setTrigger={setPopups}
@@ -280,10 +278,6 @@ function SyllabusNew({
               )}
             </div>
           </div>
-          {/* <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/blue-shadow.svg"
-            className={styles.shadowImg}
-          /> */}
         </div>
       </div>
     </section>
@@ -291,21 +285,3 @@ function SyllabusNew({
 }
 
 export default SyllabusNew;
-
-// {fsdlink ? (
-//   <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session"><button style={{marginLeft: "40px"}}>
-//   Apply for Counselling
-//   <FaArrowRight style={{ marginLeft: "10px" }} />
-// </button></a>
-
-// ):(
-
-//   <Form
-//   dataScience={dataScience}
-//   redirectDs={redirectDs}
-//   redirectFs={redirectFs}
-//   redirectBa={redirectBa}
-//   redirectBl={redirectBl}
-//   redirectDe={redirectDe}
-// />
-// )}
