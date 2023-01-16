@@ -101,9 +101,9 @@ export default function Home() {
           courseName="Business Analytics Course"
           cityName="In Chennai"
           ptag="Business analytics is the process of examining data sets to identify trends 
-      and develop conclusions about the information contained within them. 
-      This course in Chennai will provide you with hands-on experience 
-      with technologies such as R, Python, Tableau, Hadoop, and so on."
+          and develop conclusions about the information contained within them. 
+          This course in Chennai is developed for working individuals who want 
+          to maximize their present industry expertise and change career."
         />
         <div className={styles.program1}>
           <ProgramInfo

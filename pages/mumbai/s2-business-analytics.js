@@ -100,10 +100,7 @@ export default function Home() {
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/MumbaiTopMob.jpg"
           courseName="Business Analytics Course"
           cityName="In Mumbai"
-          ptag="Business analytics is the process of examining data sets to identify trends 
-      and develop conclusions about the information contained within them. 
-      This course in Mumbai will provide you with hands-on experience 
-      with technologies such as R, Python, Tableau, Hadoop, and so on."
+          ptag="Business analytics is the process of examining data sets to identify trends and develop conclusions about the information contained within them.Unlock your career as a data analyst with this course in Mumbai."
         />
         <div className={styles.program1}>
           <ProgramInfo
