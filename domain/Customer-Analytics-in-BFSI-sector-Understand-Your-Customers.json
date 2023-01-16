@@ -1,0 +1,120 @@
+{
+  "metaInfo": {
+    "title": "Masterclass",
+    "desc": "Enroll in the System Design Event and learn from live classes. Get Knowledge by working on industry projects.",
+    "keyword": "Web Development",
+    "canonical": "https://www.learnbay.co/Event/Introduction-to-Full-Stack-Web-Development"
+  },
+  "mainData": {
+    "title": "Masterclass",
+    "eventDate": "January 25, 2023",
+    "tag": "System Design",
+    "eventTime": "7 p.m. to 10 p.m.",
+    "Duration": "120min",
+    "img": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Intro+to+Full+Stack+Web+Development.png",
+    "register": "951"
+  },
+  "header": {
+    "title": "Masterclass",
+    "titleSpan": "System Design",
+    "desc": "For SDEs with 2+ years working Exp",
+    "eventDate": "January 25, 2023",
+    "eventTime": "7 p.m. to 10 p.m.",
+    "imgSrc": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Wazid-Sir.png",
+    "register": "777",
+    "likes": "687",
+    "width": "600",
+    "height": "560",
+    "alt": "Header",
+    "instructor": "Mr. Wazid",
+    "href1": ""
+  },
+  "feature": {
+    "title": "Masterclass",
+    "h1": "100% Live Classes",
+    "p1": "Fulfill your learning goals and get expert assistance.",
+    "h2": "Customized Learning",
+    "p2": "Get 100% live sessions led by Full stack experts.",
+    "h3": "IBM Certified Projects",
+    "h4": "3-year Subscription",
+    "p3": "Get 3 years of course subscription and life-time access to recorded classes.",
+    "img1": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/1.png",
+    "img2": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/2.png",
+    "img3": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/3.png",
+    "img5": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/4.png"
+  },
+  "profile": {
+    "pImg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/2.png",
+    "desc": "Full Stack Developer",
+    "pName": "Mr. Wazid",
+    "mIcon": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/amazon1.png",
+    "list1": "2+ years of experience in Web Development",
+    "list2": "2 Open-source contribution"
+  },
+  "whyUs": {
+    "title": "You will learn about",
+    "l1": "Introduction to Web Development",
+    "l2": "What is Full Stack Web Development",
+    "l3": "Web Development Job Roles and Market Demand",
+    "l4": "Hands-On project"
+  },
+  "whoCan": {
+    "title": "This masterclass is for",
+    "heading1": "Software Developers",
+    "para1": "  Software developers who are aiming to accelerate their respective careers by upskilling with Full stack development.",
+    "heading2": "Peer Working Professionals",
+    "para2": "Professionals, irrespective of their domains, who have great enthusiasm to make a career transition into Full stack development.",
+    "heading3": "About learnbay Academy",
+    "para3": " learnbay Academy is an ed-tech company, founded by alumni of IIT Kharagpur."
+  },
+  "eventDeatureData": {
+    "para1": "About this Masterclass",
+
+    "paragraph1": "In today's fast-paced banking industry, understanding customer behaviour is important for success. However, many organizations struggle to analyze and utilize customer data to drive growth and improve customer satisfaction.",
+
+    "paragraph1_1": "In this Masterclass, you will gain a deep understanding of the key metrics used to analyze customer behaviour and the strategies needed to turn this data into actionable insights. Through expert lectures and real-world case studies, you will learn how to apply these techniques to the unique challenges of the BFSI sector.",
+
+    "paragraph1_2": "Join us and become a top professional in customer analytics!",
+
+    "para2": "Topics covered in this Masterclass",
+    
+    "paragraph24": "Understand key metrics used in customer analytics",
+    "paragraph4": "Predict customer needs & wants through previous customer data",
+    "paragraph5": "Adoption & application of AI, ML & Big Data in banking",
+    "paragraph5_1": "Integration of business with technology & its benefits",
+    "paragraph5_2": "Market & technology trends driving the adoption of AI in banking",
+    "paragraph5_3": "ROI Measurement Criteria with AI in Banking",
+   
+    "para4": "Utkarsh Kulshrestha",
+    "paragraph9": "Designation : Data Scientist",
+    "paragraph9_1": "JP Morgan",
+    "paragraph10": "LinkedIn Profile : ",
+    "paragraph10_1": "Click Here",
+    "img4": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/Untitled-1.jpg",
+
+
+    "para6": "This Masterclass is for",
+
+    "paragraph6_2": "Banking professionals looking to upskill in data science in the banking domain",
+    "paragraph7_2": "BFSI professionals who want to predict loan defaults and forecast insurance pricing",
+    "paragraph8_3": "Executive-level BFSI professionals dreaming of securing a position at the forefront of BFSI",
+    "paragraph8_4": "BFSI managers & leaders who want to incorporate data-driven practices into their business",
+    "paragraph8_5": "Data scientists looking to make a meaningful impact in the banking domain",
+
+    "para7": "What our Learners have to say",
+    "para8": "About Learnbay Academy",
+    "paragraph14": "Welcome to Learnbay!",
+    "paragraph15": "We are a leading provider of specialized courses in data science, data analytics, artificial intelligence and full-stack software development. We are dedicated to helping working professionals advance their careers and gain the technical expertise needed to succeed in the fast-paced world of technology.",
+    "paragraph16": "Some of our standout features include: ",
+    "paragraph17": "Curriculum that is developed, supervised and approved by industry experts",
+    "paragraph18": "1:1 mentorship from top experts in the field",
+    "paragraph19": "Opportunities to gain technical expertise through real-world projects",
+    "paragraph20": "Over 250 hiring partners and dedicated placement support",
+    "paragraph21": "100% guarantee interview calls",
+    "paragraph22": "Sign up for a free demo class and enroll in the domain of your choice."
+  },
+  "headImg": {
+    "deskimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/WebsiteImg.png",
+    "mobimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/30_12Mobile.png"
+  }
+}
