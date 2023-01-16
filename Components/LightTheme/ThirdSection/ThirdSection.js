@@ -22,7 +22,7 @@ function ThirdSection() {
         </div>
       </Popup>
     <div className={styles.leftSide}>
-      <h1>Courses to Choose from:</h1>
+      <h1>Popular courses to choose from:</h1>
     </div>
     <div className={styles.rightSide}>
       <div className={styles.rightSideP}>

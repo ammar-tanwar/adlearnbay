@@ -9,23 +9,11 @@ function FourthSection({h1, img1,img2,img3,img4}) {
     <div className={styles.section4}>
     <h1>{h1}</h1>
     <div className={styles.section4Box}>
-      <div className={styles.boxSection4Blue}>
-        <Image
-          src={img1}
-          width="220"
-          height="220"
-          layout="intrinsic"
-        />
-        <div className={styles.iconText4Bblue}>
-          <FaLaptopCode className={styles.IconBoxOrange} />
-          <p className={styles.section4P}>Online Interactive Classes</p>
-        </div>
-      </div>
-      <div className={styles.boxSection4Orange}>
+    <div className={styles.boxSection4Orange}>
         <Image
           src={img2}
-          width="220"
-          height="220"
+          width="393"
+          height="264"
           layout="intrinsic"
         />
         <div className={styles.iconText4Borange}>
@@ -35,9 +23,21 @@ function FourthSection({h1, img1,img2,img3,img4}) {
       </div>
       <div className={styles.boxSection4Blue}>
         <Image
+          src={img1}
+          width="393"
+          height="264"
+          layout="intrinsic"
+        />
+        <div className={styles.iconText4Bblue}>
+          <FaLaptopCode className={styles.IconBoxOrange} />
+          <p className={styles.section4P}>Online Interactive Classes</p>
+        </div>
+      </div>
+      <div className={styles.boxSection4Blue}>
+        <Image
           src={img3}
-          width="220"
-          height="220"
+          width="393"
+          height="264"
           layout="intrinsic"
         />
         <div className={styles.iconText4Bblue}>
@@ -48,8 +48,8 @@ function FourthSection({h1, img1,img2,img3,img4}) {
       <div className={styles.boxSection4Orange}>
         <Image
           src={img4}
-          width="220"
-          height="220"
+          width="393"
+          height="264"
           layout="intrinsic"
         />
         <div className={styles.iconText4Borange}>
