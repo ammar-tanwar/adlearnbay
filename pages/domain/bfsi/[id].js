@@ -10,15 +10,14 @@ import Footer from "../../../Components/DomainPage/EventFooter/Footer";
 import { FaHeart, FaUserFriends } from "react-icons/fa";
 
 
-export default function DataScienceEvent({ eventData, formotp }) {
-  const [mobile, setMobile] = useState(false);
+export default function DataScienceEvent({ eventData }) {
 
+  const [mobile, setMobile] = useState(false);
   let today = new Date();
   let eventDateInfo = new Date(eventData.data.mainData.eventDate);
 
   useEffect(() => {
     let width = window.innerWidth;
-
     if (width < 481) {
       setMobile(true);
     }
@@ -47,20 +46,7 @@ export default function DataScienceEvent({ eventData, formotp }) {
           <div className={styles.left}>
             <div className={styles.prgrmFeature} >
               <EventFeature event={true}
-                props={eventData.data.eventDeatureData}
-                title={eventData.data.feature.title}
-                h1={eventData.data.feature.h1}
-                h2={eventData.data.feature.h2}
-                h3={eventData.data.feature.h3}
-                h4={eventData.data.feature.h4}
-                p1={eventData.data.feature.p1}
-                p2={eventData.data.feature.p2}
-                p3={eventData.data.feature.p3}
-                img1={eventData.data.feature.img1}
-                img2={eventData.data.feature.img2}
-                img3={eventData.data.feature.img3}
-                img5={eventData.data.feature.img5}
-                img4={eventData.data.eventDeatureData.img4}
+                data={eventData.data.eventFeatureData}
                 eventDateInfo={eventDateInfo}
               />
             </div>
@@ -79,11 +65,11 @@ export default function DataScienceEvent({ eventData, formotp }) {
                 <div className={styles.iconsRegister}>
                   <p className={styles.iconsRegisterp}>
                     <FaUserFriends className={styles.IconDomain} style={{ color: "#EDBB52" }} />
-                    {eventData.data.header.register}
+                    {eventData.data.mainData.register}
                   </p>
                   <p className={styles.iconsRegisterp}>
                     <FaHeart className={styles.IconDomain} style={{ color: "red" }} />
-                    {eventData.data.header.likes}
+                    {eventData.data.mainData.likes}
                   </p>
                 </div>
               </section>
