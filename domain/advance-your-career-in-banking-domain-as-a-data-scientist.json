@@ -1,132 +1,70 @@
 {
   "metaInfo": {
     "title": "Masterclass",
-    "desc": "Enroll in the System Design Event and learn from live classes. Get Knowledge by working on industry projects.",
-    "keyword": "Web Development",
-    "canonical": "https://www.learnbay.co/Event/Introduction-to-Full-Stack-Web-Development"
+    "desc": "Enroll in the System Design Event and learn from live classes. Get Knowledge by working on industry projects."
   },
   "mainData": {
-    "title": "Masterclass",
     "eventDate": "January 8, 2023",
     "tag": "System Design",
     "eventTime": "5 p.m. to 8 p.m.",
-    "Duration": "120min",
-    "img": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Intro+to+Full+Stack+Web+Development.png",
-    "register": "951"
-  },
-  "header": {
-    "title": "Masterclass",
-    "titleSpan": "System Design",
-    "desc": "For SDEs with 2+ years working Exp",
-    "eventDate": "January 8, 2023",
-    "eventTime": "5 p.m. to 8 p.m.",
-    "imgSrc": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Wazid-Sir.png",
     "register": "674",
-    "likes": "587",
-    "width": "600",
-    "height": "560",
-    "alt": "Header",
-    "instructor": "Mr. Wazid",
-    "href1": ""
+    "likes": "587"
   },
-  "feature": {
-    "title": "Masterclass",
-    "h1": "100% Live Classes",
-    "p1": "Fulfill your learning goals and get expert assistance.",
-    "h2": "Customized Learning",
-    "p2": "Get 100% live sessions led by Full stack experts.",
-    "h3": "IBM Certified Projects",
-    "h4": "3-year Subscription",
-    "p3": "Get 3 years of course subscription and life-time access to recorded classes.",
-    "img1": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/1.png",
-    "img2": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/2.png",
-    "img3": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/3.png",
-    "img5": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/4.png"
-  },
-  "profile": {
-    "pImg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/2.png",
-    "desc": "Full Stack Developer",
-    "pName": "Mr. Wazid",
-    "mIcon": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/amazon1.png",
-    "list1": "2+ years of experience in Web Development",
-    "list2": "2 Open-source contribution"
-  },
-  "whyUs": {
-    "title": "You will learn about",
-    "l1": "Introduction to Web Development",
-    "l2": "What is Full Stack Web Development",
-    "l3": "Web Development Job Roles and Market Demand",
-    "l4": "Hands-On project"
-  },
-  "whoCan": {
-    "title": "This masterclass is for",
-    "heading1": "Software Developers",
-    "para1": "  Software developers who are aiming to accelerate their respective careers by upskilling with Full stack development.",
-    "heading2": "Peer Working Professionals",
-    "para2": "Professionals, irrespective of their domains, who have great enthusiasm to make a career transition into Full stack development.",
-    "heading3": "About learnbay Academy",
-    "para3": " learnbay Academy is an ed-tech company, founded by alumni of IIT Kharagpur."
-  },
-  "eventDeatureData": {
-    "para1": "About this Masterclass",
+  "eventFeatureData": {
+    "heading1": "About this Masterclass",
+    "aboutThisMasterclass": [
+      "The role of data science in banking has become increasingly important in recent years. Banks are always looking for ways to optimize their operations, and data scientists are the ones who help them do it.",
+      "In this webinar, we'll share the skills and knowledge you need to become a banking data science expert. We'll also cover the current job market and career advancement opportunities to help you take your career to new heights.",
+      "So, put on your data science cap and join us on this journey to become the King of Banking.",
+      "We can't wait to help you succeed!"
+    ],
 
-    "paragraph1": "The role of data science in banking has become increasingly important in recent years. Banks are always looking for ways to optimize their operations, and data scientists are the ones who help them do it.",
+    "heading2": "Topics covered in this Masterclass",
+    "topicsCoveredMasterclass": [
+      "Adoption & Application of AI, ML & Big Data in Banking",
+      "Integration of Business with Technology & its Benefits",
+      "Cost-Cutting using AI Fraud Detection & Automation using AI",
+      "Compliance Risks & Bias in AI for Banks",
+      "Market & Technology Trends Driving the Adoption of AI in Banking",
+      "ROI Measurement Criteria with AI in Banking"
+    ],
 
-    "paragraph1_1": "In this webinar, we'll share the skills and knowledge you need to become a banking data science expert. We'll also cover the current job market and career advancement opportunities to help you take your career to new heights.",
-
-    "paragraph1_2": "So, put on your data science cap and join us on this journey to become the King of Banking.",
-
-    "paragraph1_3": "We can't wait to help you succeed!",
-
-    "paragraph2_0": "Then Join ",
-    "paragraph2_1": "Akshay Gagrani ",
-    "paragraph2_2": " who is hosting a FREE Masterclass on",
-    "paragraph2_3": " November 12th at 5 PM.",
-    "paragraph3": " Register today to reserve your spot.",
-
-    "para2": "Topics covered in this Masterclass",
-
-    "paragraph24": "Adoption & Application of AI, ML & Big Data in Banking",
-    "paragraph4": "Integration of Business with Technology & its Benefits",
-    "paragraph5": "Cost-Cutting using AI Fraud Detection & Automation using AI",
-    "paragraph5_1": "Compliance Risks & Bias in AI for Banks",
-    "paragraph5_2": "Market & Technology Trends Driving the Adoption of AI in Banking",
-    "paragraph5_3": "ROI Measurement Criteria with AI in Banking",
-
-    "para3": "What you will gain from this Masterclass",
-
-    "paragraph7": "Remove fear of these difficult topics by learning via hands on session",
-    "paragraph8": "Gain learning of how to approach coding problems",
-    "paragraph8_1": "Solve various complex interview questions using the data structures",
-   
-
-    "para4": "Utkarsh Kulshrestha",
-    "paragraph9": "Designation : Data Scientist",
-    "paragraph9_1": "JP Morgan",
-    "paragraph10": "LinkedIn Profile : ",
-    "paragraph10_1": "Click Here",
+    "speakerName": "Utkarsh Kulshrestha",
+    "speakerDesignation": "Designation : Data Scientist",
+    "speakerComp": "JP Morgan",
     "img4": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/Untitled-1.jpg",
 
+    "h1": "100% Live Classes",
+    "h2": "Customized Learning",
+    "h3": "IBM Certified Projects",
+    "h4": "3-year Subscription",
 
-    "para6": "This Masterclass is for",
+    "heading3": "This Masterclass is for",
+    "masterclassForHeading1": "Banking professionals looking to upskill in data science in the banking domain",
+    "masterclassForHeading2": "BFSI professionals who want to predict loan defaults and forecast insurance pricing",
+    "masterclassForHeading3": "Executive-level BFSI professionals dreaming of securing a position at the forefront of BFSI",
+    "masterclassForHeading4": "BFSI managers & leaders who want to incorporate data-driven practices into their business",
+    "masterclassForHeading5": "Data scientists looking to make a meaningful impact in the banking domain",
 
-    "paragraph6_2": "Banking professionals looking to upskill in data science in the banking domain",
-    "paragraph7_2": "BFSI professionals who want to predict loan defaults and forecast insurance pricing",
-    "paragraph8_3": "Executive-level BFSI professionals dreaming of securing a position at the forefront of BFSI",
-    "paragraph8_4": "BFSI managers & leaders who want to incorporate data-driven practices into their business",
-    "paragraph8_5": "Data scientists looking to make a meaningful impact in the banking domain",
+    "heading4": "What our Learners have to say",
 
-    "para7": "What our Learners have to say",
-    "para8": "About Learnbay Academy",
-    "paragraph14": "Welcome to Learnbay!",
-    "paragraph15": "We are a leading provider of specialized courses in data science, data analytics, artificial intelligence and full-stack software development. We are dedicated to helping working professionals advance their careers and gain the technical expertise needed to succeed in the fast-paced world of technology.",
-    "paragraph16": "Some of our standout features include: ",
-    "paragraph17": "Curriculum that is developed, supervised and approved by industry experts",
-    "paragraph18": "1:1 mentorship from top experts in the field",
-    "paragraph19": "Opportunities to gain technical expertise through real-world projects",
-    "paragraph20": "Over 250 hiring partners and dedicated placement support",
-    "paragraph21": "100% guarantee interview calls",
-    "paragraph22": "Sign up for a free demo class and enroll in the domain of your choice."
+    "heading5": "About Learnbay Academy",
+    "aboutLearnbay": [
+      "Welcome to Learnbay!",
+      "We are a leading provider of specialized courses in data science, data analytics, artificial intelligence and full-stack software development. We are dedicated to helping working professionals advance their careers and gain the technical expertise needed to succeed in the fast-paced world of technology."
+    ],
+
+    "aboutLearnbayHeading": "Some of our standout features include: ",
+    "standoutFeatures": [
+      "Curriculum that is developed, supervised and approved by industry experts",
+      "1:1 mentorship from top experts in the field",
+      "Opportunities to gain technical expertise through real-world projects",
+      "Over 250 hiring partners and dedicated placement support",
+      "100% guarantee interview calls"
+    ],
+    "standoutFeaturesLastHead": [
+      "Sign up for a free demo class and enroll in the domain of your choice."
+    ]
   },
   "headImg": {
     "deskimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/WebsiteImg.png",

@@ -4,32 +4,28 @@ import Image from "next/image";
 import Reviews from "../../DomainPage/CareerImpactHome/CareerImpact";
 import Popup from "../../Popup/Popup";
 import { FaArrowRight, FaCheck, FaUserGraduate, FaUserTie, FaLaptopCode } from "react-icons/fa";
-import { GiReceiveMoney, GiRank3 } from "react-icons/gi"
+import { GiReceiveMoney } from "react-icons/gi"
 import { HiIdentification, HiOutlineBadgeCheck } from "react-icons/hi"
 import { MdAltRoute, MdAnalytics, MdLiveTv } from "react-icons/md"
 import FormOtp from "../../DomainPage/FormOtp/FormOtp";
 
-
 const EventFeature = ({
-  title,
-  h1,
-  h2,
-  h3,
-  h4,
-  p1,
-  p2,
-  p3,
-  img1,
-  img2,
-  img3,
-  img5,
-  img4,
-  trainer,
-  props,
+  data,
   eventDateInfo,
 }) => {
+
+  const [eventData, setEventData] = useState({
+    aboutThisMasterclass: data.aboutThisMasterclass,
+    topicsCoveredMasterclass: data.topicsCoveredMasterclass,
+    aboutLearnbay: data.aboutLearnbay,
+    standoutFeatures: data.standoutFeatures,
+    standoutFeaturesLastHead: data.standoutFeaturesLastHead
+  })
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
+
+  // console.log(eventData)
+
   let today = new Date();
 
   const popupShow = () => {
@@ -39,8 +35,11 @@ const EventFeature = ({
     setShow(!show);
   };
 
+
+
   return (
     <div className={styles.eFeature}>
+
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
         <div className="leftPopup">
           <div className="whiteP" />
@@ -56,8 +55,9 @@ const EventFeature = ({
           />
         </div>
       </Popup>
+
       <div id="Feature">
-        <p className={styles.paragramTitle}>{props.para1}</p>
+        <p className={styles.paragramTitle}>{data.heading1}</p>
         <Image
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/Line+48.png"
           layout="intrinsic"
@@ -66,13 +66,14 @@ const EventFeature = ({
           loading="lazy"
           alt="backImg"
         />
-        <p>{props.paragraph1}</p>
-        <p>{props.paragraph1_1}</p>
-        <p>{props.paragraph1_2}</p>
-        
+
+        {eventData.aboutThisMasterclass.map((value, i) => {
+          return (<p key={i}>{value}</p>)
+        })}
+
       </div>
       <div className={styles.topicCover}>
-        <p className={styles.paragramTitle}>{props.para2}</p>
+        <p className={styles.paragramTitle}>{data.heading2}</p>
         <Image
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/Line+48.png"
           layout="intrinsic"
@@ -82,29 +83,19 @@ const EventFeature = ({
           alt="backImg"
         />
         <div className={styles.iconList}>
-          <div className={styles.iconDiv}>
-            <FaCheck className={styles.icon} />{" "}
-            <p className={styles.iconPs}>{props.paragraph24}</p>
-          </div>
-          <div className={styles.iconDiv}>
-            <FaCheck className={styles.icon} />
-            <p className={styles.iconPs}>{props.paragraph4}</p>
-          </div>
-          <div className={styles.iconDiv}>
-            <FaCheck className={styles.icon} />
-            <p className={styles.iconPs}>{props.paragraph5}</p>
-          </div>
-          <div className={styles.iconDiv}>
-            <FaCheck className={styles.icon} />
-            <p className={styles.iconPs}>{props.paragraph5_1}</p>
-          </div>
-          <div className={styles.iconDiv}>
-            <FaCheck className={styles.icon} />
-            <p className={styles.iconPs}>{props.paragraph5_2}</p>
-          </div>
+          {eventData.topicsCoveredMasterclass.map((value, i) => {
+            return (
+              <div className={styles.iconDiv} key={i}>
+                <FaCheck className={styles.icon} />{" "}
+                <p className={styles.iconPs} >{value}</p>
+              </div>
+            )
+          })}
+
         </div>
       </div>
       <div>
+
         <div className={styles.centerBtn}>
           {today >= eventDateInfo ? (
             ""
@@ -116,13 +107,14 @@ const EventFeature = ({
           )}
         </div>
       </div>
+
       <div className={styles.backTrainer}>
         <p>About the Speaker</p>
         <div>
           <div className={styles.innerDiv}>
             <div className={styles.spanTrainerImg}>
               <Image
-                src={img4}
+                src={data.img4}
                 layout="intrinsic"
                 objectFit="cover"
                 quality={100}
@@ -133,11 +125,11 @@ const EventFeature = ({
               />
             </div>
             <div>
-              <p className={styles.trainerHead}>{props.para4}</p>
-              <p>{props.paragraph9}</p>
+              <p className={styles.trainerHead}>{data.speakerName}</p>
+              <p>{data.speakerDesignation}</p>
               <p>
                 Company :{" "}
-                <span className={styles.spanT}>{props.paragraph9_1}</span>
+                <span className={styles.spanT}>{data.speakerComp}</span>
               </p>
             </div>
           </div>
@@ -145,38 +137,41 @@ const EventFeature = ({
       </div>
 
       <div className={styles.master}>
-        <p className={styles.paragramTitle}>{props.para6}</p>
+        <p className={styles.paragramTitle}>{data.heading3}</p>
         <div className={styles.TopMargin}>
           <div className={styles.iconP}>
             <FaUserTie className={styles.iconG} />
-            <p>{props.paragraph6_2}</p>
+            <p>{data.masterclassForHeading1}</p>
           </div>
           <div className={styles.iconP}>
             <GiReceiveMoney className={styles.iconG} />
-            <p>{props.paragraph7_2}</p>
+            <p>{data.masterclassForHeading2}</p>
           </div>
           <div className={styles.iconP}>
             <HiIdentification className={styles.iconG} />
-            <p>{props.paragraph8_3}</p>
+            <p>{data.masterclassForHeading3}</p>
           </div>
           <div className={styles.iconP}>
             <MdAltRoute className={styles.iconG} />
-            <p>{props.paragraph8_4}</p>
+            <p>{data.masterclassForHeading4}</p>
           </div>
           <div className={styles.iconP}>
             <MdAnalytics className={styles.iconG} />
-            <p>{props.paragraph8_5}</p>
+            <p>{data.masterclassForHeading5}</p>
           </div>
         </div>
       </div>
+
+
       <div id="About">
-        <p className={styles.paragramTitleReview}>{props.para7}</p>
+        <p className={styles.paragramTitleReview}>{data.heading4}</p>
         <div className={styles.eReview}>
           <Reviews redirectFs={true} />
         </div>
       </div>
       <div>
-        <p className={styles.paragramTitle}>{props.para8}</p>
+        <p className={styles.paragramTitle}>{data.heading5}</p>
+
         <Image
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/Line+48.png"
           layout="intrinsic"
@@ -185,10 +180,12 @@ const EventFeature = ({
           loading="lazy"
           alt="backImg"
         />
-        <p>{props.paragraph14}</p>
-        <p>{props.paragraph15}</p>
+        {eventData.aboutLearnbay.map((value, i) => {
+          return (<p key={i}>{value}</p>)
+        })}
+
         <p className={styles.paragramTitlestrong}>
-          <strong>{props.paragraph16}</strong>
+          <strong>{data.aboutLearnbayHeading}</strong>
         </p>
         <Image
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tutorial/domain/Line+51.png"
@@ -199,14 +196,13 @@ const EventFeature = ({
           alt="backImg"
         />
         <ul className={styles.listMargin}>
-          <li>{props.paragraph17}</li>
-          <li>{props.paragraph18}</li>
-          <li>{props.paragraph19}</li>
-          <li>{props.paragraph20}</li>
-          <li>{props.paragraph21}</li>
+          {eventData.standoutFeatures.map((value, i) => {
+            return (<li key={i}>{value}</li>)
+          })}
         </ul>
-        <p>{props.paragraph22}</p>
-        <p>{props.paragraph23}</p>
+        {eventData.standoutFeaturesLastHead.map((value, i) => {
+          return (<p key={i}>{value}</p>)
+        })}
       </div>
       <div>
         <div className={styles.centerBtn}>
@@ -219,27 +215,30 @@ const EventFeature = ({
             </button>
           )}
         </div>
+
       </div>
+
       <div style={{ margin: "15px 0px" }}>
         <div className={styles.bodyContent}>
           <div className={styles.eLeft}>
             <MdLiveTv className={styles.iconBlue} />
-            <h6>{h1}</h6>
+            <h6>{data.h1}</h6>
           </div>
           <div className={styles.eMiddle}>
             <FaLaptopCode className={styles.iconOrange} />
-            <h6>{h2}</h6>
+            <h6>{data.h2}</h6>
           </div>
           <div className={styles.eRight}>
             <FaUserGraduate className={styles.iconBlue} />
-            <h6>{h3}</h6>
+            <h6>{data.h3}</h6>
           </div>
           <div className={styles.eRight}>
             <HiOutlineBadgeCheck className={styles.iconOrange} />
-            <h6>{h4}</h6>
+            <h6>{data.h4}</h6>
           </div>
         </div>
       </div>
+
     </div>
   );
 };
