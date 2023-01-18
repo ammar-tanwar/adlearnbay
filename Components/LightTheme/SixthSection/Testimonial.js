@@ -31,15 +31,15 @@ function Testimonial() {
         <FaDownload className={styles.icon} />
       </button>
       <div className={styles.Section1}>
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-        <div className="leftPopup">
-          <div className="whiteP" />
-        </div>
-        <div className="RightPopup">
-          <h5>Download Brochure</h5>
-          <Form popup={true} downloadBrochure setTrigger={setPopups} />
-        </div>
-      </Popup>
+        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+          <div className="leftPopup">
+            <div className="whiteP" />
+          </div>
+          <div className="RightPopup">
+            <h5>Download Brochure</h5>
+            <Form popup={true} downloadBrochure setTrigger={setPopups} />
+          </div>
+        </Popup>
         <h1>Student Testimonials</h1>
         <div className={styles.Testimonial}>
           <div className={styles.swiperleft}>
@@ -75,6 +75,7 @@ function Testimonial() {
                     <Image
                       src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/preksha-home.png"
                       layout="intrinsic"
+                      loading="lazy"
                       width="80"
                       height="80"
                       alt="preksha-home"
@@ -106,6 +107,7 @@ function Testimonial() {
                     <Image
                       src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/asrar-home.png"
                       layout="intrinsic"
+                      loading="lazy"
                       width="80"
                       height="80"
                       alt="preksha-home"
@@ -137,6 +139,7 @@ function Testimonial() {
                     <Image
                       src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/aravind-home.png"
                       layout="intrinsic"
+                      loading="lazy"
                       width="80"
                       height="80"
                       alt="aravind-home"
@@ -169,6 +172,7 @@ function Testimonial() {
                     <Image
                       src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ritesh-home.png"
                       layout="intrinsic"
+                      loading="lazy"
                       width="80"
                       height="80"
                       alt="ritesh-home"
@@ -201,6 +205,7 @@ function Testimonial() {
                     <Image
                       src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/saurabh-home.png"
                       layout="intrinsic"
+                      loading="lazy"
                       width="80"
                       height="80"
                       alt="saurabh-home"
@@ -228,11 +233,12 @@ function Testimonial() {
                         <br />
                       </p>
                     </div>
-                  <div className={styles.line}></div>
+                    <div className={styles.line}></div>
                     <div>
                       <Image
                         src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/abhishek-home.png"
                         layout="intrinsic"
+                        loading="lazy"
                         width="80"
                         height="80"
                         alt="aravind-home"
@@ -263,11 +269,12 @@ function Testimonial() {
                           <br />
                         </p>
                       </div>
-                  <div className={styles.line}></div>
+                      <div className={styles.line}></div>
                       <div className={styles.imgP}>
                         <Image
                           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/vishal-home.png"
                           layout="intrinsic"
+                          loading="lazy"
                           width="80"
                           height="80"
                           alt="vishal-home"

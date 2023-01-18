@@ -3,13 +3,21 @@ import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
 import styles from "./Navbar.module.css";
 import Popup from "../Popup/Popup";
-import FormOtp from "../FormOtp/FormOtp"
+import FormOtp from "../FormOtp/FormOtp";
 import Form from "../Event/Form/Form";
 import { useRouter } from "next/router";
 
 import FormOtpDoamin from "../DomainPage/FormOtp/FormOtp";
 
-const Navbar = ({ radio, event, dataScience, fullStack, eventDateInfo, formotp, domainOTPForm }) => {
+const Navbar = ({
+  radio,
+  event,
+  dataScience,
+  fullStack,
+  eventDateInfo,
+  formotp,
+  domainOTPForm,
+}) => {
   const router = useRouter();
   const [icon, setIcon] = useState(false);
   const [show, setShow] = useState(false);
@@ -47,18 +55,35 @@ const Navbar = ({ radio, event, dataScience, fullStack, eventDateInfo, formotp, 
           <h5> Register NOW!</h5>
           {domainOTPForm ? (
             <>
-              <FormOtpDoamin domain={true} formotp={true} jobDescription={true} workExperience={true} />
+              <FormOtpDoamin
+                domain={true}
+                formotp={true}
+                jobDescription={true}
+                workExperience={true}
+              />
             </>
-
           ) : (
             <>
               {formotp ? (
-                <FormOtp popup={true} event={true} setTrigger={setPopups} jobDescription={true} workExperience={true} />
+                <FormOtp
+                  popup={true}
+                  event={true}
+                  setTrigger={setPopups}
+                  jobDescription={true}
+                  workExperience={true}
+                />
               ) : (
-                <Form popup={true} setTrigger={setPopups} event={true} radio={radio} fullStack={fullStack} dataScience={dataScience} />
+                <Form
+                  popup={true}
+                  setTrigger={setPopups}
+                  event={true}
+                  radio={radio}
+                  fullStack={fullStack}
+                  dataScience={dataScience}
+                />
               )}
-
-            </>)}
+            </>
+          )}
         </div>
       </Popup>
       <nav className={styles.nav}>
@@ -71,16 +96,17 @@ const Navbar = ({ radio, event, dataScience, fullStack, eventDateInfo, formotp, 
                 Register NOW!
                 <FaArrowRight className={styles.icon} />
               </button>
-
             )}
           </div>
           <a>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/learnbay-logo.png"
               alt="Learnbay"
               quality={100}
               objectFit="contain"
               width={mobile ? "180" : "230"}
+              priority={true}
+              loading="eager"
               height="60px"
             />
           </a>
@@ -101,5 +127,3 @@ const Navbar = ({ radio, event, dataScience, fullStack, eventDateInfo, formotp, 
 };
 
 export default Navbar;
-
-

@@ -15,6 +15,7 @@ function FourthSection({h1, img1,img2,img3,img4}) {
           width="393"
           height="264"
           layout="intrinsic"
+          loading="lazy"
         />
         <div className={styles.iconText4Borange}>
           <FaRegCalendarCheck className={styles.IconBoxBlue} />
@@ -27,6 +28,7 @@ function FourthSection({h1, img1,img2,img3,img4}) {
           width="393"
           height="264"
           layout="intrinsic"
+          loading="lazy"
         />
         <div className={styles.iconText4Bblue}>
           <FaLaptopCode className={styles.IconBoxOrange} />
@@ -39,6 +41,7 @@ function FourthSection({h1, img1,img2,img3,img4}) {
           width="393"
           height="264"
           layout="intrinsic"
+          loading="lazy"
         />
         <div className={styles.iconText4Bblue}>
           <FaRegIdBadge className={styles.IconBoxOrange} />
@@ -51,6 +54,7 @@ function FourthSection({h1, img1,img2,img3,img4}) {
           width="393"
           height="264"
           layout="intrinsic"
+          loading="lazy"
         />
         <div className={styles.iconText4Borange}>
           <BiSelectMultiple className={styles.IconBoxBlue} />
