@@ -40,6 +40,7 @@ function SeventhSection() {
             height={395}
             alt="LearnsupportImg"
             layout="intrinsic"
+          loading="lazy"
           />
         </div>
       </div>

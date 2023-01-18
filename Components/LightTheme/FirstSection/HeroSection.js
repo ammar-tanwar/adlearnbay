@@ -150,7 +150,7 @@ function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
           </div>
         </div>
         <div className={styles.sectionDiv}>
-          <Image src={sideImg} width="600" height="400" layout="intrinsic" />
+          <Image src={sideImg} width="600" height="400" priority={true} layout="intrinsic" />
         </div>
       </div>
     </section>
@@ -168,32 +168,3 @@ function Example(props) {
 }
 
 export default HeroSection;
-
-{
-  /* <div className={styles.twoBoxDivWhite}>
-              <RiUserSearchLine className={styles.IconBoxBlue} />
-              <p className={styles.whitep}>
-                <span>10k+</span>
-                <br />
-                Careers Reshaped
-              </p>
-            </div>
-            <div className={styles.line}></div>
-            <div className={styles.twoBoxDivWhite}>
-              <FaHandshake className={styles.IconBoxBlue} />
-              <p className={styles.whitep}>
-                <span>250+</span>
-                <br />
-                Hiring Partners
-              </p>
-            </div> */
-}
-
-
-
-// <div className={styles.loaderWrapper}>
-//               <div className={styles.seatLoader}>
-//                 <p className={styles.loaderPercentage}>91%</p>
-//               </div>
-//               <p className={styles.label}>Seats filled</p>
-//             </div>

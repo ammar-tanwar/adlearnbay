@@ -20,7 +20,6 @@ const Form = ({
   jobPlacee,
   google,
   workExperience,
-
 }) => {
   const router = useRouter();
   let today = new Date();
@@ -49,7 +48,6 @@ const Form = ({
     setQuery({ ...query, phone: value, dateTime: startDate });
 
     jsCookie.set("CARD", query.email, { expires: 14, secure: true });
-
   }, [value, startDate]);
 
   // Update inputs value
@@ -60,9 +58,7 @@ const Form = ({
       ...prevState,
       [name]: value,
     }));
-
   };
-
 
   // -====================  Organic - S END POINT ==========================--------
   let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
@@ -114,7 +110,11 @@ const Form = ({
     router.pathname === "/s2-artificial-intelligence-placement" ||
     router.pathname === "/s2-artificial-intelligence-certification" ||
     router.pathname === "/s2-data-science" ||
-    router.pathname === "/s2-light" ||
+    router.pathname === "/s2-data-science-generic" ||
+    router.pathname === "/s2-artificial-intelligence-generic" ||
+    router.pathname === "/s2-business-analytics-generic" ||
+    router.pathname === "/s2-data-analytics-generic" ||
+    router.pathname === "/s2-machine-learning-generic" ||
     router.pathname === "/s3-data-science" ||
     router.pathname === "/s4-data-science" ||
     router.pathname === "/s2-data-science-banking" ||
@@ -380,8 +380,8 @@ const Form = ({
     fetch(`${endPoint}`, {
       method: "POST",
       body: formData,
-    }).then(() =>
-      setAlertMSG(""),
+    }).then(
+      () => setAlertMSG(""),
       setQuery({
         name: "",
         email: "",
@@ -391,7 +391,7 @@ const Form = ({
         dateTime: "",
         WAdropdown: "",
         url: router.asPath,
-      }),
+      })
     );
     if (popup) {
       const off = () => {
@@ -505,7 +505,11 @@ const Form = ({
         downloadBrochure) ||
       (router.pathname === "/" && downloadBrochure) ||
       (router.pathname === "/s2-data-science" && downloadBrochure) ||
-      (router.pathname === "/s2-light" && downloadBrochure) ||
+      (router.pathname === "/s2-data-science-generic" && downloadBrochure) ||
+      (router.pathname === "/s2-artificial-intelligence-generic" && downloadBrochure) ||
+      (router.pathname === "/s2-data-analytics-generic" && downloadBrochure) ||
+      (router.pathname === "/s2-machine-learning-generic" && downloadBrochure) ||
+      (router.pathname === "/s2-business-analytics-generic" && downloadBrochure) ||
       (router.pathname === "/s3-data-science" && downloadBrochure) ||
       (router.pathname === "/s2-machine-learning" && downloadBrochure) ||
       (router.pathname === "/s2-job-guarantee" && downloadBrochure) ||
@@ -612,7 +616,11 @@ const Form = ({
       router.pathname === "/job-guarantee-or-money-back-data-science-ai-s8" ||
       router.pathname === "/job-guarantee-or-money-back-data-science-ai-s9" ||
       router.pathname === "/s2-data-science" ||
-      router.pathname === "/s2-light" ||
+      router.pathname === "/s2-data-science-generic" ||
+      router.pathname === "/s2-artificial-intelligence-generic" ||
+      router.pathname === "/s2-business-analytics-generic" ||
+      router.pathname === "/s2-data-analytics-generic" ||
+      router.pathname === "/s2-machine-learning-generic" ||
       router.pathname === "/s3-data-science" ||
       router.pathname === "/s2-machine-learning" ||
       router.pathname === "/s2-job-guarantee" ||
@@ -747,7 +755,7 @@ const Form = ({
       setToggle(false);
       setAlertMSG("Form Submitted successfully");
       setDisable(false);
-      setValue("")
+      setValue("");
     }
   };
   const isWeekday = (date) => {
@@ -792,17 +800,17 @@ const Form = ({
             style={
               popup
                 ? {
-                  height: "50px",
-                  borderRadius: "8px",
-                  border: "1px solid grey",
-                  padding: "10px",
-                }
+                    height: "50px",
+                    borderRadius: "8px",
+                    border: "1px solid grey",
+                    padding: "10px",
+                  }
                 : {
-                  border: "0",
-                  height: "50px",
-                  borderRadius: "3px",
-                  borderBottom: "1px solid grey",
-                }
+                    border: "0",
+                    height: "50px",
+                    borderRadius: "3px",
+                    borderBottom: "1px solid grey",
+                  }
             }
             name="phone"
             rules={{ required: true }}
@@ -1108,8 +1116,6 @@ const Form = ({
         </p>
 
         <div>{toggle ? "" : <p className={styles.alert}>{alertMSG}</p>}</div>
-
-
 
         {disable ? (
           <div className={styles.ring}>

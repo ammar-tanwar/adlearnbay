@@ -93,11 +93,13 @@ const Navbar = ({
       <nav className={styles.nav}>
         <div className={styles.left}>
           <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Logo.webp"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/learnbay-logo.png"
             alt="Learnbay"
             quality={100}
             objectFit="contain"
             width={mobile ? "180" : "230"}
+            priority={true}
+            loading="eager"
             height="60px"
           />
         </div>
