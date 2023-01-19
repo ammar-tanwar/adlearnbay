@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Popup from "../../Popup/Popup";
-import Form from "../../Form/Form";
+import Form from "../../FormOtp/FormOtp";
 
 const OfferPopup = () => {
-
   const [popups, setPopups] = useState(false);
 
   useEffect(() => {
@@ -11,7 +10,7 @@ const OfferPopup = () => {
       setPopups(true);
     }, 10000);
     return;
-  }, []);
+  }, [0]);
 
   return (
     <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
