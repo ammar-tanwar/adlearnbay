@@ -4,9 +4,9 @@ export const FullStackWebCourseData = [
       deskTopPara: "Be a demanding Developer to stay ahead",
       mTopPara: "Be a demanding Developer to stay ahead",
       mTitle: "Full Stack Web Development Course ",
-      spanMTitleText: "Crack MAANG Interviews",
+      spanMTitleText: "Kickstart your Tech Career",
       title: "Full Stack Web Development Course ",
-      spanTitleText: "Crack MAANG Interviews",
+      spanTitleText: "Kickstart your Tech Career",
       desc: "Learn ultimate methods from MNC specialists with real-world projects",
       src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/FSWD+2.png",
       width: "525",
@@ -33,7 +33,7 @@ export const FullStackWebCourseData = [
         "100% interactive and live classes. Hybrid learning option is also available.",
       Box3h5: "Premium Mentoring",
       box3desc:
-        "Take advantage of MAANG web developer simulated mock interviews.",
+        "Take advantage of MNCs web developer simulated mock interviews.",
       Box4h5: "Hands-on Experience",
       box4desc: "Gain real-time experience with industrial projects.",
       Box5h5: "1-on-1 Dedication",
@@ -81,7 +81,7 @@ export const FullStackWebCourseData = [
                   "A quick guide to Full Stack Web Development",
                   "Significance of projects",
                   "Job Opportunities in IT industry",
-                  "How to make it big in the IT Industry and crack MAANG Interviews",
+                  "How to make it big in the IT Industry and crack MNCs Interviews",
                   "All about - MEAN stack and MERN stack",
                 ],
               },
@@ -197,7 +197,7 @@ export const FullStackWebCourseData = [
             },
             {
               chap: {
-                title: "Module 2 :- Interview Preparation: Crack MAANG",
+                title: "Module 2 :- Interview Preparation: Crack Top Product MNCs",
                 desc: [
                   " Searching and Sorting Interview Questions",
                   " Top 20 Dynamic Programming Interview Questions",
