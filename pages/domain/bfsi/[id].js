@@ -41,7 +41,7 @@ export default function DataScienceEvent({ eventData }) {
           mobimg={eventData.data.headImg.mobimg}
         />
       </div>
-      <div className={today >= eventDateInfo ? styles.Pages : styles.Page2}>
+      <div className={today >= eventDateInfo ? styles.PagesD : styles.Page21}>
         <div>
           <div className={styles.left}>
             <div className={styles.prgrmFeature} >

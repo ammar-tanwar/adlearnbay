@@ -1,13 +1,10 @@
 import styles from "./HeroSection.module.css";
 import React, { useState } from "react";
-import { FaArrowRight, } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 import Image from "next/image";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
-import {
-  CircularProgressbar,
-  buildStyles,
-} from "react-circular-progressbar";
+import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
 function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
@@ -16,7 +13,7 @@ function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
   const [hours, setHours] = useState(0);
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
-  const [circleValue, setCircleValue] = useState(75)
+  const [circleValue, setCircleValue] = useState(75);
 
   const popupShow = () => {
     setPopups(true);
@@ -31,61 +28,59 @@ function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
     var days = Math.floor(t / (1000 * 60 * 60 * 24));
 
     return {
-      'total': t,
-      'days': days,
-      'hours': hours,
-      'minutes': minutes,
-      'seconds': seconds
+      total: t,
+      days: days,
+      hours: hours,
+      minutes: minutes,
+      seconds: seconds,
     };
   }
 
   function getNextSaturday() {
     var now = new Date();
     var nextSaturday = new Date();
-    nextSaturday.setDate(now.getDate() + (7 - 1 - now.getDay() + 7) % 7 + 1);
+    nextSaturday.setDate(now.getDate() + ((7 - 1 - now.getDay() + 7) % 7) + 1);
     nextSaturday.setHours(11, 0, 0, 0);
     // console.log("Sat",nextSaturday)
     return nextSaturday;
   }
 
   function convertToEST(date) {
-    const estOffset = -5.0
-    const utc = date.getTime() + (date.getTimezoneOffset() * 60000);
-    return new Date(utc + (3600000 * estOffset));
+    const estOffset = -5.0;
+    const utc = date.getTime() + date.getTimezoneOffset() * 60000;
+    return new Date(utc + 3600000 * estOffset);
   }
 
   var deadline = getNextSaturday();
 
   const interval = setInterval(() => {
     var t = getTimeRemaining(deadline);
-    setDays(t.days)
-    setHours(t.hours)
-    setMinutes(t.minutes)
-    setSeconds(t.seconds)
+    setDays(t.days);
+    setHours(t.hours);
+    setMinutes(t.minutes);
+    setSeconds(t.seconds);
 
     if (t.total <= 0) {
       clearInterval(interval);
     }
     if (t.days == 7) {
-      setCircleValue(75)
+      setCircleValue(75);
     } else if (t.days == 6) {
-      setCircleValue(77)
+      setCircleValue(77);
     } else if (t.days == 5) {
-      setCircleValue(80)
+      setCircleValue(80);
     } else if (t.days == 4) {
-      setCircleValue(83)
+      setCircleValue(83);
     } else if (t.days == 3) {
-      setCircleValue(86)
+      setCircleValue(86);
     } else if (t.days == 2) {
-      setCircleValue(89)
+      setCircleValue(89);
     } else if (t.days == 1) {
-      setCircleValue(92)
+      setCircleValue(92);
     } else if (t.days == 0) {
-      setCircleValue(95)
+      setCircleValue(95);
     }
   }, 1000);
-
-
 
   return (
     <section>
@@ -137,20 +132,28 @@ function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
             </div>
             <div>
               <Example label="Default">
-                <CircularProgressbar value={circleValue} text={`${circleValue}%`} styles={buildStyles({
-                  textColor: "black",
-                  pathColor: "#0072BC",
-                  trailColor: "white",
-                  textSize: "26px"
-                })} />
-
+                <CircularProgressbar
+                  value={circleValue}
+                  text={`${circleValue}%`}
+                  styles={buildStyles({
+                    textColor: "black",
+                    pathColor: "#0072BC",
+                    trailColor: "white",
+                    textSize: "26px",
+                  })}
+                />
               </Example>
             </div>
-
           </div>
         </div>
         <div className={styles.sectionDiv}>
-          <Image src={sideImg} width="600" height="400" priority={true} layout="intrinsic" />
+          <Image
+            src={sideImg}
+            width="600"
+            height="400"
+            priority={true}
+            layout="intrinsic"
+          />
         </div>
       </div>
     </section>
@@ -159,9 +162,9 @@ function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
 
 function Example(props) {
   return (
-    <div >
-      <div >
-        <div className={styles.circleWidth} >{props.children}</div>
+    <div>
+      <div>
+        <div className={styles.circleWidth}>{props.children}</div>
       </div>
     </div>
   );
