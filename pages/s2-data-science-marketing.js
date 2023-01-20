@@ -146,7 +146,7 @@ export default function Home() {
           </div>
           <div>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Domain-faq-right.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/What+makes+us+different+flip-min.png"
               width="519"
               height="350"
               layout="intrinsic"

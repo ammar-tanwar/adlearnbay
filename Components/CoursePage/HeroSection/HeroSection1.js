@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import styles from "./HeroSection1.module.css";
 import "swiper/css";
 import "swiper/css/navigation";
-import { FaArrowRight,  } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 import Image from "next/image";
 import Popup from "/Components/Popup/Popup";
 import FormOtp from "/Components/FormOtp/FormOtp";
@@ -52,11 +52,7 @@ const HeroSection = ({
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          {formotp ?(
-            <FormOtp popup={true} />
-          ):(
-          <Form setTrigger={setPopups} />
-          )}
+          {formotp ? <FormOtp popup={true} /> : <Form setTrigger={setPopups} />}
         </div>
       </Popup>
       <div className={styles.left}>
@@ -89,18 +85,18 @@ const HeroSection = ({
               <FaArrowRight style={{ marginLeft: "10px" }} />
             </button>
           </div>
-
-
         </div>
         <div className={styles.bottom}>
           <div className={styles.leftBottom}>
-            <Image
+            {/* <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/review-course-round.jpg"
               width={mobile ? 180 : 261}
               height={mobile ? 46.2 : 67}
               layout="intrinsic"
               alt="herosection"
-            />
+            /> */}
+            <h5>250+ </h5>
+            <p>Hiring Partner</p>
           </div>
           <div className={styles.rightBottom}>
             <h5>10k Successful</h5>

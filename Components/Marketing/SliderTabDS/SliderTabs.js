@@ -20,7 +20,6 @@ const SliderTabs = () => {
     let width = window.innerWidth;
     if (width < 600) {
       setMobile(true);
-     
     }
   });
 
@@ -29,17 +28,14 @@ const SliderTabs = () => {
     if (width < 960) {
       setTab(true);
     }
-    
   });
-
- 
 
   useEffect(() => {
     let width = window.innerWidth;
     if (width > 960) {
       setOneYear(true);
     }
-  },[0]);
+  }, [0]);
 
   return (
     <div className={styles.Course} id="course">
@@ -67,11 +63,11 @@ const SliderTabs = () => {
           {oneYear ? (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
-                <h6>
-                  Understand the best practices for the finance sector.
-                </h6>
+                <h6>Understand the best practices for the finance sector.</h6>
                 <p className={styles.para}>
-                  Work on real-time projects using live data from companies like J.P Morgan, HDFC, etc for building recommendation systems, handling chatbots, and upcoming stock market prediction.
+                  Work on real-time projects using live data from companies like
+                  J.P Morgan, HDFC, etc for building recommendation systems,
+                  handling chatbots, and upcoming stock market prediction.
                 </p>
                 <div className={styles.info}>
                   <div className={styles.left}>
@@ -86,7 +82,11 @@ const SliderTabs = () => {
               </div>
 
               <div className={styles.right}>
-                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Bnking domain.png" width="350" height="350" />
+                <Image
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/BFSI+v.png"
+                  width="350"
+                  height="350"
+                />
               </div>
             </div>
           ) : (
@@ -111,9 +111,7 @@ const SliderTabs = () => {
           {nonTech ? (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
-                <h6>
-                  Know data-driven consumer and market insights.
-                </h6>
+                <h6>Know data-driven consumer and market insights.</h6>
                 <p className={styles.para}>
                   You will be wholly involved with the essential functional
                   aspects of a business, management, Operations, Finance, and
@@ -131,7 +129,11 @@ const SliderTabs = () => {
                 </div>
               </div>
               <div className={styles.right}>
-                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/gobal-industry.webp" width="296" height="345" />
+                <Image
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/gobal-industry.webp"
+                  width="296"
+                  height="345"
+                />
               </div>
             </div>
           ) : (
@@ -174,10 +176,13 @@ const SliderTabs = () => {
                     <p>Recognized Certificate</p>
                   </div>
                 </div>
-
               </div>
               <div className={styles.right} style={{ paddingBottom: "40px" }}>
-                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Healthcare-domain.webp" width="351" height="332" />
+                <Image
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Healthcare-domain.webp"
+                  width="351"
+                  height="332"
+                />
               </div>
             </div>
           ) : (
@@ -205,7 +210,8 @@ const SliderTabs = () => {
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-                  Gain a deeper understanding of business requirements and it's functionalities.
+                  Gain a deeper understanding of business requirements and it's
+                  functionalities.
                 </h6>
                 <p className={styles.para}>
                   With enhanced supply chain management and customer services,
@@ -222,11 +228,10 @@ const SliderTabs = () => {
                     <p> From IBM</p>
                   </div>
                 </div>
-
               </div>
               <div className={styles.right}>
                 <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Retail-domain.webp"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/retail+%26+E-commerce.png"
                   width="314"
                   height="360"
                   layout="intrinsic"
@@ -255,9 +260,7 @@ const SliderTabs = () => {
           {Guarantee ? (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
-                <h6>
-                  Work on projects implemented for business growth.
-                </h6>
+                <h6>Work on projects implemented for business growth.</h6>
                 <p className={styles.para}>
                   Earn a better insight into areas like personalized marketing,
                   real-time analytics, revenue management, booking engines,
@@ -274,7 +277,6 @@ const SliderTabs = () => {
                     <p>Doubt Session</p>
                   </div>
                 </div>
-
               </div>
               <div className={styles.right}>
                 <Image
@@ -308,7 +310,8 @@ const SliderTabs = () => {
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-                  Study about applications of DS & AI is applicable in Manufacturing & Automotive.
+                  Study about applications of DS & AI is applicable in
+                  Manufacturing & Automotive.
                 </h6>
                 <p className={styles.para}>
                   A deeper understanding of the manufacturing and
@@ -326,7 +329,6 @@ const SliderTabs = () => {
                     <p> Certification</p>
                   </div>
                 </div>
-
               </div>
               <div className={styles.right}>
                 <Image
@@ -377,11 +379,10 @@ const SliderTabs = () => {
                     <p>Doubt Session</p>
                   </div>
                 </div>
-
               </div>
               <div className={styles.right}>
                 <img
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/oil-gas.webp"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/oil+%26+Gas+eng.png"
                   width="568"
                   height="412"
                   layout="intrinsic"
@@ -396,11 +397,11 @@ const SliderTabs = () => {
           {oneYear ? (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
-                <h6>
-                  Understand the best practices for the finance sector.
-                </h6>
+                <h6>Understand the best practices for the finance sector.</h6>
                 <p className={styles.para}>
-                  Work on real-time projects using live data from companies like J.P Morgan, HDFC, etc for building recommendation systems, handling chatbots, and upcoming stock market prediction.
+                  Work on real-time projects using live data from companies like
+                  J.P Morgan, HDFC, etc for building recommendation systems,
+                  handling chatbots, and upcoming stock market prediction.
                 </p>
                 <div className={styles.info}>
                   <div className={styles.left}>
@@ -412,11 +413,14 @@ const SliderTabs = () => {
                     <p>Trusted Learners</p>
                   </div>
                 </div>
-
               </div>
 
               <div className={styles.right}>
-                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Bnking domain.png" width="350" height="350" />
+                <Image
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/BFSI+v.png"
+                  width="350"
+                  height="350"
+                />
               </div>
             </div>
           ) : (
@@ -425,9 +429,7 @@ const SliderTabs = () => {
           {nonTech ? (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
-                <h6>
-                  Know data-driven consumer and market insights.
-                </h6>
+                <h6>Know data-driven consumer and market insights.</h6>
                 <p className={styles.para}>
                   You will be wholly involved with the essential functional
                   aspects of a business, management, Operations, Finance, and
@@ -443,10 +445,13 @@ const SliderTabs = () => {
                     <p>Accreditation</p>
                   </div>
                 </div>
-
               </div>
               <div className={styles.right}>
-                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/gobal-industry.webp" width="296" height="345" />
+                <Image
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/gobal-industry.webp"
+                  width="296"
+                  height="345"
+                />
               </div>
             </div>
           ) : (
@@ -455,9 +460,7 @@ const SliderTabs = () => {
           {Guarantee ? (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
-                <h6>
-                  Work on projects implemented for business growth.
-                </h6>
+                <h6>Work on projects implemented for business growth.</h6>
                 <p className={styles.para}>
                   Earn a better insight into areas like personalized marketing,
                   real-time analytics, revenue management, booking engines,
@@ -474,7 +477,6 @@ const SliderTabs = () => {
                     <p>Doubt Session</p>
                   </div>
                 </div>
-
               </div>
               <div className={styles.right}>
                 <Image
@@ -509,10 +511,13 @@ const SliderTabs = () => {
                     <p>Recognized Certificate</p>
                   </div>
                 </div>
-
               </div>
               <div className={styles.right} style={{ paddingBottom: "40px" }}>
-                <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Healthcare-domain.webp" width="351" height="332" />
+                <Image
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Healthcare-domain.webp"
+                  width="351"
+                  height="332"
+                />
               </div>
             </div>
           ) : (
@@ -522,7 +527,8 @@ const SliderTabs = () => {
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-                  Study about applications of DS & AI is applicable in Manufacturing & Automotive.
+                  Study about applications of DS & AI is applicable in
+                  Manufacturing & Automotive.
                 </h6>
                 <p className={styles.para}>
                   A deeper understanding of the manufacturing and
@@ -540,7 +546,6 @@ const SliderTabs = () => {
                     <p> Certification</p>
                   </div>
                 </div>
-
               </div>
               <div className={styles.right}>
                 <Image
@@ -557,7 +562,8 @@ const SliderTabs = () => {
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <h6>
-                  Gain a deeper understanding of business requirements and it's functionalities.
+                  Gain a deeper understanding of business requirements and it's
+                  functionalities.
                 </h6>
                 <p className={styles.para}>
                   With enhanced supply chain management and customer services,
@@ -574,11 +580,10 @@ const SliderTabs = () => {
                     <p> From IBM</p>
                   </div>
                 </div>
-
               </div>
               <div className={styles.right}>
                 <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Retail-domain.webp"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/retail+%26+E-commerce.png"
                   width="314"
                   height="360"
                   layout="intrinsic"
@@ -610,11 +615,10 @@ const SliderTabs = () => {
                     <p>Doubt Session</p>
                   </div>
                 </div>
-
               </div>
               <div className={styles.right}>
                 <img
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/oil-gas.webp"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/oil+%26+Gas+eng.png"
                   width="568"
                   height="412"
                   layout="intrinsic"

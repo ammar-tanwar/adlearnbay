@@ -83,7 +83,7 @@ const SliderTabs = () => {
 
               <div className={styles.right}>
                 <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Bnking domain.png"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/BFSI+v.png"
                   width="350"
                   height="350"
                 />
@@ -231,7 +231,7 @@ const SliderTabs = () => {
               </div>
               <div className={styles.right}>
                 <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Retail-domain.webp"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/retail+%26+E-commerce.png"
                   width="314"
                   height="360"
                   layout="intrinsic"
@@ -382,7 +382,7 @@ const SliderTabs = () => {
               </div>
               <div className={styles.right}>
                 <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/oil-gas.webp"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/oil+%26+Gas+eng.png"
                   width="568"
                   height="412"
                   layout="intrinsic"
@@ -417,7 +417,7 @@ const SliderTabs = () => {
 
               <div className={styles.right}>
                 <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Bnking domain.png"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/BFSI+v.png"
                   width="350"
                   height="350"
                 />
@@ -583,7 +583,7 @@ const SliderTabs = () => {
               </div>
               <div className={styles.right}>
                 <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Retail-domain.webp"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/retail+%26+E-commerce.png"
                   width="314"
                   height="360"
                   layout="intrinsic"
@@ -618,7 +618,7 @@ const SliderTabs = () => {
               </div>
               <div className={styles.right}>
                 <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/oil-gas.webp"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/oil+%26+Gas+eng.png"
                   width="568"
                   height="412"
                   layout="intrinsic"

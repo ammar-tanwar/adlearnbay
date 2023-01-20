@@ -119,12 +119,14 @@ const HeroSection = ({
         </div>
         <div className={styles.bottom}>
           <div className={styles.leftBottom}>
-            <Image
+            {/* <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/review-course-round.jpg"
               width={mobile ? 180 : 261}
               height={mobile ? 46.2 : 67}
               layout="intrinsic"
-            />
+            /> */}
+            <h5>250+ </h5>
+            <p>Hiring Partner</p>
           </div>
           <div className={styles.rightBottom}>
             <h5>10k Successful</h5>

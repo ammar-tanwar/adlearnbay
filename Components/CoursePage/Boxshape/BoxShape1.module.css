@@ -163,12 +163,14 @@
     gap: 10px;
   }
   .profile h5 {
-    margin: 0ch;
+    margin: 0;
     font-size: 24px;
+    text-align: left;
   }
   .profile p {
     margin: 0;
     color: #0072bc;
+    text-align: left;
   }
   .shadow {
     border: 0.6px solid #ffffff;
