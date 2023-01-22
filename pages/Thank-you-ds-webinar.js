@@ -46,7 +46,7 @@ const ThankYouFsd = ({ initialName }) => {
             <div className={styles.mainb}>
               <div>
                 <button className={styles.Button}>
-                  <a href="https://zoom.us/meeting/register/tJcvc-upqzgpGt3VrxVraaUrNc5Er5ETQ_EV">
+                  <a href="https://zoom.us/webinar/register/WN_P2vOjgyeRuGUiWaflTYDDQ">
                     Get Zoom Link
                   </a>
                 </button>
