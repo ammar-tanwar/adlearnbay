@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from "react";
 import Head from "next/head";
-import { EventHeader } from "../../Components/Event/EventHeader/EventHeader";
+import { EventHeader } from "../../Components/WebinarPage/EventHeaderFSD/EventHeader";
 import styles from "../../styles/DataScienceEvent.module.css";
-import { FiUserCheck } from "react-icons/fi";
-import EventFeature from "../../Components/Event/EventFeatures/EventFeature";
+import EventFeature from "../../Components/WebinarPage/EventFeatures/EventFeature";
 import { getAllPostIds, getPostData } from "../../lib/event";
 import Navbar from "../../Components/Navbar/Navbar";
-import FormOtp from "../../Components/FormOtp/FormOtp";
+import FormOtp from "../../Components/WebinarPage/FormOtp/FormOtp";
 import Footer from "../../Components/Event/EventFooter/Footer";
-
+import { FaHeart, FaUserFriends } from "react-icons/fa";
 
 export default function DataScienceEvent({ eventData, formotp }) {
   const [mobile, setMobile] = useState(false);
@@ -26,41 +25,37 @@ export default function DataScienceEvent({ eventData, formotp }) {
       setMobile(false);
     }
   }, [mobile]);
-  
+
   return (
     <div className={styles.container}>
       <Head>
         <title>{eventData.data.metaInfo.title}</title>
         <meta name="description" content={eventData.data.metaInfo.desc} />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
         <link rel="canonical" href="https://www.learnbay.co/event" />
       </Head>
-      <Navbar event={true} eventDateInfo={eventDateInfo} formotp= {true}/>
+      <Navbar event={true} eventDateInfo={eventDateInfo} formotp={true} />
       <div>
-        <EventHeader formotp= {true}
-        deskimg={eventData.data.headImg.deskimg}
-        mobimg={eventData.data.headImg.mobimg}
+        <EventHeader
+          formotp={true}
+          deskimg={eventData.data.headImg.deskimg}
+          mobimg={eventData.data.headImg.mobimg}
         />
       </div>
- 
 
-      <div className={today >= eventDateInfo ? styles.Pages : styles.Page2}>
-
+      <div className={today >= eventDateInfo ? styles.PagesD : styles.Page21}>
         <div>
           <div className={styles.left}>
-            <div className={styles.prgrmFeature} >
-              <EventFeature event={true}
-                props={eventData.data.eventDeatureData}
-                title={eventData.data.feature.title}
-                h1={eventData.data.feature.h1}
-                h2={eventData.data.feature.h2}
-                h3={eventData.data.feature.h3}
-                p1={eventData.data.feature.p1}
-                p2={eventData.data.feature.p2}
-                p3={eventData.data.feature.p3}
-                img1={eventData.data.feature.img1}
-                img2={eventData.data.feature.img2}
-                img3={eventData.data.feature.img3}
+            <div className={styles.prgrmFeature}>
+              <EventFeature
+                domainDataD={true}
+                reviewsDataD={true}
+                event={true}
+                formotp={true} 
+                data={eventData.data.eventFeatureData}
                 eventDateInfo={eventDateInfo}
               />
             </div>
@@ -70,16 +65,33 @@ export default function DataScienceEvent({ eventData, formotp }) {
           {today >= eventDateInfo ? (
             ""
           ) : (
-            <div className={styles.right}>
-              <section className={styles.form}>
-                <div className={styles.header}>
+            <div className={styles.rightDomain}>
+              <section className={styles.formDomain}>
+                <div className={styles.headerDomain}>
                   <h3>Register NOW!</h3>
-                  <p>
-                    <FiUserCheck className={styles.Icon} />
-                    {eventData.data.header.register}
+                </div>
+                <FormOtp
+                  event={true}
+                  formotp={true} 
+                  jobDescription={true}
+                  workExperience={true}
+                />
+                <div className={styles.iconsRegister}>
+                  <p className={styles.iconsRegisterp}>
+                    <FaUserFriends
+                      className={styles.IconDomain}
+                      style={{ color: "#EDBB52" }}
+                    />
+                    {eventData.data.mainData.register}
+                  </p>
+                  <p className={styles.iconsRegisterp}>
+                    <FaHeart
+                      className={styles.IconDomain}
+                      style={{ color: "red" }}
+                    />
+                    {eventData.data.mainData.likes}
                   </p>
                 </div>
-                <FormOtp event={true} formotp= {true} jobDescription={true} workExperience={true}/>
               </section>
             </div>
           )}

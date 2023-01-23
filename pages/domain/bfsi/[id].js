@@ -1,17 +1,15 @@
 import React, { useEffect, useState } from "react";
 import Head from "next/head";
-import { EventHeader } from "../../../Components/DomainPage/EventHeader/EventHeader";
+import { EventHeader } from "../../../Components/WebinarPage/EventHeader/EventHeader";
 import styles from "../../../styles/DataScienceEvent.module.css";
-import EventFeature from "../../../Components/DomainPage/EventFeatures/EventFeature";
+import EventFeature from "../../../Components/WebinarPage/EventFeatures/EventFeature";
 import { getAllPostIds, getPostData } from "../../../lib/domain";
 import Navbar from "../../../Components/Navbar/Navbar";
-import FormOtp from "../../../Components/DomainPage/FormOtp/FormOtp";
-import Footer from "../../../Components/DomainPage/EventFooter/Footer";
+import FormOtp from "../../../Components/WebinarPage/FormOtp/FormOtp";
+import Footer from "../../../Components/WebinarPage/EventFooter/Footer";
 import { FaHeart, FaUserFriends } from "react-icons/fa";
 
-
 export default function DataScienceEvent({ eventData }) {
-
   const [mobile, setMobile] = useState(false);
   let today = new Date();
   let eventDateInfo = new Date(eventData.data.mainData.eventDate);
@@ -31,12 +29,21 @@ export default function DataScienceEvent({ eventData }) {
       <Head>
         <title>{eventData.data.metaInfo.title}</title>
         <meta name="description" content={eventData.data.metaInfo.desc} />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
         <link rel="canonical" href="https://www.learnbay.co/event" />
       </Head>
-      <Navbar domain={true} eventDateInfo={eventDateInfo} formotp={true} domainOTPForm={true} />
+      <Navbar
+        domain={true}
+        eventDateInfo={eventDateInfo}
+        formotp={true}
+        domainOTPForm={true}
+      />
       <div>
-        <EventHeader formotp={true}
+        <EventHeader
+          formotp={true}
           deskimg={eventData.data.headImg.deskimg}
           mobimg={eventData.data.headImg.mobimg}
         />
@@ -44,8 +51,9 @@ export default function DataScienceEvent({ eventData }) {
       <div className={today >= eventDateInfo ? styles.PagesD : styles.Page21}>
         <div>
           <div className={styles.left}>
-            <div className={styles.prgrmFeature} >
-              <EventFeature event={true}
+            <div className={styles.prgrmFeature}>
+              <EventFeature eventDataD={true}
+                                  domain={true}
                 data={eventData.data.eventFeatureData}
                 eventDateInfo={eventDateInfo}
               />
@@ -61,14 +69,25 @@ export default function DataScienceEvent({ eventData }) {
                 <div className={styles.headerDomain}>
                   <h3>Register NOW!</h3>
                 </div>
-                <FormOtp domain={true} formotp={true} jobDescription={true} workExperience={true} />
+                <FormOtp
+                  domain={true}
+                  formotp={true}
+                  jobDescription={true}
+                  workExperience={true}
+                />
                 <div className={styles.iconsRegister}>
                   <p className={styles.iconsRegisterp}>
-                    <FaUserFriends className={styles.IconDomain} style={{ color: "#EDBB52" }} />
+                    <FaUserFriends
+                      className={styles.IconDomain}
+                      style={{ color: "#EDBB52" }}
+                    />
                     {eventData.data.mainData.register}
                   </p>
                   <p className={styles.iconsRegisterp}>
-                    <FaHeart className={styles.IconDomain} style={{ color: "red" }} />
+                    <FaHeart
+                      className={styles.IconDomain}
+                      style={{ color: "red" }}
+                    />
                     {eventData.data.mainData.likes}
                   </p>
                 </div>

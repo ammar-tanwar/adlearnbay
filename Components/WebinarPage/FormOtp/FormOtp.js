@@ -17,6 +17,7 @@ function FormOtp({
   eventRadio,
   QuesMean,
   jobTitle,
+  event,
 }) {
   const router = useRouter();
   const [btnHide, setBtnHide] = useState(false);
@@ -144,8 +145,17 @@ function FormOtp({
     // -==================== Webinar = END POINT ==========================--------
   }
 
+  if (event) {
+    // -==================== Webinar =  END POINT ==========================--------
+    endPoint = "https://getform.io/f/df003555-86c7-4ae5-a7f8-98c21dd9ad92";
+    // -==================== Webinar = END POINT ==========================--------
+  }
+
   let btnTxt = "Apply for  Counseliing";
   if (domain) {
+    btnTxt = "Register Now";
+  }
+  if (event) {
     btnTxt = "Register Now";
   }
 
@@ -236,6 +246,9 @@ function FormOtp({
         setDisable(true);
         if (domain) {
           router.push("/Thank-you-ds-webinar");
+        }
+        if (event) {
+          router.push("/Thank-you-fsd-webinar");
         }
         if (
           (router.pathname === "/fssd" && downloadBrochure) ||

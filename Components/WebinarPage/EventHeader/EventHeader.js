@@ -128,7 +128,7 @@ export const EventHeader = ({ deskimg, mobimg }) => {
                 <FaCalendarAlt className={styles.iconOrange} />
                 <div className={styles.Text}>
                   <p className={styles.firstText}>26th Jan</p>
-                  <p className={styles.secondText}>Wednesday</p>
+                  <p className={styles.secondText}>Thursday</p>
                 </div>
               </div>
               <div className={styles.imgText}>
