@@ -363,6 +363,10 @@ function FormOtp({
             router.push("/Thank-you-ds-webinar");
           }
 
+          if (event) {
+            router.push("/Thank-you-fsd-webinar");
+          }
+
           // console.log("@@@@@@@CHECKCHCECE")
           if (
             (router.pathname === "/fssd" && downloadBrochure) ||

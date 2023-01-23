@@ -21,16 +21,15 @@
   "eventFeatureData": {
     "heading1": "About this Masterclass",
     "aboutThisMasterclass": [
-      "Are you hungry for some knowledge about the high-level design of food delivery apps? Look no further!",
-      "In this webinar, we'll delve into the delicious details of how apps like Swiggy and Zomato manage to bring your favourite meals straight to your door. From coordinating complex delivery logistics to satisfying your cravings in a snap, we'll explore the technology that made these apps highly successful."
+      "Understanding the time and space complexity of algorithms is crucial for designing efficient and scalable software. However, many developers struggle with analyzing and optimizing the performance of their code, leading them to come up with below-average solutions.",
+      "This Masterclass will provide a comprehensive introduction to time and space complexity analysis in the context of data structures and algorithms. Through hands-on exercises and real-world examples, participants will learn how to measure and improve the performance of their code."
     ],
 
     "heading2": "Topics covered in this Masterclass",
     "topicsCoveredMasterclass": [
-      "Understand the design & functionality of a food delivery app",
-      "Study the use of data flow diagrams for an online food ordering system",
-      "Familiarize yourself with real-time database management systems & NoSQL",
-      "Learn techniques for scaling a system to accommodate millions of users"
+      "Time Complexity Analysis of Algorithms ",
+      "Asymptotic Analysis & Asymptotic Notations",
+      "Recurrence Relations and Master Theorem"
     ],
 
     "speakerName": "Nikhil",
@@ -46,9 +45,9 @@
     "heading3": "This Masterclass is for",
 
     "topicsMasterclass": [
-      "SDEs Seeking Upskilling",
-      "SDEs Wishing to convert to product companies from Service companies",
-      "SDEs wanting to learn System Design"
+      "SDEs looking to upskill",
+      "SDEs wishing to convert to product companies from service companies",
+      "SDEs wanting to learn Data Structures and Algorithms"
     ],
 
     "heading4": "What our Learners have to say",
@@ -56,7 +55,7 @@
     "heading5": "About Learnbay Academy",
     "aboutLearnbay": [
       "Welcome to Learnbay!",
-      "We are a leading provider of specialized courses in Data Structures and System Design in our Full Stack Software Development Program. We are dedicated to helping working professionals advance their careers and gain the technical expertise needed to succeed in the fast-paced world of technology."
+      "We are a leading provider of specialized courses in data science, data analytics, artificial intelligence and full-stack software development. We are dedicated to helping working professionals advance their careers and gain the technical expertise needed to succeed in the fast-paced world of technology."
     ],
     "aboutLearnbayHeading": "Some of our standout features include: ",
     "standoutFeatures": [
