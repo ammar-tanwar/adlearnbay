@@ -1,26 +1,31 @@
 import React, { useState, useEffect } from "react";
 import styles from "./EventFeature.module.css";
 import Image from "next/image";
-import Reviews from "../../DomainPage/CareerImpactHome/CareerImpact";
+import Reviews from "../../WebinarPage/CareerImpactHome/CareerImpact";
+import ReviewsFSD from "../../WebinarPage/CareerImpactHomeFSD/CareerImpact";
 import Popup from "../../Popup/Popup";
-import { FaArrowRight, FaCheck, FaUserGraduate, FaUserTie, FaLaptopCode } from "react-icons/fa";
-import { GiReceiveMoney } from "react-icons/gi"
-import { HiIdentification, HiOutlineBadgeCheck } from "react-icons/hi"
-import { MdAltRoute, MdAnalytics, MdLiveTv } from "react-icons/md"
-import FormOtp from "../../DomainPage/FormOtp/FormOtp";
+import {
+  FaArrowRight,
+  FaCheck,
+  FaUserGraduate,
+  FaUserTie,
+  FaLaptopCode,
+} from "react-icons/fa";
+import { GiReceiveMoney } from "react-icons/gi";
+import { HiIdentification, HiOutlineBadgeCheck } from "react-icons/hi";
+import { MdAltRoute, MdAnalytics, MdLiveTv } from "react-icons/md";
+import {BiCodeBlock} from "react-icons/bi";
+import FormOtp from "../../WebinarPage/FormOtp/FormOtp";
 
-const EventFeature = ({
-  data,
-  eventDateInfo,
-}) => {
-
+const EventFeature = ({ data, eventDateInfo, eventDataD, domainDataD, reviewsDataD, event, domain }) => {
   const [eventData, setEventData] = useState({
     aboutThisMasterclass: data.aboutThisMasterclass,
+    topicsMasterclass: data.topicsMasterclass,
     topicsCoveredMasterclass: data.topicsCoveredMasterclass,
     aboutLearnbay: data.aboutLearnbay,
     standoutFeatures: data.standoutFeatures,
-    standoutFeaturesLastHead: data.standoutFeaturesLastHead
-  })
+    standoutFeaturesLastHead: data.standoutFeaturesLastHead,
+  });
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
 
@@ -35,11 +40,8 @@ const EventFeature = ({
     setShow(!show);
   };
 
-
-
   return (
     <div className={styles.eFeature}>
-
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
         <div className="leftPopup">
           <div className="whiteP" />
@@ -47,11 +49,11 @@ const EventFeature = ({
         <div className="RightPopup">
           <h5> Register NOW! </h5>
           <FormOtp
-            event={true}
+            event={event}
             formotp={true}
             jobDescription={true}
             workExperience={true}
-            domain={true}
+            domain={domain}
           />
         </div>
       </Popup>
@@ -68,9 +70,8 @@ const EventFeature = ({
         />
 
         {eventData.aboutThisMasterclass.map((value, i) => {
-          return (<p key={i}>{value}</p>)
+          return <p key={i}>{value}</p>;
         })}
-
       </div>
       <div className={styles.topicCover}>
         <p className={styles.paragramTitle}>{data.heading2}</p>
@@ -87,15 +88,13 @@ const EventFeature = ({
             return (
               <div className={styles.iconDiv} key={i}>
                 <FaCheck className={styles.icon} />{" "}
-                <p className={styles.iconPs} >{value}</p>
+                <p className={styles.iconPs}>{value}</p>
               </div>
-            )
+            );
           })}
-
         </div>
       </div>
       <div>
-
         <div className={styles.centerBtn}>
           {today >= eventDateInfo ? (
             ""
@@ -135,38 +134,64 @@ const EventFeature = ({
           </div>
         </div>
       </div>
-
-      <div className={styles.master}>
-        <p className={styles.paragramTitle}>{data.heading3}</p>
-        <div className={styles.TopMargin}>
-          <div className={styles.iconP}>
-            <FaUserTie className={styles.iconG} />
-            <p>{data.masterclassForHeading1}</p>
-          </div>
-          <div className={styles.iconP}>
-            <GiReceiveMoney className={styles.iconG} />
-            <p>{data.masterclassForHeading2}</p>
-          </div>
-          <div className={styles.iconP}>
-            <HiIdentification className={styles.iconG} />
-            <p>{data.masterclassForHeading3}</p>
-          </div>
-          <div className={styles.iconP}>
-            <MdAltRoute className={styles.iconG} />
-            <p>{data.masterclassForHeading4}</p>
-          </div>
-          <div className={styles.iconP}>
-            <MdAnalytics className={styles.iconG} />
-            <p>{data.masterclassForHeading5}</p>
+      {domainDataD ? (
+        ""
+      ) : (
+        <div className={styles.master}>
+          <p className={styles.paragramTitle}>{data.heading3}</p>
+          <div className={styles.TopMargin}>
+            <div className={styles.iconP}>
+              <FaUserTie className={styles.iconG} />
+              <p>{data.masterclassForHeading1}</p>
+            </div>
+            <div className={styles.iconP}>
+              <GiReceiveMoney className={styles.iconG} />
+              <p>{data.masterclassForHeading2}</p>
+            </div>
+            <div className={styles.iconP}>
+              <HiIdentification className={styles.iconG} />
+              <p>{data.masterclassForHeading3}</p>
+            </div>
+            <div className={styles.iconP}>
+              <MdAltRoute className={styles.iconG} />
+              <p>{data.masterclassForHeading4}</p>
+            </div>
+            <div className={styles.iconP}>
+              <MdAnalytics className={styles.iconG} />
+              <p>{data.masterclassForHeading5}</p>
+            </div>
           </div>
         </div>
-      </div>
+      )}
 
+      {eventDataD ? (
+        ""
+      ) : (
+        <div className={styles.master}>
+        <p className={styles.paragramTitle}>{data.heading3}</p>
+        <div className={styles.TopMargin}>
+        <div className={styles.iconList}>
+          {eventData.topicsMasterclass.map((value, i) => {
+            return (
+              <div className={styles.iconDiv} key={i}>
+                <FaArrowRight className={styles.icon} />{" "}
+                <p className={styles.iconPs}>{value}</p>
+              </div>
+            );
+          })}
+        </div>
+        </div>
+        </div>
+      )}
 
       <div id="About">
         <p className={styles.paragramTitleReview}>{data.heading4}</p>
         <div className={styles.eReview}>
+        {reviewsDataD ? (
+ <ReviewsFSD redirectFs={true} />
+      ) : (
           <Reviews redirectFs={true} />
+      )}
         </div>
       </div>
       <div>
@@ -181,7 +206,7 @@ const EventFeature = ({
           alt="backImg"
         />
         {eventData.aboutLearnbay.map((value, i) => {
-          return (<p key={i}>{value}</p>)
+          return <p key={i}>{value}</p>;
         })}
 
         <p className={styles.paragramTitlestrong}>
@@ -197,11 +222,11 @@ const EventFeature = ({
         />
         <ul className={styles.listMargin}>
           {eventData.standoutFeatures.map((value, i) => {
-            return (<li key={i}>{value}</li>)
+            return <li key={i}>{value}</li>;
           })}
         </ul>
         {eventData.standoutFeaturesLastHead.map((value, i) => {
-          return (<p key={i}>{value}</p>)
+          return <p key={i}>{value}</p>;
         })}
       </div>
       <div>
@@ -215,7 +240,6 @@ const EventFeature = ({
             </button>
           )}
         </div>
-
       </div>
 
       <div style={{ margin: "15px 0px" }}>
@@ -238,7 +262,6 @@ const EventFeature = ({
           </div>
         </div>
       </div>
-
     </div>
   );
 };

@@ -7,7 +7,7 @@ import FormOtp from "../FormOtp/FormOtp";
 import Form from "../Event/Form/Form";
 import { useRouter } from "next/router";
 
-import FormOtpDoamin from "../DomainPage/FormOtp/FormOtp";
+import FormOtpDoamin from "../WebinarPage/FormOtp/FormOtp";
 
 const Navbar = ({
   radio,
