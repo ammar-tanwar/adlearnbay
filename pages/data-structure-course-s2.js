@@ -8,7 +8,7 @@ import Navbar from "../Components/CoursePage/Navbar/Navbar";
 import Form from "../Components/Form/Form";
 import Project from "../Components/CoursePage/Projectfswd/Project";
 import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
-import { DataStructureAlgorithmData } from "../Data/DataStructureAlgorithm";
+import { DataStructureCourseData } from "../Data/DataStructureAlgorithm";
 import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
 import CourseReview from "../Components/CoursePage/CourseReviewdsas/CourseReview";
 import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupportfsd";
@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Data Structure Course Syllabus and DSA Training 2023</title>
+        <title>Data Structure Course Syllabus and DSA Training 2022</title>
         <meta
           name="description"
           content="Best way to learn Data Structures and Algorithms with System Design Course Online, mastering any one coding skill - Interaction in limited batch, No Cost EMI."
@@ -37,17 +37,40 @@ export default function Home() {
         />
         <script
           dangerouslySetInnerHTML={{
-            __html: `
-            var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-            (function(){
-            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-            s1.async=true;
-            s1.src='https://embed.tawk.to/6229dde31ffac05b1d7de6c4/1ftpolgri';
-            s1.charset='UTF-8';
-            s1.setAttribute('crossorigin','*');
-            s0.parentNode.insertBefore(s1,s0);
-            })();
-            `,
+            __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = url;
+                var options = {
+                "enabled":true,
+                "chatButtonSetting":{
+                  "backgroundColor":"#4dc247",
+                  "ctaText":"",
+                  "borderRadius":"10",
+                  "marginLeft":"0",
+                  "marginBottom":"30",
+                  "marginRight":"30",
+                  "position":"right"
+                },
+                "brandSetting":{
+                  "brandName":"Learnbay",
+                  "brandSubTitle":"The Learner's Path",
+                  "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
+                  "welcomeText":"Hi there! How can I help you?",
+                  "messageText":"Hello, I have a question about {{page_link}}",
+                  "backgroundColor":"#0a5f54",
+                  "ctaText":"Start Chat",
+                  "borderRadius":"25", 
+                  "autoShow":false,
+                  "phoneNumber":"+919731135221"
+                }
+                };
+                s.onload = function() {
+                    CreateWhatsappChatWidget(options);
+                };
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);`,
           }}
         />
     
@@ -66,117 +89,117 @@ export default function Home() {
         </Popup>
         <FirstSection
           formotp={true}
-          deskTopPara={DataStructureAlgorithmData[0].FirstSection.deskTopPara}
-          mTopPara={DataStructureAlgorithmData[0].FirstSection.mTopPara}
-          mTitle={DataStructureAlgorithmData[0].FirstSection.mTitle}
+          deskTopPara={DataStructureCourseData[0].FirstSection.deskTopPara}
+          mTopPara={DataStructureCourseData[0].FirstSection.mTopPara}
+          mTitle={DataStructureCourseData[0].FirstSection.mTitle}
           spanMTitleText={
-            DataStructureAlgorithmData[0].FirstSection.spanMTitleText
+            DataStructureCourseData[0].FirstSection.spanMTitleText
           }
-          title={DataStructureAlgorithmData[0].FirstSection.title}
+          title={DataStructureCourseData[0].FirstSection.title}
           spanTitleText={
-            DataStructureAlgorithmData[0].FirstSection.spanTitleText
+            DataStructureCourseData[0].FirstSection.spanTitleText
           }
-          desc={DataStructureAlgorithmData[0].FirstSection.desc}
-          src={DataStructureAlgorithmData[0].FirstSection.src}
-          width={DataStructureAlgorithmData[0].FirstSection.width}
-          height={DataStructureAlgorithmData[0].FirstSection.height}
-          alt={DataStructureAlgorithmData[0].FirstSection.alt}
-          srcD={DataStructureAlgorithmData[0].FirstSection.srcD}
+          desc={DataStructureCourseData[0].FirstSection.desc}
+          src={DataStructureCourseData[0].FirstSection.src}
+          width={DataStructureCourseData[0].FirstSection.width}
+          height={DataStructureCourseData[0].FirstSection.height}
+          alt={DataStructureCourseData[0].FirstSection.alt}
+          srcD={DataStructureCourseData[0].FirstSection.srcD}
         />
         <div className={styles.program}>
           <ProgramInfo
-            p1={DataStructureAlgorithmData[0].ProgramInfo.p1}
-            p11={DataStructureAlgorithmData[0].ProgramInfo.p11}
-            p2={DataStructureAlgorithmData[0].ProgramInfo.p2}
-            p22={DataStructureAlgorithmData[0].ProgramInfo.p22}
-            p3={DataStructureAlgorithmData[0].ProgramInfo.p3}
-            p33={DataStructureAlgorithmData[0].ProgramInfo.p33}
-            p4={DataStructureAlgorithmData[0].ProgramInfo.p4}
-            p44={DataStructureAlgorithmData[0].ProgramInfo.p44}
+            p1={DataStructureCourseData[0].ProgramInfo.p1}
+            p11={DataStructureCourseData[0].ProgramInfo.p11}
+            p2={DataStructureCourseData[0].ProgramInfo.p2}
+            p22={DataStructureCourseData[0].ProgramInfo.p22}
+            p3={DataStructureCourseData[0].ProgramInfo.p3}
+            p33={DataStructureCourseData[0].ProgramInfo.p33}
+            p4={DataStructureCourseData[0].ProgramInfo.p4}
+            p44={DataStructureCourseData[0].ProgramInfo.p44}
           />
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
-            title={DataStructureAlgorithmData[0].BoxShape.title}
-            Box1h5={DataStructureAlgorithmData[0].BoxShape.Box1h5}
-            box1desc={DataStructureAlgorithmData[0].BoxShape.box1desc}
-            Box2h5={DataStructureAlgorithmData[0].BoxShape.Box2h5}
-            box2desc={DataStructureAlgorithmData[0].BoxShape.box2desc}
-            Box3h5={DataStructureAlgorithmData[0].BoxShape.Box3h5}
-            box3desc={DataStructureAlgorithmData[0].BoxShape.box3desc}
-            Box4h5={DataStructureAlgorithmData[0].BoxShape.Box4h5}
-            box4desc={DataStructureAlgorithmData[0].BoxShape.box4desc}
-            headh5={DataStructureAlgorithmData[0].BoxShape.headh5}
+            title={DataStructureCourseData[0].BoxShape.title}
+            Box1h5={DataStructureCourseData[0].BoxShape.Box1h5}
+            box1desc={DataStructureCourseData[0].BoxShape.box1desc}
+            Box2h5={DataStructureCourseData[0].BoxShape.Box2h5}
+            box2desc={DataStructureCourseData[0].BoxShape.box2desc}
+            Box3h5={DataStructureCourseData[0].BoxShape.Box3h5}
+            box3desc={DataStructureCourseData[0].BoxShape.box3desc}
+            Box4h5={DataStructureCourseData[0].BoxShape.Box4h5}
+            box4desc={DataStructureCourseData[0].BoxShape.box4desc}
+            headh5={DataStructureCourseData[0].BoxShape.headh5}
           />
         </div>
         <div className={styles.Feature} id="Feature">
           <BoxShape1
             formotp={true}
-            title={DataStructureAlgorithmData[0].BoxShape1.title}
-            Box1h5={DataStructureAlgorithmData[0].BoxShape1.Box1h5}
-            box1desc={DataStructureAlgorithmData[0].BoxShape1.box1desc}
-            Box2h5={DataStructureAlgorithmData[0].BoxShape1.Box2h5}
-            box2desc={DataStructureAlgorithmData[0].BoxShape1.box2desc}
-            Box3h5={DataStructureAlgorithmData[0].BoxShape1.Box3h5}
-            box3desc={DataStructureAlgorithmData[0].BoxShape1.box3desc}
-            Box4h5={DataStructureAlgorithmData[0].BoxShape1.Box4h5}
-            box4desc={DataStructureAlgorithmData[0].BoxShape1.box4desc}
+            title={DataStructureCourseData[0].BoxShape1.title}
+            Box1h5={DataStructureCourseData[0].BoxShape1.Box1h5}
+            box1desc={DataStructureCourseData[0].BoxShape1.box1desc}
+            Box2h5={DataStructureCourseData[0].BoxShape1.Box2h5}
+            box2desc={DataStructureCourseData[0].BoxShape1.box2desc}
+            Box3h5={DataStructureCourseData[0].BoxShape1.Box3h5}
+            box3desc={DataStructureCourseData[0].BoxShape1.box3desc}
+            Box4h5={DataStructureCourseData[0].BoxShape1.Box4h5}
+            box4desc={DataStructureCourseData[0].BoxShape1.box4desc}
           />
         </div>
         <CourseReview formotp={true} />
         <SyllabusNew
           formotp={true}
           syllabusFormotp={true}
-          syllabus={DataStructureAlgorithmData[0].syllabus}
-          syllabusDesc={DataStructureAlgorithmData[0].syllabusDesc}
-          popupHead={DataStructureAlgorithmData[0].popupHead}
-          CSyllabus={DataStructureAlgorithmData[0].CSyllabus}
-          CourseHighlights={DataStructureAlgorithmData[0].CourseHighlights}
-          srcD={DataStructureAlgorithmData[0].srcD}
-          hours={DataStructureAlgorithmData[0].hours}
-          project={DataStructureAlgorithmData[0].project}
+          syllabus={DataStructureCourseData[0].syllabus}
+          syllabusDesc={DataStructureCourseData[0].syllabusDesc}
+          popupHead={DataStructureCourseData[0].popupHead}
+          CSyllabus={DataStructureCourseData[0].CSyllabus}
+          CourseHighlights={DataStructureCourseData[0].CourseHighlights}
+          srcD={DataStructureCourseData[0].srcD}
+          hours={DataStructureCourseData[0].hours}
+          project={DataStructureCourseData[0].project}
         />
         <ProgramFee
-          Fee={DataStructureAlgorithmData[0].ProgramFee.Fee}
-          Emi={DataStructureAlgorithmData[0].ProgramFee.Emi}
+          Fee={DataStructureCourseData[0].ProgramFee.Fee}
+          Emi={DataStructureCourseData[0].ProgramFee.Emi}
           formotp={true}
           CourseFeeAndFinancing={
-            DataStructureAlgorithmData[0].ProgramFee.CourseFeeAndFinancing
+            DataStructureCourseData[0].ProgramFee.CourseFeeAndFinancing
           }
           para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."
           dataScience={true}
         />
         <div className={styles.ProjectWrapper} id="project">
           <Project
-            project={DataStructureAlgorithmData[0].Project.project}
-            domain={DataStructureAlgorithmData[0].Project.domain}
+            project={DataStructureCourseData[0].Project.project}
+            domain={DataStructureCourseData[0].Project.domain}
             formotp={true}
           />
         </div>
         <Batch
           formotp={true}
-          syllabusDesc={DataStructureAlgorithmData[0].syllabusDesc}
-          syllabus={DataStructureAlgorithmData[0].Batch}
+          syllabusDesc={DataStructureCourseData[0].syllabusDesc}
+          syllabus={DataStructureCourseData[0].Batch}
           CourseFeeHead={
-            DataStructureAlgorithmData[0].BatchCourses.CourseFeeHead
+            DataStructureCourseData[0].BatchCourses.CourseFeeHead
           }
           CourseFeePara={
-            DataStructureAlgorithmData[0].BatchCourses.CourseFeePara
+            DataStructureCourseData[0].BatchCourses.CourseFeePara
           }
           CourseFeelist1={
-            DataStructureAlgorithmData[0].BatchCourses.CourseFeelist1
+            DataStructureCourseData[0].BatchCourses.CourseFeelist1
           }
           CourseFeelist2={
-            DataStructureAlgorithmData[0].BatchCourses.CourseFeelist2
+            DataStructureCourseData[0].BatchCourses.CourseFeelist2
           }
           CourseFeelist3={
-            DataStructureAlgorithmData[0].BatchCourses.CourseFeelist3
+            DataStructureCourseData[0].BatchCourses.CourseFeelist3
           }
           CourseFeelist4={
-            DataStructureAlgorithmData[0].BatchCourses.CourseFeelist4
+            DataStructureCourseData[0].BatchCourses.CourseFeelist4
           }
           CourseFeelist5={
-            DataStructureAlgorithmData[0].BatchCourses.CourseFeelist5
+            DataStructureCourseData[0].BatchCourses.CourseFeelist5
           }
         />
         <div className={styles.boxContent}>

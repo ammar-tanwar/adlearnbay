@@ -430,7 +430,7 @@
     padding: 0 40px;
   }
   .feeWrapper .left .bottom {
-    margin-top: 20%;
+    margin-top: 0;
     display: flex;
     flex-flow: column;
     align-items: center;

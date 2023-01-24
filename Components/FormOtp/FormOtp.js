@@ -101,6 +101,10 @@ function FormOtp({
     router.pathname === "/w2a-s2" ||
     router.pathname === "/dsa-s4" ||
     router.pathname === "/data-structure-algorithm-s2" ||
+    router.pathname === "/best-course-for-data-structures-and-algorithms-s2" ||
+    router.pathname === "/data-structure-course-s2" ||
+    router.pathname === "/data-structures-algorithms-syllabus-s2" ||
+    router.pathname === "/data-structures-and-algorithms-course-s2" ||
     router.pathname === "/system-design-s2" ||
     router.pathname === "/apply-for-counselling-fsd-s2" ||
     router.pathname === "/dsa-s5"
@@ -287,6 +291,10 @@ function FormOtp({
           router.pathname === "/data-structure-algorithm" ||
           router.pathname === "/system-design" ||
           router.pathname === "/data-structure-algorithm-s2" ||
+          router.pathname === "/best-course-for-data-structures-and-algorithms-s2" ||
+          router.pathname === "/data-structure-course-s2" ||
+          router.pathname === "/data-structures-algorithms-syllabus-s2" ||
+          router.pathname === "/data-structures-and-algorithms-course-s2" ||
           router.pathname === "/system-design-s2" ||
           router.pathname === "/dsa-system-design"
         ) {
@@ -365,6 +373,10 @@ function FormOtp({
             (router.pathname === "/dsa-s4" && downloadBrochure) ||
             (router.pathname === "/dsa-s5" && downloadBrochure) ||
             (router.pathname === "/fswd-s2" && downloadBrochure) ||
+            (router.pathname === "/best-course-for-data-structures-and-algorithms-s2" && downloadBrochure) ||
+            (router.pathname === "/data-structure-course-s2"  && downloadBrochure) ||
+            (router.pathname === "/data-structures-algorithms-syllabus-s2"  && downloadBrochure) ||
+            (router.pathname === "/data-structures-and-algorithms-course-s2"  && downloadBrochure) ||
             (router.pathname === "/full-stack-software-development-program" &&
               downloadBrochure) ||
             (router.pathname === "/apply-for-counselling" &&
@@ -400,6 +412,10 @@ function FormOtp({
             router.pathname === "/apply-for-counselling-fsd-s2" ||
             router.pathname === "/s3-data-science" ||
             router.pathname === "/data-structure-algorithm-s2" ||
+            router.pathname === "/best-course-for-data-structures-and-algorithms-s2" ||
+            router.pathname === "/data-structure-course-s2" ||
+            router.pathname === "/data-structures-algorithms-syllabus-s2" ||
+            router.pathname === "/data-structures-and-algorithms-course-s2" ||
             router.pathname === "/system-design-s2" ||
             router.pathname === "/data-structure-algorithm" ||
             router.pathname === "/system-design" ||
