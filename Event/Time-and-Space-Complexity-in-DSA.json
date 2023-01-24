@@ -15,26 +15,26 @@
     "register": "903"
   },
   "headImg": {
-    "deskimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/foodDeliveryWebsite.jpg",
-    "mobimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/foodDeliveryMobile.jpg"
+    "deskimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/TimeWesite.jpg",
+    "mobimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/TimeMobile.jpg"
   },
   "eventFeatureData": {
     "heading1": "About this Masterclass",
     "aboutThisMasterclass": [
-      "Understanding the time and space complexity of algorithms is crucial for designing efficient and scalable software. However, many developers struggle with analyzing and optimizing the performance of their code, leading them to come up with below-average solutions.",
+      "Software Developers deal with the study of how to store and manipulate data in the most efficient possible manner. Having an understanding of the time and space complexity of an algorithm is important so that you can identify the best approach to solving a problem.",
       "This Masterclass will provide a comprehensive introduction to time and space complexity analysis in the context of data structures and algorithms. Through hands-on exercises and real-world examples, participants will learn how to measure and improve the performance of their code."
     ],
 
     "heading2": "Topics covered in this Masterclass",
     "topicsCoveredMasterclass": [
-      "Time Complexity Analysis of Algorithms ",
+      "Time Complexity Analysis of Algorithms",
       "Asymptotic Analysis & Asymptotic Notations",
       "Recurrence Relations and Master Theorem"
     ],
 
-    "speakerName": "Nikhil",
+    "speakerName": "Swapnil Narayan",
     "speakerDesignation": "Designation : Software Development Engineer",
-    "speakerComp": "Ex Amazon",
+    "speakerComp": "Ex Microsoft",
     "img4": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/userWebinar.png",
 
     "h1": "100% Live Classes",
@@ -60,7 +60,7 @@
     "aboutLearnbayHeading": "Some of our standout features include: ",
     "standoutFeatures": [
       "Curriculum that is developed, supervised and approved by industry experts",
-      "1:1 mentorship, guided by top experts in the field",
+      "1:1 mentorship from top experts in the field",
       "Opportunities to gain technical expertise through real-world projects",
       "Over 250 hiring partners and dedicated placement support",
       "100% guarantee interview calls"

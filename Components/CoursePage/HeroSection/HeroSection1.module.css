@@ -205,11 +205,12 @@
     .ButtonDiv {
       display: flex;
     }
+    .leftBottom {
+      border-right: 1px solid;
+      padding-right: 30px;
+    }
   }
-  .leftBottom {
-    border-right: 1px solid;
-    padding-right: 30px;
-  }
+
   @media (max-width: 1280px) {
     .wrapper {
       display: grid;

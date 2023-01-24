@@ -28,6 +28,7 @@ const HeroSection = ({
   formotp,
   formotpForS3DS,
   eventQRadio,
+  eventDownload,
 }) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
@@ -54,7 +55,11 @@ const HeroSection = ({
           <div className="whiteP" />
         </div>
         <div className="RightPopup">
-          <h5>Apply For Counselling</h5>
+          {eventDownload ? (
+            <h5>Download Brochure</h5>
+          ) : (
+            <h5>Apply For Counselling</h5>
+          )}
           {eventQRadio ? (
             <>
               <FormOtp popup={true} eventRadio={true} />
@@ -101,21 +106,30 @@ const HeroSection = ({
 
         <p className={styles.pBot}>{desc}</p>
         <div className={styles.ButtonDiv}>
-          <div className={styles.btnWrapper}>
-            {fsdlink ? (
-              <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session">
-                <button>
+          {eventDownload ? (
+            <div className={styles.btnWrapper}>
+                <button onClick={popupShow}>
+                  Download Brochure
+                  <FaArrowRight style={{ marginLeft: "10px" }} />
+                </button>
+            </div>
+          ) : (
+            <div className={styles.btnWrapper}>
+              {fsdlink ? (
+                <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session">
+                  <button>
+                    Apply for Counselling
+                    <FaArrowRight style={{ marginLeft: "10px" }} />
+                  </button>
+                </a>
+              ) : (
+                <button onClick={popupShow}>
                   Apply for Counselling
                   <FaArrowRight style={{ marginLeft: "10px" }} />
                 </button>
-              </a>
-            ) : (
-              <button onClick={popupShow}>
-                Apply for Counselling
-                <FaArrowRight style={{ marginLeft: "10px" }} />
-              </button>
-            )}
-          </div>
+              )}
+            </div>
+          )}
         </div>
         <div className={styles.bottom}>
           <div className={styles.leftBottom}>

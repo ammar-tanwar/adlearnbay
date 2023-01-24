@@ -205,6 +205,10 @@
   .ButtonDiv {
     display: flex;
   }
+  .leftBottom {
+    border-right: 1px solid;
+    padding-right: 30px;
+  }
 }
 @media (max-width: 1280px) {
   .wrapper {
@@ -315,6 +319,10 @@
   }
   .ButtonDiv {
     display: flex;
+  }
+  .leftBottom {
+    border-right: 1px solid;
+    padding-right: 30px;
   }
 }
 @media (max-width: 481px) {
@@ -459,12 +467,18 @@
   }
   .bottom {
     height: 100%;
-    padding: 20px;
+    padding: 20px 0px 0px 10px;
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
     margin-top: 10px;
-
+    gap: 20px;  
     border-radius: 20px;
+  }
+
+  .leftBottom {
+    padding-right: 0px;
+    border-right: 1px solid;
+    padding-right: 20px;
   }
   .bottom h5 {
     font-size: 22px;

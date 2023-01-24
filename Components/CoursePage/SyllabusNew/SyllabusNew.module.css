@@ -15,6 +15,7 @@
 .syllabusLeft h4 {
   font-size: 30px;
   font-weight: 800;
+  text-align: left;
 }
 .Syllabusbutton {
   display: flex;
@@ -430,7 +431,6 @@
 
   .PProgram > p {
     font-size: 15px;
-   
   }
 
   .PProgramInner div,
