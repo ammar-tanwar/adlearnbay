@@ -44,7 +44,7 @@ function Counselling() {
           </div>
         </div>
       </div>
-      <Footer mobileNum={true} />
+      <Footer mobileNum={true} email={true} />
     </div>
   );
 }
