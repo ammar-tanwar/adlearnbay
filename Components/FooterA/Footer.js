@@ -6,7 +6,7 @@ import Image from "next/image";
 import React from "react";
 import { FaCheck } from "react-icons/fa";
 
-const Footer = ({ mobileNum }) => {
+const Footer = ({ mobileNum, email }) => {
   return (
     <section className={styles.FooterSection}>
       <div className={styles.FooterDiv}>
@@ -25,11 +25,14 @@ const Footer = ({ mobileNum }) => {
             With Us And Master Data Analytics Skills Which Will Help You To
             Transform Your Career And Start Your Career As A Data Scientist.
           </p>
+          {email ? (
+            ""
+            ) : (
           <span style={{ display: "flex", marginTop: "20px" }}>
             <IoMailSharp className="bIcons" />
             contacts@learnbay.co
           </span>
-
+          )}
           {mobileNum ? (
             ""
           ) : (
