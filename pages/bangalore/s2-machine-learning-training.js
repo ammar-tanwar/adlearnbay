@@ -11,13 +11,14 @@ import HiringPatners from "../../Components/CityComponents/HiringPatnerWithRevie
 import SyllabusNew from "../../Components/CoursePage/SyllabusNew/SyllabusNew";
 import CityImage from "../../Components/CityComponents/CityImages/CityImage";
 import OurExpert from "../../Components/CoursePage/OurExpert/OurExpert";
-import { MlCourseData } from "../../Data/pune/MlData";
+import { MlCourseData } from "../../Data/bangalore/MlData";
 import Certificate from "../../Components/CoursePage/CertificateTab/CertificateTabAdvance";
 import Project from "../../Components/CoursePage/Project/Project";
 import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import ProgramWithHighLight from "../../Components/CityComponents/ProgramWithHighLight/ProgramWithHighLight";
 import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
 import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
+
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -27,17 +28,17 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Machine Learning Course – Learnbay</title>
+        <title>Machine Learning Training – Learnbay</title>
         <meta
           name="description"
-          content="Advance certification online Machine Learning course with 100% placement 
-          assistance and get 1:1 Guaranteed interview calls, 15+ Real-time projects, 1+ 
-          Capstone projects, 2 years of course subscription ,Lifetime Access to recorded 
-          classes and 24/7 Learner’s support."
+          content="Advance certification online Machine Learning training with 100% placement 
+        assistance and get 1:1 Guaranteed interview calls, 15+ Real-time projects, 1+ 
+        Capstone projects, 2 years of training subscription ,Lifetime Access to recorded 
+        classes and 24/7 Learner’s support."
         />
         <meta
           name="Keywords"
-          content="machine learning course, machine learning training, machine learning course institute, machine learning online course, machine learning course fee, advanced ml certification, machine learning course for working professional, advanced machine learning certification, advanced ml courses"
+          content="machine learning training, machine learning training, machine learning training institute, machine learning online training, machine learning training fee, advanced ml certification, machine learning training for working professional, advanced machine learning certification, advanced ml courses"
         />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
@@ -94,14 +95,15 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/PuneTopWeb.jpg"
-          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/PuneTopMob.jpg"
-          courseName="Machine Learning Course"
-          cityName="In Pune"
+          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/BengaluruTopWeb.jpg"
+          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/BengaluruTopMob.jpg"
+          courseName="Machine Learning Training"
+          cityName="In Bangalore"
           ptag="Machine learning is a subfield of artificial intelligence that is widely 
         described as a machine's capability to imitate intelligent human 
-        behavior. Join this course in Pune and get hands on experience by 
-        working with real data sets during Real time projects."
+        behavior. This training in Bangalore will provide you with hands-on 
+        experience with technologies such as R, Python, Tableau, Hadoop, and 
+        so on."
         />
         <div className={styles.program1}>
           <ProgramInfo
@@ -115,10 +117,10 @@ export default function Home() {
             p44={MlCourseData[0].ProgramInfo.p44}
           />
         </div>
-        <HiringPatners topHead="Our Hiring Partner's In Pune" />
+        <HiringPatners topHead="Our Hiring Partner's In Bangalore" />
         <div className="Feature" id="Feature">
           <ProgramWithHighLight
-            title="Machine Learning Course Features in Pune"
+            title="Machine Learning Training Features in Bangalore"
             Box1h5={MlCourseData[0].BoxShape.Box1h5}
             box1desc={MlCourseData[0].BoxShape.box1desc}
             Box2h5={MlCourseData[0].BoxShape.Box2h5}
@@ -137,7 +139,7 @@ export default function Home() {
         </div>
         <SyllabusNew
           syllabus={MlCourseData[0].syllabus}
-          CSyllabus="Machine Learning Course Syllabus In Pune"
+          CSyllabus="Machine Learning Training Syllabus In Bangalore"
           CourseHighlights={MlCourseData[0].CourseHighlights}
           syllabusDesc={MlCourseData[0].syllabusDesc}
           popupHead={MlCourseData[0].popupHead}
@@ -145,9 +147,9 @@ export default function Home() {
           project={MlCourseData[0].project}
         />
         <CityImage
-          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityPuneWeb.jpg"
-          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityPuneMob.jpg"
-          cityName="पुणे"
+          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityBangaloreWeb.jpg"
+          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityBangaloreMob.jpg"
+          cityName="ಬೆಂಗಳೂರು"
         />
         <OurExpert
           H5="Tools Covered"
@@ -175,20 +177,20 @@ export default function Home() {
           img23={MlCourseData[0].OurExpert.img23}
           img20={MlCourseData[0].OurExpert.img20}
         />
-        <Certificate H4="Machine Learning Certification Course In Pune" />
+        <Certificate H4="Machine Learning Certification Training In Bangalore" />
         <div className={styles.ProjectWrapper} id="project">
           <Project
             popupHead={MlCourseData[0].Project.popupHead}
             project={MlCourseData[0].Project.project}
             domain={MlCourseData[0].Project.domain}
-            projectTitle="Hands-on Projects In Pune"
+            projectTitle="Hands-on Projects In Bangalore"
           />
         </div>
         <SliderTab />
         <CourseFee
           syllabusDesc={MlCourseData[0].syllabusDesc}
           syllabus={MlCourseData[0].Batch}
-          CourseFeeHead={MlCourseData[0].BatchCourses.CourseFeeHead}
+          CourseFeeHead="Machine Learning Training in Bangalore: Batch Details"
           CourseFeePara={MlCourseData[0].BatchCourses.CourseFeePara}
           CourseFeelist1={MlCourseData[0].BatchCourses.CourseFeelist1}
           CourseFeelist2={MlCourseData[0].BatchCourses.CourseFeelist2}
@@ -198,9 +200,9 @@ export default function Home() {
         />
         <LearnSupport
           headForCity={true}
-          cityName="24/7 Learner’s Support In Pune"
+          cityName="24/7 Learner’s Support In Bangalore"
         />
-        <CityFooter cityName="Pune" />
+        <CityFooter cityName="Bangalore" />
       </main>
     </div>
   );

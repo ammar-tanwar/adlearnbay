@@ -11,12 +11,12 @@ import HiringPatners from "../../Components/CityComponents/HiringPatnerWithRevie
 import SyllabusNew from "../../Components/CoursePage/SyllabusNew/SyllabusNew";
 import CityImage from "../../Components/CityComponents/CityImages/CityImage";
 import OurExpert from "../../Components/CoursePage/OurExpert/OurExpert";
+import { DataScienceCourseData } from "../../Data/bangalore/DataScienceCourse";
 import Certificate from "../../Components/CoursePage/CertificateTab/CertificateTabAdvance";
 import Project from "../../Components/CoursePage/Project/Project";
 import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import ProgramWithHighLight from "../../Components/CityComponents/ProgramWithHighLight/ProgramWithHighLight";
 import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
-import { DataScienceCourseData } from "../../Data/hyderabad/DataScienceCourse";
 import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
 
 export default function Home() {
@@ -28,17 +28,17 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Data Science course - Learnbay</title>
+        <title>Data Science Training - Learnbay</title>
         <meta
           name="description"
-          content="Advance certification online data science course with 100% placement assistance 
+          content="Advance certification online data science training with 100% placement assistance 
           and get 1:1 Guaranteed interview calls, 12+ Real-time projects, 1+ Capstone 
-          projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
+          projects, 2 years of training subscription ,Lifetime Access to recorded classes and 
           24/7 Learner’s support."
         />
         <meta
           name="Keywords"
-          content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee"
+          content="data science training certification, data science online training, data science training, data science training for working professional, data science institute, data science training, data science training duration, data science training fee"
         />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
@@ -81,8 +81,8 @@ export default function Home() {
         />
       </Head>
       <main>
-        {" "}
         <Navbar popup={true} jobDesc={true} />
+
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -90,20 +90,21 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below Details to get started</p> */}
-
             <Form popup={true} setTrigger={setPopups} jobDesc={true} />
           </div>
         </Popup>
         <FirstSection
-          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/HyderabadTopWeb.jpg"
-          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/HyderabadTopMob.jpg"
-          courseName="Data Science Course"
-          cityName="In Hyderabad"
+          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/BengaluruTopWeb.jpg"
+          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/BengaluruTopMob.jpg"
+          courseName="Data Science Training"
+          cityName="In Bangalore"
           ptag="Data science is the study of data with the aim of gaining critical 
-        business insights. It is a multidisciplinary method for analysing massive
-        volumes of data. Upskill and lead with this course in Hyderabad which 
-        provides 100% Placement Assistance."
+        business insights. It is a multidisciplinary method for analyzing massive
+        volumes of data. This training in Bangalore will provide you with hands-
+        on experience with technologies such as R, Python, Tableau, Hadoop, 
+        and so on."
         />
+
         <div className={styles.program1}>
           <ProgramInfo
             p1={DataScienceCourseData[0].ProgramInfo.p1}
@@ -116,10 +117,11 @@ export default function Home() {
             p44={DataScienceCourseData[0].ProgramInfo.p44}
           />
         </div>
-        <HiringPatners topHead="Our Hiring Partner's In Hyderabad" />
+        <HiringPatners topHead="Our Hiring Partner's In Bangalore" />
+
         <div className={styles.Feature} id="Feature">
           <ProgramWithHighLight
-            title="Data Science Course Features in Hyderabad"
+            title="Data Science Training Features in Bangalore"
             Box1h5={DataScienceCourseData[0].BoxShape.Box1h5}
             box1desc={DataScienceCourseData[0].BoxShape.box1desc}
             Box2h5={DataScienceCourseData[0].BoxShape.Box2h5}
@@ -136,19 +138,21 @@ export default function Home() {
             Domain="7+"
           />
         </div>
+
         <SyllabusNew
           syllabus={DataScienceCourseData[0].syllabus}
-          CSyllabus="Data Science Course Syllabus In Hyderabad"
+          CSyllabus="Data Science Training Syllabus In Bangalore"
           CourseHighlights={DataScienceCourseData[0].CourseHighlights}
-          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
+          syllabusDesc="Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Data Science training In Bangalore sessions are covered practically with real-time industrial projects and case studies."
           popupHead={DataScienceCourseData[0].popupHead}
           hours={DataScienceCourseData[0].hours}
           project={DataScienceCourseData[0].project}
         />
+
         <CityImage
-          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityHyderabadWeb.jpg"
-          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityHyderabadMob.jpg"
-          cityName="హైదరాబాద్"
+          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityBangaloreWeb.jpg"
+          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityBangaloreMob.jpg"
+          cityName="ಬೆಂಗಳೂರು"
         />
         <OurExpert
           H5="Tools Covered"
@@ -176,20 +180,21 @@ export default function Home() {
           img23={DataScienceCourseData[0].OurExpert.img23}
           img20={DataScienceCourseData[0].OurExpert.img20}
         />
-        <Certificate H4="Data Science Certification Course In Hyderabad" />
+        <Certificate H4="Data Science Certification Training In Bangalore" />
         <div className={styles.ProjectWrapper} id="project">
           <Project
             popupHead={DataScienceCourseData[0].Project.popupHead}
             project={DataScienceCourseData[0].Project.project}
             domain={DataScienceCourseData[0].Project.domain}
-            projectTitle="Hands-on Projects In Hyderabad"
+            projectTitle="Hands-on Projects In Bangalore"
           />
         </div>
         <SliderTab />
+
         <CourseFee
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
           syllabus={DataScienceCourseData[0].Batch}
-          CourseFeeHead={DataScienceCourseData[0].BatchCourses.CourseFeeHead}
+          CourseFeeHead="Data Science Training In Bangalore : Batch Details"
           CourseFeePara={DataScienceCourseData[0].BatchCourses.CourseFeePara}
           CourseFeelist1={DataScienceCourseData[0].BatchCourses.CourseFeelist1}
           CourseFeelist2={DataScienceCourseData[0].BatchCourses.CourseFeelist2}
@@ -199,9 +204,9 @@ export default function Home() {
         />
         <LearnSupport
           headForCity={true}
-          cityName="24/7 Learner’s Support In Hyderabad"
+          cityName="24/7 Learner’s Support In Bangalore"
         />
-        <CityFooter cityName="Hyderabad" />
+        <CityFooter cityName="Bangalore" />
       </main>
     </div>
   );

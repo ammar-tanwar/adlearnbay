@@ -813,7 +813,7 @@ export const DataStructureSyllabusData = [
       spanMTitleText: "Algorithms Course",
       title: "Data Structures and ",
       spanTitleText: "Algorithms Course",
-      desc: "Perform real-world industrial projects and use-cases.",
+      desc: "Learn Advance Topics like Strings, Arrays, Trees and so more, with our Course",
       src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/DSA.png",
       width: "776",
       height: "682",
@@ -831,7 +831,7 @@ export const DataStructureSyllabusData = [
       p44: "₹ 6,883/month",
     },
     BoxShape: {
-      title: "Data Structures and Algorithms Syllabus Features",
+      title: "Data Structures and Algorithms Course Features",
       Box1h5: "Crack MAANG Interview",
       box1desc:
         "Learn in-depth from Live DSA course and crack interviews in product-based MNCs ",
@@ -867,7 +867,7 @@ export const DataStructureSyllabusData = [
       "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Data Structures and Algorithms Syllabus sessions are covered practically with real-time industrial projects and case studies.",
     popupHead: "Download Course Brochure",
     CSyllabus: "Data Structures and Algorithms Syllabus",
-    CourseHighlights: "DSA Syllabus Highlights",
+    CourseHighlights: "DSA course Syllabus Highlights",
     srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf",
     hours: "200+ Hours",
     project: "12+ Real Time",
@@ -1011,7 +1011,7 @@ export const DataStructureSyllabusData = [
     ProgramFee: {
       Fee: "₹ 70,000 + GST",
       Emi: "₹ 6,883/month",
-      CourseFeeAndFinancing: "Data Structures and Algorithms Syllabus Fee & Financing",
+      CourseFeeAndFinancing: "Data Structures and Algorithms Course Fee & Financing",
     },
     Project: {
       project: "12+ Projects",

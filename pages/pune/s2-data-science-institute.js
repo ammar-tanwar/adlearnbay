@@ -16,7 +16,7 @@ import Project from "../../Components/CoursePage/Project/Project";
 import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import ProgramWithHighLight from "../../Components/CityComponents/ProgramWithHighLight/ProgramWithHighLight";
 import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
-import { DataScienceCourseData } from "../../Data/hyderabad/DataScienceCourse";
+import { DataScienceCourseData } from "../../Data/pune/DataScienceCourse";
 import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
 
 export default function Home() {
@@ -28,17 +28,17 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Data Science course - Learnbay</title>
+        <title>Data Science Institute - Learnbay</title>
         <meta
           name="description"
-          content="Advance certification online data science course with 100% placement assistance 
+          content="Advance certification online data science institute with 100% placement assistance 
           and get 1:1 Guaranteed interview calls, 12+ Real-time projects, 1+ Capstone 
-          projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
+          projects, 2 years of institute subscription ,Lifetime Access to recorded classes and 
           24/7 Learner’s support."
         />
         <meta
           name="Keywords"
-          content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee"
+          content="data science institute certification, data science online institute, data science training, data science institute for working professional, data science institute, data science institute, data science institute duration, data science institute fee"
         />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
@@ -95,14 +95,14 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/HyderabadTopWeb.jpg"
-          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/HyderabadTopMob.jpg"
-          courseName="Data Science Course"
-          cityName="In Hyderabad"
+          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/PuneTopWeb.jpg"
+          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/PuneTopMob.jpg"
+          courseName="Data Science Institute"
+          cityName="In Pune"
           ptag="Data science is the study of data with the aim of gaining critical 
         business insights. It is a multidisciplinary method for analysing massive
-        volumes of data. Upskill and lead with this course in Hyderabad which 
-        provides 100% Placement Assistance."
+        volumes of data. Join this Institute in Pune and get hands on experience 
+        by working with real data sets during Real time projects."
         />
         <div className={styles.program1}>
           <ProgramInfo
@@ -116,10 +116,10 @@ export default function Home() {
             p44={DataScienceCourseData[0].ProgramInfo.p44}
           />
         </div>
-        <HiringPatners topHead="Our Hiring Partner's In Hyderabad" />
+        <HiringPatners topHead="Our Hiring Partner's In Pune" />
         <div className={styles.Feature} id="Feature">
           <ProgramWithHighLight
-            title="Data Science Course Features in Hyderabad"
+            title="Data Science Institute Features in Pune"
             Box1h5={DataScienceCourseData[0].BoxShape.Box1h5}
             box1desc={DataScienceCourseData[0].BoxShape.box1desc}
             Box2h5={DataScienceCourseData[0].BoxShape.Box2h5}
@@ -138,17 +138,17 @@ export default function Home() {
         </div>
         <SyllabusNew
           syllabus={DataScienceCourseData[0].syllabus}
-          CSyllabus="Data Science Course Syllabus In Hyderabad"
+          CSyllabus="Data Science Institute Syllabus In Pune"
           CourseHighlights={DataScienceCourseData[0].CourseHighlights}
-          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
+          syllabusDesc="Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Data Science Institute In Pune sessions are covered practically with real-time industrial projects and case studies."
           popupHead={DataScienceCourseData[0].popupHead}
           hours={DataScienceCourseData[0].hours}
           project={DataScienceCourseData[0].project}
         />
         <CityImage
-          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityHyderabadWeb.jpg"
-          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityHyderabadMob.jpg"
-          cityName="హైదరాబాద్"
+          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityPuneWeb.jpg"
+          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityPuneMob.jpg"
+          cityName="पुणे"
         />
         <OurExpert
           H5="Tools Covered"
@@ -176,20 +176,20 @@ export default function Home() {
           img23={DataScienceCourseData[0].OurExpert.img23}
           img20={DataScienceCourseData[0].OurExpert.img20}
         />
-        <Certificate H4="Data Science Certification Course In Hyderabad" />
+        <Certificate H4="Data Science Certification Institute In Pune" />
         <div className={styles.ProjectWrapper} id="project">
           <Project
             popupHead={DataScienceCourseData[0].Project.popupHead}
             project={DataScienceCourseData[0].Project.project}
             domain={DataScienceCourseData[0].Project.domain}
-            projectTitle="Hands-on Projects In Hyderabad"
+            projectTitle="Hands-on Projects In Pune"
           />
         </div>
         <SliderTab />
         <CourseFee
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
           syllabus={DataScienceCourseData[0].Batch}
-          CourseFeeHead={DataScienceCourseData[0].BatchCourses.CourseFeeHead}
+          CourseFeeHead="Data Science Institute In Pune : Batch Details"
           CourseFeePara={DataScienceCourseData[0].BatchCourses.CourseFeePara}
           CourseFeelist1={DataScienceCourseData[0].BatchCourses.CourseFeelist1}
           CourseFeelist2={DataScienceCourseData[0].BatchCourses.CourseFeelist2}
@@ -199,9 +199,9 @@ export default function Home() {
         />
         <LearnSupport
           headForCity={true}
-          cityName="24/7 Learner’s Support In Hyderabad"
+          cityName="24/7 Learner’s Support In Pune"
         />
-        <CityFooter cityName="Hyderabad" />
+        <CityFooter cityName="Pune" />
       </main>
     </div>
   );

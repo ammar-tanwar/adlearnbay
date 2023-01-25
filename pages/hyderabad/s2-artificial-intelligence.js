@@ -119,7 +119,7 @@ export default function Home() {
         <HiringPatners topHead="Our Hiring Partner's In Hyderabad" />
         <div className={styles.Feature} id="Feature">
           <ProgramWithHighLight
-            title={AiCourseData[0].BoxShape.title}
+            title="Artificial Intelligence Course Features in Hyderabad"
             Box1h5={AiCourseData[0].BoxShape.Box1h5}
             box1desc={AiCourseData[0].BoxShape.box1desc}
             Box2h5={AiCourseData[0].BoxShape.Box2h5}
@@ -151,7 +151,7 @@ export default function Home() {
           cityName="హైదరాబాద్"
         />
         <OurExpert
-          H5={AiCourseData[0].OurExpert.H5}
+          H5="Tools Covered"
           img1={AiCourseData[0].OurExpert.img1}
           img2={AiCourseData[0].OurExpert.img2}
           img3={AiCourseData[0].OurExpert.img3}
@@ -176,7 +176,7 @@ export default function Home() {
           img23={AiCourseData[0].OurExpert.img23}
           img20={AiCourseData[0].OurExpert.img20}
         />
-        <Certificate H4="Artificial Intelligence Program In Hyderabad" />
+        <Certificate H4="Artificial Intelligence Certification Course In Hyderabad" />
         <div className={styles.ProjectWrapper} id="project">
           <Project
             popupHead={AiCourseData[0].Project.popupHead}

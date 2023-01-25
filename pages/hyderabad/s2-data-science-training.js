@@ -28,17 +28,17 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Data Science course - Learnbay</title>
+        <title>Data Science Training - Learnbay</title>
         <meta
           name="description"
-          content="Advance certification online data science course with 100% placement assistance 
+          content="Advance certification online data science training with 100% placement assistance 
           and get 1:1 Guaranteed interview calls, 12+ Real-time projects, 1+ Capstone 
-          projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
+          projects, 2 years of training subscription ,Lifetime Access to recorded classes and 
           24/7 Learner’s support."
         />
         <meta
           name="Keywords"
-          content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee"
+          content="data science training certification, data science online training, data science training, data science training for working professional, data science institute, data science training, data science training duration, data science training fee"
         />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
@@ -97,11 +97,11 @@ export default function Home() {
         <FirstSection
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/HyderabadTopWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/HyderabadTopMob.jpg"
-          courseName="Data Science Course"
+          courseName="Data Science Training"
           cityName="In Hyderabad"
           ptag="Data science is the study of data with the aim of gaining critical 
         business insights. It is a multidisciplinary method for analysing massive
-        volumes of data. Upskill and lead with this course in Hyderabad which 
+        volumes of data. Upskill and lead with this Training in Hyderabad which 
         provides 100% Placement Assistance."
         />
         <div className={styles.program1}>
@@ -119,7 +119,7 @@ export default function Home() {
         <HiringPatners topHead="Our Hiring Partner's In Hyderabad" />
         <div className={styles.Feature} id="Feature">
           <ProgramWithHighLight
-            title="Data Science Course Features in Hyderabad"
+            title="Data Science Training Features in Hyderabad"
             Box1h5={DataScienceCourseData[0].BoxShape.Box1h5}
             box1desc={DataScienceCourseData[0].BoxShape.box1desc}
             Box2h5={DataScienceCourseData[0].BoxShape.Box2h5}
@@ -138,9 +138,9 @@ export default function Home() {
         </div>
         <SyllabusNew
           syllabus={DataScienceCourseData[0].syllabus}
-          CSyllabus="Data Science Course Syllabus In Hyderabad"
+          CSyllabus="Data Science Training Syllabus In Hyderabad"
           CourseHighlights={DataScienceCourseData[0].CourseHighlights}
-          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
+          syllabusDesc="Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Data Science Training In Hyderabad sessions are covered practically with real-time industrial projects and case studies."
           popupHead={DataScienceCourseData[0].popupHead}
           hours={DataScienceCourseData[0].hours}
           project={DataScienceCourseData[0].project}
@@ -176,7 +176,7 @@ export default function Home() {
           img23={DataScienceCourseData[0].OurExpert.img23}
           img20={DataScienceCourseData[0].OurExpert.img20}
         />
-        <Certificate H4="Data Science Certification Course In Hyderabad" />
+        <Certificate H4="Data Science Certification Training In Hyderabad" />
         <div className={styles.ProjectWrapper} id="project">
           <Project
             popupHead={DataScienceCourseData[0].Project.popupHead}
@@ -189,7 +189,7 @@ export default function Home() {
         <CourseFee
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
           syllabus={DataScienceCourseData[0].Batch}
-          CourseFeeHead={DataScienceCourseData[0].BatchCourses.CourseFeeHead}
+          CourseFeeHead="Data Science Training In Hyderabad : Batch Details"
           CourseFeePara={DataScienceCourseData[0].BatchCourses.CourseFeePara}
           CourseFeelist1={DataScienceCourseData[0].BatchCourses.CourseFeelist1}
           CourseFeelist2={DataScienceCourseData[0].BatchCourses.CourseFeelist2}

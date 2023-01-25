@@ -29,16 +29,16 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Data Analytics course – Learnbay</title>
+        <title>Data Analytics training – Learnbay</title>
         <meta
           name="description"
-          content="Advance certification online Data Analytics course with 100% placement assistance 
-          and get 1:1 Guaranteed interview calls, 8+ Real-time projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
+          content="Advance certification online Data Analytics training with 100% placement assistance 
+          and get 1:1 Guaranteed interview calls, 8+ Real-time projects, 2 years of training subscription ,Lifetime Access to recorded classes and 
           24/7 Learner’s support."
         />{" "}
         <meta
           name="Keywords"
-          content="data analytics course, data analytics institute, data analytics course fee, data analytics certification, data analytics training, business analytics course, data analytics course duration, business analytics institute, business analytics certification, business analytics training"
+          content="data analytics training, data analytics institute, data analytics training fee, data analytics certification, data analytics training, business analytics training, data analytics training duration, business analytics institute, business analytics certification, business analytics training"
         />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
@@ -97,11 +97,11 @@ export default function Home() {
         <FirstSection
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/ChennaiTopWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/ChennaiTopMob.jpg"
-          courseName="Data Analytics Course"
+          courseName="Data Analytics Training"
           cityName="In Chennai"
           ptag="Data analytics is the process of examining data sets to identify trends 
         and develop conclusions about the information contained within them. 
-        This course in Chennai is developed for working individuals who want 
+        This training in Chennai is developed for working individuals who want 
         to maximize their present industry expertise and change career."
         />
         <div className={styles.program1}>
@@ -119,7 +119,7 @@ export default function Home() {
         <HiringPatners topHead="Our Hiring Partner's In Chennai" />
         <div className={styles.Feature} id="Feature">
           <ProgramWithHighLight
-            title="Data Analytic Course Features in Chennai"
+            title="Data Analytic Training Features in Chennai"
             Box1h5={DataAnalyticsCourseData[0].BoxShape.Box1h5}
             box1desc={DataAnalyticsCourseData[0].BoxShape.box1desc}
             Box2h5={DataAnalyticsCourseData[0].BoxShape.Box2h5}
@@ -138,9 +138,9 @@ export default function Home() {
         </div>
         <SyllabusNew
           syllabus={DataAnalyticsCourseData[0].syllabus}
-          CSyllabus="Data Analytics Course Syllabus In Chennai"
+          CSyllabus="Data Analytics Training Syllabus In Chennai"
           CourseHighlights={DataAnalyticsCourseData[0].CourseHighlights}
-          syllabusDesc={DataAnalyticsCourseData[0].syllabusDesc}
+          syllabusDesc="Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Data Analytic Training in Chennai sessions are covered practically with real-time industrial projects and case studies."
           popupHead={DataAnalyticsCourseData[0].popupHead}
           hours={DataAnalyticsCourseData[0].hours}
           project={DataAnalyticsCourseData[0].project}
@@ -176,7 +176,7 @@ export default function Home() {
           img23={DataAnalyticsCourseData[0].OurExpert.img23}
           img20={DataAnalyticsCourseData[0].OurExpert.img20}
         />
-        <Certificate H4="Data Analytics Certification Course In Chennai" />
+        <Certificate H4="Data Analytics Certification Training In Chennai" />
         <div className={styles.ProjectWrapper} id="project">
           <Project
             popupHead={DataAnalyticsCourseData[0].Project.popupHead}
@@ -189,7 +189,7 @@ export default function Home() {
         <CourseFee
           syllabusDesc={DataAnalyticsCourseData[0].syllabusDesc}
           syllabus={DataAnalyticsCourseData[0].Batch}
-          CourseFeeHead={DataAnalyticsCourseData[0].BatchCourses.CourseFeeHead}
+          CourseFeeHead="Data Analytics Training in Chennai : Batch Details"
           CourseFeePara={DataAnalyticsCourseData[0].BatchCourses.CourseFeePara}
           CourseFeelist1={
             DataAnalyticsCourseData[0].BatchCourses.CourseFeelist1

@@ -1,12 +1,11 @@
 import Head from "next/head";
-import React, { useState } from "react";
-import { DataAnalyticsCourseData } from "../../Data/chennai/DataAnalyticsData";
 import styles from "../../styles/Home.module.css";
 import Popup from "../../Components/Popup/Popup";
 import Form from "../../Components/Form/Form";
 import Navbar from "../../Components/CoursePage/Navbar/Navbar";
 import CityFooter from "../../Components/CityComponents/CityFooter/CityFooter";
 import LearnSupport from "../../Components/CoursePage/LearnSupport/LearnSupport";
+import React, { useState } from "react";
 import FirstSection from "../../Components/CityComponents/FirstSection/FirstSection";
 import HiringPatners from "../../Components/CityComponents/HiringPatnerWithReview/HiringPatners";
 import SyllabusNew from "../../Components/CoursePage/SyllabusNew/SyllabusNew";
@@ -16,9 +15,9 @@ import Certificate from "../../Components/CoursePage/CertificateTab/CertificateT
 import Project from "../../Components/CoursePage/Project/Project";
 import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import ProgramWithHighLight from "../../Components/CityComponents/ProgramWithHighLight/ProgramWithHighLight";
+import { DataAnalyticsCourseData } from "../../Data/bangalore/DataAnalyticsData";
 import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
 import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
-
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -29,16 +28,16 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Data Analytics course – Learnbay</title>
+        <title>Data Analytics Training – Learnbay</title>
         <meta
           name="description"
-          content="Advance certification online Data Analytics course with 100% placement assistance 
-          and get 1:1 Guaranteed interview calls, 8+ Real-time projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
+          content="Advance certification online Data Analytics training with 100% placement assistance 
+          and get 1:1 Guaranteed interview calls, 8+ Real-time projects, 2 years of training subscription ,Lifetime Access to recorded classes and 
           24/7 Learner’s support."
         />{" "}
         <meta
           name="Keywords"
-          content="data analytics course, data analytics institute, data analytics course fee, data analytics certification, data analytics training, business analytics course, data analytics course duration, business analytics institute, business analytics certification, business analytics training"
+          content="data analytics training, data analytics institute, data analytics training fee, data analytics certification, data analytics training, business analytics training, data analytics training duration, business analytics institute, business analytics certification, business analytics training"
         />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
@@ -95,14 +94,14 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/ChennaiTopWeb.jpg"
-          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/ChennaiTopMob.jpg"
-          courseName="Data Analytics Course"
-          cityName="In Chennai"
+          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/BengaluruTopWeb.jpg"
+          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/BengaluruTopMob.jpg"
+          courseName="Data Analytics Training"
+          cityName="In Bangalore"
           ptag="Data analytics is the process of examining data sets to identify trends 
         and develop conclusions about the information contained within them. 
-        This course in Chennai is developed for working individuals who want 
-        to maximize their present industry expertise and change career."
+        This training in Bangalore will provide you with hands-on experience 
+        with technologies such as R, Python, Tableau, Hadoop, and so on."
         />
         <div className={styles.program1}>
           <ProgramInfo
@@ -116,10 +115,10 @@ export default function Home() {
             p44={DataAnalyticsCourseData[0].ProgramInfo.p44}
           />
         </div>
-        <HiringPatners topHead="Our Hiring Partner's In Chennai" />
+        <HiringPatners topHead="Our Hiring Partner's In Bangalore" />
         <div className={styles.Feature} id="Feature">
           <ProgramWithHighLight
-            title="Data Analytic Course Features in Chennai"
+            title="Data Analytic Training Features in Bangalore"
             Box1h5={DataAnalyticsCourseData[0].BoxShape.Box1h5}
             box1desc={DataAnalyticsCourseData[0].BoxShape.box1desc}
             Box2h5={DataAnalyticsCourseData[0].BoxShape.Box2h5}
@@ -138,17 +137,17 @@ export default function Home() {
         </div>
         <SyllabusNew
           syllabus={DataAnalyticsCourseData[0].syllabus}
-          CSyllabus="Data Analytics Course Syllabus In Chennai"
+          CSyllabus="Data Analytics Training Syllabus In Bangalore"
           CourseHighlights={DataAnalyticsCourseData[0].CourseHighlights}
-          syllabusDesc={DataAnalyticsCourseData[0].syllabusDesc}
+          syllabusDesc="Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Data Analytic Training in Bangalore sessions are covered practically with real-time industrial projects and case studies."
           popupHead={DataAnalyticsCourseData[0].popupHead}
           hours={DataAnalyticsCourseData[0].hours}
           project={DataAnalyticsCourseData[0].project}
         />
         <CityImage
-          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityChennaiWeb.jpg"
-          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityChennaiMob.jpg"
-          cityName="சென்னை"
+          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityBangaloreWeb.jpg"
+          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityBangaloreMob.jpg"
+          cityName="ಬೆಂಗಳೂರು"
         />
         <OurExpert
           H5="Tools Covered"
@@ -176,20 +175,20 @@ export default function Home() {
           img23={DataAnalyticsCourseData[0].OurExpert.img23}
           img20={DataAnalyticsCourseData[0].OurExpert.img20}
         />
-        <Certificate H4="Data Analytics Certification Course In Chennai" />
+        <Certificate H4="Data Analytics Certification Training In Bangalore" />
         <div className={styles.ProjectWrapper} id="project">
           <Project
             popupHead={DataAnalyticsCourseData[0].Project.popupHead}
             project={DataAnalyticsCourseData[0].Project.project}
             domain={DataAnalyticsCourseData[0].Project.domain}
-            projectTitle="Hands-on Projects In Chennai"
+            projectTitle="Hands-on Projects In Bangalore"
           />
         </div>
         <SliderTab />
         <CourseFee
           syllabusDesc={DataAnalyticsCourseData[0].syllabusDesc}
           syllabus={DataAnalyticsCourseData[0].Batch}
-          CourseFeeHead={DataAnalyticsCourseData[0].BatchCourses.CourseFeeHead}
+          CourseFeeHead="Data Analytics Training in Bangalore : Batch Details"
           CourseFeePara={DataAnalyticsCourseData[0].BatchCourses.CourseFeePara}
           CourseFeelist1={
             DataAnalyticsCourseData[0].BatchCourses.CourseFeelist1
@@ -209,9 +208,9 @@ export default function Home() {
         />
         <LearnSupport
           headForCity={true}
-          cityName="24/7 Learner’s Support In Chennai"
+          cityName="24/7 Learner’s Support In Bangalore"
         />
-        <CityFooter cityName="Chennai" />
+        <CityFooter cityName="Bangalore" />
       </main>
     </div>
   );

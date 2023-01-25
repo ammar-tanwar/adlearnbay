@@ -118,7 +118,7 @@ export default function Home() {
         <HiringPatners topHead="Our Hiring Partner's In Hyderabad" />
         <div className="Feature" id="Feature">
           <ProgramWithHighLight
-            title={MlCourseData[0].BoxShape.title}
+            title="Machine Learning Course Features in Hyderabad"
             Box1h5={MlCourseData[0].BoxShape.Box1h5}
             box1desc={MlCourseData[0].BoxShape.box1desc}
             Box2h5={MlCourseData[0].BoxShape.Box2h5}
@@ -150,7 +150,7 @@ export default function Home() {
           cityName="హైదరాబాద్"
         />
         <OurExpert
-          H5={MlCourseData[0].OurExpert.H5}
+          H5="Tools Covered"
           img1={MlCourseData[0].OurExpert.img1}
           img2={MlCourseData[0].OurExpert.img2}
           img3={MlCourseData[0].OurExpert.img3}
@@ -175,7 +175,7 @@ export default function Home() {
           img23={MlCourseData[0].OurExpert.img23}
           img20={MlCourseData[0].OurExpert.img20}
         />
-        <Certificate H4="Machine Learning Program In Hyderabad" />
+        <Certificate H4="Machine Learning Certification Course In Hyderabad" />
         <div className={styles.ProjectWrapper} id="project">
           <Project
             popupHead={MlCourseData[0].Project.popupHead}

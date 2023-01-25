@@ -136,6 +136,7 @@ export default function Home() {
         <div className={styles.Feature} id="Feature">
           <BoxShape1
             formotp={true}
+            eventDownload={true}
             title={DataStructureSyllabusData[0].BoxShape1.title}
             Box1h5={DataStructureSyllabusData[0].BoxShape1.Box1h5}
             box1desc={DataStructureSyllabusData[0].BoxShape1.box1desc}
@@ -151,6 +152,7 @@ export default function Home() {
         <SyllabusNew
           formotp={true}
           syllabusFormotp={true}
+          eventDownload={true}
           syllabus={DataStructureSyllabusData[0].syllabus}
           syllabusDesc={DataStructureSyllabusData[0].syllabusDesc}
           popupHead={DataStructureSyllabusData[0].popupHead}

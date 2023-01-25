@@ -28,17 +28,17 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Artificial Intelligence Course - Learnbay</title>
+        <title>Artificial Intelligence Training - Learnbay</title>
         <meta
           name="description"
-          content="Advance certification online Artificial Intelligence course with 100% placement 
+          content="Advance certification online Artificial Intelligence training with 100% placement 
           assistance and get 1:1 Guaranteed interview calls, 15+ Real-time projects, 1+ 
-          Capstone projects, 2 years of course subscription ,Lifetime Access to recorded 
+          Capstone projects, 2 years of training subscription ,Lifetime Access to recorded 
           classes and 24/7 Learner’s support."
         />
         <meta
           name="Keywords"
-          content="artificial intelligence course institute, artificial intelligence course fee, artificial intelligence certification, artificial intelligence training, advance artificial intelligence course, artificial intelligence course duration, artificial intelligence online course, artificial intelligence course, artificial intelligence course for working professional"
+          content="artificial intelligence training institute, artificial intelligence training fee, artificial intelligence certification, artificial intelligence training, advance artificial intelligence training, artificial intelligence training duration, artificial intelligence online training, artificial intelligence training, artificial intelligence training for working professional"
         />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
@@ -97,11 +97,11 @@ export default function Home() {
         <FirstSection
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/PuneTopWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/PuneTopMob.jpg"
-          courseName="Artificial Intelligence Course"
+          courseName="Artificial Intelligence Training"
           cityName="In Pune"
           ptag="Artificial intelligence is the simulation of human intelligence in 
           machines that are programmed to think and act like humans. Join this 
-          course in Pune and get hands on experience by working with real data 
+          training in Pune and get hands on experience by working with real data 
           sets during Real time projects."
         />
         <div className={styles.program1}>
@@ -119,7 +119,7 @@ export default function Home() {
         <HiringPatners topHead="Our Hiring Partner's In Pune" />
         <div className={styles.Feature} id="Feature">
           <ProgramWithHighLight
-            title="Artificial Intelligence Course Features in Pune"
+            title="Artificial Intelligence Training Features in Pune"
             Box1h5={AiCourseData[0].BoxShape.Box1h5}
             box1desc={AiCourseData[0].BoxShape.box1desc}
             Box2h5={AiCourseData[0].BoxShape.Box2h5}
@@ -138,9 +138,9 @@ export default function Home() {
         </div>
         <SyllabusNew
           syllabus={AiCourseData[0].syllabus}
-          CSyllabus="Artificial Intelligence Course Syllabus In Pune"
+          CSyllabus="Artificial Intelligence Training Syllabus In Pune"
           CourseHighlights={AiCourseData[0].CourseHighlights}
-          syllabusDesc={AiCourseData[0].syllabusDesc}
+          syllabusDesc="Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Artificial Intelligence Training in Pune sessions are covered practically with real-time industrial projects and case studies."
           popupHead={AiCourseData[0].popupHead}
           hours={AiCourseData[0].hours}
           project={AiCourseData[0].project}
@@ -176,7 +176,7 @@ export default function Home() {
           img23={AiCourseData[0].OurExpert.img23}
           img20={AiCourseData[0].OurExpert.img20}
         />
-        <Certificate H4="Artificial Intelligence Certification Course In Pune" />
+        <Certificate H4="Artificial Intelligence Certification Training In Pune" />
         <div className={styles.ProjectWrapper} id="project">
           <Project
             popupHead={AiCourseData[0].Project.popupHead}
@@ -189,7 +189,7 @@ export default function Home() {
         <CourseFee
           syllabusDesc={AiCourseData[0].syllabusDesc}
           syllabus={AiCourseData[0].Batch}
-          CourseFeeHead={AiCourseData[0].BatchCourses.CourseFeeHead}
+          CourseFeeHead="Artificial Intelligence Training in Pune : Batch Details"
           CourseFeePara={AiCourseData[0].BatchCourses.CourseFeePara}
           CourseFeelist1={AiCourseData[0].BatchCourses.CourseFeelist1}
           CourseFeelist2={AiCourseData[0].BatchCourses.CourseFeelist2}

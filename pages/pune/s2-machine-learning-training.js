@@ -11,14 +11,13 @@ import HiringPatners from "../../Components/CityComponents/HiringPatnerWithRevie
 import SyllabusNew from "../../Components/CoursePage/SyllabusNew/SyllabusNew";
 import CityImage from "../../Components/CityComponents/CityImages/CityImage";
 import OurExpert from "../../Components/CoursePage/OurExpert/OurExpert";
-import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
+import { MlCourseData } from "../../Data/pune/MlData";
 import Certificate from "../../Components/CoursePage/CertificateTab/CertificateTabAdvance";
 import Project from "../../Components/CoursePage/Project/Project";
 import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import ProgramWithHighLight from "../../Components/CityComponents/ProgramWithHighLight/ProgramWithHighLight";
-import { AiCourseData } from "../../Data/pune/AiData";
+import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
 import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
-
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -28,17 +27,17 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Artificial Intelligence Course - Learnbay</title>
+        <title>Machine Learning Training – Learnbay</title>
         <meta
           name="description"
-          content="Advance certification online Artificial Intelligence course with 100% placement 
+          content="Advance certification online Machine Learning training with 100% placement 
           assistance and get 1:1 Guaranteed interview calls, 15+ Real-time projects, 1+ 
-          Capstone projects, 2 years of course subscription ,Lifetime Access to recorded 
+          Capstone projects, 2 years of training subscription ,Lifetime Access to recorded 
           classes and 24/7 Learner’s support."
         />
         <meta
           name="Keywords"
-          content="artificial intelligence course institute, artificial intelligence course fee, artificial intelligence certification, artificial intelligence training, advance artificial intelligence course, artificial intelligence course duration, artificial intelligence online course, artificial intelligence course, artificial intelligence course for working professional"
+          content="machine learning training, machine learning training, machine learning training institute, machine learning online training, machine learning training fee, advanced ml certification, machine learning training for working professional, advanced machine learning certification, advanced ml courses"
         />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
@@ -97,53 +96,53 @@ export default function Home() {
         <FirstSection
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/PuneTopWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/PuneTopMob.jpg"
-          courseName="Artificial Intelligence Course"
+          courseName="Machine Learning Training"
           cityName="In Pune"
-          ptag="Artificial intelligence is the simulation of human intelligence in 
-          machines that are programmed to think and act like humans. Join this 
-          course in Pune and get hands on experience by working with real data 
-          sets during Real time projects."
+          ptag="Machine learning is a subfield of artificial intelligence that is widely 
+        described as a machine's capability to imitate intelligent human 
+        behavior. Join this training in Pune and get hands on experience by 
+        working with real data sets during Real time projects."
         />
         <div className={styles.program1}>
           <ProgramInfo
-            p1={AiCourseData[0].ProgramInfo.p1}
-            p11={AiCourseData[0].ProgramInfo.p11}
-            p2={AiCourseData[0].ProgramInfo.p2}
-            p22={AiCourseData[0].ProgramInfo.p22}
-            p3={AiCourseData[0].ProgramInfo.p3}
-            p33={AiCourseData[0].ProgramInfo.p33}
-            p4={AiCourseData[0].ProgramInfo.p4}
-            p44={AiCourseData[0].ProgramInfo.p44}
+            p1={MlCourseData[0].ProgramInfo.p1}
+            p11={MlCourseData[0].ProgramInfo.p11}
+            p2={MlCourseData[0].ProgramInfo.p2}
+            p22={MlCourseData[0].ProgramInfo.p22}
+            p3={MlCourseData[0].ProgramInfo.p3}
+            p33={MlCourseData[0].ProgramInfo.p33}
+            p4={MlCourseData[0].ProgramInfo.p4}
+            p44={MlCourseData[0].ProgramInfo.p44}
           />
         </div>
         <HiringPatners topHead="Our Hiring Partner's In Pune" />
-        <div className={styles.Feature} id="Feature">
+        <div className="Feature" id="Feature">
           <ProgramWithHighLight
-            title="Artificial Intelligence Course Features in Pune"
-            Box1h5={AiCourseData[0].BoxShape.Box1h5}
-            box1desc={AiCourseData[0].BoxShape.box1desc}
-            Box2h5={AiCourseData[0].BoxShape.Box2h5}
-            box2desc={AiCourseData[0].BoxShape.box2desc}
-            Box3h5={AiCourseData[0].BoxShape.Box3h5}
-            box3desc={AiCourseData[0].BoxShape.box3desc}
-            Box4h5={AiCourseData[0].BoxShape.Box4h5}
-            box4desc={AiCourseData[0].BoxShape.box4desc}
+            title="Machine Learning Training Features in Pune"
+            Box1h5={MlCourseData[0].BoxShape.Box1h5}
+            box1desc={MlCourseData[0].BoxShape.box1desc}
+            Box2h5={MlCourseData[0].BoxShape.Box2h5}
+            box2desc={MlCourseData[0].BoxShape.box2desc}
+            Box3h5={MlCourseData[0].BoxShape.Box3h5}
+            box3desc={MlCourseData[0].BoxShape.box3desc}
+            Box4h5={MlCourseData[0].BoxShape.Box4h5}
+            box4desc={MlCourseData[0].BoxShape.box4desc}
             HHeading="Course Details"
             Duration="350+ Hours"
-            InterviewCalls=" 10 "
+            InterviewCalls=" 10"
             Projects="15+"
             CourseFee="₹ 1,05,000 +GST "
             Domain="7+"
           />
         </div>
         <SyllabusNew
-          syllabus={AiCourseData[0].syllabus}
-          CSyllabus="Artificial Intelligence Course Syllabus In Pune"
-          CourseHighlights={AiCourseData[0].CourseHighlights}
-          syllabusDesc={AiCourseData[0].syllabusDesc}
-          popupHead={AiCourseData[0].popupHead}
-          hours={AiCourseData[0].hours}
-          project={AiCourseData[0].project}
+          syllabus={MlCourseData[0].syllabus}
+          CSyllabus="Machine Learning Training Syllabus In Pune"
+          CourseHighlights={MlCourseData[0].CourseHighlights}
+          syllabusDesc="Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Machine Learning Training in Pune sessions are covered practically with real-time industrial projects and case studies."
+          popupHead={MlCourseData[0].popupHead}
+          hours={MlCourseData[0].hours}
+          project={MlCourseData[0].project}
         />
         <CityImage
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityPuneWeb.jpg"
@@ -151,51 +150,51 @@ export default function Home() {
           cityName="पुणे"
         />
         <OurExpert
-          H5="Artificial Intelligence Tools Covered"
-          img1={AiCourseData[0].OurExpert.img1}
-          img2={AiCourseData[0].OurExpert.img2}
-          img3={AiCourseData[0].OurExpert.img3}
-          img4={AiCourseData[0].OurExpert.img4}
-          img5={AiCourseData[0].OurExpert.img5}
-          img6={AiCourseData[0].OurExpert.img6}
-          img7={AiCourseData[0].OurExpert.img7}
-          img8={AiCourseData[0].OurExpert.img8}
-          img9={AiCourseData[0].OurExpert.img9}
-          img10={AiCourseData[0].OurExpert.img10}
-          img11={AiCourseData[0].OurExpert.img11}
-          img12={AiCourseData[0].OurExpert.img12}
-          img13={AiCourseData[0].OurExpert.img13}
-          img14={AiCourseData[0].OurExpert.img14}
-          img15={AiCourseData[0].OurExpert.img15}
-          img16={AiCourseData[0].OurExpert.img16}
-          img17={AiCourseData[0].OurExpert.img17}
-          img18={AiCourseData[0].OurExpert.img18}
-          img19={AiCourseData[0].OurExpert.img19}
-          img21={AiCourseData[0].OurExpert.img21}
-          img22={AiCourseData[0].OurExpert.img22}
-          img23={AiCourseData[0].OurExpert.img23}
-          img20={AiCourseData[0].OurExpert.img20}
+          H5="Tools Covered"
+          img1={MlCourseData[0].OurExpert.img1}
+          img2={MlCourseData[0].OurExpert.img2}
+          img3={MlCourseData[0].OurExpert.img3}
+          img4={MlCourseData[0].OurExpert.img4}
+          img5={MlCourseData[0].OurExpert.img5}
+          img6={MlCourseData[0].OurExpert.img6}
+          img7={MlCourseData[0].OurExpert.img7}
+          img8={MlCourseData[0].OurExpert.img8}
+          img9={MlCourseData[0].OurExpert.img9}
+          img10={MlCourseData[0].OurExpert.img10}
+          img11={MlCourseData[0].OurExpert.img11}
+          img12={MlCourseData[0].OurExpert.img12}
+          img13={MlCourseData[0].OurExpert.img13}
+          img14={MlCourseData[0].OurExpert.img14}
+          img15={MlCourseData[0].OurExpert.img15}
+          img16={MlCourseData[0].OurExpert.img16}
+          img17={MlCourseData[0].OurExpert.img17}
+          img18={MlCourseData[0].OurExpert.img18}
+          img19={MlCourseData[0].OurExpert.img19}
+          img21={MlCourseData[0].OurExpert.img21}
+          img22={MlCourseData[0].OurExpert.img22}
+          img23={MlCourseData[0].OurExpert.img23}
+          img20={MlCourseData[0].OurExpert.img20}
         />
-        <Certificate H4="Artificial Intelligence Certification Course In Pune" />
+        <Certificate H4="Machine Learning Certification Training In Pune" />
         <div className={styles.ProjectWrapper} id="project">
           <Project
-            popupHead={AiCourseData[0].Project.popupHead}
-            project={AiCourseData[0].Project.project}
-            domain={AiCourseData[0].Project.domain}
+            popupHead={MlCourseData[0].Project.popupHead}
+            project={MlCourseData[0].Project.project}
+            domain={MlCourseData[0].Project.domain}
             projectTitle="Hands-on Projects In Pune"
           />
         </div>
         <SliderTab />
         <CourseFee
-          syllabusDesc={AiCourseData[0].syllabusDesc}
-          syllabus={AiCourseData[0].Batch}
-          CourseFeeHead={AiCourseData[0].BatchCourses.CourseFeeHead}
-          CourseFeePara={AiCourseData[0].BatchCourses.CourseFeePara}
-          CourseFeelist1={AiCourseData[0].BatchCourses.CourseFeelist1}
-          CourseFeelist2={AiCourseData[0].BatchCourses.CourseFeelist2}
-          CourseFeelist3={AiCourseData[0].BatchCourses.CourseFeelist3}
-          CourseFeelist4={AiCourseData[0].BatchCourses.CourseFeelist4}
-          CourseFeelist5={AiCourseData[0].BatchCourses.CourseFeelist5}
+          syllabusDesc={MlCourseData[0].syllabusDesc}
+          syllabus={MlCourseData[0].Batch}
+          CourseFeeHead="Machine Learning Training in Pune: Batch Details"
+          CourseFeePara={MlCourseData[0].BatchCourses.CourseFeePara}
+          CourseFeelist1={MlCourseData[0].BatchCourses.CourseFeelist1}
+          CourseFeelist2={MlCourseData[0].BatchCourses.CourseFeelist2}
+          CourseFeelist3={MlCourseData[0].BatchCourses.CourseFeelist3}
+          CourseFeelist4={MlCourseData[0].BatchCourses.CourseFeelist4}
+          CourseFeelist5={MlCourseData[0].BatchCourses.CourseFeelist5}
         />
         <LearnSupport
           headForCity={true}

@@ -118,7 +118,7 @@ export default function Home() {
         <HiringPatners topHead="Our Hiring Partner's In Bangalore" />
         <div className={styles.Feature} id="Feature">
           <ProgramWithHighLight
-            title={DataAnalyticsCourseData[0].BoxShape.title}
+            title="Data Analytic Course Features in Bangalore"
             Box1h5={DataAnalyticsCourseData[0].BoxShape.Box1h5}
             box1desc={DataAnalyticsCourseData[0].BoxShape.box1desc}
             Box2h5={DataAnalyticsCourseData[0].BoxShape.Box2h5}
@@ -150,7 +150,7 @@ export default function Home() {
           cityName="ಬೆಂಗಳೂರು"
         />
         <OurExpert
-          H5={DataAnalyticsCourseData[0].OurExpert.H5}
+          H5="Tools Covered"
           img1={DataAnalyticsCourseData[0].OurExpert.img1}
           img2={DataAnalyticsCourseData[0].OurExpert.img2}
           img3={DataAnalyticsCourseData[0].OurExpert.img3}
@@ -175,7 +175,7 @@ export default function Home() {
           img23={DataAnalyticsCourseData[0].OurExpert.img23}
           img20={DataAnalyticsCourseData[0].OurExpert.img20}
         />
-        <Certificate H4="Data Analytics Program In Bangalore" />
+        <Certificate H4="Data Analytics Certification Course In Bangalore" />
         <div className={styles.ProjectWrapper} id="project">
           <Project
             popupHead={DataAnalyticsCourseData[0].Project.popupHead}
