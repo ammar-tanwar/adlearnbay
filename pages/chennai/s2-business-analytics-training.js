@@ -1,6 +1,5 @@
 import Head from "next/head";
 import React, { useState } from "react";
-import { DataAnalyticsCourseData } from "../../Data/chennai/DataAnalyticsData";
 import styles from "../../styles/Home.module.css";
 import Popup from "../../Components/Popup/Popup";
 import Form from "../../Components/Form/Form";
@@ -18,6 +17,7 @@ import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import ProgramWithHighLight from "../../Components/CityComponents/ProgramWithHighLight/ProgramWithHighLight";
 import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
 import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
+import { BusinessAnalyticsCourseData } from "../../Data/chennai/BusinessAnalyticsData";
 
 
 export default function Home() {
@@ -29,18 +29,19 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Data Analytics course – Learnbay</title>
+        <title>Business Analytics Training – Learnbay</title>
         <meta
           name="description"
-          content="Advance certification online Data Analytics course with 100% placement assistance 
-          and get 1:1 Guaranteed interview calls, 8+ Real-time projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
-          24/7 Learner’s support."
-        />{" "}
-        <meta
-          name="Keywords"
-          content="data analytics course, data analytics institute, data analytics course fee, data analytics certification, data analytics training, business analytics course, data analytics course duration, business analytics institute, business analytics certification, business analytics training"
+          content="Business Analytics Certification Training"
         />
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
+        <link
+          rel="canonical"
+          href="https://www.learnbay.co/business-analytics-certification-course"
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
@@ -80,8 +81,8 @@ export default function Home() {
           }}
         />
       </Head>
+
       <main>
-        {" "}
         <Navbar popup={true} jobDesc={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -97,39 +98,39 @@ export default function Home() {
         <FirstSection
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/ChennaiTopWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/ChennaiTopMob.jpg"
-          courseName="Data Analytics Course"
+          courseName="Business Analytics Training"
           cityName="In Chennai"
-          ptag="Data analytics is the process of examining data sets to identify trends 
-        and develop conclusions about the information contained within them. 
-        This course in Chennai is developed for working individuals who want 
-        to maximize their present industry expertise and change career."
+          ptag="Business analytics is the process of examining data sets to identify trends 
+          and develop conclusions about the information contained within them. 
+          This training in Chennai is developed for working individuals who want 
+          to maximize their present industry expertise and change career."
         />
         <div className={styles.program1}>
           <ProgramInfo
-            p1={DataAnalyticsCourseData[0].ProgramInfo.p1}
-            p11={DataAnalyticsCourseData[0].ProgramInfo.p11}
-            p2={DataAnalyticsCourseData[0].ProgramInfo.p2}
-            p22={DataAnalyticsCourseData[0].ProgramInfo.p22}
-            p3={DataAnalyticsCourseData[0].ProgramInfo.p3}
-            p33={DataAnalyticsCourseData[0].ProgramInfo.p33}
-            p4={DataAnalyticsCourseData[0].ProgramInfo.p4}
-            p44={DataAnalyticsCourseData[0].ProgramInfo.p44}
+            p1={BusinessAnalyticsCourseData[0].ProgramInfo.p1}
+            p11={BusinessAnalyticsCourseData[0].ProgramInfo.p11}
+            p2={BusinessAnalyticsCourseData[0].ProgramInfo.p2}
+            p22={BusinessAnalyticsCourseData[0].ProgramInfo.p22}
+            p3={BusinessAnalyticsCourseData[0].ProgramInfo.p3}
+            p33={BusinessAnalyticsCourseData[0].ProgramInfo.p33}
+            p4={BusinessAnalyticsCourseData[0].ProgramInfo.p4}
+            p44={BusinessAnalyticsCourseData[0].ProgramInfo.p44}
           />
         </div>
         <HiringPatners topHead="Our Hiring Partner's In Chennai" />
         <div className={styles.Feature} id="Feature">
           <ProgramWithHighLight
-            title="Data Analytic Course Features in Chennai"
-            Box1h5={DataAnalyticsCourseData[0].BoxShape.Box1h5}
-            box1desc={DataAnalyticsCourseData[0].BoxShape.box1desc}
-            Box2h5={DataAnalyticsCourseData[0].BoxShape.Box2h5}
-            box2desc={DataAnalyticsCourseData[0].BoxShape.box2desc}
-            Box3h5={DataAnalyticsCourseData[0].BoxShape.Box3h5}
-            box3desc={DataAnalyticsCourseData[0].BoxShape.box3desc}
-            Box4h5={DataAnalyticsCourseData[0].BoxShape.Box4h5}
-            box4desc={DataAnalyticsCourseData[0].BoxShape.box4desc}
+            title="Business Analytics Training Features in Chennai"
+            Box1h5={BusinessAnalyticsCourseData[0].BoxShape.Box1h5}
+            box1desc={BusinessAnalyticsCourseData[0].BoxShape.box1desc}
+            Box2h5={BusinessAnalyticsCourseData[0].BoxShape.Box2h5}
+            box2desc={BusinessAnalyticsCourseData[0].BoxShape.box2desc}
+            Box3h5={BusinessAnalyticsCourseData[0].BoxShape.Box3h5}
+            box3desc={BusinessAnalyticsCourseData[0].BoxShape.box3desc}
+            Box4h5={BusinessAnalyticsCourseData[0].BoxShape.Box4h5}
+            box4desc={BusinessAnalyticsCourseData[0].BoxShape.box4desc}
             HHeading="Course Details"
-            Duration="180+ Hours"
+            Duration="200+ Hours"
             InterviewCalls=" 5 "
             Projects="8+"
             CourseFee="₹ 75,000 +GST "
@@ -137,13 +138,13 @@ export default function Home() {
           />
         </div>
         <SyllabusNew
-          syllabus={DataAnalyticsCourseData[0].syllabus}
-          CSyllabus="Data Analytics Course Syllabus In Chennai"
-          CourseHighlights={DataAnalyticsCourseData[0].CourseHighlights}
-          syllabusDesc={DataAnalyticsCourseData[0].syllabusDesc}
-          popupHead={DataAnalyticsCourseData[0].popupHead}
-          hours={DataAnalyticsCourseData[0].hours}
-          project={DataAnalyticsCourseData[0].project}
+          syllabus={BusinessAnalyticsCourseData[0].syllabus}
+          CSyllabus="Business Analytics Training Syllabus In Chennai"
+          CourseHighlights={BusinessAnalyticsCourseData[0].CourseHighlights}
+          syllabusDesc={BusinessAnalyticsCourseData[0].syllabusDesc}
+          popupHead={BusinessAnalyticsCourseData[0].popupHead}
+          hours={BusinessAnalyticsCourseData[0].hours}
+          project={BusinessAnalyticsCourseData[0].project}
         />
         <CityImage
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityChennaiWeb.jpg"
@@ -152,59 +153,59 @@ export default function Home() {
         />
         <OurExpert
           H5="Tools Covered"
-          img1={DataAnalyticsCourseData[0].OurExpert.img1}
-          img2={DataAnalyticsCourseData[0].OurExpert.img2}
-          img3={DataAnalyticsCourseData[0].OurExpert.img3}
-          img4={DataAnalyticsCourseData[0].OurExpert.img4}
-          img5={DataAnalyticsCourseData[0].OurExpert.img5}
-          img6={DataAnalyticsCourseData[0].OurExpert.img6}
-          img7={DataAnalyticsCourseData[0].OurExpert.img7}
-          img8={DataAnalyticsCourseData[0].OurExpert.img8}
-          img9={DataAnalyticsCourseData[0].OurExpert.img9}
-          img10={DataAnalyticsCourseData[0].OurExpert.img10}
-          img11={DataAnalyticsCourseData[0].OurExpert.img11}
-          img12={DataAnalyticsCourseData[0].OurExpert.img12}
-          img13={DataAnalyticsCourseData[0].OurExpert.img13}
-          img14={DataAnalyticsCourseData[0].OurExpert.img14}
-          img15={DataAnalyticsCourseData[0].OurExpert.img15}
-          img16={DataAnalyticsCourseData[0].OurExpert.img16}
-          img17={DataAnalyticsCourseData[0].OurExpert.img17}
-          img18={DataAnalyticsCourseData[0].OurExpert.img18}
-          img19={DataAnalyticsCourseData[0].OurExpert.img19}
-          img21={DataAnalyticsCourseData[0].OurExpert.img21}
-          img22={DataAnalyticsCourseData[0].OurExpert.img22}
-          img23={DataAnalyticsCourseData[0].OurExpert.img23}
-          img20={DataAnalyticsCourseData[0].OurExpert.img20}
+          img1={BusinessAnalyticsCourseData[0].OurExpert.img1}
+          img2={BusinessAnalyticsCourseData[0].OurExpert.img2}
+          img3={BusinessAnalyticsCourseData[0].OurExpert.img3}
+          img4={BusinessAnalyticsCourseData[0].OurExpert.img4}
+          img5={BusinessAnalyticsCourseData[0].OurExpert.img5}
+          img6={BusinessAnalyticsCourseData[0].OurExpert.img6}
+          img7={BusinessAnalyticsCourseData[0].OurExpert.img7}
+          img8={BusinessAnalyticsCourseData[0].OurExpert.img8}
+          img9={BusinessAnalyticsCourseData[0].OurExpert.img9}
+          img10={BusinessAnalyticsCourseData[0].OurExpert.img10}
+          img11={BusinessAnalyticsCourseData[0].OurExpert.img11}
+          img12={BusinessAnalyticsCourseData[0].OurExpert.img12}
+          img13={BusinessAnalyticsCourseData[0].OurExpert.img13}
+          img14={BusinessAnalyticsCourseData[0].OurExpert.img14}
+          img15={BusinessAnalyticsCourseData[0].OurExpert.img15}
+          img16={BusinessAnalyticsCourseData[0].OurExpert.img16}
+          img17={BusinessAnalyticsCourseData[0].OurExpert.img17}
+          img18={BusinessAnalyticsCourseData[0].OurExpert.img18}
+          img19={BusinessAnalyticsCourseData[0].OurExpert.img19}
+          img21={BusinessAnalyticsCourseData[0].OurExpert.img21}
+          img22={BusinessAnalyticsCourseData[0].OurExpert.img22}
+          img23={BusinessAnalyticsCourseData[0].OurExpert.img23}
+          img20={BusinessAnalyticsCourseData[0].OurExpert.img20}
         />
-        <Certificate H4="Data Analytics Certification Course In Chennai" />
+        <Certificate H4="Business Analytics Certification Training In Chennai" />
         <div className={styles.ProjectWrapper} id="project">
           <Project
-            popupHead={DataAnalyticsCourseData[0].Project.popupHead}
-            project={DataAnalyticsCourseData[0].Project.project}
-            domain={DataAnalyticsCourseData[0].Project.domain}
+            popupHead={BusinessAnalyticsCourseData[0].Project.popupHead}
+            project={BusinessAnalyticsCourseData[0].Project.project}
+            domain={BusinessAnalyticsCourseData[0].Project.domain}
             projectTitle="Hands-on Projects In Chennai"
           />
         </div>
         <SliderTab />
         <CourseFee
-          syllabusDesc={DataAnalyticsCourseData[0].syllabusDesc}
-          syllabus={DataAnalyticsCourseData[0].Batch}
-          CourseFeeHead={DataAnalyticsCourseData[0].BatchCourses.CourseFeeHead}
-          CourseFeePara={DataAnalyticsCourseData[0].BatchCourses.CourseFeePara}
+          syllabusDesc={BusinessAnalyticsCourseData[0].syllabusDesc}
+          syllabus={BusinessAnalyticsCourseData[0].Batch}
+          CourseFeeHead="Business Analytics Training in Chennai : Batch Details"
+          CourseFeePara={BusinessAnalyticsCourseData[0].BatchCourses.CourseFeePara}
           CourseFeelist1={
-            DataAnalyticsCourseData[0].BatchCourses.CourseFeelist1
+            BusinessAnalyticsCourseData[0].BatchCourses.CourseFeelist1
           }
           CourseFeelist2={
-            DataAnalyticsCourseData[0].BatchCourses.CourseFeelist2
+            BusinessAnalyticsCourseData[0].BatchCourses.CourseFeelist2
           }
           CourseFeelist3={
-            DataAnalyticsCourseData[0].BatchCourses.CourseFeelist3
+            BusinessAnalyticsCourseData[0].BatchCourses.CourseFeelist3
           }
           CourseFeelist4={
-            DataAnalyticsCourseData[0].BatchCourses.CourseFeelist4
+            BusinessAnalyticsCourseData[0].BatchCourses.CourseFeelist4
           }
           CourseFeelist5={
-            DataAnalyticsCourseData[0].BatchCourses.CourseFeelist5
+            BusinessAnalyticsCourseData[0].BatchCourses.CourseFeelist5
           }
         />
         <LearnSupport

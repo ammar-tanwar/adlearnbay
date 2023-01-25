@@ -17,7 +17,7 @@ import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import ProgramWithHighLight from "../../Components/CityComponents/ProgramWithHighLight/ProgramWithHighLight";
 import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
 import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
-import { BusinessAnalyticsCourseData } from "../../Data/chennai/BusinessAnalyticsData";
+import { BusinessAnalyticsCourseData } from "../../Data/bangalore/BusinessAnalyticsData";
 
 
 export default function Home() {
@@ -29,10 +29,10 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Business Analytics course – Learnbay</title>
+        <title>Business Analytics Training – Learnbay</title>
         <meta
           name="description"
-          content="Business Analytics Certification Course"
+          content="Business Analytics Training Program"
         />
         <link
           rel="icon"
@@ -96,14 +96,14 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/ChennaiTopWeb.jpg"
-          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/ChennaiTopMob.jpg"
-          courseName="Business Analytics Course"
-          cityName="In Chennai"
+          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/BengaluruTopWeb.jpg"
+          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/BengaluruTopMob.jpg"
+          courseName="Business Analytics Training"
+          cityName="In Bangalore"
           ptag="Business analytics is the process of examining data sets to identify trends 
-          and develop conclusions about the information contained within them. 
-          This course in Chennai is developed for working individuals who want 
-          to maximize their present industry expertise and change career."
+      and develop conclusions about the information contained within them. 
+      This training in Bangalore will provide you with hands-on experience 
+      with technologies such as R, Python, Tableau, Hadoop, and so on."
         />
         <div className={styles.program1}>
           <ProgramInfo
@@ -117,10 +117,10 @@ export default function Home() {
             p44={BusinessAnalyticsCourseData[0].ProgramInfo.p44}
           />
         </div>
-        <HiringPatners topHead="Our Hiring Partner's In Chennai" />
+        <HiringPatners topHead="Our Hiring Partner's In Bangalore" />
         <div className={styles.Feature} id="Feature">
           <ProgramWithHighLight
-            title="Business Analytics Course Features in Chennai"
+            title="Business Analytics Training Features in Bangalore"
             Box1h5={BusinessAnalyticsCourseData[0].BoxShape.Box1h5}
             box1desc={BusinessAnalyticsCourseData[0].BoxShape.box1desc}
             Box2h5={BusinessAnalyticsCourseData[0].BoxShape.Box2h5}
@@ -139,7 +139,7 @@ export default function Home() {
         </div>
         <SyllabusNew
           syllabus={BusinessAnalyticsCourseData[0].syllabus}
-          CSyllabus="Business Analytics Course Syllabus In Chennai"
+          CSyllabus="Business Analytics Training Syllabus In Bangalore"
           CourseHighlights={BusinessAnalyticsCourseData[0].CourseHighlights}
           syllabusDesc={BusinessAnalyticsCourseData[0].syllabusDesc}
           popupHead={BusinessAnalyticsCourseData[0].popupHead}
@@ -147,9 +147,9 @@ export default function Home() {
           project={BusinessAnalyticsCourseData[0].project}
         />
         <CityImage
-          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityChennaiWeb.jpg"
-          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityChennaiMob.jpg"
-          cityName="சென்னை"
+          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityBangaloreWeb.jpg"
+          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityBangaloreMob.jpg"
+          cityName="ಬೆಂಗಳೂರು"
         />
         <OurExpert
           H5="Tools Covered"
@@ -177,20 +177,20 @@ export default function Home() {
           img23={BusinessAnalyticsCourseData[0].OurExpert.img23}
           img20={BusinessAnalyticsCourseData[0].OurExpert.img20}
         />
-        <Certificate H4="Business Analytics Certification Course In Chennai" />
+        <Certificate H4="Business Analytics Certification Training In Bangalore" />
         <div className={styles.ProjectWrapper} id="project">
           <Project
             popupHead={BusinessAnalyticsCourseData[0].Project.popupHead}
             project={BusinessAnalyticsCourseData[0].Project.project}
             domain={BusinessAnalyticsCourseData[0].Project.domain}
-            projectTitle="Hands-on Projects In Chennai"
+            projectTitle="Hands-on Projects In Bangalore"
           />
         </div>
         <SliderTab />
         <CourseFee
           syllabusDesc={BusinessAnalyticsCourseData[0].syllabusDesc}
           syllabus={BusinessAnalyticsCourseData[0].Batch}
-          CourseFeeHead={BusinessAnalyticsCourseData[0].BatchCourses.CourseFeeHead}
+          CourseFeeHead="Business Analytics Training In Bangalore : Batch Details"
           CourseFeePara={BusinessAnalyticsCourseData[0].BatchCourses.CourseFeePara}
           CourseFeelist1={
             BusinessAnalyticsCourseData[0].BatchCourses.CourseFeelist1
@@ -210,9 +210,9 @@ export default function Home() {
         />
         <LearnSupport
           headForCity={true}
-          cityName="24/7 Learner’s Support In Chennai"
+          cityName="24/7 Learner’s Support In Bangalore"
         />
-        <CityFooter cityName="Chennai" />
+        <CityFooter cityName="Bangalore" />
       </main>
     </div>
   );

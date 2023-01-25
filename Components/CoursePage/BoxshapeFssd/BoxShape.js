@@ -9,6 +9,7 @@ import FormOtp from "../../FormOtp/FormOtp";
 import Popup from "../../Popup/Popup";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
+import { FaDownload } from "react-icons/fa";
 
 const BoxShape = ({
   title,
@@ -19,7 +20,7 @@ const BoxShape = ({
   Box3h5,
   box3desc,
   Box4h5,
-  box4desc,
+  eventDownload,
   eventQRadio,
   formotp,
   fsdlink,
@@ -56,15 +57,15 @@ const BoxShape = ({
           <h5>Download Brochure</h5>
           {eventQRadio ? (
             <>
-            <FormOtp popup={true} eventRadio={true} />
+              <FormOtp popup={true} eventRadio={true} />
             </>
-          ):(
-          <>
-          {formotp ?(
-          <FormOtp popup={true}/>
-          ):(
-            <Form setTrigger={setPopups} downloadBrochure />
-            )}
+          ) : (
+            <>
+              {formotp ? (
+                <FormOtp popup={true} />
+              ) : (
+                <Form setTrigger={setPopups} downloadBrochure />
+              )}
             </>
           )}
         </div>
@@ -83,21 +84,33 @@ const BoxShape = ({
             />
             <p className={styles.Ptopp}>
               Full Stack Software
-              <br />Development Program
+              <br />
+              Development Program
             </p>
+            {eventDownload ? (
+              <>
+                <button onClick={popupShow}>
+                Download Syllabus
+                  <FaDownload style={{ marginLeft: "10px" }} />
+                </button>
+                </>
+          ) : (
+            <>
             {fsdlink ? (
-              <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session"><button className={styles.Button}>
-                <AiOutlineDownload className="bIcons" />
-                Download Brochure
-              </button></a>
+              <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session">
+                <button className={styles.Button}>
+                  <AiOutlineDownload className="bIcons" />
+                  Download Brochure
+                </button>
+              </a>
             ) : (
               <button className={styles.Button} onClick={popupShow}>
                 <AiOutlineDownload className="bIcons" />
                 Download Brochure
               </button>
             )}
-
-
+            </>
+                      )}
           </div>
           <div>
             <Image
@@ -110,21 +123,33 @@ const BoxShape = ({
             />
             <p className={styles.Ptopp}>
               Data Structures Algorithms
-              <br />And System Design
+              <br />
+              And System Design
             </p>
-
+            {eventDownload ? (
+              <>
+                <button onClick={popupShow}>
+                Download Syllabus
+                  <FaDownload style={{ marginLeft: "10px" }} />
+                </button>
+                </>
+          ) : (
+            <>
             {fsdlink ? (
-              <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session"><button className={styles.Button}>
-                <AiOutlineDownload className="bIcons" />
-                Download Brochure
-              </button></a>
+              <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session">
+                <button className={styles.Button}>
+                  <AiOutlineDownload className="bIcons" />
+                  Download Brochure
+                </button>
+              </a>
             ) : (
               <button className={styles.Button} onClick={popupShow}>
                 <AiOutlineDownload className="bIcons" />
                 Download Brochure
               </button>
             )}
-
+            </>
+                      )}
           </div>
           <div>
             <Image
@@ -137,26 +162,35 @@ const BoxShape = ({
             />
             <p className={styles.Ptopp}>
               Full Stack Web
-              <br />Development Program
+              <br />
+              Development Program
             </p>
-
-
+            {eventDownload ? (
+              <>
+                <button onClick={popupShow}>
+                Download Syllabus
+                  <FaDownload style={{ marginLeft: "10px" }} />
+                </button>
+                </>
+          ) : (
+            <>
             {fsdlink ? (
-              <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session"><button className={styles.Button}>
-                <AiOutlineDownload className="bIcons" />
-                Download Brochure
-              </button></a>
+              <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session">
+                <button className={styles.Button}>
+                  <AiOutlineDownload className="bIcons" />
+                  Download Brochure
+                </button>
+              </a>
             ) : (
               <button className={styles.Button} onClick={popupShow}>
                 <AiOutlineDownload className="bIcons" />
                 Download Brochure
               </button>
             )}
-
-
+            </>
+                      )}
           </div>
         </div>
-
       </div>
     </div>
   );

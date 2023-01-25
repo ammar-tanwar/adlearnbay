@@ -120,7 +120,7 @@ export default function Home() {
         <HiringPatners topHead="Our Hiring Partner's In Pune" />
         <div className={styles.Feature} id="Feature">
           <ProgramWithHighLight
-            title={BusinessAnalyticsCourseData[0].BoxShape.title}
+            title="Business Analytics Course Features in Pune"
             Box1h5={BusinessAnalyticsCourseData[0].BoxShape.Box1h5}
             box1desc={BusinessAnalyticsCourseData[0].BoxShape.box1desc}
             Box2h5={BusinessAnalyticsCourseData[0].BoxShape.Box2h5}
@@ -152,7 +152,7 @@ export default function Home() {
           cityName="पुणे"
         />
         <OurExpert
-          H5={BusinessAnalyticsCourseData[0].OurExpert.H5}
+          H5="Tools Covered"
           img1={BusinessAnalyticsCourseData[0].OurExpert.img1}
           img2={BusinessAnalyticsCourseData[0].OurExpert.img2}
           img3={BusinessAnalyticsCourseData[0].OurExpert.img3}
@@ -177,7 +177,7 @@ export default function Home() {
           img23={BusinessAnalyticsCourseData[0].OurExpert.img23}
           img20={BusinessAnalyticsCourseData[0].OurExpert.img20}
         />
-        <Certificate H4="Business Analytics Program In Pune" />
+        <Certificate H4="Business Analytics Certification Course In Pune" />
         <div className={styles.ProjectWrapper} id="project">
           <Project
             popupHead={BusinessAnalyticsCourseData[0].Project.popupHead}

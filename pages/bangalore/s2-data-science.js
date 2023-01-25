@@ -121,7 +121,7 @@ export default function Home() {
 
         <div className={styles.Feature} id="Feature">
           <ProgramWithHighLight
-            title={DataScienceCourseData[0].BoxShape.title}
+            title="Data Science Course Features in Bangalore"
             Box1h5={DataScienceCourseData[0].BoxShape.Box1h5}
             box1desc={DataScienceCourseData[0].BoxShape.box1desc}
             Box2h5={DataScienceCourseData[0].BoxShape.Box2h5}
@@ -155,7 +155,7 @@ export default function Home() {
           cityName="ಬೆಂಗಳೂರು"
         />
         <OurExpert
-          H5={DataScienceCourseData[0].OurExpert.H5}
+          H5="Tools Covered"
           img1={DataScienceCourseData[0].OurExpert.img1}
           img2={DataScienceCourseData[0].OurExpert.img2}
           img3={DataScienceCourseData[0].OurExpert.img3}
@@ -180,7 +180,7 @@ export default function Home() {
           img23={DataScienceCourseData[0].OurExpert.img23}
           img20={DataScienceCourseData[0].OurExpert.img20}
         />
-        <Certificate H4="Data Science Certification Program In Bangalore" />
+        <Certificate H4="Data Science Certification Course In Bangalore" />
         <div className={styles.ProjectWrapper} id="project">
           <Project
             popupHead={DataScienceCourseData[0].Project.popupHead}

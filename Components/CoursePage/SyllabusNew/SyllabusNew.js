@@ -32,6 +32,7 @@ function SyllabusNew({
   syllabusFormotp,
   formotpForS3DS,
   eventQRadio,
+  eventDownload,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -100,18 +101,29 @@ function SyllabusNew({
           </div>
 
           <div className={styles.btnWrapper}>
-            {fsdlink ? (
-              <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session">
-                <button style={{ margin: "auto" }}>
-                  <FaDownload className="bIcons" />
-                  Syllabus Brochure
+            {eventDownload ? (
+              <>
+                <button onClick={popupShow}>
+                  DSA Syllabus
+                  <FaDownload style={{ marginLeft: "10px" }} />
                 </button>
-              </a>
+              </>
             ) : (
-              <button onClick={popupShow} style={{ margin: "auto" }}>
-                <FaDownload className="bIcons" />
-                Syllabus Brochure
-              </button>
+              <>
+                {fsdlink ? (
+                  <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session">
+                    <button style={{ margin: "auto" }}>
+                      <FaDownload className="bIcons" />
+                      Syllabus Brochure
+                    </button>
+                  </a>
+                ) : (
+                  <button onClick={popupShow} style={{ margin: "auto" }}>
+                    <FaDownload className="bIcons" />
+                    Syllabus Brochure
+                  </button>
+                )}
+              </>
             )}
           </div>
         </div>

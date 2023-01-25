@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import styles from "./HeroSection.module.css";
 import "swiper/css";
 import "swiper/css/navigation";
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowRight, FaDownload } from "react-icons/fa";
 import Image from "next/image";
 import FormOtp from "/Components/FormOtp/FormOtp";
 import Popup from "/Components/Popup/Popup";
@@ -56,7 +56,7 @@ const HeroSection = ({
         </div>
         <div className="RightPopup">
           {eventDownload ? (
-            <h5>Download Brochure</h5>
+            <h5>Download DSA Syllabus</h5>
           ) : (
             <h5>Apply For Counselling</h5>
           )}
@@ -109,8 +109,8 @@ const HeroSection = ({
           {eventDownload ? (
             <div className={styles.btnWrapper}>
                 <button onClick={popupShow}>
-                  Download Brochure
-                  <FaArrowRight style={{ marginLeft: "10px" }} />
+                DSA Syllabus
+                  <FaDownload style={{ marginLeft: "10px" }} />
                 </button>
             </div>
           ) : (
