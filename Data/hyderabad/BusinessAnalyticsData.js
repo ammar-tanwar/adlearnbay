@@ -287,7 +287,8 @@ export const BusinessAnalyticsCourseData = [
     ProgramFee: {
       Emi: "₹ 14,750/month",
       Fee: "₹ 75,000 +GST",
-      CourseFeeAndFinancing: "Business Analytics Course Fee & Financing in Hyderabad",
+      CourseFeeAndFinancing:
+        "Business Analytics Course Fee & Financing in Hyderabad",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Business Analytics Certification Course in Hyderabad and offer a variety of financing options to make it more economical.",
     },
     Project: {
@@ -301,12 +302,12 @@ export const BusinessAnalyticsCourseData = [
       CourseFeePara: "Business Analytics Course Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",
-      CourseFeelist3: "Extra Doubt Clearance Sessions",
+      CourseFeelist3: "Extra Doubt Clearing Sessions",
       CourseFeelist4: "Multiple Domain Selection Options",
       CourseFeelist5: "Company-based Mock Interviews",
     },
 
-        Batch: [
+    Batch: [
       {
         Module0: {
           title: "Weekday Evening Batch :- (Mon-Fri)",
@@ -343,7 +344,7 @@ export const BusinessAnalyticsCourseData = [
       CourseFeePara: "Business Analytics Course Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",
-      CourseFeelist3: "Extra Doubt Clearance Sessions",
+      CourseFeelist3: "Extra Doubt Clearing Sessions",
       CourseFeelist4: "Multiple Domain Selection Options",
       CourseFeelist5: "Company-based Mock Interviews",
     },

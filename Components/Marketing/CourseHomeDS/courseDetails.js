@@ -1,7 +1,7 @@
 export const viewAllD = [
   {
     id: 1,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-program.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-program.png",
     title: "Data Science",
     title1: "Foundation Program",
     tag: "Data science",
@@ -16,7 +16,7 @@ export const viewAllD = [
   },
   {
     id: 2,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/advance-data-science-ai-program.webp",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/advance-data-science-ai-program.png",
     title: "Advanced Data Science",
     title1: "& AI Program",
     tag: "Data science",
@@ -31,7 +31,7 @@ export const viewAllD = [
   },
   {
     id: 3,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/advance -ai-ml-for-tech-professionals.webp",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/advance-ai-ml-for-tech-professionals.png",
     title: "Advance AI & ML Program",
     title1: "for Tech Professionals",
     tag: "Data science",
@@ -46,7 +46,7 @@ export const viewAllD = [
   },
   {
     id: 4,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
     title: "Data Science & AI ",
     title1: "For Managers",
     tag: "Data science",
@@ -61,7 +61,7 @@ export const viewAllD = [
   },
   {
     id: 5,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-with-job-guarantee.webp",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-master-program.png",
     title: "Data Science & AI ",
     title1: "Master Program",
     tag: "Data science",
@@ -76,7 +76,7 @@ export const viewAllD = [
   },
   {
     id: 6,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/dsa&system.webp",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-analytics.png",
     title: "Data Analytics",
     title1: "Program",
     tag: "Data science",
@@ -91,7 +91,7 @@ export const viewAllD = [
   },
   {
     id: 7,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/business-analytics.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/Business-Analytics.png",
     title: "Business Analytics",
     title1: "Program",
     tag: "Data science",

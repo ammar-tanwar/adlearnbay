@@ -30,9 +30,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>
-          Data Science course - Learnbay
-        </title>
+        <title>Data Science course - Learnbay</title>
         <meta
           name="description"
           content="Advance certification online data science course with 100% placement assistance 
@@ -40,7 +38,10 @@ export default function Home() {
         projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
         24/7 Learner’s support."
         />
-        <meta name="Keywords" content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee" />
+        <meta
+          name="Keywords"
+          content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee"
+        />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{
@@ -80,9 +81,10 @@ export default function Home() {
             x.parentNode.insertBefore(s, x);`,
           }}
         />
-
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} />
+      <main>
+        {" "}
+        <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -94,7 +96,8 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}
+        <FirstSection
+          dataScience={true}
           deskTopPara="Choose Specialization over Generalization"
           mTopPara="Choose Specialization over Generalization"
           mTitle="Advanced Data Science and AI Program with"
@@ -120,7 +123,6 @@ export default function Home() {
             p44={DataScienceCourseData[0].ProgramInfo.p44}
           />
         </div>
-
         <div className={styles.Feature} id="Feature">
           <BoxShape
             title="Why Enroll In This Program?"
@@ -138,12 +140,11 @@ export default function Home() {
         <CourseReview
           p1="Working at HCL"
           p2=" Working at TCS"
-          p3="Working at Capgemini" />
-
-        <Certificate
-          H4="Data Science Certification Program"
+          p3="Working at Capgemini"
         />
-        <SyllabusNew dataScience={true}
+        <Certificate H4="Data Science Certification Program" />
+        <SyllabusNew
+          dataScience={true}
           syllabus={DataScienceCourseData[0].syllabus}
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
           popupHead="Download Course Brochure"
@@ -177,18 +178,22 @@ export default function Home() {
           img23={DataScienceCourseData[0].OurExpert.img23}
           img20={DataScienceCourseData[0].OurExpert.img20}
         />
-        <ProgramFee Fee={DataScienceCourseData[0].ProgramFee.Fee}
-          Emi={DataScienceCourseData[0].ProgramFee.Emi} CourseFeeAndFinancing="Program Fee & Financing"
-          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." dataScience={true} />
+        <ProgramFee
+          Fee={DataScienceCourseData[0].ProgramFee.Fee}
+          Emi={DataScienceCourseData[0].ProgramFee.Emi}
+          CourseFeeAndFinancing="Program Fee & Financing"
+          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."
+          dataScience={true}
+        />
         <SliderTab />
-
         <div className={styles.ProjectWrapper} id="project">
-          <Project popupHead={DataScienceCourseData[0].Project.popupHead}
+          <Project
+            popupHead={DataScienceCourseData[0].Project.popupHead}
             project={DataScienceCourseData[0].Project.project}
             domain={DataScienceCourseData[0].Project.domain}
-            projectTitle={DataScienceCourseData[0].Project.projectTitle} />
+            projectTitle={DataScienceCourseData[0].Project.projectTitle}
+          />
         </div>
-
         <CourseFee
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
           syllabus={DataScienceCourseData[0].Batch}
@@ -196,7 +201,7 @@ export default function Home() {
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"
           CourseFeelist2="Weekend and Weekday Batches"
-          CourseFeelist3="Extra Doubt Clearance Sessions"
+          CourseFeelist3="Extra Doubt Clearing Sessions"
           CourseFeelist4="Multiple Domain Selection Options"
           CourseFeelist5="Company-based Mock Interviews"
         />
