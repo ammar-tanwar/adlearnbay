@@ -56,32 +56,9 @@ const ThankYouFsd = ({ initialName }) => {
         </div>
 
         <div className={styles.rightsfsd}>
-          {/* <div>
-            <Image
-              src="/full-stack-web.png"
-              alt="data-science-course"
-              quality={100}
-              layout="intrinsic"
-              width="306"
-              height="200"
-            />
-            <p className={styles.Ptopp}>
-              Data Science & AI Certification | Domain Specialisation For
-              Professionals
-            </p>
-            <button className={styles.Button}>
-              <AiOutlineDownload className="bIcons" />
-              <a
-                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
-                target="_blank"
-              >
-                Download Brochure
-              </a>
-            </button>
-          </div> */}
           <div>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/advance-data-science-ai-program.webp"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/advance-data-science-ai-program.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"
@@ -104,7 +81,7 @@ const ThankYouFsd = ({ initialName }) => {
           </div>
           <div>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/data-science-ai-for-managers.webp"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"
@@ -127,7 +104,7 @@ const ThankYouFsd = ({ initialName }) => {
 
           <div>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/advance%20-ai-ml-for-tech-professionals.webp"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/advance-ai-ml-for-tech-professionals.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"
@@ -149,7 +126,7 @@ const ThankYouFsd = ({ initialName }) => {
           </div>
           <div>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/dsa&system.webp"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-analytics.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"
@@ -175,7 +152,7 @@ const ThankYouFsd = ({ initialName }) => {
         <div className={styles.rightsfsd}>
           <div>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/business-analytics.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/dsa%26system.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"
@@ -195,7 +172,7 @@ const ThankYouFsd = ({ initialName }) => {
           </div>
           <div>
             <Image
-              src="/DABA.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/Business-Analytics.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"
@@ -216,7 +193,7 @@ const ThankYouFsd = ({ initialName }) => {
 
           <div>
             <Image
-              src="/ds.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/advance-data-science-ai-program.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"
@@ -236,7 +213,7 @@ const ThankYouFsd = ({ initialName }) => {
           </div>
           <div>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Advance-Data-Science-1.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/full-stack-developer-course.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"

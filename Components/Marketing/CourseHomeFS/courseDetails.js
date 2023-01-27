@@ -1,15 +1,14 @@
 export const viewAllD = [
-  
   {
     id: 1,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/full-stack-web-development.webp",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/full-stack-web-development.png",
     title: "Full-Stack Web ",
     title1: "Development Program",
     tag: "Data science",
     para: [
       "300 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 1,20,000 + GST",
+      "Course Fee : ₹ 70,000 + GST",
     ],
     link1: "/full-stack-web-development-program",
     link2:
@@ -17,7 +16,7 @@ export const viewAllD = [
   },
   {
     id: 2,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/full-stack-developer-course.webp",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/full-stack-developer-course.png",
     title: "Full-Stack Software",
     title1: "Development Program",
     tag: "Data science",
@@ -32,7 +31,7 @@ export const viewAllD = [
   },
   {
     id: 3,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/dsa&system.webp",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/dsa%26system.png",
     title: "Data Structures Algorithms",
     title1: "And System Design",
     tag: "Data science",

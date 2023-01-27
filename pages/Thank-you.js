@@ -5,12 +5,10 @@ import Image from "next/image";
 import NavbarThankYou from "../Components/CoursePage/Navbar/NavbarThankYou";
 import FooterThankYou from "../Components/Footerfsdsw/FooterThankYou";
 import CourseThankYou from "../Components/Home/Course/CourseThankYou";
-import cookies from "next-cookies"
-
+import cookies from "next-cookies";
 
 const ThankYou = ({ initialName }) => {
-
-  const email = JSON.stringify(initialName)
+  const email = JSON.stringify(initialName);
   return (
     <div className={styles.main}>
       <Head>
@@ -65,19 +63,22 @@ const ThankYou = ({ initialName }) => {
               "email": ${email}
             }
           });
-      ` }}
+      `,
+          }}
         />
-
       </Head>
       <NavbarThankYou />
 
       <section className={styles.mains}>
-      <div className={styles.Back}>
+        <div className={styles.Back}>
           <h4 className={styles.thankh4}>
             Thank you!
             <br />
-          <span className={styles.thankspan}>
-            We Received your request and look forward to getting in touch soon.</span></h4>
+            <span className={styles.thankspan}>
+              We Received your request and look forward to getting in touch
+              soon.
+            </span>
+          </h4>
           <div>
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/thank-header.png"
@@ -95,7 +96,6 @@ const ThankYou = ({ initialName }) => {
 };
 
 export default ThankYou;
-
 
 ThankYou.getInitialProps = async (ctx) => {
   return {

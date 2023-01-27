@@ -38,7 +38,11 @@ export default function Home() {
       assistance and get 1:1 Guaranteed interview calls, 15+ Real-time projects, 1+ 
       Capstone projects, 2 years of course subscription ,Lifetime Access to recorded 
       classes and 24/7 Learner’s support."
-        /><meta name="Keywords" content="artificial intelligence course institute, artificial intelligence course fee, artificial intelligence certification, artificial intelligence training, advance artificial intelligence course, artificial intelligence course duration, artificial intelligence online course, artificial intelligence course, artificial intelligence course for working professional" />
+        />
+        <meta
+          name="Keywords"
+          content="artificial intelligence course institute, artificial intelligence course fee, artificial intelligence certification, artificial intelligence training, advance artificial intelligence course, artificial intelligence course duration, artificial intelligence online course, artificial intelligence course, artificial intelligence course for working professional"
+        />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{
@@ -79,7 +83,9 @@ export default function Home() {
           }}
         />
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} />
+      <main>
+        {" "}
+        <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -91,7 +97,8 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}
+        <FirstSection
+          dataScience={true}
           deskTopPara="Boost Your Professional Growth "
           deskTopPara1="To a Whole New Level"
           spanTitleText="Advance Program"
@@ -119,7 +126,6 @@ export default function Home() {
             p44={AiCourseData[0].ProgramInfo.p44}
           />
         </div>
-
         <div className={styles.Feature} id="Feature">
           <BoxShape
             title="Why Enroll In This Program?"
@@ -137,11 +143,9 @@ export default function Home() {
         <CourseReview
           p1="Working at HCL"
           p2=" Working at TCS"
-          p3="Working at Capgemini" />
-
-        <Certificate
-          H4=" Certification Program"
+          p3="Working at Capgemini"
         />
+        <Certificate H4=" Certification Program" />
         <OtherCertificate
           OCHead1="Deep Learning Fundamentals"
           OCP1="Earn industrial badge on neural networks, and convolutional networks like DL skills."
@@ -152,7 +156,8 @@ export default function Home() {
           OCHead4="Accelerating Deep Learning with GPUs"
           OCP4="Industrial badge on GPU handling mastery for Cloud, AI & ML."
         />
-        <SyllabusNew dataScience={true}
+        <SyllabusNew
+          dataScience={true}
           syllabus={AiCourseData[0].syllabus}
           syllabusDesc={AiCourseData[0].syllabusDesc}
           popupHead="Download Course Brochure"
@@ -186,18 +191,22 @@ export default function Home() {
           img23={AiCourseData[0].OurExpert.img23}
           img20={AiCourseData[0].OurExpert.img20}
         />
-        <ProgramFee Fee={AiCourseData[0].ProgramFee.Fee}
-          Emi={AiCourseData[0].ProgramFee.Emi} CourseFeeAndFinancing="Program Fee & Financing"
-          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." dataScience={true} />
+        <ProgramFee
+          Fee={AiCourseData[0].ProgramFee.Fee}
+          Emi={AiCourseData[0].ProgramFee.Emi}
+          CourseFeeAndFinancing="Program Fee & Financing"
+          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."
+          dataScience={true}
+        />
         <SliderTab />
-
         <div className={styles.ProjectWrapper} id="project">
-          <Project popupHead={AiCourseData[0].Project.popupHead}
+          <Project
+            popupHead={AiCourseData[0].Project.popupHead}
             project={AiCourseData[0].Project.project}
             domain={AiCourseData[0].Project.domain}
-            projectTitle={AiCourseData[0].Project.projectTitle} />
+            projectTitle={AiCourseData[0].Project.projectTitle}
+          />
         </div>
-
         <CourseFee
           syllabusDesc={AiCourseData[0].syllabusDesc}
           syllabus={AiCourseData[0].Batch}
@@ -205,7 +214,7 @@ export default function Home() {
           CourseFeePara="Online Classroom"
           CourseFeelist1="Online Interactive Classes"
           CourseFeelist2="Weekend and Weekday Batches"
-          CourseFeelist3="Extra Doubt Clearance Sessions"
+          CourseFeelist3="Extra Doubt Clearing Sessions"
           CourseFeelist4="Multiple Domain Selection Options"
           CourseFeelist5="Company-based Mock Interviews"
         />

@@ -260,12 +260,12 @@ export const BFSIData = [
       CourseFeePara: "Data Science Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",
-      CourseFeelist3: "Extra Doubt Clearance Sessions",
+      CourseFeelist3: "Extra Doubt Clearing Sessions",
       CourseFeelist4: "Multiple Domain Selection Options",
       CourseFeelist5: "Company-based Mock Interviews",
     },
 
-       Batch: [
+    Batch: [
       {
         Module0: {
           title: "Weekday Evening Batch :- (Mon-Fri)",
@@ -303,7 +303,7 @@ export const BFSIData = [
       CourseFeePara: "Data Science Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",
-      CourseFeelist3: "Extra Doubt Clearance Sessions",
+      CourseFeelist3: "Extra Doubt Clearing Sessions",
       CourseFeelist4: "Multiple Domain Selection Options",
       CourseFeelist5: "Company-based Mock Interviews",
     },
@@ -369,8 +369,7 @@ export const HRData = [
     syllabus: [
       {
         Module0: {
-          title:
-            "Module 1 :- Introduction to HR Domain",
+          title: "Module 1 :- Introduction to HR Domain",
           content: [
             {
               chap: {
@@ -395,16 +394,15 @@ export const HRData = [
           content: [
             {
               chap: {
-                title: "",
+                title: "Learn about:",
                 desc: [
-                  "Learn about:",
                   "Turnover",
                   "Recruitment",
                   "Relevant and high-quality data collection and filtration process",
                   "Employee engagement and employee satisfaction",
                   "Understanding of the core process of HR analytics",
                   "Basic use of cloud-based systems.",
-                  "Use of social media analytics to handle employee dissatisfaction effectively."
+                  "Use of social media analytics to handle employee dissatisfaction effectively.",
                 ],
               },
             },
@@ -422,11 +420,10 @@ export const HRData = [
               chap: {
                 title: "",
                 desc: [
-                  "This module allows you to automate all the time-consuming HR processes related to employee onboarding, lever request approval, leave calculations, performance management, exit interviews, etc.",
-                  "You will learn the strategies of using deep learning and NLP technologies to automate the above processes. At the end of the modules, you will be able to deliver human interference-free but highly precise",
-                  "Actionable insights",
+                  "You will learn to automate time-consuming HR processes related to employee onboarding, leave request approval, leave calculations, performance management, exit interviews, etc.",
+                  "Learn the strategies for using deep learning and NLP technologies to automate the above processes. At the end of the modules, you will be able to deliver human interference-free but highly precise actionable insights",
                   "Risk mitigations",
-                  "Omni-channel assessment."
+                  "Omni-channel assessment.",
                 ],
               },
             },
@@ -438,15 +435,15 @@ export const HRData = [
       {
         Module0: {
           title:
-            "Module 4 :- Understanding of core analytical approaches of Attrition and Increasing Retention, increased retention, salary decisions and promotional information.",
+            "Module 4 :- Understanding Attrition and Increasing Retention, Salary Decisions and Promotional Information",
           content: [
             {
               chap: {
                 title: "",
                 desc: [
-                  "You will be able to develop several AIpowered gamification apps for your company that will help in the live measurement of employee engagement, efforts, and productivities but in an employee-friendly manner.",
-                  "This module also includes tool-based training on dashboard designing, graphical analysis, using tools like Seaborn, Matplotlib, OpenCV, etc. You will be able to implement better employee support by deploying several machine learning models that help in emotion-based analytics of employee engagement, job satisfaction, etc.",
-                  "Besides, you will learn about the basics of Big Data Technology and its use in the HR domain via tools like Hadoop and MongoDB."
+                  "Develop several AI-powered gamification apps for your company that will help in the live measurement of employee engagement, efforts, and productivity but in an employee-friendly manner.",
+                  "Tool-based training on dashboard designing, and graphical analysis, using tools like Seaborn, Matplotlib, OpenCV, etc. You will be able to implement better employee support by deploying several machine learning models that help in emotion-based analytics of employee engagement, job satisfaction, etc.",
+                  "Learn about the basics of Big Data Technology and its use in the HR domain via tools like Hadoop and MongoDB.",
                 ],
               },
             },
@@ -525,7 +522,7 @@ export const HRData = [
       projectName3: "Resume Parsing",
       domainParagraph3:
         "Recruiters and HR departments in businesses have to sift through thousands of qualified applicants. Either they require a...",
-        domainName4: "HR Domain",
+      domainName4: "HR Domain",
       projectName4: "IBM HR Analytics",
       domainParagraph4:
         "Applying analytic processes to the human resource department of an organization in the hope of improving employee...",
@@ -545,12 +542,12 @@ export const HRData = [
       CourseFeePara: "Data Science Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",
-      CourseFeelist3: "Extra Doubt Clearance Sessions",
+      CourseFeelist3: "Extra Doubt Clearing Sessions",
       CourseFeelist4: "Multiple Domain Selection Options",
       CourseFeelist5: "Company-based Mock Interviews",
     },
 
-       Batch: [
+    Batch: [
       {
         Module0: {
           title: "Weekday Evening Batch :- (Mon-Fri)",
@@ -588,7 +585,7 @@ export const HRData = [
       CourseFeePara: "Data Science Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",
-      CourseFeelist3: "Extra Doubt Clearance Sessions",
+      CourseFeelist3: "Extra Doubt Clearing Sessions",
       CourseFeelist4: "Multiple Domain Selection Options",
       CourseFeelist5: "Company-based Mock Interviews",
     },
@@ -654,8 +651,7 @@ export const MarketingData = [
     syllabus: [
       {
         Module0: {
-          title:
-            "Module 1 :- Introduction to Marketing and Sales Domain",
+          title: "Module 1 :- Introduction to Marketing and Sales Domain",
           content: [
             {
               chap: {
@@ -702,8 +698,7 @@ export const MarketingData = [
       },
       {
         Module0: {
-          title:
-            "Module 3 :- Introduction to Marketing analytics",
+          title: "Module 3 :- Introduction to Marketing analytics",
           content: [
             {
               chap: {
@@ -823,27 +818,27 @@ export const MarketingData = [
       domainParagraph4:
         "Even minor things like word choice and color may be tested serially. By predicting when these creative...",
 
-        domainName5: "Marketing Domain",
-        projectName5: "Analysis of the market basket",
-        domainParagraph5:
-          "Market basket analysis describes the methods for unsupervised learning that are used to collect and...",
-  
-        domainName6: "Marketing Domain",
-        projectName6: "Interactive analytics & real-time interaction",
-        domainParagraph6:
-          "Real-time analytics allow companies to track and analyze consumer activity in real time, delivering...",
+      domainName5: "Marketing Domain",
+      projectName5: "Analysis of the market basket",
+      domainParagraph5:
+        "Market basket analysis describes the methods for unsupervised learning that are used to collect and...",
+
+      domainName6: "Marketing Domain",
+      projectName6: "Interactive analytics & real-time interaction",
+      domainParagraph6:
+        "Real-time analytics allow companies to track and analyze consumer activity in real time, delivering...",
     },
     CourseFees: {
       CourseFeeHead: "Data Science Course : Batch Details",
       CourseFeePara: "Data Science Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",
-      CourseFeelist3: "Extra Doubt Clearance Sessions",
+      CourseFeelist3: "Extra Doubt Clearing Sessions",
       CourseFeelist4: "Multiple Domain Selection Options",
       CourseFeelist5: "Company-based Mock Interviews",
     },
 
-       Batch: [
+    Batch: [
       {
         Module0: {
           title: "Weekday Evening Batch :- (Mon-Fri)",
@@ -881,7 +876,7 @@ export const MarketingData = [
       CourseFeePara: "Data Science Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",
-      CourseFeelist3: "Extra Doubt Clearance Sessions",
+      CourseFeelist3: "Extra Doubt Clearing Sessions",
       CourseFeelist4: "Multiple Domain Selection Options",
       CourseFeelist5: "Company-based Mock Interviews",
     },
@@ -948,16 +943,16 @@ export const SalesData = [
       {
         Module0: {
           title:
-            "Module 1 :- Sales Pipeline analysis/sales performance analysis- the betterment of cross-selling, upselling and improvement of CLV",
+            "Module 1 :- Sales pipeline & performance analysis",
           content: [
             {
               chap: {
                 title: "",
                 desc: [
-                  "This module will help you to learn the strategies of working with categorical data. In addition, this module will include training on dashboard creation, graphical representation, using tools like Seaborn, Matplotlib, etc.",
-                  "This module includes human emotion analysis and text mining techniques to analyze customer sentiments to create USPs.",
-                  "Moreover, you will be trained on the data analytics related to personalized crossselling recommendations.",
-                  "Besides, you will learn the data-driven identification of customer loyalty analysis to foster future sales. This will also help in lowering the fraudulent activities of customers.",
+                  "This module will help you to learn the strategies for working with categorical data. In addition, get training on dashboard creation, graphical representation, and using tools like Seaborn, Matplotlib, etc.",
+                  "Human emotion analysis and text mining techniques to analyze customer sentiments to create USPs.",
+                  "Training in data analytics related to personalized cross-selling recommendations.",
+                  "Learn the data-driven identification of customer loyalty analysis to foster future sales. This will also help in lowering the fraudulent activities of customers.",
                 ],
               },
             },
@@ -968,17 +963,15 @@ export const SalesData = [
       },
       {
         Module0: {
-          title: "Module 2 :- Implementation of automation and security in sales",
+          title:
+            "Module 2 :- Implementation of automation and security in sales",
           content: [
             {
               chap: {
                 title: "",
                 desc: [
                   "This module allows you to mechanize all your tedious and critical sales tasks with the help of data-driven techniques, AI tools, business intelligence software, and machine learning approaches.",
-                  "The skill you earn from this module will help foster your productivity with",
-                  "improved degrees of accuracy,",
-                  "generate consistent sales data across the organization through cloud deployment of ML,",
-                  "and reduce customer query response time with deep learning assisted automated chatbots.",
+                  "The skill you earn from this module will help foster your productivity with improved degrees of accuracy, generate consistent sales data across the organization through cloud deployment of ML, and reduce customer query response time with deep learning-assisted automated chatbots.The skill you earn from this module will help foster your productivity with improved degrees of accuracy, generate consistent sales data across the organization through cloud deployment of ML, and reduce customer query response time with deep learning-assisted automated chatbots.",
                 ],
               },
             },
@@ -989,8 +982,7 @@ export const SalesData = [
       },
       {
         Module0: {
-          title:
-            "Module 3 :- AI-Based optimization of sales channel",
+          title: "Module 3 :- AI-Based optimization of sales channel",
           content: [
             {
               chap: {
@@ -1072,37 +1064,37 @@ export const SalesData = [
       domainParagraph2:
         "Big-Bazzar will use this machinelearning model to try to understandthe qualities of products and stores...",
 
-        domainName3: "Sales Domain",
-        projectName3: "Controlling Churn",
-        domainParagraph3:
-          "It is essential for salespeople to anticipate client purchases, and analyze the pattern of customer...",
-  
-        domainName4: "Sales Domain",
-        projectName4: "Sales Prediction",
-        domainParagraph4:
-          "Big-Bazzar will use this machinelearning model to try to understandthe qualities of products and stores...",
+      domainName3: "Sales Domain",
+      projectName3: "Controlling Churn",
+      domainParagraph3:
+        "It is essential for salespeople to anticipate client purchases, and analyze the pattern of customer...",
 
-          domainName5: "Sales Domain",
-          projectName5: "Controlling Churn",
-          domainParagraph5:
-            "It is essential for salespeople to anticipate client purchases, and analyze the pattern of customer...",
+      domainName4: "Sales Domain",
+      projectName4: "Sales Prediction",
+      domainParagraph4:
+        "Big Bazaar uses this Machine Learning model to try and understand the quality of products and stores...",
 
-          domainName6: "Sales Domain",
-          projectName6: "Sales Prediction",
-          domainParagraph6:
-            "Big-Bazzar will use this machinelearning model to try to understandthe qualities of products and stores...",
+      domainName5: "Sales Domain",
+      projectName5: "Controlling Churn",
+      domainParagraph5:
+        "It is essential for salespeople to anticipate client purchases, and analyze the pattern of customer...",
+
+      domainName6: "Sales Domain",
+      projectName6: "Sales Prediction",
+      domainParagraph6:
+        "Big-Bazzar will use this machinelearning model to try to understandthe qualities of products and stores...",
     },
     CourseFees: {
       CourseFeeHead: "Data Science Course : Batch Details",
       CourseFeePara: "Data Science Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",
-      CourseFeelist3: "Extra Doubt Clearance Sessions",
+      CourseFeelist3: "Extra Doubt Clearing Sessions",
       CourseFeelist4: "Multiple Domain Selection Options",
       CourseFeelist5: "Company-based Mock Interviews",
     },
 
-       Batch: [
+    Batch: [
       {
         Module0: {
           title: "Weekday Evening Batch :- (Mon-Fri)",
@@ -1140,7 +1132,7 @@ export const SalesData = [
       CourseFeePara: "Data Science Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",
-      CourseFeelist3: "Extra Doubt Clearance Sessions",
+      CourseFeelist3: "Extra Doubt Clearing Sessions",
       CourseFeelist4: "Multiple Domain Selection Options",
       CourseFeelist5: "Company-based Mock Interviews",
     },

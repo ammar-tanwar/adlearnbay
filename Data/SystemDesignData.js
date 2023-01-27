@@ -258,7 +258,7 @@ export const SytstemDesignCourseData = [
       CourseFeePara: "Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",
-      CourseFeelist3: "Extra Doubt Clearance Sessions",
+      CourseFeelist3: "Extra Doubt Clearing Sessions",
       CourseFeelist4: "Multiple Domain Selection Options",
       CourseFeelist5: "Company-based Mock Interviews",
     },

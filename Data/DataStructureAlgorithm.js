@@ -259,7 +259,7 @@ export const DataStructureAlgorithmData = [
       CourseFeePara: "Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",
-      CourseFeelist3: "Extra Doubt Clearance Sessions",
+      CourseFeelist3: "Extra Doubt Clearing Sessions",
       CourseFeelist4: "Multiple Domain Selection Options",
       CourseFeelist5: "Company-based Mock Interviews",
     },
@@ -527,7 +527,7 @@ export const BestDataStructureAlgorithmData = [
       CourseFeePara: "Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",
-      CourseFeelist3: "Extra Doubt Clearance Sessions",
+      CourseFeelist3: "Extra Doubt Clearing Sessions",
       CourseFeelist4: "Multiple Domain Selection Options",
       CourseFeelist5: "Company-based Mock Interviews",
     },
@@ -795,7 +795,7 @@ export const DataStructureCourseData = [
       CourseFeePara: "Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",
-      CourseFeelist3: "Extra Doubt Clearance Sessions",
+      CourseFeelist3: "Extra Doubt Clearing Sessions",
       CourseFeelist4: "Multiple Domain Selection Options",
       CourseFeelist5: "Company-based Mock Interviews",
     },
@@ -1011,7 +1011,8 @@ export const DataStructureSyllabusData = [
     ProgramFee: {
       Fee: "₹ 70,000 + GST",
       Emi: "₹ 6,883/month",
-      CourseFeeAndFinancing: "Data Structures and Algorithms Course Fee & Financing",
+      CourseFeeAndFinancing:
+        "Data Structures and Algorithms Course Fee & Financing",
     },
     Project: {
       project: "12+ Projects",
@@ -1063,7 +1064,7 @@ export const DataStructureSyllabusData = [
       CourseFeePara: "Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",
-      CourseFeelist3: "Extra Doubt Clearance Sessions",
+      CourseFeelist3: "Extra Doubt Clearing Sessions",
       CourseFeelist4: "Multiple Domain Selection Options",
       CourseFeelist5: "Company-based Mock Interviews",
     },
@@ -1279,7 +1280,8 @@ export const DataStructureAlgoCourseData = [
     ProgramFee: {
       Fee: "₹ 70,000 + GST",
       Emi: "₹ 6,883/month",
-      CourseFeeAndFinancing: "Data Structures and Algorithms Course Fee & Financing",
+      CourseFeeAndFinancing:
+        "Data Structures and Algorithms Course Fee & Financing",
     },
     Project: {
       project: "12+ Projects",
@@ -1331,7 +1333,7 @@ export const DataStructureAlgoCourseData = [
       CourseFeePara: "Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",
-      CourseFeelist3: "Extra Doubt Clearance Sessions",
+      CourseFeelist3: "Extra Doubt Clearing Sessions",
       CourseFeelist4: "Multiple Domain Selection Options",
       CourseFeelist5: "Company-based Mock Interviews",
     },
