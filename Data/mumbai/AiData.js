@@ -41,7 +41,7 @@ export const AiCourseData = [
       Box4h5: "Hands-on Experience",
       box4desc:
         "Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies.",
-      headh5: "Watch ours alumni’s making successful AI career transition",
+      headh5: "Watch ours alumni making successful AI career transition",
     },
 
     OtherCertificate: {

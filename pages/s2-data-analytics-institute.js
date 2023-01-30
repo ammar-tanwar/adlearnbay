@@ -27,16 +27,16 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Data Analytics Training course – Learnbay</title>
+        <title>Data Analytics Institute – Learnbay</title>
         <meta
           name="description"
-          content="Advance certification online Data Analytics course with 100% placement assistance 
+          content="Advance online Data Analytics Institute with 100% placement assistance 
           and get 1:1 Guaranteed interview calls, 8+ Real-time projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
           24/7 Learner’s support."
         />
         <meta
           name="Keywords"
-          content="Data Analytics training, Data Analytics training, Data Analytics training institute, Data Analytics online training, Data Analytics training  fee, advanced ml training certification, Data Analytics training for working professional, advanced Data Analytics training certification, advanced ml training"
+          content="Data Analytics Institute, Data Analytics Institute, Data Analytics Institute institute, Data Analytics online Institute, Data Analytics Institute  fee, advanced ml Institute certification, Data Analytics Institute for working professional, advanced Data Analytics Institute certification"
         />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
@@ -95,9 +95,9 @@ export default function Home() {
         <FirstSection
           deskTopPara={DataAnalyticsCourseData[0].FirstSection.deskTopPara}
           deskTopPara1={DataAnalyticsCourseData[0].FirstSection.deskTopPara1}
-          mTitle="Data Analytics Training "
+          mTitle="Data Analytics Institute "
           spanMTitleText="For Managers and Leaders"
-          title="Data Analytics Training "
+          title="Data Analytics Institute "
           spanTitleText="For Managers and Leaders"
           mTopPara={DataAnalyticsCourseData[0].FirstSection.mTopPara}
           mTopPara1={DataAnalyticsCourseData[0].FirstSection.mTopPara1}
@@ -122,7 +122,7 @@ export default function Home() {
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Explore Our Data Analytics Training Programs"
+            title="Explore Our Data Analytics Institute Programs"
             Box1h5={DataAnalyticsCourseData[0].BoxShape.Box1h5}
             box1desc={DataAnalyticsCourseData[0].BoxShape.box1desc}
             Box2h5={DataAnalyticsCourseData[0].BoxShape.Box2h5}
@@ -131,7 +131,7 @@ export default function Home() {
             box3desc={DataAnalyticsCourseData[0].BoxShape.box3desc}
             Box4h5={DataAnalyticsCourseData[0].BoxShape.Box4h5}
             box4desc={DataAnalyticsCourseData[0].BoxShape.box4desc}
-            headh5="Watch our alumni making successful  Data Analytics Training career transition"
+            headh5="Watch our alumni making successful Certified Data Science career transition"
           />
         </div>
         <CourseReview
@@ -149,16 +149,16 @@ export default function Home() {
         ></Certificate>
         <SyllabusNew
           syllabus={DataAnalyticsCourseData[0].syllabus}
-          CSyllabus=" Data Analytics Training Syllabus"
+          CSyllabus=" Data Analytics Institute Syllabus"
           CourseHighlights={DataAnalyticsCourseData[0].CourseHighlights}
-          syllabusDesc="Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All  Data Analytics Training Course sessions are covered practically with real-time industrial projects and case studies."
+          syllabusDesc="Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All  Data Analytics Institute sessions are covered practically with real-time industrial projects and case studies."
           popupHead={DataAnalyticsCourseData[0].popupHead}
           srcD={DataAnalyticsCourseData[0].srcD}
           hours={DataAnalyticsCourseData[0].hours}
           project={DataAnalyticsCourseData[0].project}
         />
         <OurExpert
-          H5=" Data Analytics Tools Covered"
+          H5="Tools Covered"
           img1={DataAnalyticsCourseData[0].OurExpert.img1}
           img2={DataAnalyticsCourseData[0].OurExpert.img2}
           img3={DataAnalyticsCourseData[0].OurExpert.img3}
@@ -186,8 +186,8 @@ export default function Home() {
         <ProgramFee
           Emi={DataAnalyticsCourseData[0].ProgramFee.Emi}
           Fee={DataAnalyticsCourseData[0].ProgramFee.Fee}
-          CourseFeeAndFinancing=" Data Analytics Training Fee & Financing"
-          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for  Data Analytics Training Course and offer avariety of financing options to make it more economical."
+          CourseFeeAndFinancing=" Data Analytics Institute Fee & Financing"
+          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for  Data Analytics Institute and offer avariety of financing options to make it more economical."
         />
         <div className={styles.ProjectWrapper} id="project">
           <Project
@@ -199,8 +199,8 @@ export default function Home() {
         <CourseFee
           syllabusDesc={DataAnalyticsCourseData[0].syllabusDesc}
           syllabus={DataAnalyticsCourseData[0].Batch}
-          CourseFeeHead="Data Analytics Training : Batch Details"
-          CourseFeePara="Data Analytics Training Online Classroom"
+          CourseFeeHead="Data Analytics Institute : Batch Details"
+          CourseFeePara="Data Analytics Online Classroom"
           CourseFeelist1={
             DataAnalyticsCourseData[0].BatchCourses.CourseFeelist1
           }

@@ -28,10 +28,10 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Data Science Master course - Learnbay</title>
+        <title>Data Science Institute - Learnbay</title>
         <meta
           name="description"
-          content="Advance certification online data science course with 100% placement assistance 
+          content="Advance online data science institute with 100% placement assistance 
           and get 1:1 Guaranteed interview calls, 12+ Real-time projects, 1+ Capstone 
           projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
           24/7 Learner’s support."
@@ -39,7 +39,7 @@ export default function Home() {
 
         <meta
           name="Keywords"
-          content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee"
+          content="data science course institute, data science online institute, data science institute, data science institute for working professional, data science institute, data science institute, data science institute duration, data science institute fee"
         />
 
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
@@ -100,10 +100,10 @@ export default function Home() {
           popupHead={DataScienceCourseData[0].FirstSection.popupHead}
           deskTopPara={DataScienceCourseData[0].FirstSection.deskTopPara}
           mTopPara={DataScienceCourseData[0].FirstSection.mTopPara}
-          mTitle="Data Science Master Course"
-          spanMTitleText="For Managers and Leaders"
-          title="Data Science Master Course"
-          spanTitleText="For Managers and Leaders"
+          mTitle="Data Science Institute "
+          spanMTitleText="For Professionals"
+          title="Data Science Institute "
+          spanTitleText="For Professionals"
           desc={DataScienceCourseData[0].FirstSection.desc}
           src={DataScienceCourseData[0].FirstSection.src}
           width={DataScienceCourseData[0].FirstSection.width}
@@ -125,7 +125,7 @@ export default function Home() {
         </div>
         <div className={styles.Feature} id="Feature">
           <BoxShape
-            title="Explore Our Data Science Master Programs"
+            title="Explore Our Data Science Institute Programs"
             Box1h5={DataScienceCourseData[0].BoxShape.Box1h5}
             box1desc={DataScienceCourseData[0].BoxShape.box1desc}
             Box2h5={DataScienceCourseData[0].BoxShape.Box2h5}
@@ -134,7 +134,7 @@ export default function Home() {
             box3desc={DataScienceCourseData[0].BoxShape.box3desc}
             Box4h5={DataScienceCourseData[0].BoxShape.Box4h5}
             box4desc={DataScienceCourseData[0].BoxShape.box4desc}
-            headh5="Watch our alumni making successful Data Science Master career transition"
+            headh5="Watch our alumni making successful Certified Data Science career transition"
           />
         </div>
         <CourseReview
@@ -142,18 +142,18 @@ export default function Home() {
           p2=" Working at TCS"
           p3="Working at Capgemini"
         />
-        <Certificate H4="Data Science Master Program" />
+        <Certificate H4="Data Science Institute Certification Program" />
         <SyllabusNew
           syllabus={DataScienceCourseData[0].syllabus}
-          CSyllabus="Data Science Master Course Syllabus"
+          CSyllabus="Data Science Institute Syllabus"
           CourseHighlights="Data Science Course Highlights"
-          syllabusDesc="Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Data Science Master Course sessions are covered practically with real-time industrial projects and case studies."
+          syllabusDesc="Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Data Science Institute sessions are covered practically with real-time industrial projects and case studies."
           popupHead={DataScienceCourseData[0].popupHead}
           hours={DataScienceCourseData[0].hours}
           project={DataScienceCourseData[0].project}
         />
         <OurExpert
-          H5="Data Science Master Tools Covered"
+          H5="Tools Covered"
           img1={DataScienceCourseData[0].OurExpert.img1}
           img2={DataScienceCourseData[0].OurExpert.img2}
           img3={DataScienceCourseData[0].OurExpert.img3}
@@ -181,8 +181,8 @@ export default function Home() {
         <ProgramFee
           Fee={DataScienceCourseData[0].ProgramFee.Fee}
           Emi={DataScienceCourseData[0].ProgramFee.Emi}
-          CourseFeeAndFinancing="Data Science Master Course Fee & Financing"
-          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Master Data Science Certification Course and offer avariety of financing options to make it more economical."
+          CourseFeeAndFinancing="Data Science Institute Fee & Financing"
+          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Science Institute and offer avariety of financing options to make it more economical."
         />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
@@ -196,8 +196,8 @@ export default function Home() {
         <CourseFee
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
           syllabus={DataScienceCourseData[0].Batch}
-          CourseFeeHead="Data Science Master Course : Batch Details"
-          CourseFeePara="Data Science Master Online Classroom"
+          CourseFeeHead="Data Science Institute : Batch Details"
+          CourseFeePara="Certified Data Science Online Classroom"
           CourseFeelist1={DataScienceCourseData[0].BatchCourses.CourseFeelist1}
           CourseFeelist2={DataScienceCourseData[0].BatchCourses.CourseFeelist2}
           CourseFeelist3={DataScienceCourseData[0].BatchCourses.CourseFeelist3}

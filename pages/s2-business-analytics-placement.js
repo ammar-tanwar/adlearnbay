@@ -79,8 +79,9 @@ export default function Home() {
           }}
         />
       </Head>
-      <main>  <Navbar popup={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -94,7 +95,9 @@ export default function Home() {
         </Popup>
         <FirstSection
           deskTopPara={BusinessAnalyticsCourseData[0].FirstSection.deskTopPara}
-          deskTopPara1={BusinessAnalyticsCourseData[0].FirstSection.deskTopPara1}
+          deskTopPara1={
+            BusinessAnalyticsCourseData[0].FirstSection.deskTopPara1
+          }
           spanTitleText="Unlimited Interview Calls"
           mTitle="Business Analytics Job Assistance Course "
           title="Business Analytics Job Assistance Course "
@@ -131,14 +134,14 @@ export default function Home() {
             box3desc={BusinessAnalyticsCourseData[0].BoxShape.box3desc}
             Box4h5={BusinessAnalyticsCourseData[0].BoxShape.Box4h5}
             box4desc={BusinessAnalyticsCourseData[0].BoxShape.box4desc}
-            headh5="Watch our alumni’s making successful Business Analytics Placement career transition"
-
+            headh5="Watch our alumni making successful Business Analytics Placement career transition"
           />
         </div>
         <CourseReview
           p1="Working at HCL"
           p2=" Working at TCS"
-          p3="Working at Capgemini" />
+          p3="Working at Capgemini"
+        />
         <Certificate
           title="Course Completion Certificate from IBM"
           desc="Complete your training with the internationally recognized certificate."
@@ -146,7 +149,6 @@ export default function Home() {
           desc3="Get acknowledged in IT sector by adding IBM Certificate to your profile."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BA-DA.jpeg"
         ></Certificate>
-
         <SyllabusNew
           syllabus={BusinessAnalyticsCourseData[0].syllabus}
           CSyllabus="Business Analytics Placement Assistance Course Syllabus"
@@ -183,32 +185,40 @@ export default function Home() {
           img23={BusinessAnalyticsCourseData[0].OurExpert.img23}
           img20={BusinessAnalyticsCourseData[0].OurExpert.img20}
         />
-        <ProgramFee Emi={BusinessAnalyticsCourseData[0].ProgramFee.Emi}
+        <ProgramFee
+          Emi={BusinessAnalyticsCourseData[0].ProgramFee.Emi}
           Fee={BusinessAnalyticsCourseData[0].ProgramFee.Fee}
           CourseFeeAndFinancing="Business Analytics Placement Course Fee & Financing"
-          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Business Analytics Placement Assistance Course and offer avariety of financing options to make it more economical." />
+          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Business Analytics Placement Assistance Course and offer avariety of financing options to make it more economical."
+        />
         <div className={styles.ProjectWrapper} id="project">
-          <Project project={BusinessAnalyticsCourseData[0].Project.project}
+          <Project
+            project={BusinessAnalyticsCourseData[0].Project.project}
             domain={BusinessAnalyticsCourseData[0].Project.domain}
-            projectTitle={BusinessAnalyticsCourseData[0].Project.projectTitle} />
+            projectTitle={BusinessAnalyticsCourseData[0].Project.projectTitle}
+          />
         </div>
-
-
         <CourseFee
           syllabusDesc={BusinessAnalyticsCourseData[0].syllabusDesc}
           syllabus={BusinessAnalyticsCourseData[0].Batch}
-
           CourseFeeHead="Business Analytics Placement Assistance Course : Batch Details"
           CourseFeePara="Business Analytics Placement Assistance Online Classroom"
-          CourseFeelist1={BusinessAnalyticsCourseData[0].BatchCourses.CourseFeelist1}
-          CourseFeelist2={BusinessAnalyticsCourseData[0].BatchCourses.CourseFeelist2}
-          CourseFeelist3={BusinessAnalyticsCourseData[0].BatchCourses.CourseFeelist3}
-          CourseFeelist4={BusinessAnalyticsCourseData[0].BatchCourses.CourseFeelist4}
-          CourseFeelist5={BusinessAnalyticsCourseData[0].BatchCourses.CourseFeelist5}
+          CourseFeelist1={
+            BusinessAnalyticsCourseData[0].BatchCourses.CourseFeelist1
+          }
+          CourseFeelist2={
+            BusinessAnalyticsCourseData[0].BatchCourses.CourseFeelist2
+          }
+          CourseFeelist3={
+            BusinessAnalyticsCourseData[0].BatchCourses.CourseFeelist3
+          }
+          CourseFeelist4={
+            BusinessAnalyticsCourseData[0].BatchCourses.CourseFeelist4
+          }
+          CourseFeelist5={
+            BusinessAnalyticsCourseData[0].BatchCourses.CourseFeelist5
+          }
         />
-
-
-
         <LearnSupport />
         <Footer />
       </main>

@@ -41,7 +41,7 @@ export const MlCourseData = [
       box4desc:
         "Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies.",
       headh5:
-        "Watch ours alumni’s making successful Machine Learning career transition",
+        "Watch ours alumni making successful Machine Learning career transition",
     },
 
     OtherCertificate: {

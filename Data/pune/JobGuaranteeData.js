@@ -41,7 +41,7 @@ export const JobGuaranteeCourseData = [
       box4desc:
         "Get diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments.",
       headh5:
-        "Watch our alumni’s making successful Data Science career transition",
+        "Watch our alumni making successful Data Science career transition",
     },
 
     Certificate: {

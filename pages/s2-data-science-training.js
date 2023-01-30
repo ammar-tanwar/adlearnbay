@@ -19,7 +19,6 @@ import { DataScienceCourseData } from "../Data/DataScienceCourse";
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
 
-
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -29,9 +28,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>
-          Data Science Training course - Learnbay
-        </title>
+        <title>Data Science Training course - Learnbay</title>
         <meta
           name="description"
           content="Advance certification online data science course with 100% placement assistance 
@@ -40,8 +37,10 @@ export default function Home() {
           24/7 Learner’s support."
         />
 
-<meta name="Keywords" content="Data Science training, Data Science training, Data Science training institute, Data Science online training, Data Science training  fee, advanced ml training certification, Data Science training for working professional, advanced Data Science training certification, advanced ml training" />
-
+        <meta
+          name="Keywords"
+          content="Data Science training, Data Science training, Data Science training institute, Data Science online training, Data Science training  fee, advanced ml training certification, Data Science training for working professional, advanced Data Science training certification, advanced ml training"
+        />
 
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
@@ -82,10 +81,10 @@ export default function Home() {
             x.parentNode.insertBefore(s, x);`,
           }}
         />
-
       </Head>
-      <main>  <Navbar popup={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -124,7 +123,6 @@ export default function Home() {
             p44={DataScienceCourseData[0].ProgramInfo.p44}
           />
         </div>
-
         <div className={styles.Feature} id="Feature">
           <BoxShape
             title="Explore Our Data Science Training Programs"
@@ -136,17 +134,15 @@ export default function Home() {
             box3desc={DataScienceCourseData[0].BoxShape.box3desc}
             Box4h5={DataScienceCourseData[0].BoxShape.Box4h5}
             box4desc={DataScienceCourseData[0].BoxShape.box4desc}
-            headh5="Watch our alumni’s making successful Data Science Training career transition"
+            headh5="Watch our alumni making successful Data Science Training career transition"
           />
         </div>
-
         <CourseReview
           p1="Working at HCL"
           p2=" Working at TCS"
-          p3="Working at Capgemini" />
-        <Certificate
-          H4="Data Science Training Program"
+          p3="Working at Capgemini"
         />
+        <Certificate H4="Data Science Training Program" />
         <SyllabusNew
           syllabus={DataScienceCourseData[0].syllabus}
           CSyllabus="Data Science Training Syllabus"
@@ -182,21 +178,24 @@ export default function Home() {
           img23={DataScienceCourseData[0].OurExpert.img23}
           img20={DataScienceCourseData[0].OurExpert.img20}
         />
-        <ProgramFee Fee={DataScienceCourseData[0].ProgramFee.Fee}
-          Emi={DataScienceCourseData[0].ProgramFee.Emi} CourseFeeAndFinancing="Data Science Training Fee & Financing"
-          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Training Data Science Certification Course and offer avariety of financing options to make it more economical." />
+        <ProgramFee
+          Fee={DataScienceCourseData[0].ProgramFee.Fee}
+          Emi={DataScienceCourseData[0].ProgramFee.Emi}
+          CourseFeeAndFinancing="Data Science Training Fee & Financing"
+          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Training Data Science Certification Course and offer avariety of financing options to make it more economical."
+        />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
-          <Project popupHead={DataScienceCourseData[0].Project.popupHead}
+          <Project
+            popupHead={DataScienceCourseData[0].Project.popupHead}
             project={DataScienceCourseData[0].Project.project}
             domain={DataScienceCourseData[0].Project.domain}
-            projectTitle={DataScienceCourseData[0].Project.projectTitle} />
+            projectTitle={DataScienceCourseData[0].Project.projectTitle}
+          />
         </div>
-
         <CourseFee
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
           syllabus={DataScienceCourseData[0].Batch}
-
           CourseFeeHead="Data Science Training : Batch Details"
           CourseFeePara="Data Science Training Online Classroom"
           CourseFeelist1={DataScienceCourseData[0].BatchCourses.CourseFeelist1}
