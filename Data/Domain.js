@@ -273,7 +273,7 @@ export const BFSIData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 27th January 2023", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 3rd February 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -283,12 +283,12 @@ export const BFSIData = [
       },
       {
         Module0: {
-          title: "Weekend Morning Batch :- (Sat-Sun)",
+          title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 29th January 2023", "Time : 08:30 AM to 12 PM"],
+                desc: ["Date : 10th February 2023", "Time : 8 AM to 10 AM"],
               },
             },
           ],
@@ -555,7 +555,7 @@ export const HRData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 27th January 2023", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 3rd February 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -565,12 +565,12 @@ export const HRData = [
       },
       {
         Module0: {
-          title: "Weekend Morning Batch :- (Sat-Sun)",
+          title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 29th January 2023", "Time : 08:30 AM to 12 PM"],
+                desc: ["Date : 10th February 2023", "Time : 8 AM to 10 AM"],
               },
             },
           ],
@@ -846,7 +846,7 @@ export const MarketingData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 27th January 2023", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 3rd February 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -856,12 +856,12 @@ export const MarketingData = [
       },
       {
         Module0: {
-          title: "Weekend Morning Batch :- (Sat-Sun)",
+          title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 29th January 2023", "Time : 08:30 AM to 12 PM"],
+                desc: ["Date : 10th February 2023", "Time : 8 AM to 10 AM"],
               },
             },
           ],
@@ -942,8 +942,7 @@ export const SalesData = [
     syllabus: [
       {
         Module0: {
-          title:
-            "Module 1 :- Sales pipeline & performance analysis",
+          title: "Module 1 :- Sales pipeline & performance analysis",
           content: [
             {
               chap: {
@@ -1102,7 +1101,7 @@ export const SalesData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 27th January 2023", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 3rd February 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -1112,12 +1111,12 @@ export const SalesData = [
       },
       {
         Module0: {
-          title: "Weekend Morning Batch :- (Sat-Sun)",
+          title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 29th January 2023", "Time : 08:30 AM to 12 PM"],
+                desc: ["Date : 10th February 2023", "Time : 8 AM to 10 AM"],
               },
             },
           ],
