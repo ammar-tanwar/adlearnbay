@@ -576,7 +576,7 @@ export const JobGuaranteeCourseData = [
       CourseFeelist5: "Company-based Mock Interviews",
     },
 
-       Batch: [
+    Batch: [
       {
         Module0: {
           title: "Weekday Evening Batch :- (Mon-Fri)",
@@ -584,7 +584,7 @@ export const JobGuaranteeCourseData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 27th January 2023", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 3rd February 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -594,12 +594,12 @@ export const JobGuaranteeCourseData = [
       },
       {
         Module0: {
-          title: "Weekend Morning Batch :- (Sat-Sun)",
+          title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 29th January 2023", "Time : 08:30 AM to 12 PM"],
+                desc: ["Date : 10th February 2023", "Time : 8 AM to 10 AM"],
               },
             },
           ],

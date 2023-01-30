@@ -98,7 +98,7 @@ export const viewAllD = [
     title1: "Development Program",
     tag: "Full stack",
     para: [
-      "300 hours of Interactive Learning",
+      "200 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
       "Course Fee : ₹ 70,000 + GST",
     ],
@@ -193,7 +193,7 @@ export const ForProgrammersD = [
     title1: "Development Program",
     tag: "Full stack",
     para: [
-      "300 hours of Interactive Learning",
+      "200 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
       "Course Fee : ₹ 70,000 + GST",
     ],
@@ -318,7 +318,7 @@ export const StackD = [
     title1: "Development Program",
     tag: "Full stack",
     para: [
-      "300 hours of Interactive Learning",
+      "200 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
       "Course Fee : ₹ 70,000 + GST",
     ],
