@@ -34,7 +34,10 @@ export default function Home() {
           and get 1:1 Guaranteed interview calls, 8+ Real-time projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
           24/7 Learner’s support."
         />
-        <meta name="Keywords" content="data analytics course, data analytics institute, data analytics course fee, data analytics certification, data analytics training, business analytics course, data analytics course duration, business analytics institute, business analytics certification, business analytics training" />
+        <meta
+          name="Keywords"
+          content="data analytics course, data analytics institute, data analytics course fee, data analytics certification, data analytics training, business analytics course, data analytics course duration, business analytics institute, business analytics certification, business analytics training"
+        />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{
@@ -75,8 +78,9 @@ export default function Home() {
           }}
         />
       </Head>
-      <main>  <Navbar popup={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -127,13 +131,14 @@ export default function Home() {
             box3desc={DataAnalyticsCourseData[0].BoxShape.box3desc}
             Box4h5={DataAnalyticsCourseData[0].BoxShape.Box4h5}
             box4desc={DataAnalyticsCourseData[0].BoxShape.box4desc}
-            headh5="Watch our alumni’s making successful  Data Analytics Master career transition"
+            headh5="Watch our alumni making successful  Data Analytics Master career transition"
           />
         </div>
         <CourseReview
           p1="Working at HCL"
           p2=" Working at TCS"
-          p3="Working at Capgemini" />
+          p3="Working at Capgemini"
+        />
         <Certificate
           title={DataAnalyticsCourseData[0].Certificate.title}
           desc={DataAnalyticsCourseData[0].Certificate.desc}
@@ -142,7 +147,6 @@ export default function Home() {
           src={DataAnalyticsCourseData[0].Certificate.src}
           srcD={DataAnalyticsCourseData[0].Certificate.srcD}
         ></Certificate>
-
         <SyllabusNew
           syllabus={DataAnalyticsCourseData[0].syllabus}
           CSyllabus=" Data Analytics Master Course Syllabus"
@@ -179,32 +183,40 @@ export default function Home() {
           img23={DataAnalyticsCourseData[0].OurExpert.img23}
           img20={DataAnalyticsCourseData[0].OurExpert.img20}
         />
-        <ProgramFee Emi={DataAnalyticsCourseData[0].ProgramFee.Emi}
+        <ProgramFee
+          Emi={DataAnalyticsCourseData[0].ProgramFee.Emi}
           Fee={DataAnalyticsCourseData[0].ProgramFee.Fee}
           CourseFeeAndFinancing=" Data Analytics Master Course Fee & Financing"
-          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for  Data Analytics Master Course and offer avariety of financing options to make it more economical." />
+          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for  Data Analytics Master Course and offer avariety of financing options to make it more economical."
+        />
         <div className={styles.ProjectWrapper} id="project">
-          <Project project={DataAnalyticsCourseData[0].Project.project}
+          <Project
+            project={DataAnalyticsCourseData[0].Project.project}
             domain={DataAnalyticsCourseData[0].Project.domain}
-            projectTitle={DataAnalyticsCourseData[0].Project.projectTitle} />
+            projectTitle={DataAnalyticsCourseData[0].Project.projectTitle}
+          />
         </div>
-
-
         <CourseFee
           syllabusDesc={DataAnalyticsCourseData[0].syllabusDesc}
           syllabus={DataAnalyticsCourseData[0].Batch}
-
           CourseFeeHead="Data Analytics Master Course : Batch Details"
           CourseFeePara="Data Analytics Master Online Classroom"
-          CourseFeelist1={DataAnalyticsCourseData[0].BatchCourses.CourseFeelist1}
-          CourseFeelist2={DataAnalyticsCourseData[0].BatchCourses.CourseFeelist2}
-          CourseFeelist3={DataAnalyticsCourseData[0].BatchCourses.CourseFeelist3}
-          CourseFeelist4={DataAnalyticsCourseData[0].BatchCourses.CourseFeelist4}
-          CourseFeelist5={DataAnalyticsCourseData[0].BatchCourses.CourseFeelist5}
+          CourseFeelist1={
+            DataAnalyticsCourseData[0].BatchCourses.CourseFeelist1
+          }
+          CourseFeelist2={
+            DataAnalyticsCourseData[0].BatchCourses.CourseFeelist2
+          }
+          CourseFeelist3={
+            DataAnalyticsCourseData[0].BatchCourses.CourseFeelist3
+          }
+          CourseFeelist4={
+            DataAnalyticsCourseData[0].BatchCourses.CourseFeelist4
+          }
+          CourseFeelist5={
+            DataAnalyticsCourseData[0].BatchCourses.CourseFeelist5
+          }
         />
-
-
-
         <LearnSupport />
         <Footer />
       </main>

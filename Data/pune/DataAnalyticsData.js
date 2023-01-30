@@ -41,7 +41,7 @@ export const DataAnalyticsCourseData = [
       box4desc:
         "Get diligent real-world project experience, spanning from beginner’s level complexity, directly from relevant companies.",
       headh5:
-        "Watch ours alumni’s making successful Data Analytics career transition",
+        "Watch ours alumni making successful Data Analytics career transition",
     },
 
     Certificate: {

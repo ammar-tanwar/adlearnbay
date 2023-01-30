@@ -19,7 +19,6 @@ import { DataScienceCourseData } from "../Data/DataScienceCourse";
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
 
-
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -29,9 +28,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>
-          Data Science Advance course - Learnbay
-        </title>
+        <title>Data Science Advance course - Learnbay</title>
         <meta
           name="description"
           content="Advance certification online data science course with 100% placement assistance 
@@ -40,8 +37,10 @@ export default function Home() {
           24/7 Learner’s support."
         />
 
-        <meta name="Keywords" content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee" />
-
+        <meta
+          name="Keywords"
+          content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee"
+        />
 
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
@@ -82,10 +81,10 @@ export default function Home() {
             x.parentNode.insertBefore(s, x);`,
           }}
         />
-
       </Head>
-      <main>  <Navbar popup={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -124,7 +123,6 @@ export default function Home() {
             p44={DataScienceCourseData[0].ProgramInfo.p44}
           />
         </div>
-
         <div className={styles.Feature} id="Feature">
           <BoxShape
             title="Explore Our Advance Data Science Certification Programs"
@@ -136,17 +134,15 @@ export default function Home() {
             box3desc={DataScienceCourseData[0].BoxShape.box3desc}
             Box4h5={DataScienceCourseData[0].BoxShape.Box4h5}
             box4desc={DataScienceCourseData[0].BoxShape.box4desc}
-            headh5="Watch our alumni’s making successful Advance Data Science career transition"
+            headh5="Watch our alumni making successful Advance Data Science career transition"
           />
         </div>
-
         <CourseReview
           p1="Working at HCL"
           p2=" Working at TCS"
-          p3="Working at Capgemini" />
-        <Certificate
-          H4="Advance Data Science Certification Program"
+          p3="Working at Capgemini"
         />
+        <Certificate H4="Advance Data Science Certification Program" />
         <SyllabusNew
           syllabus={DataScienceCourseData[0].syllabus}
           CSyllabus="Advance Data Science Course Syllabus"
@@ -182,21 +178,24 @@ export default function Home() {
           img23={DataScienceCourseData[0].OurExpert.img23}
           img20={DataScienceCourseData[0].OurExpert.img20}
         />
-        <ProgramFee Fee={DataScienceCourseData[0].ProgramFee.Fee}
-          Emi={DataScienceCourseData[0].ProgramFee.Emi} CourseFeeAndFinancing="Advance Data Science Course Fee & Financing"
-          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Advance Data Science Certification Course and offer avariety of financing options to make it more economical." />
+        <ProgramFee
+          Fee={DataScienceCourseData[0].ProgramFee.Fee}
+          Emi={DataScienceCourseData[0].ProgramFee.Emi}
+          CourseFeeAndFinancing="Advance Data Science Course Fee & Financing"
+          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Advance Data Science Certification Course and offer avariety of financing options to make it more economical."
+        />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
-          <Project popupHead={DataScienceCourseData[0].Project.popupHead}
+          <Project
+            popupHead={DataScienceCourseData[0].Project.popupHead}
             project={DataScienceCourseData[0].Project.project}
             domain={DataScienceCourseData[0].Project.domain}
-            projectTitle={DataScienceCourseData[0].Project.projectTitle} />
+            projectTitle={DataScienceCourseData[0].Project.projectTitle}
+          />
         </div>
-
         <CourseFee
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
           syllabus={DataScienceCourseData[0].Batch}
-
           CourseFeeHead="Advance Data Science Course : Batch Details"
           CourseFeePara="Advance Data Science Online Classroom"
           CourseFeelist1={DataScienceCourseData[0].BatchCourses.CourseFeelist1}

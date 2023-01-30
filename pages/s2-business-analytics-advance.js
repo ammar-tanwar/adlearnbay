@@ -79,8 +79,9 @@ export default function Home() {
           }}
         />
       </Head>
-      <main>  <Navbar popup={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -94,7 +95,9 @@ export default function Home() {
         </Popup>
         <FirstSection
           deskTopPara={BusinessAnalyticsCourseData[0].FirstSection.deskTopPara}
-          deskTopPara1={BusinessAnalyticsCourseData[0].FirstSection.deskTopPara1}
+          deskTopPara1={
+            BusinessAnalyticsCourseData[0].FirstSection.deskTopPara1
+          }
           spanTitleText="For Professionals"
           mTitle="Advance Business Analytics Course "
           title="Advance Business Analytics Course  "
@@ -120,8 +123,6 @@ export default function Home() {
             p44={BusinessAnalyticsCourseData[0].ProgramInfo.p44}
           />
         </div>
-
-
         <div className="Feature" id="Feature">
           <BoxShape
             title="Explore Our Advance Business Analytics Certification Programs"
@@ -133,14 +134,14 @@ export default function Home() {
             box3desc={BusinessAnalyticsCourseData[0].BoxShape.box3desc}
             Box4h5={BusinessAnalyticsCourseData[0].BoxShape.Box4h5}
             box4desc={BusinessAnalyticsCourseData[0].BoxShape.box4desc}
-            headh5="Watch our alumni’s making successful Advance Business Analytics career transition"
-
+            headh5="Watch our alumni making successful Advance Business Analytics career transition"
           />
         </div>
         <CourseReview
           p1="Working at HCL"
           p2=" Working at TCS"
-          p3="Working at Capgemini" />
+          p3="Working at Capgemini"
+        />
         <Certificate
           title="Course Completion Certificate from IBM"
           desc="Complete your training with the internationally recognized certificate."
@@ -148,7 +149,6 @@ export default function Home() {
           desc3="Get acknowledged in IT sector by adding IBM Certificate to your profile."
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BA-DA.jpeg"
         ></Certificate>
-
         <SyllabusNew
           syllabus={BusinessAnalyticsCourseData[0].syllabus}
           CSyllabus="Advance Business Analytics Course Syllabus"
@@ -185,32 +185,40 @@ export default function Home() {
           img23={BusinessAnalyticsCourseData[0].OurExpert.img23}
           img20={BusinessAnalyticsCourseData[0].OurExpert.img20}
         />
-        <ProgramFee Emi={BusinessAnalyticsCourseData[0].ProgramFee.Emi}
+        <ProgramFee
+          Emi={BusinessAnalyticsCourseData[0].ProgramFee.Emi}
           Fee={BusinessAnalyticsCourseData[0].ProgramFee.Fee}
           CourseFeeAndFinancing="Advance Business Analytics Course Fee & Financing"
-          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Advance AI Certification Course and offer avariety of financing options to make it more economical." />
+          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Advance AI Certification Course and offer avariety of financing options to make it more economical."
+        />
         <div className={styles.ProjectWrapper} id="project">
-          <Project project={BusinessAnalyticsCourseData[0].Project.project}
+          <Project
+            project={BusinessAnalyticsCourseData[0].Project.project}
             domain={BusinessAnalyticsCourseData[0].Project.domain}
-            projectTitle={BusinessAnalyticsCourseData[0].Project.projectTitle} />
+            projectTitle={BusinessAnalyticsCourseData[0].Project.projectTitle}
+          />
         </div>
-
-
         <CourseFee
           syllabusDesc={BusinessAnalyticsCourseData[0].syllabusDesc}
           syllabus={BusinessAnalyticsCourseData[0].Batch}
-
           CourseFeeHead="Advance Business Analytics Course : Batch Details"
           CourseFeePara="Advance Business Analytics Online Classroom"
-          CourseFeelist1={BusinessAnalyticsCourseData[0].BatchCourses.CourseFeelist1}
-          CourseFeelist2={BusinessAnalyticsCourseData[0].BatchCourses.CourseFeelist2}
-          CourseFeelist3={BusinessAnalyticsCourseData[0].BatchCourses.CourseFeelist3}
-          CourseFeelist4={BusinessAnalyticsCourseData[0].BatchCourses.CourseFeelist4}
-          CourseFeelist5={BusinessAnalyticsCourseData[0].BatchCourses.CourseFeelist5}
+          CourseFeelist1={
+            BusinessAnalyticsCourseData[0].BatchCourses.CourseFeelist1
+          }
+          CourseFeelist2={
+            BusinessAnalyticsCourseData[0].BatchCourses.CourseFeelist2
+          }
+          CourseFeelist3={
+            BusinessAnalyticsCourseData[0].BatchCourses.CourseFeelist3
+          }
+          CourseFeelist4={
+            BusinessAnalyticsCourseData[0].BatchCourses.CourseFeelist4
+          }
+          CourseFeelist5={
+            BusinessAnalyticsCourseData[0].BatchCourses.CourseFeelist5
+          }
         />
-
-
-
         <LearnSupport />
         <Footer />
       </main>

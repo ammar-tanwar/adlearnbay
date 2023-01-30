@@ -20,7 +20,6 @@ import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
 import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
 import Footer from "../Components/CoursePage/Footer/Footer";
 
-
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -39,8 +38,10 @@ export default function Home() {
           classes and 24/7 Learner’s support."
         />
 
-        <meta name="Keywords" content="machine learning course, machine learning training, machine learning course institute, machine learning online course, machine learning course fee, advanced ml certification, machine learning course for working professional, advanced machine learning certification, advanced ml courses" />
-
+        <meta
+          name="Keywords"
+          content="machine learning course, machine learning training, machine learning course institute, machine learning online course, machine learning course fee, advanced ml certification, machine learning course for working professional, advanced machine learning certification, advanced ml courses"
+        />
 
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
 
@@ -83,8 +84,9 @@ export default function Home() {
           }}
         />
       </Head>
-      <main>  <Navbar popup={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -135,15 +137,15 @@ export default function Home() {
             box3desc={MlCourseData[0].BoxShape.box3desc}
             Box4h5={MlCourseData[0].BoxShape.Box4h5}
             box4desc={MlCourseData[0].BoxShape.box4desc}
-            headh5="Watch ours alumni’s making successful Advance Machine Learning career transition"
+            headh5="Watch ours alumni making successful Advance Machine Learning career transition"
           />
         </div>
         <CourseReview
           p1="Working at HCL"
           p2=" Working at TCS"
-          p3="Working at Capgemini" />
-        <Certificate
-          H4="Advance Machine Learning Certification Program" />
+          p3="Working at Capgemini"
+        />
+        <Certificate H4="Advance Machine Learning Certification Program" />
         <OtherCertificate
           OCHead1={MlCourseData[0].OtherCertificate.OCHead1}
           OCP1={MlCourseData[0].OtherCertificate.OCP1}
@@ -190,21 +192,23 @@ export default function Home() {
           img23={MlCourseData[0].OurExpert.img23}
           img20={MlCourseData[0].OurExpert.img20}
         />
-        <ProgramFee Emi={MlCourseData[0].ProgramFee.Emi}
-          Fee={MlCourseData[0].ProgramFee.Fee} CourseFeeAndFinancing="Advance Machine Learning Course Fee & Financing"
-          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Advance Machine Learning Certification Course and offer avariety of financing options to make it more economical." />
+        <ProgramFee
+          Emi={MlCourseData[0].ProgramFee.Emi}
+          Fee={MlCourseData[0].ProgramFee.Fee}
+          CourseFeeAndFinancing="Advance Machine Learning Course Fee & Financing"
+          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Advance Machine Learning Certification Course and offer avariety of financing options to make it more economical."
+        />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
-          <Project project={MlCourseData[0].Project.project}
+          <Project
+            project={MlCourseData[0].Project.project}
             domain={MlCourseData[0].Project.domain}
-            projectTitle={MlCourseData[0].Project.projectTitle} />
+            projectTitle={MlCourseData[0].Project.projectTitle}
+          />
         </div>
-
-
         <CourseFee
           syllabusDesc={MlCourseData[0].syllabusDesc}
           syllabus={MlCourseData[0].Batch}
-
           CourseFeeHead="Advance Machine Learning Course : Batch Details"
           CourseFeePara="Advance Machine Learning Online Classroom"
           CourseFeelist1={MlCourseData[0].BatchCourses.CourseFeelist1}
@@ -213,8 +217,6 @@ export default function Home() {
           CourseFeelist4={MlCourseData[0].BatchCourses.CourseFeelist4}
           CourseFeelist5={MlCourseData[0].BatchCourses.CourseFeelist5}
         />
-
-
         <LearnSupport />
         <Footer />
       </main>

@@ -38,7 +38,10 @@ export default function Home() {
           training sessions and 24/7 Learner’s support."
         />
 
-        <meta name="Keywords" content="artificial intelligence training institute, artificial intelligence training fee, artificial intelligence certification, artificial intelligence training, advance artificial intelligence training, artificial intelligence training duration, artificial intelligence online training, artificial intelligence training, artificial intelligence training for working professional" />
+        <meta
+          name="Keywords"
+          content="artificial intelligence training institute, artificial intelligence training fee, artificial intelligence certification, artificial intelligence training, advance artificial intelligence training, artificial intelligence training duration, artificial intelligence online training, artificial intelligence training, artificial intelligence training for working professional"
+        />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{
@@ -79,8 +82,9 @@ export default function Home() {
           }}
         />
       </Head>
-      <main>  <Navbar popup={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -131,18 +135,15 @@ export default function Home() {
             box3desc={AiCourseData[0].BoxShape.box3desc}
             Box4h5={AiCourseData[0].BoxShape.Box4h5}
             box4desc={AiCourseData[0].BoxShape.box4desc}
-            headh5="Watch our alumni’s making successful Artificial Intelligence Training career transition"
-
+            headh5="Watch our alumni making successful Artificial Intelligence Training career transition"
           />
         </div>
-
         <CourseReview
           p1="Working at HCL"
           p2=" Working at TCS"
-          p3="Working at Capgemini" />
-        <Certificate
-          H4="AI Training Program"
+          p3="Working at Capgemini"
         />
+        <Certificate H4="AI Training Program" />
         <OtherCertificate
           OCHead1={AiCourseData[0].OtherCertificate.OCHead1}
           OCP1={AiCourseData[0].OtherCertificate.OCP1}
@@ -189,21 +190,23 @@ export default function Home() {
           img23={AiCourseData[0].OurExpert.img23}
           img20={AiCourseData[0].OurExpert.img20}
         />
-        <ProgramFee Emi={AiCourseData[0].ProgramFee.Emi}
-          Fee={AiCourseData[0].ProgramFee.Fee} CourseFeeAndFinancing="Artificial Intelligence Training Course Fee & Financing"
-          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for AI Training Course and offer avariety of financing options to make it more economical." />
+        <ProgramFee
+          Emi={AiCourseData[0].ProgramFee.Emi}
+          Fee={AiCourseData[0].ProgramFee.Fee}
+          CourseFeeAndFinancing="Artificial Intelligence Training Course Fee & Financing"
+          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for AI Training Course and offer avariety of financing options to make it more economical."
+        />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
-          <Project project={AiCourseData[0].Project.project}
+          <Project
+            project={AiCourseData[0].Project.project}
             domain={AiCourseData[0].Project.domain}
-            projectTitle={AiCourseData[0].Project.projectTitle} />
+            projectTitle={AiCourseData[0].Project.projectTitle}
+          />
         </div>
-
-
         <CourseFee
           syllabusDesc={AiCourseData[0].syllabusDesc}
           syllabus={AiCourseData[0].Batch}
-
           CourseFeeHead="Artificial Intelligence Training Course : Batch Details"
           CourseFeePara="Artificial Intelligence Training Online Classroom"
           CourseFeelist1={AiCourseData[0].BatchCourses.CourseFeelist1}
@@ -212,8 +215,6 @@ export default function Home() {
           CourseFeelist4={AiCourseData[0].BatchCourses.CourseFeelist4}
           CourseFeelist5={AiCourseData[0].BatchCourses.CourseFeelist5}
         />
-
-
         <LearnSupport />
         <Footer />
       </main>
