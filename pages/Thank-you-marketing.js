@@ -4,13 +4,11 @@ import Head from "next/head";
 import { BsArrowLeftShort } from "react-icons/bs";
 import NavbarThankYou from "../Components/CoursePage/Navbar/NavbarThankYou";
 import FooterThankYou from "../Components/Footerfsdsw/FooterThankYou";
-import CourseThankYou from "../Components/Home/Course/CourseThankYou";
-import cookies from "next-cookies"
-
+import CourseThankYou from "../Components/Home/Course/ThankYouNew";
+import cookies from "next-cookies";
 
 const ThankYou = ({ initialName }) => {
-
-  const email = JSON.stringify(initialName)
+  const email = JSON.stringify(initialName);
   return (
     <div className={styles.main}>
       <Head>
@@ -65,15 +63,14 @@ const ThankYou = ({ initialName }) => {
               "email": ${email}
             }
           });
-      ` }}
+      `,
+          }}
         />
-
       </Head>
       <NavbarThankYou />
 
       <section className={styles.mains}>
-        <div className={styles.left} >
-
+        <div className={styles.left}>
           <h4 className={styles.hptop1}>
             <b>Thank you!</b>
             <br />
@@ -81,8 +78,7 @@ const ThankYou = ({ initialName }) => {
           <p className={styles.Ptop1}>
             We Received your request and look forward to getting in touch soon.
           </p>
-          <div>
-          </div>
+          <div></div>
         </div>
         <CourseThankYou />
       </section>
@@ -93,17 +89,11 @@ const ThankYou = ({ initialName }) => {
 
 export default ThankYou;
 
-
 ThankYou.getInitialProps = async (ctx) => {
   return {
     initialName: cookies(ctx).CARD || "",
   };
 };
-
-
-
-
-
 
 // <div className={styles.mainb}>
 //               <div>

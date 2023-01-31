@@ -4,7 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import NavbarThankYou from "../Components/CoursePage/Navbar/NavbarThankYou";
 import FooterThankYou from "../Components/Footerfsdsw/FooterThankYou";
-import CourseThankYou from "../Components/Home/Course/CourseThankYou";
+import CourseThankYou from "../Components/Home/Course/ThankYouNew";
 import cookies from "next-cookies";
 
 const ThankYou = ({ initialName }) => {

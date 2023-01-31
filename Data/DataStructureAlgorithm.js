@@ -864,9 +864,9 @@ export const DataStructureSyllabusData = [
     },
 
     syllabusDesc:
-      "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Data Structures and Algorithms Syllabus sessions are covered practically with real-time industrial projects and case studies.",
+      "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. Discover the topics that will be practically covered with real time industrial projects and case studies in our Data Structures course syllabus.",
     popupHead: "Download Course Brochure",
-    CSyllabus: "Data Structures and Algorithms Syllabus",
+    CSyllabus: "Data Structures and Algorithms Course Syllabus",
     CourseHighlights: "DSA course Syllabus Highlights",
     srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf",
     hours: "200+ Hours",
