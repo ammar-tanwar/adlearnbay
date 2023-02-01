@@ -20,7 +20,6 @@ import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
 import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
 import Footer from "../Components/CoursePage/Footer/Footer";
 
-
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -30,17 +29,17 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Machine Learning Course – Learnbay</title>
+        <title>Learn machine learning online course</title>
         <meta
           name="description"
-          content="Advance certification online Machine Learning course with 100% placement 
-          assistance and get 1:1 Guaranteed interview calls, 15+ Real-time projects, 1+ 
-          Capstone projects, 2 years of course subscription ,Lifetime Access to recorded 
-          classes and 24/7 Learner’s support."
+          content="Top Online Machine Learning Institute with 3 years 
+of course subscription and Lifetime access to recoded classes"
         />
 
-        <meta name="Keywords" content="machine learning course, machine learning training, machine learning course institute, machine learning online course, machine learning course fee, advanced ml certification, machine learning course for working professional, advanced machine learning certification, advanced ml courses" />
-
+        <meta
+          name="Keywords"
+          content="ml course, online ml course, machine learning course with  placement assistance , machine learning course fee, machine learning course, machine learning course duration, online machine learning course"
+        />
 
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
 
@@ -83,8 +82,9 @@ export default function Home() {
           }}
         />
       </Head>
-      <main>  <Navbar popup={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -96,7 +96,6 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} />
           </div>
         </Popup>
-
         <FirstSection
           deskTopPara={MlCourseData[0].FirstSection.deskTopPara}
           deskTopPara1={MlCourseData[0].FirstSection.deskTopPara1}
@@ -142,9 +141,9 @@ export default function Home() {
         <CourseReview
           p1="Working at HCL"
           p2=" Working at TCS"
-          p3="Working at Capgemini" />
-        <Certificate
-          H4="Machine Learning Certification Program" />
+          p3="Working at Capgemini"
+        />
+        <Certificate H4="Machine Learning Certification Program" />
         <OtherCertificate
           OCHead1={MlCourseData[0].OtherCertificate.OCHead1}
           OCP1={MlCourseData[0].OtherCertificate.OCP1}
@@ -191,21 +190,25 @@ export default function Home() {
           img23={MlCourseData[0].OurExpert.img23}
           img20={MlCourseData[0].OurExpert.img20}
         />
-        <ProgramFee Emi={MlCourseData[0].ProgramFee.Emi}
-          Fee={MlCourseData[0].ProgramFee.Fee} CourseFeeAndFinancing={MlCourseData[0].ProgramFee.CourseFeeAndFinancing}
-          para={MlCourseData[0].ProgramFee.para} />
+        <ProgramFee
+          Emi={MlCourseData[0].ProgramFee.Emi}
+          Fee={MlCourseData[0].ProgramFee.Fee}
+          CourseFeeAndFinancing={
+            MlCourseData[0].ProgramFee.CourseFeeAndFinancing
+          }
+          para={MlCourseData[0].ProgramFee.para}
+        />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
-          <Project project={MlCourseData[0].Project.project}
+          <Project
+            project={MlCourseData[0].Project.project}
             domain={MlCourseData[0].Project.domain}
-            projectTitle={MlCourseData[0].Project.projectTitle} />
+            projectTitle={MlCourseData[0].Project.projectTitle}
+          />
         </div>
-
-
         <CourseFee
           syllabusDesc={MlCourseData[0].syllabusDesc}
           syllabus={MlCourseData[0].Batch}
-
           CourseFeeHead={MlCourseData[0].BatchCourses.CourseFeeHead}
           CourseFeePara={MlCourseData[0].BatchCourses.CourseFeePara}
           CourseFeelist1={MlCourseData[0].BatchCourses.CourseFeelist1}
@@ -214,8 +217,6 @@ export default function Home() {
           CourseFeelist4={MlCourseData[0].BatchCourses.CourseFeelist4}
           CourseFeelist5={MlCourseData[0].BatchCourses.CourseFeelist5}
         />
-
-
         <LearnSupport />
         <Footer />
       </main>

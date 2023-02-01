@@ -22,18 +22,16 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Data Science course - Learnbay</title>
+        <title>Online Data Science Course</title>
         <meta
           name="description"
-          content="Advance certification online data science course with 100% placement assistance 
-          and get 1:1 Guaranteed interview calls, 12+ Real-time projects, 1+ Capstone 
-          projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
-          24/7 Learner’s support."
+          content="Want to earn salary hike of 250% ? Our Data Science course 
+ will boost salary. Apply Now!"
         />
 
         <meta
           name="Keywords"
-          content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee"
+          content="data science course, data science course for working professional, data science course fee, data science course duration, data science course syllabus, data science online course"
         />
 
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
@@ -89,7 +87,7 @@ export default function Home() {
           </div>
         </Popup>
         <HeroSection
-        deskTopPara="Choose Specialization over Generalization"
+          deskTopPara="Choose Specialization over Generalization"
           h1="Data Science Course"
           hSpan="Domain Specialization for Professionals"
           para="Successfully transition careers through our courses & real-time capstone projects. 
@@ -104,7 +102,8 @@ export default function Home() {
           p3="3-year"
           p33="Subscription Model"
           p4="1:1 Support"
-          p44="Dedicated Program" />
+          p44="Dedicated Program"
+        />
         <ThirdSection />
         <FourthSection
           h1="Program Highlights"

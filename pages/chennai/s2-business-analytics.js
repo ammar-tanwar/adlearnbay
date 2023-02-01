@@ -19,7 +19,6 @@ import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
 import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
 import { BusinessAnalyticsCourseData } from "../../Data/chennai/BusinessAnalyticsData";
 
-
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -29,10 +28,15 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Business Analytics course – Learnbay</title>
+        <title>Business Analytics course</title>
         <meta
           name="description"
-          content="Business Analytics Certification Course"
+          content="Top Online Business Analytics Course with 
+3 years of course subscription & 24/7 support"
+        />
+        <meta
+          name="Keywords"
+          content="business analyst course fee, business analyst course details, course of business analystics, business analytics programs, business analytics online course, business analytics course for working professionals, business analytics course, Learn online business analytics course"
         />
         <link
           rel="icon"
@@ -190,8 +194,12 @@ export default function Home() {
         <CourseFee
           syllabusDesc={BusinessAnalyticsCourseData[0].syllabusDesc}
           syllabus={BusinessAnalyticsCourseData[0].Batch}
-          CourseFeeHead={BusinessAnalyticsCourseData[0].BatchCourses.CourseFeeHead}
-          CourseFeePara={BusinessAnalyticsCourseData[0].BatchCourses.CourseFeePara}
+          CourseFeeHead={
+            BusinessAnalyticsCourseData[0].BatchCourses.CourseFeeHead
+          }
+          CourseFeePara={
+            BusinessAnalyticsCourseData[0].BatchCourses.CourseFeePara
+          }
           CourseFeelist1={
             BusinessAnalyticsCourseData[0].BatchCourses.CourseFeelist1
           }

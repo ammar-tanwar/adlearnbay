@@ -28,17 +28,14 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Data Science Training - Learnbay</title>
+        <title>Data Science Training</title>
         <meta
           name="description"
-          content="Advance certification online data science training with 100% placement assistance 
-          and get 1:1 Guaranteed interview calls, 12+ Real-time projects, 1+ Capstone 
-          projects, 2 years of training subscription ,Lifetime Access to recorded classes and 
-          24/7 Learner’s support."
+          content="Online Live-Interactive Data Science Course. Register Now and Get Placed at Top MNCs"
         />
         <meta
           name="Keywords"
-          content="data science training certification, data science online training, data science training, data science training for working professional, data science institute, data science training, data science training duration, data science training fee"
+          content="Data science online training, Data science training, Best data science online training, Data science training fee"
         />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script

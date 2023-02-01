@@ -28,16 +28,14 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Data Analytics Institute – Learnbay</title>
+        <title>Data Analytics Institute</title>
         <meta
           name="description"
-          content="Advance certification online Data Analytics institute with 100% placement assistance 
-          and get 1:1 Guaranteed interview calls, 8+ Real-time projects, 2 years of institute subscription ,Lifetime Access to recorded classes and 
-          24/7 Learner’s support."
+          content="Best data analytics online institute - Get 100% job assistance with 3 years of course subscription. Apply Now."
         />{" "}
         <meta
           name="Keywords"
-          content="data analytics institute, data analytics institute, data analytics institute fee, data analytics certification, data analytics training, business analytics institute, data analytics institute duration, business analytics institute, business analytics certification, business analytics training"
+          content="Data Analytics online institute, Data Analytics institute for working professional, best data analytics institute, top data analytics institute, Data Analytics institute"
         />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script

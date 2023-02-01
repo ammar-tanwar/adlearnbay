@@ -19,7 +19,6 @@ import ProgramWithHighLight from "../../Components/CityComponents/ProgramWithHig
 import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
 import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
 
-
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -29,12 +28,11 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Data Analytics course – Learnbay</title>
+        <title>Data Analytics Course</title>
         <meta
           name="description"
-          content="Advance certification online Data Analytics course with 100% placement assistance 
-          and get 1:1 Guaranteed interview calls, 8+ Real-time projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
-          24/7 Learner’s support."
+          content="Top Online Data Analytics Course with 2 years of 
+course subscription and 24/7 support"
         />{" "}
         <meta
           name="Keywords"

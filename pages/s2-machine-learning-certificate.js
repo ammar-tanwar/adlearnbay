@@ -29,18 +29,16 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Machine Learning Certificate Course – Learnbay</title>
+        <title>machine learning certification course</title>
         <meta
           name="description"
-          content="Advance certification online Machine Learning course with 100% placement 
-          assistance and get 1:1 Guaranteed interview calls, 15+ Real-time projects, 1+ 
-          Capstone projects, 2 years of course subscription ,Lifetime Access to recorded 
-          classes and 24/7 Learner’s support."
+          content="Top Online Machine Learning Institute with
+ 3 years of course subscription & 24/7 support"
         />
 
         <meta
           name="Keywords"
-          content="machine learning Certificate course, machine learning Certificate training,Certification in machine learning, machine learning online Certificate course, machine learning Certificate course fee, advanced ml certification, machine learning Certificate course for working professional, advanced machine learning certification, advanced ml Certificate courses"
+          content="certification in machine learning, certification in ml online, ml certification, ml certificate, machine learning certificate, machine learning certification online, machine learning certification with 100% job assistence"
         />
 
         <link rel="icon" href="/Learnbay-Favicon-L.png" />

@@ -27,14 +27,15 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Business Analytics Training – Learnbay</title>
+        <title>Business Analytics Training</title>
         <meta
           name="description"
-          content="Business Analytics Certification Program"
+          content="Top Online Business Analytics Training with 100% Placement assistance 
+          & 24/7 support"
         />
         <meta
           name="Keywords"
-          content="Business Analytics training, Business Analytics training, Business Analytics training institute, Business Analytics online training, Business Analytics training fee, advanced ml certification, Business Analytics training for working professional, advanced Business Analytics certification, advanced ml training"
+          content="business analytics training, business analytics online training, best online business analytics training, online business analytics training, business analytics course with professional training, business analytcis course fee, business analytics course duration"
         />
         <link
           rel="icon"

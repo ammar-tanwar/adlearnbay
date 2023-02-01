@@ -28,17 +28,14 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Artificial Intelligence Training - Learnbay</title>
+        <title>Online artificial intelligence training</title>
         <meta
           name="description"
-          content="Advance certification online Artificial Intelligence training with 100% placement 
-          assistance and get 1:1 Guaranteed interview calls, 15+ Real-time projects, 1+ 
-          Capstone projects, 2 years of training subscription ,Lifetime Access to recorded 
-          classes and 24/7 Learner’s support."
+          content="Learn Artificial Intelligence Training with 100% job assistance"
         />
         <meta
           name="Keywords"
-          content="artificial intelligence training institute, artificial intelligence training fee, artificial intelligence certification, artificial intelligence training, advance artificial intelligence training, artificial intelligence training duration, artificial intelligence online training, artificial intelligence training, artificial intelligence training for working professional"
+          content="artificial intelligence training, ai training, ai training fee, ai training duration, ai training online, online ai training institute, artificial intelligence training fee, artificial intelligence training duration"
         />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script

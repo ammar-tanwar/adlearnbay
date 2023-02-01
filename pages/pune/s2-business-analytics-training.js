@@ -19,7 +19,6 @@ import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
 import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
 import { BusinessAnalyticsCourseData } from "../../Data/pune/BusinessAnalyticsData";
 
-
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -29,10 +28,15 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Business Analytics Training – Learnbay</title>
+      <title>Business Analytics Training</title>
         <meta
           name="description"
-          content="Business Analytics Training Program"
+          content="Top Online Business Analytics Training with 100% Placement assistance 
+          & 24/7 support"
+        />
+        <meta
+          name="Keywords"
+          content="business analytics training, business analytics online training, best online business analytics training, online business analytics training, business analytics course with professional training, business analytcis course fee, business analytics course duration"
         />
         <link
           rel="icon"
@@ -191,7 +195,9 @@ export default function Home() {
           syllabusDesc={BusinessAnalyticsCourseData[0].syllabusDesc}
           syllabus={BusinessAnalyticsCourseData[0].Batch}
           CourseFeeHead="Business Analytics Training in Pune : Batch Details"
-          CourseFeePara={BusinessAnalyticsCourseData[0].BatchCourses.CourseFeePara}
+          CourseFeePara={
+            BusinessAnalyticsCourseData[0].BatchCourses.CourseFeePara
+          }
           CourseFeelist1={
             BusinessAnalyticsCourseData[0].BatchCourses.CourseFeelist1
           }
