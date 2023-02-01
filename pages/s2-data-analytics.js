@@ -27,14 +27,16 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Data Analytics course – Learnbay</title>
+        <title>Data Analytics Course</title>
         <meta
           name="description"
-          content="Advance certification online Data Analytics course with 100% placement assistance 
-          and get 1:1 Guaranteed interview calls, 8+ Real-time projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
-          24/7 Learner’s support."
+          content="Top Online Data Analytics Course with 2 years of 
+course subscription and 24/7 support"
         />
-        <meta name="Keywords" content="data analytics course, data analytics institute, data analytics course fee, data analytics certification, data analytics training, business analytics course, data analytics course duration, business analytics institute, business analytics certification, business analytics training" />
+        <meta
+          name="Keywords"
+          content="data analytics course, data analytics institute, data analytics course fee, data analytics certification, data analytics training, business analytics course, data analytics course duration, business analytics institute, business analytics certification, business analytics training"
+        />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{
@@ -75,8 +77,9 @@ export default function Home() {
           }}
         />
       </Head>
-      <main>  <Navbar popup={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -94,7 +97,9 @@ export default function Home() {
           spanTitleText={DataAnalyticsCourseData[0].FirstSection.spanTitleText}
           mTitle={DataAnalyticsCourseData[0].FirstSection.mTitle}
           mTopPara={DataAnalyticsCourseData[0].FirstSection.mTopPara}
-          spanMTitleText={DataAnalyticsCourseData[0].FirstSection.spanMTitleText}
+          spanMTitleText={
+            DataAnalyticsCourseData[0].FirstSection.spanMTitleText
+          }
           mTopPara1={DataAnalyticsCourseData[0].FirstSection.mTopPara1}
           title={DataAnalyticsCourseData[0].FirstSection.title}
           desc={DataAnalyticsCourseData[0].FirstSection.desc}
@@ -133,7 +138,8 @@ export default function Home() {
         <CourseReview
           p1="Working at HCL"
           p2=" Working at TCS"
-          p3="Working at Capgemini" />
+          p3="Working at Capgemini"
+        />
         <Certificate
           title={DataAnalyticsCourseData[0].Certificate.title}
           desc={DataAnalyticsCourseData[0].Certificate.desc}
@@ -142,7 +148,6 @@ export default function Home() {
           src={DataAnalyticsCourseData[0].Certificate.src}
           srcD={DataAnalyticsCourseData[0].Certificate.srcD}
         ></Certificate>
-
         <SyllabusNew
           syllabus={DataAnalyticsCourseData[0].syllabus}
           CSyllabus={DataAnalyticsCourseData[0].CSyllabus}
@@ -155,7 +160,6 @@ export default function Home() {
         />
         <OurExpert
           H5={DataAnalyticsCourseData[0].OurExpert.H5}
-
           img1={DataAnalyticsCourseData[0].OurExpert.img1}
           img2={DataAnalyticsCourseData[0].OurExpert.img2}
           img3={DataAnalyticsCourseData[0].OurExpert.img3}
@@ -180,32 +184,42 @@ export default function Home() {
           img23={DataAnalyticsCourseData[0].OurExpert.img23}
           img20={DataAnalyticsCourseData[0].OurExpert.img20}
         />
-        <ProgramFee Emi={DataAnalyticsCourseData[0].ProgramFee.Emi}
+        <ProgramFee
+          Emi={DataAnalyticsCourseData[0].ProgramFee.Emi}
           Fee={DataAnalyticsCourseData[0].ProgramFee.Fee}
-          CourseFeeAndFinancing={DataAnalyticsCourseData[0].ProgramFee.CourseFeeAndFinancing}
-          para={DataAnalyticsCourseData[0].ProgramFee.para} />
+          CourseFeeAndFinancing={
+            DataAnalyticsCourseData[0].ProgramFee.CourseFeeAndFinancing
+          }
+          para={DataAnalyticsCourseData[0].ProgramFee.para}
+        />
         <div className={styles.ProjectWrapper} id="project">
-          <Project project={DataAnalyticsCourseData[0].Project.project}
+          <Project
+            project={DataAnalyticsCourseData[0].Project.project}
             domain={DataAnalyticsCourseData[0].Project.domain}
-            projectTitle={DataAnalyticsCourseData[0].Project.projectTitle} />
+            projectTitle={DataAnalyticsCourseData[0].Project.projectTitle}
+          />
         </div>
-
-
         <CourseFee
           syllabusDesc={DataAnalyticsCourseData[0].syllabusDesc}
           syllabus={DataAnalyticsCourseData[0].Batch}
-
           CourseFeeHead={DataAnalyticsCourseData[0].BatchCourses.CourseFeeHead}
           CourseFeePara={DataAnalyticsCourseData[0].BatchCourses.CourseFeePara}
-          CourseFeelist1={DataAnalyticsCourseData[0].BatchCourses.CourseFeelist1}
-          CourseFeelist2={DataAnalyticsCourseData[0].BatchCourses.CourseFeelist2}
-          CourseFeelist3={DataAnalyticsCourseData[0].BatchCourses.CourseFeelist3}
-          CourseFeelist4={DataAnalyticsCourseData[0].BatchCourses.CourseFeelist4}
-          CourseFeelist5={DataAnalyticsCourseData[0].BatchCourses.CourseFeelist5}
+          CourseFeelist1={
+            DataAnalyticsCourseData[0].BatchCourses.CourseFeelist1
+          }
+          CourseFeelist2={
+            DataAnalyticsCourseData[0].BatchCourses.CourseFeelist2
+          }
+          CourseFeelist3={
+            DataAnalyticsCourseData[0].BatchCourses.CourseFeelist3
+          }
+          CourseFeelist4={
+            DataAnalyticsCourseData[0].BatchCourses.CourseFeelist4
+          }
+          CourseFeelist5={
+            DataAnalyticsCourseData[0].BatchCourses.CourseFeelist5
+          }
         />
-
-
-
         <LearnSupport />
         <Footer />
       </main>

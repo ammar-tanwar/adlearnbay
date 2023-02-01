@@ -29,16 +29,17 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Artificial Intelligence Course - Learnbay</title>
+        <title>Learn Online Artificial Intelligence Course</title>
         <meta
           name="description"
-          content="Advance certification online Artificial Intelligence course with 100% placement 
-          assistance and get 1:1 Guaranteed interview calls, 15+ Real-time projects, 1+ 
-          Capstone projects, 2 years of course subscription ,Lifetime Access to recorded 
-          classes and 24/7 Learner’s support."
+          content="Top Artificial Intelligence course with Domain specialization and
+get 100% placement assistance "
         />
 
-        <meta name="Keywords" content="artificial intelligence course institute, artificial intelligence course fee, artificial intelligence certification, artificial intelligence training, advance artificial intelligence course, artificial intelligence course duration, artificial intelligence online course, artificial intelligence course, artificial intelligence course for working professional" />
+        <meta
+          name="Keywords"
+          content="artificial intelligence course institute, artificial intelligence course fee, artificial intelligence certification, artificial intelligence training, advance artificial intelligence course, artificial intelligence course duration, artificial intelligence online course, artificial intelligence course, artificial intelligence course for working professional"
+        />
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{
@@ -79,8 +80,9 @@ export default function Home() {
           }}
         />
       </Head>
-      <main>  <Navbar popup={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -132,17 +134,14 @@ export default function Home() {
             Box4h5={AiCourseData[0].BoxShape.Box4h5}
             box4desc={AiCourseData[0].BoxShape.box4desc}
             headh5={AiCourseData[0].BoxShape.headh5}
-
           />
         </div>
-
         <CourseReview
           p1="Working at HCL"
           p2=" Working at TCS"
-          p3="Working at Capgemini" />
-        <Certificate
-          H4="AI Certification Program"
+          p3="Working at Capgemini"
         />
+        <Certificate H4="AI Certification Program" />
         <OtherCertificate
           OCHead1={AiCourseData[0].OtherCertificate.OCHead1}
           OCP1={AiCourseData[0].OtherCertificate.OCP1}
@@ -189,21 +188,25 @@ export default function Home() {
           img23={AiCourseData[0].OurExpert.img23}
           img20={AiCourseData[0].OurExpert.img20}
         />
-        <ProgramFee Emi={AiCourseData[0].ProgramFee.Emi}
-          Fee={AiCourseData[0].ProgramFee.Fee} CourseFeeAndFinancing={AiCourseData[0].ProgramFee.CourseFeeAndFinancing}
-          para={AiCourseData[0].ProgramFee.para} />
+        <ProgramFee
+          Emi={AiCourseData[0].ProgramFee.Emi}
+          Fee={AiCourseData[0].ProgramFee.Fee}
+          CourseFeeAndFinancing={
+            AiCourseData[0].ProgramFee.CourseFeeAndFinancing
+          }
+          para={AiCourseData[0].ProgramFee.para}
+        />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
-          <Project project={AiCourseData[0].Project.project}
+          <Project
+            project={AiCourseData[0].Project.project}
             domain={AiCourseData[0].Project.domain}
-            projectTitle={AiCourseData[0].Project.projectTitle} />
+            projectTitle={AiCourseData[0].Project.projectTitle}
+          />
         </div>
-
-
         <CourseFee
           syllabusDesc={AiCourseData[0].syllabusDesc}
           syllabus={AiCourseData[0].Batch}
-
           CourseFeeHead={AiCourseData[0].BatchCourses.CourseFeeHead}
           CourseFeePara={AiCourseData[0].BatchCourses.CourseFeePara}
           CourseFeelist1={AiCourseData[0].BatchCourses.CourseFeelist1}
@@ -212,8 +215,6 @@ export default function Home() {
           CourseFeelist4={AiCourseData[0].BatchCourses.CourseFeelist4}
           CourseFeelist5={AiCourseData[0].BatchCourses.CourseFeelist5}
         />
-
-
         <LearnSupport />
         <Footer />
       </main>

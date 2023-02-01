@@ -28,18 +28,15 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Data Science Institute - Learnbay</title>
+        <title>Data Science Institue</title>
         <meta
           name="description"
-          content="Advance online data science institute with 100% placement assistance 
-          and get 1:1 Guaranteed interview calls, 12+ Real-time projects, 1+ Capstone 
-          projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
-          24/7 Learner’s support."
+          content="Best data science online institute - Get 100% job assistance with 3 years of course subscription. Apply Now."
         />
 
         <meta
           name="Keywords"
-          content="data science course institute, data science online institute, data science institute, data science institute for working professional, data science institute, data science institute, data science institute duration, data science institute fee"
+          content="Data Science online institute, Data Science institute for working professional, Best data science institute, top data science institute"
         />
 
         <link rel="icon" href="/Learnbay-Favicon-L.png" />

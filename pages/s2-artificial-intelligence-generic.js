@@ -22,20 +22,17 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Data Science course - Learnbay</title>
+      <title>Learn Online Artificial Intelligence Course</title>
         <meta
           name="description"
-          content="Advance certification online data science course with 100% placement assistance 
-          and get 1:1 Guaranteed interview calls, 12+ Real-time projects, 1+ Capstone 
-          projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
-          24/7 Learner’s support."
+          content="Top Artificial Intelligence course with Domain specialization and
+get 100% placement assistance "
         />
 
         <meta
           name="Keywords"
-          content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee"
+          content="artificial intelligence course, ai course, online ai course, artificial intelligence course online, ai course fee, ai course duration, artificial intelligence course fee, artificial intelligence course duration"
         />
-
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{
