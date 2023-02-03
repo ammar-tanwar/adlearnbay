@@ -26,18 +26,18 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Full Stack Software Development Course</title>
+        <title>Full Stack Software Development Training</title>
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
         <meta
           name="description"
-          content="Learn Full Stack Software Development Course. Get a chance to work with Maang Companies and participate in live, interactive online sessions led by tech experts to gain real-time project experience."
+          content="Learn Full Stack Software Development training. Get a chance to work with Maang Companies and participate in live, interactive online sessions led by tech experts to gain real-time project experience."
         />
         <meta
           name="Keywords"
-          content="Full Stack Software Development Course,Best Full Stack Software Development Course, Online Full Stack Software Development Course, Learn Full Stack Software development Course"
+          content="Full Stack Software Development training, Best Full Stack Software Development Training, Online Full Stack Software Development training, Live Full Stack Software development training"
         />
         <script
           dangerouslySetInnerHTML={{
@@ -93,12 +93,12 @@ export default function Home() {
           formotp={true}
           deskTopPara={FullStackSoftwareCourseData[0].FirstSection.deskTopPara}
           mTopPara={FullStackSoftwareCourseData[0].FirstSection.mTopPara}
-          mTitle="Full Stack Software Development Course"
+          mTitle="Full Stack Software Development Training"
           spanMTitleText={
             FullStackSoftwareCourseData[0].FirstSection.spanMTitleText
           }
           title={FullStackSoftwareCourseData[0].FirstSection.title}
-          spanTitleText=" Development Course "
+          spanTitleText="Development Training"
           desc={FullStackSoftwareCourseData[0].FirstSection.desc}
           src={FullStackSoftwareCourseData[0].FirstSection.src}
           width={FullStackSoftwareCourseData[0].FirstSection.width}
@@ -120,7 +120,7 @@ export default function Home() {
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Full Stack Software Development Course Features"
+            title="Full Stack Software Development Training Features"
             Box1h5={FullStackSoftwareCourseData[0].BoxShape.Box1h5}
             box1desc={FullStackSoftwareCourseData[0].BoxShape.box1desc}
             Box2h5={FullStackSoftwareCourseData[0].BoxShape.Box2h5}
@@ -129,7 +129,7 @@ export default function Home() {
             box3desc={FullStackSoftwareCourseData[0].BoxShape.box3desc}
             Box4h5={FullStackSoftwareCourseData[0].BoxShape.Box4h5}
             box4desc={FullStackSoftwareCourseData[0].BoxShape.box4desc}
-            headh5="Alumni's Successful Career Switch with our Full Stack Software Development Course"
+            headh5="Our Alumni's Successful Career switch with Full Stack Software Development Training"
           />
         </div>
         <div className={styles.Feature} id="Feature">
@@ -150,10 +150,10 @@ export default function Home() {
         <SyllabusNew
           formotp={true}
           syllabus={FullStackSoftwareCourseData[0].syllabus}
-          syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
+          syllabusDesc="Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All full stack software development training sessions are covered practically with real-time industrial projects and case studies."
           popupHead={FullStackSoftwareCourseData[0].popupHead}
-          CSyllabus={FullStackSoftwareCourseData[0].CSyllabus}
-          CourseHighlights={FullStackSoftwareCourseData[0].CourseHighlights}
+          CSyllabus="Full Stack Software Development Training Syllabus"
+          CourseHighlights="Software Development Training Highlights"
           srcD={FullStackSoftwareCourseData[0].srcD}
           hours={FullStackSoftwareCourseData[0].hours}
           project={FullStackSoftwareCourseData[0].project}
@@ -163,10 +163,8 @@ export default function Home() {
           Fee={FullStackSoftwareCourseData[0].ProgramFee.Fee}
           Emi={FullStackSoftwareCourseData[0].ProgramFee.Emi}
           formotp={true}
-          CourseFeeAndFinancing={
-            FullStackSoftwareCourseData[0].ProgramFee.CourseFeeAndFinancing
-          }
-          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
+          CourseFeeAndFinancing="Full Stack Software Development Training Fee & Financing"
+          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this Training and offer a variety of financing options to make it more economical."
           dataScience={true}
         />
         <div className={styles.ProjectWrapper} id="project">
@@ -180,7 +178,7 @@ export default function Home() {
           formotp={true}
           syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
           syllabus={FullStackSoftwareCourseData[0].Batch}
-          CourseFeeHead="Full Stack Software Development Course: Batch Details"
+          CourseFeeHead="Full Stack Software Development Training: Batch Details"
           CourseFeePara={
             FullStackSoftwareCourseData[0].BatchCourses.CourseFeePara
           }

@@ -18,9 +18,10 @@
   text-align: left;
 }
 .Syllabusbutton {
-  display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 77% 23%;
 }
 
 .Button {
@@ -446,5 +447,8 @@
   }
   .PProgrammains h5 {
     left: 30px;
+  }
+  .Syllabusbutton {
+    display: flex;
   }
 }

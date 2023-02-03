@@ -93,9 +93,9 @@ const ThankYou = () => {
         </div>
 
         <div className={styles.rightsfsd}>
-          {/* <div>
+          <div>
           <Image
-            src="/full-stack-web.png"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/full-stack-web-development.png"
             alt="data-science-course"
             quality={100}
             layout="intrinsic"
@@ -111,10 +111,10 @@ const ThankYou = () => {
                     Download Brochure
                   </a>
                 </button>
-          </div> */}
+          </div>
           <div>
             <Image
-              src="/full-stack-Software.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/full-stack-developer-course.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"
@@ -133,7 +133,7 @@ const ThankYou = () => {
           </div>
           <div>
             <Image
-              src="/advanceds.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/dsa%26system.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"
@@ -153,7 +153,7 @@ const ThankYou = () => {
 
           <div>
             <Image
-              src="/AIML.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/Business-Analytics.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"

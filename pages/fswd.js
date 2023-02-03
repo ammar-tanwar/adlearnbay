@@ -165,7 +165,7 @@ export default function Home() {
             projectTitle={FullStackWebCourseData[0].Project.projectTitle}
           />
         </div>
-        <Batch
+        <Batch WebDev={true}
           formotp={true}
           syllabusDesc={FullStackWebCourseData[0].syllabusDesc}
           syllabus={FullStackWebCourseData[0].Batch}
