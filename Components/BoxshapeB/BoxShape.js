@@ -47,7 +47,7 @@ const BoxShape = ({
         <div className={styles.left}>
           <div>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/ds.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/advance-data-science-ai-program.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"
@@ -64,7 +64,7 @@ const BoxShape = ({
           </div>
           <div>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/advanceds.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/advance-ai-ml-for-tech-professionals.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"
@@ -81,7 +81,7 @@ const BoxShape = ({
           </div>
           <div>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/ds.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"
@@ -98,7 +98,7 @@ const BoxShape = ({
           </div>
           <div>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/advanceds.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-master-program.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"

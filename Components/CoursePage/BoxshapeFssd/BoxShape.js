@@ -75,17 +75,17 @@ const BoxShape = ({
         <div className={styles.left}>
           <div>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/full-stack-Software.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/full-stack-developer-course.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"
-              width="306"
-              height="150"
+              width="423"
+              height="252"
             />
             <p className={styles.Ptopp}>
               Full Stack Software
               <br />
-              Development Program
+              Development Course
             </p>
             {eventDownload ? (
               <>
@@ -114,17 +114,17 @@ const BoxShape = ({
           </div>
           <div>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/ds.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/dsa%26system.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"
-              width="306"
-              height="150"
+              width="423"
+              height="252"
             />
             <p className={styles.Ptopp}>
               Data Structures Algorithms
               <br />
-              And System Design
+              And System Design Course
             </p>
             {eventDownload ? (
               <>
@@ -153,17 +153,17 @@ const BoxShape = ({
           </div>
           <div>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/full-stack-web.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/full-stack-web-development.png"
               alt="full-stack-web"
               quality={100}
               layout="intrinsic"
-              width="306"
-              height="150"
+              width="423"
+              height="252"
             />
             <p className={styles.Ptopp}>
               Full Stack Web
               <br />
-              Development Program
+              Development Course
             </p>
             {eventDownload ? (
               <>

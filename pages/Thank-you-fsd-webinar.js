@@ -95,12 +95,12 @@ const ThankYouFsd = ({ initialName }) => {
         <div className={styles.rightsfsd}>
           <div>
           <Image
-            src="/full-stack-web.png"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/full-stack-web-development.png"
             alt="data-science-course"
             quality={100}
             layout="intrinsic"
-            width="306"
-            height="150"
+            width="423"
+            height="252"
           />
           <p className={styles.Ptopp}>
           Full Stack Web  <br />Development Program
@@ -114,12 +114,12 @@ const ThankYouFsd = ({ initialName }) => {
           </div> 
           <div>
             <Image
-              src="/full-stack-Software.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/full-stack-developer-course.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"
-              width="306"
-              height="150"
+              width="423"
+              height="252"
             />
             <p className={styles.Ptopp}>
               Full-Stack Software <br />Development Program
@@ -133,12 +133,12 @@ const ThankYouFsd = ({ initialName }) => {
           </div>
           <div>
             <Image
-              src="/advanceds.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/dsa%26system.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"
-              width="306"
-              height="150"
+              width="423"
+              height="252"
             />
             <p className={styles.Ptopp}>
               DSA & <br />System Design
@@ -153,12 +153,12 @@ const ThankYouFsd = ({ initialName }) => {
 
           <div>
             <Image
-              src="/AIML.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/Business-Analytics.png"
               alt="data-science-course"
               quality={100}
               layout="intrinsic"
-              width="306"
-              height="150"
+              width="423"
+              height="252"
             />
             <p className={styles.Ptopp}>
               Placement <br />Report

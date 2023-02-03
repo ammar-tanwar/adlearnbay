@@ -1,7 +1,7 @@
 export const viewAllD = [
   {
     id: 1,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Advance-Data-Science-1.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/advance-data-science-ai-program.png",
     title: "Advanced Data Science",
     title1: "and AI Program",
 
@@ -14,7 +14,7 @@ export const viewAllD = [
   },
   {
     id: 2,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/AIML.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/advance-ai-ml-for-tech-professionals.png",
     title: "Advance AI and ML Program",
     title1: "for Tech Professionals",
     para: [
@@ -26,7 +26,7 @@ export const viewAllD = [
   },
   {
     id: 3,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/managers-and-leaders-1.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
     title: "Data Science and AI for ",
     title1: "Managers & Leaders Program",
     para: [
@@ -38,7 +38,7 @@ export const viewAllD = [
   },
   {
     id: 4,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Job-garranty.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-master-program.png",
     title: "Data Science and AI with ",
     title1: "100% Placement Assistance Program",
 
@@ -51,7 +51,7 @@ export const viewAllD = [
   },
   {
     id: 5,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Data-Analytics-1.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/dsa%26system.png",
     title: "Data Structures & Algorithms and System Design ",
     // title1: "Development Program",
     para: [
@@ -63,7 +63,7 @@ export const viewAllD = [
   },
   {
     id: 6,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/full-stack-Software.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/full-stack-developer-course.png",
     title: "Full-Stack Software",
     title1: "Development Program",
     para: [
@@ -77,7 +77,7 @@ export const viewAllD = [
 export const ForProgrammersD = [
   {
     id: 1,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Advance-Data-Science-1.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/advance-data-science-ai-program.png",
     title: "Advanced Data Science",
     title1: "and AI Program",
     para: [
@@ -89,7 +89,7 @@ export const ForProgrammersD = [
   },
   {
     id: 2,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/full-stack-Software.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/full-stack-developer-course.png",
     title: "Full-Stack Software",
     title1: "Development Program",
     para: [
@@ -101,7 +101,7 @@ export const ForProgrammersD = [
   },
   {
     id: 3,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/managers-and-leaders-1.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
     title: "Data Science and AI for ",
     title1: "Managers & Leaders Program",
     para: [
@@ -113,7 +113,7 @@ export const ForProgrammersD = [
   },
   {
     id: 4,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/AIML.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/advance-ai-ml-for-tech-professionals.png",
     title: "Advance AI and ML Program",
     title1: "for Tech Professionals",
     para: [
@@ -125,7 +125,7 @@ export const ForProgrammersD = [
   },
   {
     id: 5,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Data-Analytics-1.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/dsa%26system.png",
     title: "Data Structures & Algorithms and System Design",
     // title1: "Development Program",
     para: [
@@ -137,7 +137,7 @@ export const ForProgrammersD = [
   },
   {
     id: 6,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Job-garranty.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-master-program.png",
     title: "Data Science and AI with ",
     title1: "100% Placement Assistance Program",
     para: [
@@ -151,7 +151,7 @@ export const ForProgrammersD = [
 export const ForNonProgrammerD = [
   {
     id: 1,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Advance-Data-Science-1.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/advance-data-science-ai-program.png",
     title: "Advanced Data Science",
     title1: "and AI Program",
 
@@ -164,7 +164,7 @@ export const ForNonProgrammerD = [
   },
   {
     id: 2,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/AIML.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/advance-ai-ml-for-tech-professionals.png",
     title: "Advance AI and ML Program",
     title1: "for Tech Professionals",
     para: [
@@ -176,7 +176,7 @@ export const ForNonProgrammerD = [
   },
   {
     id: 3,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/managers-and-leaders-1.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
     title: "Data Science and AI for ",
     title1: "Managers & Leaders Program",
     para: [
@@ -188,7 +188,7 @@ export const ForNonProgrammerD = [
   },
   {
     id: 4,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Job-garranty.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-master-program.png",
     title: "Data Science and AI with ",
     title1: "100% Placement Assistance Program",
 
@@ -204,7 +204,7 @@ export const ForNonProgrammerD = [
 export const JobGuaranteeD = [
   {
     id: 1,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Job-garranty.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-master-program.png",
     title: "Data Science and AI with ",
     title1: "100% Placement Assistance Program",
     para: [
@@ -216,7 +216,7 @@ export const JobGuaranteeD = [
   },
   {
     id: 2,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Data-Analytics-1.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/dsa%26system.png",
     title: "Data Structures & Algorithms and System Design ",
     // title1: "Development Program",
     para: [
@@ -230,7 +230,7 @@ export const JobGuaranteeD = [
 export const StackD = [
   {
     id: 1,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Data-Analytics-1.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/dsa%26system.png",
     title: "Data Structures & Algorithms and System Design ",
     // title1: "Development Program",
     para: [
@@ -242,7 +242,7 @@ export const StackD = [
   },
   {
     id: 2,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/full-stack-Software.png",
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/full-stack-developer-course.png",
     title: "Full-Stack Software",
     title1: "Development Program",
     para: [

@@ -92,6 +92,10 @@ function FormOtp({
   // -==================== FSD - Ads  END POINT ==========================--------
   if (
     router.pathname === "/fssd-s2" ||
+    router.pathname === "/fssd-institute-program-s2" ||
+    router.pathname === "/fssd-training-s2" ||
+    router.pathname === "/software-development-course-s2" ||
+    router.pathname === "/software-programming-course-s2" ||
     router.pathname === "/fssd-s4" ||
     router.pathname === "/fssd-s5" ||
     // router.pathname === "/fswd-s4" ||
@@ -246,6 +250,12 @@ function FormOtp({
           (router.pathname === "/fswd" && downloadBrochure) ||
           (router.pathname === "/dsa" && downloadBrochure) ||
           (router.pathname === "/fssd-s2" && downloadBrochure) ||
+          (router.pathname === "/fssd-institute-program-s2" && downloadBrochure) ||
+          (router.pathname === "/fssd-training-s2" && downloadBrochure) ||
+          (router.pathname === "/software-development-course-s2" &&
+            downloadBrochure) ||
+          (router.pathname === "/software-programming-course-s2" &&
+            downloadBrochure) ||
           (router.pathname === "/fssd-s4" && downloadBrochure) ||
           // (router.pathname === "/fswd-s4" && downloadBrochure) ||
           (router.pathname === "/fssd-s5" && downloadBrochure) ||
@@ -395,6 +405,10 @@ function FormOtp({
             router.pathname === "/fswd" ||
             router.pathname === "/dsa" ||
             router.pathname === "/fssd-s2" ||
+            router.pathname === "/fssd-institute-program-s2" ||
+            router.pathname === "/fssd-training-s2" ||
+            router.pathname === "/software-development-course-s2" ||
+            router.pathname === "/software-programming-course-s2" ||
             router.pathname === "/dsa-s3" ||
             router.pathname === "/fssd-s3" ||
             router.pathname === "/fssd-s4" ||

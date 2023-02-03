@@ -113,6 +113,8 @@ const Form = ({
     router.pathname === "/s2-artificial-intelligence-certification" ||
     router.pathname === "/s2-data-science" ||
     router.pathname === "/s2-data-science-generic" ||
+    router.pathname === "/s2-data-science-institute-generic" ||
+    router.pathname === "/s2-data-science-training-generic" ||
     router.pathname === "/s2-artificial-intelligence-generic" ||
     router.pathname === "/s2-business-analytics-generic" ||
     router.pathname === "/s2-data-analytics-generic" ||
@@ -319,6 +321,10 @@ const Form = ({
   // -==================== FSD - Ads  END POINT ==========================--------
   if (
     router.pathname === "/fssd-s2" ||
+    router.pathname === "/fssd-institute-program-s2" ||
+    router.pathname === "/fssd-training-s2" ||
+    router.pathname === "/software-development-course-s2" ||
+    router.pathname === "/software-programming-course-s2" ||
     router.pathname === "/fssd-s4" ||
     router.pathname === "/fssd-s5" ||
     // router.pathname === "/fswd-s4" ||
@@ -528,6 +534,8 @@ const Form = ({
       (router.pathname === "/" && downloadBrochure) ||
       (router.pathname === "/s2-data-science" && downloadBrochure) ||
       (router.pathname === "/s2-data-science-generic" && downloadBrochure) ||
+      (router.pathname === "/s2-data-science-institute-generic" && downloadBrochure) ||
+      (router.pathname === "/s2-data-science-training-generic" && downloadBrochure) ||
       (router.pathname === "/s2-artificial-intelligence-generic" &&
         downloadBrochure) ||
       (router.pathname === "/s2-data-analytics-generic" && downloadBrochure) ||
@@ -567,6 +575,12 @@ const Form = ({
       (router.pathname === "/fswd" && downloadBrochure) ||
       (router.pathname === "/dsa" && downloadBrochure) ||
       (router.pathname === "/fssd-s2" && downloadBrochure) ||
+      (router.pathname === "/fssd-institute-program-s2" && downloadBrochure) ||
+      (router.pathname === "/fssd-training-s2" && downloadBrochure) ||
+      (router.pathname === "/software-development-course-s2" &&
+        downloadBrochure) ||
+      (router.pathname === "/software-programming-course-s2" &&
+        downloadBrochure) ||
       (router.pathname === "/fssd-s4" && downloadBrochure) ||
       // (router.pathname === "/fswd-s4" && downloadBrochure) ||
       (router.pathname === "/fssd-s5" && downloadBrochure) ||
@@ -642,6 +656,8 @@ const Form = ({
       router.pathname === "/job-guarantee-or-money-back-data-science-ai-s9" ||
       router.pathname === "/s2-data-science" ||
       router.pathname === "/s2-data-science-generic" ||
+      router.pathname === "/s2-data-science-institute-generic" ||
+      router.pathname === "/s2-data-science-training-generic" ||
       router.pathname === "/s2-artificial-intelligence-generic" ||
       router.pathname === "/s2-business-analytics-generic" ||
       router.pathname === "/s2-data-analytics-generic" ||
@@ -672,6 +688,10 @@ const Form = ({
       router.pathname === "/fswd" ||
       router.pathname === "/dsa" ||
       router.pathname === "/fssd-s2" ||
+      router.pathname === "/fssd-institute-program-s2" ||
+      router.pathname === "/fssd-training-s2" ||
+      router.pathname === "/software-development-course-s2" ||
+      router.pathname === "/software-programming-course-s2" ||
       router.pathname === "/dsa-s3" ||
       router.pathname === "/fssd-s3" ||
       router.pathname === "/fssd-s4" ||

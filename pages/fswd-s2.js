@@ -176,7 +176,7 @@ export default function Home() {
             formotp={true}
           />
         </div>
-        <Batch
+        <Batch WebDev={true}
           formotp={true}
           syllabusDesc={FullStackWebCourseData[0].syllabusDesc}
           syllabus={FullStackWebCourseData[0].Batch}
