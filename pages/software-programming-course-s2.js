@@ -99,7 +99,7 @@ export default function Home() {
           }
           title={FullStackSoftwareCourseData[0].FirstSection.title}
           spanTitleText="Development Course"
-          desc={FullStackSoftwareCourseData[0].FirstSection.desc}
+          desc="#1 Software Programming Course for Top Product Based MNC’s"
           src={FullStackSoftwareCourseData[0].FirstSection.src}
           width={FullStackSoftwareCourseData[0].FirstSection.width}
           height={FullStackSoftwareCourseData[0].FirstSection.height}
@@ -120,7 +120,7 @@ export default function Home() {
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Full Stack Software Programming Course Features"
+            title="Full Stack Software Development Course Features"
             Box1h5={FullStackSoftwareCourseData[0].BoxShape.Box1h5}
             box1desc={FullStackSoftwareCourseData[0].BoxShape.box1desc}
             Box2h5={FullStackSoftwareCourseData[0].BoxShape.Box2h5}
@@ -129,7 +129,7 @@ export default function Home() {
             box3desc={FullStackSoftwareCourseData[0].BoxShape.box3desc}
             Box4h5={FullStackSoftwareCourseData[0].BoxShape.Box4h5}
             box4desc={FullStackSoftwareCourseData[0].BoxShape.box4desc}
-            headh5="Our proud alumni with successfull Full Stack Software Programming career transition"
+            headh5="Our proud alumni with successfull Full Stack Software Development career transition"
           />
         </div>
         <div className={styles.Feature} id="Feature">
@@ -152,8 +152,8 @@ export default function Home() {
           syllabus={FullStackSoftwareCourseData[0].syllabus}
           syllabusDesc="Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All full stack software programming course sessions are covered practically with real-time industrial projects and case studies."
           popupHead={FullStackSoftwareCourseData[0].popupHead}
-          CSyllabus="Full Stack Software Programming Course Syllabus"
-          CourseHighlights="Software Programming Course Highlights"
+          CSyllabus="Full Stack Software Development Course Syllabus"
+          CourseHighlights="Software Development Course Highlights"
           srcD={FullStackSoftwareCourseData[0].srcD}
           hours={FullStackSoftwareCourseData[0].hours}
           project={FullStackSoftwareCourseData[0].project}
@@ -163,9 +163,9 @@ export default function Home() {
           Fee={FullStackSoftwareCourseData[0].ProgramFee.Fee}
           Emi={FullStackSoftwareCourseData[0].ProgramFee.Emi}
           formotp={true}
-          CourseFeeAndFinancing="Full Stack Software Programming Course Fee & Financing
+          CourseFeeAndFinancing="Full Stack Software Development Course Fee & Financing
           "
-          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this Training and offer a variety of financing options to make it more economical."
+          para="We are dedicated to making our software programming course accessible. We provide financing options as part of our commitment to assist you in creating an affordable budget."
           dataScience={true}
         />
         <div className={styles.ProjectWrapper} id="project">
@@ -179,7 +179,7 @@ export default function Home() {
           formotp={true}
           syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
           syllabus={FullStackSoftwareCourseData[0].Batch}
-          CourseFeeHead="Full Stack Software Programming Course: Batch Details"
+          CourseFeeHead="Full Stack Software Development Course: Batch Details"
           CourseFeePara={
             FullStackSoftwareCourseData[0].BatchCourses.CourseFeePara
           }
