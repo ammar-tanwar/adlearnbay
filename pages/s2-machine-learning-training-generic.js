@@ -22,14 +22,14 @@ export default function Home() {
   return (
     <div>
       <Head>
-      <title>online machine learning training</title>
+        <title>online machine learning training</title>
         <meta
           name="description"
           content="Top Online Machine Learning Institute with 
           100% Placement assistance"
         />
 
-<meta
+        <meta
           name="Keywords"
           content="training in machine learning, ml training, machine learning training, training in ml online, machine learning training, Best machine learning training, machine learning online training"
         />
@@ -87,9 +87,9 @@ export default function Home() {
           </div>
         </Popup>
         <HeroSection
-        deskTopPara="Boost Your Professional Growth To a Whole New Level"
+          deskTopPara="Boost Your Professional Growth To a Whole New Level"
           h1="Machine Learning Training"
-          hSpan="For Professionals"
+          hSpan="for Working Professionals"
           para="Successfully transition careers through our training & real-time capstone projects. 
           All while making your previous work experience count!"
           sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Machine+learning.jpg"
@@ -102,7 +102,8 @@ export default function Home() {
           p3="3-year"
           p33="Subscription Model"
           p4="1:1 Support"
-          p44="Dedicated Program" />
+          p44="Dedicated Program"
+        />
         <ThirdSection />
         <FourthSection
           h1="Program Highlights"

@@ -88,7 +88,7 @@ export default function Home() {
         </Popup>
         <HeroSection
           deskTopPara="Choose Specialization over Generalization"
-          h1="Data Science Training"
+          h1="Data Science Training with"
           hSpan="Domain Specialization for Professionals"
           para="Successfully transition careers through our training & real-time capstone projects. 
           All while making your previous work experience count!"

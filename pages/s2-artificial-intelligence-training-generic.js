@@ -86,7 +86,7 @@ export default function Home() {
         </Popup>
         <HeroSection
         deskTopPara="Be a master even without a master's degree"
-          h1="Advance Artificial Intelligence Training"
+          h1="Artificial Intelligence Training"
           hSpan="With Domain Specialization"
           para="Successfully transition careers through our training & real-time capstone projects. 
           All while making your previous work experience count!"

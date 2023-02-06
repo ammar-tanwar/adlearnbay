@@ -88,7 +88,7 @@ export default function Home() {
         </Popup>
         <HeroSection
           deskTopPara="Choose Specialization over Generalization"
-          h1="Data Science Course"
+          h1="Data Science Course with"
           hSpan="Domain Specialization for Professionals"
           para="Successfully transition careers through our courses & real-time capstone projects. 
           All while making your previous work experience count!"
@@ -113,7 +113,7 @@ export default function Home() {
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
         />
         <SyllabusSection
-          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our data science courses feature practical training with real-time projects and case studies."
+          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our data science course feature practical training with real-time projects and case studies."
           Hours="250+ Hours"
           Projects="12+ projects"
           Module0="Preparatory Classes (Programming + Maths)"

@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-      <title>Learn machine learning online course</title>
+        <title>Learn machine learning online course</title>
         <meta
           name="description"
           content="Top Online Machine Learning Institute with 3 years 
@@ -76,7 +76,7 @@ of course subscription and Lifetime access to recoded classes"
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} brochureButton={true} DownloadSyllabus={true}/>
+        <Navbar popup={true} brochureButton={true} DownloadSyllabus={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -87,9 +87,9 @@ of course subscription and Lifetime access to recoded classes"
           </div>
         </Popup>
         <HeroSection
-        deskTopPara="Boost Your Professional Growth To a Whole New Level"
+          deskTopPara="Boost Your Professional Growth To a Whole New Level"
           h1="Machine Learning Course"
-          hSpan="For Professionals"
+          hSpan="for Working Professionals"
           para="Successfully transition careers through our courses & real-time capstone projects. 
           All while making your previous work experience count!"
           sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Machine+learning.jpg"
@@ -102,8 +102,9 @@ of course subscription and Lifetime access to recoded classes"
           p3="3-year"
           p33="Subscription Model"
           p4="1:1 Support"
-          p44="Dedicated Program" />
-        <ThirdSection DownloadSyllabus={true}/>
+          p44="Dedicated Program"
+        />
+        <ThirdSection DownloadSyllabus={true} />
         <FourthSection
           h1="Program Highlights"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
@@ -112,7 +113,7 @@ of course subscription and Lifetime access to recoded classes"
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
         />
         <SyllabusSection
-          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our machine learning courses feature practical training with real-time projects and case studies."
+          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our machine learning course feature practical training with real-time projects and case studies."
           Hours="350+ Hours"
           Projects="15+ projects"
           Module0="Preparatory Classes (Programming + Maths)"
@@ -124,7 +125,7 @@ of course subscription and Lifetime access to recoded classes"
         <SliderTab />
         <Testimonial />
         <SeventhSection />
-        <EightSection DownloadSyllabus={true}/>
+        <EightSection DownloadSyllabus={true} />
       </main>
     </div>
   );
