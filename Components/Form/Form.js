@@ -115,10 +115,20 @@ const Form = ({
     router.pathname === "/s2-data-science-generic" ||
     router.pathname === "/s2-data-science-institute-generic" ||
     router.pathname === "/s2-data-science-training-generic" ||
+    router.pathname === "/s2-data-science-syllabus-generic" ||
     router.pathname === "/s2-artificial-intelligence-generic" ||
+    router.pathname === "/s2-artificial-intelligence-syllabus-generic" ||
+    router.pathname === "/s2-artificial-intelligence-training-generic" ||
     router.pathname === "/s2-business-analytics-generic" ||
+    router.pathname === "/s2-business-analytics-syllabus-generic" ||
+    router.pathname === "/s2-business-analytics-training-generic" ||
     router.pathname === "/s2-data-analytics-generic" ||
+    router.pathname === "/s2-data-analytics-institute-generic" ||
+    router.pathname === "/s2-data-analytics-syllabus-generic" ||
+    router.pathname === "/s2-data-analytics-training-generic" ||
     router.pathname === "/s2-machine-learning-generic" ||
+    router.pathname === "/s2-machine-learning-syllabus-generic" ||
+    router.pathname === "/s2-machine-learning-training-generic" ||
     router.pathname === "/s3-data-science" ||
     router.pathname === "/s4-data-science" ||
     router.pathname === "/s2-data-science-banking" ||
@@ -536,13 +546,20 @@ const Form = ({
       (router.pathname === "/s2-data-science-generic" && downloadBrochure) ||
       (router.pathname === "/s2-data-science-institute-generic" && downloadBrochure) ||
       (router.pathname === "/s2-data-science-training-generic" && downloadBrochure) ||
-      (router.pathname === "/s2-artificial-intelligence-generic" &&
-        downloadBrochure) ||
+      (router.pathname === "/s2-data-science-syllabus-generic" && downloadBrochure) ||
+      (router.pathname === "/s2-artificial-intelligence-generic" && downloadBrochure) ||
+      (router.pathname === "/s2-artificial-intelligence-syllabus-generic" && downloadBrochure) ||
+      (router.pathname === "/s2-artificial-intelligence-training-generic" && downloadBrochure) ||
+      (router.pathname === "/s2-business-analytics-generic" && downloadBrochure) ||
+      (router.pathname === "/s2-business-analytics-syllabus-generic" && downloadBrochure) ||
+      (router.pathname === "/s2-business-analytics-training-generic" && downloadBrochure) ||
       (router.pathname === "/s2-data-analytics-generic" && downloadBrochure) ||
-      (router.pathname === "/s2-machine-learning-generic" &&
-        downloadBrochure) ||
-      (router.pathname === "/s2-business-analytics-generic" &&
-        downloadBrochure) ||
+      (router.pathname === "/s2-data-analytics-institute-generic" && downloadBrochure) ||
+      (router.pathname === "/s2-data-analytics-syllabus-generic" && downloadBrochure) ||
+      (router.pathname === "/s2-data-analytics-training-generic" && downloadBrochure) ||
+      (router.pathname === "/s2-machine-learning-generic" && downloadBrochure) ||
+      (router.pathname === "/s2-machine-learning-syllabus-generic" && downloadBrochure) ||
+      (router.pathname === "/s2-machine-learning-training-generic" && downloadBrochure) ||
       (router.pathname === "/s3-data-science" && downloadBrochure) ||
       (router.pathname === "/s2-machine-learning" && downloadBrochure) ||
       (router.pathname === "/s2-job-guarantee" && downloadBrochure) ||
@@ -658,10 +675,20 @@ const Form = ({
       router.pathname === "/s2-data-science-generic" ||
       router.pathname === "/s2-data-science-institute-generic" ||
       router.pathname === "/s2-data-science-training-generic" ||
+      router.pathname === "/s2-data-science-syllabus-generic" ||
       router.pathname === "/s2-artificial-intelligence-generic" ||
+      router.pathname === "/s2-artificial-intelligence-syllabus-generic" ||
+      router.pathname === "/s2-artificial-intelligence-training-generic" ||
       router.pathname === "/s2-business-analytics-generic" ||
+      router.pathname === "/s2-business-analytics-syllabus-generic" ||
+      router.pathname === "/s2-business-analytics-training-generic" ||
       router.pathname === "/s2-data-analytics-generic" ||
+      router.pathname === "/s2-data-analytics-institute-generic" ||
+      router.pathname === "/s2-data-analytics-syllabus-generic" ||
+      router.pathname === "/s2-data-analytics-training-generic" ||
       router.pathname === "/s2-machine-learning-generic" ||
+      router.pathname === "/s2-machine-learning-syllabus-generic" ||
+      router.pathname === "/s2-machine-learning-training-generic" ||
       router.pathname === "/s3-data-science" ||
       router.pathname === "/s2-machine-learning" ||
       router.pathname === "/s2-job-guarantee" ||

@@ -4,7 +4,7 @@ import { FaDownload, FaStar } from "react-icons/fa";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 
-function ThirdSection() {
+function ThirdSection({DownloadSyllabus}) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -17,7 +17,11 @@ function ThirdSection() {
           <div className="whiteP" />
         </div>
         <div className="RightPopup">
+        {DownloadSyllabus ? (
+                <h5>Download Syllabus</h5>
+          ) : (
           <h5>Download Brochure</h5>
+          )}
           <Form popup={true} downloadBrochure setTrigger={setPopups} />
         </div>
       </Popup>
@@ -43,10 +47,17 @@ function ThirdSection() {
             100% Placement Assistance Data Science & AI Certification Program
           </p>
         </div>
+        {DownloadSyllabus ? (
+            <button onClick={popupShow} className="outLineBtn">
+              Download Syllabus
+              <FaDownload className={styles.icon} />
+            </button>
+          ) : (
         <button onClick={popupShow}>
           Download Brochure
           <FaDownload className={styles.icon} />
         </button>
+          )}
       </div>
     </div>
   );
