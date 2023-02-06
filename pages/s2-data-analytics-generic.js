@@ -86,9 +86,9 @@ course subscription and 24/7 support"
           </div>
         </Popup>
         <HeroSection
-                deskTopPara="Get in-demand skills to stay competitive"
+          deskTopPara="Get in-demand skills to stay competitive"
           h1="Data Analytics Course"
-          hSpan="For Working Professionals"
+          hSpan="for Working Professionals"
           para="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
           sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Data+Analytics_.jpg"
         />
@@ -100,7 +100,8 @@ course subscription and 24/7 support"
           p3="3-year"
           p33="Subscription Model"
           p4="1:1 Support"
-          p44="Dedicated Program" />
+          p44="Dedicated Program"
+        />
         <ThirdSection />
         <FourthSection
           h1="Program Highlights"
@@ -110,7 +111,7 @@ course subscription and 24/7 support"
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
         />
         <SyllabusSection
-          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our data analytics courses feature practical training with real-time projects and case studies."
+          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our data analytics course feature practical training with real-time projects and case studies."
           Hours="200+ Hours"
           Projects="8+ projects"
           Module0="Preparatory Classes (Programming + Maths)"

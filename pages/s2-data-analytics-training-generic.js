@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-      <title>Data Analytics Training</title>
+        <title>Data Analytics Training</title>
         <meta
           name="description"
           content="Online Live-Interactive data analytics Course. Register Now and Get Placed at Top MNCs"
@@ -31,7 +31,6 @@ export default function Home() {
           name="Keywords"
           content="Data  analytics training, Data analytics online training, Best online Data analytics training, online Data analytics training, Data analytics training for working professionals, Data analytcis training fee, Data analytics training duration "
         />
-
         <link rel="icon" href="/Learnbay-Favicon-L.png" />
         <script
           dangerouslySetInnerHTML={{
@@ -85,9 +84,9 @@ export default function Home() {
           </div>
         </Popup>
         <HeroSection
-                deskTopPara="Get in-demand skills to stay competitive"
+          deskTopPara="Get in-demand skills to stay competitive"
           h1="Data Analytics Training"
-          hSpan="For Working Professionals"
+          hSpan="for Working Professionals"
           para="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
           sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Data+Analytics_.jpg"
         />
@@ -99,7 +98,8 @@ export default function Home() {
           p3="3-year"
           p33="Subscription Model"
           p4="1:1 Support"
-          p44="Dedicated Program" />
+          p44="Dedicated Program"
+        />
         <ThirdSection />
         <FourthSection
           h1="Program Highlights"

@@ -99,7 +99,7 @@ export default function Home() {
           spanMTitleText={FullStackWebCourseData[0].FirstSection.spanMTitleText}
           title={FullStackWebCourseData[0].FirstSection.title}
           spanTitleText={FullStackWebCourseData[0].FirstSection.spanTitleText}
-          desc={FullStackWebCourseData[0].FirstSection.desc}
+          desc="Learn full stack coding course from MNC experts with real-time projects"
           src={FullStackWebCourseData[0].FirstSection.src}
           width={FullStackWebCourseData[0].FirstSection.width}
           height={FullStackWebCourseData[0].FirstSection.height}
@@ -150,7 +150,7 @@ export default function Home() {
         <SyllabusNew
           formotp={true}
           syllabus={FullStackWebCourseData[0].syllabus}
-          syllabusDesc={FullStackWebCourseData[0].syllabusDesc}
+          syllabusDesc="Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. Full stack coding course is practically covered with real-time industrial projects and case studies.."
           popupHead={FullStackWebCourseData[0].popupHead}
           CSyllabus={FullStackWebCourseData[0].CSyllabus}
           CourseHighlights={FullStackWebCourseData[0].CourseHighlights}
@@ -166,7 +166,7 @@ export default function Home() {
           CourseFeeAndFinancing={
             FullStackWebCourseData[0].ProgramFee.CourseFeeAndFinancing
           }
-          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."
+          para="We are dedicated to make our full stack coding course accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."
           dataScience={true}
         />
         <div className={styles.ProjectWrapper} id="project">

@@ -87,7 +87,7 @@ get 100% placement assistance "
         </Popup>
         <HeroSection
         deskTopPara="Be a master even without a master's degree"
-          h1="Advance Artificial Intelligence Course"
+          h1="Artificial Intelligence Course"
           hSpan="With Domain Specialization"
           para="Successfully transition careers through our courses & real-time capstone projects. 
           All while making your previous work experience count!"
@@ -111,7 +111,7 @@ get 100% placement assistance "
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
         />
         <SyllabusSection
-          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our artificial intelligence courses feature practical training with real-time projects and case studies."
+          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our artificial intelligence course feature practical training with real-time projects and case studies."
           Hours="350+ Hours"
           Projects="15+ projects"
           Module0="Preparatory Classes (Programming + Maths)"

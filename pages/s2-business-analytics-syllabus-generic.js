@@ -78,7 +78,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} brochureButton={true} DownloadSyllabus={true}/>
+        <Navbar popup={true} brochureButton={true} DownloadSyllabus={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -90,8 +90,8 @@ export default function Home() {
         </Popup>
         <HeroSection
           deskTopPara="Acquire practical skills you can apply immediately"
-          h1="Business Analytics Certification Course"
-          hSpan="For Professionals"
+          h1="Business Analytics Course"
+          hSpan="for Working Professionals"
           para="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
           sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/business+analytics.jpg"
         />
@@ -103,8 +103,9 @@ export default function Home() {
           p3="3-year"
           p33="Subscription Model"
           p4="1:1 Support"
-          p44="Dedicated Program" />
-        <ThirdSection DownloadSyllabus={true}/>
+          p44="Dedicated Program"
+        />
+        <ThirdSection DownloadSyllabus={true} />
         <FourthSection
           h1="Program Highlights"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
@@ -113,7 +114,7 @@ export default function Home() {
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
         />
         <SyllabusSection
-          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our business analytics courses feature practical training with real-time projects and case studies."
+          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our business analytics course feature practical training with real-time projects and case studies."
           Hours="200+ Hours"
           Projects="8+ projects"
           Module0="Preparatory Classes (Programming + Maths)"
@@ -125,7 +126,7 @@ export default function Home() {
         <SliderTab />
         <Testimonial />
         <SeventhSection />
-        <EightSection DownloadSyllabus={true}/>
+        <EightSection DownloadSyllabus={true} />
       </main>
     </div>
   );
