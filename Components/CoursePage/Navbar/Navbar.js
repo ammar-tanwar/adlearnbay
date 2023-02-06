@@ -14,6 +14,7 @@ const Navbar = ({
   formotpForS3DS,
   eventQRadio,
   brochureButton,
+  DownloadSyllabus,
 }) => {
   const router = useRouter();
   const [icon, setIcon] = useState(false);
@@ -49,11 +50,18 @@ const Navbar = ({
           <div className="whiteP" />
         </div>
         <div className="RightPopup">
+        {DownloadSyllabus ? (
+                <h5>Download Syllabus</h5>
+          ) : (
+            <>
           {brochureButton ? (
             <h5>Download Brochure</h5>
           ) : (
             <h5>Apply For Counselling</h5>
           )}
+                          </>
+          )}
+
           {brochureButton ? (
             <Form
               popup={true}
@@ -104,6 +112,13 @@ const Navbar = ({
           />
         </div>
         <div className={styles.right}>
+        {DownloadSyllabus ? (
+                <button onClick={popupShow} className="outLineBtn">
+                Download Syllabus
+                <FaDownload className={styles.icon} />
+              </button>
+          ) : (
+            <>
           {brochureButton ? (
             <button onClick={popupShow} className="outLineBtn">
               Download Brochure
@@ -125,6 +140,8 @@ const Navbar = ({
                 </button>
               )}
             </>
+          )}
+          </>
           )}
 
           <Popup></Popup>

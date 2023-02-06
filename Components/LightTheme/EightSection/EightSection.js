@@ -4,7 +4,7 @@ import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import { FaDownload } from "react-icons/fa";
 
-function EightSection() {
+function EightSection({DownloadSyllabus}) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -37,7 +37,11 @@ function EightSection() {
           <div className="whiteP" />
         </div>
         <div className="RightPopup">
+        {DownloadSyllabus ? (
+                <h5>Download Syllabus</h5>
+          ) : (
           <h5>Download Brochure</h5>
+          )}
           <Form popup={true} downloadBrochure setTrigger={setPopups} />
         </div>
       </Popup>
@@ -45,10 +49,17 @@ function EightSection() {
         <p>Learn industry-relevant skills and build a rewarding career</p>
       </div>
       <div>
+      {DownloadSyllabus ? (
+            <button onClick={popupShow}>
+              Download Syllabus
+              <FaDownload className={styles.icon} />
+            </button>
+          ) : (
         <button onClick={popupShow}>
           Download Brochure
           <FaDownload className={styles.icon} />
         </button>
+          )}
       </div>
     </section>
   );
