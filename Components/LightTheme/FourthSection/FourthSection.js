@@ -4,7 +4,7 @@ import Image from "next/image";
 import { FaRegIdBadge, FaRegCalendarCheck, FaLaptopCode } from "react-icons/fa";
 import { BiSelectMultiple } from "react-icons/bi";
 
-function FourthSection({ h1, img1, img2, img3, img4 }) {
+function FourthSection({ h1, img1, img2, img3, img4, fullStackCont }) {
   return (
     <div className={styles.section4}>
       <h1>{h1}</h1>
@@ -58,9 +58,15 @@ function FourthSection({ h1, img1, img2, img3, img4 }) {
           />
           <div className={styles.iconText4Borange}>
             <BiSelectMultiple className={styles.IconBoxBlue} />
+        {fullStackCont ? (
+          <p className={styles.section4P}>
+          100% Placement Support
+        </p>
+          ) : (
             <p className={styles.section4P}>
               Multiple Domain Selection Options
             </p>
+        )}
           </div>
         </div>
       </div>

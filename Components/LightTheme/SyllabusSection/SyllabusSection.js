@@ -7,7 +7,19 @@ import { RiProjector2Line } from "react-icons/ri";
 import { BiBadgeCheck } from "react-icons/bi";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
-function SyllabusSection({desc, Hours, Projects, Module0, Module1, Module2, Module3, Module4}) {
+import FormOtp from "../../FormOtp/FormOtp";
+function SyllabusSection({
+  desc,
+  Hours,
+  Projects,
+  Module0,
+  Module1,
+  Module2,
+  Module3,
+  Module4,
+  formotp,
+  fullStackCont,
+}) {
   const [popups, setPopups] = useState(false);
   const popupShow = () => {
     setPopups(true);
@@ -24,7 +36,11 @@ function SyllabusSection({desc, Hours, Projects, Module0, Module1, Module2, Modu
         </div>
         <div className="RightPopup">
           <h5>Download Brochure</h5>
-          <Form popup={true} downloadBrochure setTrigger={setPopups} />
+          {formotp ? (
+                    <FormOtp popup={true} />
+                  ) : (
+                    <Form setTrigger={setPopups} />
+                  )}
         </div>
       </Popup>
       <div className={styles.leftDiv}>
@@ -72,50 +88,85 @@ function SyllabusSection({desc, Hours, Projects, Module0, Module1, Module2, Modu
         </div>
       </div>
       <div className={styles.rightDiv}>
-        <div className={styles.rightDiv1}>
-          <div className={styles.pSpanDiv}>
-            <p className={styles.pH}>Module 0</p>
-            <div className={styles.roundLine}>
-              <div className={styles.round}></div>
-              <div className={styles.line}></div>
+        {fullStackCont ? (
+          <div className={styles.rightDiv1}>
+            <div className={styles.pSpanDiv}>
+              <p className={styles.pH}>Module 0</p>
+              <div className={styles.roundLine}>
+                <div className={styles.round}></div>
+                <div className={styles.line}></div>
+              </div>
+              <p className={styles.p}>{Module0}</p>
             </div>
-            <p className={styles.p}>
-              {Module0}
-            </p>
-          </div>
-          <div className={styles.pSpanDiv}>
-            <p className={styles.pH}>Module 1</p>
-            <div className={styles.roundLine}>
-              <div className={styles.round}></div>
-              <div className={styles.line}></div>
+            <div className={styles.pSpanDiv}>
+              <p className={styles.pH}>Module 1</p>
+              <div className={styles.roundLine}>
+                <div className={styles.round}></div>
+                <div className={styles.line}></div>
+              </div>
+              <p className={styles.p}>{Module1}</p>
             </div>
-            <p className={styles.p}>{Module1}</p>
-          </div>
-          <div className={styles.pSpanDiv}>
-            <p className={styles.pH}>Module 2</p>
-            <div className={styles.roundLine}>
-              <div className={styles.round}></div>
-              <div className={styles.line}></div>
+            <div className={styles.pSpanDiv}>
+              <p className={styles.pH}>Module 2</p>
+              <div className={styles.roundLine}>
+                <div className={styles.round}></div>
+                <div className={styles.line}></div>
+              </div>
+              <p className={styles.p}>{Module2}</p>
             </div>
-            <p className={styles.p}>{Module2}</p>
-          </div>
-          <div className={styles.pSpanDiv}>
-            <p className={styles.pH}>Module 3</p>
-            <div className={styles.roundLine}>
-              <div className={styles.round}></div>
-              <div className={styles.line}></div>
+            <div className={styles.pSpanDiv}>
+              <p className={styles.pH}>Module 3</p>
+              <div className={styles.roundLine}>
+                <div className={styles.round}></div>
+                <div className={styles.lineL}></div>
+              </div>
+              <p className={styles.p}>{Module3}</p>
             </div>
-            <p className={styles.p}>{Module3}</p>
           </div>
-          <div className={styles.pSpanDiv}>
-            <p className={styles.pH}>Module 4</p>
-            <div className={styles.roundLine}>
-              <div className={styles.round}></div>
-              <div className={styles.lineL}></div>
+        ) : (
+          <div className={styles.rightDiv1}>
+            <div className={styles.pSpanDiv}>
+              <p className={styles.pH}>Module 0</p>
+              <div className={styles.roundLine}>
+                <div className={styles.round}></div>
+                <div className={styles.line}></div>
+              </div>
+              <p className={styles.p}>{Module0}</p>
             </div>
-            <p className={styles.p}>{Module4}</p>
+            <div className={styles.pSpanDiv}>
+              <p className={styles.pH}>Module 1</p>
+              <div className={styles.roundLine}>
+                <div className={styles.round}></div>
+                <div className={styles.line}></div>
+              </div>
+              <p className={styles.p}>{Module1}</p>
+            </div>
+            <div className={styles.pSpanDiv}>
+              <p className={styles.pH}>Module 2</p>
+              <div className={styles.roundLine}>
+                <div className={styles.round}></div>
+                <div className={styles.line}></div>
+              </div>
+              <p className={styles.p}>{Module2}</p>
+            </div>
+            <div className={styles.pSpanDiv}>
+              <p className={styles.pH}>Module 3</p>
+              <div className={styles.roundLine}>
+                <div className={styles.round}></div>
+                <div className={styles.line}></div>
+              </div>
+              <p className={styles.p}>{Module3}</p>
+            </div>
+            <div className={styles.pSpanDiv}>
+              <p className={styles.pH}>Module 4</p>
+              <div className={styles.roundLine}>
+                <div className={styles.round}></div>
+                <div className={styles.lineL}></div>
+              </div>
+              <p className={styles.p}>{Module4}</p>
+            </div>
           </div>
-        </div>
+        )}
       </div>
     </section>
   );

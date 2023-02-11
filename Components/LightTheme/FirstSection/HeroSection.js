@@ -4,10 +4,11 @@ import { FaArrowRight } from "react-icons/fa";
 import Image from "next/image";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
+import FormOtp from "../../FormOtp/FormOtp";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
-function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
+function HeroSection({ h1, hSpan, para, sideImg, deskTopPara, fullStackCont, formotp }) {
   const [popups, setPopups] = useState(false);
   const [days, setDays] = useState(0);
   const [hours, setHours] = useState(0);
@@ -90,7 +91,11 @@ function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <Form popup={true} setTrigger={setPopups} />
+          {formotp ? (
+                    <FormOtp popup={true} />
+                  ) : (
+                    <Form setTrigger={setPopups} />
+                  )}
         </div>
       </Popup>
       <div className={styles.section1}>
@@ -105,6 +110,18 @@ function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
             Apply for Counselling
             <FaArrowRight className={styles.icon} />
           </button>
+          {fullStackCont ? (
+            <div className={styles.bottom}>
+            <div className={styles.leftBottom}>
+              <h5>250+ </h5>
+              <p>Hiring Partner</p>
+            </div>
+            <div className={styles.rightBottom}>
+              <h5>10k Successful</h5>
+              <p>Career Transition</p>
+            </div>
+          </div>
+          ) : (
           <div className={styles.twoBox}>
             <div className={styles.timerWrapper}>
               <p className={styles.pTimer}>Application Closed in:</p>
@@ -145,6 +162,7 @@ function HeroSection({ h1, hSpan, para, sideImg, deskTopPara }) {
               </Example>
             </div>
           </div>
+          )}
         </div>
         <div className={styles.sectionDiv}>
           <Image

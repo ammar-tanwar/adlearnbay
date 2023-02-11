@@ -63,12 +63,13 @@ const Navbar = ({
           )}
 
           {brochureButton ? (
-            <Form
-              popup={true}
-              setTrigger={setPopups}
-              downloadBrochure
-              radio={radio}
-            />
+            <>
+            {formotp ? (
+              <FormOtp popup={true} />
+            ) : (
+              <Form setTrigger={setPopups} />
+            )}
+            </>
           ) : (
             <>
               {eventQRadio ? (
