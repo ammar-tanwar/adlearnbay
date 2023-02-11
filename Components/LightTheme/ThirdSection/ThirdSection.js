@@ -3,8 +3,9 @@ import styles from "./ThirdSection.module.css";
 import { FaDownload, FaStar } from "react-icons/fa";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
+import FormOtp from "../../FormOtp/FormOtp";
 
-function ThirdSection({DownloadSyllabus}) {
+function ThirdSection({ DownloadSyllabus, fullStackCont, formotp }) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -17,18 +18,53 @@ function ThirdSection({DownloadSyllabus}) {
           <div className="whiteP" />
         </div>
         <div className="RightPopup">
-        {DownloadSyllabus ? (
-                <h5>Download Syllabus</h5>
+          {DownloadSyllabus ? (
+            <h5>Download Syllabus</h5>
           ) : (
-          <h5>Download Brochure</h5>
+            <h5>Download Brochure</h5>
           )}
-          <Form popup={true} downloadBrochure setTrigger={setPopups} />
+          {formotp ? (
+                    <FormOtp popup={true} />
+                  ) : (
+                    <Form setTrigger={setPopups} />
+                  )}
         </div>
       </Popup>
       <div className={styles.leftSide}>
         <h1>Popular courses to choose from:</h1>
       </div>
       <div className={styles.rightSide}>
+      {fullStackCont ? (
+         <>
+                 <div className={styles.rightSideP}>
+          <p>
+            <FaStar className={styles.IconBoxOrange} />
+            Full Stack Software
+            <br />
+Development Course
+          </p>
+          <p>
+            <FaStar className={styles.IconBoxBlue} />
+            Data Structure
+            <br />
+            and Algorithms Course
+          </p>
+          <p>
+            <FaStar className={styles.IconBoxBlue} />
+            Full Stack Web
+            <br />
+Development Course
+          </p>
+          <p>
+            <FaStar className={styles.IconBoxBlue} />
+            System Design 
+            <br />
+Course
+          </p>
+        </div>
+         </>
+               ) : (
+                <>
         <div className={styles.rightSideP}>
           <p>
             <FaStar className={styles.IconBoxOrange} />
@@ -47,17 +83,19 @@ function ThirdSection({DownloadSyllabus}) {
             100% Placement Assistance Data Science & AI Certification Program
           </p>
         </div>
+        </>
+      )}
         {DownloadSyllabus ? (
-            <button onClick={popupShow} className="outLineBtn">
-              Download Syllabus
-              <FaDownload className={styles.icon} />
-            </button>
-          ) : (
-        <button onClick={popupShow}>
-          Download Brochure
-          <FaDownload className={styles.icon} />
-        </button>
-          )}
+          <button onClick={popupShow} className="outLineBtn">
+            Download Syllabus
+            <FaDownload className={styles.icon} />
+          </button>
+        ) : (
+          <button onClick={popupShow}>
+            Download Brochure
+            <FaDownload className={styles.icon} />
+          </button>
+        )}
       </div>
     </div>
   );

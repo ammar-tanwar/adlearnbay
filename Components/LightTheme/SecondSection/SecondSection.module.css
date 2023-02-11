@@ -18,6 +18,10 @@
     margin: 50px 0px;
 }
 
+.DivImgM{
+    display: none;
+}
+
 .tagline {
     font-size: 26px;
     font-weight: 500;
@@ -111,5 +115,11 @@ display: none;
     
     .HeadPP {
         font-size: 18px;
+    }
+    .DivImgD{
+        display: none;
+    }
+    .DivImgM{
+        display: block;
     }
 }

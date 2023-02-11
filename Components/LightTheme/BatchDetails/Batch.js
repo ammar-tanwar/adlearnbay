@@ -1,0 +1,231 @@
+import React, { useState } from "react";
+import styles from "./Batch.module.css";
+import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
+import { BsFillCircleFill } from "react-icons/bs";
+import { BiCheck } from "react-icons/bi";
+import { MdDateRange } from "react-icons/md";
+import { AiOutlineBars } from "react-icons/ai";
+import { BiTimeFive } from "react-icons/bi";
+import Popup from "../../Popup/Popup";
+import Form from "../../Form/Form";
+import FormOtp from "../../FormOtp/FormOtp";
+
+function Batch({
+  syllabus,
+  CourseFeeHead,
+  CourseFeePara,
+  CourseFeelist1,
+  CourseFeelist2,
+  CourseFeelist3,
+  CourseFeelist4,
+  CourseFeelist5,
+  formotp,
+  eventQRadio,
+  fsdlink,
+  WebDev,
+}) {
+  const [popups, setPopups] = useState(false);
+
+  const [state, setState] = useState(syllabus);
+
+  const popupShow = () => {
+    setPopups(true);
+  };
+
+  const handleChange = (index) => {
+    setState(
+      state.map((faq, i) => {
+        if (i === index) {
+          faq.Module0.open = !faq.Module0.open;
+        } else {
+          faq.Module0.open = false;
+        }
+        return faq;
+      })
+    );
+  };
+
+  return (
+    <section className={styles.Syllabus}>
+      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+        <div className="leftPopup">
+          <div className="whiteP" />
+        </div>
+        <div className="RightPopup">
+          <h5>Apply For Counselling</h5>
+          {eventQRadio ? (
+            <>
+              <FormOtp popup={true} eventRadio={true} />
+            </>
+          ) : (
+            <>
+              {formotp ? (
+                <FormOtp popup={true} />
+              ) : (
+                <Form popup={true} setTrigger={setPopups} />
+              )}
+            </>
+          )}
+        </div>
+      </Popup>
+      <h4 style={{ marginBottom: "30px" }}>{CourseFeeHead}</h4>
+
+      <div className={styles.mobileView}>
+        <div className={styles.syllabusLeft}>
+          {state.map((syllabusData, i) => {
+            const { Module0 } = syllabusData;
+            return (
+              <div key={Module0.title}>
+                <div className={styles.QOuter}>
+                  <div className={styles.QInner}>
+                    <div className={styles.line}>
+                      <BsFillCircleFill className={styles.bIcons} />
+                    </div>
+                    <div
+                      className={styles.FaqWrapper}
+                      onClick={() => {
+                        let id = i;
+                        handleChange(id);
+                      }}
+                      key={Module0.title}
+                    >
+                      {Module0.open ? (
+                        <div className={styles.quesO}>
+                          <h2>{Module0.title}</h2>
+
+                          <span>
+                            {Module0.open ? (
+                              <AiOutlineMinus className="icon" />
+                            ) : (
+                              <AiOutlinePlus className="icon" />
+                            )}
+                          </span>
+                        </div>
+                      ) : (
+                        <div className={styles.ques}>
+                          <h2>{Module0.title}</h2>
+                          <span>
+                            {Module0.open ? (
+                              <AiOutlineMinus className="icon" />
+                            ) : (
+                              <AiOutlinePlus className="icon" />
+                            )}
+                          </span>
+                        </div>
+                      )}
+
+                      {Module0.open ? (
+                        <div className={styles.ans}>
+                          <p>{Module0.desc}</p>
+                          {Module0.content.map((content, i) => {
+                            return (
+                              <div key={content.chap.title}>
+                                <h5>{content.chap.title}</h5>
+                                {content.chap.desc.map((desc, i) => {
+                                  return (
+                                    <div key={i}>
+                                      {desc === "" ? (
+                                        ""
+                                      ) : (
+                                        <li key={desc}>{desc}</li>
+                                      )}
+                                    </div>
+                                  );
+                                })}
+                              </div>
+                            );
+                          })}
+                        </div>
+                      ) : (
+                        ""
+                      )}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+          <div className={styles.white} />
+        </div>
+      </div>
+
+      <div className={styles.desktopView}>
+        <div className={styles.CourseFee}>
+          <div className={styles.heading}>
+          </div>
+          {WebDev ? (
+            <div className={styles.BatchDetailsTop}>
+              <div>
+                <div className={styles.BatchDetails}>
+                  <p className={styles.list}>
+                    <AiOutlineBars className={styles.icon} />
+                    <b>Batch Type</b>
+                  </p>
+                  <p className={styles.list}>Weekday Morning (Mon-Fri)</p>
+                </div>
+              </div>
+              <div>
+                <div className={styles.BatchDetails}>
+                  <p className={styles.list}>
+                    <MdDateRange className={styles.icon} />
+                    <b>Date</b>
+                  </p>
+                  <p className={styles.list}>13th February 2023</p>
+                </div>
+              </div>
+              <div>
+                <div className={styles.BatchDetails}>
+                  <p className={styles.list}>
+                    <BiTimeFive className={styles.icon} />
+                    <b>Time</b>
+                  </p>
+                  <p className={styles.list}>7 AM to 9 AM</p>
+                </div>
+              </div>
+              <div className={styles.btnWrapper}>
+                <button onClick={popupShow}>Enroll Now</button>
+              </div>
+            </div>
+          ) : (
+            <div className={styles.batch}>
+              <div className={styles.BatchDetailsTop}>
+                <div>
+                  <div className={styles.BatchDetails}>
+                    <p className={styles.list}>
+                      <AiOutlineBars className={styles.icon} />
+                      <b>Batch Type</b>
+                    </p>
+                    <p className={styles.list}>Weekend Morning (Sat-Sun)</p>
+                    <p className={styles.list}>Weekday Morning (Mon-Wed-Fri)</p>
+                  </div>
+                </div>
+                <div>
+                  <div className={styles.BatchDetails}>
+                    <p className={styles.list}>
+                      <MdDateRange className={styles.icon} />
+                      <b>Date</b>
+                    </p>
+                    <p className={styles.list}>12th February 2023 (FSSD)</p>
+                    <p className={styles.list}>17th February 2023 (FSSD)</p>
+                  </div>
+                </div>
+                <div>
+                  <div className={styles.BatchDetails}>
+                    <p className={styles.list}>
+                      <BiTimeFive className={styles.icon} />
+                      <b>Time</b>
+                    </p>
+                    <p className={styles.list}>8 AM to 11 AM</p>
+                    <p className={styles.list}>07:30 AM to 09:30 AM</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default Batch;

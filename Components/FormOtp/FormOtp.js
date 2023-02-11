@@ -52,10 +52,10 @@ function FormOtp({
     const value = e.target.value;
     // console.log("name-",name)
     // console.log("value-",value)
-    if (name === 'platform') {
-      setRadioBtn(value)
+    if (name === "platform") {
+      setRadioBtn(value);
     }
-  }
+  };
 
   const handleForm = (e) => {
     const name = e.target.name;
@@ -92,6 +92,7 @@ function FormOtp({
   // -==================== FSD - Ads  END POINT ==========================--------
   if (
     router.pathname === "/fssd-s2" ||
+    router.pathname === "/fssd-s2-generic" ||
     router.pathname === "/fssd-institute-program-s2" ||
     router.pathname === "/fssd-training-s2" ||
     router.pathname === "/software-development-course-s2" ||
@@ -178,8 +179,8 @@ function FormOtp({
 
     if (radioBtn == 4 || radioBtn == 2 || radioBtn == 3) {
       setToggle(false);
-      setAlertMSG("Sorry! You are not eligible")
-      return false
+      setAlertMSG("Sorry! You are not eligible");
+      return false;
     }
 
     if (mobileNumber !== undefined && name !== "" && email !== "") {
@@ -255,17 +256,24 @@ function FormOtp({
           (router.pathname === "/fswd" && downloadBrochure) ||
           (router.pathname === "/dsa" && downloadBrochure) ||
           (router.pathname === "/fssd-s2" && downloadBrochure) ||
-          (router.pathname === "/fssd-institute-program-s2" && downloadBrochure) ||
+          (router.pathname === "/fullstack/fssd-s2-generic" &&
+            downloadBrochure) ||
+          (router.pathname === "/fssd-institute-program-s2" &&
+            downloadBrochure) ||
           (router.pathname === "/fssd-training-s2" && downloadBrochure) ||
           (router.pathname === "/software-development-course-s2" &&
             downloadBrochure) ||
           (router.pathname === "/software-programming-course-s2" &&
             downloadBrochure) ||
-            (router.pathname === "/fullstack/fssd-s2" && downloadBrochure) ||
-            (router.pathname === "/fullstack/fssd-institute-program-s2" && downloadBrochure) ||
-            (router.pathname === "/fullstack/fssd-training-s2" && downloadBrochure) ||
-            (router.pathname === "/fullstack/software-development-course-s2" && downloadBrochure) ||
-            (router.pathname === "/fullstack/software-programming-course-s2" && downloadBrochure) ||
+          (router.pathname === "/fullstack/fssd-s2" && downloadBrochure) ||
+          (router.pathname === "/fullstack/fssd-institute-program-s2" &&
+            downloadBrochure) ||
+          (router.pathname === "/fullstack/fssd-training-s2" &&
+            downloadBrochure) ||
+          (router.pathname === "/fullstack/software-development-course-s2" &&
+            downloadBrochure) ||
+          (router.pathname === "/fullstack/software-programming-course-s2" &&
+            downloadBrochure) ||
           (router.pathname === "/fssd-s4" && downloadBrochure) ||
           // (router.pathname === "/fswd-s4" && downloadBrochure) ||
           (router.pathname === "/fssd-s5" && downloadBrochure) ||
@@ -292,6 +300,7 @@ function FormOtp({
           router.pathname === "/fswd" ||
           router.pathname === "/dsa" ||
           router.pathname === "/fssd-s2" ||
+          router.pathname === "/fssd-s2-generic" ||
           router.pathname === "/fssd-institute-program-s2" ||
           router.pathname === "/fssd-training-s2" ||
           router.pathname === "/software-development-course-s2" ||
@@ -320,7 +329,8 @@ function FormOtp({
           router.pathname === "/data-structure-algorithm" ||
           router.pathname === "/system-design" ||
           router.pathname === "/data-structure-algorithm-s2" ||
-          router.pathname === "/best-course-for-data-structures-and-algorithms-s2" ||
+          router.pathname ===
+            "/best-course-for-data-structures-and-algorithms-s2" ||
           router.pathname === "/data-structure-course-s2" ||
           router.pathname === "/data-structures-algorithms-syllabus-s2" ||
           router.pathname === "/data-structures-and-algorithms-course-s2" ||
@@ -355,8 +365,8 @@ function FormOtp({
 
     if (radioBtn == 5 || radioBtn == 3) {
       setToggle(false);
-      setAlertMSG("Sorry! You are not eligible")
-      return false
+      setAlertMSG("Sorry! You are not eligible");
+      return false;
     }
     const data = fetch(`${"/api/Authentication/matchOtp"}`, {
       method: "POST",
@@ -375,8 +385,6 @@ function FormOtp({
           setSendOtpBtnHide(false);
           setBtnHide(false);
 
-
-
           fetch(`${endPoint}`, {
             method: "POST",
             body: formData,
@@ -393,15 +401,24 @@ function FormOtp({
             (router.pathname === "/fswd" && downloadBrochure) ||
             (router.pathname === "/dsa" && downloadBrochure) ||
             (router.pathname === "/fssd-s2" && downloadBrochure) ||
-            (router.pathname === "/fssd-institute-program-s2" && downloadBrochure) ||
+            (router.pathname === "/fullstack/fssd-s2-generic" &&
+              downloadBrochure) ||
+            (router.pathname === "/fssd-institute-program-s2" &&
+              downloadBrochure) ||
             (router.pathname === "/fssd-training-s2" && downloadBrochure) ||
-            (router.pathname === "/software-development-course-s2" && downloadBrochure) ||
-            (router.pathname === "/software-programming-course-s2" && downloadBrochure) ||
+            (router.pathname === "/software-development-course-s2" &&
+              downloadBrochure) ||
+            (router.pathname === "/software-programming-course-s2" &&
+              downloadBrochure) ||
             (router.pathname === "/fullstack/fssd-s2" && downloadBrochure) ||
-            (router.pathname === "/fullstack/fssd-institute-program-s2" && downloadBrochure) ||
-            (router.pathname === "/fullstack/fssd-training-s2" && downloadBrochure) ||
-            (router.pathname === "/fullstack/software-development-course-s2" && downloadBrochure) ||
-            (router.pathname === "/fullstack/software-programming-course-s2" && downloadBrochure) ||
+            (router.pathname === "/fullstack/fssd-institute-program-s2" &&
+              downloadBrochure) ||
+            (router.pathname === "/fullstack/fssd-training-s2" &&
+              downloadBrochure) ||
+            (router.pathname === "/fullstack/software-development-course-s2" &&
+              downloadBrochure) ||
+            (router.pathname === "/fullstack/software-programming-course-s2" &&
+              downloadBrochure) ||
             (router.pathname === "/fssd-s4" && downloadBrochure) ||
             // (router.pathname === "/fswd-s4" && downloadBrochure) ||
             (router.pathname === "/fssd-s5" && downloadBrochure) ||
@@ -411,10 +428,15 @@ function FormOtp({
             (router.pathname === "/dsa-s4" && downloadBrochure) ||
             (router.pathname === "/dsa-s5" && downloadBrochure) ||
             (router.pathname === "/fswd-s2" && downloadBrochure) ||
-            (router.pathname === "/best-course-for-data-structures-and-algorithms-s2" && downloadBrochure) ||
-            (router.pathname === "/data-structure-course-s2"  && downloadBrochure) ||
-            (router.pathname === "/data-structures-algorithms-syllabus-s2"  && downloadBrochure) ||
-            (router.pathname === "/data-structures-and-algorithms-course-s2"  && downloadBrochure) ||
+            (router.pathname ===
+              "/best-course-for-data-structures-and-algorithms-s2" &&
+              downloadBrochure) ||
+            (router.pathname === "/data-structure-course-s2" &&
+              downloadBrochure) ||
+            (router.pathname === "/data-structures-algorithms-syllabus-s2" &&
+              downloadBrochure) ||
+            (router.pathname === "/data-structures-and-algorithms-course-s2" &&
+              downloadBrochure) ||
             (router.pathname === "/full-stack-software-development-program" &&
               downloadBrochure) ||
             (router.pathname === "/apply-for-counselling" &&
@@ -433,6 +455,7 @@ function FormOtp({
             router.pathname === "/fswd" ||
             router.pathname === "/dsa" ||
             router.pathname === "/fssd-s2" ||
+            router.pathname === "/fullstack/fssd-s2-generic" ||
             router.pathname === "/fssd-institute-program-s2" ||
             router.pathname === "/fssd-training-s2" ||
             router.pathname === "/software-development-course-s2" ||
@@ -459,7 +482,8 @@ function FormOtp({
             router.pathname === "/apply-for-counselling-fsd-s2" ||
             router.pathname === "/s3-data-science" ||
             router.pathname === "/data-structure-algorithm-s2" ||
-            router.pathname === "/best-course-for-data-structures-and-algorithms-s2" ||
+            router.pathname ===
+              "/best-course-for-data-structures-and-algorithms-s2" ||
             router.pathname === "/data-structure-course-s2" ||
             router.pathname === "/data-structures-algorithms-syllabus-s2" ||
             router.pathname === "/data-structures-and-algorithms-course-s2" ||
@@ -562,14 +586,20 @@ function FormOtp({
                 <option value="" selected="selected" disabled="disabled">
                   -- select one --
                 </option>
-                <option value="Banking and Finance (BFSI)">Banking and Finance (BFSI)</option>
+                <option value="Banking and Finance (BFSI)">
+                  Banking and Finance (BFSI)
+                </option>
                 <option value="Marketing and Sales">Marketing and Sales</option>
                 <option value="Healthcare">Healthcare</option>
-                <option value="Retail and E-Commerce">Retail and E-Commerce</option>
+                <option value="Retail and E-Commerce">
+                  Retail and E-Commerce
+                </option>
                 <option value="Manufacturing">Manufacturing</option>
                 <option value="Energy, Oil and Gas">Energy, Oil and Gas</option>
                 <option value="Human Resources">Human Resources</option>
-                <option value="IT/Software Development">IT/Software Development</option>
+                <option value="IT/Software Development">
+                  IT/Software Development
+                </option>
                 <option value="Other">Other</option>
               </datalist>
             </div>
@@ -676,17 +706,17 @@ function FormOtp({
               style={
                 popup
                   ? {
-                    height: "50px",
-                    borderRadius: "8px",
-                    border: "1px solid grey",
-                    padding: "10px",
-                  }
+                      height: "50px",
+                      borderRadius: "8px",
+                      border: "1px solid grey",
+                      padding: "10px",
+                    }
                   : {
-                    border: "0",
-                    height: "50px",
-                    borderRadius: "3px",
-                    borderBottom: "1px solid grey",
-                  }
+                      border: "0",
+                      height: "50px",
+                      borderRadius: "3px",
+                      borderBottom: "1px solid grey",
+                    }
               }
               name="phone"
               rules={{ required: true }}
@@ -706,21 +736,21 @@ function FormOtp({
                 style={
                   popup
                     ? {
-                      height: "50px",
-                      borderRadius: "8px",
-                      border: "1px solid grey",
-                      padding: "10px",
-                      marginBottom: "0px",
-                      width: "100%",
-                    }
+                        height: "50px",
+                        borderRadius: "8px",
+                        border: "1px solid grey",
+                        padding: "10px",
+                        marginBottom: "0px",
+                        width: "100%",
+                      }
                     : {
-                      border: "0",
-                      height: "50px",
-                      borderRadius: "3px",
-                      width: "100%",
-                      marginBottom: "0px",
-                      borderBottom: "1px solid grey",
-                    }
+                        border: "0",
+                        height: "50px",
+                        borderRadius: "3px",
+                        width: "100%",
+                        marginBottom: "0px",
+                        borderBottom: "1px solid grey",
+                      }
                 }
                 className={popup ? styles.Phones : styles.Phone}
                 type="text"

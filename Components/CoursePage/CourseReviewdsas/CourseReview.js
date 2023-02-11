@@ -289,7 +289,7 @@ const CourseReview = ({fsdlink, formotp, eventQRadio}) => {
                       excellent training methodology helps to
                       learn quickly. Their mock interviews with
                       referrals to product based companies
-                      gave a good boost to my career
+                      gave a good boost to my career.
 
                       <br />
                     </p>
