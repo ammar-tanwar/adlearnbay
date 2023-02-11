@@ -171,7 +171,7 @@
 
   .pSpanDiv {
     display: grid;
-    grid-template-columns: 25% 2% 68%;
+    grid-template-columns: 25% 2% 61%;
     gap: 20px;
     padding-bottom: 30px;
     align-items: center;

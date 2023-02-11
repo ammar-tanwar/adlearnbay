@@ -211,7 +211,7 @@
   }
   .courses {
     padding: 0px;
-    display: flex;
+    display: block;
     box-shadow: none;
   }
   .gridPanel {
