@@ -264,10 +264,11 @@
   }
   .bottom {
     height: 100%;
-    padding: 20px 0px 0px 10px;
+    padding: 10px 0px 0px 10px;
     display: flex;
     flex-flow: row;
-    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-top: 0px;
     gap: 20px;  
     border-radius: 20px;
   }
