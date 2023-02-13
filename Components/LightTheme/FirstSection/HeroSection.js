@@ -8,7 +8,15 @@ import FormOtp from "../../FormOtp/FormOtp";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
-function HeroSection({ h1, hSpan, para, sideImg, deskTopPara, fullStackCont, formotp }) {
+function HeroSection({
+  h1,
+  hSpan,
+  para,
+  sideImg,
+  deskTopPara,
+  fullStackCont,
+  formotp,
+}) {
   const [popups, setPopups] = useState(false);
   const [days, setDays] = useState(0);
   const [hours, setHours] = useState(0);
@@ -91,11 +99,7 @@ function HeroSection({ h1, hSpan, para, sideImg, deskTopPara, fullStackCont, for
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          {formotp ? (
-                    <FormOtp popup={true} />
-                  ) : (
-                    <Form setTrigger={setPopups} />
-                  )}
+          {formotp ? <FormOtp popup={true} /> : <Form setTrigger={setPopups} />}
         </div>
       </Popup>
       <div className={styles.section1}>
@@ -112,56 +116,56 @@ function HeroSection({ h1, hSpan, para, sideImg, deskTopPara, fullStackCont, for
           </button>
           {fullStackCont ? (
             <div className={styles.bottom}>
-            <div className={styles.leftBottom}>
-              <h5>250+ </h5>
-              <p>Hiring Partner</p>
-            </div>
-            <div className={styles.rightBottom}>
-              <h5>10k Successful</h5>
-              <p>Career Transition</p>
-            </div>
-          </div>
-          ) : (
-          <div className={styles.twoBox}>
-            <div className={styles.timerWrapper}>
-              <p className={styles.pTimer}>Application Closed in:</p>
-              <div className={styles.timerInner}>
-                <div className={styles.timerSegment}>
-                  <span className={styles.time}>{days}</span>
-                  <span className={styles.label}>Days</span>
-                </div>
-                <span className={styles.divider}>:</span>
-                <div className={styles.timerSegment}>
-                  <span className={styles.time}>{hours}</span>
-                  <span className={styles.label}>Hours</span>
-                </div>
-                <span className={styles.divider}>:</span>
-                <div className={styles.timerSegment}>
-                  <span className={styles.time}>{minutes}</span>
-                  <span className={styles.label}>Minutes</span>
-                </div>
-                <span className={styles.divider}>:</span>
-                <div className={styles.timerSegment}>
-                  <span className={styles.time}>{seconds}</span>
-                  <span className={styles.label}>Seconds</span>
-                </div>
+              <div className={styles.leftBottom}>
+                <h5>250+ </h5>
+                <p>Hiring Partner</p>
+              </div>
+              <div className={styles.rightBottom}>
+                <h5>10k Successful</h5>
+                <p>Career Transition</p>
               </div>
             </div>
-            <div>
-              <Example label="Default">
-                <CircularProgressbar
-                  value={circleValue}
-                  text={`${circleValue}%`}
-                  styles={buildStyles({
-                    textColor: "black",
-                    pathColor: "#0072BC",
-                    trailColor: "white",
-                    textSize: "26px",
-                  })}
-                />
-              </Example>
+          ) : (
+            <div className={styles.twoBox}>
+              <div className={styles.timerWrapper}>
+                <p className={styles.pTimer}>Application Closed in:</p>
+                <div className={styles.timerInner}>
+                  <div className={styles.timerSegment}>
+                    <span className={styles.time}>{days}</span>
+                    <span className={styles.label}>Days</span>
+                  </div>
+                  <span className={styles.divider}>:</span>
+                  <div className={styles.timerSegment}>
+                    <span className={styles.time}>{hours}</span>
+                    <span className={styles.label}>Hours</span>
+                  </div>
+                  <span className={styles.divider}>:</span>
+                  <div className={styles.timerSegment}>
+                    <span className={styles.time}>{minutes}</span>
+                    <span className={styles.label}>Minutes</span>
+                  </div>
+                  <span className={styles.divider}>:</span>
+                  <div className={styles.timerSegment}>
+                    <span className={styles.time}>{seconds}</span>
+                    <span className={styles.label}>Seconds</span>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <Example label="Default">
+                  <CircularProgressbar
+                    value={circleValue}
+                    text={`${circleValue}%`}
+                    styles={buildStyles({
+                      textColor: "black",
+                      pathColor: "#0072BC",
+                      trailColor: "white",
+                      textSize: "26px",
+                    })}
+                  />
+                </Example>
+              </div>
             </div>
-          </div>
           )}
         </div>
         <div className={styles.sectionDiv}>

@@ -146,6 +146,7 @@ const Form = ({
     //  BANGALORE
 
     router.pathname === "/bangalore/s2-data-science" ||
+    router.pathname === "/bangalore/s2-data-science-generic" ||
     router.pathname === "/bangalore/s2-machine-learning" ||
     router.pathname === "/bangalore/s2-artificial-intelligence" ||
     router.pathname === "/bangalore/s2-data-analytics" ||
@@ -802,6 +803,7 @@ const Form = ({
       //  BANGALORE
 
       router.pathname === "/bangalore/s2-data-science" ||
+      router.pathname === "/bangalore/s2-data-science-generic" ||
       router.pathname === "/bangalore/s2-machine-learning" ||
       router.pathname === "/bangalore/s2-artificial-intelligence" ||
       router.pathname === "/bangalore/s2-data-analytics" ||
