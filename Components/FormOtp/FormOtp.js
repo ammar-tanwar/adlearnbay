@@ -98,6 +98,7 @@ function FormOtp({
     router.pathname === "/software-development-course-s2" ||
     router.pathname === "/software-programming-course-s2" ||
     router.pathname === "/fullstack/fssd-s2" ||
+    router.pathname === "/fullstack/fssd-s2-generic" ||
     router.pathname === "/fullstack/fssd-institute-program-s2" ||
     router.pathname === "/fullstack/fssd-training-s2" ||
     router.pathname === "/fullstack/software-development-course-s2" ||
@@ -256,6 +257,7 @@ function FormOtp({
           (router.pathname === "/fswd" && downloadBrochure) ||
           (router.pathname === "/dsa" && downloadBrochure) ||
           (router.pathname === "/fssd-s2" && downloadBrochure) ||
+          (router.pathname === "/fssd-s2-generic" && downloadBrochure) ||
           (router.pathname === "/fullstack/fssd-s2-generic" &&
             downloadBrochure) ||
           (router.pathname === "/fssd-institute-program-s2" &&
@@ -301,6 +303,7 @@ function FormOtp({
           router.pathname === "/dsa" ||
           router.pathname === "/fssd-s2" ||
           router.pathname === "/fssd-s2-generic" ||
+          router.pathname === "/fullstack/fssd-s2-generic" ||
           router.pathname === "/fssd-institute-program-s2" ||
           router.pathname === "/fssd-training-s2" ||
           router.pathname === "/software-development-course-s2" ||
@@ -401,6 +404,7 @@ function FormOtp({
             (router.pathname === "/fswd" && downloadBrochure) ||
             (router.pathname === "/dsa" && downloadBrochure) ||
             (router.pathname === "/fssd-s2" && downloadBrochure) ||
+            (router.pathname === "/fssd-s2-generic" && downloadBrochure) ||
             (router.pathname === "/fullstack/fssd-s2-generic" &&
               downloadBrochure) ||
             (router.pathname === "/fssd-institute-program-s2" &&
@@ -455,6 +459,7 @@ function FormOtp({
             router.pathname === "/fswd" ||
             router.pathname === "/dsa" ||
             router.pathname === "/fssd-s2" ||
+            router.pathname === "/fssd-s2-generic" ||
             router.pathname === "/fullstack/fssd-s2-generic" ||
             router.pathname === "/fssd-institute-program-s2" ||
             router.pathname === "/fssd-training-s2" ||

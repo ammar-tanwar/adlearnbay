@@ -13,8 +13,8 @@ function SecondSection({ p1, p2, p3, p4, p11, p22, p33, p44, fullStackCont }) {
          <div className={styles.DivImgD}>
            <Image
              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/fssd-strip.jpeg"
-             width="230"
-             height="60"
+             width="1200"
+             height="100"
              layout="intrinsic"
              loading="lazy"
            />
@@ -22,8 +22,8 @@ function SecondSection({ p1, p2, p3, p4, p11, p22, p33, p44, fullStackCont }) {
          <div className={styles.DivImgM}>
            <Image
              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/fssd-strip-mobile.jpeg"
-             width="230"
-             height="60"
+             width="350"
+             height="150"
              layout="intrinsic"
              loading="lazy"
            />

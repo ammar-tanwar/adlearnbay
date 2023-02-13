@@ -1,21 +1,21 @@
 import Head from "next/head";
-import styles from "../../styles/Home.module.css";
-import FirstSection from "../../Components/CoursePage/HeroSection/HeroSection";
-import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
-import BoxShape from "../../Components/CoursePage/Boxshapefssds/BoxShape";
-import Popup from "../../Components/Popup/Popup";
-import Navbar from "../../Components/CoursePage/Navbar/Navbar";
-import Form from "../../Components/Form/Form";
-import Project from "../../Components/CoursePage/Projectfswd/Project";
-import { ProgramFee } from "../../Components/CoursePage/ProgramFee/ProgramFee";
-import { FullStackSoftwareCourseData } from "../../Data/FullStackSoftware";
-import SyllabusNew from "../../Components/CoursePage/SyllabusNew/SyllabusNew";
-import CourseReview from "../../Components/CoursePage/CourseReviewdsas/CourseReview";
-import LearnSupport from "../../Components/CoursePage/LearnSupport/LearnSupportfsd";
-import Footer from "../../Components/CoursePage/Footer/Footerfsd";
-import BoxShape1 from "../../Components/CoursePage/BoxshapeFssd/BoxShape";
+import styles from "../styles/Home.module.css";
+import FirstSection from "../Components/CoursePage/HeroSection/HeroSection";
+import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
+import BoxShape from "../Components/CoursePage/Boxshapefssds/BoxShape";
+import Popup from "../Components/Popup/Popup";
+import Navbar from "../Components/CoursePage/Navbar/Navbar";
+import Form from "../Components/Form/Form";
+import Project from "../Components/CoursePage/Projectfswd/Project";
+import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
+import { FullStackSoftwareCourseData } from "../Data/FullStackSoftware";
+import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
+import CourseReview from "../Components/CoursePage/CourseReviewdsas/CourseReview";
+import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupportfsd";
+import Footer from "../Components/CoursePage/Footer/Footerfsd";
+import BoxShape1 from "../Components/CoursePage/BoxshapeFssd/BoxShape";
 import React, { useState } from "react";
-import Batch from "../../Components/CoursePage/BatchDetails/Batch";
+import Batch from "../Components/CoursePage/BatchDetails/Batch";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
