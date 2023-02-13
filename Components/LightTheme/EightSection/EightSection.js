@@ -2,9 +2,10 @@ import React, { useState, useEffect } from "react";
 import styles from "./EightSection.module.css";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
+import FormOtp from "../../FormOtp/FormOtp";
 import { FaDownload } from "react-icons/fa";
 
-function EightSection({DownloadSyllabus}) {
+function EightSection({DownloadSyllabus, formotp}) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -42,7 +43,11 @@ function EightSection({DownloadSyllabus}) {
           ) : (
           <h5>Download Brochure</h5>
           )}
-          <Form popup={true} downloadBrochure setTrigger={setPopups} />
+          {formotp ? (
+                    <FormOtp popup={true} downloadBrochure setTrigger={setPopups} />
+                  ) : (
+                    <Form popup={true} downloadBrochure setTrigger={setPopups} />
+                  )}
         </div>
       </Popup>
       <div>

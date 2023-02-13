@@ -1578,16 +1578,6 @@ Group Discount is applicable only if you’re joining with your friends.
 Max 10% discount: Groupe of 4+`,
     open: false,
   },
-  // {
-  //   id: 3,
-  //   ques: "What is the refund policy for the Full-stack Web Development course?",
-  //   ans: "Candidates are advised to read  ",
-  //   linkText1: "Learnbay’s Refund/Cancellation Policy",
-  //   link1: "/refund-cancellation-policy",
-  //   ansAfter: " before enrolling in the program.",
-  //   link: true,
-  //   open: false,
-  // },
 ];
 export const CapstoneFaqData8 = [
   {
@@ -1612,7 +1602,7 @@ export const CapstoneFaqData8 = [
     open: false,
   },
 ];
-//Check for certification FAQ i have added
+
 export const CertificationFaqData9 = [
   {
     id: 0,
@@ -1798,9 +1788,9 @@ export const PaymentFaqData9 = [
   {
     id: 1,
     ques: "Can I pay in installments for the course fees?",
-    ans: "Yes, you can use a credit card to pay the installments with a no-fee EMI option for INR ₹10,816/month up to 12 months. By presenting an AAadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan also.",
-    linkText1: " +917795687988 ",
-    link1: "tel:+917795687988",
+    ans: "Yes, you can use a credit card to pay the installments with a no-fee EMI option for INR ₹10,816/month up to 12 months. By presenting an AAadhar card, Pan card, and the latest three months salary slip, you can also avail of an interest-free loan also.",
+    linkText1: " +919731135221 ",
+    link1: "tel:+919731135221",
     link: true,
     open: false,
   },
@@ -1816,26 +1806,12 @@ export const PaymentFaqData9 = [
     Max 10% discount: Groupe of 4+`,
     open: false,
   },
-  {
-    id: 3,
-    ques: "What is the refund policy for this Software Development Program at Learnbay?",
-    ans: "Candidates are advised to read  ",
-    linkText1: "Learnbay’s Refund/Cancellation Policy",
-    link1: "/refund-cancellation-policy",
-    ansAfter: " before enrolling in the program.",
-    link: true,
-    open: false,
-  },
 ];
 export const CapstoneFaqData9 = [
   {
     id: 0,
     ques: "How many real-time projects will be there?",
     ans: "We have a set of 12 real-time projects from multiple domains.",
-    linkText1: " Click here to download the list of the projects.",
-    link1:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
-    link: true,
     open: true,
   },
   {
@@ -1851,7 +1827,7 @@ export const CapstoneFaqData9 = [
     open: false,
   },
 ];
-//Check for certification FAQ
+
 export const jobFaqData9 = [
   {
     id: 0,
@@ -1896,7 +1872,6 @@ export const MentorshipFaqData9 = [
   {
     id: 0,
     ques: "Until when will the students get the facility of mentorship?  ",
-
     ans: "Our Mentors will provide advanced software development training and career insights/guidance to the students until the completion of the course depending on the specialization. Post completion, students can reach out to specialized mentors for project and placement purposes.",
     open: true,
   },

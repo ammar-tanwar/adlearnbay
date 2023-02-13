@@ -37,10 +37,10 @@ function SyllabusSection({
         <div className="RightPopup">
           <h5>Download Brochure</h5>
           {formotp ? (
-                    <FormOtp popup={true} />
+                    <FormOtp popup={true}/>
                   ) : (
                     <Form setTrigger={setPopups} />
-                  )}
+                  )} 
         </div>
       </Popup>
       <div className={styles.leftDiv}>
@@ -91,7 +91,7 @@ function SyllabusSection({
         {fullStackCont ? (
           <div className={styles.rightDiv1}>
             <div className={styles.pSpanDiv}>
-              <p className={styles.pH}>Module 0</p>
+              <p className={styles.pH}>Term 0</p>
               <div className={styles.roundLine}>
                 <div className={styles.round}></div>
                 <div className={styles.line}></div>
@@ -99,7 +99,7 @@ function SyllabusSection({
               <p className={styles.p}>{Module0}</p>
             </div>
             <div className={styles.pSpanDiv}>
-              <p className={styles.pH}>Module 1</p>
+              <p className={styles.pH}>Term 1</p>
               <div className={styles.roundLine}>
                 <div className={styles.round}></div>
                 <div className={styles.line}></div>
@@ -107,7 +107,7 @@ function SyllabusSection({
               <p className={styles.p}>{Module1}</p>
             </div>
             <div className={styles.pSpanDiv}>
-              <p className={styles.pH}>Module 2</p>
+              <p className={styles.pH}>Term 2</p>
               <div className={styles.roundLine}>
                 <div className={styles.round}></div>
                 <div className={styles.line}></div>
@@ -115,7 +115,7 @@ function SyllabusSection({
               <p className={styles.p}>{Module2}</p>
             </div>
             <div className={styles.pSpanDiv}>
-              <p className={styles.pH}>Module 3</p>
+              <p className={styles.pH}>Term 3</p>
               <div className={styles.roundLine}>
                 <div className={styles.round}></div>
                 <div className={styles.lineL}></div>
