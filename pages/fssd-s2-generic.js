@@ -166,7 +166,7 @@ export default function Home() {
           CourseFeeAndFinancing={
             FullStackSoftwareCourseData[0].ProgramFee.CourseFeeAndFinancing
           }
-          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
+          para="We are dedicated to making our Full Stack Software Development Course accessible.  We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
           dataScience={true}
         />
         <div className={styles.ProjectWrapper} id="project">

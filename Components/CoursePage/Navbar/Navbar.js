@@ -65,9 +65,9 @@ const Navbar = ({
           {brochureButton ? (
             <>
             {formotp ? (
-              <FormOtp popup={true} />
+              <FormOtp popup={true} downloadBrochure/>
             ) : (
-              <Form setTrigger={setPopups} />
+              <Form setTrigger={setPopups} downloadBrochure/>
             )}
             </>
           ) : (

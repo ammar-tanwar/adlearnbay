@@ -55,12 +55,12 @@ function EightSection({DownloadSyllabus, formotp}) {
       </div>
       <div>
       {DownloadSyllabus ? (
-            <button onClick={popupShow}>
+            <button onClick={popupShow} className={styles.buttonDiv}>
               Download Syllabus
               <FaDownload className={styles.icon} />
             </button>
           ) : (
-        <button onClick={popupShow}>
+        <button onClick={popupShow} className={styles.buttonDiv}>
           Download Brochure
           <FaDownload className={styles.icon} />
         </button>

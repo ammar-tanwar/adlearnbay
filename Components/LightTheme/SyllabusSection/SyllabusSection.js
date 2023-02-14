@@ -30,16 +30,16 @@ function SyllabusSection({
   }
   return (
     <section className={styles.Syllabus}>
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+      <Popup trigger={popups} setTrigger={setPopups} className="popupModal" downloadBrochure>
         <div className="leftPopup">
           <div className="whiteP" />
         </div>
         <div className="RightPopup">
           <h5>Download Brochure</h5>
           {formotp ? (
-                    <FormOtp popup={true}/>
+                    <FormOtp popup={true} downloadBrochure/>
                   ) : (
-                    <Form setTrigger={setPopups} />
+                    <Form setTrigger={setPopups} downloadBrochure/>
                   )} 
         </div>
       </Popup>
