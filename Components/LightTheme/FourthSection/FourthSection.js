@@ -32,8 +32,12 @@ function FourthSection({ h1, img1, img2, img3, img4, fullStackCont }) {
           />
           <div className={styles.iconText4Bblue}>
             <FaLaptopCode className={styles.IconBoxOrange} />
-            <p className={styles.section4P}>Online Interactive Classes</p>
-          </div>
+            {fullStackCont ? (
+            <p className={styles.section4P}>Live Interactive Classes</p>
+            ) : (
+        <p className={styles.section4P}>Online Interactive Classes</p>
+        )}
+        </div>
         </div>
         <div className={styles.boxSection4Blue}>
           <Image
@@ -45,7 +49,7 @@ function FourthSection({ h1, img1, img2, img3, img4, fullStackCont }) {
           />
           <div className={styles.iconText4Bblue}>
             <FaRegIdBadge className={styles.IconBoxOrange} />
-            <p className={styles.section4P}>Extra Doubt Clearing Sessions</p>
+            <p className={styles.section4P}>1:1 Doubt Clearing Sessions</p>
           </div>
         </div>
         <div className={styles.boxSection4Orange}>

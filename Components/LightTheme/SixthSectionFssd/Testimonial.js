@@ -39,9 +39,9 @@ function Testimonial({formotp}) {
           <div className="RightPopup">
             <h5>Download Brochure</h5>
             {formotp ? (
-                    <FormOtp popup={true} />
+                    <FormOtp popup={true} downloadBrochure/>
                   ) : (
-                    <Form setTrigger={setPopups} />
+                    <Form setTrigger={setPopups} downloadBrochure/>
                   )}
           </div>
         </Popup>

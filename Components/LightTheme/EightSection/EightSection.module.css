@@ -10,7 +10,7 @@
     align-items: center;
 }
 
-.EightSection button {
+.EightSection .buttonDiv {
     margin: auto;
     padding: 12px 25px;
     font-size: 22px;
@@ -22,7 +22,7 @@
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
 }
 
-.EightSection button:hover {
+.EightSection .buttonDiv:hover {
     background: #EDBB52;
     color: #fff;
 }

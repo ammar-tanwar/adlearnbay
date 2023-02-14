@@ -1,21 +1,21 @@
 import Head from "next/head";
-import styles from "../../styles/Home.module.css";
-import FirstSection from "../../Components/CoursePage/HeroSection/HeroSection";
-import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
-import BoxShape from "../../Components/CoursePage/Boxshapefssds/BoxShape";
-import Popup from "../../Components/Popup/Popup";
-import Navbar from "../../Components/CoursePage/Navbar/Navbar";
-import Form from "../../Components/Form/Form";
-import Project from "../../Components/CoursePage/Projectfswd/Project";
-import { ProgramFee } from "../../Components/CoursePage/ProgramFee/ProgramFee";
-import { FullStackSoftwareCourseData } from "../../Data/FullStackSoftware";
-import SyllabusNew from "../../Components/CoursePage/SyllabusNew/SyllabusNew";
-import CourseReview from "../../Components/CoursePage/CourseReviewdsas/CourseReview";
-import LearnSupport from "../../Components/CoursePage/LearnSupport/LearnSupportfsd";
-import Footer from "../../Components/CoursePage/Footer/Footerfsd";
-import BoxShape1 from "../../Components/CoursePage/BoxshapeFssd/BoxShape";
+import styles from "../styles/Home.module.css";
+import FirstSection from "../Components/CoursePage/HeroSection/HeroSection";
+import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
+import BoxShape from "../Components/CoursePage/Boxshapefssds/BoxShape";
+import Popup from "../Components/Popup/Popup";
+import Navbar from "../Components/CoursePage/Navbar/Navbar";
+import Form from "../Components/Form/Form";
+import Project from "../Components/CoursePage/Projectfswd/Project";
+import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
+import { FullStackSoftwareCourseData } from "../Data/FullStackSoftware";
+import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
+import CourseReview from "../Components/CoursePage/CourseReviewdsas/CourseReview";
+import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupportfsd";
+import Footer from "../Components/CoursePage/Footer/Footerfsd";
+import BoxShape1 from "../Components/CoursePage/BoxshapeFssd/BoxShape";
 import React, { useState } from "react";
-import Batch from "../../Components/CoursePage/BatchDetails/Batch";
+import Batch from "../Components/CoursePage/BatchDetails/Batch";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -26,18 +26,18 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Full Stack Software Development Course</title>
+        <title>Full Stack Software Development Program</title>
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
         <meta
           name="description"
-          content="Learn Full Stack Software Development Course. Get a chance to work with Maang Companies and participate in live, interactive online sessions led by tech experts to gain real-time project experience."
+          content="Learn Full Stack Software Development. Get a chance to work with Maang Companies and participate in live, interactive online sessions led by tech experts to gain real-time project experience."
         />
         <meta
           name="Keywords"
-          content="Full Stack Software Development Course,Best Full Stack Software Development Course, Online Full Stack Software Development Course, Learn Full Stack Software development Course"
+          content="Full Stack Software Development program, Full Stack Software Development Institute, Software Development program, Software Development Institute, Online Full Stack Software Development Institute, Online Full Stack Software Development program, Best Full Stack Software Development program, Best Full Stack Software Development Institute"
         />
         <script
           dangerouslySetInnerHTML={{
@@ -93,12 +93,12 @@ export default function Home() {
           formotp={true}
           deskTopPara={FullStackSoftwareCourseData[0].FirstSection.deskTopPara}
           mTopPara={FullStackSoftwareCourseData[0].FirstSection.mTopPara}
-          mTitle="Full Stack Software Development Course"
+          mTitle="Full Stack Software Development Program"
           spanMTitleText={
             FullStackSoftwareCourseData[0].FirstSection.spanMTitleText
           }
           title={FullStackSoftwareCourseData[0].FirstSection.title}
-          spanTitleText=" Development Course "
+          spanTitleText="Development Program"
           desc={FullStackSoftwareCourseData[0].FirstSection.desc}
           src={FullStackSoftwareCourseData[0].FirstSection.src}
           width={FullStackSoftwareCourseData[0].FirstSection.width}
@@ -120,7 +120,7 @@ export default function Home() {
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Full Stack Software Development Course Features"
+            title="Full Stack Software Development Institute Features"
             Box1h5={FullStackSoftwareCourseData[0].BoxShape.Box1h5}
             box1desc={FullStackSoftwareCourseData[0].BoxShape.box1desc}
             Box2h5={FullStackSoftwareCourseData[0].BoxShape.Box2h5}
@@ -129,7 +129,7 @@ export default function Home() {
             box3desc={FullStackSoftwareCourseData[0].BoxShape.box3desc}
             Box4h5={FullStackSoftwareCourseData[0].BoxShape.Box4h5}
             box4desc={FullStackSoftwareCourseData[0].BoxShape.box4desc}
-            headh5="Alumni's Successful Career Switch with our Full Stack Software Development Course"
+            headh5="Our Alumni's Successful Career Switch with Full Stack Software Development Program"
           />
         </div>
         <div className={styles.Feature} id="Feature">
@@ -152,8 +152,8 @@ export default function Home() {
           syllabus={FullStackSoftwareCourseData[0].syllabus}
           syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
           popupHead={FullStackSoftwareCourseData[0].popupHead}
-          CSyllabus={FullStackSoftwareCourseData[0].CSyllabus}
-          CourseHighlights={FullStackSoftwareCourseData[0].CourseHighlights}
+          CSyllabus="Full Stack Software Development Program Syllabus"
+          CourseHighlights="Software Development Institute Highlights"
           srcD={FullStackSoftwareCourseData[0].srcD}
           hours={FullStackSoftwareCourseData[0].hours}
           project={FullStackSoftwareCourseData[0].project}
@@ -163,10 +163,9 @@ export default function Home() {
           Fee={FullStackSoftwareCourseData[0].ProgramFee.Fee}
           Emi={FullStackSoftwareCourseData[0].ProgramFee.Emi}
           formotp={true}
-          CourseFeeAndFinancing={
-            FullStackSoftwareCourseData[0].ProgramFee.CourseFeeAndFinancing
-          }
-          para="We are dedicated to making our Full Stack Software Development Course accessible.  We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
+          CourseFeeAndFinancing="Full Stack Software Development Program Fee & Financing
+          "
+          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this Training and offer a variety of financing options to make it more economical."
           dataScience={true}
         />
         <div className={styles.ProjectWrapper} id="project">
@@ -180,7 +179,7 @@ export default function Home() {
           formotp={true}
           syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
           syllabus={FullStackSoftwareCourseData[0].Batch}
-          CourseFeeHead="Full Stack Software Development Course: Batch Details"
+          CourseFeeHead="Full Stack Software Development Institute: Batch Details"
           CourseFeePara={
             FullStackSoftwareCourseData[0].BatchCourses.CourseFeePara
           }
