@@ -99,6 +99,7 @@ function FormOtp({
     router.pathname === "/fssd-institute-program-s2-generic" ||
     router.pathname === "/fssd-training-s2-generic" ||
     router.pathname === "/software-development-course-s2" ||
+    router.pathname === "/software-development-course-s2-generic" ||
     router.pathname === "/software-programming-course-s2" ||
     router.pathname === "/fullstack/fssd-s2" ||
     router.pathname === "/fullstack/fssd-s2-generic" ||
@@ -108,6 +109,7 @@ function FormOtp({
     router.pathname === "/fullstack/fssd-institute-program-s2-generic" ||
     router.pathname === "/fullstack/fssd-training-s2" ||
     router.pathname === "/fullstack/software-development-course-s2" ||
+    router.pathname === "/fullstack/software-development-course-s2-generic" ||
     router.pathname === "/fullstack/software-programming-course-s2" ||
     router.pathname === "/fssd-s4" ||
     router.pathname === "/fssd-s5" ||
@@ -119,6 +121,7 @@ function FormOtp({
     router.pathname === "/dsa-s4" ||
     router.pathname === "/data-structure-algorithm-s2" ||
     router.pathname === "/best-course-for-data-structures-and-algorithms-s2" ||
+    router.pathname === "/best-course-for-data-structures-and-algorithms-s2-generic" ||
     router.pathname === "/data-structure-course-s2" ||
     router.pathname === "/data-structures-algorithms-syllabus-s2" ||
     router.pathname === "/data-structures-and-algorithms-course-s2" ||
@@ -264,23 +267,27 @@ function FormOtp({
           (router.pathname === "/dsa" && downloadBrochure) ||
           (router.pathname === "/fssd-s2" && downloadBrochure) ||
           (router.pathname === "/fssd-s2-generic" && downloadBrochure) ||
-          (router.pathname === "/software-programming-course-s2-generic" && downloadBrochure) ||
-          (router.pathname === "/fssd-institute-program-s2-generic" && downloadBrochure) ||
-          (router.pathname === "/fssd-training-s2-generic" && downloadBrochure) ||
+          (router.pathname === "/software-programming-course-s2-generic" &&
+            downloadBrochure) ||
+          (router.pathname === "/fssd-institute-program-s2-generic" &&
+            downloadBrochure) ||
+          (router.pathname === "/fssd-training-s2-generic" &&
+            downloadBrochure) ||
           (router.pathname === "/fullstack/fssd-s2-generic" &&
             downloadBrochure) ||
-            (router.pathname === "/fullstack/fssd-training-s2-generic" &&
-              downloadBrochure) ||
-            (router.pathname ===
-              "/fullstack/software-programming-course-s2-generic" &&
-              downloadBrochure) ||
-            (router.pathname ===
-              "/fullstack/fssd-institute-program-s2-generic" &&
-              downloadBrochure) ||
+          (router.pathname === "/fullstack/fssd-training-s2-generic" &&
+            downloadBrochure) ||
+          (router.pathname ===
+            "/fullstack/software-programming-course-s2-generic" &&
+            downloadBrochure) ||
+          (router.pathname === "/fullstack/fssd-institute-program-s2-generic" &&
+            downloadBrochure) ||
           (router.pathname === "/fssd-institute-program-s2" &&
             downloadBrochure) ||
           (router.pathname === "/fssd-training-s2" && downloadBrochure) ||
           (router.pathname === "/software-development-course-s2" &&
+            downloadBrochure) ||
+          (router.pathname === "/software-development-course-s2-generic" &&
             downloadBrochure) ||
           (router.pathname === "/software-programming-course-s2" &&
             downloadBrochure) ||
@@ -290,6 +297,9 @@ function FormOtp({
           (router.pathname === "/fullstack/fssd-training-s2" &&
             downloadBrochure) ||
           (router.pathname === "/fullstack/software-development-course-s2" &&
+            downloadBrochure) ||
+          (router.pathname ===
+            "/fullstack/software-development-course-s2-generic" &&
             downloadBrochure) ||
           (router.pathname === "/fullstack/software-programming-course-s2" &&
             downloadBrochure) ||
@@ -331,11 +341,14 @@ function FormOtp({
           router.pathname === "/fssd-institute-program-s2" ||
           router.pathname === "/fssd-training-s2" ||
           router.pathname === "/software-development-course-s2" ||
+          router.pathname === "/software-development-course-s2-generic" ||
           router.pathname === "/software-programming-course-s2" ||
           router.pathname === "/fullstack/fssd-s2" ||
           router.pathname === "/fullstack/fssd-institute-program-s2" ||
           router.pathname === "/fullstack/fssd-training-s2" ||
           router.pathname === "/fullstack/software-development-course-s2" ||
+          router.pathname ===
+            "/fullstack/software-development-course-s2-generic" ||
           router.pathname === "/fullstack/software-programming-course-s2" ||
           router.pathname === "/dsa-s3" ||
           router.pathname === "/fssd-s3" ||
@@ -358,6 +371,7 @@ function FormOtp({
           router.pathname === "/data-structure-algorithm-s2" ||
           router.pathname ===
             "/best-course-for-data-structures-and-algorithms-s2" ||
+            router.pathname === "/best-course-for-data-structures-and-algorithms-s2-generic" ||
           router.pathname === "/data-structure-course-s2" ||
           router.pathname === "/data-structures-algorithms-syllabus-s2" ||
           router.pathname === "/data-structures-and-algorithms-course-s2" ||
@@ -429,9 +443,12 @@ function FormOtp({
             (router.pathname === "/dsa" && downloadBrochure) ||
             (router.pathname === "/fssd-s2" && downloadBrochure) ||
             (router.pathname === "/fssd-s2-generic" && downloadBrochure) ||
-            (router.pathname === "/software-programming-course-s2-generic" && downloadBrochure) ||
-            (router.pathname === "/fssd-institute-program-s2-generic" && downloadBrochure) ||
-            (router.pathname === "/fssd-training-s2-generic" && downloadBrochure) ||
+            (router.pathname === "/software-programming-course-s2-generic" &&
+              downloadBrochure) ||
+            (router.pathname === "/fssd-institute-program-s2-generic" &&
+              downloadBrochure) ||
+            (router.pathname === "/fssd-training-s2-generic" &&
+              downloadBrochure) ||
             (router.pathname === "/fullstack/fssd-s2-generic" &&
               downloadBrochure) ||
             (router.pathname === "/fullstack/fssd-training-s2-generic" &&
@@ -447,6 +464,8 @@ function FormOtp({
             (router.pathname === "/fssd-training-s2" && downloadBrochure) ||
             (router.pathname === "/software-development-course-s2" &&
               downloadBrochure) ||
+            (router.pathname === "/software-development-course-s2-generic" &&
+              downloadBrochure) ||
             (router.pathname === "/software-programming-course-s2" &&
               downloadBrochure) ||
             (router.pathname === "/fullstack/fssd-s2" && downloadBrochure) ||
@@ -455,6 +474,9 @@ function FormOtp({
             (router.pathname === "/fullstack/fssd-training-s2" &&
               downloadBrochure) ||
             (router.pathname === "/fullstack/software-development-course-s2" &&
+              downloadBrochure) ||
+            (router.pathname ===
+              "/fullstack/software-development-course-s2-generic" &&
               downloadBrochure) ||
             (router.pathname === "/fullstack/software-programming-course-s2" &&
               downloadBrochure) ||
@@ -470,6 +492,9 @@ function FormOtp({
             (router.pathname ===
               "/best-course-for-data-structures-and-algorithms-s2" &&
               downloadBrochure) ||
+              (router.pathname ===
+                "/best-course-for-data-structures-and-algorithms-s2-generic" &&
+                downloadBrochure) ||
             (router.pathname === "/data-structure-course-s2" &&
               downloadBrochure) ||
             (router.pathname === "/data-structures-algorithms-syllabus-s2" &&
@@ -507,11 +532,14 @@ function FormOtp({
             router.pathname === "/fssd-institute-program-s2" ||
             router.pathname === "/fssd-training-s2" ||
             router.pathname === "/software-development-course-s2" ||
+            router.pathname === "/software-development-course-s2-generic" ||
             router.pathname === "/software-programming-course-s2" ||
             router.pathname === "/fullstack/fssd-s2" ||
             router.pathname === "/fullstack/fssd-institute-program-s2" ||
             router.pathname === "/fullstack/fssd-training-s2" ||
             router.pathname === "/fullstack/software-development-course-s2" ||
+            router.pathname ===
+              "/fullstack/software-development-course-s2-generic" ||
             router.pathname === "/fullstack/software-programming-course-s2" ||
             router.pathname === "/dsa-s3" ||
             router.pathname === "/fssd-s3" ||
@@ -532,6 +560,8 @@ function FormOtp({
             router.pathname === "/data-structure-algorithm-s2" ||
             router.pathname ===
               "/best-course-for-data-structures-and-algorithms-s2" ||
+              router.pathname ===
+              "/best-course-for-data-structures-and-algorithms-s2-generic" ||
             router.pathname === "/data-structure-course-s2" ||
             router.pathname === "/data-structures-algorithms-syllabus-s2" ||
             router.pathname === "/data-structures-and-algorithms-course-s2" ||
@@ -905,7 +935,7 @@ function FormOtp({
           ) : (
             <div className={styles.button}>
               <button className={styles.button} onClick={sendOtp}>
-              {downloadBrochure ? "Download Now" : "Apply Now"}
+                {downloadBrochure ? "Download Now" : "Apply Now"}
               </button>
             </div>
           )}
@@ -924,7 +954,7 @@ function FormOtp({
               ) : (
                 <div className={styles.button}>
                   <button disabled={disable} className={styles.button}>
-                  {downloadBrochure ? "Download Now" : "Apply Now"}
+                    {downloadBrochure ? "Download Now" : "Apply Now"}
                   </button>
                 </div>
               )}

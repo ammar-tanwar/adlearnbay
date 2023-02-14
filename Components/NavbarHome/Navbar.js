@@ -7,7 +7,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { FaChevronDown } from "react-icons/fa";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
-import FormOtp from "../FormOtp/FormOtp"
+import FormOtp from "../FormOtp/FormOtp";
 const Navbar = ({ radio, formotp }) => {
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
@@ -20,8 +20,6 @@ const Navbar = ({ radio, formotp }) => {
   };
 
   return (
-
-
     <div>
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
         <div className="leftPopup">
@@ -31,12 +29,11 @@ const Navbar = ({ radio, formotp }) => {
           <h5>Apply For Counselling</h5>
           {/* <p>Fill the below Details to get started</p> */}
 
-          {formotp ?(
+          {formotp ? (
             <FormOtp popup={true} />
-          ):(
+          ) : (
             <Form popup={true} setTrigger={setPopups} radio={radio} />
           )}
-          
         </div>
       </Popup>
       <nav className={styles.nav}>
@@ -45,25 +42,35 @@ const Navbar = ({ radio, formotp }) => {
           <div className={show ? styles.mobileWrapper : styles.hide}>
             <div className={styles.mobileMenu}>
               <span onClick={showMenu}>
-                <Link href="/data-science-certification-courses">Advance Data Science & AI Certification</Link>
+                <Link href="/data-science-certification-courses">
+                  Advance Data Science & AI Certification
+                </Link>
               </span>
               <span onClick={showMenu}>
                 <Link href="/fswd">Full Stack Web Development Program</Link>
               </span>
               <span onClick={showMenu}>
-                <Link href="/fssd">Full Stack Software Development Program</Link>
+                <Link href="/fssd">
+                  Full Stack Software Development Program
+                </Link>
               </span>
               <span onClick={showMenu}>
                 <Link href="/dsa">DSA & System Design</Link>
               </span>
               <span onClick={showMenu}>
-                <Link href="/advance-ai-ml-certification">Advance AI & ML Certification</Link>
+                <Link href="/advance-ai-ml-certification">
+                  Advance AI & ML Certification
+                </Link>
               </span>
               <span onClick={showMenu}>
-                <Link href="/data-science-ai-cert-for-managers-leaders">Data Science & AI Cert. For Managers & Leaders</Link>
+                <Link href="/data-science-ai-cert-for-managers-leaders">
+                  Data Science & AI Cert. For Managers & Leaders
+                </Link>
               </span>
               <span onClick={showMenu}>
-                <Link href="/job-guarantee-or-money-back-data-science-ai">100% Placement Assistance - Data Science & AI</Link>
+                <Link href="/data-science-ai-masters-program">
+                  Data Science and AI Master Program
+                </Link>
               </span>
             </div>
           </div>
@@ -80,25 +87,33 @@ const Navbar = ({ radio, formotp }) => {
         </div>
         <div className={styles.right}>
           <div className={styles.dropdown}>
-            <button className={styles.dropbtn}>All Courses <FaChevronDown style={{ marginLeft: "5px" }} /></button>
+            <button className={styles.dropbtn}>
+              All Courses <FaChevronDown style={{ marginLeft: "5px" }} />
+            </button>
             <div className={styles.dropdownContent}>
-              <a href="/data-science-certification-courses">Advance Data Science & AI Certification</a>
+              <a href="/data-science-certification-courses">
+                Advance Data Science & AI Certification
+              </a>
               <a href="/fswd">Full Stack Web Development Program</a>
               <a href="/fssd">Full-Stack Software Development Program</a>
               <a href="/dsa">DSA & System Design</a>
-              <a href="/advance-ai-ml-certification">Advance AI & ML Certification</a>
-              <a href="/data-science-ai-cert-for-managers-leaders">Data Science & AI Cert. For Managers & Leaders</a>
-              <a href="/job-guarantee-or-money-back-data-science-ai">100% Placement Assistance - Data Science & AI</a>
+              <a href="/advance-ai-ml-certification">
+                Advance AI & ML Certification
+              </a>
+              <a href="/data-science-ai-cert-for-managers-leaders">
+                Data Science & AI Cert. For Managers & Leaders
+              </a>
+              <a href="/data-science-ai-masters-program">
+                Data Science and AI Master Program
+              </a>
             </div>
           </div>
-
 
           <button onClick={popupShow}>
             Apply For Counselling <FiArrowRight style={{ marginLeft: "5px" }} />
           </button>
           <Popup></Popup>
         </div>
-
       </nav>
     </div>
   );

@@ -39,15 +39,15 @@ export const viewAllD = [
   {
     id: 4,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-master-program.png",
-    title: "Data Science and AI with ",
-    title1: "100% Placement Assistance Program",
+    title: "Data Science & AI ",
+    title1: "Master Program",
 
     para: [
       "400 hours of Interactive Learning",
       "15 Projects + 3 Capstones",
       "Course Fee : ₹ 1,25,000 + GST",
     ],
-    link1: "/job-guarantee-or-money-back-data-science-ai",
+    link1: "/data-science-ai-masters-program",
   },
   {
     id: 5,
@@ -138,14 +138,14 @@ export const ForProgrammersD = [
   {
     id: 6,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-master-program.png",
-    title: "Data Science and AI with ",
-    title1: "100% Placement Assistance Program",
+    title: "Data Science & AI ",
+    title1: "Master Program",
     para: [
       "400 hours of Interactive Learning",
       "15 Projects + 3 Capstones",
       "Course Fee : ₹ 1,25,000 + GST",
     ],
-    link1: "/job-guarantee-or-money-back-data-science-ai",
+    link1: "/data-science-ai-masters-program",
   },
 ];
 export const ForNonProgrammerD = [
@@ -189,15 +189,15 @@ export const ForNonProgrammerD = [
   {
     id: 4,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-master-program.png",
-    title: "Data Science and AI with ",
-    title1: "100% Placement Assistance Program",
+    title: "Data Science & AI ",
+    title1: "Master Program",
 
     para: [
       "400 hours of Interactive Learning",
       "15 Projects + 3 Capstones",
       "Course Fee : ₹ 1,25,000 + GST",
     ],
-    link1: "/job-guarantee-or-money-back-data-science-ai",
+    link1: "/data-science-ai-masters-program",
   },
 ];
 
@@ -205,14 +205,14 @@ export const JobGuaranteeD = [
   {
     id: 1,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-master-program.png",
-    title: "Data Science and AI with ",
-    title1: "100% Placement Assistance Program",
+    title: "Data Science & AI ",
+    title1: "Master Program",
     para: [
       "400 hours of Interactive Learning",
       "15 Projects + 3 Capstones",
       "Course Fee : ₹ 1,25,000 + GST",
     ],
-    link1: "/job-guarantee-or-money-back-data-science-ai",
+    link1: "/data-science-ai-masters-program",
   },
   {
     id: 2,

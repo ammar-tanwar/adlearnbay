@@ -30,15 +30,16 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>100% Placement Assistance Course - Learnbay</title>
-        <meta
-          name="description"
-          content="Advance certification 100% placement assistance course with 1:1 Guaranteed 
-        interview calls, 20+ Real-time projects, 3+ Capstone projects, 3 years of course 
-        subscription ,Lifetime Access to recorded classes and 24/7 Learner’s support."
-        /><meta name="Keywords" content="best data science course with placement assistance, data analytics course with job assistance, online data science course with placement assistance, data analytics online course with placement assistance, placement assistance data science course, job assitance machine learning courses, placement assistance artificial intelligence courses, data analytics course with placement assistance, machine learning course with placement assistance, data science Placement assistance program india, data science course with job assistance india, job assistance data science courses" />
-
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <title>Data Science and AI Master Program</title>
+        <meta name="description" content="Data Science and AI Master Program" />
+        <link
+          rel="canonical"
+          href="https://www.learnbay.co/data-science-ai-masters-program"
+        />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
@@ -78,7 +79,9 @@ export default function Home() {
           }}
         />
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} />
+      <main>
+        {" "}
+        <Navbar popup={true} dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -90,7 +93,8 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection dataScience={true}
+        <FirstSection
+          dataScience={true}
           deskTopPara="Boost your career opportunities "
           deskTopPara1="by developing relevant skills."
           mTitle="Data Science and AI Program "
@@ -104,7 +108,7 @@ export default function Home() {
           width="829"
           height="646"
           alt="AiMl Header"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Job+Guarantee+or+100%25+Money+Back+Data+Science+%26+AI+Certification+Program+Learnbay.pdf"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf"
         />
         <div className={styles.program}>
           <ProgramInfo
@@ -118,7 +122,6 @@ export default function Home() {
             p44={JobGuaranteeCourseData[0].ProgramInfo.p44}
           />
         </div>
-
         <div className={styles.Feature} id="Feature">
           <BoxShape
             title="Why Enroll In This Program?"
@@ -136,8 +139,8 @@ export default function Home() {
         <CourseReview
           p1="Working at HCL"
           p2=" Working at TCS"
-          p3="Working at Capgemini" />
-
+          p3="Working at Capgemini"
+        />
         <Certificate
           title={JobGuaranteeCourseData[0].Certificate.title}
           desc={JobGuaranteeCourseData[0].Certificate.desc}
@@ -145,7 +148,6 @@ export default function Home() {
           desc3={JobGuaranteeCourseData[0].Certificate.desc3}
           src={JobGuaranteeCourseData[0].Certificate.src}
         />
-
         <SyllabusNew
           syllabus={JobGuaranteeCourseData[0].syllabus}
           syllabusDesc={JobGuaranteeCourseData[0].syllabusDesc}
@@ -180,18 +182,22 @@ export default function Home() {
           img23={JobGuaranteeCourseData[0].OurExpert.img23}
           img20={JobGuaranteeCourseData[0].OurExpert.img20}
         />
-        <ProgramFee Fee={JobGuaranteeCourseData[0].ProgramFee.Fee}
-          Emi={JobGuaranteeCourseData[0].ProgramFee.Emi} CourseFeeAndFinancing="Program Fee & Financing"
-          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." dataScience={true} />
+        <ProgramFee
+          Fee={JobGuaranteeCourseData[0].ProgramFee.Fee}
+          Emi={JobGuaranteeCourseData[0].ProgramFee.Emi}
+          CourseFeeAndFinancing="Program Fee & Financing"
+          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."
+          dataScience={true}
+        />
         <SliderTab />
-
         <div className={styles.ProjectWrapper} id="project">
-          <Project popupHead={JobGuaranteeCourseData[0].Project.popupHead}
+          <Project
+            popupHead={JobGuaranteeCourseData[0].Project.popupHead}
             project={JobGuaranteeCourseData[0].Project.project}
             domain={JobGuaranteeCourseData[0].Project.domain}
-            projectTitle={JobGuaranteeCourseData[0].Project.projectTitle} />
+            projectTitle={JobGuaranteeCourseData[0].Project.projectTitle}
+          />
         </div>
-
         <CourseFee
           syllabusDesc={JobGuaranteeCourseData[0].syllabusDesc}
           syllabus={JobGuaranteeCourseData[0].Batch}

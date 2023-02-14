@@ -21,9 +21,20 @@ const Footer = () => {
               height="60px"
             />
           </a>
-          <p className={styles.FooterInnerli}>Enroll Now For Data Science Classroom (Bangalore) And Online Training With us And Master Data Analytics Skills Which Will help you to transform your career and start your career as data scientist.</p>
-          <span style={{ display: "flex", marginTop: "20px" }}><IoMailSharp className="bIcons" /><Link href="mailto:contacts@learnbay.co">contacts@learnbay.co</Link></span>
-          <span style={{ display: "flex", marginTop: "10px" }}><BsFillTelephoneFill className="bIcons" /><Link href="tel:+919606950936">(+91) 96069 50936</Link></span>
+          <p className={styles.FooterInnerli}>
+            Enroll Now For Data Science Classroom (Bangalore) And Online
+            Training With us And Master Data Analytics Skills Which Will help
+            you to transform your career and start your career as data
+            scientist.
+          </p>
+          <span style={{ display: "flex", marginTop: "20px" }}>
+            <IoMailSharp className="bIcons" />
+            <Link href="mailto:contacts@learnbay.co">contacts@learnbay.co</Link>
+          </span>
+          <span style={{ display: "flex", marginTop: "10px" }}>
+            <BsFillTelephoneFill className="bIcons" />
+            <Link href="tel:+919606950936">(+91) 96069 50936</Link>
+          </span>
           {/* <div className={styles.FooterSocial}>
                 <FaTwitter className="bIcons"  />
                 <FaFacebookF className="bIcons"  />
@@ -34,13 +45,19 @@ const Footer = () => {
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Popular Courses</p>
-          <a href="/job-guarantee-or-money-back-data-science-ai-s9"><p className={styles.FooterInnerli} style={{ display: "flex" }}><FaCheck className="bIcons" />100% Placement Assistance – Data Science & AI</p></a>
+          <a href="/job-guarantee-or-money-back-data-science-ai-s9">
+            <p className={styles.FooterInnerli} style={{ display: "flex" }}>
+              <FaCheck className="bIcons" />
+              Data Science and AI Master Program
+            </p>
+          </a>
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Find Us Here</p>
-          <p className={styles.FooterInnerli}>#1090 , 1st floor, 18th cross road
-            HSR layout sector 3, Bangalore - 560102
-            (Above Sangam Sweets)</p>
+          <p className={styles.FooterInnerli}>
+            #1090 , 1st floor, 18th cross road HSR layout sector 3, Bangalore -
+            560102 (Above Sangam Sweets)
+          </p>
           {/* <Grid item xs={12} md={12} sx={{ height: "200px", width: "100px" }}>
                 <GoogleMapReact
                   bootstrapURLKeys={{ key: "AIzaSyB5eZjplt5xQnMe2e95aIB9NkTnpyZ-cB0" }}
@@ -62,7 +79,9 @@ const Footer = () => {
       </div>
       <div className={styles.FooterBottom}>
         <div className={styles.FooterBottomInner}>
-          <p className={styles.FooterInnerB}>Copyright © 2020 Learnbay by www.learnbay.co. All Rights Reserved.</p>
+          <p className={styles.FooterInnerB}>
+            Copyright © 2020 Learnbay by www.learnbay.co. All Rights Reserved.
+          </p>
         </div>
       </div>
     </section>

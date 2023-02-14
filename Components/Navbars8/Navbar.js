@@ -6,7 +6,7 @@ import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaChevronDown } from "react-icons/fa";
 import Popup from "../Popup/Popup";
-import Form from "../Form/Form"; 
+import Form from "../Form/Form";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -27,7 +27,7 @@ const Navbar = () => {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-                   {/* <p>Fill the below Details to get started</p> */}
+          {/* <p>Fill the below Details to get started</p> */}
 
           <Form popup={true} setTrigger={setPopups} />
         </div>
@@ -50,37 +50,35 @@ const Navbar = () => {
               </span>
 
               <span onClick={showMenu}>
-                <Link href="job-guarantee-or-money-back-data-science-ai-s7">100% Placement Assistance – Data Science & AI</Link>
+                <Link href="job-guarantee-or-money-back-data-science-ai-s7">Data Science and AI Master Program</Link>
               </span>
             </div>
           </div> */}
-            <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Learnbay-Logo.png"
-              alt="Learnbay"
-              quality={100}
-              objectFit="contain"
-              width="230px"
-              height="60px"
-            />
+          <Image
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Learnbay-Logo.png"
+            alt="Learnbay"
+            quality={100}
+            objectFit="contain"
+            width="230px"
+            height="60px"
+          />
         </div>
         <div className={styles.right}>
-        {/* <div className={styles.dropdown}>
+          {/* <div className={styles.dropdown}>
   <button className={styles.dropbtn}>All Courses <FaChevronDown style={{marginLeft:"5px"}} /></button>
   <div className={styles.dropdownContent}>
     <a href="/data-science-certification-courses-s7">Advance Data Science & AI Certification</a>
     <a href="/advance-ai-ml-certification-s7">Advance AI & ML Certification</a>
 <a href="/data-science-ai-cert-for-managers-leaders-s7">Data Science & AI Cert. For Managers & Leaders</a>
-<a href="/job-guarantee-or-money-back-data-science-ai-s7">100% Placement Assistance – Data Science & AI</a>
+<a href="/job-guarantee-or-money-back-data-science-ai-s7">Data Science and AI Master Program</a>
   </div>
 </div> */}
 
-
           <button onClick={popupShow}>
-            Apply For Counselling <FiArrowRight style={{marginLeft:"5px"}}/>
+            Apply For Counselling <FiArrowRight style={{ marginLeft: "5px" }} />
           </button>
           <Popup></Popup>
         </div>
-        
       </nav>
     </div>
   );

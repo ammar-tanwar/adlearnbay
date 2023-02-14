@@ -24,67 +24,67 @@ function ThirdSection({ DownloadSyllabus, fullStackCont, formotp }) {
             <h5>Download Brochure</h5>
           )}
           {formotp ? (
-                    <FormOtp popup={true} downloadBrochure/>
-                  ) : (
-                    <Form setTrigger={setPopups} downloadBrochure/>
-                  )}
+            <FormOtp popup={true} downloadBrochure />
+          ) : (
+            <Form setTrigger={setPopups} downloadBrochure />
+          )}
         </div>
       </Popup>
       <div className={styles.leftSide}>
         <h1>Popular courses to choose from:</h1>
       </div>
       <div className={styles.rightSide}>
-      {fullStackCont ? (
-         <>
-                 <div className={styles.rightSideP}>
-          <p>
-            <FaStar className={styles.IconBoxOrange} />
-            Full Stack Software
-            <br />
-Development Course
-          </p>
-          <p>
-            <FaStar className={styles.IconBoxBlue} />
-            Data Structure
-            <br />
-            and Algorithms Course
-          </p>
-          <p>
-            <FaStar className={styles.IconBoxBlue} />
-            Full Stack Web
-            <br />
-Development Course
-          </p>
-          <p>
-            <FaStar className={styles.IconBoxBlue} />
-            System Design 
-            <br />
-Course
-          </p>
-        </div>
-         </>
-               ) : (
-                <>
-        <div className={styles.rightSideP}>
-          <p>
-            <FaStar className={styles.IconBoxOrange} />
-            Advance Data Science & AI Certification Program
-          </p>
-          <p>
-            <FaStar className={styles.IconBoxBlue} />
-            Advance AI & ML Certification Program
-          </p>
-          <p>
-            <FaStar className={styles.IconBoxBlue} />
-            Data Science & AI Certification Program For Managers
-          </p>
-          <p>
-            <FaStar className={styles.IconBoxOrange} />
-            100% Placement Assistance Data Science & AI Certification Program
-          </p>
-        </div>
-        </>
-      )}
+        {fullStackCont ? (
+          <>
+            <div className={styles.rightSideP}>
+              <p>
+                <FaStar className={styles.IconBoxOrange} />
+                Full Stack Software
+                <br />
+                Development Course
+              </p>
+              <p>
+                <FaStar className={styles.IconBoxBlue} />
+                Data Structure
+                <br />
+                and Algorithms Course
+              </p>
+              <p>
+                <FaStar className={styles.IconBoxBlue} />
+                Full Stack Web
+                <br />
+                Development Course
+              </p>
+              <p>
+                <FaStar className={styles.IconBoxBlue} />
+                System Design
+                <br />
+                Course
+              </p>
+            </div>
+          </>
+        ) : (
+          <>
+            <div className={styles.rightSideP}>
+              <p>
+                <FaStar className={styles.IconBoxOrange} />
+                Advance Data Science & AI Certification Program
+              </p>
+              <p>
+                <FaStar className={styles.IconBoxBlue} />
+                Advance AI & ML Certification Program
+              </p>
+              <p>
+                <FaStar className={styles.IconBoxBlue} />
+                Data Science & AI Certification Program For Managers
+              </p>
+              <p>
+                <FaStar className={styles.IconBoxOrange} />
+                Data Science & AI Master Program
+              </p>
+            </div>
+          </>
+        )}
         {DownloadSyllabus ? (
           <button onClick={popupShow} className="outLineBtn">
             Download Syllabus

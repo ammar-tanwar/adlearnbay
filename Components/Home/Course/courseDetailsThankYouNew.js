@@ -24,9 +24,9 @@ export const viewAllD = [
   },
   {
     id: 4,
-    title: "100% Placement Assistance Data Science & AI Certification Program",
+    title: "Data Science & AI Master Program",
     link1:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Job+Guarantee+or+100%25+Money+Back+Data+Science+%26+AI+Certification+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf",
   },
   {
     id: 5,
@@ -116,9 +116,9 @@ export const dataScience = [
   },
   {
     id: 4,
-    title: "100% Placement Assistance Data Science & AI Certification Program",
+    title: "Data Science & AI Master Program",
     link1:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Job+Guarantee+or+100%25+Money+Back+Data+Science+%26+AI+Certification+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf",
   },
 
   {

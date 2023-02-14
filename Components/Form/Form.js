@@ -72,7 +72,8 @@ const Form = ({
     router.pathname === "/" ||
     router.pathname === "/advance-ai-ml-certification" ||
     router.pathname === "/data-science-ai-cert-for-managers-leaders" ||
-    router.pathname === "/job-guarantee-or-money-back-data-science-ai"
+    router.pathname === "/job-guarantee-or-money-back-data-science-ai" ||
+    router.pathname === "/data-science-ai-masters-program"
   ) {
     // -====================  Organic - S END POINT ==========================--------
     endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
@@ -463,6 +464,8 @@ const Form = ({
         downloadBrochure) ||
       (router.pathname === "/job-guarantee-or-money-back-data-science-ai" &&
         downloadBrochure) ||
+        (router.pathname === "/data-science-ai-masters-program" &&
+        downloadBrochure) ||
       (router.pathname === "/data-science-certification-courses-s2" &&
         downloadBrochure) ||
       (router.pathname === "/advance-ai-ml-certification-s2" &&
@@ -546,6 +549,8 @@ const Form = ({
       (router.pathname === "/data-science-ai-cert-for-managers-leaders" &&
         downloadBrochure) ||
       (router.pathname === "/job-guarantee-or-money-back-data-science-ai" &&
+        downloadBrochure) ||
+        (router.pathname === "/data-science-ai-masters-program" &&
         downloadBrochure) ||
       (router.pathname === "/" && downloadBrochure) ||
       (router.pathname === "/s2-data-science" && downloadBrochure) ||
@@ -656,6 +661,7 @@ const Form = ({
       router.pathname === "/advance-ai-ml-certification" ||
       router.pathname === "/data-science-ai-cert-for-managers-leaders" ||
       router.pathname === "/job-guarantee-or-money-back-data-science-ai" ||
+      router.pathname === "/data-science-ai-masters-program" ||
       router.pathname === "/data-science-certification-courses-s2" ||
       router.pathname === "/advance-ai-ml-certification-s2" ||
       router.pathname === "/data-science-ai-cert-for-managers-leaders-s2" ||
@@ -696,7 +702,6 @@ const Form = ({
       router.pathname === "/data-science-certification-courses" ||
       router.pathname === "/advance-ai-ml-certification" ||
       router.pathname === "/data-science-ai-cert-for-managers-leaders" ||
-      router.pathname === "/job-guarantee-or-money-back-data-science-ai" ||
       router.pathname === "/" ||
       router.pathname === "/job-guarantee-or-money-back-data-science-ai-s8" ||
       router.pathname === "/job-guarantee-or-money-back-data-science-ai-s9" ||

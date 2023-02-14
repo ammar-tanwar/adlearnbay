@@ -27,11 +27,11 @@ const Footer = ({ mobileNum, email }) => {
           </p>
           {email ? (
             ""
-            ) : (
-          <span style={{ display: "flex", marginTop: "20px" }}>
-            <IoMailSharp className="bIcons" />
-            contacts@learnbay.co
-          </span>
+          ) : (
+            <span style={{ display: "flex", marginTop: "20px" }}>
+              <IoMailSharp className="bIcons" />
+              contacts@learnbay.co
+            </span>
           )}
           {mobileNum ? (
             ""
@@ -70,7 +70,7 @@ const Footer = ({ mobileNum, email }) => {
           </p>
           <p className={styles.FooterInnerli} style={{ display: "flex" }}>
             <FaCheck className="bIcons" />
-            100% Placement Assistance - Data Science & AI
+            Data Science and AI Master Program
           </p>
         </div>
         <div className={styles.FooterDivInner}>
