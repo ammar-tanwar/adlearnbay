@@ -6,10 +6,10 @@ import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaChevronDown } from "react-icons/fa";
 import Popup from "../Popup/Popup";
-import Form from "../Form/Form"; 
-import FormOtp from "../FormOtp/FormOtp"; 
+import Form from "../Form/Form";
+import FormOtp from "../FormOtp/FormOtp";
 
-const Navbar = ({formotp}) => {
+const Navbar = ({ formotp }) => {
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
 
@@ -28,11 +28,11 @@ const Navbar = ({formotp}) => {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-                   {/* <p>Fill the below Details to get started</p> */}
-                   {formotp ?(
+          {/* <p>Fill the below Details to get started</p> */}
+          {formotp ? (
             <FormOtp popup={true} />
-          ):(
-          <Form popup={true} setTrigger={setPopups} />
+          ) : (
+            <Form popup={true} setTrigger={setPopups} />
           )}
         </div>
       </Popup>
@@ -41,34 +41,48 @@ const Navbar = ({formotp}) => {
           <GiHamburgerMenu className={styles.ham} onClick={showMenu} />
           <div className={show ? styles.mobileWrapper : styles.hide}>
             <div className={styles.mobileMenu}>
-              
               <span onClick={showMenu}>
-                <Link href="https://learnbay.co/data-science-course/data-science-certification-courses/">Data Science & AI Certification</Link>
+                <Link href="https://learnbay.co/data-science-course/data-science-certification-courses/">
+                  Data Science & AI Certification
+                </Link>
               </span>
               <span onClick={showMenu}>
-                <Link href="https://www.learnbay.co/data-science-course/advance-data-science-certification-courses/">Advance Data Science & AI Certification</Link>
+                <Link href="https://www.learnbay.co/data-science-course/advance-data-science-certification-courses/">
+                  Advance Data Science & AI Certification
+                </Link>
               </span>
               {/* <span onClick={showMenu}>
                 <Link href="/full-stack-web-development-program">Full Stack Web Development Program</Link>
               </span> */}
 
               <span onClick={showMenu}>
-                <Link href="/full-stack-software-development-program">Full-Stack Software Development Program</Link>
+                <Link href="/full-stack-software-development-program">
+                  Full-Stack Software Development Program
+                </Link>
               </span>
               <span onClick={showMenu}>
                 <Link href="/dsa-system-design">DSA & System Design</Link>
               </span>
               <span onClick={showMenu}>
-                <Link href="https://learnbay.co/data-science-course/artificial-intelligence-certification-course/">Advance AI & ML Certification</Link>
+                <Link href="https://learnbay.co/data-science-course/artificial-intelligence-certification-course/">
+                  Advance AI & ML Certification
+                </Link>
               </span>
               <span onClick={showMenu}>
-                <Link href="https://learnbay.co/data-science-course/data-science-ai-for-managers/">Data Science & AI Cert. For Managers & Leaders</Link>
+                <Link href="https://learnbay.co/data-science-course/data-science-ai-for-managers/">
+                  Data Science & AI Cert. For Managers & Leaders
+                </Link>
               </span>
               <span onClick={showMenu}>
-                <Link href="https://learnbay.co/data-science-course/job-guarantee-or-money-back-data-science-ai-certification-course/">100% Placement Assistance - Data Science & AI</Link>
+                <Link href="https://www.learnbay.co/data-science-ai-masters-program">
+                  Data Science and AI Master Program
+                </Link>
               </span>
               <span onClick={showMenu}>
-                <Link href="https://learnbay.co/data-science-course/data-analytics-business-analytics-programs-for-professionals/">Data Analytics & Business Analytics Program | Fast Track Course</Link>
+                <Link href="https://learnbay.co/data-science-course/data-analytics-business-analytics-programs-for-professionals/">
+                  Data Analytics & Business Analytics Program | Fast Track
+                  Course
+                </Link>
               </span>
             </div>
           </div>
@@ -84,28 +98,42 @@ const Navbar = ({formotp}) => {
           </a>
         </div>
         <div className={styles.right}>
-        <div className={styles.dropdown}>
-  <button className={styles.dropbtn}>All Courses <FaChevronDown style={{marginLeft:"5px"}} /></button>
-  <div className={styles.dropdownContent}>
-    <a href="https://learnbay.co/data-science-course/data-science-certification-courses/">Data Science & AI Certification</a>
-    <a href="https://www.learnbay.co/data-science-course/advance-data-science-certification-courses/">Advance Data Science & AI Certification</a>
-    {/* <a href="/full-stack-web-development-program">Full Stack Web Development Program</a> */}
-    <a href="/full-stack-software-development-program">Full-Stack Software Development Program</a>
-    <a href="/dsa-system-design">DSA & System Design</a>
-    <a href="https://learnbay.co/data-science-course/artificial-intelligence-certification-course/">Advance AI & ML Certification</a>
-    <a href="https://learnbay.co/data-science-course/data-science-ai-for-managers/">Data Science & AI Cert. For Managers & Leaders</a>
-    <a href="https://learnbay.co/data-science-course/job-guarantee-or-money-back-data-science-ai-certification-course/">100% Placement Assistance - Data Science & AI</a>
-    <a href="https://learnbay.co/data-science-course/data-analytics-business-analytics-programs-for-professionals/">Data Analytics & Business Analytics Program | Fast Track Course</a>
-  </div>
-</div>
-
+          <div className={styles.dropdown}>
+            <button className={styles.dropbtn}>
+              All Courses <FaChevronDown style={{ marginLeft: "5px" }} />
+            </button>
+            <div className={styles.dropdownContent}>
+              <a href="https://learnbay.co/data-science-course/data-science-certification-courses/">
+                Data Science & AI Certification
+              </a>
+              <a href="https://www.learnbay.co/data-science-course/advance-data-science-certification-courses/">
+                Advance Data Science & AI Certification
+              </a>
+              {/* <a href="/full-stack-web-development-program">Full Stack Web Development Program</a> */}
+              <a href="/full-stack-software-development-program">
+                Full-Stack Software Development Program
+              </a>
+              <a href="/dsa-system-design">DSA & System Design</a>
+              <a href="https://learnbay.co/data-science-course/artificial-intelligence-certification-course/">
+                Advance AI & ML Certification
+              </a>
+              <a href="https://learnbay.co/data-science-course/data-science-ai-for-managers/">
+                Data Science & AI Cert. For Managers & Leaders
+              </a>
+              <a href="https://www.learnbay.co/data-science-ai-masters-program">
+                Data Science and AI Master Program
+              </a>
+              <a href="https://learnbay.co/data-science-course/data-analytics-business-analytics-programs-for-professionals/">
+                Data Analytics & Business Analytics Program | Fast Track Course
+              </a>
+            </div>
+          </div>
 
           <button onClick={popupShow}>
-            Apply For Counselling <FiArrowRight style={{marginLeft:"5px"}}/>
+            Apply For Counselling <FiArrowRight style={{ marginLeft: "5px" }} />
           </button>
           <Popup></Popup>
         </div>
-        
       </nav>
     </div>
   );

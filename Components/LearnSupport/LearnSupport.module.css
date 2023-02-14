@@ -1,0 +1,226 @@
+.LearnSupport {
+  padding: 0px 100px 0px 100px;
+  background: #ffffff;
+  margin-bottom: 80px;
+  display: grid;
+  margin-top: 60px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  grid-template-columns: 49% 49%;
+  box-shadow: 0px 0px 15px rgba(41, 121, 173, 0.3);
+}
+.learnInnerR .img {
+  width: 585px;
+  height: auto;
+  top: -40px;
+  position: absolute;
+}
+
+.learnInner {
+  padding: 50px 0px 50px 80px;
+  border-radius: 20px;
+  color: #fff;
+  background-size: cover;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+.pBot {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  margin: 0;
+  padding-right: 80px;
+  color: #545454;
+}
+.learnInner .pTop {
+  color: #ebd552;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.learnInner h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 37px;
+  margin: 0;
+  margin-bottom: 10px;
+  color: #28557a;
+}
+
+.btnWrap {
+  display: flex;
+  margin-top: 20px;
+}
+
+.btn1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  fill: #48c355;
+  color: #fff;
+  background-color: #48c355;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #48c355;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 0px 5px 0px #48c35550;
+}
+
+.btn1:hover {
+  color: #48c355;
+  background-color: #fff;
+}
+
+.btn2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  fill: #ffffff;
+  color: #0072bc;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #0072bc;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 0px 5px 0px rgb(52 56 112 / 31%);
+}
+
+.btn2:hover {
+  background-color: #0072bc;
+  color: white;
+}
+
+.bIcon {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+@media (min-width: 1279px) and (max-width: 1282px) {
+  .LearnSupport {
+    padding: 0px 20px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .LearnSupport {
+    padding: 0px 20px;
+    grid-template-columns: 50% 50%;
+    margin: 30px 0px 50px 0px;
+  }
+  .pBot {
+    font-size: 18px;
+  }
+  .learnInnerR .img {
+    width: 450px;
+    top: 0;
+    padding: 20px 0px;
+  }
+  .learnInner {
+    padding: 50px 20px 50px 40px;
+  }
+  .btn1,
+  .btn2 {
+    padding: 12px 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .LearnSupport {
+    grid-template-columns: 39% 57%;
+    gap: 30px;
+  }
+  .learnInnerR .img {
+    width: 350px;
+  }
+}
+
+@media (max-width: 641px) {
+  .LearnSupport {
+    padding: 20px 20px;
+    margin: 30px 0px;
+    display: grid;
+    grid-template-columns: 49% 49%;
+  }
+  .learnInnerR .img {
+    width: 300px;
+    position: initial;
+    gap: 10px;
+    padding: 0;
+  }
+  .pBot {
+    padding: 0;
+  }
+  .learnInner {
+    padding: 0px 0px 30px 0px;
+  }
+  .learnInner h5 {
+    font-size: 23px;
+    margin: 0;
+  }
+  .learnInner .pTop {
+    margin: 0;
+  }
+  .btnWrap {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .LearnSupport {
+    padding: 10px 0px 10px 0px;
+    display: block;
+    margin: 20px 20px;
+  }
+
+  .learnInner {
+    padding: 20px;
+    display: block;
+  }
+
+  .Top1 {
+    font-size: 16px;
+  }
+
+  .Top2 {
+    font-size: 36px;
+  }
+
+  .Top3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+  }
+  .learnInner2 .btn2 {
+    margin-top: 0px;
+  }
+
+  .learnInnerR .img {
+    width: 100%;
+    height: auto;
+    top: -40px;
+    position: initial;
+    padding: 10px;
+  }
+
+  .btn2 {
+    margin-top: 20px;
+  }
+
+  .btnWrap {
+    display: block;
+  }
+
+  .pBot {
+    padding: 0;
+  }
+}

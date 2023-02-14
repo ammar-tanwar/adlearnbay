@@ -1,0 +1,72 @@
+{
+  "metaInfo": {
+    "title": "Time and Space Complexity in DSA",
+    "desc": "Enroll in the System Design Event and learn from live classes. Get Knowledge by working on industry projects.",
+    "keyword": "Web Development",
+    "canonical": "https://www.learnbay.co/Event/Introduction-to-Full-Stack-Web-Development"
+  },
+  "mainData": {
+    "title": "Time and Space Complexity in DSA",
+    "eventDate": "February 11, 2023",
+    "tag": "System Design",
+    "eventTime": "5 p.m. to 7 p.m.",
+    "Duration": "120min",
+    "img": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Intro+to+Full+Stack+Web+Development.png",
+    "register": "903"
+  },
+  "headImg": {
+    "deskimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/TimeWesite.jpg",
+    "mobimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/TimeMobile.jpg"
+  },
+  "eventFeatureData": {
+    "heading1": "About this Masterclass",
+    "aboutThisMasterclass": [
+      "Software Developers deal with the study of how to store and manipulate data in the most efficient possible manner. Having an understanding of the time and space complexity of an algorithm is important so that you can identify the best approach to solving a problem.",
+      "This Masterclass will provide a comprehensive introduction to time and space complexity analysis in the context of data structures and algorithms. Through hands-on exercises and real-world examples, participants will learn how to measure and improve the performance of their code."
+    ],
+
+    "heading2": "Topics covered in this Masterclass",
+    "topicsCoveredMasterclass": [
+      "Time Complexity Analysis of Algorithms",
+      "Asymptotic Analysis & Asymptotic Notations",
+      "Recurrence Relations and Master Theorem"
+    ],
+
+    "speakerName": "Akshay Gagrani",
+    "speakerDesignation": "Designation : Software Development Engineer",
+    "speakerComp": "Myntra",
+    "img4": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/userWebinar.png",
+
+    "h1": "100% Live Classes",
+    "h2": "Customized Learning",
+    "h3": "IBM Certified Projects",
+    "h4": "3-year Subscription",
+
+    "heading3": "This Masterclass is for",
+
+    "topicsMasterclass": [
+      "SDEs looking to upskill",
+      "SDEs wishing to convert to product companies from service companies",
+      "SDEs wanting to learn Data Structures and Algorithms"
+    ],
+
+    "heading4": "What our Learners have to say",
+
+    "heading5": "About Learnbay Academy",
+    "aboutLearnbay": [
+      "Welcome to Learnbay!",
+      "We are a leading provider of specialized courses in Data Structures and System Design in our Full Stack Software Development Program. We are dedicated to helping working professionals advance their careers and gain the technical expertise needed to succeed in the fast-paced world of technology."
+    ],
+    "aboutLearnbayHeading": "Some of our standout features include: ",
+    "standoutFeatures": [
+      "Curriculum that is developed, supervised and approved by industry experts",
+      "1:1 mentorship from top experts in the field",
+      "Opportunities to gain technical expertise through real-world projects",
+      "Over 250 hiring partners and dedicated placement support",
+      "100% guarantee interview calls"
+    ],
+    "standoutFeaturesLastHead": [
+      "Sign up for a free demo class and enroll in the domain of your choice."
+    ]
+  }
+}

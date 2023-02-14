@@ -111,13 +111,11 @@ const ThankYouFsd = ({ initialName }) => {
               width="306"
               height="200"
             />
-            <p className={styles.Ptopp}>
-              100% Placement Assistance Data Science & AI Certification Program
-            </p>
+            <p className={styles.Ptopp}>Data Science & AI Master Program</p>
             <button className={styles.Button}>
               <AiOutlineDownload className="bIcons" />
               <a
-                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Job+Guarantee+or+100%25+Money+Back+Data+Science+%26+AI+Certification+Program+Learnbay.pdf"
+                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf"
                 target="_blank"
               >
                 Download Brochure

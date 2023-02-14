@@ -14,7 +14,7 @@ export const JobGuaranteeCourseData = [
       width: "829",
       height: "646",
       alt: "AiMl Header",
-      srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Job+Guarantee+or+100%25+Money+Back+Data+Science+%26+AI+Certification+Program+Learnbay.pdf",
+      srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf",
     },
     ProgramInfo: {
       p1: "Aimed for",
@@ -57,7 +57,7 @@ export const JobGuaranteeCourseData = [
     syllabusDesc:
       "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All 100% Placement Assistance Course in Bangalore sessions are covered practically with real-time industrial projects and case studies.",
     popupHead: "Download Data science Course Brochure",
-    srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Job+Guarantee+or+100%25+Money+Back+Data+Science+%26+AI+Certification+Program+Learnbay.pdf",
+    srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf",
     hours: "500+ Hours",
     project: "20+ Real Time",
     CSyllabus: "100% Job Assistance Course Syllabus",

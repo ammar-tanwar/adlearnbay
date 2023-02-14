@@ -73,7 +73,7 @@ const Footer = ({ numEmailHide }) => {
             Data Science & AI Master Program
           </p>
           <p className={styles.FooterInnerli}>
-            100% Placement Assistance – Data Science & AI
+            Data Science and AI Master Program
           </p>
         </div>
         <div className={styles.FooterDivInner}>

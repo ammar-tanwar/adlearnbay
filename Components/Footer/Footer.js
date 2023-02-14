@@ -68,10 +68,10 @@ const Footer = () => {
               Data Science & AI Cert. For Managers & Leaders
             </p>
           </a>
-          <a href="/job-guarantee-or-money-back-data-science-ai">
+          <a href="/data-science-ai-masters-program">
             <p className={styles.FooterInnerli} style={{ display: "flex" }}>
               <FaCheck className="bIcons" />
-              100% Placement Assistance - Data Science & AI
+              Data Science and AI Master Program
             </p>
           </a>
         </div>
