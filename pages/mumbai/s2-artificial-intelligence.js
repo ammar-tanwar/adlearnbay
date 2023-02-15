@@ -33,7 +33,10 @@ export default function Home() {
           content="Top Artificial Intelligence course with Domain specialization and
 get 100% placement assistance "
         />
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
         <meta
           name="Keywords"
           content="artificial intelligence course institute, artificial intelligence course fee, artificial intelligence certification, artificial intelligence training, advance artificial intelligence course, artificial intelligence course duration, artificial intelligence online course, artificial intelligence course, artificial intelligence course for working professional"

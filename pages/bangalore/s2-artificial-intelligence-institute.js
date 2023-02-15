@@ -40,7 +40,10 @@ export default function Home() {
           name="Keywords"
           content="artificial intelligence institute, artificial intelligence institute fee, artificial intelligence certification, artificial intelligence training, advance artificial intelligence institute, artificial intelligence institute duration, artificial intelligence online institute, artificial intelligence institute, artificial intelligence institute for working professional"
         />
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';

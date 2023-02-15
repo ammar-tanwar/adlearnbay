@@ -31,7 +31,10 @@ export default function Home() {
           name="Keywords"
           content="Data  analytics training, Data analytics online training, Best online Data analytics training, online Data analytics training, Data analytics training for working professionals, Data analytcis training fee, Data analytics training duration "
         />
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';

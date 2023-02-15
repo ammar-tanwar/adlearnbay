@@ -34,7 +34,10 @@ export default function Home() {
           content="data science course, data science course for working professional, data science course fee, data science course duration, data science course syllabus, data science online course"
         />
 
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
@@ -76,7 +79,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} brochureButton={true} DownloadSyllabus={true}/>
+        <Navbar popup={true} brochureButton={true} DownloadSyllabus={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -104,7 +107,7 @@ export default function Home() {
           p4="1:1 Support"
           p44="Dedicated Program"
         />
-        <ThirdSection DownloadSyllabus={true}/>
+        <ThirdSection DownloadSyllabus={true} />
         <FourthSection
           h1="Program Highlights"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
@@ -125,7 +128,7 @@ export default function Home() {
         <SliderTab />
         <Testimonial />
         <SeventhSection />
-        <EightSection DownloadSyllabus={true}/>
+        <EightSection DownloadSyllabus={true} />
       </main>
     </div>
   );

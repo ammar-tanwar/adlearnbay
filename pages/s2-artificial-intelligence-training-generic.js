@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-      <title>Online artificial intelligence training</title>
+        <title>Online artificial intelligence training</title>
         <meta
           name="description"
           content="Learn Artificial Intelligence Training with 100% job assistance"
@@ -32,7 +32,10 @@ export default function Home() {
           name="Keywords"
           content="artificial intelligence training, ai training, ai training fee, ai training duration, ai training online, online ai training institute, artificial intelligence training fee, artificial intelligence training duration"
         />
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
@@ -85,7 +88,7 @@ export default function Home() {
           </div>
         </Popup>
         <HeroSection
-        deskTopPara="Be a master even without a master's degree"
+          deskTopPara="Be a master even without a master's degree"
           h1="Artificial Intelligence Training"
           hSpan="With Domain Specialization"
           para="Successfully transition careers through our training & real-time capstone projects. 
@@ -100,7 +103,8 @@ export default function Home() {
           p3="3-year"
           p33="Subscription Model"
           p4="1:1 Support"
-          p44="Dedicated Program" />
+          p44="Dedicated Program"
+        />
         <ThirdSection />
         <FourthSection
           h1="Program Highlights"

@@ -39,7 +39,10 @@ export default function Home() {
           content="best data science course with placement assistance, data analytics course with job assistance, online data science course with placement assistance, data analytics online course with placement assistance, placement assistance data science course, job assitance machine learning courses, placement assistance artificial intelligence courses, data analytics course with placement assistance, machine learning course with placement assistance, data science Placement assistance program india, data science course with job assistance india, job assistance data science courses"
         />
 
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';

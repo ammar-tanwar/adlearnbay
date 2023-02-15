@@ -40,7 +40,10 @@ export default function Home() {
           name="Keywords"
           content="artificial intelligence certification, certificate in artificial intelligence, ai certification, ai certification course, artificial intelligence certification course, online artificial intelligence certification, online certification in ai, artificial intelligence certification course "
         />
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';

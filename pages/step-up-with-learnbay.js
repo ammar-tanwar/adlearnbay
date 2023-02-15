@@ -31,11 +31,19 @@ export default function Home() {
       <Head>
         <title>Learnbay Courses</title>
         <meta name="description" content="Learnbay Courses" />
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
       </Head>
       <main>
         <Navbar radio={true} stepupJobExp={true} />
-        <Popup trigger={popups} setTrigger={setPopups} className="popupModal" formIMG={true}>
+        <Popup
+          trigger={popups}
+          setTrigger={setPopups}
+          className="popupModal"
+          formIMG={true}
+        >
           <div className="leftPopup">
             <div className="whiteP" />
           </div>
@@ -172,7 +180,9 @@ export default function Home() {
                   alt="data science course in bangalore"
                 />
                 <p>
-                  Safeguarding your career, even under the most unstable job market scenario, via the acquisition of emerging technology-based unique skills.
+                  Safeguarding your career, even under the most unstable job
+                  market scenario, via the acquisition of emerging
+                  technology-based unique skills.
                 </p>
               </div>
               <div className={styles.aboutBox}>
@@ -184,7 +194,9 @@ export default function Home() {
                   alt="data science course in bangalore"
                 />
                 <p>
-                  To lead the industrial training sector by generating demanding professionals with future proof technical skills and knowledge.
+                  To lead the industrial training sector by generating demanding
+                  professionals with future proof technical skills and
+                  knowledge.
                 </p>
               </div>
             </div>

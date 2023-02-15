@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import React from 'react'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import React from "react";
 import Navbar from "../Components/NavbarA/Navbar";
 import Footer from "../Components/FooterA/Footer";
 import Form from "../Components/Form/Form";
@@ -11,7 +11,10 @@ function Counselling() {
       <Head>
         <title>Learnbay Courses</title>
         <meta name="description" content="Learnbay Courses" />
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
@@ -60,7 +63,7 @@ function Counselling() {
       </div>
       <Footer />
     </div>
-  )
+  );
 }
 
-export default Counselling
+export default Counselling;

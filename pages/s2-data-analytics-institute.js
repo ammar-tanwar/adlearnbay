@@ -36,7 +36,10 @@ export default function Home() {
           name="Keywords"
           content="Data Analytics online institute, Data Analytics institute for working professional, best data analytics institute, top data analytics institute, Data Analytics institute"
         />
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';

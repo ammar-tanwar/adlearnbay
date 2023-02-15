@@ -37,7 +37,10 @@ export default function Home() {
           name="Keywords"
           content="artificial intelligence training, ai training, ai training fee, ai training duration, ai training online, online ai training institute, artificial intelligence training fee, artificial intelligence training duration"
         />
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';

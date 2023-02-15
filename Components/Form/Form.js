@@ -143,6 +143,7 @@ const Form = ({
     router.pathname === "/s2-masters-program" ||
     router.pathname === "/apply-for-counselling-s2" ||
     router.pathname === "/apply-for-counselling-data-science" ||
+    router.pathname === "/apply-for-counselling-data-science-marketing" ||
     router.pathname === "/apply-for-counselling" ||
     //  BANGALORE
 
@@ -732,6 +733,7 @@ const Form = ({
       router.pathname === "/apply-for-counselling-s2" ||
       router.pathname === "/apply-for-counselling-s4" ||
       router.pathname === "/apply-for-counselling-data-science" ||
+    router.pathname === "/apply-for-counselling-data-science-marketing" ||
       router.pathname === "/apply-for-counselling-s3" ||
       router.pathname === "/apply-for-counselling-email-marketing"
     ) {

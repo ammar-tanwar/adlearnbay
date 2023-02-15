@@ -34,18 +34,14 @@ export default function Home({ formotp }) {
   return (
     <div>
       <Head>
-        <title>Full Stack Software Development Course</title>
+        <title>Best Data Structure and Algorithms Course</title>
+        <meta
+          name="description"
+          content="Best way to learn Best Data Structures and Algorithms with System Design Course Online, mastering any one coding skill - Interaction in limited batch, No Cost EMI."
+        />
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
-        />
-        <meta
-          name="description"
-          content="Learn Full Stack Software Development Course. Get a chance to work with Maang Companies and participate in live, interactive online sessions led by tech experts to gain real-time project experience."
-        />
-        <meta
-          name="Keywords"
-          content="Full Stack Software Development Course,Best Full Stack Software Development Course, Online Full Stack Software Development Course, Learn Full Stack Software development Course"
         />
         <script
           dangerouslySetInnerHTML={{
@@ -105,7 +101,7 @@ export default function Home({ formotp }) {
           h1="Best Course for "
           hSpan="Data Structures and Algorithms"
           para="Perform real-world industrial projects and use-cases."
-          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/fssd-generic.jpeg"
+          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/dsa-generic.png"
         />
         <SecondSection
           fullStackCont={true}
@@ -171,6 +167,15 @@ export default function Home({ formotp }) {
           }
         />
         <Testimonial formotp={true} />
+        <FAQNew
+          FaqDatas={FaqData9}
+          DomainFaqDatas={DomainFaqData9}
+          PaymentFaqDatas={PaymentFaqData9}
+          CapstoneFaqDatas={CapstoneFaqData9}
+          jobFaqDatas={jobFaqData9}
+          MentorshipFaqDatas={MentorshipFaqData9}
+          SupportFaqDatas={SupportFaqData9}
+        />
         <SeventhSection fullStackCont={true} />
         <EightSection formotp={true} />
       </main>

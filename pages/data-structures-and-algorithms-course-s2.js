@@ -1,23 +1,31 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
-import FirstSection from "../Components/CoursePage/HeroSection/HeroSection";
-import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
-import BoxShape from "../Components/CoursePage/Boxshapefssds/BoxShape";
-import Popup from "../Components/Popup/Popup";
-import Navbar from "../Components/CoursePage/Navbar/Navbar";
-import Form from "../Components/Form/Form";
-import Project from "../Components/CoursePage/Projectfswd/Project";
-import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
-import { DataStructureAlgoCourseData } from "../Data/DataStructureAlgorithm";
-import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
-import CourseReview from "../Components/CoursePage/CourseReviewdsas/CourseReview";
-import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupportfsd";
-import Footer from "../Components/CoursePage/Footer/Footerfsd";
-import BoxShape1 from "../Components/CoursePage/BoxshapeFssd/BoxShape";
 import React, { useState } from "react";
-import Batch from "../Components/CoursePage/BatchDetails/Batch";
+import Popup from "../Components/Popup/Popup";
+import FormOtp from "../Components/FormOtp/FormOtp";
+import Navbar from "../Components/CoursePage/Navbar/Navbar";
+import { ProgramFee } from "../Components/LightTheme/ProgramFee/ProgramFee";
+import { BestDataStructureAlgorithmData } from "../Data/DataStructureAlgorithm";
+import HeroSection from "../Components/LightTheme/FirstSection/HeroSection";
+import Testimonial from "../Components/LightTheme/SixthSectionFssd/Testimonial";
+import SecondSection from "../Components/LightTheme/SecondSection/SecondSection";
+import ThirdSection from "../Components/LightTheme/ThirdSection/ThirdSection";
+import FourthSection from "../Components/LightTheme/FourthSection/FourthSection";
+import SeventhSection from "../Components/LightTheme/SeventhSection/SeventhSection";
+import EightSection from "../Components/LightTheme/EightSection/EightSection";
+import Batch from "../Components/LightTheme/BatchDetails/Batch";
+import SyllabusSection from "../Components/LightTheme/SyllabusSection/SyllabusSection";
+import FAQNew from "../Components/LightTheme/FAQNew/FAQNewcer";
+import {
+  FaqData9,
+  DomainFaqData9,
+  PaymentFaqData9,
+  CapstoneFaqData9,
+  jobFaqData9,
+  MentorshipFaqData9,
+  SupportFaqData9,
+} from "../Components/LightTheme/FAQNew/FaqData";
 
-export default function Home() {
+export default function Home({ formotp }) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -26,7 +34,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Data Structure Course Syllabus and DSA Training 2022</title>
+        <title>Data Structures and Algorithms Course</title>
         <meta
           name="description"
           content="Best way to learn Data Structures and Algorithms with System Design Course Online, mastering any one coding skill - Interaction in limited batch, No Cost EMI."
@@ -38,218 +46,138 @@ export default function Home() {
         <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
-                var s = document.createElement('script');
-                s.type = 'text/javascript';
-                s.async = true;
-                s.src = url;
-                var options = {
-                "enabled":true,
-                "chatButtonSetting":{
-                  "backgroundColor":"#4dc247",
-                  "ctaText":"",
-                  "borderRadius":"10",
-                  "marginLeft":"0",
-                  "marginBottom":"30",
-                  "marginRight":"30",
-                  "position":"right"
-                },
-                "brandSetting":{
-                  "brandName":"Learnbay",
-                  "brandSubTitle":"The Learner's Path",
-                  "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
-                  "welcomeText":"Hi there! How can I help you?",
-                  "messageText":"Hello, I have a question about {{page_link}}",
-                  "backgroundColor":"#0a5f54",
-                  "ctaText":"Start Chat",
-                  "borderRadius":"25", 
-                  "autoShow":false,
-                  "phoneNumber":"+919731135221"
-                }
-                };
-                s.onload = function() {
-                    CreateWhatsappChatWidget(options);
-                };
-                var x = document.getElementsByTagName('script')[0];
-                x.parentNode.insertBefore(s, x);`,
+                        var s = document.createElement('script');
+                        s.type = 'text/javascript';
+                        s.async = true;
+                        s.src = url;
+                        var options = {
+                    "enabled":true,
+                    "chatButtonSetting":{
+                        "backgroundColor":"#4dc247",
+                        "ctaText":"",
+                        "borderRadius":"10",
+                        "marginLeft":"0",
+                        "marginBottom":"30",
+                        "marginRight":"30",
+                        "position":"right"
+                    },
+                    "brandSetting":{
+                        "brandName":"Learnbay",
+                        "brandSubTitle":"The Learner's Path",
+                        "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
+                        "welcomeText":"Hi there! How can I help you?",
+                        "messageText":"Hello, I have a question about {{page_link}}",
+                        "backgroundColor":"#0a5f54",
+                        "ctaText":"Start Chat",
+                        "borderRadius":"25",
+                        "autoShow":false,
+                        "phoneNumber":"+919731135221"
+                    }
+                    };
+                        s.onload = function() {
+                            CreateWhatsappChatWidget(options);
+                        };
+                        var x = document.getElementsByTagName('script')[0];
+                        x.parentNode.insertBefore(s, x);`,
           }}
         />
-    
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} formotp={true} />
+        <Navbar popup={true} formotp={true} brochureButton={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
           </div>
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
-            <Form popup={true} setTrigger={setPopups} />
+            <FormOtp setTrigger={setPopups} popup={true} />
           </div>
         </Popup>
-        <FirstSection
+        <HeroSection
           formotp={true}
-          deskTopPara={DataStructureAlgoCourseData[0].FirstSection.deskTopPara}
-          mTopPara={DataStructureAlgoCourseData[0].FirstSection.mTopPara}
-          mTitle={DataStructureAlgoCourseData[0].FirstSection.mTitle}
-          spanMTitleText={
-            DataStructureAlgoCourseData[0].FirstSection.spanMTitleText
-          }
-          title={DataStructureAlgoCourseData[0].FirstSection.title}
-          spanTitleText={
-            DataStructureAlgoCourseData[0].FirstSection.spanTitleText
-          }
-          desc={DataStructureAlgoCourseData[0].FirstSection.desc}
-          src={DataStructureAlgoCourseData[0].FirstSection.src}
-          width={DataStructureAlgoCourseData[0].FirstSection.width}
-          height={DataStructureAlgoCourseData[0].FirstSection.height}
-          alt={DataStructureAlgoCourseData[0].FirstSection.alt}
-          srcD={DataStructureAlgoCourseData[0].FirstSection.srcD}
+          fullStackCont={true}
+          deskTopPara="MAANG's Best Interview Preparation Course trained by Top Experts"
+          h1="Data Structures and "
+          hSpan="Algorithms Course"
+          para="Perform real-world industrial projects and use-cases."
+          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/dsa-generic.png"
         />
-        <div className={styles.program}>
-          <ProgramInfo
-            p1={DataStructureAlgoCourseData[0].ProgramInfo.p1}
-            p11={DataStructureAlgoCourseData[0].ProgramInfo.p11}
-            p2={DataStructureAlgoCourseData[0].ProgramInfo.p2}
-            p22={DataStructureAlgoCourseData[0].ProgramInfo.p22}
-            p3={DataStructureAlgoCourseData[0].ProgramInfo.p3}
-            p33={DataStructureAlgoCourseData[0].ProgramInfo.p33}
-            p4={DataStructureAlgoCourseData[0].ProgramInfo.p4}
-            p44={DataStructureAlgoCourseData[0].ProgramInfo.p44}
-          />
-        </div>
-        <div className="Feature" id="Feature">
-          <BoxShape
-            title={DataStructureAlgoCourseData[0].BoxShape.title}
-            Box1h5={DataStructureAlgoCourseData[0].BoxShape.Box1h5}
-            box1desc={DataStructureAlgoCourseData[0].BoxShape.box1desc}
-            Box2h5={DataStructureAlgoCourseData[0].BoxShape.Box2h5}
-            box2desc={DataStructureAlgoCourseData[0].BoxShape.box2desc}
-            Box3h5={DataStructureAlgoCourseData[0].BoxShape.Box3h5}
-            box3desc={DataStructureAlgoCourseData[0].BoxShape.box3desc}
-            Box4h5={DataStructureAlgoCourseData[0].BoxShape.Box4h5}
-            box4desc={DataStructureAlgoCourseData[0].BoxShape.box4desc}
-            headh5={DataStructureAlgoCourseData[0].BoxShape.headh5}
-          />
-        </div>
-        <div className={styles.Feature} id="Feature">
-          <BoxShape1
-            formotp={true}
-            title={DataStructureAlgoCourseData[0].BoxShape1.title}
-            Box1h5={DataStructureAlgoCourseData[0].BoxShape1.Box1h5}
-            box1desc={DataStructureAlgoCourseData[0].BoxShape1.box1desc}
-            Box2h5={DataStructureAlgoCourseData[0].BoxShape1.Box2h5}
-            box2desc={DataStructureAlgoCourseData[0].BoxShape1.box2desc}
-            Box3h5={DataStructureAlgoCourseData[0].BoxShape1.Box3h5}
-            box3desc={DataStructureAlgoCourseData[0].BoxShape1.box3desc}
-            Box4h5={DataStructureAlgoCourseData[0].BoxShape1.Box4h5}
-            box4desc={DataStructureAlgoCourseData[0].BoxShape1.box4desc}
-          />
-        </div>
-        <CourseReview formotp={true} />
-        <SyllabusNew
+        <SecondSection
+          fullStackCont={true}
+          p1="12+ Practical"
+          p11="Project Experience"
+          p2="Top Product"
+          p22="Based Interviews"
+          p3="Domain"
+          p33="Specialization"
+          p4="1:1 Mentorship"
+          p44="Dedicated Program"
+        />
+        <ThirdSection formotp={true} fullStackCont={true} />
+        <FourthSection
+          fullStackCont={true}
+          h1="Data Structures and Algorithms Course Program Highlights"
+          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
+          img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/weekend+and+weekday+batch.jpg"
+          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/extra+dout+clearance+sessionn.jpg"
+          img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
+        />
+        <SyllabusSection
+          fullStackCont={true}
           formotp={true}
-          syllabusFormotp={true}
-          syllabus={DataStructureAlgoCourseData[0].syllabus}
-          syllabusDesc={DataStructureAlgoCourseData[0].syllabusDesc}
-          popupHead={DataStructureAlgoCourseData[0].popupHead}
-          CSyllabus={DataStructureAlgoCourseData[0].CSyllabus}
-          CourseHighlights={DataStructureAlgoCourseData[0].CourseHighlights}
-          srcD={DataStructureAlgoCourseData[0].srcD}
-          hours={DataStructureAlgoCourseData[0].hours}
-          project={DataStructureAlgoCourseData[0].project}
+          desc="Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Data Structures and Algorithms Course sessions are covered practically with real-time industrial projects and case studies."
+          Hours="200+ Hours"
+          Projects="12+ projects"
+          Module0="Preparatory Classes"
+          Module1="Data Structures & Algorithm"
+          Module2="System Design"
+          Module3="Real-time Projects & Use cases"
         />
         <ProgramFee
-          Fee={DataStructureAlgoCourseData[0].ProgramFee.Fee}
-          Emi={DataStructureAlgoCourseData[0].ProgramFee.Emi}
+          Fee={BestDataStructureAlgorithmData[0].ProgramFee.Fee}
+          Emi={BestDataStructureAlgorithmData[0].ProgramFee.Emi}
           formotp={true}
-          CourseFeeAndFinancing={
-            DataStructureAlgoCourseData[0].ProgramFee.CourseFeeAndFinancing
-          }
+          CourseFeeAndFinancing="Data Structures and Algorithms Course Fee & Financing"
           para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."
           dataScience={true}
         />
-        <div className={styles.ProjectWrapper} id="project">
-          <Project
-            project={DataStructureAlgoCourseData[0].Project.project}
-            domain={DataStructureAlgoCourseData[0].Project.domain}
-            formotp={true}
-          />
-        </div>
         <Batch
           formotp={true}
-          syllabusDesc={DataStructureAlgoCourseData[0].syllabusDesc}
-          syllabus={DataStructureAlgoCourseData[0].Batch}
-          CourseFeeHead={
-            DataStructureAlgoCourseData[0].BatchCourses.CourseFeeHead
-          }
+          syllabusDesc={BestDataStructureAlgorithmData[0].syllabusDesc}
+          syllabus={BestDataStructureAlgorithmData[0].Batch}
+          CourseFeeHead="Data Structures and Algorithms Course : Batch Details"
           CourseFeePara={
-            DataStructureAlgoCourseData[0].BatchCourses.CourseFeePara
+            BestDataStructureAlgorithmData[0].BatchCourses.CourseFeePara
           }
           CourseFeelist1={
-            DataStructureAlgoCourseData[0].BatchCourses.CourseFeelist1
+            BestDataStructureAlgorithmData[0].BatchCourses.CourseFeelist1
           }
           CourseFeelist2={
-            DataStructureAlgoCourseData[0].BatchCourses.CourseFeelist2
+            BestDataStructureAlgorithmData[0].BatchCourses.CourseFeelist2
           }
           CourseFeelist3={
-            DataStructureAlgoCourseData[0].BatchCourses.CourseFeelist3
+            BestDataStructureAlgorithmData[0].BatchCourses.CourseFeelist3
           }
           CourseFeelist4={
-            DataStructureAlgoCourseData[0].BatchCourses.CourseFeelist4
+            BestDataStructureAlgorithmData[0].BatchCourses.CourseFeelist4
           }
           CourseFeelist5={
-            DataStructureAlgoCourseData[0].BatchCourses.CourseFeelist5
+            BestDataStructureAlgorithmData[0].BatchCourses.CourseFeelist5
           }
         />
-        <div className={styles.boxContent}>
-          <div className={styles.FirstBox}>
-            <p className={styles.FirstP}>
-              Why is it important to learn DSA to get into product-based
-              companies?
-            </p>
-            <p className={styles.SecondP}>
-              Data structures are generally used to organize, process, retrieve,
-              and store data on computers for efficient use. Proper
-              understanding of data structures and algorithms helps software
-              engineers to write the right code. Data structures and Algorithms
-              are an important part of computer science and help to understand
-              the problem on a deeper level. They are widely used in artificial
-              intelligence, operating systems, graphics and other fields. If the
-              programmer is not familiar with data structures and algorithms
-              course, he may not be able to write efficient data handling code.
-              Hence a programmer who’s trying to switch to product company needs
-              to Learn Data structures and algorithms course.
-            </p>
-          </div>
-          <div>
-            <div className={styles.InnerBox}>
-              <p className={styles.SecondP}>
-                Most product based companies looks at how great your DSA skills
-                are and how you use it on a daily basis to solve problems and
-                for that you require to learn DSA course
-              </p>
-            </div>
-            <div className={styles.InnerBox}>
-              <p className={styles.SecondP}>
-                Data Structure course can helps one to understand how to apply
-                the right data structures and that it is an important step in
-                managing your data well and writing efficient code.
-              </p>
-            </div>
-            <div className={styles.InnerBox}>
-              <p className={styles.SecondP}>
-                DSA course will help the transition to product based companies
-                easier as they also prepare you for the interview.
-              </p>
-            </div>
-          </div>
-        </div>
-        <LearnSupport />
-        <Footer
-          paraTag="Enroll now for Full Stack and DSA Program (Bangalore) and get master in Data Structures and System Design Skills which will help you to transform your career."
-          pTag={true}
+        <Testimonial formotp={true} />
+        <FAQNew
+          FaqDatas={FaqData9}
+          DomainFaqDatas={DomainFaqData9}
+          PaymentFaqDatas={PaymentFaqData9}
+          CapstoneFaqDatas={CapstoneFaqData9}
+          jobFaqDatas={jobFaqData9}
+          MentorshipFaqDatas={MentorshipFaqData9}
+          SupportFaqDatas={SupportFaqData9}
         />
+        <SeventhSection fullStackCont={true} />
+        <EightSection formotp={true} />
       </main>
     </div>
   );

@@ -11,12 +11,18 @@ function Counselling() {
       <Head>
         <title>Learnbay Courses</title>
         <meta name="description" content="Learnbay Courses" />
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
       </Head>
       <Navbar radio={true} />
       <div className={styles.formq1}>
         <div className={styles.formr}>
-          <h1 className={styles.markH1}>#1 Domain Specialised Certification Program For <span className={styles.markSpan}>Working Professionals</span></h1>
+          <h1 className={styles.markH1}>
+            #1 Domain Specialised Certification Program For{" "}
+            <span className={styles.markSpan}>Working Professionals</span>
+          </h1>
           <p className={styles.markP}>Book 1-1 FREE counselling session</p>
           <Form radio={true} />
         </div>

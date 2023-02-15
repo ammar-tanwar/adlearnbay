@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-      <title>Learn Online Artificial Intelligence Course</title>
+        <title>Learn Online Artificial Intelligence Course</title>
         <meta
           name="description"
           content="Top Artificial Intelligence course with Domain specialization and
@@ -33,7 +33,10 @@ get 100% placement assistance "
           name="Keywords"
           content="artificial intelligence course, ai course, online ai course, artificial intelligence course online, ai course fee, ai course duration, artificial intelligence course fee, artificial intelligence course duration"
         />
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
@@ -75,7 +78,7 @@ get 100% placement assistance "
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} brochureButton={true} DownloadSyllabus={true}/>
+        <Navbar popup={true} brochureButton={true} DownloadSyllabus={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -86,7 +89,7 @@ get 100% placement assistance "
           </div>
         </Popup>
         <HeroSection
-        deskTopPara="Be a master even without a master's degree"
+          deskTopPara="Be a master even without a master's degree"
           h1="Artificial Intelligence Course"
           hSpan="With Domain Specialization"
           para="Successfully transition careers through our courses & real-time capstone projects. 
@@ -101,8 +104,9 @@ get 100% placement assistance "
           p3="3-year"
           p33="Subscription Model"
           p4="1:1 Support"
-          p44="Dedicated Program" />
-        <ThirdSection DownloadSyllabus={true}/>
+          p44="Dedicated Program"
+        />
+        <ThirdSection DownloadSyllabus={true} />
         <FourthSection
           h1="Program Highlights"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
@@ -123,7 +127,7 @@ get 100% placement assistance "
         <SliderTab />
         <Testimonial />
         <SeventhSection />
-        <EightSection DownloadSyllabus={true}/>
+        <EightSection DownloadSyllabus={true} />
       </main>
     </div>
   );
