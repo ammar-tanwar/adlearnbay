@@ -723,6 +723,11 @@ margin-bottom: -40px;
   margin-left: 20px !important;
 }
 
+.demoPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 @media (max-width: 481px) {
   .container {
@@ -1044,5 +1049,8 @@ margin-bottom: -40px;
   .transition p{
     font-size: 16px;
     margin-bottom: 10px;
+    }
+    .demoPage h1 {
+text-align: center;
     }
 }

@@ -36,9 +36,15 @@ export default function Home() {
           subscription ,Lifetime Access to recorded classes and 24/7 Learner’s support."
         />
 
-        <meta name="Keywords" content="best data science course with placement assistance, data analytics course with job assistance, online data science course with placement assistance, data analytics online course with placement assistance, placement assistance data science course, job assitance machine learning courses, placement assistance artificial intelligence courses, data analytics course with placement assistance, machine learning course with placement assistance, data science Placement assistance program india, data science course with job assistance india, job assistance data science courses" />
+        <meta
+          name="Keywords"
+          content="best data science course with placement assistance, data analytics course with job assistance, online data science course with placement assistance, data analytics online course with placement assistance, placement assistance data science course, job assitance machine learning courses, placement assistance artificial intelligence courses, data analytics course with placement assistance, machine learning course with placement assistance, data science Placement assistance program india, data science course with job assistance india, job assistance data science courses"
+        />
 
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
@@ -78,8 +84,9 @@ export default function Home() {
           }}
         />
       </Head>
-      <main>  <Navbar popup={true} />
-
+      <main>
+        {" "}
+        <Navbar popup={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -135,7 +142,8 @@ export default function Home() {
         <CourseReview
           p1="Working at HCL"
           p2=" Working at TCS"
-          p3="Working at Capgemini" />
+          p3="Working at Capgemini"
+        />
         <Certificate
           title={JobGuaranteeCourseData[0].Certificate.title}
           desc={JobGuaranteeCourseData[0].Certificate.desc}
@@ -178,20 +186,24 @@ export default function Home() {
           img23={JobGuaranteeCourseData[0].OurExpert.img23}
           img20={JobGuaranteeCourseData[0].OurExpert.img20}
         />
-        <ProgramFee Emi={JobGuaranteeCourseData[0].ProgramFee.Emi}
-          Fee={JobGuaranteeCourseData[0].ProgramFee.Fee} CourseFeeAndFinancing={JobGuaranteeCourseData[0].ProgramFee.CourseFeeAndFinancing} />
+        <ProgramFee
+          Emi={JobGuaranteeCourseData[0].ProgramFee.Emi}
+          Fee={JobGuaranteeCourseData[0].ProgramFee.Fee}
+          CourseFeeAndFinancing={
+            JobGuaranteeCourseData[0].ProgramFee.CourseFeeAndFinancing
+          }
+        />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
-          <Project project={JobGuaranteeCourseData[0].Project.project}
+          <Project
+            project={JobGuaranteeCourseData[0].Project.project}
             domain={JobGuaranteeCourseData[0].Project.domain}
-            projectTitle={JobGuaranteeCourseData[0].Project.projectTitle} />
+            projectTitle={JobGuaranteeCourseData[0].Project.projectTitle}
+          />
         </div>
-
-
         <CourseFee
           syllabusDesc={JobGuaranteeCourseData[0].syllabusDesc}
           syllabus={JobGuaranteeCourseData[0].Batch}
-
           CourseFeeHead={JobGuaranteeCourseData[0].BatchCourses.CourseFeeHead}
           CourseFeePara={JobGuaranteeCourseData[0].BatchCourses.CourseFeePara}
           CourseFeelist1={JobGuaranteeCourseData[0].BatchCourses.CourseFeelist1}
@@ -200,9 +212,6 @@ export default function Home() {
           CourseFeelist4={JobGuaranteeCourseData[0].BatchCourses.CourseFeelist4}
           CourseFeelist5={JobGuaranteeCourseData[0].BatchCourses.CourseFeelist5}
         />
-
-
-
         <LearnSupport />
         <Footer />
       </main>

@@ -1,21 +1,23 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import React from 'react'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import React from "react";
 import Navbar from "../Components/NavbarA/Navbar";
 import Footer from "../Components/FooterA/Footer";
 import Form from "../Components/Form/Form";
-import Image from 'next/image';
+import Image from "next/image";
 function Counselling() {
   return (
     <div className={styles.container1}>
       <Head>
         <title>Learnbay Courses</title>
         <meta name="description" content="Learnbay Courses" />
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
       </Head>
       <Navbar radio={true} />
       <div className={styles.formq1}>
-
         <div className={styles.formr}>
           <Form radio={true} />
         </div>
@@ -41,13 +43,11 @@ function Counselling() {
               <p>Domain Electives</p>
             </div>
           </div>
-
         </div>
-
       </div>
       <Footer mobileNum={true} />
     </div>
-  )
+  );
 }
 
-export default Counselling
+export default Counselling;

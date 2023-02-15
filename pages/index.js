@@ -10,10 +10,10 @@ import Form from "../Components/Form/Form";
 import Navbar from "../Components/NavbarHome/Navbar";
 import Footer from "../Components/FooterHome/Footer";
 import React, { useState } from "react";
-import BoxShape from "../Components/Boxshape/BoxShape1"
+import BoxShape from "../Components/Boxshape/BoxShape1";
 import MultiTabs from "../Components/Home/MultiTabs/MultiTabs";
-import FormSection from "../Components/Home/FormSection/FormSection"
-import CareerImpactHome from "../Components/Home/CareerImpactHome/CareerImpact"
+import FormSection from "../Components/Home/FormSection/FormSection";
+import CareerImpactHome from "../Components/Home/CareerImpactHome/CareerImpact";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -26,7 +26,10 @@ export default function Home() {
       <Head>
         <title>Learnbay Courses</title>
         <meta name="description" content="Learnbay Courses" />
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
@@ -90,12 +93,14 @@ export default function Home() {
         p2="Assured Interview"
         h3="7+"
         p3="Domain Electives"
-        style={{ margin: "20px" }} radio={true} />
+        style={{ margin: "20px" }}
+        radio={true}
+      />
       <div className={styles.boxWrap}>
         <h2>Get Certified & Move Towards Your Dream Job</h2>
         <p className={styles.boxp}>
-          Our Domain Specialisation and Industry Certified Capstone Projects helps you to
-          make your past work experience relevant
+          Our Domain Specialisation and Industry Certified Capstone Projects
+          helps you to make your past work experience relevant
         </p>
         <div className={styles.boxShape}>
           <BoxShape />
@@ -110,6 +115,5 @@ export default function Home() {
       <LearnSupport organicNum={true} />
       <Footer />
     </div>
-
   );
 }

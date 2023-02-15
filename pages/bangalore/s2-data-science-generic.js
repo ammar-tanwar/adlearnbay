@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-      <title>Online Data Science Course</title>
+        <title>Online Data Science Course</title>
         <meta
           name="description"
           content="Want to earn salary hike of 250% ? Our Data Science course 
@@ -33,7 +33,10 @@ export default function Home() {
           content="data science course, data science course for working professional, data science course fee, data science course duration, data science course syllabus, data science online course"
         />
 
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';

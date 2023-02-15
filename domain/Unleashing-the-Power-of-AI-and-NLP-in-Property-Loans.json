@@ -1,0 +1,70 @@
+{
+  "metaInfo": {
+    "title": "Unleashing the Power of AI and NLP in Property Loans",
+    "desc": "Explore the latest advancements in AI and NLP technology and how they're transforming the property loan industry."
+  },
+  "mainData": {
+    "eventDate": "February 27, 2023",
+    "tag": "System Design",
+    "eventTime": "5 p.m. to 8 p.m.",
+    "register": "645",
+    "likes": "700"
+  },
+  "eventFeatureData": {
+    "heading1": "About this Masterclass",
+    "aboutThisMasterclass": [
+      "Explore the latest advancements in AI and NLP technology and how they're transforming the property loan industry. We'll show you how these cutting-edge technologies are streamlining the loan process, providing more accurate risk assessments, and improving customer service.",
+      "We will delve into the market and technology trends driving the adoption of AI in banking and what this means for the future of property loans.",
+      "Don't miss out on the fun! We can't wait to see you there."
+    ],
+
+    "heading2": "Topics covered in this Masterclass",
+    "topicsCoveredMasterclass": [
+      "AI & NLP’s impact on traditional mortgage applications",
+      "Benefits of AI & NLP in property loan underwriting & risk assessment",
+      "Streamline customer service for property loans with chatbots",
+      "Market & technology trends driving the adoption of AI in banking"
+    ],
+
+    "speakerName": "Utkarsh Kulshrestha",
+    "speakerDesignation": "Designation : Data Scientist",
+    "speakerComp": "JPMorgan Chase & Co",
+    "img4": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/Untitled-1.jpg",
+
+    "h1": "100% Live Classes",
+    "h2": "Customized Learning",
+    "h3": "IBM Certified Projects",
+    "h4": "3-year Subscription",
+
+    "heading3": "This Masterclass is for",
+
+    "masterclassForHeading1": "Banking professionals looking to upskill in data science in the banking domain",
+    "masterclassForHeading2": "BFSI professionals who want to predict loan defaults and forecast insurance pricing",
+    "masterclassForHeading3": "Executive-level BFSI professionals dreaming of securing a position at the forefront of BFSI",
+    "masterclassForHeading4": "BFSI managers & leaders who want to incorporate data-driven practices into their business",
+    "masterclassForHeading5": "Data scientists looking to make a meaningful impact in the banking domain",
+
+    "heading4": "What our Learners have to say",
+
+    "heading5": "About Learnbay Academy",
+    "aboutLearnbay": [
+      "Welcome to Learnbay!",
+      "We are a leading provider of specialized courses in data science, data analytics, artificial intelligence and full-stack software development. We are dedicated to helping working professionals advance their careers and gain the technical expertise needed to succeed in the fast-paced world of technology."
+    ],
+    "aboutLearnbayHeading": "Some of our standout features include: ",
+    "standoutFeatures": [
+      "Curriculum that is developed, supervised and approved by industry experts",
+      "1:1 mentorship from top experts in the field",
+      "Opportunities to gain technical expertise through real-world projects",
+      "Over 250 hiring partners and dedicated placement support",
+      "100% guarantee interview calls"
+    ],
+    "standoutFeaturesLastHead": [
+      "Sign up for a free demo class and enroll in the domain of your choice."
+    ]
+  },
+  "headImg": {
+    "deskimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/WebsiteImg.png",
+    "mobimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/30_12Mobile.png"
+  }
+}

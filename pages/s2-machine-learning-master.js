@@ -43,7 +43,10 @@ export default function Home() {
           content="machine learning course, machine learning training, machine learning course institute, machine learning online course, machine learning course fee, advanced ml certification, machine learning course for working professional, advanced machine learning certification, advanced ml courses"
         />
 
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
 
         <script
           dangerouslySetInnerHTML={{

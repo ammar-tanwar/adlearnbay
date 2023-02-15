@@ -39,7 +39,10 @@ export default function Home() {
           name="Keywords"
           content="data analytics Certification Course, data analytics institute, data analytics Certification Course fee, data analytics certification Course, data analytics training, business analytics Certification Course, data analytics Certification Course duration, business analytics institute, business analytics certification Course, business analytics training"
         />
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';

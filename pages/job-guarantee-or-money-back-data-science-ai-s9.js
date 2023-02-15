@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
 import FirstSection from "../Components/HeroSection/HeroSection";
 import ProgramInfo from "../Components/ProgramInfo/ProgramInfo";
 import GetHired from "../Components/GetHired/GetHired";
@@ -14,7 +14,6 @@ import OurExpert from "../Components/OurExpert/OurExpert";
 import Navbar from "../Components/Navbars8/Navbar";
 import Footer from "../Components/FooterNc/Footer";
 import React, { useState } from "react";
-
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -31,9 +30,16 @@ export default function Home() {
           content="Advance certification 100% placement assistance course with 1:1 Guaranteed 
         interview calls, 20+ Real-time projects, 3+ Capstone projects, 3 years of course 
         subscription ,Lifetime Access to recorded classes and 24/7 Learner’s support."
-        /><meta name="Keywords" content="best data science course with placement assistance, data analytics course with job assistance, online data science course with placement assistance, data analytics online course with placement assistance, placement assistance data science course, job assitance machine learning courses, placement assistance artificial intelligence courses, data analytics course with placement assistance, machine learning course with placement assistance, data science Placement assistance program india, data science course with job assistance india, job assistance data science courses" />
+        />
+        <meta
+          name="Keywords"
+          content="best data science course with placement assistance, data analytics course with job assistance, online data science course with placement assistance, data analytics online course with placement assistance, placement assistance data science course, job assitance machine learning courses, placement assistance artificial intelligence courses, data analytics course with placement assistance, machine learning course with placement assistance, data science Placement assistance program india, data science course with job assistance india, job assistance data science courses"
+        />
 
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
@@ -127,7 +133,10 @@ export default function Home() {
           <div className={styles.left}></div>
           <div className={styles.middle}>
             <h6>Talk to our team directly.</h6>
-            <p>Reach out and a learning consultant will get in touch with you shortly.</p>
+            <p>
+              Reach out and a learning consultant will get in touch with you
+              shortly.
+            </p>
           </div>
           <div className={styles.right}>
             <button onClick={popupShow}>Enquire Now</button>
@@ -139,7 +148,6 @@ export default function Home() {
           desc="Get access to IBM cloud lab to keep an eye on trending industrial case studies of data mining, time-series forecasting, AI-based database management, and authenticated data handling."
           desc2="Experts from IBM share their ideas and tactics to deal with tricky business problems within the regularly changing analytical environments."
           desc3="Data Science Leads from IBM as instructors."
-
         />
         <Syllabus />
         <ToolsCovered />
@@ -150,5 +158,5 @@ export default function Home() {
         <Footer />
       </main>
     </div>
-  )
+  );
 }

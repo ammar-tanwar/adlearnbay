@@ -41,7 +41,10 @@ export default function Home() {
           content="certification in machine learning, certification in ml online, ml certification, ml certificate, machine learning certificate, machine learning certification online, machine learning certification with 100% job assistence"
         />
 
-        <link rel="icon" href="/Learnbay-Favicon-L.png" />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
 
         <script
           dangerouslySetInnerHTML={{
