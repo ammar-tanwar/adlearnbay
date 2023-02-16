@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Head from "next/head";
-import { EventHeader } from "../../../Components/WebinarPage/EventHeader/EventHeader";
+import { EventHeader } from "../../../Components/WebinarPage/EventHeaderFSD/EventHeader";
 import styles from "../../../styles/DataScienceEvent.module.css";
 import EventFeature from "../../../Components/WebinarPage/EventFeatures/EventFeature";
 import { getAllPostIds, getPostData } from "../../../lib/domain";
