@@ -34,10 +34,14 @@ export default function Home({ formotp }) {
   return (
     <div>
       <Head>
-        <title>Data Structure Course Syllabus and DSA Training 2022</title>
+      <title>Data Structure Course</title>
         <meta
           name="description"
-          content="Best way to learn Data Structures and Algorithms with System Design Course Online, mastering any one coding skill - Interaction in limited batch, No Cost EMI."
+          content="Learn Data Structures Course with a chance to work at Maang Companies and participate in live sessions led by tech experts to gain real-time project experience."
+        />
+        <meta
+          name="Keywords"
+          content="Data Structures Course, Best Data Structures Course, Best Data Structures Online Course, Learn Data Structures Course, Live Interactive Data Structures Course, Online Data Structure Course, Live Data Structure Courses"
         />
         <link
           rel="icon"
