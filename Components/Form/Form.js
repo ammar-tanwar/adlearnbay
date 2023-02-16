@@ -143,7 +143,6 @@ const Form = ({
     router.pathname === "/s2-masters-program" ||
     router.pathname === "/apply-for-counselling-s2" ||
     router.pathname === "/apply-for-counselling-data-science" ||
-    router.pathname === "/apply-for-counselling-data-science-marketing" ||
     router.pathname === "/apply-for-counselling" ||
     //  BANGALORE
 
@@ -375,6 +374,8 @@ const Form = ({
   // -==================== Marketing ==========================--------
   if (
     router.pathname === "/apply-for-counselling-marketing" ||
+    router.pathname === "/apply-for-counselling-marketing-" ||
+    router.pathname === "/apply-for-counselling-data-science-marketing" ||
     router.pathname === "/step-up-with-learnbay"
   ) {
     // -==================== Marketing ==========================--------

@@ -117,7 +117,7 @@ export default function Home({ formotp }) {
         <ThirdSection formotp={true} fullStackCont={true} />
         <FourthSection
           fullStackCont={true}
-          h1="Data Structures and Algorithms Course Program Highlights"
+          h1="Data Structures and Algorithms Course Highlights"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/weekend+and+weekday+batch.jpg"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/extra+dout+clearance+sessionn.jpg"
@@ -138,7 +138,7 @@ export default function Home({ formotp }) {
           Fee={BestDataStructureAlgorithmData[0].ProgramFee.Fee}
           Emi={BestDataStructureAlgorithmData[0].ProgramFee.Emi}
           formotp={true}
-          CourseFeeAndFinancing="Data Structures and Algorithms Course Fee & Financing"
+          CourseFeeAndFinancing="DSA Course Fee & Financing"
           para="We are dedicated to making our Data Structures and Algorithms Course accessible. We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
         />
         <Batch
