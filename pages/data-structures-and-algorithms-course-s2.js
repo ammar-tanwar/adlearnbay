@@ -34,10 +34,14 @@ export default function Home({ formotp }) {
   return (
     <div>
       <Head>
-        <title>Data Structures and Algorithms Course</title>
+      <title>Data Structures and Algorithms Course</title>
         <meta
           name="description"
-          content="Best way to learn Data Structures and Algorithms with System Design Course Online, mastering any one coding skill - Interaction in limited batch, No Cost EMI."
+          content="Learn Data Structures and Algorithms Course with a chance to work at Maang Companies and participate in live sessions led by tech experts to gain real-time project experience."
+        />
+        <meta
+          name="Keywords"
+          content="Data Structures and Algorithms Course, Best Data Structures and Algorithms Course, Online Data Structures and Algorithms Course, Live Interactive Data Structures and Algorithms Course, Data Structures and Algorithms Course Online Classes, Learn Data Structures and Algorithms Course"
         />
         <link
           rel="icon"
