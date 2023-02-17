@@ -28,11 +28,11 @@ export const ProgramFee = ({
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-                  {formotp ? (
-                    <FormOtp popup={true} />
-                  ) : (
-                    <Form popup={true} setTrigger={setPopups} />
-                  )}
+          {formotp ? (
+            <FormOtp popup={true} />
+          ) : (
+            <Form popup={true} setTrigger={setPopups} />
+          )}
         </div>
       </Popup>
       <div className={styles.header}>
@@ -43,19 +43,18 @@ export const ProgramFee = ({
         <div className={styles.feeWrapper}>
           <div className={styles.left}>
             <h6>The EMI option</h6>
-            <p>
-              We have partnered with the following financing companies to
-              provide competitive finance options at 0% interest rate with no
-              hidden costs.
-            </p>
+            <p>Powered By</p>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/programFeeIcon.png"
-              width="225"
-              height="111"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/FeeIcon.png"
+              width="370"
+              height="47"
               layout="intrinsic"
             />
             <div className={styles.bottom}>
-              <p>Get professional training affordably</p>
+              <div className={styles.bottomp}>
+                <p>0% interest rates&nbsp;|</p>
+                <p>&nbsp; No hidden costs</p>
+              </div>
               <h5>{Fee}</h5>
 
               {fsdlink ? (
@@ -70,10 +69,7 @@ export const ProgramFee = ({
           </div>
           <div className={styles.right}>
             <h6>Financing as low as</h6>
-            <p>
-              If one-time payment is your thing other than EMI, you can rely on
-              services such as Internet banking or credit/debit cards.
-            </p>
+            <p>Pay By</p>
             <div className={styles.bottom}>
               <div className={styles.lefts}>
                 <BsFillCreditCard2FrontFill className={styles.icon} />

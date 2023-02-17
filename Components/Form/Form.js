@@ -148,6 +148,10 @@ const Form = ({
 
     router.pathname === "/bangalore/s2-data-science" ||
     router.pathname === "/bangalore/s2-data-science-generic" ||
+    router.pathname === "/bangalore/s2-artificial-intelligence-generic" ||
+    router.pathname === "/bangalore/s2-machine-learning-generic" ||
+    router.pathname === "/bangalore/s2-business-analytics-generic" ||
+    router.pathname === "/bangalore/s2-data-analytics-generic" ||
     router.pathname === "/bangalore/s2-machine-learning" ||
     router.pathname === "/bangalore/s2-artificial-intelligence" ||
     router.pathname === "/bangalore/s2-data-analytics" ||
@@ -466,7 +470,7 @@ const Form = ({
         downloadBrochure) ||
       (router.pathname === "/job-guarantee-or-money-back-data-science-ai" &&
         downloadBrochure) ||
-        (router.pathname === "/data-science-ai-masters-program" &&
+      (router.pathname === "/data-science-ai-masters-program" &&
         downloadBrochure) ||
       (router.pathname === "/data-science-certification-courses-s2" &&
         downloadBrochure) ||
@@ -552,7 +556,7 @@ const Form = ({
         downloadBrochure) ||
       (router.pathname === "/job-guarantee-or-money-back-data-science-ai" &&
         downloadBrochure) ||
-        (router.pathname === "/data-science-ai-masters-program" &&
+      (router.pathname === "/data-science-ai-masters-program" &&
         downloadBrochure) ||
       (router.pathname === "/" && downloadBrochure) ||
       (router.pathname === "/s2-data-science" && downloadBrochure) ||
@@ -734,7 +738,7 @@ const Form = ({
       router.pathname === "/apply-for-counselling-s2" ||
       router.pathname === "/apply-for-counselling-s4" ||
       router.pathname === "/apply-for-counselling-data-science" ||
-    router.pathname === "/apply-for-counselling-data-science-marketing" ||
+      router.pathname === "/apply-for-counselling-data-science-marketing" ||
       router.pathname === "/apply-for-counselling-s3" ||
       router.pathname === "/apply-for-counselling-email-marketing"
     ) {
@@ -812,6 +816,10 @@ const Form = ({
 
       router.pathname === "/bangalore/s2-data-science" ||
       router.pathname === "/bangalore/s2-data-science-generic" ||
+      router.pathname === "/bangalore/s2-artificial-intelligence-generic" ||
+      router.pathname === "/bangalore/s2-machine-learning-generic" ||
+      router.pathname === "/bangalore/s2-business-analytics-generic" ||
+      router.pathname === "/bangalore/s2-data-analytics-generic" ||
       router.pathname === "/bangalore/s2-machine-learning" ||
       router.pathname === "/bangalore/s2-artificial-intelligence" ||
       router.pathname === "/bangalore/s2-data-analytics" ||
@@ -1272,6 +1280,6 @@ const Form = ({
       </form>
     </div>
   );
-}; 
+};
 
 export default Form;

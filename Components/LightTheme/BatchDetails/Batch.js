@@ -145,7 +145,6 @@ function Batch({
               </div>
             );
           })}
-          <div className={styles.white} />
         </div>
       </div>
 
