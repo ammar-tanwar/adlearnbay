@@ -35,18 +35,18 @@ export default function Home({ formotp }) {
   return (
     <div>
       <Head>
-        <title>Full Stack Software Development Course</title>
+        <title>Learn System Design Course</title>
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
         <meta
           name="description"
-          content="Learn Full Stack Software Development Course. Get a chance to work with Maang Companies and participate in live, interactive online sessions led by tech experts to gain real-time project experience."
+          content="Learn System Design Course with a chance to work at Maang Companies and participate in live sessions led by tech experts to gain real-time project experience."
         />
         <meta
           name="Keywords"
-          content="Full Stack Software Development Course,Best Full Stack Software Development Course, Online Full Stack Software Development Course, Learn Full Stack Software development Course"
+          content="system design course, system design courses, system design training, best system design course, learn system design, system design program, system design online course, best course for system design, low level system design course, system design best course, online system design course, live system design course"
         />
         <script
           dangerouslySetInnerHTML={{
