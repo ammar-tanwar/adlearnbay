@@ -3,6 +3,11 @@
     text-align: center;
 }
 
+.section2Fisrst {
+    padding: 50px 100px 50px 100px;
+    text-align: center;
+}
+
 .section2 h1 {
     font-size: 37px;
 }
@@ -26,6 +31,11 @@
     font-size: 26px;
     font-weight: 500;
     margin: 0;
+    text-align: center;
+}
+
+.section2Fisrst .BoxIconDiv {
+    margin: 30px 0px;
 }
 
 .BoxIconDiv {
@@ -77,9 +87,32 @@
     color: #fff;
 }
 
+.FirstSec {
+    background: linear-gradient(90deg, rgba(225, 241, 245, 0.5) 0.18%, rgba(225, 241, 245, 0) 46.58%, rgba(225, 241, 245, 0.5) 99.17%);
+    padding: 10px 100px 10px 100px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.FirstSec h1 {
+    font-size: 37px;
+}
+
+
 @media (max-width: 481px) {
     .section2 {
         padding: 20px;
+    }
+
+    .FirstSec {
+        background: linear-gradient(90deg, rgba(225, 241, 245, 0.5) 0.18%, rgba(225, 241, 245, 0) 46.58%, rgba(225, 241, 245, 0.5) 99.17%);
+        padding: 20px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .FirstSec h1 {
+        font-size: 24px;
     }
 
     .BoxIconDiv {
@@ -94,6 +127,10 @@ display: none;
     }
     .section2 h1 {
         font-size: 24px;
+    }
+    .section2Fisrst {
+        padding: 30px 20px;
+        text-align: center;
     }
     .DivImg {
         margin: 30px 0px;
