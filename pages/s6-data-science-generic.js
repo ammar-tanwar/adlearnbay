@@ -1,17 +1,17 @@
 import Head from "next/head";
 import React, { useState } from "react";
-import Popup from "../../Components/Popup/Popup";
-import Form from "../../Components/Form/Form";
-import Navbar from "../../Components/CoursePage/Navbar/Navbar";
-import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
-import HeroSection from "../../Components/LightTheme/FirstSection/HeroSection";
-import Testimonial from "../../Components/LightTheme/SixthSection/Testimonial";
-import SecondSection from "../../Components/LightTheme/SecondSection/SecondSection";
-import ThirdSection from "../../Components/LightTheme/ThirdSection/ThirdSection";
-import FourthSection from "../../Components/LightTheme/FourthSection/FourthSection";
-import SeventhSection from "../../Components/LightTheme/SeventhSection/SeventhSection";
-import EightSection from "../../Components/LightTheme/EightSection/EightSection";
-import SyllabusSection from "../../Components/LightTheme/SyllabusSection/SyllabusSection";
+import Popup from "../Components/Popup/Popup";
+import Form from "../Components/Form/Form";
+import Navbar from "../Components/CoursePage/Navbar/Navbar";
+import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
+import HeroSection from "../Components/LightTheme/FirstSection/HeroSection";
+import Testimonial from "../Components/LightTheme/SixthSection/Testimonial";
+import SecondSection from "../Components/LightTheme/SecondSection/SecondSection";
+import ThirdSection from "../Components/LightTheme/ThirdSection/ThirdSection";
+import FourthSection from "../Components/LightTheme/FourthSection/FourthSection";
+import SeventhSection from "../Components/LightTheme/SeventhSection/SeventhSection";
+import EightSection from "../Components/LightTheme/EightSection/EightSection";
+import SyllabusSection from "../Components/LightTheme/SyllabusSection/SyllabusSection";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -28,6 +28,7 @@ export default function Home() {
           content="Want to earn salary hike of 250% ? Our Data Science course 
  will boost salary. Apply Now!"
         />
+
         <meta
           name="Keywords"
           content="data science course, data science course for working professional, data science course fee, data science course duration, data science course syllabus, data science online course"
@@ -90,11 +91,11 @@ export default function Home() {
         </Popup>
         <HeroSection
           deskTopPara="Choose Specialization over Generalization"
-          h1="Data Science Course In "
-          hSpan="Bangalore"
+          h1="Data Science Course with"
+          hSpan="Domain Specialization for Professionals"
           para="Successfully transition careers through our courses & real-time capstone projects. 
           All while making your previous work experience count!"
-          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Bangalore-generic.jpg"
+          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/data+science+and+ai.jpg"
         />
         <SecondSection
           p1="IBM Certified"
