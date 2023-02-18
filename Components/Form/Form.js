@@ -302,6 +302,7 @@ const Form = ({
     router.pathname === "/data-science-certification-courses-s6" ||
     router.pathname === "/advance-ai-ml-certification-s6" ||
     router.pathname === "/data-science-ai-cert-for-managers-leaders-s6" ||
+    router.pathname === "/s6-data-science-generic" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s6"
   ) {
     // -====================  Returning Audience - S6 END POINT ==========================--------
@@ -593,6 +594,7 @@ const Form = ({
       (router.pathname === "/s2-machine-learning-training-generic" &&
         downloadBrochure) ||
       (router.pathname === "/s3-data-science" && downloadBrochure) ||
+      (router.pathname === "/s6-data-science-generic" && downloadBrochure) ||
       (router.pathname === "/s2-machine-learning" && downloadBrochure) ||
       (router.pathname === "/s2-job-guarantee" && downloadBrochure) ||
       (router.pathname === "/s2-data-analytics" && downloadBrochure) ||
@@ -730,6 +732,7 @@ const Form = ({
       router.pathname === "/s2-machine-learning-syllabus-generic" ||
       router.pathname === "/s2-machine-learning-training-generic" ||
       router.pathname === "/s3-data-science" ||
+      router.pathname === "/s6-data-science-generic" ||
       router.pathname === "/s2-machine-learning" ||
       router.pathname === "/s2-job-guarantee" ||
       router.pathname === "/s2-data-analytics" ||
@@ -795,6 +798,7 @@ const Form = ({
       router.pathname === "/s2-data-science-training" ||
       router.pathname === "/s2-data-science-institute" ||
       router.pathname === "/s4-data-science" ||
+      router.pathname === "/s6-data-science-generic" ||
       router.pathname === "/s2-data-science-placement" ||
       router.pathname === "/s2-data-science-certification" ||
       router.pathname === "/s2-machine-learning-advance" ||
