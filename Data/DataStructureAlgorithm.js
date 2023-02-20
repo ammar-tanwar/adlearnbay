@@ -218,15 +218,12 @@ export const DataStructureAlgorithmData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Morning Batch  :- (Mon-Wed-Fri)",
+          title: "Weekend Morning Batch  :- (Sat-Sun)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 17th February 2023 (FSSD)",
-                  "Time : 07:30 AM to 09:30 AM",
-                ],
+                desc: ["Date : 25th February 2023", "Time : 8 AM to 11 AM"],
               },
             },
           ],
@@ -236,14 +233,14 @@ export const DataStructureAlgorithmData = [
       },
       {
         Module0: {
-          title: "Weekend Morning Batch  :- (Sat-Sun)",
+          title: "Weekday Morning Batch  :- (Mon-Wed-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 18th February 2023 (FSSD)",
-                  "Time : 8 AM to 11 AM",
+                  "Date : 27th February 2023",
+                  "Time : 07:30 AM to 09:30 AM",
                 ],
               },
             },
@@ -486,15 +483,12 @@ export const BestDataStructureAlgorithmData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Morning Batch  :- (Mon-Wed-Fri)",
+          title: "Weekend Morning Batch  :- (Sat-Sun)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 17th February 2023 (FSSD)",
-                  "Time : 07:30 AM to 09:30 AM",
-                ],
+                desc: ["Date : 25th February 2023", "Time : 8 AM to 11 AM"],
               },
             },
           ],
@@ -504,14 +498,14 @@ export const BestDataStructureAlgorithmData = [
       },
       {
         Module0: {
-          title: "Weekend Morning Batch  :- (Sat-Sun)",
+          title: "Weekday Morning Batch  :- (Mon-Wed-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 18th February 2023 (FSSD)",
-                  "Time : 8 AM to 11 AM",
+                  "Date : 27th February 2023",
+                  "Time : 07:30 AM to 09:30 AM",
                 ],
               },
             },
@@ -754,15 +748,12 @@ export const DataStructureCourseData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Morning Batch  :- (Mon-Wed-Fri)",
+          title: "Weekend Morning Batch  :- (Sat-Sun)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 17th February 2023 (FSSD)",
-                  "Time : 07:30 AM to 09:30 AM",
-                ],
+                desc: ["Date : 25th February 2023", "Time : 8 AM to 11 AM"],
               },
             },
           ],
@@ -772,14 +763,14 @@ export const DataStructureCourseData = [
       },
       {
         Module0: {
-          title: "Weekend Morning Batch  :- (Sat-Sun)",
+          title: "Weekday Morning Batch  :- (Mon-Wed-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 18th February 2023 (FSSD)",
-                  "Time : 8 AM to 11 AM",
+                  "Date : 27th February 2023",
+                  "Time : 07:30 AM to 09:30 AM",
                 ],
               },
             },
@@ -1023,15 +1014,12 @@ export const DataStructureSyllabusData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Morning Batch  :- (Mon-Wed-Fri)",
+          title: "Weekend Morning Batch  :- (Sat-Sun)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 17th February 2023 (FSSD)",
-                  "Time : 07:30 AM to 09:30 AM",
-                ],
+                desc: ["Date : 25th February 2023", "Time : 8 AM to 11 AM"],
               },
             },
           ],
@@ -1041,14 +1029,14 @@ export const DataStructureSyllabusData = [
       },
       {
         Module0: {
-          title: "Weekend Morning Batch  :- (Sat-Sun)",
+          title: "Weekday Morning Batch  :- (Mon-Wed-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 18th February 2023 (FSSD)",
-                  "Time : 8 AM to 11 AM",
+                  "Date : 27th February 2023",
+                  "Time : 07:30 AM to 09:30 AM",
                 ],
               },
             },
@@ -1292,15 +1280,12 @@ export const DataStructureAlgoCourseData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Morning Batch  :- (Mon-Wed-Fri)",
+          title: "Weekend Morning Batch  :- (Sat-Sun)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: [
-                  "Date : 17th February 2023 (FSSD)",
-                  "Time : 07:30 AM to 09:30 AM",
-                ],
+                desc: ["Date : 25th February 2023", "Time : 8 AM to 11 AM"],
               },
             },
           ],
@@ -1310,14 +1295,14 @@ export const DataStructureAlgoCourseData = [
       },
       {
         Module0: {
-          title: "Weekend Morning Batch  :- (Sat-Sun)",
+          title: "Weekday Morning Batch  :- (Mon-Wed-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
                 desc: [
-                  "Date : 18th February 2023 (FSSD)",
-                  "Time : 8 AM to 11 AM",
+                  "Date : 27th February 2023",
+                  "Time : 07:30 AM to 09:30 AM",
                 ],
               },
             },

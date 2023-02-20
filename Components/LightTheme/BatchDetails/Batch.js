@@ -31,21 +31,6 @@ function Batch({
           </div>
         ) : (
           <div className={styles.NewBatch}>
-            <div className={styles.NewBlue}>
-              <div>
-                <p className={styles.listDay}>Weekday Morning (Mon-Wed-Fri)</p>
-              </div>
-              <div>
-                <p className={styles.list}>
-                  <MdDateRange className={styles.iconOrange} />
-                  17th February 2023 (FSSD)
-                </p>
-                <p className={styles.list}>
-                  <BiTimeFive className={styles.iconBlue} />
-                  07:30 AM to 09:30 AM
-                </p>
-              </div>
-            </div>
             <div className={styles.NewOrange}>
               <div>
                 <p className={styles.listDay}>Weekend Morning (Sat-Sun)</p>
@@ -53,10 +38,25 @@ function Batch({
               <div>
                 <p className={styles.list}>
                   <MdDateRange className={styles.iconOrange} />
-                  18th February 2023 (FSSD)
+                  25th February 2023
                 </p>
                 <p className={styles.list}>
                   <BiTimeFive className={styles.iconBlue} />8 AM to 11 AM
+                </p>
+              </div>
+            </div>
+            <div className={styles.NewBlue}>
+              <div>
+                <p className={styles.listDay}>Weekday Morning (Mon-Wed-Fri)</p>
+              </div>
+              <div>
+                <p className={styles.list}>
+                  <MdDateRange className={styles.iconOrange} />
+                  27th February 2023
+                </p>
+                <p className={styles.list}>
+                  <BiTimeFive className={styles.iconBlue} />
+                  07:30 AM to 09:30 AM
                 </p>
               </div>
             </div>
@@ -87,23 +87,6 @@ function Batch({
           </div>
         ) : (
           <div className={styles.NewBatch}>
-            <div className={styles.NewBlue}>
-              <div>
-                <p className={styles.listDay}>Weekday Morning (Mon-Wed-Fri)</p>
-              </div>
-              <div>
-                <p className={styles.list}>
-                  <MdDateRange className={styles.iconOrange} />
-                  17th February 2023 (FSSD)
-                </p>
-              </div>
-              <div>
-                <p className={styles.list}>
-                  <BiTimeFive className={styles.iconBlue} />
-                  07:30 AM to 09:30 AM
-                </p>
-              </div>
-            </div>
             <div className={styles.NewOrange}>
               <div>
                 <p className={styles.listDay}>Weekend Morning (Sat-Sun)</p>
@@ -111,12 +94,25 @@ function Batch({
               <div>
                 <p className={styles.list}>
                   <MdDateRange className={styles.iconOrange} />
-                  18th February 2023 (FSSD)
+                  25th February 2023
                 </p>
+                <p className={styles.list}>
+                  <BiTimeFive className={styles.iconBlue} />8 AM to 11 AM
+                </p>
+              </div>
+            </div>
+            <div className={styles.NewBlue}>
+              <div>
+                <p className={styles.listDay}>Weekday Morning (Mon-Wed-Fri)</p>
               </div>
               <div>
                 <p className={styles.list}>
-                  <BiTimeFive className={styles.iconBlue} />8 AM to 11 AM
+                  <MdDateRange className={styles.iconOrange} />
+                  27th February 2023
+                </p>
+                <p className={styles.list}>
+                  <BiTimeFive className={styles.iconBlue} />
+                  07:30 AM to 09:30 AM
                 </p>
               </div>
             </div>
