@@ -149,79 +149,64 @@ function Batch({
       </div>
 
       <div className={styles.desktopView}>
-        <div className={styles.CourseFee}>
-          <div className={styles.heading}>
+        <div className={styles.heading}></div>
+        {WebDev ? (
+          <div className={styles.NewBatch}>
+          <div className={styles.NewBlue}>
+            <div>
+              <p className={styles.listDay}>Weekday Morning (Mon-Fri)</p>
+            </div>
+            <div>
+              <p className={styles.list}>
+                <MdDateRange className={styles.iconOrange} />
+                13th February 2023
+              </p>
+            </div>
+            <div>
+              <p className={styles.list}>
+                <BiTimeFive className={styles.iconBlue} />
+                7 AM to 9 AM
+              </p>
+            </div>
           </div>
-          {WebDev ? (
-            <div className={styles.BatchDetailsTop}>
-              <div>
-                <div className={styles.BatchDetails}>
-                  <p className={styles.list}>
-                    <AiOutlineBars className={styles.icon} />
-                    <b>Batch Type</b>
-                  </p>
-                  <p className={styles.list}>Weekday Morning (Mon-Fri)</p>
-                </div>
-              </div>
-              <div>
-                <div className={styles.BatchDetails}>
-                  <p className={styles.list}>
-                    <MdDateRange className={styles.icon} />
-                    <b>Date</b>
-                  </p>
-                  <p className={styles.list}>13th February 2023</p>
-                </div>
-              </div>
-              <div>
-                <div className={styles.BatchDetails}>
-                  <p className={styles.list}>
-                    <BiTimeFive className={styles.icon} />
-                    <b>Time</b>
-                  </p>
-                  <p className={styles.list}>7 AM to 9 AM</p>
-                </div>
-              </div>
-              <div className={styles.btnWrapper}>
-                <button onClick={popupShow}>Enroll Now</button>
-              </div>
-            </div>
-          ) : (
-            <div className={styles.batch}>
-              <div className={styles.BatchDetailsTop}>
-                <div>
-                  <div className={styles.BatchDetails}>
-                    <p className={styles.list}>
-                      <AiOutlineBars className={styles.icon} />
-                      <b>Batch Type</b>
-                    </p>
-                    <p className={styles.list}>Weekday Morning (Mon-Wed-Fri)</p>
-                    <p className={styles.list}>Weekend Morning (Sat-Sun)</p>
-                  </div>
-                </div>
-                <div>
-                  <div className={styles.BatchDetails}>
-                    <p className={styles.list}>
-                      <MdDateRange className={styles.icon} />
-                      <b>Date</b>
-                    </p>
-                    <p className={styles.list}>17th February 2023 (FSSD)</p>
-                    <p className={styles.list}>18th February 2023 (FSSD)</p>
-                  </div>
-                </div>
-                <div>
-                  <div className={styles.BatchDetails}>
-                    <p className={styles.list}>
-                      <BiTimeFive className={styles.icon} />
-                      <b>Time</b>
-                    </p>
-                    <p className={styles.list}>07:30 AM to 09:30 AM</p>
-                    <p className={styles.list}>8 AM to 11 AM</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          )}
         </div>
+        ) : (
+          <div className={styles.NewBatch}>
+            <div className={styles.NewBlue}>
+              <div>
+                <p className={styles.listDay}>Weekday Morning (Mon-Wed-Fri)</p>
+              </div>
+              <div>
+                <p className={styles.list}>
+                  <MdDateRange className={styles.iconOrange} />
+                  17th February 2023 (FSSD)
+                </p>
+              </div>
+              <div>
+                <p className={styles.list}>
+                  <BiTimeFive className={styles.iconBlue} />
+                  07:30 AM to 09:30 AM
+                </p>
+              </div>
+            </div>
+            <div className={styles.NewOrange}>
+              <div>
+                <p className={styles.listDay}>Weekend Morning (Sat-Sun)</p>
+              </div>
+              <div>
+                <p className={styles.list}>
+                  <MdDateRange className={styles.iconOrange} />
+                  18th February 2023 (FSSD)
+                </p>
+              </div>
+              <div>
+                <p className={styles.list}>
+                  <BiTimeFive className={styles.iconBlue} />8 AM to 11 AM
+                </p>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     </section>
   );
