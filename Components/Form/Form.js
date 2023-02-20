@@ -164,6 +164,12 @@ const Form = ({
     router.pathname === "/bangalore/s2-data-analytics-certification" ||
     router.pathname === "/bangalore/s2-data-science-training" ||
     router.pathname === "/bangalore/s2-machine-learning-training" ||
+    router.pathname === "/bangalore/s2-artificial-intelligence-institute-generic" ||
+    router.pathname === "/bangalore/s2-business-analytics-training-generic" ||
+    router.pathname === "/bangalore/s2-data-analytics-certification-generic" ||
+    router.pathname === "/bangalore/s2-data-analytics-training-generic" ||
+    router.pathname === "/bangalore/s2-data-science-training-generic" ||
+    router.pathname === "/bangalore/s2-machine-learning-training-generic" ||
     //  chennai
 
     router.pathname === "/chennai/s2-data-science" ||
@@ -181,6 +187,9 @@ const Form = ({
     router.pathname === "/chennai/s2-machine-learning-generic" ||
     router.pathname === "/chennai/s2-business-analytics-generic" ||
     router.pathname === "/chennai/s2-data-analytics-generic" ||
+    router.pathname === "/chennai/s2-business-analytics-training-generic" ||
+    router.pathname === "/chennai/s2-data-analytics-training-generic" ||
+    router.pathname === "/chennai/s2-machine-learning-training-generic" ||
     //  delhi
 
     router.pathname === "/delhi/s2-data-science" ||
@@ -213,6 +222,10 @@ const Form = ({
     router.pathname === "/hyderabad/s2-machine-learning-generic" ||
     router.pathname === "/hyderabad/s2-business-analytics-generic" ||
     router.pathname === "/hyderabad/s2-data-analytics-generic" ||
+    router.pathname === "/hyderabad/s2-artificial-intelligence-training-generic" ||
+    router.pathname === "/hyderabad/s2-business-analytics-training-generic" ||
+    router.pathname === "/hyderabad/s2-data-science-training-generic" ||
+    router.pathname === "/hyderabad/s2-machine-learning-training-generic" ||
     //  mumbai
 
     router.pathname === "/mumbai/s2-data-science" ||
@@ -247,6 +260,13 @@ const Form = ({
     router.pathname === "/pune/s2-data-science-institute" ||
     router.pathname === "/pune/s2-data-science-training" ||
     router.pathname === "/pune/s2-machine-learning-training" ||
+    router.pathname === "/pune/s2-artificial-intelligence-training-generic" ||
+    router.pathname === "/pune/s2-business-analytics-training-generic" ||
+    router.pathname === "/pune/s2-data-analytics-institute-generic" ||
+    router.pathname === "/pune/s2-data-analytics-training-generic" ||
+    router.pathname === "/pune/s2-data-science-training-generic" ||
+    router.pathname === "/pune/s2-data-science-institute-generic" ||
+    router.pathname === "/pune/s2-machine-learning-training-generic" ||
     router.pathname === "/pune/s2-data-analytics"
   ) {
     // -==================== Google - S2 END POINT ==========================--------
@@ -861,6 +881,12 @@ const Form = ({
       router.pathname === "/bangalore/s2-data-analytics-certification" ||
       router.pathname === "/bangalore/s2-data-science-training" ||
       router.pathname === "/bangalore/s2-machine-learning-training" ||
+      router.pathname === "/bangalore/s2-artificial-intelligence-institute-generic" ||
+      router.pathname === "/bangalore/s2-business-analytics-training-generic" ||
+      router.pathname === "/bangalore/s2-data-analytics-certification-generic" ||
+      router.pathname === "/bangalore/s2-data-analytics-training-generic" ||
+      router.pathname === "/bangalore/s2-data-science-training-generic" ||
+      router.pathname === "/bangalore/s2-machine-learning-training-generic" ||
       //  chennai
 
       router.pathname === "/chennai/s2-data-science" ||
@@ -878,6 +904,9 @@ const Form = ({
       router.pathname === "/chennai/s2-machine-learning-generic" ||
       router.pathname === "/chennai/s2-business-analytics-generic" ||
       router.pathname === "/chennai/s2-data-analytics-generic" ||
+      router.pathname === "/chennai/s2-business-analytics-training-generic" ||
+      router.pathname === "/chennai/s2-data-analytics-training-generic" ||
+      router.pathname === "/chennai/s2-machine-learning-training-generic" ||
       //  delhi
 
       router.pathname === "/delhi/s2-data-science" ||
@@ -910,6 +939,10 @@ const Form = ({
       router.pathname === "/hyderabad/s2-machine-learning-generic" ||
       router.pathname === "/hyderabad/s2-business-analytics-generic" ||
       router.pathname === "/hyderabad/s2-data-analytics-generic" ||
+      router.pathname === "/hyderabad/s2-artificial-intelligence-training-generic" ||
+      router.pathname === "/hyderabad/s2-business-analytics-training-generic" ||
+      router.pathname === "/hyderabad/s2-data-science-training-generic" ||
+      router.pathname === "/hyderabad/s2-machine-learning-training-generic" ||
       //  mumbai
 
       router.pathname === "/mumbai/s2-data-science" ||
@@ -944,6 +977,13 @@ const Form = ({
       router.pathname === "/pune/s2-artificial-intelligence-generic" ||
       router.pathname === "/pune/s2-machine-learning-generic" ||
       router.pathname === "/pune/s2-business-analytics-generic" ||
+      router.pathname === "/pune/s2-artificial-intelligence-training-generic" ||
+      router.pathname === "/pune/s2-business-analytics-training-generic" ||
+      router.pathname === "/pune/s2-data-analytics-institute-generic" ||
+      router.pathname === "/pune/s2-data-analytics-training-generic" ||
+      router.pathname === "/pune/s2-data-science-training-generic" ||
+      router.pathname === "/pune/s2-data-science-institute-generic" ||
+      router.pathname === "/pune/s2-machine-learning-training-generic" ||
       router.pathname === "/pune/s2-data-analytics-generic"
     ) {
       router.push("/Thank-you");

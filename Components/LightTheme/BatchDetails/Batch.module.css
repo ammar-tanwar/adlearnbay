@@ -2,275 +2,16 @@
   /* Mobile View Batch details */
 
 .Syllabus {
-
     margin: 50px 100px 50px 100px;
   }
-  
-  .syllabusLeft {
-    margin: 0px 10px;
-    position: relative;
-  }
-  .syllabusLeft p {
-    font-size: 18px;
-    color: #646464;
-  }
-  .syllabusLeft h4 {
-    font-size: 36px;
-    font-weight: 800;
-  }
-  .Syllabusbutton {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  }
-  
-  .Button {
-    border-radius: 6px;
-  }
-  
-  .ques {
-    display: flex;
-    justify-content: space-between;
-    border-radius: 8px;
-  
-    padding: 15px 20px 10px 20px;
-    align-items: center;
-    cursor: pointer;
-    margin-top: -13px;
-    height: 60px;
-  
-    margin-bottom: 23px;
-  }
-  .quesO {
-    display: flex;
-    justify-content: space-between;
-    border-radius: 8px 8px 0px 0px;
-  
-    padding: 15px 20px 10px 20px;
-    align-items: center;
-    margin-top: -10px;
-    -webkit-box-shadow: 0px 0px 13px 0px rgba(0, 114, 188, 0.15);
-    -moz-box-shadow: 0px 0px 13px 0px rgba(0, 114, 188, 0.15);
-    box-shadow: 0px 0px 13px 0px rgba(0, 114, 188, 0.15);
-  
-    cursor: pointer;
-  }
-  .ques h2,
-  .quesO h2 {
-    font-size: 16px;
-    font-weight: 400;
-    color: rgb(28, 28, 28);
-  }
-  .ans {
-    margin-bottom: 5px;
-  }
-  .ans {
-    padding: 5px 20px 10px 20px;
-    color: rgb(90, 90, 90);
-    margin-bottom: 15px;
-    -webkit-box-shadow: 0px 0px 13px 0px rgba(0, 114, 188, 0.15);
-    -moz-box-shadow: 0px 0px 13px 0px rgba(0, 114, 188, 0.15);
-    box-shadow: 0px 0px 13px 0px rgba(0, 114, 188, 0.15);
-    border-radius: 0px 0px 8px 8px;
-  }
-  .ansV {
-    display: none;
-  }
-  
-  .QInner {
-    display: grid;
-    grid-template-columns: 3% 97%;
-    z-index: 2;
-    background-color: #fff;
-  }
-  
-  .bIcons {
-    color: #0072bc;
-    font-size: 14px;
-  }
-  
-  .PIcons {
-    font-size: 26px;
-    margin-right: 10px;
-    color: #edb552;
-  }
-  
-  .line {
-    margin-top: 35px;
-    z-index: 1;
-    margin-left: 28px;
-  }
-  
-  .FaqWrapper {
-    border-left: 2px solid #0487d9 !important;
-    margin-top: 22px;
-    margin-left: 7px;
-    padding-top: 2px;
-    padding-left: 22px;
-    margin-bottom: -23px;
-    z-index: 0;
-  }
-  
-  .syllabusRight {
-    position: sticky;
-    position: -webkit-sticky;
-    top: 80px;
-    z-index: 1;
-    margin: 0px 10px;
-  }
-  .PProgram {
-    border-radius: 4px 4px 0px 0px;
-  }
-  .PProgram > p {
-    font-size: 16px;
-    margin: 0;
-    color: #0072bc;
-    font-weight: 600;
-    padding: 15px 20px 0px 20px;
-  }
-  .PProgram p span {
-    padding-bottom: 5px;
-    border-bottom: 2px solid #edb552;
-  }
-  .PProgramInner {
-    display: grid;
-    grid-template-columns: 49% 49%;
-  
-    font-size: 14px;
-  
-    padding: 10px 20px 10px 50px;
-  }
-  .PProgramInners {
-    font-size: 14px;
-    padding: 40px 20px;
-  }
-  .PProgrammains {
-    background: #ffffff;
-    border-width: 0px 6px;
-    display: flex;
-    flex-flow: column;
-    gap: 20px;
-    border-style: solid;
-    border-color: #0072bc;
-    position: relative;
-    z-index: 10;
-    border-radius: 17px;
-  }
-  .PProgrammain {
-    background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/syllabus-sideLine.png");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-bottom: 70px;
-  }
-  .PProgramInner div,
-  .PProgrammains p {
-    display: flex;
-    gap: 8px;
-    align-items: center;
-  }
-  
-  .PProgrammains h5 {
-    margin: 0;
-    text-align: center;
-    font-size: 22px;
-    position: absolute;
-    margin: auto;
-    left: 45px;
-    top: -15px;
-    justify-content: center;
-    font-weight: 600;
-  }
-  .PProgrammains h5 span {
-    padding-bottom: 5px;
-    border-bottom: 4px solid #edb552;
-  }
-  .PProgramInner p {
-    font-size: 14px;
-    font-weight: 600;
-    color: black;
-  }
-  .PProgramInner p span {
-    font-size: 11px;
-    color: #7c7c7c;
-  }
-  .shadowImg {
-    position: absolute;
-    left: -10px;
-    width: 100%;
-    height: auto;
-    z-index: 0;
-    bottom: -40px;
-
-  }
-
   .mobileView{
     display: none;
   }
-
-
   .desktopView{
     display: block;
   }
 
  /* DeskTop View Batch details */
-
- .CourseFee {
-  border-style: solid;
-  border-width: 1px 1px 1px 1px;
-  border-color: #a4c3e6;
-  box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
-  padding: 20px 10px 10px 10px;
-  width: 95%;
-  align-items: center;
-  margin: auto;
-  border-radius: 10px;
-  background-size: cover;
-}
-
-.CourseFeeh {
-  margin: 70px 100px 70px 100px;
-}
-
-.phead {
-  font-size: 30px;
-  font-weight: 400;
-  text-align: center;
-  margin: 0;
-}
-
-.listcheck {
-  display: flex;
-  align-items: center;
-  flex-flow: wrap;
-  margin-top: 30px;
-  justify-content: center;
-}
-
-.list {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 25px;
-  color: black;
-  margin: 0;
-  display: flex;
-  align-items: center;
-}
-
-.icon {
-  font-size: 24px;
-  color: #2d9cd7;
-  margin-right: 5px;
-}
-
-.BatchDetailsTop {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-top: 0px;
-}
-
-
 .NewBatch {
   display: flex;
   gap: 20px;
@@ -315,6 +56,12 @@
   color: #0072BC;
   font-size: 18px;
   font-weight: 600;
+}
+
+.list {
+  margin: 0;
+  display: flex;
+  align-items: center;
 }
 
 
@@ -422,6 +169,7 @@
     }
     .list {
       margin: 0px 0px 10px 10px;
+      font-size: 14px;
     }
     .phead {
       font-size: 30px;
@@ -435,6 +183,36 @@
     }
   .listcheck {
     justify-content: flex-start;
+  }
+
+
+  .NewBlue, .NewOrange {
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    align-items: center;
+  }
+
+  .listDay {
+    margin: 0;
+    padding: 0;
+    color: #0072BC;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .NewBatch .iconOrange {
+    color: #edb552;
+    font-size: 24px;
+      margin-right: 5px;
+  }
+  
+  .NewBatch .iconBlue {
+    color: #0072BC;
+    font-size: 24px;
+      margin-right: 5px;
   }
   }
   
