@@ -1,23 +1,17 @@
 import Head from "next/head";
-import styles from "../../styles/Home.module.css";
+import React, { useState } from "react";
 import Popup from "../../Components/Popup/Popup";
 import Form from "../../Components/Form/Form";
 import Navbar from "../../Components/CoursePage/Navbar/Navbar";
-import CityFooter from "../../Components/CityComponents/CityFooter/CityFooter";
-import LearnSupport from "../../Components/CoursePage/LearnSupport/LearnSupport";
-import React, { useState } from "react";
-import FirstSection from "../../Components/CityComponents/FirstSection/FirstSection";
-import HiringPatners from "../../Components/CityComponents/HiringPatnerWithReview/HiringPatners";
-import SyllabusNew from "../../Components/CoursePage/SyllabusNew/SyllabusNew";
-import CityImage from "../../Components/CityComponents/CityImages/CityImage";
-import OurExpert from "../../Components/CoursePage/OurExpert/OurExpert";
-import Certificate from "../../Components/CoursePage/CertificateTab/CertificateTabAdvance";
-import Project from "../../Components/CoursePage/Project/Project";
 import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
-import ProgramWithHighLight from "../../Components/CityComponents/ProgramWithHighLight/ProgramWithHighLight";
-import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
-import { DataScienceCourseData } from "../../Data/pune/DataScienceCourse";
-import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
+import HeroSection from "../../Components/LightTheme/FirstSection/HeroSection";
+import Testimonial from "../../Components/LightTheme/SixthSection/Testimonial";
+import SecondSection from "../../Components/LightTheme/SecondSection/SecondSection";
+import ThirdSection from "../../Components/LightTheme/ThirdSection/ThirdSection";
+import FourthSection from "../../Components/LightTheme/FourthSection/FourthSection";
+import SeventhSection from "../../Components/LightTheme/SeventhSection/SeventhSection";
+import EightSection from "../../Components/LightTheme/EightSection/EightSection";
+import SyllabusSection from "../../Components/LightTheme/SyllabusSection/SyllabusSection";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -38,6 +32,7 @@ export default function Home() {
           name="Keywords"
           content="data science course, data science course for working professional, data science course fee, data science course duration, data science course syllabus, data science online course"
         />
+
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
@@ -83,126 +78,56 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} jobDesc={true} />
+        <Navbar popup={true} brochureButton={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
           </div>
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
-            {/* <p>Fill the below Details to get started</p> */}
-
-            <Form popup={true} setTrigger={setPopups} jobDesc={true} />
+            <Form popup={true} setTrigger={setPopups} />
           </div>
         </Popup>
-        <FirstSection
-          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/PuneTopWeb.jpg"
-          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/PuneTopMob.jpg"
-          courseName="Data Science Course"
-          cityName="In Pune"
-          ptag="Data science is the study of data with the aim of gaining critical 
-        business insights. It is a multidisciplinary method for analysing massive
-        volumes of data. Join this course in Pune and get hands on experience 
-        by working with real data sets during Real time projects."
+        <HeroSection
+          deskTopPara="Choose Specialization over Generalization"
+          h1="Data Science Course In "
+          hSpan="Pune"
+          para="Successfully transition careers through our courses & real-time capstone projects. 
+          All while making your previous work experience count!"
+          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/pune-generic.png"
         />
-        <div className={styles.program1}>
-          <ProgramInfo
-            p1={DataScienceCourseData[0].ProgramInfo.p1}
-            p11={DataScienceCourseData[0].ProgramInfo.p11}
-            p2={DataScienceCourseData[0].ProgramInfo.p2}
-            p22={DataScienceCourseData[0].ProgramInfo.p22}
-            p3={DataScienceCourseData[0].ProgramInfo.p3}
-            p33={DataScienceCourseData[0].ProgramInfo.p33}
-            p4={DataScienceCourseData[0].ProgramInfo.p4}
-            p44={DataScienceCourseData[0].ProgramInfo.p44}
-          />
-        </div>
-        <HiringPatners topHead="Our Hiring Partner's In Pune" />
-        <div className={styles.Feature} id="Feature">
-          <ProgramWithHighLight
-            title="Data Science Course Features in Pune"
-            Box1h5={DataScienceCourseData[0].BoxShape.Box1h5}
-            box1desc={DataScienceCourseData[0].BoxShape.box1desc}
-            Box2h5={DataScienceCourseData[0].BoxShape.Box2h5}
-            box2desc={DataScienceCourseData[0].BoxShape.box2desc}
-            Box3h5={DataScienceCourseData[0].BoxShape.Box3h5}
-            box3desc={DataScienceCourseData[0].BoxShape.box3desc}
-            Box4h5={DataScienceCourseData[0].BoxShape.Box4h5}
-            box4desc={DataScienceCourseData[0].BoxShape.box4desc}
-            HHeading="Course Details"
-            Duration="250+ Hours"
-            InterviewCalls=" 10 "
-            Projects="12+"
-            CourseFee="₹ 95,000 +GST "
-            Domain="7+"
-          />
-        </div>
-        <SyllabusNew
-          syllabus={DataScienceCourseData[0].syllabus}
-          CSyllabus="Data Science Course Syllabus In Pune"
-          CourseHighlights={DataScienceCourseData[0].CourseHighlights}
-          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
-          popupHead={DataScienceCourseData[0].popupHead}
-          hours={DataScienceCourseData[0].hours}
-          project={DataScienceCourseData[0].project}
+        <SecondSection
+          p1="IBM Certified"
+          p11="Capstone Projects"
+          p2="5-star"
+          p22="Industry-standard Training"
+          p3="3-year"
+          p33="Subscription Model"
+          p4="1:1 Support"
+          p44="Dedicated Program"
         />
-        <CityImage
-          DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityPuneWeb.jpg"
-          MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityPuneMob.jpg"
-          cityName="पुणे"
+        <ThirdSection />
+        <FourthSection
+          h1="Program Highlights"
+          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
+          img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/weekend+and+weekday+batch.jpg"
+          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/extra+dout+clearance+sessionn.jpg"
+          img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
         />
-        <OurExpert
-          H5="Tools Covered"
-          img1={DataScienceCourseData[0].OurExpert.img1}
-          img2={DataScienceCourseData[0].OurExpert.img2}
-          img3={DataScienceCourseData[0].OurExpert.img3}
-          img4={DataScienceCourseData[0].OurExpert.img4}
-          img5={DataScienceCourseData[0].OurExpert.img5}
-          img6={DataScienceCourseData[0].OurExpert.img6}
-          img7={DataScienceCourseData[0].OurExpert.img7}
-          img8={DataScienceCourseData[0].OurExpert.img8}
-          img9={DataScienceCourseData[0].OurExpert.img9}
-          img10={DataScienceCourseData[0].OurExpert.img10}
-          img11={DataScienceCourseData[0].OurExpert.img11}
-          img12={DataScienceCourseData[0].OurExpert.img12}
-          img13={DataScienceCourseData[0].OurExpert.img13}
-          img14={DataScienceCourseData[0].OurExpert.img14}
-          img15={DataScienceCourseData[0].OurExpert.img15}
-          img16={DataScienceCourseData[0].OurExpert.img16}
-          img17={DataScienceCourseData[0].OurExpert.img17}
-          img18={DataScienceCourseData[0].OurExpert.img18}
-          img19={DataScienceCourseData[0].OurExpert.img19}
-          img21={DataScienceCourseData[0].OurExpert.img21}
-          img22={DataScienceCourseData[0].OurExpert.img22}
-          img23={DataScienceCourseData[0].OurExpert.img23}
-          img20={DataScienceCourseData[0].OurExpert.img20}
+        <SyllabusSection
+          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our data science course feature practical training with real-time projects and case studies."
+          Hours="250+ Hours"
+          Projects="12+ projects"
+          Module0="Preparatory Classes (Programming + Maths)"
+          Module1="Python for Data Science"
+          Module2="Statistics and Machine Learning"
+          Module3="Data Science Course Tools"
+          Module4="Artificial Intelligence Tools"
         />
-        <Certificate H4="Data Science Certification Course In Pune" />
-        <div className={styles.ProjectWrapper} id="project">
-          <Project
-            popupHead={DataScienceCourseData[0].Project.popupHead}
-            project={DataScienceCourseData[0].Project.project}
-            domain={DataScienceCourseData[0].Project.domain}
-            projectTitle="Hands-on Projects In Pune"
-          />
-        </div>
         <SliderTab />
-        <CourseFee
-          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
-          syllabus={DataScienceCourseData[0].Batch}
-          CourseFeeHead={DataScienceCourseData[0].BatchCourses.CourseFeeHead}
-          CourseFeePara={DataScienceCourseData[0].BatchCourses.CourseFeePara}
-          CourseFeelist1={DataScienceCourseData[0].BatchCourses.CourseFeelist1}
-          CourseFeelist2={DataScienceCourseData[0].BatchCourses.CourseFeelist2}
-          CourseFeelist3={DataScienceCourseData[0].BatchCourses.CourseFeelist3}
-          CourseFeelist4={DataScienceCourseData[0].BatchCourses.CourseFeelist4}
-          CourseFeelist5={DataScienceCourseData[0].BatchCourses.CourseFeelist5}
-        />
-        <LearnSupport
-          headForCity={true}
-          cityName="24/7 Learner’s Support In Pune"
-        />
-        <CityFooter cityName="Pune" />
+        <Testimonial />
+        <SeventhSection />
+        <EightSection />
       </main>
     </div>
   );

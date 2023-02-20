@@ -149,7 +149,7 @@ export default function Home({ formotp }) {
           para="We are dedicated to making our full stack coding course accessible.  We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
           dataScience={true}
         />
-        <Batch
+        <Batch WebDev={true}
           formotp={true}
           syllabusDesc={FullStackWebCourseData[0].syllabusDesc}
           syllabus={FullStackWebCourseData[0].Batch}
