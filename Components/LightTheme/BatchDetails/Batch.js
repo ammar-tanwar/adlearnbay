@@ -96,7 +96,10 @@ function Batch({
                   <MdDateRange className={styles.iconOrange} />
                   25th February 2023
                 </p>
-                <p className={styles.list}>
+               
+              </div>
+              <div>
+              <p className={styles.list}>
                   <BiTimeFive className={styles.iconBlue} />8 AM to 11 AM
                 </p>
               </div>
@@ -110,7 +113,9 @@ function Batch({
                   <MdDateRange className={styles.iconOrange} />
                   27th February 2023
                 </p>
-                <p className={styles.list}>
+              </div>
+              <div>
+              <p className={styles.list}>
                   <BiTimeFive className={styles.iconBlue} />
                   07:30 AM to 09:30 AM
                 </p>
