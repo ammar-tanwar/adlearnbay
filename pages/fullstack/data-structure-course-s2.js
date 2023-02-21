@@ -11,6 +11,7 @@ import SecondSection from "../../Components/LightTheme/SecondSection/SecondSecti
 import ThirdSection from "../../Components/LightTheme/ThirdSection/ThirdSection";
 import FourthSection from "../../Components/LightTheme/FourthSection/FourthSection";
 import SeventhSection from "../../Components/LightTheme/SeventhSection/SeventhSection";
+import ProgramHighlights from "../../Components/LightTheme/ProgramHighlights/ProgramHighlights";
 import EightSection from "../../Components/LightTheme/EightSection/EightSection";
 import Batch from "../../Components/LightTheme/BatchDetails/Batch";
 import SyllabusSection from "../../Components/LightTheme/SyllabusSection/SyllabusSection";
@@ -145,6 +146,9 @@ export default function Home({ formotp }) {
           CourseFeeAndFinancing="Data Structures Course Fee & Financing"
           para="We are dedicated to making our Data Structures and Algorithms Course accessible. We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
         />
+        <ProgramHighlights
+          fullStackCont={true}
+          />
         <Batch
           formotp={true}
           syllabusDesc={BestDataStructureAlgorithmData[0].syllabusDesc}

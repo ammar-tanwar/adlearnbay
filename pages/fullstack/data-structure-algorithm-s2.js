@@ -8,6 +8,7 @@ import { BestDataStructureAlgorithmData } from "../../Data/DataStructureAlgorith
 import HeroSection from "../../Components/LightTheme/FirstSection/HeroSection";
 import Testimonial from "../../Components/LightTheme/SixthSectionFssd/Testimonial";
 import SecondSection from "../../Components/LightTheme/SecondSection/SecondSection";
+import ProgramHighlights from "../../Components/LightTheme/ProgramHighlights/ProgramHighlights";
 import ThirdSection from "../../Components/LightTheme/ThirdSection/ThirdSection";
 import FourthSection from "../../Components/LightTheme/FourthSection/FourthSection";
 import SeventhSection from "../../Components/LightTheme/SeventhSection/SeventhSection";
@@ -145,6 +146,9 @@ export default function Home({ formotp }) {
           CourseFeeAndFinancing="DSA Course Fee & Financing"
           para="We are dedicated to making our Data Structures and Algorithms Course accessible. We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
         />
+        <ProgramHighlights
+          fullStackCont={true}
+          />
         <Batch
           formotp={true}
           syllabusDesc={BestDataStructureAlgorithmData[0].syllabusDesc}

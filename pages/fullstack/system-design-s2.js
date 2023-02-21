@@ -1,7 +1,6 @@
 import Head from "next/head";
 import React, { useState } from "react";
 import Popup from "../../Components/Popup/Popup";
-import Form from "../../Components/Form/Form";
 import FormOtp from "../../Components/FormOtp/FormOtp";
 import Navbar from "../../Components/CoursePage/Navbar/Navbar";
 import { ProgramFee } from "../../Components/LightTheme/ProgramFee/ProgramFee";
@@ -10,6 +9,7 @@ import HeroSection from "../../Components/LightTheme/FirstSection/HeroSection";
 import Testimonial from "../../Components/LightTheme/SixthSectionFssd/Testimonial";
 import SecondSection from "../../Components/LightTheme/SecondSection/SecondSection";
 import ThirdSection from "../../Components/LightTheme/ThirdSection/ThirdSection";
+import ProgramHighlights from "../../Components/LightTheme/ProgramHighlights/ProgramHighlights";
 import FourthSection from "../../Components/LightTheme/FourthSection/FourthSection";
 import SeventhSection from "../../Components/LightTheme/SeventhSection/SeventhSection";
 import EightSection from "../../Components/LightTheme/EightSection/EightSection";
@@ -149,6 +149,9 @@ export default function Home({ formotp }) {
           para="We are dedicated to making our System Design Course accessible.  We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
           dataScience={true}
         />
+        <ProgramHighlights
+          fullStackCont={true}
+          />
         <Batch
           formotp={true}
           syllabusDesc={SytstemDesignCourseData[0].syllabusDesc}
