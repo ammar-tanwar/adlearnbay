@@ -35,7 +35,7 @@ export default function Home({ formotp }) {
   return (
     <div>
       <Head>
-      <title>Data Structure Course Syllabus</title>
+        <title>Data Structure Course Syllabus</title>
         <meta
           name="description"
           content="From our Data Structures Course Syllabus checkout what our experts will teach you in Data Structures & Algorithms Course to get a chance to work at Maang Companies and participate in live sessions led by tech experts to gain real-time project experience."
@@ -150,9 +150,14 @@ export default function Home({ formotp }) {
           CourseFeeAndFinancing="Data Structures and Algorithms Course Fee & Financing"
           para="We are dedicated to making our Data Structures and Algorithms Course accessible. We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
         />
-        <ProgramHighlights
+                <ProgramHighlights
           fullStackCont={true}
-          />
+          Ques=" We provide the Best Course for DSA, and here's why!"
+          ans="Our trainers emphasize solving real-world problems practically - giving you access to the best course for data structures and algorithms. Our course has been carefully crafted to provide comprehensive learning modules that equip individuals with the necessary skills to program efficiently and effectively. By taking the best course for data structures and algorithms, you can gain the expertise required to excel in these fields."
+          Bot1="Tech giants look for developers with exceptional data structures and algorithms skills to solve problems"
+          Bot2="Data structures and algorithms play a crucial role in managing your data and writing optimized code"
+          Bot3="Our DSA course will facilitate a successful career transition to a product-based company
+          "/>
         <Batch
           formotp={true}
           syllabusDesc={BestDataStructureAlgorithmData[0].syllabusDesc}

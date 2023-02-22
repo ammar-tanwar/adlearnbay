@@ -151,15 +151,18 @@ export default function Home({ formotp }) {
         />
         <ProgramHighlights
           fullStackCont={true}
-          />
+          Ques="In what ways can a System Design course benefit an SDE?"
+          ans="Our system design course can significantly benefit software developers as it equips them with the necessary knowledge and skills to design and create systems that meet the specific needs and expectations of an organization. System design is a structured process that involves the use of modeling languages to convey information and knowledge in a system structure that adheres to a uniform set of guidelines and criteria. The course covers both high-level and low-level system design, which allows developers to gain a comprehensive understanding of the entire system design process."
+          Bot1="The primary emphasis of our system design course is to equip individuals with the skills to construct and expand technically-oriented systems"
+          Bot2="System design course can aid in overcoming challenges associated with developing scalable systems that can cater to millions of users"
+          Bot3="System design course will ease the process of career transition to product-based companies"
+        />
         <Batch
           formotp={true}
           syllabusDesc={SytstemDesignCourseData[0].syllabusDesc}
           syllabus={SytstemDesignCourseData[0].Batch}
           CourseFeeHead="System Design Course: Batch Details"
-          CourseFeePara={
-            SytstemDesignCourseData[0].BatchCourses.CourseFeePara
-          }
+          CourseFeePara={SytstemDesignCourseData[0].BatchCourses.CourseFeePara}
           CourseFeelist1={
             SytstemDesignCourseData[0].BatchCourses.CourseFeelist1
           }
