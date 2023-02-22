@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import styles from "./ProgramHighlights.module.css";
-import { FaDownload } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 
-function ProgramHighlights({fullStackCont}) {
+function ProgramHighlights({fullStackCont, Ques, ans ,Head1, Head2, Head3, Bot1, Bot2, Bot3}) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -24,41 +24,30 @@ function ProgramHighlights({fullStackCont}) {
       {fullStackCont ? (
         <>
           <div className={styles.left}>
-            <h1>How will our System Design Course help you as an SDE?</h1>
-            <p>
-            Our course will help developers in transitioning to a product-based company and upgrading their system design skillset.
-            </p>
+            <h1>{Ques}</h1>
+            <p>{ans}</p>
             <button onClick={popupShow} className={styles.button}>
               Download Brochure
-              <FaDownload className={styles.icon} />
+              <FaArrowRight className={styles.icon} />
             </button>
           </div>
           <div className={styles.right}>
             <div className={styles.divRight}>
-              <FaDownload className={styles.iconRight} />
+              <FaArrowRight className={styles.iconRight} />
               <div>
-                <p className={styles.HeadP}>We focus on your strengths</p>
-                <p className={styles.pBot}>
-                Learn to build technically-based systems
-                </p>
+                <p className={styles.pBot}>{Bot1}</p>
               </div>
             </div>
             <div className={styles.divRight}>
-              <FaDownload className={styles.iconRight} />
+              <FaArrowRight className={styles.iconRight} />
               <div>
-                <p className={styles.HeadP}>Overcome difficulties with system design</p>
-                <p className={styles.pBot}>
-                This will help you build scalable systems
-                </p>
+                <p className={styles.pBot}>{Bot2}</p>
               </div>
             </div>
             <div className={styles.divRight}>
-              <FaDownload className={styles.iconRight} />
+              <FaArrowRight className={styles.iconRight} />
               <div>
-                <p className={styles.HeadP}>Transition to top MNCs</p>
-                <p className={styles.pBot}>
-                Get placed at the product companies with 100% interview help
-                </p>
+                <p className={styles.pBot}>{Bot3}</p>
               </div>
             </div>
           </div>
@@ -74,12 +63,12 @@ function ProgramHighlights({fullStackCont}) {
             </p>
             <button onClick={popupShow} className={styles.button}>
               Download Brochure
-              <FaDownload className={styles.icon} />
+              <FaArrowRight className={styles.icon} />
             </button>
           </div>
           <div className={styles.right}>
             <div className={styles.divRight}>
-              <FaDownload className={styles.iconRight} />
+              <FaArrowRight className={styles.iconRight} />
               <div>
                 <p className={styles.HeadP}>Live Interactive Sessions</p>
                 <p className={styles.pBot}>
@@ -88,7 +77,7 @@ function ProgramHighlights({fullStackCont}) {
               </div>
             </div>
             <div className={styles.divRight}>
-              <FaDownload className={styles.iconRight} />
+              <FaArrowRight className={styles.iconRight} />
               <div>
                 <p className={styles.HeadP}>Live Interactive Sessions</p>
                 <p className={styles.pBot}>
@@ -97,7 +86,7 @@ function ProgramHighlights({fullStackCont}) {
               </div>
             </div>
             <div className={styles.divRight}>
-              <FaDownload className={styles.iconRight} />
+              <FaArrowRight className={styles.iconRight} />
               <div>
                 <p className={styles.HeadP}>Live Interactive Sessions</p>
                 <p className={styles.pBot}>
