@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Popup from "../../Popup/Popup";
-import Form from "../../Form/Form";
+import FormOtp from "../../FormOtp/FormOtp";
 import styles from "./ProgramHighlights.module.css";
 import { FaArrowRight } from "react-icons/fa";
 
@@ -18,7 +18,7 @@ function ProgramHighlights({fullStackCont, Ques, ans ,Head1, Head2, Head3, Bot1,
         </div>
         <div className="RightPopup">
           <h5>Download Brochure</h5>
-          <Form popup={true} downloadBrochure setTrigger={setPopups} />
+          <FormOtp popup={true} downloadBrochure setTrigger={setPopups} />
         </div>
       </Popup>
       {fullStackCont ? (
