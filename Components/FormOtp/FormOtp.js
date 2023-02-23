@@ -112,7 +112,7 @@ function FormOtp({
     router.pathname === "/fullstack/software-development-course-s2-generic" ||
     router.pathname === "/fullstack/software-programming-course-s2" ||
     router.pathname === "/fullstack/data-structures-and-algorithms-course-s2" ||
-    router.pathname === "/fullstack/data-structures-and-algorithms-course-s2" ||
+    router.pathname === "/fullstack/data-structures-and-algorithms-course-s2-generic" ||
     router.pathname === "/fssd-s4" ||
     router.pathname === "/fssd-s5" ||
     // router.pathname === "/fswd-s4" ||

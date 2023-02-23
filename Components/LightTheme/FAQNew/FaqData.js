@@ -1736,6 +1736,59 @@ export const FaqData9 = [
     open: false,
   },
 ];
+// for the content of dsa page add one more questiion
+export const FaqDataMore9 = [
+  {
+    id: 0,
+    ques: "What are the prerequisites for the Advanced Software Development Program?",
+    ans: "  Nothing but basic coding knowledge is required to start with this course.",
+    open: true,
+  },
+  {
+    id: 4,
+    ques: "What are the programming languages that are used in Data Structures and Algorithms Course?",
+    ans: "Java, Python, C++, Javascript, etc are available with us to teach Data Structures and Algorithms Course.",
+    open: false,
+  },
+  {
+    id: 1,
+    ques: "What if I miss a few classes due to an emergency?",
+    ans: "You will be given substitute classes in other batches if you miss a few classes.But if you were unable to attend more classes, you could choose to switch batches and enroll in the next batch.",
+    open: false,
+  },
+  {
+    id: 2,
+    ques: "What is a Flexi Subscription in the Advanced Software Development Program?",
+    ans: `Those who register for live online/hybrid training in advanced software development course are eligible for a Flexi Pass. We will get you access to all of the ongoing live classes, recorded videos, and premium study materials for a three-year period. You are free to pause, resume, and finish your study during these three years, and you are welcome to attend any classes whenever it is most convenient for you.`,
+    open: false,
+  },
+  {
+    id: 3,
+    ques: "What’s the duration of this Software Development training program?",
+    ans: `The duration of this advanced software development program is about 6.5 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+
+    Classes will be conducted on Weekdays and Weekend Batches.
+    Weekday batch - 8 months
+       Monday to Friday - 2 hours/day
+    Weekend batch - 9 months
+    Saturday & Sunday - 3.5 hours/day
+    After the completion of term 3, you can start working on real-time projects and attend job interviews.`,
+    open: false,
+  },
+  {
+    //Check how to do this 5th Question
+    id: 4,
+    ques: "What is the mode of training for this advanced software development course at Learnbay?",
+    ans: "We offer both online and hybrid modes of training. You can select your preferred mode based on your needs.Online Mode: You can only participate in live, interactive classes online (no recorded video-based session is available),Hybrid Mode: For all theoretical sessions, you must participate in live, interactive online lectures. However, for practical sessions, which are typically project-based, you must travel to one of our approved training sites within your city.The following Indian cities have authorized training facilities: Bangalore, Mumbai, Chennai, Hyderabad, Delhi, Kolkata, and Pune. India, the US, and Canada all have access to the live online mode.", // Do this
+    open: false,
+  },
+  {
+    id: 5,
+    ques: "How can I opt for a Hybrid mode of learning? ",
+    ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. While you enter into the project modules, then you have to visit the Learnbay authorized training centers within your city. The dedicated counselor assigned to you will help you in this regard.",
+    open: false,
+  },
+];
 export const DomainFaqData9 = [
   {
     id: 0,

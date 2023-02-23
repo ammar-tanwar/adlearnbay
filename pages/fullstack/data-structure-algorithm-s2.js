@@ -17,7 +17,7 @@ import Batch from "../../Components/LightTheme/BatchDetails/Batch";
 import SyllabusSection from "../../Components/LightTheme/SyllabusSection/SyllabusSection";
 import FAQNew from "../../Components/LightTheme/FAQNew/FAQNewcer";
 import {
-  FaqData9,
+  FaqDataMore9,
   DomainFaqData9,
   PaymentFaqData9,
   CapstoneFaqData9,
@@ -180,7 +180,7 @@ export default function Home({ formotp }) {
         />
         <Testimonial formotp={true} />
         <FAQNew
-          FaqDatas={FaqData9}
+          FaqDatas={FaqDataMore9}
           DomainFaqDatas={DomainFaqData9}
           PaymentFaqDatas={PaymentFaqData9}
           CapstoneFaqDatas={CapstoneFaqData9}

@@ -106,7 +106,7 @@ export default function Home() {
           p44="Dedicated Program"
         />
         <CourseSection/>
-        <ProgramHighlights />
+        <ProgramHighlights formCommon={true}/>
         <SliderTab />
         <Testimonial />
         <SeventhSection />

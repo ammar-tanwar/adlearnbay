@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import Popup from "../../Popup/Popup";
 import FormOtp from "../../FormOtp/FormOtp";
+import Form from "../../Form/Form";
 import styles from "./ProgramHighlights.module.css";
 import { FaArrowRight } from "react-icons/fa";
 
-function ProgramHighlights({fullStackCont, Ques, ans ,Head1, Head2, Head3, Bot1, Bot2, Bot3}) {
+function ProgramHighlights({fullStackCont, Ques, ans, Bot1, Bot2, Bot3, formCommon}) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -18,7 +19,11 @@ function ProgramHighlights({fullStackCont, Ques, ans ,Head1, Head2, Head3, Bot1,
         </div>
         <div className="RightPopup">
           <h5>Download Brochure</h5>
-          <FormOtp popup={true} downloadBrochure setTrigger={setPopups} />
+          {formCommon ? (
+          <Form popup={true} downloadBrochure setTrigger={setPopups} />
+      ) : (
+        <FormOtp popup={true} downloadBrochure setTrigger={setPopups} />
+)}
         </div>
       </Popup>
       {fullStackCont ? (
