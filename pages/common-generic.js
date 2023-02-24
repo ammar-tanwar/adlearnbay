@@ -60,7 +60,6 @@ export default function Home() {
               "brandSubTitle":"The Learner's Path",
               "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
               "welcomeText":"Hi there! How can I help you?",
-              "messageText":"Hello, I have a question about {{page_link}}",
               "backgroundColor":"#0a5f54",
               "ctaText":"Start Chat",
               "borderRadius":"25",
@@ -105,8 +104,8 @@ export default function Home() {
           p4="1:1 Support"
           p44="Dedicated Program"
         />
-        <CourseSection/>
-        <ProgramHighlights formCommon={true}/>
+        <CourseSection />
+        <ProgramHighlights formCommon={true} />
         <SliderTab />
         <Testimonial />
         <SeventhSection />

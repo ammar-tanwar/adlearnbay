@@ -71,7 +71,7 @@ export default function Home({ formotp }) {
                         "brandSubTitle":"The Learner's Path",
                         "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
                         "welcomeText":"Hi there! How can I help you?",
-                        "messageText":"Hello, I have a question about {{page_link}}",
+                         
                         "backgroundColor":"#0a5f54",
                         "ctaText":"Start Chat",
                         "borderRadius":"25",
@@ -153,7 +153,8 @@ export default function Home({ formotp }) {
           Bot1="Tech giants look for developers with exceptional data structures and algorithms skills to solve problems"
           Bot2="Data structures and algorithms play a crucial role in managing your data and writing optimized code"
           Bot3="Our DSA course will facilitate a successful career transition to a product-based company
-          "/>
+          "
+        />
         <Batch
           formotp={true}
           syllabusDesc={BestDataStructureAlgorithmData[0].syllabusDesc}

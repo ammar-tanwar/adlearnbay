@@ -28,10 +28,15 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Data Structure Course Syllabus and DSA Training 2022
-        </title>
-        <meta name="description" content="Best way to learn Data Structures and Algorithms with System Design Course Online, mastering any one coding skill - Interaction in limited batch, No Cost EMI." />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
+        <title>Data Structure Course Syllabus and DSA Training 2022</title>
+        <meta
+          name="description"
+          content="Best way to learn Data Structures and Algorithms with System Design Course Online, mastering any one coding skill - Interaction in limited batch, No Cost EMI."
+        />
+        <link
+          rel="icon"
+          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
@@ -55,8 +60,7 @@ export default function Home() {
                   "brandSubTitle":"The Learner's Path",
                   "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
                   "welcomeText":"Hi there! How can I help you?",
-                  "messageText":"Hello, I have a question about {{page_link}}",
-                  "backgroundColor":"#0a5f54",
+              "backgroundColor":"#0a5f54",
                   "ctaText":"Start Chat",
                   "borderRadius":"25", 
                   "autoShow":false,
@@ -70,10 +74,10 @@ export default function Home() {
                 x.parentNode.insertBefore(s, x);`,
           }}
         />
-
-
       </Head>
-      <main>  <Navbar popup={true} dataScience={true} formotp={true} />
+      <main>
+        {" "}
+        <Navbar popup={true} dataScience={true} formotp={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -85,7 +89,8 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <FirstSection formotp={true}
+        <FirstSection
+          formotp={true}
           deskTopPara={DsaCourseData[0].FirstSection.deskTopPara}
           mTopPara={DsaCourseData[0].FirstSection.mTopPara}
           mTitle={DsaCourseData[0].FirstSection.mTitle}
@@ -111,7 +116,6 @@ export default function Home() {
             p44={DsaCourseData[0].ProgramInfo.p44}
           />
         </div>
-
         <div className={styles.Feature} id="Feature">
           <BoxShape
             title="Why Enroll In DSA & System Design?"
@@ -126,11 +130,11 @@ export default function Home() {
             headh5="Our proud alumni with successfull career transition"
           />
         </div>
-
         <DomainFaq FaqData={DomainFaqCourseData1} />
         <CourseReview formotp={true} />
-
-        <SyllabusNew formotp={true} syllabusFormotp={true}
+        <SyllabusNew
+          formotp={true}
+          syllabusFormotp={true}
           syllabus={DsaCourseData[0].syllabus}
           syllabusDesc={DsaCourseData[0].syllabusDesc}
           popupHead="Download Course Brochure"
@@ -138,23 +142,27 @@ export default function Home() {
           hours="200+ Hours"
           project="12+ Real Time"
         />
-
-        <ProgramFee Fee={DsaCourseData[0].ProgramFee.Fee} formotp={true}
-          Emi={DsaCourseData[0].ProgramFee.Emi} CourseFeeAndFinancing="Program Fee & Financing"
-          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical." dataScience={true} />
+        <ProgramFee
+          Fee={DsaCourseData[0].ProgramFee.Fee}
+          formotp={true}
+          Emi={DsaCourseData[0].ProgramFee.Emi}
+          CourseFeeAndFinancing="Program Fee & Financing"
+          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."
+          dataScience={true}
+        />
         <SliderTab />
-
         <div className={styles.ProjectWrapper} id="project">
-          <Project formotp={true}
+          <Project
+            formotp={true}
             project={DsaCourseData[0].Project.project}
             domain={DsaCourseData[0].Project.domain}
-            projectTitle={DsaCourseData[0].Project.projectTitle} />
+            projectTitle={DsaCourseData[0].Project.projectTitle}
+          />
         </div>
-
-        <Batch formotp={true}
+        <Batch
+          formotp={true}
           syllabusDesc={DsaCourseData[0].syllabusDesc}
           syllabus={DsaCourseData[0].Batch}
-
           CourseFeeHead={DsaCourseData[0].BatchCourses.CourseFeeHead}
           CourseFeePara={DsaCourseData[0].BatchCourses.CourseFeePara}
           CourseFeelist1={DsaCourseData[0].BatchCourses.CourseFeelist1}

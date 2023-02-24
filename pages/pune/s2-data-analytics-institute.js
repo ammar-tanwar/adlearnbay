@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-      <title>Data Analytics Institute</title>
+        <title>Data Analytics Institute</title>
         <meta
           name="description"
           content="Best data analytics online institute - Get 100% job assistance with 3 years of course subscription. Apply Now."
@@ -58,7 +58,6 @@ export default function Home() {
               "brandSubTitle":"The Learner's Path",
               "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
               "welcomeText":"Hi there! How can I help you?",
-              "messageText":"Hello, I have a question about {{page_link}}",
               "backgroundColor":"#0a5f54",
               "ctaText":"Start Chat",
               "borderRadius":"25",
