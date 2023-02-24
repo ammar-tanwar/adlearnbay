@@ -71,7 +71,7 @@ export default function Home({ formotp }) {
                         "brandSubTitle":"The Learner's Path",
                         "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
                         "welcomeText":"Hi there! How can I help you?",
-                        "messageText":"Hello, I have a question about {{page_link}}",
+                         
                         "backgroundColor":"#0a5f54",
                         "ctaText":"Start Chat",
                         "borderRadius":"25",
@@ -149,29 +149,18 @@ export default function Home({ formotp }) {
           para="We are dedicated to making our full stack coding course accessible.  We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
           dataScience={true}
         />
-        <Batch WebDev={true}
+        <Batch
+          WebDev={true}
           formotp={true}
           syllabusDesc={FullStackWebCourseData[0].syllabusDesc}
           syllabus={FullStackWebCourseData[0].Batch}
           CourseFeeHead="Full Stack Web Development Course: Batch Details"
-          CourseFeePara={
-            FullStackWebCourseData[0].BatchCourses.CourseFeePara
-          }
-          CourseFeelist1={
-            FullStackWebCourseData[0].BatchCourses.CourseFeelist1
-          }
-          CourseFeelist2={
-            FullStackWebCourseData[0].BatchCourses.CourseFeelist2
-          }
-          CourseFeelist3={
-            FullStackWebCourseData[0].BatchCourses.CourseFeelist3
-          }
-          CourseFeelist4={
-            FullStackWebCourseData[0].BatchCourses.CourseFeelist4
-          }
-          CourseFeelist5={
-            FullStackWebCourseData[0].BatchCourses.CourseFeelist5
-          }
+          CourseFeePara={FullStackWebCourseData[0].BatchCourses.CourseFeePara}
+          CourseFeelist1={FullStackWebCourseData[0].BatchCourses.CourseFeelist1}
+          CourseFeelist2={FullStackWebCourseData[0].BatchCourses.CourseFeelist2}
+          CourseFeelist3={FullStackWebCourseData[0].BatchCourses.CourseFeelist3}
+          CourseFeelist4={FullStackWebCourseData[0].BatchCourses.CourseFeelist4}
+          CourseFeelist5={FullStackWebCourseData[0].BatchCourses.CourseFeelist5}
         />
         <Testimonial formotp={true} />
         <FAQNew

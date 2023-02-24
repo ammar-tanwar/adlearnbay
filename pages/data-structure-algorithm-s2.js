@@ -34,7 +34,7 @@ export default function Home({ formotp }) {
   return (
     <div>
       <Head>
-      <title>Live Interactive Dsa Course</title>
+        <title>Live Interactive Dsa Course</title>
         <meta
           name="description"
           content="Learn Data Structures and Algorithms Course with a chance to work at Maang Companies and participate in live sessions led by tech experts to gain real-time project experience."
@@ -70,7 +70,7 @@ export default function Home({ formotp }) {
                         "brandSubTitle":"The Learner's Path",
                         "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
                         "welcomeText":"Hi there! How can I help you?",
-                        "messageText":"Hello, I have a question about {{page_link}}",
+                         
                         "backgroundColor":"#0a5f54",
                         "ctaText":"Start Chat",
                         "borderRadius":"25",

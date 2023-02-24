@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-      <title>Learn Online Artificial Intelligence Course</title>
+        <title>Learn Online Artificial Intelligence Course</title>
         <meta
           name="description"
           content="Top Artificial Intelligence course with Domain specialization and get 100% placement assistance "
@@ -58,7 +58,6 @@ export default function Home() {
               "brandSubTitle":"The Learner's Path",
               "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
               "welcomeText":"Hi there! How can I help you?",
-              "messageText":"Hello, I have a question about {{page_link}}",
               "backgroundColor":"#0a5f54",
               "ctaText":"Start Chat",
               "borderRadius":"25",

@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-      <title>Data Analytics Training</title>
+        <title>Data Analytics Training</title>
         <meta
           name="description"
           content="Online Live-Interactive data analytics Course. Register Now and Get Placed at Top MNCs"
@@ -31,7 +31,6 @@ export default function Home() {
           name="Keywords"
           content="Data  analytics training, Data analytics online training, Best online Data analytics training, online Data analytics training, Data analytics training for working professionals, Data analytcis training fee, Data analytics training duration "
         />
-
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
@@ -59,7 +58,6 @@ export default function Home() {
               "brandSubTitle":"The Learner's Path",
               "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
               "welcomeText":"Hi there! How can I help you?",
-              "messageText":"Hello, I have a question about {{page_link}}",
               "backgroundColor":"#0a5f54",
               "ctaText":"Start Chat",
               "borderRadius":"25",

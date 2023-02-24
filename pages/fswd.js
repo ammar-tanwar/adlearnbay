@@ -65,7 +65,6 @@ export default function Home() {
               "brandSubTitle":"The Learner's Path",
               "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
               "welcomeText":"Hi there! How can I help you?",
-              "messageText":"Hello, I have a question about {{page_link}}",
               "backgroundColor":"#0a5f54",
               "ctaText":"Start Chat",
               "borderRadius":"25",
@@ -165,7 +164,8 @@ export default function Home() {
             projectTitle={FullStackWebCourseData[0].Project.projectTitle}
           />
         </div>
-        <Batch WebDev={true}
+        <Batch
+          WebDev={true}
           formotp={true}
           syllabusDesc={FullStackWebCourseData[0].syllabusDesc}
           syllabus={FullStackWebCourseData[0].Batch}

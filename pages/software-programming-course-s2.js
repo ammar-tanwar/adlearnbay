@@ -25,7 +25,7 @@ import {
   SupportFaqData9,
 } from "../Components/LightTheme/FAQNew/FaqData";
 
-export default function Home({formotp}) {
+export default function Home({ formotp }) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -34,7 +34,7 @@ export default function Home({formotp}) {
   return (
     <div>
       <Head>
-      <title>Software Programming Course</title>
+        <title>Software Programming Course</title>
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
@@ -70,7 +70,7 @@ export default function Home({formotp}) {
                         "brandSubTitle":"The Learner's Path",
                         "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
                         "welcomeText":"Hi there! How can I help you?",
-                        "messageText":"Hello, I have a question about {{page_link}}",
+                         
                         "backgroundColor":"#0a5f54",
                         "ctaText":"Start Chat",
                         "borderRadius":"25",
@@ -95,12 +95,12 @@ export default function Home({formotp}) {
           </div>
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
-                    <FormOtp setTrigger={setPopups} popup={true} />
+            <FormOtp setTrigger={setPopups} popup={true} />
           </div>
         </Popup>
         <HeroSection
-        formotp={true}
-        fullStackCont={true}
+          formotp={true}
+          fullStackCont={true}
           deskTopPara="Ace Your Coding Interview at MAANG and Achieve Your Dream Job"
           h1="Full Stack Software Development Course"
           hSpan="for Working Professionals"
@@ -108,7 +108,7 @@ export default function Home({formotp}) {
           sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/fssd-generic.jpeg"
         />
         <SecondSection
-        fullStackCont={true}
+          fullStackCont={true}
           p1="12+ Practical"
           p11="Project Experience"
           p2="Top Product"
@@ -118,9 +118,9 @@ export default function Home({formotp}) {
           p4="1:1 Mentorship"
           p44="Dedicated Program"
         />
-        <ThirdSection formotp={true} fullStackCont={true}/>
-        <FourthSection 
-        fullStackCont={true}
+        <ThirdSection formotp={true} fullStackCont={true} />
+        <FourthSection
+          fullStackCont={true}
           h1="Full Stack Software Development Course Highlights"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/weekend+and+weekday+batch.jpg"
@@ -128,8 +128,8 @@ export default function Home({formotp}) {
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
         />
         <SyllabusSection
-        fullStackCont={true}
-        formotp={true}
+          fullStackCont={true}
+          formotp={true}
           desc="Learnbay offers Full Stack Software Programming Course led by experts working in top MNCs & real-time industrial projects with case studies."
           Hours="300+ Hours"
           Projects="12+ projects"
@@ -172,7 +172,7 @@ export default function Home({formotp}) {
             FullStackSoftwareCourseData[0].BatchCourses.CourseFeelist5
           }
         />
-        <Testimonial formotp={true}/>
+        <Testimonial formotp={true} />
         <FAQNew
           FaqDatas={FaqData9}
           DomainFaqDatas={DomainFaqData9}
@@ -182,8 +182,8 @@ export default function Home({formotp}) {
           MentorshipFaqDatas={MentorshipFaqData9}
           SupportFaqDatas={SupportFaqData9}
         />
-        <SeventhSection fullStackCont={true}/>
-        <EightSection formotp={true}/>
+        <SeventhSection fullStackCont={true} />
+        <EightSection formotp={true} />
       </main>
     </div>
   );

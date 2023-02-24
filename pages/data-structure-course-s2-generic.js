@@ -58,8 +58,7 @@ export default function Home() {
                   "brandSubTitle":"The Learner's Path",
                   "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
                   "welcomeText":"Hi there! How can I help you?",
-                  "messageText":"Hello, I have a question about {{page_link}}",
-                  "backgroundColor":"#0a5f54",
+              "backgroundColor":"#0a5f54",
                   "ctaText":"Start Chat",
                   "borderRadius":"25", 
                   "autoShow":false,
@@ -73,7 +72,6 @@ export default function Home() {
                 x.parentNode.insertBefore(s, x);`,
           }}
         />
-    
       </Head>
       <main>
         {" "}
@@ -96,9 +94,7 @@ export default function Home() {
             DataStructureCourseData[0].FirstSection.spanMTitleText
           }
           title={DataStructureCourseData[0].FirstSection.title}
-          spanTitleText={
-            DataStructureCourseData[0].FirstSection.spanTitleText
-          }
+          spanTitleText={DataStructureCourseData[0].FirstSection.spanTitleText}
           desc={DataStructureCourseData[0].FirstSection.desc}
           src={DataStructureCourseData[0].FirstSection.src}
           width={DataStructureCourseData[0].FirstSection.width}
@@ -180,12 +176,8 @@ export default function Home() {
           formotp={true}
           syllabusDesc={DataStructureCourseData[0].syllabusDesc}
           syllabus={DataStructureCourseData[0].Batch}
-          CourseFeeHead={
-            DataStructureCourseData[0].BatchCourses.CourseFeeHead
-          }
-          CourseFeePara={
-            DataStructureCourseData[0].BatchCourses.CourseFeePara
-          }
+          CourseFeeHead={DataStructureCourseData[0].BatchCourses.CourseFeeHead}
+          CourseFeePara={DataStructureCourseData[0].BatchCourses.CourseFeePara}
           CourseFeelist1={
             DataStructureCourseData[0].BatchCourses.CourseFeelist1
           }

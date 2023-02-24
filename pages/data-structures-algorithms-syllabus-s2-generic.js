@@ -58,8 +58,7 @@ export default function Home() {
                   "brandSubTitle":"The Learner's Path",
                   "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
                   "welcomeText":"Hi there! How can I help you?",
-                  "messageText":"Hello, I have a question about {{page_link}}",
-                  "backgroundColor":"#0a5f54",
+              "backgroundColor":"#0a5f54",
                   "ctaText":"Start Chat",
                   "borderRadius":"25", 
                   "autoShow":false,
@@ -73,7 +72,6 @@ export default function Home() {
                 x.parentNode.insertBefore(s, x);`,
           }}
         />
-    
       </Head>
       <main>
         {" "}
@@ -88,8 +86,8 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-        eventDownload={true}
-          formotp={true} 
+          eventDownload={true}
+          formotp={true}
           deskTopPara={DataStructureSyllabusData[0].FirstSection.deskTopPara}
           mTopPara={DataStructureSyllabusData[0].FirstSection.mTopPara}
           mTitle={DataStructureSyllabusData[0].FirstSection.mTitle}
