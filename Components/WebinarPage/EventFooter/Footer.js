@@ -4,10 +4,17 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import Image from "next/image";
 import React from "react";
 import { useState } from "react";
-import { FaTwitter, FaFacebookF, FaLinkedinIn, FaYoutube, FaInstagram, FaApple, FaAndroid } from "react-icons/fa";
+import {
+  FaTwitter,
+  FaFacebookF,
+  FaLinkedinIn,
+  FaYoutube,
+  FaInstagram,
+  FaApple,
+  FaAndroid,
+} from "react-icons/fa";
 
 const Footerfsd = () => {
-
   const [showMe, setShowMe] = useState(false);
   function toggle() {
     setShowMe(!showMe);
@@ -16,9 +23,19 @@ const Footerfsd = () => {
     <section className={styles.FooterSection}>
       <div className={styles.FooterDiv1}>
         <div className={styles.FooterDivInner}>
-          <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logo-light.png" alt="Learnbay" quality={100}
-            objectFit="contain" width="230px" height="60px" />
-          <p className={styles.FooterInnerli}>Register for our webinar to get a complete understanding of Data Science in Banking Domain, led by industry leaders. Upgrade your career today!</p>
+          <Image
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logo-light.png"
+            alt="Learnbay"
+            quality={100}
+            objectFit="contain"
+            width="230px"
+            height="60px"
+          />
+          <p className={styles.FooterInnerli}>
+            Register for our webinar to get a complete understanding of Data
+            Science in Banking Domain, led by industry leaders. Upgrade your
+            career today!
+          </p>
           <div className={styles.FooterSocial}>
             <FaTwitter className="bIcons" />
             <FaFacebookF className="bIcons" />
@@ -38,8 +55,10 @@ const Footerfsd = () => {
       </div>
       <div className={styles.FooterBottom}>
         <div className={styles.FooterBottomInner}>
-          <p className={styles.FooterInnerB}>Copyright © 2020 Learnbay by www.learnbay.co. All Rights
-            Reserved.</p>
+          <p className={styles.FooterInnerB}>
+            Copyright © 2022 Learnbay by Learnvista Pvt. Ltd. All Rights
+            Reserved.
+          </p>
         </div>
       </div>
     </section>
