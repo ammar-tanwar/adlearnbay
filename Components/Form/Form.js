@@ -383,10 +383,6 @@ const Form = ({
   // -==================== FSD - Ads  END POINT ==========================--------
   if (
     router.pathname === "/fssd-s2" ||
-    router.pathname === "/fssd-institute-program-s2" ||
-    router.pathname === "/fssd-training-s2" ||
-    router.pathname === "/software-development-course-s2" ||
-    router.pathname === "/software-programming-course-s2" ||
     router.pathname === "/fullstack/fssd-s2" ||
     router.pathname === "/fullstack/fssd-institute-program-s2" ||
     router.pathname === "/fullstack/fssd-training-s2" ||
@@ -394,10 +390,6 @@ const Form = ({
     router.pathname === "/fullstack/software-programming-course-s2" ||
     router.pathname === "/fssd-s4" ||
     router.pathname === "/fssd-s5" ||
-    // router.pathname === "/fswd-s4" ||
-    // router.pathname === "/fswd-s5" ||
-    router.pathname === "/fswd-s2" ||
-    router.pathname === "/dsa-s2" ||
     router.pathname === "/dsa-s4" ||
     router.pathname === "/apply-for-counselling-fsd-s2" ||
     router.pathname === "/dsa-s5"
@@ -411,10 +403,8 @@ const Form = ({
   // -==================== Offer Campaign END POINT ==========================--------
   if (
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s8" ||
-    router.pathname === "/dsa-s3" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s9" ||
-    router.pathname === "/apply-for-counselling-s3" ||
-    router.pathname === "/fssd-s3"
+    router.pathname === "/apply-for-counselling-s3"
   ) {
     // -==================== Offer Campaign END POINT ==========================--------
     endPoint = "https://getform.io/f/fd68bf82-a911-435e-9719-7c134a89a731";
@@ -439,13 +429,6 @@ const Form = ({
     // -==================== Marketing ==========================--------
     endPoint = "https://getform.io/f/94c74039-f505-4ebf-922e-b4728bd793e3";
     // -==================== Email Marketing ==========================--------
-  }
-
-  // -====================  Returning Audience - S6 ==========================--------
-  if (router.pathname === "/fssd-s6") {
-    // -====================  Returning Audience - S6 ==========================--------
-    endPoint = "https://getform.io/f/1c8cf486-31ef-4a7f-95b0-45c5f21e7b29";
-    // -====================  Returning Audience - S6 ==========================--------
   }
 
   // -====================  Apply For Counselling Scholarship ==========================--------
@@ -673,12 +656,6 @@ const Form = ({
       (router.pathname === "/fswd" && downloadBrochure) ||
       (router.pathname === "/dsa" && downloadBrochure) ||
       (router.pathname === "/fssd-s2" && downloadBrochure) ||
-      (router.pathname === "/fssd-institute-program-s2" && downloadBrochure) ||
-      (router.pathname === "/fssd-training-s2" && downloadBrochure) ||
-      (router.pathname === "/software-development-course-s2" &&
-        downloadBrochure) ||
-      (router.pathname === "/software-programming-course-s2" &&
-        downloadBrochure) ||
       (router.pathname === "/fullstack/fssd-s2" && downloadBrochure) ||
       (router.pathname === "/fullstack/fssd-institute-program-s2" &&
         downloadBrochure) ||
@@ -691,10 +668,8 @@ const Form = ({
       // (router.pathname === "/fswd-s4" && downloadBrochure) ||
       (router.pathname === "/fssd-s5" && downloadBrochure) ||
       // (router.pathname === "/fswd-s5" && downloadBrochure) ||
-      (router.pathname === "/dsa-s2" && downloadBrochure) ||
       (router.pathname === "/dsa-s4" && downloadBrochure) ||
       (router.pathname === "/dsa-s5" && downloadBrochure) ||
-      (router.pathname === "/fswd-s2" && downloadBrochure) ||
       (router.pathname === "/full-stack-software-development-program" &&
         downloadBrochure) ||
       (router.pathname === "/apply-for-counselling" && downloadBrochure) ||
@@ -807,26 +782,17 @@ const Form = ({
       router.pathname === "/fswd" ||
       router.pathname === "/dsa" ||
       router.pathname === "/fssd-s2" ||
-      router.pathname === "/fssd-institute-program-s2" ||
-      router.pathname === "/fssd-training-s2" ||
-      router.pathname === "/software-development-course-s2" ||
-      router.pathname === "/software-programming-course-s2" ||
       router.pathname === "/fullstack/fssd-s2" ||
       router.pathname === "/fullstack/fssd-institute-program-s2" ||
       router.pathname === "/fullstack/fssd-training-s2" ||
       router.pathname === "/fullstack/software-development-course-s2" ||
       router.pathname === "/fullstack/software-programming-course-s2" ||
-      router.pathname === "/dsa-s3" ||
-      router.pathname === "/fssd-s3" ||
       router.pathname === "/fssd-s4" ||
       // router.pathname === "/fswd-s4" ||
       router.pathname === "/fssd-s5" ||
-      router.pathname === "/fssd-s6" ||
       // router.pathname === "/fswd-s5" ||
-      router.pathname === "/dsa-s2" ||
       router.pathname === "/dsa-s4" ||
       router.pathname === "/dsa-s5" ||
-      router.pathname === "/fswd-s2" ||
       router.pathname === "/full-stack-software-development-program" ||
       router.pathname === "/full-stack-web-development-program" ||
       router.pathname === "/apply-for-counselling-fsd-s2" ||
