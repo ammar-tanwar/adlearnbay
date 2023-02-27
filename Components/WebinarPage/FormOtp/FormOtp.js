@@ -75,8 +75,6 @@ function FormOtp({
   if (
     router.pathname === "/fssd" ||
     router.pathname === "/fswd" ||
-    router.pathname === "/data-structure-algorithm" ||
-    router.pathname === "/system-design" ||
     router.pathname === "/dsa"
   ) {
     // -====================  Organic - S END POINT ==========================--------
@@ -95,13 +93,8 @@ function FormOtp({
     router.pathname === "/fssd-s2" ||
     router.pathname === "/fssd-s4" ||
     router.pathname === "/fssd-s5" ||
-    // router.pathname === "/fswd-s4" ||
-    // router.pathname === "/fswd-s5" ||
-    router.pathname === "/fswd-s2" ||
-    router.pathname === "/dsa-s2" ||
     router.pathname === "/w2a-s2" ||
     router.pathname === "/dsa-s4" ||
-    router.pathname === "/data-structure-algorithm-s2" ||
     router.pathname === "/system-design-s2" ||
     router.pathname === "/apply-for-counselling-fsd-s2" ||
     router.pathname === "/dsa-s5"
@@ -110,13 +103,6 @@ function FormOtp({
     endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
 
     // -====================  FSD - Ads END POINT ==========================--------
-  }
-
-  // -==================== Offer Campaign END POINT ==========================--------
-  if (router.pathname === "/dsa-s3" || router.pathname === "/fssd-s3") {
-    // -==================== Offer Campaign END POINT ==========================--------
-    endPoint = "https://getform.io/f/fd68bf82-a911-435e-9719-7c134a89a731";
-    // -==================== Offer Campaign END POINT ==========================--------
   }
 
   // -====================  Website Learnbay END POINT ==========================--------
@@ -129,13 +115,6 @@ function FormOtp({
     // -====================  Website Learnbay END POINT ==========================--------
     endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
     // -====================  Website Learnbay END POINT ==========================--------
-  }
-
-  // -====================  Returning Audience - S6 ==========================--------
-  if (router.pathname === "/fssd-s6") {
-    // -====================  Returning Audience - S6 ==========================--------
-    endPoint = "https://getform.io/f/1c8cf486-31ef-4a7f-95b0-45c5f21e7b29";
-    // -====================  Returning Audience - S6 ==========================--------
   }
 
   // -==================== Webinar = END POINT ==========================--------
@@ -259,11 +238,9 @@ function FormOtp({
           // (router.pathname === "/fswd-s4" && downloadBrochure) ||
           (router.pathname === "/fssd-s5" && downloadBrochure) ||
           // (router.pathname === "/fswd-s5" && downloadBrochure) ||
-          (router.pathname === "/dsa-s2" && downloadBrochure) ||
           (router.pathname === "/w2a-s2" && downloadBrochure) ||
           (router.pathname === "/dsa-s4" && downloadBrochure) ||
           (router.pathname === "/dsa-s5" && downloadBrochure) ||
-          (router.pathname === "/fswd-s2" && downloadBrochure) ||
           (router.pathname === "/full-stack-software-development-program" &&
             downloadBrochure) ||
           (router.pathname === "/apply-for-counselling" && downloadBrochure) ||
@@ -281,25 +258,17 @@ function FormOtp({
           router.pathname === "/fswd" ||
           router.pathname === "/dsa" ||
           router.pathname === "/fssd-s2" ||
-          router.pathname === "/dsa-s3" ||
-          router.pathname === "/fssd-s3" ||
           router.pathname === "/fssd-s4" ||
           // router.pathname === "/fswd-s4" ||
           router.pathname === "/fssd-s5" ||
-          router.pathname === "/fssd-s6" ||
           // router.pathname === "/fswd-s5" ||
-          router.pathname === "/dsa-s2" ||
           router.pathname === "/w2a-s2" ||
           router.pathname === "/dsa-s4" ||
           router.pathname === "/dsa-s5" ||
-          router.pathname === "/fswd-s2" ||
           router.pathname === "/full-stack-software-development-program" ||
           router.pathname === "/full-stack-web-development-program" ||
           router.pathname === "/apply-for-counselling-fsd-s2" ||
           router.pathname === "/s3-data-science" ||
-          router.pathname === "/data-structure-algorithm" ||
-          router.pathname === "/system-design" ||
-          router.pathname === "/data-structure-algorithm-s2" ||
           router.pathname === "/system-design-s2" ||
           router.pathname === "/dsa-system-design"
         ) {
@@ -377,11 +346,9 @@ function FormOtp({
             // (router.pathname === "/fswd-s4" && downloadBrochure) ||
             (router.pathname === "/fssd-s5" && downloadBrochure) ||
             // (router.pathname === "/fswd-s5" && downloadBrochure) ||
-            (router.pathname === "/dsa-s2" && downloadBrochure) ||
             (router.pathname === "/w2a-s2" && downloadBrochure) ||
             (router.pathname === "/dsa-s4" && downloadBrochure) ||
             (router.pathname === "/dsa-s5" && downloadBrochure) ||
-            (router.pathname === "/fswd-s2" && downloadBrochure) ||
             (router.pathname === "/full-stack-software-development-program" &&
               downloadBrochure) ||
             (router.pathname === "/apply-for-counselling" &&
@@ -400,26 +367,18 @@ function FormOtp({
             router.pathname === "/fswd" ||
             router.pathname === "/dsa" ||
             router.pathname === "/fssd-s2" ||
-            router.pathname === "/dsa-s3" ||
-            router.pathname === "/fssd-s3" ||
             router.pathname === "/fssd-s4" ||
             // router.pathname === "/fswd-s4" ||
             router.pathname === "/fssd-s5" ||
-            router.pathname === "/fssd-s6" ||
             // router.pathname === "/fswd-s5" ||
-            router.pathname === "/dsa-s2" ||
             router.pathname === "/w2a-s2" ||
             router.pathname === "/dsa-s4" ||
             router.pathname === "/dsa-s5" ||
-            router.pathname === "/fswd-s2" ||
             router.pathname === "/full-stack-software-development-program" ||
             router.pathname === "/full-stack-web-development-program" ||
             router.pathname === "/apply-for-counselling-fsd-s2" ||
             router.pathname === "/s3-data-science" ||
-            router.pathname === "/data-structure-algorithm-s2" ||
             router.pathname === "/system-design-s2" ||
-            router.pathname === "/data-structure-algorithm" ||
-            router.pathname === "/system-design" ||
             router.pathname === "/dsa-system-design"
           ) {
             router.push("/Thank-you");
