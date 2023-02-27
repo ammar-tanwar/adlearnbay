@@ -38,7 +38,7 @@ function Batch({
               <div>
                 <p className={styles.list}>
                   <MdDateRange className={styles.iconOrange} />
-                  25th February 2023
+                  12th March 2023
                 </p>
                 <p className={styles.list}>
                   <BiTimeFive className={styles.iconBlue} />8 AM to 11 AM
@@ -47,16 +47,16 @@ function Batch({
             </div>
             <div className={styles.NewBlue}>
               <div>
-                <p className={styles.listDay}>Weekday Morning (Mon-Wed-Fri)</p>
+                <p className={styles.listDay}>Weekday Evening (Mon-Wed-Fri)</p>
               </div>
               <div>
                 <p className={styles.list}>
                   <MdDateRange className={styles.iconOrange} />
-                  27th February 2023
+                  17th March 2023
                 </p>
                 <p className={styles.list}>
                   <BiTimeFive className={styles.iconBlue} />
-                  07:30 AM to 09:30 AM
+                  8 PM to 10 PM
                 </p>
               </div>
             </div>
@@ -94,7 +94,7 @@ function Batch({
               <div>
                 <p className={styles.list}>
                   <MdDateRange className={styles.iconOrange} />
-                  25th February 2023
+                  12th March 2023
                 </p>
                
               </div>
@@ -106,18 +106,18 @@ function Batch({
             </div>
             <div className={styles.NewBlue}>
               <div>
-                <p className={styles.listDay}>Weekday Morning (Mon-Wed-Fri)</p>
+                <p className={styles.listDay}>Weekday Evening (Mon-Wed-Fri)</p>
               </div>
               <div>
                 <p className={styles.list}>
                   <MdDateRange className={styles.iconOrange} />
-                  27th February 2023
+                  17th March 2023
                 </p>
               </div>
               <div>
               <p className={styles.list}>
                   <BiTimeFive className={styles.iconBlue} />
-                  07:30 AM to 09:30 AM
+                  8 PM to 10 PM
                 </p>
               </div>
             </div>
