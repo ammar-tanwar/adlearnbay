@@ -425,6 +425,7 @@ const Form = ({
   if (
     router.pathname === "/apply-for-counselling-marketing" ||
     router.pathname === "/apply-for-counselling-marketing-" ||
+    router.pathname === "/her-career-her-rules" ||
     router.pathname === "/apply-for-counselling-data-science-marketing" ||
     router.pathname === "/step-up-with-learnbay"
   ) {
@@ -607,6 +608,7 @@ const Form = ({
       (router.pathname === "/" && downloadBrochure) ||
       (router.pathname === "/s2-data-science" && downloadBrochure) ||
       (router.pathname === "/s2-data-science-generic" && downloadBrochure) ||
+      (router.pathname === "/her-career-her-rules" && downloadBrochure) ||
       (router.pathname === "/s2-data-science-institute-generic" &&
         downloadBrochure) ||
       (router.pathname === "/s2-data-science-training-generic" &&
@@ -760,6 +762,7 @@ const Form = ({
       router.pathname === "/job-guarantee-or-money-back-data-science-ai-s9" ||
       router.pathname === "/s2-data-science" ||
       router.pathname === "/s2-data-science-generic" ||
+      router.pathname === "/her-career-her-rules" ||
       router.pathname === "/s2-data-science-institute-generic" ||
       router.pathname === "/s2-data-science-training-generic" ||
       router.pathname === "/s2-data-science-syllabus-generic" ||
