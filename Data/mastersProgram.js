@@ -24,7 +24,7 @@ export const mastersProgram = [
       p3: "1:1",
       p33: "Career Support",
       p4: "Financing as low as",
-      p44: "₹ 12,291/month",
+      p44: "₹ 12,292/month",
     },
     BoxShape: {
       title: "Why Enroll In This Program?",
