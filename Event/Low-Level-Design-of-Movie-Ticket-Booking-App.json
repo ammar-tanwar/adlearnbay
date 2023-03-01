@@ -1,0 +1,73 @@
+{
+  "metaInfo": {
+    "title": "Low Level Design of Movie-Ticket Booking App",
+    "desc": "Enroll in the System Design Event and learn from live classes. Get Knowledge by working on industry projects.",
+    "keyword": "System Design",
+    "canonical": "https://course.learnbay.co/Event/Low-Level-Design-of-Movie-Ticket-Booking-App"
+  },
+  "mainData": {
+    "title": "Low Level Design of Movie-Ticket Booking App",
+    "eventDate": "March 12, 2023",
+    "tag": "System Design",
+    "eventTime": "5 p.m. to 7 p.m.",
+    "Duration": "120min",
+    "img": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Intro+to+Full+Stack+Web+Development.png",
+    "register": "764"
+  },
+  "headImg": {
+    "deskimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/upWesite.jpg",
+    "mobimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/upMobile.jpg"
+  },
+  "eventFeatureData": {
+    "heading1": "About this Masterclass",
+    "aboutThisMasterclass": [
+      "Bookmyshow, one of the most popular movie ticket booking apps, has built its platform using a well-designed Low Level Design architecture. LLD has helped them create a user-friendly interface that efficiently handles high volumes of traffic, transactions, and user requests.",
+      "Our masterclass will teach you to design a Movie-Ticket Booking App similar to Bookmyshow, by understanding their LLD principles, identifying key features, and ensuring optimal performance, scalability, and security. ",
+      "Whether you are an experienced developer or a beginner, we will help you build a successful platform that stands out in today's competitive market."
+    ],
+
+    "heading2": "Topics covered in this Masterclass",
+    "topicsCoveredMasterclass": [
+      "Data flow diagram of Movie Ticket Booking App",
+      "How systems handle Real-Time Tracking of APIs",
+      "Build scalable systems for a movie ticket booking app for millions of users"
+    ],
+
+    "speakerName": "Ayush",
+    "speakerDesignation": "Designation : Software Development Engineer",
+    "speakerComp": "Ex JP Morgan, Ex Oracle",
+    "img4": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/userWebinar.png",
+
+    "h1": "100% Live Classes",
+    "h2": "Customized Learning",
+    "h3": "IBM Certified Projects",
+    "h4": "3-year Subscription",
+
+    "heading3": "This Masterclass is for",
+
+    "topicsMasterclass": [
+      "SDEs looking to upskill",
+      "SDEs wishing to convert to Product Companies from Service Companies",
+      "SDEs wanting to learn System Design"
+    ],
+
+    "heading4": "What our Learners have to say",
+
+    "heading5": "About Learnbay Academy",
+    "aboutLearnbay": [
+      "Welcome to Learnbay!",
+      "We are a leading provider of specialized courses in Data Structures and System Design in our Full Stack Software Development Program. We are dedicated to helping working professionals advance their careers and gain the technical expertise needed to succeed in the fast-paced world of technology."
+    ],
+    "aboutLearnbayHeading": "Some of our standout features include: ",
+    "standoutFeatures": [
+      "Curriculum that is developed, supervised and approved by industry experts",
+      "1:1 mentorship from top experts in the field",
+      "Opportunities to gain technical expertise through real-world projects",
+      "Over 120 hiring partners and dedicated placement support",
+      "100% guarantee interview calls"
+    ],
+    "standoutFeaturesLastHead": [
+      "Sign up for a free demo class and enroll in the domain of your choice."
+    ]
+  }
+}
