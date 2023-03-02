@@ -192,7 +192,7 @@ const ThankYouFsd = ({ initialName }) => {
             </button>
           </div>
         </div>
-      </section>
+      </section> 
       <Footer />
     </div>
   );
