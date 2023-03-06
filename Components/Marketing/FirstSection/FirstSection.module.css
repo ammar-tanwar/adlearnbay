@@ -1,66 +1,69 @@
 .FirstSection {
-    padding: 70px 100px;
-    margin-top: 70px;
-    display: flex;
-    background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/WD-header.png");
-    justify-content: space-evenly;
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-items: flex-end;
-    height: 550px;
+  padding: 70px 100px;
+  margin-top: 70px;
+  display: flex;
+  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/WD-header.png");
+  justify-content: space-evenly;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: flex-end;
+  height: 550px;
 }
 
 .content h1 {
-    margin: 0;
-    color: #C31B70;
+  margin: 0;
+  color: #c31b70;
 }
 
 .divContent {
-    border-left: 3px solid;
-    margin-top: 10px;
+  border-left: 3px solid;
+  margin-top: 10px;
 }
 
 .divContent p {
-    margin: 0;
-    margin-left: 10px;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.icon {
+  margin-left: 10px;
+  font-size: 22px;
 }
 
 .btnWrapper button {
-    background-color: #C31B70;
-    border: 0;
-    padding: 12px 30px;
-    font-size: 20px;
+  background-color: #c31b70;
+  border: 0;
+  padding: 12px 30px;
+  font-size: 20px;
 }
 
 @media (max-width: 481px) {
-.FirstSection {
-    height: 320px;
+  .FirstSection {
+    height: 340px;
     background-size: contain;
-    background-color: #E9F4F9;
+    background-color: #e9f4f9;
     padding: 20px;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
     gap: 20px;
     align-items: center;
-}
-.Mnone {
+  }
+  .Mnone {
     display: none;
-}
-.content {
+  }
+  .content {
     display: flex;
     gap: 10px;
     align-items: center;
-}
-.content h1 {
+  }
+  .content h1 {
     font-size: 22px;
-}
-.content p {
+  }
+  .content p {
     font-size: 19px;
-}
-.divContent {
+  }
+  .divContent {
     margin-top: 0;
+  }
 }
-
-}
-

@@ -28,7 +28,7 @@ const Course = ({ popupHead, radio }) => {
         <div className="RightPopup">
           <h5>Download Brochure</h5>
           <p>Please enter the following details to initiate your download</p>
-          <Form setTrigger={setPopups} downloadBrochure radio={true} />
+          <Form setTrigger={setPopups} downloadBrochure radio={true} referral={true}/>
         </div>
       </Popup>
       <div className={styles.courses}>
@@ -100,7 +100,7 @@ const Course = ({ popupHead, radio }) => {
             <FaDownload style={{ marginLeft: "10px" }} />
           </button>
       </div>
-      <div>
+      <div className={styles.img}>
         <Image
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/WD-right-side.png"
           width="350"

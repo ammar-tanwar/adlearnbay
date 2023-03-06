@@ -20,6 +20,7 @@ const Form = ({
   jobPlacee,
   google,
   workExperience,
+  referral,
 }) => {
   const router = useRouter();
   let today = new Date();
@@ -41,6 +42,7 @@ const Form = ({
     jobDescription: "",
     dateTime: "",
     WAdropdown: "",
+    referralCode: "",
     url: router.asPath,
   });
 
@@ -166,7 +168,8 @@ const Form = ({
     router.pathname === "/bangalore/s2-data-analytics-certification" ||
     router.pathname === "/bangalore/s2-data-science-training" ||
     router.pathname === "/bangalore/s2-machine-learning-training" ||
-    router.pathname === "/bangalore/s2-artificial-intelligence-institute-generic" ||
+    router.pathname ===
+      "/bangalore/s2-artificial-intelligence-institute-generic" ||
     router.pathname === "/bangalore/s2-business-analytics-training-generic" ||
     router.pathname === "/bangalore/s2-data-analytics-certification-generic" ||
     router.pathname === "/bangalore/s2-data-analytics-training-generic" ||
@@ -224,7 +227,8 @@ const Form = ({
     router.pathname === "/hyderabad/s2-machine-learning-generic" ||
     router.pathname === "/hyderabad/s2-business-analytics-generic" ||
     router.pathname === "/hyderabad/s2-data-analytics-generic" ||
-    router.pathname === "/hyderabad/s2-artificial-intelligence-training-generic" ||
+    router.pathname ===
+      "/hyderabad/s2-artificial-intelligence-training-generic" ||
     router.pathname === "/hyderabad/s2-business-analytics-training-generic" ||
     router.pathname === "/hyderabad/s2-data-science-training-generic" ||
     router.pathname === "/hyderabad/s2-machine-learning-training-generic" ||
@@ -473,6 +477,7 @@ const Form = ({
         workExperience: "",
         dateTime: "",
         WAdropdown: "",
+        referralCode: "",
         url: router.asPath,
       })
     );
@@ -593,7 +598,8 @@ const Form = ({
       (router.pathname === "/" && downloadBrochure) ||
       (router.pathname === "/s2-data-science" && downloadBrochure) ||
       (router.pathname === "/s2-data-science-generic" && downloadBrochure) ||
-      (router.pathname === "/s2-managers-leaders-program" && downloadBrochure) ||
+      (router.pathname === "/s2-managers-leaders-program" &&
+        downloadBrochure) ||
       (router.pathname === "/s2-master-program" && downloadBrochure) ||
       (router.pathname === "/s2-data-science-institute-generic" &&
         downloadBrochure) ||
@@ -854,9 +860,11 @@ const Form = ({
       router.pathname === "/bangalore/s2-data-analytics-certification" ||
       router.pathname === "/bangalore/s2-data-science-training" ||
       router.pathname === "/bangalore/s2-machine-learning-training" ||
-      router.pathname === "/bangalore/s2-artificial-intelligence-institute-generic" ||
+      router.pathname ===
+        "/bangalore/s2-artificial-intelligence-institute-generic" ||
       router.pathname === "/bangalore/s2-business-analytics-training-generic" ||
-      router.pathname === "/bangalore/s2-data-analytics-certification-generic" ||
+      router.pathname ===
+        "/bangalore/s2-data-analytics-certification-generic" ||
       router.pathname === "/bangalore/s2-data-analytics-training-generic" ||
       router.pathname === "/bangalore/s2-data-science-training-generic" ||
       router.pathname === "/bangalore/s2-machine-learning-training-generic" ||
@@ -912,7 +920,8 @@ const Form = ({
       router.pathname === "/hyderabad/s2-machine-learning-generic" ||
       router.pathname === "/hyderabad/s2-business-analytics-generic" ||
       router.pathname === "/hyderabad/s2-data-analytics-generic" ||
-      router.pathname === "/hyderabad/s2-artificial-intelligence-training-generic" ||
+      router.pathname ===
+        "/hyderabad/s2-artificial-intelligence-training-generic" ||
       router.pathname === "/hyderabad/s2-business-analytics-training-generic" ||
       router.pathname === "/hyderabad/s2-data-science-training-generic" ||
       router.pathname === "/hyderabad/s2-machine-learning-training-generic" ||
@@ -945,7 +954,7 @@ const Form = ({
       router.pathname === "/pune/s2-data-science-institute" ||
       router.pathname === "/pune/s2-data-science-training" ||
       router.pathname === "/pune/s2-machine-learning-training" ||
-      router.pathname === "/pune/s2-data-analytics"||
+      router.pathname === "/pune/s2-data-analytics" ||
       router.pathname === "/pune/s2-data-science-generic" ||
       router.pathname === "/pune/s2-artificial-intelligence-generic" ||
       router.pathname === "/pune/s2-machine-learning-generic" ||
@@ -1018,10 +1027,10 @@ const Form = ({
                     padding: "10px",
                   }
                 : {
-                  height: "50px",
-                  borderRadius: "8px",
-                  border: "1px solid grey",
-                  padding: "10px",
+                    height: "50px",
+                    borderRadius: "8px",
+                    border: "1px solid grey",
+                    padding: "10px",
                   }
             }
             name="phone"
@@ -1210,8 +1219,24 @@ const Form = ({
           ""
         )}
 
+        {referral ? (
+          <div className={styles.formWrappers}>
+            <input
+              type="text"
+              name="referralCode"
+              className={popup ? styles.NameInputs : styles.NameInputs}
+              placeholder="Enter Referral Code"
+              value={query.referralCode}
+              style={{ borderBottom: "1px solid grey" }}
+              onChange={handleParam()}
+            />
+          </div>
+        ) : (
+          ""
+        )}
+
         {radio ? (
-          <div className={popup ? styles.formWrappers : styles.formWrapper}>
+          <div className={popup ? styles.formWrappers : styles.formWrappers}>
             <input
               id="Data Science Program"
               value="Data Science Courses"

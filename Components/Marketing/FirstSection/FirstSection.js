@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Image from "next/image";
 import styles from "./FirstSection.module.css";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
+import {FaUserGraduate} from "react-icons/fa"
 
 function FirstSection({ radio }) {
   const [show, setShow] = useState(false);
@@ -27,7 +27,7 @@ function FirstSection({ radio }) {
         </div>
         <div className="RightPopup">
           <h5>Apply For Scholarship</h5>
-          <Form popup={true} setTrigger={setPopups} radio={true} />
+          <Form popup={true} setTrigger={setPopups} referral={true} radio={true} />
         </div>
       </Popup>
       <div className={styles.content}>
@@ -45,7 +45,7 @@ function FirstSection({ radio }) {
       <div className={styles.Mnone}></div>
       <div>
         <div className={styles.btnWrapper}>
-          <button onClick={popupShow}>Apply for Scholarship</button>
+          <button onClick={popupShow}>Apply for Scholarship<FaUserGraduate className={styles.icon}/></button>
         </div>
       </div>
     </section>
