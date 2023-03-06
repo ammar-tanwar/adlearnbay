@@ -595,7 +595,6 @@ const Form = ({
       (router.pathname === "/s2-data-science-generic" && downloadBrochure) ||
       (router.pathname === "/s2-managers-leaders-program" && downloadBrochure) ||
       (router.pathname === "/s2-master-program" && downloadBrochure) ||
-      (router.pathname === "/her-career-her-rules" && downloadBrochure) ||
       (router.pathname === "/s2-data-science-institute-generic" &&
         downloadBrochure) ||
       (router.pathname === "/s2-data-science-training-generic" &&
@@ -646,8 +645,8 @@ const Form = ({
     }
 
     if (
-      (router.pathname === "/step-up-with-learnbay" && downloadBrochure) ||
-      router.pathname === "/step-up-with-learnbay" ||
+      (router.pathname === "/her-career-her-rules" && downloadBrochure) ||
+      router.pathname === "/her-career-her-rules" ||
       router.pathname === "/apply-for-counselling-marketing"
     ) {
       router.push("/Thank-you-marketing");
@@ -743,7 +742,6 @@ const Form = ({
       router.pathname === "/s2-data-science-generic" ||
       router.pathname === "/s2-master-program" ||
       router.pathname === "/s2-managers-leaders-program" ||
-      router.pathname === "/her-career-her-rules" ||
       router.pathname === "/s2-data-science-institute-generic" ||
       router.pathname === "/s2-data-science-training-generic" ||
       router.pathname === "/s2-data-science-syllabus-generic" ||
@@ -990,7 +988,7 @@ const Form = ({
           <input
             type="text"
             name="name"
-            className={popup ? styles.NameInputs : styles.NameInput}
+            className={popup ? styles.NameInputs : styles.NameInputs}
             required
             placeholder="Enter your Full Name*"
             value={query.name}
@@ -1004,7 +1002,7 @@ const Form = ({
             name="email"
             required
             placeholder="Enter Your Email*"
-            className={popup ? styles.EmailInputs : styles.EmailInput}
+            className={popup ? styles.EmailInputs : styles.EmailInputs}
             value={query.email}
             onChange={handleParam()}
           />
@@ -1020,10 +1018,10 @@ const Form = ({
                     padding: "10px",
                   }
                 : {
-                    border: "0",
-                    height: "50px",
-                    borderRadius: "3px",
-                    borderBottom: "1px solid grey",
+                  height: "50px",
+                  borderRadius: "8px",
+                  border: "1px solid grey",
+                  padding: "10px",
                   }
             }
             name="phone"
@@ -1105,7 +1103,7 @@ const Form = ({
                         name="jobDescription"
                         placeholder="Job Title or Domain"
                         className={
-                          popup ? styles.EmailInputs : styles.EmailInput
+                          popup ? styles.EmailInputs : styles.EmailInputs
                         }
                         value={query.jobDescription}
                         onChange={handleParam()}
@@ -1177,7 +1175,7 @@ const Form = ({
         {workExperience ? (
           ""
         ) : (
-          <div className={popup ? styles.formWrappers : styles.formWrapper}>
+          <div className={popup ? styles.formWrappers : styles.formWrappers}>
             <select
               name="workExperience"
               required
