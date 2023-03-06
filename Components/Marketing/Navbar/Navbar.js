@@ -56,6 +56,7 @@ const Navbar = ({ radio, fsdlink, formotp }) => {
               setTrigger={setPopups}
               radio={radio}
               stepupJobExp={true}
+              referral={true}
             />
           )}
         </div>
