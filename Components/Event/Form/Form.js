@@ -5,7 +5,7 @@ import PhoneInput from "react-phone-number-input";
 import { useRouter } from "next/router";
 import getDay from "date-fns/getDay";
 
-const Form = ({ popup, setTrigger, downloadBrochure, radio, event, stepupJobExp }) => {
+const Form = ({ popup, setTrigger, downloadBrochure, radio, event, stepupJobExp, formThank }) => {
   const router = useRouter();
 
   let today = new Date();
@@ -226,6 +226,42 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, stepupJobExp 
         ) : (
           ""
         )}
+
+{formThank ? (
+                  <div className={styles.formWrapper}>
+                  <input
+                    type="text"
+                    name="currentOrganization"
+                    className={popup ? styles.NameInputs : styles.NameInput}
+                    required
+                    placeholder="Your Current Organization"
+                    value={query.currentOrganization}
+                    style={{ borderBottom: "1px solid grey" }}
+                    onChange={handleParam()}
+                  />
+                </div>
+        ) : (
+          ""
+        )
+        }
+
+{formThank ? (
+                  <div className={styles.formWrapper}>
+                  <input
+                    type="text"
+                    name="currentDesignation"
+                    className={popup ? styles.NameInputs : styles.NameInput}
+                    required
+                    placeholder="Your Current Designation"
+                    value={query.currentDesignation}
+                    style={{ borderBottom: "1px solid grey" }}
+                    onChange={handleParam()}
+                  />
+                </div>
+        ) : (
+          ""
+        )
+        }
         <p className={styles.FormText} style={{ fontSize: "10px" }}>
           By submitting the form, you agree to our Terms and Conditions and our
           Privacy Policy.

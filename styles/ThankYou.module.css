@@ -21,6 +21,41 @@
   color: black;
 }
 
+.WDBack {
+  background-color: #0c4c891a;
+  height: 440px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  align-items: center;
+  margin: auto;
+  padding: 0px 100px;
+  margin-top: 70px;
+  color: black;
+  z-index: -1;
+}
+
+.WDBack h4 {
+  text-align: left;
+}
+
+.WDthankh4 {
+  font-size: 50px;
+  margin: 0;
+  line-height: 40px;
+  margin-bottom: 40px;
+  color: #0c4c89;
+}
+
+.WDthankspan {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1px;
+  color: #000;
+}
+
 .Back h4 {
   text-align: left;
 }
@@ -30,7 +65,7 @@
   margin: 0;
   line-height: 40px;
   margin-bottom: 40px;
-  color: #2D9CD7;
+  color: #2d9cd7;
 }
 
 .thankspan {
@@ -39,12 +74,149 @@
   line-height: 1px;
   color: #000;
 }
-  .mains1 {
+.mains1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.left {
+  background-image: url("/handshake.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 350px;
+  justify-content: center;
+  margin-top: 70px;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  margin: auto;
+  grid-template-columns: 33% 33% 33%;
+  width: 1300px;
+  justify-content: center;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.rights {
+  display: grid;
+  margin: auto;
+  width: 1300px;
+  margin-top: 50px;
+  text-align: center;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.rightsfsd {
+  display: grid;
+  margin: auto;
+  width: 1300px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.Ptop {
+  font-size: 20px;
+  margin: 15px;
+  color: white;
+}
+
+.hptop {
+  color: #000;
+  font-size: 36px;
+  color: white;
+  margin: 0;
+}
+
+.Ptopp {
+  font-size: 16px;
+  margin: 20px 10px;
+  color: Black;
+  text-align: center;
+  font-weight: 600;
+}
+
+.Ptop1 {
+  font-size: 35px;
+  margin: 15px;
+  color: white;
+}
+
+.hptop1 {
+  color: #000;
+  font-size: 50px;
+  color: white;
+  margin: 0;
+}
+
+.mainb {
+  display: flex;
+}
+
+.Button {
+  margin: 10px;
+  margin: auto;
+}
+
+@media (max-width: 481px) {
+  .mains {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100%;
+  }
+
+  .Back {
+    height: 100%;
+    text-align: left;
+    padding: 40px 20px 30px 20px;
+    display: block;
+  }
+
+  .Back h4 {
+    text-align: center;
+  }
+
+  .thankspan {
+    font-size: 20px;
+  }
+
+  .thankh4 {
+    line-height: 30px;
+    font-size: 40px;
+  }
+
+  .WDBack {
+    height: 500px;
+    text-align: left;
+    padding: 40px 20px 30px 20px;
+    display: block;
+  }
+
+  .WDBack h4 {
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .WDthankspan {
+    font-size: 20px;
+  }
+
+  .WDthankh4 {
+    line-height: 30px;
+    font-size: 40px;
   }
 
   .left {
@@ -64,41 +236,30 @@
 
   .right {
     display: flex;
+    flex-direction: column;
     margin: auto;
-    grid-template-columns: 33% 33% 33%;
-    width: 1300px;
-    justify-content: center;
-    margin-top: 50px;
-    text-align: center;
-   
-
-  }
-
-  .rights {
-    display: grid;
-    margin: auto;
-    width: 1300px;
-    margin-top: 50px;
-    text-align: center;
-    grid-template-columns: 25% 25% 25% 25%;
-  }
-
-  .rightsfsd {
-    display: grid;
-    margin: auto;
-    width: 1300px;
+    width: auto;
     margin-top: 20px;
-    margin-bottom: 50px;
     text-align: center;
-    grid-template-columns: 25% 25% 25% 25%;
   }
-  
+
+  .rights,
+  .rightsfsd {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: auto;
+    margin-top: 20px;
+    text-align: center;
+  }
+
   .Ptop {
     font-size: 20px;
     margin: 15px;
     color: white;
+    text-align: center;
   }
-  
+
   .hptop {
     color: #000;
     font-size: 36px;
@@ -106,146 +267,32 @@
     margin: 0;
   }
 
+  .hptop1 {
+    color: #000;
+    font-size: 46px;
+    color: white;
+    margin: 0;
+  }
+
+  .Ptop1 {
+    font-size: 21px;
+    margin: 15px;
+    color: white;
+  }
+
   .Ptopp {
     font-size: 16px;
-    margin: 20px 10px;
+    margin: 20px 2px;
     color: Black;
     text-align: center;
     font-weight: 600;
-  }
-  
-  
-
-
-
- .Ptop1 {
-  font-size: 35px;
-  margin: 15px;
-  color: white;
-  }
-
-.hptop1 {
-  color: #000;
-  font-size: 50px;
-  color: white;
-  margin: 0;
   }
 
   .mainb {
     display: flex;
   }
-  
+
   .Button {
-    margin: 10px;
-    margin: auto;
+    margin-bottom: 10px;
   }
-  
-  @media (max-width: 481px) {
-    .mains {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100%;
-    }
-  
-    .Back {
-      height: 100%;
-      text-align: left;
-      padding: 40px 20px 30px 20px;
-      display: block;
-    }
-  
-    .Back h4 {
-      text-align: center;
-    }
-
-    .thankspan {
-      font-size: 20px;
-    }
-
-    .thankh4 {
-      line-height: 30px;
-      font-size: 40px;
-    }
-
-    .left {
-      background-image: url("/handshake.png");
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: cover;
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      height: 350px;
-      justify-content: center;
-      margin-top: 70px;
-      align-items: center;
-    }
-
-    .right {
-      display: flex;
-      flex-direction: column;
-      margin: auto;
-      width: auto;
-      margin-top: 20px;
-      text-align: center;
-    }
-
-    .rights, .rightsfsd {
-      display: flex;
-      flex-direction: column;
-      margin: auto;
-      width: auto;
-      margin-top: 20px;
-      text-align: center;
-    }
-  
-    .Ptop {
-      font-size: 20px;
-      margin: 15px;
-      color: white;
-      text-align: center;
-    }
-    
-    .hptop {
-      color: #000;
-      font-size: 36px;
-      color: white;
-      margin: 0;
-    }
-
-
-    .hptop1 {
-      color: #000;
-      font-size: 46px;
-      color: white;
-      margin: 0;
-    }
-
-
-    .Ptop1 {
-      font-size: 21px;
-      margin: 15px;
-      color: white;
-    }
-  
-
-  
-    .Ptopp {
-      font-size: 16px;
-      margin: 20px 2px;
-      color: Black;
-      text-align: center;
-      font-weight: 600;
-    }
-    
-    .mainb {
-      display: flex;
-    }
-    
-    .Button {
-      margin-bottom: 10px;
-    }
-  }
+}

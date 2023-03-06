@@ -1,17 +1,14 @@
 import Head from "next/head";
-import React, { useState } from "react";
+import styles from "../styles/Home.module.css";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
-import Navbar from "../Components/CoursePage/Navbar/Navbar";
-import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
-import HeroSection from "../Components/LightTheme/FirstSection/HeroSection";
-import Testimonial from "../Components/LightTheme/SixthSection/Testimonial";
-import SecondSection from "../Components/LightTheme/SecondSection/SecondSection";
-import ThirdSection from "../Components/LightTheme/ThirdSection/ThirdSection";
-import FourthSection from "../Components/LightTheme/FourthSection/FourthSection";
-import SeventhSection from "../Components/LightTheme/SeventhSection/SeventhSection";
-import EightSection from "../Components/LightTheme/EightSection/EightSection";
-import SyllabusSection from "../Components/LightTheme/SyllabusSection/SyllabusSection";
+import Navbar from "../Components/Marketing/Navbar/Navbar";
+import Footer from "../Components/CoursePage/Footer/Footer";
+import React, { useState } from "react";
+import FirstSection from "../Components/Marketing/FirstSection/FirstSection";
+import CourseSection from "../Components/Marketing/CourseSection/Course";
+import { FaCheck } from "react-icons/fa";
+import Image from "next/image";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -22,112 +19,104 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Online Data Science Course</title>
-        <meta
-          name="description"
-          content="Want to earn salary hike of 250% ? Our Data Science course 
- will boost salary. Apply Now!"
-        />
-
-        <meta
-          name="Keywords"
-          content="data science course, data science course for working professional, data science course fee, data science course duration, data science course syllabus, data science online course"
-        />
-
+        <title>Learnbay Courses</title>
+        <meta name="description" content="Learnbay Courses" />
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
-            var s = document.createElement('script');
-            s.type = 'text/javascript';
-            s.async = true;
-            s.src = url;
-            var options = {
-          "enabled":true,
-          "chatButtonSetting":{
-              "backgroundColor":"#4dc247",
-              "ctaText":"",
-              "borderRadius":"10",
-              "marginLeft":"0",
-              "marginBottom":"30",
-              "marginRight":"30",
-              "position":"right"
-          },
-          "brandSetting":{
-              "brandName":"Learnbay",
-              "brandSubTitle":"The Learner's Path",
-              "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
-              "welcomeText":"Hi there! How can I help you?",
-              "backgroundColor":"#0a5f54",
-              "ctaText":"Start Chat",
-              "borderRadius":"25",
-              "autoShow":false,
-              "phoneNumber":"+919606950936"
-          }
-        };
-            s.onload = function() {
-                CreateWhatsappChatWidget(options);
-            };
-            var x = document.getElementsByTagName('script')[0];
-            x.parentNode.insertBefore(s, x);`,
-          }}
-        />
       </Head>
       <main>
-        {" "}
-        <Navbar popup={true} brochureButton={true} />
-        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+        <Navbar radio={true} stepupJobExp={true} />
+        <Popup
+          trigger={popups}
+          setTrigger={setPopups}
+          className="popupInnersotp"
+          formIMG={true}
+        >
           <div className="leftPopup">
             <div className="whiteP" />
           </div>
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
-            <Form popup={true} setTrigger={setPopups} />
+            {/* <p>Fill the below Details to get started</p> */}
+
+            <Form popup={true} setTrigger={setPopups} stepupJobExp={true} />
           </div>
         </Popup>
-        <HeroSection
-          deskTopPara="Choose Specialization over Generalization"
-          h1="Data Science Course with"
-          hSpan="Domain Specialization for Professionals"
-          para="Successfully transition careers through our courses & real-time capstone projects. 
-          All while making your previous work experience count!"
-          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/data+science+and+ai.jpg"
+        <FirstSection />
+        <div className={styles.WDHead}>
+          <h1>Our Courses</h1>
+        </div>
+        <CourseSection />
+        <div className={styles.WDHead}>
+          <h1>About Learnbay</h1>
+          <p>
+            We are a leading provider of specialized courses in Data Science,
+            AI, ML, and Full Stack. We are dedicated to helping working
+            professionals advance their careers and gain the technical expertise
+            needed to succeed in the fast-paced world of technology.
+          </p>
+          <p>
+            <b>Some of our standout features include:</b>
+          </p>
+          <div className={styles.WDFeatureD}>
+            <div className={styles.WDFeature}>
+              <div className={styles.WDlist}>
+                <p>
+                  <FaCheck /> Learn from tech experts
+                </p>
+                <p>
+                  <FaCheck /> Personalised mentorship
+                </p>
+                <p>
+                  <FaCheck /> Industry-specific syllabus
+                </p>
+                <p>
+                  <FaCheck /> 250+ hiring partners
+                </p>
+              </div>
+              <p className={styles.WDstrip}>
+                <FaCheck /> 100% guaranteed interview calls
+              </p>
+            </div>
+          </div>
+          <div className={styles.WDFeatureM}>
+            <div className={styles.WDFeature}>
+              <div className={styles.WDlist}>
+                <p>
+                  <FaCheck /> Learn from tech experts
+                </p>
+                <p>
+                  <FaCheck /> Personalised mentorship
+                </p>
+                <p>
+                  <FaCheck /> Industry-specific syllabus
+                </p>
+                <p>
+                  <FaCheck /> 250+ hiring partners
+                </p>
+              </div>
+              <p className={styles.WDstrip}>
+                <FaCheck /> 100% guaranteed interview calls
+              </p>
+              <Image
+          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/WD-Feature-right.png"
+          width="350"
+          height="400"
+          layout="intrinsic"
+          loading="lazy"
         />
-        <SecondSection
-          p1="IBM Certified"
-          p11="Capstone Projects"
-          p2="5-star"
-          p22="Industry-standard Training"
-          p3="3-year"
-          p33="Subscription Model"
-          p4="1:1 Support"
-          p44="Dedicated Program"
-        />
-        <ThirdSection />
-        <FourthSection
-          h1="Program Highlights"
-          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
-          img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/weekend+and+weekday+batch.jpg"
-          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/extra+dout+clearance+sessionn.jpg"
-          img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
-        />
-        <SyllabusSection
-          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our data science course feature practical training with real-time projects and case studies."
-          Hours="250+ Hours"
-          Projects="12+ projects"
-          Module0="Preparatory Classes (Programming + Maths)"
-          Module1="Python for Data Science"
-          Module2="Statistics and Machine Learning"
-          Module3="Data Science Course Tools"
-          Module4="Artificial Intelligence Tools"
-        />
-        <SliderTab />
-        <Testimonial />
-        <SeventhSection />
-        <EightSection />
+            </div>
+          </div>
+        </div>
+        <div className={styles.WDformbg}>
+          <div className={styles.FormThank}>
+            <h4>You're one step closer to speaking with a Career Counsellor</h4>
+            <Form radio={true} stepupJobExp={true} />
+          </div>
+        </div>
+        <Footer />
       </main>
     </div>
   );

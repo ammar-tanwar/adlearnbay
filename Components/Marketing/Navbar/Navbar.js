@@ -3,7 +3,7 @@ import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
 import styles from "./Navbar.module.css";
 import Popup from "../../Popup/Popup";
-import Form from "../../Event/Form/Form";
+import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
 import { useRouter } from "next/router";
 

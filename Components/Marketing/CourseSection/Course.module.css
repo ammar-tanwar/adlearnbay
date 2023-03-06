@@ -1,5 +1,8 @@
 .Course {
   padding: 0px 100px;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  align-items: center;
 }
 .Course h2 {
   text-align: center;
@@ -23,9 +26,7 @@
   color: #2d9cd7;
 }
 .courses {
-  box-shadow: rgba(133, 222, 255, 0.634) 0px 3px 8px;
-  margin-top: 30px;
-  padding: 40px;
+  margin-top: 20px;
 }
 .listPanel {
   display: flex;
@@ -45,14 +46,15 @@
   margin-top: 20px;
   gap: 20px;
   padding: 0px;
+  margin-bottom: 30px;
 }
 .leftSide,
 .middleSide,
 .rightSide {
-  box-shadow: rgba(133, 222, 255, 0.634) 0px 3px 8px;
-  padding: 20px;
-  width: 32%;
-  border-radius: 8px;
+  padding: 20px 0px;
+  width: 30%;
+  background-color: #E9F4F9;
+  border-left: 5px solid #0C4C89;
 }
 .courseImg {
   width: 100%;
@@ -64,15 +66,21 @@
 .rightSide h6 {
   font-size: 18px;
   margin: 0;
-  margin-top: 10px;
-
-  color: #2d9cd7;
+  padding-left: 20px;
 }
 .leftSide p,
 .middleSide p,
 .rightSide p {
   display: flex;
   align-items: center;
+  margin: 0;
+  margin-top: 10px;
+  padding: 5px 30px 5px 20px;
+  background: #fff;
+  width: fit-content;
+  border-radius: 0px 20px 20px 0px;
+  font-size: 14px;
+
 }
 .checkCircle {
   margin-right: 15px;
@@ -81,16 +89,19 @@
   display: flex;
   gap: 10px;
 }
-.btnWrapper button {
-  padding: 10px 15px;
-  border-radius: 10px;
-  border: 1px solid;
+
+.btnWrapper {
+  background-color: #C31B70;
+  border: 0;
+  padding: 12px 30px;
+  font-size: 18px;
 }
 
 @media (max-width: 481px) {
   .Course {
-    padding: 0 10px;
-    margin-top: -50px;
+    padding: 0 20px;
+    margin-top: -20px;
+    display: block;
   }
   .Course h2 {
     font-size: 24px;
@@ -140,5 +151,8 @@
   }
   .checkCircle {
     margin-right: 5px;
+  }
+  .btnWrapper {
+    margin-bottom: 30px;
   }
 }

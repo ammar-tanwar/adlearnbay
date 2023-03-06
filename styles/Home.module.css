@@ -76,15 +76,15 @@
   text-align: center;
 }
 
-.transition h1{
+.transition h1 {
   font-size: 36px;
   font-weight: 800;
   text-align: center;
 }
 
-.transition p{
-font-size: 18px;
-margin-bottom: -40px;
+.transition p {
+  font-size: 18px;
+  margin-bottom: -40px;
 }
 
 .boxWrap {
@@ -693,9 +693,9 @@ margin-bottom: -40px;
 
 .section42 {
   display: flex;
-  background-color: #EFF8FE;
+  background-color: #eff8fe;
   color: #edb552;
-  padding: 20px 0px; 
+  padding: 20px 0px;
   margin-top: 30px;
 }
 
@@ -728,6 +728,98 @@ margin-bottom: -40px;
   flex-direction: column;
   align-items: center;
 }
+
+.WDHead {
+  padding: 50px 100px 0px 100px;
+}
+
+.WDHead h1 {
+  font-size: 40px;
+  border-bottom: 4px solid #c31b70;
+  width: fit-content;
+  border: 50%;
+}
+
+.WDHead p {
+  font-size: 20px;
+  color: #373737;
+}
+
+.WDformbg {
+  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/WD-form-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.FormThank {
+  background-color: #fff;
+  padding: 50px 0px;
+  width: 40%;
+}
+
+.FormThank h4 {
+  font-size: 22px;
+  color: #000;
+  padding: 0px;
+  margin: 0px 50px 20px 50px;
+}
+
+.WDFeature {
+  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/WD-Feature.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  margin-top: -70px;
+  padding: 170px 100px 100px 100px;
+}
+
+.WDlist {
+  display: grid;
+  grid-template-columns: 33% 33%;
+}
+
+.WDlist p {
+  color: #fff;
+  font-size: 22px;
+  margin: 15px 0px;
+  font-weight: 600;
+  display: flex;
+    align-items: center;
+    gap: 15px;
+  
+}
+
+.WDFeature .WDstrip {
+  color: #fff;
+  font-size: 26px;
+  margin: 15px 0px;
+  font-weight: 600;
+  display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #ffffff10;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.FormThank Form button {
+  background-color: #C31B70;
+  border: 0;
+  padding: 12px 30px;
+  font-size: 18px;
+}
+
+.WDFeatureD {
+  display: block;
+}
+
+.WDFeatureM {
+  display: none;
+}
+
 
 @media (max-width: 481px) {
   .container {
@@ -858,10 +950,11 @@ margin-bottom: -40px;
     padding: 0px 20px;
   }
 
-.markH1, .markSpan {
-  font-size: 26px;
-  line-height: 38px;
-}
+  .markH1,
+  .markSpan {
+    font-size: 26px;
+    line-height: 38px;
+  }
 
   .forml {
     margin-top: 50px;
@@ -941,8 +1034,8 @@ margin-bottom: -40px;
   .transition {
     padding: 20px;
   }
-  
-  .transition h1{
+
+  .transition h1 {
     font-size: 24px;
     font-weight: 800;
     text-align: center;
@@ -954,41 +1047,41 @@ margin-bottom: -40px;
     display: block;
     margin: 20px;
   }
-  
+
   .section41 h2 {
     font-size: 24px;
   }
-  
+
   .section41 p {
     font-size: 16px;
     width: auto;
   }
-  
+
   .section42 {
     display: grid;
     grid-template-columns: 50% 50%;
-    padding: 20px 10px 0px 10px; 
+    padding: 20px 10px 0px 10px;
     margin-top: 30px;
     margin-bottom: 30px;
   }
-  
+
   .section42 p {
     margin: 0;
     border-right: none;
     padding-bottom: 20px;
   }
-  
+
   .section4 .section42 span {
     color: #000;
     margin: 0 !important;
     font-size: 16px;
     font-weight: 400;
-    }
-  
+  }
+
   .section42 p:last-child {
     border-right: 0px solid #000;
   }
-  
+
   .section4 span {
     margin-left: 0px !important;
   }
@@ -1023,34 +1116,80 @@ margin-bottom: -40px;
     align-items: center;
     padding: 20px;
   }
-  
+
   .FirstBox {
     border-radius: 10px;
     margin: 0px;
   }
-  
+
   .SecondP {
     font-weight: 400;
     text-align: justify;
   }
-  
+
   .InnerBox {
     padding: 10px 20px;
     box-shadow: 0px 0px 5px 0px rgb(45 156 215 / 31%);
-    margin: 20px 0; 
+    margin: 20px 0;
     border-radius: 10px;
   }
-  
+
   .FirstP {
     font-size: 28px;
     margin: 0;
     font-weight: 600;
   }
-  .transition p{
+  .transition p {
     font-size: 16px;
     margin-bottom: 10px;
-    }
-    .demoPage h1 {
-text-align: center;
-    }
+  }
+  .demoPage h1 {
+    text-align: center;
+  }
+  .WDformbg {
+    padding: 20px;
+  }
+  .FormThank {
+    padding: 30px 0px;
+    width: 100%;
+  }
+  .FormThank h4 {
+    font-size: 18px;
+    color: #000;
+    padding: 0px;
+    margin: 20px;
+  }
+
+  .WDFeatureM .WDFeature {
+    background: #0B4D89;
+    margin: 0;
+padding: 20px;
+height: fit-content;
+border-radius: 20px;
+  }
+
+  .WDFeatureM .WDlist {
+    display: block;
+  }
+
+  .WDFeatureM .WDstrip {
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 10% 90%;
+  }
+  .WDHead {
+    padding: 20px;
+  }
+  .WDHead h1 {
+    font-size: 30px;
+  }
+  .WDHead p {
+    font-size: 18px;
+  }
+  .WDFeatureD {
+    display: none;
+  }
+  .WDFeatureM {
+    display: block;
+  }
 }
