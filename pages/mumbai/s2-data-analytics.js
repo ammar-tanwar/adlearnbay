@@ -59,6 +59,7 @@ course subscription and 24/7 support"
               "brandSubTitle":"The Learner's Path",
               "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
               "welcomeText":"Hi there! How can I help you?",
+ "messageText":"I am looking for course, and free career counselling session.",
               "backgroundColor":"#0a5f54",
               "ctaText":"Start Chat",
               "borderRadius":"25",

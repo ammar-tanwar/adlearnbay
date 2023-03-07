@@ -41,6 +41,7 @@ const ThankYou = ({ initialName }) => {
               "brandSubTitle":"The Learner's Path",
               "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
               "welcomeText":"Hi there! How can I help you?",
+ "messageText":"I am looking for course, and free career counselling session.",
               "backgroundColor":"#0a5f54",
               "ctaText":"Start Chat",
               "borderRadius":"25",
@@ -73,13 +74,13 @@ const ThankYou = ({ initialName }) => {
       <NavbarThankYou />
 
       <section className={styles.mains}>
-      <div className={styles.WDBack}>
+        <div className={styles.WDBack}>
           <h4 className={styles.WDthankh4}>
             Thank you!
             <br />
             <span className={styles.WDthankspan}>
-            Your request has been received. 
-We will get in touch with you soon.
+              Your request has been received. We will get in touch with you
+              soon.
             </span>
           </h4>
           <div>
