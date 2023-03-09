@@ -17,7 +17,7 @@ import Batch from "../../Components/LightTheme/BatchDetails/Batch";
 import SyllabusSection from "../../Components/LightTheme/SyllabusSection/SyllabusSection";
 import FAQNew from "../../Components/LightTheme/FAQNew/FAQNewcer";
 import {
-  FaqData9,
+  FaqDataMore9,
   DomainFaqData9,
   PaymentFaqData9,
   CapstoneFaqData9,
@@ -38,11 +38,11 @@ export default function Home({ formotp }) {
         <title>Data Structure Course</title>
         <meta
           name="description"
-          content="Learn Data Structures Course with a chance to work at Maang Companies and participate in live sessions led by tech experts to gain real-time project experience."
+          content="Learn DSA Course in Java or Python with a chance to work at Maang Companies and participate in live sessions led by tech experts to gain real-time project experience."
         />
         <meta
           name="Keywords"
-          content="Data Structures Course, Best Data Structures Course, Best Data Structures Online Course, Learn Data Structures Course, Live Interactive Data Structures Course, Online Data Structure Course, Live Data Structure Courses"
+          content="DSA Course in Java or Python, Best DSA Course in Java or Python, Best Data Structures Online Course, Learn DSA Course in Java or Python, Live Interactive DSA Course in Java or Python, Online Data Structure Course, Live Data Structure Courses"
         />
         <link
           rel="icon"
@@ -104,7 +104,7 @@ export default function Home({ formotp }) {
           formotp={true}
           fullStackCont={true}
           deskTopPara="MAANG's Best Interview Preparation Course trained by Top Experts"
-          h1="Data Structures Course"
+          h1="DSA Course in Java or Python"
           hSpan=" for Working Professionals"
           para="Work on 12+ capstone projects, get hired at top MNCs with a salary of up to 18LPA."
           sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/dsa-generic.png"
@@ -132,7 +132,7 @@ export default function Home({ formotp }) {
         <SyllabusSection
           fullStackCont={true}
           formotp={true}
-          desc="Learnbay offers Data Structures and Algorithms Course led by experts working in top MNCs & real-time industrial projects with case studies."
+          desc="Learnbay offers Data Structures & Algorithms Course in Java or Python led by experts working in top MNCs & real-time industrial projects with case studies."
           Hours="200+ Hours"
           Projects="12+ projects"
           Module0="Preparatory Classes"
@@ -145,12 +145,12 @@ export default function Home({ formotp }) {
           Emi={BestDataStructureAlgorithmData[0].ProgramFee.Emi}
           formotp={true}
           CourseFeeAndFinancing="Data Structures Course Fee & Financing"
-          para="We are dedicated to making our Data Structures and Algorithms Course accessible. We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
+          para="We are dedicated to making our Data Structures and Algorithms Course in Java or Python accessible. We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
         />
         <ProgramHighlights
           fullStackCont={true}
-          Ques=" We provide the Best Course for DSA, and here's why!"
-          ans="Our trainers emphasize solving real-world problems practically - giving you access to the best course for data structures and algorithms. Our course has been carefully crafted to provide comprehensive learning modules that equip individuals with the necessary skills to program efficiently and effectively. By taking the best course for data structures and algorithms, you can gain the expertise required to excel in these fields."
+          Ques="Why is it important to know Python or Java Dsa Course?"
+          ans="Our trainers emphasize solving real-world problems practically - giving you access to the best course for DSA Course in Java or Python. Our course has been carefully crafted to provide comprehensive learning modules that equip individuals with the necessary skills to program efficiently and effectively. By taking the best course for data structures and algorithms, you can gain the expertise required to excel in these fields."
           Bot1="Tech giants look for developers with exceptional data structures and algorithms skills to solve problems"
           Bot2="Data structures and algorithms play a crucial role in managing your data and writing optimized code"
           Bot3="Our DSA course will facilitate a successful career transition to a product-based company
@@ -160,7 +160,7 @@ export default function Home({ formotp }) {
           formotp={true}
           syllabusDesc={BestDataStructureAlgorithmData[0].syllabusDesc}
           syllabus={BestDataStructureAlgorithmData[0].Batch}
-          CourseFeeHead="Data Structures Course : Batch Details"
+          CourseFeeHead="DSA Course in Java or Python : Batch Details"
           CourseFeePara={
             BestDataStructureAlgorithmData[0].BatchCourses.CourseFeePara
           }
@@ -182,7 +182,7 @@ export default function Home({ formotp }) {
         />
         <Testimonial formotp={true} />
         <FAQNew
-          FaqDatas={FaqData9}
+          FaqDatas={FaqDataMore9}
           DomainFaqDatas={DomainFaqData9}
           PaymentFaqDatas={PaymentFaqData9}
           CapstoneFaqDatas={CapstoneFaqData9}

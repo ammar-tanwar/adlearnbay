@@ -150,7 +150,7 @@ export default function Home({ formotp }) {
         <ProgramHighlights
           fullStackCont={true}
           Ques=" We provide the Best Course for DSA, and here's why!"
-          ans="Our trainers emphasize solving real-world problems practically - giving you access to the best course for data structures and algorithms. Our course has been carefully crafted to provide comprehensive learning modules that equip individuals with the necessary skills to program efficiently and effectively. By taking the best course for data structures and algorithms, you can gain the expertise required to excel in these fields."
+          ans="Our trainers emphasize solving real-world problems practically - giving you access to the best online dsa course. Our course has been carefully crafted to provide comprehensive learning modules that equip individuals with the necessary skills to program efficiently and effectively. By taking the best course for data structures and algorithms, you can gain the expertise required to excel in these fields."
           Bot1="Tech giants look for developers with exceptional data structures and algorithms skills to solve problems"
           Bot2="Data structures and algorithms play a crucial role in managing your data and writing optimized code"
           Bot3="Our DSA course will facilitate a successful career transition to a product-based company
