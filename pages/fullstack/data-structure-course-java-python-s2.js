@@ -149,8 +149,8 @@ export default function Home({ formotp }) {
         />
         <ProgramHighlights
           fullStackCont={true}
-          Ques="Why is it important to know Python or Java Dsa Course?"
-          ans="Our trainers emphasize solving real-world problems practically - giving you access to the best course for DSA Course in Java or Python. Our course has been carefully crafted to provide comprehensive learning modules that equip individuals with the necessary skills to program efficiently and effectively. By taking the best course for data structures and algorithms, you can gain the expertise required to excel in these fields."
+          Ques="Why DSA Course in Java or Python is important?"
+          ans="Our trainers emphasize solving real-world problems practically - giving you access to the DSA Course in Java or Python. Our course has been carefully crafted to provide comprehensive learning modules that equip individuals with the necessary skills to program efficiently and effectively. By taking the best course for data structures and algorithms, you can gain the expertise required to excel in these fields."
           Bot1="Tech giants look for developers with exceptional data structures and algorithms skills to solve problems"
           Bot2="Data structures and algorithms play a crucial role in managing your data and writing optimized code"
           Bot3="Our DSA course will facilitate a successful career transition to a product-based company
