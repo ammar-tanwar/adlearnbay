@@ -111,7 +111,7 @@ function FormOtp({
     router.pathname === "/dsa-s4" ||
     router.pathname ===
       "/fullstack/best-course-for-data-structures-and-algorithms-s2" ||
-    router.pathname === "/fullstack/data-structure-course-s2" ||
+    router.pathname === "/fullstack/data-structure-course-java-python-s2" ||
     router.pathname === "/fullstack/data-structures-algorithms-syllabus-s2" ||
     router.pathname === "/fullstack/data-structure-algorithm-s2" ||
     router.pathname === "/system-design-s2" ||
@@ -265,7 +265,7 @@ function FormOtp({
           (router.pathname ===
             "/fullstack/best-course-for-data-structures-and-algorithms-s2" &&
             downloadBrochure) ||
-          (router.pathname === "/fullstack/data-structure-course-s2" &&
+          (router.pathname === "/fullstack/data-structure-course-java-python-s2" &&
             downloadBrochure) ||
           (router.pathname ===
             "/fullstack/data-structures-algorithms-syllabus-s2" &&
@@ -329,7 +329,7 @@ function FormOtp({
           router.pathname === "/s3-data-science" ||
           router.pathname ===
             "/fullstack/best-course-for-data-structures-and-algorithms-s2" ||
-          router.pathname === "/fullstack/data-structure-course-s2" ||
+          router.pathname === "/fullstack/data-structure-course-java-python-s2" ||
           router.pathname ===
             "/fullstack/data-structures-algorithms-syllabus-s2" ||
           router.pathname ===
@@ -428,7 +428,7 @@ function FormOtp({
             (router.pathname ===
               "/fullstack/best-course-for-data-structures-and-algorithms-s2" &&
               downloadBrochure) ||
-            (router.pathname === "/fullstack/data-structure-course-s2" &&
+            (router.pathname === "/fullstack/data-structure-course-java-python-s2" &&
               downloadBrochure) ||
             (router.pathname ===
               "/fullstack/data-structures-algorithms-syllabus-s2" &&
@@ -481,7 +481,7 @@ function FormOtp({
             router.pathname === "/fullstack/software-programming-course-s2" ||
             router.pathname ===
               "/fullstack/best-course-for-data-structures-and-algorithms-s2" ||
-            router.pathname === "/fullstack/data-structure-course-s2" ||
+            router.pathname === "/fullstack/data-structure-course-java-python-s2" ||
             router.pathname ===
               "/fullstack/data-structures-algorithms-syllabus-s2" ||
             router.pathname ===
