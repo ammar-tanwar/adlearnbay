@@ -1,10 +1,8 @@
 export const DataStructureAlgorithmData = [
   {
     FirstSection: {
-      deskTopPara:
-        "MAANG's Best Interview Preparation Course trained by Top Experts",
-      mTopPara:
-        "MAANG's Best Interview Preparation Course trained by Top Experts",
+      deskTopPara: "Ace the PRODUCT Interviews to achieve your dream job",
+      mTopPara: "Ace the PRODUCT Interviews to achieve your dream job",
       mTitle: "Data Structures and ",
       spanMTitleText: "Algorithms Course",
       title: "Data Structures and ",
@@ -263,10 +261,8 @@ export const DataStructureAlgorithmData = [
 export const BestDataStructureAlgorithmData = [
   {
     FirstSection: {
-      deskTopPara:
-        "MAANG's Best Interview Preparation Course trained by Top Experts",
-      mTopPara:
-        "MAANG's Best Interview Preparation Course trained by Top Experts",
+      deskTopPara: "Ace the PRODUCT Interviews to achieve your dream job",
+      mTopPara: "Ace the PRODUCT Interviews to achieve your dream job",
       mTitle: "Best Course for ",
       spanMTitleText: "Data Structures and Algorithms",
       title: "Best Course for ",
@@ -525,10 +521,8 @@ export const BestDataStructureAlgorithmData = [
 export const DataStructureCourseData = [
   {
     FirstSection: {
-      deskTopPara:
-        "MAANG's Best Interview Preparation Course trained by Top Experts",
-      mTopPara:
-        "MAANG's Best Interview Preparation Course trained by Top Experts",
+      deskTopPara: "Ace the PRODUCT Interviews to achieve your dream job",
+      mTopPara: "Ace the PRODUCT Interviews to achieve your dream job",
       mTitle: "Data Structures ",
       spanMTitleText: "Course",
       title: "Data Structures ",
@@ -787,10 +781,8 @@ export const DataStructureCourseData = [
 export const DataStructureSyllabusData = [
   {
     FirstSection: {
-      deskTopPara:
-        "MAANG's Best Interview Preparation Course trained by Top Experts",
-      mTopPara:
-        "MAANG's Best Interview Preparation Course trained by Top Experts",
+      deskTopPara: "Ace the PRODUCT Interviews to achieve your dream job",
+      mTopPara: "Ace the PRODUCT Interviews to achieve your dream job",
       mTitle: "Data Structures and ",
       spanMTitleText: "Algorithms Course",
       title: "Data Structures and ",
@@ -1050,10 +1042,8 @@ export const DataStructureSyllabusData = [
 export const DataStructureAlgoCourseData = [
   {
     FirstSection: {
-      deskTopPara:
-        "MAANG's Best Interview Preparation Course trained by Top Experts",
-      mTopPara:
-        "MAANG's Best Interview Preparation Course trained by Top Experts",
+      deskTopPara: "Ace the PRODUCT Interviews to achieve your dream job",
+      mTopPara: "Ace the PRODUCT Interviews to achieve your dream job",
       mTitle: "Data Structures and ",
       spanMTitleText: "Algorithms Course",
       title: "Data Structures and ",

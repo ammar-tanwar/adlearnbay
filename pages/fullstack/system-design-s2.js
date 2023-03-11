@@ -103,7 +103,7 @@ export default function Home({ formotp }) {
         <HeroSection
           formotp={true}
           fullStackCont={true}
-          deskTopPara="MAANG's Best Interview Preparation Course trained by Top Experts"
+          deskTopPara="Ace the PRODUCT Interviews to achieve your dream job"
           h1="Learn System Design Course Online"
           hSpan="for Working Professionals"
           para="Work on 12+ capstone projects, get hired at top MNCs with a salary of up to 18LPA."

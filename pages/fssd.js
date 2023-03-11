@@ -98,8 +98,8 @@ export default function Home() {
         <FirstSection
           dataScience={true}
           formotp={true}
-          deskTopPara="Ace Your Coding Interview at MAANG and Achieve Your Dream Job "
-          mTopPara="Ace Your Coding Interview at MAANG and Achieve Your Dream Job"
+          deskTopPara="Ace the PRODUCT Interviews to achieve your dream job"
+          mTopPara="Ace the PRODUCT Interviews to achieve your dream job"
           mTitle="Full Stack Software  "
           spanMTitleText="Development Course"
           title="Full Stack Software  "

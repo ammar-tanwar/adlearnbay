@@ -103,7 +103,7 @@ export default function Home({ formotp }) {
         <HeroSection
           formotp={true}
           fullStackCont={true}
-          deskTopPara="Be a demanding Developer to stay ahead"
+          deskTopPara="Ace the PRODUCT Interviews to achieve your dream job"
           h1="Full Stack Web Development Course "
           hSpan="Kickstart your Tech Career"
           para="Learn full stack coding course & get hired at top MNCs with a salary of up to 18LPA."

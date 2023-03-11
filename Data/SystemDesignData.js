@@ -1,10 +1,8 @@
 export const SytstemDesignCourseData = [
   {
     FirstSection: {
-      deskTopPara:
-        "MAANG's Best Interview Preparation Course trained by Top Experts",
-      mTopPara:
-        "MAANG's Best Interview Preparation Course trained by Top Experts",
+      deskTopPara: "Ace the PRODUCT Interviews to achieve your dream job",
+      mTopPara: "Ace the PRODUCT Interviews to achieve your dream job",
       mTitle: "Advance System Design",
       spanMTitleText: "Course",
       title: "Advance System Design  ",
