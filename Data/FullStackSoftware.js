@@ -1,9 +1,8 @@
 export const FullStackSoftwareCourseData = [
   {
     FirstSection: {
-      deskTopPara:
-        "Ace Your Coding Interview at MAANG and Achieve Your Dream Job",
-      mTopPara: "Ace Your Coding Interview at MAANG and Achieve Your Dream Job",
+      deskTopPara: "Ace the PRODUCT Interviews to achieve your dream job",
+      mTopPara: "Ace the PRODUCT Interviews to achieve your dream job",
       mTitle: "Full Stack Software Development Program",
       spanMTitleText: "Achieve Your Dream Job",
       title: "Full Stack Software ",
