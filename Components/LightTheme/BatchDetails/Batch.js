@@ -3,72 +3,30 @@ import styles from "./Batch.module.css";
 import { MdDateRange } from "react-icons/md";
 import { BiTimeFive } from "react-icons/bi";
 
-function Batch({
-  CourseFeeHead,
-  WebDev,
-  DataScience,
-}) {
-
+function Batch({ CourseFeeHead, WebDev, DataScience }) {
   return (
     <section className={styles.Syllabus}>
       <h4 style={{ marginBottom: "30px" }}>{CourseFeeHead}</h4>
       <div className={styles.mobileView}>
-      {DataScience ? (
-        <div className={styles.NewBatch}>
-        <div className={styles.NewOrange}>
-          <div>
-            <p className={styles.listDay}>Weekday Morning (Mon-Fri)</p>
-          </div>
-          <div>
-            <p className={styles.list}>
-              <MdDateRange className={styles.iconOrange} />
-              10th March 2023
-            </p>
-            <p className={styles.list}>
-              <BiTimeFive className={styles.iconBlue} />8 AM to 10 AM
-            </p>
-          </div>
-        </div>
-        <div className={styles.NewBlue}>
-          <div>
-            <p className={styles.listDay}>Weekend Afternoon (Sat-Sun)</p>
-          </div>
-          <div>
-            <p className={styles.list}>
-              <MdDateRange className={styles.iconOrange} />
-              12th March 2023
-            </p>
-            <p className={styles.list}>
-              <BiTimeFive className={styles.iconBlue} />
-              8 PM to 10 PM
-            </p>
-          </div>
-        </div>
-      </div>
-      ) : (
-        <>
-        {WebDev ? (
+        {DataScience ? (
           <div className={styles.NewBatch}>
-            <div className={styles.NewBlue}>
+            <div className={styles.NewOrange}>
               <div>
                 <p className={styles.listDay}>Weekday Morning (Mon-Fri)</p>
               </div>
               <div>
                 <p className={styles.list}>
                   <MdDateRange className={styles.iconOrange} />
-                  13th February 2023
+                  10th March 2023
                 </p>
                 <p className={styles.list}>
-                  <BiTimeFive className={styles.iconBlue} />7 AM to 9 AM
+                  <BiTimeFive className={styles.iconBlue} />8 AM to 10 AM
                 </p>
               </div>
             </div>
-          </div>
-        ) : (
-          <div className={styles.NewBatch}>
-            <div className={styles.NewOrange}>
+            <div className={styles.NewBlue}>
               <div>
-                <p className={styles.listDay}>Weekend Morning (Sat-Sun)</p>
+                <p className={styles.listDay}>Weekend Afternoon (Sat-Sun)</p>
               </div>
               <div>
                 <p className={styles.list}>
@@ -76,27 +34,64 @@ function Batch({
                   12th March 2023
                 </p>
                 <p className={styles.list}>
-                  <BiTimeFive className={styles.iconBlue} />8 AM to 11 AM
-                </p>
-              </div>
-            </div>
-            <div className={styles.NewBlue}>
-              <div>
-                <p className={styles.listDay}>Weekday Evening (Mon-Wed-Fri)</p>
-              </div>
-              <div>
-                <p className={styles.list}>
-                  <MdDateRange className={styles.iconOrange} />
-                  17th March 2023
-                </p>
-                <p className={styles.list}>
-                  <BiTimeFive className={styles.iconBlue} />
-                  8 PM to 10 PM
+                  <BiTimeFive className={styles.iconBlue} />8 PM to 10 PM
                 </p>
               </div>
             </div>
           </div>
-        )}
+        ) : (
+          <>
+            {WebDev ? (
+              <div className={styles.NewBatch}>
+                <div className={styles.NewBlue}>
+                  <div>
+                    <p className={styles.listDay}>Weekday Evening (Mon-Fri)</p>
+                  </div>
+                  <div>
+                    <p className={styles.list}>
+                      <MdDateRange className={styles.iconOrange} />
+                      31st March 2023
+                    </p>
+                    <p className={styles.list}>
+                      <BiTimeFive className={styles.iconBlue} />8 PM to 10 PM
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ) : (
+              <div className={styles.NewBatch}>
+                <div className={styles.NewOrange}>
+                  <div>
+                    <p className={styles.listDay}>Weekend Morning (Sat-Sun)</p>
+                  </div>
+                  <div>
+                    <p className={styles.list}>
+                      <MdDateRange className={styles.iconOrange} />
+                      12th March 2023
+                    </p>
+                    <p className={styles.list}>
+                      <BiTimeFive className={styles.iconBlue} />8 AM to 11 AM
+                    </p>
+                  </div>
+                </div>
+                <div className={styles.NewBlue}>
+                  <div>
+                    <p className={styles.listDay}>
+                      Weekday Evening (Mon-Wed-Fri)
+                    </p>
+                  </div>
+                  <div>
+                    <p className={styles.list}>
+                      <MdDateRange className={styles.iconOrange} />
+                      17th March 2023
+                    </p>
+                    <p className={styles.list}>
+                      <BiTimeFive className={styles.iconBlue} />8 PM to 10 PM
+                    </p>
+                  </div>
+                </div>
+              </div>
+            )}
           </>
         )}
       </div>
@@ -105,101 +100,100 @@ function Batch({
         <div className={styles.heading}></div>
         {DataScience ? (
           <div className={styles.NewBatch}>
-          <div className={styles.NewOrange}>
-            <div>
-              <p className={styles.listDay}>Weekday Morning (Mon-Fri)</p>
-            </div>
-            <div>
-              <p className={styles.list}>
-                <MdDateRange className={styles.iconOrange} />
-                10th March 2023
-              </p>
-             
-            </div>
-            <div>
-            <p className={styles.list}>
-                <BiTimeFive className={styles.iconBlue} />8 AM to 10 AM
-              </p>
-            </div>
-          </div>
-          <div className={styles.NewBlue}>
-            <div>
-              <p className={styles.listDay}>Weekend Afternoon (Sat-Sun)</p>
-            </div>
-            <div>
-              <p className={styles.list}>
-                <MdDateRange className={styles.iconOrange} />
-                12th March 2023
-              </p>
-            </div>
-            <div>
-            <p className={styles.list}>
-                <BiTimeFive className={styles.iconBlue} />
-                12:30 PM to 4 PM
-              </p>
-            </div>
-          </div>
-        </div>
-        ) : (
-          <>
-        {WebDev ? (
-          <div className={styles.NewBatch}>
-            <div className={styles.NewBlue}>
+            <div className={styles.NewOrange}>
               <div>
                 <p className={styles.listDay}>Weekday Morning (Mon-Fri)</p>
               </div>
               <div>
                 <p className={styles.list}>
                   <MdDateRange className={styles.iconOrange} />
-                  13th February 2023
+                  10th March 2023
                 </p>
               </div>
               <div>
                 <p className={styles.list}>
-                  <BiTimeFive className={styles.iconBlue} />7 AM to 9 AM
+                  <BiTimeFive className={styles.iconBlue} />8 AM to 10 AM
                 </p>
               </div>
             </div>
-          </div>
-        ) : (
-          <div className={styles.NewBatch}>
-            <div className={styles.NewOrange}>
+            <div className={styles.NewBlue}>
               <div>
-                <p className={styles.listDay}>Weekend Morning (Sat-Sun)</p>
+                <p className={styles.listDay}>Weekend Afternoon (Sat-Sun)</p>
               </div>
               <div>
                 <p className={styles.list}>
                   <MdDateRange className={styles.iconOrange} />
                   12th March 2023
                 </p>
-               
-              </div>
-              <div>
-              <p className={styles.list}>
-                  <BiTimeFive className={styles.iconBlue} />8 AM to 11 AM
-                </p>
-              </div>
-            </div>
-            <div className={styles.NewBlue}>
-              <div>
-                <p className={styles.listDay}>Weekday Evening (Mon-Wed-Fri)</p>
               </div>
               <div>
                 <p className={styles.list}>
-                  <MdDateRange className={styles.iconOrange} />
-                  17th March 2023
-                </p>
-              </div>
-              <div>
-              <p className={styles.list}>
                   <BiTimeFive className={styles.iconBlue} />
-                  8 PM to 10 PM
+                  12:30 PM to 4 PM
                 </p>
               </div>
             </div>
           </div>
-        )}
-        </>
+        ) : (
+          <>
+            {WebDev ? (
+              <div className={styles.NewBatch}>
+                <div className={styles.NewBlue}>
+                  <div>
+                    <p className={styles.listDay}>Weekday Morning (Mon-Fri)</p>
+                  </div>
+                  <div>
+                    <p className={styles.list}>
+                      <MdDateRange className={styles.iconOrange} />
+                      31st March 2023
+                    </p>
+                  </div>
+                  <div>
+                    <p className={styles.list}>
+                      <BiTimeFive className={styles.iconBlue} />7 AM to 9 AM
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ) : (
+              <div className={styles.NewBatch}>
+                <div className={styles.NewOrange}>
+                  <div>
+                    <p className={styles.listDay}>Weekend Morning (Sat-Sun)</p>
+                  </div>
+                  <div>
+                    <p className={styles.list}>
+                      <MdDateRange className={styles.iconOrange} />
+                      12th March 2023
+                    </p>
+                  </div>
+                  <div>
+                    <p className={styles.list}>
+                      <BiTimeFive className={styles.iconBlue} />8 AM to 11 AM
+                    </p>
+                  </div>
+                </div>
+                <div className={styles.NewBlue}>
+                  <div>
+                    <p className={styles.listDay}>
+                      Weekday Evening (Mon-Wed-Fri)
+                    </p>
+                  </div>
+                  <div>
+                    <p className={styles.list}>
+                      <MdDateRange className={styles.iconOrange} />
+                      17th March 2023
+                    </p>
+                  </div>
+                  <div>
+                    <p className={styles.list}>
+                      <BiTimeFive className={styles.iconBlue} />8 PM to 10 PM
+                    </p>
+                  </div>
+                </div>
+              </div>
+            )}
+          </>
         )}
       </div>
     </section>
