@@ -34,7 +34,8 @@ function Batch({ CourseFeeHead, WebDev, DataScience }) {
                   26th March 2023
                 </p>
                 <p className={styles.list}>
-                  <BiTimeFive className={styles.iconBlue} />08:30 AM to 12 PM
+                  <BiTimeFive className={styles.iconBlue} />
+                  08:30 AM to 12 PM
                 </p>
               </div>
             </div>
@@ -60,20 +61,6 @@ function Batch({ CourseFeeHead, WebDev, DataScience }) {
               </div>
             ) : (
               <div className={styles.NewBatch}>
-                <div className={styles.NewOrange}>
-                  <div>
-                    <p className={styles.listDay}>Weekend Morning (Sat-Sun)</p>
-                  </div>
-                  <div>
-                    <p className={styles.list}>
-                      <MdDateRange className={styles.iconOrange} />
-                      12th March 2023
-                    </p>
-                    <p className={styles.list}>
-                      <BiTimeFive className={styles.iconBlue} />8 AM to 11 AM
-                    </p>
-                  </div>
-                </div>
                 <div className={styles.NewBlue}>
                   <div>
                     <p className={styles.listDay}>
@@ -87,6 +74,20 @@ function Batch({ CourseFeeHead, WebDev, DataScience }) {
                     </p>
                     <p className={styles.list}>
                       <BiTimeFive className={styles.iconBlue} />8 PM to 10 PM
+                    </p>
+                  </div>
+                </div>
+                <div className={styles.NewOrange}>
+                  <div>
+                    <p className={styles.listDay}>Weekend Morning (Sat-Sun)</p>
+                  </div>
+                  <div>
+                    <p className={styles.list}>
+                      <MdDateRange className={styles.iconOrange} />
+                      18th March 2023
+                    </p>
+                    <p className={styles.list}>
+                      <BiTimeFive className={styles.iconBlue} />8 AM to 11 AM
                     </p>
                   </div>
                 </div>
@@ -157,22 +158,6 @@ function Batch({ CourseFeeHead, WebDev, DataScience }) {
               </div>
             ) : (
               <div className={styles.NewBatch}>
-                <div className={styles.NewOrange}>
-                  <div>
-                    <p className={styles.listDay}>Weekend Morning (Sat-Sun)</p>
-                  </div>
-                  <div>
-                    <p className={styles.list}>
-                      <MdDateRange className={styles.iconOrange} />
-                      12th March 2023
-                    </p>
-                  </div>
-                  <div>
-                    <p className={styles.list}>
-                      <BiTimeFive className={styles.iconBlue} />8 AM to 11 AM
-                    </p>
-                  </div>
-                </div>
                 <div className={styles.NewBlue}>
                   <div>
                     <p className={styles.listDay}>
@@ -188,6 +173,22 @@ function Batch({ CourseFeeHead, WebDev, DataScience }) {
                   <div>
                     <p className={styles.list}>
                       <BiTimeFive className={styles.iconBlue} />8 PM to 10 PM
+                    </p>
+                  </div>
+                </div>
+                <div className={styles.NewOrange}>
+                  <div>
+                    <p className={styles.listDay}>Weekend Morning (Sat-Sun)</p>
+                  </div>
+                  <div>
+                    <p className={styles.list}>
+                      <MdDateRange className={styles.iconOrange} />
+                      18th March 2023
+                    </p>
+                  </div>
+                  <div>
+                    <p className={styles.list}>
+                      <BiTimeFive className={styles.iconBlue} />8 AM to 11 AM
                     </p>
                   </div>
                 </div>
