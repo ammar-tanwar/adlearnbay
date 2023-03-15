@@ -93,6 +93,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
+        image={true}
           ptop={HRData[0].FirstSection.ptop}
           heading1={HRData[0].FirstSection.heading1}
           headingSpan1={HRData[0].FirstSection.headingSpan1}
