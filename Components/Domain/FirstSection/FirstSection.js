@@ -21,6 +21,7 @@ const FirstSection = ({
   h2,
   h3,
   withOutRadioForm,
+  image,
 }) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
@@ -37,7 +38,6 @@ const FirstSection = ({
   const videoSHow = () => {
     setVideo(true);
   };
-
 
   useEffect(() => {
     let width = window.innerWidth;
@@ -69,11 +69,12 @@ const FirstSection = ({
             )}
           </div>
         </Popup>
-      <VideoPopup triggers={video} setTriggers={setVideo} ids="M9tkkdcjFfU" />
+        <VideoPopup triggers={video} setTriggers={setVideo} ids="M9tkkdcjFfU" />
         <div className={styles.leftSide}>
           <p className={styles.pTop1}>{ptop}</p>
           <h1>
-            {heading1} <span>{headingSpan1} </span>{heading2} <span>{headingSpan2}</span>
+            {heading1} <span>{headingSpan1} </span>
+            {heading2} <span>{headingSpan2}</span>
           </h1>
           <p className={styles.pTop}>{des}</p>
 
@@ -102,21 +103,31 @@ const FirstSection = ({
             </div>
           </div>
         </div>
-        <div className={styles.rightSide}>
-        <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/thumbnail.jpeg"
+        {image ? (
+          <Image
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/HR-domain.png"
             layout="intrinsic"
             width="627"
             height="353"
             loading="lazy"
             alt="data science course in bangalore"
             className={styles.vIcon}
-            onClick={videoSHow}
           />
-          <div className={styles.playIcon}>
-          
+        ) : (
+          <div className={styles.rightSide}>
+            <Image
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/thumbnail.jpeg"
+              layout="intrinsic"
+              width="627"
+              height="353"
+              loading="lazy"
+              alt="data science course in bangalore"
+              className={styles.vIcon}
+              onClick={videoSHow}
+            />
+            <div className={styles.playIcon}></div>
           </div>
-        </div>
+        )}
       </div>
     </section>
   );
