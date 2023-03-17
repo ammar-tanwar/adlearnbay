@@ -106,7 +106,7 @@ export default function Home({ formotp }) {
           deskTopPara="Ace the PRODUCT Interviews to achieve your dream job"
           h1="Best Course for Data Structures and Algorithms"
           hSpan=" (Working Professionals)"
-          para="Work on 12+ capstone projects, get hired at top MNCs with a salary of up to 18LPA."
+          para="Work on 12+ real-time projects, get hired at top MNCs with a salary of up to 18LPA."
           sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/dsa-generic.png"
         />
         <SecondSection
