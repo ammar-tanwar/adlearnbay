@@ -355,7 +355,7 @@ export const HRData = [
       h1: "We only make promises",
       h2: "we can keep",
       h2p: "Get assured interview calls from top recruiters",
-      hSRC: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/hiring-banking.png",
+      hSRC: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/HR-Logos.png",
       rewHead: "Accelerating countless careers to the next level",
     },
     syllabusDesc:
