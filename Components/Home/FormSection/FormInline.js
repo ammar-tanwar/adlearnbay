@@ -59,6 +59,12 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience })
 
   let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
 
+  if (
+    router.pathname === "/common"
+  ) {
+    endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
+  }
+
   // Form Submit function
   const formSubmit = (e) => {
     e.preventDefault();
