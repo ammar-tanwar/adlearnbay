@@ -93,6 +93,8 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
+        image={true}
+        imagesrc="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/Marketing-domain.png"
           ptop={MarketingData[0].FirstSection.ptop}
           heading1={MarketingData[0].FirstSection.heading1}
           headingSpan1={MarketingData[0].FirstSection.headingSpan1}

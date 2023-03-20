@@ -15,7 +15,7 @@ import {
   FaAndroid,
 } from "react-icons/fa";
 
-const Footer = ({ numEmailHide }) => {
+const Footer = ({ numEmailHide, fullStackCont }) => {
   const [showMe, setShowMe] = useState(false);
   function toggle() {
     setShowMe(!showMe);
@@ -45,6 +45,16 @@ const Footer = ({ numEmailHide }) => {
             <FaInstagram className="bIcons" />
           </div>
 
+          {fullStackCont ? <>
+              <span style={{ display: "flex", marginTop: "20px" }}>
+                <IoMailSharp className="bIcons" />
+                contacts@learnbay.co
+              </span>
+              <span style={{ display: "flex", marginTop: "10px" }}>
+                <BsFillTelephoneFill className="bIcons" />
+                (+91) 97311 35221
+              </span>
+            </> : <>
           {numEmailHide ? (
             ""
           ) : (
@@ -58,7 +68,7 @@ const Footer = ({ numEmailHide }) => {
                 (+91) 96069 50936
               </span>
             </>
-          )}
+          )}</>}
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Courses</p>
@@ -71,9 +81,6 @@ const Footer = ({ numEmailHide }) => {
           </p>
           <p className={styles.FooterInnerli}>
             Data Science & AI Master Program
-          </p>
-          <p className={styles.FooterInnerli}>
-            Data Science and AI Master Program
           </p>
         </div>
         <div className={styles.FooterDivInner}>

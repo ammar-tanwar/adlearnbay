@@ -72,6 +72,16 @@ const Navbar = ({ radio, formotp }) => {
                   Data Science and AI Master Program
                 </Link>
               </span>
+              <span onClick={showMenu}>
+                <Link href="/business-analytics-certification-course">
+                  Business Analytics Program
+                </Link>
+              </span>
+              <span onClick={showMenu}>
+                <Link href="/data-analytics-certification-course">
+                  Data Analytics Program
+                </Link>
+              </span>
             </div>
           </div>
           <a href="/">
@@ -105,6 +115,12 @@ const Navbar = ({ radio, formotp }) => {
               </a>
               <a href="/data-science-ai-masters-program">
                 Data Science and AI Master Program
+              </a>
+              <a href="/business-analytics-certification-course">
+              Business Analytics Program
+              </a>
+              <a href="/data-analytics-certification-course">
+              Data Analytics Program
               </a>
             </div>
           </div>
