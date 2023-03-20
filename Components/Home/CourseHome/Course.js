@@ -21,7 +21,7 @@ import {
   StackD,
 } from "./courseDetails";
 
-const Course = () => {
+const Course = ({common}) => {
   const [viewAll, setViewAll] = useState(false);
   const [oneYear, setOneYear] = useState(true);
   const [nonTech, setNonTech] = useState(false);
@@ -226,9 +226,13 @@ const Course = () => {
                             {para[2]}
                           </p>
                           <div className={styles.btnWrapper}>
+                            { common ? (<a onClick={popupShow}>
+                              <button>View Details</button>
+                            </a>) : (
                             <a href={link1}>
                               <button>View Details</button>
                             </a>
+                            )}
                             <a onClick={popupShow}>
                               <button
                                 className="outLineBtn"
@@ -299,9 +303,13 @@ const Course = () => {
                           {para[2]}
                         </p>
                         <div className={styles.btnWrapper}>
-                          <a href={link1}>
-                            <button>View Details</button>
-                          </a>
+                          { common ? (<a onClick={popupShow}>
+                              <button>View Details</button>
+                            </a>) : (
+                            <a href={link1}>
+                              <button>View Details</button>
+                            </a>
+                            )}
                           <a onClick={popupShow}>
                             <button
                               className="outLineBtn"
@@ -374,9 +382,13 @@ const Course = () => {
                             {para[2]}
                           </p>
                           <div className={styles.btnWrapper}>
+                          { common ? (<a onClick={popupShow}>
+                              <button>View Details</button>
+                            </a>) : (
                             <a href={link1}>
                               <button>View Details</button>
                             </a>
+                            )}
                             <a onClick={popupShow}>
                               <button
                                 className="outLineBtn"
@@ -454,9 +466,13 @@ const Course = () => {
                           {para[2]}
                         </p>
                         <div className={styles.btnWrapper}>
-                          <a href={link1}>
-                            <button>View Details</button>
-                          </a>
+                          { common ? (<a onClick={popupShow}>
+                              <button>View Details</button>
+                            </a>) : (
+                            <a href={link1}>
+                              <button>View Details</button>
+                            </a>
+                            )}
                           <a onClick={popupShow}>
                             <button
                               className="outLineBtn"
@@ -529,9 +545,13 @@ const Course = () => {
                             {para[2]}
                           </p>
                           <div className={styles.btnWrapper}>
+                          { common ? (<a onClick={popupShow}>
+                              <button>View Details</button>
+                            </a>) : (
                             <a href={link1}>
                               <button>View Details</button>
                             </a>
+                            )}
                             <a onClick={popupShow}>
                               <button
                                 className="outLineBtn"
@@ -602,9 +622,13 @@ const Course = () => {
                           {para[2]}
                         </p>
                         <div className={styles.btnWrapper}>
-                          <a href={link1}>
-                            <button>View Details</button>
-                          </a>
+                          { common ? (<a onClick={popupShow}>
+                              <button>View Details</button>
+                            </a>) : (
+                            <a href={link1}>
+                              <button>View Details</button>
+                            </a>
+                            )}
                           <a onClick={popupShow}>
                             <button
                               className="outLineBtn"
@@ -677,9 +701,13 @@ const Course = () => {
                             {para[2]}
                           </p>
                           <div className={styles.btnWrapper}>
+                          { common ? (<a onClick={popupShow}>
+                              <button>View Details</button>
+                            </a>) : (
                             <a href={link1}>
                               <button>View Details</button>
                             </a>
+                            )}
                             <a onClick={popupShow}>
                               <button
                                 className="outLineBtn"
@@ -748,9 +776,13 @@ const Course = () => {
                           {para[2]}
                         </p>
                         <div className={styles.btnWrapper}>
-                          <a href={link1}>
-                            <button>View Details</button>
-                          </a>
+                          { common ? (<a onClick={popupShow}>
+                              <button>View Details</button>
+                            </a>) : (
+                            <a href={link1}>
+                              <button>View Details</button>
+                            </a>
+                            )}
                           <a onClick={popupShow}>
                             <button
                               className="outLineBtn"

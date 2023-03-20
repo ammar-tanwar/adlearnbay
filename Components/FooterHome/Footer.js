@@ -73,6 +73,18 @@ const Footer = () => {
               Data Science and AI Master Program
             </p>
           </a>
+          <a href="/business-analytics-certification-course">
+            <p className={styles.FooterInnerli} style={{ display: "flex" }}>
+              <FaCheck className="bIcons" />
+              Business Analytics Program
+            </p>
+          </a>
+          <a href="/data-analytics-certification-course">
+            <p className={styles.FooterInnerli} style={{ display: "flex" }}>
+              <FaCheck className="bIcons" />
+              Data Analytics Program
+            </p>
+          </a>
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Find Us Here</p>

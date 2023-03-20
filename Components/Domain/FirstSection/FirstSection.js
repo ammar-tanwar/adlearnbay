@@ -22,6 +22,7 @@ const FirstSection = ({
   h3,
   withOutRadioForm,
   image,
+  imagesrc,
 }) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
@@ -105,7 +106,7 @@ const FirstSection = ({
         </div>
         {image ? (
           <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/HR-domain.png"
+            src={imagesrc}
             layout="intrinsic"
             width="627"
             height="353"

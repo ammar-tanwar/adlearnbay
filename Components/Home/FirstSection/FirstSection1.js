@@ -55,7 +55,7 @@ const FirstSection = ({dataScience,heading, headingSpan, ptop,des,p1,p2,p3,h1,h2
         <div className={styles.btnWrapper}>
           <a href="#course">
             <button className={styles.outLineBtn}>
-              Courses <FaChevronDown className="bIconS" />
+              Courses <FaChevronDown className="bIconS" style={{marginLeft:"10px"}}/>
             </button>
           </a>
           <button onClick={popupShow} className={styles.btn}>

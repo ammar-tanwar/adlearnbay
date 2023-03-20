@@ -73,6 +73,8 @@ const Form = ({
     router.pathname === "/data-science-certification-courses" ||
     router.pathname === "/" ||
     router.pathname === "/advance-ai-ml-certification" ||
+    router.pathname === "/data-analytics-certification-course" ||
+    router.pathname === "/business-analytics-certification-course" ||
     router.pathname === "/data-science-ai-cert-for-managers-leaders" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai" ||
     router.pathname === "/data-science-ai-masters-program"
@@ -389,6 +391,7 @@ const Form = ({
   // -==================== FSD - Ads  END POINT ==========================--------
   if (
     router.pathname === "/fssd-s2" ||
+    router.pathname === "/common" ||
     router.pathname === "/fullstack/fssd-s2" ||
     router.pathname === "/fullstack/fssd-institute-program-s2" ||
     router.pathname === "/fullstack/fssd-training-s2" ||
@@ -503,6 +506,10 @@ const Form = ({
         downloadBrochure) ||
       (router.pathname === "/advance-ai-ml-certification" &&
         downloadBrochure) ||
+        (router.pathname === "/business-analytics-certification-course" &&
+        downloadBrochure) ||
+        (router.pathname === "/data-analytics-certification-course" &&
+        downloadBrochure) ||
       (router.pathname === "/data-science-ai-cert-for-managers-leaders" &&
         downloadBrochure) ||
       (router.pathname === "/job-guarantee-or-money-back-data-science-ai" &&
@@ -587,8 +594,6 @@ const Form = ({
         downloadBrochure) ||
       (router.pathname === "/data-science-certification-courses" &&
         downloadBrochure) ||
-      (router.pathname === "/advance-ai-ml-certification" &&
-        downloadBrochure) ||
       (router.pathname === "/data-science-ai-cert-for-managers-leaders" &&
         downloadBrochure) ||
       (router.pathname === "/job-guarantee-or-money-back-data-science-ai" &&
@@ -665,6 +670,7 @@ const Form = ({
       (router.pathname === "/fswd" && downloadBrochure) ||
       (router.pathname === "/dsa" && downloadBrochure) ||
       (router.pathname === "/fssd-s2" && downloadBrochure) ||
+      (router.pathname === "/common" && downloadBrochure) ||
       (router.pathname === "/fullstack/fssd-s2" && downloadBrochure) ||
       (router.pathname === "/fullstack/fssd-institute-program-s2" &&
         downloadBrochure) ||
@@ -698,6 +704,8 @@ const Form = ({
       router.pathname === "/job-guarantee-or-money-back-data-science-ai-sd" ||
       router.pathname === "/data-science-certification-courses" ||
       router.pathname === "/advance-ai-ml-certification" ||
+      router.pathname === "/business-analytics-certification-course" ||
+      router.pathname === "/data-analytics-certification-course" ||
       router.pathname === "/data-science-ai-cert-for-managers-leaders" ||
       router.pathname === "/job-guarantee-or-money-back-data-science-ai" ||
       router.pathname === "/data-science-ai-masters-program" ||
@@ -739,7 +747,6 @@ const Form = ({
       router.pathname === "/job-guarantee-or-money-back-data-science-ai-s7" ||
       router.pathname === "/data-science-certification-courses-s10" ||
       router.pathname === "/data-science-certification-courses" ||
-      router.pathname === "/advance-ai-ml-certification" ||
       router.pathname === "/data-science-ai-cert-for-managers-leaders" ||
       router.pathname === "/" ||
       router.pathname === "/job-guarantee-or-money-back-data-science-ai-s8" ||
@@ -792,6 +799,7 @@ const Form = ({
       router.pathname === "/fswd" ||
       router.pathname === "/dsa" ||
       router.pathname === "/fssd-s2" ||
+      router.pathname === "/common" ||
       router.pathname === "/fullstack/fssd-s2" ||
       router.pathname === "/fullstack/fssd-institute-program-s2" ||
       router.pathname === "/fullstack/fssd-training-s2" ||
