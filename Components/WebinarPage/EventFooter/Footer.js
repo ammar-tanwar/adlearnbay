@@ -13,6 +13,7 @@ import {
   FaApple,
   FaAndroid,
 } from "react-icons/fa";
+import Link from "next/link";
 
 const Footerfsd = () => {
   const [showMe, setShowMe] = useState(false);
@@ -47,10 +48,12 @@ const Footerfsd = () => {
             <IoMailSharp className="bIcons" />
             contacts@learnbay.co
           </span>
+          <Link href="tel:+919606950936" >
           <span style={{ display: "flex", marginTop: "10px" }}>
             <BsFillTelephoneFill className="bIcons" />
             (+91) 96069 50936
           </span>
+          </Link>
         </div>
       </div>
       <div className={styles.FooterBottom}>

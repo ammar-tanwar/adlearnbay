@@ -23,6 +23,7 @@ const FirstSection = ({
   withOutRadioForm,
   image,
   imagesrc,
+  fullStackContent,
 }) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
@@ -73,12 +74,22 @@ const FirstSection = ({
         <VideoPopup triggers={video} setTriggers={setVideo} ids="M9tkkdcjFfU" />
         <div className={styles.leftSide}>
           <p className={styles.pTop1}>{ptop}</p>
-          <h1>
-            {heading1} <span>{headingSpan1} </span>
-            {heading2} <span>{headingSpan2}</span>
-          </h1>
-          <p className={styles.pTop}>{des}</p>
-
+          {fullStackContent ? (
+            <h1 className={styles.fullStackContent}>
+              {heading1} <span>{headingSpan1} </span>
+              {heading2} <span>{headingSpan2}</span>
+            </h1>
+          ) : (
+            <h1>
+              {heading1} <span>{headingSpan1} </span>
+              {heading2} <span>{headingSpan2}</span>
+            </h1>
+          )}
+          {fullStackContent ? (
+            <p className={styles.fullStackContentpTop}>{des}</p>
+          ) : (
+            <p className={styles.pTop}>{des}</p>
+          )}
           <div className={styles.btnWrapper}>
             <a href="#syllabus">
               <button className={styles.outLineBtn}>

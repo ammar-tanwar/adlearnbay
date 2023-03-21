@@ -1137,3 +1137,364 @@ export const SalesData = [
     },
   },
 ];
+
+export const SoftwareData = [
+  {
+    FirstSection: {
+      ptop: "Data Science Domain Specialization Course",
+      heading1: "Become an ",
+      headingSpan1: "Expert",
+      heading2: "in",
+      headingSpan2: "Sales domain",
+      des: "Specialized courses in the Sales domain created to help you get ahead in your career",
+      h1: "6",
+      p1: "Industry Relevant Projects",
+      h2: "20+ ",
+      p2: "Case Studies & Assignments",
+      h3: "100%",
+      p3: "Interview Guarantee",
+    },
+    ProgramInfo: {
+      p1: "Global Recognition",
+      p11: "From IBM",
+      p2: "Industry Standard",
+      p22: "Training",
+      p3: "Career Assistance",
+      p33: "For Professionals",
+      p4: "Financing as low as",
+      p44: "₹ 9,341/month",
+    },
+    BoxShape: {
+      title: "When you learn more, you earn more.",
+      p: "Through our courses, you can: ",
+      box1desc:
+        "Earn an increment of up to 200% in your next job with your added skill sets",
+      box2desc:
+        "Succeed in an increasingly competitive market with advanced tools and technology",
+      box3desc:
+        "Master your data analysis skills and create a dynamic dashboard to describe your insights",
+      box4desc:
+        "Develop leadership skills by gaining better knowledge of data and make more informed decisions",
+    },
+    CourseReview: {
+      p1: "Working at HCL",
+      p2: " Working at TCS",
+      p3: "Working at Capgemini",
+      h1: "We only make promises",
+      h2: "we can keep",
+      h2p: "Get assured interview calls from top recruiters",
+      hSRC: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/HR-Logos.png",
+      rewHead: "Accelerating countless careers to the next level",
+    },
+    syllabusDesc:
+      "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All sessions are covered practically with real-time industrial projects and case studies.",
+    popupHead: "Download Brochure",
+    hours: "300+ Hours",
+    project: "12+ Real Time",
+    CSyllabus: "Course content",
+    CourseHighlights: "Course content Highlights",
+
+    syllabus: [
+      {
+        Module0: {
+          title: "Module 0 :- Preparatory Classes",
+          content: [
+            {
+              chap: {
+                title: "Topic 1 :- Cohort Orientation",
+                desc: [
+                  "A quick guide to Software Development",
+                  "Significance of projects & case studies",
+                  "How to make it big in the IT Industry and crack MAANG Interviews",
+                  "Interview process of top product based MNCs and Unicorns.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Topic 1 :- Analysis of Algorithms, Space and Time complexity",
+                desc: [
+                  "Big-O, Big-Omega, and Big-Theta notations ",
+                  "Best, average, and worst-case Complexities hierarchy",
+                  "Complexity classes (P vs. NP problem)",
+                  "Asymptotic Analysis",
+                  "Analysis of Loops",
+                ],
+              },
+            },
+          ],
+          id: 0,
+          open: true,
+        },
+      },
+      {
+        Module0: {
+          title: "Term 1 :- Data Structure and Algorithm",
+          content: [
+            {
+              chap: {
+                title: "Module 1 :- DSA",
+                desc: [
+                  "Array Overview",
+                  "String",
+                  "Linked List",
+                  "Queue",
+                  "Stack",
+                  " Heap",
+                  " Trie",
+                  " Tree, Binary Search Tree and AVL Tree",
+                  "Segment Tree",
+                  " Graph & Recursion",
+                  " Introduction to recursion",
+                  " Backtracking Algorithm",
+                  " Searching",
+                  "Sorting",
+                  "Greedy ",
+                  " Pattern Searching",
+                  " Dynamic Programming",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 2 :- System Design",
+                desc: [
+                  "Introduction to System Design",
+                  " High Level Design With Projects",
+                  "Low-Level Design With Projects OOD and Design Patterns",
+                  "Database Indexing, Proxies,Use case No.: Designing an Instant messaging Service",
+                ],
+              },
+            },
+          ],
+          id: 2,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Term 2 :- Real-time Projects & Use cases",
+          content: [
+            {
+              chap: {
+                title: "Module 1 :- Real time use cases and projects",
+                desc: [
+                  "Authentication",
+                  " CRUD",
+                  "Payment Gateway Integration",
+                  "API Integration",
+                  " Travel Booking Application",
+                  " Video Conferencing Application",
+                  "Blog Site",
+                  " Workout Application",
+                  "Buy/Sell Second-hand Products",
+                  "On-Demand Home Service Application",
+                  "Online Code Editor Application",
+                  "Stock Investment Application",
+                  "Create a To-do List Application",
+                  " Chatting/Messaging Application",
+                  " Food Delivery Application",
+                  " VR-Based Application",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 2 :- Interview Preparation: Crack MAANG",
+                desc: [
+                  " Searching and Sorting Interview Questions",
+                  " Top 20 Dynamic Programming Interview Questions",
+                  " Top 100 Interview Questions on Advance data structures",
+                  " On-Demand Home Service Application",
+                  " Top 50 Interview Questions on Elementary data structures",
+                  " Top 15 Puzzles to solve and practice",
+                  " Practice the Most Popular Algorithms",
+                  " Programming Knowledge",
+                  " Aptitude, Reasoning & English",
+                  " Quantitative Aptitude",
+                  " Behavioral",
+                  " Logical Ability",
+                  " Computer Science & Programming",
+                  " Chatting/Messaging Application",
+                  " Prefix Sum and Sliding Window",
+                  " Bit Magic",
+                ],
+              },
+            },
+          ],
+          id: 3,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Term 3 :- Elite Domains",
+          content: [
+            {
+              chap: {
+                title: "Module 1 :- FullStack",
+                desc: ["Programming Essentials", "Frontend", "Backend"],
+              },
+            },
+            {
+              chap: {
+                title: "Module 2 :- Product Engineer/Manager",
+                desc: [
+                  "Fundamentals of team management",
+                  "Recognize functional specifications",
+                  "Product Lifecycle Administration ",
+                  "Competitive Intelligence",
+                  "Domain-Driven Design",
+                  "Application Requirements Specification",
+                ],
+              },
+            },
+            // {
+            //   chap: {
+            //     title: "Module 3 :- Data Science and AI",
+            //     desc: [
+            //       "An overview of Machine Learning",
+            //       "Exploratory Data Analysis",
+            //       "Data Visualization using Tableau",
+            //       "Introduction to Time Series Forecasting",
+            //       "Understanding Implementation of Deep Learning",
+            //       "Basics of NLP",
+            //     ],
+            //   },
+            // },
+            {
+              chap: {
+                title: "Module 3 :- Web 3.0 Developer",
+                desc: [
+                  "Overview of Bitcoin",
+                  "Blockchain - Genesis Block, Hashing Algorithm",
+                  "Blockchain Functioning and Working",
+                  "All about - Ethereum",
+                  "Building Smart Contract",
+                  "ERC 721 Token",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 4 :- Devops & Clouds",
+                desc: [
+                  "In-Depth knowledge of Agile Principles",
+                  "Understanding Project Development Process",
+                  "Setting up tools and required infrastructure",
+                  "Gain expertise in CI/CD pipeline development using multiple automation technologies",
+                  "Managing Database using MySQL and MongoDB",
+                  "Analytics in Cloud Computing",
+                ],
+              },
+            },
+          ],
+          id: 4,
+          open: false,
+        },
+      },
+    ],
+
+    Review: {
+      title: "Why get enrolled in our Advanced Data Science and AI course?",
+      desc: " Learnbay’s Advanced Data Science and AI course with real-work experience is designed for creative minds and made for everyone. Take our data science training and experience the new era of education.",
+    },
+    ProgramFee: {
+      Fee: "₹ 1,10,000 + GST",
+      Emi: "₹ 10,816",
+      CourseFeeAndFinancing:
+        "Full Stack Software Development Course Fee & Financing",
+      para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Science Certification Course and offer avariety of financing options to make it more economical.",
+    },
+    Project: {
+      popupHead: "Download Project Brochure",
+      project: "12+ Projects",
+      domain: "7+",
+      projectTitle: "Hands-on Projects",
+      projectTitle1: "Software Development Projects",
+
+      domainName1: ".bubble",
+      projectName1: "CRUD",
+      domainParagraph1:
+        "Create an online application that displays the contents of a database in list form, modify...",
+
+      domainName2: "boomi",
+      projectName2: "API Integration",
+      domainParagraph2:
+        "Learn advanced API integration to connect two or more applications, via their APIs, that lets...",
+
+      domainName3: "zoom",
+      projectName3: "Video Conferencing Application",
+      domainParagraph3:
+        "This is a full-stack web development project at the advanced level that includes seamless...",
+
+      domainName4: "Expedia",
+      projectName4: "Travel Booking Application",
+      domainParagraph4:
+        "The connected website must offer signup, login/logout, and profile creation/editing. This must...",
+
+      domainName5: "Microsoft Authentication",
+      projectName5: "Authentication",
+      domainParagraph5:
+        "Develop Authentication technology that provides access control for systems by checking to see if...",
+
+      domainName6: "Blogger",
+      projectName6: "Blog Site",
+      domainParagraph6:
+        "Nothing more than creating a basic content management system is being done here. An increased...",
+    },
+    CourseFees: {
+      CourseFeeHead: "Data Science Course : Batch Details",
+      CourseFeePara: "Data Science Online Classroom",
+      CourseFeelist1: "Online Interactive Classes",
+      CourseFeelist2: "Weekend and Weekday Batches",
+      CourseFeelist3: "Extra Doubt Clearing Sessions",
+      CourseFeelist4: "Multiple Domain Selection Options",
+      CourseFeelist5: "Company-based Mock Interviews",
+    },
+
+    Batch: [
+      {
+        Module0: {
+          title: "Weekend Morning Batch  :- (Sat-Sun)",
+          content: [
+            {
+              chap: {
+                title: "Batch 1 :- Date And time ",
+                desc: ["Date : 25th March 2023", "Time : 8 AM to 11 AM"],
+              },
+            },
+          ],
+          id: 1,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Weekday Evening Batch  :- (Mon-Wed-Fri)",
+          content: [
+            {
+              chap: {
+                title: "Batch 1 :- Date And time ",
+                desc: ["Date : 27th March 2023", "Time : 8 PM to 10 PM"],
+              },
+            },
+          ],
+          id: 1,
+          open: false,
+        },
+      },
+    ],
+
+    BatchCourses: {
+      CourseFeeHead: "Full Stack Software Development Program: Batch Details",
+      CourseFeePara: "Online Classroom",
+      CourseFeelist1: "Online Interactive Classes",
+      CourseFeelist2: "Weekend and Weekday Batches",
+      CourseFeelist3: "Extra Doubt Clearing Sessions",
+      CourseFeelist4: "Multiple Domain Selection Options",
+      CourseFeelist5: "Company-based Mock Interviews",
+    },
+  },
+];

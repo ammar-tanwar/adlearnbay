@@ -30,10 +30,12 @@ const Footer = () => {
             <IoMailSharp className="bIcons" />
             contacts@learnbay.co
           </span>
+          <Link href="tel:+919606950936" >
           <span style={{ display: "flex", marginTop: "10px" }}>
             <BsFillTelephoneFill className="bIcons" />
             (+91) 96069 50936
           </span>
+          </Link>
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Popular Courses</p>
