@@ -92,7 +92,7 @@ export default function Home() {
           deskTopPara="Get Certified & Move Towards Dream Job"
           h1="#1 Domain Specialised Certification Program For "
           hSpan="Working Professionals"
-          para="Use your domain expertise to build a meaningful career. Crack interview in top product based MNCs and MAANG with confidence"
+          para="Use your domain expertise to build a meaningful career. Crack interview in top product based MNCs with confidence."
           sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/data+science+and+ai.jpg"
         />
         <SecondSection

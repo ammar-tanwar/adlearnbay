@@ -33,7 +33,7 @@ const Footerfsd = () => {
           />
           <p className={styles.FooterInnerli}>
             Enroll now on DSA and System Design Webinars led by top Industry
-            leaders from MAANG companies that will give you a complete
+            leaders from MNCs companies that will give you a complete
             understanding on the subject.
           </p>
           <div className={styles.FooterSocial}>

@@ -84,11 +84,11 @@ export default function Home() {
 
       <Navbar radio={true} />
       <FirstSection
-      common={true}
+        common={true}
         heading="#1 Domain Specialised Certification Program For"
         headingSpan="Working Professionals"
         des="Use your domain expertise to build a meaningful career. Crack interview
-      in top product based MNCs and MAANG with confidence"
+      in top product based MNCs with confidence."
         h1="1:1"
         p1="Dedicated Mentorship"
         h2="100%"
@@ -108,14 +108,14 @@ export default function Home() {
           <BoxShape />
         </div>
       </div>
-      <Course radio={true} common={true}/>
+      <Course radio={true} common={true} />
       <KeyFeatures />
       <WhyLearnbay radio={true} />
       <MultiTabs />
       <FormSection dataScience={true} />
       <CareerImpactHome />
       <LearnSupport fullStackCont={true} />
-      <Footer fullStackCont={true}/>
+      <Footer fullStackCont={true} />
     </div>
   );
 }

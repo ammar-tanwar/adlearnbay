@@ -24,7 +24,7 @@ const Footer = () => {
           <p className={styles.FooterInnerli}>
             The Full-Stack Developer Program is a demanding course that offers
             you everything you need to know about becoming a skillful developer.
-            Prepare for MAANG interviews by brushing up on your technical
+            Prepare for top product based  MNCs interviews by brushing up on your technical
             skills. Enroll now for a smooth transition.
           </p>
           <span style={{ display: "flex", marginTop: "20px" }}>

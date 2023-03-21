@@ -36,7 +36,7 @@ export const mastersProgram = [
         "Obtain cutting-edge skills as per demanding IT-industry standards. Choose from 7+ domains.",
       Box3h5: "Premium Mentoring",
       box3desc:
-        "Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG Data Science/AI experts.",
+        "Experience the latest tips and tricks of mock interviews and CV writing sessions with top product based MNCs Data Science/AI experts.",
       Box4h5: "Hands-on Experience",
       box4desc:
         "Perform 3 fresh capstone projects, spanning from advanced level complexity, to earn IBM certification.",

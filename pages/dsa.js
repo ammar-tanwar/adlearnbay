@@ -120,7 +120,7 @@ export default function Home() {
         <div className={styles.Feature} id="Feature">
           <BoxShape
             title="Why Enroll In DSA & System Design?"
-            Box1h5="Crack MAANG Interview"
+            Box1h5="Crack MNCs Interview"
             box1desc="Learn in-depth DSA and crack interviews in product-based MNCs"
             Box2h5="1:1 Mentorship"
             box2desc="Guided by mentors working In MNCs to support you for the tech interviews"

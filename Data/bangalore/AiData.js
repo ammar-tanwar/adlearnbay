@@ -37,7 +37,7 @@ export const AiCourseData = [
         "Obtain cutting-edge Al and ML skills as per demanding IT-industry standards. Choose any domain of your choice.",
       Box3h5: "Premium Mentoring",
       box3desc:
-        "Enjoy and learn from mock interviews and CV writing workshops with MAANG AI/ML industry experts.",
+        "Enjoy and learn from mock interviews and CV writing workshops with top product based MNCs AI/ML industry experts.",
       Box4h5: "Hands-on Experience",
       box4desc:
         "Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies.",

@@ -139,16 +139,17 @@ export default function Home() {
             Box2h5="Exclusive Hackathons"
             box2desc="Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by Learnbay experts."
             Box3h5="Premium Mentoring"
-            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts."
+            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with top product based MNCs experts."
             Box4h5="Hands-on Experience"
             box4desc="Get diligent real-world project experience, spanning from beginner’s level complexity, directly from relevant companies."
           />
         </div>
         <DomainFaq FaqData={DomainFaqCourseData2} />
-        <CourseReview 
-        p1="Working at HCL"
-        p2=" Working at TCS"
-        p3="Working at Capgemini"/>
+        <CourseReview
+          p1="Working at HCL"
+          p2=" Working at TCS"
+          p3="Working at Capgemini"
+        />
         <Certificate
           title="Course Completion Certificate from IBM"
           desc="Complete your training with the internationally recognized certificate."
@@ -169,7 +170,7 @@ export default function Home() {
           project="8+ Real Time"
         />
         <OurExpert
-        H5="Tools Covered"
+          H5="Tools Covered"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/1.png"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/2.png"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/3.png"
@@ -195,14 +196,18 @@ export default function Home() {
           img20="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg"
         />
         <ProgramFee
-        CourseFeeAndFinancing="Program Fee & Financing"
-        para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."
+          CourseFeeAndFinancing="Program Fee & Financing"
+          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."
           Emi="₹ 14,750/month"
           Fee="₹ 75,000 + 18% GST"
           dataScience={true}
         />
         <div className={styles.ProjectWrapper} id="project">
-          <Project projectTitle="Hands-on Projects" project="8+ Projects" domain="7+" />
+          <Project
+            projectTitle="Hands-on Projects"
+            project="8+ Projects"
+            domain="7+"
+          />
         </div>
         <CourseFee
           dataScience={true}
@@ -215,7 +220,7 @@ export default function Home() {
           CourseFeelist4="Project-Based Learning"
           CourseFeelist5="Company-based Mock Interviews"
         />
-        <LearnSupport organicNum={true}/>
+        <LearnSupport organicNum={true} />
         <Footer />
       </main>
     </div>

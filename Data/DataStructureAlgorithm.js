@@ -26,7 +26,7 @@ export const DataStructureAlgorithmData = [
     },
     BoxShape: {
       title: "Data Structures and Algorithms Program Features",
-      Box1h5: "Crack MAANG Interview",
+      Box1h5: "Crack MNCs Interview",
       box1desc:
         "Learn in-depth from Live DSA course and crack interviews in product-based MNCs ",
       Box2h5: "1:1 Mentorship",
@@ -77,7 +77,7 @@ export const DataStructureAlgorithmData = [
                 desc: [
                   "A quick guide to Software Development",
                   "Significance of projects & case studies",
-                  "How to make it big in the IT Industry and crack MAANG Interviews",
+                  "How to make it big in the IT Industry and crack top product based MNCs Interviews",
                   "Interview process of top product based MNCs and Unicorns.",
                 ],
               },
@@ -175,7 +175,8 @@ export const DataStructureAlgorithmData = [
             },
             {
               chap: {
-                title: "Module 2 :- Interview Preparation: Crack MAANG",
+                title:
+                  "Module 2 :- Interview Preparation: Crack top product based MNCs interviews",
                 desc: [
                   " Searching and Sorting Interview Questions",
                   " Top 20 Dynamic Programming Interview Questions",
@@ -286,7 +287,7 @@ export const BestDataStructureAlgorithmData = [
     },
     BoxShape: {
       title: "Best Course for Data Structures and Algorithms Features",
-      Box1h5: "Crack MAANG Interview",
+      Box1h5: "Crack MNCs Interview",
       box1desc:
         "Learn in-depth from Live DSA course and crack interviews in product-based MNCs ",
       Box2h5: "1:1 Mentorship",
@@ -337,7 +338,7 @@ export const BestDataStructureAlgorithmData = [
                 desc: [
                   "A quick guide to Software Development",
                   "Significance of projects & case studies",
-                  "How to make it big in the IT Industry and crack MAANG Interviews",
+                  "How to make it big in the IT Industry and crack top product based MNCs Interviews",
                   "Interview process of top product based MNCs and Unicorns.",
                 ],
               },
@@ -435,7 +436,8 @@ export const BestDataStructureAlgorithmData = [
             },
             {
               chap: {
-                title: "Module 2 :- Interview Preparation: Crack MAANG",
+                title:
+                  "Module 2 :- Interview Preparation: Crack top product based MNCs interviews",
                 desc: [
                   " Searching and Sorting Interview Questions",
                   " Top 20 Dynamic Programming Interview Questions",
@@ -546,7 +548,7 @@ export const DataStructureCourseData = [
     },
     BoxShape: {
       title: "Data Structures Course Features",
-      Box1h5: "Crack MAANG Interview",
+      Box1h5: "Crack MNCs Interview",
       box1desc:
         "Learn in-depth from Live DSA course and crack interviews in product-based MNCs ",
       Box2h5: "1:1 Mentorship",
@@ -597,7 +599,7 @@ export const DataStructureCourseData = [
                 desc: [
                   "A quick guide to Software Development",
                   "Significance of projects & case studies",
-                  "How to make it big in the IT Industry and crack MAANG Interviews",
+                  "How to make it big in the IT Industry and crack top product based MNCs Interviews",
                   "Interview process of top product based MNCs and Unicorns.",
                 ],
               },
@@ -695,7 +697,8 @@ export const DataStructureCourseData = [
             },
             {
               chap: {
-                title: "Module 2 :- Interview Preparation: Crack MAANG",
+                title:
+                  "Module 2 :- Interview Preparation: Crack top product based MNCs interviews",
                 desc: [
                   " Searching and Sorting Interview Questions",
                   " Top 20 Dynamic Programming Interview Questions",
@@ -806,7 +809,7 @@ export const DataStructureSyllabusData = [
     },
     BoxShape: {
       title: "Data Structures and Algorithms Course Features",
-      Box1h5: "Crack MAANG Interview",
+      Box1h5: "Crack MNCs Interview",
       box1desc:
         "Learn in-depth from Live DSA course and crack interviews in product-based MNCs ",
       Box2h5: "1:1 Mentorship",
@@ -857,7 +860,7 @@ export const DataStructureSyllabusData = [
                 desc: [
                   "A quick guide to Software Development",
                   "Significance of projects & case studies",
-                  "How to make it big in the IT Industry and crack MAANG Interviews",
+                  "How to make it big in the IT Industry and crack top product based MNCs Interviews",
                   "Interview process of top product based MNCs and Unicorns.",
                 ],
               },
@@ -955,7 +958,8 @@ export const DataStructureSyllabusData = [
             },
             {
               chap: {
-                title: "Module 2 :- Interview Preparation: Crack MAANG",
+                title:
+                  "Module 2 :- Interview Preparation: Crack top product based MNCs interviews",
                 desc: [
                   " Searching and Sorting Interview Questions",
                   " Top 20 Dynamic Programming Interview Questions",
@@ -1067,7 +1071,7 @@ export const DataStructureAlgoCourseData = [
     },
     BoxShape: {
       title: "Data Structures and Algorithms Course Features",
-      Box1h5: "Crack MAANG Interview",
+      Box1h5: "Crack MNCs Interview",
       box1desc:
         "Learn in-depth from Live DSA course and crack interviews in product-based MNCs ",
       Box2h5: "1:1 Mentorship",
@@ -1118,7 +1122,7 @@ export const DataStructureAlgoCourseData = [
                 desc: [
                   "A quick guide to Software Development",
                   "Significance of projects & case studies",
-                  "How to make it big in the IT Industry and crack MAANG Interviews",
+                  "How to make it big in the IT Industry and crack top product based MNCs Interviews",
                   "Interview process of top product based MNCs and Unicorns.",
                 ],
               },
@@ -1216,7 +1220,8 @@ export const DataStructureAlgoCourseData = [
             },
             {
               chap: {
-                title: "Module 2 :- Interview Preparation: Crack MAANG",
+                title:
+                  "Module 2 :- Interview Preparation: Crack top product based MNCs interviews",
                 desc: [
                   " Searching and Sorting Interview Questions",
                   " Top 20 Dynamic Programming Interview Questions",

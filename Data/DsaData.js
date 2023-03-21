@@ -26,7 +26,7 @@ export const DsaCourseData = [
     },
     BoxShape: {
       title: "System Design & Data Structures and Algorithms Program Features",
-      Box1h5: "Crack MAANG Interview",
+      Box1h5: "Crack MNCs Interview",
       box1desc:
         "Learn in-depth from Live DSA course and crack interviews in product-based MNCs ",
       Box2h5: "1:1 Mentorship",
@@ -77,7 +77,7 @@ export const DsaCourseData = [
                 desc: [
                   "A quick guide to Software Development",
                   "Significance of projects & case studies",
-                  "How to make it big in the IT Industry and crack MAANG Interviews",
+                  "How to make it big in the IT Industry and crack top product based MNCs Interviews",
                   "Interview process of top product based MNCs and Unicorns.",
                 ],
               },
@@ -175,7 +175,8 @@ export const DsaCourseData = [
             },
             {
               chap: {
-                title: "Module 2 :- Interview Preparation: Crack MAANG",
+                title:
+                  "Module 2 :- Interview Preparation: Crack top product based MNCs interviews",
                 desc: [
                   " Searching and Sorting Interview Questions",
                   " Top 20 Dynamic Programming Interview Questions",

@@ -41,7 +41,7 @@ export default function Home({ formotp }) {
         />
         <meta
           name="description"
-          content="Learn Full Stack Software Development training. Get a chance to work with Maang Companies and participate in live, interactive online sessions led by tech experts to gain real-time project experience."
+          content="Learn Full Stack Software Development training. Get a chance to work with top product based MNCs Companies and participate in live, interactive online sessions led by tech experts to gain real-time project experience."
         />
         <meta
           name="Keywords"
