@@ -1,18 +1,18 @@
 import Head from "next/head";
-import styles from "../../styles/Home.module.css";
-import FirstSection from "../../Components/Domain/FirstSection/FirstSection";
-import BoxShape from "../../Components/Domain/Boxshape/BoxShape";
-import Popup from "../../Components/Popup/Popup";
-import Form from "../../Components/Form/Form";
-import Navbar from "../../Components/CoursePage/Navbar/Navbar";
-import BankingProject from "../../Components/Domain/Project/BankingProject";
-import SyllabusNew from "../../Components/Domain/SyllabusNew/SyllabusNew";
-import Footer from "../../Components/CoursePage/Footer/Footer";
-import LearnSupport from "../../Components/Domain/LearnSupport/LearnSupport";
+import styles from "../styles/Home.module.css";
+import FirstSection from "../Components/Domain/FirstSection/FirstSection";
+import BoxShape from "../Components/Domain/Boxshape/BoxShape";
+import Popup from "../Components/Popup/Popup";
+import Form from "../Components/Form/Form";
+import Navbar from "../Components/CoursePage/Navbar/Navbar";
+import BankingProject from "../Components/Domain/Project/BankingProject";
+import SyllabusNew from "../Components/Domain/SyllabusNew/SyllabusNew";
+import Footer from "../Components/CoursePage/Footer/Footer";
+import LearnSupport from "../Components/Domain/LearnSupport/LearnSupport";
 import React, { useState } from "react";
-import { SoftwareData } from "../../Data/Domain";
-import CourseReview from "../../Components/Domain/CourseReview/CourseReview";
-import FAQNew from "../../Components/LightTheme/FAQNew/FAQNewcer";
+import { SoftwareData } from "../Data/Domain";
+import CourseReview from "../Components/Domain/CourseReview/CourseReview";
+import FAQNew from "../Components/LightTheme/FAQNew/FAQNewcer";
 import {
   FaqData9,
   DomainFaqData9,
@@ -21,7 +21,7 @@ import {
   jobFaqData9,
   MentorshipFaqData9,
   SupportFaqData9,
-} from "../../Components/LightTheme/FAQNew/FaqData";
+} from "../Components/LightTheme/FAQNew/FaqData";
 import Image from "next/image";
 
 export default function Home() {
@@ -46,43 +46,42 @@ export default function Home() {
           name="Keywords"
           content="Full Stack Software Development Course,Best Full Stack Software Development Course, Online Full Stack Software Development Course, Learn Full Stack Software development Course"
         />
-        <script
+         <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
-                        var s = document.createElement('script');
-                        s.type = 'text/javascript';
-                        s.async = true;
-                        s.src = url;
-                        var options = {
-                    "enabled":true,
-                    "chatButtonSetting":{
-                        "backgroundColor":"#4dc247",
-                        "ctaText":"",
-                        "borderRadius":"10",
-                        "marginLeft":"0",
-                        "marginBottom":"30",
-                        "marginRight":"30",
-                        "position":"right"
-                    },
-                    "brandSetting":{
-                        "brandName":"Learnbay",
-                        "brandSubTitle":"The Learner's Path",
-                        "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
-                        "welcomeText":"Hi there! How can I help you?",
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = url;
+            var options = {
+          "enabled":true,
+          "chatButtonSetting":{
+              "backgroundColor":"#4dc247",
+              "ctaText":"",
+              "borderRadius":"10",
+              "marginLeft":"0",
+              "marginBottom":"30",
+              "marginRight":"30",
+              "position":"right"
+          },
+          "brandSetting":{
+              "brandName":"Learnbay",
+              "brandSubTitle":"The Learner's Path",
+              "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
+              "welcomeText":"Hi there! How can I help you?",
  "messageText":"I am looking for course, and free career counselling session.",
-                         
-                        "backgroundColor":"#0a5f54",
-                        "ctaText":"Start Chat",
-                        "borderRadius":"25",
-                        "autoShow":false,
-                        "phoneNumber":"+919731135221"
-                    }
-                    };
-                        s.onload = function() {
-                            CreateWhatsappChatWidget(options);
-                        };
-                        var x = document.getElementsByTagName('script')[0];
-                        x.parentNode.insertBefore(s, x);`,
+              "backgroundColor":"#0a5f54",
+              "ctaText":"Start Chat",
+              "borderRadius":"25",
+              "autoShow":false,
+              "phoneNumber":"+919606950936"
+          }
+        };
+            s.onload = function() {
+                CreateWhatsappChatWidget(options);
+            };
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);`,
           }}
         />
       </Head>
@@ -202,8 +201,8 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData9}
           SupportFaqDatas={SupportFaqData9}
         />
-        <LearnSupport fullStackContent={true} />
-        <Footer fullStackCont={true} />
+        <LearnSupport />
+        <Footer fullStackContt={true}/>
       </main>
     </div>
   );

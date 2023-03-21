@@ -16,7 +16,7 @@ import {
   FaAndroid,
 } from "react-icons/fa";
 
-const Footer = ({ numEmailHide, fullStackCont }) => {
+const Footer = ({ numEmailHide, fullStackCont, fullStackContt }) => {
   const [showMe, setShowMe] = useState(false);
   function toggle() {
     setShowMe(!showMe);
@@ -24,7 +24,7 @@ const Footer = ({ numEmailHide, fullStackCont }) => {
   return (
     <>
       <section className={styles.FooterSection}>
-        {fullStackCont ? (
+        {fullStackContt ? (
           <>
             <div className={styles.FooterDiv1}>
               <div className={styles.FooterDivInner}>
