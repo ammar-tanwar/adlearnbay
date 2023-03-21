@@ -1205,7 +1205,7 @@ export const SoftwareData = [
                 desc: [
                   "A quick guide to Software Development",
                   "Significance of projects & case studies",
-                  "How to make it big in the IT Industry and crack MAANG Interviews",
+                  "How to make it big in the IT Industry and crack top product based MNCs Interviews",
                   "Interview process of top product based MNCs and Unicorns.",
                 ],
               },
@@ -1301,7 +1301,8 @@ export const SoftwareData = [
             },
             {
               chap: {
-                title: "Module 2 :- Interview Preparation: Crack MAANG",
+                title:
+                  "Module 2 :- Interview Preparation: Crack top product based MNCs interviews",
                 desc: [
                   " Searching and Sorting Interview Questions",
                   " Top 20 Dynamic Programming Interview Questions",

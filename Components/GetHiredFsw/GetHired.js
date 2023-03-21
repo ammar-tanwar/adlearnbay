@@ -70,7 +70,7 @@ const GetHired = ({ dsa, radio, formotp }) => {
           <div className={styles.bottom}>
             <p>
               {dsa
-                ? "Get trained from MAANG experts"
+                ? "Get trained from MNCs experts"
                 : "Project experience Certificate by IBM"}
             </p>
           </div>

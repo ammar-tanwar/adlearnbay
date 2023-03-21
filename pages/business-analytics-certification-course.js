@@ -132,7 +132,7 @@ export default function Home() {
             Box2h5="Exclusive Hackathons"
             box2desc="Hone newly earned coding skills through multiple coding competitions. Exclusively arranged by Learnbay experts."
             Box3h5="Premium Mentoring"
-            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG experts."
+            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with top product based MNCs experts."
             Box4h5="Hands-on Experience"
             box4desc="Get the diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant companies."
           />
@@ -143,7 +143,6 @@ export default function Home() {
           p2=" Working at TCS"
           p3="Working at Capgemini"
         />
-
         <Certificate
           title="Course Completion Certificate from IBM"
           desc="Complete your training with the internationally recognized certificate."

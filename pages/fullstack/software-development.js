@@ -33,14 +33,14 @@ export default function Home() {
   return (
     <div>
       <Head>
-      <title>Full Stack Software Development Course</title>
+        <title>Full Stack Software Development Course</title>
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
         <meta
           name="description"
-          content="Learn Full Stack Software Development Course. Get a chance to work with Maang Companies and participate in live, interactive online sessions led by tech experts to gain real-time project experience."
+          content="Learn Full Stack Software Development Course. Get a chance to work with top product based MNCs Companies and participate in live, interactive online sessions led by tech experts to gain real-time project experience."
         />
         <meta
           name="Keywords"
@@ -85,10 +85,10 @@ export default function Home() {
                         x.parentNode.insertBefore(s, x);`,
           }}
         />
-      </Head> 
+      </Head>
       <main>
         {" "}
-        <Navbar popup={true}/>
+        <Navbar popup={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -100,9 +100,9 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-        image={true}
-        fullStackContent={true}
-        imagesrc="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/fssd-generic.jpeg"
+          image={true}
+          fullStackContent={true}
+          imagesrc="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/fssd-generic.jpeg"
           ptop="Ace the PRODUCT Interviews to achieve your dream job"
           heading1="Full Stack"
           headingSpan1=" Software Development"
@@ -130,7 +130,8 @@ export default function Home() {
           <div className={styles.section41}>
             <h2>You’re one step closer to becoming a Software Developer</h2>
             <p>
-            Register for our Full Stack Software Development program and take your career to places like never before.
+              Register for our Full Stack Software Development program and take
+              your career to places like never before.
             </p>
             <div className={styles.section42}>
               <p>
@@ -164,7 +165,7 @@ export default function Home() {
           </div>
         </div>
         <CourseReview
-        fullStackContent={true}
+          fullStackContent={true}
           p1={SoftwareData[0].CourseReview.p1}
           p2={SoftwareData[0].CourseReview.p2}
           p3={SoftwareData[0].CourseReview.p3}
@@ -201,8 +202,8 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData9}
           SupportFaqDatas={SupportFaqData9}
         />
-        <LearnSupport fullStackContent={true}/>
-        <Footer fullStackCont={true}/>
+        <LearnSupport fullStackContent={true} />
+        <Footer fullStackCont={true} />
       </main>
     </div>
   );

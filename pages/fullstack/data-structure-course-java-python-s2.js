@@ -38,7 +38,7 @@ export default function Home({ formotp }) {
         <title>Data Structure Course</title>
         <meta
           name="description"
-          content="Learn DSA Course in Java or Python with a chance to work at Maang Companies and participate in live sessions led by tech experts to gain real-time project experience."
+          content="Learn DSA Course in Java or Python with a chance to work at top product based MNCs Companies and participate in live sessions led by tech experts to gain real-time project experience."
         />
         <meta
           name="Keywords"

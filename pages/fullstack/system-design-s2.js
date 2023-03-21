@@ -42,7 +42,7 @@ export default function Home({ formotp }) {
         />
         <meta
           name="description"
-          content="Learn System Design Course with a chance to work at Maang Companies and participate in live sessions led by tech experts to gain real-time project experience."
+          content="Learn System Design Course with a chance to work at top product based MNCs Companies and participate in live sessions led by tech experts to gain real-time project experience."
         />
         <meta
           name="Keywords"
@@ -138,7 +138,7 @@ export default function Home({ formotp }) {
           Module0="Preparatory Classes"
           Module1="DSA and System Design"
           Module2="Real-time Projects & Use Cases"
-          Module3="Interview Preparation: Crack MAANG"
+          Module3="Interview Preparation: Crack top product based MNCs interviews"
         />
         <ProgramFee
           Fee={SytstemDesignCourseData[0].ProgramFee.Fee}

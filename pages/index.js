@@ -86,7 +86,7 @@ export default function Home() {
         heading="#1 Domain Specialised Certification Program For"
         headingSpan="Working Professionals"
         des="Use your domain expertise to build a meaningful career. Crack interview
-      in top product based MNCs and MAANG with confidence"
+      in top product based MNCs with confidence."
         h1="1:1"
         p1="Dedicated Mentorship"
         h2="100%"

@@ -38,7 +38,7 @@ export default function Home({ formotp }) {
         <title>Live Interactive Dsa Course</title>
         <meta
           name="description"
-          content="Learn Data Structures and Algorithms Course with a chance to work at Maang Companies and participate in live sessions led by tech experts to gain real-time project experience."
+          content="Learn Data Structures and Algorithms Course with a chance to work at top product based MNCs Companies and participate in live sessions led by tech experts to gain real-time project experience."
         />
         <meta
           name="Keywords"

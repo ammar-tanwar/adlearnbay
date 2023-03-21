@@ -109,27 +109,27 @@ export default function Home() {
           alt="AiMl Header"
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf"
         />
-          <ProgramInfo
-            p1="Aimed for"
-            p11="Working Professionals"
-            p2="35 LPA - 50 LPA"
-            p22="Salary Package"
-            p3="1:1"
-            p33="Career Support"
-            p4="Financing as low as"
-            p44="₹ 12,292/month"
-          />
-          <BoxShape
-            title="Why Enroll In This Program?"
-            Box1h5="Custom-fit Training"
-            box1desc="Get specially designed modules as per your dream job profile. Learn demanding DS/AI applications."
-            Box2h5="Domain Focused"
-            box2desc="Obtain cutting-edge skills as per demanding IT-industry standards. Choose from 10+ domains."
-            Box3h5="Premium Mentoring"
-            box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with MAANG Data Science/AI experts."
-            Box4h5="Hands-on Experience"
-            box4desc="Get diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
-          />
+        <ProgramInfo
+          p1="Aimed for"
+          p11="Working Professionals"
+          p2="35 LPA - 50 LPA"
+          p22="Salary Package"
+          p3="1:1"
+          p33="Career Support"
+          p4="Financing as low as"
+          p44="₹ 12,292/month"
+        />
+        <BoxShape
+          title="Why Enroll In This Program?"
+          Box1h5="Custom-fit Training"
+          box1desc="Get specially designed modules as per your dream job profile. Learn demanding DS/AI applications."
+          Box2h5="Domain Focused"
+          box2desc="Obtain cutting-edge skills as per demanding IT-industry standards. Choose from 10+ domains."
+          Box3h5="Premium Mentoring"
+          box3desc="Experience the latest tips and tricks of mock interviews and CV writing sessions with top product based MNCs Data Science/AI experts."
+          Box4h5="Hands-on Experience"
+          box4desc="Get diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
+        />
         <DomainFaq FaqData={DomainFaqCourseData1} />
         <CourseReview />
         <Certificate
@@ -140,8 +140,8 @@ export default function Home() {
           src={JobGuaranteeCourseData[0].Certificate.src}
         />
         <SyllabusNew
-        CSyllabus="Syllabus"
-        CourseHighlights="Program Highlights"
+          CSyllabus="Syllabus"
+          CourseHighlights="Program Highlights"
           syllabus={JobGuaranteeCourseData[0].syllabus}
           syllabusDesc={JobGuaranteeCourseData[0].syllabusDesc}
           popupHead="Download Course Brochure"
@@ -184,13 +184,13 @@ export default function Home() {
         />
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
-        <Project 
+          <Project
             popupHead={JobGuaranteeCourseData[0].Project.popupHead}
             project={JobGuaranteeCourseData[0].Project.project}
             domain={JobGuaranteeCourseData[0].Project.domain}
             projectTitle={JobGuaranteeCourseData[0].Project.projectTitle}
           />
-          </div>
+        </div>
         <CourseFee
           dataScience={true}
           syllabus={JobGuaranteeCourseData[0].Batch}

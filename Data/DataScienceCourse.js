@@ -31,7 +31,7 @@ export const DataScienceCourseData = [
       Box2h5: "Assured Interview Call",
       box2desc: "Get job referrals powered by 250+ hiring partners",
       Box3h5: "Premium Mentoring",
-      box3desc: "Get professionally trained from MAANG and MNC experts",
+      box3desc: "Get professionally trained from top product based MNCs experts",
       Box4h5: "Crafted for professional",
       box4desc: "Prioritize growth and salary hike with in-demand skillset",
       headh5:

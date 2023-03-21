@@ -38,7 +38,7 @@ export default function Home({ formotp }) {
         <title>Data Structure Course Syllabus</title>
         <meta
           name="description"
-          content="From our Data Structures Course Syllabus checkout what our experts will teach you in Data Structures & Algorithms Course to get a chance to work at Maang Companies and participate in live sessions led by tech experts to gain real-time project experience."
+          content="From our Data Structures Course Syllabus checkout what our experts will teach you in Data Structures & Algorithms Course to get a chance to work at top product based MNCs Companies and participate in live sessions led by tech experts to gain real-time project experience."
         />
         <meta
           name="Keywords"

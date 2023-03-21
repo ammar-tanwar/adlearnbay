@@ -109,7 +109,7 @@ export const StackD = [
     title: "Full-Stack Software",
     title1: "Development Program",
     para: [
-      "Crack MAANG Interviews",
+      "Crack MNCs Interviews",
       "12 Projects + 2 Capstones",
       "Course Fee : ₹ 1,10,000 + GST",
     ],
