@@ -151,6 +151,8 @@ const Form = ({
     router.pathname === "/apply-for-counselling-data-science" ||
     router.pathname === "/apply-for-counselling" ||
     router.pathname === "/s2-data-science-mis" ||
+    router.pathname === "/software-development-s2" ||
+
     //  BANGALORE
 
     router.pathname === "/bangalore/s2-data-science" ||
@@ -402,7 +404,6 @@ const Form = ({
     router.pathname === "/fssd-s5" ||
     router.pathname === "/dsa-s4" ||
     router.pathname === "/apply-for-counselling-fsd-s2" ||
-    router.pathname === "/fullstack/software-development" ||
     router.pathname === "/dsa-s5"
   ) {
     // -====================  FSD - Ads END POINT ==========================--------
@@ -675,7 +676,7 @@ const Form = ({
       (router.pathname === "/fssd-s2" && downloadBrochure) ||
       (router.pathname === "/generic" && downloadBrochure) ||
       (router.pathname === "/fullstack/fssd-s2" && downloadBrochure) ||
-      (router.pathname === "/fullstack/software-development" && downloadBrochure) ||
+      (router.pathname === "/software-development-s2" && downloadBrochure) ||
       (router.pathname === "/fullstack/fssd-institute-program-s2" &&
         downloadBrochure) ||
       (router.pathname === "/fullstack/fssd-training-s2" && downloadBrochure) ||
@@ -806,7 +807,7 @@ const Form = ({
       router.pathname === "/fssd-s2" ||
       router.pathname === "/generic" ||
       router.pathname === "/fullstack/fssd-s2" ||
-      router.pathname === "/fullstack/software-development" ||
+      router.pathname === "/software-development-s2" ||
       router.pathname === "/fullstack/fssd-institute-program-s2" ||
       router.pathname === "/fullstack/fssd-training-s2" ||
       router.pathname === "/fullstack/software-development-course-s2" ||

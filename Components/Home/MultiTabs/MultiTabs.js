@@ -156,7 +156,7 @@ const MultiTabs = () => {
               />
               <h6>
                 Work on Domain Specialised Capstone Projects With IBM to get
-                handson experience
+                hands on experience
               </h6>
               <p className={styles.para}>
                 Upon Successful completion of the course, you will receive the
