@@ -391,7 +391,7 @@ const Form = ({
   // -==================== FSD - Ads  END POINT ==========================--------
   if (
     router.pathname === "/fssd-s2" ||
-    router.pathname === "/common" ||
+    router.pathname === "/generic" ||
     router.pathname === "/fullstack/fssd-s2" ||
     router.pathname === "/fullstack/fssd-institute-program-s2" ||
     router.pathname === "/fullstack/fssd-training-s2" ||
@@ -670,7 +670,7 @@ const Form = ({
       (router.pathname === "/fswd" && downloadBrochure) ||
       (router.pathname === "/dsa" && downloadBrochure) ||
       (router.pathname === "/fssd-s2" && downloadBrochure) ||
-      (router.pathname === "/common" && downloadBrochure) ||
+      (router.pathname === "/generic" && downloadBrochure) ||
       (router.pathname === "/fullstack/fssd-s2" && downloadBrochure) ||
       (router.pathname === "/fullstack/fssd-institute-program-s2" &&
         downloadBrochure) ||
@@ -799,7 +799,7 @@ const Form = ({
       router.pathname === "/fswd" ||
       router.pathname === "/dsa" ||
       router.pathname === "/fssd-s2" ||
-      router.pathname === "/common" ||
+      router.pathname === "/generic" ||
       router.pathname === "/fullstack/fssd-s2" ||
       router.pathname === "/fullstack/fssd-institute-program-s2" ||
       router.pathname === "/fullstack/fssd-training-s2" ||
