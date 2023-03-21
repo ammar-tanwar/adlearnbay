@@ -140,6 +140,8 @@ h4 {
 .RightPopup p {
   font-size: 18px;
   color: rgb(143, 143, 143);
+  margin: 0;
+  text-align: center;
 }
 .PricePopup {
   display: flex;

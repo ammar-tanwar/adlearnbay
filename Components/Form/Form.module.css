@@ -206,6 +206,7 @@
   margin: auto;
   justify-content: center;
   cursor: pointer;
+  margin-top: 20px;
 }
 .App form {
   display: flex;
