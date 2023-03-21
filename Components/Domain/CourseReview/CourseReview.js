@@ -11,8 +11,9 @@ import { MdDownload } from "react-icons/md";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
+import { FaDownload } from "react-icons/fa";
 
-const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS,h1,h2,h2p ,hSRC,rewHead }) => {
+const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS,h1,h2,h2p ,hSRC,rewHead, fullStackContent }) => {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -76,11 +77,168 @@ const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS,h1,h2,h2p ,hSRC,rewH
           </div>
 
           <button onClick={popupShow} className={styles.btn}>
-            Download Placement Report <MdDownload className="bIcons" />
+            Download Placement Report <FaDownload className="bIcons" />
           </button>
         </div>
         <div className={styles.swiperleft}>
           <h5>{rewHead}</h5>
+          { fullStackContent ? (
+            <Swiper
+            slidesPerView={mobile ? 1.02 : 1}
+            spaceBetween={mobile ? 10 : 10}
+            navigation={true}
+            pagination={{ clickable: true }}
+            grabCursor={true}
+            modules={[Pagination, Navigation]}
+            className="mySwiper"
+          >
+            <SwiperSlide className={styles.slide}>
+              <div className={styles.bottom}>
+                <div className={styles.leftBottom}>
+                  <Image
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/hike.svg"
+                    width="55"
+                    height="55"
+                    layout="intrinsic"
+                    className={styles.hikeImg}
+                  />
+                  <div className={styles.leftBottomC}>
+                    <h5>140%</h5>
+                    <p>Salary Hike</p>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.content}>
+                <div className={styles.imgP}>
+                  <Image
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/neha.jpeg"
+                    layout="intrinsic"
+                    width="100"
+                    height="100"
+                    alt="preksha-home"
+                  />
+                </div>
+
+                <div className={styles.contentRight}>
+                  <div className={styles.name}>
+                    <p>Silicon Design Engineer 2</p>
+                    <h5>Neha Gour</h5>
+                  </div>
+                  <div>
+                    <p className={styles.para}>
+                    Have taken S/W Development course at this institute. Irrespective of implementation languages, one can join this. Cleared many tough concepts in an easy way. I was trying to switch to product based MNC and this course just made it possible.
+                      <br />
+                    </p>
+                  </div>
+                </div>
+                {/* <div className={styles.cIcon}>
+                  <Image
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/HCL.png"
+                    width="230"
+                    height="40"
+                    layout="intrinsic"
+                  />
+                </div> */}
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <div className={styles.bottom}>
+                <div className={styles.leftBottom}>
+                  <Image
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/hike.svg"
+                    width="55"
+                    height="55"
+                    layout="intrinsic"
+                    className={styles.hikeImg}
+                  />
+                  <div className={styles.leftBottomC}>
+                    <h5>132%</h5>
+                    <p>Salary Hike</p>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.content}>
+                <div className={styles.imgP}>
+                  <Image
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/kamlesh.jpg"
+                    layout="intrinsic"
+                    width="100"
+                    height="100"
+                    alt="aravind-home"
+                  />
+                </div>
+
+                <div className={styles.contentRight}>
+                  <div className={styles.name}>
+                    <p>SDE I at Amazon</p>
+                    <h5>Kamlesh Sahu</h5>
+                  </div>
+                  <p className={styles.para}>
+                  This Course Helped me in getting 6 month SDE INTERNSHIP at AMAZON,India. The advance DSA topics are taught and explained in such a simplified manner that even a newbie can catch up very easily.
+                    <br />
+                  </p>
+                </div>
+                <div className={styles.cIcon}>
+                  <Image
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/amazon-review.png"
+                    width="99"
+                    height="30"
+                    layout="intrinsic"
+                  />
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <div className={styles.bottom}>
+                <div className={styles.leftBottom}>
+                  <Image
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/hike.svg"
+                    width="55"
+                    height="55"
+                    layout="intrinsic"
+                    className={styles.hikeImg}
+                  />
+                  <div className={styles.leftBottomC}>
+                    <h5>127%</h5>
+                    <p>Salary Hike</p>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.content}>
+                <div className={styles.imgP}>
+                  <Image
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/nikhil-g.jpeg"
+                    layout="intrinsic"
+                    width="100"
+                    height="100"
+                    alt="vishal-home"
+                  />
+                </div>
+
+                <div className={styles.contentRight}>
+                  <div className={styles.name}>
+                    <p> SDE-2 at Amazon</p>
+                    <h5>Nikhil Goyal </h5>
+                  </div>
+                  <div>
+                    <p className={styles.para}>
+                    I enrolled for Data Structures and Algorithms course at Learnbay.  teaching methodology has been really engaging. Trainers entertains all the approaches in the class which helped us to see the problems from multiple angles.
+                      <br />
+                    </p>
+                  </div>
+                </div>
+                <div className={styles.cIcon}>
+                  <Image
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/amazon-review.png"
+                    width="99"
+                    height="30"
+                    layout="intrinsic"
+                  />
+                </div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+          ) : (
           <Swiper
             slidesPerView={mobile ? 1.02 : 1}
             spaceBetween={mobile ? 10 : 10}
@@ -507,6 +665,7 @@ const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS,h1,h2,h2p ,hSRC,rewH
               </div>
             </SwiperSlide>
           </Swiper>
+          )}
         </div>
       </div>
     </>

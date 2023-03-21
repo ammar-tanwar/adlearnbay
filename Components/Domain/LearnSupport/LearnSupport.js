@@ -3,7 +3,7 @@ import { MdCall } from "react-icons/md";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import styles from "./LearnSupport.module.css";
 import Image from "next/image";
-function LearnSupport({ headForCity, cityName, organicNum, organicNumber }) {
+function LearnSupport({ fullStackContent, cityName, organicNum, organicNumber }) {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
     let width = window.innerWidth;
@@ -29,22 +29,40 @@ function LearnSupport({ headForCity, cityName, organicNum, organicNumber }) {
               Reach us and a learning consultant will get in touch with you
               shortly
             </p>
-            <div className={styles.btnWrap}>
+            {fullStackContent ? (
+              <div className={styles.btnWrap}>
               <a
-                href="https://api.whatsapp.com/send?phone=919606950936&text=Hello,"
+                href="https://api.whatsapp.com/send?phone=919731135221&text=Hello,"
                 target="_blank"
               >
                 <button className={styles.btn1}>
                   <AiOutlineWhatsApp /> Enquire Now
                 </button>
               </a>
-
-              <a href="tel: +919606950936">
+              <a href="tel: +919731135221">
                 <button className={styles.btn2}>
-                  <MdCall /> +91 96069 50936
+                  <MdCall /> +91 97311 35221
                 </button>
               </a>
             </div>
+            ) : (
+              <div className={styles.btnWrap}>
+                <a
+                  href="https://api.whatsapp.com/send?phone=919606950936&text=Hello,"
+                  target="_blank"
+                >
+                  <button className={styles.btn1}>
+                    <AiOutlineWhatsApp /> Enquire Now
+                  </button>
+                </a>
+
+                <a href="tel: +919606950936">
+                  <button className={styles.btn2}>
+                    <MdCall /> +91 96069 50936
+                  </button>
+                </a>
+              </div>
+            )}
           </div>
           <div className={styles.learnInnerR}>
             <Image
