@@ -118,6 +118,7 @@ const Form = ({
     router.pathname === "/s2-artificial-intelligence-certification" ||
     router.pathname === "/s2-data-science" ||
     router.pathname === "/s2-data-science-generic" ||
+    router.pathname === "/s2-data-science-advance-generic" ||
     router.pathname === "/s2-master-program" ||
     router.pathname === "/s2-managers-leaders-program" ||
     router.pathname === "/s2-data-science-institute-generic" ||
@@ -606,6 +607,7 @@ const Form = ({
       (router.pathname === "/" && downloadBrochure) ||
       (router.pathname === "/s2-data-science" && downloadBrochure) ||
       (router.pathname === "/s2-data-science-generic" && downloadBrochure) ||
+      (router.pathname === "/s2-data-science-advance-generic" && downloadBrochure) ||
       (router.pathname === "/s2-managers-leaders-program" &&
         downloadBrochure) ||
       (router.pathname === "/s2-master-program" && downloadBrochure) ||
@@ -758,6 +760,7 @@ const Form = ({
       router.pathname === "/job-guarantee-or-money-back-data-science-ai-s9" ||
       router.pathname === "/s2-data-science" ||
       router.pathname === "/s2-data-science-generic" ||
+      router.pathname === "/s2-data-science-advance-generic" ||
       router.pathname === "/s2-master-program" ||
       router.pathname === "/s2-managers-leaders-program" ||
       router.pathname === "/s2-data-science-institute-generic" ||
