@@ -22,16 +22,18 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Online Data Science Course</title>
+      <title>Data Science Advance course - Learnbay</title>
         <meta
           name="description"
-          content="Want to earn salary hike of 250% ? Our Data Science course 
- will boost salary. Apply Now!"
+          content="Advance certification online data science course with 100% placement assistance 
+          and get 1:1 Guaranteed interview calls, 12+ Real-time projects, 1+ Capstone 
+          projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
+          24/7 Learner’s support."
         />
 
         <meta
           name="Keywords"
-          content="data science course, data science course for working professional, data science course fee, data science course duration, data science course syllabus, data science online course"
+          content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee"
         />
 
         <link
@@ -91,8 +93,8 @@ export default function Home() {
         </Popup>
         <HeroSection
           deskTopPara="Choose Specialization over Generalization"
-          h1="Data Science Course with"
-          hSpan="Domain Specialization for Professionals"
+          h1="Advance Data Science Course with"
+          hSpan="Domain Specialization"
           para="Successfully transition careers through our courses & real-time capstone projects. 
           All while making your previous work experience count!"
           sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/data+science+and+ai.jpg"
@@ -116,7 +118,7 @@ export default function Home() {
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
         />
         <SyllabusSection
-          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our data science course feature practical training with real-time projects and case studies."
+          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our advance data science course feature practical training with real-time projects and case studies."
           Hours="250+ Hours"
           Projects="12+ projects"
           Module0="Preparatory Classes (Programming + Maths)"
