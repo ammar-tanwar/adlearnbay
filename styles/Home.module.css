@@ -820,6 +820,10 @@
   display: none;
 }
 
+.careerImpactNew {
+  margin-top: -100px;
+}
+
 
 @media (max-width: 481px) {
   .container {
@@ -1194,5 +1198,8 @@ border-radius: 20px;
   }
   .imgNew {
     text-align: center;
+  }
+  .careerImpactNew {
+    margin-top: 50px;
   }
 }

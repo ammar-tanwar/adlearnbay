@@ -12,7 +12,6 @@ import Footer from "../Components/CoursePage/Footer/Footer";
 import React, { useState } from "react";
 import BoxShape from "../Components/Boxshape/BoxShape1";
 import MultiTabs from "../Components/Home/MultiTabs/MultiTabs";
-import FormSection from "../Components/Home/FormSection/FormSection";
 import CareerImpactHome from "../Components/Home/CareerImpactHome/CareerImpact";
 
 export default function Home() {
@@ -82,8 +81,9 @@ export default function Home() {
         </div>
       </Popup>
 
-      <Navbar radio={true} />
+      <Navbar radio={true} formotp={true}/>
       <FirstSection
+      formotp={true}
         common={true}
         heading="#1 Domain Specialised Certification Program For"
         headingSpan="Working Professionals"
@@ -108,12 +108,13 @@ export default function Home() {
           <BoxShape />
         </div>
       </div>
-      <Course radio={true} common={true} />
+      <Course radio={true} common={true} formotp={true}/>
       <KeyFeatures />
-      <WhyLearnbay radio={true} />
+      <WhyLearnbay radio={true} formotp={true}/>
       <MultiTabs />
-      <FormSection dataScience={true} />
+      <div className={styles.careerImpactNew}>
       <CareerImpactHome />
+      </div>
       <LearnSupport fullStackCont={true} />
       <Footer fullStackCont={true} />
     </div>
