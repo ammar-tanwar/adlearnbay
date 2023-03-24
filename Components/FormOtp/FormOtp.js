@@ -116,6 +116,8 @@ function FormOtp({
     router.pathname === "/fullstack/data-structure-algorithm-s2" ||
     router.pathname === "/system-design-s2" ||
     router.pathname === "/apply-for-counselling-fsd-s2" ||
+    router.pathname === "/fullstack/apply-for-counselling-fsd-s2" ||
+    router.pathname === "/generic" ||
     router.pathname === "/dsa-s5"
   ) {
     // -====================  FSD - Ads END POINT ==========================--------
@@ -282,6 +284,7 @@ function FormOtp({
           (router.pathname === "/w2a-s2" && downloadBrochure) ||
           (router.pathname === "/dsa-s4" && downloadBrochure) ||
           (router.pathname === "/dsa-s5" && downloadBrochure) ||
+      (router.pathname === "/generic" && downloadBrochure) ||
           (router.pathname === "/fullstack/fswd-s2" && downloadBrochure) ||
           (router.pathname === "/fullstack/system-design-s2" &&
             downloadBrochure) ||
@@ -321,11 +324,13 @@ function FormOtp({
           router.pathname === "/w2a-s2" ||
           router.pathname === "/dsa-s4" ||
           router.pathname === "/dsa-s5" ||
+      router.pathname === "/generic" ||
           router.pathname === "/fullstack/fswd-s2" ||
           router.pathname === "/fullstack/system-design-s2" ||
           router.pathname === "/full-stack-software-development-program" ||
           router.pathname === "/full-stack-web-development-program" ||
           router.pathname === "/apply-for-counselling-fsd-s2" ||
+          router.pathname === "/fullstack/apply-for-counselling-fsd-s2" ||
           router.pathname === "/s3-data-science" ||
           router.pathname ===
             "/fullstack/best-course-for-data-structures-and-algorithms-s2" ||
@@ -401,6 +406,7 @@ function FormOtp({
             (router.pathname === "/fssd" && downloadBrochure) ||
             (router.pathname === "/fswd" && downloadBrochure) ||
             (router.pathname === "/dsa" && downloadBrochure) ||
+            (router.pathname === "/generic" && downloadBrochure) ||
             (router.pathname === "/fssd-s2" && downloadBrochure) ||
 
             (router.pathname === "/fullstack/fssd-s2-generic" &&
@@ -465,6 +471,7 @@ function FormOtp({
             router.pathname === "/fssd" ||
             router.pathname === "/fswd" ||
             router.pathname === "/dsa" ||
+            router.pathname === "/generic" ||
             router.pathname === "/fssd-s2" ||
             router.pathname === "/fullstack/fssd-s2-generic" ||
             router.pathname === "/fullstack/fssd-training-s2-generic" ||
@@ -499,6 +506,7 @@ function FormOtp({
             router.pathname === "/full-stack-software-development-program" ||
             router.pathname === "/full-stack-web-development-program" ||
             router.pathname === "/apply-for-counselling-fsd-s2" ||
+            router.pathname === "/fullstack/apply-for-counselling-fsd-s2" ||
             router.pathname === "/s3-data-science" ||
             router.pathname === "/system-design-s2" ||
             router.pathname === "/dsa-system-design"

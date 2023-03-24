@@ -5,8 +5,9 @@ import Image from "next/image";
 import { IoCallOutline } from "react-icons/io5";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
+import FormOtp from "../../FormOtp/FormOtp";
 import { FaArrowRight, FaDownload } from "react-icons/fa";
-const WhyLearnbay = () => {
+const WhyLearnbay = ({formotp}) => {
 
 
   const [popups, setPopups] = useState(false);
@@ -24,8 +25,11 @@ const WhyLearnbay = () => {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-         
+          { formotp ? (
+              <FormOtp popup={true} downloadBrochure radio={true}/>
+          ) : (
           <Form setTrigger={setPopups} radio={true} />
+          )}
         </div>
       </Popup>
       <h4>Why Learnbay?</h4>

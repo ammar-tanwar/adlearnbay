@@ -12,6 +12,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
+import FormOtp from "../../FormOtp/FormOtp";
 
 import {
   viewAllD,
@@ -21,7 +22,7 @@ import {
   StackD,
 } from "./courseDetails";
 
-const Course = ({common}) => {
+const Course = ({common,formotp}) => {
   const [viewAll, setViewAll] = useState(false);
   const [oneYear, setOneYear] = useState(true);
   const [nonTech, setNonTech] = useState(false);
@@ -89,7 +90,11 @@ const Course = ({common}) => {
         <div className="RightPopup">
           <h5 style={{fontSize:"22px"}}>Download Brochure</h5>
           <p>Please enter the following details to initiate your download</p>
+          { formotp ? (
+              <FormOtp popup={true} downloadBrochure radio={true}/>
+          ) : (
           <Form setTrigger={setPopups} downloadBrochure radio={true} />
+          )}
         </div>
       </Popup>
 
