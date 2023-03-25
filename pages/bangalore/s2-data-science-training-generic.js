@@ -81,7 +81,7 @@ export default function Home() {
         />
       </Head>
       <main>
-        <Navbar popup={true} jobDesc={true} />
+        <Navbar popup={true} jobDesc={true} formotp={true}/>
 
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -94,6 +94,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
+        formotp={true}
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/BengaluruTopWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/BengaluruTopMob.jpg"
           courseName="Data Science Training"
@@ -140,6 +141,7 @@ export default function Home() {
         </div>
 
         <SyllabusNew
+        formotp={true}
           syllabus={DataScienceCourseData[0].syllabus}
           CSyllabus="Data Science Training Syllabus In Bangalore"
           CourseHighlights={DataScienceCourseData[0].CourseHighlights}
@@ -150,6 +152,7 @@ export default function Home() {
         />
 
         <CityImage
+        formotp={true}
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityBangaloreWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityBangaloreMob.jpg"
           cityName="ಬೆಂಗಳೂರು"
@@ -183,6 +186,7 @@ export default function Home() {
         <Certificate H4="Data Science Certification Training In Bangalore" />
         <div className={styles.ProjectWrapper} id="project">
           <Project
+          formotp={true}
             popupHead={DataScienceCourseData[0].Project.popupHead}
             project={DataScienceCourseData[0].Project.project}
             domain={DataScienceCourseData[0].Project.domain}
@@ -192,6 +196,7 @@ export default function Home() {
         <SliderTab />
 
         <CourseFee
+        formotp={true}
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
           syllabus={DataScienceCourseData[0].Batch}
           CourseFeeHead="Data Science Training In Bangalore : Batch Details"

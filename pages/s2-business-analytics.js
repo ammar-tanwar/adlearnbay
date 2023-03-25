@@ -90,7 +90,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} />
+        <Navbar popup={true} formotp={true}/>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -103,6 +103,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
+        formotp={true}
           deskTopPara={BusinessAnalyticsCourseData[0].FirstSection.deskTopPara}
           deskTopPara1={
             BusinessAnalyticsCourseData[0].FirstSection.deskTopPara1
@@ -138,6 +139,7 @@ export default function Home() {
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
+          formotp={true}
             title="Explore Our Business Analytics Certification Programs"
             Box1h5={BusinessAnalyticsCourseData[0].BoxShape.Box1h5}
             box1desc={BusinessAnalyticsCourseData[0].BoxShape.box1desc}
@@ -151,6 +153,7 @@ export default function Home() {
           />
         </div>
         <CourseReview
+        formotp={true}
           p1="Working at HCL"
           p2=" Working at TCS"
           p3="Working at Capgemini"
@@ -163,6 +166,8 @@ export default function Home() {
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BA-DA.jpeg"
         ></Certificate>
         <SyllabusNew
+        formotp={true}
+        syllabusFormotp={true}
           syllabus={BusinessAnalyticsCourseData[0].syllabus}
           CSyllabus={BusinessAnalyticsCourseData[0].CSyllabus}
           CourseHighlights={BusinessAnalyticsCourseData[0].CourseHighlights}
@@ -199,6 +204,7 @@ export default function Home() {
           img20={BusinessAnalyticsCourseData[0].OurExpert.img20}
         />
         <ProgramFee
+        formotp={true}
           Emi={BusinessAnalyticsCourseData[0].ProgramFee.Emi}
           Fee={BusinessAnalyticsCourseData[0].ProgramFee.Fee}
           CourseFeeAndFinancing={
@@ -208,12 +214,14 @@ export default function Home() {
         />
         <div className={styles.ProjectWrapper} id="project">
           <Project
+        formotp={true}
             project={BusinessAnalyticsCourseData[0].Project.project}
             domain={BusinessAnalyticsCourseData[0].Project.domain}
             projectTitle={BusinessAnalyticsCourseData[0].Project.projectTitle}
           />
         </div>
         <CourseFee
+        formotp={true}
           syllabusDesc={BusinessAnalyticsCourseData[0].syllabusDesc}
           syllabus={BusinessAnalyticsCourseData[0].Batch}
           CourseFeeHead={

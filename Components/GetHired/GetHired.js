@@ -2,8 +2,9 @@ import React, { useState, useEffect } from "react";
 import styles from "./GetHired.module.css";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
+import FormOtp from "../FormOtp/FormOtp";
 
-const GetHired = ({ radio }) => {
+const GetHired = ({ radio, formotp }) => {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
     let width = window.innerWidth;
@@ -38,8 +39,11 @@ const GetHired = ({ radio }) => {
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           {/* <p>Fill the below Details to get started</p> */}
-
+          {formotp ?(
+          <FormOtp popup={true} radio={radio}/>
+          ):(
           <Form popup={true} setTrigger={setPopups} radio={radio} />
+          )}
         </div>
       </Popup>
       <div className={styles.CInner}>

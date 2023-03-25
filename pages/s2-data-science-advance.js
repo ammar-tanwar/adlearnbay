@@ -87,7 +87,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} />
+        <Navbar popup={true} formotp={true}/>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -100,6 +100,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
+        formotp={true}
           popupHead={DataScienceCourseData[0].FirstSection.popupHead}
           deskTopPara={DataScienceCourseData[0].FirstSection.deskTopPara}
           mTopPara={DataScienceCourseData[0].FirstSection.mTopPara}
@@ -128,6 +129,7 @@ export default function Home() {
         </div>
         <div className={styles.Feature} id="Feature">
           <BoxShape
+          formotp={true}
             title="Explore Our Advance Data Science Certification Programs"
             Box1h5={DataScienceCourseData[0].BoxShape.Box1h5}
             box1desc={DataScienceCourseData[0].BoxShape.box1desc}
@@ -141,12 +143,15 @@ export default function Home() {
           />
         </div>
         <CourseReview
+        formotp={true}
           p1="Working at HCL"
           p2=" Working at TCS"
           p3="Working at Capgemini"
         />
         <Certificate H4="Advance Data Science Certification Program" />
         <SyllabusNew
+        formotp={true}
+        syllabusFormotp={true}
           syllabus={DataScienceCourseData[0].syllabus}
           CSyllabus="Advance Data Science Course Syllabus"
           CourseHighlights="Data Science Course Highlights"
@@ -182,6 +187,7 @@ export default function Home() {
           img20={DataScienceCourseData[0].OurExpert.img20}
         />
         <ProgramFee
+        formotp={true}
           Fee={DataScienceCourseData[0].ProgramFee.Fee}
           Emi={DataScienceCourseData[0].ProgramFee.Emi}
           CourseFeeAndFinancing="Advance Data Science Course Fee & Financing"
@@ -190,6 +196,7 @@ export default function Home() {
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project
+          formotp={true}
             popupHead={DataScienceCourseData[0].Project.popupHead}
             project={DataScienceCourseData[0].Project.project}
             domain={DataScienceCourseData[0].Project.domain}
@@ -197,6 +204,7 @@ export default function Home() {
           />
         </div>
         <CourseFee
+        formotp={true}
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
           syllabus={DataScienceCourseData[0].Batch}
           CourseFeeHead="Advance Data Science Course : Batch Details"

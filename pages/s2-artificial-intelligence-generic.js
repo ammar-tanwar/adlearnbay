@@ -78,7 +78,7 @@ get 100% placement assistance "
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} brochureButton={true} />
+        <Navbar popup={true} brochureButton={true} formotp={true}/>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -89,6 +89,7 @@ get 100% placement assistance "
           </div>
         </Popup>
         <HeroSection
+        formotp={true}
           deskTopPara="Be a master even without a master's degree"
           h1="Artificial Intelligence Course"
           hSpan="With Domain Specialization"
@@ -106,7 +107,7 @@ get 100% placement assistance "
           p4="1:1 Support"
           p44="Dedicated Program"
         />
-        <ThirdSection />
+        <ThirdSection formotp={true}/>
         <FourthSection
           h1="Program Highlights"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
@@ -115,6 +116,7 @@ get 100% placement assistance "
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
         />
         <SyllabusSection
+        formotp={true}
           desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our artificial intelligence course feature practical training with real-time projects and case studies."
           Hours="350+ Hours"
           Projects="15+ projects"
@@ -125,9 +127,9 @@ get 100% placement assistance "
           Module4="Artificial Intelligence Tools"
         />
         <SliderTab />
-        <Testimonial />
+        <Testimonial formotp={true}/>
         <SeventhSection />
-        <EightSection />
+        <EightSection formotp={true}/>
       </main>
     </div>
   );

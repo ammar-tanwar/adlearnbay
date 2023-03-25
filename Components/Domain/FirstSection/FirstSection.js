@@ -4,6 +4,7 @@ import { FaChevronDown, FaBell } from "react-icons/fa";
 import Popup from "../../Popup/Popup";
 import VideoPopup from "../VideoPopup/VideoPopup";
 import Form from "../../Form/Form";
+import FormOtp from "../../FormOtp/FormOtp";
 import Image from "next/image";
 
 const FirstSection = ({
@@ -24,6 +25,7 @@ const FirstSection = ({
   image,
   imagesrc,
   fullStackContent,
+  formotp,
 }) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
@@ -59,6 +61,10 @@ const FirstSection = ({
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
+            {formotp ? (
+                    <FormOtp popup={true} />
+                  ) : (
+                    <>
             {withOutRadioForm ? (
               <Form popup={true} setTrigger={setPopups} />
             ) : (
@@ -69,6 +75,8 @@ const FirstSection = ({
                 dataScience={dataScience}
               />
             )}
+            </>
+                  )}
           </div>
         </Popup>
         <VideoPopup triggers={video} setTriggers={setVideo} ids="M9tkkdcjFfU" />

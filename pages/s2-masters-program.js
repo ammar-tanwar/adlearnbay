@@ -93,7 +93,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} dataScience={true} />
+        <Navbar popup={true} dataScience={true} formotp={true}/>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -105,6 +105,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
+        formotp={true}
           dataScience={true}
           deskTopPara={mastersProgram[0].FirstSection.deskTopPara}
           deskTopPara1={mastersProgram[0].FirstSection.deskTopPara1}
@@ -135,6 +136,7 @@ export default function Home() {
         </div>
         <div className={styles.Feature} id="Feature">
           <BoxShape
+          formotp={true}
             title={mastersProgram[0].BoxShape.title}
             Box1h5={mastersProgram[0].BoxShape.Box1h5}
             box1desc={mastersProgram[0].BoxShape.box1desc}
@@ -147,9 +149,11 @@ export default function Home() {
           />
         </div>
         <DomainFaq FaqData={DomainFaqCourseData1} />
-        <CourseReview />
+        <CourseReview formotp={true}/>
         <Certificate />
         <SyllabusNew
+                formotp={true}
+                syllabusFormotp={true}
           syllabus={mastersProgram[0].syllabus}
           CSyllabus={mastersProgram[0].CSyllabus}
           CourseHighlights={mastersProgram[0].CourseHighlights}
@@ -186,6 +190,7 @@ export default function Home() {
           img20={mastersProgram[0].OurExpert.img20}
         />
         <ProgramFee
+        formotp={true}
           Fee={mastersProgram[0].ProgramFee.Fee}
           Emi={mastersProgram[0].ProgramFee.Emi}
           CourseFeeAndFinancing={
@@ -197,6 +202,7 @@ export default function Home() {
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project
+          formotp={true}
             popupHead={mastersProgram[0].Project.popupHead}
             project={mastersProgram[0].Project.project}
             domain={mastersProgram[0].Project.domain}
@@ -204,6 +210,7 @@ export default function Home() {
           />
         </div>
         <CourseFee
+        formotp={true}
           syllabusDesc={mastersProgram[0].syllabusDesc}
           syllabus={mastersProgram[0].Batch}
           CourseFeeHead={mastersProgram[0].BatchCourses.CourseFeeHead}

@@ -91,7 +91,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} brochureButton={true} />
+        <Navbar popup={true} brochureButton={true} formotp={true}/>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -102,6 +102,7 @@ export default function Home() {
           </div>
         </Popup>
         <HeroSection
+        formotp={true}
           deskTopPara="Be a leader with Domain Specialization"
           h1="Data Science and AI Program"
           hSpan="For Managers and Leaders"
@@ -118,7 +119,7 @@ export default function Home() {
           p4="1:1 Support"
           p44="Dedicated Program"
         />
-        <ThirdSection />
+        <ThirdSection formotp={true}/>
         <FourthSection
           h1="Program Highlights"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
@@ -127,6 +128,7 @@ export default function Home() {
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
         />
         <SyllabusSection
+        formotp={true}
           desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our Data Science and Artificial Intelligence Course For Managers and Leaders feature practical training with real-time projects and case studies."
           Hours="400+ Hours"
           Projects="15+ projects"
@@ -143,14 +145,15 @@ export default function Home() {
           CourseFeeAndFinancing="Data Science and AI Program For Managers and Leaders"
           para="We are dedicated to making our Data Science and AI Program For Managers and Leaders Program accessible.  We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
           dataScience={true}
+          formotp={true}
         />
         <Batch
           DataScience={true}
           CourseFeeHead="Data Science and AI Program For Managers and Leaders : Batch Details"
         />
-        <Testimonial />
+        <Testimonial formotp={true}/>
         <SeventhSection />
-        <EightSection />
+        <EightSection formotp={true}/>
       </main>
     </div>
   );

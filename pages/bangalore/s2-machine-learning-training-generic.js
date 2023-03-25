@@ -84,7 +84,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} jobDesc={true} />
+        <Navbar popup={true} jobDesc={true} formotp={true}/>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -97,6 +97,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
+        formotp={true}
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/BengaluruTopWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/BengaluruTopMob.jpg"
           courseName="Machine Learning Training"
@@ -140,6 +141,7 @@ export default function Home() {
           />
         </div>
         <SyllabusNew
+        formotp={true}
           syllabus={MlCourseData[0].syllabus}
           CSyllabus="Machine Learning Training Syllabus In Bangalore"
           CourseHighlights={MlCourseData[0].CourseHighlights}
@@ -149,6 +151,7 @@ export default function Home() {
           project={MlCourseData[0].project}
         />
         <CityImage
+        formotp={true}
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityBangaloreWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityBangaloreMob.jpg"
           cityName="ಬೆಂಗಳೂರು"
@@ -182,6 +185,7 @@ export default function Home() {
         <Certificate H4="Machine Learning Certification Training In Bangalore" />
         <div className={styles.ProjectWrapper} id="project">
           <Project
+          formotp={true}
             popupHead={MlCourseData[0].Project.popupHead}
             project={MlCourseData[0].Project.project}
             domain={MlCourseData[0].Project.domain}
@@ -190,6 +194,7 @@ export default function Home() {
         </div>
         <SliderTab />
         <CourseFee
+        formotp={true}
           syllabusDesc={MlCourseData[0].syllabusDesc}
           syllabus={MlCourseData[0].Batch}
           CourseFeeHead="Machine Learning Training in Bangalore: Batch Details"

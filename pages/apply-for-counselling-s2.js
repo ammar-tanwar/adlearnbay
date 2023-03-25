@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 import React from "react";
 import Navbar from "../Components/NavbarA/Navbar";
 import Footer from "../Components/FooterA/Footer";
-import Form from "../Components/Form/Form";
+import FormOtp from "../Components/FormOtp/FormOtp";
 
 function Counselling() {
   return (
@@ -54,11 +54,11 @@ function Counselling() {
           }}
         />
       </Head>
-      <Navbar radio={true} />
+      <Navbar radio={true} formotp={true}/>
       <div className={styles.formq}>
         <div className={styles.forml}></div>
         <div className={styles.formr}>
-          <Form />
+          <FormOtp />
         </div>
       </div>
       <Footer />

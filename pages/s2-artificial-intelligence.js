@@ -85,7 +85,7 @@ get 100% placement assistance "
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} />
+        <Navbar popup={true} formotp={true}/>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -98,6 +98,7 @@ get 100% placement assistance "
           </div>
         </Popup>
         <FirstSection
+        formotp={true}
           deskTopPara={AiCourseData[0].FirstSection.deskTopPara}
           deskTopPara1={AiCourseData[0].FirstSection.deskTopPara1}
           spanTitleText={AiCourseData[0].FirstSection.spanTitleText}
@@ -127,6 +128,7 @@ get 100% placement assistance "
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
+          formotp={true}
             title={AiCourseData[0].BoxShape.title}
             Box1h5={AiCourseData[0].BoxShape.Box1h5}
             box1desc={AiCourseData[0].BoxShape.box1desc}
@@ -140,6 +142,7 @@ get 100% placement assistance "
           />
         </div>
         <CourseReview
+        formotp={true}
           p1="Working at HCL"
           p2=" Working at TCS"
           p3="Working at Capgemini"
@@ -156,6 +159,7 @@ get 100% placement assistance "
           OCP4={AiCourseData[0].OtherCertificate.OCP4}
         />
         <SyllabusNew
+        formotp={true}
           syllabus={AiCourseData[0].syllabus}
           CSyllabus={AiCourseData[0].CSyllabus}
           CourseHighlights={AiCourseData[0].CourseHighlights}
@@ -192,6 +196,7 @@ get 100% placement assistance "
           img20={AiCourseData[0].OurExpert.img20}
         />
         <ProgramFee
+        formotp={true}
           Emi={AiCourseData[0].ProgramFee.Emi}
           Fee={AiCourseData[0].ProgramFee.Fee}
           CourseFeeAndFinancing={
@@ -202,12 +207,14 @@ get 100% placement assistance "
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project
+          formotp={true}
             project={AiCourseData[0].Project.project}
             domain={AiCourseData[0].Project.domain}
             projectTitle={AiCourseData[0].Project.projectTitle}
           />
         </div>
         <CourseFee
+        formotp={true}
           syllabusDesc={AiCourseData[0].syllabusDesc}
           syllabus={AiCourseData[0].Batch}
           CourseFeeHead={AiCourseData[0].BatchCourses.CourseFeeHead}

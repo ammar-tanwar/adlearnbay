@@ -20,6 +20,7 @@ const Navbar = ({
   Course2,
   Course3,
   formotp,
+  radio,
 
 }) => {
   const [show, setShow] = useState(false);

@@ -79,7 +79,7 @@ function SyllabusNew({
           ) : (
             <>
               {formotpForS3DS ? (
-                <Form QuesMean={true} jobTitle={true} jobPlacee={true} />
+                <FormOtp jobDescription={true} QuesMean={true} jobTitle={true} jobPlacee={true} />
               ) : (
                 <>
                   {formotp ? (
@@ -263,11 +263,7 @@ function SyllabusNew({
                   {syllabusFormotp ? (
                     <>
                       {formotpForS3DS ? (
-                        <Form
-                          QuesMean={true}
-                          jobTitle={true}
-                          jobPlacee={true}
-                        />
+                        <FormOtp jobDescription={true} QuesMean={true} jobTitle={true} jobPlacee={true} />
                       ) : (
                         <>
                           <FormOtp />
@@ -284,6 +280,10 @@ function SyllabusNew({
                           </button>
                         </a>
                       ) : (
+                        <>
+                    {formotp ?(
+                      <FormOtp popup={true}/>
+                      ):(
                         <Form
                           dataScience={dataScience}
                           redirectDs={redirectDs}
@@ -292,6 +292,8 @@ function SyllabusNew({
                           redirectBl={redirectBl}
                           redirectDe={redirectDe}
                         />
+                      )}
+                    </>
                       )}
                     </>
                   )}

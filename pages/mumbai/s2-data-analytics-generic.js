@@ -83,7 +83,7 @@ course subscription and 24/7 support"
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} jobDesc={true} />
+        <Navbar popup={true} jobDesc={true} formotp={true}/>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -96,6 +96,7 @@ course subscription and 24/7 support"
           </div>
         </Popup>
         <FirstSection
+        formotp={true}
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/MumbaiTopWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/MumbaiTopMob.jpg"
           courseName="Data Analytics Course"
@@ -135,6 +136,7 @@ course subscription and 24/7 support"
           />
         </div>
         <SyllabusNew
+        formotp={true}
           syllabus={DataAnalyticsCourseData[0].syllabus}
           CSyllabus="Data Analytics Course Syllabus In Mumbai"
           CourseHighlights={DataAnalyticsCourseData[0].CourseHighlights}
@@ -144,6 +146,7 @@ course subscription and 24/7 support"
           project={DataAnalyticsCourseData[0].project}
         />
         <CityImage
+        formotp={true}
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityMumbaiWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityMumbaiMob.jpg"
           cityName="मुंबई"
@@ -177,6 +180,7 @@ course subscription and 24/7 support"
         <Certificate H4="Data Analytics Program In Mumbai" />
         <div className={styles.ProjectWrapper} id="project">
           <Project
+          formotp={true}
             popupHead={DataAnalyticsCourseData[0].Project.popupHead}
             project={DataAnalyticsCourseData[0].Project.project}
             domain={DataAnalyticsCourseData[0].Project.domain}
@@ -185,6 +189,7 @@ course subscription and 24/7 support"
         </div>
         <SliderTab />
         <CourseFee
+        formotp={true}
           syllabusDesc={DataAnalyticsCourseData[0].syllabusDesc}
           syllabus={DataAnalyticsCourseData[0].Batch}
           CourseFeeHead={DataAnalyticsCourseData[0].BatchCourses.CourseFeeHead}

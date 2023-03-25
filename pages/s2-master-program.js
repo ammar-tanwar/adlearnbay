@@ -81,7 +81,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} brochureButton={true} />
+        <Navbar popup={true} brochureButton={true} formotp={true}/>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -92,6 +92,7 @@ export default function Home() {
           </div>
         </Popup>
         <HeroSection
+        formotp={true}
           deskTopPara="Boost your career opportunities by developing relevant skills"
           h1="Data Science and AI Master Program"
           hSpan="With Unlimited Interview Calls"
@@ -108,7 +109,7 @@ export default function Home() {
           p4="1:1 Support"
           p44="Dedicated Program"
         />
-        <ThirdSection />
+        <ThirdSection formotp={true}/>
         <FourthSection
           h1="Program Highlights"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
@@ -117,6 +118,7 @@ export default function Home() {
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
         />
         <SyllabusSection
+        formotp={true}
           desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our Data Science and AI Master Program feature practical training with real-time projects and case studies."
           Hours="500+ Hours"
           Projects="20+ projects"
@@ -128,6 +130,7 @@ export default function Home() {
         />
         <SliderTab />
         <ProgramFee
+        formotp={true}
           Emi="₹ 12,292/month"
           Fee="₹ 1,25,000 + 18% GST"
           CourseFeeAndFinancing="Data Science and AI Master Program"
@@ -138,9 +141,9 @@ export default function Home() {
           DataScience={true}
           CourseFeeHead="Data Science and AI Master Program : Batch Details"
         />
-        <Testimonial />
+        <Testimonial formotp={true}/>
         <SeventhSection />
-        <EightSection />
+        <EightSection formotp={true}/>
       </main>
     </div>
   );

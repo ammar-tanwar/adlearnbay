@@ -86,10 +86,7 @@ const Form = ({
 
   // -==================== Google - S2 END POINT ==========================--------
   if (
-    router.pathname === "/data-science-certification-courses-s2" ||
-    router.pathname === "/advance-ai-ml-certification-s2" ||
-    router.pathname === "/data-science-ai-cert-for-managers-leaders-s2" ||
-    router.pathname === "/job-guarantee-or-money-back-data-science-ai-s2" ||
+    router.pathname === "/job-guarantee-or-money-back-data-science-ai-s2" || 
     router.pathname === "/s2-business-analytics" ||
     router.pathname === "/s2-business-analytics-advance" ||
     router.pathname === "/s2-business-analytics-master" ||
@@ -108,7 +105,7 @@ const Form = ({
     router.pathname === "/s2-machine-learning-training" ||
     router.pathname === "/s2-data-analytics-advance" ||
     router.pathname === "/s2-data-analytics-master" ||
-    router.pathname === "/s2-data-analytics-training" ||
+    router.pathname === "/s2-data-analytics-training" || 
     router.pathname === "/s2-data-analytics-institute" ||
     router.pathname === "/s2-data-analytics-placement" ||
     router.pathname === "/s2-artificial-intelligence-advance" ||

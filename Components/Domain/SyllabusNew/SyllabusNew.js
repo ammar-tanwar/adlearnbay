@@ -265,6 +265,10 @@ function SyllabusNew({
                       </button>
                     </a>
                   ) : (
+                    <>
+                    {formotp ?(
+                      <FormOtp popup={true}/>
+                      ):(
                     <Form
                       dataScience={dataScience}
                       redirectDs={redirectDs}
@@ -273,6 +277,8 @@ function SyllabusNew({
                       redirectBl={redirectBl}
                       redirectDe={redirectDe}
                     />
+                    )}
+                    </>
                   )}
                 </>
               )}
