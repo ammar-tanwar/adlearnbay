@@ -3,8 +3,9 @@ import styles from "./CityImages.module.css";
 import Popup from '../../Popup/Popup';
 import Form from '../../Form/Form';
 import Image from "next/image";
+import FormOtp from "../../FormOtp/FormOtp";
 
-function cityImage({DeskImg, MobImg, cityName}) {
+function cityImage({DeskImg, MobImg, cityName, formotp}) {
 
     const [show, setShow] = useState(false);
     const [popups, setPopups] = useState(false);
@@ -40,8 +41,11 @@ function cityImage({DeskImg, MobImg, cityName}) {
                 </div>
                 <div className="RightPopup">
                     <h5>Apply For Counselling</h5>
+                    {formotp ? (
+                        <FormOtp popup={true} />
+                      ) : (
                     <Form popup={true} setTrigger={setPopups} />
-                </div>
+                    )}                </div>
             </Popup>
            
             {mobile ? (

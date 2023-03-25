@@ -87,7 +87,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} />
+        <Navbar popup={true} formotp={true}/>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -101,6 +101,7 @@ export default function Home() {
         <FirstSection
           image={true}
           fullStackContent={true}
+          formotp={true}
           imagesrc="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/fssd-generic.jpeg"
           ptop="Ace the PRODUCT Interviews to achieve your dream job"
           heading1="Full Stack"
@@ -117,6 +118,7 @@ export default function Home() {
           withOutRadioForm={true}
         />
         <BoxShape
+          formotp={true}
           p={SoftwareData[0].BoxShape.p}
           title={SoftwareData[0].BoxShape.title}
           box1desc="Earn a package with a 200% increment with added advanced skill sets"
@@ -165,6 +167,7 @@ export default function Home() {
         </div>
         <CourseReview
           fullStackContent={true}
+          formotp={true}
           p1={SoftwareData[0].CourseReview.p1}
           p2={SoftwareData[0].CourseReview.p2}
           p3={SoftwareData[0].CourseReview.p3}
@@ -175,6 +178,8 @@ export default function Home() {
           rewHead={SoftwareData[0].CourseReview.rewHead}
         />
         <SyllabusNew
+          formotp={true}
+          syllabusFormotp={true}
           syllabus={SoftwareData[0].syllabus}
           CSyllabus={SoftwareData[0].CSyllabus}
           CourseHighlights={SoftwareData[0].CourseHighlights}
@@ -185,6 +190,7 @@ export default function Home() {
         />
         <div className={styles.ProjectWrapper} id="project">
           <BankingProject
+                    formotp={true}
             popupHead={SoftwareData[0].Project.popupHead}
             project={SoftwareData[0].Project.project}
             domain={SoftwareData[0].Project.domain}

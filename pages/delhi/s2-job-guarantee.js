@@ -84,7 +84,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} />
+        <Navbar popup={true} formotp={true}/>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -97,6 +97,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
+        formotp={true}
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/DelhiTopWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/DelhiTopMob.jpg"
           courseName="100% Placement Assistance Program "
@@ -140,6 +141,7 @@ export default function Home() {
           />
         </div>
         <SyllabusNew
+        formotp={true}
           syllabus={JobGuaranteeCourseData[0].syllabus}
           CSyllabus="100% Job Assistance Course Syllabus In Delhi"
           CourseHighlights={JobGuaranteeCourseData[0].CourseHighlights}
@@ -149,6 +151,7 @@ export default function Home() {
           project={JobGuaranteeCourseData[0].project}
         />
         <CityImage
+        formotp={true}
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityDelhiWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityDelhiMob.jpg"
           cityName="दिल्ली"
@@ -182,6 +185,7 @@ export default function Home() {
         <Certificate H4="100% Job Assistance Program In Delhi" />
         <div className={styles.ProjectWrapper} id="project">
           <Project
+          formotp={true}
             popupHead={JobGuaranteeCourseData[0].Project.popupHead}
             project={JobGuaranteeCourseData[0].Project.project}
             domain={JobGuaranteeCourseData[0].Project.domain}
@@ -190,6 +194,7 @@ export default function Home() {
         </div>
         <SliderTab />
         <CourseFee
+        formotp={true}
           syllabusDesc={JobGuaranteeCourseData[0].syllabusDesc}
           syllabus={JobGuaranteeCourseData[0].Batch}
           CourseFeeHead={JobGuaranteeCourseData[0].BatchCourses.CourseFeeHead}

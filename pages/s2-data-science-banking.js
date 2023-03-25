@@ -80,7 +80,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} />
+        <Navbar popup={true} formotp={true}/>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -93,6 +93,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
+        formotp={true}
           ptop={BFSIData[0].FirstSection.ptop}
           heading1={BFSIData[0].FirstSection.heading1}
           headingSpan1={BFSIData[0].FirstSection.headingSpan1}
@@ -108,6 +109,7 @@ export default function Home() {
           withOutRadioForm={true}
         />
         <BoxShape
+        formotp={true}
           p={BFSIData[0].BoxShape.p}
           title={BFSIData[0].BoxShape.title}
           box1desc={BFSIData[0].BoxShape.box1desc}
@@ -155,6 +157,7 @@ export default function Home() {
           </div>
         </div>
         <CourseReview
+        formotp={true}
           p1={BFSIData[0].CourseReview.p1}
           p2={BFSIData[0].CourseReview.p2}
           p3={BFSIData[0].CourseReview.p3}
@@ -165,6 +168,7 @@ export default function Home() {
           rewHead={BFSIData[0].CourseReview.rewHead}
         />
         <SyllabusNew
+        formotp={true}
           syllabus={BFSIData[0].syllabus}
           CSyllabus={BFSIData[0].CSyllabus}
           CourseHighlights={BFSIData[0].CourseHighlights}
@@ -215,6 +219,7 @@ export default function Home() {
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <BankingProject
+          formotp={true}
             popupHead={BFSIData[0].Project.popupHead}
             project={BFSIData[0].Project.project}
             domain={BFSIData[0].Project.domain}

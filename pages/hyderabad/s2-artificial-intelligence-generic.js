@@ -83,7 +83,7 @@ get 100% placement assistance "
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} jobDesc={true} />
+        <Navbar popup={true} jobDesc={true} formotp={true}/>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -96,6 +96,7 @@ get 100% placement assistance "
           </div>
         </Popup>
         <FirstSection
+        formotp={true}
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/HyderabadTopWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/HyderabadTopMob.jpg"
           courseName="Artificial Intelligence Course"
@@ -138,6 +139,7 @@ get 100% placement assistance "
           />
         </div>
         <SyllabusNew
+        formotp={true}
           syllabus={AiCourseData[0].syllabus}
           CSyllabus="Artificial Intelligence Course Syllabus In Hyderabad"
           CourseHighlights={AiCourseData[0].CourseHighlights}
@@ -147,6 +149,7 @@ get 100% placement assistance "
           project={AiCourseData[0].project}
         />
         <CityImage
+        formotp={true}
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityHyderabadWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityHyderabadMob.jpg"
           cityName="హైదరాబాద్"
@@ -180,6 +183,7 @@ get 100% placement assistance "
         <Certificate H4="Artificial Intelligence Certification Course In Hyderabad" />
         <div className={styles.ProjectWrapper} id="project">
           <Project
+          formotp={true}
             popupHead={AiCourseData[0].Project.popupHead}
             project={AiCourseData[0].Project.project}
             domain={AiCourseData[0].Project.domain}
@@ -188,6 +192,7 @@ get 100% placement assistance "
         </div>
         <SliderTab />
         <CourseFee
+        formotp={true}
           syllabusDesc={AiCourseData[0].syllabusDesc}
           syllabus={AiCourseData[0].Batch}
           CourseFeeHead={AiCourseData[0].BatchCourses.CourseFeeHead}

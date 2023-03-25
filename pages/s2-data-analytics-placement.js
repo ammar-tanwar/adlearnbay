@@ -83,7 +83,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} />
+        <Navbar popup={true} formotp={true}/>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -96,11 +96,12 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
+        formotp={true}
           deskTopPara={DataAnalyticsCourseData[0].FirstSection.deskTopPara}
           deskTopPara1={DataAnalyticsCourseData[0].FirstSection.deskTopPara1}
-          mTitle="Data Analytics Job Assistance Course -"
+          mTitle="Data Analytics Job Assistance Course - "
           spanMTitleText="Unlimited Interview Calls"
-          title="Data Analytics Job Assistance Course"
+          title="Data Analytics Job Assistance Course "
           spanTitleText="Unlimited Interview Calls"
           mTopPara={DataAnalyticsCourseData[0].FirstSection.mTopPara}
           mTopPara1={DataAnalyticsCourseData[0].FirstSection.mTopPara1}
@@ -125,6 +126,7 @@ export default function Home() {
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
+          formotp={true}
             title="Explore Our Data Analytics Placement Assistance Programs"
             Box1h5={DataAnalyticsCourseData[0].BoxShape.Box1h5}
             box1desc={DataAnalyticsCourseData[0].BoxShape.box1desc}
@@ -138,6 +140,7 @@ export default function Home() {
           />
         </div>
         <CourseReview
+        formotp={true}
           p1="Working at HCL"
           p2=" Working at TCS"
           p3="Working at Capgemini"
@@ -151,6 +154,8 @@ export default function Home() {
           srcD={DataAnalyticsCourseData[0].Certificate.srcD}
         ></Certificate>
         <SyllabusNew
+                formotp={true}
+                syllabusFormotp={true}
           syllabus={DataAnalyticsCourseData[0].syllabus}
           CSyllabus=" Data Analytics Placement Assistance Course Syllabus"
           CourseHighlights={DataAnalyticsCourseData[0].CourseHighlights}
@@ -187,6 +192,7 @@ export default function Home() {
           img20={DataAnalyticsCourseData[0].OurExpert.img20}
         />
         <ProgramFee
+        formotp={true}
           Emi={DataAnalyticsCourseData[0].ProgramFee.Emi}
           Fee={DataAnalyticsCourseData[0].ProgramFee.Fee}
           CourseFeeAndFinancing=" Data Analytics Placement Course Fee & Financing"
@@ -194,12 +200,14 @@ export default function Home() {
         />
         <div className={styles.ProjectWrapper} id="project">
           <Project
+          formotp={true}
             project={DataAnalyticsCourseData[0].Project.project}
             domain={DataAnalyticsCourseData[0].Project.domain}
             projectTitle={DataAnalyticsCourseData[0].Project.projectTitle}
           />
         </div>
         <CourseFee
+        formotp={true}
           syllabusDesc={DataAnalyticsCourseData[0].syllabusDesc}
           syllabus={DataAnalyticsCourseData[0].Batch}
           CourseFeeHead="Data Analytics Placement Assistance Course : Batch Details"

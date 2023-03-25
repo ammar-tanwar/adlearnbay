@@ -85,7 +85,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} />
+        <Navbar popup={true} formotp={true}/>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -98,6 +98,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
+        formotp={true}
           deskTopPara={AiCourseData[0].FirstSection.deskTopPara}
           deskTopPara1={AiCourseData[0].FirstSection.deskTopPara1}
           spanTitleText="For Professionals"
@@ -127,6 +128,7 @@ export default function Home() {
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
+          formotp={true}
             title="Explore Our Artificial Intelligence Certification Programs"
             Box1h5={AiCourseData[0].BoxShape.Box1h5}
             box1desc={AiCourseData[0].BoxShape.box1desc}
@@ -140,6 +142,7 @@ export default function Home() {
           />
         </div>
         <CourseReview
+        formotp={true}
           p1="Working at HCL"
           p2=" Working at TCS"
           p3="Working at Capgemini"
@@ -156,6 +159,8 @@ export default function Home() {
           OCP4={AiCourseData[0].OtherCertificate.OCP4}
         />
         <SyllabusNew
+        formotp={true}
+        syllabusFormotp={true}
           syllabus={AiCourseData[0].syllabus}
           CSyllabus="AI Certification Course Syllabus"
           CourseHighlights={AiCourseData[0].CourseHighlights}
@@ -192,6 +197,7 @@ export default function Home() {
           img20={AiCourseData[0].OurExpert.img20}
         />
         <ProgramFee
+        formotp={true}
           Emi={AiCourseData[0].ProgramFee.Emi}
           Fee={AiCourseData[0].ProgramFee.Fee}
           CourseFeeAndFinancing="Artificial Intelligence Certification Course Fee & Financing"
@@ -200,12 +206,14 @@ export default function Home() {
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project
+          formotp={true}
             project={AiCourseData[0].Project.project}
             domain={AiCourseData[0].Project.domain}
             projectTitle={AiCourseData[0].Project.projectTitle}
           />
         </div>
         <CourseFee
+        formotp={true}
           syllabusDesc={AiCourseData[0].syllabusDesc}
           syllabus={AiCourseData[0].Batch}
           CourseFeeHead="Certified Artificial Intelligence Course : Batch Details"

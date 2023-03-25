@@ -9,8 +9,9 @@ import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
 import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
+import FormOtp from "../../FormOtp/FormOtp";
 
-function Testimonial() {
+function Testimonial({formotp}) {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
     let width = window.innerWidth;
@@ -37,7 +38,11 @@ function Testimonial() {
           </div>
           <div className="RightPopup">
             <h5>Download Brochure</h5>
+            {formotp ? (
+                    <FormOtp popup={true} />
+                  ) : (
             <Form popup={true} downloadBrochure setTrigger={setPopups} />
+                  )}
           </div>
         </Popup>
         <h1>Student Testimonials</h1>

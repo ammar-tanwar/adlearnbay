@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
+import FormOtp from "../FormOtp/FormOtp";
 
 const HeroSection = ({
   deskTopPara,
@@ -15,6 +16,7 @@ const HeroSection = ({
   desc,
   mTopPara,
   radio,
+  formotp,
 }) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
@@ -43,8 +45,11 @@ const HeroSection = ({
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
                    {/* <p>Fill the below Details to get started</p> */}
-
+                   {formotp ?(
+          <FormOtp popup={true} radio={radio}/>
+          ):(
           <Form popup={true} setTrigger={setPopups} radio={radio} />
+          )}
         </div>
       </Popup>
       <div className={styles.left}>

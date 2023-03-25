@@ -87,7 +87,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Navbar popup={true} jobDesc={true} />
+        <Navbar popup={true} jobDesc={true} formotp={true}/>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -100,6 +100,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
+        formotp={true}
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/ChennaiTopWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/ChennaiTopMob.jpg"
           courseName="Business Analytics Training"
@@ -142,6 +143,7 @@ export default function Home() {
           />
         </div>
         <SyllabusNew
+        formotp={true}
           syllabus={BusinessAnalyticsCourseData[0].syllabus}
           CSyllabus="Business Analytics Training Syllabus In Chennai"
           CourseHighlights={BusinessAnalyticsCourseData[0].CourseHighlights}
@@ -151,6 +153,7 @@ export default function Home() {
           project={BusinessAnalyticsCourseData[0].project}
         />
         <CityImage
+        formotp={true}
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityChennaiWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityChennaiMob.jpg"
           cityName="சென்னை"
@@ -184,6 +187,7 @@ export default function Home() {
         <Certificate H4="Business Analytics Certification Training In Chennai" />
         <div className={styles.ProjectWrapper} id="project">
           <Project
+          formotp={true}
             popupHead={BusinessAnalyticsCourseData[0].Project.popupHead}
             project={BusinessAnalyticsCourseData[0].Project.project}
             domain={BusinessAnalyticsCourseData[0].Project.domain}
@@ -192,6 +196,7 @@ export default function Home() {
         </div>
         <SliderTab />
         <CourseFee
+        formotp={true}
           syllabusDesc={BusinessAnalyticsCourseData[0].syllabusDesc}
           syllabus={BusinessAnalyticsCourseData[0].Batch}
           CourseFeeHead="Business Analytics Training in Chennai : Batch Details"

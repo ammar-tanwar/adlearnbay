@@ -86,7 +86,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} />
+        <Navbar popup={true} formotp={true}/>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -99,6 +99,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
+        formotp={true}
           deskTopPara={JobGuaranteeCourseData[0].FirstSection.deskTopPara}
           deskTopPara1={JobGuaranteeCourseData[0].FirstSection.deskTopPara1}
           spanTitleText={JobGuaranteeCourseData[0].FirstSection.spanTitleText}
@@ -128,6 +129,7 @@ export default function Home() {
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
+          formotp={true}
             title={JobGuaranteeCourseData[0].BoxShape.title}
             Box1h5={JobGuaranteeCourseData[0].BoxShape.Box1h5}
             box1desc={JobGuaranteeCourseData[0].BoxShape.box1desc}
@@ -140,6 +142,7 @@ export default function Home() {
           />
         </div>
         <CourseReview
+        formotp={true}
           p1="Working at HCL"
           p2=" Working at TCS"
           p3="Working at Capgemini"
@@ -152,6 +155,8 @@ export default function Home() {
           src={JobGuaranteeCourseData[0].Certificate.src}
         />
         <SyllabusNew
+                formotp={true}
+                syllabusFormotp={true}
           syllabus={JobGuaranteeCourseData[0].syllabus}
           CSyllabus={JobGuaranteeCourseData[0].CSyllabus}
           CourseHighlights={JobGuaranteeCourseData[0].CourseHighlights}
@@ -187,6 +192,7 @@ export default function Home() {
           img20={JobGuaranteeCourseData[0].OurExpert.img20}
         />
         <ProgramFee
+        formotp={true}
           Emi={JobGuaranteeCourseData[0].ProgramFee.Emi}
           Fee={JobGuaranteeCourseData[0].ProgramFee.Fee}
           CourseFeeAndFinancing={
@@ -196,12 +202,14 @@ export default function Home() {
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <Project
+          formotp={true}
             project={JobGuaranteeCourseData[0].Project.project}
             domain={JobGuaranteeCourseData[0].Project.domain}
             projectTitle={JobGuaranteeCourseData[0].Project.projectTitle}
           />
         </div>
         <CourseFee
+        formotp={true}
           syllabusDesc={JobGuaranteeCourseData[0].syllabusDesc}
           syllabus={JobGuaranteeCourseData[0].Batch}
           CourseFeeHead={JobGuaranteeCourseData[0].BatchCourses.CourseFeeHead}

@@ -89,7 +89,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} dataScience={true} />
+        <Navbar popup={true} dataScience={true} formotp={true}/>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -101,6 +101,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
+        formotp={true}
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/HyderabadTopWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/HyderabadTopMob.jpg"
           courseName="Data Science and AI Master Program"
@@ -143,6 +144,7 @@ export default function Home() {
           />
         </div>
         <SyllabusNew
+        formotp={true}
           syllabus={mastersProgram[0].syllabus}
           CSyllabus="Data Science and AI Master Course Syllabus In Hyderabad"
           CourseHighlights={mastersProgram[0].CourseHighlights}
@@ -152,6 +154,7 @@ export default function Home() {
           project={mastersProgram[0].project}
         />
         <CityImage
+        formotp={true}
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityHyderabadWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityHyderabadMob.jpg"
           cityName="హైదరాబాద్"
@@ -185,6 +188,7 @@ export default function Home() {
         <Certificate H4="Master's Program In Hyderabad" />
         <div className={styles.ProjectWrapper} id="project">
           <Project
+          formotp={true}
             popupHead={mastersProgram[0].Project.popupHead}
             project={mastersProgram[0].Project.project}
             domain={mastersProgram[0].Project.domain}
@@ -193,6 +197,7 @@ export default function Home() {
         </div>
         <SliderTab />
         <CourseFee
+        formotp={true}
           syllabusDesc={mastersProgram[0].syllabusDesc}
           syllabus={mastersProgram[0].Batch}
           CourseFeeHead={mastersProgram[0].BatchCourses.CourseFeeHead}

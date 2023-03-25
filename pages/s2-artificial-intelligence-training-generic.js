@@ -77,7 +77,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} brochureButton={true} />
+        <Navbar popup={true} brochureButton={true} formotp={true}/>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -88,6 +88,7 @@ export default function Home() {
           </div>
         </Popup>
         <HeroSection
+        formotp={true}
           deskTopPara="Be a master even without a master's degree"
           h1="Artificial Intelligence Training"
           hSpan="With Domain Specialization"
@@ -105,7 +106,7 @@ export default function Home() {
           p4="1:1 Support"
           p44="Dedicated Program"
         />
-        <ThirdSection />
+        <ThirdSection formotp={true}/>
         <FourthSection
           h1="Program Highlights"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
@@ -114,6 +115,7 @@ export default function Home() {
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
         />
         <SyllabusSection
+        formotp={true}
           desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our artificial intelligence training feature practical training with real-time projects and case studies."
           Hours="350+ Hours"
           Projects="15+ projects"
@@ -124,9 +126,9 @@ export default function Home() {
           Module4="Artificial Intelligence Tools"
         />
         <SliderTab />
-        <Testimonial />
+        <Testimonial formotp={true}/>
         <SeventhSection />
-        <EightSection />
+        <EightSection formotp={true}/>
       </main>
     </div>
   );

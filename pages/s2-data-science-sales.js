@@ -80,7 +80,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} />
+        <Navbar popup={true} formotp={true}/>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -93,6 +93,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
+        formotp={true}
         image={true}
         imagesrc="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/Sales-domain.png"
           ptop={SalesData[0].FirstSection.ptop}
@@ -110,6 +111,7 @@ export default function Home() {
           withOutRadioForm={true}
         />
         <BoxShape
+        formotp={true}
           p={SalesData[0].BoxShape.p}
           title={SalesData[0].BoxShape.title}
           box1desc={SalesData[0].BoxShape.box1desc}
@@ -157,6 +159,7 @@ export default function Home() {
           </div>
         </div>
         <CourseReview
+        formotp={true}
           p1={SalesData[0].CourseReview.p1}
           p2={SalesData[0].CourseReview.p2}
           p3={SalesData[0].CourseReview.p3}
@@ -167,6 +170,7 @@ export default function Home() {
           rewHead={SalesData[0].CourseReview.rewHead}
         />
         <SyllabusNew
+        formotp={true}
           syllabus={SalesData[0].syllabus}
           CSyllabus={SalesData[0].CSyllabus}
           CourseHighlights={SalesData[0].CourseHighlights}
@@ -217,6 +221,7 @@ export default function Home() {
         <SliderTab />
         <div className={styles.ProjectWrapper} id="project">
           <BankingProject
+          formotp={true}
             popupHead={SalesData[0].Project.popupHead}
             project={SalesData[0].Project.project}
             domain={SalesData[0].Project.domain}

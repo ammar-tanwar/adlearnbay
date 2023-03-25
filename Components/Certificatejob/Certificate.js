@@ -4,8 +4,9 @@ import { BiDownload } from "react-icons/bi";
 import Image from "next/image";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
+import FormOtp from "../FormOtp/FormOtp";
 
-const Certificate = ({ popupHead, title, desc, desc2, desc3, radio }) => {
+const Certificate = ({ popupHead, title, desc, desc2, desc3, radio, formotp }) => {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -28,7 +29,11 @@ const Certificate = ({ popupHead, title, desc, desc2, desc3, radio }) => {
         <div className="RightPopup">
           <h5>{popupHead}</h5>
           <p>Please enter the following details to initiate your download</p>
+          {formotp ?(
+          <FormOtp popup={true} radio={radio}/>
+          ):(
           <Form setTrigger={setPopups} downloadBrochure radio={radio} />
+          )}
         </div>
       </Popup>
       <div className={styles.left}>

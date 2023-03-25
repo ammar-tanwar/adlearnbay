@@ -14,8 +14,9 @@ import OurExpert from "../Components/OurExpert/OurExpert";
 import Navbar from "../Components/CoursePage/NavbarDyn/Navbar";
 import Footer from "../Components/Footers2/Footer";
 import React, { useState } from "react";
+import FormOtp from "../Components/FormOtp/FormOtp";
 
-export default function Home() {
+export default function Home({formotp, radio}) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -81,12 +82,12 @@ export default function Home() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below Details to get started</p> */}
-
-            <Form popup={true} setTrigger={setPopups} />
+          <FormOtp popup={true} radio={radio}/>
           </div>
         </Popup>
 
         <Navbar
+        formotp={true}
           Href="/data-science-certification-courses-s2"
           Course="Data Science & AI Certification"
           Href1="/advance-ai-ml-certification-s2"
@@ -97,6 +98,7 @@ export default function Home() {
           Course3="Data Science and AI Master Program"
         />
         <FirstSection
+        formotp={true}
           deskTopPara="Experience-based certification course for professionals"
           mTopPara="Experience-based certification course for professionals"
           title="Data Science and AI Program"
@@ -111,9 +113,10 @@ export default function Home() {
             EMI="₹ 10,816/month"
           />
         </div>
-        <GetHired />
+        <GetHired formotp={true}/>
         <div className="Feature" id="Feature">
           <BoxShape
+          formotp={true}
             title="Why Enroll In This Program"
             Box1h5="Custom-fit Training"
             box1desc="Get specially designed molecules as per your dream DS/AI role. Learn demanding DS/AI applications."
@@ -147,13 +150,14 @@ export default function Home() {
           </div>
         </div>
         <Certificate
+        formotp={true}
           popupHead="Download Brochure"
           title="Earn a globally recognized Certified at the end of your learning journey."
           desc="Get access to IBM cloud lab to keep an eye on trending industrial case studies of data mining, time-series forecasting, AI-based database management, and authenticated data handling."
           desc2="Experts from IBM share their ideas and tactics to deal with tricky business problems within the regularly changing analytical environments."
           desc3="Data Science Leads from IBM as instructors."
         />
-        <Syllabus />
+        <Syllabus formotp={true}/>
         <ToolsCovered />
         <div className={styles.ProjectWrapper} id="project">
           <Project domainDetails="7+" projectDetails="20+" />

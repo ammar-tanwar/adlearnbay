@@ -82,7 +82,7 @@ of course subscription and Lifetime access to recoded classes"
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} jobDesc={true} />
+        <Navbar popup={true} jobDesc={true} formotp={true}/>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -95,6 +95,7 @@ of course subscription and Lifetime access to recoded classes"
           </div>
         </Popup>
         <FirstSection
+        formotp={true}
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/MumbaiTopWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/MumbaiTopMob.jpg"
           courseName="Machine Learning Course"
@@ -134,6 +135,7 @@ of course subscription and Lifetime access to recoded classes"
           />
         </div>
         <SyllabusNew
+        formotp={true}
           syllabus={MlCourseData[0].syllabus}
           CSyllabus="Machine Learning Course Syllabus In Mumbai"
           CourseHighlights={MlCourseData[0].CourseHighlights}
@@ -143,6 +145,7 @@ of course subscription and Lifetime access to recoded classes"
           project={MlCourseData[0].project}
         />
         <CityImage
+        formotp={true}
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityMumbaiWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityMumbaiMob.jpg"
           cityName="मुंबई"
@@ -176,6 +179,7 @@ of course subscription and Lifetime access to recoded classes"
         <Certificate H4="Machine Learning Program In Mumbai" />
         <div className={styles.ProjectWrapper} id="project">
           <Project
+          formotp={true}
             popupHead={MlCourseData[0].Project.popupHead}
             project={MlCourseData[0].Project.project}
             domain={MlCourseData[0].Project.domain}
@@ -184,6 +188,7 @@ of course subscription and Lifetime access to recoded classes"
         </div>
         <SliderTab />
         <CourseFee
+        formotp={true}
           syllabusDesc={MlCourseData[0].syllabusDesc}
           syllabus={MlCourseData[0].Batch}
           CourseFeeHead={MlCourseData[0].BatchCourses.CourseFeeHead}
