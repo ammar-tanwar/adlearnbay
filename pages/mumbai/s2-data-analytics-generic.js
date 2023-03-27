@@ -3,6 +3,7 @@ import styles from "../../styles/Home.module.css";
 import Popup from "../../Components/Popup/Popup";
 import Form from "../../Components/Form/Form";
 import Navbar from "../../Components/CoursePage/Navbar/Navbar";
+import OfferPopup from "../../Components/OfferPopup/OfferPopup";
 import CityFooter from "../../Components/CityComponents/CityFooter/CityFooter";
 import LearnSupport from "../../Components/CoursePage/LearnSupport/LearnSupport";
 import React, { useState } from "react";
@@ -83,7 +84,7 @@ course subscription and 24/7 support"
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} jobDesc={true} formotp={true}/>
+        <Navbar popup={true} jobDesc={true} formotp={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -96,7 +97,7 @@ course subscription and 24/7 support"
           </div>
         </Popup>
         <FirstSection
-        formotp={true}
+          formotp={true}
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/MumbaiTopWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/MumbaiTopMob.jpg"
           courseName="Data Analytics Course"
@@ -136,7 +137,7 @@ course subscription and 24/7 support"
           />
         </div>
         <SyllabusNew
-        formotp={true}
+          formotp={true}
           syllabus={DataAnalyticsCourseData[0].syllabus}
           CSyllabus="Data Analytics Course Syllabus In Mumbai"
           CourseHighlights={DataAnalyticsCourseData[0].CourseHighlights}
@@ -146,7 +147,7 @@ course subscription and 24/7 support"
           project={DataAnalyticsCourseData[0].project}
         />
         <CityImage
-        formotp={true}
+          formotp={true}
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityMumbaiWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityMumbaiMob.jpg"
           cityName="मुंबई"
@@ -180,7 +181,7 @@ course subscription and 24/7 support"
         <Certificate H4="Data Analytics Program In Mumbai" />
         <div className={styles.ProjectWrapper} id="project">
           <Project
-          formotp={true}
+            formotp={true}
             popupHead={DataAnalyticsCourseData[0].Project.popupHead}
             project={DataAnalyticsCourseData[0].Project.project}
             domain={DataAnalyticsCourseData[0].Project.domain}
@@ -188,8 +189,9 @@ course subscription and 24/7 support"
           />
         </div>
         <SliderTab />
+        <OfferPopup />
         <CourseFee
-        formotp={true}
+          formotp={true}
           syllabusDesc={DataAnalyticsCourseData[0].syllabusDesc}
           syllabus={DataAnalyticsCourseData[0].Batch}
           CourseFeeHead={DataAnalyticsCourseData[0].BatchCourses.CourseFeeHead}

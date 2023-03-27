@@ -3,6 +3,7 @@ import styles from "../../styles/Home.module.css";
 import Popup from "../../Components/Popup/Popup";
 import Form from "../../Components/Form/Form";
 import Navbar from "../../Components/CoursePage/Navbar/Navbar";
+import OfferPopup from "../../Components/OfferPopup/OfferPopup";
 import CityFooter from "../../Components/CityComponents/CityFooter/CityFooter";
 import LearnSupport from "../../Components/CoursePage/LearnSupport/LearnSupport";
 import React, { useState } from "react";
@@ -82,7 +83,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} jobDesc={true} formotp={true}/>
+        <Navbar popup={true} jobDesc={true} formotp={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -95,7 +96,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-        formotp={true}
+          formotp={true}
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/BengaluruTopWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/BengaluruTopMob.jpg"
           courseName="Data Analytics Training"
@@ -138,7 +139,7 @@ export default function Home() {
           />
         </div>
         <SyllabusNew
-        formotp={true}
+          formotp={true}
           syllabus={DataAnalyticsCourseData[0].syllabus}
           CSyllabus="Data Analytics Training Syllabus In Bangalore"
           CourseHighlights={DataAnalyticsCourseData[0].CourseHighlights}
@@ -148,7 +149,7 @@ export default function Home() {
           project={DataAnalyticsCourseData[0].project}
         />
         <CityImage
-        formotp={true}
+          formotp={true}
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityBangaloreWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityBangaloreMob.jpg"
           cityName="ಬೆಂಗಳೂರು"
@@ -182,7 +183,7 @@ export default function Home() {
         <Certificate H4="Data Analytics Certification Training In Bangalore" />
         <div className={styles.ProjectWrapper} id="project">
           <Project
-          formotp={true}
+            formotp={true}
             popupHead={DataAnalyticsCourseData[0].Project.popupHead}
             project={DataAnalyticsCourseData[0].Project.project}
             domain={DataAnalyticsCourseData[0].Project.domain}
@@ -190,8 +191,9 @@ export default function Home() {
           />
         </div>
         <SliderTab />
+        <OfferPopup />
         <CourseFee
-        formotp={true}
+          formotp={true}
           syllabusDesc={DataAnalyticsCourseData[0].syllabusDesc}
           syllabus={DataAnalyticsCourseData[0].Batch}
           CourseFeeHead="Data Analytics Training in Bangalore : Batch Details"

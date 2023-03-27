@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
+import OfferPopup from "../Components/OfferPopup/OfferPopup";
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import HeroSection from "../Components/LightTheme/FirstSection/HeroSection";
 import Testimonial from "../Components/LightTheme/SixthSection/Testimonial";
@@ -79,7 +80,12 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} brochureButton={true} DownloadSyllabus={true} formotp={true}/>
+        <Navbar
+          popup={true}
+          brochureButton={true}
+          DownloadSyllabus={true}
+          formotp={true}
+        />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -90,7 +96,7 @@ export default function Home() {
           </div>
         </Popup>
         <HeroSection
-        formotp={true}
+          formotp={true}
           deskTopPara="Choose Specialization over Generalization"
           h1="Data Science Course with"
           hSpan="Domain Specialization for Professionals"
@@ -108,7 +114,7 @@ export default function Home() {
           p4="1:1 Support"
           p44="Dedicated Program"
         />
-        <ThirdSection DownloadSyllabus={true} formotp={true}/>
+        <ThirdSection DownloadSyllabus={true} formotp={true} />
         <FourthSection
           h1="Program Highlights"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
@@ -117,7 +123,7 @@ export default function Home() {
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
         />
         <SyllabusSection
-        formotp={true}
+          formotp={true}
           desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our data science course feature practical training with real-time projects and case studies."
           Hours="250+ Hours"
           Projects="12+ projects"
@@ -128,9 +134,10 @@ export default function Home() {
           Module4="Artificial Intelligence Tools"
         />
         <SliderTab />
-        <Testimonial formotp={true}/>
+        <OfferPopup />
+        <Testimonial formotp={true} />
         <SeventhSection />
-        <EightSection DownloadSyllabus={true} formotp={true}/>
+        <EightSection DownloadSyllabus={true} formotp={true} />
       </main>
     </div>
   );

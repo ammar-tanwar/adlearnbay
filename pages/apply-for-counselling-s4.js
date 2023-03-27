@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import React from "react";
 import Navbar from "../Components/NavbarA/Navbar";
+import OfferPopup from "../Components/OfferPopup/OfferPopup";
 import Footer from "../Components/FooterA/Footer";
 import Form from "../Components/Form/Form";
 
@@ -62,6 +63,7 @@ function Counselling() {
         </div>
       </div>
       <Footer />
+      <OfferPopup />
     </div>
   );
 }

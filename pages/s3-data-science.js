@@ -6,6 +6,7 @@ import BoxShape from "../Components/CoursePage/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
+import OfferPopup from "../Components/OfferPopup/OfferPopup";
 import Certificate from "../Components/CoursePage/CertificateTab/CertificateTabAdvance";
 import Project from "../Components/CoursePage/Project/Project";
 import OurExpert from "../Components/CoursePage/OurExpert/OurExpert";
@@ -193,6 +194,7 @@ export default function Home() {
           para={DataScienceCourseData[0].ProgramFee.para}
         />
         <SliderTab />
+        <OfferPopup />
         <div className={styles.ProjectWrapper} id="project">
           <Project
             formotpForS3DS={true}

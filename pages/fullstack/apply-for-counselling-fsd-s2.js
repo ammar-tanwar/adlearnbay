@@ -4,6 +4,7 @@ import { React, useState, useEffect } from "react";
 import Navbar from "../../Components/NavbarA/Navbar";
 import Footer from "../../Components/CoursePage/Footer/Footer";
 import FormOtp from "../../Components/FormOtp/FormOtp";
+import OfferPopup from "../../Components/OfferPopup/OfferPopup";
 import { FaArrowDown, FaArrowUp } from "react-icons/fa";
 import { MdWatchLater, MdLocationPin } from "react-icons/md";
 
@@ -216,6 +217,7 @@ function Counselling() {
       )}
 
       <Footer />
+      <OfferPopup />
     </div>
   );
 }

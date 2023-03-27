@@ -5,6 +5,7 @@ import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
 import BoxShape from "../Components/CoursePage/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
+import OfferPopup from "../Components/OfferPopup/OfferPopup";
 import Form from "../Components/Form/Form";
 import Certificate from "../Components/CoursePage/Certificatejob/Certificate";
 import Project from "../Components/CoursePage/Project/Project";
@@ -82,7 +83,7 @@ course subscription and 24/7 support"
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} formotp={true}/>
+        <Navbar popup={true} formotp={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -95,7 +96,7 @@ course subscription and 24/7 support"
           </div>
         </Popup>
         <FirstSection
-        formotp={true}
+          formotp={true}
           deskTopPara={DataAnalyticsCourseData[0].FirstSection.deskTopPara}
           deskTopPara1={DataAnalyticsCourseData[0].FirstSection.deskTopPara1}
           spanTitleText={DataAnalyticsCourseData[0].FirstSection.spanTitleText}
@@ -127,7 +128,7 @@ course subscription and 24/7 support"
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
-          formotp={true}
+            formotp={true}
             title={DataAnalyticsCourseData[0].BoxShape.title}
             Box1h5={DataAnalyticsCourseData[0].BoxShape.Box1h5}
             box1desc={DataAnalyticsCourseData[0].BoxShape.box1desc}
@@ -141,7 +142,7 @@ course subscription and 24/7 support"
           />
         </div>
         <CourseReview
-        formotp={true}
+          formotp={true}
           p1="Working at HCL"
           p2=" Working at TCS"
           p3="Working at Capgemini"
@@ -155,8 +156,8 @@ course subscription and 24/7 support"
           srcD={DataAnalyticsCourseData[0].Certificate.srcD}
         ></Certificate>
         <SyllabusNew
-                formotp={true}
-                syllabusFormotp={true}
+          formotp={true}
+          syllabusFormotp={true}
           syllabus={DataAnalyticsCourseData[0].syllabus}
           CSyllabus={DataAnalyticsCourseData[0].CSyllabus}
           CourseHighlights={DataAnalyticsCourseData[0].CourseHighlights}
@@ -193,7 +194,7 @@ course subscription and 24/7 support"
           img20={DataAnalyticsCourseData[0].OurExpert.img20}
         />
         <ProgramFee
-        formotp={true}
+          formotp={true}
           Emi={DataAnalyticsCourseData[0].ProgramFee.Emi}
           Fee={DataAnalyticsCourseData[0].ProgramFee.Fee}
           CourseFeeAndFinancing={
@@ -203,14 +204,14 @@ course subscription and 24/7 support"
         />
         <div className={styles.ProjectWrapper} id="project">
           <Project
-          formotp={true}
+            formotp={true}
             project={DataAnalyticsCourseData[0].Project.project}
             domain={DataAnalyticsCourseData[0].Project.domain}
             projectTitle={DataAnalyticsCourseData[0].Project.projectTitle}
           />
         </div>
         <CourseFee
-        formotp={true}
+          formotp={true}
           syllabusDesc={DataAnalyticsCourseData[0].syllabusDesc}
           syllabus={DataAnalyticsCourseData[0].Batch}
           CourseFeeHead={DataAnalyticsCourseData[0].BatchCourses.CourseFeeHead}
@@ -233,6 +234,7 @@ course subscription and 24/7 support"
         />
         <LearnSupport />
         <Footer />
+        <OfferPopup />
       </main>
     </div>
   );
