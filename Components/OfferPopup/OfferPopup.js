@@ -31,7 +31,7 @@ const OfferPopup = () => {
                   <p style={{ fontSize: "12px" }}>
                     *** Terms and conditions applied.
                   </p>
-                  <a href="/https://forms.gle/89kvteiX5bcNePp78" target="_blank">
+                  <a href="https://forms.gle/89kvteiX5bcNePp78" target="_blank">
                     <button onClick={handelOpen} style={{ width: "100%" }}>
                       Apply For Scholarship Now!
                     </button>
