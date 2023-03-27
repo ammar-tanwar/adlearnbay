@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Popup from "../../Components/Popup/Popup";
 import Form from "../../Components/Form/Form";
 import Navbar from "../../Components/CoursePage/Navbar/Navbar";
+import OfferPopup from "../../Components/OfferPopup/OfferPopup";
 import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import HeroSection from "../../Components/LightTheme/FirstSection/HeroSection";
 import Testimonial from "../../Components/LightTheme/SixthSection/Testimonial";
@@ -77,7 +78,7 @@ course subscription and 24/7 support"
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} brochureButton={true} formotp={true}/>
+        <Navbar popup={true} brochureButton={true} formotp={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -88,7 +89,7 @@ course subscription and 24/7 support"
           </div>
         </Popup>
         <HeroSection
-        formotp={true}
+          formotp={true}
           deskTopPara="Get ahead of the competition with popular skill sets."
           h1="Data Analytics Course in "
           hSpan="Mumbai"
@@ -105,7 +106,7 @@ course subscription and 24/7 support"
           p4="1:1 Support"
           p44="Dedicated Program"
         />
-        <ThirdSection formotp={true}/>
+        <ThirdSection formotp={true} />
         <FourthSection
           h1="Program Highlights"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
@@ -114,7 +115,7 @@ course subscription and 24/7 support"
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
         />
         <SyllabusSection
-        formotp={true}
+          formotp={true}
           desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our Data Analytics Course feature practical training with real-time projects and case studies."
           Hours="180+ Hours"
           Projects="8+ projects"
@@ -125,9 +126,10 @@ course subscription and 24/7 support"
           Module4="Essentials Tools"
         />
         <SliderTab />
-        <Testimonial formotp={true}/>
+        <OfferPopup />
+        <Testimonial formotp={true} />
         <SeventhSection />
-        <EightSection formotp={true}/>
+        <EightSection formotp={true} />
       </main>
     </div>
   );

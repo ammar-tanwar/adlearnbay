@@ -3,6 +3,7 @@ import styles from "../../styles/Home.module.css";
 import Popup from "../../Components/Popup/Popup";
 import Form from "../../Components/Form/Form";
 import Navbar from "../../Components/CoursePage/Navbar/Navbar";
+import OfferPopup from "../../Components/OfferPopup/OfferPopup";
 import CityFooter from "../../Components/CityComponents/CityFooter/CityFooter";
 import LearnSupport from "../../Components/CoursePage/LearnSupport/LearnSupport";
 import React, { useState } from "react";
@@ -81,8 +82,7 @@ export default function Home() {
         />
       </Head>
       <main>
-        <Navbar popup={true} jobDesc={true} formotp={true}/>
-
+        <Navbar popup={true} jobDesc={true} formotp={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -94,7 +94,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-        formotp={true}
+          formotp={true}
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/MumbaiTopWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/MumbaiTopMob.jpg"
           courseName="Data Science Course"
@@ -114,7 +114,6 @@ export default function Home() {
           />
         </div>
         <HiringPatners topHead="Our Hiring Partner's In Mumbai" />
-
         <div className={styles.Feature} id="Feature">
           <ProgramWithHighLight
             title={DataScienceCourseData[0].BoxShape.title}
@@ -134,9 +133,8 @@ export default function Home() {
             Domain="7+"
           />
         </div>
-
         <SyllabusNew
-        formotp={true}
+          formotp={true}
           syllabus={DataScienceCourseData[0].syllabus}
           CSyllabus="Data Science Course Syllabus In Mumbai"
           CourseHighlights={DataScienceCourseData[0].CourseHighlights}
@@ -145,9 +143,8 @@ export default function Home() {
           hours={DataScienceCourseData[0].hours}
           project={DataScienceCourseData[0].project}
         />
-
         <CityImage
-        formotp={true}
+          formotp={true}
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityMumbaiWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityMumbaiMob.jpg"
           cityName="मुंबई"
@@ -181,7 +178,7 @@ export default function Home() {
         <Certificate H4="Data Science Certification Program In Mumbai" />
         <div className={styles.ProjectWrapper} id="project">
           <Project
-          formotp={true}
+            formotp={true}
             popupHead={DataScienceCourseData[0].Project.popupHead}
             project={DataScienceCourseData[0].Project.project}
             domain={DataScienceCourseData[0].Project.domain}
@@ -189,9 +186,9 @@ export default function Home() {
           />
         </div>
         <SliderTab />
-
+        <OfferPopup />
         <CourseFee
-        formotp={true}
+          formotp={true}
           syllabusDesc={DataScienceCourseData[0].syllabusDesc}
           syllabus={DataScienceCourseData[0].Batch}
           CourseFeeHead={DataScienceCourseData[0].BatchCourses.CourseFeeHead}

@@ -6,6 +6,7 @@ import BoxShape from "../Components/CoursePage/Boxshape/BoxShape1";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
+import OfferPopup from "../Components/OfferPopup/OfferPopup";
 import Certificate from "../Components/CoursePage/CertificateTab/CertificateTabAdvance";
 import Project from "../Components/CoursePage/Project/Project";
 import OurExpert from "../Components/CoursePage/OurExpert/OurExpert";
@@ -93,7 +94,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} dataScience={true} formotp={true}/>
+        <Navbar popup={true} dataScience={true} formotp={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -105,7 +106,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-        formotp={true}
+          formotp={true}
           dataScience={true}
           deskTopPara={mastersProgram[0].FirstSection.deskTopPara}
           deskTopPara1={mastersProgram[0].FirstSection.deskTopPara1}
@@ -136,7 +137,7 @@ export default function Home() {
         </div>
         <div className={styles.Feature} id="Feature">
           <BoxShape
-          formotp={true}
+            formotp={true}
             title={mastersProgram[0].BoxShape.title}
             Box1h5={mastersProgram[0].BoxShape.Box1h5}
             box1desc={mastersProgram[0].BoxShape.box1desc}
@@ -149,11 +150,11 @@ export default function Home() {
           />
         </div>
         <DomainFaq FaqData={DomainFaqCourseData1} />
-        <CourseReview formotp={true}/>
+        <CourseReview formotp={true} />
         <Certificate />
         <SyllabusNew
-                formotp={true}
-                syllabusFormotp={true}
+          formotp={true}
+          syllabusFormotp={true}
           syllabus={mastersProgram[0].syllabus}
           CSyllabus={mastersProgram[0].CSyllabus}
           CourseHighlights={mastersProgram[0].CourseHighlights}
@@ -190,7 +191,7 @@ export default function Home() {
           img20={mastersProgram[0].OurExpert.img20}
         />
         <ProgramFee
-        formotp={true}
+          formotp={true}
           Fee={mastersProgram[0].ProgramFee.Fee}
           Emi={mastersProgram[0].ProgramFee.Emi}
           CourseFeeAndFinancing={
@@ -200,9 +201,10 @@ export default function Home() {
           dataScience={true}
         />
         <SliderTab />
+        <OfferPopup />
         <div className={styles.ProjectWrapper} id="project">
           <Project
-          formotp={true}
+            formotp={true}
             popupHead={mastersProgram[0].Project.popupHead}
             project={mastersProgram[0].Project.project}
             domain={mastersProgram[0].Project.domain}
@@ -210,7 +212,7 @@ export default function Home() {
           />
         </div>
         <CourseFee
-        formotp={true}
+          formotp={true}
           syllabusDesc={mastersProgram[0].syllabusDesc}
           syllabus={mastersProgram[0].Batch}
           CourseFeeHead={mastersProgram[0].BatchCourses.CourseFeeHead}

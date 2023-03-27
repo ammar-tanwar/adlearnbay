@@ -8,6 +8,7 @@ import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
+import OfferPopup from "../Components/OfferPopup/OfferPopup";
 import Footer from "../Components/CoursePage/Footer/Footer";
 import React, { useState } from "react";
 import BoxShape from "../Components/Boxshape/BoxShape1";
@@ -81,9 +82,9 @@ export default function Home() {
         </div>
       </Popup>
 
-      <Navbar radio={true} formotp={true}/>
+      <Navbar radio={true} formotp={true} />
       <FirstSection
-      formotp={true}
+        formotp={true}
         common={true}
         heading="#1 Domain Specialised Certification Program For"
         headingSpan="Working Professionals"
@@ -108,15 +109,16 @@ export default function Home() {
           <BoxShape />
         </div>
       </div>
-      <Course radio={true} common={true} formotp={true}/>
+      <Course radio={true} common={true} formotp={true} />
       <KeyFeatures />
-      <WhyLearnbay radio={true} formotp={true}/>
+      <WhyLearnbay radio={true} formotp={true} />
       <MultiTabs />
       <div className={styles.careerImpactNew}>
-      <CareerImpactHome />
+        <CareerImpactHome />
       </div>
       <LearnSupport fullStackCont={true} />
       <Footer fullStackCont={true} />
+      <OfferPopup />
     </div>
   );
 }

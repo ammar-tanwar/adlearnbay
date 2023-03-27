@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Counseling.module.css";
 import { React, useState, useEffect } from "react";
 import Navbar from "../Components/NavbarA/Navbar";
+import OfferPopup from "../Components/OfferPopup/OfferPopup";
 import Footer from "../Components/CoursePage/Footer/Footer";
 import Form from "../Components/Form/Form";
 import { FaArrowDown, FaArrowUp } from "react-icons/fa";
@@ -95,6 +96,7 @@ function Counselling() {
         </div>
       </div>
       <Footer />
+      <OfferPopup />
     </div>
   );
 }

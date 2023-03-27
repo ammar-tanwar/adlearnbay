@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Popup from "../../Components/Popup/Popup";
 import Form from "../../Components/Form/Form";
 import FormOtp from "../../Components/FormOtp/FormOtp";
+import OfferPopup from "../../Components/OfferPopup/OfferPopup";
 import Navbar from "../../Components/CoursePage/Navbar/Navbar";
 import { ProgramFee } from "../../Components/LightTheme/ProgramFee/ProgramFee";
 import { FullStackWebCourseData } from "../../Data/FullStackWebData";
@@ -175,6 +176,7 @@ export default function Home({ formotp }) {
         />
         <SeventhSection fullStackCont={true} />
         <EightSection formotp={true} />
+        <OfferPopup />
       </main>
     </div>
   );

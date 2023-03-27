@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import React from "react";
 import Navbar from "../Components/NavbarA/Navbar";
+import OfferPopup from "../Components/OfferPopup/OfferPopup";
 import Footer from "../Components/FooterA/Footer";
 import FormOtp from "../Components/FormOtp/FormOtp";
 
@@ -54,7 +55,7 @@ function Counselling() {
           }}
         />
       </Head>
-      <Navbar radio={true} formotp={true}/>
+      <Navbar radio={true} formotp={true} />
       <div className={styles.formq}>
         <div className={styles.forml}></div>
         <div className={styles.formr}>
@@ -62,6 +63,7 @@ function Counselling() {
         </div>
       </div>
       <Footer />
+      <OfferPopup />
     </div>
   );
 }

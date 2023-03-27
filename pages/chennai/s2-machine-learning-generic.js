@@ -3,6 +3,7 @@ import styles from "../../styles/Home.module.css";
 import Popup from "../../Components/Popup/Popup";
 import Form from "../../Components/Form/Form";
 import Navbar from "../../Components/CoursePage/Navbar/Navbar";
+import OfferPopup from "../../Components/OfferPopup/OfferPopup";
 import CityFooter from "../../Components/CityComponents/CityFooter/CityFooter";
 import LearnSupport from "../../Components/CoursePage/LearnSupport/LearnSupport";
 import React, { useState } from "react";
@@ -82,7 +83,7 @@ of course subscription and Lifetime access to recoded classes"
         />
       </Head>
       <main>
-        <Navbar popup={true} jobDesc={true} formotp={true}/>
+        <Navbar popup={true} jobDesc={true} formotp={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -95,7 +96,7 @@ of course subscription and Lifetime access to recoded classes"
           </div>
         </Popup>
         <FirstSection
-        formotp={true}
+          formotp={true}
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/ChennaiTopWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/ChennaiTopMob.jpg"
           courseName="Machine Learning Course"
@@ -106,7 +107,6 @@ of course subscription and Lifetime access to recoded classes"
           who want to maximize their present industry expertise and change 
           career."
         />
-
         <div className={styles.program1}>
           <ProgramInfo
             p1={MlCourseData[0].ProgramInfo.p1}
@@ -139,9 +139,8 @@ of course subscription and Lifetime access to recoded classes"
             Domain="7+"
           />
         </div>
-
         <SyllabusNew
-        formotp={true}
+          formotp={true}
           syllabus={MlCourseData[0].syllabus}
           CSyllabus="Machine Learning Course Syllabus In Chennai"
           CourseHighlights={MlCourseData[0].CourseHighlights}
@@ -150,14 +149,12 @@ of course subscription and Lifetime access to recoded classes"
           hours={MlCourseData[0].hours}
           project={MlCourseData[0].project}
         />
-
         <CityImage
-        formotp={true}
+          formotp={true}
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityChennaiWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityChennaiMob.jpg"
           cityName="சென்னை"
         />
-
         <OurExpert
           H5="Tools Covered"
           img1={MlCourseData[0].OurExpert.img1}
@@ -187,7 +184,7 @@ of course subscription and Lifetime access to recoded classes"
         <Certificate H4="Machine Learning Certification Course In Chennai" />
         <div className={styles.ProjectWrapper} id="project">
           <Project
-          formotp={true}
+            formotp={true}
             popupHead={MlCourseData[0].Project.popupHead}
             project={MlCourseData[0].Project.project}
             domain={MlCourseData[0].Project.domain}
@@ -195,8 +192,9 @@ of course subscription and Lifetime access to recoded classes"
           />
         </div>
         <SliderTab />
+        <OfferPopup />
         <CourseFee
-        formotp={true}
+          formotp={true}
           syllabusDesc={MlCourseData[0].syllabusDesc}
           syllabus={MlCourseData[0].Batch}
           CourseFeeHead={MlCourseData[0].BatchCourses.CourseFeeHead}

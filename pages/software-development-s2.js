@@ -5,6 +5,7 @@ import BoxShape from "../Components/Domain/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
+import OfferPopup from "../Components/OfferPopup/OfferPopup";
 import BankingProject from "../Components/Domain/Project/BankingProject";
 import SyllabusNew from "../Components/Domain/SyllabusNew/SyllabusNew";
 import Footer from "../Components/CoursePage/Footer/Footer";
@@ -46,7 +47,7 @@ export default function Home() {
           name="Keywords"
           content="Full Stack Software Development Course,Best Full Stack Software Development Course, Online Full Stack Software Development Course, Learn Full Stack Software development Course"
         />
-         <script
+        <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
             var s = document.createElement('script');
@@ -87,7 +88,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} formotp={true}/>
+        <Navbar popup={true} formotp={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -190,7 +191,7 @@ export default function Home() {
         />
         <div className={styles.ProjectWrapper} id="project">
           <BankingProject
-                    formotp={true}
+            formotp={true}
             popupHead={SoftwareData[0].Project.popupHead}
             project={SoftwareData[0].Project.project}
             domain={SoftwareData[0].Project.domain}
@@ -208,7 +209,8 @@ export default function Home() {
           SupportFaqDatas={SupportFaqData9}
         />
         <LearnSupport />
-        <Footer fullStackContt={true}/>
+        <Footer fullStackContt={true} />
+        <OfferPopup />
       </main>
     </div>
   );

@@ -4,6 +4,7 @@ import FirstSection from "../Components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
 import BoxShape from "../Components/CoursePage/Boxshape/BoxShape";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
+import OfferPopup from "../Components/OfferPopup/OfferPopup";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
 import Certificate from "../Components/CoursePage/CertificateTab/CertificateTab3";
@@ -85,7 +86,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} formotp={true}/>
+        <Navbar popup={true} formotp={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -98,7 +99,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-        formotp={true}
+          formotp={true}
           deskTopPara={AiCourseData[0].FirstSection.deskTopPara}
           deskTopPara1={AiCourseData[0].FirstSection.deskTopPara1}
           spanTitleText="For Professionals"
@@ -128,7 +129,7 @@ export default function Home() {
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
-          formotp={true}
+            formotp={true}
             title="Explore Our Artificial Intelligence Certification Programs"
             Box1h5={AiCourseData[0].BoxShape.Box1h5}
             box1desc={AiCourseData[0].BoxShape.box1desc}
@@ -142,7 +143,7 @@ export default function Home() {
           />
         </div>
         <CourseReview
-        formotp={true}
+          formotp={true}
           p1="Working at HCL"
           p2=" Working at TCS"
           p3="Working at Capgemini"
@@ -159,8 +160,8 @@ export default function Home() {
           OCP4={AiCourseData[0].OtherCertificate.OCP4}
         />
         <SyllabusNew
-        formotp={true}
-        syllabusFormotp={true}
+          formotp={true}
+          syllabusFormotp={true}
           syllabus={AiCourseData[0].syllabus}
           CSyllabus="AI Certification Course Syllabus"
           CourseHighlights={AiCourseData[0].CourseHighlights}
@@ -197,23 +198,24 @@ export default function Home() {
           img20={AiCourseData[0].OurExpert.img20}
         />
         <ProgramFee
-        formotp={true}
+          formotp={true}
           Emi={AiCourseData[0].ProgramFee.Emi}
           Fee={AiCourseData[0].ProgramFee.Fee}
           CourseFeeAndFinancing="Artificial Intelligence Certification Course Fee & Financing"
           para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for AI Certification Course and offer avariety of financing options to make it more economical."
         />
         <SliderTab />
+        <OfferPopup />
         <div className={styles.ProjectWrapper} id="project">
           <Project
-          formotp={true}
+            formotp={true}
             project={AiCourseData[0].Project.project}
             domain={AiCourseData[0].Project.domain}
             projectTitle={AiCourseData[0].Project.projectTitle}
           />
         </div>
         <CourseFee
-        formotp={true}
+          formotp={true}
           syllabusDesc={AiCourseData[0].syllabusDesc}
           syllabus={AiCourseData[0].Batch}
           CourseFeeHead="Certified Artificial Intelligence Course : Batch Details"

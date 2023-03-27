@@ -4,6 +4,7 @@ import FirstSection from "../Components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
 import BoxShape from "../Components/CoursePage/Boxshape/BoxShape";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
+import OfferPopup from "../Components/OfferPopup/OfferPopup";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
 import Certificate from "../Components/CoursePage/CertificateTab/CertificateTab3";
@@ -87,7 +88,7 @@ of course subscription and Lifetime access to recoded classes"
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} formotp={true}/>
+        <Navbar popup={true} formotp={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -100,7 +101,7 @@ of course subscription and Lifetime access to recoded classes"
           </div>
         </Popup>
         <FirstSection
-        formotp={true}
+          formotp={true}
           deskTopPara={MlCourseData[0].FirstSection.deskTopPara}
           deskTopPara1={MlCourseData[0].FirstSection.deskTopPara1}
           spanTitleText={MlCourseData[0].FirstSection.spanTitleText}
@@ -130,7 +131,7 @@ of course subscription and Lifetime access to recoded classes"
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
-          formotp={true}
+            formotp={true}
             title={MlCourseData[0].BoxShape.title}
             Box1h5={MlCourseData[0].BoxShape.Box1h5}
             box1desc={MlCourseData[0].BoxShape.box1desc}
@@ -144,7 +145,7 @@ of course subscription and Lifetime access to recoded classes"
           />
         </div>
         <CourseReview
-        formotp={true}
+          formotp={true}
           p1="Working at HCL"
           p2=" Working at TCS"
           p3="Working at Capgemini"
@@ -161,8 +162,8 @@ of course subscription and Lifetime access to recoded classes"
           OCP4={MlCourseData[0].OtherCertificate.OCP4}
         />
         <SyllabusNew
-                formotp={true}
-                syllabusFormotp={true}
+          formotp={true}
+          syllabusFormotp={true}
           syllabus={MlCourseData[0].syllabus}
           CSyllabus={MlCourseData[0].CSyllabus}
           CourseHighlights={MlCourseData[0].CourseHighlights}
@@ -199,7 +200,7 @@ of course subscription and Lifetime access to recoded classes"
           img20={MlCourseData[0].OurExpert.img20}
         />
         <ProgramFee
-        formotp={true}
+          formotp={true}
           Emi={MlCourseData[0].ProgramFee.Emi}
           Fee={MlCourseData[0].ProgramFee.Fee}
           CourseFeeAndFinancing={
@@ -208,16 +209,17 @@ of course subscription and Lifetime access to recoded classes"
           para={MlCourseData[0].ProgramFee.para}
         />
         <SliderTab />
+        <OfferPopup />
         <div className={styles.ProjectWrapper} id="project">
           <Project
-          formotp={true}
+            formotp={true}
             project={MlCourseData[0].Project.project}
             domain={MlCourseData[0].Project.domain}
             projectTitle={MlCourseData[0].Project.projectTitle}
           />
         </div>
         <CourseFee
-        formotp={true}
+          formotp={true}
           syllabusDesc={MlCourseData[0].syllabusDesc}
           syllabus={MlCourseData[0].Batch}
           CourseFeeHead={MlCourseData[0].BatchCourses.CourseFeeHead}

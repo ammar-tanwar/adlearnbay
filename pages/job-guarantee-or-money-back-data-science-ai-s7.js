@@ -17,6 +17,7 @@ import { JobGuaranteeCourseData } from "../Data/JobGuaranteeData";
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
 import Navbar from "../Components/CoursePage/NavbarDyn/Navbar";
+import OfferPopup from "../Components/OfferPopup/OfferPopup";
 import Footer from "../Components/Footers7/Footers7";
 
 export default function Home() {
@@ -89,7 +90,6 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} />
           </div>
         </Popup>
-
         <Navbar
           Href="/data-science-certification-courses-s7"
           Course="Data Science & AI Certification"
@@ -129,7 +129,6 @@ export default function Home() {
             p44={JobGuaranteeCourseData[0].ProgramInfo.p44}
           />
         </div>
-
         <div className={styles.Feature} id="Feature">
           <BoxShape
             title="Why Enroll In This Program?"
@@ -143,13 +142,11 @@ export default function Home() {
             box4desc="Get diligent experience of real-world projects, spanning from advanced level complexity, directly from relevant establishments."
           />
         </div>
-
         <CourseReview
           p1="Working at HCL"
           p2=" Working at TCS"
           p3="Working at Capgemini"
         />
-
         <Certificate
           title={JobGuaranteeCourseData[0].Certificate.title}
           desc={JobGuaranteeCourseData[0].Certificate.desc}
@@ -157,7 +154,6 @@ export default function Home() {
           desc3={JobGuaranteeCourseData[0].Certificate.desc3}
           src={JobGuaranteeCourseData[0].Certificate.src}
         />
-
         <SyllabusNew
           syllabus={JobGuaranteeCourseData[0].syllabus}
           syllabusDesc={JobGuaranteeCourseData[0].syllabusDesc}
@@ -200,7 +196,7 @@ export default function Home() {
           dataScience={true}
         />
         <SliderTab />
-
+        <OfferPopup />
         <div className={styles.ProjectWrapper} id="project">
           <Project
             popupHead={JobGuaranteeCourseData[0].Project.popupHead}
@@ -209,7 +205,6 @@ export default function Home() {
             projectTitle={JobGuaranteeCourseData[0].Project.projectTitle}
           />
         </div>
-
         <CourseFee
           syllabusDesc={JobGuaranteeCourseData[0].syllabusDesc}
           syllabus={JobGuaranteeCourseData[0].Batch}
