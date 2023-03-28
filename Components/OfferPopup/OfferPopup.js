@@ -2,9 +2,15 @@ import React, { useState, useEffect } from "react";
 import styles from "./OfferPopup.module.css";
 import { AiFillCloseCircle } from "react-icons/ai";
 import Image from "next/image";
+import Popup from "../Popup/Popup";
+import FormOtp from "../FormOtp/FormOtp";
 
 const OfferPopup = () => {
   const [open, setOpen] = useState(false);
+  const [popups, setPopups] = useState(false);
+  const popupShow = () => {
+    setPopups(true);
+  };
   const handelOpen = () => {
     setOpen(false);
   };
@@ -15,6 +21,21 @@ const OfferPopup = () => {
     return;
   }, []);
   return (
+    <>
+    <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+        <div className="leftPopup">
+          <div className="whiteP" />
+        </div>
+        <div className="RightPopup">
+          <h5> Register NOW!</h5>
+                <FormOtp
+                  popup={true}
+                  setTrigger={setPopups}
+                  scholarship={true}
+
+                />
+        </div>
+      </Popup>
       <div className={open ? styles.OfferPopup : styles.hide}>
         <AiFillCloseCircle className={styles.Icon} onClick={handelOpen} />
                 <div className={styles.Offer}>
@@ -31,13 +52,12 @@ const OfferPopup = () => {
                   <p style={{ fontSize: "12px" }}>
                     *** Terms and conditions applied.
                   </p>
-                  <a href="https://forms.gle/89kvteiX5bcNePp78" target="_blank">
-                    <button onClick={handelOpen} style={{ width: "100%" }}>
-                      Apply For Scholarship Now!
+                    <button onClick={popupShow} style={{ width: "100%" }}>
+                      Apply For Scholarship Now! 
                     </button>
-                  </a>
                 </div>
       </div>
+      </>
   );
 };
 

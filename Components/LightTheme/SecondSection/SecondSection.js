@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./SecondSection.module.css";
-import { FaBook, FaPlay, FaRegIdBadge, FaStar } from "react-icons/fa";
+import { FaBook, FaUserGraduate, FaRegIdBadge, FaStar } from "react-icons/fa";
 import Image from "next/image";
 
 function SecondSection({ p1, p2, p3, p4, p11, p22, p33, p44, fullStackCont }) {
@@ -33,7 +33,7 @@ function SecondSection({ p1, p2, p3, p4, p11, p22, p33, p44, fullStackCont }) {
           <p className={styles.tagline}>Learn Here, Lead Anywhere</p>
           <div className={styles.BoxIconDiv}>
             <div className={styles.BoxIcon}>
-              <FaPlay className={styles.IconBoxBlue} />
+              <FaUserGraduate className={styles.IconBoxBlue} />
               <p className={styles.HeadPP}>{p1}</p>
               <p className={styles.HeadP}>{p11}</p>
             </div>
@@ -82,7 +82,7 @@ function SecondSection({ p1, p2, p3, p4, p11, p22, p33, p44, fullStackCont }) {
           <p className={styles.tagline}>Learn Here, Lead Anywhere</p>
           <div className={styles.BoxIconDiv}>
             <div className={styles.BoxIcon}>
-              <FaPlay className={styles.IconBoxBlue} />
+              <FaUserGraduate className={styles.IconBoxBlue} />
               <p className={styles.HeadPP}>{p1}</p>
               <p className={styles.HeadP}>{p11}</p>
             </div>
