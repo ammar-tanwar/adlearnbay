@@ -118,6 +118,8 @@ function FormOtp({
     router.pathname === "/s2-artificial-intelligence-certification" ||
     router.pathname === "/s2-data-science" ||
     router.pathname === "/s2-data-science-generic" ||
+    router.pathname === "/s2-data-science-program-generic" ||
+    router.pathname === "/s2-ai-ml-course-generic" ||
     router.pathname === "/s2-data-science-advance-generic" ||
     router.pathname === "/s2-master-program" ||
     router.pathname === "/s2-managers-leaders-program" ||
@@ -609,6 +611,8 @@ function FormOtp({
           (router.pathname === "/" && downloadBrochure) ||
           (router.pathname === "/s2-data-science" && downloadBrochure) ||
           (router.pathname === "/s2-data-science-generic" && downloadBrochure) ||
+          (router.pathname === "/s2-data-science-program-generic" && downloadBrochure) ||
+          (router.pathname === "/s2-ai-ml-course-generic" && downloadBrochure) ||
           (router.pathname === "/s2-data-science-advance-generic" && downloadBrochure) ||
           (router.pathname === "/s2-managers-leaders-program" &&
             downloadBrochure) ||
@@ -936,6 +940,8 @@ function FormOtp({
             (router.pathname === "/" && downloadBrochure) ||
             (router.pathname === "/s2-data-science" && downloadBrochure) ||
             (router.pathname === "/s2-data-science-generic" && downloadBrochure) ||
+          (router.pathname === "/s2-data-science-program-generic" && downloadBrochure) ||
+          (router.pathname === "/s2-ai-ml-course-generic" && downloadBrochure) ||
             (router.pathname === "/s2-data-science-advance-generic" && downloadBrochure) ||
             (router.pathname === "/s2-managers-leaders-program" &&
               downloadBrochure) ||
@@ -1042,6 +1048,8 @@ function FormOtp({
             router.pathname === "/job-guarantee-or-money-back-data-science-ai-s9" ||
             router.pathname === "/s2-data-science" ||
             router.pathname === "/s2-data-science-generic" ||
+                        router.pathname === "/s2-data-science-program-generic" ||
+                        router.pathname === "/s2-ai-ml-course-generic" ||
             router.pathname === "/s2-data-science-advance-generic" ||
             router.pathname === "/s2-master-program" ||
             router.pathname === "/s2-managers-leaders-program" ||
