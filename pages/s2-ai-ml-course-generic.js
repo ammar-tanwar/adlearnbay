@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
-import OfferPopup from "../Components/OfferPopup/OfferPopup";
+
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import HeroSection from "../Components/LightTheme/FirstSection/HeroSection";
 import Testimonial from "../Components/LightTheme/SixthSection/Testimonial";
@@ -23,13 +23,15 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Advance Artificial Intelligence and Machine Learning Course</title>
+        <title>
+          Advance Artificial Intelligence and Machine Learning Course
+        </title>
         <meta
           name="description"
           content="Learn Advance Artificial Intelligence and Machine Learning with 100% job assistance"
         />
 
-<meta
+        <meta
           name="Keywords"
           content="artificial intelligence course institute, artificial intelligence course fee, artificial intelligence certification, artificial intelligence training, advance artificial intelligence course, artificial intelligence course duration, artificial intelligence online course, artificial intelligence course, artificial intelligence course for working professional"
         />
@@ -91,7 +93,7 @@ export default function Home() {
         <HeroSection
           formotp={true}
           deskTopPara="Be a master even without a master's degree"
-          h1= "Artificial Intelligence and Machine Learning"
+          h1="Artificial Intelligence and Machine Learning"
           hSpan="Advance Course"
           para="Successfully transition careers through our course & real-time capstone projects. 
           All while making your previous work experience count!"
@@ -127,7 +129,6 @@ export default function Home() {
           Module4="Artificial Intelligence Tools"
         />
         <SliderTab />
-        <OfferPopup />
         <Testimonial formotp={true} />
         <SeventhSection />
         <EightSection formotp={true} />

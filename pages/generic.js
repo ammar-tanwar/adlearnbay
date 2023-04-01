@@ -8,7 +8,7 @@ import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
-import OfferPopup from "../Components/OfferPopup/OfferPopup";
+
 import Footer from "../Components/CoursePage/Footer/Footer";
 import React, { useState } from "react";
 import BoxShape from "../Components/Boxshape/BoxShape1";
@@ -118,7 +118,6 @@ export default function Home() {
       </div>
       <LearnSupport fullStackCont={true} />
       <Footer fullStackCont={true} />
-      <OfferPopup />
     </div>
   );
 }

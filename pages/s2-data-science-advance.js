@@ -6,7 +6,7 @@ import BoxShape from "../Components/CoursePage/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
-import OfferPopup from "../Components/OfferPopup/OfferPopup";
+
 import Certificate from "../Components/CoursePage/CertificateTab/CertificateTabAdvance";
 import Project from "../Components/CoursePage/Project/Project";
 import OurExpert from "../Components/CoursePage/OurExpert/OurExpert";
@@ -195,7 +195,6 @@ export default function Home() {
           para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Advance Data Science Certification Course and offer avariety of financing options to make it more economical."
         />
         <SliderTab />
-        <OfferPopup />
         <div className={styles.ProjectWrapper} id="project">
           <Project
             formotp={true}

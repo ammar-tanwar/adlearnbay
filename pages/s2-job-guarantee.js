@@ -5,7 +5,7 @@ import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
 import BoxShape from "../Components/CoursePage/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
-import OfferPopup from "../Components/OfferPopup/OfferPopup";
+
 import Form from "../Components/Form/Form";
 import Certificate from "../Components/CoursePage/Certificatejob/Certificate";
 import Project from "../Components/CoursePage/Project/Project";
@@ -201,7 +201,6 @@ export default function Home() {
           }
         />
         <SliderTab />
-        <OfferPopup />
         <div className={styles.ProjectWrapper} id="project">
           <Project
             formotp={true}

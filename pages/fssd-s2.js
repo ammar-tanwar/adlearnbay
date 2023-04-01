@@ -4,7 +4,7 @@ import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
 import FormOtp from "../Components/FormOtp/FormOtp";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
-import OfferPopup from "../Components/OfferPopup/OfferPopup";
+
 import { ProgramFee } from "../Components/LightTheme/ProgramFee/ProgramFee";
 import { FullStackSoftwareCourseData } from "../Data/FullStackSoftware";
 import HeroSection from "../Components/LightTheme/FirstSection/HeroSection";
@@ -187,7 +187,6 @@ export default function Home({ formotp }) {
         />
         <SeventhSection fullStackCont={true} />
         <EightSection formotp={true} />
-        <OfferPopup />
       </main>
     </div>
   );

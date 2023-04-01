@@ -5,7 +5,7 @@ import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
 import BoxShape from "../../Components/CoursePage/Boxshapefssds/BoxShape";
 import Popup from "../../Components/Popup/Popup";
 import Navbar from "../../Components/CoursePage/Navbar/Navbar";
-import OfferPopup from "../../Components/OfferPopup/OfferPopup";
+
 import Form from "../../Components/Form/Form";
 import Project from "../../Components/CoursePage/Projectfswd/Project";
 import { ProgramFee } from "../../Components/CoursePage/ProgramFee/ProgramFee";
@@ -207,7 +207,6 @@ export default function Home() {
           paraTag="Enroll now for DSA and Full stack software development course and get master as a Full stack Developer which will help you to transform your career."
           pTag={true}
         />
-        <OfferPopup />
       </main>
     </div>
   );
