@@ -2,7 +2,7 @@ import Head from "next/head";
 import React, { useState } from "react";
 import Popup from "../../Components/Popup/Popup";
 import FormOtp from "../../Components/FormOtp/FormOtp";
-import OfferPopup from "../../Components/OfferPopup/OfferPopup";
+
 import Navbar from "../../Components/CoursePage/Navbar/Navbar";
 import { ProgramFee } from "../../Components/LightTheme/ProgramFee/ProgramFee";
 import { BestDataStructureAlgorithmData } from "../../Data/DataStructureAlgorithm";
@@ -197,7 +197,6 @@ export default function Home({ formotp }) {
         />
         <SeventhSection fullStackCont={true} />
         <EightSection formotp={true} DownloadSyllabus={true} />
-        <OfferPopup />
       </main>
     </div>
   );

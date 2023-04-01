@@ -12,7 +12,7 @@ import Syllabus from "../Components/Syllabus/Syllabus";
 import ToolsCovered from "../Components/ToolsCovered/ToolsCovered";
 import OurExpert from "../Components/OurExpert/OurExpert";
 import Navbar from "../Components/CoursePage/NavbarDyn/Navbar";
-import OfferPopup from "../Components/OfferPopup/OfferPopup";
+
 import Footer from "../Components/Footers2/Footer";
 import React, { useState } from "react";
 import FormOtp from "../Components/FormOtp/FormOtp";
@@ -165,8 +165,6 @@ export default function Home({ formotp, radio }) {
         </div>
 
         <Footer />
-        <OfferPopup />
-
       </main>
     </div>
   );

@@ -5,7 +5,7 @@ import BoxShape from "../Components/Domain/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
-import OfferPopup from "../Components/OfferPopup/OfferPopup";
+
 import BankingProject from "../Components/Domain/Project/BankingProject";
 import SyllabusNew from "../Components/Domain/SyllabusNew/SyllabusNew";
 import Footer from "../Components/CoursePage/Footer/Footer";
@@ -210,7 +210,6 @@ export default function Home() {
         />
         <LearnSupport />
         <Footer fullStackContt={true} />
-        <OfferPopup />
       </main>
     </div>
   );

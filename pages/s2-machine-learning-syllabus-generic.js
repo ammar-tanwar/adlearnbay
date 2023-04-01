@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
-import OfferPopup from "../Components/OfferPopup/OfferPopup";
+
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import HeroSection from "../Components/LightTheme/FirstSection/HeroSection";
 import Testimonial from "../Components/LightTheme/SixthSection/Testimonial";
@@ -134,7 +134,6 @@ of course subscription and Lifetime access to recoded classes"
           Module4="Artificial Intelligence Course Tools"
         />
         <SliderTab />
-        <OfferPopup />
         <Testimonial formotp={true} />
         <SeventhSection />
         <EightSection DownloadSyllabus={true} formotp={true} />

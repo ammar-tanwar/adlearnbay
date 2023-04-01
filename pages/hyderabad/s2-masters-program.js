@@ -3,7 +3,7 @@ import styles from "../../styles/Home.module.css";
 import Popup from "../../Components/Popup/Popup";
 import Form from "../../Components/Form/Form";
 import Navbar from "../../Components/CoursePage/Navbar/Navbar";
-import OfferPopup from "../../Components/OfferPopup/OfferPopup";
+
 import CityFooter from "../../Components/CityComponents/CityFooter/CityFooter";
 import LearnSupport from "../../Components/CoursePage/LearnSupport/LearnSupport";
 import React, { useState } from "react";
@@ -197,7 +197,6 @@ export default function Home() {
           />
         </div>
         <SliderTab />
-        <OfferPopup />
         <CourseFee
           formotp={true}
           syllabusDesc={mastersProgram[0].syllabusDesc}

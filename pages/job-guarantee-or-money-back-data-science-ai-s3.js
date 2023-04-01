@@ -17,7 +17,7 @@ import { JobGuaranteeCourseData } from "../Data/JobGuaranteeData";
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
 import Navbar from "../Components/CoursePage/NavbarDyn/Navbar";
-import OfferPopup from "../Components/OfferPopup/OfferPopup";
+
 import Footer from "../Components/Footers3/Footers3";
 
 export default function Home() {
@@ -196,7 +196,7 @@ export default function Home() {
           dataScience={true}
         />
         <SliderTab />
-        <OfferPopup />
+
         <div className={styles.ProjectWrapper} id="project">
           <Project
             popupHead={JobGuaranteeCourseData[0].Project.popupHead}

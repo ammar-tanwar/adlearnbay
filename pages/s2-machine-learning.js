@@ -4,7 +4,7 @@ import FirstSection from "../Components/CoursePage/HeroSection/HeroSection";
 import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
 import BoxShape from "../Components/CoursePage/Boxshape/BoxShape";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
-import OfferPopup from "../Components/OfferPopup/OfferPopup";
+
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
 import Certificate from "../Components/CoursePage/CertificateTab/CertificateTab3";
@@ -209,7 +209,6 @@ of course subscription and Lifetime access to recoded classes"
           para={MlCourseData[0].ProgramFee.para}
         />
         <SliderTab />
-        <OfferPopup />
         <div className={styles.ProjectWrapper} id="project">
           <Project
             formotp={true}

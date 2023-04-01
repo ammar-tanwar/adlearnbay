@@ -5,7 +5,7 @@ import BoxShape from "../Components/Domain/Boxshape/BoxShape";
 import Popup from "../Components/Popup/Popup";
 import FormOtp from "../Components/FormOtp/FormOtp";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
-import OfferPopup from "../Components/OfferPopup/OfferPopup";
+
 import BankingProject from "../Components/Domain/Project/BankingProject";
 import OurExpert from "../Components/CoursePage/OurExpert/OurExpert";
 import SyllabusNew from "../Components/Domain/SyllabusNew/SyllabusNew";
@@ -220,7 +220,6 @@ export default function Home() {
           />
         </div>
         <SliderTab />
-        <OfferPopup />
         <div className={styles.ProjectWrapper} id="project">
           <BankingProject
             formotp={true}
