@@ -148,7 +148,7 @@ export default function Home({ formotp }) {
           CourseFeeAndFinancing="Data Structures Course Fee & Financing"
           para="We are dedicated to making our Data Structures and Algorithms Course in Java or Python accessible. We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
         />
-        <ProgramHighlights
+        {/* <ProgramHighlights
           fullStackCont={true}
           Ques="Why DSA Course in Java or Python is important?"
           ans="Our trainers emphasize solving real-world problems practically - giving you access to the DSA Course in Java or Python. Our course has been carefully crafted to provide comprehensive learning modules that equip individuals with the necessary skills to program efficiently and effectively. By taking the best course for data structures and algorithms, you can gain the expertise required to excel in these fields."
@@ -156,7 +156,7 @@ export default function Home({ formotp }) {
           Bot2="Data structures and algorithms play a crucial role in managing your data and writing optimized code"
           Bot3="Our DSA course will facilitate a successful career transition to a product-based company
           "
-        />
+        /> */}
         <Batch
           formotp={true}
           syllabusDesc={BestDataStructureAlgorithmData[0].syllabusDesc}
