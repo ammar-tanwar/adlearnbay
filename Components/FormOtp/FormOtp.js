@@ -120,6 +120,7 @@ function FormOtp({
     router.pathname === "/s2-artificial-intelligence-certification" ||
     router.pathname === "/s2-data-science" ||
     router.pathname === "/s2-data-science-generic" ||
+        router.pathname === "/s2-data-science-certification-generic" ||
     router.pathname === "/s2-data-science-program-generic" ||
     router.pathname === "/s2-ai-ml-course-generic" ||
     router.pathname === "/s2-data-science-advance-generic" ||
@@ -730,6 +731,7 @@ function FormOtp({
     router.pathname === "/s2-artificial-intelligence-certification" ||
     router.pathname === "/s2-data-science" ||
     router.pathname === "/s2-data-science-generic" ||
+        router.pathname === "/s2-data-science-certification-generic" ||
     router.pathname === "/s2-data-science-program-generic" ||
     router.pathname === "/s2-ai-ml-course-generic" ||
     router.pathname === "/s2-data-science-advance-generic" ||
@@ -1211,6 +1213,7 @@ function FormOtp({
     router.pathname === "/s2-artificial-intelligence-certification" ||
     router.pathname === "/s2-data-science" ||
     router.pathname === "/s2-data-science-generic" ||
+        router.pathname === "/s2-data-science-certification-generic" ||
     router.pathname === "/s2-data-science-program-generic" ||
     router.pathname === "/s2-ai-ml-course-generic" ||
     router.pathname === "/s2-data-science-advance-generic" ||
