@@ -97,6 +97,7 @@ function FormOtp({
     router.pathname === "/s2-business-analytics-master" ||
     router.pathname === "/s2-business-analytics-placement" ||
     router.pathname === "/s2-business-analytics-training" ||
+    router.pathname === "/s2-business-analytics-certification-generic" ||
     router.pathname === "/s2-data-science-advance" ||
     router.pathname === "/s2-data-science-master" ||
     router.pathname === "/s2-data-science-training" ||
@@ -110,7 +111,8 @@ function FormOtp({
     router.pathname === "/s2-machine-learning-training" ||
     router.pathname === "/s2-data-analytics-advance" ||
     router.pathname === "/s2-data-analytics-master" ||
-    router.pathname === "/s2-data-analytics-training" || 
+    router.pathname === "/s2-data-analytics-training" ||
+    router.pathname === "/s2-data-analytics-certification-generic" || 
     router.pathname === "/s2-data-analytics-institute" ||
     router.pathname === "/s2-data-analytics-placement" ||
     router.pathname === "/s2-artificial-intelligence-advance" ||
@@ -708,6 +710,7 @@ function FormOtp({
     router.pathname === "/s2-business-analytics-master" ||
     router.pathname === "/s2-business-analytics-placement" ||
     router.pathname === "/s2-business-analytics-training" ||
+    router.pathname === "/s2-business-analytics-certification-generic" ||
     router.pathname === "/s2-data-science-advance" ||
     router.pathname === "/s2-data-science-master" ||
     router.pathname === "/s2-data-science-training" ||
@@ -721,7 +724,8 @@ function FormOtp({
     router.pathname === "/s2-machine-learning-training" ||
     router.pathname === "/s2-data-analytics-advance" ||
     router.pathname === "/s2-data-analytics-master" ||
-    router.pathname === "/s2-data-analytics-training" || 
+    router.pathname === "/s2-data-analytics-training" ||
+    router.pathname === "/s2-data-analytics-certification-generic" || 
     router.pathname === "/s2-data-analytics-institute" ||
     router.pathname === "/s2-data-analytics-placement" ||
     router.pathname === "/s2-artificial-intelligence-advance" ||
@@ -1190,6 +1194,7 @@ function FormOtp({
     router.pathname === "/s2-business-analytics-master" ||
     router.pathname === "/s2-business-analytics-placement" ||
     router.pathname === "/s2-business-analytics-training" ||
+    router.pathname === "/s2-business-analytics-certification-generic" ||
     router.pathname === "/s2-data-science-advance" ||
     router.pathname === "/s2-data-science-master" ||
     router.pathname === "/s2-data-science-training" ||
@@ -1203,7 +1208,8 @@ function FormOtp({
     router.pathname === "/s2-machine-learning-training" ||
     router.pathname === "/s2-data-analytics-advance" ||
     router.pathname === "/s2-data-analytics-master" ||
-    router.pathname === "/s2-data-analytics-training" || 
+    router.pathname === "/s2-data-analytics-training" ||
+    router.pathname === "/s2-data-analytics-certification-generic" || 
     router.pathname === "/s2-data-analytics-institute" ||
     router.pathname === "/s2-data-analytics-placement" ||
     router.pathname === "/s2-artificial-intelligence-advance" ||

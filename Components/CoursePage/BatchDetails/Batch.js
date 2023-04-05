@@ -224,8 +224,8 @@ function Batch({
                       <MdDateRange className={styles.icon} />
                       <b>Date</b>
                     </p>
-                    <p className={styles.list}>25th March 2023</p>
-                    <p className={styles.list}>27th March 2023</p>
+                    <p className={styles.list}>9th April 2023</p>
+                    <p className={styles.list}>14th April 2023</p>
                   </div>
                 </div>
                 <div>
