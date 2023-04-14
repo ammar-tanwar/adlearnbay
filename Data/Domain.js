@@ -268,12 +268,12 @@ export const BFSIData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Fri)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 7th April 2023", "Time : 8 AM to 10 AM"],
+                desc: ["Date : 21st April 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -288,7 +288,7 @@ export const BFSIData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 9th April 2023", "Time : 12:30 PM to 4 PM"],
+                desc: ["Date : 23rd April 2023", "Time : 8:30 AM to 12 PM"],
               },
             },
           ],
@@ -550,12 +550,12 @@ export const HRData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Fri)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 7th April 2023", "Time : 8 AM to 10 AM"],
+                desc: ["Date : 21st April 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -570,7 +570,7 @@ export const HRData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 9th April 2023", "Time : 12:30 PM to 4 PM"],
+                desc: ["Date : 23rd April 2023", "Time : 8:30 AM to 12 PM"],
               },
             },
           ],
@@ -841,12 +841,12 @@ export const MarketingData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Fri)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 7th April 2023", "Time : 8 AM to 10 AM"],
+                desc: ["Date : 21st April 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -861,7 +861,7 @@ export const MarketingData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 9th April 2023", "Time : 12:30 PM to 4 PM"],
+                desc: ["Date : 23rd April 2023", "Time : 8:30 AM to 12 PM"],
               },
             },
           ],
@@ -1096,12 +1096,12 @@ export const SalesData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Fri)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 7th April 2023", "Time : 8 AM to 10 AM"],
+                desc: ["Date : 21st April 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -1116,7 +1116,7 @@ export const SalesData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 9th April 2023", "Time : 12:30 PM to 4 PM"],
+                desc: ["Date : 23rd April 2023", "Time : 8:30 AM to 12 PM"],
               },
             },
           ],
@@ -1463,7 +1463,7 @@ export const SoftwareData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 9th April 2023", "Time : 8 AM to 11 AM"],
+                desc: ["Date : 16th April 2023", "Time : 8 AM to 11 AM"],
               },
             },
           ],
@@ -1478,7 +1478,7 @@ export const SoftwareData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 14th April 2023", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 21st April 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
