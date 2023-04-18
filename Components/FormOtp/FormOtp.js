@@ -1713,24 +1713,24 @@ function FormOtp({
             <div className={popup ? styles.formWrappers : styles.formWrapper}>
               <input
                 id="Data Science Program"
-                value="Data Science Courses"
+                value="Data Science & AI Courses"
                 name="platform"
                 required={true}
                 type="radio"
                 onChange={handleForm}
               />
-              Data Science Courses&nbsp;
+              Data Science & AI Courses&nbsp;
               <br />
               <input
                 id="Full Stack Program"
-                value="Full Stack Software Dev Courses"
+                value="Software/Web Development (DSA & System Design)"
                 name="platform"
                 required={true}
                 type="radio"
                 onChange={handleForm}
               />
-              Full Stack Software Dev <br />
-              &nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) Courses
+              Software/Web Development <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design)
             </div>
           ) : (
             ""

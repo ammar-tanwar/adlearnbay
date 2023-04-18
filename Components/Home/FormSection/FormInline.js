@@ -237,46 +237,46 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience })
             <div>
             <input
               id="Data Science Program"
-              value="Data Science Courses"
+              value="Data Science & AI Courses"
               name="platform"
               required
               type="radio"
               onChange={handleParam()}
             />
-            Data Science Courses&nbsp;
+            Data Science & AI Courses&nbsp;
             {mobile ? (<br />) : ("")}<input
               id="Full Stack Program"
-              value="Full Stack Software Dev Courses"
+              value="Software/Web Development (DSA & System Design)"
               name="platform"
               required
               type="radio"
               onChange={handleParam()}
             />
-            Full Stack Software Dev <br/>&nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) Courses
+            Software/Web Development <br/>&nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design)
             </div>
             ):(
               <>
               <div className={styles.dsCourseInp}>
               <input
                 id="Data Science Program"
-                value="Data Science Courses"
+                value="Data Science & AI Courses"
                 name="platform"
                 required
                 type="radio"
                 onChange={handleParam()}
               />
-              Data Science Courses&nbsp;
+              Data Science & AI Courses&nbsp;
             </div>
             <div className={styles.fsdCourseInp}>
               <input
                 id="Full Stack Program"
-                value="Full Stack Software Dev Courses"
+                value="Software/Web Development (DSA & System Design)"
                 name="platform"
                 required
                 type="radio"
                 onChange={handleParam()}
               />
-              Full Stack Software Dev (DSA & System Design) Courses
+              Software/Web Development (DSA & System Design)
             </div>
             </>
               )}

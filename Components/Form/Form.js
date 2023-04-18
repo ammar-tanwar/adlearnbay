@@ -1254,13 +1254,13 @@ const Form = ({
           <div className={popup ? styles.formWrappers : styles.formWrappers}>
             <input
               id="Data Science Program"
-              value="Data Science Courses"
+              value="Data Science & AI Courses"
               name="platform"
               required
               type="radio"
               onChange={handleParam()}
             />
-            Data Science Courses&nbsp;
+            Data Science & AI Courses&nbsp;
             <br />
             <input
               id="Full Stack Program"
@@ -1270,8 +1270,8 @@ const Form = ({
               type="radio"
               onChange={handleParam()}
             />
-            Full Stack Software Dev <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) Courses
+            Software/Web Development <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design)
           </div>
         ) : (
           ""

@@ -200,32 +200,32 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, stepupJobExp,
 
 
 
-        {radio ? (
-          <div className={popup ? styles.formWrappers : styles.formWrapper}>
-            <input
-              id="Data Science Program"
-              value="Data Science Courses"
-              name="platform"
-              required
-              type="radio"
-              onChange={handleParam()}
-            />
-            Data Science Courses&nbsp;
-            <br />
-            <input
-              id="Full Stack Program"
-              value="Full Stack Software Dev Courses"
-              name="platform"
-              required
-              type="radio"
-              onChange={handleParam()}
-            />
-            Full Stack Software Dev <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design) Courses
-          </div>
-        ) : (
-          ""
-        )}
+{radio ? (
+            <div className={popup ? styles.formWrappers : styles.formWrapper}>
+              <input
+                id="Data Science Program"
+                value="Data Science & AI Courses"
+                name="platform"
+                required={true}
+                type="radio"
+                onChange={handleForm}
+              />
+              Data Science & AI Courses&nbsp;
+              <br />
+              <input
+                id="Full Stack Program"
+                value="Software/Web Development (DSA & System Design)"
+                name="platform"
+                required={true}
+                type="radio"
+                onChange={handleForm}
+              />
+              Software/Web Development <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design)
+            </div>
+          ) : (
+            ""
+          )}
 
 {formThank ? (
                   <div className={styles.formWrapper}>
