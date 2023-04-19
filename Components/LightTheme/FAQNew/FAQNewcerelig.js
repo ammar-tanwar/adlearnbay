@@ -15,6 +15,7 @@ function FAQNew({ FaqDatas, DomainFaqDatas, SupportFaqDatas, jobFaqDatas, Generi
   const [mobile, setMobile] = useState(false);
   return (
     <div className={styles.Course}>
+      <h4 className={styles.h1}>FAQs</h4>
       <div className={styles.courses}>
         <div className={styles.listPanel}>
           <span
