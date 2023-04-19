@@ -16,6 +16,7 @@ function HeroSection({
   deskTopPara,
   fullStackCont,
   formotp,
+  s2dataScience,
 }) {
   const [popups, setPopups] = useState(false);
   const [days, setDays] = useState(0);
@@ -99,7 +100,7 @@ function HeroSection({
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          {formotp ? <FormOtp popup={true} /> : <Form setTrigger={setPopups} />}
+          {formotp ? <FormOtp popup={true} s2dataScience={s2dataScience} /> : <Form setTrigger={setPopups} />}
         </div>
       </Popup>
       <div className={styles.section1}>

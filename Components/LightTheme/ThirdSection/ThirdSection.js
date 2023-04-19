@@ -5,7 +5,7 @@ import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
 
-function ThirdSection({ DownloadSyllabus, fullStackCont, formotp }) {
+function ThirdSection({ DownloadSyllabus, fullStackCont, formotp, s2dataScience }) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -24,7 +24,7 @@ function ThirdSection({ DownloadSyllabus, fullStackCont, formotp }) {
             <h5>Download Brochure</h5>
           )}
           {formotp ? (
-            <FormOtp popup={true} downloadBrochure />
+            <FormOtp popup={true} downloadBrochure s2dataScience={s2dataScience}/>
           ) : (
             <Form setTrigger={setPopups} downloadBrochure />
           )}
@@ -81,6 +81,14 @@ function ThirdSection({ DownloadSyllabus, fullStackCont, formotp }) {
               <p>
                 <FaStar className={styles.IconBoxOrange} />
                 Data Science & AI Master Program
+              </p>
+              <p>
+                <FaStar className={styles.IconBoxOrange} />
+                HR Analytics Program
+              </p>
+              <p>
+                <FaStar className={styles.IconBoxOrange} />
+                Marketing Analytics Program
               </p>
             </div>
           </>

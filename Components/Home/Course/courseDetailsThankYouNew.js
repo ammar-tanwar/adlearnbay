@@ -90,6 +90,21 @@ export const viewAllD = [
     link1:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
   },
+  {
+    id: 14,
+    title: "HR Analytics Program",
+
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/HR+Analytics+Certification+Program.pdf",
+  },
+  {
+    id: 15,
+    title: "Marketing Analytics Program",
+
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf",
+  },
+
 ];
 export const dataScience = [
   {
@@ -135,6 +150,20 @@ export const dataScience = [
 
     link1:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
+  },
+  {
+    id: 7,
+    title: "HR Analytics Program",
+
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/HR+Analytics+Certification+Program.pdf",
+  },
+  {
+    id: 8,
+    title: "Marketing Analytics Program",
+
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf",
   },
 ];
 

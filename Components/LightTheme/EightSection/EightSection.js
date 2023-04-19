@@ -5,7 +5,7 @@ import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
 import { FaDownload } from "react-icons/fa";
 
-function EightSection({DownloadSyllabus, formotp}) {
+function EightSection({DownloadSyllabus, formotp, s2dataScience}) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -44,7 +44,7 @@ function EightSection({DownloadSyllabus, formotp}) {
           <h5>Download Brochure</h5>
           )}
           {formotp ? (
-                    <FormOtp popup={true} downloadBrochure setTrigger={setPopups} />
+                    <FormOtp popup={true} downloadBrochure setTrigger={setPopups} s2dataScience={s2dataScience} />
                   ) : (
                     <Form popup={true} downloadBrochure setTrigger={setPopups} />
                   )}
