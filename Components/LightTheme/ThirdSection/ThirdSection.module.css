@@ -92,7 +92,11 @@
     .rightSide {
         padding: 20px;
     }
+    .rightSide p {
+        margin-bottom: 10px;
+    }
     .rightSideP {
         display: block;
+        font-size: 18px;
     }
 }

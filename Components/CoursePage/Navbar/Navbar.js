@@ -15,6 +15,7 @@ const Navbar = ({
   eventQRadio,
   brochureButton,
   DownloadSyllabus,
+  s2dataScience,
 }) => {
   const router = useRouter();
   const [icon, setIcon] = useState(false);
@@ -65,7 +66,7 @@ const Navbar = ({
           {brochureButton ? (
             <>
             {formotp ? (
-              <FormOtp popup={true} downloadBrochure/>
+              <FormOtp popup={true} downloadBrochure s2dataScience={s2dataScience}/>
             ) : (
               <Form setTrigger={setPopups} downloadBrochure/>
             )}
@@ -83,7 +84,7 @@ const Navbar = ({
                   ) : (
                     <>
                       {formotp ? (
-                        <FormOtp popup={true} radio={radio} />
+                        <FormOtp popup={true} radio={radio} s2dataScience={s2dataScience}/>
                       ) : (
                         <Form
                           popup={true}
