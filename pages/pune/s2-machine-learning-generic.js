@@ -70,7 +70,7 @@ of course subscription and Lifetime access to recoded classes"
               "ctaText":"Start Chat",
               "borderRadius":"25",
               "autoShow":false,
-              "phoneNumber":"+919606950936"
+              "phoneNumber":"+919986049187"
           }
         };
             s.onload = function() {
