@@ -67,7 +67,7 @@ export default function Home() {
               "ctaText":"Start Chat",
               "borderRadius":"25",
               "autoShow":false,
-              "phoneNumber":"+919606950936"
+              "phoneNumber":"+919986049187"
           }
         };
             s.onload = function() {
@@ -80,8 +80,12 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} brochureButton={true} formotp={true}
-        s2dataScience={true} />
+        <Navbar
+          popup={true}
+          brochureButton={true}
+          formotp={true}
+          s2dataScience={true}
+        />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -111,8 +115,7 @@ export default function Home() {
           p4="1:1 Support"
           p44="Dedicated Program"
         />
-        <ThirdSection formotp={true}
-        s2dataScience={true} />
+        <ThirdSection formotp={true} s2dataScience={true} />
         <FourthSection
           h1="Program Highlights"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
@@ -133,11 +136,9 @@ export default function Home() {
           Module4="Deployment (AWS+Azure)"
         />
         <SliderTab />
-        <Testimonial formotp={true}
-        s2dataScience={true} />
+        <Testimonial formotp={true} s2dataScience={true} />
         <SeventhSection />
-        <EightSection formotp={true}
-        s2dataScience={true} />
+        <EightSection formotp={true} s2dataScience={true} />
       </main>
     </div>
   );

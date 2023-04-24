@@ -3,7 +3,12 @@ import { MdCall } from "react-icons/md";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import styles from "./LearnSupport.module.css";
 import Image from "next/image";
-function LearnSupport({ fullStackContent, cityName, organicNum, organicNumber }) {
+function LearnSupport({
+  fullStackContent,
+  cityName,
+  organicNum,
+  organicNumber,
+}) {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
     let width = window.innerWidth;
@@ -31,24 +36,24 @@ function LearnSupport({ fullStackContent, cityName, organicNum, organicNumber })
             </p>
             {fullStackContent ? (
               <div className={styles.btnWrap}>
-              <a
-                href="https://api.whatsapp.com/send?phone=919731135221&text=Hello,"
-                target="_blank"
-              >
-                <button className={styles.btn1}>
-                  <AiOutlineWhatsApp /> Enquire Now
-                </button>
-              </a>
-              <a href="tel: +919731135221">
-                <button className={styles.btn2}>
-                  <MdCall /> +91 97311 35221
-                </button>
-              </a>
-            </div>
+                <a
+                  href="https://api.whatsapp.com/send?phone=919731135221&text=Hello,"
+                  target="_blank"
+                >
+                  <button className={styles.btn1}>
+                    <AiOutlineWhatsApp /> Enquire Now
+                  </button>
+                </a>
+                <a href="tel: +919731135221">
+                  <button className={styles.btn2}>
+                    <MdCall /> +91 97311 35221
+                  </button>
+                </a>
+              </div>
             ) : (
               <div className={styles.btnWrap}>
                 <a
-                  href="https://api.whatsapp.com/send?phone=919606950936&text=Hello,"
+                  href="https://api.whatsapp.com/send?phone=919986049187&text=Hello,"
                   target="_blank"
                 >
                   <button className={styles.btn1}>
