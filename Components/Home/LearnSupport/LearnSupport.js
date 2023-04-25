@@ -23,9 +23,9 @@ function LearnSupport() {
               <RiWhatsappFill className={styles.bIcon} />
             </button>
           </a>
-          <a href="tel:+919606950936" target="_blank">
+          <a href="tel:+919986049187" target="_blank">
             <button className={styles.btn2}>
-              +91 96069 50936
+              +91 9986049187
               <FaPhone className={styles.bIcon} />
             </button>
           </a>
