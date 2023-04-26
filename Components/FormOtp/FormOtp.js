@@ -1603,7 +1603,7 @@ function FormOtp({
               name="name"
               value={form.name}
               onChange={handleForm}
-              placeholder="Enter your Full Name*"
+              placeholder="Enter your full name*"
               style={{ borderBottom: "1px solid grey" }}
               required={true}
             />
@@ -1615,7 +1615,7 @@ function FormOtp({
               name="email"
               value={form.email}
               onChange={handleForm}
-              placeholder="Enter Your Email*"
+              placeholder="Enter your email*"
               required={true}
             />
           </div>
@@ -1791,7 +1791,7 @@ function FormOtp({
               name="phone"
               rules={{ required: true }}
               defaultCountry="IN"
-              placeholder="Enter Phone Number"
+              placeholder="Enter phone number*"
               className={popup ? styles.Phones : styles.Phone}
               value={value}
               onChange={setValue}
@@ -1809,7 +1809,7 @@ function FormOtp({
                 onChange={handleForm}
                 value={form.JobTitle}
                 required={true}
-                placeholder="Job Title*"
+                placeholder="Job title*"
                 style={{ borderBottom: "1px solid grey" }}
               />
             </div>
@@ -1818,14 +1818,14 @@ function FormOtp({
           )}
           {grad ? (
             <div className={popup ? styles.formWrappers : styles.formWrapper}>
-              <label>Graduation Year</label>
+              <label>Graduation year*</label>
               <input
-                type="text"
+                type="number"
                 name="GraduationYear"
-                placeholder="Enter 4 Digits"
+                placeholder="Enter year"
                 onChange={handleForm}
-                minLength="4"
-                maxLength="4"
+                minLength={4}
+                maxLength={4}
                 required={true}
                 className={popup ? styles.NameInputs : styles.NameInput}
               />
@@ -1836,12 +1836,12 @@ function FormOtp({
 
           {grad ? (
             <div className={popup ? styles.formWrappers : styles.formWrapper}>
-              <label>Rate your programming skills</label>
+              <label>Rate your programming skills*</label>
               <input
-                type="text"
+                type="number"
                 name="ProgrammingSkills"
                 onChange={handleForm}
-                placeholder="Rate Between 1 to 10"
+                placeholder="Rate between 1 to 10"
                 required={true}
                 maxLength="2"
                 className={popup ? styles.NameInputs : styles.NameInput}
