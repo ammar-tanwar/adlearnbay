@@ -25,7 +25,7 @@ function LearnSupport() {
           </a>
           <a href="tel:+919986049187" target="_blank">
             <button className={styles.btn2}>
-              +91 9986049187
+              +91 99860 49187
               <FaPhone className={styles.bIcon} />
             </button>
           </a>

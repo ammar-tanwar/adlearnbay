@@ -16,6 +16,9 @@ const Navbar = ({
   brochureButton,
   DownloadSyllabus,
   s2dataScience,
+  grad,
+  jobDescription,
+  workExperience,
 }) => {
   const router = useRouter();
   const [icon, setIcon] = useState(false);
@@ -66,7 +69,7 @@ const Navbar = ({
           {brochureButton ? (
             <>
             {formotp ? (
-              <FormOtp popup={true} downloadBrochure s2dataScience={s2dataScience}/>
+              <FormOtp popup={true} downloadBrochure s2dataScience={s2dataScience} grad={grad} jobDescription={jobDescription} workExperience={workExperience}/>
             ) : (
               <Form setTrigger={setPopups} downloadBrochure/>
             )}

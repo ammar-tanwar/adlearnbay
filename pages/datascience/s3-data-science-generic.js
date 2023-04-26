@@ -1,18 +1,17 @@
 import Head from "next/head";
 import React, { useState } from "react";
-import Popup from "../Components/Popup/Popup";
-import Form from "../Components/Form/Form";
-import Navbar from "../Components/CoursePage/Navbar/Navbar";
-
-import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
-import HeroSection from "../Components/LightTheme/FirstSection/HeroSection";
-import Testimonial from "../Components/LightTheme/SixthSection/Testimonial";
-import SecondSection from "../Components/LightTheme/SecondSection/SecondSection";
-import ThirdSection from "../Components/LightTheme/ThirdSection/ThirdSection";
-import FourthSection from "../Components/LightTheme/FourthSection/FourthSection";
-import SeventhSection from "../Components/LightTheme/SeventhSection/SeventhSection";
-import EightSection from "../Components/LightTheme/EightSection/EightSection";
-import SyllabusSection from "../Components/LightTheme/SyllabusSection/SyllabusSection";
+import Popup from "../../Components/Popup/Popup";
+import Form from "../../Components/Form/Form";
+import Navbar from "../../Components/CoursePage/Navbar/Navbar";
+import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
+import HeroSection from "../../Components/LightTheme/FirstSection/HeroSection";
+import Testimonial from "../../Components/LightTheme/SixthSection/Testimonial";
+import SecondSection from "../../Components/LightTheme/SecondSection/SecondSection";
+import ThirdSection from "../../Components/LightTheme/ThirdSection/ThirdSection";
+import FourthSection from "../../Components/LightTheme/FourthSection/FourthSection";
+import SeventhSection from "../../Components/LightTheme/SeventhSection/SeventhSection";
+import EightSection from "../../Components/LightTheme/EightSection/EightSection";
+import SyllabusSection from "../../Components/LightTheme/SyllabusSection/SyllabusSection";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -80,7 +79,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} brochureButton={true} formotp={true} grad={true}  />
+        <Navbar popup={true} brochureButton={true} formotp={true} grad={true} jobDescription={true} workExperience={true}/>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -92,8 +91,8 @@ export default function Home() {
         </Popup>
         <HeroSection
           formotp={true}
-           
           grad={true}
+          jobDescription={true} workExperience={true}
           deskTopPara="Choose Specialization over Generalization"
           h1="Data Science Course with"
           hSpan="Domain Specialization for Professionals"
@@ -111,7 +110,7 @@ export default function Home() {
           p4="1:1 Support"
           p44="Dedicated Program"
         />
-        <ThirdSection formotp={true} grad={true}  />
+        <ThirdSection formotp={true} grad={true} jobDescription={true} workExperience={true} />
         <FourthSection
           h1="Program Highlights"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
@@ -121,7 +120,7 @@ export default function Home() {
         />
         <SyllabusSection
           formotp={true}
-           
+          jobDescription={true} workExperience={true}
           grad={true}
           desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our data science course feature practical training with real-time projects and case studies."
           Hours="250+ Hours"
@@ -133,9 +132,9 @@ export default function Home() {
           Module4="Artificial Intelligence Tools"
         />
         <SliderTab />
-        <Testimonial formotp={true} grad={true}   />
+        <Testimonial formotp={true} grad={true} jobDescription={true} workExperience={true}  />
         <SeventhSection />
-        <EightSection formotp={true} grad={true}  />
+        <EightSection formotp={true} grad={true} jobDescription={true} workExperience={true} />
       </main>
     </div>
   );
