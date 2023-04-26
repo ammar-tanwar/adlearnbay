@@ -5,7 +5,9 @@ import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
 
-function ThirdSection({ DownloadSyllabus, fullStackCont, formotp, s2dataScience }) {
+function ThirdSection({ DownloadSyllabus, fullStackCont, formotp, s2dataScience, grad,
+  jobDescription,
+  workExperience, }) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -24,7 +26,7 @@ function ThirdSection({ DownloadSyllabus, fullStackCont, formotp, s2dataScience 
             <h5>Download Brochure</h5>
           )}
           {formotp ? (
-            <FormOtp popup={true} downloadBrochure s2dataScience={s2dataScience}/>
+            <FormOtp popup={true} downloadBrochure s2dataScience={s2dataScience} grad={grad} jobDescription={jobDescription} workExperience={workExperience}/>
           ) : (
             <Form setTrigger={setPopups} downloadBrochure />
           )}

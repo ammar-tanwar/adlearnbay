@@ -19,7 +19,9 @@ function FormOtp({
   jobTitle,
   scholarship,
   s2dataScience,
+  GraduationYear,
   grad,
+  ProgrammingSkills,
 }) {
   const router = useRouter();
   const [btnHide, setBtnHide] = useState(false);
@@ -42,6 +44,9 @@ function FormOtp({
     scholarship: "",
     url: router.asPath,
     phone: "",
+    jobTitle: "",
+    GraduationYear: "",
+    ProgrammingSkills: "",
   });
 
   useEffect(() => {
@@ -97,6 +102,12 @@ function FormOtp({
     // -==================== Google - S2 END POINT ==========================--------
   }
 
+  if (router.pathname === "/datascience/s3-data-science-generic") {
+    // -==================== Google - S2 END POINT ==========================--------
+    endPoint = "https://getform.io/f/a0a0fb5b-0cba-4b29-9d35-03c35d0e0d28";
+    // -==================== Google - S2 END POINT ==========================--------
+  }
+
   // -==================== Google - S2 END POINT ==========================--------
   if (
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s2" ||
@@ -130,9 +141,6 @@ function FormOtp({
     router.pathname === "/s2-artificial-intelligence-certification" ||
     router.pathname === "/s2-data-science" ||
     router.pathname === "/s2-data-science-generic" ||
-    router.pathname === "/s3-data-science-generic" ||
-
-
     router.pathname === "/s2-data-science-certification-generic" ||
     router.pathname === "/s2-data-science-program-generic" ||
     router.pathname === "/s2-ai-ml-course-generic" ||
@@ -448,6 +456,9 @@ function FormOtp({
             scholarship: "",
             url: "",
             phone: "",
+            jobTitle: "",
+            GraduationYear: "",
+            ProgrammingSkills: "",
           })
         );
 
@@ -644,7 +655,7 @@ function FormOtp({
           (router.pathname === "/s2-data-science" && downloadBrochure) ||
           (router.pathname === "/s2-data-science-generic" &&
             downloadBrochure) ||
-            (router.pathname === "/s3-data-science-generic" &&
+          (router.pathname === "/datascience/s3-data-science-generic" &&
             downloadBrochure) ||
           (router.pathname === "/s2-data-science-program-generic" &&
             downloadBrochure) ||
@@ -779,7 +790,7 @@ function FormOtp({
           router.pathname === "/s2-artificial-intelligence-certification" ||
           router.pathname === "/s2-data-science" ||
           router.pathname === "/s2-data-science-generic" ||
-          router.pathname === "/s3-data-science-generic" ||
+          router.pathname === "/datascience/s3-data-science-generic" ||
           router.pathname === "/s2-data-science-certification-generic" ||
           router.pathname === "/s2-data-science-program-generic" ||
           router.pathname === "/s2-ai-ml-course-generic" ||
@@ -960,11 +971,10 @@ function FormOtp({
         }
         if (s2dataScience) {
           router.push("/Thank-you");
-  
+
           return;
         }
       }
-      
     } else {
       setToggle(false);
       setAlertMSG("Please Enter Empty Fields");
@@ -1219,7 +1229,7 @@ function FormOtp({
             (router.pathname === "/s2-data-science" && downloadBrochure) ||
             (router.pathname === "/s2-data-science-generic" &&
               downloadBrochure) ||
-              (router.pathname === "/s3-data-science-generic" &&
+            (router.pathname === "/datascience/s3-data-science-generic" &&
               downloadBrochure) ||
             (router.pathname === "/s2-data-science-program-generic" &&
               downloadBrochure) ||
@@ -1315,7 +1325,7 @@ function FormOtp({
             router.pathname === "/s2-artificial-intelligence-certification" ||
             router.pathname === "/s2-data-science" ||
             router.pathname === "/s2-data-science-generic" ||
-            router.pathname === "/s3-data-science-generic" ||
+            router.pathname === "/datascience/s3-data-science-generic" ||
             router.pathname === "/s2-data-science-certification-generic" ||
             router.pathname === "/s2-data-science-program-generic" ||
             router.pathname === "/s2-ai-ml-course-generic" ||
@@ -1624,8 +1634,6 @@ function FormOtp({
                 value={form.jobDescription}
                 onChange={handleForm}
                 required={true}
-              
-                
               />
             </div>
           )}
@@ -1640,7 +1648,6 @@ function FormOtp({
                 type="text"
                 list="jobDescription"
                 name="jobDescription"
-           
                 value={form.jobDescription}
                 onChange={handleForm}
                 required={true}
@@ -1793,7 +1800,56 @@ function FormOtp({
             />
           </div>
 
+          {grad ? (
+            <div className={popup ? styles.formWrappers : styles.formWrapper}>
+              <input
+                className={popup ? styles.NameInputs : styles.NameInput}
+                type="text"
+                name="JobTitle"
+                onChange={handleForm}
+                value={form.JobTitle}
+                required={true}
+                placeholder="Job Title*"
+                style={{ borderBottom: "1px solid grey" }}
+              />
+            </div>
+          ) : (
+            ""
+          )}
+          {grad ? (
+            <div className={popup ? styles.formWrappers : styles.formWrapper}>
+              <label>Graduation Year</label>
+              <input
+                type="text"
+                name="GraduationYear"
+                placeholder="Enter 4 Digits"
+                onChange={handleForm}
+                minLength="4"
+                maxLength="4"
+                required={true}
+                className={popup ? styles.NameInputs : styles.NameInput}
+              />
+            </div>
+          ) : (
+            ""
+          )}
 
+          {grad ? (
+            <div className={popup ? styles.formWrappers : styles.formWrapper}>
+              <label>Rate your programming skills</label>
+              <input
+                type="text"
+                name="ProgrammingSkills"
+                onChange={handleForm}
+                placeholder="Rate Between 1 to 10"
+                required={true}
+                maxLength="2"
+                className={popup ? styles.NameInputs : styles.NameInput}
+              />
+            </div>
+          ) : (
+            ""
+          )}
 
           {btnHide ? (
             <div className={styles.formWrapper}>
@@ -1831,69 +1887,6 @@ function FormOtp({
           ) : (
             ""
           )}
-
-
-
-
-{grad ? (
-            <div className={popup ? styles.formWrappers : styles.formWrapper}>
-  
-            
-            <select id="Graduation Year" name="Graduation Year" onChange={handleForm} style={{ borderBottom: "1px solid grey" }}  >
-            <option value="Graduation Year">Graduation Year</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-           </select>
-            
-            </div>
-          ) : (
-            ""
-          )}
-
-{grad ? (
-            <div className={popup ? styles.formWrappers : styles.formWrapper}>
-  
-  <input
-              className={popup ? styles.NameInputs : styles.NameInput}
-              type="text"
-              name="name"
-              value={form.name}
-              onChange={handleForm}
-              required={true}
-              placeholder="Job Title*"
-              style={{ borderBottom: "1px solid grey" }}
-            />
-             
-            </div>
-          ) : (
-            ""
-          )}
-
-
-
-{grad ? (
-            <div className={popup ? styles.formWrappers : styles.formWrapper}>
-              
-              <input 
-                 type="number"
-                 id="Rate your programming skills"
-                 name="Rate your programming skills"
-                 placeholder="Rate your programming skills"
-                 required={true}
-                 min="01" max="10"
-                 className={popup ? styles.NameInputs : styles.NameInput}
-                 />
-           
-            </div>
-          ) : (
-            ""
-          )}
-
-
-
-
 
           {radio ? (
             <div className={popup ? styles.formWrappers : styles.formWrapper}>

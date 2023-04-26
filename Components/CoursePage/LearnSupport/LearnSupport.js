@@ -99,7 +99,7 @@ function LearnSupport({ headForCity, cityName, organicNum, fullStackCont }) {
 
                   <a href="tel: +919986049187">
                     <button className={styles.btn2}>
-                      <MdCall /> +91 9986049187
+                      <MdCall /> +91 99860 49187
                     </button>
                   </a>
                 </div>

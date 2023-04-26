@@ -11,7 +11,9 @@ import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
 
-function Testimonial({formotp, s2dataScience}) {
+function Testimonial({formotp, s2dataScience, grad,
+  jobDescription,
+  workExperience,}) {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
     let width = window.innerWidth;
@@ -39,7 +41,7 @@ function Testimonial({formotp, s2dataScience}) {
           <div className="RightPopup">
             <h5>Download Brochure</h5>
             {formotp ? (
-                    <FormOtp popup={true} s2dataScience={s2dataScience}/>
+                    <FormOtp popup={true} s2dataScience={s2dataScience} grad={grad} jobDescription={jobDescription} workExperience={workExperience}/>
                   ) : (
             <Form popup={true} downloadBrochure setTrigger={setPopups} />
                   )}
