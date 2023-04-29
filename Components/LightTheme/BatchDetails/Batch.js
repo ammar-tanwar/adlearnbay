@@ -51,7 +51,7 @@ function Batch({ CourseFeeHead, WebDev, DataScience }) {
                   <div>
                     <p className={styles.list}>
                       <MdDateRange className={styles.iconOrange} />
-                      31st March 2023
+                      12th May 2023
                     </p>
                     <p className={styles.list}>
                       <BiTimeFive className={styles.iconBlue} />8 PM to 10 PM
@@ -68,7 +68,7 @@ function Batch({ CourseFeeHead, WebDev, DataScience }) {
                   <div>
                     <p className={styles.list}>
                       <MdDateRange className={styles.iconOrange} />
-                      16th April 2023
+                      30th April 2023
                     </p>
                     <p className={styles.list}>
                       <BiTimeFive className={styles.iconBlue} />8 AM to 11 AM
@@ -77,17 +77,15 @@ function Batch({ CourseFeeHead, WebDev, DataScience }) {
                 </div>
                 <div className={styles.NewBlue}>
                   <div>
-                    <p className={styles.listDay}>
-                      Weekday Evening (Mon-Wed-Fri)
-                    </p>
+                    <p className={styles.listDay}>Weekday Morning (Mon-Fri)</p>
                   </div>
                   <div>
                     <p className={styles.list}>
                       <MdDateRange className={styles.iconOrange} />
-                      21st April 2023
+                      1st May 2023
                     </p>
                     <p className={styles.list}>
-                      <BiTimeFive className={styles.iconBlue} />8 PM to 10 PM
+                      <BiTimeFive className={styles.iconBlue} />7 AM to 9 AM
                     </p>
                   </div>
                 </div>
@@ -141,17 +139,17 @@ function Batch({ CourseFeeHead, WebDev, DataScience }) {
               <div className={styles.NewBatch}>
                 <div className={styles.NewBlue}>
                   <div>
-                    <p className={styles.listDay}>Weekday Morning (Mon-Fri)</p>
+                    <p className={styles.listDay}>Weekday Evening (Mon-Fri)</p>
                   </div>
                   <div>
                     <p className={styles.list}>
                       <MdDateRange className={styles.iconOrange} />
-                      31st March 2023
+                      12th May 2023
                     </p>
                   </div>
                   <div>
                     <p className={styles.list}>
-                      <BiTimeFive className={styles.iconBlue} />7 AM to 9 AM
+                      <BiTimeFive className={styles.iconBlue} />8 PM to 10 PM
                     </p>
                   </div>
                 </div>
@@ -165,7 +163,7 @@ function Batch({ CourseFeeHead, WebDev, DataScience }) {
                   <div>
                     <p className={styles.list}>
                       <MdDateRange className={styles.iconOrange} />
-                      16th April 2023
+                      30th April 2023
                     </p>
                   </div>
                   <div>
@@ -176,19 +174,17 @@ function Batch({ CourseFeeHead, WebDev, DataScience }) {
                 </div>
                 <div className={styles.NewBlue}>
                   <div>
-                    <p className={styles.listDay}>
-                      Weekday Evening (Mon-Wed-Fri)
-                    </p>
+                    <p className={styles.listDay}>Weekday Morning (Mon-Fri)</p>
                   </div>
                   <div>
                     <p className={styles.list}>
                       <MdDateRange className={styles.iconOrange} />
-                      21st April 2023
+                      1st May 2023
                     </p>
                   </div>
                   <div>
                     <p className={styles.list}>
-                      <BiTimeFive className={styles.iconBlue} />8 PM to 10 PM
+                      <BiTimeFive className={styles.iconBlue} />7 AM to 9 AM
                     </p>
                   </div>
                 </div>

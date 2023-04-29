@@ -189,7 +189,7 @@ function Batch({
                     <MdDateRange className={styles.icon} />
                     <b>Date</b>
                   </p>
-                  <p className={styles.list}>31st March 2023</p>
+                  <p className={styles.list}>12th May 2023</p>
                 </div>
               </div>
               <div>
@@ -207,43 +207,41 @@ function Batch({
             </div>
           ) : (
             <div className={styles.batch}>
-                                <div className={styles.BatchDetailsTop}>
-                    <div>
-                      <div className={styles.BatchDetails}>
-                        <p className={styles.list}>
-                          <AiOutlineBars className={styles.icon} />
-                          <b>Batch Type</b>
-                        </p>
-                        <p className={styles.list}>Weekend Morning (Sat-Sun)</p>
-                        <p className={styles.list}>
-                          Weekday Evening (Mon-Wed-Fri)
-                        </p>
-                      </div>
-                    </div>
-                    <div>
-                      <div className={styles.BatchDetails}>
-                        <p className={styles.list}>
-                          <MdDateRange className={styles.icon} />
-                          <b>Date</b>
-                        </p>
-                        <p className={styles.list}>16th April 2023</p>
-                        <p className={styles.list}>21st April 2023</p>
-                      </div>
-                    </div>
-                    <div>
-                      <div className={styles.BatchDetails}>
-                        <p className={styles.list}>
-                          <BiTimeFive className={styles.icon} />
-                          <b>Time</b>
-                        </p>
-                        <p className={styles.list}>8 AM to 11 AM</p>
-                        <p className={styles.list}>8 PM to 10 PM</p>
-                      </div>
-                    </div>
-                    <div className={styles.btnWrapper}>
-                      <button onClick={popupShow}>Enroll Now</button>
-                    </div>
+              <div className={styles.BatchDetailsTop}>
+                <div>
+                  <div className={styles.BatchDetails}>
+                    <p className={styles.list}>
+                      <AiOutlineBars className={styles.icon} />
+                      <b>Batch Type</b>
+                    </p>
+                    <p className={styles.list}>Weekend Morning (Sat-Sun)</p>
+                    <p className={styles.list}>Weekday Morning (Mon-Fri)</p>
                   </div>
+                </div>
+                <div>
+                  <div className={styles.BatchDetails}>
+                    <p className={styles.list}>
+                      <MdDateRange className={styles.icon} />
+                      <b>Date</b>
+                    </p>
+                    <p className={styles.list}>30th April 2023</p>
+                    <p className={styles.list}>1st May 2023</p>
+                  </div>
+                </div>
+                <div>
+                  <div className={styles.BatchDetails}>
+                    <p className={styles.list}>
+                      <BiTimeFive className={styles.icon} />
+                      <b>Time</b>
+                    </p>
+                    <p className={styles.list}>8 AM to 11 AM</p>
+                    <p className={styles.list}>7 AM to 9 AM</p>
+                  </div>
+                </div>
+                <div className={styles.btnWrapper}>
+                  <button onClick={popupShow}>Enroll Now</button>
+                </div>
+              </div>
             </div>
           )}
         </div>
