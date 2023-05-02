@@ -47,7 +47,7 @@ export default function Home() {
         />
 
         {/* <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=6114e65e-682f-4ef5-b0b4-3ac712e2ec39"> </script>  */}
-        <script
+        {/* <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
             var s = document.createElement('script');
@@ -85,7 +85,8 @@ export default function Home() {
             var x = document.getElementsByTagName('script')[0];
             x.parentNode.insertBefore(s, x);`,
           }}
-        />
+        /> */}
+        <script src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js" async></script>
       </Head>
       <main>
         {" "}
