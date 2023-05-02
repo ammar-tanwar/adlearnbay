@@ -45,8 +45,6 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-
-        {/* <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=6114e65e-682f-4ef5-b0b4-3ac712e2ec39"> </script>  */}
         {/* <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
@@ -86,23 +84,7 @@ export default function Home() {
             x.parentNode.insertBefore(s, x);`,
           }}
         /> */}
-        {/* <script src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js" async></script> */}
-<script
-          dangerouslySetInnerHTML={{
-            __html: `
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/6229dde31ffac05b1d7de6c4/1ftpolgri';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-`,
-          }}
-          />
-
+        <script src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js" async></script>
       </Head>
       <main>
         {" "}
