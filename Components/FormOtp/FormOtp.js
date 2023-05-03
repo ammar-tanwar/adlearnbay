@@ -102,11 +102,11 @@ function FormOtp({
     // -==================== Google - S2 END POINT ==========================--------
   }
 
-  if (router.pathname === "/datascience/s3-data-science-generic") {
+  // if (router.pathname === "/datascience/s3-data-science-generic") {
     // -==================== Google - S2 END POINT ==========================--------
-    endPoint = "https://getform.io/f/a0a0fb5b-0cba-4b29-9d35-03c35d0e0d28";
+    // endPoint = "https://getform.io/f/a0a0fb5b-0cba-4b29-9d35-03c35d0e0d28";
     // -==================== Google - S2 END POINT ==========================--------
-  }
+  // }
 
   // -==================== Google - S2 END POINT ==========================--------
   if (

@@ -79,7 +79,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} brochureButton={true} formotp={true} grad={true} jobDescription={true} workExperience={true}/>
+        <Navbar popup={true} brochureButton={true} formotp={true} grad={true} jobDescription={true} workExperience={true} s2dataScience={true}/>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -93,6 +93,7 @@ export default function Home() {
           formotp={true}
           grad={true}
           jobDescription={true} workExperience={true}
+          s2dataScience={true}
           deskTopPara="Choose Specialization over Generalization"
           h1="Data Science Course with"
           hSpan="Domain Specialization for Professionals"
@@ -110,7 +111,7 @@ export default function Home() {
           p4="1:1 Support"
           p44="Dedicated Program"
         />
-        <ThirdSection formotp={true} grad={true} jobDescription={true} workExperience={true} />
+        <ThirdSection formotp={true} grad={true} jobDescription={true} workExperience={true} s2dataScience={true}/>
         <FourthSection
           h1="Program Highlights"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
@@ -122,6 +123,7 @@ export default function Home() {
           formotp={true}
           jobDescription={true} workExperience={true}
           grad={true}
+          s2dataScience={true}
           desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our data science course feature practical training with real-time projects and case studies."
           Hours="250+ Hours"
           Projects="12+ projects"
@@ -132,9 +134,9 @@ export default function Home() {
           Module4="Artificial Intelligence Tools"
         />
         <SliderTab />
-        <Testimonial formotp={true} grad={true} jobDescription={true} workExperience={true}  />
+        <Testimonial formotp={true} grad={true} jobDescription={true} s2dataScience={true} workExperience={true}  />
         <SeventhSection />
-        <EightSection formotp={true} grad={true} jobDescription={true} workExperience={true} />
+        <EightSection formotp={true} grad={true} jobDescription={true} workExperience={true} s2dataScience={true}/>
       </main>
     </div>
   );
