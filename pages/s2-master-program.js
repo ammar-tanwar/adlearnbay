@@ -148,7 +148,7 @@ export default function Home() {
           CourseFeeHead="Data Science and AI Master Program : Batch Details"
         />
         <Testimonial formotp={true} />
-        <SeventhSection />
+        <SeventhSection WBbtn={true} />
         <EightSection formotp={true} />
       </main>
     </div>

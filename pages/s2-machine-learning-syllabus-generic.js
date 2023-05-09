@@ -140,7 +140,7 @@ of course subscription and Lifetime access to recoded classes"
         />
         <SliderTab />
         <Testimonial formotp={true} />
-        <SeventhSection />
+        <SeventhSection WBbtn={true} />
         <EightSection DownloadSyllabus={true} formotp={true} />
       </main>
     </div>

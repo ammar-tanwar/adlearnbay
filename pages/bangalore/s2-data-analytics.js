@@ -132,7 +132,7 @@ course subscription and 24/7 support"
         />
         <SliderTab />
         <Testimonial formotp={true} />
-        <SeventhSection />
+        <SeventhSection WBbtn={true} />
         <EightSection formotp={true} />
       </main>
     </div>

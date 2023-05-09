@@ -142,7 +142,7 @@ export default function Home() {
         />
         <SliderTab />
         <Testimonial formotp={true} s2dataScience={true} />
-        <SeventhSection />
+        <SeventhSection WBbtn={true} />
         <EightSection formotp={true} s2dataScience={true} />
       </main>
     </div>
