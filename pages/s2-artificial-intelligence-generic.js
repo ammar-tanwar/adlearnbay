@@ -134,7 +134,7 @@ get 100% placement assistance "
         />
         <SliderTab />
         <Testimonial formotp={true} />
-        <SeventhSection WBbtn={true} />
+        <SeventhSection />
         <EightSection formotp={true} />
       </main>
     </div>

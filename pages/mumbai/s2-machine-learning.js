@@ -133,7 +133,7 @@ of course subscription and Lifetime access to recoded classes"
         />
         <SliderTab />
         <Testimonial formotp={true} />
-        <SeventhSection WBbtn={true} />
+        <SeventhSection />
         <EightSection formotp={true} />
       </main>
     </div>

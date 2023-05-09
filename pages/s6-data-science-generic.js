@@ -133,7 +133,7 @@ export default function Home() {
         />
         <SliderTab />
         <Testimonial />
-        <SeventhSection WBbtn={true} />
+        <SeventhSection />
         <EightSection />
       </main>
     </div>
