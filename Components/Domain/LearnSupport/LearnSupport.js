@@ -3,12 +3,7 @@ import { MdCall } from "react-icons/md";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import styles from "./LearnSupport.module.css";
 import Image from "next/image";
-function LearnSupport({
-  fullStackContent,
-  cityName,
-  organicNum,
-  organicNumber,
-}) {
+function LearnSupport({ fullStackContent, WBbtn, organicNum, organicNumber }) {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
     let width = window.innerWidth;
@@ -52,14 +47,18 @@ function LearnSupport({
               </div>
             ) : (
               <div className={styles.btnWrap}>
-                <a
-                  href="https://api.whatsapp.com/send?phone=919986049187&text=Hello,"
-                  target="_blank"
-                >
-                  <button className={styles.btn1}>
-                    <AiOutlineWhatsApp /> Enquire Now
-                  </button>
-                </a>
+                {WBbtn ? (
+                  <a
+                    href="https://api.whatsapp.com/send?phone=919986049187&text=Hello,"
+                    target="_blank"
+                  >
+                    <button className={styles.btn1}>
+                      <AiOutlineWhatsApp /> Enquire Now
+                    </button>
+                  </a>
+                ) : (
+                  ""
+                )}
 
                 <a href="tel: +919986049187">
                   <button className={styles.btn2}>

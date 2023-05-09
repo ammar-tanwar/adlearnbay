@@ -88,14 +88,14 @@ function LearnSupport({ headForCity, cityName, organicNum, fullStackCont }) {
                 </div>
               ) : (
                 <div className={styles.btnWrap}>
-                  <a
+                  {/* <a
                     href="https://api.whatsapp.com/send?phone=919986049187&text=Hello,"
                     target="_blank"
                   >
                     <button className={styles.btn1}>
                       <AiOutlineWhatsApp /> Enquire Now
                     </button>
-                  </a>
+                  </a> */}
 
                   <a href="tel: +919986049187">
                     <button className={styles.btn2}>

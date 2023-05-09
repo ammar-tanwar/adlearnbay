@@ -51,7 +51,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        <script
+        {/* <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
             var s = document.createElement('script');
@@ -65,9 +65,10 @@ export default function Home() {
               "ctaText":"",
               "borderRadius":"10",
               "marginLeft":"0",
-              "marginBottom":"30",
-              "marginRight":"30",
-              "position":"right"
+              "marginBottom":"20",
+              "marginRight":"20",
+              "position":"right",
+              "zIndex":"22222222 !important",
           },
           "brandSetting":{
               "brandName":"Learnbay",
@@ -88,7 +89,11 @@ export default function Home() {
             var x = document.getElementsByTagName('script')[0];
             x.parentNode.insertBefore(s, x);`,
           }}
-        />
+        /> */}
+        <script
+          src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
+          async
+        ></script>
       </Head>
       <main>
         {" "}
@@ -153,7 +158,7 @@ export default function Home() {
           CourseFeeHead="Data Science and AI Program For Managers and Leaders : Batch Details"
         />
         <Testimonial formotp={true} />
-        <SeventhSection />
+        <SeventhSection WBbtn={true} />
         <EightSection formotp={true} />
       </main>
     </div>
