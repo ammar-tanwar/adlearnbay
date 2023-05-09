@@ -38,7 +38,7 @@ course subscription and 24/7 support"
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        <script
+        {/* <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
             var s = document.createElement('script');
@@ -52,9 +52,10 @@ course subscription and 24/7 support"
               "ctaText":"",
               "borderRadius":"10",
               "marginLeft":"0",
-              "marginBottom":"30",
-              "marginRight":"30",
-              "position":"right"
+              "marginBottom":"20",
+              "marginRight":"20",
+              "position":"right",
+              "zIndex":"22222222 !important",
           },
           "brandSetting":{
               "brandName":"Learnbay",
@@ -75,7 +76,11 @@ course subscription and 24/7 support"
             var x = document.getElementsByTagName('script')[0];
             x.parentNode.insertBefore(s, x);`,
           }}
-        />
+        /> */}
+        <script
+          src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
+          async
+        ></script>
       </Head>
       <main>
         {" "}
@@ -133,7 +138,7 @@ course subscription and 24/7 support"
         />
         <SliderTab />
         <Testimonial formotp={true} />
-        <SeventhSection />
+        <SeventhSection WBbtn={true} />
         <EightSection DownloadSyllabus={true} formotp={true} />
       </main>
     </div>

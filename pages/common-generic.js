@@ -110,7 +110,7 @@ export default function Home() {
         <ProgramHighlights formCommon={true} />
         <SliderTab />
         <Testimonial />
-        <SeventhSection />
+        <SeventhSection WBbtn={true} />
         <EightSection />
       </main>
     </div>

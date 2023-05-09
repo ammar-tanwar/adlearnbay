@@ -42,7 +42,7 @@ get 100% placement assistance "
           name="Keywords"
           content="artificial intelligence course institute, artificial intelligence course fee, artificial intelligence certification, artificial intelligence training, advance artificial intelligence course, artificial intelligence course duration, artificial intelligence online course, artificial intelligence course, artificial intelligence course for working professional"
         />
-        <script
+        {/* <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
             var s = document.createElement('script');
@@ -56,9 +56,10 @@ get 100% placement assistance "
               "ctaText":"",
               "borderRadius":"10",
               "marginLeft":"0",
-              "marginBottom":"30",
-              "marginRight":"30",
-              "position":"right"
+              "marginBottom":"20",
+              "marginRight":"20",
+              "position":"right",
+              "zIndex":"22222222 !important",
           },
           "brandSetting":{
               "brandName":"Learnbay",
@@ -79,7 +80,11 @@ get 100% placement assistance "
             var x = document.getElementsByTagName('script')[0];
             x.parentNode.insertBefore(s, x);`,
           }}
-        />
+        /> */}
+        <script
+          src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
+          async
+        ></script>
       </Head>
       <main>
         {" "}

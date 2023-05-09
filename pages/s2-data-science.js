@@ -219,7 +219,7 @@ export default function Home() {
           CourseFeelist4={DataScienceCourseData[0].BatchCourses.CourseFeelist4}
           CourseFeelist5={DataScienceCourseData[0].BatchCourses.CourseFeelist5}
         />
-        <LearnSupport />
+        <LearnSupport WBbtn={true} />
         <Footer />
       </main>
     </div>

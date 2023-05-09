@@ -217,7 +217,7 @@ export default function Home() {
           CourseFeelist4="Multiple Domain & Project Experties Selection Options"
           CourseFeelist5="Company-based Mock Interviews"
         />
-        <LearnSupport />
+        <LearnSupport WBbtn={true} />
         <Footer />
       </main>
     </div>

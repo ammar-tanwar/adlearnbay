@@ -208,7 +208,7 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData9}
           SupportFaqDatas={SupportFaqData9}
         />
-        <LearnSupport />
+        <LearnSupport WBbtn={true}/>
         <Footer fullStackContt={true} />
       </main>
     </div>
