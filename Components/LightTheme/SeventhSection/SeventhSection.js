@@ -45,7 +45,7 @@ function SeventhSection({ fullStackCont, WBbtn }) {
                   </a>
                 ) : (
                   ""
-                )}
+                )} 
 
                 <a href="tel: +919986049187">
                   <button className={styles.btn2}>
