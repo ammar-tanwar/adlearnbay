@@ -162,7 +162,7 @@ export default function Home() {
           s2dataScience={true}
           workExperience={true}
         />
-        <SeventhSection WBbtn={true} />
+        <SeventhSection />
         <EightSection
           formotp={true}
           grad={true}
