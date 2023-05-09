@@ -133,7 +133,7 @@ export default function Home() {
         />
         <SliderTab />
         <Testimonial formotp={true} />
-        <SeventhSection WBbtn={true} />
+        <SeventhSection />
         <EightSection formotp={true} />
       </main>
     </div>
