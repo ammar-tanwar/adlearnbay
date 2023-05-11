@@ -268,12 +268,12 @@ export const BFSIData = [
     Batch: [
       {
         Module0: {
-          title: "Weekend Afternoon Batch :- (Sat-Sun)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 7th May 2023", "Time : 12:30 PM to 4 PM"],
+                desc: ["Date : 12th May 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -283,12 +283,12 @@ export const BFSIData = [
       },
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 12th May 2023", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 16th May 2023", "Time : 8 AM to 10 AM"],
               },
             },
           ],
@@ -550,12 +550,12 @@ export const HRData = [
     Batch: [
       {
         Module0: {
-          title: "Weekend Afternoon Batch :- (Sat-Sun)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 7th May 2023", "Time : 12:30 PM to 4 PM"],
+                desc: ["Date : 12th May 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -565,12 +565,12 @@ export const HRData = [
       },
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 12th May 2023", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 16th May 2023", "Time : 8 AM to 10 AM"],
               },
             },
           ],
@@ -841,12 +841,12 @@ export const MarketingData = [
     Batch: [
       {
         Module0: {
-          title: "Weekend Afternoon Batch :- (Sat-Sun)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 7th May 2023", "Time : 12:30 PM to 4 PM"],
+                desc: ["Date : 12th May 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -856,12 +856,12 @@ export const MarketingData = [
       },
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 12th May 2023", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 16th May 2023", "Time : 8 AM to 10 AM"],
               },
             },
           ],
@@ -1096,12 +1096,12 @@ export const SalesData = [
     Batch: [
       {
         Module0: {
-          title: "Weekend Afternoon Batch :- (Sat-Sun)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 7th May 2023", "Time : 12:30 PM to 4 PM"],
+                desc: ["Date : 12th May 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -1111,12 +1111,12 @@ export const SalesData = [
       },
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 12th May 2023", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 16th May 2023", "Time : 8 AM to 10 AM"],
               },
             },
           ],
@@ -1458,12 +1458,12 @@ export const SoftwareData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Evening Batch  :- (Mon-Tue-Thu-Fri)",
+          title: "Weekday Evening Batch  :- (Mon-Wed-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 5th May 2023", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 12th May 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -1478,7 +1478,7 @@ export const SoftwareData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 7th May 2023", "Time : 8:30 AM to 12 PM"],
+                desc: ["Date : 14th May 2023", "Time : 8:30 AM to 12 PM"],
               },
             },
           ],
