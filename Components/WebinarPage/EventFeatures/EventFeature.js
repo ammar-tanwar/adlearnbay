@@ -127,7 +127,7 @@ const EventFeature = ({ data, eventDateInfo, eventDataD, domainDataD, reviewsDat
               <p className={styles.trainerHead}>{data.speakerName}</p>
               <p>{data.speakerDesignation}</p>
               <p>
-                Company :{" "}
+                Experience :{" "}
                 <span className={styles.spanT}>{data.speakerComp}</span>
               </p>
             </div>

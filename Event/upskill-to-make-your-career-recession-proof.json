@@ -1,0 +1,74 @@
+{
+  "metaInfo": {
+    "title": "Upskill to make your career Recession-Proof",
+    "desc": "Enroll in the System Design Event and learn from live classes. Get Knowledge by working on industry projects.",
+    "keyword": "System Design",
+    "canonical": "https://course.learnbay.co/Event/upskill-to-make-your-career-recession-roof"
+  },
+  "mainData": {
+    "title": "Upskill to make your career Recession-Proof",
+    "eventDate": "May 20, 2023",
+    "tag": "System Design",
+    "eventTime": "5 p.m. to 6 p.m.",
+    "Duration": "60min",
+    "img": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Intro+to+Full+Stack+Web+Development.png",
+    "register": "764",
+    "likes":"689"
+  },
+  "headImg": {
+    "deskimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/upskill-website.jpg",
+    "mobimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/upskill-mobile.jpg"
+  },
+  "eventFeatureData": {
+    "heading1": "About this Masterclass",
+    "aboutThisMasterclass": [
+      "In the face of recession and squeezed economies, people are pondering on the skills necessary for the future.",
+      "Do you know how can one stay competitive and resilient during a recession? A highly effective approach to achieving this in the tech industry is to focus on upskilling oneself. Upskilling is important for everyone, regardless of their career stage. It makes you more marketable, recession-proof and helps strengthen existing skills or gain new ones.",
+      "In our Learnbay’s Masterclass, you can acquire skills for the future by learning how to strategically expand your network, blaze new trails, motivate yourself, and upskill."
+    ],
+
+    "heading2": "Topics covered in this Masterclass",
+    "topicsCoveredMasterclass": [
+      "How to stay competitive and resilient in the Recession?",
+      "How to improve your skills during a recession?",
+      "Get interactive Q&A Sessions."
+    ],
+
+    "speakerName": "Vikas",
+    "speakerDesignation": "Designation : Software Development Engineer",
+    "speakerComp": "10+ yrs (Top Product-Based Companies)",
+    "img4": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/userWebinar.png",
+
+    "h1": "100% Live Classes",
+    "h2": "Customized Learning",
+    "h3": "IBM Certified Projects",
+    "h4": "3-year Subscription",
+
+    "heading3": "This Masterclass is for",
+
+    "topicsMasterclass": [
+      "SDEs looking to upskill",
+      "SDEs wishing to convert to Product Companies from Service Companies",
+      "SDEs wanting to learn System Design"
+    ],
+
+    "heading4": "What our Learners have to say",
+
+    "heading5": "About Learnbay Academy",
+    "aboutLearnbay": [
+      "Welcome to Learnbay!",
+      "We are a leading provider of specialized courses in Data Structures and System Design in our Full Stack Software Development Program. We are dedicated to helping working professionals advance their careers and gain the technical expertise needed to succeed in the fast-paced world of technology."
+    ],
+    "aboutLearnbayHeading": "Some of our standout features include: ",
+    "standoutFeatures": [
+      "Curriculum that is developed, supervised and approved by industry experts",
+      "1:1 mentorship from top experts in the field",
+      "Opportunities to gain technical expertise through real-world projects",
+      "Over 120 hiring partners and dedicated placement support",
+      "100% guarantee interview calls"
+    ],
+    "standoutFeaturesLastHead": [
+      "Sign up for a free demo class and enroll in the domain of your choice."
+    ]
+  }
+}
