@@ -26,13 +26,12 @@ export default function Home() {
         <title>Online Data Science Certification Course</title>
         <meta
           name="description"
-          content="Want to earn salary hike of 250% ? Our Data Science certification course 
- will boost salary. Apply Now!"
+          content="Successfully transition careers through our certification course & real-time capstone projects. All while making your previous work experience count! Apply Now!"
         />
 
         <meta
           name="Keywords"
-          content="data science certification course, data science certification course for working professional, data science certification course fee, data science certification course duration, data science certification course syllabus, data science online institute"
+          content="data science certification course, data science certification course for working professional, data science certification course fee, data science certification course duration, data science certification course syllabus, data science online institute, online certified data science course, data science certificate course"
         />
 
         <link
@@ -98,9 +97,9 @@ export default function Home() {
         <HeroSection
           formotp={true}
           deskTopPara="Choose Specialization over Generalization"
-          h1="Data Science Certification Course with"
-          hSpan="Domain Specialization for Professionals"
-          para="Successfully transition careers through our institute & real-time capstone projects. 
+          h1="Data Science Certification Course"
+          hSpan=" for Professionals"
+          para="Successfully transition careers through our certification course & real-time capstone projects. 
           All while making your previous work experience count!"
           sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/data+science+and+ai.jpg"
         />
@@ -124,7 +123,7 @@ export default function Home() {
         />
         <SyllabusSection
           formotp={true}
-          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our data science certification course feature practical training with real-time projects and case studies."
+          desc="Learnbay offers live, interactive online certification course with professionals from top MNCs. Our data science certification course feature practical training with real-time projects and case studies."
           Hours="250+ Hours"
           Projects="12+ projects"
           Module0="Preparatory Classes (Programming + Maths)"
