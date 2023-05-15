@@ -185,7 +185,7 @@ export default function Home({ formotp }) {
           MentorshipFaqDatas={MentorshipFaqData9}
           SupportFaqDatas={SupportFaqData9}
         />
-        <SeventhSection fullStackCont={true} WBbtn={true} />
+        <SeventhSection fullStackCont={true} />
         <EightSection formotp={true} />
       </main>
     </div>

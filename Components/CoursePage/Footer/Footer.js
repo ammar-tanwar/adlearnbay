@@ -37,7 +37,10 @@ const Footer = ({ numEmailHide, fullStackCont, fullStackContt }) => {
                   height="60px"
                 />
                 <p className={styles.FooterInnerli}>
-                Enrol Now For Data Science Courses, System Designing Or Full Stack Development Courses. Master The Most Demanding Skills Of Job Market And Experience And Ever Growing And Lucrative Career Transformation.
+                  Enrol Now For Data Science Courses, System Designing Or Full
+                  Stack Development Courses. Master The Most Demanding Skills Of
+                  Job Market And Experience And Ever Growing And Lucrative
+                  Career Transformation.
                 </p>
                 <div className={styles.FooterSocial}>
                   <FaTwitter className="bIcons" />
@@ -70,10 +73,10 @@ const Footer = ({ numEmailHide, fullStackCont, fullStackContt }) => {
                           <IoMailSharp className="bIcons" />
                           contacts@learnbay.co
                         </span>
-                        <Link href="tel:+919606950936">
+                        <Link href="tel:+919986049187">
                           <span style={{ display: "flex", marginTop: "10px" }}>
                             <BsFillTelephoneFill className="bIcons" />
-                            (+91) 96069 50936
+                            (+91) 99860 49187
                           </span>
                         </Link>
                       </>
@@ -84,13 +87,13 @@ const Footer = ({ numEmailHide, fullStackCont, fullStackContt }) => {
               <div className={styles.FooterDivInner}>
                 <p className={styles.FooterInnerP}>Courses</p>
                 <p className={styles.FooterInnerli}>
-                Full Stack Web Development Program
+                  Full Stack Web Development Program
                 </p>
                 <p className={styles.FooterInnerli}>
-                Full Stack Software Development Program
+                  Full Stack Software Development Program
                 </p>
                 <p className={styles.FooterInnerli}>
-                Data Structures Algorithms And System Design
+                  Data Structures Algorithms And System Design
                 </p>
               </div>
               <div className={styles.FooterDivInner}>
@@ -156,10 +159,10 @@ const Footer = ({ numEmailHide, fullStackCont, fullStackContt }) => {
                           <IoMailSharp className="bIcons" />
                           contacts@learnbay.co
                         </span>
-                        <Link href="tel:+919606950936">
+                        <Link href="tel:+919986049187">
                           <span style={{ display: "flex", marginTop: "10px" }}>
                             <BsFillTelephoneFill className="bIcons" />
-                            (+91) 96069 50936
+                            (+91) 99860 49187
                           </span>
                         </Link>
                       </>

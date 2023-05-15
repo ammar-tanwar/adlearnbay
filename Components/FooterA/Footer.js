@@ -36,11 +36,11 @@ const Footer = ({ mobileNum, email }) => {
           {mobileNum ? (
             ""
           ) : (
-          <Link href="tel:+919606950936" >
-            <span style={{ display: "flex", marginTop: "10px" }}>
-              <BsFillTelephoneFill className="bIcons" />
-              (+91) 96069 50936
-            </span>
+            <Link href="tel:+919986049187">
+              <span style={{ display: "flex", marginTop: "10px" }}>
+                <BsFillTelephoneFill className="bIcons" />
+                (+91) 99860 49187
+              </span>
             </Link>
           )}
         </div>
