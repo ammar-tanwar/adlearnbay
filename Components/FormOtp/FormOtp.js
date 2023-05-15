@@ -701,6 +701,8 @@ function FormOtp({
           (router.pathname === "/s3-data-science" && downloadBrochure) ||
           (router.pathname === "/s6-data-science-generic" &&
             downloadBrochure) ||
+            (router.pathname === "/datascience/s6-data-science-generic" &&
+            downloadBrochure) ||
           (router.pathname === "/s2-machine-learning" && downloadBrochure) ||
           (router.pathname === "/s2-job-guarantee" && downloadBrochure) ||
           (router.pathname === "/s2-data-analytics" && downloadBrochure) ||
@@ -1276,6 +1278,8 @@ function FormOtp({
               downloadBrochure) ||
             (router.pathname === "/s3-data-science" && downloadBrochure) ||
             (router.pathname === "/s6-data-science-generic" &&
+              downloadBrochure) ||
+              (router.pathname === "/datascience/s6-data-science-generic" &&
               downloadBrochure) ||
             (router.pathname === "/s2-machine-learning" && downloadBrochure) ||
             (router.pathname === "/s2-job-guarantee" && downloadBrochure) ||

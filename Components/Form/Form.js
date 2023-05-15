@@ -86,7 +86,7 @@ const Form = ({
 
   // -==================== Google - S2 END POINT ==========================--------
   if (
-    router.pathname === "/job-guarantee-or-money-back-data-science-ai-s2" || 
+    router.pathname === "/job-guarantee-or-money-back-data-science-ai-s2" ||
     router.pathname === "/s2-business-analytics" ||
     router.pathname === "/s2-business-analytics-advance" ||
     router.pathname === "/s2-business-analytics-master" ||
@@ -105,7 +105,7 @@ const Form = ({
     router.pathname === "/s2-machine-learning-training" ||
     router.pathname === "/s2-data-analytics-advance" ||
     router.pathname === "/s2-data-analytics-master" ||
-    router.pathname === "/s2-data-analytics-training" || 
+    router.pathname === "/s2-data-analytics-training" ||
     router.pathname === "/s2-data-analytics-institute" ||
     router.pathname === "/s2-data-analytics-placement" ||
     router.pathname === "/s2-artificial-intelligence-advance" ||
@@ -150,7 +150,6 @@ const Form = ({
     router.pathname === "/apply-for-counselling" ||
     router.pathname === "/s2-data-science-mis" ||
     router.pathname === "/software-development-s2" ||
-
     //  BANGALORE
 
     router.pathname === "/bangalore/s2-data-science" ||
@@ -357,6 +356,7 @@ const Form = ({
     router.pathname === "/advance-ai-ml-certification-s6" ||
     router.pathname === "/data-science-ai-cert-for-managers-leaders-s6" ||
     router.pathname === "/s6-data-science-generic" ||
+    router.pathname === "/datascience/s6-data-science-generic" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s6"
   ) {
     // -====================  Returning Audience - S6 END POINT ==========================--------
@@ -507,9 +507,9 @@ const Form = ({
         downloadBrochure) ||
       (router.pathname === "/advance-ai-ml-certification" &&
         downloadBrochure) ||
-        (router.pathname === "/business-analytics-certification-course" &&
+      (router.pathname === "/business-analytics-certification-course" &&
         downloadBrochure) ||
-        (router.pathname === "/data-analytics-certification-course" &&
+      (router.pathname === "/data-analytics-certification-course" &&
         downloadBrochure) ||
       (router.pathname === "/data-science-ai-cert-for-managers-leaders" &&
         downloadBrochure) ||
@@ -604,7 +604,8 @@ const Form = ({
       (router.pathname === "/" && downloadBrochure) ||
       (router.pathname === "/s2-data-science" && downloadBrochure) ||
       (router.pathname === "/s2-data-science-generic" && downloadBrochure) ||
-      (router.pathname === "/s2-data-science-advance-generic" && downloadBrochure) ||
+      (router.pathname === "/s2-data-science-advance-generic" &&
+        downloadBrochure) ||
       (router.pathname === "/s2-managers-leaders-program" &&
         downloadBrochure) ||
       (router.pathname === "/s2-master-program" && downloadBrochure) ||
@@ -641,6 +642,8 @@ const Form = ({
         downloadBrochure) ||
       (router.pathname === "/s3-data-science" && downloadBrochure) ||
       (router.pathname === "/s6-data-science-generic" && downloadBrochure) ||
+      (router.pathname === "/datascience/s6-data-science-generic" &&
+        downloadBrochure) ||
       (router.pathname === "/s2-machine-learning" && downloadBrochure) ||
       (router.pathname === "/s2-job-guarantee" && downloadBrochure) ||
       (router.pathname === "/s2-data-analytics" && downloadBrochure) ||
@@ -778,6 +781,7 @@ const Form = ({
       router.pathname === "/s2-machine-learning-training-generic" ||
       router.pathname === "/s3-data-science" ||
       router.pathname === "/s6-data-science-generic" ||
+      router.pathname === "/datascience/s6-data-science-generic" ||
       router.pathname === "/s2-machine-learning" ||
       router.pathname === "/s2-job-guarantee" ||
       router.pathname === "/s2-data-analytics" ||
@@ -838,6 +842,7 @@ const Form = ({
       router.pathname === "/s2-data-science-institute" ||
       router.pathname === "/s4-data-science" ||
       router.pathname === "/s6-data-science-generic" ||
+      router.pathname === "/datascience/s6-data-science-generic" ||
       router.pathname === "/s2-data-science-placement" ||
       router.pathname === "/s2-data-science-certification" ||
       router.pathname === "/s2-machine-learning-advance" ||
