@@ -40,7 +40,7 @@ const Footer = () => {
           </span>
           <span style={{ display: "flex", marginTop: "10px" }}>
             <BsFillTelephoneFill className="bIcons" />
-            <Link href="tel:+919606950936">(+91) 96069 50936</Link>
+            <Link href="tel:+919986049187">(+91) 99860 49187</Link>
           </span>
           {/* <div className={styles.FooterSocial}>
                 <FaTwitter className="bIcons"  />

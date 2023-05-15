@@ -35,17 +35,15 @@ export default function Home() {
           content="Want to earn salary hike of 250% ? Our Data Science course 
  will boost salary. Apply Now!"
         />
-
         <meta
           name="Keywords"
           content="data science course, data science course for working professional, data science course fee, data science course duration, data science course syllabus, data science online course"
         />
-
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        {/* <script
+        {/*         {/* <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
             var s = document.createElement('script');
@@ -84,7 +82,10 @@ export default function Home() {
             x.parentNode.insertBefore(s, x);`,
           }}
         /> */}
-        <script src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js" async></script>
+        <script
+          src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
+          async
+        ></script>
       </Head>
       <main>
         {" "}
@@ -219,7 +220,7 @@ export default function Home() {
           CourseFeelist4={DataScienceCourseData[0].BatchCourses.CourseFeelist4}
           CourseFeelist5={DataScienceCourseData[0].BatchCourses.CourseFeelist5}
         />
-        <LearnSupport WBbtn={true} />
+        <LearnSupport />
         <Footer />
       </main>
     </div>

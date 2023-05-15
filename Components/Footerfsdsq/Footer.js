@@ -23,18 +23,18 @@ const Footer = () => {
           <p className={styles.FooterInnerli}>
             The Full-Stack Developer Program is a demanding course that offers
             you everything you need to know about becoming a skillful developer.
-            Prepare for top product based MNCs interviews by brushing up on your technical
-            skills. Enroll now for a smooth transition.
+            Prepare for top product based MNCs interviews by brushing up on your
+            technical skills. Enroll now for a smooth transition.
           </p>
           <span style={{ display: "flex", marginTop: "20px" }}>
             <IoMailSharp className="bIcons" />
             contacts@learnbay.co
           </span>
-          <Link href="tel:+919606950936" >
-          <span style={{ display: "flex", marginTop: "10px" }}>
-            <BsFillTelephoneFill className="bIcons" />
-            (+91) 96069 50936
-          </span>
+          <Link href="tel:+919986049187">
+            <span style={{ display: "flex", marginTop: "10px" }}>
+              <BsFillTelephoneFill className="bIcons" />
+              (+91) 99860 49187
+            </span>
           </Link>
         </div>
         <div className={styles.FooterDivInner}>
