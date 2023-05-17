@@ -13,6 +13,7 @@ import FourthSection from "../Components/LightTheme/FourthSection/FourthSection"
 import SeventhSection from "../Components/LightTheme/SeventhSection/SeventhSection";
 import EightSection from "../Components/LightTheme/EightSection/EightSection";
 import SyllabusSection from "../Components/LightTheme/SyllabusSection/SyllabusSection";
+import BottomBar from "../Components/BottomBar/BottomBar";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -132,6 +133,7 @@ course subscription and 24/7 support"
           Module4="Essentials Tools"
         />
         <SliderTab />
+        {/* <BottomBar /> */}
         <Testimonial formotp={true} />
         <SeventhSection />
         <EightSection formotp={true} />

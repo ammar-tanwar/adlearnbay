@@ -71,13 +71,20 @@ const Form = ({
     router.pathname === "/fswd" ||
     router.pathname === "/dsa" ||
     router.pathname === "/data-science-certification-courses" ||
+    router.pathname === "/datascience/data-science-certification-courses" ||
     router.pathname === "/" ||
     router.pathname === "/advance-ai-ml-certification" ||
+    router.pathname === "/datascience/advance-ai-ml-certification" ||
     router.pathname === "/data-analytics-certification-course" ||
+    router.pathname === "/datascience/data-analytics-certification-course" ||
     router.pathname === "/business-analytics-certification-course" ||
+    router.pathname === "/datascience/business-analytics-certification-course" ||
     router.pathname === "/data-science-ai-cert-for-managers-leaders" ||
+    router.pathname ===
+      "/datascience/data-science-ai-cert-for-managers-leaders" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai" ||
-    router.pathname === "/data-science-ai-masters-program"
+    router.pathname === "/data-science-ai-masters-program" ||
+    router.pathname === "/datascience/data-science-ai-masters-program"
   ) {
     // -====================  Organic - S END POINT ==========================--------
     endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
@@ -147,6 +154,7 @@ const Form = ({
     router.pathname === "/s2-masters-program" ||
     router.pathname === "/apply-for-counselling-s2" ||
     router.pathname === "/apply-for-counselling-data-science" ||
+    router.pathname === "/datascience/apply-for-counselling-data-science" ||
     router.pathname === "/apply-for-counselling" ||
     router.pathname === "/s2-data-science-mis" ||
     router.pathname === "/software-development-s2" ||
@@ -505,17 +513,29 @@ const Form = ({
         downloadBrochure) ||
       (router.pathname === "/data-science-certification-courses" &&
         downloadBrochure) ||
+      (router.pathname === "/datascience/data-science-certification-courses" &&
+        downloadBrochure) ||
       (router.pathname === "/advance-ai-ml-certification" &&
+        downloadBrochure) ||
+      (router.pathname === "/datascience/advance-ai-ml-certification" &&
         downloadBrochure) ||
       (router.pathname === "/business-analytics-certification-course" &&
         downloadBrochure) ||
+        (router.pathname === "/datascience/business-analytics-certification-course" &&
+        downloadBrochure) ||
       (router.pathname === "/data-analytics-certification-course" &&
         downloadBrochure) ||
+        (router.pathname === "/datascience/data-analytics-certification-course" &&
+        downloadBrochure) ||
       (router.pathname === "/data-science-ai-cert-for-managers-leaders" &&
+        downloadBrochure) ||
+        (router.pathname === "/datascience/data-science-ai-cert-for-managers-leaders" &&
         downloadBrochure) ||
       (router.pathname === "/job-guarantee-or-money-back-data-science-ai" &&
         downloadBrochure) ||
       (router.pathname === "/data-science-ai-masters-program" &&
+        downloadBrochure) ||
+        (router.pathname === "/datascience/data-science-ai-masters-program" &&
         downloadBrochure) ||
       (router.pathname === "/data-science-certification-courses-s2" &&
         downloadBrochure) ||
@@ -595,11 +615,17 @@ const Form = ({
         downloadBrochure) ||
       (router.pathname === "/data-science-certification-courses" &&
         downloadBrochure) ||
+      (router.pathname === "/datascience/data-science-certification-courses" &&
+        downloadBrochure) ||
       (router.pathname === "/data-science-ai-cert-for-managers-leaders" &&
+        downloadBrochure) ||
+        (router.pathname === "/datascience/data-science-ai-cert-for-managers-leaders" &&
         downloadBrochure) ||
       (router.pathname === "/job-guarantee-or-money-back-data-science-ai" &&
         downloadBrochure) ||
       (router.pathname === "/data-science-ai-masters-program" &&
+        downloadBrochure) ||
+        (router.pathname === "/datascience/data-science-ai-masters-program" &&
         downloadBrochure) ||
       (router.pathname === "/" && downloadBrochure) ||
       (router.pathname === "/s2-data-science" && downloadBrochure) ||
@@ -650,6 +676,8 @@ const Form = ({
       (router.pathname === "/s2-artificial-intelligence" && downloadBrochure) ||
       (router.pathname === "/s2-data-science-mis" && downloadBrochure) ||
       (router.pathname === "/apply-for-counselling-data-science" &&
+        downloadBrochure) ||
+      (router.pathname === "/datascience/apply-for-counselling-data-science" &&
         downloadBrochure)
     ) {
       router.push("/Thank-you");
@@ -710,12 +738,19 @@ const Form = ({
       router.pathname === "/data-science-ai-cert-for-managers-leaders-sd" ||
       router.pathname === "/job-guarantee-or-money-back-data-science-ai-sd" ||
       router.pathname === "/data-science-certification-courses" ||
+      router.pathname === "/datascience/data-science-certification-courses" ||
       router.pathname === "/advance-ai-ml-certification" ||
+      router.pathname === "/datascience/advance-ai-ml-certification" ||
       router.pathname === "/business-analytics-certification-course" ||
+      router.pathname === "/datascience/business-analytics-certification-course" ||
       router.pathname === "/data-analytics-certification-course" ||
+      router.pathname === "/datascience/data-analytics-certification-course" ||
       router.pathname === "/data-science-ai-cert-for-managers-leaders" ||
+      router.pathname ===
+        "/datascience/data-science-ai-cert-for-managers-leaders" ||
       router.pathname === "/job-guarantee-or-money-back-data-science-ai" ||
       router.pathname === "/data-science-ai-masters-program" ||
+      router.pathname === "/datascience/data-science-ai-masters-program" ||
       router.pathname === "/data-science-certification-courses-s2" ||
       router.pathname === "/advance-ai-ml-certification-s2" ||
       router.pathname === "/data-science-ai-cert-for-managers-leaders-s2" ||
@@ -754,7 +789,10 @@ const Form = ({
       router.pathname === "/job-guarantee-or-money-back-data-science-ai-s7" ||
       router.pathname === "/data-science-certification-courses-s10" ||
       router.pathname === "/data-science-certification-courses" ||
+      router.pathname === "/datascience/data-science-certification-courses" ||
       router.pathname === "/data-science-ai-cert-for-managers-leaders" ||
+      router.pathname ===
+        "/datascience/data-science-ai-cert-for-managers-leaders" ||
       router.pathname === "/" ||
       router.pathname === "/job-guarantee-or-money-back-data-science-ai-s8" ||
       router.pathname === "/job-guarantee-or-money-back-data-science-ai-s9" ||
@@ -790,6 +828,7 @@ const Form = ({
       router.pathname === "/apply-for-counselling-s2" ||
       router.pathname === "/apply-for-counselling-s4" ||
       router.pathname === "/apply-for-counselling-data-science" ||
+      router.pathname === "/datascience/apply-for-counselling-data-science" ||
       router.pathname === "/apply-for-counselling-data-science-marketing" ||
       router.pathname === "/apply-for-counselling-s3" ||
       router.pathname === "/s2-data-science-mis" ||
