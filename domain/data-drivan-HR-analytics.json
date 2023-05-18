@@ -1,0 +1,69 @@
+{
+  "metaInfo": {
+    "title": "Masterclass",
+    "desc": "Enroll in the System Design Event and learn from live classes. Get Knowledge by working on industry projects."
+  },
+  "mainData": {
+    "eventDate": "May 28, 2023",
+    "tag": "System Design",
+    "eventTime": "12 p.m. to 2 p.m.",
+    "register": "674",
+    "likes": "587"
+  },
+  "eventFeatureData": {
+    "heading1": "About this Masterclass",
+    "aboutThisMasterclass": [
+      "In this informative and engaging webinar, we dive into the world of HR analytics and explore how data-driven insights can revolutionize your human resources practices.",
+      "In Data-Driven HR Analytics Webinar we will introduce you to key concepts and benefits of leveraging data in their decision-making processes. Whether you're new to HR analytics or looking to enhance your existing knowledge, this webinar provides valuable insights to help you harness the power of data.",
+      "Don't miss the opportunity to upskill yourself! We can't wait to see you there."
+    ],
+
+    "heading2": "Topics covered in this Masterclass",
+    "topicsCoveredMasterclass": [
+      "Current trends in HR Domain",
+      "Role of analytics in shaping the next generation of HR Analytics",
+      "Different applications / use case in the world of HR"
+    ],
+
+    "speakerName": "Soham Dutta",
+    "speakerDesignation": "Designation : Data Scientist",
+    "speakerComp": "Ex BCG || Ex TESCO",
+    "img4": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/Untitled-1.jpg",
+
+    "h1": "100% Live Classes",
+    "h2": "Customized Learning",
+    "h3": "IBM Certified Projects",
+    "h4": "3-year Subscription",
+
+    "heading3": "This Masterclass is for",
+    "masterclassForHeading1": "HR professionals looking to upskill",
+    "masterclassForHeading2": "HR professionals who wants to learn data driven decision making power",
+    "masterclassForHeading3": "Recruiters and HR professionals dreaming of securing a position at the forefront",
+    "masterclassForHeading4": "HR managers and leaders who want to adopt data-driven processes",
+    "masterclassForHeading5": "Data scientists looking to make a meaningful impact in the HR domain",
+
+    "heading4": "What our Learners have to say",
+
+    "heading5": "About Learnbay Academy",
+    "aboutLearnbay": [
+      "Welcome to Learnbay!",
+      "We are a leading provider of specialized courses in data science, data analytics, artificial intelligence and full-stack software development. We are dedicated to helping working professionals advance their careers and gain the technical expertise needed to succeed in the fast-paced world of technology."
+    ],
+
+    "aboutLearnbayHeading": "Some of our standout features include: ",
+    "standoutFeatures": [
+      "Curriculum that is developed, supervised and approved by industry experts",
+      "1:1 mentorship from top experts in the field",
+      "Opportunities to gain technical expertise through real-world projects",
+      "Over 250 hiring partners and dedicated placement support",
+      "100% guarantee interview calls"
+    ],
+    "standoutFeaturesLastHead": [
+      "Sign up for a free demo class and enroll in the domain of your choice."
+    ]
+  },
+  "headImg": {
+    "deskimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/data-drivan-HR-website.png",
+    "mobimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/data-drivan-HR-Mobile.png"
+  }
+}

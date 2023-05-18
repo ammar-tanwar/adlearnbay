@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Popup from "../Components/Popup/Popup";
 import Form from "../Components/Form/Form";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
-
+import BottomBar from "../Components/BottomBar/BottomBar";
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import HeroSection from "../Components/LightTheme/FirstSection/HeroSection";
 import Testimonial from "../Components/LightTheme/SixthSection/Testimonial";
@@ -136,6 +136,7 @@ export default function Home() {
         <SliderTab />
         <Testimonial formotp={true} />
         <SeventhSection />
+        {/* <BottomBar /> */}
         <EightSection formotp={true} />
       </main>
     </div>

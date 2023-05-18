@@ -26,6 +26,7 @@ const FirstSection = ({
   imagesrc,
   fullStackContent,
   formotp,
+  s2dataScience,
 }) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
@@ -62,7 +63,7 @@ const FirstSection = ({
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
             {formotp ? (
-                    <FormOtp popup={true} />
+                    <FormOtp popup={true} s2dataScience={s2dataScience}/>
                   ) : (
                     <>
             {withOutRadioForm ? (

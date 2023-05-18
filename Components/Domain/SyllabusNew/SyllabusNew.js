@@ -30,6 +30,7 @@ function SyllabusNew({
   formotp,
   syllabusFormotp,
   formotpForS3DS,
+  s2dataScience,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -79,7 +80,7 @@ function SyllabusNew({
           ) : (
             <>
               {formotp ? (
-                <FormOtp popup={true} />
+                <FormOtp popup={true} s2dataScience={s2dataScience}/>
               ) : (
                 <Form setTrigger={setPopups} downloadBrochure />
               )}
@@ -251,7 +252,7 @@ function SyllabusNew({
                     />
                   ) : (
                     <>
-                      <FormOtp />
+                      <FormOtp s2dataScience={s2dataScience}/>
                     </>
                   )}
                 </>
@@ -267,7 +268,7 @@ function SyllabusNew({
                   ) : (
                     <>
                     {formotp ?(
-                      <FormOtp popup={true}/>
+                      <FormOtp popup={true} s2dataScience={s2dataScience}/>
                       ):(
                     <Form
                       dataScience={dataScience}
