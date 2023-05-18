@@ -16,7 +16,7 @@ import "swiper/css/pagination";
 const Project = ({
   popupHead,
   project,
-  domain,
+  s2dataScience,
   projectTitle,
   formotp,
   formotpForS3DS,
@@ -61,7 +61,7 @@ const Project = ({
           ) : (
             <>
               {formotp ? (
-                <FormOtp popup={true} />
+                <FormOtp popup={true} s2dataScience={s2dataScience}/>
               ) : (
                 <Form setTrigger={setPopups} downloadBrochure />
               )}

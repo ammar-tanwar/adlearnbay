@@ -16,6 +16,7 @@ const BoxShape = ({
   radio,
   formotp,
   formotpForS3DS,
+  s2dataScience,
   p,
 }) => {
   return (
@@ -93,7 +94,7 @@ const BoxShape = ({
               ):(
              <>
              {formotp ?(
-              <FormOtp popup={true} />
+              <FormOtp popup={true} s2dataScience={s2dataScience}/>
             ):(
               <Form radio={radio} />
             )}

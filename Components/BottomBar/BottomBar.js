@@ -30,10 +30,10 @@ const BottomBar = ({ changeBottom }) => {
           <FaArrowRight className="bIcon" />
         </div>
         <div className="flDivRight">
-        <script
-          src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
-          async
-        ></script>
+          <Link href="https://wa.me/+917349222263">
+            Chat with us
+          </Link>
+          <IoLogoWhatsapp className="bIcon" style={{ color: "Green" }} />
         </div>
       </div>
     </div>

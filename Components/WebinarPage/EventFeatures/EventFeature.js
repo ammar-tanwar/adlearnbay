@@ -17,7 +17,7 @@ import { MdAltRoute, MdAnalytics, MdLiveTv } from "react-icons/md";
 import {BiCodeBlock} from "react-icons/bi";
 import FormOtp from "../../WebinarPage/FormOtp/FormOtp";
 
-const EventFeature = ({ data, eventDateInfo, eventDataD, domainDataD, reviewsDataD, event, domain }) => {
+const EventFeature = ({ data, eventDateInfo, eventDataD, domainDataD, reviewsDataD, event, domain, datascienceImg }) => {
   const [eventData, setEventData] = useState({
     aboutThisMasterclass: data.aboutThisMasterclass,
     topicsMasterclass: data.topicsMasterclass,
@@ -111,6 +111,7 @@ const EventFeature = ({ data, eventDateInfo, eventDataD, domainDataD, reviewsDat
         <p>About the Speaker</p>
         <div>
           <div className={styles.innerDiv}>
+            {datascienceImg ? (<></>) : (
             <div className={styles.spanTrainerImg}>
               <Image
                 src={data.img4}
@@ -123,6 +124,7 @@ const EventFeature = ({ data, eventDateInfo, eventDataD, domainDataD, reviewsDat
                 alt="backImg"
               />
             </div>
+            )}
             <div>
               <p className={styles.trainerHead}>{data.speakerName}</p>
               <p>{data.speakerDesignation}</p>

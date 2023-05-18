@@ -13,7 +13,7 @@ import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
 import { FaDownload } from "react-icons/fa";
 
-const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS,h1,h2,h2p ,hSRC,rewHead, fullStackContent }) => {
+const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS,h1,h2,h2p ,hSRC,rewHead, fullStackContent, s2dataScience }) => {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -55,7 +55,7 @@ const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS,h1,h2,h2p ,hSRC,rewH
             ) : (
               <>
                 {formotp ? (
-                  <FormOtp popup={true} setTrigger={setPopups} />
+                  <FormOtp popup={true} setTrigger={setPopups} s2dataScience={s2dataScience}/>
                 ) : (
                   <Form setTrigger={setPopups} downloadBrochure />
                 )}
