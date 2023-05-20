@@ -182,8 +182,8 @@ function CourseFee({
                   <b>Batch Type</b>
                 </p>
                 {/* <p className={styles.list}>Weekend Batch (Sat-Sun)</p> */}
+                <p className={styles.list}>Weekend Morning (Sat-sun)</p>
                 <p className={styles.list}>Weekday Evening (Mon-Fri)</p>
-                <p className={styles.list}>Weekday Morning (Mon-Fri)</p>
               </div>
             </div>
             <div>
@@ -193,8 +193,8 @@ function CourseFee({
                   <b>Date</b>
                 </p>
                 {/* <p className={styles.list}>9th October 2022</p> */}
-                <p className={styles.list}>12th May 2023</p>
-                <p className={styles.list}>16th May 2023</p>
+                <p className={styles.list}>28th May 2023</p>
+                <p className={styles.list}>9th June 2023</p>
               </div>
             </div>
             <div>
@@ -204,8 +204,8 @@ function CourseFee({
                   <b>Time</b>
                 </p>
                 {/* <p className={styles.list}>08:30 AM to 12 PM</p> */}
+                <p className={styles.list}>8:30 AM to 12 PM</p>
                 <p className={styles.list}>8 PM to 10 PM</p>
-                <p className={styles.list}>8 AM to 10 AM</p>
               </div>
             </div>
             <div className={styles.btnWrapper}>
