@@ -58,50 +58,59 @@ const Course = ({ peanutbtrIMG }) => {
 
   return (
     <div className={styles.Course} id="course">
+      {peanutbtrIMG ? (
+        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+          <div className="leftPopup">
+            <div
+              className="whiteP"
+              style={{ width: "350px", height: "400px" }}
+            ></div>
+          </div>
+          <div className="RightPopup">
+            <h5>Download Brochure</h5>
+            <p className={styles.pBot}>
+              Please enter the following details to initiate your download
+            </p>
 
-    {peanutbtrIMG ? (
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-      <div className="leftPopup">
-        <div
-          className="whiteP"
-          style={{ width: "350px", height: "400px" }}
-        ></div>
-      </div>
-      <div className="RightPopup">
-        <h5>Download Brochure</h5>
-        <p className={styles.pBot}>Please enter the following details to initiate your download</p>
+            <Form1 setTrigger={setPopups} />
+          </div>
+        </Popup>
+      ) : (
+        <Popup
+          trigger={popups}
+          setTrigger={setPopups}
+          className="popupModal"
+          formIMG={true}
+        >
+          <div className="leftPopup">
+            <div
+              className="whiteP"
+              style={{ width: "350px", height: "400px" }}
+            ></div>
+          </div>
+          <div className="RightPopup">
+            <h5>Download Brochure</h5>
+            <p>Please enter the following details to initiate your download</p>
 
-        
-        <Form1 setTrigger={setPopups} />
-
-      </div>
-    </Popup>
-    ):(
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal" formIMG={true}>
-      
-      <div className="leftPopup">
-        <div
-          className="whiteP"
-          style={{ width: "350px", height: "400px" }}
-        ></div>
-      </div>
-      <div className="RightPopup">
-        <h5>Download Brochure</h5>
-        <p>Please enter the following details to initiate your download</p>
-
-        <Form setTrigger={setPopups} downloadBrochure radio={true} stepupJobExp={true}/>
-
-      </div>
-    </Popup>
-   
-     )}
-
+            <Form
+              setTrigger={setPopups}
+              downloadBrochure
+              radio={true}
+              stepupJobExp={true}
+            />
+          </div>
+        </Popup>
+      )}
 
       <div className={styles.courses}>
         {viewAll ? (
           <div className={styles.mPanel}>
             <h5>Learning that’s accessible to all</h5>
-            <p className={styles.pTop}>Our courses are designed for professionals with 1+ years of experience in the BFSI domain, and also for non-BFSI professionals interested in data science, AI, and business analytics.</p>
+            <p className={styles.pTop}>
+              Our courses are designed for professionals with 1+ years of
+              experience in the BFSI domain, and also for non-BFSI professionals
+              interested in data science, AI, and business analytics.
+            </p>
             <div className={styles.gridPanel}>
               <Swiper
                 slidesPerView={mobile ? 1.1 : 3.2}
@@ -138,7 +147,7 @@ const Course = ({ peanutbtrIMG }) => {
                           <p>
                             <AiOutlineFundProjectionScreen
                               className={styles.checkCircle}
-                              style={{ color: "#edb552" }}
+                              style={{ color: "#f99600" }}
                             />
                             {para[1]}
                           </p>

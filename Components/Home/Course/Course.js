@@ -13,7 +13,7 @@ import {
   StackD,
 } from "./courseDetails";
 
-const Course = ({popupHead, radio}) => {
+const Course = ({ popupHead, radio }) => {
   const [viewAll, setViewAll] = useState(false);
   const [oneYear, setOneYear] = useState(true);
   const [nonTech, setNonTech] = useState(false);
@@ -75,7 +75,9 @@ const Course = ({popupHead, radio}) => {
               setGuarantee(false);
             }}
             style={
-              oneYear ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
+              oneYear
+                ? { background: "white", color: "#0072bc" }
+                : { background: "#E5F3FA" }
             }
           >
             Popular Courses
@@ -89,7 +91,9 @@ const Course = ({popupHead, radio}) => {
               setGuarantee(false);
             }}
             style={
-              nonTech ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
+              nonTech
+                ? { background: "white", color: "#0072bc" }
+                : { background: "#E5F3FA" }
             }
           >
             Data Science & AI
@@ -103,7 +107,9 @@ const Course = ({popupHead, radio}) => {
               setGuarantee(false);
             }}
             style={
-              Stack ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
+              Stack
+                ? { background: "white", color: "#0072bc" }
+                : { background: "#E5F3FA" }
             }
           >
             Full Stack Development
@@ -117,7 +123,9 @@ const Course = ({popupHead, radio}) => {
               setGuarantee(true);
             }}
             style={
-              Guarantee ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
+              Guarantee
+                ? { background: "white", color: "#0072bc" }
+                : { background: "#E5F3FA" }
             }
           >
             100% Placement Assistance
@@ -131,7 +139,9 @@ const Course = ({popupHead, radio}) => {
               setStack(false);
             }}
             style={
-              viewAll ? { background: "white", color: "#2D9CD7" } : { background: "#E5F3FA" }
+              viewAll
+                ? { background: "white", color: "#0072bc" }
+                : { background: "#E5F3FA" }
             }
           >
             View All
@@ -143,11 +153,13 @@ const Course = ({popupHead, radio}) => {
               const { id, title, title1, img, para, link1 } = viewAllData;
               return (
                 <div className={styles.leftSide} key={id}>
-                  <a href={link1}><img
-                    src={img}
-                    layout="intrinsic"
-                    className={styles.courseImg}
-                  /></a>
+                  <a href={link1}>
+                    <img
+                      src={img}
+                      layout="intrinsic"
+                      className={styles.courseImg}
+                    />
+                  </a>
                   <h6>{title}</h6>
                   <h6>{title1}</h6>
                   <p>
@@ -163,17 +175,21 @@ const Course = ({popupHead, radio}) => {
                     {para[2]}
                   </p>
                   <div className={styles.btnWrapper}>
-                    <a href={link1}><button>
-                      View Details
-                      <FaUserGraduate className="bIcons" />
-                    </button></a>
-                    <a onClick={popupShow} ><button className="outLineBtn">
-                      Brochure
-                      <FaFilePdf
-                        className="bIcon"
-                        style={{ color: "#2d9cd7" }}
-                      />
-                    </button></a>
+                    <a href={link1}>
+                      <button>
+                        View Details
+                        <FaUserGraduate className="bIcons" />
+                      </button>
+                    </a>
+                    <a onClick={popupShow}>
+                      <button className="outLineBtn">
+                        Brochure
+                        <FaFilePdf
+                          className="bIcon"
+                          style={{ color: "#0072bc" }}
+                        />
+                      </button>
+                    </a>
                   </div>
                 </div>
               );
@@ -188,11 +204,13 @@ const Course = ({popupHead, radio}) => {
               const { id, title, title1, img, para, link1 } = viewAllData;
               return (
                 <div className={styles.leftSide} key={id}>
-                  <a href={link1}><img
-                    src={img}
-                    layout="intrinsic"
-                    className={styles.courseImg}
-                  /></a>
+                  <a href={link1}>
+                    <img
+                      src={img}
+                      layout="intrinsic"
+                      className={styles.courseImg}
+                    />
+                  </a>
                   <h6>{title}</h6>
                   <h6>{title1}</h6>
                   <p>
@@ -208,17 +226,21 @@ const Course = ({popupHead, radio}) => {
                     {para[2]}
                   </p>
                   <div className={styles.btnWrapper}>
-                    <a href={link1}><button>
-                      View Details
-                      <FaUserGraduate className="bIcons" />
-                    </button></a>
-                    <a onClick={popupShow} ><button className="outLineBtn">
-                      Brochure
-                      <FaFilePdf
-                        className="bIcon"
-                        style={{ color: "#2d9cd7" }}
-                      />
-                    </button></a>
+                    <a href={link1}>
+                      <button>
+                        View Details
+                        <FaUserGraduate className="bIcons" />
+                      </button>
+                    </a>
+                    <a onClick={popupShow}>
+                      <button className="outLineBtn">
+                        Brochure
+                        <FaFilePdf
+                          className="bIcon"
+                          style={{ color: "#0072bc" }}
+                        />
+                      </button>
+                    </a>
                   </div>
                 </div>
               );
@@ -233,11 +255,13 @@ const Course = ({popupHead, radio}) => {
               const { id, title, title1, img, para, link1 } = viewAllData;
               return (
                 <div className={styles.leftSide} key={id}>
-                  <a href={link1}><img
-                    src={img}
-                    layout="intrinsic"
-                    className={styles.courseImg}
-                  /></a>
+                  <a href={link1}>
+                    <img
+                      src={img}
+                      layout="intrinsic"
+                      className={styles.courseImg}
+                    />
+                  </a>
                   <h6>{title}</h6>
                   <h6>{title1}</h6>
                   <p>
@@ -253,17 +277,21 @@ const Course = ({popupHead, radio}) => {
                     {para[2]}
                   </p>
                   <div className={styles.btnWrapper}>
-                    <a href={link1}><button>
-                      View Details
-                      <FaUserGraduate className="bIcons" />
-                    </button></a>
-                    <a onClick={popupShow} ><button className="outLineBtn">
-                      Brochure
-                      <FaFilePdf
-                        className="bIcon"
-                        style={{ color: "#2d9cd7" }}
-                      />
-                    </button></a>
+                    <a href={link1}>
+                      <button>
+                        View Details
+                        <FaUserGraduate className="bIcons" />
+                      </button>
+                    </a>
+                    <a onClick={popupShow}>
+                      <button className="outLineBtn">
+                        Brochure
+                        <FaFilePdf
+                          className="bIcon"
+                          style={{ color: "#0072bc" }}
+                        />
+                      </button>
+                    </a>
                   </div>
                 </div>
               );
@@ -278,11 +306,13 @@ const Course = ({popupHead, radio}) => {
               const { id, title, title1, img, para, link1 } = viewAllData;
               return (
                 <div className={styles.leftSide} key={id}>
-                  <a href={link1}><img
-                    src={img}
-                    layout="intrinsic"
-                    className={styles.courseImg}
-                  /></a>
+                  <a href={link1}>
+                    <img
+                      src={img}
+                      layout="intrinsic"
+                      className={styles.courseImg}
+                    />
+                  </a>
                   <h6>{title}</h6>
                   <h6>{title1}</h6>
                   <p>
@@ -298,17 +328,21 @@ const Course = ({popupHead, radio}) => {
                     {para[2]}
                   </p>
                   <div className={styles.btnWrapper}>
-                    <a href={link1}><button>
-                      View Details
-                      <FaUserGraduate className="bIcons" />
-                    </button></a>
-                    <a onClick={popupShow} ><button className="outLineBtn">
-                      Brochure
-                      <FaFilePdf
-                        className="bIcon"
-                        style={{ color: "#2d9cd7" }}
-                      />
-                    </button></a>
+                    <a href={link1}>
+                      <button>
+                        View Details
+                        <FaUserGraduate className="bIcons" />
+                      </button>
+                    </a>
+                    <a onClick={popupShow}>
+                      <button className="outLineBtn">
+                        Brochure
+                        <FaFilePdf
+                          className="bIcon"
+                          style={{ color: "#0072bc" }}
+                        />
+                      </button>
+                    </a>
                   </div>
                 </div>
               );
@@ -323,11 +357,13 @@ const Course = ({popupHead, radio}) => {
               const { id, title, title1, img, para, link1 } = viewAllData;
               return (
                 <div className={styles.leftSide} key={id}>
-                  <a href={link1}><img
-                    src={img}
-                    layout="intrinsic"
-                    className={styles.courseImg}
-                  /></a>
+                  <a href={link1}>
+                    <img
+                      src={img}
+                      layout="intrinsic"
+                      className={styles.courseImg}
+                    />
+                  </a>
                   <h6>{title}</h6>
                   <h6>{title1}</h6>
                   <p>
@@ -343,17 +379,21 @@ const Course = ({popupHead, radio}) => {
                     {para[2]}
                   </p>
                   <div className={styles.btnWrapper}>
-                    <a href={link1}><button>
-                      View Details
-                      <FaUserGraduate className="bIcons" />
-                    </button></a>
-                    <a onClick={popupShow} ><button className="outLineBtn">
-                      Brochure
-                      <FaFilePdf
-                        className="bIcon"
-                        style={{ color: "#2d9cd7" }}
-                      />
-                    </button></a>
+                    <a href={link1}>
+                      <button>
+                        View Details
+                        <FaUserGraduate className="bIcons" />
+                      </button>
+                    </a>
+                    <a onClick={popupShow}>
+                      <button className="outLineBtn">
+                        Brochure
+                        <FaFilePdf
+                          className="bIcon"
+                          style={{ color: "#0072bc" }}
+                        />
+                      </button>
+                    </a>
                   </div>
                 </div>
               );

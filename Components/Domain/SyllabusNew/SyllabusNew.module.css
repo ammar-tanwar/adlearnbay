@@ -38,7 +38,7 @@
   font-size: 18px;
 }
 .btn:hover {
-  background-color: #edb552;
+  background-color: #f99600;
 }
 
 .ques {
@@ -105,7 +105,7 @@
 .PIcons {
   font-size: 40px;
   margin-right: 10px;
-  color: #edb552;
+  color: #f99600;
 }
 
 .line {
@@ -153,7 +153,7 @@
 }
 .PProgram p span {
   padding-bottom: 5px;
-  border-bottom: 2px solid #edb552;
+  border-bottom: 2px solid #f99600;
   font-size: 20px;
 }
 .PProgramInner {
@@ -161,7 +161,7 @@
   font-size: 14px;
   justify-content: space-evenly;
   padding: 30px 20px 30px 20px;
-  background: #EFF8FE;
+  background: #eff8fe;
 }
 .PProgramInners {
   font-size: 14px;
@@ -209,7 +209,7 @@
 }
 .PProgrammains h5 span {
   padding-bottom: 5px;
-  border-bottom: 4px solid #edb552;
+  border-bottom: 4px solid #f99600;
 }
 .PProgramInner p {
   font-size: 18px;
@@ -235,7 +235,7 @@
   .PIcons {
     font-size: 22px;
     margin-right: 10px;
-    color: #edb552;
+    color: #f99600;
   }
 
   .line {
@@ -283,7 +283,7 @@
   }
   .PProgram p span {
     padding-bottom: 5px;
-    border-bottom: 2px solid #edb552;
+    border-bottom: 2px solid #f99600;
   }
   .PProgramInner {
     display: grid;
@@ -336,7 +336,7 @@
   }
   .PProgrammains h5 span {
     padding-bottom: 5px;
-    border-bottom: 4px solid #edb552;
+    border-bottom: 4px solid #f99600;
   }
   .PProgramInner p {
     font-size: 14px;

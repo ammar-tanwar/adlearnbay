@@ -21,15 +21,15 @@
 }
 .left {
   display: grid;
-  grid-template-columns: 33% 33% 33%;;
+  grid-template-columns: 33% 33% 33%;
   text-align: center;
-  
+
   flex-wrap: wrap;
   width: 100%;
   padding-top: 70px;
 }
 
-.left button{
+.left button {
   margin: auto;
 }
 
@@ -192,7 +192,7 @@
 }
 .leftContent h5 {
   margin: 0;
-  color: #edb552;
+  color: #f99600;
   font-size: 28px;
   font-weight: 600;
 }
@@ -254,7 +254,7 @@
   }
   .leftContent h5 {
     margin: 0;
-    color: #edb552;
+    color: #f99600;
     font-size: 18px;
     font-weight: 600;
   }

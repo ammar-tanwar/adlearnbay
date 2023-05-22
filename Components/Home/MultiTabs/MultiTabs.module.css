@@ -29,7 +29,7 @@
 }
 .tick {
   font-size: 20px;
-  color: #2d9cd7;
+  color: #0072bc;
 }
 .courses {
   background: #ffffff;
@@ -128,7 +128,7 @@
   padding-left: 30px;
 }
 .info .middle h4 {
-  color: #edb552;
+  color: #f99600;
 }
 .info p {
   margin: 0;
@@ -145,9 +145,9 @@
     padding: 0px 30px;
     margin-bottom: 0px;
   }
-.gridPanel {
-  gap: 30px;
-}
+  .gridPanel {
+    gap: 30px;
+  }
 }
 
 @media (max-width: 481px) {
@@ -183,7 +183,7 @@
     font-size: 14px;
     width: 100%;
     padding: 15px 10px;
-  } 
+  }
   .gridPanel {
     grid-template-columns: 85% 85% 85% 85% 85% 85% 85%;
     overflow-x: scroll;
@@ -209,14 +209,14 @@
     margin-right: 5px;
   }
 
-.gridPanel .left {
-  margin-top: 20px;
-}
+  .gridPanel .left {
+    margin-top: 20px;
+  }
 
-.info .middle {
-  margin-top: 20px;
-}
-.info p {
-  line-height: 20px;
-}
+  .info .middle {
+    margin-top: 20px;
+  }
+  .info p {
+    line-height: 20px;
+  }
 }

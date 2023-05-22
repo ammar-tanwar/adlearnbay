@@ -36,7 +36,7 @@
   margin-top: 20px;
 }
 .para {
-  border-left: 5px solid #2d9cd7;
+  border-left: 5px solid #0072bc;
   border-radius: 4px;
   padding-left: 10px;
 }
@@ -80,7 +80,7 @@
 }
 .name p {
   font-size: 16px;
-  color: #2d9cd7;
+  color: #0072bc;
   margin: 0;
 }
 .name h5 {
@@ -89,7 +89,6 @@
   margin: 0;
   color: #000;
 }
-
 
 .bottomReview {
   margin-top: -120px;

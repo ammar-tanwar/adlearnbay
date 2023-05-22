@@ -33,7 +33,7 @@
   cursor: pointer;
   background-color: #e5f3fa;
   justify-content: start;
-  border-left: 1px solid #2D9CD750;
+  border-left: 1px solid #0072bc50;
 }
 .feature p {
   display: flex;
@@ -61,7 +61,7 @@
   cursor: pointer;
 
   justify-content: start;
-  border-bottom: 2px solid #28557a2e;
+  border-bottom: 2px solid #0072bc2e;
 } */
 .ActiveSpan {
   padding: 20px;
@@ -70,8 +70,8 @@
   cursor: pointer;
 
   justify-content: start;
-  border-top: 4px solid #2d9cd7;
-  border-right: 2px solid #28557a2e;
+  border-top: 4px solid #0072bc;
+  border-right: 2px solid #0072bc2e;
 }
 
 .gridPanel {
@@ -187,7 +187,7 @@
     font-size: 18px;
     border: 0;
     background: aliceblue;
-    border-bottom: 1px solid #2d9cd730;
+    border-bottom: 1px solid #0072bc30;
     padding: 12px 20px;
   }
   .leftSide,

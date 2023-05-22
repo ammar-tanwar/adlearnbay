@@ -1,7 +1,7 @@
 .Course {
   padding: 50px 100px;
   margin-top: 40px;
-  background: #E1F1FA66;
+  background: #e1f1fa66;
 }
 .Course h2 {
   font-size: 16px;
@@ -23,7 +23,7 @@
 }
 .tick {
   font-size: 20px;
-  color: #2d9cd7;
+  color: #0072bc;
 }
 .courses {
   display: flex;
@@ -39,7 +39,7 @@
   font-size: 16px;
   cursor: pointer;
   width: 100%;
-  background-color: #E1F1FA66;
+  background-color: #e1f1fa66;
 }
 .gridPanel {
   display: block;
@@ -73,7 +73,7 @@
   margin-right: 130px;
   margin-top: 10px;
 
-  color: #2d9cd7;
+  color: #0072bc;
 }
 .leftSide p,
 .middleSide p,

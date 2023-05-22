@@ -23,7 +23,7 @@
   padding-left: 30px;
 }
 .middle h5 {
-  color: #edb552;
+  color: #f99600;
 }
 
 .info {
@@ -119,25 +119,25 @@
   }
 
   .left,
-.middle,
-.right1 {
-  padding: 0px;
-}
-.left1,
-.middle {
-  padding-right: 10px;
-}
-.middle,
-.right1 {
-  padding: 0px;
-}
-.middle,
-.right1 {
-  padding: 0px;
-}
-.info {
-  margin-top: 20px;
-}
+  .middle,
+  .right1 {
+    padding: 0px;
+  }
+  .left1,
+  .middle {
+    padding-right: 10px;
+  }
+  .middle,
+  .right1 {
+    padding: 0px;
+  }
+  .middle,
+  .right1 {
+    padding: 0px;
+  }
+  .info {
+    margin-top: 20px;
+  }
   .left h1 {
     font-size: 24px;
     margin-top: 0;
@@ -169,7 +169,7 @@
     margin-right: 10px;
   }
   .btnWrapper {
-    margin: 30px 0px; 
+    margin: 30px 0px;
   }
   .img {
     margin-top: 30px;

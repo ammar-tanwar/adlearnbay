@@ -5,18 +5,18 @@
   display: flex;
   justify-content: space-between;
   border-radius: 8px;
-  background-color: #F8FAFD;
+  background-color: #f8fafd;
   padding: 20px 30px 20px 30px;
   align-items: center;
   cursor: pointer;
-text-align: left;
+  text-align: left;
   margin-bottom: 20px;
 }
 .queshO {
   display: flex;
   justify-content: space-between;
   border-radius: 8px 8px 0px 0px;
-  background-color: #F8FAFD;
+  background-color: #f8fafd;
   padding: 20px 30px 20px 30px;
   align-items: center;
   margin-bottom: 0;
@@ -28,7 +28,7 @@ text-align: left;
   margin: 0;
   font-weight: 500;
   line-height: 22px;
-  color: #2D9CD7;
+  color: #0072bc;
   text-align: left;
 }
 
@@ -37,7 +37,7 @@ text-align: left;
   margin: 0;
   font-weight: 500;
   line-height: 22px;
-  color: #2D9CD7;
+  color: #0072bc;
   text-align: left;
 }
 
@@ -50,7 +50,7 @@ text-align: left;
 }
 
 .link {
-  color: #2D9CD7;
+  color: #0072bc;
 }
 
 .ans p {
@@ -69,8 +69,8 @@ text-align: left;
   justify-content: center;
 }
 
-@media (min-width: 600px) and (max-width: 1026px){
-  .FAQ{
+@media (min-width: 600px) and (max-width: 1026px) {
+  .FAQ {
     margin: 0px 0px 0px 20px;
   }
 }

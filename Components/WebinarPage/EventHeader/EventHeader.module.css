@@ -44,7 +44,7 @@
 }
 
 .iconOrange {
-  background: #edb552;
+  background: #f99600;
   color: #fff;
   font-size: 60px;
   padding: 10px;
@@ -60,7 +60,6 @@
   font-weight: 800;
   margin-left: -5px;
   margin-top: -6px;
-;
 }
 
 .p {
@@ -138,7 +137,7 @@
   padding-left: 30px;
 }
 .middle h5 {
-  color: #edb552;
+  color: #f99600;
 }
 
 .info {
@@ -248,7 +247,7 @@
   font-size: 14px;
   font-weight: 600;
   color: #fff;
-  background-color: #0072BC;
+  background-color: #0072bc;
   padding: 5px;
   border-radius: 10px;
   margin: 0;
@@ -264,7 +263,7 @@
 }
 
 .sectionDiv .loaderPercentage {
-  border: 4px solid #0072BC;
+  border: 4px solid #0072bc;
   padding: 15px 0px;
   border-radius: 50px;
   text-align: center;
@@ -294,7 +293,7 @@
 #topBoxM {
   display: none;
 }
-#topBoxD{
+#topBoxD {
   display: block;
 }
 
@@ -412,7 +411,7 @@
   .h1 {
     margin: 0;
     font-size: 35px;
-    color:black;
+    color: black;
     font-weight: 800;
     margin-left: -3px;
     margin-bottom: 5px;
@@ -436,7 +435,6 @@
     flex-direction: column;
     gap: 20px;
     margin: 20px 0px;
-
   }
 
   .firstText {
@@ -501,7 +499,7 @@
   .circleWidth {
     width: 100%;
   }
-  #topBoxD{
+  #topBoxD {
     display: none;
   }
   #topBoxM {
