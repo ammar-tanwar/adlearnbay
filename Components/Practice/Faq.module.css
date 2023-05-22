@@ -1,90 +1,87 @@
 .container {
-    max-width: 800px;
-    width: 700px;
-    margin: 0 auto;
-  }
-
-  .subtitle{
-    font-size: 18px;
-    color: #0072BC;
-    font-weight: bold;
-    text-align: center;
-    margin: auto;
-
-  }
-  
-  .title {
-    font-size: 32px;
-    text-align: center;
-    color: #28557A;
-    font-weight: 800;
-    margin-top: 5px;
-  }
-  .th1{
-    font-size: 15px;
-    font-weight: 600;
-  }
-
-.listItem{
-    font-weight: 100;
-    line-height: 30px;
+  max-width: 800px;
+  width: 700px;
+  margin: 0 auto;
 }
-  
-  .faq {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-  
-  .question {
-    /* border: 1px solid #ccc; */
-    border-radius: 0.3rem;
-    padding: 1rem;
-    cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
-    background-color: #f3f7f8;
-    box-shadow: 1px 4px #bedcf3;
 
-  }
-  
-  .question:hover {
-    background-color: #f4f2e6;
-  }
-  
-  .question h3 {
-    margin: 0;
-    font-size: 1.5rem;
-    font-weight: 500;
-  }
-  
-  .answer {
-    display: none;
-    padding: 1rem;
-  }
-  
-  .question.open .answer {
-    display: block;
-  }
+.subtitle {
+  font-size: 18px;
+  color: #0072bc;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
 
-  .Dicon{
-    color: #3a9cd7;
-    position: relative;
-    left: 560px;
-    bottom: 41px;
-    width: 37px;
-    font-size: 30px;
-  }
+.title {
+  font-size: 32px;
+  text-align: center;
+  color: #0072bc;
+  font-weight: 800;
+  margin-top: 5px;
+}
+.th1 {
+  font-size: 15px;
+  font-weight: 600;
+}
 
-  .Cicon{
-    color: #0072BC;
-    position: relative;
-    /* left: 560px; */
-    top: 47.3px;
-    width: 37px;
-    font-size: 30px;
-  }
+.listItem {
+  font-weight: 100;
+  line-height: 30px;
+}
 
-  .Tbheading{
-    margin-left: 50px;
-  }
-  
+.faq {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.question {
+  /* border: 1px solid #ccc; */
+  border-radius: 0.3rem;
+  padding: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  background-color: #f3f7f8;
+  box-shadow: 1px 4px #bedcf3;
+}
+
+.question:hover {
+  background-color: #f4f2e6;
+}
+
+.question h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.answer {
+  display: none;
+  padding: 1rem;
+}
+
+.question.open .answer {
+  display: block;
+}
+
+.Dicon {
+  color: #3a9cd7;
+  position: relative;
+  left: 560px;
+  bottom: 41px;
+  width: 37px;
+  font-size: 30px;
+}
+
+.Cicon {
+  color: #0072bc;
+  position: relative;
+  /* left: 560px; */
+  top: 47.3px;
+  width: 37px;
+  font-size: 30px;
+}
+
+.Tbheading {
+  margin-left: 50px;
+}

@@ -11,7 +11,7 @@
   flex-flow: column;
 }
 .sub {
-  color: #2d9cd7;
+  color: #0072bc;
   padding: 0;
   margin: 5px;
 }
@@ -84,10 +84,10 @@
   color: #646464;
 }
 .leftProjectNumb h5 {
-  color: #edb552;
+  color: #f99600;
 }
 .lIcon {
-  color: #edb552;
+  color: #f99600;
   font-size: 40px;
 }
 .rightProjectNumb h5 {
@@ -126,7 +126,7 @@
 
 .headernew {
   width: 100%;
-  background: #29648D;
+  background: #29648d;
   padding: 10px 0px 0px 0px;
   margin-bottom: 20px;
   border-radius: 20px;
@@ -177,7 +177,7 @@
   font-size: 18px;
 }
 .btn:hover {
-  background-color: #edb552;
+  background-color: #f99600;
 }
 
 @media (max-width: 481px) {
@@ -193,7 +193,7 @@
   .headernew {
     margin-bottom: 30px;
   }
-  
+
   .headernew p {
     margin: 5px 0px -10px 20px;
     padding: 10px 20px;
@@ -201,7 +201,7 @@
     border-radius: 10px;
     font-size: 14px;
   }
-  
+
   .headernew h5 {
     font-size: 20px;
   }

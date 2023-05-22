@@ -235,7 +235,9 @@
   border-left-color: #0487d9;
 }
 
-.react-datepicker__navigation--next--with-time:not(.react-datepicker__navigation--next--with-today-button) {
+.react-datepicker__navigation--next--with-time:not(
+    .react-datepicker__navigation--next--with-today-button
+  ) {
   right: 100px;
 }
 
@@ -881,5 +883,5 @@
   cursor: default;
 }
 ::-webkit-scrollbar-track {
-  background-color: #edb552;
+  background-color: #f99600;
 }

@@ -15,7 +15,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #2d9cd710;
+  border-bottom: 1px solid #0072bc10;
 }
 .left {
   display: flex;
@@ -103,8 +103,8 @@
 
 .hoverBtn {
   background-color: #f7f9fc;
-  color: #2d9cd7;
-  box-shadow: #2d9cd7 0px 0px 4px 0px;
+  color: #0072bc;
+  box-shadow: #0072bc 0px 0px 4px 0px;
 }
 .white {
   background-color: transparent;
@@ -114,12 +114,12 @@
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: #ff9562;
+  background-color: #f99600;
   color: #fff;
   font-size: 18px;
   margin-right: 10px;
-  border: 1px solid #ff9562;
-  box-shadow: #ff9562 0px 0px 4px 0px !important;
+  border: 1px solid #f99600;
+  box-shadow: #f99600 0px 0px 4px 0px !important;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -150,7 +150,7 @@
 
 /* Change color of dropdown links on hover */
 .dropdownContent a:hover {
-  background-color: #ff9562;
+  background-color: #f99600;
   color: #fff;
 }
 
@@ -162,8 +162,8 @@
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: #fff;
-  color: #ff9562;
-  border: 1px solid #ff9562;
+  color: #f99600;
+  border: 1px solid #f99600;
 }
 @media (max-width: 1281px) {
   .nav {
@@ -224,7 +224,7 @@
   .ham {
     display: inline;
     justify-self: flex-start;
-    color: #2d9cd7;
+    color: #0072bc;
     cursor: pointer;
     font-size: 28px;
     margin-right: 10px;
@@ -239,4 +239,4 @@
     border: 2px solid #0072bc;
     font-weight: 500;
   }
-  }
+}

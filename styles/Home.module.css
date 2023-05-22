@@ -38,7 +38,7 @@
   padding-left: 30px;
 }
 .middle h5 {
-  color: #edb552;
+  color: #f99600;
 }
 .info p {
   margin: 0;
@@ -246,7 +246,7 @@
   margin-top: 40px;
 }
 .cta button:hover {
-  background-color: #2d9cd7;
+  background-color: #0072bc;
 }
 .ExpertWrapper {
   display: grid;
@@ -384,7 +384,7 @@
 }
 
 .middle h5 {
-  color: #edb552;
+  color: #f99600;
 }
 
 .formSA {
@@ -451,7 +451,7 @@
 }
 .about h4 span {
   color: white;
-  background-color: #edb552;
+  background-color: #f99600;
   padding: 5px;
 }
 
@@ -576,7 +576,7 @@
   color: white;
   font-size: 50px;
   padding: 10px;
-  background-color: #edb552;
+  background-color: #f99600;
   border-radius: 10px;
 }
 
@@ -584,7 +584,7 @@
   color: white;
   font-size: 50px;
   padding: 10px;
-  background-color: #edb552;
+  background-color: #f99600;
   border-radius: 10px;
 }
 
@@ -649,7 +649,7 @@
   font-size: 28px;
   line-height: 38px;
 
-  color: #edb552;
+  color: #f99600;
 }
 .markSpan {
   font-style: normal;
@@ -694,14 +694,14 @@
 .section42 {
   display: flex;
   background-color: #eff8fe;
-  color: #edb552;
+  color: #f99600;
   padding: 20px 0px;
   margin-top: 30px;
 }
 
 .section42 p {
   margin: 0;
-  border-right: 2px solid #edb552;
+  border-right: 2px solid #f99600;
   text-align: center;
   font-size: 20px;
   text-align: center;
@@ -787,9 +787,8 @@
   margin: 15px 0px;
   font-weight: 600;
   display: flex;
-    align-items: center;
-    gap: 15px;
-  
+  align-items: center;
+  gap: 15px;
 }
 
 .WDFeature .WDstrip {
@@ -798,15 +797,15 @@
   margin: 15px 0px;
   font-weight: 600;
   display: flex;
-    align-items: center;
-    gap: 15px;
-    background-color: #ffffff10;
-    padding: 10px 20px;
-    border-radius: 20px;
+  align-items: center;
+  gap: 15px;
+  background-color: #ffffff10;
+  padding: 10px 20px;
+  border-radius: 20px;
 }
 
 .FormThank Form button {
-  background-color: #C31B70;
+  background-color: #c31b70;
   border: 0;
   padding: 12px 30px;
   font-size: 18px;
@@ -823,7 +822,6 @@
 .careerImpactNew {
   margin-top: -100px;
 }
-
 
 @media (max-width: 481px) {
   .container {
@@ -1165,11 +1163,11 @@
   }
 
   .WDFeatureM .WDFeature {
-    background: #0B4D89;
+    background: #0b4d89;
     margin: 0;
-padding: 20px;
-height: fit-content;
-border-radius: 20px;
+    padding: 20px;
+    height: fit-content;
+    border-radius: 20px;
   }
 
   .WDFeatureM .WDlist {

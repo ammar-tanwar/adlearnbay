@@ -1,13 +1,13 @@
 .wrap {
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   padding: 0px 100px 30px 100px;
   align-items: center;
 }
 
 .feeWrapper .left h6 {
   font-size: 30px;
-  background-color: #0072BC;
+  background-color: #0072bc;
   width: 100%;
   color: #fff;
   text-align: center;
@@ -25,7 +25,7 @@
 }
 .feeWrapper .right h6 {
   font-size: 30px;
-  background-color: #0072BC;
+  background-color: #0072bc;
   width: 100%;
   color: #fff;
   text-align: center;
@@ -53,7 +53,7 @@
   margin: 0;
   text-align: center;
   font-size: 28px;
-  color: #0072BC;
+  color: #0072bc;
   margin-bottom: 15px;
 }
 .feeWrapper .right .bottomS button {
@@ -76,15 +76,15 @@
   font-weight: 700;
 }
 .feeWrapper .right .bottom .lefts .icon {
-  color: #0072BC;
+  color: #0072bc;
   font-size: 30px;
 }
 .feeWrapper .right .bottom .center .icon {
-  color: #0072BC;
+  color: #0072bc;
   font-size: 30px;
 }
 .feeWrapper .right .bottom .rights .icon {
-  color: #0072BC;
+  color: #0072bc;
   font-size: 30px;
 }
 .bottomp {
@@ -116,7 +116,7 @@
   }
   .wrap {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     padding: 0px 100px 30px 100px;
     align-items: center;
   }
@@ -137,7 +137,7 @@
   }
   .feeWrapper .left h6 {
     font-size: 30px;
-    background-color: #0072BC;
+    background-color: #0072bc;
     width: 100%;
     color: #fff;
     text-align: center;
@@ -157,7 +157,7 @@
   .feeWrapper .left .bottom h5 {
     font-size: 28px;
     font-weight: 800;
-    color: #edb552;
+    color: #f99600;
     margin: 0;
     text-align: center;
   }
@@ -169,7 +169,7 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    background-color: #edb552;
+    background-color: #f99600;
     color: white;
     padding: 10px 20px;
     border-radius: 4px;
@@ -177,8 +177,7 @@
   }
   .feeWrapper .right {
     border-left: 1px solid grey;
-  background-color: #f0f8fa;
-
+    background-color: #f0f8fa;
   }
   .feeWrapper .right p {
     font-size: 16px;
@@ -201,7 +200,7 @@
     margin: 0;
     text-align: center;
     font-size: 28px;
-    color: #0072BC;
+    color: #0072bc;
     margin-bottom: 15px;
   }
   .feeWrapper .right .bottomS button {
@@ -224,15 +223,15 @@
     font-weight: 700;
   }
   .feeWrapper .right .bottom .lefts .icon {
-    color: #0072BC;
+    color: #0072bc;
     font-size: 30px;
   }
   .feeWrapper .right .bottom .center .icon {
-    color: #0072BC;
+    color: #0072bc;
     font-size: 30px;
   }
   .feeWrapper .right .bottom .rights .icon {
-    color: #0072BC;
+    color: #0072bc;
     font-size: 30px;
   }
 }
@@ -280,7 +279,7 @@
     align-items: center;
   }
   .feeWrapper .left h6 {
-    color: #edb552;
+    color: #f99600;
     font-size: 16px;
     text-align: center;
     font-weight: 800;
@@ -302,7 +301,7 @@
   .feeWrapper .left .bottom h5 {
     font-size: 28px;
     font-weight: 800;
-    color: #edb552;
+    color: #f99600;
     margin: 0;
     text-align: center;
   }
@@ -314,7 +313,7 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    background-color: #edb552;
+    background-color: #f99600;
     color: white;
     padding: 10px 20px;
     border-radius: 4px;
@@ -353,7 +352,7 @@
     margin: 0;
     text-align: center;
     font-size: 28px;
-    color: #0072BC;
+    color: #0072bc;
   }
   .feeWrapper .right .bottomS button {
     margin: auto;
@@ -375,15 +374,15 @@
     padding: 20px;
   }
   .feeWrapper .right .bottom .lefts .icon {
-    color: #0072BC;
+    color: #0072bc;
     font-size: 30px;
   }
   .feeWrapper .right .bottom .center .icon {
-    color: #0072BC;
+    color: #0072bc;
     font-size: 30px;
   }
   .feeWrapper .right .bottom .rights .icon {
-    color: #0072BC;
+    color: #0072bc;
     font-size: 30px;
   }
 }
@@ -394,7 +393,7 @@
     margin-top: 50px;
   }
   .feeWrapper .left {
-    background-color: #0072BC;
+    background-color: #0072bc;
     padding: 20px 40px;
   }
   .feeWrapper .left h6 {
@@ -494,7 +493,7 @@
     flex-flow: column;
   }
   .feeWrapper .left {
-    background-color: #0072BC;
+    background-color: #0072bc;
     padding: 20px 20px;
   }
   .feeWrapper .left h6 {
@@ -606,7 +605,7 @@
   }
   .wrap {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     padding: 0px;
     align-items: center;
   }
@@ -629,7 +628,7 @@
     align-items: center;
   }
   /* .feeWrapper .left h6 {
-    color: #edb552;
+    color: #f99600;
     font-size: 16px;
     text-align: center;
     font-weight: 800;
@@ -651,7 +650,7 @@
   .feeWrapper .left .bottom h5 {
     font-size: 28px;
     font-weight: 800;
-    color: #edb552;
+    color: #f99600;
     margin: 0;
     text-align: center;
   }
@@ -663,7 +662,7 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    background-color: #edb552;
+    background-color: #f99600;
     color: white;
     padding: 10px 20px;
     border-radius: 4px;
@@ -703,7 +702,7 @@
     margin: 0;
     text-align: center;
     font-size: 28px;
-    color: #0072BC;
+    color: #0072bc;
   }
   .feeWrapper .right .bottomS button {
     outline: none;
@@ -724,15 +723,15 @@
     padding: 0px;
   }
   .feeWrapper .right .bottom .lefts .icon {
-    color: #0072BC;
+    color: #0072bc;
     font-size: 30px;
   }
   .feeWrapper .right .bottom .center .icon {
-    color: #0072BC;
+    color: #0072bc;
     font-size: 30px;
   }
   .feeWrapper .right .bottom .rights .icon {
-    color: #0072BC;
+    color: #0072bc;
     font-size: 30px;
   }
 

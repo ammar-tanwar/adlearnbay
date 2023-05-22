@@ -24,7 +24,7 @@
 }
 
 .RightDark {
-  background-color: #2d9cd7;
+  background-color: #0072bc;
   color: white;
   padding: 10px 0px;
   width: 40%;
@@ -35,7 +35,7 @@
 
 .RightFade {
   background-color: #fff;
-  color: #2d9cd7;
+  color: #0072bc;
   padding: 10px 0px;
   width: 40%;
   border-radius: 10px;
@@ -130,7 +130,7 @@
   margin-top: 20px;
 }
 .para {
-  border-left: 5px solid #2d9cd7;
+  border-left: 5px solid #0072bc;
   border-radius: 4px;
   padding-left: 10px;
 }
@@ -138,7 +138,6 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-
 }
 .leftBottom,
 .rightBottom {
@@ -175,7 +174,7 @@
 }
 .name p {
   font-size: 16px;
-  color: #2d9cd7;
+  color: #0072bc;
   margin: 0;
 }
 .name h5 {
@@ -189,9 +188,9 @@
   .CareerImpact {
     margin: 70px 30px;
   }
-.slide {
-  height: fit-content;
-}
+  .slide {
+    height: fit-content;
+  }
 }
 
 @media (max-width: 481px) {
@@ -256,14 +255,14 @@
     margin: 30px 0px 30px 0px;
   }
 
-.rightBottom {
-  display: block;
-  gap: 10px;
-  align-items: center;
-}
-.leftBottom {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
+  .rightBottom {
+    display: block;
+    gap: 10px;
+    align-items: center;
+  }
+  .leftBottom {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
 }

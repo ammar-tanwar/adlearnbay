@@ -28,8 +28,8 @@ const MultiTabs = () => {
               oneYear
                 ? {
                     background: "white",
-                    color: "#edb552",
-                    borderBottom: "3px solid #edb552",
+                    color: "#f99600",
+                    borderBottom: "3px solid #f99600",
                   }
                 : { background: "white" }
             }
@@ -48,8 +48,8 @@ const MultiTabs = () => {
               nonTech
                 ? {
                     background: "white",
-                    color: "#edb552",
-                    borderBottom: "3px solid #edb552",
+                    color: "#f99600",
+                    borderBottom: "3px solid #f99600",
                   }
                 : { background: "white" }
             }
@@ -68,8 +68,8 @@ const MultiTabs = () => {
               Stack
                 ? {
                     background: "white",
-                    color: "#edb552",
-                    borderBottom: "3px solid #edb552",
+                    color: "#f99600",
+                    borderBottom: "3px solid #f99600",
                   }
                 : { background: "white" }
             }
@@ -88,8 +88,8 @@ const MultiTabs = () => {
               Guarantee
                 ? {
                     background: "white",
-                    color: "#edb552",
-                    borderBottom: "3px solid #edb552",
+                    color: "#f99600",
+                    borderBottom: "3px solid #f99600",
                   }
                 : { background: "white" }
             }
@@ -108,7 +108,7 @@ const MultiTabs = () => {
                 height="15px"
                 layout="intrinsic"
                 className={styles.img}
-                 alt="data science course in bangalore"
+                alt="data science course in bangalore"
               />
               <h6>
                 Get Assured Job Referrals in Product Based MNCs with Dedicated
@@ -135,7 +135,7 @@ const MultiTabs = () => {
                 src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/Job+assistance+Program.png"
                 width="419"
                 height="412"
-                 alt="data science course in bangalore"
+                alt="data science course in bangalore"
               />
             </div>
           </div>
@@ -179,7 +179,7 @@ const MultiTabs = () => {
                 src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/IBM+Certified+Capstone+f-min.png"
                 width="504"
                 height="383"
-                 alt="data science course in bangalore"
+                alt="data science course in bangalore"
               />
             </div>
           </div>
@@ -222,7 +222,7 @@ const MultiTabs = () => {
               <Image
                 src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/special-classes-beigneers.webp"
                 width="400"
-                 alt="data science course in bangalore"
+                alt="data science course in bangalore"
                 height="412"
               />
             </div>
@@ -240,7 +240,7 @@ const MultiTabs = () => {
                 height="15px"
                 layout="intrinsic"
                 className={styles.img}
-                 alt="data science course in bangalore"
+                alt="data science course in bangalore"
               />
               <h6>
                 3 years of Flexible access for live Interactive online classes
@@ -263,7 +263,12 @@ const MultiTabs = () => {
               </div>
             </div>
             <div className={styles.right}>
-              <Image src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/flexibility+support+f-min.png" width="391" height="377"  alt="data science course in bangalore"/>
+              <Image
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/flexibility+support+f-min.png"
+                width="391"
+                height="377"
+                alt="data science course in bangalore"
+              />
             </div>
           </div>
         ) : (

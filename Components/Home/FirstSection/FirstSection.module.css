@@ -20,7 +20,7 @@
 
 .First span {
   font-size: 18px;
-  color: #2d9cd7;
+  color: #0072bc;
 }
 
 .FirstP {
@@ -52,14 +52,14 @@
   font-size: 16px;
 }
 
-@media (min-width: 	1280px) {
+@media (min-width: 1280px) {
   .First {
     margin-top: 70px;
-  
+
     padding: 100px;
     display: grid;
     grid-template-columns: 50% 50%;
-  
+
     background-image: url("/Banner-image-desktop-version.png");
     background-position: right;
     background-repeat: no-repeat;

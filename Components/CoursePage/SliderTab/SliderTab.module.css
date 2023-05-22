@@ -31,7 +31,7 @@
 }
 .tick {
   font-size: 20px;
-  color: #2d9cd7;
+  color: #0072bc;
 }
 .courses {
   background: #ffffff;
@@ -108,7 +108,7 @@
   font-size: 18px;
   margin: 0;
   padding-left: 15px;
-  border-left: 5px solid #edb552;
+  border-left: 5px solid #f99600;
   margin-top: 15px;
 }
 .gridPanel .left h6 {
@@ -166,7 +166,7 @@
   padding-left: 0px;
 }
 .info .middle h4 {
-  color: #edb552;
+  color: #f99600;
 }
 .info p {
   margin: 0;

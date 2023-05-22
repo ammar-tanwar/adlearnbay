@@ -38,7 +38,7 @@
     align-items: center;
     width: max-content;
     font-size: 39px;
-    background-color: #edb552;
+    background-color: #f99600;
   }
   .pBot {
     font-size: 18px;
@@ -61,13 +61,13 @@
     font-weight: 400;
     border-radius: 6px;
     padding: 16px 35px;
-    box-shadow: #2d9cd7 0px 0px 4px 0px;
+    box-shadow: #0072bc 0px 0px 4px 0px;
     margin-right: 50px;
   }
   .btnWrapper button:hover {
     background-color: #fff;
-    color: #2d9cd7;
-    border: 1px solid #2d9cd7;
+    color: #0072bc;
+    border: 1px solid #0072bc;
   }
   .first {
     background: rgb(255, 250, 251);
@@ -152,14 +152,14 @@
   .bottom h5 {
     font-size: 27px;
     margin: 0;
-    color: #edb552;
+    color: #f99600;
   }
   .bottom p {
     margin: 0;
     color: #646464;
   }
   .gIcon {
-    background-color: #2d9cd7;
+    background-color: #0072bc;
     font-size: 30px;
     color: white;
     padding: 5px;
@@ -175,7 +175,7 @@
     border-radius: 50%;
   }
   .gIcon2 {
-    background-color: #2d9cd7;
+    background-color: #0072bc;
     font-size: 30px;
     color: white;
     padding: 5px;
@@ -243,10 +243,10 @@
     align-items: center;
     width: max-content;
     font-size: 32px;
-    background-color: #edb552;
+    background-color: #f99600;
   }
   .left h1 p {
-    color: #2d9cd7;
+    color: #0072bc;
     margin: 0;
     font-size: 27px;
   }
@@ -269,7 +269,7 @@
     margin-right: 20px;
   }
   .btnWrapper button:hover {
-    background-color: #2d9cd7;
+    background-color: #0072bc;
   }
 
   .btnWrapper h5 {
@@ -307,7 +307,7 @@
   .bottom h5 {
     font-size: 27px;
     margin: 0;
-    color: #edb552;
+    color: #f99600;
   }
   .bottom p {
     margin: 0;
@@ -355,7 +355,7 @@
     padding: 5px;
 
     font-size: 26px;
-    background-color: #edb552;
+    background-color: #f99600;
   }
 
   .left p {
@@ -389,7 +389,7 @@
     margin-right: 20px;
   }
   .btnWrapper button:hover {
-    background-color: #2d9cd7;
+    background-color: #0072bc;
   }
   .first {
     background: rgb(255, 250, 251);
@@ -471,7 +471,7 @@
     display: flex;
     flex-flow: row;
     margin-top: 10px;
-    gap: 20px;  
+    gap: 20px;
     border-radius: 20px;
   }
 
@@ -484,11 +484,11 @@
     font-size: 22px;
     margin: 0;
 
-    color: #edb552;
+    color: #f99600;
   }
 
   .gIcon {
-    background-color: #2d9cd7;
+    background-color: #0072bc;
     font-size: 30px;
     color: white;
     padding: 5px;
@@ -504,7 +504,7 @@
     border-radius: 50%;
   }
   .gIcon2 {
-    background-color: #2d9cd7;
+    background-color: #0072bc;
     font-size: 30px;
     color: white;
     padding: 5px;

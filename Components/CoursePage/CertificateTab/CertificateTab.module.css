@@ -13,10 +13,7 @@
   padding: 0;
   font-weight: 700;
   text-align: center;
-  
-
 }
-
 
 .certificate h2 {
   text-align: center;
@@ -43,7 +40,7 @@
 
 .tick {
   font-size: 20px;
-  color: #2d9cd7;
+  color: #0072bc;
 }
 
 .certificates {
@@ -121,7 +118,7 @@
 .checkCircle {
   margin-right: 15px;
   font-size: 24px;
-  color: #2d9cd7;
+  color: #0072bc;
 }
 
 .btnWrapper {
@@ -155,8 +152,6 @@
     padding: 0;
     font-weight: 700;
     text-align: center;
-    
-  
   }
 
   .certificate h2 {

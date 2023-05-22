@@ -20,7 +20,7 @@
 }
 .tick {
   font-size: 20px;
-  color: #2d9cd7;
+  color: #0072bc;
 }
 .courses {
   box-shadow: rgba(133, 222, 255, 0.634) 0px 3px 8px;
@@ -37,7 +37,7 @@
   cursor: pointer;
   background-color: #e5f3fa;
   justify-content: start;
-  border-left: 1px solid #2D9CD750;
+  border-left: 1px solid #0072bc50;
 }
 .gridPanel {
   display: flex;
@@ -66,7 +66,7 @@
   margin: 0;
   margin-top: 10px;
 
-  color: #2d9cd7;
+  color: #0072bc;
 }
 .leftSide p,
 .middleSide p,

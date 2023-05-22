@@ -75,7 +75,7 @@
 
 .FirstText h3 {
   font-size: 30px;
-  color: #28557a;
+  color: #0072bc;
   margin: 0;
 }
 .iconBox {
@@ -102,7 +102,7 @@
   color: white;
 }
 .DivIcon button:hover {
-  background-color: #edb552;
+  background-color: #f99600;
   border: 0;
 }
 .BIcon {

@@ -28,7 +28,12 @@ const Course = ({ popupHead, radio }) => {
         <div className="RightPopup">
           <h5>Download Brochure</h5>
           <p>Please enter the following details to initiate your download</p>
-          <Form setTrigger={setPopups} downloadBrochure radio={true} referral={true}/>
+          <Form
+            setTrigger={setPopups}
+            downloadBrochure
+            radio={true}
+            referral={true}
+          />
         </div>
       </Popup>
       <div className={styles.courses}>
@@ -40,7 +45,7 @@ const Course = ({ popupHead, radio }) => {
             }}
             style={
               nonTech
-                ? { background: "white", color: "#2D9CD7" }
+                ? { background: "white", color: "#0072bc" }
                 : { background: "#E5F3FA" }
             }
           >
@@ -53,7 +58,7 @@ const Course = ({ popupHead, radio }) => {
             }}
             style={
               Stack
-                ? { background: "white", color: "#2D9CD7" }
+                ? { background: "white", color: "#0072bc" }
                 : { background: "#E5F3FA" }
             }
           >
@@ -95,10 +100,10 @@ const Course = ({ popupHead, radio }) => {
         ) : (
           ""
         )}
-          <button className={styles.btnWrapper} onClick={popupShow}>
-            Download Brochure
-            <FaDownload style={{ marginLeft: "10px" }} />
-          </button>
+        <button className={styles.btnWrapper} onClick={popupShow}>
+          Download Brochure
+          <FaDownload style={{ marginLeft: "10px" }} />
+        </button>
       </div>
       <div className={styles.img}>
         <Image

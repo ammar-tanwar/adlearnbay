@@ -22,7 +22,7 @@ import {
   StackD,
 } from "./courseDetails";
 
-const Course = ({common,formotp}) => {
+const Course = ({ common, formotp }) => {
   const [viewAll, setViewAll] = useState(false);
   const [oneYear, setOneYear] = useState(true);
   const [nonTech, setNonTech] = useState(false);
@@ -88,12 +88,12 @@ const Course = ({common,formotp}) => {
           ></div>
         </div>
         <div className="RightPopup">
-          <h5 style={{fontSize:"22px"}}>Download Brochure</h5>
+          <h5 style={{ fontSize: "22px" }}>Download Brochure</h5>
           <p>Please enter the following details to initiate your download</p>
-          { formotp ? (
-              <FormOtp popup={true} downloadBrochure radio={true}/>
+          {formotp ? (
+            <FormOtp popup={true} downloadBrochure radio={true} />
           ) : (
-          <Form setTrigger={setPopups} downloadBrochure radio={true} />
+            <Form setTrigger={setPopups} downloadBrochure radio={true} />
           )}
         </div>
       </Popup>
@@ -112,7 +112,7 @@ const Course = ({common,formotp}) => {
             }}
             style={
               oneYear
-                ? { background: "white", color: "#2D9CD7" }
+                ? { background: "white", color: "#0072bc" }
                 : { background: "#E5F3FA" }
             }
           >
@@ -128,7 +128,7 @@ const Course = ({common,formotp}) => {
             }}
             style={
               nonTech
-                ? { background: "white", color: "#2D9CD7" }
+                ? { background: "white", color: "#0072bc" }
                 : { background: "#E5F3FA" }
             }
           >
@@ -144,7 +144,7 @@ const Course = ({common,formotp}) => {
             }}
             style={
               Stack
-                ? { background: "white", color: "#2D9CD7" }
+                ? { background: "white", color: "#0072bc" }
                 : { background: "#E5F3FA" }
             }
           >
@@ -160,7 +160,7 @@ const Course = ({common,formotp}) => {
             }}
             style={
               Guarantee
-                ? { background: "white", color: "#2D9CD7" }
+                ? { background: "white", color: "#0072bc" }
                 : { background: "#E5F3FA" }
             }
           >
@@ -176,7 +176,7 @@ const Course = ({common,formotp}) => {
             }}
             style={
               viewAll
-                ? { background: "white", color: "#2D9CD7" }
+                ? { background: "white", color: "#0072bc" }
                 : { background: "#E5F3FA" }
             }
           >
@@ -222,7 +222,7 @@ const Course = ({common,formotp}) => {
                           <p>
                             <AiOutlineFundProjectionScreen
                               className={styles.checkCircle}
-                              style={{ color: "#edb552" }}
+                              style={{ color: "#f99600" }}
                             />
                             {para[1]}
                           </p>
@@ -231,12 +231,14 @@ const Course = ({common,formotp}) => {
                             {para[2]}
                           </p>
                           <div className={styles.btnWrapper}>
-                            { common ? (<a onClick={popupShow}>
-                              <button>View Details</button>
-                            </a>) : (
-                            <a href={link1}>
-                              <button>View Details</button>
-                            </a>
+                            {common ? (
+                              <a onClick={popupShow}>
+                                <button>View Details</button>
+                              </a>
+                            ) : (
+                              <a href={link1}>
+                                <button>View Details</button>
+                              </a>
                             )}
                             <a onClick={popupShow}>
                               <button
@@ -299,7 +301,7 @@ const Course = ({common,formotp}) => {
                         <p>
                           <AiOutlineFundProjectionScreen
                             className={styles.checkCircle}
-                            style={{ color: "#edb552" }}
+                            style={{ color: "#f99600" }}
                           />
                           {para[1]}
                         </p>
@@ -308,13 +310,15 @@ const Course = ({common,formotp}) => {
                           {para[2]}
                         </p>
                         <div className={styles.btnWrapper}>
-                          { common ? (<a onClick={popupShow}>
+                          {common ? (
+                            <a onClick={popupShow}>
                               <button>View Details</button>
-                            </a>) : (
+                            </a>
+                          ) : (
                             <a href={link1}>
                               <button>View Details</button>
                             </a>
-                            )}
+                          )}
                           <a onClick={popupShow}>
                             <button
                               className="outLineBtn"
@@ -378,7 +382,7 @@ const Course = ({common,formotp}) => {
                           <p>
                             <AiOutlineFundProjectionScreen
                               className={styles.checkCircle}
-                              style={{ color: "#edb552" }}
+                              style={{ color: "#f99600" }}
                             />
                             {para[1]}
                           </p>
@@ -387,12 +391,14 @@ const Course = ({common,formotp}) => {
                             {para[2]}
                           </p>
                           <div className={styles.btnWrapper}>
-                          { common ? (<a onClick={popupShow}>
-                              <button>View Details</button>
-                            </a>) : (
-                            <a href={link1}>
-                              <button>View Details</button>
-                            </a>
+                            {common ? (
+                              <a onClick={popupShow}>
+                                <button>View Details</button>
+                              </a>
+                            ) : (
+                              <a href={link1}>
+                                <button>View Details</button>
+                              </a>
                             )}
                             <a onClick={popupShow}>
                               <button
@@ -462,7 +468,7 @@ const Course = ({common,formotp}) => {
                         <p>
                           <AiOutlineFundProjectionScreen
                             className={styles.checkCircle}
-                            style={{ color: "#edb552" }}
+                            style={{ color: "#f99600" }}
                           />
                           {para[1]}
                         </p>
@@ -471,13 +477,15 @@ const Course = ({common,formotp}) => {
                           {para[2]}
                         </p>
                         <div className={styles.btnWrapper}>
-                          { common ? (<a onClick={popupShow}>
+                          {common ? (
+                            <a onClick={popupShow}>
                               <button>View Details</button>
-                            </a>) : (
+                            </a>
+                          ) : (
                             <a href={link1}>
                               <button>View Details</button>
                             </a>
-                            )}
+                          )}
                           <a onClick={popupShow}>
                             <button
                               className="outLineBtn"
@@ -541,7 +549,7 @@ const Course = ({common,formotp}) => {
                           <p>
                             <AiOutlineFundProjectionScreen
                               className={styles.checkCircle}
-                              style={{ color: "#edb552" }}
+                              style={{ color: "#f99600" }}
                             />
                             {para[1]}
                           </p>
@@ -550,12 +558,14 @@ const Course = ({common,formotp}) => {
                             {para[2]}
                           </p>
                           <div className={styles.btnWrapper}>
-                          { common ? (<a onClick={popupShow}>
-                              <button>View Details</button>
-                            </a>) : (
-                            <a href={link1}>
-                              <button>View Details</button>
-                            </a>
+                            {common ? (
+                              <a onClick={popupShow}>
+                                <button>View Details</button>
+                              </a>
+                            ) : (
+                              <a href={link1}>
+                                <button>View Details</button>
+                              </a>
                             )}
                             <a onClick={popupShow}>
                               <button
@@ -618,7 +628,7 @@ const Course = ({common,formotp}) => {
                         <p>
                           <AiOutlineFundProjectionScreen
                             className={styles.checkCircle}
-                            style={{ color: "#edb552" }}
+                            style={{ color: "#f99600" }}
                           />
                           {para[1]}
                         </p>
@@ -697,7 +707,7 @@ const Course = ({common,formotp}) => {
                           <p>
                             <AiOutlineFundProjectionScreen
                               className={styles.checkCircle}
-                              style={{ color: "#edb552" }}
+                              style={{ color: "#f99600" }}
                             />
                             {para[1]}
                           </p>
@@ -706,12 +716,14 @@ const Course = ({common,formotp}) => {
                             {para[2]}
                           </p>
                           <div className={styles.btnWrapper}>
-                          { common ? (<a onClick={popupShow}>
-                              <button>View Details</button>
-                            </a>) : (
-                            <a href={link1}>
-                              <button>View Details</button>
-                            </a>
+                            {common ? (
+                              <a onClick={popupShow}>
+                                <button>View Details</button>
+                              </a>
+                            ) : (
+                              <a href={link1}>
+                                <button>View Details</button>
+                              </a>
                             )}
                             <a onClick={popupShow}>
                               <button
@@ -772,7 +784,7 @@ const Course = ({common,formotp}) => {
                         <p>
                           <AiOutlineFundProjectionScreen
                             className={styles.checkCircle}
-                            style={{ color: "#edb552" }}
+                            style={{ color: "#f99600" }}
                           />
                           {para[1]}
                         </p>
@@ -781,13 +793,15 @@ const Course = ({common,formotp}) => {
                           {para[2]}
                         </p>
                         <div className={styles.btnWrapper}>
-                          { common ? (<a onClick={popupShow}>
+                          {common ? (
+                            <a onClick={popupShow}>
                               <button>View Details</button>
-                            </a>) : (
+                            </a>
+                          ) : (
                             <a href={link1}>
                               <button>View Details</button>
                             </a>
-                            )}
+                          )}
                           <a onClick={popupShow}>
                             <button
                               className="outLineBtn"
