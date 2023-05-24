@@ -23,15 +23,15 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Online Data Science Course</title>
+        <title>Learn machine learning online course</title>
         <meta
           name="description"
-          content="Want to earn salary hike of 250% ? Our Data Science course 
- will boost salary. Apply Now!"
+          content="Top Online Machine Learning Institute with 3 years 
+of course subscription and Lifetime access to recoded classes"
         />
         <meta
           name="Keywords"
-          content="data science course, data science course for working professional, data science course fee, data science course duration, data science course syllabus, data science online course"
+          content="ml course, online ml course, machine learning course with  placement assistance , machine learning course fee, machine learning course, machine learning course duration, online machine learning course"
         />
 
         <link
@@ -84,7 +84,8 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} brochureButton={true} formotp={true} />
+        <Navbar popup={true} brochureButton={true} formotp={true}
+        s2dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -96,12 +97,12 @@ export default function Home() {
         </Popup>
         <HeroSection
           formotp={true}
-          deskTopPara="Choose Specialization over Generalization"
-          h1="Data Science Course In "
-          hSpan="Delhi"
-          para="Successfully transition careers through our courses & real-time capstone projects. 
-          All while making your previous work experience count!"
-          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/delhi-generic.png"
+          s2dataScience={true}
+          deskTopPara="Boost Your Professional Growth To a Whole New Level"
+          h1="Machine Learning Course in "
+          hSpan="Kolkata"
+          para="With demanding industry projects, you can acquire the most advanced technical expertise possible. Be a master even without a master's degree."
+          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/kolkata-generic.png"
         />
         <SecondSection
           p1="IBM Certified"
@@ -113,7 +114,8 @@ export default function Home() {
           p4="1:1 Support"
           p44="Dedicated Program"
         />
-        <ThirdSection formotp={true} />
+        <ThirdSection formotp={true}
+        s2dataScience={true} />
         <FourthSection
           h1="Program Highlights"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
@@ -123,9 +125,10 @@ export default function Home() {
         />
         <SyllabusSection
           formotp={true}
-          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our data science course feature practical training with real-time projects and case studies."
-          Hours="250+ Hours"
-          Projects="12+ projects"
+          s2dataScience={true}
+          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our Machine Learning Course feature practical training with real-time projects and case studies."
+          Hours="350+ Hours"
+          Projects="15+ projects"
           Module0="Preparatory Classes (Programming + Maths)"
           Module1="Python for Data Science"
           Module2="Statistics and Machine Learning"
@@ -133,9 +136,11 @@ export default function Home() {
           Module4="Artificial Intelligence Tools"
         />
         <SliderTab />
-        <Testimonial formotp={true} />
+        <Testimonial formotp={true}
+        s2dataScience={true} />
         <SeventhSection />
-        <EightSection formotp={true} />
+        <EightSection formotp={true}
+        s2dataScience={true} />
       </main>
     </div>
   );

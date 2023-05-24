@@ -84,7 +84,8 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} brochureButton={true} formotp={true} />
+        <Navbar popup={true} brochureButton={true} formotp={true} 
+        s2dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -95,13 +96,14 @@ export default function Home() {
           </div>
         </Popup>
         <HeroSection
-          formotp={true}
+          formotp={true} 
+          s2dataScience={true}
           deskTopPara="Choose Specialization over Generalization"
           h1="Data Science Course In "
-          hSpan="Delhi"
+          hSpan="Kolkata"
           para="Successfully transition careers through our courses & real-time capstone projects. 
           All while making your previous work experience count!"
-          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/delhi-generic.png"
+          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/kolkata-generic.png"
         />
         <SecondSection
           p1="IBM Certified"
@@ -113,7 +115,8 @@ export default function Home() {
           p4="1:1 Support"
           p44="Dedicated Program"
         />
-        <ThirdSection formotp={true} />
+        <ThirdSection formotp={true} 
+        s2dataScience={true} />
         <FourthSection
           h1="Program Highlights"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
@@ -122,7 +125,8 @@ export default function Home() {
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
         />
         <SyllabusSection
-          formotp={true}
+          formotp={true} 
+          s2dataScience={true}
           desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our data science course feature practical training with real-time projects and case studies."
           Hours="250+ Hours"
           Projects="12+ projects"
@@ -133,9 +137,11 @@ export default function Home() {
           Module4="Artificial Intelligence Tools"
         />
         <SliderTab />
-        <Testimonial formotp={true} />
+        <Testimonial formotp={true} 
+        s2dataScience={true} />
         <SeventhSection />
-        <EightSection formotp={true} />
+        <EightSection formotp={true} 
+        s2dataScience={true} />
       </main>
     </div>
   );

@@ -23,17 +23,16 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Online Data Science Course</title>
+        <title>Data Analytics Course</title>
         <meta
           name="description"
-          content="Want to earn salary hike of 250% ? Our Data Science course 
- will boost salary. Apply Now!"
-        />
+          content="Top Online Data Analytics Course with 2 years of 
+course subscription and 24/7 support"
+        />{" "}
         <meta
           name="Keywords"
-          content="data science course, data science course for working professional, data science course fee, data science course duration, data science course syllabus, data science online course"
+          content="data analytics course, data analytics institute, data analytics course fee, data analytics certification, data analytics training, business analytics course, data analytics course duration, business analytics institute, business analytics certification, business analytics training"
         />
-
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
@@ -84,7 +83,8 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} brochureButton={true} formotp={true} />
+        <Navbar popup={true} brochureButton={true} formotp={true} 
+        s2dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -95,13 +95,13 @@ export default function Home() {
           </div>
         </Popup>
         <HeroSection
-          formotp={true}
-          deskTopPara="Choose Specialization over Generalization"
-          h1="Data Science Course In "
-          hSpan="Delhi"
-          para="Successfully transition careers through our courses & real-time capstone projects. 
-          All while making your previous work experience count!"
-          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/delhi-generic.png"
+          formotp={true} 
+          s2dataScience={true}
+          deskTopPara="Get ahead of the competition with popular skill sets."
+          h1="Data Analytics Course in "
+          hSpan="Kolkata"
+          para="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
+          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/kolkata-generic.png"
         />
         <SecondSection
           p1="IBM Certified"
@@ -113,7 +113,8 @@ export default function Home() {
           p4="1:1 Support"
           p44="Dedicated Program"
         />
-        <ThirdSection formotp={true} />
+        <ThirdSection formotp={true} 
+        s2dataScience={true} />
         <FourthSection
           h1="Program Highlights"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
@@ -122,20 +123,23 @@ export default function Home() {
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
         />
         <SyllabusSection
-          formotp={true}
-          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our data science course feature practical training with real-time projects and case studies."
-          Hours="250+ Hours"
-          Projects="12+ projects"
+          formotp={true} 
+          s2dataScience={true}
+          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our Data Analytics Course feature practical training with real-time projects and case studies."
+          Hours="180+ Hours"
+          Projects="8+ projects"
           Module0="Preparatory Classes (Programming + Maths)"
-          Module1="Python for Data Science"
-          Module2="Statistics and Machine Learning"
-          Module3="Data Science Course Tools"
-          Module4="Artificial Intelligence Tools"
+          Module1="Python Programming"
+          Module2="Statistics & Basic Machine Learning"
+          Module3="Data Analytics Course Tools"
+          Module4="Essentials Tools"
         />
         <SliderTab />
-        <Testimonial formotp={true} />
+        <Testimonial formotp={true} 
+        s2dataScience={true} />
         <SeventhSection />
-        <EightSection formotp={true} />
+        <EightSection formotp={true} 
+        s2dataScience={true} />
       </main>
     </div>
   );
