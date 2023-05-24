@@ -23,15 +23,15 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Online Data Science Course</title>
+        <title>Business Analytics course</title>
         <meta
           name="description"
-          content="Want to earn salary hike of 250% ? Our Data Science course 
- will boost salary. Apply Now!"
+          content="Top Online Business Analytics Course with 
+3 years of course subscription & 24/7 support"
         />
         <meta
           name="Keywords"
-          content="data science course, data science course for working professional, data science course fee, data science course duration, data science course syllabus, data science online course"
+          content="business analyst course fee, business analyst course details, course of business analystics, business analytics programs, business analytics online course, business analytics course for working professionals, business analytics course, Learn online business analytics course"
         />
 
         <link
@@ -84,7 +84,8 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} brochureButton={true} formotp={true} />
+        <Navbar popup={true} brochureButton={true} formotp={true}
+        s2dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -96,12 +97,12 @@ export default function Home() {
         </Popup>
         <HeroSection
           formotp={true}
-          deskTopPara="Choose Specialization over Generalization"
-          h1="Data Science Course In "
-          hSpan="Delhi"
-          para="Successfully transition careers through our courses & real-time capstone projects. 
-          All while making your previous work experience count!"
-          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/delhi-generic.png"
+          s2dataScience={true}
+          deskTopPara="Develop Work-Ready Skills You Can Use Right Away"
+          h1="Business Analytics Course in"
+          hSpan="Kolkata"
+          para="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
+          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/kolkata-generic.png"
         />
         <SecondSection
           p1="IBM Certified"
@@ -113,7 +114,8 @@ export default function Home() {
           p4="1:1 Support"
           p44="Dedicated Program"
         />
-        <ThirdSection formotp={true} />
+        <ThirdSection formotp={true}
+        s2dataScience={true} />
         <FourthSection
           h1="Program Highlights"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
@@ -123,19 +125,22 @@ export default function Home() {
         />
         <SyllabusSection
           formotp={true}
-          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our data science course feature practical training with real-time projects and case studies."
-          Hours="250+ Hours"
-          Projects="12+ projects"
+          s2dataScience={true}
+          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our Business Analytics Course feature practical training with real-time projects and case studies."
+          Hours="200+ Hours"
+          Projects="8+ projects"
           Module0="Preparatory Classes (Programming + Maths)"
           Module1="Python for Data Science"
-          Module2="Statistics and Machine Learning"
-          Module3="Data Science Course Tools"
-          Module4="Artificial Intelligence Tools"
+          Module2="Statistics"
+          Module3="Data Science Tools"
+          Module4="Essentials"
         />
         <SliderTab />
-        <Testimonial formotp={true} />
+        <Testimonial formotp={true}
+        s2dataScience={true} />
         <SeventhSection />
-        <EightSection formotp={true} />
+        <EightSection formotp={true}
+        s2dataScience={true} />
       </main>
     </div>
   );

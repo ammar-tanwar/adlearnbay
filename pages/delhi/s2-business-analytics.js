@@ -98,7 +98,7 @@ export default function Home() {
           formotp={true}
           deskTopPara="Develop Work-Ready Skills You Can Use Right Away"
           h1="Business Analytics Course in"
-          hSpan="Chennai"
+          hSpan="Delhi"
           para="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
           sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/delhi-generic.png"
         />

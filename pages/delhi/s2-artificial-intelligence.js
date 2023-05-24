@@ -96,7 +96,7 @@ export default function Home() {
           formotp={true}
           deskTopPara="Boost Your Professional Growth To a Whole New Level"
           h1="Artificial Intelligence Course in "
-          hSpan="Chennai"
+          hSpan="Delhi"
           para="With demanding industry projects, you can acquire the most advanced technical expertise possible. Be a master even without a master's degree."
           sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/delhi-generic.png"
         />

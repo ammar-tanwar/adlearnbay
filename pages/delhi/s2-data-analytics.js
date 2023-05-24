@@ -97,7 +97,7 @@ course subscription and 24/7 support"
           formotp={true}
           deskTopPara="Get ahead of the competition with popular skill sets."
           h1="Data Analytics Course in "
-          hSpan="Chennai"
+          hSpan="Kolkata"
           para="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
           sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/delhi-generic.png"
         />
