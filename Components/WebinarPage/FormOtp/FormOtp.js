@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from "./FormOtp.module.css";
-import { useRouter } from "next/router";
+import Router, { useRouter } from "next/router";
 import PhoneInput from "react-phone-number-input";
 import jsCookie from "js-cookie";
 
@@ -130,6 +130,11 @@ function FormOtp({
     // -==================== Webinar = END POINT ==========================--------
   }
 
+  if (router.pathname === "/info-webinar")
+  {
+    endPoint = "https://getform.io/f/a0a0fb5b-0cba-4b29-9d35-03c35d0e0d28";
+  }
+
   let btnTxt = "Apply for  Counseliing";
   if (domain) {
     btnTxt = "Register Now";
@@ -255,6 +260,7 @@ function FormOtp({
 
         if (
           router.pathname === "/fssd" ||
+          router.pathname === "/info-webinar" ||
           router.pathname === "/fswd" ||
           router.pathname === "/dsa" ||
           router.pathname === "/fssd-s2" ||
@@ -364,6 +370,7 @@ function FormOtp({
 
           if (
             router.pathname === "/fssd" ||
+            router.pathname === "/info-webinar" ||
             router.pathname === "/fswd" ||
             router.pathname === "/dsa" ||
             router.pathname === "/fssd-s2" ||
