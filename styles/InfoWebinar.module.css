@@ -1,0 +1,169 @@
+.mains {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.Back {
+  background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/Webinar-info-Header.png");
+  height: fit-content;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 60% 35%;
+  gap: 60px;
+  align-items: center;
+  margin: auto;
+  padding: 0px 100px;
+  margin-top: 70px;
+  color: black;
+}
+
+.thankh4 {
+  font-size: 50px;
+  margin: 0;
+  line-height: 40px;
+  margin-bottom: 40px;
+  color: #0072bc;
+  text-align: left;
+}
+
+.thankspan {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1px;
+  color: #000;
+}
+
+.formDomain {
+  background-color: #ffffff;
+  display: flex;
+  flex-flow: column;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 5px 0 rgb(45 156 215 / 31%);
+  margin: 50px 0px;
+}
+
+.headerDomain {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerDomain h3 {
+  margin: auto;
+  color: #000;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.webinar {
+  background: #fff;
+  padding: 0px 100px;
+}
+
+.headingH4 h4 {
+  margin-top: 50px;
+}
+
+.webinarDiv h4,
+.webinarDivFull h4 {
+  font-size: 30px;
+  text-align: left;
+}
+
+.webinarDiv {
+  padding: 20px 50px;
+}
+
+.webinarDivFull {
+  padding: 50px 50px;
+}
+
+.DivBox, .DivBoxUp, .DivBoxFull {
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+}
+
+.DivBoxUp {
+  margin-bottom: 50px;
+}
+
+.cards button {
+  margin: auto;
+  margin-top: 20px;
+  font-size: 16px;
+  padding: 12px 30px;
+  font-weight: 600;
+}
+
+@media (max-width: 481px) {
+  .mains {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .Back {
+    height: 100%;
+    background: aliceblue;
+    text-align: left;
+    padding: 40px 20px 30px 20px;
+    display: block;
+  }
+
+  .thankspan {
+    font-size: 20px;
+  }
+
+  .thankh4 {
+    line-height: 30px;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .webinar {
+    padding: 0px 20px;
+  }
+
+  .webinarDiv, .webinarDivFull {
+    padding: 0;
+  }
+
+  .webinarDivFull {
+    padding: 30px 0px 50px 0px;
+  }
+
+  .DivBox {
+    gap: 0px;
+  }
+
+  .DivBoxFull {
+    display: grid;
+    grid-template-columns: 80% 80% 80% 80%;
+    gap: 20px;
+    overflow: scroll;
+  }
+
+  .DivBoxUp {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .webinarDiv h4,
+.webinarDivFull h4 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.headingH4 h4 {
+  font-size: 30px;
+}
+}
