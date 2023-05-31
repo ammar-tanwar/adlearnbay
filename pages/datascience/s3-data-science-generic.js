@@ -12,6 +12,7 @@ import FourthSection from "../../Components/LightTheme/FourthSection/FourthSecti
 import SeventhSection from "../../Components/LightTheme/SeventhSection/SeventhSection";
 import EightSection from "../../Components/LightTheme/EightSection/EightSection";
 import SyllabusSection from "../../Components/LightTheme/SyllabusSection/SyllabusSection";
+import DemoClass from "../../Components/LightTheme/DemoClass/DemoClass";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -154,6 +155,13 @@ export default function Home() {
           Module3="Data Science Course Tools"
           Module4="Artificial Intelligence Tools"
         />
+        {/* <DemoClass
+          formotp={true}
+          grad={true}
+          jobDescription={true}
+          workExperience={true}
+          s2dataScience={true}
+        /> */}
         <SliderTab />
         <Testimonial
           formotp={true}
