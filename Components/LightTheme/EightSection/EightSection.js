@@ -5,8 +5,15 @@ import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
 import { FaDownload } from "react-icons/fa";
 
-function EightSection({DownloadSyllabus, formotp, s2dataScience, grad, jobDescription,
-  workExperience,}) {
+function EightSection({
+  DownloadSyllabus,
+  formotp,
+  s2dataScience,
+  marketing,
+  grad,
+  jobDescription,
+  workExperience,
+}) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -39,33 +46,42 @@ function EightSection({DownloadSyllabus, formotp, s2dataScience, grad, jobDescri
           <div className="whiteP" />
         </div>
         <div className="RightPopup">
-        {DownloadSyllabus ? (
-                <h5>Download Syllabus</h5>
+          {DownloadSyllabus ? (
+            <h5>Download Syllabus</h5>
           ) : (
-          <h5>Download Brochure</h5>
+            <h5>Download Brochure</h5>
           )}
           {formotp ? (
-                    <FormOtp popup={true} downloadBrochure setTrigger={setPopups} s2dataScience={s2dataScience} grad={grad} jobDescription={jobDescription} workExperience={workExperience}/>
-                  ) : (
-                    <Form popup={true} downloadBrochure setTrigger={setPopups} />
-                  )}
+            <FormOtp
+              popup={true}
+              downloadBrochure
+              setTrigger={setPopups}
+              s2dataScience={s2dataScience}
+              marketing={marketing}
+              grad={grad}
+              jobDescription={jobDescription}
+              workExperience={workExperience}
+            />
+          ) : (
+            <Form popup={true} downloadBrochure setTrigger={setPopups} />
+          )}
         </div>
       </Popup>
       <div>
         <p>Learn industry-relevant skills and build a rewarding career</p>
       </div>
       <div>
-      {DownloadSyllabus ? (
-            <button onClick={popupShow} className={styles.buttonDiv}>
-              Download Syllabus
-              <FaDownload className={styles.icon} />
-            </button>
-          ) : (
-        <button onClick={popupShow} className={styles.buttonDiv}>
-          Download Brochure
-          <FaDownload className={styles.icon} />
-        </button>
-          )}
+        {DownloadSyllabus ? (
+          <button onClick={popupShow} className={styles.buttonDiv}>
+            Download Syllabus
+            <FaDownload className={styles.icon} />
+          </button>
+        ) : (
+          <button onClick={popupShow} className={styles.buttonDiv}>
+            Download Brochure
+            <FaDownload className={styles.icon} />
+          </button>
+        )}
       </div>
     </section>
   );

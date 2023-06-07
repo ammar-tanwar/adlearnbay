@@ -19,6 +19,7 @@ function FormOtp({
   jobTitle,
   scholarship,
   s2dataScience,
+  marketing,
   GraduationYear,
   grad,
   ProgrammingSkills,
@@ -97,6 +98,12 @@ function FormOtp({
     // -==================== Google - S2 END POINT ==========================--------
     endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
     // -==================== Google - S2 END POINT ==========================--------
+  }
+
+  if (marketing) {
+    // -==================== Marketing ==========================--------
+    endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
+    // -==================== Marketing ==========================--------
   }
 
   if (router.pathname === "/s3-data-science") {
@@ -1007,6 +1014,11 @@ function FormOtp({
 
           return;
         }
+        if (marketing) {
+          router.push("/Thank-you");
+
+          return;
+        }
       }
     } else {
       setToggle(false);
@@ -1623,6 +1635,11 @@ function FormOtp({
           }
 
           if (s2dataScience) {
+            router.push("/Thank-you");
+            return;
+          }
+
+          if (marketing) {
             router.push("/Thank-you");
             return;
           }

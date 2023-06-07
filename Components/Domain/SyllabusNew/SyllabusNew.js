@@ -31,6 +31,7 @@ function SyllabusNew({
   syllabusFormotp,
   formotpForS3DS,
   s2dataScience,
+  marketing,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -80,7 +81,11 @@ function SyllabusNew({
           ) : (
             <>
               {formotp ? (
-                <FormOtp popup={true} s2dataScience={s2dataScience}/>
+                <FormOtp
+                  popup={true}
+                  s2dataScience={s2dataScience}
+                  marketing={marketing}
+                />
               ) : (
                 <Form setTrigger={setPopups} downloadBrochure />
               )}
@@ -252,7 +257,10 @@ function SyllabusNew({
                     />
                   ) : (
                     <>
-                      <FormOtp s2dataScience={s2dataScience}/>
+                      <FormOtp
+                        s2dataScience={s2dataScience}
+                        marketing={marketing}
+                      />
                     </>
                   )}
                 </>
@@ -267,18 +275,22 @@ function SyllabusNew({
                     </a>
                   ) : (
                     <>
-                    {formotp ?(
-                      <FormOtp popup={true} s2dataScience={s2dataScience}/>
-                      ):(
-                    <Form
-                      dataScience={dataScience}
-                      redirectDs={redirectDs}
-                      redirectFs={redirectFs}
-                      redirectBa={redirectBa}
-                      redirectBl={redirectBl}
-                      redirectDe={redirectDe}
-                    />
-                    )}
+                      {formotp ? (
+                        <FormOtp
+                          popup={true}
+                          s2dataScience={s2dataScience}
+                          marketing={marketing}
+                        />
+                      ) : (
+                        <Form
+                          dataScience={dataScience}
+                          redirectDs={redirectDs}
+                          redirectFs={redirectFs}
+                          redirectBa={redirectBa}
+                          redirectBl={redirectBl}
+                          redirectDe={redirectDe}
+                        />
+                      )}
                     </>
                   )}
                 </>

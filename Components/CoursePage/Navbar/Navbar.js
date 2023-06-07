@@ -16,6 +16,7 @@ const Navbar = ({
   brochureButton,
   DownloadSyllabus,
   s2dataScience,
+  marketing,
   grad,
   jobDescription,
   workExperience,
@@ -54,25 +55,33 @@ const Navbar = ({
           <div className="whiteP" />
         </div>
         <div className="RightPopup">
-        {DownloadSyllabus ? (
-                <h5>Download Syllabus</h5>
+          {DownloadSyllabus ? (
+            <h5>Download Syllabus</h5>
           ) : (
             <>
-          {brochureButton ? (
-            <h5>Download Brochure</h5>
-          ) : (
-            <h5>Apply For Counselling</h5>
-          )}
-                          </>
+              {brochureButton ? (
+                <h5>Download Brochure</h5>
+              ) : (
+                <h5>Apply For Counselling</h5>
+              )}
+            </>
           )}
 
           {brochureButton ? (
             <>
-            {formotp ? (
-              <FormOtp popup={true} downloadBrochure s2dataScience={s2dataScience} grad={grad} jobDescription={jobDescription} workExperience={workExperience}/>
-            ) : (
-              <Form setTrigger={setPopups} downloadBrochure/>
-            )}
+              {formotp ? (
+                <FormOtp
+                  popup={true}
+                  downloadBrochure
+                  s2dataScience={s2dataScience}
+                  marketing={marketing}
+                  grad={grad}
+                  jobDescription={jobDescription}
+                  workExperience={workExperience}
+                />
+              ) : (
+                <Form setTrigger={setPopups} downloadBrochure />
+              )}
             </>
           ) : (
             <>
@@ -83,11 +92,21 @@ const Navbar = ({
               ) : (
                 <>
                   {formotpForS3DS ? (
-                    <FormOtp jobDescription={true} QuesMean={true} jobTitle={true} jobPlacee={true} />
+                    <FormOtp
+                      jobDescription={true}
+                      QuesMean={true}
+                      jobTitle={true}
+                      jobPlacee={true}
+                    />
                   ) : (
                     <>
                       {formotp ? (
-                        <FormOtp popup={true} radio={radio} s2dataScience={s2dataScience}/>
+                        <FormOtp
+                          popup={true}
+                          radio={radio}
+                          s2dataScience={s2dataScience}
+                          marketing={marketing}
+                        />
                       ) : (
                         <Form
                           popup={true}
@@ -117,36 +136,36 @@ const Navbar = ({
           />
         </div>
         <div className={styles.right}>
-        {DownloadSyllabus ? (
-                <button onClick={popupShow} className="outLineBtn">
-                Download Syllabus
-                <FaDownload className={styles.icon} />
-              </button>
-          ) : (
-            <>
-          {brochureButton ? (
+          {DownloadSyllabus ? (
             <button onClick={popupShow} className="outLineBtn">
-              Download Brochure
+              Download Syllabus
               <FaDownload className={styles.icon} />
             </button>
           ) : (
             <>
-              {fsdlink ? (
-                <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session">
-                  <button className="outLineBtn">
-                    Apply For Counselling
-                    <FaArrowRight className={styles.icon} />
-                  </button>
-                </a>
-              ) : (
+              {brochureButton ? (
                 <button onClick={popupShow} className="outLineBtn">
-                  Apply For Counselling
-                  <FaArrowRight className={styles.icon} />
+                  Download Brochure
+                  <FaDownload className={styles.icon} />
                 </button>
+              ) : (
+                <>
+                  {fsdlink ? (
+                    <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session">
+                      <button className="outLineBtn">
+                        Apply For Counselling
+                        <FaArrowRight className={styles.icon} />
+                      </button>
+                    </a>
+                  ) : (
+                    <button onClick={popupShow} className="outLineBtn">
+                      Apply For Counselling
+                      <FaArrowRight className={styles.icon} />
+                    </button>
+                  )}
+                </>
               )}
             </>
-          )}
-          </>
           )}
 
           <Popup></Popup>

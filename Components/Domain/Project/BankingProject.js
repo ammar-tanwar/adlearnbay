@@ -17,6 +17,7 @@ const Project = ({
   popupHead,
   project,
   s2dataScience,
+  marketing,
   projectTitle,
   formotp,
   formotpForS3DS,
@@ -61,7 +62,11 @@ const Project = ({
           ) : (
             <>
               {formotp ? (
-                <FormOtp popup={true} s2dataScience={s2dataScience}/>
+                <FormOtp
+                  popup={true}
+                  s2dataScience={s2dataScience}
+                  marketing={marketing}
+                />
               ) : (
                 <Form setTrigger={setPopups} downloadBrochure />
               )}
@@ -179,7 +184,7 @@ const Project = ({
           <SwiperSlide className={styles.projectnew}>
             <div className={styles.headernew}>
               <div className={styles.leftnew}>
-              {/* <Image
+                {/* <Image
                   src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/Union.png"
                   layout="intrinsic"
                   width="420px"
@@ -188,9 +193,9 @@ const Project = ({
                   alt="data science course in bangalore"
                 /> */}
                 <div className={styles.headPara}>
-                <h5>{props.projectName2}</h5>
-                <p>{props.domainName2}</p>
-            </div>
+                  <h5>{props.projectName2}</h5>
+                  <p>{props.domainName2}</p>
+                </div>
               </div>
             </div>
             <div className={styles.body}>
@@ -226,7 +231,7 @@ const Project = ({
           <SwiperSlide className={styles.projectnew}>
             <div className={styles.headernew}>
               <div className={styles.leftnew}>
-              {/* <Image
+                {/* <Image
                   src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/Union.png"
                   layout="intrinsic"
                   width="420px"
@@ -235,9 +240,9 @@ const Project = ({
                   alt="data science course in bangalore"
                 /> */}
                 <div className={styles.headPara}>
-                <h5>{props.projectName3}</h5>
-                <p>{props.domainName3}</p>
-            </div>
+                  <h5>{props.projectName3}</h5>
+                  <p>{props.domainName3}</p>
+                </div>
               </div>
             </div>
             <div className={styles.body}>
@@ -273,7 +278,7 @@ const Project = ({
           <SwiperSlide className={styles.projectnew}>
             <div className={styles.headernew}>
               <div className={styles.leftnew}>
-              {/* <Image
+                {/* <Image
                   src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/Union.png"
                   layout="intrinsic"
                   width="420px"
@@ -282,9 +287,9 @@ const Project = ({
                   alt="data science course in bangalore"
                 /> */}
                 <div className={styles.headPara}>
-                <h5>{props.projectName4}</h5>
-                <p>{props.domainName4}</p>
-            </div>
+                  <h5>{props.projectName4}</h5>
+                  <p>{props.domainName4}</p>
+                </div>
               </div>
             </div>
             <div className={styles.body}>
@@ -320,7 +325,7 @@ const Project = ({
           <SwiperSlide className={styles.projectnew}>
             <div className={styles.headernew}>
               <div className={styles.leftnew}>
-              {/* <Image
+                {/* <Image
                   src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/Union.png"
                   layout="intrinsic"
                   width="420px"
@@ -329,9 +334,9 @@ const Project = ({
                   alt="data science course in bangalore"
                 /> */}
                 <div className={styles.headPara}>
-                <h5>{props.projectName5}</h5>
-                <p>{props.domainName5}</p>
-            </div>
+                  <h5>{props.projectName5}</h5>
+                  <p>{props.domainName5}</p>
+                </div>
               </div>
             </div>
             <div className={styles.body}>
@@ -367,7 +372,7 @@ const Project = ({
           <SwiperSlide className={styles.projectnew}>
             <div className={styles.headernew}>
               <div className={styles.leftnew}>
-              {/* <Image
+                {/* <Image
                   src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/domainpage/Union.png"
                   layout="intrinsic"
                   width="420px"
@@ -376,9 +381,9 @@ const Project = ({
                   alt="data science course in bangalore"
                 /> */}
                 <div className={styles.headPara}>
-                <h5>{props.projectName6}</h5>
-                <p>{props.domainName6}</p>
-            </div>
+                  <h5>{props.projectName6}</h5>
+                  <p>{props.domainName6}</p>
+                </div>
               </div>
             </div>
             <div className={styles.body}>
@@ -415,7 +420,11 @@ const Project = ({
 
       <div>
         <div className={styles.btnWrapper}>
-          <button onClick={popupShow} style={{ margin: "auto" }} className={styles.btn}>
+          <button
+            onClick={popupShow}
+            style={{ margin: "auto" }}
+            className={styles.btn}
+          >
             <FaDownload className="bIcons" />
             Project Brochure
           </button>

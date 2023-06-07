@@ -20,6 +20,7 @@ function SyllabusSection({
   formotp,
   fullStackCont,
   s2dataScience,
+  marketing,
   grad,
   jobDescription,
   workExperience,
@@ -34,17 +35,30 @@ function SyllabusSection({
   }
   return (
     <section className={styles.Syllabus}>
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal" downloadBrochure>
+      <Popup
+        trigger={popups}
+        setTrigger={setPopups}
+        className="popupModal"
+        downloadBrochure
+      >
         <div className="leftPopup">
           <div className="whiteP" />
         </div>
         <div className="RightPopup">
           <h5>Download Brochure</h5>
           {formotp ? (
-                    <FormOtp popup={true} downloadBrochure s2dataScience={s2dataScience} grad={grad} jobDescription={jobDescription} workExperience={workExperience}/>
-                  ) : (
-                    <Form setTrigger={setPopups} downloadBrochure/>
-                  )} 
+            <FormOtp
+              popup={true}
+              downloadBrochure
+              s2dataScience={s2dataScience}
+              marketing={marketing}
+              grad={grad}
+              jobDescription={jobDescription}
+              workExperience={workExperience}
+            />
+          ) : (
+            <Form setTrigger={setPopups} downloadBrochure />
+          )}
         </div>
       </Popup>
       <div className={styles.leftDiv}>
