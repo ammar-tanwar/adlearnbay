@@ -27,6 +27,7 @@ const FirstSection = ({
   fullStackContent,
   formotp,
   s2dataScience,
+  marketing,
 }) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
@@ -63,21 +64,25 @@ const FirstSection = ({
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below details to get started</p> */}
             {formotp ? (
-                    <FormOtp popup={true} s2dataScience={s2dataScience}/>
-                  ) : (
-                    <>
-            {withOutRadioForm ? (
-              <Form popup={true} setTrigger={setPopups} />
-            ) : (
-              <Form
+              <FormOtp
                 popup={true}
-                setTrigger={setPopups}
-                radio={true}
-                dataScience={dataScience}
+                s2dataScience={s2dataScience}
+                marketing={marketing}
               />
+            ) : (
+              <>
+                {withOutRadioForm ? (
+                  <Form popup={true} setTrigger={setPopups} />
+                ) : (
+                  <Form
+                    popup={true}
+                    setTrigger={setPopups}
+                    radio={true}
+                    dataScience={dataScience}
+                  />
+                )}
+              </>
             )}
-            </>
-                  )}
           </div>
         </Popup>
         <VideoPopup triggers={video} setTriggers={setVideo} ids="M9tkkdcjFfU" />

@@ -18,14 +18,21 @@ function SeventhSection({ fullStackCont, WBbtn }) {
             </p>
             {fullStackCont ? (
               <div className={styles.btnWrap}>
-                <a
-                  href="https://api.whatsapp.com/send?phone=919731135221&text=Hello,"
-                  target="_blank"
-                >
-                  <button className={styles.btn1}>
-                    <AiOutlineWhatsApp /> Enquire Now
-                  </button>
-                </a>
+                {WBbtn ? (
+                  ""
+                ) : (
+                  <>
+                    {" "}
+                    <a
+                      href="https://api.whatsapp.com/send?phone=919731135221&text=Hello,"
+                      target="_blank"
+                    >
+                      <button className={styles.btn1}>
+                        <AiOutlineWhatsApp /> Enquire Now
+                      </button>
+                    </a>
+                  </>
+                )}
                 <a href="tel: +919731135221">
                   <button className={styles.btn2}>
                     <MdCall /> +91 97311 35221

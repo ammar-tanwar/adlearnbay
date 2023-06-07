@@ -17,6 +17,7 @@ const BoxShape = ({
   formotp,
   formotpForS3DS,
   s2dataScience,
+  marketing,
   p,
 }) => {
   return (
@@ -24,10 +25,11 @@ const BoxShape = ({
       <h2>{title}</h2>
       <div className={styles.BoxDiv}>
         <div className={styles.left}>
-        <div className={styles.box}>
-            <div className={styles.ImgB}>
-            </div>
-            <b><p className={styles.pTop}>{p}</p></b>
+          <div className={styles.box}>
+            <div className={styles.ImgB}></div>
+            <b>
+              <p className={styles.pTop}>{p}</p>
+            </b>
           </div>
           <div className={styles.box}>
             <div className={styles.ImgB1}>
@@ -86,23 +88,25 @@ const BoxShape = ({
           <div className={styles.imgBack}>
             <div className={styles.formWrapper}>
               <h5>
-              <span>Get a free Career Report Card</span><br />  from our career advisors            
+                <span>Get a free Career Report Card</span>
+                <br /> from our career advisors
               </h5>
 
-              {formotpForS3DS ?(
-                <FormOtp popup={true} brief={true} currentCompany={true}/>
-              ):(
-             <>
-             {formotp ?(
-              <FormOtp popup={true} s2dataScience={s2dataScience}/>
-            ):(
-              <Form radio={radio} />
-            )}
-             </>
+              {formotpForS3DS ? (
+                <FormOtp popup={true} brief={true} currentCompany={true} />
+              ) : (
+                <>
+                  {formotp ? (
+                    <FormOtp
+                      popup={true}
+                      s2dataScience={s2dataScience}
+                      marketing={marketing}
+                    />
+                  ) : (
+                    <Form radio={radio} />
+                  )}
+                </>
               )}
-
-              
-              
             </div>
           </div>
         </div>
