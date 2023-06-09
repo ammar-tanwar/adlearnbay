@@ -46,28 +46,28 @@ export const viewAllD = [
 
   {
     id: 7,
-    title: "Full-Stack Software Development Program",
+    title: "Software Development Master Program",
 
     link1:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
   },
   {
     id: 8,
-    title: " DSA & System Design",
+    title: " Software Development Program with Specialization in DevOps & Cloud",
 
     link1:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Cloud+and+DevOps.pdf",
   },
   {
     id: 9,
-    title: "Full-Stack Placement Report",
+    title: "Software Development Placement Report",
     link1:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report+(1).pdf",
   },
 
   {
     id: 10,
-    title: "Full-Stack Project Brochure",
+    title: "Software Development Project Brochure",
     link1:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Real-time+Projects+%26+Use+cases.pdf",
   },
@@ -79,9 +79,9 @@ export const viewAllD = [
   },
   {
     id: 12,
-    title: "Full-Stack Web Development Program",
+    title: "Software Development Program with Specialization in Blockchain",
     link1:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf",
   },
   {
     id: 13,
@@ -104,7 +104,12 @@ export const viewAllD = [
     link1:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf",
   },
-
+  {
+    id: 16,
+    title: "DSA & System Design",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf",
+  }
 ];
 export const dataScience = [
   {
@@ -177,13 +182,13 @@ export const placementProject = [
   },
   {
     id: 2,
-    title: "Full-Stack Placement Report",
+    title: "Software Development Placement Report",
     link1:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report+(1).pdf",
   },
   {
     id: 3,
-    title: "Full-Stack Project Brochure",
+    title: "Software Development Project Brochure",
     link1:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Real-time+Projects+%26+Use+cases.pdf",
   },
@@ -197,25 +202,31 @@ export const placementProject = [
 export const fullStackD = [
   {
     id: 1,
-    title: "Full-Stack Software Development Program",
+    title: "Software Development Master Program",
 
     link1:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
   },
   {
     id: 2,
-    title: " DSA & System Design",
+    title: " Software Development Program with Specialization in DevOps & Cloud",
 
     link1:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Cloud+and+DevOps.pdf",
   },
   {
     id: 3,
-    title: "Full-Stack Web Development Program",
+    title: "Software Development Program with Specialization in Blockchain",
 
     link1:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf",
   },
+  {
+    id: 4,
+    title: "DSA & System Design",
+    link1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf",
+  }
 ];
 
 export const nonTechD = [
