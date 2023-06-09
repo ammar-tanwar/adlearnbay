@@ -326,6 +326,8 @@ function FormOtp({
   if (
     router.pathname === "/fssd-s2" ||
     router.pathname === "/fullstack/fssd-s2" ||
+    router.pathname === "/fullstack/sd-blockchain" ||
+    router.pathname === "/fullstack/sd-cloud-computing-devops" ||
     router.pathname === "/fullstack/fssd-s2-generic" ||
     router.pathname === "/fullstack/fssd-institute-program-s2" ||
     router.pathname === "/fullstack/fssd-training-s2-generic" ||
@@ -485,6 +487,8 @@ function FormOtp({
           (router.pathname === "/dsa" && downloadBrochure) ||
           (router.pathname === "/fullstack/dsa" && downloadBrochure) ||
           (router.pathname === "/fssd-s2" && downloadBrochure) ||
+          (router.pathname === "/fullstack/sd-cloud-computing-devops" && downloadBrochure) ||
+          (router.pathname === "/fullstack/sd-blockchain" && downloadBrochure) ||
           (router.pathname === "/fullstack/fssd-s2-generic" &&
             downloadBrochure) ||
           (router.pathname === "/fullstack/fssd-training-s2-generic" &&
@@ -765,6 +769,8 @@ function FormOtp({
             "/fullstack/software-programming-course-s2-generic" ||
           router.pathname === "/fullstack/fssd-institute-program-s2-generic" ||
           router.pathname === "/fullstack/fssd-s2" ||
+          router.pathname === "/fullstack/sd-blockchain" ||
+          router.pathname === "/fullstack/sd-cloud-computing-devops" ||
           router.pathname === "/fullstack/fssd-institute-program-s2" ||
           router.pathname === "/fullstack/fssd-training-s2" ||
           router.pathname === "/fullstack/software-development-course-s2" ||
@@ -1083,6 +1089,8 @@ function FormOtp({
             (router.pathname === "/fullstack/dsa" && downloadBrochure) ||
             (router.pathname === "/generic" && downloadBrochure) ||
             (router.pathname === "/fssd-s2" && downloadBrochure) ||
+            (router.pathname === "/fullstack/sd-cloud-computing-devops" && downloadBrochure) ||
+            (router.pathname === "/fullstack/sd-blockchain" && downloadBrochure) ||
             (router.pathname === "/fullstack/fssd-s2-generic" &&
               downloadBrochure) ||
             (router.pathname === "/fullstack/fssd-training-s2-generic" &&
@@ -1597,6 +1605,8 @@ function FormOtp({
             router.pathname ===
               "/fullstack/fssd-institute-program-s2-generic" ||
             router.pathname === "/fullstack/fssd-s2" ||
+            router.pathname === "/fullstack/sd-blockchain" ||
+            router.pathname === "/fullstack/sd-cloud-computing-devops" ||
             router.pathname === "/fullstack/fssd-institute-program-s2" ||
             router.pathname === "/fullstack/fssd-training-s2" ||
             router.pathname === "/fullstack/software-development-course-s2" ||
