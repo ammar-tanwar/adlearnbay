@@ -132,7 +132,7 @@ function FormOtp({
 
   if (router.pathname === "/info-webinar")
   {
-    endPoint = "https://getform.io/f/a0a0fb5b-0cba-4b29-9d35-03c35d0e0d28";
+    endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
   }
 
   let btnTxt = "Apply for  Counseliing";
