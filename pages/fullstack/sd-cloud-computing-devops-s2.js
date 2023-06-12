@@ -147,7 +147,7 @@ export default function Home({ formotp }) {
           Emi={BlockchainCourseData[0].ProgramFee.Emi}
           formotp={true}
           CourseFeeAndFinancing="DevOps & Cloud Course Fee & Financing"
-          para="We are dedicated to making our Software Development Course with Specialization in DevOps & Cloud accessible.  We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
+          para="We are dedicated to make our Software Development Course with Specialization in DevOps & Cloud accessible.  We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
           dataScience={true}
         />
         <Batch
