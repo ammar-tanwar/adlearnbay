@@ -148,7 +148,7 @@ const Course = ({ common, formotp }) => {
                 : { background: "#E5F3FA" }
             }
           >
-            Full Stack Development
+            Software Development
           </span>
           <span
             onClick={() => {
@@ -260,7 +260,7 @@ const Course = ({ common, formotp }) => {
                 })}
               </Swiper>
             </div>
-            <h5>Full Stack (3) </h5>
+            <h5>Software Development (3) </h5>
             <div className={styles.gridPanel}>
               <Swiper
                 slidesPerView={mobile ? 1.1 : 3}
@@ -427,7 +427,7 @@ const Course = ({ common, formotp }) => {
 
         {Stack ? (
           <div className={styles.mPanel}>
-            <h5>Full Stack (3) </h5>
+            <h5>Software Development (3) </h5>
             <div className={styles.gridPanel}>
               <Swiper
                 slidesPerView={mobile ? 1.1 : 3}
@@ -587,7 +587,7 @@ const Course = ({ common, formotp }) => {
                 })}
               </Swiper>
             </div>
-            {/* <h5>Full Stack (1) </h5>
+            {/* <h5>Software Development (1) </h5>
             <div className={styles.gridPanel}>
               <Swiper
                 slidesPerView={mobile ? 1 : 3}
@@ -745,7 +745,7 @@ const Course = ({ common, formotp }) => {
                 })}
               </Swiper>
             </div>
-            <h5>Full Stack (3) </h5>
+            <h5>Software Development (3) </h5>
             <div className={styles.gridPanel}>
               <Swiper
                 slidesPerView={mobile ? 1.1 : 3}

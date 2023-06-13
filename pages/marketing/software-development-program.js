@@ -33,9 +33,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-      <title>
-        Master Program in Software Development - Learnbay
-        </title>
+        <title>Master Program in Software Development - Learnbay</title>
         <meta
           name="description"
           content="Learnbay's Full Stack Software Development Course will help you become a skilled software developer. Gain practical experience and master key coding skills."
@@ -94,7 +92,12 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} brochureButton={true} formotp={true} marketing={true} />
+        <Navbar
+          popup={true}
+          brochureButton={true}
+          formotp={true}
+          marketing={true}
+        />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -105,14 +108,17 @@ export default function Home() {
           </div>
         </Popup>
         <HeroSection
-          formotp={true} marketing={true} fullStackCont={true}
+          formotp={true}
+          marketing={true}
+          fullStackCont={true}
           deskTopPara="Get ready to level up your coding expertise"
           h1="Software Development Master Program"
           hSpan="with Domain Specialization"
-          para="Work on 12+ real-time projects, get hired at top MNCs with a salary of up to 18LPA."
+          para="Work on 12+ real-time projects & get hired at top MNCs with a salary of up to 18LPA, only for Working Professionals."
           sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/data+science+and+ai.jpg"
         />
-        <SecondSection fullStackCont={true}
+        <SecondSection
+          fullStackCont={true}
           p1="IBM Certified"
           p11="Capstone Projects"
           p2="5-star"
@@ -122,8 +128,9 @@ export default function Home() {
           p4="1:1 Support"
           p44="Dedicated Program"
         />
-        <ThirdSection formotp={true} marketing={true} fullStackCont={true}/>
-        <FourthSection fullStackCont={true}
+        <ThirdSection formotp={true} marketing={true} fullStackCont={true} />
+        <FourthSection
+          fullStackCont={true}
           h1="Program Highlights"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/weekend+and+weekday+batch.jpg"
@@ -131,7 +138,9 @@ export default function Home() {
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
         />
         <SyllabusSection
-          formotp={true} marketing={true} fullStackCont={true}
+          formotp={true}
+          marketing={true}
+          fullStackCont={true}
           desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our Software Development course feature practical training with real-time projects and case studies."
           Hours="250+ Hours"
           Projects="12+ projects"
@@ -140,7 +149,7 @@ export default function Home() {
           Module2="Advanced DSA"
           Module3="System Design"
         />
-        <Testimonial formotp={true} marketing={true}/>
+        <Testimonial formotp={true} marketing={true} />
         <FAQNew
           FaqDatas={FaqData9}
           DomainFaqDatas={DomainFaqData9}
@@ -150,8 +159,8 @@ export default function Home() {
           MentorshipFaqDatas={MentorshipFaqData9}
           SupportFaqDatas={SupportFaqData9}
         />
-        <SeventhSection fullStackCont={true} WBbtn={true}/>
-        <EightSection formotp={true} marketing={true}/>
+        <SeventhSection fullStackCont={true} WBbtn={true} />
+        <EightSection formotp={true} marketing={true} />
       </main>
     </div>
   );

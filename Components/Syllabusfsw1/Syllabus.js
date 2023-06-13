@@ -115,7 +115,7 @@ function Syllabus({ radio, formotp }) {
           </div>
         </div>
         <p>
-          The Full Stack Web development Program With/Without 100% 100% Placement Assistance
+          The Full Stack Web development Program With/Without 100% Placement Assistance
           is curated by leading faculties and industry leaders. Especially, with
           the aim to provide practical learning experience with live interactive
           classes and projects.

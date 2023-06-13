@@ -3,7 +3,7 @@ export const FullStackSoftwareCourseData = [
     FirstSection: {
       deskTopPara: "Ace the PRODUCT Interviews to achieve your dream job",
       mTopPara: "Ace the PRODUCT Interviews to achieve your dream job",
-      mTitle: "Full Stack Software Development Program",
+      mTitle: "Software Development Master Program",
       spanMTitleText: "Achieve Your Dream Job",
       title: "Full Stack Software ",
       spanTitleText: "Development Program ",
@@ -25,7 +25,7 @@ export const FullStackSoftwareCourseData = [
       p44: "₹ 10,816/month",
     },
     BoxShape: {
-      title: "Full Stack Software Development Program Features",
+      title: "Software Development Master Program Features",
       Box1h5: "Crack MNCs Interview",
       box1desc: "Learn in-depth DSA and crack interviews in product-based MNCs",
       Box2h5: "1:1 Mentorship",
@@ -58,9 +58,9 @@ export const FullStackSoftwareCourseData = [
     },
 
     syllabusDesc:
-      "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All full stack software development course sessions are covered practically with real-time industrial projects and case studies.",
+      "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Software Development Master Program sessions are covered practically with real-time industrial projects and case studies.",
     popupHead: "Download  Course Brochure",
-    CSyllabus: "Full Stack Software Development Course Syllabus",
+    CSyllabus: "Software Development Master Program Syllabus",
     CourseHighlights: "Software Development Course Highlights",
     srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
     hours: "300+ Hours",
@@ -273,7 +273,7 @@ export const FullStackSoftwareCourseData = [
       Fee: "₹ 1,10,000 + GST",
       Emi: "₹ 10,816",
       CourseFeeAndFinancing:
-        "Full Stack Software Development Course Fee & Financing",
+        "Software Development Master Program Fee & Financing",
     },
     Project: {
       project: "12+ Projects",
@@ -314,7 +314,7 @@ export const FullStackSoftwareCourseData = [
       },
     ],
     BatchCourses: {
-      CourseFeeHead: "Full Stack Software Development Program: Batch Details",
+      CourseFeeHead: "Software Development Master Program: Batch Details",
       CourseFeePara: "Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",

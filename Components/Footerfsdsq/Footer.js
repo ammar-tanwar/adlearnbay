@@ -39,10 +39,10 @@ const Footer = () => {
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Popular Courses</p>
-          <p className={styles.FooterInnerli} style={{ display: "flex" }}>
+          {/* <p className={styles.FooterInnerli} style={{ display: "flex" }}>
             <FaCheck className="bIcons" />
             Full Stack Web Development Program
-          </p>
+          </p> */}
           <p className={styles.FooterInnerli} style={{ display: "flex" }}>
             <FaCheck className="bIcons" />
             Full-Stack Software Development Program

@@ -98,7 +98,7 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Full Stack Software Development</h5>
+                        <h5>Software Development Master Program</h5>
                         <span>
                           300+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
@@ -119,7 +119,7 @@ const Tabs = ({ handleIcon }) => {
                     </div>
                   </a>
                 </div>
-                <div className={styles.Row}>
+                {/* <div className={styles.Row}>
                   <a href="/full-stack-web-development-program">
                     <div
                       className={styles.Program}
@@ -133,7 +133,7 @@ const Tabs = ({ handleIcon }) => {
                       </div>
                     </div>
                   </a>
-                </div>
+                </div> */}
                 <div className={styles.Row}>
                   <a href="/job-guarantee-or-money-back-data-science-ai-certification-course">
                     <div
@@ -321,7 +321,7 @@ const Tabs = ({ handleIcon }) => {
 
             {nonTech ? (
               <div className={styles.RowWrap}>
-                <div className={styles.Row}>
+                {/* <div className={styles.Row}>
                   <a href="/full-stack-web-development-program">
                     <div
                       className={styles.Program}
@@ -335,7 +335,7 @@ const Tabs = ({ handleIcon }) => {
                       </div>
                     </div>
                   </a>
-                </div>
+                </div> */}
                 <div className={styles.Row}>
                   <a href="/full-stack-software-development-program">
                     <div
@@ -343,7 +343,7 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Full Stack Software Development Program</h5>
+                        <h5>Software Development Master Program</h5>
                         <span>
                           300+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
@@ -406,7 +406,7 @@ const Tabs = ({ handleIcon }) => {
                     </div>
                   </a>
                 </div>
-                <div className={styles.Row}>
+                {/* <div className={styles.Row}>
                   <a href="/full-stack-web-development-program">
                     <div
                       className={styles.Program}
@@ -420,7 +420,7 @@ const Tabs = ({ handleIcon }) => {
                       </div>
                     </div>
                   </a>
-                </div>
+                </div> */}
               </div>
             ) : (
               ""
@@ -476,7 +476,7 @@ const Tabs = ({ handleIcon }) => {
                     </div>
                   </a>
                 </div>
-                <div className={styles.Row}>
+                {/* <div className={styles.Row}>
                   <a href="/full-stack-web-development-program">
                     <div
                       className={styles.Program}
@@ -490,7 +490,7 @@ const Tabs = ({ handleIcon }) => {
                       </div>
                     </div>
                   </a>
-                </div>
+                </div> */}
                 <div className={styles.Row}>
                   <a href="/advance-data-science-certification-courses">
                     <div className={styles.Program}>
@@ -506,7 +506,7 @@ const Tabs = ({ handleIcon }) => {
                   <a href="/full-stack-software-development-program">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
-                        <h5>Full Stack Software Development</h5>
+                        <h5>Software Development Master Program</h5>
                         <span>
                           300+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
@@ -634,7 +634,7 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Full Stack Software Development</h5>
+                        <h5>Software Development Master</h5>
                         <span>
                           300+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
@@ -656,7 +656,7 @@ const Tabs = ({ handleIcon }) => {
                   </a>
                 </div>
                 <div className={styles.Row}>
-                  <a href="/full-stack-web-development-program">
+                  {/* <a href="/full-stack-web-development-program">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
@@ -668,7 +668,7 @@ const Tabs = ({ handleIcon }) => {
                         </span>
                       </div>
                     </div>
-                  </a>
+                  </a> */}
                   <a href="/dsa-system-design">
                     <div
                       className={styles.Program}
@@ -804,7 +804,7 @@ const Tabs = ({ handleIcon }) => {
             )}
             {nonTech ? (
               <div className={styles.RowWrap}>
-                <div className={styles.Row}>
+                {/* <div className={styles.Row}>
                   <a href="/full-stack-web-development-program">
                     <div
                       className={styles.Program}
@@ -818,7 +818,7 @@ const Tabs = ({ handleIcon }) => {
                       </div>
                     </div>
                   </a>
-                </div>
+                </div> */}
                 <div className={styles.Row}>
                   <a href="/full-stack-software-development-program">
                     <div
@@ -871,7 +871,7 @@ const Tabs = ({ handleIcon }) => {
                     </div>
                   </a>
                 </div>
-                <div className={styles.Row}>
+                {/* <div className={styles.Row}>
                   <a href="/full-stack-web-development-program">
                     <div
                       className={styles.Program}
@@ -885,7 +885,7 @@ const Tabs = ({ handleIcon }) => {
                       </div>
                     </div>
                   </a>
-                </div>
+                </div> */}
               </div>
             ) : (
               ""
@@ -907,7 +907,7 @@ const Tabs = ({ handleIcon }) => {
                     </div>
                   </a>
                 </div>
-                <div className={styles.Row}>
+                {/* <div className={styles.Row}>
                   <a href="/full-stack-web-development-program">
                     <div
                       className={styles.Program}
@@ -921,7 +921,7 @@ const Tabs = ({ handleIcon }) => {
                       </div>
                     </div>
                   </a>
-                </div>
+                </div> */}
                 <div className={styles.Row}>
                   <a href="/advance-data-science-certification-courses">
                     <div className={styles.Program}>

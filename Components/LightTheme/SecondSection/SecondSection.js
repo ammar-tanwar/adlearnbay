@@ -9,6 +9,24 @@ function SecondSection({ p1, p2, p3, p4, p11, p22, p33, p44, fullStackCont }) {
       {fullStackCont ? (
         <>
           <div className={styles.FirstSec}>
+          <h1>Earn Your Online Professional Certification from</h1>
+          <div className={styles.DivImg}>
+            <Image
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Microsoft+Logo.png"
+              width="220"
+              height="60"
+              layout="intrinsic"
+              loading="lazy"
+            />
+            <div className={styles.line}></div>
+            <Image
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/IBM.png"
+              width="150"
+              height="60"
+              layout="intrinsic"
+              loading="lazy"
+            />
+          </div>
             <h1>Get Assured Interview Call from Top Recruiters</h1>
             <div className={styles.DivImgD}>
               <Image

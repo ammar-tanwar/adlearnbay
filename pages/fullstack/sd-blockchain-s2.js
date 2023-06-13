@@ -35,8 +35,9 @@ export default function Home({ formotp }) {
   return (
     <div>
       <Head>
-      <title>
-      Software Development Course with Specialization in Blockchain - Learnbay
+        <title>
+          Software Development Course with Specialization in Blockchain -
+          Learnbay
         </title>
         <link
           rel="icon"
@@ -108,7 +109,7 @@ export default function Home({ formotp }) {
           deskTopPara="Ready to lead the blockchain revolution?"
           h1="Software Development Course "
           hSpan="with Specialization in Blockchain"
-          para="Work on 12+ real-time projects, get hired at top MNCs with a salary of up to 18LPA."
+          para="Work on 12+ real-time projects & get hired at top MNCs with a salary of up to 18LPA, only for Working Professionals."
           sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/fssd-generic.jpeg"
         />
         <SecondSection
@@ -157,24 +158,12 @@ export default function Home({ formotp }) {
           syllabusDesc={BlockchainCourseData[0].syllabusDesc}
           syllabus={BlockchainCourseData[0].Batch}
           CourseFeeHead="Blockchain Course: Batch Details"
-          CourseFeePara={
-            BlockchainCourseData[0].BatchCourses.CourseFeePara
-          }
-          CourseFeelist1={
-            BlockchainCourseData[0].BatchCourses.CourseFeelist1
-          }
-          CourseFeelist2={
-            BlockchainCourseData[0].BatchCourses.CourseFeelist2
-          }
-          CourseFeelist3={
-            BlockchainCourseData[0].BatchCourses.CourseFeelist3
-          }
-          CourseFeelist4={
-            BlockchainCourseData[0].BatchCourses.CourseFeelist4
-          }
-          CourseFeelist5={
-            BlockchainCourseData[0].BatchCourses.CourseFeelist5
-          }
+          CourseFeePara={BlockchainCourseData[0].BatchCourses.CourseFeePara}
+          CourseFeelist1={BlockchainCourseData[0].BatchCourses.CourseFeelist1}
+          CourseFeelist2={BlockchainCourseData[0].BatchCourses.CourseFeelist2}
+          CourseFeelist3={BlockchainCourseData[0].BatchCourses.CourseFeelist3}
+          CourseFeelist4={BlockchainCourseData[0].BatchCourses.CourseFeelist4}
+          CourseFeelist5={BlockchainCourseData[0].BatchCourses.CourseFeelist5}
         />
         <Testimonial formotp={true} />
         <FAQNew

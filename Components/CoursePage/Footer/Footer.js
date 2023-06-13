@@ -86,11 +86,11 @@ const Footer = ({ numEmailHide, fullStackCont, fullStackContt }) => {
               </div>
               <div className={styles.FooterDivInner}>
                 <p className={styles.FooterInnerP}>Courses</p>
-                <p className={styles.FooterInnerli}>
+                {/* <p className={styles.FooterInnerli}>
                   Full Stack Web Development Program
-                </p>
+                </p> */}
                 <p className={styles.FooterInnerli}>
-                  Full Stack Software Development Program
+                Software Development Master Program
                 </p>
                 <p className={styles.FooterInnerli}>
                   Data Structures Algorithms And System Design
