@@ -68,8 +68,8 @@ export const viewAllD = [
   {
     id: 6,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/full-stack-developer-course.png",
-    title: "Full-Stack Software",
-    title1: "Development Program",
+    title: "Software Development",
+    title1: "Master Program",
     tag: "Full stack",
     para: [
       "300 hours of Interactive Learning",
@@ -91,19 +91,19 @@ export const viewAllD = [
     ],
     link1: "/dsa",
   },
-  {
-    id: 8,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/full-stack-web-development.png",
-    title: "Full-Stack Web ",
-    title1: "Development Program",
-    tag: "Full stack",
-    para: [
-      "200 hours of Interactive Learning",
-      "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 70,000 + GST",
-    ],
-    link1: "/fswd",
-  },
+  // {
+  //   id: 8,
+  //   img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/full-stack-web-development.png",
+  //   title: "Full-Stack Web ",
+  //   title1: "Development Program",
+  //   tag: "Full stack",
+  //   para: [
+  //     "200 hours of Interactive Learning",
+  //     "12 Projects + 2 Capstones",
+  //     "Course Fee : ₹ 70,000 + GST",
+  //   ],
+  //   link1: "/fswd",
+  // },
 ];
 
 export const ForProgrammersD = [
@@ -123,9 +123,9 @@ export const ForProgrammersD = [
   {
     id: 2,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/full-stack-developer-course.png",
-    title: "Full-Stack Software",
+    title: "Software Development",
     tag: "Full stack",
-    title1: "Development Program",
+    title1: "Master Program",
     para: [
       "300 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
@@ -186,19 +186,19 @@ export const ForProgrammersD = [
     ],
     link1: "/dsa",
   },
-  {
-    id: 8,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/full-stack-web-development.png",
-    title: "Full-Stack Web ",
-    title1: "Development Program",
-    tag: "Full stack",
-    para: [
-      "200 hours of Interactive Learning",
-      "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 70,000 + GST",
-    ],
-    link1: "/fswd",
-  },
+  // {
+  //   id: 8,
+  //   img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/full-stack-web-development.png",
+  //   title: "Full-Stack Web ",
+  //   title1: "Development Program",
+  //   tag: "Full stack",
+  //   para: [
+  //     "200 hours of Interactive Learning",
+  //     "12 Projects + 2 Capstones",
+  //     "Course Fee : ₹ 70,000 + GST",
+  //   ],
+  //   link1: "/fswd",
+  // },
 ];
 export const ForNonProgrammerD = [
   {
@@ -288,8 +288,8 @@ export const StackD = [
   {
     id: 1,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/full-stack-developer-course.png",
-    title: "Full-Stack Software",
-    title1: "Development Program",
+    title: "Software Development",
+    title1: "Master Program",
     tag: "Full stack",
     para: [
       "300 hours of Interactive Learning",
@@ -311,17 +311,17 @@ export const StackD = [
     ],
     link1: "/dsa",
   },
-  {
-    id: 3,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/full-stack-web-development.png",
-    title: "Full-Stack Web ",
-    title1: "Development Program",
-    tag: "Full stack",
-    para: [
-      "200 hours of Interactive Learning",
-      "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 70,000 + GST",
-    ],
-    link1: "/fswd",
-  },
+  // {
+  //   id: 3,
+  //   img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/full-stack-web-development.png",
+  //   title: "Full-Stack Web ",
+  //   title1: "Development Program",
+  //   tag: "Full stack",
+  //   para: [
+  //     "200 hours of Interactive Learning",
+  //     "12 Projects + 2 Capstones",
+  //     "Course Fee : ₹ 70,000 + GST",
+  //   ],
+  //   link1: "/fswd",
+  // },
 ];

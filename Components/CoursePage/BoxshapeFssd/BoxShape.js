@@ -83,9 +83,9 @@ const BoxShape = ({
               height="252"
             />
             <p className={styles.Ptopp}>
-              Full Stack Software
+            Software Development
               <br />
-              Development Course
+              Master Course
             </p>
             {eventDownload ? (
               <>

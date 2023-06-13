@@ -1689,11 +1689,11 @@ export const SupportFaqData8 = [
   },
 ];
 
-// 9th page  Advanced Software Development Program
+// 9th page  Software Development Master Program
 export const FaqData9 = [
   {
     id: 0,
-    ques: "What are the prerequisites for the Advanced Software Development Program?",
+    ques: "What are the prerequisites for the Software Development Master Program?",
     ans: "  Nothing but basic coding knowledge is required to start with this course.",
     open: true,
   },
@@ -1705,14 +1705,14 @@ export const FaqData9 = [
   },
   {
     id: 2,
-    ques: "What is a Flexi Subscription in the Advanced Software Development Program?",
+    ques: "What is a Flexi Subscription in the Software Development Master Program?",
     ans: `Those who register for live online/hybrid training in advanced software development course are eligible for a Flexi Pass. We will get you access to all of the ongoing live classes, recorded videos, and premium study materials for a three-year period. You are free to pause, resume, and finish your study during these three years, and you are welcome to attend any classes whenever it is most convenient for you.`,
     open: false,
   },
   {
     id: 3,
     ques: "What’s the duration of this Software Development training program?",
-    ans: `The duration of this advanced software development program is about 6.5 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+    ans: `The duration of this Software Development Master Program is about 6.5 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
     Classes will be conducted on Weekdays and Weekend Batches.
     Weekday batch - 8 months
@@ -1740,7 +1740,7 @@ export const FaqData9 = [
 export const FaqDataMore9 = [
   {
     id: 0,
-    ques: "What are the prerequisites for the Advanced Software Development Program?",
+    ques: "What are the prerequisites for the Software Development Master Program?",
     ans: "  Nothing but basic coding knowledge is required to start with this course.",
     open: true,
   },
@@ -1758,14 +1758,14 @@ export const FaqDataMore9 = [
   },
   {
     id: 2,
-    ques: "What is a Flexi Subscription in the Advanced Software Development Program?",
+    ques: "What is a Flexi Subscription in the Software Development Master Program?",
     ans: `Those who register for live online/hybrid training in advanced software development course are eligible for a Flexi Pass. We will get you access to all of the ongoing live classes, recorded videos, and premium study materials for a three-year period. You are free to pause, resume, and finish your study during these three years, and you are welcome to attend any classes whenever it is most convenient for you.`,
     open: false,
   },
   {
     id: 3,
     ques: "What’s the duration of this Software Development training program?",
-    ans: `The duration of this advanced software development program is about 6.5 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+    ans: `The duration of this Software Development Master Program is about 6.5 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
 
     Classes will be conducted on Weekdays and Weekend Batches.
     Weekday batch - 8 months

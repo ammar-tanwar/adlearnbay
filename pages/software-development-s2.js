@@ -114,7 +114,7 @@ export default function Home() {
           headingSpan1=" Software Development"
           heading2="Course"
           headingSpan2="Become an Expert Today!"
-          des="Work on 12+ real-time projects, get hired at top MNCs with a salary of up to 18LPA."
+          des="Work on 12+ real-time projects & get hired at top MNCs with a salary of up to 18LPA, only for Working Professionals."
           h1="12+"
           p1={SoftwareData[0].FirstSection.p1}
           h2="300+"

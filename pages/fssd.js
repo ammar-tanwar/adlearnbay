@@ -28,18 +28,18 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Full Stack Software Development Course</title>
+        <title>Software Development Master Course</title>
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
         <meta
           name="description"
-          content="Learn Full Stack Software Development Course. Get a chance to work with top product based MNCs Companies and participate in live, interactive online sessions led by tech experts to gain real-time project experience."
+          content="Learn Software Development Master Course. Get a chance to work with top product based MNCs Companies and participate in live, interactive online sessions led by tech experts to gain real-time project experience."
         />
         <meta
           name="Keywords"
-          content="Full Stack Software Development Course, Software Development Course, Full Stack Software Development Training, Full Stack Software Development Program, Full Stack Software Development Institute, Online Full Stack Software Development Course, Learn Full Stack Software development Course"
+          content="Software Development Master Course, Software Development Course, Software Development Master Training, Software Development Master Program, Software Development Master Institute, Online Software Development Master Course, Learn Software Development Master Course"
         />
         <script
           dangerouslySetInnerHTML={{
@@ -100,10 +100,10 @@ export default function Home() {
           formotp={true}
           deskTopPara="Ace the PRODUCT Interviews to achieve your dream job"
           mTopPara="Ace the PRODUCT Interviews to achieve your dream job"
-          mTitle="Full Stack Software  "
-          spanMTitleText="Development Course"
-          title="Full Stack Software  "
-          spanTitleText="Development Course"
+          mTitle="Software Development Master Program  "
+          spanMTitleText="with Domain Specialization"
+          title="Software Development Master Program  "
+          spanTitleText="with Domain Specialization"
           desc="Best Interview Prep Course for Top Product Based MNCs"
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/W+Dev.png"
           width="791"
@@ -126,7 +126,7 @@ export default function Home() {
         <div className={styles.Feature} id="Feature">
           <BoxShape
             formotp={true}
-            title="Why Enroll In Full Stack Software Development Course?"
+            title="Why Enroll In Software Development Master Course?"
             Box1h5="Crack MNCs Interview"
             box1desc="Learn in-depth DSA and crack interviews in product-based MNCs"
             Box2h5="1:1 Mentorship"

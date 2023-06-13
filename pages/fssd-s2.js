@@ -107,7 +107,7 @@ export default function Home({ formotp }) {
           deskTopPara="Ace the PRODUCT Interviews to achieve your dream job"
           h1="Full Stack Software Development Course"
           hSpan="for Working Professionals"
-          para="Work on 12+ real-time projects, get hired at top MNCs with a salary of up to 18LPA."
+          para="Work on 12+ real-time projects & get hired at top MNCs with a salary of up to 18LPA, only for Working Professionals."
           sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/fssd-generic.jpeg"
         />
         <SecondSection
