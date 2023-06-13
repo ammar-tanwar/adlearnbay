@@ -36,7 +36,7 @@ export default function Home({ formotp }) {
     <div>
       <Head>
       <title>
-         Blockchain Developer Course with Job Placement - Learnbay
+      Software Development Course with Specialization in Blockchain - Learnbay
         </title>
         <link
           rel="icon"
