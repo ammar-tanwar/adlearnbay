@@ -59,7 +59,7 @@ const FooterThankYou = () => {
           <a>
             <p className={styles.FooterInnerli} style={{ display: "flex" }}>
               <FaCheck className="bIcons" />
-              Full-Stack Software Development Program
+              Software Development Master Program
             </p>
           </a>
           <a>

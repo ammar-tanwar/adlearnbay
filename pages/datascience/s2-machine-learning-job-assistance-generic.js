@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import Popup from "../../Components/Popup/Popup";
 import Form from "../../Components/Form/Form";
 import Navbar from "../../Components/CoursePage/Navbar/Navbar";
-
 import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import HeroSection from "../../Components/LightTheme/FirstSection/HeroSection";
 import Testimonial from "../../Components/LightTheme/SixthSection/Testimonial";
@@ -23,16 +22,16 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>online machine learning training</title>
+        <title>Online Machine Learning Job Assistance Course</title>
         <meta
           name="description"
-          content="Top Online Machine Learning Institute with 
+          content="Top Online Machine Learning Job Assistance Course with 
           100% Placement assistance"
         />
 
         <meta
           name="Keywords"
-          content="training in machine learning, ml training, machine learning training, training in ml online, machine learning training, Best machine learning training, machine learning online training"
+          content="Job Assistance Course in machine learning, ml Job Assistance Course, machine learning Job Assistance Course, Job Assistance Course in ml online, machine learning Job Assistance Course, Best machine learning Job Assistance Course, machine learning online Job Assistance Course"
         />
 
         <link
@@ -85,7 +84,12 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} brochureButton={true} formotp={true} s2dataScience={true} />
+        <Navbar
+          popup={true}
+          brochureButton={true}
+          formotp={true}
+          s2dataScience={true}
+        />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -96,11 +100,12 @@ export default function Home() {
           </div>
         </Popup>
         <HeroSection
-          formotp={true} s2dataScience={true}
+          formotp={true}
+          s2dataScience={true}
           deskTopPara="Boost Your Professional Growth To a Whole New Level"
-          h1="Machine Learning Training"
+          h1="Machine Learning Job Assistance Course"
           hSpan="for Working Professionals"
-          para="Successfully transition careers through our training & real-time capstone projects. 
+          para="Successfully transition careers through our job assistance course & real-time capstone projects. 
           All while making your previous work experience count!"
           sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Machine+learning.jpg"
         />
@@ -108,7 +113,7 @@ export default function Home() {
           p1="IBM Certified"
           p11="Capstone Projects"
           p2="5-star"
-          p22="Industry-standard Training"
+          p22="Industry-standard Course"
           p3="3-year"
           p33="Subscription Model"
           p4="1:1 Support"
@@ -123,8 +128,9 @@ export default function Home() {
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
         />
         <SyllabusSection
-          formotp={true} s2dataScience={true}
-          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our machine learning training feature practical training with real-time projects and case studies."
+          formotp={true}
+          s2dataScience={true}
+          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our machine learning job assistance course with real-time projects and case studies."
           Hours="350+ Hours"
           Projects="15+ projects"
           Module0="Preparatory Classes (Programming + Maths)"

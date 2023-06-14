@@ -432,7 +432,7 @@ const Form = ({
   // -==================== Marketing ==========================--------
   if (
     router.pathname === "/apply-for-counselling-marketing" ||
-    router.pathname === "/apply-for-counselling-marketing-" ||
+    router.pathname === "/datascience/apply-for-counselling-marketing" ||
     router.pathname === "/her-career-her-rules" ||
     router.pathname === "/apply-for-counselling-data-science-marketing" ||
     router.pathname === "/step-up-with-learnbay"
@@ -692,7 +692,8 @@ const Form = ({
     if (
       (router.pathname === "/her-career-her-rules" && downloadBrochure) ||
       router.pathname === "/her-career-her-rules" ||
-      router.pathname === "/apply-for-counselling-marketing"
+      router.pathname === "/apply-for-counselling-marketing" ||
+      router.pathname === "/datascience/apply-for-counselling-marketing"
     ) {
       router.push("/Thank-you-marketing");
 

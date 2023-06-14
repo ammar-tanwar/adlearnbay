@@ -23,16 +23,15 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>online machine learning training</title>
+        <title>Business Analytics Job Assistance Course</title>
         <meta
           name="description"
-          content="Top Online Machine Learning Institute with 
-          100% Placement assistance"
+          content="Top Online Business Analytics Job Assistance course with 100% Placement assistance 
+          & 24/7 support"
         />
-
         <meta
           name="Keywords"
-          content="training in machine learning, ml training, machine learning training, training in ml online, machine learning training, Best machine learning training, machine learning online training"
+          content="business analytics Job Assistance course, business analytics online training, best online business analytics Job Assistance course, online business analytics Job Assistance course, business analytics course with professional training, business analytcis course fee, business analytics course duration"
         />
 
         <link
@@ -97,12 +96,11 @@ export default function Home() {
         </Popup>
         <HeroSection
           formotp={true} s2dataScience={true}
-          deskTopPara="Boost Your Professional Growth To a Whole New Level"
-          h1="Machine Learning Training"
+          deskTopPara="Acquire practical skills you can apply immediately"
+          h1="Business Analytics Job Assistance Course"
           hSpan="for Working Professionals"
-          para="Successfully transition careers through our training & real-time capstone projects. 
-          All while making your previous work experience count!"
-          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Machine+learning.jpg"
+          para="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
+          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/business+analytics.jpg"
         />
         <SecondSection
           p1="IBM Certified"
@@ -124,14 +122,14 @@ export default function Home() {
         />
         <SyllabusSection
           formotp={true} s2dataScience={true}
-          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our machine learning training feature practical training with real-time projects and case studies."
-          Hours="350+ Hours"
-          Projects="15+ projects"
+          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our business analytics job assistance course feature practical training with real-time projects and case studies."
+          Hours="200+ Hours"
+          Projects="8+ projects"
           Module0="Preparatory Classes (Programming + Maths)"
           Module1="Python for Data Science"
-          Module2="Statistics and Machine Learning"
+          Module2="Statistics"
           Module3="Data Science Course Tools"
-          Module4="Machine Learning Course Tools"
+          Module4="Essentials Tools"
         />
         <SliderTab />
         <Testimonial formotp={true} s2dataScience={true} />

@@ -31,14 +31,14 @@ function LearnSupport({ fullStackContent, WBbtn, organicNum, organicNumber }) {
             </p>
             {fullStackContent ? (
               <div className={styles.btnWrap}>
-                <a
+                {/* <a
                   href="https://api.whatsapp.com/send?phone=919731135221&text=Hello,"
                   target="_blank"
                 >
                   <button className={styles.btn1}>
                     <AiOutlineWhatsApp /> Enquire Now
                   </button>
-                </a>
+                </a> */}
                 <a href="tel: +919731135221">
                   <button className={styles.btn2}>
                     <MdCall /> +91 97311 35221
@@ -48,14 +48,16 @@ function LearnSupport({ fullStackContent, WBbtn, organicNum, organicNumber }) {
             ) : (
               <div className={styles.btnWrap}>
                 {WBbtn ? (
-                  <a
-                    href="https://api.whatsapp.com/send?phone=919986049187&text=Hello,"
-                    target="_blank"
-                  >
-                    <button className={styles.btn1}>
-                      <AiOutlineWhatsApp /> Enquire Now
-                    </button>
-                  </a>
+                  <>
+                    {/* <a
+                      href="https://api.whatsapp.com/send?phone=919986049187&text=Hello,"
+                      target="_blank"
+                    >
+                      <button className={styles.btn1}>
+                        <AiOutlineWhatsApp /> Enquire Now
+                      </button>
+                    </a> */}
+                  </>
                 ) : (
                   ""
                 )}

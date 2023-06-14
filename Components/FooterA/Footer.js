@@ -56,7 +56,7 @@ const Footer = ({ mobileNum, email }) => {
           </p> */}
           <p className={styles.FooterInnerli} style={{ display: "flex" }}>
             <FaCheck className="bIcons" />
-            Full-Stack Software Development Program
+            Software Development Master Program
           </p>
           <p className={styles.FooterInnerli} style={{ display: "flex" }}>
             <FaCheck className="bIcons" />
