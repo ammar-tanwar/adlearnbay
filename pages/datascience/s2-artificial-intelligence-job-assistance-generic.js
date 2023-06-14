@@ -23,18 +23,17 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>online machine learning training</title>
+        <title>Learn Online Artificial Intelligence Job Assistance Course</title>
         <meta
           name="description"
-          content="Top Online Machine Learning Institute with 
-          100% Placement assistance"
+          content="Top Artificial Intelligence Job Assistance course with Domain specialization and
+get 100% placement assistance "
         />
 
         <meta
           name="Keywords"
-          content="training in machine learning, ml training, machine learning training, training in ml online, machine learning training, Best machine learning training, machine learning online training"
+          content="artificial intelligence Job Assistance course, ai course, online ai course, artificial intelligence Job Assistance course online, ai course fee, ai course duration, artificial intelligence Job Assistance course fee, artificial intelligence Job Assistance course duration"
         />
-
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
@@ -97,12 +96,12 @@ export default function Home() {
         </Popup>
         <HeroSection
           formotp={true} s2dataScience={true}
-          deskTopPara="Boost Your Professional Growth To a Whole New Level"
-          h1="Machine Learning Training"
-          hSpan="for Working Professionals"
-          para="Successfully transition careers through our training & real-time capstone projects. 
+          deskTopPara="Be a master even without a master's degree"
+          h1="Artificial Intelligence Job Assistance Course"
+          hSpan="With Domain Specialization"
+          para="Successfully transition careers through our courses & real-time capstone projects. 
           All while making your previous work experience count!"
-          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Machine+learning.jpg"
+          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Artificial+intelligence.jpg"
         />
         <SecondSection
           p1="IBM Certified"
@@ -124,14 +123,14 @@ export default function Home() {
         />
         <SyllabusSection
           formotp={true} s2dataScience={true}
-          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our machine learning training feature practical training with real-time projects and case studies."
+          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our artificial intelligence Job Assistance course feature practical training with real-time projects and case studies."
           Hours="350+ Hours"
           Projects="15+ projects"
           Module0="Preparatory Classes (Programming + Maths)"
           Module1="Python for Data Science"
           Module2="Statistics and Machine Learning"
           Module3="Data Science Course Tools"
-          Module4="Machine Learning Course Tools"
+          Module4="Artificial Intelligence Tools"
         />
         <SliderTab />
         <Testimonial formotp={true} s2dataScience={true} />

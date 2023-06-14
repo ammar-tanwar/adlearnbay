@@ -137,7 +137,7 @@ export default function Home() {
           Module1="Python for Data Science"
           Module2="Statistics and Machine Learning"
           Module3="Data Science Course Tools"
-          Module4="Artificial Intelligence Course Tools"
+          Module4="Machine Learning Course Tools"
         />
         <SliderTab />
         <Testimonial formotp={true} s2dataScience={true} />

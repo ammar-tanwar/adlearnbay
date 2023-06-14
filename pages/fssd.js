@@ -41,7 +41,7 @@ export default function Home() {
           name="Keywords"
           content="Software Development Master Course, Software Development Course, Software Development Master Training, Software Development Master Program, Software Development Master Institute, Online Software Development Master Course, Learn Software Development Master Course"
         />
-        <script
+        {/* <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
                   var s = document.createElement('script');
@@ -79,7 +79,11 @@ export default function Home() {
                   var x = document.getElementsByTagName('script')[0];
                   x.parentNode.insertBefore(s, x);`,
           }}
-        />
+        /> */}
+        <script
+          src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
+          async
+        ></script>
       </Head>
       <main>
         {" "}
