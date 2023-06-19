@@ -35,14 +35,14 @@ export default function Home({ formotp }) {
   return (
     <div>
       <Head>
-        <title>Software Development Course in DevOps & Cloud - Learnbay</title>
+        <title>Software Development Course in Cloud & DevOps - Learnbay</title>
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
         <meta
           name="description"
-          content="Enroll in our comprehensive Software Development Program with a Specialization in DevOps & Cloud. Gain hands-on experience in DevOps & Cloud."
+          content="Enroll in our comprehensive Software Development Program with a Specialization in Cloud & DevOps. Gain hands-on experience in Cloud & DevOps."
         />
         <meta
           name="keywords"
@@ -109,7 +109,7 @@ export default function Home({ formotp }) {
           fullStackCont={true}
           deskTopPara="Build the future cloud & transform your tech skills"
           h1="Software Development Course "
-          hSpan="with Specialization in DevOps & Cloud"
+          hSpan="with Specialization in Cloud & DevOps"
           para="Work on 12+ real-time projects & get hired at top MNCs with a salary of up to 18LPA, only for Working Professionals."
           sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/fssd-generic.jpeg"
         />
@@ -136,27 +136,27 @@ export default function Home({ formotp }) {
         <SyllabusSection
           fullStackCont={true}
           formotp={true}
-          desc="Learnbay's Software Development Course in DevOps & Cloud is led by experts from top MNCs, offering real-world projects and case studies."
+          desc="Learnbay's Software Development Course in Cloud & DevOps is led by experts from top MNCs, offering real-world projects and case studies."
           Hours="250+ Hours"
           Projects="12+ projects"
           Module0="Programming Fundamentals"
           Module1="Basic & Advanced DSA"
           Module2="System Design"
-          Module3="DevOps & Cloud"
+          Module3="Cloud & DevOps"
         />
         <ProgramFee
           Fee={BlockchainCourseData[0].ProgramFee.Fee}
           Emi={BlockchainCourseData[0].ProgramFee.Emi}
           formotp={true}
-          CourseFeeAndFinancing="DevOps & Cloud Course Fee & Financing"
-          para="We are dedicated to make our Software Development Course with Specialization in DevOps & Cloud accessible.  We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
+          CourseFeeAndFinancing="Cloud & DevOps Course Fee & Financing"
+          para="We are dedicated to make our Software Development Course with Specialization in Cloud & DevOps accessible.  We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
           dataScience={true}
         />
         <Batch
           formotp={true}
           syllabusDesc={BlockchainCourseData[0].syllabusDesc}
           syllabus={BlockchainCourseData[0].Batch}
-          CourseFeeHead="DevOps & Cloud Course: Batch Details"
+          CourseFeeHead="Cloud & DevOps Course: Batch Details"
           CourseFeePara={BlockchainCourseData[0].BatchCourses.CourseFeePara}
           CourseFeelist1={BlockchainCourseData[0].BatchCourses.CourseFeelist1}
           CourseFeelist2={BlockchainCourseData[0].BatchCourses.CourseFeelist2}
