@@ -39,7 +39,7 @@ of course subscription and Lifetime access to recoded classes"
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        {/* <script
+        <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
             var s = document.createElement('script');
@@ -68,7 +68,7 @@ of course subscription and Lifetime access to recoded classes"
               "ctaText":"Start Chat",
               "borderRadius":"25",
               "autoShow":false,
-              "phoneNumber":"+919986049187"
+              "phoneNumber":"+918123327570"
           }
         };
             s.onload = function() {
@@ -77,11 +77,11 @@ of course subscription and Lifetime access to recoded classes"
             var x = document.getElementsByTagName('script')[0];
             x.parentNode.insertBefore(s, x);`,
           }}
-        /> */}
-        <script
+        />
+        {/* <script
           src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
           async
-        ></script>
+        ></script> */}
       </Head>
       <main>
         {" "}
@@ -89,7 +89,8 @@ of course subscription and Lifetime access to recoded classes"
           popup={true}
           brochureButton={true}
           DownloadSyllabus={true}
-          formotp={true} s2dataScience={true}
+          formotp={true}
+          s2dataScience={true}
         />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -101,7 +102,8 @@ of course subscription and Lifetime access to recoded classes"
           </div>
         </Popup>
         <HeroSection
-          formotp={true} s2dataScience={true}
+          formotp={true}
+          s2dataScience={true}
           deskTopPara="Boost Your Professional Growth To a Whole New Level"
           h1="Machine Learning Course"
           hSpan="for Working Professionals"
@@ -119,7 +121,11 @@ of course subscription and Lifetime access to recoded classes"
           p4="1:1 Support"
           p44="Dedicated Program"
         />
-        <ThirdSection DownloadSyllabus={true} formotp={true} s2dataScience={true} />
+        <ThirdSection
+          DownloadSyllabus={true}
+          formotp={true}
+          s2dataScience={true}
+        />
         <FourthSection
           h1="Program Highlights"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
@@ -128,7 +134,8 @@ of course subscription and Lifetime access to recoded classes"
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
         />
         <SyllabusSection
-          formotp={true} s2dataScience={true}
+          formotp={true}
+          s2dataScience={true}
           desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our machine learning course feature practical training with real-time projects and case studies."
           Hours="350+ Hours"
           Projects="15+ projects"
@@ -141,7 +148,11 @@ of course subscription and Lifetime access to recoded classes"
         <SliderTab />
         <Testimonial formotp={true} s2dataScience={true} />
         <SeventhSection />
-        <EightSection DownloadSyllabus={true} formotp={true} s2dataScience={true} />
+        <EightSection
+          DownloadSyllabus={true}
+          formotp={true}
+          s2dataScience={true}
+        />
       </main>
     </div>
   );

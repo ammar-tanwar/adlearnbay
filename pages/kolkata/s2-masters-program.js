@@ -49,7 +49,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        {/* <script
+        <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
             var s = document.createElement('script');
@@ -78,7 +78,7 @@ export default function Home() {
               "ctaText":"Start Chat",
               "borderRadius":"25",
               "autoShow":false,
-              "phoneNumber":"+919986049187"
+              "phoneNumber":"+918123327570"
           }
         };
             s.onload = function() {
@@ -87,16 +87,15 @@ export default function Home() {
             var x = document.getElementsByTagName('script')[0];
             x.parentNode.insertBefore(s, x);`,
           }}
-        /> */}
-        <script
+        />
+        {/* <script
           src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
           async
-        ></script>
+        ></script> */}
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} dataScience={true} formotp={true}
-         />
+        <Navbar popup={true} dataScience={true} formotp={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -109,7 +108,6 @@ export default function Home() {
         </Popup>
         <FirstSection
           formotp={true}
-          
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/DelhiTopWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/DelhiTopMob.jpg"
           courseName="Data Science and AI Master Program"
@@ -153,7 +151,6 @@ export default function Home() {
         </div>
         <SyllabusNew
           formotp={true}
-          
           syllabus={mastersProgram[0].syllabus}
           CSyllabus="Data Science and AI Master Course Syllabus In Kolkata"
           CourseHighlights={mastersProgram[0].CourseHighlights}
@@ -164,7 +161,6 @@ export default function Home() {
         />
         <CityImage
           formotp={true}
-          
           DeskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityDelhiWeb.jpg"
           MobImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/city/CenterCityDelhiMob.jpg"
           cityName="दिल्ली"
@@ -199,7 +195,6 @@ export default function Home() {
         <div className={styles.ProjectWrapper} id="project">
           <Project
             formotp={true}
-            
             popupHead={mastersProgram[0].Project.popupHead}
             project={mastersProgram[0].Project.project}
             domain={mastersProgram[0].Project.domain}
@@ -209,7 +204,6 @@ export default function Home() {
         <SliderTab />
         <CourseFee
           formotp={true}
-          
           syllabusDesc={mastersProgram[0].syllabusDesc}
           syllabus={mastersProgram[0].Batch}
           CourseFeeHead={mastersProgram[0].BatchCourses.CourseFeeHead}

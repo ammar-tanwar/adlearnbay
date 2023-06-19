@@ -23,7 +23,9 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Learn Online Artificial Intelligence Job Assistance Course</title>
+        <title>
+          Learn Online Artificial Intelligence Job Assistance Course
+        </title>
         <meta
           name="description"
           content="Top Artificial Intelligence Job Assistance course with Domain specialization and
@@ -38,7 +40,7 @@ get 100% placement assistance "
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        {/* <script
+        <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
             var s = document.createElement('script');
@@ -67,7 +69,7 @@ get 100% placement assistance "
               "ctaText":"Start Chat",
               "borderRadius":"25",
               "autoShow":false,
-              "phoneNumber":"+919986049187"
+              "phoneNumber":"+918123327570"
           }
         };
             s.onload = function() {
@@ -76,15 +78,20 @@ get 100% placement assistance "
             var x = document.getElementsByTagName('script')[0];
             x.parentNode.insertBefore(s, x);`,
           }}
-        /> */}
-        <script
+        />
+        {/* <script
           src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
           async
-        ></script>
+        ></script> */}
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} brochureButton={true} formotp={true} s2dataScience={true} />
+        <Navbar
+          popup={true}
+          brochureButton={true}
+          formotp={true}
+          s2dataScience={true}
+        />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -95,7 +102,8 @@ get 100% placement assistance "
           </div>
         </Popup>
         <HeroSection
-          formotp={true} s2dataScience={true}
+          formotp={true}
+          s2dataScience={true}
           deskTopPara="Be a master even without a master's degree"
           h1="Artificial Intelligence Job Assistance Course"
           hSpan="With Domain Specialization"
@@ -122,7 +130,8 @@ get 100% placement assistance "
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
         />
         <SyllabusSection
-          formotp={true} s2dataScience={true}
+          formotp={true}
+          s2dataScience={true}
           desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our artificial intelligence Job Assistance course feature practical training with real-time projects and case studies."
           Hours="350+ Hours"
           Projects="15+ projects"

@@ -37,7 +37,7 @@ export default function Home() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        {/* <script
+        <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
             var s = document.createElement('script');
@@ -66,7 +66,7 @@ export default function Home() {
               "ctaText":"Start Chat",
               "borderRadius":"25",
               "autoShow":false,
-              "phoneNumber":"+919986049187"
+              "phoneNumber":"+918123327570"
           }
         };
             s.onload = function() {
@@ -75,15 +75,20 @@ export default function Home() {
             var x = document.getElementsByTagName('script')[0];
             x.parentNode.insertBefore(s, x);`,
           }}
-        /> */}
-        <script
+        />
+        {/* <script
           src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
           async
-        ></script>
+        ></script> */}
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} brochureButton={true} formotp={true} s2dataScience={true} />
+        <Navbar
+          popup={true}
+          brochureButton={true}
+          formotp={true}
+          s2dataScience={true}
+        />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -94,7 +99,8 @@ export default function Home() {
           </div>
         </Popup>
         <HeroSection
-          formotp={true} s2dataScience={true}
+          formotp={true}
+          s2dataScience={true}
           deskTopPara="Be a master even without a master's degree"
           h1="Artificial Intelligence Training"
           hSpan="With Domain Specialization"
@@ -121,7 +127,8 @@ export default function Home() {
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
         />
         <SyllabusSection
-          formotp={true} s2dataScience={true}
+          formotp={true}
+          s2dataScience={true}
           desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our artificial intelligence training feature practical training with real-time projects and case studies."
           Hours="350+ Hours"
           Projects="15+ projects"

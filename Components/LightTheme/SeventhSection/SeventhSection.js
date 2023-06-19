@@ -4,7 +4,7 @@ import { AiOutlineWhatsApp } from "react-icons/ai";
 import { MdCall } from "react-icons/md";
 import Image from "next/image";
 
-function SeventhSection({ fullStackCont, WBbtn }) {
+function SeventhSection({ fullStackCont }) {
   return (
     <div className={styles.Section2}>
       <div>
@@ -18,21 +18,14 @@ function SeventhSection({ fullStackCont, WBbtn }) {
             </p>
             {fullStackCont ? (
               <div className={styles.btnWrap}>
-                {WBbtn ? (
-                  ""
-                ) : (
-                  <>
-                    {" "}
-                    {/* <a
-                      href="https://api.whatsapp.com/send?phone=919731135221&text=Hello,"
-                      target="_blank"
-                    >
-                      <button className={styles.btn1}>
-                        <AiOutlineWhatsApp /> Enquire Now
-                      </button>
-                    </a> */}
-                  </>
-                )}
+                <a
+                  href="https://api.whatsapp.com/send?phone=919731135221&text=Hello,"
+                  target="_blank"
+                >
+                  <button className={styles.btn1}>
+                    <AiOutlineWhatsApp /> Enquire Now
+                  </button>
+                </a>
                 <a href="tel: +919731135221">
                   <button className={styles.btn2}>
                     <MdCall /> +91 97311 35221
@@ -41,21 +34,14 @@ function SeventhSection({ fullStackCont, WBbtn }) {
               </div>
             ) : (
               <div className={styles.btnWrap}>
-                {WBbtn ? (
-                  <>
-                    {/* <a
-                    href="https://api.whatsapp.com/send?phone=919986049187&text=Hello,"
-                    target="_blank"
-                  >
-                    <button className={styles.btn1}>
-                      <AiOutlineWhatsApp /> Enquire Now
-                    </button>
-                  </a> */}
-                  </>
-                ) : (
-                  ""
-                )}
-
+                <a
+                  href="https://api.whatsapp.com/send?phone=918123327570&text=Hello,"
+                  target="_blank"
+                >
+                  <button className={styles.btn1}>
+                    <AiOutlineWhatsApp /> Enquire Now
+                  </button>
+                </a>
                 <a href="tel: +918123327570">
                   <button className={styles.btn2}>
                     <MdCall /> +91 8123 327570

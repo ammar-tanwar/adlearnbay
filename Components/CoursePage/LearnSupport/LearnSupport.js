@@ -3,13 +3,7 @@ import { MdCall } from "react-icons/md";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import styles from "./LearnSupport.module.css";
 import Image from "next/image";
-function LearnSupport({
-  headForCity,
-  cityName,
-  organicNum,
-  fullStackCont,
-  WBbtn,
-}) {
+function LearnSupport({ headForCity, cityName, organicNum, fullStackCont }) {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
     let width = window.innerWidth;
@@ -59,14 +53,14 @@ function LearnSupport({
 
           {fullStackCont ? (
             <div className={styles.btnWrap}>
-              {/* <a
+              <a
                 href="https://api.whatsapp.com/send?phone=919731135221&text=Hello,"
                 target="_blank"
               >
                 <button className={styles.btn1}>
                   <AiOutlineWhatsApp /> Enquire Now
                 </button>
-              </a> */}
+              </a>
               <a href="tel: +919731135221">
                 <button className={styles.btn2}>
                   <MdCall /> +91 97311 35221
@@ -77,14 +71,14 @@ function LearnSupport({
             <>
               {organicNum ? (
                 <div className={styles.btnWrap}>
-                  {/* <a
+                  <a
                     href="https://api.whatsapp.com/send?phone=917349222263&text=Hello,"
                     target="_blank"
                   >
                     <button className={styles.btn1}>
                       <AiOutlineWhatsApp /> Enquire Now
                     </button>
-                  </a> */}
+                  </a>
 
                   <a href="tel: +917795687988">
                     <button className={styles.btn2}>
@@ -94,20 +88,14 @@ function LearnSupport({
                 </div>
               ) : (
                 <div className={styles.btnWrap}>
-                  {WBbtn ? (
-                    <>
-                      {/* <a
-                        href="https://api.whatsapp.com/send?phone=919986049187&text=Hello,"
-                        target="_blank"
-                      >
-                        <button className={styles.btn1}>
-                          <AiOutlineWhatsApp /> Enquire Now
-                        </button>
-                      </a> */}
-                    </>
-                  ) : (
-                    ""
-                  )}
+                  <a
+                    href="https://api.whatsapp.com/send?phone=918123327570&text=Hello,"
+                    target="_blank"
+                  >
+                    <button className={styles.btn1}>
+                      <AiOutlineWhatsApp /> Enquire Now
+                    </button>
+                  </a>
                   <a href="tel: +918123327570">
                     <button className={styles.btn2}>
                       <MdCall /> +91 8123 327570

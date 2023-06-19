@@ -33,7 +33,7 @@ const FooterThankYou = () => {
           </span>
           <span style={{ display: "flex", marginTop: "10px" }}>
             <BsFillTelephoneFill className="bIcons" />
-            <Link href="tel:+919986049187">(+91) 99860 49187</Link>
+            <Link href="tel:+918123327570">(+91) 81233 27570</Link>
           </span>
         </div>
         <div className={styles.FooterDivInner}>
