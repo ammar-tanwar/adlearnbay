@@ -49,10 +49,10 @@ const CityFooter = ({ cityName }) => {
             <IoMailSharp className="bIcons" />
             contacts@learnbay.co
           </span>
-          <Link href="tel:+919986049187">
+          <Link href="tel:+918123327570">
             <span style={{ display: "flex", marginTop: "10px" }}>
               <BsFillTelephoneFill className="bIcons" />
-              (+91) 99860 49187
+              (+91) 81233 27570
             </span>
           </Link>
         </div>

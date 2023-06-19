@@ -73,10 +73,10 @@ const Footer = ({ numEmailHide, fullStackCont, fullStackContt }) => {
                           <IoMailSharp className="bIcons" />
                           contacts@learnbay.co
                         </span>
-                        <Link href="tel:+919986049187">
+                        <Link href="tel:+918123327570">
                           <span style={{ display: "flex", marginTop: "10px" }}>
                             <BsFillTelephoneFill className="bIcons" />
-                            (+91) 99860 49187
+                            (+91) 81233 27570
                           </span>
                         </Link>
                       </>
@@ -90,7 +90,7 @@ const Footer = ({ numEmailHide, fullStackCont, fullStackContt }) => {
                   Full Stack Web Development Program
                 </p> */}
                 <p className={styles.FooterInnerli}>
-                Software Development Master Program
+                  Software Development Master Program
                 </p>
                 <p className={styles.FooterInnerli}>
                   Data Structures Algorithms And System Design
@@ -159,10 +159,10 @@ const Footer = ({ numEmailHide, fullStackCont, fullStackContt }) => {
                           <IoMailSharp className="bIcons" />
                           contacts@learnbay.co
                         </span>
-                        <Link href="tel:+919986049187">
+                        <Link href="tel:+918123327570">
                           <span style={{ display: "flex", marginTop: "10px" }}>
                             <BsFillTelephoneFill className="bIcons" />
-                            (+91) 99860 49187
+                            (+91) 81233 27570
                           </span>
                         </Link>
                       </>

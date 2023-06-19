@@ -49,7 +49,7 @@ export default function Home({ formotp }) {
           name="Keywords"
           content="system design course, system design courses, system design training, best system design course, learn system design, system design program, system design online course, best course for system design, low level system design course, system design best course, online system design course, live system design course"
         />
-        {/* <script
+        <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
                         var s = document.createElement('script');
@@ -87,11 +87,11 @@ export default function Home({ formotp }) {
                         var x = document.getElementsByTagName('script')[0];
                         x.parentNode.insertBefore(s, x);`,
           }}
-        /> */}
-        <script
+        />
+        {/* <script
           src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
           async
-        ></script>
+        ></script> */}
       </Head>
       <main>
         {" "}

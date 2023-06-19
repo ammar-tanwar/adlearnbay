@@ -7,7 +7,7 @@ import styles from './Whatsapp.module.css'
 function Whatsapp() {
   return (
     <section className={styles.Whatsapp}>
-      {/* <a href="https://api.whatsapp.com/send?phone=7349222263&text=" target={"_blank"}><RiWhatsappFill className={styles.Wicon} /></a> */}
+      <a href="https://api.whatsapp.com/send?phone=7349222263&text=" target={"_blank"}><RiWhatsappFill className={styles.Wicon} /></a>
     </section>
   )
 }

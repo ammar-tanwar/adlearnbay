@@ -48,7 +48,7 @@ export default function Home({ formotp }) {
           name="Keywords"
           content="Full Stack Software Development training, Best Full Stack Software Development Training, Online Full Stack Software Development training, Live Full Stack Software development training"
         />
-        {/* <script
+        <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
                         var s = document.createElement('script');
@@ -86,11 +86,11 @@ export default function Home({ formotp }) {
                         var x = document.getElementsByTagName('script')[0];
                         x.parentNode.insertBefore(s, x);`,
           }}
-        /> */}
-        <script
+        />
+        {/* <script
           src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
           async
-        ></script>
+        ></script> */}
       </Head>
       <main>
         {" "}
