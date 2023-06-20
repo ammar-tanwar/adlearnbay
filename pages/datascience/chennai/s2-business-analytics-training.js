@@ -1,28 +1,18 @@
 import Head from "next/head";
 import React, { useState } from "react";
-import Popup from "../../Components/Popup/Popup";
-import Form from "../../Components/Form/Form";
-import Navbar from "../../Components/CoursePage/Navbar/Navbar";
+import Popup from "../../../Components/Popup/Popup";
+import Form from "../../../Components/Form/Form";
+import Navbar from "../../../Components/CoursePage/Navbar/Navbar";
 
-import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
-import HeroSection from "../../Components/LightTheme/FirstSection/HeroSection";
-import Testimonial from "../../Components/LightTheme/SixthSectionFssd/Testimonial";
-import SecondSection from "../../Components/LightTheme/SecondSection/SecondSection";
-import ThirdSection from "../../Components/LightTheme/ThirdSection/ThirdSection";
-import FourthSection from "../../Components/LightTheme/FourthSection/FourthSection";
-import SeventhSection from "../../Components/LightTheme/SeventhSection/SeventhSection";
-import EightSection from "../../Components/LightTheme/EightSection/EightSection";
-import SyllabusSection from "../../Components/LightTheme/SyllabusSection/SyllabusSection";
-import FAQNew from "../../Components/LightTheme/FAQNew/FAQNewcer";
-import {
-  FaqData9,
-  DomainFaqData9,
-  PaymentFaqData9,
-  CapstoneFaqData9,
-  jobFaqData9,
-  MentorshipFaqData9,
-  SupportFaqData9,
-} from "../../Components/LightTheme/FAQNew/FaqData";
+import SliderTab from "../../../Components/CoursePage/SliderTab/SliderTabs";
+import HeroSection from "../../../Components/LightTheme/FirstSection/HeroSection";
+import Testimonial from "../../../Components/LightTheme/SixthSection/Testimonial";
+import SecondSection from "../../../Components/LightTheme/SecondSection/SecondSection";
+import ThirdSection from "../../../Components/LightTheme/ThirdSection/ThirdSection";
+import FourthSection from "../../../Components/LightTheme/FourthSection/FourthSection";
+import SeventhSection from "../../../Components/LightTheme/SeventhSection/SeventhSection";
+import EightSection from "../../../Components/LightTheme/EightSection/EightSection";
+import SyllabusSection from "../../../Components/LightTheme/SyllabusSection/SyllabusSection";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -33,14 +23,15 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Master Program in Software Development - Learnbay</title>
+        <title>Business Analytics Training</title>
         <meta
           name="description"
-          content="Learnbay's Full Stack Software Development Course will help you become a skilled software developer. Gain practical experience and master key coding skills."
+          content="Top Online Business Analytics Training with 100% Placement assistance 
+          & 24/7 support"
         />
         <meta
-          name="keywords"
-          content="Software Development Master Program with Domain Specialization"
+          name="Keywords"
+          content="business analytics training, business analytics online training, best online business analytics training, online business analytics training, business analytics course with professional training, business analytcis course fee, business analytics course duration"
         />
         <link
           rel="icon"
@@ -75,7 +66,7 @@ export default function Home() {
               "ctaText":"Start Chat",
               "borderRadius":"25",
               "autoShow":false,
-              "phoneNumber":"+919731135221"
+              "phoneNumber":"+918123327570"
           }
         };
             s.onload = function() {
@@ -92,12 +83,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar
-          popup={true}
-          brochureButton={true}
-          formotp={true}
-          s2dataScience={true}
-        />
+        <Navbar popup={true} brochureButton={true} formotp={true} s2dataScience={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -108,17 +94,14 @@ export default function Home() {
           </div>
         </Popup>
         <HeroSection
-          formotp={true}
-          s2dataScience={true}
-          fullStackCont={true}
-          deskTopPara="Get ready to level up your coding expertise"
-          h1="Software Development Master Program"
-          hSpan="with Domain Specialization"
-          para="Work on 12+ real-time projects & get hired at top MNCs with a salary of up to 18LPA, only for Working Professionals."
-          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/data+science+and+ai.jpg"
+          formotp={true} s2dataScience={true}
+          deskTopPara="Develop Work-Ready Skills You Can Use Right Away"
+          h1="Business Analytics Training in"
+          hSpan="Chennai"
+          para="Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career."
+          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/chennai-generic.png"
         />
         <SecondSection
-          fullStackCont={true}
           p1="IBM Certified"
           p11="Capstone Projects"
           p2="5-star"
@@ -128,9 +111,8 @@ export default function Home() {
           p4="1:1 Support"
           p44="Dedicated Program"
         />
-        <ThirdSection formotp={true} s2dataScience={true} fullStackCont={true} />
+        <ThirdSection formotp={true} s2dataScience={true} />
         <FourthSection
-          fullStackCont={true}
           h1="Program Highlights"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/weekend+and+weekday+batch.jpg"
@@ -138,28 +120,19 @@ export default function Home() {
           img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
         />
         <SyllabusSection
-          formotp={true}
-          s2dataScience={true}
-          fullStackCont={true}
-          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our Software Development course feature practical training with real-time projects and case studies."
-          Hours="250+ Hours"
-          Projects="12+ projects"
-          Module0="Programming Fundamentals"
-          Module1="Basic DSA"
-          Module2="Advanced DSA"
-          Module3="System Design"
+          formotp={true} s2dataScience={true}
+          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our Business Analytics Course feature practical training with real-time projects and case studies."
+          Hours="200+ Hours"
+          Projects="8+ projects"
+          Module0="Preparatory Classes (Programming + Maths)"
+          Module1="Python for Data Science"
+          Module2="Statistics"
+          Module3="Data Science Tools"
+          Module4="Essentials"
         />
+        <SliderTab />
         <Testimonial formotp={true} s2dataScience={true} />
-        <FAQNew
-          FaqDatas={FaqData9}
-          DomainFaqDatas={DomainFaqData9}
-          PaymentFaqDatas={PaymentFaqData9}
-          CapstoneFaqDatas={CapstoneFaqData9}
-          jobFaqDatas={jobFaqData9}
-          MentorshipFaqDatas={MentorshipFaqData9}
-          SupportFaqDatas={SupportFaqData9}
-        />
-        <SeventhSection fullStackCont={true} />
+        <SeventhSection />
         <EightSection formotp={true} s2dataScience={true} />
       </main>
     </div>
