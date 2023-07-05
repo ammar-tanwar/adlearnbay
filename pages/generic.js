@@ -1,7 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import FirstSection from "../Components/Home/FirstSection/FirstSection1";
-import Course from "../Components/Home/CourseHome/Course";
+import Course from "../Components/Home/CourseHome/CourseGeneric";
 import KeyFeatures from "../Components/Home/KeyFeatures/KeyFeatures";
 import WhyLearnbay from "../Components/Home/WhyLearnbay/WhyLearnbay";
 import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
@@ -120,8 +120,8 @@ export default function Home() {
       <div className={styles.careerImpactNew}>
         <CareerImpactHome />
       </div>
-      <LearnSupport fullStackCont={true} />
-      <Footer fullStackCont={true} />
+      <LearnSupport />
+      <Footer />
     </div>
   );
 }

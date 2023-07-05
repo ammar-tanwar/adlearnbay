@@ -1,5 +1,26 @@
 export const viewAllD = [
   {
+    id: 1,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/Foundation.png",
+    title: "Data Science",
+    title1: "Foundation Program",
+    courseTime: "5-7 months",
+    tag: "Data science",
+    tagHead: "For Non-Tech Professionals",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+Foundation+Program+Learnbay.pdf",
+    titleCourse: "Data Science Foundation Program",
+
+    para: [
+      "200+ hours content",
+      "4 Foundation",
+      "Course Fee : ₹ 79,000 | No cost EMI",
+    ],
+    link1: "/data-science-certification-courses",
+    link2:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+Foundation+Program+Learnbay.pdf",
+  },
+  {
     id: 2,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/Adv.+DSAI.png",
     title: "Advanced Data Science",
@@ -60,26 +81,6 @@ export const viewAllD = [
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
   },
   {
-    id: 5,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/DSAI+Master+(1).png",
-    title: "Data Science & AI ",
-    title1: "Master Program",
-    courseTime: "13-15 months",
-    tagHead: "Guaranteed Interview Call",
-    tag: "Data science",
-    brochureLinks:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf",
-    titleCourse: "Data Science & AI Master Program",
-    para: [
-      "500+ hours content",
-      "12 Advance + 4 Capstone",
-      "Course Fee : ₹ 1,29,000 | No cost EMI",
-    ],
-    link1: "/data-science-ai-masters-program",
-    link2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf",
-  },
-  {
     id: 6,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/DA.png",
     title: "Data Analytics",
@@ -121,6 +122,26 @@ export const viewAllD = [
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
   },
   {
+    id: 5,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/DSAI+Master+(1).png",
+    title: "Data Science & AI ",
+    title1: "Master Program",
+    courseTime: "13-15 months",
+    tagHead: "Guaranteed Interview Call",
+    tag: "Data science",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf",
+    titleCourse: "Data Science & AI Master Program",
+    para: [
+      "500+ hours content",
+      "12 Advance + 4 Capstone",
+      "Course Fee : ₹ 1,29,000 | No cost EMI",
+    ],
+    link1: "/data-science-ai-masters-program",
+    link2:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf",
+  },
+  {
     id: 9,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/SDE-masters.png",
     title: "Software Development ",
@@ -152,6 +173,107 @@ export const viewAllD = [
       "Course Fee : ₹ 70,000 + GST",
     ],
     link1: "/dsa",
+  },
+  {
+    id: 8,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/software-blockchain.png",
+    title: "Software Development ",
+    courseTime: "8-10 months",
+    title1: "Program in Blockchain",
+    tag: "Full stack",
+    tagHead: "For Non-Tech Professionals",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf",
+    titleCourse: "Software Development Program in Blockchain",
+    para: [
+      "250+ hours content",
+      "12 Projects",
+      "Course Fee : ₹ 95,000 | No cost EMI",
+    ],
+    link1: "/software-development-program-with-specialization-in-blockchain",
+    link2:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf",
+  },
+  {
+    id: 10,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/software-Devops.png",
+    title: "Software Development Program ",
+    courseTime: "8-10 months",
+    title1: "in Cloud Computing & DevOps",
+    tagHead: "Be a Product Design Pro",
+    tag: "Full stack",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Cloud+and+DevOps.pdf",
+    titleCourse: "Software Development Program in Cloud Computing & DevOps",
+    para: [
+      "250+ hours content",
+      "12 Projects",
+      "Course Fee : ₹ 95,000 | No cost EMI",
+    ],
+    link1:
+      "/software-development-program-with-specialization-in-cloud-computing-&-devops",
+    link2:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Cloud+and+DevOps.pdf",
+  },
+  {
+    id: 11,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/BFSI+(1).png",
+    title: "Data Science and AI Program",
+    title1: "for BFSI Professionals",
+    courseTime: "7-9 months",
+    tag: "Data science",
+    tagHead: "For BFSI Professionals",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+for+BFSI+Professionals.pdf",
+    titleCourse: "Data Science and AI Program for BFSI Professionals",
+    para: [
+      "250+ hours content",
+      "10 Advance + 2 Capstone",
+      "Course Fee : ₹ 89,000 | No cost EMI",
+    ],
+    link1: "/banking-finance-analytics",
+    link2:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
+  },
+  {
+    id: 12,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/HR.png",
+    title: "HR Analytics",
+    courseTime: "5-7 months",
+    title1: "Program",
+    tag: "Data science",
+    tagHead: "Leadership Role In HR Domain",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/HR+Analytics+Certification+Program.pdf",
+    titleCourse: "HR Analytics Program",
+    para: [
+      "200+ hours content",
+      "10 Advance + 2 Capstone",
+      "Course Fee : ₹ 89,000 | No cost EMI",
+    ],
+    link1: "/hr-analytics",
+    link2:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
+  },
+  {
+    id: 13,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/Marketing.png",
+    title: "Marketing Analytics",
+    courseTime: "5-7 months",
+    title1: "Program",
+    tag: "Data science",
+    tagHead: "Excel data-driven marketing",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf",
+    titleCourse: "Marketing Analytics Program",
+    para: [
+      "200+ hours content",
+      "10 Advance + 2 Capstone",
+      "Course Fee : ₹ 89,000 | No cost EMI",
+    ],
+    link1: "/marketing-analytics",
+    link2:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
   },
 ];
 export const ForProgrammersD = [
@@ -256,7 +378,7 @@ export const ForProgrammersD = [
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf",
   },
   {
-    id: 7,
+    id: 4,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/dsa%26system.png",
     title: "Data Structures Algorithms",
     title1: "And System Design",
@@ -267,9 +389,70 @@ export const ForProgrammersD = [
       "Course Fee : ₹ 70,000 + GST",
     ],
     link1: "/dsa",
-  }
+  },
+  {
+    id: 5,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/software-blockchain.png",
+    title: "Software Development ",
+    courseTime: "8-10 months",
+    title1: "Program in Blockchain",
+    tag: "Full stack",
+    tagHead: "For Non-Tech Professionals",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf",
+    titleCourse: "Software Development Program in Blockchain",
+    para: [
+      "250+ hours content",
+      "12 Projects",
+      "Course Fee : ₹ 95,000 | No cost EMI",
+    ],
+    link1: "/software-development-program-with-specialization-in-blockchain",
+    link2:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf",
+  },
+  {
+    id: 7,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/software-Devops.png",
+    title: "Software Development Program ",
+    courseTime: "8-10 months",
+    title1: "in Cloud Computing & DevOps",
+    tagHead: "Be a Product Design Pro",
+    tag: "Full stack",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Cloud+and+DevOps.pdf",
+    titleCourse: "Software Development Program in Cloud Computing & DevOps",
+    para: [
+      "250+ hours content",
+      "12 Projects",
+      "Course Fee : ₹ 95,000 | No cost EMI",
+    ],
+    link1:
+      "/software-development-program-with-specialization-in-cloud-computing-&-devops",
+    link2:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Cloud+and+DevOps.pdf",
+  },
 ];
 export const ForNonProgrammerD = [
+  {
+    id: 1,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/Foundation.png",
+    title: "Data Science",
+    title1: "Foundation Program",
+    courseTime: "5-7 months",
+    tag: "Data science",
+    tagHead: "For Non-Tech Professionals",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+Foundation+Program+Learnbay.pdf",
+    titleCourse: "Data Science Foundation Program",
+    para: [
+      "200+ hours content",
+      "4 Foundation",
+      "Course Fee : ₹ 79,000 | No cost EMI",
+    ],
+    link1: "/data-science-certification-courses",
+    link2:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+Foundation+Program+Learnbay.pdf",
+  },
   {
     id: 2,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/Adv.+DSAI.png",
@@ -366,7 +549,7 @@ export const ForNonProgrammerD = [
       "12 Advance + 4 Capstone",
       "Course Fee : ₹ 1,10,000 | No cost EMI",
     ],
-    link1: "/business-analytics-certification-course",
+    link1: "1,10usiness-analytics-certification-course",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
   },
@@ -387,6 +570,66 @@ export const ForNonProgrammerD = [
       "Course Fee : ₹ 79,000 | No cost EMI",
     ],
     link1: "/data-analytics-certification-course",
+    link2:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
+  },
+  {
+    id: 8,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/BFSI+(1).png",
+    title: "Data Science and AI Program",
+    title1: "for BFSI Professionals",
+    courseTime: "7-9 months",
+    tag: "Data science",
+    tagHead: "For BFSI Professionals",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+for+BFSI+Professionals.pdf",
+    titleCourse: "Data Science and AI Program for BFSI Professionals",
+    para: [
+      "250+ hours content",
+      "10 Advance + 2 Capstone",
+      "Course Fee : ₹ 89,000 | No cost EMI",
+    ],
+    link1: "/banking-finance-analytics",
+    link2:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
+  },
+  {
+    id: 9,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/HR.png",
+    title: "HR Analytics",
+    courseTime: "5-7 months",
+    title1: "Program",
+    tag: "Data science",
+    tagHead: "Leadership Role In HR Domain",
+    brochureLinks:
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/HR+Analytics+Certification+Program.pdf",
+  titleCourse: "HR Analytics Program",
+    para: [
+      "200+ hours content",
+      "10 Advance + 2 Capstone",
+      "Course Fee : ₹ 89,000 | No cost EMI",
+    ],
+    link1: "/hr-analytics",
+    link2:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
+  },
+  {
+    id: 10,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Course-home/Marketing.png",
+    title: "Marketing Analytics",
+    courseTime: "5-7 months",
+    title1: "Program",
+    tag: "Data science",
+    tagHead: "Excel data-driven marketing",
+    brochureLinks:
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf",
+  titleCourse: "Marketing Analytics Program",
+    para: [
+      "200+ hours content",
+      "10 Advance + 2 Capstone",
+      "Course Fee : ₹ 89,000 | No cost EMI",
+    ],
+    link1: "/marketing-analytics",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
   },
@@ -436,6 +679,26 @@ export const JobGuaranteeD = [
 ];
 export const StackD = [
   {
+    id: 1,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/software-blockchain.png",
+    title: "Software Development ",
+    courseTime: "8-10 months",
+    title1: "Program in Blockchain",
+    tag: "Full stack",
+    tagHead: "For Non-Tech Professionals",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf",
+    titleCourse: "Software Development Program in Blockchain",
+    para: [
+      "250+ hours content",
+      "12 Projects",
+      "Course Fee : ₹ 95,000 | No cost EMI",
+    ],
+    link1: "/software-development-program-with-specialization-in-blockchain",
+    link2:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf",
+  },
+  {
     id: 2,
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/SDE-masters.png",
     title: "Software Development ",
@@ -454,6 +717,27 @@ export const StackD = [
     link1: "/fssd",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
+  },
+  {
+    id: 3,
+    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/software-Devops.png",
+    title: "Software Development Program ",
+    courseTime: "8-10 months",
+    title1: "in Cloud Computing & DevOps",
+    tagHead: "Be a Product Design Pro",
+    tag: "Full stack",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Cloud+and+DevOps.pdf",
+    titleCourse: "Software Development Program in Cloud Computing & DevOps",
+    para: [
+      "250+ hours content",
+      "12 Projects",
+      "Course Fee : ₹ 95,000 | No cost EMI",
+    ],
+    link1:
+      "/software-development-program-with-specialization-in-cloud-computing-&-devops",
+    link2:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Cloud+and+DevOps.pdf",
   },
   {
     id: 4,
