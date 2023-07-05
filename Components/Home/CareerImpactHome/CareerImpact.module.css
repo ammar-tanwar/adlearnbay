@@ -107,7 +107,7 @@
 .slide {
   padding: 10px 20px;
   display: flex;
-  height: 340px;
+  height: 400px;
   flex-flow: column-reverse;
   justify-content: center;
   align-items: flex-start;
@@ -133,6 +133,7 @@
   border-left: 5px solid #0072bc;
   border-radius: 4px;
   padding-left: 10px;
+text-align: left;
 }
 .bottom {
   display: flex;
