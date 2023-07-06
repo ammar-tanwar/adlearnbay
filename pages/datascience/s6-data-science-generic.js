@@ -3,16 +3,34 @@ import React, { useState } from "react";
 import Popup from "../../Components/Popup/Popup";
 import Form from "../../Components/Form/Form";
 import Navbar from "../../Components/CoursePage/Navbar/Navbar";
-
-import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
-import HeroSection from "../../Components/LightTheme/FirstSection/HeroSection";
-import Testimonial from "../../Components/LightTheme/SixthSection/Testimonial";
-import SecondSection from "../../Components/LightTheme/SecondSection/SecondSection";
-import ThirdSection from "../../Components/LightTheme/ThirdSection/ThirdSection";
+import Testimonial from "../../Components/NewCoursePage/SixthSection/Testimonial";
 import FourthSection from "../../Components/LightTheme/FourthSection/FourthSection";
-import SeventhSection from "../../Components/LightTheme/SeventhSection/SeventhSection";
 import EightSection from "../../Components/LightTheme/EightSection/EightSection";
-import SyllabusSection from "../../Components/LightTheme/SyllabusSection/SyllabusSection";
+import SyllabusSection from "../../Components/NewCoursePage/SyllabusSection/SyllabusSection";
+import { DataScienceCourseData } from "../../Data/AdvanceDataScienceCourse";
+
+import dynamic from "next/dynamic";
+
+const FirstSection = dynamic(() =>
+  import("../../Components/NewCoursePage/FirstSection/FirstSection")
+);
+
+const SeventhSection = dynamic(() =>
+  import("../../Components/NewCoursePage/SeventhSection/SeventhSection")
+);
+
+const SecondSection = dynamic(() =>
+  import("../../Components/NewCoursePage/SecondSection/SecondSection")
+  );
+
+  const DomainSection = dynamic(() =>
+  import("../../Components/NewCoursePage/DomainSection/DomainSection")
+  );
+
+  const CourseSection = dynamic(() =>
+  import("../../Components/NewCoursePage/CourseSection/CourseSectio")
+  );
+
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -95,25 +113,27 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} />
           </div>
         </Popup>
-        <HeroSection
-          deskTopPara="Choose Specialization over Generalization"
-          h1="Data Science Course with"
-          hSpan="Domain Specialization for Professionals"
-          para="Successfully transition careers through our courses & real-time capstone projects. 
-          All while making your previous work experience count!"
-          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/data+science+and+ai.jpg"
+        <FirstSection
+          FirstTyped="Guaranteed Interview Calls"
+          SecondTyped="Capstone Project Certificate"
+          ThirdTyped="Live Interactive Classes"
+          dataScience={true}
+          titleCourse="Data Science Course with Domain Specialization for Professionals"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
+          first="Tools"
+          second="Tips"
+          third="Technology"
+          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/advance+DS+header+image.webp"
+          firstToparaImg="Domain Specialization for Professionals"
+          firstHeading="Data Science Course with"
+          firstTopPara="Choose Specialization over Generalization"
+          idss="bfl64ANfSV0"
+          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
         />
         <SecondSection
-          p1="IBM Certified"
-          p11="Capstone Projects"
-          p2="5-star"
-          p22="Industry-standard Training"
-          p3="3-year"
-          p33="Subscription Model"
-          p4="1:1 Support"
-          p44="Dedicated Program"
+          SecondSectionData={DataScienceCourseData[0].secondSection}
         />
-        <ThirdSection />
+        <CourseSection courseSectionData={DataScienceCourseData[0].courseSectionData}/>
         <FourthSection
           h1="Program Highlights"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
@@ -131,8 +151,9 @@ export default function Home() {
           Module3="Data Science Course Tools"
           Module4="Artificial Intelligence Tools"
         />
-        <SliderTab />
-        <Testimonial />
+        <DomainSection 
+          domainSectionData={DataScienceCourseData[0].domainSection}/>
+        <Testimonial/>
         <SeventhSection />
         <EightSection />
       </main>

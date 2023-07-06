@@ -5,7 +5,14 @@ import PhoneInput from "react-phone-number-input";
 import { useRouter } from "next/router";
 import getDay from "date-fns/getDay";
 
-const Form = ({ popup, setTrigger, downloadBrochure, radio, event, stepupJobExp }) => {
+const Form = ({
+  popup,
+  setTrigger,
+  downloadBrochure,
+  radio,
+  event,
+  stepupJobExp,
+}) => {
   const router = useRouter();
 
   let today = new Date();
@@ -46,9 +53,7 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, stepupJobExp 
   }
 
   // -==================== Marketing ==========================--------
-  if (
-    router.pathname === "/step-up-with-learnbay"
-  ) {
+  if (router.pathname === "/step-up-with-learnbay") {
     // -==================== Marketing ==========================--------
     endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
     // -==================== Marketing ==========================--------
@@ -141,17 +146,17 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, stepupJobExp 
             style={
               popup
                 ? {
-                  height: "50px",
-                  borderRadius: "8px",
-                  border: "1px solid grey",
-                  padding: "10px",
-                }
+                    height: "50px",
+                    borderRadius: "8px",
+                    border: "1px solid grey",
+                    padding: "10px",
+                  }
                 : {
-                  border: "0",
-                  height: "50px",
-                  borderRadius: "3px",
-                  borderBottom: "1px solid grey",
-                }
+                    border: "0",
+                    height: "50px",
+                    borderRadius: "3px",
+                    borderBottom: "1px solid grey",
+                  }
             }
             name="phone"
             rules={{ required: true }}
@@ -165,7 +170,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, stepupJobExp 
           />
         </div>
 
-
         {stepupJobExp ? (
           <>
             <div className={styles.formWrapper}>
@@ -177,7 +181,6 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, stepupJobExp 
                 value={query.jobDescription}
                 onChange={handleParam()}
               />
-
             </div>
 
             <div className={popup ? styles.formWrappers : styles.formWrapper}>
@@ -196,36 +199,35 @@ const Form = ({ popup, setTrigger, downloadBrochure, radio, event, stepupJobExp 
               </select>
             </div>
           </>
-        ) : ("")}
+        ) : (
+          ""
+        )}
 
-
-
-{radio ? (
-            <div className={popup ? styles.formWrappers : styles.formWrapper}>
-              <input
-                id="Data Science Program"
-                value="Data Science & AI Courses"
-                name="platform"
-                required={true}
-                type="radio"
-                onChange={handleForm}
-              />
-              Data Science & AI Courses&nbsp;
-              <br />
-              <input
-                id="Full Stack Program"
-                value="Software/Web Development (DSA & System Design)"
-                name="platform"
-                required={true}
-                type="radio"
-                onChange={handleForm}
-              />
-              Software/Web Development <br />
-              &nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design)
-            </div>
-          ) : (
-            ""
-          )}
+        {radio ? (
+          <div className={popup ? styles.formWrappers : styles.formWrapper}>
+            <input
+              id="Data Science Program"
+              value="Data Science & AI Courses"
+              name="platform"
+              required={true}
+              type="radio"
+              onChange={handleForm}
+            />
+            Data Science & AI Courses&nbsp;
+            <br />
+            <input
+              id="Full Stack Program"
+              value="Software (DSA & System Design)"
+              name="platform"
+              required={true}
+              type="radio"
+              onChange={handleForm}
+            />
+            Software (DSA & System Design)
+          </div>
+        ) : (
+          ""
+        )}
         <p className={styles.FormText} style={{ fontSize: "10px" }}>
           By submitting the form, you agree to our Terms and Conditions and our
           Privacy Policy.

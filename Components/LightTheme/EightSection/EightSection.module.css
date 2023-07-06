@@ -52,4 +52,7 @@
         text-align: center;
         gap: 10px;
     }
+    .btnInner button {
+        margin: auto;
+    }
 }

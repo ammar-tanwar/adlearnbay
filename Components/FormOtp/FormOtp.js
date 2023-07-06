@@ -1994,14 +1994,13 @@ function FormOtp({
               <br />
               <input
                 id="Full Stack Program"
-                value="Software/Web Development (DSA & System Design)"
+                value="Software (DSA & System Design)"
                 name="platform"
                 required={true}
                 type="radio"
                 onChange={handleForm}
               />
-              Software/Web Development <br />
-              &nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design)
+              Software (DSA & System Design)
             </div>
           ) : (
             ""

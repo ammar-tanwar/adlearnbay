@@ -1,3 +1,5 @@
+@import "./Button.css";
+
 html,
 body {
   padding: 0;
@@ -191,6 +193,80 @@ h4 {
 .FlDiv {
   display: none;
 }
+
+/* New Course Page Design Css */
+
+.imgWrapper {
+  display: flex;
+  width: 100%;
+}
+.imgWrapperMobile {
+  display: none;
+}
+.imgWrapperDesktop {
+  display: flex;
+  width: 100%;
+}
+.imgWrapperDesktop img {
+  width: 100%;
+  height: auto;
+}
+.imgWrapper img {
+  width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: column;
+  padding: 40px 100px;
+}
+
+.bgWrap {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+  width: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+@media (max-width: 1281px) {
+  .wrapper {
+    padding: 40px 80px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    padding: 30px 60px;
+  }
+}
+@media (max-width: 961px) {
+  .wrapper {
+    padding: 30px 40px;
+  }
+}
+
+@media (max-width: 801px) {
+  .wrapper {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 641px) {
+  .imgWrapperMobile {
+    display: flex;
+  }
+  .imgWrapperDesktop {
+    display: none;
+  }
+}
+
+/* --------- */
+
 @media (max-width: 481px) {
   h4 {
     font-size: 24px;

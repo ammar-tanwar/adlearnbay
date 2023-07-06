@@ -10,9 +10,13 @@ import addDays from "date-fns/addDays";
 import subDays from "date-fns/subDays";
 import getDay from "date-fns/getDay";
 
-const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience }) => {
-
-
+const FormInline = ({
+  popup,
+  setTrigger,
+  downloadBrochure,
+  radio,
+  dataScience,
+}) => {
   const [mobile, setMobile] = useState(false);
 
   useEffect(() => {
@@ -59,9 +63,7 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience })
 
   let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
 
-  if (
-    router.pathname === "/common"
-  ) {
+  if (router.pathname === "/common") {
     endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
   }
 
@@ -156,18 +158,18 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience })
               style={
                 popup
                   ? {
-                    height: "50px",
-                    borderRadius: "8px",
-                    border: "1px solid grey",
-                    padding: "10px",
-                  }
+                      height: "50px",
+                      borderRadius: "8px",
+                      border: "1px solid grey",
+                      padding: "10px",
+                    }
                   : {
-                    border: "0",
-                    height: "50px",
-                    padding: "10px",
-                    borderRadius: "8px",
-                    border: "1px solid grey",
-                  }
+                      border: "0",
+                      height: "50px",
+                      padding: "10px",
+                      borderRadius: "8px",
+                      border: "1px solid grey",
+                    }
               }
               name="phone"
               rules={{ required: true }}
@@ -233,53 +235,54 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience })
         </div> */}
         {radio ? (
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
-          { mobile ? (
-            <div>
-            <input
-              id="Data Science Program"
-              value="Data Science & AI Courses"
-              name="platform"
-              required
-              type="radio"
-              onChange={handleParam()}
-            />
-            Data Science & AI Courses&nbsp;
-            {mobile ? (<br />) : ("")}<input
-              id="Full Stack Program"
-              value="Software/Web Development (DSA & System Design)"
-              name="platform"
-              required
-              type="radio"
-              onChange={handleParam()}
-            />
-            Software/Web Development <br/>&nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design)
-            </div>
-            ):(
+            {mobile ? (
+              <div>
+                <input
+                  id="Data Science Program"
+                  value="Data Science & AI Courses"
+                  name="platform"
+                  required
+                  type="radio"
+                  onChange={handleParam()}
+                />
+                Data Science & AI Courses&nbsp;
+                {mobile ? <br /> : ""}
+                <input
+                  id="Full Stack Program"
+                  value="Software (DSA & System Design)"
+                  name="platform"
+                  required
+                  type="radio"
+                  onChange={handleParam()}
+                />
+                Software (DSA & System Design)
+              </div>
+            ) : (
               <>
-              <div className={styles.dsCourseInp}>
-              <input
-                id="Data Science Program"
-                value="Data Science & AI Courses"
-                name="platform"
-                required
-                type="radio"
-                onChange={handleParam()}
-              />
-              Data Science & AI Courses&nbsp;
-            </div>
-            <div className={styles.fsdCourseInp}>
-              <input
-                id="Full Stack Program"
-                value="Software/Web Development (DSA & System Design)"
-                name="platform"
-                required
-                type="radio"
-                onChange={handleParam()}
-              />
-              Software/Web Development (DSA & System Design)
-            </div>
-            </>
-              )}
+                <div className={styles.dsCourseInp}>
+                  <input
+                    id="Data Science Program"
+                    value="Data Science & AI Courses"
+                    name="platform"
+                    required
+                    type="radio"
+                    onChange={handleParam()}
+                  />
+                  Data Science & AI Courses&nbsp;
+                </div>
+                <div className={styles.fsdCourseInp}>
+                  <input
+                    id="Full Stack Program"
+                    value="Software (DSA & System Design)"
+                    name="platform"
+                    required
+                    type="radio"
+                    onChange={handleParam()}
+                  />
+                  Software (DSA & System Design)
+                </div>
+              </>
+            )}
           </div>
         ) : (
           ""
@@ -291,7 +294,7 @@ const FormInline = ({ popup, setTrigger, downloadBrochure, radio, dataScience })
         <button type="submit" className={styles.button}>
           Request A Callback
         </button>
-        <input type='hidden' id="zc_gad" name="zc_gad" value=""/>
+        <input type="hidden" id="zc_gad" name="zc_gad" value="" />
       </form>
     </div>
   );

@@ -1,0 +1,167 @@
+.Section2 {
+  margin-top: 50px;
+}
+
+.infop {
+  color: black;
+  margin: 0px 0px 10px 0px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.LearnSupport {
+  padding: 30px 100px 30px 300px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: fit-content;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.pBot {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #0072bc;
+  margin: 0;
+  margin-bottom: 30px;
+  padding-right: 80px;
+}
+
+.LearnSupport .pTop {
+  color: #f99600;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+.LearnSupport h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  color: #0072bc;
+  line-height: 37px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.btnWrap {
+  display: flex;
+  margin-top: 20px;
+}
+
+.btn1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  fill: #48c355;
+
+  background-color: #48c355;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #48c355;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px 0px #48c35550;
+  padding: 12px;
+  color: #fff;
+}
+
+.btn1:hover {
+  color: #48c355;
+  background-color: #fff;
+}
+
+.bIcon {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+@media (max-width: 1024px) {
+  .LearnSupport {
+    padding: 30px 30px 30px 180px;
+  }
+}
+
+@media (max-width: 961px) {
+  .LearnSupport {
+    padding: 30px 30px 30px 180px;
+  }
+}
+
+@media (max-width: 801px) {
+  .LearnSupport {
+    padding: 30px 30px 30px 180px;
+  }
+  .LearnSupport h5 {
+    font-size: 22px;
+    line-height: 24px;
+  }
+  .pBot {
+    font-size: 16px;
+  }
+  .LearnSupport .pTop {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 641px) {
+  .LearnSupport {
+    padding: 30px 30px 30px 30px;
+  }
+  .rightPart {
+    display: none;
+  }
+}
+
+@media (max-width: 481px) {
+  .LearnSupport {
+    padding: 40px 20px 0px 20px;
+    display: block;
+    margin: 0px 20px 20px 20px;
+    border-radius: 10px;
+    height: 700px;
+    justify-content: space-evenly;
+    margin-top: 30px;
+  }
+  .LearnSupport .pTop {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .LearnSupport h5 {
+    font-size: 26px;
+    line-height: 35px;
+  }
+
+  .pBot {
+    font-size: 16px;
+    line-height: 30px;
+    padding-right: 0px;
+  }
+
+  .btnWrap {
+    display: grid;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+
+  .h1 {
+    color: #0072bc;
+    margin: 10px 0px 20px 0px;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .infop {
+    font-size: 24px;
+  }
+  .rightPart {
+    display: none;
+  }
+}
