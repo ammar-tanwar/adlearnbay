@@ -1322,8 +1322,7 @@ const Form = ({
               type="radio"
               onChange={handleParam()}
             />
-            Software/Web Development <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;(DSA & System Design)
+            Software (DSA & System Design)
           </div>
         ) : (
           ""

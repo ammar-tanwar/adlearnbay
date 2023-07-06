@@ -4,6 +4,7 @@ import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
 import { FaDownload } from "react-icons/fa";
+import Button from "../../NewCoursePage/Button/Button";
 
 function EightSection({
   DownloadSyllabus,
@@ -70,17 +71,21 @@ function EightSection({
       <div>
         <p>Learn industry-relevant skills and build a rewarding career</p>
       </div>
-      <div>
+      <div onClick={popupShow} className={styles.btnInner}>
         {DownloadSyllabus ? (
-          <button onClick={popupShow} className={styles.buttonDiv}>
-            Download Syllabus
-            <FaDownload className={styles.icon} />
-          </button>
+          <Button
+            className={styles.buttonDiv}
+            text="Download Syllabus"
+            passIcon={<FaDownload className={styles.icon} />}
+            invert
+          />
         ) : (
-          <button onClick={popupShow} className={styles.buttonDiv}>
-            Download Brochure
-            <FaDownload className={styles.icon} />
-          </button>
+          <Button
+            className={styles.buttonDiv}
+            text="Download Brochure"
+            passIcon={<FaDownload className={styles.icon} />}
+            invert
+          />
         )}
       </div>
     </section>

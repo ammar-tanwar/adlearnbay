@@ -26,7 +26,6 @@ const Course = ({ common, formotp }) => {
   const [viewAll, setViewAll] = useState(false);
   const [oneYear, setOneYear] = useState(true);
   const [nonTech, setNonTech] = useState(false);
-  const [Guarantee, setGuarantee] = useState(false);
   const [Stack, setStack] = useState(false);
   const [mobile, setMobile] = useState(false);
   const [tab, setTab] = useState(false);
@@ -108,7 +107,6 @@ const Course = ({ common, formotp }) => {
               setOneYear(true);
               setNonTech(false);
               setStack(false);
-              setGuarantee(false);
             }}
             style={
               oneYear
@@ -124,7 +122,6 @@ const Course = ({ common, formotp }) => {
               setOneYear(false);
               setNonTech(true);
               setStack(false);
-              setGuarantee(false);
             }}
             style={
               nonTech
@@ -140,7 +137,6 @@ const Course = ({ common, formotp }) => {
               setOneYear(false);
               setNonTech(false);
               setStack(true);
-              setGuarantee(false);
             }}
             style={
               Stack
@@ -152,26 +148,9 @@ const Course = ({ common, formotp }) => {
           </span>
           <span
             onClick={() => {
-              setViewAll(false);
-              setOneYear(false);
-              setNonTech(false);
-              setStack(false);
-              setGuarantee(true);
-            }}
-            style={
-              Guarantee
-                ? { background: "white", color: "#0072bc" }
-                : { background: "#E5F3FA" }
-            }
-          >
-            100% Placement Assistance
-          </span>
-          <span
-            onClick={() => {
               setViewAll(true);
               setOneYear(false);
               setNonTech(false);
-              setGuarantee(false);
               setStack(false);
             }}
             style={
@@ -290,7 +269,7 @@ const Course = ({ common, formotp }) => {
                       </div>
                       <div
                         className={styles.contentBox}
-                        style={{ marginTop: "452px" }}
+                        style={{ marginTop: "438px" }}
                       >
                         <h6>{title}</h6>
                         <h6>{title1}</h6>
@@ -457,7 +436,7 @@ const Course = ({ common, formotp }) => {
                       </div>
                       <div
                         className={styles.contentBox}
-                        style={{ marginTop: "452px" }}
+                        style={{ marginTop: "438px" }}
                       >
                         <h6>{title}</h6>
                         <h6>{title1}</h6>
@@ -505,164 +484,6 @@ const Course = ({ common, formotp }) => {
                 })}
               </Swiper>
             </div>
-          </div>
-        ) : (
-          ""
-        )}
-
-        {Guarantee ? (
-          <div className={styles.mPanel}>
-            <h5>Data Science (1) </h5>
-            <div className={styles.gridPanel}>
-              <Swiper
-                slidesPerView={mobile ? 1 : 3.2}
-                spaceBetween={mobile ? 10 : 20}
-                pagination={{
-                  clickable: true,
-                }}
-                grabCursor={true}
-                modules={[Pagination]}
-                className="mySwiper"
-              >
-                {filtteredJobGuaranteeD.map((viewAllData) => {
-                  const { id, title, title1, img, para, link1 } = viewAllData;
-                  return (
-                    <SwiperSlide className={styles.leftSide} key={id}>
-                      <div key={id}>
-                        <a onClick={popupShow}>
-                          <img
-                            src={img}
-                            layout="intrinsic"
-                            width="423px"
-                            height="252px"
-                            alt="data science course"
-                            className={styles.courseImg}
-                          />
-                        </a>
-                        <div className={styles.contentBox}>
-                          <h6>{title}</h6>
-                          <h6>{title1}</h6>
-                          <p>
-                            <BiTimeFive className={styles.checkCircle} />
-                            {para[0]}
-                          </p>
-                          <p>
-                            <AiOutlineFundProjectionScreen
-                              className={styles.checkCircle}
-                              style={{ color: "#f99600" }}
-                            />
-                            {para[1]}
-                          </p>
-                          <p>
-                            <BsCheckCircle className={styles.checkCircle} />
-                            {para[2]}
-                          </p>
-                          <div className={styles.btnWrapper}>
-                            {common ? (
-                              <a onClick={popupShow}>
-                                <button>View Details</button>
-                              </a>
-                            ) : (
-                              <a onClick={popupShow}>
-                                <button>View Details</button>
-                              </a>
-                            )}
-                            <a onClick={popupShow}>
-                              <button
-                                className="outLineBtn"
-                                style={{ padding: "8px 15px" }}
-                              >
-                                Brochure
-                                <FiDownload
-                                  className="bIcon"
-                                  style={{ color: "#2979AD" }}
-                                />
-                              </button>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                  );
-                })}
-              </Swiper>
-            </div>
-            {/* <h5>Software Development (1) </h5>
-            <div className={styles.gridPanel}>
-              <Swiper
-                slidesPerView={mobile ? 1 : 3}
-                spaceBetween={mobile ? 10 : 20}
-                pagination={{
-                  clickable: true,
-                }}
-                grabCursor={true}
-                modules={[Pagination]}
-                className="mySwiper"
-              >
-                {filtteredJobGuaranteeF.map((viewAllData) => {
-                  const { id, title, title1, img, para, link1 } = viewAllData;
-                  return (
-                    <SwiperSlide className={styles.leftSide} key={id}>
-                      <div className={styles.gridImg}>
-                        <a onClick={popupShow}>
-                          <img
-                            src={img}
-                            layout="intrinsic"
-                            width="423px"
-                            height="252px"
-                            alt="data science course"
-                            className={styles.courseImg}
-                          />
-                        </a>
-                      </div>
-                      <div
-                        className={styles.contentBox}
-                        style={{ marginTop: "452px" }}
-                      >
-                        <h6>{title}</h6>
-                        <h6>{title1}</h6>
-                        <p>
-                          <BiTimeFive className={styles.checkCircle} />
-                          {para[0]}
-                        </p>
-                        <p>
-                          <AiOutlineFundProjectionScreen
-                            className={styles.checkCircle}
-                            style={{ color: "#f99600" }}
-                          />
-                          {para[1]}
-                        </p>
-                        <p>
-                          <BsCheckCircle className={styles.checkCircle} />
-                          {para[2]}
-                        </p>
-                        <div className={styles.btnWrapper}>
-                          { common ? (<a onClick={popupShow}>
-                              <button>View Details</button>
-                            </a>) : (
-                            <a onClick={popupShow}>
-                              <button>View Details</button>
-                            </a>
-                            )}
-                          <a onClick={popupShow}>
-                            <button
-                              className="outLineBtn"
-                              style={{ padding: "8px 15px" }}
-                            >
-                              Brochure
-                              <FiDownload
-                                className="bIcon"
-                                style={{ color: "#2979AD" }}
-                              />
-                            </button>
-                          </a>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                  );
-                })}
-              </Swiper>
-            </div> */}
           </div>
         ) : (
           ""
@@ -773,7 +594,7 @@ const Course = ({ common, formotp }) => {
                       </a>
                       <div
                         className={styles.contentBox}
-                        style={{ marginTop: "452px" }}
+                        style={{ marginTop: "438px" }}
                       >
                         <h6>{title}</h6>
                         <h6>{title1}</h6>

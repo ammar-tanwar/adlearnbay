@@ -19,7 +19,7 @@ function FourthSection({ h1, img1, img2, img3, img4, fullStackCont }) {
           />
           <div className={styles.iconText4Borange}>
             <FaRegCalendarCheck className={styles.IconBoxBlue} />
-            <p className={styles.section4P}>Weekend and Weekday Batches</p>
+            <p className={styles.section4P}>Weekend & Weekday Batches</p>
           </div>
         </div>
         <div className={styles.boxSection4Blue}>
@@ -33,23 +33,10 @@ function FourthSection({ h1, img1, img2, img3, img4, fullStackCont }) {
           <div className={styles.iconText4Bblue}>
             <FaLaptopCode className={styles.IconBoxOrange} />
             {fullStackCont ? (
-            <p className={styles.section4P}>Live Interactive Classes</p>
+              <p className={styles.section4P}>Live Interactive Classes</p>
             ) : (
-        <p className={styles.section4P}>Online Interactive Classes</p>
-        )}
-        </div>
-        </div>
-        <div className={styles.boxSection4Blue}>
-          <Image
-            src={img3}
-            width="393"
-            height="264"
-            layout="intrinsic"
-            loading="lazy"
-          />
-          <div className={styles.iconText4Bblue}>
-            <FaRegIdBadge className={styles.IconBoxOrange} />
-            <p className={styles.section4P}>1:1 Doubt Clearing Sessions</p>
+              <p className={styles.section4P}>Online Interactive Classes</p>
+            )}
           </div>
         </div>
         <div className={styles.boxSection4Orange}>
@@ -62,17 +49,27 @@ function FourthSection({ h1, img1, img2, img3, img4, fullStackCont }) {
           />
           <div className={styles.iconText4Borange}>
             <BiSelectMultiple className={styles.IconBoxBlue} />
-        {fullStackCont ? (
-          <p className={styles.section4P}>
-          100% Placement Support
-        </p>
-          ) : (
-            <p className={styles.section4P}>
-              Multiple Domain Selection Options
-            </p>
-        )}
+            {fullStackCont ? (
+              <p className={styles.section4P}>100% Placement Support</p>
+            ) : (
+              <p className={styles.section4P}>Multiple Domain Selection</p>
+            )}
           </div>
+
         </div>
+        <div className={styles.boxSection4Blue}>
+            <Image
+              src={img3}
+              width="393"
+              height="264"
+              layout="intrinsic"
+              loading="lazy"
+            />
+            <div className={styles.iconText4Bblue}>
+              <FaRegIdBadge className={styles.IconBoxOrange} />
+              <p className={styles.section4P}>1:1 Doubt Clearing Sessions</p>
+            </div>
+          </div>
       </div>
     </div>
   );
