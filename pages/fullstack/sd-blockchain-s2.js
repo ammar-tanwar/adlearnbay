@@ -97,7 +97,12 @@ export default function Home({ formotp }) {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} formotp={true} brochureButton={true} />
+        <Navbar
+          popup={true}
+          formotp={true}
+          fullstackADS={true}
+          brochureButton={true}
+        />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -109,6 +114,7 @@ export default function Home({ formotp }) {
         </Popup>
         <HeroSection
           formotp={true}
+          fullstackADS={true}
           fullStackCont={true}
           deskTopPara="Ready to lead the blockchain revolution?"
           h1="Software Development Course "
@@ -127,7 +133,7 @@ export default function Home({ formotp }) {
           p4="1:1 Mentorship"
           p44="Dedicated Program"
         />
-        <ThirdSection formotp={true} fullStackCont={true} />
+        <ThirdSection formotp={true} fullstackADS={true} fullStackCont={true} />
         <FourthSection
           fullStackCont={true}
           h1="Program Highlights"
@@ -139,6 +145,7 @@ export default function Home({ formotp }) {
         <SyllabusSection
           fullStackCont={true}
           formotp={true}
+          fullstackADS={true}
           desc="Learnbay's Software Development Course in Blockchain is led by experts from top MNCs, offering real-world projects and case studies."
           Hours="250+ Hours"
           Projects="12+ projects"
@@ -151,6 +158,7 @@ export default function Home({ formotp }) {
           Fee={BlockchainCourseData[0].ProgramFee.Fee}
           Emi={BlockchainCourseData[0].ProgramFee.Emi}
           formotp={true}
+          fullstackADS={true}
           CourseFeeAndFinancing={
             BlockchainCourseData[0].ProgramFee.CourseFeeAndFinancing
           }
@@ -159,6 +167,7 @@ export default function Home({ formotp }) {
         />
         <Batch
           formotp={true}
+          fullstackADS={true}
           syllabusDesc={BlockchainCourseData[0].syllabusDesc}
           syllabus={BlockchainCourseData[0].Batch}
           CourseFeeHead="Blockchain Course: Batch Details"
@@ -169,7 +178,7 @@ export default function Home({ formotp }) {
           CourseFeelist4={BlockchainCourseData[0].BatchCourses.CourseFeelist4}
           CourseFeelist5={BlockchainCourseData[0].BatchCourses.CourseFeelist5}
         />
-        <Testimonial formotp={true} />
+        <Testimonial formotp={true} fullstackADS={true} />
         <FAQNew
           FaqDatas={FaqDataBlockchain}
           DomainFaqDatas={DomainFaqDataBlockchain}
@@ -180,7 +189,7 @@ export default function Home({ formotp }) {
           SupportFaqDatas={SupportFaqDataBlockchain}
         />
         <SeventhSection fullStackCont={true} />
-        <EightSection formotp={true} />
+        <EightSection formotp={true} fullstackADS={true} />
       </main>
     </div>
   );

@@ -31,6 +31,7 @@ function SyllabusNew({
   syllabusFormotp,
   formotpForS3DS,
   s2dataScience,
+  fullstackADS,
   marketing,
 }) {
   const [popups, setPopups] = useState(false);
@@ -84,6 +85,7 @@ function SyllabusNew({
                 <FormOtp
                   popup={true}
                   s2dataScience={s2dataScience}
+                  fullstackADS={fullstackADS}
                   marketing={marketing}
                 />
               ) : (
@@ -259,6 +261,7 @@ function SyllabusNew({
                     <>
                       <FormOtp
                         s2dataScience={s2dataScience}
+                        fullstackADS={fullstackADS}
                         marketing={marketing}
                       />
                     </>
@@ -279,6 +282,7 @@ function SyllabusNew({
                         <FormOtp
                           popup={true}
                           s2dataScience={s2dataScience}
+                          fullstackADS={fullstackADS}
                           marketing={marketing}
                         />
                       ) : (

@@ -26,6 +26,7 @@ const CourseReview = ({
   rewHead,
   fullStackContent,
   s2dataScience,
+  fullstackADS,
   marketing,
 }) => {
   const [popups, setPopups] = useState(false);
@@ -73,6 +74,7 @@ const CourseReview = ({
                     popup={true}
                     setTrigger={setPopups}
                     s2dataScience={s2dataScience}
+                    fullstackADS={fullstackADS}
                     marketing={marketing}
                   />
                 ) : (

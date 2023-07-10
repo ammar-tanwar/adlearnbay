@@ -9,6 +9,7 @@ import styles from "./DemoClass.module.css";
 function DemoClass({
   formotp,
   s2dataScience,
+  fullstackADS,
   marketing,
   grad,
   jobDescription,
@@ -31,6 +32,7 @@ function DemoClass({
             <FormOtp
               popup={true}
               s2dataScience={s2dataScience}
+              fullstackADS={fullstackADS}
               marketing={marketing}
               grad={grad}
               jobDescription={jobDescription}

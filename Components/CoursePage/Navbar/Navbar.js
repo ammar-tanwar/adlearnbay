@@ -16,6 +16,7 @@ const Navbar = ({
   brochureButton,
   DownloadSyllabus,
   s2dataScience,
+  fullstackADS,
   marketing,
   grad,
   jobDescription,
@@ -74,6 +75,7 @@ const Navbar = ({
                   popup={true}
                   downloadBrochure
                   s2dataScience={s2dataScience}
+                  fullstackADS={fullstackADS}
                   marketing={marketing}
                   grad={grad}
                   jobDescription={jobDescription}
@@ -105,6 +107,7 @@ const Navbar = ({
                           popup={true}
                           radio={radio}
                           s2dataScience={s2dataScience}
+                          fullstackADS={fullstackADS}
                           marketing={marketing}
                         />
                       ) : (

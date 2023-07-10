@@ -95,7 +95,12 @@ export default function Home({ formotp }) {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} formotp={true} brochureButton={true} />
+        <Navbar
+          popup={true}
+          formotp={true}
+          fullstackADS={true}
+          brochureButton={true}
+        />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -107,6 +112,7 @@ export default function Home({ formotp }) {
         </Popup>
         <HeroSection
           formotp={true}
+          fullstackADS={true}
           fullStackCont={true}
           deskTopPara="Ace the PRODUCT Interviews to achieve your dream job"
           h1="Best Course for Data Structures and Algorithms"
@@ -125,7 +131,7 @@ export default function Home({ formotp }) {
           p4="1:1 Mentorship"
           p44="Dedicated Program"
         />
-        <ThirdSection formotp={true} fullStackCont={true} />
+        <ThirdSection formotp={true} fullstackADS={true} fullStackCont={true} />
         <FourthSection
           fullStackCont={true}
           h1="Data Structures and Algorithms Course Highlights"
@@ -137,6 +143,7 @@ export default function Home({ formotp }) {
         <SyllabusSection
           fullStackCont={true}
           formotp={true}
+          fullstackADS={true}
           desc="Learnbay offers Best Course for Data Structures and Algorithms led by experts working in top MNCs & real-time industrial projects with case studies."
           Hours="200+ Hours"
           Projects="12+ projects"
@@ -149,6 +156,7 @@ export default function Home({ formotp }) {
           Fee={BestDataStructureAlgorithmData[0].ProgramFee.Fee}
           Emi={BestDataStructureAlgorithmData[0].ProgramFee.Emi}
           formotp={true}
+          fullstackADS={true}
           CourseFeeAndFinancing="Data Structures and Algorithms Course Fee & Financing"
           para="We are dedicated to making best course for Data Structures and Algorithms accessible. We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
         />
@@ -163,6 +171,7 @@ export default function Home({ formotp }) {
         /> */}
         <Batch
           formotp={true}
+          fullstackADS={true}
           syllabusDesc={BestDataStructureAlgorithmData[0].syllabusDesc}
           syllabus={BestDataStructureAlgorithmData[0].Batch}
           CourseFeeHead="Data Structures and Algorithms Course : Batch Details"
@@ -185,7 +194,7 @@ export default function Home({ formotp }) {
             BestDataStructureAlgorithmData[0].BatchCourses.CourseFeelist5
           }
         />
-        <Testimonial formotp={true} />
+        <Testimonial formotp={true} fullstackADS={true} />
         <FAQNew
           FaqDatas={FaqData9}
           DomainFaqDatas={DomainFaqData9}
@@ -196,7 +205,7 @@ export default function Home({ formotp }) {
           SupportFaqDatas={SupportFaqData9}
         />
         <SeventhSection fullStackCont={true} />
-        <EightSection formotp={true} />
+        <EightSection formotp={true} fullstackADS={true} />
       </main>
     </div>
   );
