@@ -20,6 +20,7 @@ function SyllabusSection({
   formotp,
   fullStackCont,
   s2dataScience,
+  fullstackADS,
   marketing,
   grad,
   jobDescription,
@@ -51,6 +52,7 @@ function SyllabusSection({
               popup={true}
               downloadBrochure
               s2dataScience={s2dataScience}
+              fullstackADS={fullstackADS}
               marketing={marketing}
               grad={grad}
               jobDescription={jobDescription}

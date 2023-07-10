@@ -14,6 +14,7 @@ import FormOtp from "../../FormOtp/FormOtp";
 function Testimonial({
   formotp,
   s2dataScience,
+  fullstackADS,
   marketing,
   grad,
   jobDescription,
@@ -49,6 +50,7 @@ function Testimonial({
               <FormOtp
                 popup={true}
                 s2dataScience={s2dataScience}
+                fullstackADS={fullstackADS}
                 marketing={marketing}
                 grad={grad}
                 jobDescription={jobDescription}

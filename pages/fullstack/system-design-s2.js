@@ -95,7 +95,12 @@ export default function Home({ formotp }) {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} formotp={true} brochureButton={true} />
+        <Navbar
+          popup={true}
+          formotp={true}
+          fullstackADS={true}
+          brochureButton={true}
+        />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -107,6 +112,7 @@ export default function Home({ formotp }) {
         </Popup>
         <HeroSection
           formotp={true}
+          fullstackADS={true}
           fullStackCont={true}
           deskTopPara="Ace the PRODUCT Interviews to achieve your dream job"
           h1="Learn System Design Course Online"
@@ -125,7 +131,7 @@ export default function Home({ formotp }) {
           p4="1:1 Mentorship"
           p44="Dedicated Program"
         />
-        <ThirdSection formotp={true} fullStackCont={true} />
+        <ThirdSection formotp={true} fullstackADS={true} fullStackCont={true} />
         <FourthSection
           fullStackCont={true}
           h1="System Design Course Highlights"
@@ -137,6 +143,7 @@ export default function Home({ formotp }) {
         <SyllabusSection
           fullStackCont={true}
           formotp={true}
+          fullstackADS={true}
           desc="Learnbay offers System Design Course led by experts working in top MNCs & real-time industrial projects with case studies."
           Hours="200+ Hours"
           Projects="12+ projects"
@@ -149,6 +156,7 @@ export default function Home({ formotp }) {
           Fee={SytstemDesignCourseData[0].ProgramFee.Fee}
           Emi={SytstemDesignCourseData[0].ProgramFee.Emi}
           formotp={true}
+          fullstackADS={true}
           CourseFeeAndFinancing={
             SytstemDesignCourseData[0].ProgramFee.CourseFeeAndFinancing
           }
@@ -165,6 +173,7 @@ export default function Home({ formotp }) {
         />
         <Batch
           formotp={true}
+          fullstackADS={true}
           syllabusDesc={SytstemDesignCourseData[0].syllabusDesc}
           syllabus={SytstemDesignCourseData[0].Batch}
           CourseFeeHead="System Design Course: Batch Details"
@@ -185,7 +194,7 @@ export default function Home({ formotp }) {
             SytstemDesignCourseData[0].BatchCourses.CourseFeelist5
           }
         />
-        <Testimonial formotp={true} />
+        <Testimonial formotp={true} fullstackADS={true} />
         <FAQNew
           FaqDatas={FaqData9}
           DomainFaqDatas={DomainFaqData9}
@@ -196,7 +205,7 @@ export default function Home({ formotp }) {
           SupportFaqDatas={SupportFaqData9}
         />
         <SeventhSection fullStackCont={true} />
-        <EightSection formotp={true} />
+        <EightSection formotp={true} fullstackADS={true} />
       </main>
     </div>
   );

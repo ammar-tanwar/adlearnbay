@@ -11,7 +11,7 @@ import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
 
-function Testimonial({formotp}) {
+function Testimonial({formotp, fullstackADS}) {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
     let width = window.innerWidth;
@@ -39,7 +39,7 @@ function Testimonial({formotp}) {
           <div className="RightPopup">
             <h5>Download Brochure</h5>
             {formotp ? (
-                    <FormOtp popup={true} downloadBrochure/>
+                    <FormOtp popup={true} fullstackADS={fullstackADS} downloadBrochure/>
                   ) : (
                     <Form setTrigger={setPopups} downloadBrochure/>
                   )}

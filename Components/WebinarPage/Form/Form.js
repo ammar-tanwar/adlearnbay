@@ -216,7 +216,7 @@ const Form = ({
             Data Science & AI Courses&nbsp;
             <br />
             <input
-              id="Full Stack Program"
+              id="Software (DSA & System Design)"
               value="Software (DSA & System Design)"
               name="platform"
               required={true}

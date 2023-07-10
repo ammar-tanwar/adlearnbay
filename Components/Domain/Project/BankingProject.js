@@ -17,6 +17,7 @@ const Project = ({
   popupHead,
   project,
   s2dataScience,
+  fullstackADS,
   marketing,
   projectTitle,
   formotp,
@@ -65,6 +66,7 @@ const Project = ({
                 <FormOtp
                   popup={true}
                   s2dataScience={s2dataScience}
+                  fullstackADS={fullstackADS}
                   marketing={marketing}
                 />
               ) : (

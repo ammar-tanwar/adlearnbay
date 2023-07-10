@@ -17,6 +17,7 @@ const BoxShape = ({
   formotp,
   formotpForS3DS,
   s2dataScience,
+  fullstackADS,
   marketing,
   p,
 }) => {
@@ -100,6 +101,7 @@ const BoxShape = ({
                     <FormOtp
                       popup={true}
                       s2dataScience={s2dataScience}
+                      fullstackADS={fullstackADS}
                       marketing={marketing}
                     />
                   ) : (

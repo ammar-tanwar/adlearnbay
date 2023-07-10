@@ -15,6 +15,7 @@ export const ProgramFee = ({
   fsdlink,
   formotp,
   s2dataScience,
+  fullstackADS,
 }) => {
   const [popups, setPopups] = useState(false);
 
@@ -30,7 +31,11 @@ export const ProgramFee = ({
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           {formotp ? (
-            <FormOtp popup={true} s2dataScience={s2dataScience}/> 
+            <FormOtp
+              popup={true}
+              s2dataScience={s2dataScience}
+              fullstackADS={fullstackADS}
+            />
           ) : (
             <Form popup={true} setTrigger={setPopups} />
           )}

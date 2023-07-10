@@ -248,7 +248,7 @@ const FormInline = ({
                 Data Science & AI Courses&nbsp;
                 {mobile ? <br /> : ""}
                 <input
-                  id="Full Stack Program"
+                  id="Software (DSA & System Design)"
                   value="Software (DSA & System Design)"
                   name="platform"
                   required
@@ -272,7 +272,7 @@ const FormInline = ({
                 </div>
                 <div className={styles.fsdCourseInp}>
                   <input
-                    id="Full Stack Program"
+                    id="Software (DSA & System Design)"
                     value="Software (DSA & System Design)"
                     name="platform"
                     required

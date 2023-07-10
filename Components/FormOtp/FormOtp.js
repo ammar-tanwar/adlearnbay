@@ -19,6 +19,7 @@ function FormOtp({
   jobTitle,
   scholarship,
   s2dataScience,
+  fullstackADS,
   GraduationYear,
   grad,
   ProgrammingSkills,
@@ -99,17 +100,17 @@ function FormOtp({
     // -==================== Google - S2 END POINT ==========================--------
   }
 
+  if (fullstackADS) {
+    // -==================== Fullstack - FSD - ADS END POINT ==========================--------
+    endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
+    // -==================== Fullstack - FSD - ADS END POINT ==========================--------
+  }
+
   if (router.pathname === "/s3-data-science") {
     // -==================== Google - S2 END POINT ==========================--------
     endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
     // -==================== Google - S2 END POINT ==========================--------
   }
-
-  // if (router.pathname === "/datascience/s3-data-science-generic") {
-  // -==================== Google - S2 END POINT ==========================--------
-  // endPoint = "https://getform.io/f/a0a0fb5b-0cba-4b29-9d35-03c35d0e0d28";
-  // -==================== Google - S2 END POINT ==========================--------
-  // }
 
   // -==================== Google - S2 END POINT ==========================--------
   if (
@@ -315,47 +316,6 @@ function FormOtp({
     // -==================== Google - S2 END POINT ==========================--------
   }
 
-  // -==================== FSD - Ads  END POINT ==========================--------
-  if (
-    router.pathname === "/fssd-s2" ||
-    router.pathname === "/fullstack/fssd-s2" ||
-    router.pathname === "/fullstack/sd-blockchain-s2" ||
-    router.pathname === "/fullstack/sd-cloud-computing-devops-s2" ||
-    router.pathname === "/fullstack/fssd-s2-generic" ||
-    router.pathname === "/fullstack/fssd-institute-program-s2" ||
-    router.pathname === "/fullstack/fssd-training-s2-generic" ||
-    router.pathname === "/fullstack/software-programming-course-s2-generic" ||
-    router.pathname === "/fullstack/fssd-institute-program-s2-generic" ||
-    router.pathname === "/fullstack/fssd-training-s2" ||
-    router.pathname === "/fullstack/software-development-course-s2" ||
-    router.pathname === "/fullstack/software-development-course-s2-generic" ||
-    router.pathname === "/fullstack/software-programming-course-s2" ||
-    router.pathname === "/fullstack/data-structures-and-algorithms-course-s2" ||
-    router.pathname === "/fssd-s4" ||
-    router.pathname === "/fssd-s5" ||
-    // router.pathname === "/fswd-s4" ||
-    // router.pathname === "/fswd-s5" ||
-    router.pathname === "/fullstack/fswd-s2" ||
-    router.pathname === "/fullstack/system-design-s2" ||
-    router.pathname === "/w2a-s2" ||
-    router.pathname === "/dsa-s4" ||
-    router.pathname ===
-      "/fullstack/best-course-for-data-structures-and-algorithms-s2" ||
-    router.pathname === "/fullstack/data-structure-course-java-python-s2" ||
-    router.pathname === "/fullstack/data-structures-algorithms-syllabus-s2" ||
-    router.pathname === "/fullstack/data-structure-algorithm-s2" ||
-    router.pathname === "/system-design-s2" ||
-    router.pathname === "/apply-for-counselling-fsd-s2" ||
-    router.pathname === "/fullstack/apply-for-counselling-fsd-s2" ||
-    router.pathname === "/generic" ||
-    router.pathname === "/dsa-s5"
-  ) {
-    // -====================  FSD - Ads END POINT ==========================--------
-    endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
-
-    // -====================  FSD - Ads END POINT ==========================--------
-  }
-
   // -====================  Website Learnbay END POINT ==========================--------
 
   if (
@@ -504,9 +464,6 @@ function FormOtp({
             "/fullstack/software-development-course-s2-generic" &&
             downloadBrochure) ||
           (router.pathname === "/fullstack/software-programming-course-s2" &&
-            downloadBrochure) ||
-          (router.pathname ===
-            "/fullstack/best-course-for-data-structures-and-algorithms-s2" &&
             downloadBrochure) ||
           (router.pathname ===
             "/fullstack/data-structure-course-java-python-s2" &&
@@ -795,8 +752,6 @@ function FormOtp({
           router.pathname === "/fullstack/apply-for-counselling-fsd-s2" ||
           router.pathname === "/s3-data-science" ||
           router.pathname ===
-            "/fullstack/best-course-for-data-structures-and-algorithms-s2" ||
-          router.pathname ===
             "/fullstack/data-structure-course-java-python-s2" ||
           router.pathname ===
             "/fullstack/data-structures-algorithms-syllabus-s2" ||
@@ -1023,6 +978,12 @@ function FormOtp({
 
           return;
         }
+
+        if (fullstackADS) {
+          router.push("/Thank-you");
+
+          return;
+        }
       }
     } else {
       setToggle(false);
@@ -1112,9 +1073,6 @@ function FormOtp({
               "/fullstack/software-development-course-s2-generic" &&
               downloadBrochure) ||
             (router.pathname === "/fullstack/software-programming-course-s2" &&
-              downloadBrochure) ||
-            (router.pathname ===
-              "/fullstack/best-course-for-data-structures-and-algorithms-s2" &&
               downloadBrochure) ||
             (router.pathname ===
               "/fullstack/data-structure-course-java-python-s2" &&
@@ -1624,8 +1582,6 @@ function FormOtp({
               "/fullstack/software-development-course-s2-generic" ||
             router.pathname === "/fullstack/software-programming-course-s2" ||
             router.pathname ===
-              "/fullstack/best-course-for-data-structures-and-algorithms-s2" ||
-            router.pathname ===
               "/fullstack/data-structure-course-java-python-s2" ||
             router.pathname ===
               "/fullstack/data-structures-algorithms-syllabus-s2" ||
@@ -1655,6 +1611,11 @@ function FormOtp({
           }
 
           if (s2dataScience) {
+            router.push("/Thank-you");
+            return;
+          }
+
+          if (fullstackADS) {
             router.push("/Thank-you");
             return;
           }
@@ -1993,7 +1954,7 @@ function FormOtp({
               Data Science & AI Courses&nbsp;
               <br />
               <input
-                id="Full Stack Program"
+                id="Software (DSA & System Design)"
                 value="Software (DSA & System Design)"
                 name="platform"
                 required={true}

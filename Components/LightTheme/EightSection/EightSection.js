@@ -10,6 +10,7 @@ function EightSection({
   DownloadSyllabus,
   formotp,
   s2dataScience,
+  fullstackADS,
   marketing,
   grad,
   jobDescription,
@@ -58,6 +59,7 @@ function EightSection({
               downloadBrochure
               setTrigger={setPopups}
               s2dataScience={s2dataScience}
+              fullstackADS={fullstackADS}
               marketing={marketing}
               grad={grad}
               jobDescription={jobDescription}

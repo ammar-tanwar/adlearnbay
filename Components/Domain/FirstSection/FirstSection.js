@@ -27,6 +27,7 @@ const FirstSection = ({
   fullStackContent,
   formotp,
   s2dataScience,
+  fullstackADS,
   marketing,
 }) => {
   const [mobile, setMobile] = useState(false);
@@ -67,6 +68,7 @@ const FirstSection = ({
               <FormOtp
                 popup={true}
                 s2dataScience={s2dataScience}
+                fullstackADS={fullstackADS}
                 marketing={marketing}
               />
             ) : (
