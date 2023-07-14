@@ -102,7 +102,7 @@ function FormOtp({
 
   if (fullstackADS) {
     // -==================== Fullstack - FSD - ADS END POINT ==========================--------
-    endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
+    endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
     // -==================== Fullstack - FSD - ADS END POINT ==========================--------
   }
 
@@ -324,7 +324,7 @@ function FormOtp({
     router.pathname === "/dsa-system-design"
   ) {
     // -====================  Website Learnbay END POINT ==========================--------
-    endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
+    endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
     // -====================  Website Learnbay END POINT ==========================--------
   }
 

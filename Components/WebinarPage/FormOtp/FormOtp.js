@@ -113,7 +113,7 @@ function FormOtp({
     router.pathname === "/dsa-system-design"
   ) {
     // -====================  Website Learnbay END POINT ==========================--------
-    endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
+    endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
     // -====================  Website Learnbay END POINT ==========================--------
   }
 
