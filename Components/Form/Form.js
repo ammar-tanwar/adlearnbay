@@ -394,7 +394,7 @@ const Form = ({
     router.pathname === "/dsa-system-design"
   ) {
     // -====================  Website Learnbay END POINT ==========================--------
-    endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
+    endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
     // -====================  Website Learnbay END POINT ==========================--------
   }
 
@@ -439,7 +439,7 @@ const Form = ({
     router.pathname === "/step-up-with-learnbay"
   ) {
     // -==================== Marketing ==========================--------
-    endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
+    endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
     // -==================== Marketing ==========================--------
   }
 

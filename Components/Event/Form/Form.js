@@ -56,7 +56,7 @@ const Form = ({
   // -==================== Marketing ==========================--------
   if (router.pathname === "/step-up-with-learnbay") {
     // -==================== Marketing ==========================--------
-    endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
+    endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
     // -==================== Marketing ==========================--------
   }
 
