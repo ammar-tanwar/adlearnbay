@@ -148,7 +148,7 @@ export const viewAllD = [
     courseTime: "9-11 months",
     title1: "Master Program",
     tagHead: "Crack Job Interviews",
-    tag: "Full stack",
+    tag: " ",
     brochureLinks:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
     titleCourse: "Software Development Master Program",
@@ -166,7 +166,7 @@ export const viewAllD = [
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/dsa%26system.png",
     title: "Data Structures Algorithms",
     title1: "And System Design",
-    tag: "Full stack",
+    tag: " ",
     para: [
       "200 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
@@ -180,7 +180,7 @@ export const viewAllD = [
     title: "Software Development ",
     courseTime: "8-10 months",
     title1: "Program in Blockchain",
-    tag: "Full stack",
+    tag: " ",
     tagHead: "For Non-Tech Professionals",
     brochureLinks:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf",
@@ -201,7 +201,7 @@ export const viewAllD = [
     courseTime: "8-10 months",
     title1: "in Cloud Computing & DevOps",
     tagHead: "Be a Product Design Pro",
-    tag: "Full stack",
+    tag: " ",
     brochureLinks:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Cloud+and+DevOps.pdf",
     titleCourse: "Software Development Program in Cloud Computing & DevOps",
@@ -304,7 +304,7 @@ export const ForProgrammersD = [
     courseTime: "9-11 months",
     title1: "Master Program",
     tagHead: "Crack Job Interviews",
-    tag: "Full stack",
+    tag: " ",
     brochureLinks:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
     titleCourse: "Software Development Master Program",
@@ -382,7 +382,7 @@ export const ForProgrammersD = [
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/dsa%26system.png",
     title: "Data Structures Algorithms",
     title1: "And System Design",
-    tag: "Full stack",
+    tag: " ",
     para: [
       "200 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
@@ -396,7 +396,7 @@ export const ForProgrammersD = [
     title: "Software Development ",
     courseTime: "8-10 months",
     title1: "Program in Blockchain",
-    tag: "Full stack",
+    tag: " ",
     tagHead: "For Non-Tech Professionals",
     brochureLinks:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf",
@@ -417,7 +417,7 @@ export const ForProgrammersD = [
     courseTime: "8-10 months",
     title1: "in Cloud Computing & DevOps",
     tagHead: "Be a Product Design Pro",
-    tag: "Full stack",
+    tag: " ",
     brochureLinks:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Cloud+and+DevOps.pdf",
     titleCourse: "Software Development Program in Cloud Computing & DevOps",
@@ -602,8 +602,8 @@ export const ForNonProgrammerD = [
     tag: "Data science",
     tagHead: "Leadership Role In HR Domain",
     brochureLinks:
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/HR+Analytics+Certification+Program.pdf",
-  titleCourse: "HR Analytics Program",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/HR+Analytics+Certification+Program.pdf",
+    titleCourse: "HR Analytics Program",
     para: [
       "200+ hours content",
       "10 Advance + 2 Capstone",
@@ -622,8 +622,8 @@ export const ForNonProgrammerD = [
     tag: "Data science",
     tagHead: "Excel data-driven marketing",
     brochureLinks:
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf",
-  titleCourse: "Marketing Analytics Program",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Marketing+Analytics+Certification+Program.pdf",
+    titleCourse: "Marketing Analytics Program",
     para: [
       "200+ hours content",
       "10 Advance + 2 Capstone",
@@ -663,7 +663,7 @@ export const JobGuaranteeD = [
     courseTime: "9-11 months",
     title1: "Master Program",
     tagHead: "Crack Job Interviews",
-    tag: "Full stack",
+    tag: " ",
     brochureLinks:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
     titleCourse: "Software Development Master Program",
@@ -684,7 +684,7 @@ export const StackD = [
     title: "Software Development ",
     courseTime: "8-10 months",
     title1: "Program in Blockchain",
-    tag: "Full stack",
+    tag: " ",
     tagHead: "For Non-Tech Professionals",
     brochureLinks:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf",
@@ -705,7 +705,7 @@ export const StackD = [
     courseTime: "9-11 months",
     title1: "Master Program",
     tagHead: "Crack Job Interviews",
-    tag: "Full stack",
+    tag: " ",
     brochureLinks:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
     titleCourse: "Software Development Master Program",
@@ -725,7 +725,7 @@ export const StackD = [
     courseTime: "8-10 months",
     title1: "in Cloud Computing & DevOps",
     tagHead: "Be a Product Design Pro",
-    tag: "Full stack",
+    tag: " ",
     brochureLinks:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Cloud+and+DevOps.pdf",
     titleCourse: "Software Development Program in Cloud Computing & DevOps",
@@ -744,7 +744,7 @@ export const StackD = [
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/dsa%26system.png",
     title: "Data Structures Algorithms",
     title1: "And System Design",
-    tag: "Full stack",
+    tag: " ",
     para: [
       "200 hours of Interactive Learning",
       "12 Projects + 2 Capstones",

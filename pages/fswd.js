@@ -28,14 +28,14 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Full Stack Web Development Course</title>
+        <title> Web Development Course</title>
         <meta
           name="description"
-          content="Download the Full Stack Web Development Course Syllabus to know the Web Development Course with 100% Interactive Learning and get Certification"
+          content="Download the   Web Development Course Syllabus to know the Web Development Course with 100% Interactive Learning and get Certification"
         />
         <meta
           name="Keywords"
-          content="Full Stack Web Development Course, Full Stack Web Development Course training , Full Stack Web Development Course institute in India, best Full Stack Web Development Course institute, Full Stack Web developer Course ,Full Stack Web developer Course certification, Full Stack Web developer Course training institute , advanced Full Stack Web developer Course , Full Stack Web developer Course with placement guarantee, Full Stack Web developer Course with IBM certification"
+          content="  Web Development Course,   Web Development Course training ,   Web Development Course institute in India, best   Web Development Course institute,   Web developer Course ,  Web developer Course certification,   Web developer Course training institute , advanced   Web developer Course ,   Web developer Course with placement guarantee,   Web developer Course with IBM certification"
         />
         <link
           rel="icon"
@@ -126,7 +126,7 @@ export default function Home() {
         </div>
         <div className="Feature" id="Feature">
           <BoxShape
-            title="Why Enroll In Full Stack Web Development Course?"
+            title="Why Enroll In   Web Development Course?"
             Box1h5={FullStackWebCourseData[0].BoxShape.Box1h5}
             box1desc={FullStackWebCourseData[0].BoxShape.box1desc}
             Box2h5={FullStackWebCourseData[0].BoxShape.Box2h5}

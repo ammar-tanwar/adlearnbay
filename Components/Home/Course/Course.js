@@ -112,7 +112,7 @@ const Course = ({ popupHead, radio }) => {
                 : { background: "#E5F3FA" }
             }
           >
-            Full Stack Development
+            Development
           </span>
           <span
             onClick={() => {

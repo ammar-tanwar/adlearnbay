@@ -83,7 +83,7 @@ const ThankYouFsd = ({ initialName }) => {
           </div>
         </div>
         <div className={styles.webinarDivFull}>
-          <h4>Full Stack</h4>
+          <h4> </h4>
           <div className={styles.DivBoxFull}>
             <div className={styles.cards}>
               <Image

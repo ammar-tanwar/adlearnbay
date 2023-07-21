@@ -36,7 +36,7 @@ export default function Home() {
         <title>Master Program in Software Development - Learnbay</title>
         <meta
           name="description"
-          content="Learnbay's Full Stack Software Development Course will help you become a skilled software developer. Gain practical experience and master key coding skills."
+          content="Learnbay's   Software Development Course will help you become a skilled software developer. Gain practical experience and master key coding skills."
         />
         <meta
           name="keywords"
@@ -128,7 +128,11 @@ export default function Home() {
           p4="1:1 Support"
           p44="Dedicated Program"
         />
-        <ThirdSection formotp={true} s2dataScience={true} fullStackCont={true} />
+        <ThirdSection
+          formotp={true}
+          s2dataScience={true}
+          fullStackCont={true}
+        />
         <FourthSection
           fullStackCont={true}
           h1="Program Highlights"

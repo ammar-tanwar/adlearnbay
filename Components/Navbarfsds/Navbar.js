@@ -52,7 +52,7 @@ const Navbar = ({ formotp }) => {
                 </Link>
               </span>
               {/* <span onClick={showMenu}>
-                <Link href="/full-stack-web-development-program">Full Stack Web Development Program</Link>
+                <Link href="/full-stack-web-development-program">  Web Development Program</Link>
               </span> */}
 
               <span onClick={showMenu}>
@@ -109,7 +109,7 @@ const Navbar = ({ formotp }) => {
               <a href="https://www.learnbay.co/data-science-course/advance-data-science-certification-courses/">
                 Advance Data Science & AI Certification
               </a>
-              {/* <a href="/full-stack-web-development-program">Full Stack Web Development Program</a> */}
+              {/* <a href="/full-stack-web-development-program">  Web Development Program</a> */}
               <a href="/full-stack-software-development-program">
                 Full-Stack Software Development Program
               </a>

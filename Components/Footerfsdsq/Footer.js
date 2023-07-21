@@ -41,7 +41,7 @@ const Footer = () => {
           <p className={styles.FooterInnerP}>Popular Courses</p>
           {/* <p className={styles.FooterInnerli} style={{ display: "flex" }}>
             <FaCheck className="bIcons" />
-            Full Stack Web Development Program
+              Web Development Program
           </p> */}
           <p className={styles.FooterInnerli} style={{ display: "flex" }}>
             <FaCheck className="bIcons" />

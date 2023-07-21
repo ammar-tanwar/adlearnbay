@@ -94,10 +94,10 @@ function Syllabus({ radio }) {
           </div>
         </div>
         <p>
-          The Advance Data Science and AI Certification Course
-          is curated by leading faculties and industry leaders. Especially, with
-          the aim to provide practical learning experience with live interactive
-          classes and projects.
+          The Advance Data Science and AI Certification Course is curated by
+          leading faculties and industry leaders. Especially, with the aim to
+          provide practical learning experience with live interactive classes
+          and projects.
         </p>
 
         <div className={styles.QOuter}>
@@ -114,7 +114,9 @@ function Syllabus({ radio }) {
             >
               {state[0].open ? (
                 <div className={styles.quesO}>
-                  <h2>Module 0 Pre-Preparatory Classes (Programming + Maths)</h2>
+                  <h2>
+                    Module 0 Pre-Preparatory Classes (Programming + Maths)
+                  </h2>
 
                   <span>
                     {state[0].open ? (
@@ -126,7 +128,9 @@ function Syllabus({ radio }) {
                 </div>
               ) : (
                 <div className={styles.ques}>
-                  <h2>Module 0 Pre-Preparatory Classes (Programming + Maths)</h2>
+                  <h2>
+                    Module 0 Pre-Preparatory Classes (Programming + Maths)
+                  </h2>
                   <span>
                     {state[0].open ? (
                       <MdKeyboardArrowUp className="icon" />
@@ -166,9 +170,7 @@ function Syllabus({ radio }) {
             >
               {state[1].open ? (
                 <div className={styles.quesO}>
-                  <h2>
-                    Module 1 : Python Programming (Basic + Advance)
-                  </h2>
+                  <h2>Module 1 : Python Programming (Basic + Advance)</h2>
 
                   <span>
                     {state[1].open ? (
@@ -180,9 +182,7 @@ function Syllabus({ radio }) {
                 </div>
               ) : (
                 <div className={styles.ques}>
-                  <h2>
-                    Module 1 : Python Programming (Basic + Advance)
-                  </h2>
+                  <h2>Module 1 : Python Programming (Basic + Advance)</h2>
                   <span>
                     {state[1].open ? (
                       <MdKeyboardArrowUp className="icon" />
@@ -275,9 +275,7 @@ function Syllabus({ radio }) {
             >
               {state[3].open ? (
                 <div className={styles.quesO}>
-                  <h2>
-                    Module 3: Industrial Projects & Capstone Projects
-                  </h2>
+                  <h2>Module 3: Industrial Projects & Capstone Projects</h2>
 
                   <span>
                     {state[3].open ? (
@@ -289,9 +287,7 @@ function Syllabus({ radio }) {
                 </div>
               ) : (
                 <div className={styles.ques}>
-                  <h2>
-                    Module 3: Industrial Projects & Capstone Projects
-                  </h2>
+                  <h2>Module 3: Industrial Projects & Capstone Projects</h2>
                   <span>
                     {state[3].open ? (
                       <MdKeyboardArrowUp className="icon" />
@@ -468,7 +464,7 @@ function Syllabus({ radio }) {
                 <div className={styles.ans}>
                   We help you to work on projects directly with startups so that
                   you get real work experience. You will be building scalable
-                  tech products from scratch using full stack technologies and
+                  tech products from scratch using   technologies and
                   advanced system design concepts. You are recommended to work
                   on minimum 3-4 projects end to end and build a project
                   portfolio to crack coding interviews in top MNCs with
@@ -489,19 +485,18 @@ function Syllabus({ radio }) {
             <p>Program Highlights</p>
           </div>
           <div className={styles.PProgramInner}>
-            <p style={{display:"flex"}}>
+            <p style={{ display: "flex" }}>
               <MdOutlineLiveTv className={styles.PIcons} />
               350+ Live sessions
             </p>
-            <p style={{display:"flex"}}>
+            <p style={{ display: "flex" }}>
               <SiCodeproject className={styles.PIcons} />
               15+ Industry Projects
             </p>
-            <p style={{display:"flex"}}>
-              <SiTimescale className={styles.PIcons} />
-              2 Year Subscriptions
+            <p style={{ display: "flex" }}>
+              <SiTimescale className={styles.PIcons} />2 Year Subscriptions
             </p>
-            <p style={{display:"flex"}}>
+            <p style={{ display: "flex" }}>
               <MdOutlineLaptopMac className={styles.PIcons} />
               Live project experience
             </p>

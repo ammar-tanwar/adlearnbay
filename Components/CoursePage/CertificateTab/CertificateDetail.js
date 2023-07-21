@@ -113,7 +113,7 @@ export const Certificate8 = [
     title: "Capstone Project Completion Certificate from IBM",
     para: [
       "Globally recognized IBM certification based on industrial-level projects.",
-      "Work on latest full stack projects for Food Panda, UberEats, Domino's Pizza, etc.",
+      "Work on latest   projects for Food Panda, UberEats, Domino's Pizza, etc.",
       "Individualized project experience with easy access to premium job opportunities.",
     ],
   },

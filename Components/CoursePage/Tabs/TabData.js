@@ -8,8 +8,8 @@ const TabData = [
     title: "Data Science & AI",
   },
   {
-    id: "Full Stack Program",
-    title: "Full Stack Development",
+    id: "  Program",
+    title: "  Development",
   },
   {
     id: "Digital Marketing",

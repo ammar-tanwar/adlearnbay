@@ -127,7 +127,7 @@ export const viewAllD = [
     courseTime: "9-11 months",
     title1: "Master Program",
     tagHead: "Crack Job Interviews",
-    tag: "Full stack",
+    tag: " ",
     brochureLinks:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
     titleCourse: "Software Development Master Program",
@@ -145,7 +145,7 @@ export const viewAllD = [
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/dsa%26system.png",
     title: "Data Structures Algorithms",
     title1: "And System Design",
-    tag: "Full stack",
+    tag: " ",
     para: [
       "200 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
@@ -182,7 +182,7 @@ export const ForProgrammersD = [
     courseTime: "9-11 months",
     title1: "Master Program",
     tagHead: "Crack Job Interviews",
-    tag: "Full stack",
+    tag: " ",
     brochureLinks:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
     titleCourse: "Software Development Master Program",
@@ -260,14 +260,14 @@ export const ForProgrammersD = [
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/dsa%26system.png",
     title: "Data Structures Algorithms",
     title1: "And System Design",
-    tag: "Full stack",
+    tag: " ",
     para: [
       "200 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
       "Course Fee : ₹ 70,000 + GST",
     ],
     link1: "/dsa",
-  }
+  },
 ];
 export const ForNonProgrammerD = [
   {
@@ -420,7 +420,7 @@ export const JobGuaranteeD = [
     courseTime: "9-11 months",
     title1: "Master Program",
     tagHead: "Crack Job Interviews",
-    tag: "Full stack",
+    tag: " ",
     brochureLinks:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
     titleCourse: "Software Development Master Program",
@@ -442,7 +442,7 @@ export const StackD = [
     courseTime: "9-11 months",
     title1: "Master Program",
     tagHead: "Crack Job Interviews",
-    tag: "Full stack",
+    tag: " ",
     brochureLinks:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
     titleCourse: "Software Development Master Program",
@@ -460,7 +460,7 @@ export const StackD = [
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/dsa%26system.png",
     title: "Data Structures Algorithms",
     title1: "And System Design",
-    tag: "Full stack",
+    tag: " ",
     para: [
       "200 hours of Interactive Learning",
       "12 Projects + 2 Capstones",

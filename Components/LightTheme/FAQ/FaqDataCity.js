@@ -9705,7 +9705,7 @@ export const BusinessASupportFaqDataP = [
   },
 ];
 
-// 1st Course full stack course training in Pune
+// 1st Course   course training in Pune
 
 export const FullStackFaqDataP = [
   {
@@ -9722,7 +9722,7 @@ export const FullStackFaqDataP = [
   },
   {
     id: 2,
-    ques: "What is a 'Flexi Subscription' in the full stack software development course in Pune?",
+    ques: "What is a 'Flexi Subscription' in the   software development course in Pune?",
     ans: `Those who register for live online/hybrid training in the full-stack software development course are eligible for a Flexi Pass. We will get you access to all the ongoing live classes, recorded videos, and premium study materials for three years. You are free to pause, resume, and finish your study during these three years, and you are welcome to attend any class schedule/instructor whenever it is most convenient for you.`,
     open: false,
   },
@@ -9762,7 +9762,7 @@ export const FullStackFaqDataP = [
   {
     id: 8,
     ques: "How do I know that the concerned full-stack software development is a perfect fit for me?",
-    ans: "A full Stack Developer must be proficient and should own extreme interest in various code specializations, including databases, visual design, and UI/UX management, to do their jobs effectively. If you can use your coding abilities and are interested in software applications, this position is ideal for you. You can also take the help of Learnbay’s industry expert career counselor in this regard free of cost.",
+    ans: "A   Developer must be proficient and should own extreme interest in various code specializations, including databases, visual design, and UI/UX management, to do their jobs effectively. If you can use your coding abilities and are interested in software applications, this position is ideal for you. You can also take the help of Learnbay’s industry expert career counselor in this regard free of cost.",
     open: false,
   },
 ];
@@ -9776,7 +9776,7 @@ export const FullStackDomainFaqDataP = [
   {
     id: 1,
     ques: "What are specialized domain options provided in this Program?",
-    ans: "In Pune, Learnbay’s Full stack software development course provides domains such as Full Stack, Product Engineer/Manager, Data Science & AI, Web 3.0 Developer, and DevOps & Clouds.",
+    ans: "In Pune, Learnbay’s   software development course provides domains such as  , Product Engineer/Manager, Data Science & AI, Web 3.0 Developer, and DevOps & Clouds.",
     open: false,
   },
   {
@@ -9824,7 +9824,7 @@ export const FullStackPaymentFaqDataP = [
   },
   {
     id: 2,
-    ques: "Does the Full stack software development Program include any scholarships or discounts? What are Group Discounts?",
+    ques: "Does the   software development Program include any scholarships or discounts? What are Group Discounts?",
     ans: `Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount: Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2: 8% extra discount: Group of 3: Max 10% discount: Groupe of 4+`,
     open: false,
   },
@@ -9883,9 +9883,9 @@ export const FullStackjobFaqDataP = [
 export const FullStackeligibleFaqDataP = [
   {
     id: 0,
-    ques: "Can I still apply for a full stack developer course even though I do not hold a Bachelor of Technology or Bachelor of Engineering degree?",
+    ques: "Can I still apply for a   developer course even though I do not hold a Bachelor of Technology or Bachelor of Engineering degree?",
 
-    ans: "A person with basic computation and mathematical knowledge is also eligible to participate in this course; a BE or Btech degree is not essential to be part of a Full stack software developer course. Only you have to own the passion for coding.",
+    ans: "A person with basic computation and mathematical knowledge is also eligible to participate in this course; a BE or Btech degree is not essential to be part of a   software developer course. Only you have to own the passion for coding.",
     open: true,
   },
   {
@@ -9945,13 +9945,13 @@ export const FullStackgenericFaqDataP = [
   {
     id: 1,
     ques: "What is the average full-stack software developer salary in Pune?",
-    ans: "The average package of full stack software developers ranges averagely around 6 LPA to 12 LPA depending on the company norms and interview aspects. Based on experience, it can reach up to 30 LPA while switching careers.",
+    ans: "The average package of   software developers ranges averagely around 6 LPA to 12 LPA depending on the company norms and interview aspects. Based on experience, it can reach up to 30 LPA while switching careers.",
     open: false,
   },
   {
     id: 2,
     ques: "Is a full-stack developer a software engineer?",
-    ans: "The goal of Software engineers and full stack developers are quite the same. Both work with similar client project goals but via different sub-direction. Full stack developers are often in leadership roles. Software engineers, however, may be under the guidance of full-stack developers and can use their expertise to create specific features for projects.",
+    ans: "The goal of Software engineers and   developers are quite the same. Both work with similar client project goals but via different sub-direction.   developers are often in leadership roles. Software engineers, however, may be under the guidance of full-stack developers and can use their expertise to create specific features for projects.",
     open: false,
   },
 ];
@@ -9971,7 +9971,7 @@ export const FullStackSupportFaqDataP = [
   },
 ];
 
-// 1st Course full stack course training in Bangalore
+// 1st Course   course training in Bangalore
 
 export const FullStackFaqDataB = [
   {
@@ -9988,7 +9988,7 @@ export const FullStackFaqDataB = [
   },
   {
     id: 2,
-    ques: "What is a 'Flexi Subscription' in the full stack software development course in Bangalore?",
+    ques: "What is a 'Flexi Subscription' in the   software development course in Bangalore?",
     ans: `Those who register for live online/hybrid training in the full-stack software development course are eligible for a Flexi Pass. We will get you access to all the ongoing live classes, recorded videos, and premium study materials for three years. You are free to pause, resume, and finish your study during these three years, and you are welcome to attend any class schedule/instructor whenever it is most convenient for you.`,
     open: false,
   },
@@ -10028,7 +10028,7 @@ export const FullStackFaqDataB = [
   {
     id: 8,
     ques: "How do I know that the concerned full-stack software development is a perfect fit for me?",
-    ans: "A full Stack Developer must be proficient and should own extreme interest in various code specializations, including databases, visual design, and UI/UX management, to do their jobs effectively. If you can use your coding abilities and are interested in software applications, this position is ideal for you. You can also take the help of Learnbay’s industry expert career counselor in this regard free of cost.",
+    ans: "A   Developer must be proficient and should own extreme interest in various code specializations, including databases, visual design, and UI/UX management, to do their jobs effectively. If you can use your coding abilities and are interested in software applications, this position is ideal for you. You can also take the help of Learnbay’s industry expert career counselor in this regard free of cost.",
     open: false,
   },
 ];
@@ -10042,7 +10042,7 @@ export const FullStackDomainFaqDataB = [
   {
     id: 1,
     ques: "What are specialized domain options provided in this Program?",
-    ans: "In Bangalore, Learnbay’s Full stack software development course provides domains such as Full Stack, Product Engineer/Manager, Data Science & AI, Web 3.0 Developer, and DevOps & Clouds.",
+    ans: "In Bangalore, Learnbay’s   software development course provides domains such as  , Product Engineer/Manager, Data Science & AI, Web 3.0 Developer, and DevOps & Clouds.",
     open: false,
   },
   {
@@ -10090,7 +10090,7 @@ export const FullStackPaymentFaqDataB = [
   },
   {
     id: 2,
-    ques: "Does the Full stack software development Program include any scholarships or discounts? What are Group Discounts?",
+    ques: "Does the   software development Program include any scholarships or discounts? What are Group Discounts?",
     ans: `Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount: Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2: 8% extra discount: Group of 3: Max 10% discount: Groupe of 4+`,
     open: false,
   },
@@ -10149,9 +10149,9 @@ export const FullStackjobFaqDataB = [
 export const FullStackeligibleFaqDataB = [
   {
     id: 0,
-    ques: "Can I still apply for a full stack developer course even though I do not hold a Bachelor of Technology or Bachelor of Engineering degree?",
+    ques: "Can I still apply for a   developer course even though I do not hold a Bachelor of Technology or Bachelor of Engineering degree?",
 
-    ans: "A person with basic computation and mathematical knowledge is also eligible to participate in this course; a BE or Btech degree is not essential to be part of a Full stack software developer course. Only you have to own the passion for coding.",
+    ans: "A person with basic computation and mathematical knowledge is also eligible to participate in this course; a BE or Btech degree is not essential to be part of a   software developer course. Only you have to own the passion for coding.",
     open: true,
   },
   {
@@ -10211,13 +10211,13 @@ export const FullStackgenericFaqDataB = [
   {
     id: 1,
     ques: "What is the average full-stack software developer salary in Bangalore?",
-    ans: "The average package of full stack software developers ranges averagely around 6 LPA to 12 LPA depending on the company norms and interview aspects. Based on experience, it can reach up to 30 LPA while switching careers.",
+    ans: "The average package of   software developers ranges averagely around 6 LPA to 12 LPA depending on the company norms and interview aspects. Based on experience, it can reach up to 30 LPA while switching careers.",
     open: false,
   },
   {
     id: 2,
     ques: "Is a full-stack developer a software engineer?",
-    ans: "The goal of Software engineers and full stack developers are quite the same. Both work with similar client project goals but via different sub-direction. Full stack developers are often in leadership roles. Software engineers, however, may be under the guidance of full-stack developers and can use their expertise to create specific features for projects.",
+    ans: "The goal of Software engineers and   developers are quite the same. Both work with similar client project goals but via different sub-direction.   developers are often in leadership roles. Software engineers, however, may be under the guidance of full-stack developers and can use their expertise to create specific features for projects.",
     open: false,
   },
 ];
@@ -10237,7 +10237,7 @@ export const FullStackSupportFaqDataB = [
   },
 ];
 
-// 1st Course full stack course training in Canada
+// 1st Course   course training in Canada
 
 export const FullStackFaqDataCa = [
   {
@@ -10254,7 +10254,7 @@ export const FullStackFaqDataCa = [
   },
   {
     id: 2,
-    ques: "What is a 'Flexi Subscription' in the full stack software development course in Canada?",
+    ques: "What is a 'Flexi Subscription' in the   software development course in Canada?",
     ans: `Those who register for live online/hybrid training in the full-stack software development course are eligible for a Flexi Pass. We will get you access to all the ongoing live classes, recorded videos, and premium study materials for three years. You are free to pause, resume, and finish your study during these three years, and you are welcome to attend any class schedule/instructor whenever it is most convenient for you.`,
     open: false,
   },
@@ -10294,7 +10294,7 @@ export const FullStackFaqDataCa = [
   {
     id: 8,
     ques: "How do I know that the concerned full-stack software development is a perfect fit for me?",
-    ans: "A full Stack Developer must be proficient and should own extreme interest in various code specializations, including databases, visual design, and UI/UX management, to do their jobs effectively. If you can use your coding abilities and are interested in software applications, this position is ideal for you. You can also take the help of Learnbay’s industry expert career counselor in this regard free of cost.",
+    ans: "A   Developer must be proficient and should own extreme interest in various code specializations, including databases, visual design, and UI/UX management, to do their jobs effectively. If you can use your coding abilities and are interested in software applications, this position is ideal for you. You can also take the help of Learnbay’s industry expert career counselor in this regard free of cost.",
     open: false,
   },
 ];
@@ -10308,7 +10308,7 @@ export const FullStackDomainFaqDataCa = [
   {
     id: 1,
     ques: "What are specialized domain options provided in this Program?",
-    ans: "In Canada, Learnbay’s Full stack software development course provides domains such as Full Stack, Product Engineer/Manager, Data Science & AI, Web 3.0 Developer, and DevOps & Clouds.",
+    ans: "In Canada, Learnbay’s   software development course provides domains such as  , Product Engineer/Manager, Data Science & AI, Web 3.0 Developer, and DevOps & Clouds.",
     open: false,
   },
   {
@@ -10356,7 +10356,7 @@ export const FullStackPaymentFaqDataCa = [
   },
   {
     id: 2,
-    ques: "Does the Full stack software development Program include any scholarships or discounts? What are Group Discounts?",
+    ques: "Does the   software development Program include any scholarships or discounts? What are Group Discounts?",
     ans: `Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount: Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2: 8% extra discount: Group of 3: Max 10% discount: Groupe of 4+`,
     open: false,
   },
@@ -10415,9 +10415,9 @@ export const FullStackjobFaqDataCa = [
 export const FullStackeligibleFaqDataCa = [
   {
     id: 0,
-    ques: "Can I still apply for a full stack developer course even though I do not hold a Bachelor of Technology or Bachelor of Engineering degree?",
+    ques: "Can I still apply for a   developer course even though I do not hold a Bachelor of Technology or Bachelor of Engineering degree?",
 
-    ans: "A person with basic computation and mathematical knowledge is also eligible to participate in this course; a BE or Btech degree is not essential to be part of a Full stack software developer course. Only you have to own the passion for coding.",
+    ans: "A person with basic computation and mathematical knowledge is also eligible to participate in this course; a BE or Btech degree is not essential to be part of a   software developer course. Only you have to own the passion for coding.",
     open: true,
   },
   {
@@ -10477,13 +10477,13 @@ export const FullStackgenericFaqDataCa = [
   {
     id: 1,
     ques: "What is the average full-stack software developer salary in Canada?",
-    ans: "The average package of full stack software developers ranges averagely around 6 LPA to 12 LPA depending on the company norms and interview aspects. Based on experience, it can reach up to 30 LPA while switching careers.",
+    ans: "The average package of   software developers ranges averagely around 6 LPA to 12 LPA depending on the company norms and interview aspects. Based on experience, it can reach up to 30 LPA while switching careers.",
     open: false,
   },
   {
     id: 2,
     ques: "Is a full-stack developer a software engineer?",
-    ans: "The goal of Software engineers and full stack developers are quite the same. Both work with similar client project goals but via different sub-direction. Full stack developers are often in leadership roles. Software engineers, however, may be under the guidance of full-stack developers and can use their expertise to create specific features for projects.",
+    ans: "The goal of Software engineers and   developers are quite the same. Both work with similar client project goals but via different sub-direction.   developers are often in leadership roles. Software engineers, however, may be under the guidance of full-stack developers and can use their expertise to create specific features for projects.",
     open: false,
   },
 ];
@@ -10503,7 +10503,7 @@ export const FullStackSupportFaqDataCa = [
   },
 ];
 
-// 1st Course full stack course training in Chennai
+// 1st Course   course training in Chennai
 
 export const FullStackFaqDataC = [
   {
@@ -10520,7 +10520,7 @@ export const FullStackFaqDataC = [
   },
   {
     id: 2,
-    ques: "What is a 'Flexi Subscription' in the full stack software development course in Chennai?",
+    ques: "What is a 'Flexi Subscription' in the   software development course in Chennai?",
     ans: `Those who register for live online/hybrid training in the full-stack software development course are eligible for a Flexi Pass. We will get you access to all the ongoing live classes, recorded videos, and premium study materials for three years. You are free to pause, resume, and finish your study during these three years, and you are welcome to attend any class schedule/instructor whenever it is most convenient for you.`,
     open: false,
   },
@@ -10560,7 +10560,7 @@ export const FullStackFaqDataC = [
   {
     id: 8,
     ques: "How do I know that the concerned full-stack software development is a perfect fit for me?",
-    ans: "A full Stack Developer must be proficient and should own extreme interest in various code specializations, including databases, visual design, and UI/UX management, to do their jobs effectively. If you can use your coding abilities and are interested in software applications, this position is ideal for you. You can also take the help of Learnbay’s industry expert career counselor in this regard free of cost.",
+    ans: "A   Developer must be proficient and should own extreme interest in various code specializations, including databases, visual design, and UI/UX management, to do their jobs effectively. If you can use your coding abilities and are interested in software applications, this position is ideal for you. You can also take the help of Learnbay’s industry expert career counselor in this regard free of cost.",
     open: false,
   },
 ];
@@ -10574,7 +10574,7 @@ export const FullStackDomainFaqDataC = [
   {
     id: 1,
     ques: "What are specialized domain options provided in this Program?",
-    ans: "In Chennai, Learnbay’s Full stack software development course provides domains such as Full Stack, Product Engineer/Manager, Data Science & AI, Web 3.0 Developer, and DevOps & Clouds.",
+    ans: "In Chennai, Learnbay’s   software development course provides domains such as  , Product Engineer/Manager, Data Science & AI, Web 3.0 Developer, and DevOps & Clouds.",
     open: false,
   },
   {
@@ -10622,7 +10622,7 @@ export const FullStackPaymentFaqDataC = [
   },
   {
     id: 2,
-    ques: "Does the Full stack software development Program include any scholarships or discounts? What are Group Discounts?",
+    ques: "Does the   software development Program include any scholarships or discounts? What are Group Discounts?",
     ans: `Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount: Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2: 8% extra discount: Group of 3: Max 10% discount: Groupe of 4+`,
     open: false,
   },
@@ -10681,9 +10681,9 @@ export const FullStackjobFaqDataC = [
 export const FullStackeligibleFaqDataC = [
   {
     id: 0,
-    ques: "Can I still apply for a full stack developer course even though I do not hold a Bachelor of Technology or Bachelor of Engineering degree?",
+    ques: "Can I still apply for a   developer course even though I do not hold a Bachelor of Technology or Bachelor of Engineering degree?",
 
-    ans: "A person with basic computation and mathematical knowledge is also eligible to participate in this course; a BE or Btech degree is not essential to be part of a Full stack software developer course. Only you have to own the passion for coding.",
+    ans: "A person with basic computation and mathematical knowledge is also eligible to participate in this course; a BE or Btech degree is not essential to be part of a   software developer course. Only you have to own the passion for coding.",
     open: true,
   },
   {
@@ -10743,13 +10743,13 @@ export const FullStackgenericFaqDataC = [
   {
     id: 1,
     ques: "What is the average full-stack software developer salary in Chennai?",
-    ans: "The average package of full stack software developers ranges averagely around 6 LPA to 12 LPA depending on the company norms and interview aspects. Based on experience, it can reach up to 30 LPA while switching careers.",
+    ans: "The average package of   software developers ranges averagely around 6 LPA to 12 LPA depending on the company norms and interview aspects. Based on experience, it can reach up to 30 LPA while switching careers.",
     open: false,
   },
   {
     id: 2,
     ques: "Is a full-stack developer a software engineer?",
-    ans: "The goal of Software engineers and full stack developers are quite the same. Both work with similar client project goals but via different sub-direction. Full stack developers are often in leadership roles. Software engineers, however, may be under the guidance of full-stack developers and can use their expertise to create specific features for projects.",
+    ans: "The goal of Software engineers and   developers are quite the same. Both work with similar client project goals but via different sub-direction.   developers are often in leadership roles. Software engineers, however, may be under the guidance of full-stack developers and can use their expertise to create specific features for projects.",
     open: false,
   },
 ];
@@ -10769,7 +10769,7 @@ export const FullStackSupportFaqDataC = [
   },
 ];
 
-// 1st Course full stack course training in Delhi
+// 1st Course   course training in Delhi
 
 export const FullStackFaqDataDe = [
   {
@@ -10786,7 +10786,7 @@ export const FullStackFaqDataDe = [
   },
   {
     id: 2,
-    ques: "What is a 'Flexi Subscription' in the full stack software development course in Delhi?",
+    ques: "What is a 'Flexi Subscription' in the   software development course in Delhi?",
     ans: `Those who register for live online/hybrid training in the full-stack software development course are eligible for a Flexi Pass. We will get you access to all the ongoing live classes, recorded videos, and premium study materials for three years. You are free to pause, resume, and finish your study during these three years, and you are welcome to attend any class schedule/instructor whenever it is most convenient for you.`,
     open: false,
   },
@@ -10826,7 +10826,7 @@ export const FullStackFaqDataDe = [
   {
     id: 8,
     ques: "How do I know that the concerned full-stack software development is a perfect fit for me?",
-    ans: "A full Stack Developer must be proficient and should own extreme interest in various code specializations, including databases, visual design, and UI/UX management, to do their jobs effectively. If you can use your coding abilities and are interested in software applications, this position is ideal for you. You can also take the help of Learnbay’s industry expert career counselor in this regard free of cost.",
+    ans: "A   Developer must be proficient and should own extreme interest in various code specializations, including databases, visual design, and UI/UX management, to do their jobs effectively. If you can use your coding abilities and are interested in software applications, this position is ideal for you. You can also take the help of Learnbay’s industry expert career counselor in this regard free of cost.",
     open: false,
   },
 ];
@@ -10840,7 +10840,7 @@ export const FullStackDomainFaqDataDe = [
   {
     id: 1,
     ques: "What are specialized domain options provided in this Program?",
-    ans: "In Delhi, Learnbay’s Full stack software development course provides domains such as Full Stack, Product Engineer/Manager, Data Science & AI, Web 3.0 Developer, and DevOps & Clouds.",
+    ans: "In Delhi, Learnbay’s   software development course provides domains such as  , Product Engineer/Manager, Data Science & AI, Web 3.0 Developer, and DevOps & Clouds.",
     open: false,
   },
   {
@@ -10888,7 +10888,7 @@ export const FullStackPaymentFaqDataDe = [
   },
   {
     id: 2,
-    ques: "Does the Full stack software development Program include any scholarships or discounts? What are Group Discounts?",
+    ques: "Does the   software development Program include any scholarships or discounts? What are Group Discounts?",
     ans: `Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount: Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2: 8% extra discount: Group of 3: Max 10% discount: Groupe of 4+`,
     open: false,
   },
@@ -10947,9 +10947,9 @@ export const FullStackjobFaqDataDe = [
 export const FullStackeligibleFaqDataDe = [
   {
     id: 0,
-    ques: "Can I still apply for a full stack developer course even though I do not hold a Bachelor of Technology or Bachelor of Engineering degree?",
+    ques: "Can I still apply for a   developer course even though I do not hold a Bachelor of Technology or Bachelor of Engineering degree?",
 
-    ans: "A person with basic computation and mathematical knowledge is also eligible to participate in this course; a BE or Btech degree is not essential to be part of a Full stack software developer course. Only you have to own the passion for coding.",
+    ans: "A person with basic computation and mathematical knowledge is also eligible to participate in this course; a BE or Btech degree is not essential to be part of a   software developer course. Only you have to own the passion for coding.",
     open: true,
   },
   {
@@ -11009,13 +11009,13 @@ export const FullStackgenericFaqDataDe = [
   {
     id: 1,
     ques: "What is the average full-stack software developer salary in Delhi?",
-    ans: "The average package of full stack software developers ranges averagely around 6 LPA to 12 LPA depending on the company norms and interview aspects. Based on experience, it can reach up to 30 LPA while switching careers.",
+    ans: "The average package of   software developers ranges averagely around 6 LPA to 12 LPA depending on the company norms and interview aspects. Based on experience, it can reach up to 30 LPA while switching careers.",
     open: false,
   },
   {
     id: 2,
     ques: "Is a full-stack developer a software engineer?",
-    ans: "The goal of Software engineers and full stack developers are quite the same. Both work with similar client project goals but via different sub-direction. Full stack developers are often in leadership roles. Software engineers, however, may be under the guidance of full-stack developers and can use their expertise to create specific features for projects.",
+    ans: "The goal of Software engineers and   developers are quite the same. Both work with similar client project goals but via different sub-direction.   developers are often in leadership roles. Software engineers, however, may be under the guidance of full-stack developers and can use their expertise to create specific features for projects.",
     open: false,
   },
 ];
@@ -11035,7 +11035,7 @@ export const FullStackSupportFaqDataDe = [
   },
 ];
 
-// 1st Course full stack course training in Dubai
+// 1st Course   course training in Dubai
 
 export const FullStackFaqDataDu = [
   {
@@ -11052,7 +11052,7 @@ export const FullStackFaqDataDu = [
   },
   {
     id: 2,
-    ques: "What is a 'Flexi Subscription' in the full stack software development course in Dubai?",
+    ques: "What is a 'Flexi Subscription' in the   software development course in Dubai?",
     ans: `Those who register for live online/hybrid training in the full-stack software development course are eligible for a Flexi Pass. We will get you access to all the ongoing live classes, recorded videos, and premium study materials for three years. You are free to pause, resume, and finish your study during these three years, and you are welcome to attend any class schedule/instructor whenever it is most convenient for you.`,
     open: false,
   },
@@ -11092,7 +11092,7 @@ export const FullStackFaqDataDu = [
   {
     id: 8,
     ques: "How do I know that the concerned full-stack software development is a perfect fit for me?",
-    ans: "A full Stack Developer must be proficient and should own extreme interest in various code specializations, including databases, visual design, and UI/UX management, to do their jobs effectively. If you can use your coding abilities and are interested in software applications, this position is ideal for you. You can also take the help of Learnbay’s industry expert career counselor in this regard free of cost.",
+    ans: "A   Developer must be proficient and should own extreme interest in various code specializations, including databases, visual design, and UI/UX management, to do their jobs effectively. If you can use your coding abilities and are interested in software applications, this position is ideal for you. You can also take the help of Learnbay’s industry expert career counselor in this regard free of cost.",
     open: false,
   },
 ];
@@ -11106,7 +11106,7 @@ export const FullStackDomainFaqDataDu = [
   {
     id: 1,
     ques: "What are specialized domain options provided in this Program?",
-    ans: "In Dubai, Learnbay’s Full stack software development course provides domains such as Full Stack, Product Engineer/Manager, Data Science & AI, Web 3.0 Developer, and DevOps & Clouds.",
+    ans: "In Dubai, Learnbay’s   software development course provides domains such as  , Product Engineer/Manager, Data Science & AI, Web 3.0 Developer, and DevOps & Clouds.",
     open: false,
   },
   {
@@ -11154,7 +11154,7 @@ export const FullStackPaymentFaqDataDu = [
   },
   {
     id: 2,
-    ques: "Does the Full stack software development Program include any scholarships or discounts? What are Group Discounts?",
+    ques: "Does the   software development Program include any scholarships or discounts? What are Group Discounts?",
     ans: `Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount: Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2: 8% extra discount: Group of 3: Max 10% discount: Groupe of 4+`,
     open: false,
   },
@@ -11213,9 +11213,9 @@ export const FullStackjobFaqDataDu = [
 export const FullStackeligibleFaqDataDu = [
   {
     id: 0,
-    ques: "Can I still apply for a full stack developer course even though I do not hold a Bachelor of Technology or Bachelor of Engineering degree?",
+    ques: "Can I still apply for a   developer course even though I do not hold a Bachelor of Technology or Bachelor of Engineering degree?",
 
-    ans: "A person with basic computation and mathematical knowledge is also eligible to participate in this course; a BE or Btech degree is not essential to be part of a Full stack software developer course. Only you have to own the passion for coding.",
+    ans: "A person with basic computation and mathematical knowledge is also eligible to participate in this course; a BE or Btech degree is not essential to be part of a   software developer course. Only you have to own the passion for coding.",
     open: true,
   },
   {
@@ -11275,13 +11275,13 @@ export const FullStackgenericFaqDataDu = [
   {
     id: 1,
     ques: "What is the average full-stack software developer salary in Dubai?",
-    ans: "The average package of full stack software developers ranges averagely around 6 LPA to 12 LPA depending on the company norms and interview aspects. Based on experience, it can reach up to 30 LPA while switching careers.",
+    ans: "The average package of   software developers ranges averagely around 6 LPA to 12 LPA depending on the company norms and interview aspects. Based on experience, it can reach up to 30 LPA while switching careers.",
     open: false,
   },
   {
     id: 2,
     ques: "Is a full-stack developer a software engineer?",
-    ans: "The goal of Software engineers and full stack developers are quite the same. Both work with similar client project goals but via different sub-direction. Full stack developers are often in leadership roles. Software engineers, however, may be under the guidance of full-stack developers and can use their expertise to create specific features for projects.",
+    ans: "The goal of Software engineers and   developers are quite the same. Both work with similar client project goals but via different sub-direction.   developers are often in leadership roles. Software engineers, however, may be under the guidance of full-stack developers and can use their expertise to create specific features for projects.",
     open: false,
   },
 ];
@@ -11301,7 +11301,7 @@ export const FullStackSupportFaqDataDu = [
   },
 ];
 
-// 1st Course full stack course training in Hyderabad
+// 1st Course   course training in Hyderabad
 
 export const FullStackFaqDataHy = [
   {
@@ -11318,7 +11318,7 @@ export const FullStackFaqDataHy = [
   },
   {
     id: 2,
-    ques: "What is a 'Flexi Subscription' in the full stack software development course in Hyderabad?",
+    ques: "What is a 'Flexi Subscription' in the   software development course in Hyderabad?",
     ans: `Those who register for live online/hybrid training in the full-stack software development course are eligible for a Flexi Pass. We will get you access to all the ongoing live classes, recorded videos, and premium study materials for three years. You are free to pause, resume, and finish your study during these three years, and you are welcome to attend any class schedule/instructor whenever it is most convenient for you.`,
     open: false,
   },
@@ -11358,7 +11358,7 @@ export const FullStackFaqDataHy = [
   {
     id: 8,
     ques: "How do I know that the concerned full-stack software development is a perfect fit for me?",
-    ans: "A full Stack Developer must be proficient and should own extreme interest in various code specializations, including databases, visual design, and UI/UX management, to do their jobs effectively. If you can use your coding abilities and are interested in software applications, this position is ideal for you. You can also take the help of Learnbay’s industry expert career counselor in this regard free of cost.",
+    ans: "A   Developer must be proficient and should own extreme interest in various code specializations, including databases, visual design, and UI/UX management, to do their jobs effectively. If you can use your coding abilities and are interested in software applications, this position is ideal for you. You can also take the help of Learnbay’s industry expert career counselor in this regard free of cost.",
     open: false,
   },
 ];
@@ -11372,7 +11372,7 @@ export const FullStackDomainFaqDataHy = [
   {
     id: 1,
     ques: "What are specialized domain options provided in this Program?",
-    ans: "In Hyderabad, Learnbay’s Full stack software development course provides domains such as Full Stack, Product Engineer/Manager, Data Science & AI, Web 3.0 Developer, and DevOps & Clouds.",
+    ans: "In Hyderabad, Learnbay’s   software development course provides domains such as  , Product Engineer/Manager, Data Science & AI, Web 3.0 Developer, and DevOps & Clouds.",
     open: false,
   },
   {
@@ -11420,7 +11420,7 @@ export const FullStackPaymentFaqDataHy = [
   },
   {
     id: 2,
-    ques: "Does the Full stack software development Program include any scholarships or discounts? What are Group Discounts?",
+    ques: "Does the   software development Program include any scholarships or discounts? What are Group Discounts?",
     ans: `Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount: Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2: 8% extra discount: Group of 3: Max 10% discount: Groupe of 4+`,
     open: false,
   },
@@ -11479,9 +11479,9 @@ export const FullStackjobFaqDataHy = [
 export const FullStackeligibleFaqDataHy = [
   {
     id: 0,
-    ques: "Can I still apply for a full stack developer course even though I do not hold a Bachelor of Technology or Bachelor of Engineering degree?",
+    ques: "Can I still apply for a   developer course even though I do not hold a Bachelor of Technology or Bachelor of Engineering degree?",
 
-    ans: "A person with basic computation and mathematical knowledge is also eligible to participate in this course; a BE or Btech degree is not essential to be part of a Full stack software developer course. Only you have to own the passion for coding.",
+    ans: "A person with basic computation and mathematical knowledge is also eligible to participate in this course; a BE or Btech degree is not essential to be part of a   software developer course. Only you have to own the passion for coding.",
     open: true,
   },
   {
@@ -11541,13 +11541,13 @@ export const FullStackgenericFaqDataHy = [
   {
     id: 1,
     ques: "What is the average full-stack software developer salary in Hyderabad?",
-    ans: "The average package of full stack software developers ranges averagely around 6 LPA to 12 LPA depending on the company norms and interview aspects. Based on experience, it can reach up to 30 LPA while switching careers.",
+    ans: "The average package of   software developers ranges averagely around 6 LPA to 12 LPA depending on the company norms and interview aspects. Based on experience, it can reach up to 30 LPA while switching careers.",
     open: false,
   },
   {
     id: 2,
     ques: "Is a full-stack developer a software engineer?",
-    ans: "The goal of Software engineers and full stack developers are quite the same. Both work with similar client project goals but via different sub-direction. Full stack developers are often in leadership roles. Software engineers, however, may be under the guidance of full-stack developers and can use their expertise to create specific features for projects.",
+    ans: "The goal of Software engineers and   developers are quite the same. Both work with similar client project goals but via different sub-direction.   developers are often in leadership roles. Software engineers, however, may be under the guidance of full-stack developers and can use their expertise to create specific features for projects.",
     open: false,
   },
 ];
@@ -11567,7 +11567,7 @@ export const FullStackSupportFaqDataHy = [
   },
 ];
 
-// 1st Course full stack course training in Mumbai
+// 1st Course   course training in Mumbai
 
 export const FullStackFaqDataM = [
   {
@@ -11584,7 +11584,7 @@ export const FullStackFaqDataM = [
   },
   {
     id: 2,
-    ques: "What is a 'Flexi Subscription' in the full stack software development course in Mumbai?",
+    ques: "What is a 'Flexi Subscription' in the   software development course in Mumbai?",
     ans: `Those who register for live online/hybrid training in the full-stack software development course are eligible for a Flexi Pass. We will get you access to all the ongoing live classes, recorded videos, and premium study materials for three years. You are free to pause, resume, and finish your study during these three years, and you are welcome to attend any class schedule/instructor whenever it is most convenient for you.`,
     open: false,
   },
@@ -11624,7 +11624,7 @@ export const FullStackFaqDataM = [
   {
     id: 8,
     ques: "How do I know that the concerned full-stack software development is a perfect fit for me?",
-    ans: "A full Stack Developer must be proficient and should own extreme interest in various code specializations, including databases, visual design, and UI/UX management, to do their jobs effectively. If you can use your coding abilities and are interested in software applications, this position is ideal for you. You can also take the help of Learnbay’s industry expert career counselor in this regard free of cost.",
+    ans: "A   Developer must be proficient and should own extreme interest in various code specializations, including databases, visual design, and UI/UX management, to do their jobs effectively. If you can use your coding abilities and are interested in software applications, this position is ideal for you. You can also take the help of Learnbay’s industry expert career counselor in this regard free of cost.",
     open: false,
   },
 ];
@@ -11638,7 +11638,7 @@ export const FullStackDomainFaqDataM = [
   {
     id: 1,
     ques: "What are specialized domain options provided in this Program?",
-    ans: "In Mumbai, Learnbay’s Full stack software development course provides domains such as Full Stack, Product Engineer/Manager, Data Science & AI, Web 3.0 Developer, and DevOps & Clouds.",
+    ans: "In Mumbai, Learnbay’s   software development course provides domains such as  , Product Engineer/Manager, Data Science & AI, Web 3.0 Developer, and DevOps & Clouds.",
     open: false,
   },
   {
@@ -11686,7 +11686,7 @@ export const FullStackPaymentFaqDataM = [
   },
   {
     id: 2,
-    ques: "Does the Full stack software development Program include any scholarships or discounts? What are Group Discounts?",
+    ques: "Does the   software development Program include any scholarships or discounts? What are Group Discounts?",
     ans: `Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount: Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2: 8% extra discount: Group of 3: Max 10% discount: Groupe of 4+`,
     open: false,
   },
@@ -11745,9 +11745,9 @@ export const FullStackjobFaqDataM = [
 export const FullStackeligibleFaqDataM = [
   {
     id: 0,
-    ques: "Can I still apply for a full stack developer course even though I do not hold a Bachelor of Technology or Bachelor of Engineering degree?",
+    ques: "Can I still apply for a   developer course even though I do not hold a Bachelor of Technology or Bachelor of Engineering degree?",
 
-    ans: "A person with basic computation and mathematical knowledge is also eligible to participate in this course; a BE or Btech degree is not essential to be part of a Full stack software developer course. Only you have to own the passion for coding.",
+    ans: "A person with basic computation and mathematical knowledge is also eligible to participate in this course; a BE or Btech degree is not essential to be part of a   software developer course. Only you have to own the passion for coding.",
     open: true,
   },
   {
@@ -11807,13 +11807,13 @@ export const FullStackgenericFaqDataM = [
   {
     id: 1,
     ques: "What is the average full-stack software developer salary in Mumbai?",
-    ans: "The average package of full stack software developers ranges averagely around 6 LPA to 12 LPA depending on the company norms and interview aspects. Based on experience, it can reach up to 30 LPA while switching careers.",
+    ans: "The average package of   software developers ranges averagely around 6 LPA to 12 LPA depending on the company norms and interview aspects. Based on experience, it can reach up to 30 LPA while switching careers.",
     open: false,
   },
   {
     id: 2,
     ques: "Is a full-stack developer a software engineer?",
-    ans: "The goal of Software engineers and full stack developers are quite the same. Both work with similar client project goals but via different sub-direction. Full stack developers are often in leadership roles. Software engineers, however, may be under the guidance of full-stack developers and can use their expertise to create specific features for projects.",
+    ans: "The goal of Software engineers and   developers are quite the same. Both work with similar client project goals but via different sub-direction.   developers are often in leadership roles. Software engineers, however, may be under the guidance of full-stack developers and can use their expertise to create specific features for projects.",
     open: false,
   },
 ];

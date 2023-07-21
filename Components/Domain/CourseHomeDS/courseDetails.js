@@ -107,37 +107,37 @@ export const viewAllD = [
   },
   {
     id: 8,
-    tag: "Full stack",
+    tag: " ",
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/marketing/data+sience/domain/BFSI.png",
   },
   {
     id: 9,
-    tag: "Full stack",
+    tag: " ",
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/marketing/data+sience/domain/Ecommerce+_+Supply+Chain.png",
   },
   {
     id: 10,
-    tag: "Full stack",
+    tag: " ",
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/marketing/data+sience/domain/Healthcare.png",
   },
   {
     id: 11,
-    tag: "Full stack",
+    tag: " ",
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/marketing/data+sience/domain/Manufacturing%2C+Automotive+and+Telecom.png",
   },
   {
     id: 12,
-    tag: "Full stack",
+    tag: " ",
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/marketing/data+sience/domain/Media%2C+Hospitality+and+Transportation.png",
   },
   {
     id: 13,
-    tag: "Full stack",
+    tag: " ",
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/marketing/data+sience/domain/Oil%2C+Gas+and+Energy.png",
   },
   {
     id: 14,
-    tag: "Full stack",
+    tag: " ",
     img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/marketing/data+sience/domain/Sales%2C+Marketing+and+HR.png",
   },
 ];

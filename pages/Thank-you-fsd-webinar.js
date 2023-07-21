@@ -113,7 +113,7 @@ const ThankYouFsd = ({ initialName }) => {
               height="252"
             />
             <p className={styles.Ptopp}>
-              Full Stack Web <br />
+              Web <br />
               Development Program
             </p>
             <button className={styles.Button}>

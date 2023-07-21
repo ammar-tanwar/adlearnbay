@@ -58,7 +58,7 @@ const Footer = () => {
           {/* <a href="/fswd">
             <p className={styles.FooterInnerli} style={{ display: "flex" }}>
               <FaCheck className="bIcons" />
-              Full Stack Web Development Program
+                Web Development Program
             </p>
           </a> */}
           <a href="/advance-ai-ml-certification">

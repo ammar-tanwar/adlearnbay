@@ -64,21 +64,21 @@ function ThirdSection({
               </p>
               <p>
                 <FaStar className={styles.IconBoxBlue} />
-                Data Structure
-                <br />
-                and Algorithms Course
-              </p>
-              <p>
-                <FaStar className={styles.IconBoxBlue} />
                 Software Development
                 <br />
                 Course in Blockchain
               </p>
               <p>
                 <FaStar className={styles.IconBoxBlue} />
-                System Design
+                Software Development course
                 <br />
-                Course
+                in DevOps & Cloud Computing 
+              </p>
+              <p>
+                <FaStar className={styles.IconBoxBlue} />
+                DSA and
+                <br />
+                System Desiign
               </p>
             </div>
           </>

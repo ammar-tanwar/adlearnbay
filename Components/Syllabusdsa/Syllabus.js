@@ -99,9 +99,9 @@ function Syllabus({ dsa, radio, formotp }) {
         <div className="RightPopup">
           <h5>Download Brochure</h5>
           <p>Please enter the following details to initiate your download</p>
-          {formotp ?(
-          <FormOtp popup={true} radio={radio}/>
-          ):(
+          {formotp ? (
+            <FormOtp popup={true} radio={radio} />
+          ) : (
             <Form setTrigger={setPopups} downloadBrochure radio={radio} />
           )}
         </div>
@@ -122,10 +122,9 @@ function Syllabus({ dsa, radio, formotp }) {
           </div>
         </div>
         <p>
-          The Full Stack Software Development Program is curated by leading
-          faculties and industry leaders. Especially, with the aim to provide
-          practical learning experience with live interactive classes and
-          projects.
+          The Software Development Program is curated by leading faculties and
+          industry leaders. Especially, with the aim to provide practical
+          learning experience with live interactive classes and projects.
         </p>
 
         <div className={styles.QOuter}>
@@ -604,7 +603,7 @@ function Syllabus({ dsa, radio, formotp }) {
                   {state[6].open ? (
                     <div className={styles.ans}>
                       <h2>
-                        <b>Full Stack</b>
+                        <b> </b>
                       </h2>
                       <p>
                         <b>Programming Essentials</b>
@@ -764,11 +763,11 @@ function Syllabus({ dsa, radio, formotp }) {
             <p>Request More Information</p>
           </div>
           <div className={styles.PProgramInner}>
-          {formotp ?(
-          <FormOtp popup={true} radio={radio}/>
-          ):(
-            <Form radio={radio} />
-          )}
+            {formotp ? (
+              <FormOtp popup={true} radio={radio} />
+            ) : (
+              <Form radio={radio} />
+            )}
           </div>
         </div>
       </div>

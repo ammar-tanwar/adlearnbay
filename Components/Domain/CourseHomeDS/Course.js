@@ -38,9 +38,7 @@ const Course = ({ peanutbtrIMG }) => {
   const filtteredViewAllD = viewAllD.filter(
     (post) => post.tag === "Data science"
   );
-  const filtteredViewAllF = viewAllD.filter(
-    (post) => post.tag === "Full stack"
-  );
+  const filtteredViewAllF = viewAllD.filter((post) => post.tag === " ");
 
   useEffect(() => {
     let width = window.innerWidth;

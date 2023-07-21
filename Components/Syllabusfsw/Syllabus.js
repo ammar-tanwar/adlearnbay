@@ -14,7 +14,7 @@ import { BsFillCircleFill } from "react-icons/bs";
 import { AiOutlineDownload } from "react-icons/ai";
 import Popup from "../Popup/Popup";
 
-function Syllabus({formotp}) {
+function Syllabus({ formotp }) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -103,16 +103,21 @@ function Syllabus({formotp}) {
             <h4>Syllabus</h4>
           </div>
           <div>
-          <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf" target="_blank"><button className={styles.Button}>
-              {" "}
-              <AiOutlineDownload className="bIcons" />
-              Download Brochure
-            </button></a>
-          </div> 
+            <a
+              href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf"
+              target="_blank"
+            >
+              <button className={styles.Button}>
+                {" "}
+                <AiOutlineDownload className="bIcons" />
+                Download Brochure
+              </button>
+            </a>
+          </div>
         </div>
         <p>
-          The Full Stack Web development Program With/Without 100% Placement Assistance
-          is curated by leading faculties and industry leaders. Especially, with
+          The Web development Program With/Without 100% Placement Assistance is
+          curated by leading faculties and industry leaders. Especially, with
           the aim to provide practical learning experience with live interactive
           classes and projects.
         </p>
@@ -156,15 +161,24 @@ function Syllabus({formotp}) {
 
               {state[0].open ? (
                 <div className={styles.ans}>
-                  <li>A quick guide to Full Stack Web Development</li>
-                  <li>What, Why - Full Stack Development</li>
-                  <li>What is meant by the terms "Frontend," "Backend," "Database," "Testing," "Version Control," "Project Management," and "Cloud Techniques"</li>
+                  <li>A quick guide to Web Development</li>
+                  <li>What, Why - Development</li>
+                  <li>
+                    What is meant by the terms "Frontend," "Backend,"
+                    "Database," "Testing," "Version Control," "Project
+                    Management," and "Cloud Techniques"
+                  </li>
                   <li>Significance of projects</li>
                   <li>Job Opportunities in IT industry</li>
-                  <li>Basics of StatisticsHow to make it big in the IT Industry and crack FAANG Interviews</li>
-                  <li>Interview process of top product based MNCs and Unicorns.</li>
-                  <li>Scopes/Jobs of a Full Stack Developer</li>
-                  <li>Details about this Full Stack course</li>
+                  <li>
+                    Basics of StatisticsHow to make it big in the IT Industry
+                    and crack FAANG Interviews
+                  </li>
+                  <li>
+                    Interview process of top product based MNCs and Unicorns.
+                  </li>
+                  <li>Scopes/Jobs of a Developer</li>
+                  <li>Details about this course</li>
                   <li>All about - MEAN stack and MERN stack</li>
                 </div>
               ) : (
@@ -187,9 +201,7 @@ function Syllabus({formotp}) {
             >
               {state[1].open ? (
                 <div className={styles.quesO}>
-                  <h2>
-                    Level 00: Preparatory Session:
-                  </h2>
+                  <h2>Level 00: Preparatory Session:</h2>
 
                   <span>
                     {state[1].open ? (
@@ -201,9 +213,7 @@ function Syllabus({formotp}) {
                 </div>
               ) : (
                 <div className={styles.ques}>
-                  <h2>
-                    Level 00: Preparatory Session:
-                  </h2>
+                  <h2>Level 00: Preparatory Session:</h2>
                   <span>
                     {state[1].open ? (
                       <MdKeyboardArrowUp className="icon" />
@@ -222,7 +232,7 @@ function Syllabus({formotp}) {
                   <li>Programming Fundamentals</li>
                   <li>Mathematics for programming</li>
                   <li>Understanding elite domains</li>
-                  <li>a. Full Stack Developmen</li>
+                  <li>a. Developmen</li>
                   <li>b. Product Engineering / Management</li>
                   <li>c. Data Science and AI</li>
                   <li>d. Web 3.0 Developer</li>
@@ -249,7 +259,10 @@ function Syllabus({formotp}) {
             >
               {state[2].open ? (
                 <div className={styles.quesO}>
-                  <h2>Level 01: Programming Language Refresher (Java & Python) 40 hours</h2>
+                  <h2>
+                    Level 01: Programming Language Refresher (Java & Python) 40
+                    hours
+                  </h2>
 
                   <span>
                     {state[2].open ? (
@@ -261,7 +274,10 @@ function Syllabus({formotp}) {
                 </div>
               ) : (
                 <div className={styles.ques}>
-                  <h2>Level 01: Programming Language Refresher (Java & Python) 40 hours</h2>
+                  <h2>
+                    Level 01: Programming Language Refresher (Java & Python) 40
+                    hours
+                  </h2>
                   <span>
                     {state[2].open ? (
                       <MdKeyboardArrowUp className="icon" />
@@ -274,12 +290,17 @@ function Syllabus({formotp}) {
 
               {state[2].open ? (
                 <div className={styles.ans}>
-                  <li>Syntax, Data Types, Variables, Loops, Conditionals and If Statement</li>
+                  <li>
+                    Syntax, Data Types, Variables, Loops, Conditionals and If
+                    Statement
+                  </li>
                   <li>OOP’s, Built in Modules in Python and Java</li>
                   <li>Data Structures fundamentals</li>
                   <li>How data is stored in Python and Java</li>
                   <li>Master the command line interface</li>
-                  <li>File Handling, Regular Expression, Exceptional Handling</li>
+                  <li>
+                    File Handling, Regular Expression, Exceptional Handling
+                  </li>
                   <li>Collection, Framework, Modules & Packages</li>
                 </div>
               ) : (
@@ -302,8 +323,7 @@ function Syllabus({formotp}) {
             >
               {state[3].open ? (
                 <div className={styles.quesO}>
-                  <h2>Level 02: Frontend Development
-                  </h2>
+                  <h2>Level 02: Frontend Development</h2>
 
                   <span>
                     {state[3].open ? (
@@ -315,8 +335,7 @@ function Syllabus({formotp}) {
                 </div>
               ) : (
                 <div className={styles.ques}>
-                  <h2>Level 02: Frontend Development
-                  </h2>
+                  <h2>Level 02: Frontend Development</h2>
                   <span>
                     {state[3].open ? (
                       <MdKeyboardArrowUp className="icon" />
@@ -329,12 +348,21 @@ function Syllabus({formotp}) {
 
               {state[3].open ? (
                 <div className={styles.ans}>
-                  <li>Enhance Bootstrap's look and feel using the newest HTML5 and CSS3 features.</li>
+                  <li>
+                    Enhance Bootstrap's look and feel using the newest HTML5 and
+                    CSS3 features.
+                  </li>
                   <li>Getting started with JavaScript</li>
                   <li>JavaScript - Basic to Advance</li>
                   <li>Understanding basics of jQuery</li>
-                  <li>Study the most frequent tags used in react js, angular, and nodejs</li>
-                  <li>Develop layouts that are appealing, accessible, and responsive.</li>
+                  <li>
+                    Study the most frequent tags used in react js, angular, and
+                    nodejs
+                  </li>
+                  <li>
+                    Develop layouts that are appealing, accessible, and
+                    responsive.
+                  </li>
                   <li>Learn how to use React JS to create single-page apps.</li>
                   <li>Understand basics of UI/UX (Figma)</li>
                   <li>Implement user authentication</li>
@@ -386,13 +414,15 @@ function Syllabus({formotp}) {
 
               {state[4].open ? (
                 <div className={styles.ans}>
-                  <li>Learn Express Framework, and make scalable web applications</li>
+                  <li>
+                    Learn Express Framework, and make scalable web applications
+                  </li>
                   <li>SQL and NoSql Concept</li>
                   <li>Understand the logic behind the MongoDB data storage</li>
                   <li>Introduction to CSS for Backend</li>
                   <li>OOPS to design the program using classes and objects.</li>
                   <li>Learn Design Patterns & Object Modelling</li>
-                  <li>Learn JSON & AJAX  to connect to APIs and endpoints </li>
+                  <li>Learn JSON & AJAX to connect to APIs and endpoints </li>
                   <li>Web Programming with Javascript or Python</li>
                   <li>Use Node JS to build better user interfaces</li>
                   <li>Learn handling HTTP requests using ExpressJS</li>
@@ -444,11 +474,27 @@ function Syllabus({formotp}) {
 
               {state[5].open ? (
                 <div className={styles.ans}>
-                  <li>Build static HTML and CSS websites for your portfolio and landing pages.</li>
-                  <li>Build a To-Do List Application : This project will improve your front-end techniques with user login and authentication. And will also help you understand different types of operations in the database.</li>
-                  <li>Build a fully functional blog application from the ground up using Node, Express, and MongoDB : The server-side is crucial for archiving blog articles as they are build and for
-            rendering text on the client-side.</li>
-                  <li>On-Demand Home Service Application : Visitors may use this to search for services based on location, budget, and local vendors.</li>
+                  <li>
+                    Build static HTML and CSS websites for your portfolio and
+                    landing pages.
+                  </li>
+                  <li>
+                    Build a To-Do List Application : This project will improve
+                    your front-end techniques with user login and
+                    authentication. And will also help you understand different
+                    types of operations in the database.
+                  </li>
+                  <li>
+                    Build a fully functional blog application from the ground up
+                    using Node, Express, and MongoDB : The server-side is
+                    crucial for archiving blog articles as they are build and
+                    for rendering text on the client-side.
+                  </li>
+                  <li>
+                    On-Demand Home Service Application : Visitors may use this
+                    to search for services based on location, budget, and local
+                    vendors.
+                  </li>
                 </div>
               ) : (
                 ""
@@ -496,10 +542,18 @@ function Syllabus({formotp}) {
               {state[6].open ? (
                 <div className={styles.ans}>
                   <li>Use MySQL to create and manipulate your own databases</li>
-                  <li>Learn MongoDB - Operators, Collections, Indexes, Cloud</li>
+                  <li>
+                    Learn MongoDB - Operators, Collections, Indexes, Cloud
+                  </li>
                   <li>Built-in interface to manage the database objects</li>
-                  <li>Utilize SQL to produce insights and reports from real-world data</li>
-                  <li>Handling data warehouses to web services with several concurrent users using PostgreSQL</li>
+                  <li>
+                    Utilize SQL to produce insights and reports from real-world
+                    data
+                  </li>
+                  <li>
+                    Handling data warehouses to web services with several
+                    concurrent users using PostgreSQL
+                  </li>
                 </div>
               ) : (
                 ""
@@ -521,7 +575,9 @@ function Syllabus({formotp}) {
             >
               {state[7].open ? (
                 <div className={styles.quesO}>
-                  <h2>Level 05: Essential tools/techniques for a Full Stack Web Developer</h2>
+                  <h2>
+                    Level 05: Essential tools/techniques for a Web Developer
+                  </h2>
 
                   <span>
                     {state[7].open ? (
@@ -533,7 +589,9 @@ function Syllabus({formotp}) {
                 </div>
               ) : (
                 <div className={styles.ques}>
-                  <h2>Level 05: Essential tools/techniques for a Full Stack Web Developer</h2>
+                  <h2>
+                    Level 05: Essential tools/techniques for a Web Developer
+                  </h2>
                   <span>
                     {state[7].open ? (
                       <MdKeyboardArrowUp className="icon" />
@@ -547,9 +605,14 @@ function Syllabus({formotp}) {
               {state[7].open ? (
                 <div className={styles.ans}>
                   <li>Using Git, GitHub for Version Control</li>
-                  <li>Selenium - For quick, systematic web-application testing</li>
+                  <li>
+                    Selenium - For quick, systematic web-application testing
+                  </li>
                   <li>Sending Collections of API Requests using PostMan</li>
-                  <li>Discover the fundamentals of a Trello Board, including the lists, cards, and menu</li>
+                  <li>
+                    Discover the fundamentals of a Trello Board, including the
+                    lists, cards, and menu
+                  </li>
                   <li>Using the JIRA library for python</li>
                 </div>
               ) : (
@@ -598,9 +661,17 @@ function Syllabus({formotp}) {
               {state[8].open ? (
                 <div className={styles.ans}>
                   <li>Understanding AWS Smart Architecture</li>
-                  <li>Writing Node.JS Web Server - ready to deploy on App Engine</li>
-                  <li>Use Firebase authentication to implement federated identity management</li>
-                  <li>Google Cloud Platform - learn infrastructure deployment service</li>
+                  <li>
+                    Writing Node.JS Web Server - ready to deploy on App Engine
+                  </li>
+                  <li>
+                    Use Firebase authentication to implement federated identity
+                    management
+                  </li>
+                  <li>
+                    Google Cloud Platform - learn infrastructure deployment
+                    service
+                  </li>
                 </div>
               ) : (
                 ""
@@ -672,19 +743,18 @@ function Syllabus({formotp}) {
             <p>Program Highlights</p>
           </div>
           <div className={styles.PProgramInner}>
-            <p style={{display:"flex"}}>
+            <p style={{ display: "flex" }}>
               <MdOutlineLiveTv className={styles.PIcons} />
               350+ Live sessions
             </p>
-            <p style={{display:"flex"}}>
+            <p style={{ display: "flex" }}>
               <SiCodeproject className={styles.PIcons} />
               12+ Industry Projects
             </p>
-            <p style={{display:"flex"}}>
-              <SiTimescale className={styles.PIcons} />
-              3 Year Subscriptions
+            <p style={{ display: "flex" }}>
+              <SiTimescale className={styles.PIcons} />3 Year Subscriptions
             </p>
-            <p style={{display:"flex"}}>
+            <p style={{ display: "flex" }}>
               <MdOutlineLaptopMac className={styles.PIcons} />
               Live project experience
             </p>
@@ -695,11 +765,7 @@ function Syllabus({formotp}) {
             <p>Request More Information</p>
           </div>
           <div className={styles.PProgramInner}>
-          {formotp ?(
-            <FormOtp />
-          ):(
-            <Form />
-          )}
+            {formotp ? <FormOtp /> : <Form />}
           </div>
         </div>
       </div>

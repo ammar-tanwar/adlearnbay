@@ -1404,8 +1404,7 @@ export const SoftwareData = [
     ProgramFee: {
       Fee: "₹ 1,10,000 + GST",
       Emi: "₹ 10,816",
-      CourseFeeAndFinancing:
-        "Full Stack Software Development Course Fee & Financing",
+      CourseFeeAndFinancing: "  Software Development Course Fee & Financing",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Science Certification Course and offer avariety of financing options to make it more economical.",
     },
     Project: {
@@ -1489,7 +1488,7 @@ export const SoftwareData = [
     ],
 
     BatchCourses: {
-      CourseFeeHead: "Full Stack Software Development Program: Batch Details",
+      CourseFeeHead: "  Software Development Program: Batch Details",
       CourseFeePara: "Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",

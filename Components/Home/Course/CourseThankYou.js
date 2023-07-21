@@ -59,7 +59,7 @@ function CourseThankYou() {
                 : { background: "#E5F3FA" }
             }
           >
-            Full Stack Brochure
+            Brochure
           </span>
           <span
             onClick={() => {

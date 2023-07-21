@@ -36,18 +36,18 @@ export default function Home({ formotp }) {
   return (
     <div>
       <Head>
-        <title>Full Stack Software Development Course</title>
+        <title> Software Development Course</title>
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
         <meta
           name="description"
-          content="Learn Full Stack Software Development Course. Get a chance to work with top product based MNCs Companies and participate in live, interactive online sessions led by tech experts to gain real-time project experience."
+          content="Learn   Software Development Course. Get a chance to work with top product based MNCs Companies and participate in live, interactive online sessions led by tech experts to gain real-time project experience."
         />
         <meta
           name="Keywords"
-          content="Full Stack Software Development Course,Best Full Stack Software Development Course, Online Full Stack Software Development Course, Learn Full Stack Software development Course"
+          content="  Software Development Course,Best   Software Development Course, Online   Software Development Course, Learn   Software development Course"
         />
         <script
           dangerouslySetInnerHTML={{
@@ -115,7 +115,7 @@ export default function Home({ formotp }) {
           fullstackADS={true}
           fullStackCont={true}
           deskTopPara="Ace the PRODUCT Interviews to achieve your dream job"
-          h1="Full Stack Software Development Course"
+          h1="  Software Development Course"
           hSpan="for Working Professionals"
           para="Work on 12+ real-time projects & get hired at top MNCs with a salary of up to 18LPA, only for Working Professionals."
           sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/fssd-generic.jpeg"
@@ -144,7 +144,7 @@ export default function Home({ formotp }) {
           fullStackCont={true}
           formotp={true}
           fullstackADS={true}
-          desc="Learnbay offers Full Stack Software Development Course led by experts working in top MNCs & real-time industrial projects with case studies."
+          desc="Learnbay offers   Software Development Course led by experts working in top MNCs & real-time industrial projects with case studies."
           Hours="300+ Hours"
           Projects="12+ projects"
           Module0="Preparatory Classes"
@@ -160,7 +160,7 @@ export default function Home({ formotp }) {
           CourseFeeAndFinancing={
             FullStackSoftwareCourseData[0].ProgramFee.CourseFeeAndFinancing
           }
-          para="We are dedicated to making our Full Stack Software Development Course accessible.  We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
+          para="We are dedicated to making our   Software Development Course accessible.  We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
           dataScience={true}
         />
         <Batch
@@ -168,7 +168,7 @@ export default function Home({ formotp }) {
           fullstackADS={true}
           syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
           syllabus={FullStackSoftwareCourseData[0].Batch}
-          CourseFeeHead="Full Stack Software Development Course: Batch Details"
+          CourseFeeHead="  Software Development Course: Batch Details"
           CourseFeePara={
             FullStackSoftwareCourseData[0].BatchCourses.CourseFeePara
           }
