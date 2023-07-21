@@ -72,13 +72,13 @@ function ThirdSection({
                 <FaStar className={styles.IconBoxBlue} />
                 Software Development course
                 <br />
-                in DevOps & Cloud Computing 
+                in Cloud Computing & DevOps
               </p>
               <p>
                 <FaStar className={styles.IconBoxBlue} />
                 DSA and
                 <br />
-                System Desiign
+                System Design Course
               </p>
             </div>
           </>
