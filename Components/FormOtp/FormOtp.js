@@ -1858,11 +1858,11 @@ function FormOtp({
               <input
                 className={popup ? styles.NameInputs : styles.NameInput}
                 type="text"
-                name="JobTitle"
+                name="jobDescription"
+                placeholder="Job Description*"
                 onChange={handleForm}
-                value={form.JobTitle}
+                value={query.jobDescription}
                 required={true}
-                placeholder="Job title*"
                 style={{ borderBottom: "1px solid grey" }}
               />
             </div>
