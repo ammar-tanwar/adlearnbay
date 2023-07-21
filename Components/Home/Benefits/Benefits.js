@@ -53,8 +53,8 @@ const Benefits = () => {
               <li>Experiential learning for working professionals.</li>
 
               <li>
-                Utilizing your current domain expertise to become a full stack
-                data scientist.
+                Utilizing your current domain expertise to become a data
+                scientist.
               </li>
             </div>
           ) : (
@@ -76,8 +76,7 @@ const Benefits = () => {
           {industry ? (
             <div className={styles.listDetail}>
               <li>
-                Understand the art of industry-specific data science
-                terms.
+                Understand the art of industry-specific data science terms.
               </li>
               <li>Earn IBM certificate for industry capstone projects.</li>
               <li>
@@ -92,7 +91,9 @@ const Benefits = () => {
           )}
         </div>
         <div className={styles.BenRightWrap}>
-          <a href="https://youtu.be/2lAy7DmacdI" target="_blank"><AiFillPlayCircle className={styles.Play} /></a>
+          <a href="https://youtu.be/2lAy7DmacdI" target="_blank">
+            <AiFillPlayCircle className={styles.Play} />
+          </a>
         </div>
       </div>
     </div>

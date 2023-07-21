@@ -43,7 +43,7 @@ const Footer = () => {
               Advance Data Science & AI Certification
             </p>
           </a>
-          {/* <a href="/fswd"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />Full Stack Web Development Program</p></a> */}
+          {/* <a href="/fswd"><p className={styles.FooterInnerli} style={{display:"flex"}}><FaCheck className="bIcons"  />  Web Development Program</p></a> */}
           <a href="/fssd">
             <p className={styles.FooterInnerli} style={{ display: "flex" }}>
               <FaCheck className="bIcons" />

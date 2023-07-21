@@ -36,18 +36,18 @@ export default function Home({ formotp }) {
   return (
     <div>
       <Head>
-        <title>best full stack web development course</title>
+        <title>best web development course</title>
         <link
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
         <meta
           name="description"
-          content="Learn Full Stack Web Development Course with a chance to work at top product based MNCs Companies and participate in live sessions led by tech experts to gain real-time project experience."
+          content="Learn   Web Development Course with a chance to work at top product based MNCs Companies and participate in live sessions led by tech experts to gain real-time project experience."
         />
         <meta
           name="Keywords"
-          content="full stack web development courses, full stack web development course, full stack web development course syllabus, learn web development, web development full course, full stack web development course fees, learn full stack web development course, best full stack web development course, live interactive full stack web development course, online full stack web development course"
+          content="  web development courses,   web development course,   web development course syllabus, learn web development, web development full course,   web development course fees, learn   web development course, best   web development course, live interactive   web development course, online   web development course"
         />
         <script
           dangerouslySetInnerHTML={{
@@ -115,9 +115,9 @@ export default function Home({ formotp }) {
           fullstackADS={true}
           fullStackCont={true}
           deskTopPara="Ace the PRODUCT Interviews to achieve your dream job"
-          h1="Full Stack Web Development Course "
+          h1="  Web Development Course "
           hSpan="Kickstart your Tech Career"
-          para="Learn full stack coding course & get hired at top MNCs with a salary of up to 18LPA."
+          para="Learn   coding course & get hired at top MNCs with a salary of up to 18LPA."
           sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/fswd-generic.png"
         />
         <SecondSection
@@ -134,7 +134,7 @@ export default function Home({ formotp }) {
         <ThirdSection formotp={true} fullstackADS={true} fullStackCont={true} />
         <FourthSection
           fullStackCont={true}
-          h1="Full Stack Web Development Course Highlights"
+          h1="  Web Development Course Highlights"
           img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
           img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/weekend+and+weekday+batch.jpg"
           img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/extra+dout+clearance+sessionn.jpg"
@@ -144,7 +144,7 @@ export default function Home({ formotp }) {
           fullStackCont={true}
           formotp={true}
           fullstackADS={true}
-          desc="Learnbay offers Full Stack Web Development Course led by experts working in top MNCs & real-time industrial projects with case studies."
+          desc="Learnbay offers   Web Development Course led by experts working in top MNCs & real-time industrial projects with case studies."
           Hours="200+ Hours"
           Projects="12+ projects"
           Module0="Preparatory Classes"
@@ -160,7 +160,7 @@ export default function Home({ formotp }) {
           CourseFeeAndFinancing={
             FullStackWebCourseData[0].ProgramFee.CourseFeeAndFinancing
           }
-          para="We are dedicated to making our full stack coding course accessible.  We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
+          para="We are dedicated to making our   coding course accessible.  We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
           dataScience={true}
         />
         <Batch
@@ -169,7 +169,7 @@ export default function Home({ formotp }) {
           fullstackADS={true}
           syllabusDesc={FullStackWebCourseData[0].syllabusDesc}
           syllabus={FullStackWebCourseData[0].Batch}
-          CourseFeeHead="Full Stack Web Development Course: Batch Details"
+          CourseFeeHead="  Web Development Course: Batch Details"
           CourseFeePara={FullStackWebCourseData[0].BatchCourses.CourseFeePara}
           CourseFeelist1={FullStackWebCourseData[0].BatchCourses.CourseFeelist1}
           CourseFeelist2={FullStackWebCourseData[0].BatchCourses.CourseFeelist2}

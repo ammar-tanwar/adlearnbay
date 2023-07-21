@@ -4,7 +4,6 @@ import Image from "next/image";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
 
-
 const Domain = () => {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
@@ -31,7 +30,6 @@ const Domain = () => {
     }
   });
 
-
   return (
     <section className={styles.Domain}>
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
@@ -52,7 +50,7 @@ const Domain = () => {
       <div className={styles.imageBox}>
         <div className={styles.left}>
           <div className={styles.top}>
-            <p>Full Stack Domain</p>
+            <p> Domain</p>
           </div>
           <div className={styles.middle}>
             <p>Product Engineer/Manager Domain</p>

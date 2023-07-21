@@ -117,10 +117,9 @@ function Syllabus({ dsa }) {
           </div>
         </div>
         <p>
-          The Full Stack Software Development Program is curated by leading
-          faculties and industry leaders. Especially, with the aim to provide
-          practical learning experience with live interactive classes and
-          projects.
+          The Software Development Program is curated by leading faculties and
+          industry leaders. Especially, with the aim to provide practical
+          learning experience with live interactive classes and projects.
         </p>
 
         <div className={styles.QOuter}>
@@ -599,7 +598,7 @@ function Syllabus({ dsa }) {
                   {state[6].open ? (
                     <div className={styles.ans}>
                       <h2>
-                        <b>Full Stack</b>
+                        <b> </b>
                       </h2>
                       <p>
                         <b>Programming Essentials</b>

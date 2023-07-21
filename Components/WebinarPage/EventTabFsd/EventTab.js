@@ -12,8 +12,6 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 const EventTab = ({ data }) => {
-
-
   const [viewAll, setViewAll] = useState(false);
   const [fullstack, setFullstack] = useState(true);
   const [mobile, setMobile] = useState(false);
@@ -32,7 +30,7 @@ const EventTab = ({ data }) => {
             }}
             className={fullstack ? styles.ActiveSpan : styles.span}
           >
-            Full Stack ({FullStackDetails.length + 0})
+            ({FullStackDetails.length + 0})
           </span>
           {fullstack ? (
             <div className={styles.mPanel}>
@@ -274,7 +272,6 @@ const EventTab = ({ data }) => {
           ) : (
             ""
           )}
-
         </div>
       </div>
     </div>

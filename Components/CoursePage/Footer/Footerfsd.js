@@ -61,12 +61,12 @@ const Footerfsd = ({ pTag, paraTag }) => {
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Courses</p>
-          {/* <p className={styles.FooterInnerli}>Full Stack Web Development Course</p> */}
+          {/* <p className={styles.FooterInnerli}>  Web Development Course</p> */}
           <p className={styles.FooterInnerli}>
-          Software Development Master Course
+            Software Development Master Course
           </p>
           {/* <p className={styles.FooterInnerli}>
-            Full Stack Web Development Course
+              Web Development Course
           </p> */}
           <p className={styles.FooterInnerli}>DSA and System Design Course</p>
         </div>
@@ -109,90 +109,82 @@ const Footerfsd = ({ pTag, paraTag }) => {
           <div className={styles.FooterDivInner}>
             <p className={styles.FooterInnerP}>Pune</p>
             {/* {/* <p className={styles.FooterInnerli}>
-              Full Stack Web Development Course
+                Web Development Course
             </p> */}
             <p className={styles.FooterInnerli}>
-            Software Development Master Course
+              Software Development Master Course
             </p>
             <p className={styles.FooterInnerli}>
-              Full Stack Data Structures & Algorithms Course
+              Data Structures & Algorithms Course
             </p>
             <p className={styles.FooterInnerli}>DSA And System Design Course</p>
             <p className={styles.FooterInnerli}>
-            Software Development Master Training
+              Software Development Master Training
             </p>
             <p className={styles.FooterInnerli}>
               DSA and System Design Training
             </p>
-            <p className={styles.FooterInnerli}>
-              Full Stack Web Development Training
-            </p>
+            <p className={styles.FooterInnerli}>Web Development Training</p>
           </div>
           <div className={styles.FooterDivInner}>
             <p className={styles.FooterInnerP}>Mumbai</p>
             {/* <p className={styles.FooterInnerli}>
-              Full Stack Web Development Course
+                Web Development Course
             </p> */}
             <p className={styles.FooterInnerli}>
-            Software Development Master Course
+              Software Development Master Course
             </p>
             <p className={styles.FooterInnerli}>
-              Full Stack Data Structures & Algorithms Course
+              Data Structures & Algorithms Course
             </p>
             <p className={styles.FooterInnerli}>DSA And System Design Course</p>
             <p className={styles.FooterInnerli}>
-            Software Development Master Training
+              Software Development Master Training
             </p>
             <p className={styles.FooterInnerli}>
               DSA and System Design Training
             </p>
-            <p className={styles.FooterInnerli}>
-              Full Stack Web Development Training
-            </p>
+            <p className={styles.FooterInnerli}>Web Development Training</p>
           </div>
           <div className={styles.FooterDivInner}>
             <p className={styles.FooterInnerP}>Chennai</p>
             {/* <p className={styles.FooterInnerli}>
-              Full Stack Web Development Course
+                Web Development Course
             </p> */}
             <p className={styles.FooterInnerli}>
-            Software Development Master Course
+              Software Development Master Course
             </p>
             <p className={styles.FooterInnerli}>
-              Full Stack Data Structures & Algorithms Course
+              Data Structures & Algorithms Course
             </p>
             <p className={styles.FooterInnerli}>DSA And System Design Course</p>
             <p className={styles.FooterInnerli}>
-             Software Development Master Training
+              Software Development Master Training
             </p>
             <p className={styles.FooterInnerli}>
               DSA and System Design Training
             </p>
-            <p className={styles.FooterInnerli}>
-              Full Stack Web Development Training
-            </p>
+            <p className={styles.FooterInnerli}>Web Development Training</p>
           </div>
           <div className={styles.FooterDivInner}>
             <p className={styles.FooterInnerP}>Canada</p>
             {/* <p className={styles.FooterInnerli}>
-              Full Stack Web Development Course
+                Web Development Course
             </p> */}
             <p className={styles.FooterInnerli}>
-             Software Development Master Course
+              Software Development Master Course
             </p>
             <p className={styles.FooterInnerli}>
-              Full Stack Data Structures & Algorithms Course
+              Data Structures & Algorithms Course
             </p>
             <p className={styles.FooterInnerli}>DSA And System Design Course</p>
             <p className={styles.FooterInnerli}>
-             Software Development Master Training
+              Software Development Master Training
             </p>
             <p className={styles.FooterInnerli}>
               DSA and System Design Training
             </p>
-            <p className={styles.FooterInnerli}>
-              Full Stack Web Development Training
-            </p>
+            <p className={styles.FooterInnerli}>Web Development Training</p>
           </div>
         </div>
 
@@ -200,90 +192,82 @@ const Footerfsd = ({ pTag, paraTag }) => {
           <div className={styles.FooterDivInner}>
             <p className={styles.FooterInnerP}>Bangalore</p>
             {/* <p className={styles.FooterInnerli}>
-              Full Stack Web Development Course
+                Web Development Course
             </p> */}
             <p className={styles.FooterInnerli}>
-             Software Development Master Course
+              Software Development Master Course
             </p>
             <p className={styles.FooterInnerli}>
-              Full Stack Data Structures & Algorithms Course
+              Data Structures & Algorithms Course
             </p>
             <p className={styles.FooterInnerli}>DSA And System Design Course</p>
             <p className={styles.FooterInnerli}>
-             Software Development Master Training
+              Software Development Master Training
             </p>
             <p className={styles.FooterInnerli}>
               DSA and System Design Training
             </p>
-            <p className={styles.FooterInnerli}>
-              Full Stack Web Development Training
-            </p>
+            <p className={styles.FooterInnerli}>Web Development Training</p>
           </div>
           <div className={styles.FooterDivInner}>
             <p className={styles.FooterInnerP}>Hyderabad</p>
             {/* <p className={styles.FooterInnerli}>
-              Full Stack Web Development Course
+                Web Development Course
             </p> */}
             <p className={styles.FooterInnerli}>
-             Software Development Master Course
+              Software Development Master Course
             </p>
             <p className={styles.FooterInnerli}>
-              Full Stack Data Structures & Algorithms Course
+              Data Structures & Algorithms Course
             </p>
             <p className={styles.FooterInnerli}>DSA And System Design Course</p>
             <p className={styles.FooterInnerli}>
-             Software Development Master Training
+              Software Development Master Training
             </p>
             <p className={styles.FooterInnerli}>
               DSA and System Design Training
             </p>
-            <p className={styles.FooterInnerli}>
-              Full Stack Web Development Training
-            </p>
+            <p className={styles.FooterInnerli}>Web Development Training</p>
           </div>
           <div className={styles.FooterDivInner}>
             <p className={styles.FooterInnerP}>Dubai</p>
             {/* <p className={styles.FooterInnerli}>
-              Full Stack Web Development Course
+                Web Development Course
             </p> */}
             <p className={styles.FooterInnerli}>
-             Software Development Master Course
+              Software Development Master Course
             </p>
             <p className={styles.FooterInnerli}>
-              Full Stack Data Structures & Algorithms Course
+              Data Structures & Algorithms Course
             </p>
             <p className={styles.FooterInnerli}>DSA And System Design Course</p>
             <p className={styles.FooterInnerli}>
-             Software Development Master Training
+              Software Development Master Training
             </p>
             <p className={styles.FooterInnerli}>
               DSA and System Design Training
             </p>
-            <p className={styles.FooterInnerli}>
-              Full Stack Web Development Training
-            </p>
+            <p className={styles.FooterInnerli}>Web Development Training</p>
           </div>
           <div className={styles.FooterDivInner}>
             <p className={styles.FooterInnerP}>Delhi</p>
             {/* <p className={styles.FooterInnerli}>
-              Full Stack Web Development Course
+                Web Development Course
             </p> */}
             <p className={styles.FooterInnerli}>
-             Software Development Master Course
+              Software Development Master Course
             </p>
             <p className={styles.FooterInnerli}>
-              Full Stack Data Structures & Algorithms Course
+              Data Structures & Algorithms Course
             </p>
             <p className={styles.FooterInnerli}>DSA And System Design Course</p>
             <p className={styles.FooterInnerli}>
-             Software Development Master Training
+              Software Development Master Training
             </p>
             <p className={styles.FooterInnerli}>
               DSA and System Design Training
             </p>
-            <p className={styles.FooterInnerli}>
-              Full Stack Web Development Training
-            </p>
+            <p className={styles.FooterInnerli}>Web Development Training</p>
           </div>
         </div>
       </div>

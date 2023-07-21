@@ -126,7 +126,7 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Full Stack Web Development Program</h5>
+                        <h5>  Web Development Program</h5>
                         <span>
                           300+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
@@ -141,7 +141,9 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Data Science and AI With 100% Placement Assistance</h5>
+                        <h5>
+                          Data Science and AI With 100% Placement Assistance
+                        </h5>
                         <span>
                           500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
@@ -242,7 +244,9 @@ const Tabs = ({ handleIcon }) => {
                   <a href="/job-guarantee-or-money-back-data-science-ai-certification-course">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
-                        <h5>Data Science and AI With 100% Placement Assistance</h5>
+                        <h5>
+                          Data Science and AI With 100% Placement Assistance
+                        </h5>
                         <span>
                           500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
@@ -271,8 +275,10 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Data Analytics
-                          <br /> Program</h5>
+                        <h5>
+                          Data Analytics
+                          <br /> Program
+                        </h5>
                         <span>
                           180+ Hours <BsDot /> 5 & 6.5 Months{" "}
                         </span>
@@ -328,7 +334,7 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Full Stack Web Development Program</h5>
+                        <h5>  Web Development Program</h5>
                         <span>
                           300+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
@@ -398,7 +404,9 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Data Science and AI With 100% Placement Assistance</h5>
+                        <h5>
+                          Data Science and AI With 100% Placement Assistance
+                        </h5>
                         <span>
                           500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
@@ -413,7 +421,7 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Full Stack Web Development Program</h5>
+                        <h5>  Web Development Program</h5>
                         <span>
                           300+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
@@ -483,7 +491,7 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Full Stack Web Development Program</h5>
+                        <h5>  Web Development Program</h5>
                         <span>
                           300+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
@@ -540,7 +548,9 @@ const Tabs = ({ handleIcon }) => {
                   <a href="/job-guarantee-or-money-back-data-science-ai-certification-course">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
-                        <h5>Data Science and AI With 100% Placement Assistance</h5>
+                        <h5>
+                          Data Science and AI With 100% Placement Assistance
+                        </h5>
                         <span>
                           500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
@@ -579,7 +589,10 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>DSA & <br />System Design</h5>
+                        <h5>
+                          DSA & <br />
+                          System Design
+                        </h5>
                         <span>
                           200+ Hours <BsDot /> 5 & 6 Months{" "}
                         </span>
@@ -662,7 +675,7 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Full Stack Web Development Program</h5>
+                        <h5>  Web Development Program</h5>
                         <span>
                           300+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
@@ -675,7 +688,10 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>DSA & <br />System Design</h5>
+                        <h5>
+                          DSA & <br />
+                          System Design
+                        </h5>
                         <span>
                           200+ Hours <BsDot /> 5 & 6 Months{" "}
                         </span>
@@ -690,7 +706,9 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Data Science and AI With 100% Placement Assistance</h5>
+                        <h5>
+                          Data Science and AI With 100% Placement Assistance
+                        </h5>
                         <span>
                           500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
@@ -758,7 +776,9 @@ const Tabs = ({ handleIcon }) => {
                   <a href="/job-guarantee-or-money-back-data-science-ai-certification-course">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
-                        <h5>Data Science and AI With 100% Placement Assistance</h5>
+                        <h5>
+                          Data Science and AI With 100% Placement Assistance
+                        </h5>
                         <span>
                           500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
@@ -811,7 +831,7 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Full Stack Web Development Program</h5>
+                        <h5>  Web Development Program</h5>
                         <span>
                           300+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
@@ -826,7 +846,7 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Full Stack Software Development Program</h5>
+                        <h5> Software Development Program</h5>
                         <span>
                           300+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
@@ -841,7 +861,10 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>DSA & <br />System Design</h5>
+                        <h5>
+                          DSA & <br />
+                          System Design
+                        </h5>
                         <span>
                           200+ Hours <BsDot /> 5 & 6 Months{" "}
                         </span>
@@ -850,7 +873,6 @@ const Tabs = ({ handleIcon }) => {
                   </a>
                 </div>
               </div>
-
             ) : (
               ""
             )}
@@ -863,7 +885,9 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Data Science and AI With 100% Placement Assistance</h5>
+                        <h5>
+                          Data Science and AI With 100% Placement Assistance
+                        </h5>
                         <span>
                           500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
@@ -878,7 +902,7 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Full Stack Web Development Program</h5>
+                        <h5>  Web Development Program</h5>
                         <span>
                           300+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
@@ -914,7 +938,7 @@ const Tabs = ({ handleIcon }) => {
                       onClick={() => handleIcon(false)}
                     >
                       <div className={styles.ProLeft}>
-                        <h5>Full Stack Web Development Program</h5>
+                        <h5>  Web Development Program</h5>
                         <span>
                           300+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
@@ -937,7 +961,7 @@ const Tabs = ({ handleIcon }) => {
                   <a href="/full-stack-software-development-program">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
-                        <h5>Full Stack Software Development</h5>
+                        <h5> Software Development</h5>
                         <span>
                           300+ Hours <BsDot /> 8 & 9 Months{" "}
                         </span>
@@ -971,7 +995,9 @@ const Tabs = ({ handleIcon }) => {
                   <a href="/job-guarantee-or-money-back-data-science-ai-certification-course">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
-                        <h5>Data Science and AI With 100% Placement Assistance</h5>
+                        <h5>
+                          Data Science and AI With 100% Placement Assistance
+                        </h5>
                         <span>
                           500+ Hours <BsDot /> 13 & 15 Months{" "}
                         </span>
@@ -1008,7 +1034,8 @@ const Tabs = ({ handleIcon }) => {
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
                         <h5>
-                          DSA & <br />System Design
+                          DSA & <br />
+                          System Design
                         </h5>
                         <span>
                           200+ Hours <BsDot /> 5 & 6 Months{" "}

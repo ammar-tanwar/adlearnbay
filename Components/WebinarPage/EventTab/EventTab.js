@@ -33,91 +33,91 @@ const EventTab = ({ data }) => {
             }}
             className={fullstack ? styles.ActiveSpan : styles.span}
           >
-            Full Stack ({FullStackDetails.length + 0})
+            ({FullStackDetails.length + 0})
           </span>
           {fullstack ? (
             <div className={styles.mPanel}>
               <Swiper
-                  slidesPerView={mobile ? 1 : 1.1}
-                  spaceBetween={mobile ? 10 : 20}
-                  pagination={{
-                    clickable: true,
-                  }}
-                  grabCursor={true}
-                  modules={[Pagination]}
-                  className="mySwiper"
-                >
-              <div className={styles.gridPanel}>
-                {FullStackDetails.map((data) => {
-                  const {
-                    id,
-                    title,
-                    eventDate,
-                    eventTime,
-                    Duration,
-                    register,
-                    img,
-                  } = data;
-                  let today = new Date();
-                  let eventDateInfo = new Date(eventDate);
-                  const url = `/event/${id}`;
-                  return (
-                    <SwiperSlide className={styles.leftSide} key={id}>
-                      <Link href={url} passHref>
-                        <div className={styles.contentBox}>
-                          <div className={styles.headImg}>
-                            <Image
-                              alt={title}
-                              src={img}
-                              layout="intrinsic"
-                              width="641"
-                              height="241"
-                            />
-                          </div>
-                          <div className={styles.contentI}>
-                            <h6>{title}</h6>
-                            <p>
-                              <BiTime className={styles.eIcon} />{" "}
-                              <strong>Start time:</strong>
-                              {eventTime}
-                            </p>
-                            <p>
-                              <MdEvent className={styles.eIcon} />{" "}
-                              <strong>Start date:</strong> {eventDate}
-                            </p>
-                            <p>
-                              <AiOutlineFieldTime className={styles.eIcon} />
-                              <strong>Duration:</strong> {Duration}
-                            </p>
-                            <div className={styles.line} />
-                            <div className={styles.footer}>
+                slidesPerView={mobile ? 1 : 1.1}
+                spaceBetween={mobile ? 10 : 20}
+                pagination={{
+                  clickable: true,
+                }}
+                grabCursor={true}
+                modules={[Pagination]}
+                className="mySwiper"
+              >
+                <div className={styles.gridPanel}>
+                  {FullStackDetails.map((data) => {
+                    const {
+                      id,
+                      title,
+                      eventDate,
+                      eventTime,
+                      Duration,
+                      register,
+                      img,
+                    } = data;
+                    let today = new Date();
+                    let eventDateInfo = new Date(eventDate);
+                    const url = `/event/${id}`;
+                    return (
+                      <SwiperSlide className={styles.leftSide} key={id}>
+                        <Link href={url} passHref>
+                          <div className={styles.contentBox}>
+                            <div className={styles.headImg}>
+                              <Image
+                                alt={title}
+                                src={img}
+                                layout="intrinsic"
+                                width="641"
+                                height="241"
+                              />
+                            </div>
+                            <div className={styles.contentI}>
+                              <h6>{title}</h6>
                               <p>
-                                <strong>{register}</strong> people have
-                                registered
+                                <BiTime className={styles.eIcon} />{" "}
+                                <strong>Start time:</strong>
+                                {eventTime}
                               </p>
+                              <p>
+                                <MdEvent className={styles.eIcon} />{" "}
+                                <strong>Start date:</strong> {eventDate}
+                              </p>
+                              <p>
+                                <AiOutlineFieldTime className={styles.eIcon} />
+                                <strong>Duration:</strong> {Duration}
+                              </p>
+                              <div className={styles.line} />
+                              <div className={styles.footer}>
+                                <p>
+                                  <strong>{register}</strong> people have
+                                  registered
+                                </p>
 
-                              {today >= eventDateInfo ? (
-                                <span
-                                  className={styles.expire}
-                                  style={{ marginTop: "10px" }}
-                                >
-                                  Event Ended
-                                </span>
-                              ) : (
-                                <button>
-                                  <Link href={url} passHref>
-                                    Register Now
-                                  </Link>
-                                </button>
-                              )}
+                                {today >= eventDateInfo ? (
+                                  <span
+                                    className={styles.expire}
+                                    style={{ marginTop: "10px" }}
+                                  >
+                                    Event Ended
+                                  </span>
+                                ) : (
+                                  <button>
+                                    <Link href={url} passHref>
+                                      Register Now
+                                    </Link>
+                                  </button>
+                                )}
+                              </div>
                             </div>
                           </div>
-                        </div>
-                      </Link>
-                    </SwiperSlide>
-                  );
-                })}
-              </div>
+                        </Link>
+                      </SwiperSlide>
+                    );
+                  })}
+                </div>
               </Swiper>
             </div>
           ) : (
@@ -136,93 +136,93 @@ const EventTab = ({ data }) => {
           {dataScience ? (
             <div className={styles.mPanel}>
               <Swiper
-                  slidesPerView={mobile ? 1 : 1.1}
-                  spaceBetween={mobile ? 10 : 20}
-                  pagination={{
-                    clickable: true,
-                  }}
-                  grabCursor={true}
-                  modules={[Pagination]}
-                  className="mySwiper"
-                >
-              <div className={styles.gridPanel}>
-                {dataScience ? (
-                  <div className={styles.gridPanel}>
-                    {dataScienceDetails.map((data) => {
-                      const {
-                        id,
-                        title,
-                        eventDate,
-                        eventTime,
-                        Duration,
-                        register,
-                        img,
-                      } = data;
-                      let today = new Date();
-                      let eventDateInfo = new Date(eventDate);
-                      const url = `/event/${id}`;
-                      return (
-                        <SwiperSlide className={styles.leftSide} key={id}>
-                          <Link href={url} passHref>
-                            <div className={styles.contentBox}>
-                              <div className={styles.headImg}>
-                                <Image
-                                  alt={title}
-                                  src={img}
-                                  layout="intrinsic"
-                                  width="641"
-                                  height="241"
-                                />
-                              </div>
-                              <div className={styles.contentI}>
-                                <h6>{title}</h6>
-                                <p>
-                                  {" "}
-                                  <BiTime className={styles.eIcon} />
-                                  <strong>Start time:</strong> {eventTime}
-                                </p>
-                                <p>
-                                  <MdEvent className={styles.eIcon} />
-                                  <strong>Start date:</strong> {eventDate}
-                                </p>
-                                <p>
-                                  <AiOutlineFieldTime
-                                    className={styles.eIcon}
+                slidesPerView={mobile ? 1 : 1.1}
+                spaceBetween={mobile ? 10 : 20}
+                pagination={{
+                  clickable: true,
+                }}
+                grabCursor={true}
+                modules={[Pagination]}
+                className="mySwiper"
+              >
+                <div className={styles.gridPanel}>
+                  {dataScience ? (
+                    <div className={styles.gridPanel}>
+                      {dataScienceDetails.map((data) => {
+                        const {
+                          id,
+                          title,
+                          eventDate,
+                          eventTime,
+                          Duration,
+                          register,
+                          img,
+                        } = data;
+                        let today = new Date();
+                        let eventDateInfo = new Date(eventDate);
+                        const url = `/event/${id}`;
+                        return (
+                          <SwiperSlide className={styles.leftSide} key={id}>
+                            <Link href={url} passHref>
+                              <div className={styles.contentBox}>
+                                <div className={styles.headImg}>
+                                  <Image
+                                    alt={title}
+                                    src={img}
+                                    layout="intrinsic"
+                                    width="641"
+                                    height="241"
                                   />
-                                  <strong>Duration:</strong> {Duration}
-                                </p>
-                                <div className={styles.line} />
-                                <div className={styles.footer}>
+                                </div>
+                                <div className={styles.contentI}>
+                                  <h6>{title}</h6>
                                   <p>
-                                    <strong>{register}</strong> people have
-                                    registered
+                                    {" "}
+                                    <BiTime className={styles.eIcon} />
+                                    <strong>Start time:</strong> {eventTime}
                                   </p>
-                                  {today >= eventDateInfo ? (
-                                    <span
-                                      className={styles.expire}
-                                      style={{ marginTop: "10px" }}
-                                    >
-                                      Event Ended
-                                    </span>
-                                  ) : (
-                                    <button>
-                                      <Link href={url} passHref>
-                                        Register Now
-                                      </Link>
-                                    </button>
-                                  )}
+                                  <p>
+                                    <MdEvent className={styles.eIcon} />
+                                    <strong>Start date:</strong> {eventDate}
+                                  </p>
+                                  <p>
+                                    <AiOutlineFieldTime
+                                      className={styles.eIcon}
+                                    />
+                                    <strong>Duration:</strong> {Duration}
+                                  </p>
+                                  <div className={styles.line} />
+                                  <div className={styles.footer}>
+                                    <p>
+                                      <strong>{register}</strong> people have
+                                      registered
+                                    </p>
+                                    {today >= eventDateInfo ? (
+                                      <span
+                                        className={styles.expire}
+                                        style={{ marginTop: "10px" }}
+                                      >
+                                        Event Ended
+                                      </span>
+                                    ) : (
+                                      <button>
+                                        <Link href={url} passHref>
+                                          Register Now
+                                        </Link>
+                                      </button>
+                                    )}
+                                  </div>
                                 </div>
                               </div>
-                            </div>
-                          </Link>
-                        </SwiperSlide>
-                      );
-                    })}
-                  </div>
-                ) : (
-                  ""
-                )}
-              </div>
+                            </Link>
+                          </SwiperSlide>
+                        );
+                      })}
+                    </div>
+                  ) : (
+                    ""
+                  )}
+                </div>
               </Swiper>
             </div>
           ) : (
@@ -242,86 +242,85 @@ const EventTab = ({ data }) => {
           {viewAll ? (
             <div className={styles.mPanel}>
               <Swiper
-                  slidesPerView={mobile ? 1 : 1.1}
-                  spaceBetween={mobile ? 10 : 20}
-                  pagination={{
-                    clickable: true,
-                  }}
-                  grabCursor={true}
-                  modules={[Pagination]}
-                  className="mySwiper"
-                >
-              <div className={styles.gridPanel}>
-                {data.map((data) => {
-                  const {
-                    id,
-                    title,
-                    eventDate,
-                    eventTime,
-                    Duration,
-                    register,
-                    img,
-                  } = data;
-                  let today = new Date();
-                  let eventDateInfo = new Date(eventDate);
-                  const url = `/event/${id}`;
-                  return (
-                    <SwiperSlide className={styles.leftSide} key={id}>
-                      <Link href={url} passHref>
-                        <div className={styles.contentBox}>
-                          <div className={styles.headImg}>
-                            <Image
-                              alt={title}
-                              src={img}
-                              layout="intrinsic"
-                              width="641"
-                              height="241"
-                            />
-                          </div>
-                          <div className={styles.contentI}>
-                            <h6>{title}</h6>
-                            <p>
-                              {" "}
-                              <BiTime className={styles.eIcon} />
-                              <strong>Start time:</strong> {eventTime}
-                            </p>
-                            <p>
-                              <MdEvent className={styles.eIcon} />
-                              <strong>Start date:</strong> {eventDate}
-                            </p>
-                            <p>
-                              <AiOutlineFieldTime className={styles.eIcon} />
-                              <strong>Duration:</strong> {Duration}
-                            </p>
-                            <div className={styles.line} />
-                            <div className={styles.footer}>
+                slidesPerView={mobile ? 1 : 1.1}
+                spaceBetween={mobile ? 10 : 20}
+                pagination={{
+                  clickable: true,
+                }}
+                grabCursor={true}
+                modules={[Pagination]}
+                className="mySwiper"
+              >
+                <div className={styles.gridPanel}>
+                  {data.map((data) => {
+                    const {
+                      id,
+                      title,
+                      eventDate,
+                      eventTime,
+                      Duration,
+                      register,
+                      img,
+                    } = data;
+                    let today = new Date();
+                    let eventDateInfo = new Date(eventDate);
+                    const url = `/event/${id}`;
+                    return (
+                      <SwiperSlide className={styles.leftSide} key={id}>
+                        <Link href={url} passHref>
+                          <div className={styles.contentBox}>
+                            <div className={styles.headImg}>
+                              <Image
+                                alt={title}
+                                src={img}
+                                layout="intrinsic"
+                                width="641"
+                                height="241"
+                              />
+                            </div>
+                            <div className={styles.contentI}>
+                              <h6>{title}</h6>
                               <p>
-                                <strong>{register}</strong> people have
-                                registered
+                                {" "}
+                                <BiTime className={styles.eIcon} />
+                                <strong>Start time:</strong> {eventTime}
                               </p>
-                              {today >= eventDateInfo ? (
-                                <span
-                                  className={styles.expire}
-                                  style={{ marginTop: "10px" }}
-                                >
-                                  Event Ended
-                                </span>
-                              ) : (
-                                <a href={url}>
-                                  <button>Register Now </button>
-                                </a>
-                              )}
+                              <p>
+                                <MdEvent className={styles.eIcon} />
+                                <strong>Start date:</strong> {eventDate}
+                              </p>
+                              <p>
+                                <AiOutlineFieldTime className={styles.eIcon} />
+                                <strong>Duration:</strong> {Duration}
+                              </p>
+                              <div className={styles.line} />
+                              <div className={styles.footer}>
+                                <p>
+                                  <strong>{register}</strong> people have
+                                  registered
+                                </p>
+                                {today >= eventDateInfo ? (
+                                  <span
+                                    className={styles.expire}
+                                    style={{ marginTop: "10px" }}
+                                  >
+                                    Event Ended
+                                  </span>
+                                ) : (
+                                  <a href={url}>
+                                    <button>Register Now </button>
+                                  </a>
+                                )}
+                              </div>
                             </div>
                           </div>
-                        </div>
-                      </Link>
-                    </SwiperSlide>
-                  );
-                })}
-              </div>
+                        </Link>
+                      </SwiperSlide>
+                    );
+                  })}
+                </div>
               </Swiper>
             </div>
-            
           ) : (
             ""
           )}
@@ -494,57 +493,56 @@ const EventTab = ({ data }) => {
                 const url = `/event/${id}`;
                 return (
                   <div className={styles.leftSide} key={id}>
-                      <Link href={url} passHref>
-                        <div className={styles.contentBox}>
-                          <div className={styles.headImg}>
-                            <Image
-                              alt={title}
-                              src={img}
-                              layout="intrinsic"
-                              width="641"
-                              height="241"
-                            />
-                          </div>
-                          <div className={styles.contentI}>
-                            <h6>{title}</h6>
+                    <Link href={url} passHref>
+                      <div className={styles.contentBox}>
+                        <div className={styles.headImg}>
+                          <Image
+                            alt={title}
+                            src={img}
+                            layout="intrinsic"
+                            width="641"
+                            height="241"
+                          />
+                        </div>
+                        <div className={styles.contentI}>
+                          <h6>{title}</h6>
+                          <p>
+                            {" "}
+                            <BiTime className={styles.eIcon} />
+                            <strong>Start time:</strong> {eventTime}
+                          </p>
+                          <p>
+                            <MdEvent className={styles.eIcon} />
+                            <strong>Start date:</strong> {eventDate}
+                          </p>
+                          <p>
+                            <AiOutlineFieldTime className={styles.eIcon} />
+                            <strong>Duration:</strong> {Duration}
+                          </p>
+                          <div className={styles.line} />
+                          <div className={styles.footer}>
                             <p>
-                              {" "}
-                              <BiTime className={styles.eIcon} />
-                              <strong>Start time:</strong> {eventTime}
+                              <strong>{register}</strong> people have registered
                             </p>
-                            <p>
-                              <MdEvent className={styles.eIcon} />
-                              <strong>Start date:</strong> {eventDate}
-                            </p>
-                            <p>
-                              <AiOutlineFieldTime className={styles.eIcon} />
-                              <strong>Duration:</strong> {Duration}
-                            </p>
-                            <div className={styles.line} />
-                            <div className={styles.footer}>
-                              <p>
-                                <strong>{register}</strong> people have
-                                registered
-                              </p>
-                              {today >= eventDateInfo ? (
-                                <span
-                                  className={styles.expire}
-                                  style={{ marginTop: "10px" }}
-                                >
-                                  Event Ended
-                                </span>
-                              ) : (
-                                <button>
-                                  <Link href={url} passHref>
-                                    Register Now
-                                  </Link>
-                                </button>
-                              )}
-                            </div>
+                            {today >= eventDateInfo ? (
+                              <span
+                                className={styles.expire}
+                                style={{ marginTop: "10px" }}
+                              >
+                                Event Ended
+                              </span>
+                            ) : (
+                              <button>
+                                <Link href={url} passHref>
+                                  Register Now
+                                </Link>
+                              </button>
+                            )}
                           </div>
                         </div>
-                      </Link>
-                    </div>
+                      </div>
+                    </Link>
+                  </div>
                 );
               })}
             </div>

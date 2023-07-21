@@ -47,12 +47,10 @@ const Navbar = ({ radio, formotp }) => {
                 </Link>
               </span>
               {/* <span onClick={showMenu}>
-                <Link href="/fswd">Full Stack Web Development Program</Link>
+                <Link href="/fswd">  Web Development Program</Link>
               </span> */}
               <span onClick={showMenu}>
-                <Link href="/fssd">
-                Software Development Master Program
-                </Link>
+                <Link href="/fssd">Software Development Master Program</Link>
               </span>
               <span onClick={showMenu}>
                 <Link href="/dsa">DSA & System Design</Link>
@@ -104,7 +102,7 @@ const Navbar = ({ radio, formotp }) => {
               <a href="/data-science-certification-courses">
                 Advance Data Science & AI Certification
               </a>
-              {/* <a href="/fswd">Full Stack Web Development Program</a> */}
+              {/* <a href="/fswd">  Web Development Program</a> */}
               <a href="/fssd">Software Development Master Program</a>
               <a href="/dsa">DSA & System Design</a>
               <a href="/advance-ai-ml-certification">
@@ -117,10 +115,10 @@ const Navbar = ({ radio, formotp }) => {
                 Data Science and AI Master Program
               </a>
               <a href="/business-analytics-certification-course">
-              Business Analytics Program
+                Business Analytics Program
               </a>
               <a href="/data-analytics-certification-course">
-              Data Analytics Program
+                Data Analytics Program
               </a>
             </div>
           </div>

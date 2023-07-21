@@ -16,7 +16,7 @@ export default function index({ eventData }) {
         </title>
         <meta
           name="description"
-          content="Enroll in Full stack and and data science masterclass for free and learn from industry experts."
+          content="Enroll in   and and data science masterclass for free and learn from industry experts."
         />
         <link
           rel="icon"
@@ -24,10 +24,10 @@ export default function index({ eventData }) {
         />
         <link rel="canonical" href="https://www.learnbay.co/event" />
       </Head>
-      <Navbar event={true} formotp= {true} />
+      <Navbar event={true} formotp={true} />
       <div className={styles.Back}>
         <h4 style={{ textAlign: "left" }}>
-        <b>Events on learnbay</b>
+          <b>Events on learnbay</b>
         </h4>
         <div>
           <Image

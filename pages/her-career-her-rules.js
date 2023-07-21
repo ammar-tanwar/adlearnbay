@@ -41,7 +41,12 @@ export default function Home() {
             <h5>Apply For Counselling</h5>
             {/* <p>Fill the below Details to get started</p> */}
 
-            <Form popup={true} setTrigger={setPopups} stepupJobExp={true} referral={true}/>
+            <Form
+              popup={true}
+              setTrigger={setPopups}
+              stepupJobExp={true}
+              referral={true}
+            />
           </div>
         </Popup>
         <FirstSection />
@@ -53,9 +58,9 @@ export default function Home() {
           <h1>About Learnbay</h1>
           <p>
             We are a leading provider of specialized courses in Data Science,
-            AI, ML, and Full Stack. We are dedicated to helping working
-            professionals advance their careers and gain the technical expertise
-            needed to succeed in the fast-paced world of technology.
+            AI, ML, and . We are dedicated to helping working professionals
+            advance their careers and gain the technical expertise needed to
+            succeed in the fast-paced world of technology.
           </p>
           <p>
             <b>Some of our standout features include:</b>
@@ -101,21 +106,21 @@ export default function Home() {
                 <FaCheck /> 100% guaranteed interview calls
               </p>
               <div className={styles.imgNew}>
-              <Image
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/WD-Feature-right.png"
-          width="220"
-          height="400"
-          layout="intrinsic"
-          loading="lazy"
-        />
-        </div>
+                <Image
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/WD-Feature-right.png"
+                  width="220"
+                  height="400"
+                  layout="intrinsic"
+                  loading="lazy"
+                />
+              </div>
             </div>
           </div>
         </div>
         <div className={styles.WDformbg}>
           <div className={styles.FormThank}>
             <h4>You're one step closer to speaking with a Career Counsellor</h4>
-            <Form radio={true} stepupJobExp={true} referral={true}/>
+            <Form radio={true} stepupJobExp={true} referral={true} />
           </div>
         </div>
         <Footer />

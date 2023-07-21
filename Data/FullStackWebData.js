@@ -3,15 +3,15 @@ export const FullStackWebCourseData = [
     FirstSection: {
       deskTopPara: "Ace the PRODUCT Interviews to achieve your dream job",
       mTopPara: "Ace the PRODUCT Interviews to achieve your dream job",
-      mTitle: "Full Stack Web Development Course ",
+      mTitle: "  Web Development Course ",
       spanMTitleText: "Kickstart your Tech Career",
-      title: "Full Stack Web Development Course ",
+      title: "  Web Development Course ",
       spanTitleText: "Kickstart your Tech Career",
       desc: "Learn ultimate methods from MNC specialists with real-world projects",
       src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/FSWD+2.png",
       width: "525",
       height: "440",
-      alt: "Full Stack",
+      alt: " ",
       srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf",
     },
     ProgramInfo: {
@@ -25,7 +25,7 @@ export const FullStackWebCourseData = [
       p44: "₹ 6,884/month",
     },
     BoxShape: {
-      title: "Full Stack Web Development Program Features",
+      title: "  Web Development Program Features",
       Box1h5: "Custom-fit Training",
       box1desc: "Learn latest tools & modules. Become a demanding developer.",
       Box2h5: "Interactive Learning",
@@ -41,11 +41,11 @@ export const FullStackWebCourseData = [
       Box6h5: "Assured Interview Call",
       box6desc: "Get job referrals powered by 250+ hiring partners",
       headh5:
-        "Our proud alumni with successfull full stack Web development career transition",
+        "Our proud alumni with successfull   Web development career transition",
     },
 
     BoxShape1: {
-      title: "Full Stack Development Courses ",
+      title: "  Development Courses ",
       Box1h5: "Real Work experience",
       box1desc:
         "Don’t just learn, apply your learning. Work directly with companies to build relevant industry experience.",
@@ -63,8 +63,8 @@ export const FullStackWebCourseData = [
     syllabusDesc:
       "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All sessions are covered practically with real-time industrial projects and case studies.",
     popupHead: "Download Course Brochure",
-    CSyllabus: "Full Stack Web Development Course Syllabus",
-    CourseHighlights: "Full Stack Course Highlights",
+    CSyllabus: "  Web Development Course Syllabus",
+    CourseHighlights: "  Course Highlights",
     srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf",
     hours: "200+ Hours",
     project: "12+ Real Time",
@@ -78,7 +78,7 @@ export const FullStackWebCourseData = [
               chap: {
                 title: "Topic 1 :- Cohort Orientation",
                 desc: [
-                  "A quick guide to Full Stack Web Development",
+                  "A quick guide to   Web Development",
                   "Significance of projects",
                   "Job Opportunities in IT industry",
                   "How to make it big in the IT Industry and crack MNCs Interviews",
@@ -227,7 +227,7 @@ export const FullStackWebCourseData = [
     ],
 
     OurExpert: {
-      H5: "Full Stack Web Development Tools Covered",
+      H5: "  Web Development Tools Covered",
       img1: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/1.png",
       img2: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/2.png",
       img3: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logosf/3.png",
@@ -270,8 +270,7 @@ export const FullStackWebCourseData = [
     ProgramFee: {
       Fee: "₹70,000 + GST",
       Emi: "₹ 6,884/month",
-      CourseFeeAndFinancing:
-        "Full Stack Web Development Course Fee & Financing",
+      CourseFeeAndFinancing: "  Web Development Course Fee & Financing",
     },
     Project: {
       project: "12+ Projects",
@@ -297,7 +296,7 @@ export const FullStackWebCourseData = [
       },
     ],
     BatchCourses: {
-      CourseFeeHead: "Full Stack Web Development Program: Batch Details",
+      CourseFeeHead: "  Web Development Program: Batch Details",
       CourseFeePara: "Online Classroom",
       CourseFeelist1: "Online Interactive Classes",
       CourseFeelist2: "Weekend and Weekday Batches",

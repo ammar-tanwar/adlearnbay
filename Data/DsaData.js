@@ -11,7 +11,7 @@ export const DsaCourseData = [
       src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/DSA.png",
       width: "776",
       height: "682",
-      alt: "Full Stack",
+      alt: " ",
       srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf",
     },
     ProgramInfo: {
@@ -42,7 +42,7 @@ export const DsaCourseData = [
     },
 
     BoxShape1: {
-      title: "Full Stack Development Courses ",
+      title: "  Development Courses ",
       Box1h5: "Real Work experience",
       box1desc:
         "Don’t just learn, apply your learning. Work directly with companies to build relevant industry experience.",

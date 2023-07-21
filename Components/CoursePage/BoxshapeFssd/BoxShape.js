@@ -83,34 +83,34 @@ const BoxShape = ({
               height="252"
             />
             <p className={styles.Ptopp}>
-            Software Development
+              Software Development
               <br />
               Master Course
             </p>
             {eventDownload ? (
               <>
                 <button onClick={popupShow}>
-                Download Syllabus
+                  Download Syllabus
                   <FaDownload style={{ marginLeft: "10px" }} />
                 </button>
-                </>
-          ) : (
-            <>
-            {fsdlink ? (
-              <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session">
-                <button className={styles.Button}>
-                  <AiOutlineDownload className="bIcons" />
-                  Download Brochure
-                </button>
-              </a>
+              </>
             ) : (
-              <button className={styles.Button} onClick={popupShow}>
-                <AiOutlineDownload className="bIcons" />
-                Download Brochure
-              </button>
+              <>
+                {fsdlink ? (
+                  <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session">
+                    <button className={styles.Button}>
+                      <AiOutlineDownload className="bIcons" />
+                      Download Brochure
+                    </button>
+                  </a>
+                ) : (
+                  <button className={styles.Button} onClick={popupShow}>
+                    <AiOutlineDownload className="bIcons" />
+                    Download Brochure
+                  </button>
+                )}
+              </>
             )}
-            </>
-                      )}
           </div>
           <div>
             <Image
@@ -129,27 +129,27 @@ const BoxShape = ({
             {eventDownload ? (
               <>
                 <button onClick={popupShow}>
-                Download Syllabus
+                  Download Syllabus
                   <FaDownload style={{ marginLeft: "10px" }} />
                 </button>
-                </>
-          ) : (
-            <>
-            {fsdlink ? (
-              <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session">
-                <button className={styles.Button}>
-                  <AiOutlineDownload className="bIcons" />
-                  Download Brochure
-                </button>
-              </a>
+              </>
             ) : (
-              <button className={styles.Button} onClick={popupShow}>
-                <AiOutlineDownload className="bIcons" />
-                Download Brochure
-              </button>
+              <>
+                {fsdlink ? (
+                  <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session">
+                    <button className={styles.Button}>
+                      <AiOutlineDownload className="bIcons" />
+                      Download Brochure
+                    </button>
+                  </a>
+                ) : (
+                  <button className={styles.Button} onClick={popupShow}>
+                    <AiOutlineDownload className="bIcons" />
+                    Download Brochure
+                  </button>
+                )}
+              </>
             )}
-            </>
-                      )}
           </div>
           <div>
             <Image
@@ -161,34 +161,34 @@ const BoxShape = ({
               height="252"
             />
             <p className={styles.Ptopp}>
-              Full Stack Web
+              Web
               <br />
               Development Course
             </p>
             {eventDownload ? (
               <>
                 <button onClick={popupShow}>
-                Download Syllabus
+                  Download Syllabus
                   <FaDownload style={{ marginLeft: "10px" }} />
                 </button>
-                </>
-          ) : (
-            <>
-            {fsdlink ? (
-              <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session">
-                <button className={styles.Button}>
-                  <AiOutlineDownload className="bIcons" />
-                  Download Brochure
-                </button>
-              </a>
+              </>
             ) : (
-              <button className={styles.Button} onClick={popupShow}>
-                <AiOutlineDownload className="bIcons" />
-                Download Brochure
-              </button>
+              <>
+                {fsdlink ? (
+                  <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session">
+                    <button className={styles.Button}>
+                      <AiOutlineDownload className="bIcons" />
+                      Download Brochure
+                    </button>
+                  </a>
+                ) : (
+                  <button className={styles.Button} onClick={popupShow}>
+                    <AiOutlineDownload className="bIcons" />
+                    Download Brochure
+                  </button>
+                )}
+              </>
             )}
-            </>
-                      )}
           </div>
         </div>
       </div>

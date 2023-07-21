@@ -3,15 +3,15 @@ export const BlockchainCourseData = [
     FirstSection: {
       deskTopPara: "Ace the PRODUCT Interviews to achieve your dream job",
       mTopPara: "Ace the PRODUCT Interviews to achieve your dream job",
-      mTitle: "Full Stack Software Development Program",
+      mTitle: "  Software Development Program",
       spanMTitleText: "Achieve Your Dream Job",
-      title: "Full Stack Software ",
+      title: "  Software ",
       spanTitleText: "Development Program ",
       desc: "Best Interview Prep Course for Top Product Based MNCs",
       src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/W+Dev.png",
       width: "791",
       height: "659",
-      alt: "Full Stack",
+      alt: " ",
       srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
     },
     ProgramInfo: {
@@ -25,7 +25,7 @@ export const BlockchainCourseData = [
       p44: "₹ 10,816/month",
     },
     BoxShape: {
-      title: "Full Stack Software Development Program Features",
+      title: "  Software Development Program Features",
       Box1h5: "Crack MNCs Interview",
       box1desc: "Learn in-depth DSA and crack interviews in product-based MNCs",
       Box2h5: "1:1 Mentorship",
@@ -38,11 +38,11 @@ export const BlockchainCourseData = [
       box4desc:
         "Choose Domain electives on your work experience and work on Live Projects",
       headh5:
-        "Our proud alumni with successfull full stack Software development career transition",
+        "Our proud alumni with successfull   Software development career transition",
     },
 
     BoxShape1: {
-      title: "Full Stack Software Development Courses ",
+      title: "  Software Development Courses ",
       Box1h5: "Real Work experience",
       box1desc:
         "Don’t just learn, apply your learning. Work directly with companies to build relevant industry experience.",
@@ -58,9 +58,9 @@ export const BlockchainCourseData = [
     },
 
     syllabusDesc:
-      "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All full stack software development course sessions are covered practically with real-time industrial projects and case studies.",
+      "Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All   software development course sessions are covered practically with real-time industrial projects and case studies.",
     popupHead: "Download  Course Brochure",
-    CSyllabus: "Full Stack Software Development Course Syllabus",
+    CSyllabus: "  Software Development Course Syllabus",
     CourseHighlights: "Software Development Course Highlights",
     srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
     hours: "300+ Hours",

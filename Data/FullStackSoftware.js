@@ -5,13 +5,13 @@ export const FullStackSoftwareCourseData = [
       mTopPara: "Ace the PRODUCT Interviews to achieve your dream job",
       mTitle: "Software Development Master Program",
       spanMTitleText: "Achieve Your Dream Job",
-      title: "Full Stack Software ",
+      title: "  Software ",
       spanTitleText: "Development Program ",
       desc: "Best Interview Prep Course for Top Product Based MNCs",
       src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/W+Dev.png",
       width: "791",
       height: "659",
-      alt: "Full Stack",
+      alt: " ",
       srcD: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
     },
     ProgramInfo: {
@@ -38,11 +38,11 @@ export const FullStackSoftwareCourseData = [
       box4desc:
         "Choose Domain electives on your work experience and work on Live Projects",
       headh5:
-        "Our proud alumni with successfull full stack Software development career transition",
+        "Our proud alumni with successfull   Software development career transition",
     },
 
     BoxShape1: {
-      title: "Full Stack Software Development Courses ",
+      title: "  Software Development Courses ",
       Box1h5: "Real Work experience",
       box1desc:
         "Don’t just learn, apply your learning. Work directly with companies to build relevant industry experience.",

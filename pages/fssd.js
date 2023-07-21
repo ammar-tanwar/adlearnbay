@@ -112,7 +112,7 @@ export default function Home() {
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/W+Dev.png"
           width="791"
           height="659"
-          alt="Full Stack"
+          alt=" "
           srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
         />
         <div className={styles.program}>

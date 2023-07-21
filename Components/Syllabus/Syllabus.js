@@ -77,10 +77,10 @@ function Syllabus({ radio, formotp }) {
         <div className="RightPopup">
           <h5>Download Brochure</h5>
           <p>Please enter the following details to initiate your download</p>
-          {formotp ?(
-          <FormOtp popup={true} radio={radio}/>
-          ):(
-          <Form setTrigger={setPopups} downloadBrochure radio={radio} />
+          {formotp ? (
+            <FormOtp popup={true} radio={radio} />
+          ) : (
+            <Form setTrigger={setPopups} downloadBrochure radio={radio} />
           )}
         </div>
       </Popup>
@@ -95,13 +95,13 @@ function Syllabus({ radio, formotp }) {
               <AiOutlineDownload className="bIcons" />
               Download Brochure
             </button>
-          </div> 
+          </div>
         </div>
         <p>
-          The Data Science and AI Certification Course With 100% Placement Assistance
-          is curated by leading faculties and industry leaders. Especially, with
-          the aim to provide practical learning experience with live interactive
-          classes and projects.
+          The Data Science and AI Certification Course With 100% Placement
+          Assistance is curated by leading faculties and industry leaders.
+          Especially, with the aim to provide practical learning experience with
+          live interactive classes and projects.
         </p>
 
         <div className={styles.QOuter}>
@@ -118,7 +118,9 @@ function Syllabus({ radio, formotp }) {
             >
               {state[0].open ? (
                 <div className={styles.quesO}>
-                  <h2>Module 0 Pre-Preparatory Classes (Programming + Maths)</h2>
+                  <h2>
+                    Module 0 Pre-Preparatory Classes (Programming + Maths)
+                  </h2>
 
                   <span>
                     {state[0].open ? (
@@ -130,7 +132,9 @@ function Syllabus({ radio, formotp }) {
                 </div>
               ) : (
                 <div className={styles.ques}>
-                  <h2>Module 0 Pre-Preparatory Classes (Programming + Maths)</h2>
+                  <h2>
+                    Module 0 Pre-Preparatory Classes (Programming + Maths)
+                  </h2>
                   <span>
                     {state[0].open ? (
                       <MdKeyboardArrowUp className="icon" />
@@ -170,9 +174,7 @@ function Syllabus({ radio, formotp }) {
             >
               {state[1].open ? (
                 <div className={styles.quesO}>
-                  <h2>
-                    Module 1 : Python Programming (Basic + Advance)
-                  </h2>
+                  <h2>Module 1 : Python Programming (Basic + Advance)</h2>
 
                   <span>
                     {state[1].open ? (
@@ -184,9 +186,7 @@ function Syllabus({ radio, formotp }) {
                 </div>
               ) : (
                 <div className={styles.ques}>
-                  <h2>
-                    Module 1 : Python Programming (Basic + Advance)
-                  </h2>
+                  <h2>Module 1 : Python Programming (Basic + Advance)</h2>
                   <span>
                     {state[1].open ? (
                       <MdKeyboardArrowUp className="icon" />
@@ -279,10 +279,7 @@ function Syllabus({ radio, formotp }) {
             >
               {state[3].open ? (
                 <div className={styles.quesO}>
-                  <h2>
-                    Module 3: Industrial Projects &
-Capstone Projects
-                  </h2>
+                  <h2>Module 3: Industrial Projects & Capstone Projects</h2>
 
                   <span>
                     {state[3].open ? (
@@ -294,10 +291,7 @@ Capstone Projects
                 </div>
               ) : (
                 <div className={styles.ques}>
-                  <h2>
-                    Module 3: Industrial Projects &
-Capstone Projects
-                  </h2>
+                  <h2>Module 3: Industrial Projects & Capstone Projects</h2>
                   <span>
                     {state[3].open ? (
                       <MdKeyboardArrowUp className="icon" />
@@ -474,7 +468,7 @@ Capstone Projects
                 <div className={styles.ans}>
                   We help you to work on projects directly with startups so that
                   you get real work experience. You will be building scalable
-                  tech products from scratch using full stack technologies and
+                  tech products from scratch using   technologies and
                   advanced system design concepts. You are recommended to work
                   on minimum 3-4 projects end to end and build a project
                   portfolio to crack coding interviews in top MNCs with
@@ -495,19 +489,18 @@ Capstone Projects
             <p>Program Highlights</p>
           </div>
           <div className={styles.PProgramInner}>
-            <p style={{display:"flex"}}>
+            <p style={{ display: "flex" }}>
               <MdOutlineLiveTv className={styles.PIcons} />
               500+ Live sessions
             </p>
-            <p style={{display:"flex"}}>
+            <p style={{ display: "flex" }}>
               <SiCodeproject className={styles.PIcons} />
               20+ Industry Projects
             </p>
-            <p style={{display:"flex"}}>
-              <SiTimescale className={styles.PIcons} />
-              3 Year Subscriptions
+            <p style={{ display: "flex" }}>
+              <SiTimescale className={styles.PIcons} />3 Year Subscriptions
             </p>
-            <p style={{display:"flex"}}>
+            <p style={{ display: "flex" }}>
               <MdOutlineLaptopMac className={styles.PIcons} />
               Live project experience
             </p>
@@ -518,11 +511,11 @@ Capstone Projects
             <p>Request More Information</p>
           </div>
           <div className={styles.PProgramInner}>
-          {formotp ?(
-          <FormOtp popup={true} radio={radio}/>
-          ):(
-            <Form radio={radio} />
-          )}
+            {formotp ? (
+              <FormOtp popup={true} radio={radio} />
+            ) : (
+              <Form radio={radio} />
+            )}
           </div>
         </div>
       </div>

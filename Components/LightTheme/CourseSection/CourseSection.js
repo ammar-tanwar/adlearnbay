@@ -113,61 +113,61 @@ function FourthSection() {
           </Swiper>
         </div>
         <div className={styles.fullStackCont}>
-        <div className={styles.topText}>
-        <h1>Full Stack Courses</h1>
-      </div>
-        <div className={styles.swiperleft}>
-          <Swiper
-            slidesPerView={mobile ? 1 : 3}
-            spaceBetween={mobile ? 10 : 15}
-            pagination={{ clickable: true }}
-            autoplay={{
-              delay: 2500,
-            }}
-            grabCursor={true}
-            modules={[Pagination, Autoplay]}
-            autoPlay={true}
-            className="mySwiper"
-          >
-            <SwiperSlide className={styles.slide}>
-              <div className={styles.mainSlider}>
-                <div className={styles.QuoteBlue}>
-                  <FaGraduationCap />
+          <div className={styles.topText}>
+            <h1> Courses</h1>
+          </div>
+          <div className={styles.swiperleft}>
+            <Swiper
+              slidesPerView={mobile ? 1 : 3}
+              spaceBetween={mobile ? 10 : 15}
+              pagination={{ clickable: true }}
+              autoplay={{
+                delay: 2500,
+              }}
+              grabCursor={true}
+              modules={[Pagination, Autoplay]}
+              autoPlay={true}
+              className="mySwiper"
+            >
+              <SwiperSlide className={styles.slide}>
+                <div className={styles.mainSlider}>
+                  <div className={styles.QuoteBlue}>
+                    <FaGraduationCap />
+                  </div>
+                  <div className={styles.name}>
+                    <h3>Full-Stack Software Development Program</h3>
+                    <p>300 hours | ₹1,10,000 + GST</p>
+                  </div>
                 </div>
-                <div className={styles.name}>
-                  <h3>Full-Stack Software Development Program</h3>
-                  <p>300 hours | ₹1,10,000 + GST</p>
+              </SwiperSlide>
+              <SwiperSlide className={styles.slide}>
+                <div className={styles.mainSlider}>
+                  <div className={styles.QuoteBlue}>
+                    <FaGraduationCap />
+                  </div>
+                  <div className={styles.name}>
+                    <h3>Data Structure Algorithms & System Design</h3>
+                    <p>200 hours | ₹70,000 + GST</p>
+                  </div>
                 </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <div className={styles.mainSlider}>
-                <div className={styles.QuoteBlue}>
-                  <FaGraduationCap />
+              </SwiperSlide>
+              <SwiperSlide className={styles.slide}>
+                <div className={styles.mainSlider}>
+                  <div className={styles.QuoteBlue}>
+                    <FaGraduationCap />
+                  </div>
+                  <div className={styles.name}>
+                    <h3>Full-Stack Web Development Program</h3>
+                    <p>200 hours | ₹70,000 + GST</p>
+                  </div>
                 </div>
-                <div className={styles.name}>
-                  <h3>Data Structure Algorithms & System Design</h3>
-                  <p>200 hours | ₹70,000 + GST</p>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <div className={styles.mainSlider}>
-                <div className={styles.QuoteBlue}>
-                  <FaGraduationCap />
-                </div>
-                <div className={styles.name}>
-                  <h3>Full-Stack Web Development Program</h3>
-                  <p>200 hours | ₹70,000 + GST</p>
-                </div>
-              </div>
-            </SwiperSlide>
-          </Swiper>
-          <button onClick={popupShow} className={styles.buttonM}>
-          Download Brochure
-          <FaDownload className={styles.icon} />
-        </button>
-        </div>
+              </SwiperSlide>
+            </Swiper>
+            <button onClick={popupShow} className={styles.buttonM}>
+              Download Brochure
+              <FaDownload className={styles.icon} />
+            </button>
+          </div>
         </div>
       </div>
     </div>

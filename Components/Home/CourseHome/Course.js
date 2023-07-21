@@ -39,14 +39,12 @@ const Course = ({ common, formotp }) => {
   const filtteredViewAllD = viewAllD.filter(
     (post) => post.tag === "Data science"
   );
-  const filtteredViewAllF = viewAllD.filter(
-    (post) => post.tag === "Full stack"
-  );
+  const filtteredViewAllF = viewAllD.filter((post) => post.tag === " ");
   const filtteredForProgrammersD = ForProgrammersD.filter(
     (post) => post.tag === "Data science"
   );
   const filtteredForProgrammersF = ForProgrammersD.filter(
-    (post) => post.tag === "Full stack"
+    (post) => post.tag === " "
   );
   const filtteredNonProgrammerD = ForNonProgrammerD.filter(
     (post) => post.tag === "Data science"
@@ -55,9 +53,9 @@ const Course = ({ common, formotp }) => {
     (post) => post.tag === "Data science"
   );
   const filtteredJobGuaranteeF = JobGuaranteeD.filter(
-    (post) => post.tag === "Full stack"
+    (post) => post.tag === " "
   );
-  const filtteredStackF = StackD.filter((post) => post.tag === "Full stack");
+  const filtteredStackF = StackD.filter((post) => post.tag === " ");
 
   useEffect(() => {
     let width = window.innerWidth;
@@ -260,7 +258,7 @@ const Course = ({ common, formotp }) => {
                 })}
               </Swiper>
             </div>
-            <h5>Software Development (3) </h5>
+            <h5>Software Development (2) </h5>
             <div className={styles.gridPanel}>
               <Swiper
                 slidesPerView={mobile ? 1.1 : 3}
@@ -345,7 +343,7 @@ const Course = ({ common, formotp }) => {
 
         {nonTech ? (
           <div className={styles.mPanel}>
-            <h5>Data Science (5) </h5>
+            <h5>Data Science (6) </h5>
             <div className={styles.gridPanel}>
               <Swiper
                 slidesPerView={mobile ? 1.1 : 3.2}
@@ -427,7 +425,7 @@ const Course = ({ common, formotp }) => {
 
         {Stack ? (
           <div className={styles.mPanel}>
-            <h5>Software Development (3) </h5>
+            <h5>Software Development (2) </h5>
             <div className={styles.gridPanel}>
               <Swiper
                 slidesPerView={mobile ? 1.1 : 3}
@@ -670,7 +668,7 @@ const Course = ({ common, formotp }) => {
 
         {viewAll ? (
           <div className={styles.mPanel}>
-            <h5>Data Science (5) </h5>
+            <h5>Data Science (6) </h5>
             <div className={styles.gridPanel}>
               <Swiper
                 slidesPerView={mobile ? 1.1 : 3.2}
@@ -745,7 +743,7 @@ const Course = ({ common, formotp }) => {
                 })}
               </Swiper>
             </div>
-            <h5>Software Development (3) </h5>
+            <h5>Software Development (2) </h5>
             <div className={styles.gridPanel}>
               <Swiper
                 slidesPerView={mobile ? 1.1 : 3}
