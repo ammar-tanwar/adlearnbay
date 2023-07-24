@@ -24,16 +24,16 @@ export default function Home() {
     <>
       <div>
         <Head>
-          <title>Learn Online Deep learning Course</title>
+          <title>Learn Online Data Science Course with Deep learning and AI</title>
           <meta
             name="description"
-            content="Top Deep learning course with Domain specialization and
+            content="Top Data Science Course with Deep learning and AI course with Domain specialization and
 get 100% placement assistance "
           />
 
           <meta
             name="Keywords"
-            content="Deep learning course, ai course, online ai course, Deep learning course online, ai course fee, ai course duration, Deep learning course fee, Deep learning course duration"
+            content="Data Science Course with Deep learning and AI course, ai course, online ai course, Data Science Course with Deep learning and AI course online, ai course fee, ai course duration, Data Science Course with Deep learning and AI course fee, Data Science Course with Deep learning and AI course duration"
           />
           <link
             rel="icon"
@@ -104,8 +104,8 @@ get 100% placement assistance "
             formotp={true}
             s2dataScience={true}
             deskTopPara="Be a master even without a master's degree"
-            h1="Deep learning Course"
-            hSpan="With Domain Specialization"
+            h1="Data Science Course"
+            hSpan="With Deep learning and AI"
             para="Successfully transition careers through our courses & real-time capstone projects. 
           All while making your previous work experience count!"
             sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Artificial+intelligence.jpg"
@@ -131,14 +131,14 @@ get 100% placement assistance "
           <SyllabusSection
             formotp={true}
             s2dataScience={true}
-            desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our Deep learning course feature practical training with real-time projects and case studies."
+            desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our Data Science Course with Deep learning and AI feature practical training with real-time projects and case studies."
             Hours="350+ Hours"
             Projects="15+ projects"
             Module0="Preparatory Classes (Programming + Maths)"
             Module1="Python for Data Science"
             Module2="Statistics and Machine Learning"
             Module3="Data Science Course Tools"
-            Module4="Deep learning Tools"
+            Module4="Deep learning & AI Tools"
           />
           <SliderTab />
           <Testimonial formotp={true} s2dataScience={true} />
