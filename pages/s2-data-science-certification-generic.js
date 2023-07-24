@@ -21,24 +21,25 @@ export default function Home() {
     setPopups(true);
   };
   return (
-    <div>
-      <Head>
-        <title>Online Data Science Certification Course</title>
-        <meta
-          name="description"
-          content="Successfully transition careers through our certification course & real-time capstone projects. All while making your previous work experience count! Apply Now!"
-        />
+    <>
+      <div>
+        <Head>
+          <title>Online Data Science Certification Course</title>
+          <meta
+            name="description"
+            content="Successfully transition careers through our certification course & real-time capstone projects. All while making your previous work experience count! Apply Now!"
+          />
 
-        <meta
-          name="Keywords"
-          content="data science certification course, data science certification course for working professional, data science certification course fee, data science certification course duration, data science certification course syllabus, data science online institute, online certified data science course, data science certificate course"
-        />
+          <meta
+            name="Keywords"
+            content="data science certification course, data science certification course for working professional, data science certification course fee, data science certification course duration, data science certification course syllabus, data science online institute, online certified data science course, data science certificate course"
+          />
 
-        <link
-          rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
-        />
-        <script
+          <link
+            rel="icon"
+            href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          />
+          {/* <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
             var s = document.createElement('script');
@@ -76,67 +77,86 @@ export default function Home() {
             var x = document.getElementsByTagName('script')[0];
             x.parentNode.insertBefore(s, x);`,
           }}
-        />
-        {/* <script
+        /> */}
+          {/* <script
           src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
           async
         ></script> */}
-      </Head>
-      <main>
-        {" "}
-        <Navbar popup={true} brochureButton={true} formotp={true} />
-        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-          <div className="leftPopup">
-            <div className="whiteP" />
-          </div>
-          <div className="RightPopup">
-            <h5>Apply For Counselling</h5>
-            <Form popup={true} setTrigger={setPopups} />
-          </div>
-        </Popup>
-        <HeroSection
-          formotp={true}
-          deskTopPara="Choose Specialization over Generalization"
-          h1="Data Science Certification Course"
-          hSpan=" for Professionals"
-          para="Successfully transition careers through our certification course & real-time capstone projects. 
+        </Head>
+        <main>
+          {" "}
+          <Navbar popup={true} brochureButton={true} formotp={true} />
+          <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+            <div className="leftPopup">
+              <div className="whiteP" />
+            </div>
+            <div className="RightPopup">
+              <h5>Apply For Counselling</h5>
+              <Form popup={true} setTrigger={setPopups} />
+            </div>
+          </Popup>
+          <HeroSection
+            formotp={true}
+            deskTopPara="Choose Specialization over Generalization"
+            h1="Data Science Certification Course"
+            hSpan=" for Professionals"
+            para="Successfully transition careers through our certification course & real-time capstone projects. 
           All while making your previous work experience count!"
-          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/data+science+and+ai.jpg"
-        />
-        <SecondSection
-          p1="IBM Certified"
-          p11="Capstone Projects"
-          p2="5-star"
-          p22="Industry-standard Training"
-          p3="3-year"
-          p33="Subscription Model"
-          p4="1:1 Support"
-          p44="Dedicated Program"
-        />
-        <ThirdSection formotp={true} />
-        <FourthSection
-          h1="Program Highlights"
-          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
-          img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/weekend+and+weekday+batch.jpg"
-          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/extra+dout+clearance+sessionn.jpg"
-          img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
-        />
-        <SyllabusSection
-          formotp={true}
-          desc="Learnbay offers live, interactive online certification course with professionals from top MNCs. Our data science certification course feature practical training with real-time projects and case studies."
-          Hours="250+ Hours"
-          Projects="12+ projects"
-          Module0="Preparatory Classes (Programming + Maths)"
-          Module1="Python for Data Science"
-          Module2="Statistics and Machine Learning"
-          Module3="Data Science Course Tools"
-          Module4="Artificial Intelligence Tools"
-        />
-        <SliderTab />
-        <Testimonial formotp={true} />
-        <SeventhSection />
-        <EightSection formotp={true} />
-      </main>
-    </div>
+            sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/data+science+and+ai.jpg"
+          />
+          <SecondSection
+            p1="IBM Certified"
+            p11="Capstone Projects"
+            p2="5-star"
+            p22="Industry-standard Training"
+            p3="3-year"
+            p33="Subscription Model"
+            p4="1:1 Support"
+            p44="Dedicated Program"
+          />
+          <ThirdSection formotp={true} />
+          <FourthSection
+            h1="Program Highlights"
+            img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
+            img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/weekend+and+weekday+batch.jpg"
+            img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/extra+dout+clearance+sessionn.jpg"
+            img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
+          />
+          <SyllabusSection
+            formotp={true}
+            desc="Learnbay offers live, interactive online certification course with professionals from top MNCs. Our data science certification course feature practical training with real-time projects and case studies."
+            Hours="250+ Hours"
+            Projects="12+ projects"
+            Module0="Preparatory Classes (Programming + Maths)"
+            Module1="Python for Data Science"
+            Module2="Statistics and Machine Learning"
+            Module3="Data Science Course Tools"
+            Module4="Artificial Intelligence Tools"
+          />
+          <SliderTab />
+          <Testimonial formotp={true} />
+          <SeventhSection />
+          <EightSection formotp={true} />
+        </main>
+      </div>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `(function (botId) {
+            var s = document.createElement("script");
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = "https://app.chat360.io/widget/chatbox/common_scripts/script.js";
+            s.onload = function () {
+              window.loadChat360Bot(botId);
+            };
+            s.onerror = function (err) {
+              console.error(err);
+            };
+            document.body.appendChild(s);
+          })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
+      `,
+        }}
+      />
+    </>
   );
 }

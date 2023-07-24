@@ -25,15 +25,16 @@ function Counselling() {
     setShowMe(!showMe);
   }
   return (
-    <div>
-      <Head>
-        <title>Learnbay Courses</title>
-        <meta name="description" content="Learnbay Courses" />
-        <link
-          rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
-        />
-        <script
+    <>
+      <div>
+        <Head>
+          <title>Learnbay Courses</title>
+          <meta name="description" content="Learnbay Courses" />
+          <link
+            rel="icon"
+            href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          />
+          {/* <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
                 var s = document.createElement('script');
@@ -70,37 +71,56 @@ function Counselling() {
                 var x = document.getElementsByTagName('script')[0];
                 x.parentNode.insertBefore(s, x);`,
           }}
-        />
-        {/* <script
+        /> */}
+          {/* <script
           src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
           async
         ></script> */}
-      </Head>
-      <Navbar radio={true} />
-      <div className={styles.formq}>
-        <div className={styles.formlScho}>
-          <div className={styles.div1}>LEARNBAY</div>
-          <h1>Receive upto 15% Scholarship on your course fee.</h1>
-          <div>
-            <p>
-              Learnbay online scholarship is for inspired and motivated
-              individuals who wish to upgrade their career. Give your career a
-              lift with this scholarship, this is your chance to Learn and lead
-              anywhere!
-            </p>
-            <p>
-              Get your profile reviewed by connecting with one of our
-              counsellors now.
-            </p>
+        </Head>
+        <Navbar radio={true} />
+        <div className={styles.formq}>
+          <div className={styles.formlScho}>
+            <div className={styles.div1}>LEARNBAY</div>
+            <h1>Receive upto 15% Scholarship on your course fee.</h1>
+            <div>
+              <p>
+                Learnbay online scholarship is for inspired and motivated
+                individuals who wish to upgrade their career. Give your career a
+                lift with this scholarship, this is your chance to Learn and
+                lead anywhere!
+              </p>
+              <p>
+                Get your profile reviewed by connecting with one of our
+                counsellors now.
+              </p>
+            </div>
+          </div>
+
+          <div className={styles.formr}>
+            <Form jobPlace={true} jobDesc={true} />
           </div>
         </div>
-
-        <div className={styles.formr}>
-          <Form jobPlace={true} jobDesc={true} />
-        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `(function (botId) {
+            var s = document.createElement("script");
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = "https://app.chat360.io/widget/chatbox/common_scripts/script.js";
+            s.onload = function () {
+              window.loadChat360Bot(botId);
+            };
+            s.onerror = function (err) {
+              console.error(err);
+            };
+            document.body.appendChild(s);
+          })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
+      `,
+        }}
+      />
+    </>
   );
 }
 

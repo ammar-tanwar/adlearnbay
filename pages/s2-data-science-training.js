@@ -27,24 +27,25 @@ export default function Home() {
     setPopups(true);
   };
   return (
-    <div>
-      <Head>
-        <title>Data Science Training</title>
-        <meta
-          name="description"
-          content="Online Live-Interactive Data Science Course. Register Now and Get Placed at Top MNCs"
-        />
+    <>
+      <div>
+        <Head>
+          <title>Data Science Training</title>
+          <meta
+            name="description"
+            content="Online Live-Interactive Data Science Course. Register Now and Get Placed at Top MNCs"
+          />
 
-        <meta
-          name="Keywords"
-          content="Data science online training, Data science training, Best data science online training, Data science training fee"
-        />
+          <meta
+            name="Keywords"
+            content="Data science online training, Data science training, Best data science online training, Data science training fee"
+          />
 
-        <link
-          rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
-        />
-        <script
+          <link
+            rel="icon"
+            href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          />
+          {/* <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
             var s = document.createElement('script');
@@ -82,145 +83,174 @@ export default function Home() {
             var x = document.getElementsByTagName('script')[0];
             x.parentNode.insertBefore(s, x);`,
           }}
-        />
-        {/* <script
+        /> */}
+          {/* <script
           src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
           async
         ></script> */}
-      </Head>
-      <main>
-        {" "}
-        <Navbar popup={true} formotp={true} />
-        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-          <div className="leftPopup">
-            <div className="whiteP" />
-          </div>
-          <div className="RightPopup">
-            <h5>Apply For Counselling</h5>
-            {/* <p>Fill the below Details to get started</p> */}
+        </Head>
+        <main>
+          {" "}
+          <Navbar popup={true} formotp={true} />
+          <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+            <div className="leftPopup">
+              <div className="whiteP" />
+            </div>
+            <div className="RightPopup">
+              <h5>Apply For Counselling</h5>
+              {/* <p>Fill the below Details to get started</p> */}
 
-            <Form popup={true} setTrigger={setPopups} />
+              <Form popup={true} setTrigger={setPopups} />
+            </div>
+          </Popup>
+          <FirstSection
+            formotp={true}
+            popupHead={DataScienceCourseData[0].FirstSection.popupHead}
+            deskTopPara={DataScienceCourseData[0].FirstSection.deskTopPara}
+            mTopPara={DataScienceCourseData[0].FirstSection.mTopPara}
+            mTitle="Data Science Training "
+            spanMTitleText="For Managers and Leaders"
+            title="Data Science Training "
+            spanTitleText="For Managers and Leaders"
+            desc={DataScienceCourseData[0].FirstSection.desc}
+            src={DataScienceCourseData[0].FirstSection.src}
+            width={DataScienceCourseData[0].FirstSection.width}
+            height={DataScienceCourseData[0].FirstSection.height}
+            alt={DataScienceCourseData[0].FirstSection.alt}
+            srcD={DataScienceCourseData[0].FirstSection.srcD}
+          />
+          <div className={styles.program}>
+            <ProgramInfo
+              p1={DataScienceCourseData[0].ProgramInfo.p1}
+              p11={DataScienceCourseData[0].ProgramInfo.p11}
+              p2={DataScienceCourseData[0].ProgramInfo.p2}
+              p22={DataScienceCourseData[0].ProgramInfo.p22}
+              p3={DataScienceCourseData[0].ProgramInfo.p3}
+              p33={DataScienceCourseData[0].ProgramInfo.p33}
+              p4={DataScienceCourseData[0].ProgramInfo.p4}
+              p44={DataScienceCourseData[0].ProgramInfo.p44}
+            />
           </div>
-        </Popup>
-        <FirstSection
-          formotp={true}
-          popupHead={DataScienceCourseData[0].FirstSection.popupHead}
-          deskTopPara={DataScienceCourseData[0].FirstSection.deskTopPara}
-          mTopPara={DataScienceCourseData[0].FirstSection.mTopPara}
-          mTitle="Data Science Training "
-          spanMTitleText="For Managers and Leaders"
-          title="Data Science Training "
-          spanTitleText="For Managers and Leaders"
-          desc={DataScienceCourseData[0].FirstSection.desc}
-          src={DataScienceCourseData[0].FirstSection.src}
-          width={DataScienceCourseData[0].FirstSection.width}
-          height={DataScienceCourseData[0].FirstSection.height}
-          alt={DataScienceCourseData[0].FirstSection.alt}
-          srcD={DataScienceCourseData[0].FirstSection.srcD}
-        />
-        <div className={styles.program}>
-          <ProgramInfo
-            p1={DataScienceCourseData[0].ProgramInfo.p1}
-            p11={DataScienceCourseData[0].ProgramInfo.p11}
-            p2={DataScienceCourseData[0].ProgramInfo.p2}
-            p22={DataScienceCourseData[0].ProgramInfo.p22}
-            p3={DataScienceCourseData[0].ProgramInfo.p3}
-            p33={DataScienceCourseData[0].ProgramInfo.p33}
-            p4={DataScienceCourseData[0].ProgramInfo.p4}
-            p44={DataScienceCourseData[0].ProgramInfo.p44}
-          />
-        </div>
-        <div className={styles.Feature} id="Feature">
-          <BoxShape
+          <div className={styles.Feature} id="Feature">
+            <BoxShape
+              formotp={true}
+              title="Explore Our Data Science Training Programs"
+              Box1h5={DataScienceCourseData[0].BoxShape.Box1h5}
+              box1desc={DataScienceCourseData[0].BoxShape.box1desc}
+              Box2h5={DataScienceCourseData[0].BoxShape.Box2h5}
+              box2desc={DataScienceCourseData[0].BoxShape.box2desc}
+              Box3h5={DataScienceCourseData[0].BoxShape.Box3h5}
+              box3desc={DataScienceCourseData[0].BoxShape.box3desc}
+              Box4h5={DataScienceCourseData[0].BoxShape.Box4h5}
+              box4desc={DataScienceCourseData[0].BoxShape.box4desc}
+              headh5="Watch our alumni making successful Data Science Training career transition"
+            />
+          </div>
+          <CourseReview
             formotp={true}
-            title="Explore Our Data Science Training Programs"
-            Box1h5={DataScienceCourseData[0].BoxShape.Box1h5}
-            box1desc={DataScienceCourseData[0].BoxShape.box1desc}
-            Box2h5={DataScienceCourseData[0].BoxShape.Box2h5}
-            box2desc={DataScienceCourseData[0].BoxShape.box2desc}
-            Box3h5={DataScienceCourseData[0].BoxShape.Box3h5}
-            box3desc={DataScienceCourseData[0].BoxShape.box3desc}
-            Box4h5={DataScienceCourseData[0].BoxShape.Box4h5}
-            box4desc={DataScienceCourseData[0].BoxShape.box4desc}
-            headh5="Watch our alumni making successful Data Science Training career transition"
+            p1="Working at HCL"
+            p2=" Working at TCS"
+            p3="Working at Capgemini"
           />
-        </div>
-        <CourseReview
-          formotp={true}
-          p1="Working at HCL"
-          p2=" Working at TCS"
-          p3="Working at Capgemini"
-        />
-        <Certificate H4="Data Science Training Program" />
-        <SyllabusNew
-          formotp={true}
-          syllabusFormotp={true}
-          syllabus={DataScienceCourseData[0].syllabus}
-          CSyllabus="Data Science Training Syllabus"
-          CourseHighlights="Course Highlights"
-          syllabusDesc="Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Data Science Training Course sessions are covered practically with real-time industrial projects and case studies."
-          popupHead={DataScienceCourseData[0].popupHead}
-          hours={DataScienceCourseData[0].hours}
-          project={DataScienceCourseData[0].project}
-        />
-        <OurExpert
-          H5="Data Science Tools Covered"
-          img1={DataScienceCourseData[0].OurExpert.img1}
-          img2={DataScienceCourseData[0].OurExpert.img2}
-          img3={DataScienceCourseData[0].OurExpert.img3}
-          img4={DataScienceCourseData[0].OurExpert.img4}
-          img5={DataScienceCourseData[0].OurExpert.img5}
-          img6={DataScienceCourseData[0].OurExpert.img6}
-          img7={DataScienceCourseData[0].OurExpert.img7}
-          img8={DataScienceCourseData[0].OurExpert.img8}
-          img9={DataScienceCourseData[0].OurExpert.img9}
-          img10={DataScienceCourseData[0].OurExpert.img10}
-          img11={DataScienceCourseData[0].OurExpert.img11}
-          img12={DataScienceCourseData[0].OurExpert.img12}
-          img13={DataScienceCourseData[0].OurExpert.img13}
-          img14={DataScienceCourseData[0].OurExpert.img14}
-          img15={DataScienceCourseData[0].OurExpert.img15}
-          img16={DataScienceCourseData[0].OurExpert.img16}
-          img17={DataScienceCourseData[0].OurExpert.img17}
-          img18={DataScienceCourseData[0].OurExpert.img18}
-          img19={DataScienceCourseData[0].OurExpert.img19}
-          img21={DataScienceCourseData[0].OurExpert.img21}
-          img22={DataScienceCourseData[0].OurExpert.img22}
-          img23={DataScienceCourseData[0].OurExpert.img23}
-          img20={DataScienceCourseData[0].OurExpert.img20}
-        />
-        <ProgramFee
-          formotp={true}
-          Fee={DataScienceCourseData[0].ProgramFee.Fee}
-          Emi={DataScienceCourseData[0].ProgramFee.Emi}
-          CourseFeeAndFinancing="Data Science Training Fee & Financing"
-          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Training Data Science Certification Course and offer avariety of financing options to make it more economical."
-        />
-        <SliderTab />
-        <div className={styles.ProjectWrapper} id="project">
-          <Project
+          <Certificate H4="Data Science Training Program" />
+          <SyllabusNew
             formotp={true}
-            popupHead={DataScienceCourseData[0].Project.popupHead}
-            project={DataScienceCourseData[0].Project.project}
-            domain={DataScienceCourseData[0].Project.domain}
-            projectTitle={DataScienceCourseData[0].Project.projectTitle}
+            syllabusFormotp={true}
+            syllabus={DataScienceCourseData[0].syllabus}
+            CSyllabus="Data Science Training Syllabus"
+            CourseHighlights="Course Highlights"
+            syllabusDesc="Learnbay provides Live, Interactive Online Sessions guided by Professionals working in top MNCs. All Data Science Training Course sessions are covered practically with real-time industrial projects and case studies."
+            popupHead={DataScienceCourseData[0].popupHead}
+            hours={DataScienceCourseData[0].hours}
+            project={DataScienceCourseData[0].project}
           />
-        </div>
-        <CourseFee
-          formotp={true}
-          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
-          syllabus={DataScienceCourseData[0].Batch}
-          CourseFeeHead="Data Science Training : Batch Details"
-          CourseFeePara="Data Science Training Online Classroom"
-          CourseFeelist1={DataScienceCourseData[0].BatchCourses.CourseFeelist1}
-          CourseFeelist2={DataScienceCourseData[0].BatchCourses.CourseFeelist2}
-          CourseFeelist3={DataScienceCourseData[0].BatchCourses.CourseFeelist3}
-          CourseFeelist4={DataScienceCourseData[0].BatchCourses.CourseFeelist4}
-          CourseFeelist5={DataScienceCourseData[0].BatchCourses.CourseFeelist5}
-        />
-        <LearnSupport />
-        <Footer />
-      </main>
-    </div>
+          <OurExpert
+            H5="Data Science Tools Covered"
+            img1={DataScienceCourseData[0].OurExpert.img1}
+            img2={DataScienceCourseData[0].OurExpert.img2}
+            img3={DataScienceCourseData[0].OurExpert.img3}
+            img4={DataScienceCourseData[0].OurExpert.img4}
+            img5={DataScienceCourseData[0].OurExpert.img5}
+            img6={DataScienceCourseData[0].OurExpert.img6}
+            img7={DataScienceCourseData[0].OurExpert.img7}
+            img8={DataScienceCourseData[0].OurExpert.img8}
+            img9={DataScienceCourseData[0].OurExpert.img9}
+            img10={DataScienceCourseData[0].OurExpert.img10}
+            img11={DataScienceCourseData[0].OurExpert.img11}
+            img12={DataScienceCourseData[0].OurExpert.img12}
+            img13={DataScienceCourseData[0].OurExpert.img13}
+            img14={DataScienceCourseData[0].OurExpert.img14}
+            img15={DataScienceCourseData[0].OurExpert.img15}
+            img16={DataScienceCourseData[0].OurExpert.img16}
+            img17={DataScienceCourseData[0].OurExpert.img17}
+            img18={DataScienceCourseData[0].OurExpert.img18}
+            img19={DataScienceCourseData[0].OurExpert.img19}
+            img21={DataScienceCourseData[0].OurExpert.img21}
+            img22={DataScienceCourseData[0].OurExpert.img22}
+            img23={DataScienceCourseData[0].OurExpert.img23}
+            img20={DataScienceCourseData[0].OurExpert.img20}
+          />
+          <ProgramFee
+            formotp={true}
+            Fee={DataScienceCourseData[0].ProgramFee.Fee}
+            Emi={DataScienceCourseData[0].ProgramFee.Emi}
+            CourseFeeAndFinancing="Data Science Training Fee & Financing"
+            para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Training Data Science Certification Course and offer avariety of financing options to make it more economical."
+          />
+          <SliderTab />
+          <div className={styles.ProjectWrapper} id="project">
+            <Project
+              formotp={true}
+              popupHead={DataScienceCourseData[0].Project.popupHead}
+              project={DataScienceCourseData[0].Project.project}
+              domain={DataScienceCourseData[0].Project.domain}
+              projectTitle={DataScienceCourseData[0].Project.projectTitle}
+            />
+          </div>
+          <CourseFee
+            formotp={true}
+            syllabusDesc={DataScienceCourseData[0].syllabusDesc}
+            syllabus={DataScienceCourseData[0].Batch}
+            CourseFeeHead="Data Science Training : Batch Details"
+            CourseFeePara="Data Science Training Online Classroom"
+            CourseFeelist1={
+              DataScienceCourseData[0].BatchCourses.CourseFeelist1
+            }
+            CourseFeelist2={
+              DataScienceCourseData[0].BatchCourses.CourseFeelist2
+            }
+            CourseFeelist3={
+              DataScienceCourseData[0].BatchCourses.CourseFeelist3
+            }
+            CourseFeelist4={
+              DataScienceCourseData[0].BatchCourses.CourseFeelist4
+            }
+            CourseFeelist5={
+              DataScienceCourseData[0].BatchCourses.CourseFeelist5
+            }
+          />
+          <LearnSupport />
+          <Footer />
+        </main>
+      </div>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `(function (botId) {
+            var s = document.createElement("script");
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = "https://app.chat360.io/widget/chatbox/common_scripts/script.js";
+            s.onload = function () {
+              window.loadChat360Bot(botId);
+            };
+            s.onerror = function (err) {
+              console.error(err);
+            };
+            document.body.appendChild(s);
+          })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
+      `,
+        }}
+      />
+    </>
   );
 }

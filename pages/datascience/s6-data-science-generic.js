@@ -48,12 +48,10 @@ export default function Home() {
             content="Want to earn salary hike of 250% ? Our Data Science course 
  will boost salary. Apply Now!"
           />
-
           <meta
             name="Keywords"
             content="data science course, data science course for working professional, data science course fee, data science course duration, data science course syllabus, data science online course"
           />
-
           <link
             rel="icon"
             href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
