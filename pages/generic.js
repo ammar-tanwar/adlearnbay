@@ -23,15 +23,15 @@ export default function Home() {
   };
   return (
     <>
-    <div>
-      <Head>
-        <title>Learnbay Courses</title>
-        <meta name="description" content="Learnbay Courses" />
-        <link
-          rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
-        />
-        <script
+      <div>
+        <Head>
+          <title>Learnbay Courses</title>
+          <meta name="description" content="Learnbay Courses" />
+          <link
+            rel="icon"
+            href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          />
+          {/* <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
                         var s = document.createElement('script');
@@ -69,64 +69,64 @@ export default function Home() {
                         var x = document.getElementsByTagName('script')[0];
                         x.parentNode.insertBefore(s, x);`,
           }}
-        />
-        {/* <script
+        /> */}
+          {/* <script
           src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
           async
         ></script> */}
-      </Head>
+        </Head>
 
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-        <div className="leftPopup">
-          <div className="whiteP" />
-        </div>
-        <div className="RightPopup">
-          <h5>Apply For Counselling</h5>
-          {/* <p>Fill the below Details to get started</p> */}
-          <Form popup={true} setTrigger={setPopups} radio={true} />
-        </div>
-      </Popup>
+        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+          <div className="leftPopup">
+            <div className="whiteP" />
+          </div>
+          <div className="RightPopup">
+            <h5>Apply For Counselling</h5>
+            {/* <p>Fill the below Details to get started</p> */}
+            <Form popup={true} setTrigger={setPopups} radio={true} />
+          </div>
+        </Popup>
 
-      <Navbar radio={true} formotp={true} />
-      <FirstSection
-        formotp={true}
-        common={true}
-        heading="#1 Domain Specialised Certification Program For"
-        headingSpan="Working Professionals"
-        des="Use your domain expertise to build a meaningful career. Crack interview
+        <Navbar radio={true} formotp={true} />
+        <FirstSection
+          formotp={true}
+          common={true}
+          heading="#1 Domain Specialised Certification Program For"
+          headingSpan="Working Professionals"
+          des="Use your domain expertise to build a meaningful career. Crack interview
       in top product based MNCs with confidence."
-        h1="1:1"
-        p1="Dedicated Mentorship"
-        h2="100%"
-        p2="Assured Interview"
-        h3="7+"
-        p3="Domain Electives"
-        style={{ margin: "20px" }}
-        radio={true}
-      />
-      <div className={styles.boxWrap}>
-        <h2>Get Certified & Move Towards Your Dream Job</h2>
-        <p className={styles.boxp}>
-          Our Domain Specialisation and Industry Certified Capstone Projects
-          helps you to make your past work experience relevant
-        </p>
-        <div className={styles.boxShape}>
-          <BoxShape />
+          h1="1:1"
+          p1="Dedicated Mentorship"
+          h2="100%"
+          p2="Assured Interview"
+          h3="7+"
+          p3="Domain Electives"
+          style={{ margin: "20px" }}
+          radio={true}
+        />
+        <div className={styles.boxWrap}>
+          <h2>Get Certified & Move Towards Your Dream Job</h2>
+          <p className={styles.boxp}>
+            Our Domain Specialisation and Industry Certified Capstone Projects
+            helps you to make your past work experience relevant
+          </p>
+          <div className={styles.boxShape}>
+            <BoxShape />
+          </div>
         </div>
+        <Course radio={true} common={true} formotp={true} />
+        <KeyFeatures />
+        <WhyLearnbay radio={true} formotp={true} />
+        <MultiTabs />
+        <div className={styles.careerImpactNew}>
+          <CareerImpactHome />
+        </div>
+        <LearnSupport />
+        <Footer />
       </div>
-      <Course radio={true} common={true} formotp={true} />
-      <KeyFeatures />
-      <WhyLearnbay radio={true} formotp={true} />
-      <MultiTabs />
-      <div className={styles.careerImpactNew}>
-        <CareerImpactHome />
-      </div>
-      <LearnSupport />
-      <Footer />
-    </div>
-    <script
-    dangerouslySetInnerHTML={{
-      __html: `(function (botId) {
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `(function (botId) {
         var s = document.createElement("script");
         s.async = true;
         s.type = 'text/javascript';
@@ -140,8 +140,8 @@ export default function Home() {
         document.body.appendChild(s);
       })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
   `,
-    }}
-  />
-</>
+        }}
+      />
+    </>
   );
 }

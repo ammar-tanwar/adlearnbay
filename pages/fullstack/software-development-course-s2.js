@@ -35,22 +35,22 @@ export default function Home({ formotp }) {
   };
   return (
     <>
-    <div>
-      <Head>
-        <title> Software Development Course</title>
-        <link
-          rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
-        />
-        <meta
-          name="description"
-          content="Learn   Software Development Course. Get a chance to work with top product based MNCs Companies and participate in live, interactive online sessions led by tech experts to gain real-time project experience."
-        />
-        <meta
-          name="Keywords"
-          content="  Software Development Course,Best   Software Development Course, Online   Software Development Course, Learn   Software development Course"
-        />
-        <script
+      <div>
+        <Head>
+          <title> Software Development Course</title>
+          <link
+            rel="icon"
+            href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          />
+          <meta
+            name="description"
+            content="Learn   Software Development Course. Get a chance to work with top product based MNCs Companies and participate in live, interactive online sessions led by tech experts to gain real-time project experience."
+          />
+          <meta
+            name="Keywords"
+            content="  Software Development Course,Best   Software Development Course, Online   Software Development Course, Learn   Software development Course"
+          />
+          {/* <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
                         var s = document.createElement('script');
@@ -88,122 +88,126 @@ export default function Home({ formotp }) {
                         var x = document.getElementsByTagName('script')[0];
                         x.parentNode.insertBefore(s, x);`,
           }}
-        />
-        {/* <script
+        /> */}
+          {/* <script
           src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
           async
         ></script> */}
-      </Head>
-      <main>
-        {" "}
-        <Navbar
-          popup={true}
-          formotp={true}
-          fullstackADS={true}
-          brochureButton={true}
-        />
-        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-          <div className="leftPopup">
-            <div className="whiteP" />
-          </div>
-          <div className="RightPopup">
-            <h5>Apply For Counselling</h5>
-            <FormOtp setTrigger={setPopups} popup={true} />
-          </div>
-        </Popup>
-        <HeroSection
-          formotp={true}
-          fullstackADS={true}
-          fullStackCont={true}
-          deskTopPara="Ace the PRODUCT Interviews to achieve your dream job"
-          h1="  Software Development Course"
-          hSpan="for Working Professionals"
-          para="Work on 12+ real-time projects & get hired at top MNCs with a salary of up to 18LPA, only for Working Professionals."
-          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/fssd-generic.jpeg"
-        />
-        <SecondSection
-          fullStackCont={true}
-          p1="12+ Practical"
-          p11="Project Experience"
-          p2="Top Product"
-          p22="Based Interviews"
-          p3="Domain"
-          p33="Specialization"
-          p4="1:1 Mentorship"
-          p44="Dedicated Program"
-        />
-        <ThirdSection formotp={true} fullstackADS={true} fullStackCont={true} />
-        <FourthSection
-          fullStackCont={true}
-          h1="Program Highlights"
-          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
-          img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/weekend+and+weekday+batch.jpg"
-          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/extra+dout+clearance+sessionn.jpg"
-          img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
-        />
-        <SyllabusSection
-          fullStackCont={true}
-          formotp={true}
-          fullstackADS={true}
-          desc="Learnbay offers   Software Development Course led by experts working in top MNCs & real-time industrial projects with case studies."
-          Hours="300+ Hours"
-          Projects="12+ projects"
-          Module0="Preparatory Classes"
-          Module1="DSA and System Design"
-          Module2="Real-time Projects & Use cases"
-          Module3="Elite Domains"
-        />
-        <ProgramFee
-          Fee={FullStackSoftwareCourseData[0].ProgramFee.Fee}
-          Emi={FullStackSoftwareCourseData[0].ProgramFee.Emi}
-          formotp={true}
-          fullstackADS={true}
-          CourseFeeAndFinancing={
-            FullStackSoftwareCourseData[0].ProgramFee.CourseFeeAndFinancing
-          }
-          para="We are dedicated to making our   Software Development Course accessible.  We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
-          dataScience={true}
-        />
-        <Batch
-          formotp={true}
-          fullstackADS={true}
-          syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
-          syllabus={FullStackSoftwareCourseData[0].Batch}
-          CourseFeeHead="  Software Development Course: Batch Details"
-          CourseFeePara={
-            FullStackSoftwareCourseData[0].BatchCourses.CourseFeePara
-          }
-          CourseFeelist1={
-            FullStackSoftwareCourseData[0].BatchCourses.CourseFeelist1
-          }
-          CourseFeelist2={
-            FullStackSoftwareCourseData[0].BatchCourses.CourseFeelist2
-          }
-          CourseFeelist3={
-            FullStackSoftwareCourseData[0].BatchCourses.CourseFeelist3
-          }
-          CourseFeelist4={
-            FullStackSoftwareCourseData[0].BatchCourses.CourseFeelist4
-          }
-          CourseFeelist5={
-            FullStackSoftwareCourseData[0].BatchCourses.CourseFeelist5
-          }
-        />
-        <Testimonial formotp={true} fullstackADS={true} />
-        <FAQNew
-          FaqDatas={FaqData9}
-          DomainFaqDatas={DomainFaqData9}
-          PaymentFaqDatas={PaymentFaqData9}
-          CapstoneFaqDatas={CapstoneFaqData9}
-          jobFaqDatas={jobFaqData9}
-          MentorshipFaqDatas={MentorshipFaqData9}
-          SupportFaqDatas={SupportFaqData9}
-        />
-        <SeventhSection fullStackCont={true} />
-        <EightSection formotp={true} fullstackADS={true} />
-      </main>
-    </div>
-<script
+        </Head>
+        <main>
+          {" "}
+          <Navbar
+            popup={true}
+            formotp={true}
+            fullstackADS={true}
+            brochureButton={true}
+          />
+          <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+            <div className="leftPopup">
+              <div className="whiteP" />
+            </div>
+            <div className="RightPopup">
+              <h5>Apply For Counselling</h5>
+              <FormOtp setTrigger={setPopups} popup={true} />
+            </div>
+          </Popup>
+          <HeroSection
+            formotp={true}
+            fullstackADS={true}
+            fullStackCont={true}
+            deskTopPara="Ace the PRODUCT Interviews to achieve your dream job"
+            h1="  Software Development Course"
+            hSpan="for Working Professionals"
+            para="Work on 12+ real-time projects & get hired at top MNCs with a salary of up to 18LPA, only for Working Professionals."
+            sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/fssd-generic.jpeg"
+          />
+          <SecondSection
+            fullStackCont={true}
+            p1="12+ Practical"
+            p11="Project Experience"
+            p2="Top Product"
+            p22="Based Interviews"
+            p3="Domain"
+            p33="Specialization"
+            p4="1:1 Mentorship"
+            p44="Dedicated Program"
+          />
+          <ThirdSection
+            formotp={true}
+            fullstackADS={true}
+            fullStackCont={true}
+          />
+          <FourthSection
+            fullStackCont={true}
+            h1="Program Highlights"
+            img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
+            img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/weekend+and+weekday+batch.jpg"
+            img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/extra+dout+clearance+sessionn.jpg"
+            img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
+          />
+          <SyllabusSection
+            fullStackCont={true}
+            formotp={true}
+            fullstackADS={true}
+            desc="Learnbay offers   Software Development Course led by experts working in top MNCs & real-time industrial projects with case studies."
+            Hours="300+ Hours"
+            Projects="12+ projects"
+            Module0="Preparatory Classes"
+            Module1="DSA and System Design"
+            Module2="Real-time Projects & Use cases"
+            Module3="Elite Domains"
+          />
+          <ProgramFee
+            Fee={FullStackSoftwareCourseData[0].ProgramFee.Fee}
+            Emi={FullStackSoftwareCourseData[0].ProgramFee.Emi}
+            formotp={true}
+            fullstackADS={true}
+            CourseFeeAndFinancing={
+              FullStackSoftwareCourseData[0].ProgramFee.CourseFeeAndFinancing
+            }
+            para="We are dedicated to making our   Software Development Course accessible.  We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
+            dataScience={true}
+          />
+          <Batch
+            formotp={true}
+            fullstackADS={true}
+            syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
+            syllabus={FullStackSoftwareCourseData[0].Batch}
+            CourseFeeHead="  Software Development Course: Batch Details"
+            CourseFeePara={
+              FullStackSoftwareCourseData[0].BatchCourses.CourseFeePara
+            }
+            CourseFeelist1={
+              FullStackSoftwareCourseData[0].BatchCourses.CourseFeelist1
+            }
+            CourseFeelist2={
+              FullStackSoftwareCourseData[0].BatchCourses.CourseFeelist2
+            }
+            CourseFeelist3={
+              FullStackSoftwareCourseData[0].BatchCourses.CourseFeelist3
+            }
+            CourseFeelist4={
+              FullStackSoftwareCourseData[0].BatchCourses.CourseFeelist4
+            }
+            CourseFeelist5={
+              FullStackSoftwareCourseData[0].BatchCourses.CourseFeelist5
+            }
+          />
+          <Testimonial formotp={true} fullstackADS={true} />
+          <FAQNew
+            FaqDatas={FaqData9}
+            DomainFaqDatas={DomainFaqData9}
+            PaymentFaqDatas={PaymentFaqData9}
+            CapstoneFaqDatas={CapstoneFaqData9}
+            jobFaqDatas={jobFaqData9}
+            MentorshipFaqDatas={MentorshipFaqData9}
+            SupportFaqDatas={SupportFaqData9}
+          />
+          <SeventhSection fullStackCont={true} />
+          <EightSection formotp={true} fullstackADS={true} />
+        </main>
+      </div>
+      <script
         dangerouslySetInnerHTML={{
           __html: `(function (botId) {
             var s = document.createElement("script");
