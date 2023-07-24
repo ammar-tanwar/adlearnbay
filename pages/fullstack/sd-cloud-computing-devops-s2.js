@@ -34,22 +34,24 @@ export default function Home({ formotp }) {
   };
   return (
     <>
-    <div>
-      <Head>
-        <title>Software Development Course in Cloud & DevOps - Learnbay</title>
-        <link
-          rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
-        />
-        <meta
-          name="description"
-          content="Enroll in our comprehensive Software Development Program with a Specialization in Cloud & DevOps. Gain hands-on experience in Cloud & DevOps."
-        />
-        <meta
-          name="keywords"
-          content="Software Development Program with Specialization in cloud computing & devops"
-        />
-        <script
+      <div>
+        <Head>
+          <title>
+            Software Development Course in Cloud & DevOps - Learnbay
+          </title>
+          <link
+            rel="icon"
+            href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          />
+          <meta
+            name="description"
+            content="Enroll in our comprehensive Software Development Program with a Specialization in Cloud & DevOps. Gain hands-on experience in Cloud & DevOps."
+          />
+          <meta
+            name="keywords"
+            content="Software Development Program with Specialization in cloud computing & devops"
+          />
+          {/* <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
                         var s = document.createElement('script');
@@ -87,108 +89,112 @@ export default function Home({ formotp }) {
                         var x = document.getElementsByTagName('script')[0];
                         x.parentNode.insertBefore(s, x);`,
           }}
-        />
-        {/* <script
+        /> */}
+          {/* <script
           src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
           async
         ></script> */}
-      </Head>
-      <main>
-        {" "}
-        <Navbar
-          popup={true}
-          formotp={true}
-          fullstackADS={true}
-          brochureButton={true}
-        />
-        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-          <div className="leftPopup">
-            <div className="whiteP" />
-          </div>
-          <div className="RightPopup">
-            <h5>Apply For Counselling</h5>
-            <FormOtp setTrigger={setPopups} popup={true} />
-          </div>
-        </Popup>
-        <HeroSection
-          formotp={true}
-          fullstackADS={true}
-          fullStackCont={true}
-          deskTopPara="Build the future cloud & transform your tech skills"
-          h1="Software Development Course "
-          hSpan="with Specialization in Cloud & DevOps"
-          para="Work on 12+ real-time projects & get hired at top MNCs with a salary of up to 18LPA, only for Working Professionals."
-          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/fssd-generic.jpeg"
-        />
-        <SecondSection
-          fullStackCont={true}
-          p1="12+ Practical"
-          p11="Project Experience"
-          p2="Top Product"
-          p22="Based Interviews"
-          p3="Industry"
-          p33="Certification"
-          p4="1:1 Mentorship"
-          p44="Dedicated Program"
-        />
-        <ThirdSection formotp={true} fullstackADS={true} fullStackCont={true} />
-        <FourthSection
-          fullStackCont={true}
-          h1="Program Highlights"
-          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
-          img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/weekend+and+weekday+batch.jpg"
-          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/extra+dout+clearance+sessionn.jpg"
-          img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
-        />
-        <SyllabusSection
-          fullStackCont={true}
-          formotp={true}
-          fullstackADS={true}
-          desc="Learnbay's Software Development Course in Cloud & DevOps is led by experts from top MNCs, offering real-world projects and case studies."
-          Hours="250+ Hours"
-          Projects="12+ projects"
-          Module0="Programming Fundamentals"
-          Module1="Basic & Advanced DSA"
-          Module2="System Design"
-          Module3="Cloud & DevOps"
-        />
-        <ProgramFee
-          Fee={BlockchainCourseData[0].ProgramFee.Fee}
-          Emi={BlockchainCourseData[0].ProgramFee.Emi}
-          formotp={true}
-          fullstackADS={true}
-          CourseFeeAndFinancing="Cloud & DevOps Course Fee & Financing"
-          para="We are dedicated to make our Software Development Course with Specialization in Cloud & DevOps accessible.  We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
-          dataScience={true}
-        />
-        <Batch
-          formotp={true}
-          fullstackADS={true}
-          syllabusDesc={BlockchainCourseData[0].syllabusDesc}
-          syllabus={BlockchainCourseData[0].Batch}
-          CourseFeeHead="Cloud & DevOps Course: Batch Details"
-          CourseFeePara={BlockchainCourseData[0].BatchCourses.CourseFeePara}
-          CourseFeelist1={BlockchainCourseData[0].BatchCourses.CourseFeelist1}
-          CourseFeelist2={BlockchainCourseData[0].BatchCourses.CourseFeelist2}
-          CourseFeelist3={BlockchainCourseData[0].BatchCourses.CourseFeelist3}
-          CourseFeelist4={BlockchainCourseData[0].BatchCourses.CourseFeelist4}
-          CourseFeelist5={BlockchainCourseData[0].BatchCourses.CourseFeelist5}
-        />
-        <Testimonial formotp={true} fullstackADS={true} />
-        <FAQNew
-          FaqDatas={FaqDataDevops}
-          DomainFaqDatas={DomainFaqDataDevops}
-          PaymentFaqDatas={PaymentFaqDataDevops}
-          CapstoneFaqDatas={CapstoneFaqDataDevops}
-          jobFaqDatas={jobFaqDataDevops}
-          MentorshipFaqDatas={MentorshipFaqDataDevops}
-          SupportFaqDatas={SupportFaqDataDevops}
-        />
-        <SeventhSection fullStackCont={true} />
-        <EightSection formotp={true} fullstackADS={true} />
-      </main>
-    </div>
-<script
+        </Head>
+        <main>
+          {" "}
+          <Navbar
+            popup={true}
+            formotp={true}
+            fullstackADS={true}
+            brochureButton={true}
+          />
+          <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+            <div className="leftPopup">
+              <div className="whiteP" />
+            </div>
+            <div className="RightPopup">
+              <h5>Apply For Counselling</h5>
+              <FormOtp setTrigger={setPopups} popup={true} />
+            </div>
+          </Popup>
+          <HeroSection
+            formotp={true}
+            fullstackADS={true}
+            fullStackCont={true}
+            deskTopPara="Build the future cloud & transform your tech skills"
+            h1="Software Development Course "
+            hSpan="with Specialization in Cloud & DevOps"
+            para="Work on 12+ real-time projects & get hired at top MNCs with a salary of up to 18LPA, only for Working Professionals."
+            sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/fssd-generic.jpeg"
+          />
+          <SecondSection
+            fullStackCont={true}
+            p1="12+ Practical"
+            p11="Project Experience"
+            p2="Top Product"
+            p22="Based Interviews"
+            p3="Industry"
+            p33="Certification"
+            p4="1:1 Mentorship"
+            p44="Dedicated Program"
+          />
+          <ThirdSection
+            formotp={true}
+            fullstackADS={true}
+            fullStackCont={true}
+          />
+          <FourthSection
+            fullStackCont={true}
+            h1="Program Highlights"
+            img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
+            img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/weekend+and+weekday+batch.jpg"
+            img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/extra+dout+clearance+sessionn.jpg"
+            img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
+          />
+          <SyllabusSection
+            fullStackCont={true}
+            formotp={true}
+            fullstackADS={true}
+            desc="Learnbay's Software Development Course in Cloud & DevOps is led by experts from top MNCs, offering real-world projects and case studies."
+            Hours="250+ Hours"
+            Projects="12+ projects"
+            Module0="Programming Fundamentals"
+            Module1="Basic & Advanced DSA"
+            Module2="System Design"
+            Module3="Cloud & DevOps"
+          />
+          <ProgramFee
+            Fee={BlockchainCourseData[0].ProgramFee.Fee}
+            Emi={BlockchainCourseData[0].ProgramFee.Emi}
+            formotp={true}
+            fullstackADS={true}
+            CourseFeeAndFinancing="Cloud & DevOps Course Fee & Financing"
+            para="We are dedicated to make our Software Development Course with Specialization in Cloud & DevOps accessible.  We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
+            dataScience={true}
+          />
+          <Batch
+            formotp={true}
+            fullstackADS={true}
+            syllabusDesc={BlockchainCourseData[0].syllabusDesc}
+            syllabus={BlockchainCourseData[0].Batch}
+            CourseFeeHead="Cloud & DevOps Course: Batch Details"
+            CourseFeePara={BlockchainCourseData[0].BatchCourses.CourseFeePara}
+            CourseFeelist1={BlockchainCourseData[0].BatchCourses.CourseFeelist1}
+            CourseFeelist2={BlockchainCourseData[0].BatchCourses.CourseFeelist2}
+            CourseFeelist3={BlockchainCourseData[0].BatchCourses.CourseFeelist3}
+            CourseFeelist4={BlockchainCourseData[0].BatchCourses.CourseFeelist4}
+            CourseFeelist5={BlockchainCourseData[0].BatchCourses.CourseFeelist5}
+          />
+          <Testimonial formotp={true} fullstackADS={true} />
+          <FAQNew
+            FaqDatas={FaqDataDevops}
+            DomainFaqDatas={DomainFaqDataDevops}
+            PaymentFaqDatas={PaymentFaqDataDevops}
+            CapstoneFaqDatas={CapstoneFaqDataDevops}
+            jobFaqDatas={jobFaqDataDevops}
+            MentorshipFaqDatas={MentorshipFaqDataDevops}
+            SupportFaqDatas={SupportFaqDataDevops}
+          />
+          <SeventhSection fullStackCont={true} />
+          <EightSection formotp={true} fullstackADS={true} />
+        </main>
+      </div>
+      <script
         dangerouslySetInnerHTML={{
           __html: `(function (botId) {
             var s = document.createElement("script");
