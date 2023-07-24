@@ -20,25 +20,26 @@ export default function Home() {
     setPopups(true);
   };
   return (
-    <div>
-      <Head>
-        <title>Online Data Science Course</title>
-        <meta
-          name="description"
-          content="Want to earn salary hike of 250% ? Our Data Science course 
+    <>
+      <div>
+        <Head>
+          <title>Online Data Science Course</title>
+          <meta
+            name="description"
+            content="Want to earn salary hike of 250% ? Our Data Science course 
  will boost salary. Apply Now!"
-        />
+          />
 
-        <meta
-          name="Keywords"
-          content="data science course, data science course for working professional, data science course fee, data science course duration, data science course syllabus, data science online course"
-        />
+          <meta
+            name="Keywords"
+            content="data science course, data science course for working professional, data science course fee, data science course duration, data science course syllabus, data science online course"
+          />
 
-        <link
-          rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
-        />
-        <script
+          <link
+            rel="icon"
+            href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          />
+          {/* <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
             var s = document.createElement('script');
@@ -75,48 +76,67 @@ export default function Home() {
             var x = document.getElementsByTagName('script')[0];
             x.parentNode.insertBefore(s, x);`,
           }}
-        />
-        {/* <script
+        /> */}
+          {/* <script
           src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
           async
         ></script> */}
-      </Head>
-      <main>
-        {" "}
-        <Navbar popup={true} brochureButton={true} />
-        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-          <div className="leftPopup">
-            <div className="whiteP" />
-          </div>
-          <div className="RightPopup">
-            <h5>Apply For Counselling</h5>
-            <Form popup={true} setTrigger={setPopups} />
-          </div>
-        </Popup>
-        <HeroSection
-          deskTopPara="Get Certified & Move Towards Dream Job"
-          h1="#1 Domain Specialised Certification Program For "
-          hSpan="Working Professionals"
-          para="Use your domain expertise to build a meaningful career. Crack interview in top product based MNCs with confidence."
-          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/data+science+and+ai.jpg"
-        />
-        <SecondSection
-          p1="IBM Certified"
-          p11="Capstone Projects"
-          p2="5-star"
-          p22="Industry-standard Training"
-          p3="3-year"
-          p33="Subscription Model"
-          p4="1:1 Support"
-          p44="Dedicated Program"
-        />
-        <CourseSection />
-        <ProgramHighlights formCommon={true} />
-        <SliderTab />
-        <Testimonial />
-        <SeventhSection />
-        <EightSection />
-      </main>
-    </div>
+        </Head>
+        <main>
+          {" "}
+          <Navbar popup={true} brochureButton={true} />
+          <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+            <div className="leftPopup">
+              <div className="whiteP" />
+            </div>
+            <div className="RightPopup">
+              <h5>Apply For Counselling</h5>
+              <Form popup={true} setTrigger={setPopups} />
+            </div>
+          </Popup>
+          <HeroSection
+            deskTopPara="Get Certified & Move Towards Dream Job"
+            h1="#1 Domain Specialised Certification Program For "
+            hSpan="Working Professionals"
+            para="Use your domain expertise to build a meaningful career. Crack interview in top product based MNCs with confidence."
+            sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/data+science+and+ai.jpg"
+          />
+          <SecondSection
+            p1="IBM Certified"
+            p11="Capstone Projects"
+            p2="5-star"
+            p22="Industry-standard Training"
+            p3="3-year"
+            p33="Subscription Model"
+            p4="1:1 Support"
+            p44="Dedicated Program"
+          />
+          <CourseSection />
+          <ProgramHighlights formCommon={true} />
+          <SliderTab />
+          <Testimonial />
+          <SeventhSection />
+          <EightSection />
+        </main>
+      </div>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `(function (botId) {
+            var s = document.createElement("script");
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = "https://app.chat360.io/widget/chatbox/common_scripts/script.js";
+            s.onload = function () {
+              window.loadChat360Bot(botId);
+            };
+            s.onerror = function (err) {
+              console.error(err);
+            };
+            document.body.appendChild(s);
+          })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
+      `,
+        }}
+      />
+    </>
   );
 }

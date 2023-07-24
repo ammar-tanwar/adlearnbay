@@ -8,6 +8,7 @@ import FormOtp from "../Components/FormOtp/FormOtp";
 
 function Counselling() {
   return (
+    <>
     <div className={styles.container}>
       <Head>
         <title>Learnbay Courses</title>
@@ -16,7 +17,7 @@ function Counselling() {
           rel="icon"
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
-        <script
+        {/* <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
             var s = document.createElement('script');
@@ -54,7 +55,7 @@ function Counselling() {
             var x = document.getElementsByTagName('script')[0];
             x.parentNode.insertBefore(s, x);`,
           }}
-        />
+        /> */}
         {/* <script
           src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
           async
@@ -69,6 +70,25 @@ function Counselling() {
       </div>
       <Footer />
     </div>
+    <script
+        dangerouslySetInnerHTML={{
+          __html: `(function (botId) {
+            var s = document.createElement("script");
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = "https://app.chat360.io/widget/chatbox/common_scripts/script.js";
+            s.onload = function () {
+              window.loadChat360Bot(botId);
+            };
+            s.onerror = function (err) {
+              console.error(err);
+            };
+            document.body.appendChild(s);
+          })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
+      `,
+        }}
+      />
+    </>
   );
 }
 

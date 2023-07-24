@@ -25,15 +25,16 @@ function Counselling() {
     setShowMe(!showMe);
   }
   return (
-    <div>
-      <Head>
-        <title>Learnbay Courses</title>
-        <meta name="description" content="Learnbay Courses" />
-        <link
-          rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
-        />
-        <script
+    <>
+      <div>
+        <Head>
+          <title>Learnbay Courses</title>
+          <meta name="description" content="Learnbay Courses" />
+          <link
+            rel="icon"
+            href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          />
+          {/* <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
                 var s = document.createElement('script');
@@ -70,44 +71,121 @@ function Counselling() {
                 var x = document.getElementsByTagName('script')[0];
                 x.parentNode.insertBefore(s, x);`,
           }}
-        />
-        {/* <script
+        /> */}
+          {/* <script
           src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
           async
         ></script> */}
-      </Head>
-      <Navbar radio={true} />
+        </Head>
+        <Navbar radio={true} />
 
-      {mobile ? (
-        <div className={styles.formq}>
-          <div className={styles.forml}>
-            <div className={styles.div1}>LEARNBAY</div>
-            <h1>Free Profile Review and Career Counseling | By Experts</h1>
-            <div className={styles.timeDetail}>
-              <p>
-                <MdWatchLater /> 15-20 &nbsp; Mins
-              </p>
-              <p>
-                {" "}
-                <MdLocationPin />
-                Telephonic Discussion
-              </p>
+        {mobile ? (
+          <div className={styles.formq}>
+            <div className={styles.forml}>
+              <div className={styles.div1}>LEARNBAY</div>
+              <h1>Free Profile Review and Career Counseling | By Experts</h1>
+              <div className={styles.timeDetail}>
+                <p>
+                  <MdWatchLater /> 15-20 &nbsp; Mins
+                </p>
+                <p>
+                  {" "}
+                  <MdLocationPin />
+                  Telephonic Discussion
+                </p>
+              </div>
+
+              <div>
+                <p>
+                  Book a session with a career counsellor or course advisor to
+                  go through your requirements in further detail.
+                </p>
+                <p>
+                  <strong>TOPICS COVERED IN DISCUSSION:</strong>
+                </p>
+
+                <div
+                  style={{
+                    display: showMe ? "block" : "none",
+                  }}
+                >
+                  <ul>
+                    <li>
+                      Can a candidate from the non-programming and non-technical
+                      domain learn data science?
+                    </li>
+                    <li>Will your previous domain experience utilized?</li>
+                    <li>Course Curriculum</li>
+                    <li>Real-Time Projects List</li>
+                    <li>
+                      How to change the domain and whether your profile is
+                      suitable for data science?
+                    </li>
+                    <li>Career Options in the data science domain</li>
+                    <li>Placement Assistance and Job referrals </li>
+                  </ul>
+
+                  <p>
+                    <strong>Minimum Duration:</strong>&nbsp;15 to 20 minutes.
+                  </p>
+                  <p>
+                    Your queries and doubts will be answered through this
+                    session with a professional.
+                  </p>
+                  <p>Thanks,</p>
+                  <p>
+                    <strong>Team Learnbay</strong>
+                  </p>
+                </div>
+              </div>
+
+              <a
+                className={styles.btnout}
+                style={{ marginTop: "20px" }}
+                onClick={toggle}
+              >
+                {showMe ? (
+                  <span style={{ color: "#0070f3" }}>
+                    Show less
+                    <FaArrowUp style={{ marginLeft: "10px" }} />
+                  </span>
+                ) : (
+                  <span style={{ color: "#0070f3" }}>
+                    Show more
+                    <FaArrowDown style={{ marginLeft: "10px" }} />
+                  </span>
+                )}
+              </a>
             </div>
 
-            <div>
-              <p>
-                Book a session with a career counsellor or course advisor to go
-                through your requirements in further detail.
-              </p>
-              <p>
-                <strong>TOPICS COVERED IN DISCUSSION:</strong>
-              </p>
+            <div className={styles.formr}>
+              <Form />
+            </div>
+          </div>
+        ) : (
+          <div className={styles.formq}>
+            <div className={styles.forml}>
+              <div className={styles.div1}>LEARNBAY</div>
+              <h1>Free Profile Review and Career Counseling | By Experts</h1>
+              <div className={styles.timeDetail}>
+                <p>
+                  <MdWatchLater /> 15-20 &nbsp; Mins
+                </p>
+                <p>
+                  {" "}
+                  <MdLocationPin />
+                  Telephonic Discussion
+                </p>
+              </div>
 
-              <div
-                style={{
-                  display: showMe ? "block" : "none",
-                }}
-              >
+              <div>
+                <p>
+                  Book a session with a career counsellor or course advisor to
+                  go through your requirements in further detail.
+                </p>
+                <p>
+                  <strong>TOPICS COVERED IN DISCUSSION:</strong>
+                </p>
                 <ul>
                   <li>
                     Can a candidate from the non-programming and non-technical
@@ -123,7 +201,6 @@ function Counselling() {
                   <li>Career Options in the data science domain</li>
                   <li>Placement Assistance and Job referrals </li>
                 </ul>
-
                 <p>
                   <strong>Minimum Duration:</strong>&nbsp;15 to 20 minutes.
                 </p>
@@ -138,90 +215,33 @@ function Counselling() {
               </div>
             </div>
 
-            <a
-              className={styles.btnout}
-              style={{ marginTop: "20px" }}
-              onClick={toggle}
-            >
-              {showMe ? (
-                <span style={{ color: "#0070f3" }}>
-                  Show less
-                  <FaArrowUp style={{ marginLeft: "10px" }} />
-                </span>
-              ) : (
-                <span style={{ color: "#0070f3" }}>
-                  Show more
-                  <FaArrowDown style={{ marginLeft: "10px" }} />
-                </span>
-              )}
-            </a>
-          </div>
-
-          <div className={styles.formr}>
-            <Form />
-          </div>
-        </div>
-      ) : (
-        <div className={styles.formq}>
-          <div className={styles.forml}>
-            <div className={styles.div1}>LEARNBAY</div>
-            <h1>Free Profile Review and Career Counseling | By Experts</h1>
-            <div className={styles.timeDetail}>
-              <p>
-                <MdWatchLater /> 15-20 &nbsp; Mins
-              </p>
-              <p>
-                {" "}
-                <MdLocationPin />
-                Telephonic Discussion
-              </p>
-            </div>
-
-            <div>
-              <p>
-                Book a session with a career counsellor or course advisor to go
-                through your requirements in further detail.
-              </p>
-              <p>
-                <strong>TOPICS COVERED IN DISCUSSION:</strong>
-              </p>
-              <ul>
-                <li>
-                  Can a candidate from the non-programming and non-technical
-                  domain learn data science?
-                </li>
-                <li>Will your previous domain experience utilized?</li>
-                <li>Course Curriculum</li>
-                <li>Real-Time Projects List</li>
-                <li>
-                  How to change the domain and whether your profile is suitable
-                  for data science?
-                </li>
-                <li>Career Options in the data science domain</li>
-                <li>Placement Assistance and Job referrals </li>
-              </ul>
-              <p>
-                <strong>Minimum Duration:</strong>&nbsp;15 to 20 minutes.
-              </p>
-              <p>
-                Your queries and doubts will be answered through this session
-                with a professional.
-              </p>
-              <p>Thanks,</p>
-              <p>
-                <strong>Team Learnbay</strong>
-              </p>
+            <div className={styles.formr}>
+              <Form />
             </div>
           </div>
+        )}
 
-          <div className={styles.formr}>
-            <Form />
-          </div>
-        </div>
-      )}
-
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `(function (botId) {
+            var s = document.createElement("script");
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = "https://app.chat360.io/widget/chatbox/common_scripts/script.js";
+            s.onload = function () {
+              window.loadChat360Bot(botId);
+            };
+            s.onerror = function (err) {
+              console.error(err);
+            };
+            document.body.appendChild(s);
+          })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
+      `,
+        }}
+      />
+    </>
   );
 }
 

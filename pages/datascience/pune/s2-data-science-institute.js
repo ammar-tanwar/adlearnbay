@@ -21,22 +21,23 @@ export default function Home() {
     setPopups(true);
   };
   return (
-    <div>
-      <Head>
-        <title>Data Science Institue</title>
-        <meta
-          name="description"
-          content="Best data science online institute - Get 100% job assistance with 3 years of course subscription. Apply Now."
-        />
-        <meta
-          name="Keywords"
-          content="Data Science online institute, Data Science institute for working professional, Best data science institute, top data science institute"
-        />
-        <link
-          rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
-        />
-        <script
+    <>
+      <div>
+        <Head>
+          <title>Data Science Institue</title>
+          <meta
+            name="description"
+            content="Best data science online institute - Get 100% job assistance with 3 years of course subscription. Apply Now."
+          />
+          <meta
+            name="Keywords"
+            content="Data Science online institute, Data Science institute for working professional, Best data science institute, top data science institute"
+          />
+          <link
+            rel="icon"
+            href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          />
+          {/* <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
             var s = document.createElement('script');
@@ -74,67 +75,93 @@ export default function Home() {
             var x = document.getElementsByTagName('script')[0];
             x.parentNode.insertBefore(s, x);`,
           }}
-        />
-        {/* <script
+        /> */}
+          {/* <script
           src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
           async
         ></script> */}
-      </Head>
-      <main>
-        {" "}
-        <Navbar popup={true} brochureButton={true} formotp={true} s2dataScience={true} />
-        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-          <div className="leftPopup">
-            <div className="whiteP" />
-          </div>
-          <div className="RightPopup">
-            <h5>Apply For Counselling</h5>
-            <Form popup={true} setTrigger={setPopups} />
-          </div>
-        </Popup>
-        <HeroSection
-          formotp={true} s2dataScience={true}
-          deskTopPara="Choose Specialization over Generalization"
-          h1="Data Science Institute In "
-          hSpan="Pune"
-          para="Successfully transition careers through our courses & real-time capstone projects. 
+        </Head>
+        <main>
+          {" "}
+          <Navbar
+            popup={true}
+            brochureButton={true}
+            formotp={true}
+            s2dataScience={true}
+          />
+          <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+            <div className="leftPopup">
+              <div className="whiteP" />
+            </div>
+            <div className="RightPopup">
+              <h5>Apply For Counselling</h5>
+              <Form popup={true} setTrigger={setPopups} />
+            </div>
+          </Popup>
+          <HeroSection
+            formotp={true}
+            s2dataScience={true}
+            deskTopPara="Choose Specialization over Generalization"
+            h1="Data Science Institute In "
+            hSpan="Pune"
+            para="Successfully transition careers through our courses & real-time capstone projects. 
           All while making your previous work experience count!"
-          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/pune-generic.png"
-        />
-        <SecondSection
-          p1="IBM Certified"
-          p11="Capstone Projects"
-          p2="5-star"
-          p22="Industry-standard Training"
-          p3="3-year"
-          p33="Subscription Model"
-          p4="1:1 Support"
-          p44="Dedicated Program"
-        />
-        <ThirdSection formotp={true} s2dataScience={true} />
-        <FourthSection
-          h1="Program Highlights"
-          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
-          img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/weekend+and+weekday+batch.jpg"
-          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/extra+dout+clearance+sessionn.jpg"
-          img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
-        />
-        <SyllabusSection
-          formotp={true} s2dataScience={true}
-          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our data science Institute feature practical training with real-time projects and case studies."
-          Hours="250+ Hours"
-          Projects="12+ projects"
-          Module0="Preparatory Classes (Programming + Maths)"
-          Module1="Python for Data Science"
-          Module2="Statistics and Machine Learning"
-          Module3="Data Science Course Tools"
-          Module4="Artificial Intelligence Tools"
-        />
-        <SliderTab />
-        <Testimonial formotp={true} s2dataScience={true} />
-        <SeventhSection />
-        <EightSection formotp={true} s2dataScience={true} />
-      </main>
-    </div>
+            sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/pune-generic.png"
+          />
+          <SecondSection
+            p1="IBM Certified"
+            p11="Capstone Projects"
+            p2="5-star"
+            p22="Industry-standard Training"
+            p3="3-year"
+            p33="Subscription Model"
+            p4="1:1 Support"
+            p44="Dedicated Program"
+          />
+          <ThirdSection formotp={true} s2dataScience={true} />
+          <FourthSection
+            h1="Program Highlights"
+            img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
+            img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/weekend+and+weekday+batch.jpg"
+            img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/extra+dout+clearance+sessionn.jpg"
+            img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
+          />
+          <SyllabusSection
+            formotp={true}
+            s2dataScience={true}
+            desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our data science Institute feature practical training with real-time projects and case studies."
+            Hours="250+ Hours"
+            Projects="12+ projects"
+            Module0="Preparatory Classes (Programming + Maths)"
+            Module1="Python for Data Science"
+            Module2="Statistics and Machine Learning"
+            Module3="Data Science Course Tools"
+            Module4="Artificial Intelligence Tools"
+          />
+          <SliderTab />
+          <Testimonial formotp={true} s2dataScience={true} />
+          <SeventhSection />
+          <EightSection formotp={true} s2dataScience={true} />
+        </main>
+      </div>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `(function (botId) {
+            var s = document.createElement("script");
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = "https://app.chat360.io/widget/chatbox/common_scripts/script.js";
+            s.onload = function () {
+              window.loadChat360Bot(botId);
+            };
+            s.onerror = function (err) {
+              console.error(err);
+            };
+            document.body.appendChild(s);
+          })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
+      `,
+        }}
+      />
+    </>
   );
 }
