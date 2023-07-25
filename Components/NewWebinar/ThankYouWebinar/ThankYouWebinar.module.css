@@ -1,0 +1,51 @@
+.container {
+    padding: 50px 300px 0px 300px;
+    justify-content: center;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.author {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    border: 1px solid #00000030;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 40px;
+    padding: 20px;  }
+
+  .pTop {
+    color: #0072BC;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .pBot {
+    font-size: 24px;
+    margin: 0;
+    color: #00000080;
+  }
+
+  .Button button {
+    background-color: #f99600;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin: auto;
+  }
+
+  @media (max-width: 641px) {
+    .container {
+        padding: 20px;
+    }
+    .author {
+        display: grid;
+        gap: 20px;
+    }
+    .author h4 {
+        margin: 10px 0px 20px 0px;
+    }
+  }
