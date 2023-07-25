@@ -1,0 +1,46 @@
+.container {
+  margin-top: 70px;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  background: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/crafting-resume-header.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Button button {
+  background-color: #f99600;
+  color: #fff;
+  font-size: 18px;
+  border: 1px solid #fff;
+  padding: 15px 30px;
+  border-radius: 5px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+  margin-top: 420px;
+}
+
+.Button button:hover {
+  background-color: transparent;
+}
+
+@media (max-width: 641px) {
+  .container {
+    background: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/crafting-resume.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+  }
+  .Button {
+    display: flex;
+    justify-content: center;
+  }
+.Button button {
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin: auto;
+}
+}
