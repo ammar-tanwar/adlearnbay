@@ -48,34 +48,40 @@ const SliderTabs = () => {
               setOneYear(true);
               setNonTech(false);
               setStack(false);
+              setOil(false);
             }}
             className={oneYear ? styles.ActiveSpan : styles.span}
           >
             About this Mastercalss
-            {mobile ? oneYear ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""}
+            {mobile ? (
+              oneYear ? (
+                <BiUpArrowAlt className={styles.iconArrow} />
+              ) : (
+                <BiDownArrowAlt className={styles.iconArrow} />
+              )
+            ) : (
+              ""
+            )}
           </span>
           {oneYear ? (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <p className={styles.para}>
-                  Bookmyshow, one of the most popular movie ticket booking apps,
-                  has built its platform using a well-designed Low Level Design
-                  architecture. LLD has helped them create a user-friendly
-                  interface that efficiently handles high volumes of traffic,
-                  transactions, and user requests.
+                  The perfect job opening can pop up when you least expect it,
+                  so it’s important to have an up-to-date professional resume
+                  ready at a moment’s notice.
                 </p>
 
                 <p className={styles.para}>
-                  Our masterclass will teach you to design a Movie-Ticket
-                  Booking App similar to Bookmyshow, by understanding their LLD
-                  principles, identifying key features, and ensuring optimal
-                  performance, scalability, and security.
+                  Our Resume Building Webinar covers the key tips and techniques
+                  to help you create a winning resume to help you get a step
+                  closer to landing the job you always dreamt of.
                 </p>
 
                 <p className={styles.para}>
-                  Whether you are an experienced developer or a beginner, we
-                  will help you build a successful platform that stands out in
-                  today's competitive market.
+                  Whether you are an experienced professional or a beginner, we
+                  will teach you how to build a resume that will present your
+                  best self to potential employers.
                 </p>
               </div>
             </div>
@@ -88,11 +94,20 @@ const SliderTabs = () => {
               setOneYear(false);
               setNonTech(true);
               setStack(false);
+              setOil(false);
             }}
             className={nonTech ? styles.ActiveSpan : styles.span}
           >
             Topics covered
-            {mobile ? nonTech ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""}
+            {mobile ? (
+              nonTech ? (
+                <BiUpArrowAlt className={styles.iconArrow} />
+              ) : (
+                <BiDownArrowAlt className={styles.iconArrow} />
+              )
+            ) : (
+              ""
+            )}
           </span>
           {nonTech ? (
             <div className={styles.gridPanel}>
@@ -104,23 +119,36 @@ const SliderTabs = () => {
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Building the Foundation of Your Resume
+                    Key Sections of a Resume
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Building the Foundation of Your Resume
+                    Writing Impactful and Effective Resume Content
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Building the Foundation of Your Resume
+                    Design and Layout
+                  </p>
+
+                  <p className={styles.pdivCheck}>
+                    <FaCheck className={styles.faIcon} />
+                    The Power of Keywords and SEO in Resumes
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Building the Foundation of Your Resume
+                    Resume Review and Editing
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Building the Foundation of Your Resume
+                    Essential Resources and Tools for Resume Building
+                  </p>
+                  <p className={styles.pdivCheck}>
+                    <FaCheck className={styles.faIcon} />
+                    Final Review and Tweaks
+                  </p>
+                  <p className={styles.pdivCheck}>
+                    <FaCheck className={styles.faIcon} />
+                    Supplementing Your Resume Cover Letter and Portfolios
                   </p>
                 </div>
               </div>
@@ -134,36 +162,42 @@ const SliderTabs = () => {
               setOneYear(false);
               setNonTech(false);
               setStack(true);
+              setOil(false);
             }}
             className={Stack ? styles.ActiveSpan : styles.span}
           >
             Speaker
-            {mobile ? Stack ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""}
+            {mobile ? (
+              Stack ? (
+                <BiUpArrowAlt className={styles.iconArrow} />
+              ) : (
+                <BiDownArrowAlt className={styles.iconArrow} />
+              )
+            ) : (
+              ""
+            )}
           </span>
           {Stack ? (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
-              <div className={styles.author}>
-                <div className={styles.right}>
-                  <Image
-                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Trainer-Priya.webp"
-                    width="196"
-                    height="230"
-                  />
+                <div className={styles.author}>
+                  <div className={styles.right}>
+                    <Image
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Trainer-Priya.webp"
+                      width="196"
+                      height="230"
+                    />
+                  </div>
+                  <div>
+                    <p className={styles.para}>Speaker</p>
+                    <p className={styles.para}>
+                      <b>Priya Vajpeyi</b>
+                    </p>
+                    <p className={styles.para} style={{ color: "#0072BC" }}>
+                      Renowned influencer | Career Guru
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <p className={styles.para}>Speaker</p>
-                  <p className={styles.para}>
-                    <b>Priya Vajpeyi</b>
-                  </p>
-                  <p className={styles.para} style={{ color: "#0072BC" }}>
-                    Career coach<span className={styles.paraLinked}>
-                      <FaLinkedin className={styles.iconLink} />2,00,000+
-                    </span>{" "}
-                  
-                  </p>
-                </div>
-              </div>
               </div>
             </div>
           ) : (
@@ -175,41 +209,34 @@ const SliderTabs = () => {
               setOneYear(false);
               setNonTech(false);
               setStack(false);
+              setOil(false);
 
               console.log(Retail);
             }}
             className={Retail ? styles.ActiveSpan : styles.span}
           >
             This webinar is for
-            {mobile ? Retail ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""}
+            {mobile ? (
+              Retail ? (
+                <BiUpArrowAlt className={styles.iconArrow} />
+              ) : (
+                <BiDownArrowAlt className={styles.iconArrow} />
+              )
+            ) : (
+              ""
+            )}
           </span>
           {Retail ? (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
-              <div className={styles.icondiv}>
+                <div className={styles.icondiv}>
                   <p className={styles.pdivCheck}>
                     <FaUserAlt className={styles.faIcon} />
-                    Building the Foundation of Your Resume
+                    Anyone on the job market
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaUserAlt className={styles.faIcon} />
-                    Building the Foundation of Your Resume
-                  </p>
-                  <p className={styles.pdivCheck}>
-                    <FaUserAlt className={styles.faIcon} />
-                    Building the Foundation of Your Resume
-                  </p>
-                  <p className={styles.pdivCheck}>
-                    <FaUserAlt className={styles.faIcon} />
-                    Building the Foundation of Your Resume
-                  </p>
-                  <p className={styles.pdivCheck}>
-                    <FaUserAlt className={styles.faIcon} />
-                    Building the Foundation of Your Resume
-                  </p>
-                  <p className={styles.pdivCheck}>
-                    <FaUserAlt className={styles.faIcon} />
-                    Building the Foundation of Your Resume
+                    Anyone looking to create a compelling resume
                   </p>
                 </div>
               </div>
@@ -217,17 +244,45 @@ const SliderTabs = () => {
           ) : (
             ""
           )}
+          <span
+            onClick={() => {
+              setRetail(false);
+              setOneYear(false);
+              setNonTech(false);
+              setStack(false);
+              setOil(true);
+            }}
+            className={Oil ? styles.ActiveSpan : styles.span}
+          >
+            What you will get
+            {mobile ? (
+              Retail ? (
+                <BiUpArrowAlt className={styles.iconArrow} />
+              ) : (
+                <BiDownArrowAlt className={styles.iconArrow} />
+              )
+            ) : (
+              ""
+            )}
+          </span>
+          {/* {Oil ? (
+            <section className={styles.container}>
+              <div className={styles.divInner}>100% LIVE CLASS</div>
+              <div className={styles.divInner}>Q & A SESSION</div>
+              <div className={styles.divInner}>PARTICIPATION CERTIFICATE</div>
+            </section>
+          ) : (
+            ""
+          )} */}
         </div>
         <div className={styles.middlePanel}>
           {oneYear ? (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <p className={styles.para}>
-                  Bookmyshow, one of the most popular movie ticket booking apps,
-                  has built its platform using a well-designed Low Level Design
-                  architecture. LLD has helped them create a user-friendly
-                  interface that efficiently handles high volumes of traffic,
-                  transactions, and user requests.
+                  The perfect job opening can pop up when you least expect it,
+                  so it’s important to have an up-to-date professional resume
+                  ready at a moment’s notice.
                 </p>
 
                 <p className={styles.para}>
@@ -257,23 +312,36 @@ const SliderTabs = () => {
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Building the Foundation of Your Resume
+                    Key Sections of a Resume
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Building the Foundation of Your Resume
+                    Writing Impactful and Effective Resume Content
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Building the Foundation of Your Resume
+                    Design and Layout
+                  </p>
+
+                  <p className={styles.pdivCheck}>
+                    <FaCheck className={styles.faIcon} />
+                    The Power of Keywords and SEO in Resumes
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Building the Foundation of Your Resume
+                    Resume Review and Editing
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Building the Foundation of Your Resume
+                    Essential Resources and Tools for Resume Building
+                  </p>
+                  <p className={styles.pdivCheck}>
+                    <FaCheck className={styles.faIcon} />
+                    Final Review and Tweaks
+                  </p>
+                  <p className={styles.pdivCheck}>
+                    <FaCheck className={styles.faIcon} />
+                    Supplementing Your Resume Cover Letter and Portfolios
                   </p>
                 </div>
               </div>
@@ -297,11 +365,7 @@ const SliderTabs = () => {
                     <b>Priya Vajpeyi</b>
                   </p>
                   <p className={styles.para} style={{ color: "#0072BC" }}>
-                    Career coach 
-                    <span>
-                      <FaLinkedin style={{ marginBottom: "-10px" }} />
-                    </span>{" "}
-                    2,00,000+
+                    Renowned influencer | Career Guru
                   </p>
                 </div>
               </div>
@@ -312,30 +376,14 @@ const SliderTabs = () => {
           {Retail ? (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
-              <div className={styles.icondiv}>
+                <div className={styles.icondiv}>
                   <p className={styles.pdivCheck}>
                     <FaUserAlt className={styles.faIcon} />
-                    Building the Foundation of Your Resume
+                    Anyone on the job market
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaUserAlt className={styles.faIcon} />
-                    Building the Foundation of Your Resume
-                  </p>
-                  <p className={styles.pdivCheck}>
-                    <FaUserAlt className={styles.faIcon} />
-                    Building the Foundation of Your Resume
-                  </p>
-                  <p className={styles.pdivCheck}>
-                    <FaUserAlt className={styles.faIcon} />
-                    Building the Foundation of Your Resume
-                  </p>
-                  <p className={styles.pdivCheck}>
-                    <FaUserAlt className={styles.faIcon} />
-                    Building the Foundation of Your Resume
-                  </p>
-                  <p className={styles.pdivCheck}>
-                    <FaUserAlt className={styles.faIcon} />
-                    Building the Foundation of Your Resume
+                    Anyone looking to create a compelling resume
                   </p>
                 </div>
               </div>
@@ -343,10 +391,19 @@ const SliderTabs = () => {
           ) : (
             ""
           )}
+          {Oil ? (
+            <section className={styles.containerBottom}>
+              <div className={styles.divInner}>100% LIVE CLASS</div>
+              <div className={styles.divInner}>Q & A SESSION</div>
+              <div className={styles.divInner}>PARTICIPATION CERTIFICATE</div>
+            </section>
+          ) : (
+            ""
+          )}
+        </div>
       </div>
     </div>
-    </div>
-    );
+  );
 };
 
 export default SliderTabs;
