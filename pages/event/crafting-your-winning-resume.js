@@ -41,7 +41,7 @@ export default function DataScienceEvent() {
       <Navbar event={true} eventDateInfo={true} formotp={true} />
       <FirstSection />
       <SliderTabs />
-      <BottomSection />
+      {/* <BottomSection /> */}
     </div>
   );
 }

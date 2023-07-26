@@ -1,5 +1,5 @@
 .Course {
-  margin: 70px 0px 60px 0px;
+  margin: 40px 0px 30px 0px;
   padding: 0px 100px;
 }
 .icondiv {
@@ -17,7 +17,8 @@
   align-items: center;
 }
 .pdivCheck {
-  display: flex;
+  display: grid;
+  grid-template-columns: 5% 92%;
   gap: 10px;
   margin: 10px 0px;
   font-size: 18px;
@@ -186,6 +187,39 @@
 
   color: #6c6c6c;
 }
+.iconArrow {
+  font-size: 24px;
+}
+
+.containerBottom {
+  padding: 60px 100px;
+  border: 1px solid #00000030;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+.divInner {
+  border-radius: 6px;
+background: #0072bc14;
+  padding: 30px 50px;
+  color: #0072BC;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divInner:nth-child(2) {
+background: rgba(249, 150, 0, 0.10);
+color: #F99600;
+}
 @media (max-width: 1281px) {
   .Course {
     margin-top: 70px;
@@ -207,8 +241,8 @@
 @media (max-width: 481px) {
   .Course {
     padding: 0 20px;
-    margin-top: 50px;
-    margin-bottom: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
   .icondiv {
     display: block;
@@ -216,6 +250,7 @@
   }
   .para {
     padding: 0px 15px;
+    font-size: 17px;
   }
   .Course h2 {
     font-size: 24px;
@@ -243,7 +278,7 @@
     gap: 10px;
   }
   .listPanel span {
-    font-size: 16px;
+    font-size: 18px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -303,4 +338,14 @@
   .iconLink {
 margin-top: -10px;
   }
+  .containerBottom {
+    padding: 20px;
+    margin: 20px 0px 0px;
+    grid-template-columns: 100%;
+    gap: 20px;
+}
+.divInner {
+    padding: 20px 0px;
+    font-size: 18px;
+}
 }
