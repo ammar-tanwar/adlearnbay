@@ -28,26 +28,26 @@ export default function Home() {
     setPopups(true);
   };
   return (
-<>
-    <div>
-      <Head>
-        <title>Data Science course - Learnbay</title>
-        <meta
-          name="description"
-          content="Advance certification online data science course with 100% placement assistance 
+    <>
+      <div>
+        <Head>
+          <title>Data Science course - Learnbay</title>
+          <meta
+            name="description"
+            content="Advance certification online data science course with 100% placement assistance 
         and get 1:1 Guaranteed interview calls, 12+ Real-time projects, 1+ Capstone 
         projects, 2 years of course subscription ,Lifetime Access to recorded classes and 
         24/7 Learner’s support."
-        />
-        <meta
-          name="Keywords"
-          content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee"
-        />
-        <link
-          rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
-        />
-        <script
+          />
+          <meta
+            name="Keywords"
+            content="data science course certification, data science online course, data science training, data science course for working professional, data science institute, data science course, data science course duration, data science course fee"
+          />
+          <link
+            rel="icon"
+            href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          />
+          {/* <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
             var s = document.createElement('script');
@@ -84,140 +84,140 @@ export default function Home() {
             var x = document.getElementsByTagName('script')[0];
             x.parentNode.insertBefore(s, x);`,
           }}
-        />
-        {/* <script
+        /> */}
+          {/* <script
           src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
           async
         ></script> */}
-      </Head>
-      <main>
-        {" "}
-        <Navbar popup={true} dataScience={true} />
-        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-          <div className="leftPopup">
-            <div className="whiteP" />
-          </div>
-          <div className="RightPopup">
-            <h5>Apply For Counselling</h5>
-            {/* <p>Fill the below Details to get started</p> */}
+        </Head>
+        <main>
+          {" "}
+          <Navbar popup={true} dataScience={true} />
+          <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+            <div className="leftPopup">
+              <div className="whiteP" />
+            </div>
+            <div className="RightPopup">
+              <h5>Apply For Counselling</h5>
+              {/* <p>Fill the below Details to get started</p> */}
 
-            <Form popup={true} setTrigger={setPopups} dataScience={true} />
+              <Form popup={true} setTrigger={setPopups} dataScience={true} />
+            </div>
+          </Popup>
+          <FirstSection
+            dataScience={true}
+            deskTopPara="Choose Specialization over Generalization"
+            mTopPara="Choose Specialization over Generalization"
+            mTitle="Advanced Data Science and AI Program with"
+            spanMTitleText="Domain Specialization"
+            title="Advanced Data Science and AI Program"
+            spanTitleText="with Domain Specialization"
+            desc="With new capstone projects, learn how to apply your previous domain expertise to make a successful transition."
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ADSAI.png"
+            width="900"
+            height="762"
+            alt="data science course"
+            srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
+          />
+          <div className={styles.program}>
+            <ProgramInfo
+              p1={DataScienceCourseData[0].ProgramInfo.p1}
+              p11={DataScienceCourseData[0].ProgramInfo.p11}
+              p2={DataScienceCourseData[0].ProgramInfo.p2}
+              p22={DataScienceCourseData[0].ProgramInfo.p22}
+              p3={DataScienceCourseData[0].ProgramInfo.p3}
+              p33={DataScienceCourseData[0].ProgramInfo.p33}
+              p4={DataScienceCourseData[0].ProgramInfo.p4}
+              p44={DataScienceCourseData[0].ProgramInfo.p44}
+            />
           </div>
-        </Popup>
-        <FirstSection
-          dataScience={true}
-          deskTopPara="Choose Specialization over Generalization"
-          mTopPara="Choose Specialization over Generalization"
-          mTitle="Advanced Data Science and AI Program with"
-          spanMTitleText="Domain Specialization"
-          title="Advanced Data Science and AI Program"
-          spanTitleText="with Domain Specialization"
-          desc="With new capstone projects, learn how to apply your previous domain expertise to make a successful transition."
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ADSAI.png"
-          width="900"
-          height="762"
-          alt="data science course"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
-        />
-        <div className={styles.program}>
-          <ProgramInfo
-            p1={DataScienceCourseData[0].ProgramInfo.p1}
-            p11={DataScienceCourseData[0].ProgramInfo.p11}
-            p2={DataScienceCourseData[0].ProgramInfo.p2}
-            p22={DataScienceCourseData[0].ProgramInfo.p22}
-            p3={DataScienceCourseData[0].ProgramInfo.p3}
-            p33={DataScienceCourseData[0].ProgramInfo.p33}
-            p4={DataScienceCourseData[0].ProgramInfo.p4}
-            p44={DataScienceCourseData[0].ProgramInfo.p44}
+          <div className={styles.Feature} id="Feature">
+            <BoxShape
+              title="Why Enroll In This Program?"
+              Box1h5="1-on-1 Dedication"
+              box1desc="Live interactive session with expert for every individual"
+              Box2h5="Assured Interview Call"
+              box2desc="Get job referrals powered by 250+ hiring partners"
+              Box3h5="Premium Mentoring"
+              box3desc="Get professionally trained from top product based MNCs and MNC experts"
+              Box4h5="Crafted for professional"
+              box4desc="Prioritize growth and salary hike with in-demand skillset"
+            />
+          </div>
+          <DomainFaq FaqData={DomainFaqCourseData1} />
+          <CourseReview
+            p1="Working at HCL"
+            p2=" Working at TCS"
+            p3="Working at Capgemini"
           />
-        </div>
-        <div className={styles.Feature} id="Feature">
-          <BoxShape
-            title="Why Enroll In This Program?"
-            Box1h5="1-on-1 Dedication"
-            box1desc="Live interactive session with expert for every individual"
-            Box2h5="Assured Interview Call"
-            box2desc="Get job referrals powered by 250+ hiring partners"
-            Box3h5="Premium Mentoring"
-            box3desc="Get professionally trained from top product based MNCs and MNC experts"
-            Box4h5="Crafted for professional"
-            box4desc="Prioritize growth and salary hike with in-demand skillset"
+          <Certificate H4="Data Science Certification Program" />
+          <SyllabusNew
+            dataScience={true}
+            syllabus={DataScienceCourseData[0].syllabus}
+            syllabusDesc={DataScienceCourseData[0].syllabusDesc}
+            popupHead="Download Course Brochure"
+            srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
+            hours="250+ Hours"
+            project="12+ Real Time"
           />
-        </div>
-        <DomainFaq FaqData={DomainFaqCourseData1} />
-        <CourseReview
-          p1="Working at HCL"
-          p2=" Working at TCS"
-          p3="Working at Capgemini"
-        />
-        <Certificate H4="Data Science Certification Program" />
-        <SyllabusNew
-          dataScience={true}
-          syllabus={DataScienceCourseData[0].syllabus}
-          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
-          popupHead="Download Course Brochure"
-          srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
-          hours="250+ Hours"
-          project="12+ Real Time"
-        />
-        <OurExpert
-          H5="Tools Covered"
-          img1={DataScienceCourseData[0].OurExpert.img1}
-          img2={DataScienceCourseData[0].OurExpert.img2}
-          img3={DataScienceCourseData[0].OurExpert.img3}
-          img4={DataScienceCourseData[0].OurExpert.img4}
-          img5={DataScienceCourseData[0].OurExpert.img5}
-          img6={DataScienceCourseData[0].OurExpert.img6}
-          img7={DataScienceCourseData[0].OurExpert.img7}
-          img8={DataScienceCourseData[0].OurExpert.img8}
-          img9={DataScienceCourseData[0].OurExpert.img9}
-          img10={DataScienceCourseData[0].OurExpert.img10}
-          img11={DataScienceCourseData[0].OurExpert.img11}
-          img12={DataScienceCourseData[0].OurExpert.img12}
-          img13={DataScienceCourseData[0].OurExpert.img13}
-          img14={DataScienceCourseData[0].OurExpert.img14}
-          img15={DataScienceCourseData[0].OurExpert.img15}
-          img16={DataScienceCourseData[0].OurExpert.img16}
-          img17={DataScienceCourseData[0].OurExpert.img17}
-          img18={DataScienceCourseData[0].OurExpert.img18}
-          img19={DataScienceCourseData[0].OurExpert.img19}
-          img21={DataScienceCourseData[0].OurExpert.img21}
-          img22={DataScienceCourseData[0].OurExpert.img22}
-          img23={DataScienceCourseData[0].OurExpert.img23}
-          img20={DataScienceCourseData[0].OurExpert.img20}
-        />
-        <ProgramFee
-          Fee={DataScienceCourseData[0].ProgramFee.Fee}
-          Emi={DataScienceCourseData[0].ProgramFee.Emi}
-          CourseFeeAndFinancing="Program Fee & Financing"
-          para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."
-          dataScience={true}
-        />
-        <SliderTab />
-        <div className={styles.ProjectWrapper} id="project">
-          <Project
-            popupHead={DataScienceCourseData[0].Project.popupHead}
-            project={DataScienceCourseData[0].Project.project}
-            domain={DataScienceCourseData[0].Project.domain}
-            projectTitle={DataScienceCourseData[0].Project.projectTitle}
+          <OurExpert
+            H5="Tools Covered"
+            img1={DataScienceCourseData[0].OurExpert.img1}
+            img2={DataScienceCourseData[0].OurExpert.img2}
+            img3={DataScienceCourseData[0].OurExpert.img3}
+            img4={DataScienceCourseData[0].OurExpert.img4}
+            img5={DataScienceCourseData[0].OurExpert.img5}
+            img6={DataScienceCourseData[0].OurExpert.img6}
+            img7={DataScienceCourseData[0].OurExpert.img7}
+            img8={DataScienceCourseData[0].OurExpert.img8}
+            img9={DataScienceCourseData[0].OurExpert.img9}
+            img10={DataScienceCourseData[0].OurExpert.img10}
+            img11={DataScienceCourseData[0].OurExpert.img11}
+            img12={DataScienceCourseData[0].OurExpert.img12}
+            img13={DataScienceCourseData[0].OurExpert.img13}
+            img14={DataScienceCourseData[0].OurExpert.img14}
+            img15={DataScienceCourseData[0].OurExpert.img15}
+            img16={DataScienceCourseData[0].OurExpert.img16}
+            img17={DataScienceCourseData[0].OurExpert.img17}
+            img18={DataScienceCourseData[0].OurExpert.img18}
+            img19={DataScienceCourseData[0].OurExpert.img19}
+            img21={DataScienceCourseData[0].OurExpert.img21}
+            img22={DataScienceCourseData[0].OurExpert.img22}
+            img23={DataScienceCourseData[0].OurExpert.img23}
+            img20={DataScienceCourseData[0].OurExpert.img20}
           />
-        </div>
-        <CourseFee
-          syllabusDesc={DataScienceCourseData[0].syllabusDesc}
-          syllabus={DataScienceCourseData[0].Batch}
-          CourseFeeHead="Advanced Data Science & AI Program : Batch Details"
-          CourseFeePara="Online Classroom"
-          CourseFeelist1="Online Interactive Classes"
-          CourseFeelist2="Weekend and Weekday Batches"
-          CourseFeelist3="Extra Doubt Clearing Sessions"
-          CourseFeelist4="Multiple Domain Selection Options"
-          CourseFeelist5="Company-based Mock Interviews"
-        />
-        <LearnSupport organicNum={true} />
-        <Footer />
-      </main>
-    </div>
-    {/* <script
+          <ProgramFee
+            Fee={DataScienceCourseData[0].ProgramFee.Fee}
+            Emi={DataScienceCourseData[0].ProgramFee.Emi}
+            CourseFeeAndFinancing="Program Fee & Financing"
+            para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."
+            dataScience={true}
+          />
+          <SliderTab />
+          <div className={styles.ProjectWrapper} id="project">
+            <Project
+              popupHead={DataScienceCourseData[0].Project.popupHead}
+              project={DataScienceCourseData[0].Project.project}
+              domain={DataScienceCourseData[0].Project.domain}
+              projectTitle={DataScienceCourseData[0].Project.projectTitle}
+            />
+          </div>
+          <CourseFee
+            syllabusDesc={DataScienceCourseData[0].syllabusDesc}
+            syllabus={DataScienceCourseData[0].Batch}
+            CourseFeeHead="Advanced Data Science & AI Program : Batch Details"
+            CourseFeePara="Online Classroom"
+            CourseFeelist1="Online Interactive Classes"
+            CourseFeelist2="Weekend and Weekday Batches"
+            CourseFeelist3="Extra Doubt Clearing Sessions"
+            CourseFeelist4="Multiple Domain Selection Options"
+            CourseFeelist5="Company-based Mock Interviews"
+          />
+          <LearnSupport organicNum={true} />
+          <Footer />
+        </main>
+      </div>
+      <script
         dangerouslySetInnerHTML={{
           __html: `(function (botId) {
             var s = document.createElement("script");
@@ -234,7 +234,7 @@ export default function Home() {
           })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
       `,
         }}
-      /> */}
+      />
     </>
   );
 }
