@@ -43,9 +43,9 @@ export default function Home() {
             rel="canonical"
             href="https://www.learnbay.co/business-analytics-certification-course"
           />
-          {/* <script
-          dangerouslySetInnerHTML={{
-            __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
             var s = document.createElement('script');
             s.type = 'text/javascript';
             s.async = true;
@@ -79,12 +79,8 @@ export default function Home() {
             };
             var x = document.getElementsByTagName('script')[0];
             x.parentNode.insertBefore(s, x);`,
-          }}
-        /> */}
-          {/* <script
-          src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
-          async
-        ></script> */}
+            }}
+          />
         </Head>
         <main>
           {" "}
@@ -220,24 +216,6 @@ export default function Home() {
           <Footer />
         </main>
       </div>
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `(function (botId) {
-            var s = document.createElement("script");
-            s.async = true;
-            s.type = 'text/javascript';
-            s.src = "https://app.chat360.io/widget/chatbox/common_scripts/script.js";
-            s.onload = function () {
-              window.loadChat360Bot(botId);
-            };
-            s.onerror = function (err) {
-              console.error(err);
-            };
-            document.body.appendChild(s);
-          })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
-      `,
-        }}
-      />
     </>
   );
 }

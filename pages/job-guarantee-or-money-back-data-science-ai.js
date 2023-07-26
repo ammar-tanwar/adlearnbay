@@ -78,10 +78,6 @@ export default function Home() {
             x.parentNode.insertBefore(s, x);`,
           }}
         />
-        {/* <script
-          src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
-          async
-        ></script> */}
       </Head>
       <main>
         {" "}
