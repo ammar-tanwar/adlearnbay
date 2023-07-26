@@ -180,6 +180,7 @@ function FormOtp({
     router.pathname === "/s2-masters-program" ||
     router.pathname === "/apply-for-counselling-s2" ||
     router.pathname === "/apply-for-counselling-data-science" ||
+    router.pathname === "/datascience/apply-for-counselling-data-science" ||
     router.pathname === "/datascience/s2-apply-for-counselling-data-science" ||
     router.pathname === "/apply-for-counselling" ||
     router.pathname === "/s2-data-science-mis" ||
@@ -828,6 +829,7 @@ function FormOtp({
           router.pathname === "/s2-masters-program" ||
           router.pathname === "/apply-for-counselling-s2" ||
           router.pathname === "/apply-for-counselling-data-science" ||
+          router.pathname === "/datascience/apply-for-counselling-data-science" ||
           router.pathname ===
             "/datascience/s2-apply-for-counselling-data-science" ||
           router.pathname === "/apply-for-counselling" ||
@@ -1406,6 +1408,7 @@ function FormOtp({
             router.pathname === "/s2-masters-program" ||
             router.pathname === "/apply-for-counselling-s2" ||
             router.pathname === "/apply-for-counselling-data-science" ||
+            router.pathname === "/datascience/apply-for-counselling-data-science" ||
             router.pathname ===
               "/datascience/s2-apply-for-counselling-data-science" ||
             router.pathname === "/apply-for-counselling" ||

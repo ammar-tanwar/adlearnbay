@@ -155,6 +155,7 @@ const Form = ({
     router.pathname === "/s2-masters-program" ||
     router.pathname === "/apply-for-counselling-s2" ||
     router.pathname === "/apply-for-counselling-data-science" ||
+    router.pathname === "/datascience/apply-for-counselling-data-science" ||
     router.pathname === "/datascience/s2-apply-for-counselling-data-science" ||
     router.pathname === "/apply-for-counselling" ||
     router.pathname === "/s2-data-science-mis" ||
@@ -435,7 +436,8 @@ const Form = ({
     router.pathname === "/apply-for-counselling-marketing" ||
     router.pathname === "/datascience/apply-for-counselling-marketing" ||
     router.pathname === "/her-career-her-rules" ||
-    router.pathname === "/apply-for-counselling-data-science-marketing" ||
+    router.pathname === "apply-for-counselling-data-science-marketing" ||
+    router.pathname === "/datascience/apply-for-counselling-data-science-marketing" ||
     router.pathname === "/step-up-with-learnbay"
   ) {
     // -==================== Marketing ==========================--------
@@ -835,9 +837,11 @@ const Form = ({
       router.pathname === "/apply-for-counselling-s2" ||
       router.pathname === "/apply-for-counselling-s4" ||
       router.pathname === "/apply-for-counselling-data-science" ||
+      router.pathname === "/datascience/apply-for-counselling-data-science" ||
       router.pathname ===
         "/datascience/s2-apply-for-counselling-data-science" ||
       router.pathname === "/apply-for-counselling-data-science-marketing" ||
+      router.pathname === "/datascience/apply-for-counselling-data-science-marketing" ||
       router.pathname === "/apply-for-counselling-s3" ||
       router.pathname === "/s2-data-science-mis" ||
       router.pathname === "/apply-for-counselling-email-marketing"
