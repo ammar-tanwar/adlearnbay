@@ -279,23 +279,22 @@ const SliderTabs = () => {
           {oneYear ? (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
-                <p className={styles.para}>
+              <p className={styles.para}>
                   The perfect job opening can pop up when you least expect it,
                   so it’s important to have an up-to-date professional resume
                   ready at a moment’s notice.
                 </p>
 
                 <p className={styles.para}>
-                  Our masterclass will teach you to design a Movie-Ticket
-                  Booking App similar to Bookmyshow, by understanding their LLD
-                  principles, identifying key features, and ensuring optimal
-                  performance, scalability, and security.
+                  Our Resume Building Webinar covers the key tips and techniques
+                  to help you create a winning resume to help you get a step
+                  closer to landing the job you always dreamt of.
                 </p>
 
                 <p className={styles.para}>
-                  Whether you are an experienced developer or a beginner, we
-                  will help you build a successful platform that stands out in
-                  today's competitive market.
+                  Whether you are an experienced professional or a beginner, we
+                  will teach you how to build a resume that will present your
+                  best self to potential employers.
                 </p>
               </div>
             </div>
