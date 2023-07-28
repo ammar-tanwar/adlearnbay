@@ -19,6 +19,11 @@ module.exports = {
         destination: '/info-webinar',
         permanent: true,
       },
+      {
+        source: '/thank-you-webinar',
+        destination: '/Thank-you-ds-webinar',
+        permanent: true,
+      },
     ]
   },
 };
