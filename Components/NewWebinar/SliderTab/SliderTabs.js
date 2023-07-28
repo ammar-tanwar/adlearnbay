@@ -215,7 +215,7 @@ const SliderTabs = () => {
             }}
             className={Retail ? styles.ActiveSpan : styles.span}
           >
-            This webinar is for
+            This workshop is for
             {mobile ? (
               Retail ? (
                 <BiUpArrowAlt className={styles.iconArrow} />
@@ -269,7 +269,7 @@ const SliderTabs = () => {
             <section className={styles.container}>
               <div className={styles.divInner}>100% LIVE CLASS</div>
               <div className={styles.divInner}>Q & A SESSION</div>
-              <div className={styles.divInner}>PARTICIPATION CERTIFICATE</div>
+              <div className={styles.divInner}>PROFESSIONAL RESUME TEMPLATEAS</div>
             </section>
           ) : (
             ""
@@ -394,7 +394,7 @@ const SliderTabs = () => {
             <section className={styles.containerBottom}>
               <div className={styles.divInner}>100% LIVE CLASS</div>
               <div className={styles.divInner}>Q & A SESSION</div>
-              <div className={styles.divInner}>PARTICIPATION CERTIFICATE</div>
+              <div className={styles.divInner}>PROFESSIONAL RESUME TEMPLATEAS</div>
             </section>
           ) : (
             ""
