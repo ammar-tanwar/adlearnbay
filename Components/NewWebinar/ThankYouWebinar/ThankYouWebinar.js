@@ -21,7 +21,7 @@ function ThankYouWebinar() {
   return (
     <section className={styles.container}>
       <p className={styles.pTop}>
-        Please wait while we auto-redirect you for webinar registeration...
+        Please wait while we auto-redirect you for Workshop registeration...
       </p>
       <div className={styles.author}>
         <div className={styles.right}>
@@ -34,7 +34,7 @@ function ThankYouWebinar() {
         <div>
           <p className={styles.pBot}>
             <span style={{ color: "red" }}>•</span>{" "}
-            <span style={{ color: "#00DD73" }}>Free</span> Live Webinar
+            <span style={{ color: "#00DD73" }}>Free</span> Live Workshop
           </p>
           <h4>Crafting Your Winning Resume</h4>
           <div className={styles.Button}>
