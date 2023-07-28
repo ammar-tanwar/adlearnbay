@@ -6,7 +6,7 @@ function FirstSection() {
   return (
     <section className={styles.container}>
         <div className={styles.Button}>
-        <Link href="/thank-you-ds-webinar">
+        <Link href="/Thank-you-ds-webinar">
             <button>Register Now</button>
             </Link>
         </div>
