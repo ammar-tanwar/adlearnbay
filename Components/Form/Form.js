@@ -285,6 +285,7 @@ const Form = ({
     router.pathname === "/pune/s2-data-science-training-generic" ||
     router.pathname === "/pune/s2-data-science-institute-generic" ||
     router.pathname === "/pune/s2-machine-learning-training-generic" ||
+    router.pathname === "/generic" ||
     router.pathname === "/pune/s2-data-analytics"
   ) {
     // -==================== Google - S2 END POINT ==========================--------
@@ -402,7 +403,6 @@ const Form = ({
   // -==================== FSD - Ads  END POINT ==========================--------
   if (
     router.pathname === "/fssd-s2" ||
-    router.pathname === "/generic" ||
     router.pathname === "/fullstack/fssd-s2" ||
     router.pathname === "/fullstack/fssd-institute-program-s2" ||
     router.pathname === "/fullstack/fssd-training-s2" ||
