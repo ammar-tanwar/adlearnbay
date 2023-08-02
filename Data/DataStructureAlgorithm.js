@@ -217,12 +217,12 @@ export const DataStructureAlgorithmData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Fri)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 28th July 2023", "Time : 8 AM to 10 AM"],
+                desc: ["Date : 11th August 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -232,12 +232,12 @@ export const DataStructureAlgorithmData = [
       },
       {
         Module0: {
-          title: "Weekend Morning Batch :- (Sat-Sun)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 30th July 2023", "Time : 8:30 AM to 12 PM"],
+                desc: ["Date : 18th August 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -478,12 +478,12 @@ export const BestDataStructureAlgorithmData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Fri)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 28th July 2023", "Time : 8 AM to 10 AM"],
+                desc: ["Date : 11th August 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -493,12 +493,12 @@ export const BestDataStructureAlgorithmData = [
       },
       {
         Module0: {
-          title: "Weekend Morning Batch :- (Sat-Sun)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 30th July 2023", "Time : 8:30 AM to 12 PM"],
+                desc: ["Date : 18th August 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -739,12 +739,12 @@ export const DataStructureCourseData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Fri)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 28th July 2023", "Time : 8 AM to 10 AM"],
+                desc: ["Date : 11th August 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -754,12 +754,12 @@ export const DataStructureCourseData = [
       },
       {
         Module0: {
-          title: "Weekend Morning Batch :- (Sat-Sun)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 30th July 2023", "Time : 8:30 AM to 12 PM"],
+                desc: ["Date : 18th August 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -1001,12 +1001,12 @@ export const DataStructureSyllabusData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Fri)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 28th July 2023", "Time : 8 AM to 10 AM"],
+                desc: ["Date : 11th August 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -1016,12 +1016,12 @@ export const DataStructureSyllabusData = [
       },
       {
         Module0: {
-          title: "Weekend Morning Batch :- (Sat-Sun)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 30th July 2023", "Time : 8:30 AM to 12 PM"],
+                desc: ["Date : 18th August 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -1263,12 +1263,12 @@ export const DataStructureAlgoCourseData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Fri)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 28th July 2023", "Time : 8 AM to 10 AM"],
+                desc: ["Date : 11th August 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -1278,12 +1278,12 @@ export const DataStructureAlgoCourseData = [
       },
       {
         Module0: {
-          title: "Weekend Morning Batch :- (Sat-Sun)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 30th July 2023", "Time : 8:30 AM to 12 PM"],
+                desc: ["Date : 18th August 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
