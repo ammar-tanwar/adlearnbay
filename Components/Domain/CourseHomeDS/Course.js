@@ -160,10 +160,7 @@ const Course = ({ peanutbtrIMG }) => {
                                 style={{ padding: "8px 15px" }}
                               >
                                 Brochure
-                                <FiDownload
-                                  className="bIcon"
-                                  style={{ color: "#2979AD" }}
-                                />
+                                <FiDownload className="bIcon" />
                               </button>
                             </a>
                           </div>

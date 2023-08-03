@@ -337,6 +337,13 @@ function FormOtp({
     // -==================== Webinar = END POINT ==========================--------
   }
 
+    // -==================== Webinar = END POINT ==========================--------
+    if (router.pathname === "/s6") {
+      // -==================== S6 =  END POINT ==========================--------
+      endPoint = "https://getform.io/f/1c8cf486-31ef-4a7f-95b0-45c5f21e7b29";
+      // -==================== S6 = END POINT ==========================--------
+    }
+
   let btnTxt = "Apply for  Counseliing";
   if (event) {
     btnTxt = "Register Now";
@@ -746,6 +753,7 @@ function FormOtp({
           router.pathname === "/dsa-s4" ||
           router.pathname === "/dsa-s5" ||
           router.pathname === "/generic" ||
+          router.pathname === "/s6" ||
           router.pathname === "/fullstack/fswd-s2" ||
           router.pathname === "/fullstack/system-design-s2" ||
           router.pathname === "/full-stack-software-development-program" ||
@@ -830,7 +838,8 @@ function FormOtp({
           router.pathname === "/s2-masters-program" ||
           router.pathname === "/apply-for-counselling-s2" ||
           router.pathname === "/apply-for-counselling-data-science" ||
-          router.pathname === "/datascience/apply-for-counselling-data-science" ||
+          router.pathname ===
+            "/datascience/apply-for-counselling-data-science" ||
           router.pathname ===
             "/datascience/s2-apply-for-counselling-data-science" ||
           router.pathname === "/apply-for-counselling" ||
@@ -1050,6 +1059,7 @@ function FormOtp({
             (router.pathname === "/dsa" && downloadBrochure) ||
             (router.pathname === "/fullstack/dsa" && downloadBrochure) ||
             (router.pathname === "/generic" && downloadBrochure) ||
+            (router.pathname === "/s6" && downloadBrochure) ||
             (router.pathname === "/fssd-s2" && downloadBrochure) ||
             (router.pathname === "/fullstack/sd-cloud-computing-devops-s2" &&
               downloadBrochure) ||
@@ -1320,6 +1330,7 @@ function FormOtp({
             (router.pathname === "/s3-data-science" && downloadBrochure) ||
             (router.pathname === "/s6-data-science-generic" &&
               downloadBrochure) ||
+            (router.pathname === "/s6" && downloadBrochure) ||
             (router.pathname === "/s2-machine-learning" && downloadBrochure) ||
             (router.pathname === "/s2-job-guarantee" && downloadBrochure) ||
             (router.pathname === "/s2-data-analytics" && downloadBrochure) ||
@@ -1409,7 +1420,8 @@ function FormOtp({
             router.pathname === "/s2-masters-program" ||
             router.pathname === "/apply-for-counselling-s2" ||
             router.pathname === "/apply-for-counselling-data-science" ||
-            router.pathname === "/datascience/apply-for-counselling-data-science" ||
+            router.pathname ===
+              "/datascience/apply-for-counselling-data-science" ||
             router.pathname ===
               "/datascience/s2-apply-for-counselling-data-science" ||
             router.pathname === "/apply-for-counselling" ||
@@ -1569,6 +1581,7 @@ function FormOtp({
             router.pathname === "/dsa" ||
             router.pathname === "/fullstack/dsa" ||
             router.pathname === "/generic" ||
+            router.pathname === "/s6" ||
             router.pathname === "/fssd-s2" ||
             router.pathname === "/fullstack/fssd-s2-generic" ||
             router.pathname === "/fullstack/fssd-training-s2-generic" ||

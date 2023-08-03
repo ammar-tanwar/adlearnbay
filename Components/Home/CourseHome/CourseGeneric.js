@@ -225,7 +225,6 @@ const Course = ({ common, formotp }) => {
                                 Brochure
                                 <FiDownload
                                   className="bIcon"
-                                  style={{ color: "#2979AD" }}
                                 />
                               </button>
                             </a>
@@ -304,7 +303,6 @@ const Course = ({ common, formotp }) => {
                               Brochure
                               <FiDownload
                                 className="bIcon"
-                                style={{ color: "#2979AD" }}
                               />
                             </button>
                           </a>
@@ -385,7 +383,6 @@ const Course = ({ common, formotp }) => {
                                 Brochure
                                 <FiDownload
                                   className="bIcon"
-                                  style={{ color: "#2979AD" }}
                                 />
                               </button>
                             </a>
@@ -471,7 +468,6 @@ const Course = ({ common, formotp }) => {
                               Brochure
                               <FiDownload
                                 className="bIcon"
-                                style={{ color: "#2979AD" }}
                               />
                             </button>
                           </a>
@@ -552,7 +548,6 @@ const Course = ({ common, formotp }) => {
                                 Brochure
                                 <FiDownload
                                   className="bIcon"
-                                  style={{ color: "#2979AD" }}
                                 />
                               </button>
                             </a>
@@ -629,7 +624,6 @@ const Course = ({ common, formotp }) => {
                               Brochure
                               <FiDownload
                                 className="bIcon"
-                                style={{ color: "#2979AD" }}
                               />
                             </button>
                           </a>
