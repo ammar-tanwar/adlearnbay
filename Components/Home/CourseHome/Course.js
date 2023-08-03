@@ -244,10 +244,7 @@ const Course = ({ common, formotp }) => {
                                 style={{ padding: "8px 15px" }}
                               >
                                 Brochure
-                                <FiDownload
-                                  className="bIcon"
-                                  style={{ color: "#2979AD" }}
-                                />
+                                <FiDownload className="bIcon" />
                               </button>
                             </a>
                           </div>
@@ -323,10 +320,7 @@ const Course = ({ common, formotp }) => {
                               style={{ padding: "8px 15px" }}
                             >
                               Brochure
-                              <FiDownload
-                                className="bIcon"
-                                style={{ color: "#2979AD" }}
-                              />
+                              <FiDownload className="bIcon" />
                             </button>
                           </a>
                         </div>
@@ -404,10 +398,7 @@ const Course = ({ common, formotp }) => {
                                 style={{ padding: "8px 15px" }}
                               >
                                 Brochure
-                                <FiDownload
-                                  className="bIcon"
-                                  style={{ color: "#2979AD" }}
-                                />
+                                <FiDownload className="bIcon" />
                               </button>
                             </a>
                           </div>
@@ -490,10 +481,7 @@ const Course = ({ common, formotp }) => {
                               style={{ padding: "8px 15px" }}
                             >
                               Brochure
-                              <FiDownload
-                                className="bIcon"
-                                style={{ color: "#2979AD" }}
-                              />
+                              <FiDownload className="bIcon" />
                             </button>
                           </a>
                         </div>
@@ -571,10 +559,7 @@ const Course = ({ common, formotp }) => {
                                 style={{ padding: "8px 15px" }}
                               >
                                 Brochure
-                                <FiDownload
-                                  className="bIcon"
-                                  style={{ color: "#2979AD" }}
-                                />
+                                <FiDownload className="bIcon" />
                               </button>
                             </a>
                           </div>
@@ -650,7 +635,7 @@ const Course = ({ common, formotp }) => {
                               Brochure
                               <FiDownload
                                 className="bIcon"
-                                style={{ color: "#2979AD" }}
+                                 
                               />
                             </button>
                           </a>
@@ -729,10 +714,7 @@ const Course = ({ common, formotp }) => {
                                 style={{ padding: "8px 15px" }}
                               >
                                 Brochure
-                                <FiDownload
-                                  className="bIcon"
-                                  style={{ color: "#2979AD" }}
-                                />
+                                <FiDownload className="bIcon" />
                               </button>
                             </a>
                           </div>
@@ -806,10 +788,7 @@ const Course = ({ common, formotp }) => {
                               style={{ padding: "8px 15px" }}
                             >
                               Brochure
-                              <FiDownload
-                                className="bIcon"
-                                style={{ color: "#2979AD" }}
-                              />
+                              <FiDownload className="bIcon" />
                             </button>
                           </a>
                         </div>
