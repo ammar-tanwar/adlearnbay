@@ -22,14 +22,14 @@ function SeventhSection({ fullStackCont }) {
           {mobile ? (
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/learner's-support.png"
-              layout='fill'
+              layout="fill"
               className={styles.deskImage}
               alt="Learners support"
             />
           ) : (
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/learners-support-bg.png"
-              layout='fill'
+              layout="fill"
               alt="Learners support"
             />
           )}
@@ -42,42 +42,34 @@ function SeventhSection({ fullStackCont }) {
             shortly
           </p>
           {fullStackCont ? (
-              <div className={styles.btnWrap}>
-                {/* <a
-                  href="https://api.whatsapp.com/send?phone=919731135221&text=Hello,"
-                  target="_blank"
-                >
-                  <button className={styles.btn1}>
-                    <AiOutlineWhatsApp /> Enquire Now
-                  </button>
-                </a> */}
-                <a href="tel: +919731135221">
-                <Button
-                  text="+91 97311 35221"
-                  passIcon={<MdCall />}
-                  invert
-                />
+            <div className={styles.btnWrap}>
+              <a
+                href="https://api.whatsapp.com/send?phone=919731135221&text=Hello,"
+                target="_blank"
+              >
+                <button className={styles.btn1}>
+                  <AiOutlineWhatsApp /> Enquire Now
+                </button>
               </a>
-              </div>
-            ) : (
-              <div className={styles.btnWrap}>
-                {/* <a
-                  href="https://api.whatsapp.com/send?phone=918123327570&text=Hello,"
-                  target="_blank"
-                >
-                  <button className={styles.btn1}>
-                    <AiOutlineWhatsApp /> Enquire Now
-                  </button>
-                </a> */}
-                <a href="tel: +918123327570">
-                <Button
-                  text="+91 8123 327570"
-                  passIcon={<MdCall />}
-                  invert
-                />
+              <a href="tel: +919731135221">
+                <Button text="+91 97311 35221" passIcon={<MdCall />} invert />
               </a>
-              </div>
-            )}
+            </div>
+          ) : (
+            <div className={styles.btnWrap}>
+              <a
+                href="https://api.whatsapp.com/send?phone=918123327570&text=Hello,"
+                target="_blank"
+              >
+                <button className={styles.btn1}>
+                  <AiOutlineWhatsApp /> Enquire Now
+                </button>
+              </a>
+              <a href="tel: +918123327570">
+                <Button text="+91 8123 327570" passIcon={<MdCall />} invert />
+              </a>
+            </div>
+          )}
         </div>
         <div className={styles.rightPart}>
           <div className="imgWrapper">

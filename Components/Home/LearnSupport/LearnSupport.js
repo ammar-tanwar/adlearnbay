@@ -17,12 +17,12 @@ function LearnSupport() {
           </p>
         </div>
         <div className={styles.learnInner2}>
-          {/* <a href="https://wa.me/+918123327570" target="_blank">
+          <a href="https://wa.me/+918123327570" target="_blank">
             <button className={styles.btn1}>
               Whatsapp
               <RiWhatsappFill className={styles.bIcon} />
             </button>
-          </a> */}
+          </a>
           <a href="tel:+918123327570" target="_blank">
             <button className={styles.btn2}>
               +91 8123 327570
