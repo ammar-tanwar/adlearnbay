@@ -38,7 +38,7 @@ export default function Home() {
             rel="icon"
             href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
           />
-          {/* <script
+          <script
             dangerouslySetInnerHTML={{
               __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
                 var s = document.createElement('script');
@@ -75,7 +75,7 @@ export default function Home() {
                 var x = document.getElementsByTagName('script')[0];
                 x.parentNode.insertBefore(s, x);`,
             }}
-          /> */}
+          />
         </Head>
         <main>
           {" "}
@@ -178,7 +178,7 @@ export default function Home() {
           <Footer />
         </main>
       </div>
-      <script
+      {/* <script
         dangerouslySetInnerHTML={{
           __html: `(function (botId) {
             var s = document.createElement("script");
@@ -195,7 +195,7 @@ export default function Home() {
           })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
       `,
         }}
-      />
+      /> */}
     </>
   );
 }
