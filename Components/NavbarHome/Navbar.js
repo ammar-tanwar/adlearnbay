@@ -42,7 +42,7 @@ const Navbar = ({ radio, formotp }) => {
           <div className={show ? styles.mobileWrapper : styles.hide}>
             <div className={styles.mobileMenu}>
               <span onClick={showMenu}>
-                <Link href="/data-science-certification-courses">
+                <Link href="/datascience/data-science-certification-courses">
                   Advance Data Science & AI Certification
                 </Link>
               </span>
@@ -50,33 +50,35 @@ const Navbar = ({ radio, formotp }) => {
                 <Link href="/fswd">  Web Development Program</Link>
               </span> */}
               <span onClick={showMenu}>
-                <Link href="/fssd">Software Development Master Program</Link>
+                <Link href="/fullstack/fssd">
+                  Software Development Master Program
+                </Link>
               </span>
               <span onClick={showMenu}>
-                <Link href="/dsa">DSA & System Design</Link>
+                <Link href="/fullstack/dsa">DSA & System Design</Link>
               </span>
               <span onClick={showMenu}>
-                <Link href="/advance-ai-ml-certification">
+                <Link href="/datascience/advance-ai-ml-certification">
                   Advance AI & ML Certification
                 </Link>
               </span>
               <span onClick={showMenu}>
-                <Link href="/data-science-ai-cert-for-managers-leaders">
+                <Link href="/datascience/data-science-ai-cert-for-managers-leaders">
                   Data Science & AI Cert. For Managers & Leaders
                 </Link>
               </span>
               <span onClick={showMenu}>
-                <Link href="/data-science-ai-masters-program">
+                <Link href="/datascience/data-science-ai-masters-program">
                   Data Science and AI Master Program
                 </Link>
               </span>
               <span onClick={showMenu}>
-                <Link href="/business-analytics-certification-course">
+                <Link href="/datascience/business-analytics-certification-course">
                   Business Analytics Program
                 </Link>
               </span>
               <span onClick={showMenu}>
-                <Link href="/data-analytics-certification-course">
+                <Link href="/datascience/data-analytics-certification-course">
                   Data Analytics Program
                 </Link>
               </span>
@@ -99,25 +101,25 @@ const Navbar = ({ radio, formotp }) => {
               All Courses <FaChevronDown style={{ marginLeft: "5px" }} />
             </button>
             <div className={styles.dropdownContent}>
-              <a href="/data-science-certification-courses">
+              <a href="/datascience/data-science-certification-courses">
                 Advance Data Science & AI Certification
               </a>
               {/* <a href="/fswd">  Web Development Program</a> */}
-              <a href="/fssd">Software Development Master Program</a>
-              <a href="/dsa">DSA & System Design</a>
-              <a href="/advance-ai-ml-certification">
+              <a href="/fullstack/fssd">Software Development Master Program</a>
+              <a href="/fullstack/dsa">DSA & System Design</a>
+              <a href="/datascience/advance-ai-ml-certification">
                 Advance AI & ML Certification
               </a>
-              <a href="/data-science-ai-cert-for-managers-leaders">
+              <a href="/datascience/data-science-ai-cert-for-managers-leaders">
                 Data Science & AI Cert. For Managers & Leaders
               </a>
-              <a href="/data-science-ai-masters-program">
+              <a href="/datascience/data-science-ai-masters-program">
                 Data Science and AI Master Program
               </a>
-              <a href="/business-analytics-certification-course">
+              <a href="/datascience/business-analytics-certification-course">
                 Business Analytics Program
               </a>
-              <a href="/data-analytics-certification-course">
+              <a href="/datascience/data-analytics-certification-course">
                 Data Analytics Program
               </a>
             </div>

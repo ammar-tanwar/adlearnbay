@@ -393,7 +393,7 @@ const Form = ({
   if (
     router.pathname === "/full-stack-software-development-program" ||
     router.pathname === "/full-stack-web-development-program" ||
-    router.pathname === "/dsa-system-design"
+    router.pathname === "/fullstack/dsa"
   ) {
     // -====================  Website Learnbay END POINT ==========================--------
     endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
@@ -437,7 +437,8 @@ const Form = ({
     router.pathname === "/datascience/apply-for-counselling-marketing" ||
     router.pathname === "/her-career-her-rules" ||
     router.pathname === "apply-for-counselling-data-science-marketing" ||
-    router.pathname === "/datascience/apply-for-counselling-data-science-marketing" ||
+    router.pathname ===
+      "/datascience/apply-for-counselling-data-science-marketing" ||
     router.pathname === "/step-up-with-learnbay"
   ) {
     // -==================== Marketing ==========================--------
@@ -733,7 +734,7 @@ const Form = ({
       (router.pathname === "/apply-for-counselling" && downloadBrochure) ||
       (router.pathname === "/full-stack-web-development-program" &&
         downloadBrochure) ||
-      (router.pathname === "/dsa-system-design" && downloadBrochure)
+      (router.pathname === "/fullstack/dsa" && downloadBrochure)
     ) {
       router.push("/Thank-you");
 
@@ -841,7 +842,8 @@ const Form = ({
       router.pathname ===
         "/datascience/s2-apply-for-counselling-data-science" ||
       router.pathname === "/apply-for-counselling-data-science-marketing" ||
-      router.pathname === "/datascience/apply-for-counselling-data-science-marketing" ||
+      router.pathname ===
+        "/datascience/apply-for-counselling-data-science-marketing" ||
       router.pathname === "/apply-for-counselling-s3" ||
       router.pathname === "/s2-data-science-mis" ||
       router.pathname === "/apply-for-counselling-email-marketing"
@@ -876,7 +878,7 @@ const Form = ({
       router.pathname === "/full-stack-software-development-program" ||
       router.pathname === "/full-stack-web-development-program" ||
       router.pathname === "/apply-for-counselling-fsd-s2" ||
-      router.pathname === "/dsa-system-design" ||
+      router.pathname === "/fullstack/dsa" ||
       router.pathname === "/s2-masters-program" ||
       router.pathname === "/s2-data-science-banking" ||
       router.pathname === "/s2-data-science-hr" ||

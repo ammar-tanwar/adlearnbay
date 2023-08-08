@@ -15,7 +15,7 @@ export const viewAllD = [
       "8 Advance + 2 Capstone",
       "Course Fee : ₹ 99,000 | No cost EMI",
     ],
-    link1: "/data-science-certification-courses",
+    link1: "/datascience/data-science-certification-courses",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf",
   },
@@ -35,7 +35,7 @@ export const viewAllD = [
       "10 Advance + 2 Capstone",
       "Course Fee : ₹ 1,10,000 | No cost EMI",
     ],
-    link1: "/advance-ai-ml-certification",
+    link1: "/datascience/advance-ai-ml-certification",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf",
   },
@@ -55,7 +55,7 @@ export const viewAllD = [
       "10 Advance + 3 Capstone",
       "Course Fee : ₹ 1,10,000 | No cost EMI",
     ],
-    link1: "/data-science-ai-cert-for-managers-leaders",
+    link1: "/datascience/data-science-ai-cert-for-managers-leaders",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
   },
@@ -75,7 +75,7 @@ export const viewAllD = [
       "12 Advance + 4 Capstone",
       "Course Fee : ₹ 1,29,000 | No cost EMI",
     ],
-    link1: "/data-science-ai-masters-program",
+    link1: "/datascience/data-science-ai-masters-program",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf",
   },
@@ -95,7 +95,7 @@ export const viewAllD = [
       "8 Advance + 2 Capstopne",
       "Course Fee : ₹ 79,000 | No cost EMI",
     ],
-    link1: "/data-analytics-certification-course",
+    link1: "/datascience/data-analytics-certification-course",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
   },
@@ -116,7 +116,7 @@ export const viewAllD = [
       "12 Advance + 2 Capstone",
       "Course Fee : ₹ 1,10,000 | No cost EMI",
     ],
-    link1: "/business-analytics-certification-course",
+    link1: "/datascience/business-analytics-certification-course",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
   },
@@ -136,7 +136,7 @@ export const viewAllD = [
       "12 Projects",
       "Course Fee : ₹ 1,10,000 | No cost EMI",
     ],
-    link1: "/fssd",
+    link1: "/fullstack/fssd",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
   },
@@ -151,7 +151,7 @@ export const viewAllD = [
       "12 Projects + 2 Capstones",
       "Course Fee : ₹ 70,000 + GST",
     ],
-    link1: "/dsa",
+    link1: "/fullstack/dsa",
   },
 ];
 export const ForProgrammersD = [
@@ -171,7 +171,7 @@ export const ForProgrammersD = [
       "8 Advance + 2 Capstone",
       "Course Fee : ₹ 99,000 | No cost EMI",
     ],
-    link1: "/data-science-certification-courses",
+    link1: "/datascience/data-science-certification-courses",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf",
   },
@@ -191,7 +191,7 @@ export const ForProgrammersD = [
       "12 Projects",
       "Course Fee : ₹ 1,10,000 | No cost EMI",
     ],
-    link1: "/fssd",
+    link1: "/fullstack/fssd",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
   },
@@ -211,7 +211,7 @@ export const ForProgrammersD = [
       "10 Advance + 3 Capstone",
       "Course Fee : ₹ 1,10,000 | No cost EMI",
     ],
-    link1: "/data-science-ai-cert-for-managers-leaders",
+    link1: "/datascience/data-science-ai-cert-for-managers-leaders",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
   },
@@ -231,7 +231,7 @@ export const ForProgrammersD = [
       "10 Advance + 2 Capstone",
       "Course Fee : ₹ 1,10,000 | No cost EMI",
     ],
-    link1: "/advance-ai-ml-certification",
+    link1: "/datascience/advance-ai-ml-certification",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf",
   },
@@ -251,7 +251,7 @@ export const ForProgrammersD = [
       "12 Advance + 4 Capstone",
       "Course Fee : ₹ 1,29,000 | No cost EMI",
     ],
-    link1: "/data-science-ai-masters-program",
+    link1: "/datascience/data-science-ai-masters-program",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf",
   },
@@ -266,7 +266,7 @@ export const ForProgrammersD = [
       "12 Projects + 2 Capstones",
       "Course Fee : ₹ 70,000 + GST",
     ],
-    link1: "/dsa",
+    link1: "/fullstack/dsa",
   },
 ];
 export const ForNonProgrammerD = [
@@ -286,7 +286,7 @@ export const ForNonProgrammerD = [
       "8 Advance + 2 Capstone",
       "Course Fee : ₹ 99,000 | No cost EMI",
     ],
-    link1: "/data-science-certification-courses",
+    link1: "/datascience/data-science-certification-courses",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf",
   },
@@ -306,7 +306,7 @@ export const ForNonProgrammerD = [
       "10 Advance + 2 Capstone",
       "Course Fee : ₹ 1,10,000 | No cost EMI",
     ],
-    link1: "/advance-ai-ml-certification",
+    link1: "/datascience/advance-ai-ml-certification",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf",
   },
@@ -326,7 +326,7 @@ export const ForNonProgrammerD = [
       "10 Advance + 3 Capstone",
       "Course Fee : ₹ 1,10,000 | No cost EMI",
     ],
-    link1: "/data-science-ai-cert-for-managers-leaders",
+    link1: "/datascience/data-science-ai-cert-for-managers-leaders",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
   },
@@ -346,7 +346,7 @@ export const ForNonProgrammerD = [
       "12 Advance + 4 Capstone",
       "Course Fee : ₹ 1,29,000 | No cost EMI",
     ],
-    link1: "/data-science-ai-masters-program",
+    link1: "/datascience/data-science-ai-masters-program",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf",
   },
@@ -366,7 +366,7 @@ export const ForNonProgrammerD = [
       "12 Advance + 4 Capstone",
       "Course Fee : ₹ 1,10,000 | No cost EMI",
     ],
-    link1: "/business-analytics-certification-course",
+    link1: "/datascience/business-analytics-certification-course",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
   },
@@ -386,7 +386,7 @@ export const ForNonProgrammerD = [
       "8 Advance + 2 Capstopne",
       "Course Fee : ₹ 79,000 | No cost EMI",
     ],
-    link1: "/data-analytics-certification-course",
+    link1: "/datascience/data-analytics-certification-course",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
   },
@@ -409,7 +409,7 @@ export const JobGuaranteeD = [
       "12 Advance + 4 Capstone",
       "Course Fee : ₹ 1,29,000 | No cost EMI",
     ],
-    link1: "/data-science-ai-masters-program",
+    link1: "/datascience/data-science-ai-masters-program",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf",
   },
@@ -429,7 +429,7 @@ export const JobGuaranteeD = [
       "12 Projects",
       "Course Fee : ₹ 1,10,000 | No cost EMI",
     ],
-    link1: "/fssd",
+    link1: "/fullstack/fssd",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
   },
@@ -451,7 +451,7 @@ export const StackD = [
       "12 Projects",
       "Course Fee : ₹ 1,10,000 | No cost EMI",
     ],
-    link1: "/fssd",
+    link1: "/fullstack/fssd",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
   },
@@ -466,6 +466,6 @@ export const StackD = [
       "12 Projects + 2 Capstones",
       "Course Fee : ₹ 70,000 + GST",
     ],
-    link1: "/dsa",
+    link1: "/fullstack/dsa",
   },
 ];

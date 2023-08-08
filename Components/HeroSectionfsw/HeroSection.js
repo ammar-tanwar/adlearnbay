@@ -11,7 +11,16 @@ import Form from "../Form/Form";
 import FormOtp from "../FormOtp/FormOtp";
 import { useRouter } from "next/router";
 
-const HeroSection = ({ deskTopPara, title, spanTitleText, desc, mTopPara, title1, radio, formotp }) => {
+const HeroSection = ({
+  deskTopPara,
+  title,
+  spanTitleText,
+  desc,
+  mTopPara,
+  title1,
+  radio,
+  formotp,
+}) => {
   const router = useRouter();
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
@@ -39,11 +48,11 @@ const HeroSection = ({ deskTopPara, title, spanTitleText, desc, mTopPara, title1
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-                   {/* <p>Fill the below Details to get started</p> */}
-                   {formotp ?(
+          {/* <p>Fill the below Details to get started</p> */}
+          {formotp ? (
             <FormOtp popup={true} />
-          ):(
-          <Form popup={true} setTrigger={setPopups} radio={radio} />
+          ) : (
+            <Form popup={true} setTrigger={setPopups} radio={radio} />
           )}
         </div>
       </Popup>
@@ -55,13 +64,15 @@ const HeroSection = ({ deskTopPara, title, spanTitleText, desc, mTopPara, title1
         )}
 
         <h1>
-          {title}<br />{title1}
+          {title}
+          <br />
+          {title1}
           <p> {spanTitleText}</p>
         </h1>
         <p className="pBot">{desc}</p>
         <div className={styles.btnWrapper}>
           <button onClick={popupShow}>Apply for Counselling</button>
-          {router.pathname === "/dsa-system-design" ? (
+          {router.pathname === "/fullstack/dsa" ? (
             <a
               href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf"
               target="_blank"

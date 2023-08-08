@@ -11,7 +11,7 @@ const Footer = () => {
     <section className={styles.FooterSection}>
       <div className={styles.FooterDiv}>
         <div className={styles.FooterDivInner}>
-          <a href="/data-science-certification-courses-s10">
+          <a href="/datascience/data-science-certification-courses-s10">
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/logo-light.png"
               alt="Learnbay"
@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Popular Courses</p>
-          <a href="/data-science-certification-courses-s10">
+          <a href="/datascience/data-science-certification-courses-s10">
             <p className={styles.FooterInnerli} style={{ display: "flex" }}>
               <FaCheck className="bIcons" />
               Advance Data Science & AI Certification

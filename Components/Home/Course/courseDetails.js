@@ -10,7 +10,7 @@ export const viewAllD = [
       "12 Projects + 2 Capstones",
       "Course Fee : ₹ 79,000 + GST",
     ],
-    link1: "/data-science-certification-courses",
+    link1: "/datascience/data-science-certification-courses",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ export const viewAllD = [
       "15 Projects + 2 Capstones",
       "Course Fee : ₹ 1,05,000 + GST",
     ],
-    link1: "/advance-ai-ml-certification",
+    link1: "/datascience/advance-ai-ml-certification",
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ export const viewAllD = [
       "15 Projects + 2 Capstones",
       "Course Fee : ₹ 1,05,000 + GST",
     ],
-    link1: "/data-science-ai-cert-for-managers-leaders",
+    link1: "/datascience/data-science-ai-cert-for-managers-leaders",
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ export const viewAllD = [
       "15 Projects + 3 Capstones",
       "Course Fee : ₹ 1,25,000 + GST",
     ],
-    link1: "/data-science-ai-masters-program",
+    link1: "/datascience/data-science-ai-masters-program",
   },
   {
     id: 5,
@@ -59,7 +59,7 @@ export const viewAllD = [
       "12 Projects",
       "Course Fee : ₹ 70,000 + GST",
     ],
-    link1: "/dsa",
+    link1: "/fullstack/dsa",
   },
   {
     id: 6,
@@ -71,7 +71,7 @@ export const viewAllD = [
       "12 Projects + 2 Capstones",
       "Course Fee : ₹ 1,10,000 + GST",
     ],
-    link1: "/fssd",
+    link1: "/fullstack/fssd",
   },
 ];
 export const ForProgrammersD = [
@@ -85,7 +85,7 @@ export const ForProgrammersD = [
       "12 Projects + 2 Capstones",
       "Course Fee : ₹ 79,000 + GST",
     ],
-    link1: "/data-science-certification-courses",
+    link1: "/datascience/data-science-certification-courses",
   },
   {
     id: 2,
@@ -97,7 +97,7 @@ export const ForProgrammersD = [
       "12 Projects + 2 Capstones",
       "Course Fee : ₹ 1,10,000 + GST",
     ],
-    link1: "/fssd",
+    link1: "/fullstack/fssd",
   },
   {
     id: 3,
@@ -109,7 +109,7 @@ export const ForProgrammersD = [
       "15 Projects + 2 Capstones",
       "Course Fee : ₹ 1,05,000 + GST",
     ],
-    link1: "/data-science-ai-cert-for-managers-leaders",
+    link1: "/datascience/data-science-ai-cert-for-managers-leaders",
   },
   {
     id: 4,
@@ -121,7 +121,7 @@ export const ForProgrammersD = [
       "15 Projects + 2 Capstones",
       "Course Fee : ₹ 1,05,000 + GST",
     ],
-    link1: "/advance-ai-ml-certification",
+    link1: "/datascience/advance-ai-ml-certification",
   },
   {
     id: 5,
@@ -133,7 +133,7 @@ export const ForProgrammersD = [
       "12 Projects",
       "Course Fee : ₹ 70,000 + GST",
     ],
-    link1: "/dsa",
+    link1: "/fullstack/dsa",
   },
   {
     id: 6,
@@ -145,7 +145,7 @@ export const ForProgrammersD = [
       "15 Projects + 3 Capstones",
       "Course Fee : ₹ 1,25,000 + GST",
     ],
-    link1: "/data-science-ai-masters-program",
+    link1: "/datascience/data-science-ai-masters-program",
   },
 ];
 export const ForNonProgrammerD = [
@@ -160,7 +160,7 @@ export const ForNonProgrammerD = [
       "12 Projects + 2 Capstones",
       "Course Fee : ₹ 79,000 + GST",
     ],
-    link1: "/data-science-certification-courses",
+    link1: "/datascience/data-science-certification-courses",
   },
   {
     id: 2,
@@ -172,7 +172,7 @@ export const ForNonProgrammerD = [
       "15 Projects + 2 Capstones",
       "Course Fee : ₹ 1,05,000 + GST",
     ],
-    link1: "/advance-ai-ml-certification",
+    link1: "/datascience/advance-ai-ml-certification",
   },
   {
     id: 3,
@@ -184,7 +184,7 @@ export const ForNonProgrammerD = [
       "15 Projects + 2 Capstones",
       "Course Fee : ₹ 1,05,000 + GST",
     ],
-    link1: "/data-science-ai-cert-for-managers-leaders",
+    link1: "/datascience/data-science-ai-cert-for-managers-leaders",
   },
   {
     id: 4,
@@ -197,7 +197,7 @@ export const ForNonProgrammerD = [
       "15 Projects + 3 Capstones",
       "Course Fee : ₹ 1,25,000 + GST",
     ],
-    link1: "/data-science-ai-masters-program",
+    link1: "/datascience/data-science-ai-masters-program",
   },
 ];
 
@@ -212,7 +212,7 @@ export const JobGuaranteeD = [
       "15 Projects + 3 Capstones",
       "Course Fee : ₹ 1,25,000 + GST",
     ],
-    link1: "/data-science-ai-masters-program",
+    link1: "/datascience/data-science-ai-masters-program",
   },
   {
     id: 2,
@@ -224,7 +224,7 @@ export const JobGuaranteeD = [
       "12 Projects",
       "Course Fee : ₹ 70,000 + GST",
     ],
-    link1: "/dsa",
+    link1: "/fullstack/dsa",
   },
 ];
 export const StackD = [
@@ -238,7 +238,7 @@ export const StackD = [
       "12 Projects",
       "Course Fee : ₹ 70,000 + GST",
     ],
-    link1: "/dsa",
+    link1: "/fullstack/dsa",
   },
   {
     id: 2,
@@ -250,6 +250,6 @@ export const StackD = [
       "12 Projects + 2 Capstones",
       "Course Fee : ₹ 1,10,000 + GST",
     ],
-    link1: "/fssd",
+    link1: "/fullstack/fssd",
   },
 ];

@@ -57,7 +57,7 @@ const Footer = () => {
               Full-Stack Software Development Program
             </p>
           </a>
-          <a href="/dsa-system-design">
+          <a href="/fullstack/dsa">
             <p className={styles.FooterInnerli} style={{ display: "flex" }}>
               <FaCheck className="bIcons" />
               DSA & System Design

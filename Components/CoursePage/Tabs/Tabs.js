@@ -192,7 +192,7 @@ const Tabs = ({ handleIcon }) => {
             {oneYear ? (
               <div className={styles.RowWrap}>
                 <div className={styles.Row}>
-                  <a href="/data-science-certification-courses">
+                  <a href="/datascience/data-science-certification-courses">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
@@ -253,7 +253,7 @@ const Tabs = ({ handleIcon }) => {
                       </div>
                     </div>
                   </a>
-                  <a href="/business-analytics-certification-course">
+                  <a href="/datascience/business-analytics-certification-course">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
                         <h5>
@@ -470,7 +470,7 @@ const Tabs = ({ handleIcon }) => {
             {Stack ? (
               <div className={styles.RowWrap}>
                 <div className={styles.Row}>
-                  <a href="/data-science-certification-courses">
+                  <a href="/datascience/data-science-certification-courses">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
@@ -557,7 +557,7 @@ const Tabs = ({ handleIcon }) => {
                       </div>
                     </div>
                   </a>
-                  <a href="/business-analytics-certification-course">
+                  <a href="/datascience/business-analytics-certification-course">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
                         <h5>
@@ -571,7 +571,7 @@ const Tabs = ({ handleIcon }) => {
                   </a>
                 </div>
                 <div className={styles.Row}>
-                  <a href="/data-analytics-certification-course">
+                  <a href="/datascience/data-analytics-certification-course">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
                         <h5>
@@ -583,7 +583,7 @@ const Tabs = ({ handleIcon }) => {
                       </div>
                     </div>
                   </a>
-                  <a href="/dsa-system-design">
+                  <a href="/fullstack/dsa">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
@@ -682,7 +682,7 @@ const Tabs = ({ handleIcon }) => {
                       </div>
                     </div>
                   </a> */}
-                  <a href="/dsa-system-design">
+                  <a href="/fullstack/dsa">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
@@ -723,7 +723,7 @@ const Tabs = ({ handleIcon }) => {
             {oneYear ? (
               <div className={styles.RowWrap}>
                 <div className={styles.Row}>
-                  <a href="/data-science-certification-courses">
+                  <a href="/datascience/data-science-certification-courses">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
@@ -785,7 +785,7 @@ const Tabs = ({ handleIcon }) => {
                       </div>
                     </div>
                   </a>
-                  <a href="/business-analytics-certification-course">
+                  <a href="/datascience/business-analytics-certification-course">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
                         <h5>
@@ -801,7 +801,7 @@ const Tabs = ({ handleIcon }) => {
                 </div>
 
                 <div className={styles.Row}>
-                  <a href="/data-analytics-certification-course">
+                  <a href="/datascience/data-analytics-certification-course">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
@@ -855,7 +855,7 @@ const Tabs = ({ handleIcon }) => {
                   </a>
                 </div>
                 <div className={styles.Row}>
-                  <a href="/dsa-system-design">
+                  <a href="/fullstack/dsa">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
@@ -917,7 +917,7 @@ const Tabs = ({ handleIcon }) => {
             {Stack ? (
               <div className={styles.RowWrap}>
                 <div className={styles.Row}>
-                  <a href="/data-science-certification-courses">
+                  <a href="/datascience/data-science-certification-courses">
                     <div
                       className={styles.Program}
                       onClick={() => handleIcon(false)}
@@ -1004,7 +1004,7 @@ const Tabs = ({ handleIcon }) => {
                       </div>
                     </div>
                   </a>
-                  <a href="/business-analytics-certification-course">
+                  <a href="/datascience/business-analytics-certification-course">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
                         <h5>
@@ -1018,7 +1018,7 @@ const Tabs = ({ handleIcon }) => {
                   </a>
                 </div>
                 <div className={styles.Row}>
-                  <a href="/data-analytics-certification-course">
+                  <a href="/datascience/data-analytics-certification-course">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
                         <h5>
@@ -1030,7 +1030,7 @@ const Tabs = ({ handleIcon }) => {
                       </div>
                     </div>
                   </a>
-                  <a href="/dsa-system-design">
+                  <a href="/fullstack/dsa">
                     <div className={styles.Program}>
                       <div className={styles.ProLeft}>
                         <h5>

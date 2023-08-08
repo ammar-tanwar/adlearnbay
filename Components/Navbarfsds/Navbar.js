@@ -61,7 +61,7 @@ const Navbar = ({ formotp }) => {
                 </Link>
               </span>
               <span onClick={showMenu}>
-                <Link href="/dsa-system-design">DSA & System Design</Link>
+                <Link href="/fullstack/dsa">DSA & System Design</Link>
               </span>
               <span onClick={showMenu}>
                 <Link href="https://learnbay.co/data-science-course/artificial-intelligence-certification-course/">
@@ -113,7 +113,7 @@ const Navbar = ({ formotp }) => {
               <a href="/full-stack-software-development-program">
                 Full-Stack Software Development Program
               </a>
-              <a href="/dsa-system-design">DSA & System Design</a>
+              <a href="/fullstack/dsa">DSA & System Design</a>
               <a href="https://learnbay.co/data-science-course/artificial-intelligence-certification-course/">
                 Advance AI & ML Certification
               </a>
