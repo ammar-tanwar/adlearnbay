@@ -110,7 +110,7 @@ function FormOtp({
   if (
     router.pathname === "/full-stack-software-development-program" ||
     router.pathname === "/full-stack-web-development-program" ||
-    router.pathname === "/dsa-system-design"
+    router.pathname === "/fullstack/dsa"
   ) {
     // -====================  Website Learnbay END POINT ==========================--------
     endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
@@ -250,7 +250,7 @@ function FormOtp({
           (router.pathname === "/apply-for-counselling" && downloadBrochure) ||
           (router.pathname === "/full-stack-web-development-program" &&
             downloadBrochure) ||
-          (router.pathname === "/dsa-system-design" && downloadBrochure)
+          (router.pathname === "/fullstack/dsa" && downloadBrochure)
         ) {
           router.push("/Thank-you");
 
@@ -275,7 +275,7 @@ function FormOtp({
           router.pathname === "/apply-for-counselling-fsd-s2" ||
           router.pathname === "/s3-data-science" ||
           router.pathname === "/system-design-s2" ||
-          router.pathname === "/dsa-system-design"
+          router.pathname === "/fullstack/dsa"
         ) {
           router.push("/Thank-you");
 
@@ -358,7 +358,7 @@ function FormOtp({
               downloadBrochure) ||
             (router.pathname === "/full-stack-web-development-program" &&
               downloadBrochure) ||
-            (router.pathname === "/dsa-system-design" && downloadBrochure)
+            (router.pathname === "/fullstack/dsa" && downloadBrochure)
           ) {
             router.push("/Thank-you");
 
@@ -383,7 +383,7 @@ function FormOtp({
             router.pathname === "/apply-for-counselling-fsd-s2" ||
             router.pathname === "/s3-data-science" ||
             router.pathname === "/system-design-s2" ||
-            router.pathname === "/dsa-system-design"
+            router.pathname === "/fullstack/dsa"
           ) {
             router.push("/Thank-you");
 

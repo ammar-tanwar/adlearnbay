@@ -10,7 +10,7 @@ export const viewAllD = [
       "8 Projects + 1 Capstone",
       "Course Fee : ₹ 70,000 + GST",
     ],
-    link1: "/data-science-certification-courses",
+    link1: "/datascience/data-science-certification-courses",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+Foundation+Program+Learnbay.pdf",
   },
@@ -70,7 +70,7 @@ export const viewAllD = [
       "20 Projects + 3 Capstones",
       "Course Fee : ₹ 1,25,000 + GST",
     ],
-    link1: "/data-science-ai-masters-program",
+    link1: "/datascience/data-science-ai-masters-program",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Master's+Program+%5BWith+Unlimited+Interview+Calls%5D.pdf",
   },
@@ -85,7 +85,7 @@ export const viewAllD = [
       "8 Projects",
       "Course Fee : ₹ 75,000 + GST",
     ],
-    link1: "/data-analytics-certification-course",
+    link1: "/datascience/data-analytics-certification-course",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
   },
@@ -101,7 +101,7 @@ export const viewAllD = [
       "8 Projects",
       "Course Fee : ₹ 75,000 + GST",
     ],
-    link1: "/business-analytics-certification-course",
+    link1: "/datascience/business-analytics-certification-course",
     link2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
   },

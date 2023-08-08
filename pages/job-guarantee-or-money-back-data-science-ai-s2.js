@@ -93,11 +93,11 @@ export default function Home({ formotp, radio }) {
 
         <Navbar
           formotp={true}
-          Href="/data-science-certification-courses-s2"
+          Href="/datascience/data-science-certification-courses-s2"
           Course="Data Science & AI Certification"
-          Href1="/advance-ai-ml-certification-s2"
+          Href1="/datascience/advance-ai-ml-certification-s2"
           Course1="Advance AI & ML Certification"
-          Href2="/data-science-ai-cert-for-managers-leaders-s2"
+          Href2="/datascience/data-science-ai-cert-for-managers-leaders-s2"
           Course2="Data Science & AI Cert. For Managers & Leaders"
           Href3="/data-science-ai-masters-program"
           Course3="Data Science and AI Master Program"

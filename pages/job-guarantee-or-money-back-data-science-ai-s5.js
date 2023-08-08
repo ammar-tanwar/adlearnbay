@@ -91,11 +91,11 @@ export default function Home() {
           </div>
         </Popup>
         <Navbar
-          Href="/data-science-certification-courses-s5"
+          Href="/datascience/data-science-certification-courses-s5"
           Course="Data Science & AI Certification"
-          Href1="/advance-ai-ml-certification-s5"
+          Href1="/datascience/advance-ai-ml-certification-s5"
           Course1="Advance AI & ML Certification"
-          Href2="/data-science-ai-cert-for-managers-leaders-s5"
+          Href2="/datascience/data-science-ai-cert-for-managers-leaders-s5"
           Course2="Data Science & AI Cert. For Managers & Leaders"
           Href3="/job-guarantee-or-money-back-data-science-ai-s5"
           Course3="Data Science and AI Master Program"

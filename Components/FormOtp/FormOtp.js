@@ -323,7 +323,7 @@ function FormOtp({
   if (
     router.pathname === "/full-stack-software-development-program" ||
     router.pathname === "/full-stack-web-development-program" ||
-    router.pathname === "/dsa-system-design"
+    router.pathname === "/fullstack/dsa"
   ) {
     // -====================  Website Learnbay END POINT ==========================--------
     endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
@@ -337,12 +337,12 @@ function FormOtp({
     // -==================== Webinar = END POINT ==========================--------
   }
 
-    // -==================== Webinar = END POINT ==========================--------
-    if (router.pathname === "/s6") {
-      // -==================== S6 =  END POINT ==========================--------
-      endPoint = "https://getform.io/f/1c8cf486-31ef-4a7f-95b0-45c5f21e7b29";
-      // -==================== S6 = END POINT ==========================--------
-    }
+  // -==================== Webinar = END POINT ==========================--------
+  if (router.pathname === "/s6") {
+    // -==================== S6 =  END POINT ==========================--------
+    endPoint = "https://getform.io/f/1c8cf486-31ef-4a7f-95b0-45c5f21e7b29";
+    // -==================== S6 = END POINT ==========================--------
+  }
 
   let btnTxt = "Apply for  Counseliing";
   if (event) {
@@ -501,7 +501,7 @@ function FormOtp({
           (router.pathname === "/apply-for-counselling" && downloadBrochure) ||
           (router.pathname === "/full-stack-web-development-program" &&
             downloadBrochure) ||
-          (router.pathname === "/dsa-system-design" && downloadBrochure) ||
+          (router.pathname === "/fullstack/dsa" && downloadBrochure) ||
           (router.pathname === "/data-science-certification-courses-sd" &&
             downloadBrochure) ||
           (router.pathname === "/advance-ai-ml-certification-sd" &&
@@ -769,7 +769,7 @@ function FormOtp({
             "/fullstack/data-structures-and-algorithms-course-s2" ||
           router.pathname === "/fullstack/data-structure-algorithm-s2" ||
           router.pathname === "/system-design-s2" ||
-          router.pathname === "/dsa-system-design" ||
+          router.pathname === "/fullstack/dsa" ||
           router.pathname ===
             "/job-guarantee-or-money-back-data-science-ai-s2" ||
           router.pathname === "/s2-business-analytics" ||
@@ -1114,7 +1114,7 @@ function FormOtp({
               downloadBrochure) ||
             (router.pathname === "/full-stack-web-development-program" &&
               downloadBrochure) ||
-            (router.pathname === "/dsa-system-design" && downloadBrochure)
+            (router.pathname === "/fullstack/dsa" && downloadBrochure)
           ) {
             router.push("/Thank-you");
 
@@ -1620,7 +1620,7 @@ function FormOtp({
             router.pathname === "/fullstack/apply-for-counselling-fsd-s2" ||
             router.pathname === "/s3-data-science" ||
             router.pathname === "/system-design-s2" ||
-            router.pathname === "/dsa-system-design"
+            router.pathname === "/fullstack/dsa"
           ) {
             router.push("/Thank-you");
 

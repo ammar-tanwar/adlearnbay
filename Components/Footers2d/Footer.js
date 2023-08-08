@@ -18,7 +18,7 @@ const Footer = () => {
     <section className={styles.FooterSection}>
       <div className={styles.FooterDiv}>
         <div className={styles.FooterDivInner}>
-          <a href="/data-science-ai-masters-programd">
+          <a href="/datascience/data-science-ai-masters-programd">
             <Image
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/logo-light.png"
               alt="Learnbay"
@@ -52,25 +52,25 @@ const Footer = () => {
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Popular Courses</p>
-          <a href="/data-science-certification-courses-s2d">
+          <a href="/datascience/data-science-certification-courses-s2d">
             <p className={styles.FooterInnerli} style={{ display: "flex" }}>
               <FaCheck className="bIcons" />
               Advance Data Science & AI Certification
             </p>
           </a>
-          <a href="/advance-ai-ml-certification-s2d">
+          <a href="/datascience/advance-ai-ml-certification-s2d">
             <p className={styles.FooterInnerli} style={{ display: "flex" }}>
               <FaCheck className="bIcons" />
               Advance AI & ML Certification
             </p>
           </a>
-          <a href="/data-science-ai-cert-for-managers-leaders-s2d">
+          <a href="/datascience/data-science-ai-cert-for-managers-leaders-s2d">
             <p className={styles.FooterInnerli} style={{ display: "flex" }}>
               <FaCheck className="bIcons" />
               Data Science & AI Cert. For Managers & Leaders
             </p>
           </a>
-          <a href="/data-science-ai-masters-programd">
+          <a href="/datascience/data-science-ai-masters-programd">
             <p className={styles.FooterInnerli} style={{ display: "flex" }}>
               <FaCheck className="bIcons" />
               Data Science and AI Master Program
