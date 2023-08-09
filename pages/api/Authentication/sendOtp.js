@@ -14,8 +14,9 @@ export default async function handler(req, res) {
 
     const MTALKZ_SEND_SMS_POST_API_URL = "https://msg.mtalkz.com/V2/http-api-post.php";
     const MTALKZ_SEND_SMS_API_KEY = "ASnH8bAWcDjKVJao";
-    const MTALKZ_SEND_SMS_SENDERID = "LEABAY";
-    const message = `${otp} is your OTP for registration. Use this for phone verification. Do not share this OTP for security reasons. Thanks, Learnbay.`;
+    const MTALKZ_SEND_SMS_SENDERID = "MTAMOI";
+    // const message = `${otp} is your OTP for registration. Use this for phone verification. Do not share this OTP for security reasons. Thanks, Learnbay.`;
+    const message = `Your OTP- One Time Password is ${otp} to authenticate your login with Learnbay Powered By mTalkz`;
 
     let filter = /^[0-9]{10}$/;
     if (filter.test(mobileNumber)) {
