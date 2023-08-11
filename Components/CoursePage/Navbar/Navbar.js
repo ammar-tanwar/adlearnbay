@@ -21,6 +21,8 @@ const Navbar = ({
   grad,
   jobDescription,
   workExperience,
+  jobPlacee,
+  upSkilling,
 }) => {
   const router = useRouter();
   const [icon, setIcon] = useState(false);
@@ -82,7 +84,13 @@ const Navbar = ({
                   workExperience={workExperience}
                 />
               ) : (
-                <Form setTrigger={setPopups} downloadBrochure />
+                <Form
+                  setTrigger={setPopups}
+                  downloadBrochure
+                  jobPlacee={jobPlacee}
+                  workExperience={workExperience}
+                  upSkilling={upSkilling}
+                />
               )}
             </>
           ) : (
@@ -115,6 +123,9 @@ const Navbar = ({
                           popup={true}
                           setTrigger={setPopups}
                           radio={radio}
+                          jobPlacee={jobPlacee}
+                          workExperience={workExperience}
+                          upSkilling={upSkilling}
                         />
                       )}
                     </>

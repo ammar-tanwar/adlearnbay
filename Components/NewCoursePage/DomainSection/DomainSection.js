@@ -12,7 +12,13 @@ import Popup from "../../Popup/Popup";
 import dynamic from "next/dynamic";
 const Button = dynamic(() => import("../Button/Button"));
 
-function DomainSection({ dataScience, DomainSectionData, domainSectionData }) {
+function DomainSection({
+  dataScience,
+  DomainSectionData,
+  domainSectionData,
+  workExperience,
+  jobPlacee,
+}) {
   const [domainDataArray, setDomainDataArray] = useState(domainSectionData);
 
   const [mobile, setMobile] = useState(false);
@@ -45,6 +51,8 @@ function DomainSection({ dataScience, DomainSectionData, domainSectionData }) {
             downloadBrochure
             titleCourse={titleCourse}
             brochureLink={brochureLink}
+            jobPlacee={jobPlacee}
+            workExperience={workExperience}
           />
         </div>
       </Popup>

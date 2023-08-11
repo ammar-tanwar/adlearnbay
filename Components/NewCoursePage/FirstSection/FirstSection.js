@@ -22,6 +22,8 @@ function FirstSection({
   FirstTyped,
   SecondTyped,
   ThirdTyped,
+  workExperience,
+  jobPlacee,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -73,6 +75,7 @@ function FirstSection({
             downloadBrochure
             titleCourse={titleCourse}
             brochureLink={brochureLink}
+            jobPlacee={jobPlacee} workExperience={workExperience}
           />
         </div>
       </Popup>
