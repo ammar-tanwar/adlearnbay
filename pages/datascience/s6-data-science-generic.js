@@ -10,7 +10,6 @@ import SyllabusSection from "../../Components/NewCoursePage/SyllabusSection/Syll
 import { DataScienceCourseData } from "../../Data/AdvanceDataScienceCourse";
 
 import dynamic from "next/dynamic";
-import Script from "next/script";
 
 const FirstSection = dynamic(() =>
   import("../../Components/NewCoursePage/FirstSection/FirstSection")
@@ -102,7 +101,12 @@ export default function Home() {
         </Head>
         <main>
           {" "}
-          <Navbar popup={true} brochureButton={true} />
+          <Navbar
+            popup={true}
+            jobPlacee={true}
+            workExperience={true}
+            upSkilling={true}
+          />
           <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
             <div className="leftPopup">
               <div className="whiteP" />
@@ -117,6 +121,8 @@ export default function Home() {
             SecondTyped="Capstone Project Certificate"
             ThirdTyped="Live Interactive Classes"
             dataScience={true}
+            jobPlacee={true}
+            workExperience={true}
             titleCourse="Data Science Course with Domain Specialization for Professionals"
             brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
             first="Tools"
@@ -151,13 +157,17 @@ export default function Home() {
             Module2="Statistics and Machine Learning"
             Module3="Data Science Course Tools"
             Module4="Artificial Intelligence Tools"
+            jobPlacee={true}
+            workExperience={true}
           />
           <DomainSection
             domainSectionData={DataScienceCourseData[0].domainSection}
+            jobPlacee={true}
+            workExperience={true}
           />
-          <Testimonial />
+          <Testimonial jobPlacee={true} workExperience={true} />
           <SeventhSection />
-          <EightSection />
+          <EightSection jobPlacee={true} workExperience={true} />
         </main>
       </div>
       <script
