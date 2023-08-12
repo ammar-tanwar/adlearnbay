@@ -35,7 +35,7 @@ const Form = ({
   const [toggle, setToggle] = useState(true);
   const [value, setValue] = useState();
   const [selectedOption, setSelectedOption] = useState("");
-  const [error, setError] = useState("");
+  // const [error, setError] = useState("");
   const [query, setQuery] = useState({
     name: "",
     email: "",
@@ -58,7 +58,7 @@ const Form = ({
 
   // Update inputs value
   const handleParam = () => (e) => {
-    setError(false);
+    // setError(false);
     const name = e.target.name;
     const value = e.target.value;
     setQuery((prevState) => ({
@@ -482,17 +482,17 @@ const Form = ({
     e.preventDefault();
     console.log(query);
 
-    if (
-      query.upskillingObjective === "Tell us about your upskilling objective?" ||
-      query.upskillPlanning === "How soon are you planning to upskill?" ||
-      query.upskillPlanning === "Select an option" ||
-      query.upskillingObjective === "Select an option"||
-      query.upskillingObjective === ""||
-      query.upskillPlanning === ""
-    ) {
-      setError(true);
-    } else {
-      setError(false);
+    // if (
+    //   query.upskillingObjective === "Tell us about your upskilling objective?" ||
+    //   query.upskillPlanning === "How soon are you planning to upskill?" ||
+    //   query.upskillPlanning === "Select an option" ||
+    //   query.upskillingObjective === "Select an option"||
+    //   query.upskillingObjective === ""||
+    //   query.upskillPlanning === ""
+    // ) {
+    //   setError(true);
+    // } else {
+      // setError(false);
 
       const formData = new FormData();
       Object.entries(query).forEach(([key, value]) => {
@@ -744,6 +744,7 @@ const Form = ({
 
         return;
       }
+
 
       if (
         (router.pathname === "/fssd" && downloadBrochure) ||
@@ -1090,13 +1091,14 @@ const Form = ({
 
         return;
       }
+
       if (router.pathname === "/google") {
         setToggle(false);
         setAlertMSG("Form Submitted successfully");
         setDisable(false);
         setValue("");
       }
-    }
+    
   };
   const isWeekday = (date) => {
     const day = getDay(date);
@@ -1111,7 +1113,7 @@ const Form = ({
 
   return (
     <div className={styles.App}>
-      <form onSubmit={error ? "" : formSubmit}>
+      <form onSubmit={formSubmit}>
         <div className={styles.formWrapper}>
           <input
             type="text"
@@ -1525,7 +1527,7 @@ const Form = ({
             </div>
           </div>
         )} */}
-            {error ? <p style={{margin:"0px 0px 5px 0px", color:"#0072bc", fontSize:"18px"}}>Please select a valid option</p> : ""}
+            {/* {error ? <p style={{margin:"0px 0px 5px 0px", color:"#0072bc", fontSize:"18px"}}>Please select a valid option</p> : ""} */}
         <p className={styles.FormText} style={{ fontSize: "10px" }}>
           By submitting the form, you agree to our Terms and Conditions and our
           Privacy Policy.
