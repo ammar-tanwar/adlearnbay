@@ -13,7 +13,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import FormOtp from "../../FormOtp/FormOtp";
 
-const Project = ({ ChangeProject, project, domain,fsdlink, formotp, eventQRadio }) => {
+const Project = ({ ChangeProject, project, domain,fsdlink, formotp, eventQRadio, jobDescription, jobPlacee }) => {
   const [popups, setPopups] = useState(false);
 
   const [device, setDevice] = useState();
@@ -52,7 +52,7 @@ const Project = ({ ChangeProject, project, domain,fsdlink, formotp, eventQRadio 
           {formotp ?(
           <FormOtp popup={true}/>
           ):(
-            <Form setTrigger={setPopups} downloadBrochure />
+            <Form setTrigger={setPopups} downloadBrochure jobDescription={jobDescription} jobPlacee={jobPlacee}/>
             )}
             </>
           )}

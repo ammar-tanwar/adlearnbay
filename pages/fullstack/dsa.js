@@ -79,7 +79,13 @@ export default function Home() {
         </Head>
         <main>
           {" "}
-          <Navbar popup={true} radio={true} formotp={true} />
+          <Navbar popup={true} 
+          fullstackADS={true}
+          workExperience={true}
+          jobPlacee={true}
+          jobDescription={true}
+          // formotp={true}
+           />
           <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
             <div className="leftPopup">
               <div className="whiteP" />
@@ -88,11 +94,16 @@ export default function Home() {
               <h5>Apply For Counselling</h5>
               {/* <p>Fill the below Details to get started</p> */}
 
-              <Form popup={true} setTrigger={setPopups} dataScience={true} />
+              <Form popup={true} setTrigger={setPopups} dataScience={true} workExperience={true}
+          jobPlacee={true}
+          jobDescription={true} />
             </div>
           </Popup>
           <FirstSection
-            formotp={true}
+            // formotp={true}
+            workExperience={true}
+          jobPlacee={true}
+          jobDescription={true}
             deskTopPara={DsaCourseData[0].FirstSection.deskTopPara}
             mTopPara={DsaCourseData[0].FirstSection.mTopPara}
             mTitle={DsaCourseData[0].FirstSection.mTitle}
@@ -133,10 +144,18 @@ export default function Home() {
             />
           </div>
           <DomainFaq FaqData={DomainFaqCourseData1} />
-          <CourseReview formotp={true} />
+          <CourseReview
+          //  formotp={true}
+          workExperience={true}
+          jobPlacee={true}
+          jobDescription={true}
+            />
           <SyllabusNew
             dataScience={true}
-            formotp={true}
+            // formotp={true}
+            workExperience={true}
+          jobPlacee={true}
+          jobDescription={true}
             syllabusFormotp={true}
             syllabus={DsaCourseData[0].syllabus}
             syllabusDesc={DsaCourseData[0].syllabusDesc}
@@ -147,7 +166,10 @@ export default function Home() {
           />
           <ProgramFee
             Fee={DsaCourseData[0].ProgramFee.Fee}
-            formotp={true}
+            // formotp={true}
+            workExperience={true}
+          jobPlacee={true}
+          jobDescription={true}
             Emi={DsaCourseData[0].ProgramFee.Emi}
             CourseFeeAndFinancing="Program Fee & Financing"
             para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."
@@ -156,14 +178,20 @@ export default function Home() {
           <SliderTab />
           <div className={styles.ProjectWrapper} id="project">
             <Project
-              formotp={true}
+              // formotp={true}
+              workExperience={true}
+          jobPlacee={true}
+          jobDescription={true}
               project={DsaCourseData[0].Project.project}
               domain={DsaCourseData[0].Project.domain}
               projectTitle={DsaCourseData[0].Project.projectTitle}
             />
           </div>
           <Batch
-            formotp={true}
+            // formotp={true}
+            workExperience={true}
+          jobPlacee={true}
+          jobDescription={true}
             syllabusDesc={DsaCourseData[0].syllabusDesc}
             syllabus={DsaCourseData[0].Batch}
             CourseFeeHead={DsaCourseData[0].BatchCourses.CourseFeeHead}
