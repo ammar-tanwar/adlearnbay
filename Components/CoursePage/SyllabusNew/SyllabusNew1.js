@@ -22,6 +22,7 @@ function SyllabusNew({
   srcD,
   fullStack,
   formotp,
+  jobDescription, jobPlacee,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -68,6 +69,7 @@ function SyllabusNew({
             setTrigger={setPopups}
             downloadBrochure
             fullStack={fullStack} dataScience={dataScience}
+            jobDescription={jobDescription} jobPlacee={jobPlacee}
           />
           )}
         </div>
@@ -217,6 +219,7 @@ function SyllabusNew({
               <Form
                 dataScience={dataScience}
                 fullStack={fullStack}
+                jobDescription={jobDescription} jobPlacee={jobPlacee}
               />
           )}
             </div>

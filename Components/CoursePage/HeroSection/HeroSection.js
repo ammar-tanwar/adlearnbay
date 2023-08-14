@@ -29,6 +29,7 @@ const HeroSection = ({
   formotpForS3DS,
   eventQRadio,
   eventDownload,
+  jobDescription, jobPlacee,
 }) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
@@ -73,7 +74,7 @@ const HeroSection = ({
                   {formotp ? (
                     <FormOtp popup={true} />
                   ) : (
-                    <Form setTrigger={setPopups} />
+                    <Form setTrigger={setPopups} jobDescription={jobDescription} jobPlacee={jobPlacee}/>
                   )}
                 </>
               )}

@@ -12,7 +12,7 @@ import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
 
-const CourseReview = ({fsdlink, formotp, eventQRadio}) => {
+const CourseReview = ({fsdlink, formotp, eventQRadio, jobDescription, jobPlacee}) => {
 
   const [popups, setPopups] = useState(false);
 
@@ -54,7 +54,7 @@ const CourseReview = ({fsdlink, formotp, eventQRadio}) => {
             {formotp ?(
             <FormOtp popup={true} setTrigger={setPopups} downloadBrochure/>
           ):(
-            <Form setTrigger={setPopups} downloadBrochure />
+            <Form setTrigger={setPopups} downloadBrochure jobDescription={jobDescription} jobPlacee={jobPlacee}/>
             )}
             </>
           )}

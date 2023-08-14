@@ -84,7 +84,14 @@ export default function Home() {
         </Head>
         <main>
           {" "}
-          <Navbar popup={true} dataScience={true} formotp={true} />
+          <Navbar
+            popup={true}
+            //  formotp={true}
+            dataScience={true}
+            workExperience={true}
+            jobPlacee={true}
+            jobDescription={true}
+          />
           <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
             <div className="leftPopup">
               <div className="whiteP" />
@@ -98,7 +105,10 @@ export default function Home() {
           </Popup>
           <FirstSection
             dataScience={true}
-            formotp={true}
+            //  formotp={true}
+            workExperience={true}
+            jobPlacee={true}
+            jobDescription={true}
             deskTopPara="Ace the PRODUCT Interviews to achieve your dream job"
             mTopPara="Ace the PRODUCT Interviews to achieve your dream job"
             mTitle="Software Development Master Program  "
@@ -126,7 +136,10 @@ export default function Home() {
           </div>
           <div className={styles.Feature} id="Feature">
             <BoxShape
-              formotp={true}
+              //  formotp={true}
+              workExperience={true}
+              jobPlacee={true}
+              jobDescription={true}
               title="Why Enroll In Software Development Master Course?"
               Box1h5="Crack MNCs Interview"
               box1desc="Learn in-depth DSA and crack interviews in product-based MNCs"
@@ -140,10 +153,18 @@ export default function Home() {
             />
           </div>
           <DomainFaq FaqData={DomainFaqCourseData1} />
-          <CourseReview formotp={true} />
+          <CourseReview 
+          //  formotp={true}
+            workExperience={true}
+            jobPlacee={true}
+            jobDescription={true}
+          />
           <SyllabusNew
             dataScience={true}
-            formotp={true}
+            //  formotp={true}
+            workExperience={true}
+            jobPlacee={true}
+            jobDescription={true}
             syllabusFormotp={true}
             syllabus={FullStackSoftwareCourseData[0].syllabus}
             syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
@@ -154,7 +175,10 @@ export default function Home() {
           />
           <ProgramFee
             Fee={FullStackSoftwareCourseData[0].ProgramFee.Fee}
-            formotp={true}
+            //  formotp={true}
+            workExperience={true}
+            jobPlacee={true}
+            jobDescription={true}
             Emi={FullStackSoftwareCourseData[0].ProgramFee.Emi}
             CourseFeeAndFinancing="Program Fee & Financing"
             para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."
@@ -163,14 +187,20 @@ export default function Home() {
           <SliderTab />
           <div className={styles.ProjectWrapper} id="project">
             <Project
-              formotp={true}
+              //  formotp={true}
+              workExperience={true}
+              jobPlacee={true}
+              jobDescription={true}
               project={FullStackSoftwareCourseData[0].Project.project}
               domain={FullStackSoftwareCourseData[0].Project.domain}
               projectTitle={FullStackSoftwareCourseData[0].Project.projectTitle}
             />
           </div>
           <Batch
-            formotp={true}
+            //  formotp={true}
+            workExperience={true}
+            jobPlacee={true}
+            jobDescription={true}
             syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
             syllabus={FullStackSoftwareCourseData[0].Batch}
             CourseFeeHead={
