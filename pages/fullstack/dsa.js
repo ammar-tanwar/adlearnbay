@@ -38,7 +38,7 @@ export default function Home() {
             rel="icon"
             href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
           />
-          <script
+          {/* <script
             dangerouslySetInnerHTML={{
               __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
                 var s = document.createElement('script');
@@ -75,17 +75,18 @@ export default function Home() {
                 var x = document.getElementsByTagName('script')[0];
                 x.parentNode.insertBefore(s, x);`,
             }}
-          />
+          /> */}
         </Head>
         <main>
           {" "}
-          <Navbar popup={true} 
-          fullstackADS={true}
-          workExperience={true}
-          jobPlacee={true}
-          jobDescription={true}
-          // formotp={true}
-           />
+          <Navbar
+            popup={true}
+            fullstackADS={true}
+            workExperience={true}
+            jobPlacee={true}
+            jobDescription={true}
+            // formotp={true}
+          />
           <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
             <div className="leftPopup">
               <div className="whiteP" />
@@ -94,16 +95,21 @@ export default function Home() {
               <h5>Apply For Counselling</h5>
               {/* <p>Fill the below Details to get started</p> */}
 
-              <Form popup={true} setTrigger={setPopups} dataScience={true} workExperience={true}
-          jobPlacee={true}
-          jobDescription={true} />
+              <Form
+                popup={true}
+                setTrigger={setPopups}
+                dataScience={true}
+                workExperience={true}
+                jobPlacee={true}
+                jobDescription={true}
+              />
             </div>
           </Popup>
           <FirstSection
             // formotp={true}
             workExperience={true}
-          jobPlacee={true}
-          jobDescription={true}
+            jobPlacee={true}
+            jobDescription={true}
             deskTopPara={DsaCourseData[0].FirstSection.deskTopPara}
             mTopPara={DsaCourseData[0].FirstSection.mTopPara}
             mTitle={DsaCourseData[0].FirstSection.mTitle}
@@ -145,17 +151,17 @@ export default function Home() {
           </div>
           <DomainFaq FaqData={DomainFaqCourseData1} />
           <CourseReview
-          //  formotp={true}
-          workExperience={true}
-          jobPlacee={true}
-          jobDescription={true}
-            />
+            //  formotp={true}
+            workExperience={true}
+            jobPlacee={true}
+            jobDescription={true}
+          />
           <SyllabusNew
             dataScience={true}
             // formotp={true}
             workExperience={true}
-          jobPlacee={true}
-          jobDescription={true}
+            jobPlacee={true}
+            jobDescription={true}
             syllabusFormotp={true}
             syllabus={DsaCourseData[0].syllabus}
             syllabusDesc={DsaCourseData[0].syllabusDesc}
@@ -168,8 +174,8 @@ export default function Home() {
             Fee={DsaCourseData[0].ProgramFee.Fee}
             // formotp={true}
             workExperience={true}
-          jobPlacee={true}
-          jobDescription={true}
+            jobPlacee={true}
+            jobDescription={true}
             Emi={DsaCourseData[0].ProgramFee.Emi}
             CourseFeeAndFinancing="Program Fee & Financing"
             para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."
@@ -180,8 +186,8 @@ export default function Home() {
             <Project
               // formotp={true}
               workExperience={true}
-          jobPlacee={true}
-          jobDescription={true}
+              jobPlacee={true}
+              jobDescription={true}
               project={DsaCourseData[0].Project.project}
               domain={DsaCourseData[0].Project.domain}
               projectTitle={DsaCourseData[0].Project.projectTitle}
@@ -190,8 +196,8 @@ export default function Home() {
           <Batch
             // formotp={true}
             workExperience={true}
-          jobPlacee={true}
-          jobDescription={true}
+            jobPlacee={true}
+            jobDescription={true}
             syllabusDesc={DsaCourseData[0].syllabusDesc}
             syllabus={DsaCourseData[0].Batch}
             CourseFeeHead={DsaCourseData[0].BatchCourses.CourseFeeHead}
@@ -206,7 +212,7 @@ export default function Home() {
           <Footer />
         </main>
       </div>
-      {/* <script
+      <script
         dangerouslySetInnerHTML={{
           __html: `(function (botId) {
             var s = document.createElement("script");
@@ -223,7 +229,7 @@ export default function Home() {
           })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
       `,
         }}
-      /> */}
+      />
     </>
   );
 }

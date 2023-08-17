@@ -31,7 +31,7 @@ export default function Home() {
             rel="icon"
             href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
           />
-          <script
+          {/* <script
             dangerouslySetInnerHTML={{
               __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
             var s = document.createElement('script');
@@ -68,7 +68,7 @@ export default function Home() {
             var x = document.getElementsByTagName('script')[0];
             x.parentNode.insertBefore(s, x);`,
             }}
-          />
+          /> */}
         </Head>
 
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
@@ -116,24 +116,24 @@ export default function Home() {
         <LearnSupport organicNum={true} />
         <Footer />
       </div>
-      {/* <script
+      <script
         dangerouslySetInnerHTML={{
           __html: `(function (botId) {
-            var s = document.createElement("script");
-            s.async = true;
-            s.type = 'text/javascript';
-            s.src = "https://app.chat360.io/widget/chatbox/common_scripts/script.js";
-            s.onload = function () {
-              window.loadChat360Bot(botId);
-            };
-            s.onerror = function (err) {
-              console.error(err);
-            };
-            document.body.appendChild(s);
-          })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
+      var s = document.createElement("script");
+      s.async = true;
+      s.type = 'text/javascript';
+      s.src = "https://app.chat360.io/widget/chatbox/common_scripts/script.js";
+      s.onload = function () {
+        window.loadChat360Bot(botId);
+      };
+      s.onerror = function (err) {
+        console.error(err);
+      };
+      document.body.appendChild(s);
+    })("fceb50ba-694f-47b1-b0b4-a87dba257192");
       `,
         }}
-      /> */}
+      />
     </>
   );
 }

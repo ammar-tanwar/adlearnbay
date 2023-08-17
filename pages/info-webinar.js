@@ -11,6 +11,7 @@ const ThankYouFsd = ({ initialName }) => {
   const email = JSON.stringify(initialName);
 
   return (
+    <>
     <div className={styles.main}>
       <Head>
         <title>Info Webinar - Learnbay</title>
@@ -160,6 +161,25 @@ const ThankYouFsd = ({ initialName }) => {
       </section>
       <Footer />
     </div>
+     <script
+        dangerouslySetInnerHTML={{
+          __html: `(function (botId) {
+            var s = document.createElement("script");
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = "https://app.chat360.io/widget/chatbox/common_scripts/script.js";
+            s.onload = function () {
+              window.loadChat360Bot(botId);
+            };
+            s.onerror = function (err) {
+              console.error(err);
+            };
+            document.body.appendChild(s);
+          })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
+      `,
+        }}
+      />
+    </>
   );
 };
 
