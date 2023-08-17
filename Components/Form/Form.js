@@ -328,6 +328,14 @@ const Form = ({
     // -==================== Quora - S4 END POINT ==========================--------
   }
 
+  if (
+    router.pathname === "/marketing"
+  ) {
+    // -==================== Quora - S4 END POINT ==========================--------
+    endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
+    // -==================== Quora - S4 END POINT ==========================--------
+  }
+
   // -==================== Data Science Display Ads  END POINT ==========================--------
   if (
     router.pathname === "/data-science-certification-courses-sd" ||
@@ -1071,7 +1079,9 @@ const Form = ({
       return;
     }
 
-    if (router.pathname === "/google") {
+    if (router.pathname === "/google" ||
+    router.pathname === "/marketing"
+    ) {
       setToggle(false);
       setAlertMSG("Form Submitted successfully");
       setDisable(false);
