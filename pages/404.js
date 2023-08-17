@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Navbar from "../Components/NavbarHome/Navbar";
 import Footer from "../Components/FooterHome/Footer";
-import BottomBar from "../Components/BottomBar/BottomBar";
 import NotFound from "../Components/NotFound/NotFound";
 export default function Home() {
     return (
@@ -17,7 +16,6 @@ export default function Home() {
         <main>
         <Navbar popup={true} dataScienceCounselling={true} radio={true}/>
         <NotFound />
-        <BottomBar />
         <Footer />
       </main>
     </div>
