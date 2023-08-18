@@ -29,6 +29,16 @@ export default function Document() {
           strategy="lazyOnload"
           src="https://www.googleoptimize.com/optimize.js?id=OPT-NQHBZ7H"
         ></Script>
+                <script
+          type="text/javascript"
+          src="https://web-in21.mxradon.com/t/Tracker.js"
+        ></script>
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `pidTracker('57020');`,
+          }}
+        />
       </Head>
       <body>
         <Main />
