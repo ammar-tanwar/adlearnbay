@@ -8,11 +8,10 @@ const FormSection = (dataScience) => {
     <div className={styles.fromWrap}>
       <div className={styles.leftForm}>
         <h5>Apply For Free Career Counselling</h5>
-        
       </div>
       <div className={styles.rightForm}>
         <div className={styles.rightFormWrap}>
-          <FormInline  radio={true} dataScience={dataScience} />
+          <FormInline radio={true} dataScienceCounselling={true}/>
         </div>
       </div>
     </div>

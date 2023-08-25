@@ -32,7 +32,7 @@ const BoxShape = ({
                 className={styles.icon}
                 width="40"
                 height="40"
-                loading="lazy" 
+                loading="lazy"
               />
             </div>
 
@@ -90,20 +90,13 @@ const BoxShape = ({
                 <span>Apply For free Profile Review</span>
               </h5>
 
-              {formotpForS3DS ?(
-                <FormOtp popup={true} brief={true} currentCompany={true}/>
-              ):(
-             <>
-             {formotp ?(
-              <FormOtp popup={true} />
-            ):(
-              <Form radio={radio} />
-            )}
-             </>
+              {formotpForS3DS ? (
+                <FormOtp popup={true} />
+              ) : (
+                <>
+                  {formotp ? <FormOtp popup={true} /> : <Form radio={radio} />}
+                </>
               )}
-
-              
-              
             </div>
           </div>
         </div>

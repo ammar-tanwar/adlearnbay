@@ -15,7 +15,7 @@ function EightSection({
   grad,
   jobDescription,
   workExperience,
-  jobPlacee,
+
   upSkilling,
 }) {
   const [popups, setPopups] = useState(false);
@@ -59,21 +59,19 @@ function EightSection({
             <FormOtp
               popup={true}
               downloadBrochure
+              upSkillingHide={true}
               setTrigger={setPopups}
               s2dataScience={s2dataScience}
               fullstackADS={fullstackADS}
               marketing={marketing}
               grad={grad}
-              jobDescription={jobDescription}
-              workExperience={workExperience}
             />
           ) : (
             <Form
               popup={true}
               downloadBrochure
+              upSkillingHide={true}
               setTrigger={setPopups}
-              jobPlacee={jobPlacee}
-              workExperience={workExperience}
             />
           )}
         </div>

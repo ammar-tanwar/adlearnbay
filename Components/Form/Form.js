@@ -3,7 +3,6 @@ import styles from "./Form.module.css";
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
 import { useRouter } from "next/router";
-import getDay from "date-fns/getDay";
 import jsCookie from "js-cookie";
 
 const Form = ({
@@ -12,40 +11,23 @@ const Form = ({
   downloadBrochure,
   radio,
   event,
-  jobDesc,
-  jobPlace,
-  QuesMean,
-  jobTitle,
-  fsddesc,
-  jobPlacee,
   google,
-  workExperience,
   referral,
-  upSkilling,
-  jobDescription,
+  upSkillingHide,
+  dataScience,
 }) => {
   const router = useRouter();
-  let today = new Date();
-  let time =
-    today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-
-  //offset to maintain time zone difference
-  const [startDate, setStartDate] = useState();
   const [disable, setDisable] = useState(false);
   const [alertMSG, setAlertMSG] = useState("");
   const [toggle, setToggle] = useState(true);
   const [value, setValue] = useState();
-  const [selectedOption, setSelectedOption] = useState("");
-  // const [error, setError] = useState("");
+  const [error, setError] = useState();
   const [query, setQuery] = useState({
     name: "",
     email: "",
     phone: "",
-    workExperience: "",
-    jobDescription: "",
     upskillPlanning: "",
     upskillingObjective: "",
-    // dateTime: "",
     WAdropdown: "",
     referralCode: "",
     url: router.asPath,
@@ -55,7 +37,7 @@ const Form = ({
     setQuery({ ...query, phone: value });
 
     jsCookie.set("CARD", query.email, { expires: 14, secure: true });
-  }, [value, startDate]);
+  }, [value]);
 
   // Update inputs value
   const handleParam = () => (e) => {
@@ -328,9 +310,7 @@ const Form = ({
     // -==================== Quora - S4 END POINT ==========================--------
   }
 
-  if (
-    router.pathname === "/marketing"
-  ) {
+  if (router.pathname === "/marketing") {
     // -==================== Quora - S4 END POINT ==========================--------
     endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
     // -==================== Quora - S4 END POINT ==========================--------
@@ -408,7 +388,7 @@ const Form = ({
     router.pathname === "/full-stack-software-development-program" ||
     router.pathname === "/full-stack-web-development-program" ||
     router.pathname === "/fullstack/dsa" ||
-    router.pathname === "/fullstack/fssd" 
+    router.pathname === "/fullstack/fssd"
   ) {
     // -====================  Website Learnbay END POINT ==========================--------
     endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
@@ -490,20 +470,629 @@ const Form = ({
   // Form Submit function
   const formSubmit = (e) => {
     e.preventDefault();
+    if (
+      query.upskillingObjective === "Tell us about your upskilling objective?"
+    ) {
+      setError(true);
+    } else if (
+      query.upskillPlanning === "How soon are you planning to upskill?"
+    ) {
+      setError(true);
+    } else if (query.upskillPlanning === "Select an option") {
+      setError(true);
+    } else if (query.upskillingObjective === "Select an option") {
+      setError(true);
+    } else if (query.upskillPlanning === "") {
+      setError(true);
+    } else if (query.upskillingObjective === "") {
+      setError(true);
+    } else {
+      setError(false);
     console.log(query);
+      const formData = new FormData();
+      Object.entries(query).forEach(([key, value]) => {
+        formData.append(key, value);
+      });
+      fetch(`${endPoint}`, {
+        method: "POST",
+        body: formData,
+      }).then(
+        () => setAlertMSG(""),
+        setQuery({
+          name: "",
+          email: "",
+          phone: "",
+          upskillPlanning: "",
+          upskillingObjective: "",
+          WAdropdown: "",
+          referralCode: "",
+          url: router.asPath,
+        })
+      );
+      if (popup) {
+        const off = () => {
+          setTrigger(false);
+        };
+        off();
+      }
 
-    // if (
-    //   query.upskillingObjective === "Tell us about your upskilling objective?" ||
-    //   query.upskillPlanning === "How soon are you planning to upskill?" ||
-    //   query.upskillPlanning === "Select an option" ||
-    //   query.upskillingObjective === "Select an option"||
-    //   query.upskillingObjective === ""||
-    //   query.upskillPlanning === ""
-    // ) {
-    //   setError(true);
-    // } else {
-    // setError(false);
+      setDisable(true);
 
+      if (
+        (router.pathname === "/data-science-certification-courses-sd" &&
+          downloadBrochure) ||
+        (router.pathname === "/advance-ai-ml-certification-sd" &&
+          downloadBrochure) ||
+        (router.pathname === "/data-science-ai-cert-for-managers-leaders-sd" &&
+          downloadBrochure) ||
+        (router.pathname ===
+          "/job-guarantee-or-money-back-data-science-ai-sd" &&
+          downloadBrochure) ||
+        (router.pathname === "/data-science-certification-courses" &&
+          downloadBrochure) ||
+        (router.pathname ===
+          "/datascience/data-science-certification-courses" &&
+          downloadBrochure) ||
+        (router.pathname === "/advance-ai-ml-certification" &&
+          downloadBrochure) ||
+        (router.pathname === "/datascience/advance-ai-ml-certification" &&
+          downloadBrochure) ||
+        (router.pathname === "/business-analytics-certification-course" &&
+          downloadBrochure) ||
+        (router.pathname ===
+          "/datascience/business-analytics-certification-course" &&
+          downloadBrochure) ||
+        (router.pathname === "/data-analytics-certification-course" &&
+          downloadBrochure) ||
+        (router.pathname ===
+          "/datascience/data-analytics-certification-course" &&
+          downloadBrochure) ||
+        (router.pathname === "/data-science-ai-cert-for-managers-leaders" &&
+          downloadBrochure) ||
+        (router.pathname ===
+          "/datascience/data-science-ai-cert-for-managers-leaders" &&
+          downloadBrochure) ||
+        (router.pathname === "/job-guarantee-or-money-back-data-science-ai" &&
+          downloadBrochure) ||
+        (router.pathname === "/data-science-ai-masters-program" &&
+          downloadBrochure) ||
+        (router.pathname === "/datascience/data-science-ai-masters-program" &&
+          downloadBrochure) ||
+        (router.pathname === "/data-science-certification-courses-s2" &&
+          downloadBrochure) ||
+        (router.pathname === "/advance-ai-ml-certification-s2" &&
+          downloadBrochure) ||
+        (router.pathname === "/data-science-ai-cert-for-managers-leaders-s2" &&
+          downloadBrochure) ||
+        (router.pathname ===
+          "/job-guarantee-or-money-back-data-science-ai-s2" &&
+          downloadBrochure) ||
+        (router.pathname === "/data-science-certification-courses-s2d" &&
+          downloadBrochure) ||
+        (router.pathname === "/advance-ai-ml-certification-s2d" &&
+          downloadBrochure) ||
+        (router.pathname === "/data-science-ai-cert-for-managers-leaders-s2d" &&
+          downloadBrochure) ||
+        (router.pathname ===
+          "/job-guarantee-or-money-back-data-science-ai-s2d" &&
+          downloadBrochure) ||
+        (router.pathname === "/data-science-certification-courses-s3" &&
+          downloadBrochure) ||
+        (router.pathname === "/advance-ai-ml-certification-s3" &&
+          downloadBrochure) ||
+        (router.pathname === "/data-science-ai-cert-for-managers-leaders-s3" &&
+          downloadBrochure) ||
+        (router.pathname ===
+          "/job-guarantee-or-money-back-data-science-ai-s3" &&
+          downloadBrochure) ||
+        (router.pathname === "/data-science-certification-courses-s3d" &&
+          downloadBrochure) ||
+        (router.pathname === "/advance-ai-ml-certification-s3d" &&
+          downloadBrochure) ||
+        (router.pathname === "/data-science-ai-cert-for-managers-leaders-s3d" &&
+          downloadBrochure) ||
+        (router.pathname ===
+          "/job-guarantee-or-money-back-data-science-ai-s3d" &&
+          downloadBrochure) ||
+        (router.pathname === "/data-science-certification-courses-s4" &&
+          downloadBrochure) ||
+        (router.pathname === "/advance-ai-ml-certification-s4" &&
+          downloadBrochure) ||
+        (router.pathname === "/data-science-ai-cert-for-managers-leaders-s4" &&
+          downloadBrochure) ||
+        (router.pathname ===
+          "/job-guarantee-or-money-back-data-science-ai-s4" &&
+          downloadBrochure) ||
+        (router.pathname === "/data-science-certification-courses-s4d" &&
+          downloadBrochure) ||
+        (router.pathname === "/advance-ai-ml-certification-s4d" &&
+          downloadBrochure) ||
+        (router.pathname === "/data-science-ai-cert-for-managers-leaders-s4d" &&
+          downloadBrochure) ||
+        (router.pathname ===
+          "/job-guarantee-or-money-back-data-science-ai-s4d" &&
+          downloadBrochure) ||
+        (router.pathname === "/data-science-certification-courses-s5" &&
+          downloadBrochure) ||
+        router.pathname === "/advance-ai-ml-certification-s5" ||
+        (router.pathname === "/data-science-ai-cert-for-managers-leaders-s5" &&
+          downloadBrochure) ||
+        (router.pathname ===
+          "/job-guarantee-or-money-back-data-science-ai-s5" &&
+          downloadBrochure) ||
+        (router.pathname === "/data-science-certification-courses-s6" &&
+          downloadBrochure) ||
+        router.pathname === "/advance-ai-ml-certification-s6" ||
+        (router.pathname === "/data-science-ai-cert-for-managers-leaders-s6" &&
+          downloadBrochure) ||
+        (router.pathname ===
+          "/job-guarantee-or-money-back-data-science-ai-s6" &&
+          downloadBrochure) ||
+        (router.pathname === "/data-science-certification-courses-s7" &&
+          downloadBrochure) ||
+        (router.pathname === "/advance-ai-ml-certification-s7" &&
+          downloadBrochure) ||
+        (router.pathname === "/data-science-ai-cert-for-managers-leaders-s7" &&
+          downloadBrochure) ||
+        (router.pathname ===
+          "/job-guarantee-or-money-back-data-science-ai-s7" &&
+          downloadBrochure) ||
+        (router.pathname ===
+          "/job-guarantee-or-money-back-data-science-ai-s8" &&
+          downloadBrochure) ||
+        (router.pathname ===
+          "/job-guarantee-or-money-back-data-science-ai-s9" &&
+          downloadBrochure) ||
+        (router.pathname === "/data-science-certification-courses-s10" &&
+          downloadBrochure) ||
+        (router.pathname === "/data-science-certification-courses" &&
+          downloadBrochure) ||
+        (router.pathname === "/data-science-ai-cert-for-managers-leaders" &&
+          downloadBrochure) ||
+        (router.pathname ===
+          "/datascience/data-science-ai-cert-for-managers-leaders" &&
+          downloadBrochure) ||
+        (router.pathname === "/job-guarantee-or-money-back-data-science-ai" &&
+          downloadBrochure) ||
+        (router.pathname === "/data-science-ai-masters-program" &&
+          downloadBrochure) ||
+        (router.pathname === "/datascience/data-science-ai-masters-program" &&
+          downloadBrochure) ||
+        (router.pathname === "/" && downloadBrochure) ||
+        (router.pathname === "/s2-data-science" && downloadBrochure) ||
+        (router.pathname === "/s2-data-science-generic" && downloadBrochure) ||
+        (router.pathname === "/s2-data-science-advance-generic" &&
+          downloadBrochure) ||
+        (router.pathname === "/s2-managers-leaders-program" &&
+          downloadBrochure) ||
+        (router.pathname === "/s2-master-program" && downloadBrochure) ||
+        (router.pathname === "/s2-data-science-institute-generic" &&
+          downloadBrochure) ||
+        (router.pathname === "/s2-data-science-training-generic" &&
+          downloadBrochure) ||
+        (router.pathname === "/s2-data-science-syllabus-generic" &&
+          downloadBrochure) ||
+        (router.pathname === "/s2-artificial-intelligence-generic" &&
+          downloadBrochure) ||
+        (router.pathname === "/s2-artificial-intelligence-syllabus-generic" &&
+          downloadBrochure) ||
+        (router.pathname === "/s2-artificial-intelligence-training-generic" &&
+          downloadBrochure) ||
+        (router.pathname === "/s2-business-analytics-generic" &&
+          downloadBrochure) ||
+        (router.pathname === "/s2-business-analytics-syllabus-generic" &&
+          downloadBrochure) ||
+        (router.pathname === "/s2-business-analytics-training-generic" &&
+          downloadBrochure) ||
+        (router.pathname === "/s2-data-analytics-generic" &&
+          downloadBrochure) ||
+        (router.pathname === "/s2-data-analytics-institute-generic" &&
+          downloadBrochure) ||
+        (router.pathname === "/s2-data-analytics-syllabus-generic" &&
+          downloadBrochure) ||
+        (router.pathname === "/s2-data-analytics-training-generic" &&
+          downloadBrochure) ||
+        (router.pathname === "/s2-machine-learning-generic" &&
+          downloadBrochure) ||
+        (router.pathname === "/s2-machine-learning-syllabus-generic" &&
+          downloadBrochure) ||
+        (router.pathname === "/s2-machine-learning-training-generic" &&
+          downloadBrochure) ||
+        (router.pathname === "/s3-data-science" && downloadBrochure) ||
+        (router.pathname === "/s6-data-science-generic" && downloadBrochure) ||
+        (router.pathname === "/datascience/s6-data-science-generic" &&
+          downloadBrochure) ||
+        (router.pathname === "/s2-machine-learning" && downloadBrochure) ||
+        (router.pathname === "/s2-job-guarantee" && downloadBrochure) ||
+        (router.pathname === "/s2-data-analytics" && downloadBrochure) ||
+        (router.pathname === "/s2-artificial-intelligence" &&
+          downloadBrochure) ||
+        (router.pathname === "/s2-data-science-mis" && downloadBrochure) ||
+        (router.pathname === "/apply-for-counselling-data-science" &&
+          downloadBrochure) ||
+        (router.pathname ===
+          "/datascience/s2-apply-for-counselling-data-science" &&
+          downloadBrochure)
+      ) {
+        router.push("/Thank-you");
+
+        return;
+      }
+
+      if (event) {
+        router.push("/Thank-you");
+      }
+
+      if (
+        (router.pathname === "/her-career-her-rules" && downloadBrochure) ||
+        router.pathname === "/her-career-her-rules" ||
+        router.pathname === "/apply-for-counselling-marketing" ||
+        router.pathname === "/datascience/apply-for-counselling-marketing"
+      ) {
+        router.push("/Thank-you-marketing");
+
+        return;
+      }
+
+      if (
+        (router.pathname === "/fssd" && downloadBrochure) ||
+        (router.pathname === "/fswd" && downloadBrochure) ||
+        (router.pathname === "/dsa" && downloadBrochure) ||
+        (router.pathname === "/fssd-s2" && downloadBrochure) ||
+        (router.pathname === "/generic" && downloadBrochure) ||
+        (router.pathname === "/fullstack/fssd-s2" && downloadBrochure) ||
+        (router.pathname === "/software-development-s2" && downloadBrochure) ||
+        (router.pathname === "/fullstack/fssd-institute-program-s2" &&
+          downloadBrochure) ||
+        (router.pathname === "/fullstack/fssd-training-s2" &&
+          downloadBrochure) ||
+        (router.pathname === "/fullstack/software-development-course-s2" &&
+          downloadBrochure) ||
+        (router.pathname === "/fullstack/software-programming-course-s2" &&
+          downloadBrochure) ||
+        (router.pathname === "/fssd-s4" && downloadBrochure) ||
+        (router.pathname === "/fssd-s5" && downloadBrochure) ||
+        (router.pathname === "/dsa-s4" && downloadBrochure) ||
+        (router.pathname === "/dsa-s5" && downloadBrochure) ||
+        (router.pathname === "/full-stack-software-development-program" &&
+          downloadBrochure) ||
+        (router.pathname === "/apply-for-counselling" && downloadBrochure) ||
+        (router.pathname === "/full-stack-web-development-program" &&
+          downloadBrochure) ||
+        (router.pathname === "/fullstack/fssd" && downloadBrochure) ||
+        (router.pathname === "/fullstack/dsa" && downloadBrochure)
+      ) {
+        router.push("/Thank-you");
+
+        return;
+      }
+
+      if (
+        router.pathname === "/data-science-certification-courses-sd" ||
+        router.pathname === "/advance-ai-ml-certification-sd" ||
+        router.pathname === "/data-science-ai-cert-for-managers-leaders-sd" ||
+        router.pathname === "/job-guarantee-or-money-back-data-science-ai-sd" ||
+        router.pathname === "/data-science-certification-courses" ||
+        router.pathname === "/datascience/data-science-certification-courses" ||
+        router.pathname === "/advance-ai-ml-certification" ||
+        router.pathname === "/datascience/advance-ai-ml-certification" ||
+        router.pathname === "/business-analytics-certification-course" ||
+        router.pathname ===
+          "/datascience/business-analytics-certification-course" ||
+        router.pathname === "/data-analytics-certification-course" ||
+        router.pathname ===
+          "/datascience/data-analytics-certification-course" ||
+        router.pathname === "/data-science-ai-cert-for-managers-leaders" ||
+        router.pathname ===
+          "/datascience/data-science-ai-cert-for-managers-leaders" ||
+        router.pathname === "/job-guarantee-or-money-back-data-science-ai" ||
+        router.pathname === "/data-science-ai-masters-program" ||
+        router.pathname === "/datascience/data-science-ai-masters-program" ||
+        router.pathname === "/data-science-certification-courses-s2" ||
+        router.pathname === "/advance-ai-ml-certification-s2" ||
+        router.pathname === "/data-science-ai-cert-for-managers-leaders-s2" ||
+        router.pathname === "/job-guarantee-or-money-back-data-science-ai-s2" ||
+        router.pathname === "/data-science-certification-courses-s2d" ||
+        router.pathname === "/advance-ai-ml-certification-s2d" ||
+        router.pathname === "/data-science-ai-cert-for-managers-leaders-s2d" ||
+        router.pathname ===
+          "/job-guarantee-or-money-back-data-science-ai-s2d" ||
+        router.pathname === "/data-science-certification-courses-s3" ||
+        router.pathname === "/advance-ai-ml-certification-s3" ||
+        router.pathname === "/data-science-ai-cert-for-managers-leaders-s3" ||
+        router.pathname === "/job-guarantee-or-money-back-data-science-ai-s3" ||
+        router.pathname === "/data-science-certification-courses-s3d" ||
+        router.pathname === "/advance-ai-ml-certification-s3d" ||
+        router.pathname === "/data-science-ai-cert-for-managers-leaders-s3d" ||
+        router.pathname ===
+          "/job-guarantee-or-money-back-data-science-ai-s3d" ||
+        router.pathname === "/data-science-certification-courses-s4" ||
+        router.pathname === "/advance-ai-ml-certification-s4" ||
+        router.pathname === "/data-science-ai-cert-for-managers-leaders-s4" ||
+        router.pathname === "/job-guarantee-or-money-back-data-science-ai-s4" ||
+        router.pathname === "/data-science-certification-courses-s4d" ||
+        router.pathname === "/advance-ai-ml-certification-s4d" ||
+        router.pathname === "/data-science-ai-cert-for-managers-leaders-s4d" ||
+        router.pathname ===
+          "/job-guarantee-or-money-back-data-science-ai-s4d" ||
+        router.pathname === "/data-science-certification-courses-s5" ||
+        router.pathname === "/advance-ai-ml-certification-s5" ||
+        router.pathname === "/data-science-ai-cert-for-managers-leaders-s5" ||
+        router.pathname === "/job-guarantee-or-money-back-data-science-ai-s5" ||
+        router.pathname === "/data-science-certification-courses-s6" ||
+        router.pathname === "/advance-ai-ml-certification-s6" ||
+        router.pathname === "/data-science-ai-cert-for-managers-leaders-s6" ||
+        router.pathname === "/job-guarantee-or-money-back-data-science-ai-s6" ||
+        router.pathname === "/data-science-certification-courses-s7" ||
+        router.pathname === "/advance-ai-ml-certification-s7" ||
+        router.pathname === "/data-science-ai-cert-for-managers-leaders-s7" ||
+        router.pathname === "/job-guarantee-or-money-back-data-science-ai-s7" ||
+        router.pathname === "/data-science-certification-courses-s10" ||
+        router.pathname === "/data-science-certification-courses" ||
+        router.pathname === "/data-science-ai-cert-for-managers-leaders" ||
+        router.pathname ===
+          "/datascience/data-science-ai-cert-for-managers-leaders" ||
+        router.pathname === "/" ||
+        router.pathname === "/job-guarantee-or-money-back-data-science-ai-s8" ||
+        router.pathname === "/job-guarantee-or-money-back-data-science-ai-s9" ||
+        router.pathname === "/s2-data-science" ||
+        router.pathname === "/s2-data-science-generic" ||
+        router.pathname === "/s2-data-science-advance-generic" ||
+        router.pathname === "/s2-master-program" ||
+        router.pathname === "/s2-managers-leaders-program" ||
+        router.pathname === "/s2-data-science-institute-generic" ||
+        router.pathname === "/s2-data-science-training-generic" ||
+        router.pathname === "/s2-data-science-syllabus-generic" ||
+        router.pathname === "/s2-artificial-intelligence-generic" ||
+        router.pathname === "/s2-artificial-intelligence-syllabus-generic" ||
+        router.pathname === "/s2-artificial-intelligence-training-generic" ||
+        router.pathname === "/s2-business-analytics-generic" ||
+        router.pathname === "/s2-business-analytics-syllabus-generic" ||
+        router.pathname === "/s2-business-analytics-training-generic" ||
+        router.pathname === "/s2-data-analytics-generic" ||
+        router.pathname === "/s2-data-analytics-institute-generic" ||
+        router.pathname === "/s2-data-analytics-syllabus-generic" ||
+        router.pathname === "/s2-data-analytics-training-generic" ||
+        router.pathname === "/s2-machine-learning-generic" ||
+        router.pathname === "/s2-machine-learning-syllabus-generic" ||
+        router.pathname === "/s2-machine-learning-training-generic" ||
+        router.pathname === "/s3-data-science" ||
+        router.pathname === "/s6-data-science-generic" ||
+        router.pathname === "/datascience/s6-data-science-generic" ||
+        router.pathname === "/s2-machine-learning" ||
+        router.pathname === "/s2-job-guarantee" ||
+        router.pathname === "/s2-data-analytics" ||
+        router.pathname === "/apply-for-counselling" ||
+        router.pathname === "/s2-artificial-intelligence" ||
+        router.pathname === "/apply-for-counselling-s2" ||
+        router.pathname === "/apply-for-counselling-s4" ||
+        router.pathname === "/apply-for-counselling-data-science" ||
+        router.pathname === "/datascience/apply-for-counselling-data-science" ||
+        router.pathname ===
+          "/datascience/s2-apply-for-counselling-data-science" ||
+        router.pathname === "/apply-for-counselling-data-science-marketing" ||
+        router.pathname ===
+          "/datascience/apply-for-counselling-data-science-marketing" ||
+        router.pathname === "/apply-for-counselling-s3" ||
+        router.pathname === "/s2-data-science-mis" ||
+        router.pathname === "/apply-for-counselling-email-marketing"
+      ) {
+        router.push("/Thank-you");
+
+        return;
+      }
+
+      if (dataScience) {
+        router.push("/Thank-you");
+      }
+
+      if (router.pathname === "/apply-for-counselling-scholarship") {
+        router.push("/Thank-you-scholarship");
+      }
+
+      if (
+        router.pathname === "/fssd" ||
+        router.pathname === "/fswd" ||
+        router.pathname === "/dsa" ||
+        router.pathname === "/fssd-s2" ||
+        router.pathname === "/generic" ||
+        router.pathname === "/fullstack/fssd-s2" ||
+        router.pathname === "/software-development-s2" ||
+        router.pathname === "/fullstack/fssd-institute-program-s2" ||
+        router.pathname === "/fullstack/fssd-training-s2" ||
+        router.pathname === "/fullstack/software-development-course-s2" ||
+        router.pathname === "/fullstack/software-programming-course-s2" ||
+        router.pathname === "/fssd-s4" ||
+        router.pathname === "/fssd-s5" ||
+        router.pathname === "/dsa-s4" ||
+        router.pathname === "/dsa-s5" ||
+        router.pathname === "/full-stack-software-development-program" ||
+        router.pathname === "/full-stack-web-development-program" ||
+        router.pathname === "/apply-for-counselling-fsd-s2" ||
+        router.pathname === "/fullstack/dsa" ||
+        router.pathname === "/fullstack/fssd" ||
+        router.pathname === "/s2-masters-program" ||
+        router.pathname === "/s2-data-science-banking" ||
+        router.pathname === "/s2-data-science-hr" ||
+        router.pathname === "/s2-data-science-sales" ||
+        router.pathname === "/s2-data-science-marketing" ||
+        router.pathname === "/s2-business-analytics" ||
+        router.pathname === "/s2-business-analytics-advance" ||
+        router.pathname === "/s2-business-analytics-master" ||
+        router.pathname === "/s2-business-analytics-placement" ||
+        router.pathname === "/s2-business-analytics-training" ||
+        router.pathname === "/s2-data-science-advance" ||
+        router.pathname === "/s2-data-science-master" ||
+        router.pathname === "/s2-data-science-training" ||
+        router.pathname === "/s2-data-science-institute" ||
+        router.pathname === "/s4-data-science" ||
+        router.pathname === "/s6-data-science-generic" ||
+        router.pathname === "/datascience/s6-data-science-generic" ||
+        router.pathname === "/s2-data-science-placement" ||
+        router.pathname === "/s2-data-science-certification" ||
+        router.pathname === "/s2-machine-learning-advance" ||
+        router.pathname === "/s2-machine-learning-master" ||
+        router.pathname === "/s2-machine-learning-placement" ||
+        router.pathname === "/s2-machine-learning-certificate" ||
+        router.pathname === "/s2-machine-learning-training" ||
+        router.pathname === "/s2-data-analytics-advance" ||
+        router.pathname === "/s2-data-analytics-master" ||
+        router.pathname === "/s2-data-analytics-training" ||
+        router.pathname === "/s2-data-analytics-institute" ||
+        router.pathname === "/s2-data-analytics-placement" ||
+        router.pathname === "/s2-artificial-intelligence-advance" ||
+        router.pathname === "/s2-artificial-intelligence-master" ||
+        router.pathname === "/s2-artificial-intelligence-training" ||
+        router.pathname === "/s2-artificial-intelligence-placement" ||
+        router.pathname === "/s2-artificial-intelligence-certification" ||
+        //  BANGALORE
+
+        router.pathname === "/bangalore/s2-data-science" ||
+        router.pathname === "/bangalore/s2-data-science-generic" ||
+        router.pathname === "/bangalore/s2-artificial-intelligence-generic" ||
+        router.pathname === "/bangalore/s2-machine-learning-generic" ||
+        router.pathname === "/bangalore/s2-business-analytics-generic" ||
+        router.pathname === "/bangalore/s2-data-analytics-generic" ||
+        router.pathname === "/bangalore/s2-machine-learning" ||
+        router.pathname === "/bangalore/s2-artificial-intelligence" ||
+        router.pathname === "/bangalore/s2-data-analytics" ||
+        router.pathname === "/bangalore/s2-business-analytics" ||
+        router.pathname === "/bangalore/s2-job-guarantee" ||
+        router.pathname === "/bangalore/s2-masters-program" ||
+        router.pathname === "/bangalore/s2-artificial-intelligence-institute" ||
+        router.pathname === "/bangalore/s2-business-analytics-training" ||
+        router.pathname === "/bangalore/s2-data-analytics-training" ||
+        router.pathname === "/bangalore/s2-data-analytics-certification" ||
+        router.pathname === "/bangalore/s2-data-science-training" ||
+        router.pathname === "/bangalore/s2-machine-learning-training" ||
+        router.pathname ===
+          "/bangalore/s2-artificial-intelligence-institute-generic" ||
+        router.pathname ===
+          "/bangalore/s2-business-analytics-training-generic" ||
+        router.pathname ===
+          "/bangalore/s2-data-analytics-certification-generic" ||
+        router.pathname === "/bangalore/s2-data-analytics-training-generic" ||
+        router.pathname === "/bangalore/s2-data-science-training-generic" ||
+        router.pathname === "/bangalore/s2-machine-learning-training-generic" ||
+        //  chennai
+
+        router.pathname === "/chennai/s2-data-science" ||
+        router.pathname === "/chennai/s2-machine-learning" ||
+        router.pathname === "/chennai/s2-artificial-intelligence" ||
+        router.pathname === "/chennai/s2-data-analytics" ||
+        router.pathname === "/chennai/s2-business-analytics" ||
+        router.pathname === "/chennai/s2-job-guarantee" ||
+        router.pathname === "/chennai/s2-masters-program" ||
+        router.pathname === "/chennai/s2-business-analytics-training" ||
+        router.pathname === "/chennai/s2-data-analytics-training" ||
+        router.pathname === "/chennai/s2-machine-learning-training" ||
+        router.pathname === "/chennai/s2-data-science-generic" ||
+        router.pathname === "/chennai/s2-artificial-intelligence-generic" ||
+        router.pathname === "/chennai/s2-machine-learning-generic" ||
+        router.pathname === "/chennai/s2-business-analytics-generic" ||
+        router.pathname === "/chennai/s2-data-analytics-generic" ||
+        router.pathname === "/chennai/s2-business-analytics-training-generic" ||
+        router.pathname === "/chennai/s2-data-analytics-training-generic" ||
+        router.pathname === "/chennai/s2-machine-learning-training-generic" ||
+        //  delhi
+
+        router.pathname === "/delhi/s2-data-science" ||
+        router.pathname === "/delhi/s2-machine-learning" ||
+        router.pathname === "/delhi/s2-artificial-intelligence" ||
+        router.pathname === "/delhi/s2-data-analytics" ||
+        router.pathname === "/delhi/s2-business-analytics" ||
+        router.pathname === "/delhi/s2-job-guarantee" ||
+        router.pathname === "/delhi/s2-masters-program" ||
+        router.pathname === "/delhi/s2-data-science-generic" ||
+        router.pathname === "/delhi/s2-artificial-intelligence-generic" ||
+        router.pathname === "/delhi/s2-machine-learning-generic" ||
+        router.pathname === "/delhi/s2-business-analytics-generic" ||
+        router.pathname === "/delhi/s2-data-analytics-generic" ||
+        //  hyderabad
+
+        router.pathname === "/hyderabad/s2-data-science" ||
+        router.pathname === "/hyderabad/s2-machine-learning" ||
+        router.pathname === "/hyderabad/s2-artificial-intelligence" ||
+        router.pathname === "/hyderabad/s2-data-analytics" ||
+        router.pathname === "/hyderabad/s2-business-analytics" ||
+        router.pathname === "/hyderabad/s2-job-guarantee" ||
+        router.pathname === "/hyderabad/s2-masters-program" ||
+        router.pathname === "/hyderabad/s2-artificial-intelligence-training" ||
+        router.pathname === "/hyderabad/s2-business-analytics-training" ||
+        router.pathname === "/hyderabad/s2-data-science-training" ||
+        router.pathname === "/hyderabad/s2-machine-learning-training" ||
+        router.pathname === "/hyderabad/s2-data-science-generic" ||
+        router.pathname === "/hyderabad/s2-artificial-intelligence-generic" ||
+        router.pathname === "/hyderabad/s2-machine-learning-generic" ||
+        router.pathname === "/hyderabad/s2-business-analytics-generic" ||
+        router.pathname === "/hyderabad/s2-data-analytics-generic" ||
+        router.pathname ===
+          "/hyderabad/s2-artificial-intelligence-training-generic" ||
+        router.pathname ===
+          "/hyderabad/s2-business-analytics-training-generic" ||
+        router.pathname === "/hyderabad/s2-data-science-training-generic" ||
+        router.pathname === "/hyderabad/s2-machine-learning-training-generic" ||
+        //  mumbai
+
+        router.pathname === "/mumbai/s2-data-science" ||
+        router.pathname === "/mumbai/s2-machine-learning" ||
+        router.pathname === "/mumbai/s2-artificial-intelligence" ||
+        router.pathname === "/mumbai/s2-data-analytics" ||
+        router.pathname === "/mumbai/s2-business-analytics" ||
+        router.pathname === "/mumbai/s2-job-guarantee" ||
+        router.pathname === "/mumbai/s2-masters-program" ||
+        router.pathname === "/mumbai/s2-data-science-generic" ||
+        router.pathname === "/mumbai/s2-artificial-intelligence-generic" ||
+        router.pathname === "/mumbai/s2-machine-learning-generic" ||
+        router.pathname === "/mumbai/s2-business-analytics-generic" ||
+        router.pathname === "/mumbai/s2-data-analytics-generic" ||
+        //  pune
+
+        router.pathname === "/pune/s2-data-science" ||
+        router.pathname === "/pune/s2-machine-learning" ||
+        router.pathname === "/pune/s2-artificial-intelligence" ||
+        router.pathname === "/pune/s2-job-guarantee" ||
+        router.pathname === "/pune/s2-masters-program" ||
+        router.pathname === "/pune/s2-business-analytics" ||
+        router.pathname === "/pune/s2-artificial-intelligence-training" ||
+        router.pathname === "/pune/s2-business-analytics-training" ||
+        router.pathname === "/pune/s2-data-analytics-institute" ||
+        router.pathname === "/pune/s2-data-analytics-training" ||
+        router.pathname === "/pune/s2-data-science-institute" ||
+        router.pathname === "/pune/s2-data-science-training" ||
+        router.pathname === "/pune/s2-machine-learning-training" ||
+        router.pathname === "/pune/s2-data-analytics" ||
+        router.pathname === "/pune/s2-data-science-generic" ||
+        router.pathname === "/pune/s2-artificial-intelligence-generic" ||
+        router.pathname === "/pune/s2-machine-learning-generic" ||
+        router.pathname === "/pune/s2-business-analytics-generic" ||
+        router.pathname ===
+          "/pune/s2-artificial-intelligence-training-generic" ||
+        router.pathname === "/pune/s2-business-analytics-training-generic" ||
+        router.pathname === "/pune/s2-data-analytics-institute-generic" ||
+        router.pathname === "/pune/s2-data-analytics-training-generic" ||
+        router.pathname === "/pune/s2-data-science-training-generic" ||
+        router.pathname === "/pune/s2-data-science-institute-generic" ||
+        router.pathname === "/pune/s2-machine-learning-training-generic" ||
+        router.pathname === "/pune/s2-data-analytics-generic"
+      ) {
+        router.push("/Thank-you");
+
+        return;
+      }
+
+      if (router.pathname === "/google" || router.pathname === "/marketing") {
+        setToggle(false);
+        setAlertMSG("Form Submitted successfully");
+        setDisable(false);
+        setValue("");
+      }
+    }
+  };
+
+  const formSubmitDownload = (e) => {
+    e.preventDefault();
+    console.log(query);
     const formData = new FormData();
     Object.entries(query).forEach(([key, value]) => {
       formData.append(key, value);
@@ -516,12 +1105,9 @@ const Form = ({
       setQuery({
         name: "",
         email: "",
-        jobDescription: "",
         phone: "",
-        workExperience: "",
         upskillPlanning: "",
         upskillingObjective: "",
-        // dateTime: "",
         WAdropdown: "",
         referralCode: "",
         url: router.asPath,
@@ -651,8 +1237,6 @@ const Form = ({
         downloadBrochure) ||
       (router.pathname === "/data-science-certification-courses" &&
         downloadBrochure) ||
-      (router.pathname === "/datascience/data-science-certification-courses" &&
-        downloadBrochure) ||
       (router.pathname === "/data-science-ai-cert-for-managers-leaders" &&
         downloadBrochure) ||
       (router.pathname ===
@@ -754,9 +1338,7 @@ const Form = ({
       (router.pathname === "/fullstack/software-programming-course-s2" &&
         downloadBrochure) ||
       (router.pathname === "/fssd-s4" && downloadBrochure) ||
-      // (router.pathname === "/fswd-s4" && downloadBrochure) ||
       (router.pathname === "/fssd-s5" && downloadBrochure) ||
-      // (router.pathname === "/fswd-s5" && downloadBrochure) ||
       (router.pathname === "/dsa-s4" && downloadBrochure) ||
       (router.pathname === "/dsa-s5" && downloadBrochure) ||
       (router.pathname === "/full-stack-software-development-program" &&
@@ -764,8 +1346,7 @@ const Form = ({
       (router.pathname === "/apply-for-counselling" && downloadBrochure) ||
       (router.pathname === "/full-stack-web-development-program" &&
         downloadBrochure) ||
-        (router.pathname === "/fullstack/fssd" &&
-        downloadBrochure) ||
+      (router.pathname === "/fullstack/fssd" && downloadBrochure) ||
       (router.pathname === "/fullstack/dsa" && downloadBrochure)
     ) {
       router.push("/Thank-you");
@@ -831,7 +1412,6 @@ const Form = ({
       router.pathname === "/job-guarantee-or-money-back-data-science-ai-s7" ||
       router.pathname === "/data-science-certification-courses-s10" ||
       router.pathname === "/data-science-certification-courses" ||
-      router.pathname === "/datascience/data-science-certification-courses" ||
       router.pathname === "/data-science-ai-cert-for-managers-leaders" ||
       router.pathname ===
         "/datascience/data-science-ai-cert-for-managers-leaders" ||
@@ -885,6 +1465,10 @@ const Form = ({
       return;
     }
 
+    if (dataScience) {
+      router.push("/Thank-you");
+    }
+
     if (router.pathname === "/apply-for-counselling-scholarship") {
       router.push("/Thank-you-scholarship");
     }
@@ -902,9 +1486,7 @@ const Form = ({
       router.pathname === "/fullstack/software-development-course-s2" ||
       router.pathname === "/fullstack/software-programming-course-s2" ||
       router.pathname === "/fssd-s4" ||
-      // router.pathname === "/fswd-s4" ||
       router.pathname === "/fssd-s5" ||
-      // router.pathname === "/fswd-s5" ||
       router.pathname === "/dsa-s4" ||
       router.pathname === "/dsa-s5" ||
       router.pathname === "/full-stack-software-development-program" ||
@@ -1079,29 +1661,17 @@ const Form = ({
       return;
     }
 
-    if (router.pathname === "/google" ||
-    router.pathname === "/marketing"
-    ) {
+    if (router.pathname === "/google" || router.pathname === "/marketing") {
       setToggle(false);
       setAlertMSG("Form Submitted successfully");
       setDisable(false);
       setValue("");
     }
   };
-  const isWeekday = (date) => {
-    const day = getDay(date);
-    return day !== 0;
-  };
-  const filterPassedTime = (time) => {
-    const currentDate = new Date();
-    const selectedDate = new Date(time);
-
-    return currentDate.getTime() < selectedDate.getTime();
-  };
 
   return (
     <div className={styles.App}>
-      <form onSubmit={formSubmit}>
+      <form onSubmit={upSkillingHide ? formSubmitDownload : formSubmit}>
         <div className={styles.formWrapper}>
           <input
             type="text"
@@ -1153,182 +1723,9 @@ const Form = ({
             required
           />
         </div>
-
-        {jobDescription ? (
-          <div className={styles.formWrapper}>
-            <input
-              className={popup ? styles.EmailInputs : styles.EmailInputs}
-              placeholder={
-                fsddesc ? "Job Title or Domain*" : "Job Description*"
-              }
-              type="text"
-              name="jobDescription"
-              value={query.jobDescription}
-              onChange={handleParam()}
-              required={true}
-            />
-          </div>
-        ) : (
-          ""
-        )}
-
-        {jobPlacee ? (
+        {upSkillingHide ? (
           ""
         ) : (
-          <>
-            {jobPlace ? (
-              <>
-                {jobDesc ? (
-                  <>
-                    <div className={styles.formWrapper}>
-                      <input
-                        type="text"
-                        name="jobDescription"
-                        placeholder="Job Title or Qualification*"
-                        className={
-                          popup ? styles.EmailInputs : styles.EmailInput
-                        }
-                        value={query.jobDescription}
-                        onChange={handleParam()}
-                      />
-                    </div>
-                  </>
-                ) : (
-                  <>
-                    {" "}
-                    <div className={styles.formWrapper}>
-                      <input
-                        type="text"
-                        name="jobDescription"
-                        placeholder="Job Description*"
-                        className={
-                          popup ? styles.EmailInputs : styles.EmailInput
-                        }
-                        value={query.jobDescription}
-                        onChange={handleParam()}
-                        required
-                      />
-                    </div>
-                  </>
-                )}
-              </>
-            ) : (
-              <>
-                {" "}
-                {jobDesc ? (
-                  <>
-                    <div className={styles.formWrapper}>
-                      <input
-                        type="text"
-                        name="jobDescription"
-                        placeholder="Job Title or Domain"
-                        className={
-                          popup ? styles.EmailInputs : styles.EmailInput
-                        }
-                        value={query.jobDescription}
-                        onChange={handleParam()}
-                      />
-                    </div>
-                  </>
-                ) : (
-                  <>
-                    {" "}
-                    <div className={styles.formWrapper}>
-                      <input
-                        type="text"
-                        name="jobDescription"
-                        placeholder="Job Title or Domain"
-                        className={
-                          popup ? styles.EmailInputs : styles.EmailInputs
-                        }
-                        value={query.jobDescription}
-                        onChange={handleParam()}
-                        required
-                      />
-                    </div>
-                  </>
-                )}
-              </>
-            )}
-          </>
-        )}
-
-        {jobTitle ? (
-          <div className={popup ? styles.formWrappers : styles.formWrapper}>
-            <input
-              className={popup ? styles.EmailInputs : styles.EmailInput}
-              placeholder={
-                fsddesc ? "Job Title or Domain*" : "Job Description*"
-              }
-              type="text"
-              list="jobDescription"
-              name="jobDescription"
-              value={query.jobDescription}
-              onChange={handleParam()}
-              required
-            />
-            <datalist id="jobDescription">
-              <option value="" selected="selected" disabled="disabled">
-                -- select one --
-              </option>
-              <option value="Banking and Finance (BFSI)">
-                Banking and Finance (BFSI)
-              </option>
-              <option value="Marketing and Sales">Marketing and Sales</option>
-              <option value="Healthcare">Healthcare</option>
-              <option value="Retail and E-Commerce">
-                Retail and E-Commerce
-              </option>
-              <option value="Manufacturing">Manufacturing</option>
-              <option value="Energy, Oil and Gas">Energy, Oil and Gas</option>
-              <option value="Human Resources">Human Resources</option>
-              <option value="IT/Software Development">
-                IT/Software Development
-              </option>
-              <option value="Other">Other</option>
-            </datalist>
-          </div>
-        ) : (
-          ""
-        )}
-        {/* 
-        <div className={popup ? styles.formWrappers : styles.formWrapper}>
-          <select
-            name="workExperience"
-            required
-            value={query.workExperience}
-            onChange={handleParam()}
-          >
-            <option value="Work Experience">Work Experience</option>
-            <option value="Fresher or 0 year">Fresher or 0 year</option>
-            <option value="1 to 3 year">1 to 3 year</option>
-            <option value="3 to 7 year">3 to 7 year</option>
-            <option value="7 to 12 year">7 to 12 year</option>
-            <option value="12+ year">12+ year</option>
-          </select>
-        </div> */}
-
-        {workExperience ? (
-          ""
-        ) : (
-          <div className={popup ? styles.formWrappers : styles.formWrappers}>
-            <select
-              name="workExperience"
-              required
-              value={query.workExperience}
-              onChange={handleParam()}
-            >
-              <option value="Work Experience">Work Experience</option>
-              <option value="Fresher or 0 year">Fresher or 0 year</option>
-              <option value="1 to 3 year">1 to 3 year</option>
-              <option value="3 to 7 year">3 to 7 year</option>
-              <option value="7 to 12 year">7 to 12 year</option>
-              <option value="12+ year">12+ year</option>
-            </select>
-          </div>
-        )}
-
-        {upSkilling ? (
           <div className={popup ? styles.formWrappers : styles.formWrappers}>
             <select
               name="upskillPlanning"
@@ -1357,11 +1754,11 @@ const Form = ({
               <option value="Not yet decided">Not yet decided</option>
             </select>
           </div>
-        ) : (
-          ""
         )}
 
-        {upSkilling ? (
+        {upSkillingHide ? (
+          ""
+        ) : (
           <div className={popup ? styles.formWrappers : styles.formWrappers}>
             <select
               name="upskillingObjective"
@@ -1384,8 +1781,6 @@ const Form = ({
               <option value="Career switch">Career switch</option>
             </select>
           </div>
-        ) : (
-          ""
         )}
 
         {google ? (
@@ -1460,80 +1855,19 @@ const Form = ({
         ) : (
           ""
         )}
-
-        {QuesMean ? (
-          <div className={popup ? styles.formWrappers : styles.formWrapper}>
-            <label>
-              Find the average value of :- <b>20, 30, 10, 20</b>
-            </label>
-            <br />
-            <div style={{ display: "flex" }}>
-              <input
-                id="15"
-                value="15"
-                name="MeanValue"
-                required
-                type="radio"
-                onChange={handleParam()}
-              />
-              15&nbsp;
-              <br />
-              <input
-                id="10"
-                value="10"
-                name="MeanValue"
-                required
-                type="radio"
-                onChange={handleParam()}
-              />
-              10&nbsp;
-              <br />
-              <input
-                id="20"
-                value="20"
-                name="MeanValue"
-                required
-                type="radio"
-                onChange={handleParam()}
-              />
-              20
-            </div>
-          </div>
+        {error ? (
+          <p
+            style={{
+              margin: "0px 0px 5px 0px",
+              color: "#0072bc",
+              fontSize: "18px",
+            }}
+          >
+            Please select a valid option
+          </p>
         ) : (
           ""
         )}
-        {/* {downloadBrochure ? (
-          ""
-        ) : (
-          <div className={popup ? styles.formWrappers : styles.formWrapper}>
-            <div className={styles.inner}>
-              <DatePicker
-                selected={startDate}
-                name="dateTime"
-                id="dateTime"
-                onChange={(date) => setStartDate(date)}
-                showTimeSelect
-                timeIntervals={15}
-                includeDateIntervals={[
-                  {
-                    start: subDays(new Date(), 1),
-                    end: addDays(new Date(), 5),
-                  },
-                ]}
-                filterDate={isWeekday}
-                filterTime={filterPassedTime}
-                wrapperClassName={styles.date}
-                className={styles.datePicker}
-                placeholderText="Select Date and Time"
-                dateFormat="MMMM d, yyyy h:mm aa"
-                required
-                minTime={setHours(setMinutes(new Date(), 0), 10)}
-                maxTime={setHours(setMinutes(new Date(), 0), 20)}
-              />
-            </div>
-          </div>
-        )} */}
-        {/* {error ? <p style={{margin:"0px 0px 5px 0px", color:"#0072bc", fontSize:"18px"}}>Please select a valid option</p> : ""} */}
         <p className={styles.FormText} style={{ fontSize: "10px" }}>
           By submitting the form, you agree to our Terms and Conditions and our
           Privacy Policy.

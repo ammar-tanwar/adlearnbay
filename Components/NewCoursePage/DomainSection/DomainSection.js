@@ -17,7 +17,6 @@ function DomainSection({
   DomainSectionData,
   domainSectionData,
   workExperience,
-  jobPlacee,
 }) {
   const [domainDataArray, setDomainDataArray] = useState(domainSectionData);
 
@@ -47,12 +46,10 @@ function DomainSection({
         <div className="RightPopup">
           <h5>Download Brochure</h5>
           <Form
-            dataScience={dataScience}
             downloadBrochure
+            upSkillingHide={true}
             titleCourse={titleCourse}
             brochureLink={brochureLink}
-            jobPlacee={jobPlacee}
-            workExperience={workExperience}
           />
         </div>
       </Popup>

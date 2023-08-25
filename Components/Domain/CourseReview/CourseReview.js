@@ -61,12 +61,7 @@ const CourseReview = ({
             <h5>Download Placement Brochure</h5>
 
             {formotpForS3DS ? (
-              <FormOtp
-                popup={true}
-                brief={true}
-                currentCompany={true}
-                fsddesc={true}
-              />
+              <FormOtp popup={true} />
             ) : (
               <>
                 {formotp ? (
@@ -78,7 +73,11 @@ const CourseReview = ({
                     marketing={marketing}
                   />
                 ) : (
-                  <Form setTrigger={setPopups} downloadBrochure />
+                  <Form
+                    setTrigger={setPopups}
+                    downloadBrochure
+                    upSkillingHide={true}
+                  />
                 )}
               </>
             )}

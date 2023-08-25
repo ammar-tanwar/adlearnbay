@@ -19,9 +19,7 @@ const Navbar = ({
   fullstackADS,
   marketing,
   grad,
-  jobDescription,
-  workExperience,
-  jobPlacee,
+  upSkillingHide,
   upSkilling,
 }) => {
   const router = useRouter();
@@ -76,19 +74,17 @@ const Navbar = ({
                 <FormOtp
                   popup={true}
                   downloadBrochure
+                  upSkillingHide={true}
                   s2dataScience={s2dataScience}
                   fullstackADS={fullstackADS}
                   marketing={marketing}
                   grad={grad}
-                  jobDescription={jobDescription}
-                  workExperience={workExperience}
                 />
               ) : (
                 <Form
                   setTrigger={setPopups}
                   downloadBrochure
-                  jobPlacee={jobPlacee}
-                  workExperience={workExperience}
+                  upSkillingHide={true}
                   upSkilling={upSkilling}
                 />
               )}
@@ -97,17 +93,12 @@ const Navbar = ({
             <>
               {eventQRadio ? (
                 <>
-                  <FormOtp popup={true} eventRadio={true} />
+                  <FormOtp popup={true} />
                 </>
               ) : (
                 <>
                   {formotpForS3DS ? (
-                    <FormOtp
-                      jobDescription={true}
-                      QuesMean={true}
-                      jobTitle={true}
-                      jobPlacee={true}
-                    />
+                    <FormOtp />
                   ) : (
                     <>
                       {formotp ? (
@@ -117,14 +108,13 @@ const Navbar = ({
                           s2dataScience={s2dataScience}
                           fullstackADS={fullstackADS}
                           marketing={marketing}
+                          
                         />
                       ) : (
                         <Form
                           popup={true}
                           setTrigger={setPopups}
                           radio={radio}
-                          jobPlacee={jobPlacee}
-                          workExperience={workExperience}
                           upSkilling={upSkilling}
                         />
                       )}
@@ -194,10 +184,10 @@ export default Navbar;
 // {formotpForS3DS ? (
 //   <FormOtp
 //     popup={true}
-//     QuesMean={true}
-//     jobTitle={true}
-//     jobDescription={true}
-//     fsddesc={true}
+//
+//
+//
+//
 //   />
 // ) : (
 //   <>

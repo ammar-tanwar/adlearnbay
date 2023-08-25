@@ -14,7 +14,18 @@ import "swiper/css";
 
 import "swiper/css/pagination";
 
-const Project = ({ popupHead, project, domain, projectTitle, formotp, formotpForS3DS, domainName, domainParagraph, projectName, props }) => {
+const Project = ({
+  popupHead,
+  project,
+  domain,
+  projectTitle,
+  formotp,
+  formotpForS3DS,
+  domainName,
+  domainParagraph,
+  projectName,
+  props,
+}) => {
   const [popups, setPopups] = useState(false);
 
   const [device, setDevice] = useState();
@@ -47,19 +58,20 @@ const Project = ({ popupHead, project, domain, projectTitle, formotp, formotpFor
           <p>Please enter the following details to initiate your download</p>
 
           {formotpForS3DS ? (
-            <FormOtp popup={true} brief={true} currentCompany={true} />
+            <FormOtp popup={true} />
           ) : (
-
             <>
               {formotp ? (
                 <FormOtp popup={true} />
               ) : (
-                <Form setTrigger={setPopups} downloadBrochure />
+                <Form
+                  setTrigger={setPopups}
+                  downloadBrochure
+                  upSkillingHide={true}
+                />
               )}
             </>
           )}
-
-
         </div>
       </Popup>
 
@@ -128,7 +140,6 @@ const Project = ({ popupHead, project, domain, projectTitle, formotp, formotpFor
                 <h5>{props.projectName1}</h5>
                 <p>{props.domainName1}</p>
               </div>
-
             </div>
             <div className={styles.body}>
               <p>{props.domainParagraph1} </p>
@@ -139,7 +150,9 @@ const Project = ({ popupHead, project, domain, projectTitle, formotp, formotpFor
                   setDesc(
                     "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities."
                   );
-                  setImg("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Hr-domain-img.png");
+                  setImg(
+                    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Hr-domain-img.png"
+                  );
                 }}
               >
                 Learn More
@@ -150,10 +163,9 @@ const Project = ({ popupHead, project, domain, projectTitle, formotp, formotpFor
           <SwiperSlide className={styles.project}>
             <div className={styles.header}>
               <div className={styles.left}>
-                <h5>{props.projectName2 }</h5>
+                <h5>{props.projectName2}</h5>
                 <p>{props.domainName2}</p>
               </div>
-
             </div>
             <div className={styles.body}>
               <p>{props.domainParagraph2} </p>
@@ -164,7 +176,9 @@ const Project = ({ popupHead, project, domain, projectTitle, formotp, formotpFor
                   setDesc(
                     "Swiggy seeks a broad marketing campaign. But they need automated keyword generation tools. They also require proper message preparation and delivery of the same to the right audience at the right time. You can help them with text analytics and NLP-based keyword research solutions"
                   );
-                  setImg("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Marketing-domain-img.png");
+                  setImg(
+                    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Marketing-domain-img.png"
+                  );
                 }}
               >
                 Learn More
@@ -175,10 +189,9 @@ const Project = ({ popupHead, project, domain, projectTitle, formotp, formotpFor
           <SwiperSlide className={styles.project}>
             <div className={styles.header}>
               <div className={styles.left}>
-                <h5>{props.projectName3 }</h5>
+                <h5>{props.projectName3}</h5>
                 <p>{props.domainName3}</p>
               </div>
-
             </div>
             <div className={styles.body}>
               <p>{props.domainParagraph3} </p>
@@ -189,7 +202,9 @@ const Project = ({ popupHead, project, domain, projectTitle, formotp, formotpFor
                   setDesc(
                     "An automated inventory management system will keep track of stock levels and upcoming orders. In addition, you can contribute to DataCo's intelligent supply chain software generation project by using ML algorithms and R programming skills."
                   );
-                  setImg("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png");
+                  setImg(
+                    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"
+                  );
                 }}
               >
                 Learn More
@@ -200,10 +215,9 @@ const Project = ({ popupHead, project, domain, projectTitle, formotp, formotpFor
           <SwiperSlide className={styles.project}>
             <div className={styles.header}>
               <div className={styles.left}>
-                <h5>{props.projectName4 }</h5>
+                <h5>{props.projectName4}</h5>
                 <p>{props.domainName4}</p>
               </div>
-
             </div>
             <div className={styles.body}>
               <p>{props.domainParagraph4} </p>
@@ -214,7 +228,9 @@ const Project = ({ popupHead, project, domain, projectTitle, formotp, formotpFor
                   setDesc(
                     "BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects."
                   );
-                  setImg("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Sales-domain.png");
+                  setImg(
+                    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Sales-domain.png"
+                  );
                 }}
               >
                 Learn More
@@ -225,10 +241,9 @@ const Project = ({ popupHead, project, domain, projectTitle, formotp, formotpFor
           <SwiperSlide className={styles.project}>
             <div className={styles.header}>
               <div className={styles.left}>
-                <h5>{props.projectName5 }</h5>
+                <h5>{props.projectName5}</h5>
                 <p>{props.domainName5}</p>
               </div>
-
             </div>
             <div className={styles.body}>
               <p>{props.domainParagraph5} </p>
@@ -239,7 +254,9 @@ const Project = ({ popupHead, project, domain, projectTitle, formotp, formotpFor
                   setDesc(
                     "Take an active part in the Walmart sales forecasting project. From the huge data set available, you have to perform a sales forecast for 45 Walmart stores. You have to include holiday markdown sales too."
                   );
-                  setImg("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png");
+                  setImg(
+                    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"
+                  );
                 }}
               >
                 Learn More
@@ -250,10 +267,9 @@ const Project = ({ popupHead, project, domain, projectTitle, formotp, formotpFor
           <SwiperSlide className={styles.project}>
             <div className={styles.header}>
               <div className={styles.left}>
-                <h5>{props.projectName6 }</h5>
+                <h5>{props.projectName6}</h5>
                 <p>{props.domainName6}</p>
               </div>
-
             </div>
             <div className={styles.body}>
               <p>{props.domainParagraph6} </p>
@@ -264,7 +280,9 @@ const Project = ({ popupHead, project, domain, projectTitle, formotp, formotpFor
                   setDesc(
                     "Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app."
                   );
-                  setImg("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png");
+                  setImg(
+                    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/supplyChain.png"
+                  );
                 }}
               >
                 Learn More

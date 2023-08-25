@@ -73,12 +73,7 @@ function SyllabusNew({
           <h5>{popupHead}</h5>
 
           {formotpForS3DS ? (
-            <FormOtp
-              popup={true}
-              brief={true}
-              currentCompany={true}
-              fsddesc={true}
-            />
+            <FormOtp popup={true} />
           ) : (
             <>
               {formotp ? (
@@ -89,7 +84,11 @@ function SyllabusNew({
                   marketing={marketing}
                 />
               ) : (
-                <Form setTrigger={setPopups} downloadBrochure />
+                <Form
+                  setTrigger={setPopups}
+                  downloadBrochure
+                  upSkillingHide={true}
+                />
               )}
             </>
           )}
@@ -251,12 +250,7 @@ function SyllabusNew({
               {syllabusFormotp ? (
                 <>
                   {formotpForS3DS ? (
-                    <FormOtp
-                      popup={true}
-                      brief={true}
-                      currentCompany={true}
-                      fsddesc={true}
-                    />
+                    <FormOtp popup={true} />
                   ) : (
                     <>
                       <FormOtp
@@ -287,7 +281,6 @@ function SyllabusNew({
                         />
                       ) : (
                         <Form
-                          dataScience={dataScience}
                           redirectDs={redirectDs}
                           redirectFs={redirectFs}
                           redirectBa={redirectBa}

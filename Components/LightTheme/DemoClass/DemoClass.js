@@ -35,8 +35,6 @@ function DemoClass({
               fullstackADS={fullstackADS}
               marketing={marketing}
               grad={grad}
-              jobDescription={jobDescription}
-              workExperience={workExperience}
             />
           ) : (
             <Form setTrigger={setPopups} />

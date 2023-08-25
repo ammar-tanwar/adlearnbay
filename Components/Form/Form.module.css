@@ -5,17 +5,19 @@
   width: 100%;
   height: 100%;
 }
-
-.errorSelect {
-  border: 1px solid red;
-}
 .formWrapper {
   margin-bottom: 10px;
   width: 80%;
   height: 100%;
-  margin-bottom: 20px;
   text-align: left;
 }
+
+.alert {
+  margin: 0;
+  color: #2C9CD7 !important;
+  font-size: 18px !important;
+}
+
 /* .formWrapper input {
   appearance: none;
 } */
@@ -27,14 +29,15 @@
   text-align: left;
 }
 .NameInput {
-  border-radius: 2px;
-  border: 0;
-  width: 100%;
-  border-bottom: 1px solid grey;
-  /* border-bottom: 1px solid grey; */
-  outline: none;
-  background-color: rgba(255, 255, 255);
   height: 50px;
+  width: 100%;
+  border-radius: 8px;
+  border: 0;
+  border: 1px solid grey;
+  font-size: 16px;
+  padding-left: 10px;
+  color: rgb(167, 167, 167);
+  outline: none;
 }
 .NameInputs {
   border-radius: 8px;
@@ -45,20 +48,16 @@
   background-color: rgba(255, 255, 255);
   height: 50px;
 }
-
-.alert {
-  margin: 0;
-  color: #2C9CD7 !important;
-  font-size: 18px !important;
-}
 .EmailInput {
-  border-radius: 2px;
-  border: 0;
-  width: 100%;
-  border-bottom: 1px solid grey;
-  outline: none;
-  background-color: rgba(255, 255, 255);
   height: 50px;
+  width: 100%;
+  border-radius: 8px;
+  border: 0;
+  border: 1px solid grey;
+  font-size: 16px;
+  padding-left: 10px;
+  color: rgb(167, 167, 167);
+  outline: none;
 }
 .EmailInputs {
   border-radius: 8px;
@@ -95,13 +94,27 @@
   color: rgb(167, 167, 167);
   font-size: 16px;
 }
-
+.PhoneInputCountry .PhoneInputInput {
+  border: none !important;
+}
+.formWrapperOtp {
+  margin-bottom: 10px;
+  width: 80%;
+  height: 100%;
+  margin-bottom: 20px;
+  text-align: left;
+  display: flex;
+  gap: 10px;
+}
+.formWrapperOtp button {
+  padding: 15px;
+}
 .formWrapper select {
   height: 50px;
   width: 100%;
-  border-radius: 2px;
+  border-radius: 8px;
   border: 0;
-  border-bottom: 1px solid grey;
+  border: 1px solid grey;
   font-size: 16px;
   padding-left: 10px;
   color: rgb(167, 167, 167);
@@ -210,7 +223,6 @@
   margin: auto;
   justify-content: center;
   cursor: pointer;
-  margin-top: 20px;
 }
 .App form {
   display: flex;

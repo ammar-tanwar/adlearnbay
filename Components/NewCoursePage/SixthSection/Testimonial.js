@@ -19,7 +19,6 @@ function Testimonial({
   grad,
   jobDescription,
   workExperience,
-  jobPlacee,
 }) {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
@@ -54,16 +53,13 @@ function Testimonial({
                 fullstackADS={fullstackADS}
                 marketing={marketing}
                 grad={grad}
-                jobDescription={jobDescription}
-                workExperience={workExperience}
               />
             ) : (
               <Form
                 popup={true}
                 downloadBrochure
+                upSkillingHide={true}
                 setTrigger={setPopups}
-                jobPlacee={jobPlacee}
-                workExperience={workExperience}
               />
             )}
           </div>

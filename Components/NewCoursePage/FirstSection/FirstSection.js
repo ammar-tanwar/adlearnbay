@@ -23,7 +23,6 @@ function FirstSection({
   SecondTyped,
   ThirdTyped,
   workExperience,
-  jobPlacee,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -70,12 +69,11 @@ function FirstSection({
         <div className="RightPopup">
           <h5>Download Brochure</h5>
           <Form
-            dataScience={dataScience}
             dataScienceCounselling={dataScienceCounselling}
             downloadBrochure
+            upSkillingHide={true}
             titleCourse={titleCourse}
             brochureLink={brochureLink}
-            jobPlacee={jobPlacee} workExperience={workExperience}
           />
         </div>
       </Popup>

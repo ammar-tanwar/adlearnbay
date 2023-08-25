@@ -84,7 +84,12 @@ export default function Home() {
         </Head>
         <main>
           {" "}
-          <Navbar popup={true} brochureButton={true} formotp={true} />
+          <Navbar
+            popup={true}
+            brochureButton={true}
+            upSkillingHide={true}
+            formotp={true}
+          />
           <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
             <div className="leftPopup">
               <div className="whiteP" />

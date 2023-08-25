@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Testimonial.module.css";
-import { FaQuoteLeft, FaDownload } from "react-icons/fa";
+import { FaQuoteLeft, FaArrowRight } from "react-icons/fa";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -36,8 +36,8 @@ function Testimonial({
   return (
     <section>
       <button onClick={popupShow} className={styles.button}>
-        Download Brochure
-        <FaDownload className={styles.icon} />
+        Apply for Counselling
+        <FaArrowRight className={styles.icon} />
       </button>
       <div className={styles.Section1}>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
@@ -45,7 +45,7 @@ function Testimonial({
             <div className="whiteP" />
           </div>
           <div className="RightPopup">
-            <h5>Download Brochure</h5>
+            <h5>Apply for Counselling</h5>
             {formotp ? (
               <FormOtp
                 popup={true}
@@ -53,11 +53,9 @@ function Testimonial({
                 fullstackADS={fullstackADS}
                 marketing={marketing}
                 grad={grad}
-                jobDescription={jobDescription}
-                workExperience={workExperience}
               />
             ) : (
-              <Form popup={true} downloadBrochure setTrigger={setPopups} />
+              <Form popup={true} upSkillingHide={true} setTrigger={setPopups} />
             )}
           </div>
         </Popup>

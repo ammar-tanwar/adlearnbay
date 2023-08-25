@@ -22,7 +22,7 @@ function SyllabusNew({
   srcD,
   fullStack,
   formotp,
-  jobDescription, jobPlacee,
+  jobDescription,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -62,15 +62,15 @@ function SyllabusNew({
         <div className="RightPopup">
           <h5>{popupHead}</h5>
           <p>Please enter the following details to initiate your download</p>
-          {formotp ?(
+          {formotp ? (
             <FormOtp popup={true} />
-          ):(
-          <Form
-            setTrigger={setPopups}
-            downloadBrochure
-            fullStack={fullStack} dataScience={dataScience}
-            jobDescription={jobDescription} jobPlacee={jobPlacee}
-          />
+          ) : (
+            <Form
+              setTrigger={setPopups}
+              downloadBrochure
+              upSkillingHide={true}
+              fullStack={fullStack}
+            />
           )}
         </div>
       </Popup>
@@ -212,19 +212,18 @@ function SyllabusNew({
               </h5>
             </div>
             <div className={styles.PProgramInners}>
-            {formotp ?(
-            <FormOtp popup={true} dataScience={dataScience}
-            fullStack={fullStack}/>
-          ):(
-              <Form
-                dataScience={dataScience}
-                fullStack={fullStack}
-                jobDescription={jobDescription} jobPlacee={jobPlacee}
-              />
-          )}
+              {formotp ? (
+                <FormOtp popup={true} fullStack={fullStack} />
+              ) : (
+                <Form fullStack={fullStack} />
+              )}
             </div>
           </div>
-          <img src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/blue-shadow.svg" className={styles.shadowImg} alt="Learnbay data science" />
+          <img
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/blue-shadow.svg"
+            className={styles.shadowImg}
+            alt="Learnbay data science"
+          />
         </div>
       </div>
     </section>

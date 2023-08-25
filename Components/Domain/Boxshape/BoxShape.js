@@ -94,7 +94,7 @@ const BoxShape = ({
               </h5>
 
               {formotpForS3DS ? (
-                <FormOtp popup={true} brief={true} currentCompany={true} />
+                <FormOtp popup={true} />
               ) : (
                 <>
                   {formotp ? (

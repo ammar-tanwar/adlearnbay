@@ -24,7 +24,9 @@ export default function Home() {
     <>
       <div>
         <Head>
-          <title>Learn Online Data Science Course with Deep learning and AI</title>
+          <title>
+            Learn Online Data Science Course with Deep learning and AI
+          </title>
           <meta
             name="description"
             content="Top Data Science Course with Deep learning and AI course with Domain specialization and
@@ -88,6 +90,7 @@ get 100% placement assistance "
           <Navbar
             popup={true}
             brochureButton={true}
+            upSkillingHide={true}
             formotp={true}
             s2dataScience={true}
           />

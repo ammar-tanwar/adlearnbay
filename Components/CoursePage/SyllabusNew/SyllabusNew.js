@@ -74,18 +74,22 @@ function SyllabusNew({
 
           {eventQRadio ? (
             <>
-              <FormOtp popup={true} eventRadio={true} />
+              <FormOtp popup={true} />
             </>
           ) : (
             <>
               {formotpForS3DS ? (
-                <FormOtp jobDescription={true} QuesMean={true} jobTitle={true} jobPlacee={true} />
+                <FormOtp />
               ) : (
                 <>
                   {formotp ? (
                     <FormOtp popup={true} />
                   ) : (
-                    <Form setTrigger={setPopups} downloadBrochure />
+                    <Form
+                      setTrigger={setPopups}
+                      downloadBrochure
+                      upSkillingHide={true}
+                    />
                   )}
                 </>
               )}
@@ -256,14 +260,14 @@ function SyllabusNew({
             <div className={styles.PProgramInners}>
               {eventQRadio ? (
                 <>
-                  <FormOtp popup={true} eventRadio={true} />
+                  <FormOtp popup={true} />
                 </>
               ) : (
                 <>
                   {syllabusFormotp ? (
                     <>
                       {formotpForS3DS ? (
-                        <FormOtp jobDescription={true} QuesMean={true} jobTitle={true} jobPlacee={true} />
+                        <FormOtp />
                       ) : (
                         <>
                           <FormOtp />
@@ -281,19 +285,18 @@ function SyllabusNew({
                         </a>
                       ) : (
                         <>
-                    {formotp ?(
-                      <FormOtp popup={true}/>
-                      ):(
-                        <Form
-                          dataScience={dataScience}
-                          redirectDs={redirectDs}
-                          redirectFs={redirectFs}
-                          redirectBa={redirectBa}
-                          redirectBl={redirectBl}
-                          redirectDe={redirectDe}
-                        />
-                      )}
-                    </>
+                          {formotp ? (
+                            <FormOtp popup={true} />
+                          ) : (
+                            <Form
+                              redirectDs={redirectDs}
+                              redirectFs={redirectFs}
+                              redirectBa={redirectBa}
+                              redirectBl={redirectBl}
+                              redirectDe={redirectDe}
+                            />
+                          )}
+                        </>
                       )}
                     </>
                   )}
@@ -322,7 +325,7 @@ export default SyllabusNew;
 // ):(
 
 //   <Form
-//   dataScience={dataScience}
+//
 //   redirectDs={redirectDs}
 //   redirectFs={redirectFs}
 //   redirectBa={redirectBa}

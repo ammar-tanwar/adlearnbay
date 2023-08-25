@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Testimonial.module.css";
-import { FaQuoteLeft, FaDownload } from "react-icons/fa";
+import { FaQuoteLeft, FaArrowRight } from "react-icons/fa";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -11,7 +11,7 @@ import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
 
-function Testimonial({formotp, fullstackADS}) {
+function Testimonial({ formotp, fullstackADS }) {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
     let width = window.innerWidth;
@@ -28,8 +28,8 @@ function Testimonial({formotp, fullstackADS}) {
   return (
     <section>
       <button onClick={popupShow} className={styles.button}>
-        Download Brochure
-        <FaDownload className={styles.icon} />
+      Apply for Counselling
+        <FaArrowRight className={styles.icon} />
       </button>
       <div className={styles.Section1}>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
@@ -37,12 +37,17 @@ function Testimonial({formotp, fullstackADS}) {
             <div className="whiteP" />
           </div>
           <div className="RightPopup">
-            <h5>Download Brochure</h5>
+            <h5>Apply for Counselling</h5>
             {formotp ? (
-                    <FormOtp popup={true} fullstackADS={fullstackADS} downloadBrochure/>
-                  ) : (
-                    <Form setTrigger={setPopups} downloadBrochure/>
-                  )}
+              <FormOtp
+                popup={true}
+                fullstackADS={fullstackADS}
+              />
+            ) : (
+              <Form
+                setTrigger={setPopups}
+              />
+            )}
           </div>
         </Popup>
         <h1>Student Testimonials</h1>
@@ -67,13 +72,11 @@ function Testimonial({formotp, fullstackADS}) {
                   </div>
                   <div>
                     <p className={styles.para}>
-                    Excellent training and awesome
-                      environment! I took data structures
-                      and algorithm training in LearnBay .
-                      They teach concepts clearly and solved
-                      as many programs as possible.
-                      I was getting interview calls even
-                      before course completion.
+                      Excellent training and awesome environment! I took data
+                      structures and algorithm training in LearnBay . They teach
+                      concepts clearly and solved as many programs as possible.
+                      I was getting interview calls even before course
+                      completion.
                     </p>
                   </div>
                   <div className={styles.line}></div>
@@ -100,13 +103,10 @@ function Testimonial({formotp, fullstackADS}) {
                   </div>
                   <div>
                     <p className={styles.para}>
-                    This Course Helped me in getting 6
-                      month SDE INTERNSHIP at
-                      AMAZON,India.
-                      The advance DSA topics are taught and
-                      explained in such a simplified manner
-                      that even a newbie can catch up very
-                      easily.
+                      This Course Helped me in getting 6 month SDE INTERNSHIP at
+                      AMAZON,India. The advance DSA topics are taught and
+                      explained in such a simplified manner that even a newbie
+                      can catch up very easily.
                       <br />
                     </p>
                   </div>
@@ -134,12 +134,10 @@ function Testimonial({formotp, fullstackADS}) {
                   </div>
                   <div>
                     <p className={styles.para}>
-                    I have done the DS & Algo course from
-                      Learnbay. I learned from the basics
-                      time complexity, arrays, linked
-                      list, stack to advance data structures –
-                      trees, graphs etc. Getting into product
-                      based MNC was always my dream and
+                      I have done the DS & Algo course from Learnbay. I learned
+                      from the basics time complexity, arrays, linked list,
+                      stack to advance data structures – trees, graphs etc.
+                      Getting into product based MNC was always my dream and
                       this course helped me achieve it .
                       <br />
                     </p>
@@ -168,12 +166,10 @@ function Testimonial({formotp, fullstackADS}) {
                   </div>
                   <div>
                     <p className={styles.para}>
-                    Before joining the DSA course I wasn’t
-                      confident on any of the topics. I can see
-                      the change in my coding abilities after
-                      the completion of the course! I even got
-                      interview calls from several product
-                      based companies.
+                      Before joining the DSA course I wasn’t confident on any of
+                      the topics. I can see the change in my coding abilities
+                      after the completion of the course! I even got interview
+                      calls from several product based companies.
                       <br />
                     </p>
                   </div>
@@ -201,13 +197,11 @@ function Testimonial({formotp, fullstackADS}) {
                   </div>
                   <div>
                     <p className={styles.para}>
-                    I attended ds algo course under
-                      Learnbay. They discussed multiple
-                      approaches to solve any problem
-                      starting from brute force to one with
-                      less complexity. Assignments, mock
-                      interviews and job referrals really
-                      helped me in my career.
+                      I attended ds algo course under Learnbay. They discussed
+                      multiple approaches to solve any problem starting from
+                      brute force to one with less complexity. Assignments, mock
+                      interviews and job referrals really helped me in my
+                      career.
                       <br />
                     </p>
                   </div>
@@ -237,13 +231,11 @@ function Testimonial({formotp, fullstackADS}) {
                     <div className={styles.contentRight}>
                       <div>
                         <p className={styles.para}>
-                        I took DS course under Learnbay.
-                      Irrespective of implementation
-                      languages, one can join this. Their
-                      excellent training methodology helps to
-                      learn quickly. Their mock interviews with
-                      referrals to product based companies
-                      gave a good boost to my career
+                          I took DS course under Learnbay. Irrespective of
+                          implementation languages, one can join this. Their
+                          excellent training methodology helps to learn quickly.
+                          Their mock interviews with referrals to product based
+                          companies gave a good boost to my career
                           <br />
                         </p>
                       </div>

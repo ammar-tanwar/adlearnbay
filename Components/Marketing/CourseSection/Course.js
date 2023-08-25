@@ -31,6 +31,7 @@ const Course = ({ popupHead, radio }) => {
           <Form
             setTrigger={setPopups}
             downloadBrochure
+            upSkillingHide={true}
             radio={true}
             referral={true}
           />

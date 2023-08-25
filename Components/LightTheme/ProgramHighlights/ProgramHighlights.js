@@ -5,7 +5,15 @@ import Form from "../../Form/Form";
 import styles from "./ProgramHighlights.module.css";
 import { FaArrowRight } from "react-icons/fa";
 
-function ProgramHighlights({fullStackCont, Ques, ans, Bot1, Bot2, Bot3, formCommon}) {
+function ProgramHighlights({
+  fullStackCont,
+  Ques,
+  ans,
+  Bot1,
+  Bot2,
+  Bot3,
+  formCommon,
+}) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -20,10 +28,20 @@ function ProgramHighlights({fullStackCont, Ques, ans, Bot1, Bot2, Bot3, formComm
         <div className="RightPopup">
           <h5>Download Brochure</h5>
           {formCommon ? (
-          <Form popup={true} downloadBrochure setTrigger={setPopups} />
-      ) : (
-        <FormOtp popup={true} downloadBrochure setTrigger={setPopups} />
-)}
+            <Form
+              popup={true}
+              downloadBrochure
+              upSkillingHide={true}
+              setTrigger={setPopups}
+            />
+          ) : (
+            <FormOtp
+              popup={true}
+              downloadBrochure
+              upSkillingHide={true}
+              setTrigger={setPopups}
+            />
+          )}
         </div>
       </Popup>
       {fullStackCont ? (

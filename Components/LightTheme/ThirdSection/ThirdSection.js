@@ -37,15 +37,18 @@ function ThirdSection({
             <FormOtp
               popup={true}
               downloadBrochure
+              upSkillingHide={true}
               s2dataScience={s2dataScience}
               fullstackADS={fullstackADS}
               marketing={marketing}
               grad={grad}
-              jobDescription={jobDescription}
-              workExperience={workExperience}
             />
           ) : (
-            <Form setTrigger={setPopups} downloadBrochure />
+            <Form
+              setTrigger={setPopups}
+              downloadBrochure
+              upSkillingHide={true}
+            />
           )}
         </div>
       </Popup>

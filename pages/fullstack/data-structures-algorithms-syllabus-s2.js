@@ -101,6 +101,7 @@ export default function Home({ formotp }) {
             formotp={true}
             fullstackADS={true}
             DownloadSyllabus={true}
+            brochureButton={true}
           />
           <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
             <div className="leftPopup">
@@ -137,6 +138,7 @@ export default function Home({ formotp }) {
             fullstackADS={true}
             fullStackCont={true}
             DownloadSyllabus={true}
+            brochureButton={true}
           />
           <FourthSection
             fullStackCont={true}
@@ -204,6 +206,7 @@ export default function Home({ formotp }) {
             formotp={true}
             fullstackADS={true}
             DownloadSyllabus={true}
+            brochureButton={true}
           />
           <FAQNew
             FaqDatas={FaqData9}
@@ -219,6 +222,7 @@ export default function Home({ formotp }) {
             formotp={true}
             fullstackADS={true}
             DownloadSyllabus={true}
+            brochureButton={true}
           />
         </main>
       </div>

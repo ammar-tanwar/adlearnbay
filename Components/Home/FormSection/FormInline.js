@@ -3,52 +3,31 @@ import styles from "./FormInline.module.css";
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
 import { useRouter } from "next/router";
-import DatePicker from "react-datepicker";
-import setHours from "date-fns/setHours";
-import setMinutes from "date-fns/setMinutes";
-import addDays from "date-fns/addDays";
-import subDays from "date-fns/subDays";
-import getDay from "date-fns/getDay";
 
 const FormInline = ({
   popup,
   setTrigger,
-  downloadBrochure,
+  upSkillingHide,
   radio,
   dataScience,
+  dataScienceCounselling,
+  dataScienceGeneric,
 }) => {
-  const [mobile, setMobile] = useState(false);
-
-  useEffect(() => {
-    let width = window.innerWidth;
-
-    if (width < 481) {
-      setMobile(true);
-    }
-    if (width > 481) {
-      setMobile(false);
-    }
-  }, [mobile]);
-
   const router = useRouter();
-  let today = new Date();
-  let time =
-    today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 
   //offset to maintain time zone difference
-  const [startDate, setStartDate] = useState();
   const [value, setValue] = useState();
+  const [error, setError] = useState();
   const [query, setQuery] = useState({
     name: "",
     email: "",
     phone: "",
-    workExperience: "",
-    Brief: "",
-    dateTime: "",
-    url: router.asPath,
+        upskillPlanning: "",
+    upskillingObjective: "",
+    url: "",
   });
   useEffect(() => {
-    setQuery({ ...query, phone: value, dateTime: startDate });
+    setQuery({ ...query, phone: value, });
   }, [value]);
 
   // Update inputs value
@@ -61,14 +40,76 @@ const FormInline = ({
     }));
   };
 
+  const redirection = async () => {
+    console.log("redirect");
+    const myTimeout = setTimeout(() => {
+      router.push("https://course.learnbay.co/Thank-you");
+    }, 500);
+  };
+
   let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
 
-  if (router.pathname === "/common") {
-    endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
+  if (router.pathname === "/resume-builder") {
+    endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
   }
 
   // Form Submit function
   const formSubmit = (e) => {
+    e.preventDefault();
+    if (
+      query.upskillingObjective === "Tell us about your upskilling objective?"
+    ) {
+      setError(true);
+    } else if (
+      query.upskillPlanning === "How soon are you planning to upskill?"
+    ) {
+      setError(true);
+    } else if (query.upskillPlanning === "Select an option") {
+      setError(true);
+    } else if (query.upskillingObjective === "Select an option") {
+      setError(true);
+    } else if (query.upskillPlanning === "") {
+      setError(true);
+    } else if (query.upskillingObjective === "") {
+      setError(true);
+    } else {
+      setError(false);
+    const formData = new FormData();
+    Object.entries(query).forEach(([key, value]) => {
+      formData.append(key, value);
+    });
+    fetch(`${endPoint}`, {
+      method: "POST",
+      body: formData,
+    }).then(() =>
+      setQuery({
+        name: "",
+        email: "",
+        phone: "",
+            upskillPlanning: "",
+    upskillingObjective: "",
+        url: "",
+      })
+    );
+    if (popup) {
+      const off = () => {
+        setTrigger(false);
+      };
+      off();
+    }
+    if (dataScience) {
+      router.push("/Thank-you");
+    }
+    if (dataScienceCounselling) {
+      router.push("/Thank-you");
+    }
+    if (dataScienceGeneric) {
+      redirection();
+    }
+  }
+  };
+
+  const formSubmitDownload = (e) => {
     e.preventDefault();
     const formData = new FormData();
     Object.entries(query).forEach(([key, value]) => {
@@ -82,7 +123,8 @@ const FormInline = ({
         name: "",
         email: "",
         phone: "",
-        workExperience: "",
+            upskillPlanning: "",
+    upskillingObjective: "",
         scheduleTime: "",
         url: "",
       })
@@ -96,39 +138,30 @@ const FormInline = ({
     if (dataScience) {
       router.push("/Thank-you");
     }
-  };
-  const pastDates = () => {
-    let today, dd, mm, yyyy;
-    today = new Date();
-    dd = (today.getDate() < 10 ? "0" : "") + today.getDate();
-    mm = (today.getMonth() + 1).toString().padStart(2, "0");
-    yyyy = today.getFullYear();
-    return yyyy + "-" + mm + "-" + dd;
+    if (dataScienceCounselling) {
+      router.push("/Thank-you");
+    }
+    if (dataScienceGeneric) {
+      redirection();
+    }
   };
 
-  const maxDates = () => {
-    let today, dd, mm, yyyy;
-    today = new Date();
-    dd = (today.getDate() < 10 ? "0" : "") + (today.getDate() + 4);
-    mm = (today.getMonth() + 1).toString().padStart(2, "0");
-    yyyy = today.getFullYear();
-    return yyyy + "-" + mm + "-" + dd;
-  };
+  const [mobile, setMobile] = useState(false);
 
-  const isWeekday = (date) => {
-    const day = getDay(date);
-    return day !== 0;
-  };
-  const filterPassedTime = (time) => {
-    const currentDate = new Date();
-    const selectedDate = new Date(time);
+  useEffect(() => {
+    let width = window.innerWidth;
 
-    return currentDate.getTime() < selectedDate.getTime();
-  };
+    if (width < 481) {
+      setMobile(true);
+    }
+    if (width > 481) {
+      setMobile(false);
+    }
+  }, [mobile]);
 
   return (
     <div className={styles.App}>
-      <form onSubmit={formSubmit}>
+      <form onSubmit={upSkillingHide ? formSubmitDownload : formSubmit}>
         <div className={styles.formGrid}>
           <div className={styles.formWrapper}>
             <input
@@ -181,20 +214,65 @@ const FormInline = ({
               required
             />
           </div>
-          <div className={popup ? styles.formWrappers : styles.formWrapper}>
+          {upSkillingHide ? (
+          ""
+        ) : (
+          <div className={popup ? styles.formWrapper : styles.formWrapper}>
             <select
-              name="workExperience"
+              name="upskillPlanning"
               required
-              value={query.workExperience}
+              value={query.upskillPlanning}
               onChange={handleParam()}
             >
-              <option value="Work Experience">Work Experience</option>
-              <option value="1 to 3 year">1 to 3 years</option>
-              <option value="3 to 7 year">3 to 7 years</option>
-              <option value="7 to 12 year">7 to 12 years</option>
-              <option value="12+ year">12+ years</option>
+              <option
+                value="How soon are you planning to upskill?"
+                selected
+                hidden
+              >
+                How soon are you planning to upskill?
+              </option>
+              <option value="Select an option" disabled>
+                Select an option
+              </option>
+              <option value="Immediately">Immediately</option>
+              <option
+                value="Within 1 to 2 weeks
+"
+              >
+                Within 1 to 2 weeks
+              </option>
+              <option value="Within a Month ">Within a Month</option>
+              <option value="Not yet decided">Not yet decided</option>
             </select>
           </div>
+        )}
+
+        {upSkillingHide ? (
+          ""
+        ) : (
+          <div className={popup ? styles.formWrapper : styles.formWrapper}>
+            <select
+              name="upskillingObjective"
+              required
+              value={query.upskillingObjective}
+              onChange={handleParam()}
+            >
+              <option
+                value="Tell us about your upskilling objective?"
+                selected
+                hidden
+              >
+                Tell us about your upskilling objective?
+              </option>
+              <option value="Select an option" disabled>
+                Select an option
+              </option>
+              <option value="Upskilling">Upskilling</option>
+              <option value="Salary hike">Salary hike</option>
+              <option value="Career switch">Career switch</option>
+            </select>
+          </div>
+        )}
           {popup ? (
             <div className={popup ? styles.formWrappers : styles.formWrapper}>
               <input
@@ -207,38 +285,12 @@ const FormInline = ({
           ) : (
             ""
           )}
-        </div>
-        {/* <div className={styles.formWrappers}>
-              <DatePicker
-                selected={startDate}
-                name="dateTime"
-                id="dateTime"
-                onChange={(date) => setStartDate(date)}
-                showTimeSelect
-                timeIntervals={15}
-                includeDateIntervals={[
-                  {
-                    start: subDays(new Date(), 1),
-                    end: addDays(new Date(), 5),
-                  },
-                ]}
-                filterDate={isWeekday}
-                filterTime={filterPassedTime}
-                wrapperClassName={styles.date}
-                className={styles.datePicker}
-                placeholderText="Select Date and Time"
-                dateFormat="MMMM d, yyyy h:mm aa"
-                required
-                minTime={setHours(setMinutes(new Date(), 0), 10)}
-                maxTime={setHours(setMinutes(new Date(), 0), 22)}
-              />
-        </div> */}
-        {radio ? (
-          <div className={popup ? styles.formWrappers : styles.formWrapper}>
+           {radio ? (
+          <div className={popup ? styles.formWrapper : styles.formWrapper}>
             {mobile ? (
               <div>
                 <input
-                  id="Data Science Program"
+                  id="Data Science & AI Courses"
                   value="Data Science & AI Courses"
                   name="platform"
                   required
@@ -261,7 +313,7 @@ const FormInline = ({
               <>
                 <div className={styles.dsCourseInp}>
                   <input
-                    id="Data Science Program"
+                    id="Data Science & AI Courses"
                     value="Data Science & AI Courses"
                     name="platform"
                     required
@@ -284,6 +336,21 @@ const FormInline = ({
               </>
             )}
           </div>
+        ) : (
+          ""
+        )}
+        </div>
+        <input type="hidden" id="zc_gad" name="zc_gad" value="" />
+        {error ? (
+          <p
+            style={{
+              margin: "0px 0px 5px 0px",
+              color: "#0072bc",
+              fontSize: "18px",
+            }}
+          >
+            Please select a valid option
+          </p>
         ) : (
           ""
         )}

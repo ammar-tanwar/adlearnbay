@@ -26,81 +26,77 @@ export default function DataScienceEvent({ eventData }) {
 
   return (
     <>
-    <div className={styles.container}>
-      <Head>
-        <title>{eventData.data.metaInfo.title}</title>
-        <meta name="description" content={eventData.data.metaInfo.desc} />
-        <link
-          rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
-        />
-        <link rel="canonical" href="https://www.learnbay.co/event" />
-      </Head>
-      <Navbar
-        domain={true}
-        eventDateInfo={eventDateInfo}
-        formotp={true}
-        domainOTPForm={true}
-      />
-      <div>
-        <EventHeader
+      <div className={styles.container}>
+        <Head>
+          <title>{eventData.data.metaInfo.title}</title>
+          <meta name="description" content={eventData.data.metaInfo.desc} />
+          <link
+            rel="icon"
+            href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          />
+          <link rel="canonical" href="https://www.learnbay.co/event" />
+        </Head>
+        <Navbar
+          domain={true}
+          eventDateInfo={eventDateInfo}
           formotp={true}
-          deskimg={eventData.data.headImg.deskimg}
-          mobimg={eventData.data.headImg.mobimg}
+          domainOTPForm={true}
         />
-      </div>
-      <div className={today >= eventDateInfo ? styles.PagesD : styles.Page21}>
         <div>
-          <div className={styles.left}>
-            <div className={styles.prgrmFeature}>
-              <EventFeature eventDataD={true}
-                                  domain={true}
-                data={eventData.data.eventFeatureData}
-                eventDateInfo={eventDateInfo}
-                datascienceImg={true}
-              />
+          <EventHeader
+            formotp={true}
+            deskimg={eventData.data.headImg.deskimg}
+            mobimg={eventData.data.headImg.mobimg}
+          />
+        </div>
+        <div className={today >= eventDateInfo ? styles.PagesD : styles.Page21}>
+          <div>
+            <div className={styles.left}>
+              <div className={styles.prgrmFeature}>
+                <EventFeature
+                  eventDataD={true}
+                  domain={true}
+                  data={eventData.data.eventFeatureData}
+                  eventDateInfo={eventDateInfo}
+                  datascienceImg={true}
+                />
+              </div>
             </div>
           </div>
+          <div>
+            {today >= eventDateInfo ? (
+              ""
+            ) : (
+              <div className={styles.rightDomain}>
+                <section className={styles.formDomain}>
+                  <div className={styles.headerDomain}>
+                    <h3>Register NOW!</h3>
+                  </div>
+                  <FormOtp domain={true} formotp={true} />
+                  <div className={styles.iconsRegister}>
+                    <p className={styles.iconsRegisterp}>
+                      <FaUserFriends
+                        className={styles.IconDomain}
+                        style={{ color: "#EDBB52" }}
+                      />
+                      {eventData.data.mainData.register}
+                    </p>
+                    <p className={styles.iconsRegisterp}>
+                      <FaHeart
+                        className={styles.IconDomain}
+                        style={{ color: "red" }}
+                      />
+                      {eventData.data.mainData.likes}
+                    </p>
+                  </div>
+                </section>
+              </div>
+            )}
+          </div>
         </div>
-        <div>
-          {today >= eventDateInfo ? (
-            ""
-          ) : (
-            <div className={styles.rightDomain}>
-              <section className={styles.formDomain}>
-                <div className={styles.headerDomain}>
-                  <h3>Register NOW!</h3>
-                </div>
-                <FormOtp
-                  domain={true}
-                  formotp={true}
-                  jobDescription={true}
-                  workExperience={true}
-                />
-                <div className={styles.iconsRegister}>
-                  <p className={styles.iconsRegisterp}>
-                    <FaUserFriends
-                      className={styles.IconDomain}
-                      style={{ color: "#EDBB52" }}
-                    />
-                    {eventData.data.mainData.register}
-                  </p>
-                  <p className={styles.iconsRegisterp}>
-                    <FaHeart
-                      className={styles.IconDomain}
-                      style={{ color: "red" }}
-                    />
-                    {eventData.data.mainData.likes}
-                  </p>
-                </div>
-              </section>
-            </div>
-          )}
-        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
-    <script
+      <script
         dangerouslySetInnerHTML={{
           __html: `(function (botId) {
             var s = document.createElement("script");

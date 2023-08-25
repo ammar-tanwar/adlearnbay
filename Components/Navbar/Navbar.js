@@ -55,23 +55,12 @@ const Navbar = ({
           <h5> Register NOW!</h5>
           {domainOTPForm ? (
             <>
-              <FormOtpDoamin
-                domain={true}
-                formotp={true}
-                jobDescription={true}
-                workExperience={true}
-              />
+              <FormOtpDoamin domain={true} formotp={true} />
             </>
           ) : (
             <>
               {formotp ? (
-                <FormOtp
-                  popup={true}
-                  event={true}
-                  setTrigger={setPopups}
-                  jobDescription={true}
-                  workExperience={true}
-                />
+                <FormOtp popup={true} event={true} setTrigger={setPopups} />
               ) : (
                 <Form
                   popup={true}
@@ -79,7 +68,6 @@ const Navbar = ({
                   event={true}
                   radio={radio}
                   fullStack={fullStack}
-                  dataScience={dataScience}
                 />
               )}
             </>

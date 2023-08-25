@@ -88,9 +88,19 @@ const Course = ({ common, formotp }) => {
           <h5 style={{ fontSize: "22px" }}>Download Brochure</h5>
           <p>Please enter the following details to initiate your download</p>
           {formotp ? (
-            <FormOtp popup={true} downloadBrochure radio={true} />
+            <FormOtp
+              popup={true}
+              downloadBrochure
+              upSkillingHide={true}
+              radio={true}
+            />
           ) : (
-            <Form setTrigger={setPopups} downloadBrochure radio={true} />
+            <Form
+              setTrigger={setPopups}
+              downloadBrochure
+              upSkillingHide={true}
+              radio={true}
+            />
           )}
         </div>
       </Popup>
@@ -223,9 +233,7 @@ const Course = ({ common, formotp }) => {
                                 style={{ padding: "8px 15px" }}
                               >
                                 Brochure
-                                <FiDownload
-                                  className="bIcon"
-                                />
+                                <FiDownload className="bIcon" />
                               </button>
                             </a>
                           </div>
@@ -301,9 +309,7 @@ const Course = ({ common, formotp }) => {
                               style={{ padding: "8px 15px" }}
                             >
                               Brochure
-                              <FiDownload
-                                className="bIcon"
-                              />
+                              <FiDownload className="bIcon" />
                             </button>
                           </a>
                         </div>
@@ -381,9 +387,7 @@ const Course = ({ common, formotp }) => {
                                 style={{ padding: "8px 15px" }}
                               >
                                 Brochure
-                                <FiDownload
-                                  className="bIcon"
-                                />
+                                <FiDownload className="bIcon" />
                               </button>
                             </a>
                           </div>
@@ -466,9 +470,7 @@ const Course = ({ common, formotp }) => {
                               style={{ padding: "8px 15px" }}
                             >
                               Brochure
-                              <FiDownload
-                                className="bIcon"
-                              />
+                              <FiDownload className="bIcon" />
                             </button>
                           </a>
                         </div>
@@ -546,9 +548,7 @@ const Course = ({ common, formotp }) => {
                                 style={{ padding: "8px 15px" }}
                               >
                                 Brochure
-                                <FiDownload
-                                  className="bIcon"
-                                />
+                                <FiDownload className="bIcon" />
                               </button>
                             </a>
                           </div>
@@ -622,9 +622,7 @@ const Course = ({ common, formotp }) => {
                               style={{ padding: "8px 15px" }}
                             >
                               Brochure
-                              <FiDownload
-                                className="bIcon"
-                              />
+                              <FiDownload className="bIcon" />
                             </button>
                           </a>
                         </div>

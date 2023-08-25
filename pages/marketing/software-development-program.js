@@ -32,22 +32,22 @@ export default function Home() {
   };
   return (
     <>
-    <div>
-      <Head>
-        <title>Master Program in Software Development - Learnbay</title>
-        <meta
-          name="description"
-          content="Learnbay's   Software Development Course will help you become a skilled software developer. Gain practical experience and master key coding skills."
-        />
-        <meta
-          name="keywords"
-          content="Software Development Master Program with Domain Specialization"
-        />
-        <link
-          rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
-        />
-        {/* <script
+      <div>
+        <Head>
+          <title>Master Program in Software Development - Learnbay</title>
+          <meta
+            name="description"
+            content="Learnbay's   Software Development Course will help you become a skilled software developer. Gain practical experience and master key coding skills."
+          />
+          <meta
+            name="keywords"
+            content="Software Development Master Program with Domain Specialization"
+          />
+          <link
+            rel="icon"
+            href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          />
+          {/* <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
             var s = document.createElement('script');
@@ -86,91 +86,92 @@ export default function Home() {
             x.parentNode.insertBefore(s, x);`,
           }}
         /> */}
-        {/* <script
+          {/* <script
           src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
           async
         ></script> */}
-      </Head>
-      <main>
-        {" "}
-        <Navbar
-          popup={true}
-          brochureButton={true}
-          formotp={true}
-          s2dataScience={true}
-        />
-        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-          <div className="leftPopup">
-            <div className="whiteP" />
-          </div>
-          <div className="RightPopup">
-            <h5>Apply For Counselling</h5>
-            <Form popup={true} setTrigger={setPopups} />
-          </div>
-        </Popup>
-        <HeroSection
-          formotp={true}
-          s2dataScience={true}
-          fullStackCont={true}
-          deskTopPara="Get ready to level up your coding expertise"
-          h1="Software Development Master Program"
-          hSpan="with Domain Specialization"
-          para="Work on 12+ real-time projects & get hired at top MNCs with a salary of up to 18LPA, only for Working Professionals."
-          sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/data+science+and+ai.jpg"
-        />
-        <SecondSection
-          fullStackCont={true}
-          p1="IBM Certified"
-          p11="Capstone Projects"
-          p2="5-star"
-          p22="Industry-standard Training"
-          p3="3-year"
-          p33="Subscription Model"
-          p4="1:1 Support"
-          p44="Dedicated Program"
-        />
-        <ThirdSection
-          formotp={true}
-          s2dataScience={true}
-          fullStackCont={true}
-        />
-        <FourthSection
-          fullStackCont={true}
-          h1="Program Highlights"
-          img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
-          img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/weekend+and+weekday+batch.jpg"
-          img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/extra+dout+clearance+sessionn.jpg"
-          img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
-        />
-        <SyllabusSection
-          formotp={true}
-          s2dataScience={true}
-          fullStackCont={true}
-          desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our Software Development course feature practical training with real-time projects and case studies."
-          Hours="250+ Hours"
-          Projects="12+ projects"
-          Module0="Programming Fundamentals"
-          Module1="Basic DSA"
-          Module2="Advanced DSA"
-          Module3="System Design"
-        />
-        <Testimonial formotp={true} s2dataScience={true} />
-        <FAQNew
-          FaqDatas={FaqData9}
-          DomainFaqDatas={DomainFaqData9}
-          PaymentFaqDatas={PaymentFaqData9}
-          CapstoneFaqDatas={CapstoneFaqData9}
-          jobFaqDatas={jobFaqData9}
-          MentorshipFaqDatas={MentorshipFaqData9}
-          SupportFaqDatas={SupportFaqData9}
-        />
-        <SeventhSection fullStackCont={true} />
-        <EightSection formotp={true} s2dataScience={true} />
-      </main>
-    </div>
-    <script
-    dangerouslySetInnerHTML={{
-      __html: `(function (botId) {
+        </Head>
+        <main>
+          {" "}
+          <Navbar
+            popup={true}
+            brochureButton={true}
+            upSkillingHide={true}
+            formotp={true}
+            s2dataScience={true}
+          />
+          <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+            <div className="leftPopup">
+              <div className="whiteP" />
+            </div>
+            <div className="RightPopup">
+              <h5>Apply For Counselling</h5>
+              <Form popup={true} setTrigger={setPopups} />
+            </div>
+          </Popup>
+          <HeroSection
+            formotp={true}
+            s2dataScience={true}
+            fullStackCont={true}
+            deskTopPara="Get ready to level up your coding expertise"
+            h1="Software Development Master Program"
+            hSpan="with Domain Specialization"
+            para="Work on 12+ real-time projects & get hired at top MNCs with a salary of up to 18LPA, only for Working Professionals."
+            sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/data+science+and+ai.jpg"
+          />
+          <SecondSection
+            fullStackCont={true}
+            p1="IBM Certified"
+            p11="Capstone Projects"
+            p2="5-star"
+            p22="Industry-standard Training"
+            p3="3-year"
+            p33="Subscription Model"
+            p4="1:1 Support"
+            p44="Dedicated Program"
+          />
+          <ThirdSection
+            formotp={true}
+            s2dataScience={true}
+            fullStackCont={true}
+          />
+          <FourthSection
+            fullStackCont={true}
+            h1="Program Highlights"
+            img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
+            img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/weekend+and+weekday+batch.jpg"
+            img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/extra+dout+clearance+sessionn.jpg"
+            img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
+          />
+          <SyllabusSection
+            formotp={true}
+            s2dataScience={true}
+            fullStackCont={true}
+            desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our Software Development course feature practical training with real-time projects and case studies."
+            Hours="250+ Hours"
+            Projects="12+ projects"
+            Module0="Programming Fundamentals"
+            Module1="Basic DSA"
+            Module2="Advanced DSA"
+            Module3="System Design"
+          />
+          <Testimonial formotp={true} s2dataScience={true} />
+          <FAQNew
+            FaqDatas={FaqData9}
+            DomainFaqDatas={DomainFaqData9}
+            PaymentFaqDatas={PaymentFaqData9}
+            CapstoneFaqDatas={CapstoneFaqData9}
+            jobFaqDatas={jobFaqData9}
+            MentorshipFaqDatas={MentorshipFaqData9}
+            SupportFaqDatas={SupportFaqData9}
+          />
+          <SeventhSection fullStackCont={true} />
+          <EightSection formotp={true} s2dataScience={true} />
+        </main>
+      </div>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `(function (botId) {
         var s = document.createElement("script");
         s.async = true;
         s.type = 'text/javascript';
@@ -184,8 +185,8 @@ export default function Home() {
         document.body.appendChild(s);
       })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
   `,
-    }}
-  />
-</>
+        }}
+      />
+    </>
   );
 }

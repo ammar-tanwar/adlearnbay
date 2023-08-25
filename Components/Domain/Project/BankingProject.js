@@ -59,7 +59,7 @@ const Project = ({
           <p>Please enter the following details to initiate your download</p>
 
           {formotpForS3DS ? (
-            <FormOtp popup={true} brief={true} currentCompany={true} />
+            <FormOtp popup={true} />
           ) : (
             <>
               {formotp ? (
@@ -70,7 +70,11 @@ const Project = ({
                   marketing={marketing}
                 />
               ) : (
-                <Form setTrigger={setPopups} downloadBrochure />
+                <Form
+                  setTrigger={setPopups}
+                  downloadBrochure
+                  upSkillingHide={true}
+                />
               )}
             </>
           )}

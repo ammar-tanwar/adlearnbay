@@ -13,7 +13,15 @@ import "swiper/css";
 import "swiper/css/pagination";
 import FormOtp from "../../FormOtp/FormOtp";
 
-const Project = ({ ChangeProject, project, domain,fsdlink, formotp, eventQRadio, jobDescription, jobPlacee }) => {
+const Project = ({
+  ChangeProject,
+  project,
+  domain,
+  fsdlink,
+  formotp,
+  eventQRadio,
+  jobDescription,
+}) => {
   const [popups, setPopups] = useState(false);
 
   const [device, setDevice] = useState();
@@ -45,15 +53,19 @@ const Project = ({ ChangeProject, project, domain,fsdlink, formotp, eventQRadio,
           <h5>Download Brochure</h5>
           {eventQRadio ? (
             <>
-            <FormOtp popup={true} eventRadio={true} />
+              <FormOtp popup={true} />
             </>
-          ):(
-          <>
-          {formotp ?(
-          <FormOtp popup={true}/>
-          ):(
-            <Form setTrigger={setPopups} downloadBrochure jobDescription={jobDescription} jobPlacee={jobPlacee}/>
-            )}
+          ) : (
+            <>
+              {formotp ? (
+                <FormOtp popup={true} />
+              ) : (
+                <Form
+                  setTrigger={setPopups}
+                  downloadBrochure
+                  upSkillingHide={true}
+                />
+              )}
             </>
           )}
         </div>
@@ -136,11 +148,9 @@ const Project = ({ ChangeProject, project, domain,fsdlink, formotp, eventQRadio,
             </div>
             <div className={styles.body}>
               <p>
-                Create an online application that
-                displays the contents of a database in
-                list form, modify or delete each record
-                and add new ones.
-
+                Create an online application that displays the contents of a
+                database in list form, modify or delete each record and add new
+                ones.
               </p>
             </div>
           </SwiperSlide>
@@ -162,11 +172,9 @@ const Project = ({ ChangeProject, project, domain,fsdlink, formotp, eventQRadio,
             </div>
             <div className={styles.body}>
               <p>
-                Learn advanced API integration to
-                connect two or more applications, via
-                their APIs, that lets those systems
-                exchange data.
-
+                Learn advanced API integration to connect two or more
+                applications, via their APIs, that lets those systems exchange
+                data.
               </p>
             </div>
           </SwiperSlide>
@@ -188,13 +196,10 @@ const Project = ({ ChangeProject, project, domain,fsdlink, formotp, eventQRadio,
             </div>
             <div className={styles.body}>
               <p>
-                The connected website must offer
-                signup, login/logout, and profile
-                creation/editing. This must include a
-                "wishlist box," a "order tracker,"
-                personalized suggestions, personalized
-                and occasional discount features, a
-                chatbot, etc.
+                The connected website must offer signup, login/logout, and
+                profile creation/editing. This must include a "wishlist box," a
+                "order tracker," personalized suggestions, personalized and
+                occasional discount features, a chatbot, etc.
               </p>
             </div>
           </SwiperSlide>
@@ -216,11 +221,9 @@ const Project = ({ ChangeProject, project, domain,fsdlink, formotp, eventQRadio,
             </div>
             <div className={styles.body}>
               <p>
-                Develop Authentication technology that
-                provides access control for systems by
-                checking to see if a user’s credentials
-                match the credentials in a database of
-                authorized users or in a data
+                Develop Authentication technology that provides access control
+                for systems by checking to see if a user’s credentials match the
+                credentials in a database of authorized users or in a data
                 authentication server.
               </p>
             </div>
@@ -243,10 +246,9 @@ const Project = ({ ChangeProject, project, domain,fsdlink, formotp, eventQRadio,
             </div>
             <div className={styles.body}>
               <p>
-                This is a full-stack web development
-                project at the advanced level that
-                includes seamless audio-video call
-                management services.
+                This is a full-stack web development project at the advanced
+                level that includes seamless audio-video call management
+                services.
               </p>
             </div>
           </SwiperSlide>
@@ -268,12 +270,10 @@ const Project = ({ ChangeProject, project, domain,fsdlink, formotp, eventQRadio,
             </div>
             <div className={styles.body}>
               <p>
-                Nothing more than creating a basic
-                content management system is being
-                done here. An increased content optimization
-                feature and graphics optimization
-                feature are required for such a website
-                or application.
+                Nothing more than creating a basic content management system is
+                being done here. An increased content optimization feature and
+                graphics optimization feature are required for such a website or
+                application.
               </p>
             </div>
           </SwiperSlide>
@@ -295,10 +295,9 @@ const Project = ({ ChangeProject, project, domain,fsdlink, formotp, eventQRadio,
             </div>
             <div className={styles.body}>
               <p>
-                Learn to integrate the payment gateway
-                which is used to authorize and process
-                credit card and debit payments for
-                online businesses.
+                Learn to integrate the payment gateway which is used to
+                authorize and process credit card and debit payments for online
+                businesses.
               </p>
             </div>
           </SwiperSlide>
@@ -320,11 +319,9 @@ const Project = ({ ChangeProject, project, domain,fsdlink, formotp, eventQRadio,
             </div>
             <div className={styles.body}>
               <p>
-                These days workout trackers go far
-                beyond the common pedometer.
-                Workout trackers like Strava and FitBit
-                track and store user data like heart rates
-                and run times.
+                These days workout trackers go far beyond the common pedometer.
+                Workout trackers like Strava and FitBit track and store user
+                data like heart rates and run times.
               </p>
             </div>
           </SwiperSlide>
@@ -332,19 +329,26 @@ const Project = ({ ChangeProject, project, domain,fsdlink, formotp, eventQRadio,
       </div>
 
       {fsdlink ? (
-        <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session"> <button className={styles.Button}  style={{ margin: "auto", marginTop: "20px" }}>
-        <FaDownload className="bIcons" />
-        Download Brochure
-      </button></a>
+        <a href="https://calendly.com/learnbay-apply-for-counselling/one_on_one_session">
+          {" "}
+          <button
+            className={styles.Button}
+            style={{ margin: "auto", marginTop: "20px" }}
+          >
+            <FaDownload className="bIcons" />
+            Download Brochure
+          </button>
+        </a>
       ) : (
-        <button className={styles.Button} onClick={popupShow} style={{ margin: "auto", marginTop: "20px" }}>
-        <FaDownload className="bIcons" />
-        Download Brochure
-      </button>
+        <button
+          className={styles.Button}
+          onClick={popupShow}
+          style={{ margin: "auto", marginTop: "20px" }}
+        >
+          <FaDownload className="bIcons" />
+          Download Brochure
+        </button>
       )}
-      
-
-      
     </div>
   );
 };

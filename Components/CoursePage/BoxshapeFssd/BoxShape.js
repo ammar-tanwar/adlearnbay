@@ -57,14 +57,18 @@ const BoxShape = ({
           <h5>Download Brochure</h5>
           {eventQRadio ? (
             <>
-              <FormOtp popup={true} eventRadio={true} />
+              <FormOtp popup={true} />
             </>
           ) : (
             <>
               {formotp ? (
                 <FormOtp popup={true} />
               ) : (
-                <Form setTrigger={setPopups} downloadBrochure />
+                <Form
+                  setTrigger={setPopups}
+                  downloadBrochure
+                  upSkillingHide={true}
+                />
               )}
             </>
           )}
