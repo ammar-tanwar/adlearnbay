@@ -18,7 +18,7 @@ function CourseFee({
   CourseFeelist2,
   CourseFeelist3,
   CourseFeelist4,
-  CourseFeelist5,
+  dataScience,
   formotp,
   formotpForS3DS,
 }) {
@@ -45,29 +45,27 @@ function CourseFee({
 
   return (
     <section className={styles.Syllabus}>
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+            <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
         <div className="leftPopup">
           <div className="whiteP" />
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-
-          {formotpForS3DS ? (
+          {/* <p>Fill the below details to get started</p> */}
+          {formotp ? (
             <FormOtp
-              jobDescription={true}
-              QuesMean={true}
-              jobTitle={true}
-              jobPlacee={true}
+              popup={true}
+              downloadBrochure
+              upSkillingHide={true}
+              radio={true}
             />
           ) : (
-            <>
-              {formotp ? (
-                <FormOtp popup={true} setTrigger={setPopups} />
-              ) : (
-                <Form popup={true} setTrigger={setPopups} />
+                <Form
+                  popup={true}
+                  setTrigger={setPopups}
+                  radio={true}
+                />
               )}
-            </>
-          )}
         </div>
       </Popup>
       <h4 style={{ marginBottom: "30px" }}>{CourseFeeHead}</h4>

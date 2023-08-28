@@ -23,7 +23,7 @@ const HeroSection = ({
   srcD,
   deskTopPara1,
   mTopPara1,
-  popupHead,
+  radio,
   formotp,
 }) => {
   const [mobile, setMobile] = useState(false);
@@ -46,13 +46,19 @@ const HeroSection = ({
 
   return (
     <section className={styles.wrapper}>
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+            <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
         <div className="leftPopup">
           <div className="whiteP" />
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          {formotp ? <FormOtp popup={true} /> : <Form setTrigger={setPopups} />}
+          {/* <p>Fill the below Details to get started</p> */}
+
+          {formotp ? (
+            <FormOtp popup={true} />
+          ) : (
+            <Form popup={true} setTrigger={setPopups} radio={radio} />
+          )}
         </div>
       </Popup>
       <div className={styles.left}>

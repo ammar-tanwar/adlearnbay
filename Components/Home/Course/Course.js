@@ -42,7 +42,12 @@ const Course = ({ popupHead, radio }) => {
         <div className="RightPopup">
           <h5>{popupHead}</h5>
           <p>Please enter the following details to initiate your download</p>
-          <Form setTrigger={setPopups} downloadBrochure radio={radio} />
+          <Form
+            setTrigger={setPopups}
+            downloadBrochure
+            upSkillingHide={true}
+            radio={radio}
+          />
         </div>
       </Popup>
       <h2>Industry Certified Program for Working Professionals</h2>

@@ -88,6 +88,7 @@ of course subscription and Lifetime access to recoded classes"
           <Navbar
             popup={true}
             brochureButton={true}
+            upSkillingHide={true}
             formotp={true}
             s2dataScience={true}
           />

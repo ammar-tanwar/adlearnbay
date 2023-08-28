@@ -85,7 +85,7 @@ export default function Home() {
         </Head>
         <main>
           {" "}
-          <Navbar popup={true} dataScience={true} />
+          <Navbar popup={true}  />
           <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
             <div className="leftPopup">
               <div className="whiteP" />
@@ -93,11 +93,11 @@ export default function Home() {
             <div className="RightPopup">
               <h5>Apply For Counselling</h5>
               {/* <p>Fill the below details to get started</p> */}
-              <Form popup={true} setTrigger={setPopups} dataScience={true} />
+              <Form popup={true} setTrigger={setPopups}  />
             </div>
           </Popup>
           <FirstSection
-            dataScience={true}
+            
             deskTopPara="Boost your career opportunities "
             deskTopPara1="by developing relevant skills"
             mTitle="Data Science and AI Master Program "
@@ -184,7 +184,7 @@ export default function Home() {
             Emi={JobGuaranteeCourseData[0].ProgramFee.Emi}
             CourseFeeAndFinancing="Program Fee & Financing"
             para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."
-            dataScience={true}
+            
           />
           <SliderTab />
           <div className={styles.ProjectWrapper} id="project">
@@ -196,7 +196,7 @@ export default function Home() {
             />
           </div>
           <CourseFee
-            dataScience={true}
+            
             syllabus={JobGuaranteeCourseData[0].Batch}
             CourseFeeHead="Data Science and AI Master Program : Batch Details"
             CourseFeePara="Online Classroom"

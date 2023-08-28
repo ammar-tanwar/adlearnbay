@@ -88,6 +88,7 @@ get 100% placement assistance "
           <Navbar
             popup={true}
             brochureButton={true}
+            upSkillingHide={true}
             DownloadSyllabus={true}
             formotp={true}
             s2dataScience={true}

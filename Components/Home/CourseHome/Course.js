@@ -22,7 +22,7 @@ import {
   StackD,
 } from "./courseDetails";
 
-const Course = ({ common, formotp }) => {
+const Course = ({ common, formotp, dataScience }) => {
   const [viewAll, setViewAll] = useState(false);
   const [oneYear, setOneYear] = useState(true);
   const [nonTech, setNonTech] = useState(false);
@@ -73,25 +73,28 @@ const Course = ({ common, formotp }) => {
 
   return (
     <div className={styles.Course} id="course">
-      <Popup
-        trigger={popups}
-        setTrigger={setPopups}
-        className="popupModal"
-        downloadBrochure
-      >
+      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
         <div className="leftPopup">
-          <div
-            className="whiteP"
-            style={{ width: "350px", height: "400px" }}
-          ></div>
+          <div className="whiteP" />
         </div>
         <div className="RightPopup">
-          <h5 style={{ fontSize: "22px" }}>Download Brochure</h5>
-          <p>Please enter the following details to initiate your download</p>
+          <h5>Download Brochure</h5>
+          {/* <p>Fill the below details to get started</p> */}
           {formotp ? (
-            <FormOtp popup={true} downloadBrochure radio={true} />
+            <FormOtp
+              popup={true}
+              downloadBrochure
+              upSkillingHide={true}
+              radio={true}
+            />
           ) : (
-            <Form setTrigger={setPopups} downloadBrochure radio={true} />
+            <Form
+              popup={true}
+              setTrigger={setPopups}
+              radio={true}
+              downloadBrochure
+              upSkillingHide={true}
+            />
           )}
         </div>
       </Popup>

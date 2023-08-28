@@ -31,7 +31,12 @@ function FourthSection() {
         </div>
         <div className="RightPopup">
           <h5>Download Brochure</h5>
-          <Form popup={true} downloadBrochure setTrigger={setPopups} />
+          <Form
+            popup={true}
+            downloadBrochure
+            upSkillingHide={true}
+            setTrigger={setPopups}
+          />
         </div>
       </Popup>
       <div className={styles.topText}>

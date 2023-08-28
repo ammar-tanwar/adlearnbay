@@ -59,13 +59,17 @@ const BoxShape = ({
           <p>Please enter the following details to initiate your download</p>
 
           {formotpForS3DS ? (
-            <FormOtp jobDescription={true} QuesMean={true} jobTitle={true} jobPlacee={true} />
+            <FormOtp />
           ) : (
             <>
               {formotp ? (
                 <FormOtp popup={true} />
               ) : (
-                <Form setTrigger={setPopups} downloadBrochure />
+                <Form
+                  setTrigger={setPopups}
+                  downloadBrochure
+                  upSkillingHide={true}
+                />
               )}
             </>
           )}

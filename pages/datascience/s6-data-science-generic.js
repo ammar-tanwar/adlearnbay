@@ -101,12 +101,7 @@ export default function Home() {
         </Head>
         <main>
           {" "}
-          <Navbar
-            popup={true}
-            jobPlacee={true}
-            workExperience={true}
-            upSkilling={true}
-          />
+          <Navbar popup={true} upSkilling={true} />
           <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
             <div className="leftPopup">
               <div className="whiteP" />
@@ -121,8 +116,6 @@ export default function Home() {
             SecondTyped="Capstone Project Certificate"
             ThirdTyped="Live Interactive Classes"
             dataScience={true}
-            jobPlacee={true}
-            workExperience={true}
             titleCourse="Data Science Course with Domain Specialization for Professionals"
             brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
             first="Tools"
@@ -157,17 +150,13 @@ export default function Home() {
             Module2="Statistics and Machine Learning"
             Module3="Data Science Course Tools"
             Module4="Artificial Intelligence Tools"
-            jobPlacee={true}
-            workExperience={true}
           />
           <DomainSection
             domainSectionData={DataScienceCourseData[0].domainSection}
-            jobPlacee={true}
-            workExperience={true}
           />
-          <Testimonial jobPlacee={true} workExperience={true} />
+          <Testimonial />
           <SeventhSection />
-          <EightSection jobPlacee={true} workExperience={true} />
+          <EightSection />
         </main>
       </div>
       <script

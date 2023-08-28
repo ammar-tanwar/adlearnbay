@@ -24,29 +24,28 @@ export default function Home() {
     <>
       <div>
         <Head>
-        <title>
-          Finance and Banking (BFSI) Course - Learnbay
-        </title>
-        <meta name="robots" content="index, follow" />
-        <meta
-          name="description"
-          content="This Financial Analyst Course for BFSI Professionals will help you advance your career in finance analytics. Acquire BFSI-specific knowledge. Enroll Now"
-        />
-        <meta name="keywords" content="Banking & Finance Analytics Program" />
-        <link
-          rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
-        />
-        <link
-          rel="canonical"
-          href="https://www.learnbay.co/data-science-for-bfsi-professional"
-        />
+          <title>Finance and Banking (BFSI) Course - Learnbay</title>
+          <meta name="robots" content="index, follow" />
+          <meta
+            name="description"
+            content="This Financial Analyst Course for BFSI Professionals will help you advance your career in finance analytics. Acquire BFSI-specific knowledge. Enroll Now"
+          />
+          <meta name="keywords" content="Banking & Finance Analytics Program" />
+          <link
+            rel="icon"
+            href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          />
+          <link
+            rel="canonical"
+            href="https://www.learnbay.co/data-science-for-bfsi-professional"
+          />
         </Head>
         <main>
           {" "}
           <Navbar
             popup={true}
             brochureButton={true}
+            upSkillingHide={true}
             formotp={true}
             s2dataScience={true}
           />

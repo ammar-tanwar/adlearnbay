@@ -88,7 +88,7 @@ export default function Home() {
         </Head>
         <main>
           {" "}
-          <Navbar popup={true} dataScience={true} />
+          <Navbar popup={true} />
           <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
             <div className="leftPopup">
               <div className="whiteP" />
@@ -97,11 +97,11 @@ export default function Home() {
               <h5>Apply For Counselling</h5>
               {/* <p>Fill the below Details to get started</p> */}
 
-              <Form popup={true} setTrigger={setPopups} dataScience={true} />
+              <Form popup={true} setTrigger={setPopups} />
             </div>
           </Popup>
           <FirstSection
-            dataScience={true}
+          
             deskTopPara="Choose Specialization over Generalization"
             mTopPara="Choose Specialization over Generalization"
             mTitle="Advanced Data Science and AI Program with"
@@ -148,7 +148,7 @@ export default function Home() {
           />
           <Certificate H4="Data Science Certification Program" />
           <SyllabusNew
-            dataScience={true}
+          
             syllabus={DataScienceCourseData[0].syllabus}
             syllabusDesc={DataScienceCourseData[0].syllabusDesc}
             popupHead="Download Course Brochure"
@@ -187,7 +187,7 @@ export default function Home() {
             Emi={DataScienceCourseData[0].ProgramFee.Emi}
             CourseFeeAndFinancing="Program Fee & Financing"
             para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."
-            dataScience={true}
+          
           />
           <SliderTab />
           <div className={styles.ProjectWrapper} id="project">

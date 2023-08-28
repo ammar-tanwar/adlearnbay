@@ -6,7 +6,21 @@ import Form from "../../Form/Form";
 import Image from "next/image";
 import FormOtp from "../../FormOtp/FormOtp";
 
-const FirstSection = ({dataScience,heading, headingSpan, ptop,des,p1,p2,p3,h1,h2,h3,withOutRadioForm,formotp}) => {
+const FirstSection = ({
+  dataScience,
+  heading,
+  headingSpan,
+  ptop,
+  des,
+  p1,
+  p2,
+  p3,
+  h1,
+  h2,
+  h3,
+  withOutRadioForm,
+  formotp,
+}) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
@@ -34,34 +48,38 @@ const FirstSection = ({dataScience,heading, headingSpan, ptop,des,p1,p2,p3,h1,h2
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           {/* <p>Fill the below details to get started</p> */}
-          { formotp ? (
-              <FormOtp popup={true} downloadBrochure radio={true}/>
+          {formotp ? (
+            <FormOtp
+              popup={true}
+              downloadBrochure
+              radio={true}
+            />
           ) : (
             <>
-         {withOutRadioForm ?(
-          <Form popup={true} setTrigger={setPopups} />
-          ):(
-            <Form popup={true} setTrigger={setPopups} radio={true}  dataScience={dataScience} />
-          )}
-          </>
+              {withOutRadioForm ? (
+                <Form popup={true} setTrigger={setPopups} />
+              ) : (
+                <Form popup={true} setTrigger={setPopups} radio={true} />
+              )}
+            </>
           )}
         </div>
-      </Popup> 
+      </Popup>
       <div className={styles.leftSide}>
-       <p className={styles.pTop1}>{ptop}</p>
+        <p className={styles.pTop1}>{ptop}</p>
         <h1>
-          {heading}{" "}
-          <span>{headingSpan}</span>
+          {heading} <span>{headingSpan}</span>
         </h1>
-        <p className={styles.pTop}>
-        {des}
-          
-        </p>
+        <p className={styles.pTop}>{des}</p>
 
         <div className={styles.btnWrapper}>
           <a href="#course">
             <button className={styles.outLineBtn}>
-              Courses <FaChevronDown className="bIconS" style={{marginLeft:"10px"}}/>
+              Courses{" "}
+              <FaChevronDown
+                className="bIconS"
+                style={{ marginLeft: "10px" }}
+              />
             </button>
           </a>
           <button onClick={popupShow} className={styles.btn}>
@@ -89,7 +107,7 @@ const FirstSection = ({dataScience,heading, headingSpan, ptop,des,p1,p2,p3,h1,h2
           width="870"
           height="666"
           layout="intrinsic"
-           alt="data science course in bangalore"
+          alt="data science course in bangalore"
         />
       </div>
     </div>

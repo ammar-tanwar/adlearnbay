@@ -93,6 +93,7 @@ const Course = ({ peanutbtrIMG }) => {
             <Form
               setTrigger={setPopups}
               downloadBrochure
+              upSkillingHide={true}
               radio={true}
               stepupJobExp={true}
             />

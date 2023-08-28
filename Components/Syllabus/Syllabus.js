@@ -80,7 +80,12 @@ function Syllabus({ radio, formotp }) {
           {formotp ? (
             <FormOtp popup={true} radio={radio} />
           ) : (
-            <Form setTrigger={setPopups} downloadBrochure radio={radio} />
+            <Form
+              setTrigger={setPopups}
+              downloadBrochure
+              upSkillingHide={true}
+              radio={radio}
+            />
           )}
         </div>
       </Popup>

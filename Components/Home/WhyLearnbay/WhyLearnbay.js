@@ -1,4 +1,4 @@
-import {React, useState} from "react";
+import { React, useState } from "react";
 import styles from "./WhyLearnbay.module.css";
 import { AiOutlineCheck } from "react-icons/ai";
 import Image from "next/image";
@@ -7,9 +7,7 @@ import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
 import { FaArrowRight, FaDownload } from "react-icons/fa";
-const WhyLearnbay = ({formotp}) => {
-
-
+const WhyLearnbay = ({ formotp, dataScience }) => {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -18,17 +16,21 @@ const WhyLearnbay = ({formotp}) => {
 
   return (
     <section className={styles.WhyLearnbay}>
-
-    <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
         <div className="leftPopup">
           <div className="whiteP" />
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          { formotp ? (
-              <FormOtp popup={true} downloadBrochure radio={true}/>
+          {/* <p>Fill the below details to get started</p> */}
+          {formotp ? (
+            <FormOtp
+              popup={true}
+              downloadBrochure
+              radio={true}
+            />
           ) : (
-          <Form setTrigger={setPopups} radio={true} />
+            <Form popup={true} setTrigger={setPopups} radio={true} />
           )}
         </div>
       </Popup>
@@ -59,7 +61,7 @@ const WhyLearnbay = ({formotp}) => {
                 width="50"
                 height="50"
                 layout="intrinsic"
-                 alt="data science course in bangalore"
+                alt="data science course in bangalore"
               />
               <p>
                 Live 1:1 - Resolve any doubts about projects and assignments
@@ -71,7 +73,7 @@ const WhyLearnbay = ({formotp}) => {
                 width="50"
                 height="50"
                 layout="intrinsic"
-                 alt="data science course in bangalore"
+                alt="data science course in bangalore"
               />
               <p>Extensive hands-on expertise across several domains</p>
             </div>
@@ -110,15 +112,13 @@ const WhyLearnbay = ({formotp}) => {
               </p>
             </div>
             <div className={styles.ButtonDiv}>
-            <div className={styles.btnWrapper}>
-              <button onClick={popupShow}>
-                Apply for Counselling
-                <FaArrowRight style={{ marginLeft: "10px" }} />
-              </button>
+              <div className={styles.btnWrapper}>
+                <button onClick={popupShow}>
+                  Apply for Counselling
+                  <FaArrowRight style={{ marginLeft: "10px" }} />
+                </button>
+              </div>
             </div>
-            
-  
-          </div>
           </div>
         </div>
         <div className={styles.MiddleImg}>
@@ -127,7 +127,7 @@ const WhyLearnbay = ({formotp}) => {
             width="656"
             height="457"
             layout="intrinsic"
-             alt="data science course in bangalore"
+            alt="data science course in bangalore"
           />
         </div>
       </div>

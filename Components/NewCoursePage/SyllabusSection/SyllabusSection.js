@@ -25,7 +25,6 @@ function SyllabusSection({
   grad,
   jobDescription,
   workExperience,
-  jobPlacee,
   upSkilling,
 }) {
   const [popups, setPopups] = useState(false);
@@ -53,15 +52,18 @@ function SyllabusSection({
             <FormOtp
               popup={true}
               downloadBrochure
+              upSkillingHide={true}
               s2dataScience={s2dataScience}
               fullstackADS={fullstackADS}
               marketing={marketing}
               grad={grad}
-              jobDescription={jobDescription}
-              workExperience={workExperience}
             />
           ) : (
-            <Form setTrigger={setPopups} downloadBrochure jobPlacee={jobPlacee} workExperience={workExperience}/>
+            <Form
+              setTrigger={setPopups}
+              downloadBrochure
+              upSkillingHide={true}
+            />
           )}
         </div>
       </Popup>

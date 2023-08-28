@@ -23,7 +23,7 @@ function Batch({
   eventQRadio,
   fsdlink,
   WebDev,
-  jobDescription, jobPlacee,
+  jobDescription,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -56,14 +56,14 @@ function Batch({
           <h5>Apply For Counselling</h5>
           {eventQRadio ? (
             <>
-              <FormOtp popup={true} eventRadio={true} />
+              <FormOtp popup={true} />
             </>
           ) : (
             <>
               {formotp ? (
                 <FormOtp popup={true} />
               ) : (
-                <Form popup={true} setTrigger={setPopups} jobDescription={jobDescription} jobPlacee={jobPlacee}/>
+                <Form popup={true} setTrigger={setPopups} />
               )}
             </>
           )}

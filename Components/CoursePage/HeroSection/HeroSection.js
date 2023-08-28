@@ -29,7 +29,7 @@ const HeroSection = ({
   formotpForS3DS,
   eventQRadio,
   eventDownload,
-  jobDescription, jobPlacee,
+  jobDescription,
 }) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
@@ -63,18 +63,18 @@ const HeroSection = ({
           )}
           {eventQRadio ? (
             <>
-              <FormOtp popup={true} eventRadio={true} />
+              <FormOtp popup={true} />
             </>
           ) : (
             <>
               {formotpForS3DS ? (
-                <FormOtp jobDescription={true} QuesMean={true} jobTitle={true} jobPlacee={true} />
+                <FormOtp />
               ) : (
                 <>
                   {formotp ? (
                     <FormOtp popup={true} />
                   ) : (
-                    <Form setTrigger={setPopups} jobDescription={jobDescription} jobPlacee={jobPlacee}/>
+                    <Form setTrigger={setPopups} />
                   )}
                 </>
               )}
@@ -109,10 +109,10 @@ const HeroSection = ({
         <div className={styles.ButtonDiv}>
           {eventDownload ? (
             <div className={styles.btnWrapper}>
-                <button onClick={popupShow}>
+              <button onClick={popupShow}>
                 DSA Syllabus
-                  <FaDownload style={{ marginLeft: "10px" }} />
-                </button>
+                <FaDownload style={{ marginLeft: "10px" }} />
+              </button>
             </div>
           ) : (
             <div className={styles.btnWrapper}>

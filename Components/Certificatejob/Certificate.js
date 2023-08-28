@@ -6,7 +6,15 @@ import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
 import FormOtp from "../FormOtp/FormOtp";
 
-const Certificate = ({ popupHead, title, desc, desc2, desc3, radio, formotp }) => {
+const Certificate = ({
+  popupHead,
+  title,
+  desc,
+  desc2,
+  desc3,
+  radio,
+  formotp,
+}) => {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -29,10 +37,15 @@ const Certificate = ({ popupHead, title, desc, desc2, desc3, radio, formotp }) =
         <div className="RightPopup">
           <h5>{popupHead}</h5>
           <p>Please enter the following details to initiate your download</p>
-          {formotp ?(
-          <FormOtp popup={true} radio={radio}/>
-          ):(
-          <Form setTrigger={setPopups} downloadBrochure radio={radio} />
+          {formotp ? (
+            <FormOtp popup={true} radio={radio} />
+          ) : (
+            <Form
+              setTrigger={setPopups}
+              downloadBrochure
+              upSkillingHide={true}
+              radio={radio}
+            />
           )}
         </div>
       </Popup>
@@ -43,7 +56,6 @@ const Certificate = ({ popupHead, title, desc, desc2, desc3, radio, formotp }) =
         <p className={styles.pBotC}>{desc}</p>
         <p className={styles.pBotC}>{desc2}</p>
         <p className={styles.pBotC}>{desc3}</p>
-
 
         <div className={styles.btnWrapper}>
           <button onClick={popupShow}>

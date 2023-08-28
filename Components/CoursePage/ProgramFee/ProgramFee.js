@@ -16,7 +16,7 @@ export const ProgramFee = ({
   formotp,
   formotpForS3DS,
   eventQRadio,
-  jobDescription, jobPlacee,
+  jobDescription,
 }) => {
   const [popups, setPopups] = useState(false);
 
@@ -33,18 +33,18 @@ export const ProgramFee = ({
           <h5>Apply For Counselling</h5>
           {eventQRadio ? (
             <>
-              <FormOtp popup={true} eventRadio={true} />
+              <FormOtp popup={true} />
             </>
           ) : (
             <>
               {formotpForS3DS ? (
-                <FormOtp jobDescription={true} QuesMean={true} jobTitle={true} jobPlacee={true} />
+                <FormOtp />
               ) : (
                 <>
                   {formotp ? (
                     <FormOtp popup={true} />
                   ) : (
-                    <Form popup={true} setTrigger={setPopups} jobDescription={jobDescription} jobPlacee={jobPlacee}/>
+                    <Form popup={true} setTrigger={setPopups} />
                   )}
                 </>
               )}

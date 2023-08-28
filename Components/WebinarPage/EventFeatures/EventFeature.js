@@ -14,10 +14,19 @@ import {
 import { GiReceiveMoney } from "react-icons/gi";
 import { HiIdentification, HiOutlineBadgeCheck } from "react-icons/hi";
 import { MdAltRoute, MdAnalytics, MdLiveTv } from "react-icons/md";
-import {BiCodeBlock} from "react-icons/bi";
+import { BiCodeBlock } from "react-icons/bi";
 import FormOtp from "../../WebinarPage/FormOtp/FormOtp";
 
-const EventFeature = ({ data, eventDateInfo, eventDataD, domainDataD, reviewsDataD, event, domain, datascienceImg }) => {
+const EventFeature = ({
+  data,
+  eventDateInfo,
+  eventDataD,
+  domainDataD,
+  reviewsDataD,
+  event,
+  domain,
+  datascienceImg,
+}) => {
   const [eventData, setEventData] = useState({
     aboutThisMasterclass: data.aboutThisMasterclass,
     topicsMasterclass: data.topicsMasterclass,
@@ -48,13 +57,7 @@ const EventFeature = ({ data, eventDateInfo, eventDataD, domainDataD, reviewsDat
         </div>
         <div className="RightPopup">
           <h5> Register NOW! </h5>
-          <FormOtp
-            event={event}
-            formotp={true}
-            jobDescription={true}
-            workExperience={true}
-            domain={domain}
-          />
+          <FormOtp event={event} formotp={true} domain={domain} />
         </div>
       </Popup>
 
@@ -111,19 +114,21 @@ const EventFeature = ({ data, eventDateInfo, eventDataD, domainDataD, reviewsDat
         <p>About the Speaker</p>
         <div>
           <div className={styles.innerDiv}>
-            {datascienceImg ? (<></>) : (
-            <div className={styles.spanTrainerImg}>
-              <Image
-                src={data.img4}
-                layout="intrinsic"
-                objectFit="cover"
-                quality={100}
-                width="100px"
-                height="100px"
-                loading="lazy"
-                alt="backImg"
-              />
-            </div>
+            {datascienceImg ? (
+              <></>
+            ) : (
+              <div className={styles.spanTrainerImg}>
+                <Image
+                  src={data.img4}
+                  layout="intrinsic"
+                  objectFit="cover"
+                  quality={100}
+                  width="100px"
+                  height="100px"
+                  loading="lazy"
+                  alt="backImg"
+                />
+              </div>
             )}
             <div>
               <p className={styles.trainerHead}>{data.speakerName}</p>
@@ -170,30 +175,30 @@ const EventFeature = ({ data, eventDateInfo, eventDataD, domainDataD, reviewsDat
         ""
       ) : (
         <div className={styles.master}>
-        <p className={styles.paragramTitle}>{data.heading3}</p>
-        <div className={styles.TopMargin}>
-        <div className={styles.iconList}>
-          {eventData.topicsMasterclass.map((value, i) => {
-            return (
-              <div className={styles.iconDiv} key={i}>
-                <FaArrowRight className={styles.icon} />{" "}
-                <p className={styles.iconPs}>{value}</p>
-              </div>
-            );
-          })}
-        </div>
-        </div>
+          <p className={styles.paragramTitle}>{data.heading3}</p>
+          <div className={styles.TopMargin}>
+            <div className={styles.iconList}>
+              {eventData.topicsMasterclass.map((value, i) => {
+                return (
+                  <div className={styles.iconDiv} key={i}>
+                    <FaArrowRight className={styles.icon} />{" "}
+                    <p className={styles.iconPs}>{value}</p>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
         </div>
       )}
 
       <div id="About">
         <p className={styles.paragramTitleReview}>{data.heading4}</p>
         <div className={styles.eReview}>
-        {reviewsDataD ? (
- <ReviewsFSD redirectFs={true} />
-      ) : (
-          <Reviews redirectFs={true} />
-      )}
+          {reviewsDataD ? (
+            <ReviewsFSD redirectFs={true} />
+          ) : (
+            <Reviews redirectFs={true} />
+          )}
         </div>
       </div>
       <div>

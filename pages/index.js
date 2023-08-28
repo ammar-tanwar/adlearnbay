@@ -107,11 +107,11 @@ export default function Home() {
             <BoxShape />
           </div>
         </div>
-        <Course radio={true} />
+        <Course radio={true}/>
         <KeyFeatures />
-        <WhyLearnbay radio={true} />
+        <WhyLearnbay radio={true}/>
         <MultiTabs />
-        <FormSection dataScience={true} />
+        <FormSection />
         <CareerImpactHome />
         <LearnSupport organicNum={true} />
         <Footer />

@@ -98,7 +98,7 @@ function Syllabus({ dsa }) {
         <div className="RightPopup">
           <h5>Download Brochure</h5>
           <p>Please enter the following details to initiate your download</p>
-          <Form setTrigger={setPopups} downloadBrochure />
+          <Form setTrigger={setPopups} downloadBrochure upSkillingHide={true} />
         </div>
       </Popup>
       <div className={styles.syllabusLeft}>

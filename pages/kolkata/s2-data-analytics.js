@@ -87,6 +87,7 @@ course subscription and 24/7 support"
           <Navbar
             popup={true}
             brochureButton={true}
+            upSkillingHide={true}
             formotp={true}
             s2dataScience={true}
           />

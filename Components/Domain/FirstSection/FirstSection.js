@@ -76,12 +76,7 @@ const FirstSection = ({
                 {withOutRadioForm ? (
                   <Form popup={true} setTrigger={setPopups} />
                 ) : (
-                  <Form
-                    popup={true}
-                    setTrigger={setPopups}
-                    radio={true}
-                    dataScience={dataScience}
-                  />
+                  <Form popup={true} setTrigger={setPopups} radio={true} />
                 )}
               </>
             )}

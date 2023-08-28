@@ -102,6 +102,7 @@ export default function Home({ formotp }) {
             formotp={true}
             fullstackADS={true}
             brochureButton={true}
+            upSkillingHide={true}
           />
           <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
             <div className="leftPopup">

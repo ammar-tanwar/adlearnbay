@@ -86,6 +86,7 @@ export default function Home() {
           <Navbar
             popup={true}
             brochureButton={true}
+            upSkillingHide={true}
             formotp={true}
             s2dataScience={true}
           />

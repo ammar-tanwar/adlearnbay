@@ -12,7 +12,7 @@ import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
 
-const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS }) => {
+const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS, dataScience }) => {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -45,13 +45,17 @@ const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS }) => {
             <h5>Download Placement Brochure</h5>
 
             {formotpForS3DS ? (
-              <FormOtp jobDescription={true} QuesMean={true} jobTitle={true} jobPlacee={true} />
+              <FormOtp />
             ) : (
               <>
                 {formotp ? (
                   <FormOtp popup={true} setTrigger={setPopups} />
                 ) : (
-                  <Form setTrigger={setPopups} downloadBrochure />
+                  <Form
+                    setTrigger={setPopups}
+                    downloadBrochure
+                    upSkillingHide={true}
+                  />
                 )}
               </>
             )}

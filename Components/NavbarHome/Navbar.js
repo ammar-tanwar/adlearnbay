@@ -8,7 +8,7 @@ import { FaChevronDown } from "react-icons/fa";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
 import FormOtp from "../FormOtp/FormOtp";
-const Navbar = ({ radio, formotp, jobDescription, jobPlacee }) => {
+const Navbar = ({ radio, formotp, }) => {
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
 
@@ -32,9 +32,7 @@ const Navbar = ({ radio, formotp, jobDescription, jobPlacee }) => {
           {formotp ? (
             <FormOtp popup={true} />
           ) : (
-            <Form popup={true} setTrigger={setPopups} radio={radio} 
-          jobDescription={jobDescription} jobPlacee={jobPlacee}
-          />
+            <Form popup={true} setTrigger={setPopups} radio={radio} />
           )}
         </div>
       </Popup>
