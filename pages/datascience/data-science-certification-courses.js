@@ -101,7 +101,6 @@ export default function Home() {
             </div>
           </Popup>
           <FirstSection
-          
             deskTopPara="Choose Specialization over Generalization"
             mTopPara="Choose Specialization over Generalization"
             mTitle="Advanced Data Science and AI Program with"
@@ -148,7 +147,6 @@ export default function Home() {
           />
           <Certificate H4="Data Science Certification Program" />
           <SyllabusNew
-          
             syllabus={DataScienceCourseData[0].syllabus}
             syllabusDesc={DataScienceCourseData[0].syllabusDesc}
             popupHead="Download Course Brochure"
@@ -187,7 +185,6 @@ export default function Home() {
             Emi={DataScienceCourseData[0].ProgramFee.Emi}
             CourseFeeAndFinancing="Program Fee & Financing"
             para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."
-          
           />
           <SliderTab />
           <div className={styles.ProjectWrapper} id="project">
@@ -227,7 +224,7 @@ export default function Home() {
               console.error(err);
             };
             document.body.appendChild(s);
-          })("9943d22c-e5d6-490d-a01c-0963d7eba2e2");
+          })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
       `,
         }}
       />

@@ -101,11 +101,10 @@ export default function Home() {
               <h5>Apply For Counselling</h5>
               {/* <p>Fill the below Details to get started</p> */}
 
-              <Form popup={true} setTrigger={setPopups}  />
+              <Form popup={true} setTrigger={setPopups} />
             </div>
           </Popup>
           <FirstSection
-            
             deskTopPara="Be a leader with Domain Specialization"
             mTopPara="Be a leader with Domain Specialization"
             title="Data Science and Artificial Intelligence Program"
@@ -166,7 +165,6 @@ export default function Home() {
             OCP6="Obtain certification in the use of analytical best practices in financial decision-making."
           />
           <SyllabusNew
-            
             syllabus={DsaiManagersCourseData[0].syllabus}
             syllabusDesc={DsaiManagersCourseData[0].syllabusDesc}
             popupHead="Download Course Brochure"
@@ -244,7 +242,7 @@ export default function Home() {
               console.error(err);
             };
             document.body.appendChild(s);
-          })("9943d22c-e5d6-490d-a01c-0963d7eba2e2");
+          })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
       `,
         }}
       />

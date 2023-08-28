@@ -85,7 +85,7 @@ export default function Home() {
         </Head>
         <main>
           {" "}
-          <Navbar popup={true}  />
+          <Navbar popup={true} />
           <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
             <div className="leftPopup">
               <div className="whiteP" />
@@ -93,11 +93,10 @@ export default function Home() {
             <div className="RightPopup">
               <h5>Apply For Counselling</h5>
               {/* <p>Fill the below details to get started</p> */}
-              <Form popup={true} setTrigger={setPopups}  />
+              <Form popup={true} setTrigger={setPopups} />
             </div>
           </Popup>
           <FirstSection
-            
             deskTopPara="Boost your career opportunities "
             deskTopPara1="by developing relevant skills"
             mTitle="Data Science and AI Master Program "
@@ -184,7 +183,6 @@ export default function Home() {
             Emi={JobGuaranteeCourseData[0].ProgramFee.Emi}
             CourseFeeAndFinancing="Program Fee & Financing"
             para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."
-            
           />
           <SliderTab />
           <div className={styles.ProjectWrapper} id="project">
@@ -196,7 +194,6 @@ export default function Home() {
             />
           </div>
           <CourseFee
-            
             syllabus={JobGuaranteeCourseData[0].Batch}
             CourseFeeHead="Data Science and AI Master Program : Batch Details"
             CourseFeePara="Online Classroom"
@@ -224,7 +221,7 @@ export default function Home() {
               console.error(err);
             };
             document.body.appendChild(s);
-          })("9943d22c-e5d6-490d-a01c-0963d7eba2e2");
+          })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
       `,
         }}
       />

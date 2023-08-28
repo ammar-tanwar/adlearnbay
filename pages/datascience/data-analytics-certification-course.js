@@ -91,7 +91,7 @@ export default function Home() {
         </Head>
         <main>
           {" "}
-          <Navbar popup={true}  />
+          <Navbar popup={true} />
           <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
             <div className="leftPopup">
               <div className="whiteP" />
@@ -99,11 +99,10 @@ export default function Home() {
             <div className="RightPopup">
               <h5>Apply For Counselling</h5>
               {/* <p>Fill the below details to get started</p> */}
-              <Form popup={true} setTrigger={setPopups}  />
+              <Form popup={true} setTrigger={setPopups} />
             </div>
           </Popup>
           <FirstSection
-            
             deskTopPara="Get ahead of the competition "
             deskTopPara1="with popular skill sets."
             mTopPara="Get ahead of the competition  "
@@ -159,7 +158,6 @@ export default function Home() {
             srcD="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
           />
           <SyllabusNew
-            
             CSyllabus={DataAnalyticsCourseData[0].CSyllabus}
             CourseHighlights={DataAnalyticsCourseData[0].CourseHighlights}
             syllabus={DataAnalyticsCourseData[0].syllabus}
@@ -200,7 +198,6 @@ export default function Home() {
             para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."
             Emi="₹ 14,750/month"
             Fee="₹ 75,000 + 18% GST"
-            
           />
           <div className={styles.ProjectWrapper} id="project">
             <Project
@@ -210,7 +207,6 @@ export default function Home() {
             />
           </div>
           <CourseFee
-            
             syllabus={DataAnalyticsCourseData[0].Batch}
             CourseFeeHead="Data Analytics Program : Batch Details"
             CourseFeePara="Online Classroom"
@@ -238,7 +234,7 @@ export default function Home() {
               console.error(err);
             };
             document.body.appendChild(s);
-          })("9943d22c-e5d6-490d-a01c-0963d7eba2e2");
+          })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
       `,
         }}
       />
