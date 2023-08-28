@@ -18,116 +18,118 @@ export default function Home() {
   };
   return (
     <>
-    <div>
-      <Head>
-        <title>Learnbay Courses</title>
-        <meta name="description" content="Learnbay Courses" />
-        <link
-          rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
-        />
-      </Head>
-      <main>
-        <Navbar radio={true} stepupJobExp={true} />
-        <Popup
-          trigger={popups}
-          setTrigger={setPopups}
-          className="popupInnersotp"
-          formIMG={true}
-        >
-          <div className="leftPopup">
-            <div className="whiteP" />
-          </div>
-          <div className="RightPopup">
-            <h5>Apply For Counselling</h5>
-            {/* <p>Fill the below Details to get started</p> */}
+      <div>
+        <Head>
+          <title>Learnbay Courses</title>
+          <meta name="description" content="Learnbay Courses" />
+          <link
+            rel="icon"
+            href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          />
+        </Head>
+        <main>
+          <Navbar radio={true} stepupJobExp={true} />
+          <Popup
+            trigger={popups}
+            setTrigger={setPopups}
+            className="popupInnersotp"
+            formIMG={true}
+          >
+            <div className="leftPopup">
+              <div className="whiteP" />
+            </div>
+            <div className="RightPopup">
+              <h5>Apply For Counselling</h5>
+              {/* <p>Fill the below Details to get started</p> */}
 
-            <Form
-              popup={true}
-              setTrigger={setPopups}
-              stepupJobExp={true}
-              referral={true}
-            />
-          </div>
-        </Popup>
-        <FirstSection />
-        <div className={styles.WDHead}>
-          <h1>Our Courses</h1>
-        </div>
-        <CourseSection />
-        <div className={styles.WDHead}>
-          <h1>About Learnbay</h1>
-          <p>
-            We are a leading provider of specialized courses in Data Science,
-            AI, ML, and . We are dedicated to helping working professionals
-            advance their careers and gain the technical expertise needed to
-            succeed in the fast-paced world of technology.
-          </p>
-          <p>
-            <b>Some of our standout features include:</b>
-          </p>
-          <div className={styles.WDFeatureD}>
-            <div className={styles.WDFeature}>
-              <div className={styles.WDlist}>
-                <p>
-                  <FaCheck /> Learn from tech experts
-                </p>
-                <p>
-                  <FaCheck /> Personalised mentorship
-                </p>
-                <p>
-                  <FaCheck /> Industry-specific syllabus
-                </p>
-                <p>
-                  <FaCheck /> 250+ hiring partners
-                </p>
-              </div>
-              <p className={styles.WDstrip}>
-                <FaCheck /> 100% guaranteed interview calls
-              </p>
+              <Form
+                popup={true}
+                setTrigger={setPopups}
+                stepupJobExp={true}
+                referral={true}
+              />
             </div>
+          </Popup>
+          <FirstSection />
+          <div className={styles.WDHead}>
+            <h1>Our Courses</h1>
           </div>
-          <div className={styles.WDFeatureM}>
-            <div className={styles.WDFeature}>
-              <div className={styles.WDlist}>
-                <p>
-                  <FaCheck /> Learn from tech experts
+          <CourseSection />
+          <div className={styles.WDHead}>
+            <h1>About Learnbay</h1>
+            <p>
+              We are a leading provider of specialized courses in Data Science,
+              AI, ML, and . We are dedicated to helping working professionals
+              advance their careers and gain the technical expertise needed to
+              succeed in the fast-paced world of technology.
+            </p>
+            <p>
+              <b>Some of our standout features include:</b>
+            </p>
+            <div className={styles.WDFeatureD}>
+              <div className={styles.WDFeature}>
+                <div className={styles.WDlist}>
+                  <p>
+                    <FaCheck /> Learn from tech experts
+                  </p>
+                  <p>
+                    <FaCheck /> Personalised mentorship
+                  </p>
+                  <p>
+                    <FaCheck /> Industry-specific syllabus
+                  </p>
+                  <p>
+                    <FaCheck /> 250+ hiring partners
+                  </p>
+                </div>
+                <p className={styles.WDstrip}>
+                  <FaCheck /> 100% guaranteed interview calls
                 </p>
-                <p>
-                  <FaCheck /> Personalised mentorship
-                </p>
-                <p>
-                  <FaCheck /> Industry-specific syllabus
-                </p>
-                <p>
-                  <FaCheck /> 250+ hiring partners
-                </p>
-              </div>
-              <p className={styles.WDstrip}>
-                <FaCheck /> 100% guaranteed interview calls
-              </p>
-              <div className={styles.imgNew}>
-                <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/WD-Feature-right.png"
-                  width="220"
-                  height="400"
-                  layout="intrinsic"
-                  loading="lazy"
-                />
               </div>
             </div>
+            <div className={styles.WDFeatureM}>
+              <div className={styles.WDFeature}>
+                <div className={styles.WDlist}>
+                  <p>
+                    <FaCheck /> Learn from tech experts
+                  </p>
+                  <p>
+                    <FaCheck /> Personalised mentorship
+                  </p>
+                  <p>
+                    <FaCheck /> Industry-specific syllabus
+                  </p>
+                  <p>
+                    <FaCheck /> 250+ hiring partners
+                  </p>
+                </div>
+                <p className={styles.WDstrip}>
+                  <FaCheck /> 100% guaranteed interview calls
+                </p>
+                <div className={styles.imgNew}>
+                  <Image
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/WD-Feature-right.png"
+                    width="220"
+                    height="400"
+                    layout="intrinsic"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div className={styles.WDformbg}>
-          <div className={styles.FormThank}>
-            <h4>You're one step closer to speaking with a Career Counsellor</h4>
-            <Form radio={true} stepupJobExp={true} referral={true} />
+          <div className={styles.WDformbg}>
+            <div className={styles.FormThank}>
+              <h4>
+                You're one step closer to speaking with a Career Counsellor
+              </h4>
+              <Form radio={true} stepupJobExp={true} referral={true} />
+            </div>
           </div>
-        </div>
-        <Footer />
-      </main>
-    </div>
-    <script
+          <Footer />
+        </main>
+      </div>
+      <script
         dangerouslySetInnerHTML={{
           __html: `(function (botId) {
             var s = document.createElement("script");
@@ -141,7 +143,7 @@ export default function Home() {
               console.error(err);
             };
             document.body.appendChild(s);
-          })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
+          })("4f4d2e98-0778-4fb7-a9c3-af6fd1bedad8");
       `,
         }}
       />

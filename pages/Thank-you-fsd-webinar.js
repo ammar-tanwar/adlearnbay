@@ -13,15 +13,15 @@ const ThankYouFsd = ({ initialName }) => {
 
   return (
     <>
-    <div className={styles.main}>
-      <Head>
-        <title>Thank you!</title>
-        <meta name="description" content="Learnbay" />
-        <link
-          rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
-        />
-        {/* <script
+      <div className={styles.main}>
+        <Head>
+          <title>Thank you!</title>
+          <meta name="description" content="Learnbay" />
+          <link
+            rel="icon"
+            href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          />
+          {/* <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
         var s = document.createElement('script');
@@ -60,14 +60,14 @@ const ThankYouFsd = ({ initialName }) => {
         x.parentNode.insertBefore(s, x);`,
           }}
         /> */}
-        {/* <script
+          {/* <script
           src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
           async
         ></script> */}
 
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
       'event': 'form_complete',
@@ -76,132 +76,132 @@ const ThankYouFsd = ({ initialName }) => {
       }
     });
 `,
-          }}
-        />
-      </Head>
-      <Navbar radio={true} formotp={true} />
-      <section className={styles.mains}>
-        <div className={styles.left}>
-          <h4 className={styles.hptop}>
-            <b>Thank you!</b>
-            <br />
-          </h4>
-          <p className={styles.Ptop}>
-            You are just one step away to complete your registration process to
-            enter the masterclass
-          </p>
-          <div>
-            <div className={styles.mainb}>
-              <div>
-                <button className={styles.Button}>
-                  <a href="https://zoom.us/webinar/register/WN_WLJ0YB4hQfuqkGPSwOwOTw">
-                    Get Zoom Link
-                  </a>
-                </button>
+            }}
+          />
+        </Head>
+        <Navbar radio={true} formotp={true} />
+        <section className={styles.mains}>
+          <div className={styles.left}>
+            <h4 className={styles.hptop}>
+              <b>Thank you!</b>
+              <br />
+            </h4>
+            <p className={styles.Ptop}>
+              You are just one step away to complete your registration process
+              to enter the masterclass
+            </p>
+            <div>
+              <div className={styles.mainb}>
+                <div>
+                  <button className={styles.Button}>
+                    <a href="https://zoom.us/webinar/register/WN_WLJ0YB4hQfuqkGPSwOwOTw">
+                      Get Zoom Link
+                    </a>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div className={styles.rightsfsd}>
-          <div>
-            <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/full-stack-web-development.png"
-              alt="data-science-course"
-              quality={100}
-              layout="intrinsic"
-              width="423"
-              height="252"
-            />
-            <p className={styles.Ptopp}>
-              Web <br />
-              Development Program
-            </p>
-            <button className={styles.Button}>
-              <AiOutlineDownload className="bIcons" />
-              <a
-                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf"
-                target="_blank"
-              >
-                Download Brochure
-              </a>
-            </button>
-          </div>
-          <div>
-            <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/full-stack-developer-course.png"
-              alt="data-science-course"
-              quality={100}
-              layout="intrinsic"
-              width="423"
-              height="252"
-            />
-            <p className={styles.Ptopp}>
-              Full-Stack Software <br />
-              Development Program
-            </p>
-            <button className={styles.Button}>
-              <AiOutlineDownload className="bIcons" />
-              <a
-                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
-                target="_blank"
-              >
-                Download Brochure
-              </a>
-            </button>
-          </div>
-          <div>
-            <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/dsa%26system.png"
-              alt="data-science-course"
-              quality={100}
-              layout="intrinsic"
-              width="423"
-              height="252"
-            />
-            <p className={styles.Ptopp}>
-              DSA & <br />
-              System Design
-            </p>
-            <button className={styles.Button}>
-              <AiOutlineDownload className="bIcons" />
-              <a
-                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf"
-                target="_blank"
-              >
-                Download Brochure
-              </a>
-            </button>
-          </div>
+          <div className={styles.rightsfsd}>
+            <div>
+              <Image
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/full-stack-web-development.png"
+                alt="data-science-course"
+                quality={100}
+                layout="intrinsic"
+                width="423"
+                height="252"
+              />
+              <p className={styles.Ptopp}>
+                Web <br />
+                Development Program
+              </p>
+              <button className={styles.Button}>
+                <AiOutlineDownload className="bIcons" />
+                <a
+                  href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Web+Development+Program+Learnbay.pdf"
+                  target="_blank"
+                >
+                  Download Brochure
+                </a>
+              </button>
+            </div>
+            <div>
+              <Image
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/full-stack-developer-course.png"
+                alt="data-science-course"
+                quality={100}
+                layout="intrinsic"
+                width="423"
+                height="252"
+              />
+              <p className={styles.Ptopp}>
+                Full-Stack Software <br />
+                Development Program
+              </p>
+              <button className={styles.Button}>
+                <AiOutlineDownload className="bIcons" />
+                <a
+                  href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
+                  target="_blank"
+                >
+                  Download Brochure
+                </a>
+              </button>
+            </div>
+            <div>
+              <Image
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/dsa%26system.png"
+                alt="data-science-course"
+                quality={100}
+                layout="intrinsic"
+                width="423"
+                height="252"
+              />
+              <p className={styles.Ptopp}>
+                DSA & <br />
+                System Design
+              </p>
+              <button className={styles.Button}>
+                <AiOutlineDownload className="bIcons" />
+                <a
+                  href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf"
+                  target="_blank"
+                >
+                  Download Brochure
+                </a>
+              </button>
+            </div>
 
-          <div>
-            <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/Business-Analytics.png"
-              alt="data-science-course"
-              quality={100}
-              layout="intrinsic"
-              width="423"
-              height="252"
-            />
-            <p className={styles.Ptopp}>
-              Placement <br />
-              Report
-            </p>
-            <button className={styles.Button}>
-              <AiOutlineDownload className="bIcons" />
-              <a
-                href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report+(1).pdf"
-                target="_blank"
-              >
-                Download Brochure
-              </a>
-            </button>
+            <div>
+              <Image
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/Business-Analytics.png"
+                alt="data-science-course"
+                quality={100}
+                layout="intrinsic"
+                width="423"
+                height="252"
+              />
+              <p className={styles.Ptopp}>
+                Placement <br />
+                Report
+              </p>
+              <button className={styles.Button}>
+                <AiOutlineDownload className="bIcons" />
+                <a
+                  href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Placement+Report+(1).pdf"
+                  target="_blank"
+                >
+                  Download Brochure
+                </a>
+              </button>
+            </div>
           </div>
-        </div>
-      </section>
-      <Footer />
-    </div>
-    <script
+        </section>
+        <Footer />
+      </div>
+      <script
         dangerouslySetInnerHTML={{
           __html: `(function (botId) {
             var s = document.createElement("script");
@@ -215,7 +215,7 @@ const ThankYouFsd = ({ initialName }) => {
               console.error(err);
             };
             document.body.appendChild(s);
-          })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
+          })("4f4d2e98-0778-4fb7-a9c3-af6fd1bedad8");
       `,
         }}
       />

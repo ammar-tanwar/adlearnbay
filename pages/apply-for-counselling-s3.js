@@ -9,15 +9,15 @@ import Form from "../Components/Form/Form";
 function Counselling() {
   return (
     <>
-    <div className={styles.container}>
-      <Head>
-        <title>Learnbay Courses</title>
-        <meta name="description" content="Learnbay Courses" />
-        <link
-          rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
-        />
-        {/* <script
+      <div className={styles.container}>
+        <Head>
+          <title>Learnbay Courses</title>
+          <meta name="description" content="Learnbay Courses" />
+          <link
+            rel="icon"
+            href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          />
+          {/* <script
           dangerouslySetInnerHTML={{
             __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
             var s = document.createElement('script');
@@ -56,23 +56,23 @@ function Counselling() {
             x.parentNode.insertBefore(s, x);`,
           }}
         /> */}
-        {/* <script
+          {/* <script
           src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
           async
         ></script> */}
-      </Head>
-      <Navbar radio={true} />
-      <div className={styles.formq}>
-        <div className={styles.forml}></div>
-        <div className={styles.formr}>
-          <Form />
+        </Head>
+        <Navbar radio={true} />
+        <div className={styles.formq}>
+          <div className={styles.forml}></div>
+          <div className={styles.formr}>
+            <Form />
+          </div>
         </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
-    <script
-    dangerouslySetInnerHTML={{
-      __html: `(function (botId) {
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `(function (botId) {
         var s = document.createElement("script");
         s.async = true;
         s.type = 'text/javascript';
@@ -84,11 +84,11 @@ function Counselling() {
           console.error(err);
         };
         document.body.appendChild(s);
-      })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
+      })("4f4d2e98-0778-4fb7-a9c3-af6fd1bedad8");
   `,
-    }}
-  />
-</>
+        }}
+      />
+    </>
   );
 }
 

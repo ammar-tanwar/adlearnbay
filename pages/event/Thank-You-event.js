@@ -7,34 +7,43 @@ import Navbar from "../../Components/Navbar/Navbar";
 const ThankYou = () => {
   return (
     <>
-    <div className={styles.main}>
-      <Head>
-        <title>Thank you!</title>
-        <meta name="description" content="Thank you!" />
-        <link rel="icon" href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png" />
-        <link rel="canonical" href="https://www.learnbay.co/Thank-You-event" />
-      </Head>
-      <Navbar event={true} formotp= {true}/>
-      <section className={styles.mains} style={{height:"100vh", background:"#F3FCFE"}}>
-        <div className={styles.Back}>
-          <h4>
-            <b>Thank you</b>
-            <br />
-            We have shared the program details with you over an email. Have a
-            great day !
-          </h4>
-          <div>
-            <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/thank-header.png"
-              width="522"
-              height="380"
-              layout="intrinsic"
-            />
+      <div className={styles.main}>
+        <Head>
+          <title>Thank you!</title>
+          <meta name="description" content="Thank you!" />
+          <link
+            rel="icon"
+            href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          />
+          <link
+            rel="canonical"
+            href="https://www.learnbay.co/Thank-You-event"
+          />
+        </Head>
+        <Navbar event={true} formotp={true} />
+        <section
+          className={styles.mains}
+          style={{ height: "100vh", background: "#F3FCFE" }}
+        >
+          <div className={styles.Back}>
+            <h4>
+              <b>Thank you</b>
+              <br />
+              We have shared the program details with you over an email. Have a
+              great day !
+            </h4>
+            <div>
+              <Image
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/thank-header.png"
+                width="522"
+                height="380"
+                layout="intrinsic"
+              />
+            </div>
           </div>
-        </div>
-      </section>
-    </div>
-     <script
+        </section>
+      </div>
+      <script
         dangerouslySetInnerHTML={{
           __html: `(function (botId) {
             var s = document.createElement("script");
@@ -48,7 +57,7 @@ const ThankYou = () => {
               console.error(err);
             };
             document.body.appendChild(s);
-          })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
+          })("4f4d2e98-0778-4fb7-a9c3-af6fd1bedad8");
       `,
         }}
       />
@@ -57,4 +66,3 @@ const ThankYou = () => {
 };
 
 export default ThankYou;
-
