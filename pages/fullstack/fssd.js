@@ -87,7 +87,6 @@ export default function Home() {
           <Navbar
             popup={true}
             //  formotp={true}
-            
           />
           <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
             <div className="leftPopup">
@@ -97,11 +96,10 @@ export default function Home() {
               <h5>Apply For Counselling</h5>
               {/* <p>Fill the below Details to get started</p> */}
 
-              <Form popup={true} setTrigger={setPopups}  />
+              <Form popup={true} setTrigger={setPopups} />
             </div>
           </Popup>
           <FirstSection
-            
             //  formotp={true}
 
             deskTopPara="Ace the PRODUCT Interviews to achieve your dream job"
@@ -150,7 +148,6 @@ export default function Home() {
           //  formotp={true}
           />
           <SyllabusNew
-            
             //  formotp={true}
 
             syllabusFormotp={true}
@@ -168,7 +165,6 @@ export default function Home() {
             Emi={FullStackSoftwareCourseData[0].ProgramFee.Emi}
             CourseFeeAndFinancing="Program Fee & Financing"
             para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."
-            
           />
           <SliderTab />
           <div className={styles.ProjectWrapper} id="project">
@@ -225,7 +221,7 @@ export default function Home() {
               console.error(err);
             };
             document.body.appendChild(s);
-          })("9943d22c-e5d6-490d-a01c-0963d7eba2e2");
+          })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
       `,
         }}
       />

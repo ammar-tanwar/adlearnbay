@@ -147,8 +147,8 @@ export default function Home() {
           </div>
           <DomainFaq FaqData={DomainFaqCourseData1} />
           <CourseReview
-          //  formotp={true}
-          dataScience={true}
+            //  formotp={true}
+            dataScience={true}
           />
           <SyllabusNew
             dataScience={true}
@@ -225,7 +225,7 @@ export default function Home() {
               console.error(err);
             };
             document.body.appendChild(s);
-          })("9943d22c-e5d6-490d-a01c-0963d7eba2e2");
+          })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
       `,
         }}
       />

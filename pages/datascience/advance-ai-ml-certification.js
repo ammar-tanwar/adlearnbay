@@ -89,7 +89,7 @@ export default function Home() {
         </Head>
         <main>
           {" "}
-          <Navbar popup={true}  />
+          <Navbar popup={true} />
           <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
             <div className="leftPopup">
               <div className="whiteP" />
@@ -98,11 +98,10 @@ export default function Home() {
               <h5>Apply For Counselling</h5>
               {/* <p>Fill the below Details to get started</p> */}
 
-              <Form popup={true} setTrigger={setPopups}  />
+              <Form popup={true} setTrigger={setPopups} />
             </div>
           </Popup>
           <FirstSection
-            
             deskTopPara="Boost Your Professional Growth "
             deskTopPara1="To a Whole New Level"
             spanTitleText="Advance Program"
@@ -161,7 +160,6 @@ export default function Home() {
             OCP4="Industrial badge on GPU handling mastery for Cloud, AI & ML."
           />
           <SyllabusNew
-            
             syllabus={AiCourseData[0].syllabus}
             syllabusDesc={AiCourseData[0].syllabusDesc}
             popupHead="Download Course Brochure"
@@ -200,7 +198,6 @@ export default function Home() {
             Emi={AiCourseData[0].ProgramFee.Emi}
             CourseFeeAndFinancing="Program Fee & Financing"
             para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."
-            
           />
           <SliderTab />
           <div className={styles.ProjectWrapper} id="project">
@@ -240,7 +237,7 @@ export default function Home() {
               console.error(err);
             };
             document.body.appendChild(s);
-          })("9943d22c-e5d6-490d-a01c-0963d7eba2e2");
+          })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
       `,
         }}
       />
