@@ -9,7 +9,6 @@ import BottomSection from "../../Components/NewWebinar/BottomSection/BottomSecti
 export default function DataScienceEvent() {
   const [mobile, setMobile] = useState(false);
 
-
   useEffect(() => {
     let width = window.innerWidth;
 
@@ -23,28 +22,28 @@ export default function DataScienceEvent() {
 
   return (
     <>
-    <div className={styles.container}>
-      <Head>
-        <title>Crafting Your Winning Resume - Learnbay</title>
-        <meta
-          name="description"
-          content="Crafting Your Winning Resume - Learnbay"
-        />
-        <meta
-          name="Keywords"
-          content="Crafting Your Winning Resume - Learnbay"
-        />
-        <link
-          rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
-        />
-      </Head>
-      <Navbar event={true} eventDateInfo={true} formotp={true} />
-      <FirstSection />
-      <SliderTabs />
-      {/* <BottomSection /> */}
-    </div>
-     <script
+      <div className={styles.container}>
+        <Head>
+          <title>Crafting Your Winning Resume - Learnbay</title>
+          <meta
+            name="description"
+            content="Crafting Your Winning Resume - Learnbay"
+          />
+          <meta
+            name="Keywords"
+            content="Crafting Your Winning Resume - Learnbay"
+          />
+          <link
+            rel="icon"
+            href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          />
+        </Head>
+        <Navbar event={true} eventDateInfo={true} formotp={true} />
+        <FirstSection />
+        <SliderTabs />
+        {/* <BottomSection /> */}
+      </div>
+      <script
         dangerouslySetInnerHTML={{
           __html: `(function (botId) {
             var s = document.createElement("script");
@@ -58,11 +57,10 @@ export default function DataScienceEvent() {
               console.error(err);
             };
             document.body.appendChild(s);
-          })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
+          })("4f4d2e98-0778-4fb7-a9c3-af6fd1bedad8");
       `,
         }}
       />
     </>
   );
 }
-

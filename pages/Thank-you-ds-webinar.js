@@ -11,17 +11,17 @@ const ThankYouFsd = ({ initialName }) => {
 
   return (
     <>
-    <div className={styles.main}>
-      <Head>
-        <title>Thank you!</title>
-        <meta name="description" content="Learnbay" />
-        <link
-          rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
+      <div className={styles.main}>
+        <Head>
+          <title>Thank you!</title>
+          <meta name="description" content="Learnbay" />
+          <link
+            rel="icon"
+            href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
       'event': 'form_complete',
@@ -30,14 +30,14 @@ const ThankYouFsd = ({ initialName }) => {
       }
     });
 `,
-          }}
-        />
-      </Head>
-      <Navbar radio={true} formotp={true} />
-      <ThankYouWebinar />
-      <Footer />
-    </div>
-     <script
+            }}
+          />
+        </Head>
+        <Navbar radio={true} formotp={true} />
+        <ThankYouWebinar />
+        <Footer />
+      </div>
+      <script
         dangerouslySetInnerHTML={{
           __html: `(function (botId) {
             var s = document.createElement("script");
@@ -51,7 +51,7 @@ const ThankYouFsd = ({ initialName }) => {
               console.error(err);
             };
             document.body.appendChild(s);
-          })("d22aede5-fcaf-423d-ab4c-2e49782f9cc2");
+          })("4f4d2e98-0778-4fb7-a9c3-af6fd1bedad8");
       `,
         }}
       />
