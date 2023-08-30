@@ -125,7 +125,7 @@ function HeroSection({
             {h1}
             <span style={{ color: "#0072BC" }}> {hSpan}</span>{" "}
           </h1>
-          <p>{para}</p>
+          <p className={styles.parahide}>{para}</p>
           <button className={styles.button} onClick={popupShow}>
             Apply for Counselling
             <FaArrowRight className={styles.icon} />

@@ -216,6 +216,10 @@
     margin-top: 10px;
     font-size: 14px;
   }
+
+  .parahide {
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {
