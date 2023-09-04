@@ -585,12 +585,12 @@ export const JobGuaranteeCourseData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Fri)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 25th August 2023", "Time : 8 AM to 10 AM"],
+                desc: ["Date : 8th September 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -605,7 +605,7 @@ export const JobGuaranteeCourseData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 27th August 2023", "Time : 9:30 AM to 1 PM"],
+                desc: ["Date : 22nd September 2023", "Time : 8 AM to 10 AM"],
               },
             },
           ],
