@@ -21,7 +21,7 @@ function ThankYouWebinar() {
   return (
     <section className={styles.container}>
       <p className={styles.pTop}>
-        Please wait while we auto-redirect you for Webinar registeration...
+        Please wait while we auto-redirect you for Webinar registration...
       </p>
       <div className={styles.author}>
         <div>
