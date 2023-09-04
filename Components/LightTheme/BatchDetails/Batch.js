@@ -26,7 +26,7 @@ function Batch({ CourseFeeHead, WebDev, DataScience }) {
             </div>
             <div className={styles.NewOrange}>
               <div>
-                <p className={styles.listDay}>Weekday Morning (Sat-Sun)</p>
+                <p className={styles.listDay}>Weekday Morning</p>
               </div>
               <div className={styles.listMobile}>
                 <p className={styles.list}>

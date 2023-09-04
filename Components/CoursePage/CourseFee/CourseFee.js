@@ -180,8 +180,8 @@ function CourseFee({
                   <b>Batch Type</b>
                 </p>
                 {/* <p className={styles.list}>Weekend Batch (Sat-Sun)</p> */}
+                <p className={styles.list}>Weekday Evening (Mon-Fri)</p>
                 <p className={styles.list}>Weekday Morning (Mon-Fri)</p>
-                <p className={styles.list}>Weekend Morning (Sat-Sun)</p>
               </div>
             </div>
             <div>
