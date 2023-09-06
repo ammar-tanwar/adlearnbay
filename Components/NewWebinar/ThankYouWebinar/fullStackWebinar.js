@@ -10,7 +10,7 @@ function ThankYouWebinar() {
   const [redirectSeconds, setRedirectSeconds] = useState(3);
   useEffect(() => {
     if (redirectSeconds == 0) {
-      router.push("https://zoom.us/webinar/register/WN_AaQdQNWXRsucObzsoFBxUg");
+      router.push("https://zoom.us/webinar/register/WN_MozLaZg_RdaBHth7-1jQpQ#/registration");
       return;
     }
 
@@ -31,7 +31,7 @@ function ThankYouWebinar() {
           </p>
           <h4>Decoding the Microsoft Interview Process</h4>
           <div className={styles.Button}>
-            <Link href="https://zoom.us/webinar/register/WN_AaQdQNWXRsucObzsoFBxUg">
+            <Link href="https://zoom.us/webinar/register/WN_MozLaZg_RdaBHth7-1jQpQ#/registration">
             <button>Zoom Link <FaPlayCircle className="bIcon" /> </button></Link>
         </div>
         </div>
