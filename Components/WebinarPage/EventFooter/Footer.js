@@ -5,14 +5,13 @@ import Image from "next/image";
 import React from "react";
 import { useState } from "react";
 import {
-  FaTwitter,
-  FaFacebookF,
   FaLinkedinIn,
   FaYoutube,
   FaInstagram,
-  FaApple,
-  FaAndroid,
 } from "react-icons/fa";
+
+import { FaSquareXTwitter, FaFacebookF } from "react-icons/fa6";
+
 import Link from "next/link";
 
 const Footerfsd = () => {
@@ -38,7 +37,7 @@ const Footerfsd = () => {
             career today!
           </p>
           <div className={styles.FooterSocial}>
-            <FaTwitter className="bIcons" />
+            <FaSquareXTwitter className="bIcons" />
             <FaFacebookF className="bIcons" />
             <FaLinkedinIn className="bIcons" />
             <FaYoutube className="bIcons" />
