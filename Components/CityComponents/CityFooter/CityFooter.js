@@ -7,13 +7,14 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import {
+  FaTwitter,
+  FaFacebookF,
   FaLinkedinIn,
   FaYoutube,
   FaInstagram,
+  FaApple,
   FaAndroid,
 } from "react-icons/fa";
-
-import { FaSquareXTwitter, FaFacebookF } from "react-icons/fa6";
 
 const CityFooter = ({ cityName }) => {
   const [showMe, setShowMe] = useState(false);
@@ -38,7 +39,7 @@ const CityFooter = ({ cityName }) => {
             transform your career and start your career as a Data Scientist.
           </p>
           <div className={styles.FooterSocial}>
-            <FaSquareXTwitter className="bIcons" />
+            <FaTwitter className="bIcons" />
             <FaFacebookF className="bIcons" />
             <FaLinkedinIn className="bIcons" />
             <FaYoutube className="bIcons" />
