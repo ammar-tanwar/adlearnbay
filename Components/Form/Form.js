@@ -60,6 +60,8 @@ const Form = ({
     router.pathname === "/dsa" ||
     router.pathname === "/data-science-certification-courses" ||
     router.pathname === "/datascience/data-science-certification-courses" ||
+    router.pathname === "/common-generic" ||
+    router.pathname === "/s2-masters-degree" ||
     router.pathname === "/" ||
     router.pathname === "/advance-ai-ml-certification" ||
     router.pathname === "/datascience/advance-ai-ml-certification" ||
@@ -488,7 +490,7 @@ const Form = ({
       setError(true);
     } else {
       setError(false);
-    console.log(query);
+      console.log(query);
       const formData = new FormData();
       Object.entries(query).forEach(([key, value]) => {
         formData.append(key, value);
@@ -659,6 +661,8 @@ const Form = ({
         (router.pathname === "/datascience/data-science-ai-masters-program" &&
           downloadBrochure) ||
         (router.pathname === "/" && downloadBrochure) ||
+        (router.pathname === "/common-generic" && downloadBrochure) ||
+        (router.pathname === "/s2-masters-degree" && downloadBrochure) ||
         (router.pathname === "/s2-data-science" && downloadBrochure) ||
         (router.pathname === "/s2-data-science-generic" && downloadBrochure) ||
         (router.pathname === "/s2-data-science-advance-generic" &&
@@ -833,6 +837,8 @@ const Form = ({
         router.pathname ===
           "/datascience/data-science-ai-cert-for-managers-leaders" ||
         router.pathname === "/" ||
+        router.pathname === "/common-generic" ||
+        router.pathname === "/s2-masters-degree" ||
         router.pathname === "/job-guarantee-or-money-back-data-science-ai-s8" ||
         router.pathname === "/job-guarantee-or-money-back-data-science-ai-s9" ||
         router.pathname === "/s2-data-science" ||
@@ -1249,6 +1255,8 @@ const Form = ({
       (router.pathname === "/datascience/data-science-ai-masters-program" &&
         downloadBrochure) ||
       (router.pathname === "/" && downloadBrochure) ||
+      (router.pathname === "/common-generic" && downloadBrochure) ||
+      (router.pathname === "/s2-masters-degree" && downloadBrochure) ||
       (router.pathname === "/s2-data-science" && downloadBrochure) ||
       (router.pathname === "/s2-data-science-generic" && downloadBrochure) ||
       (router.pathname === "/s2-data-science-advance-generic" &&
@@ -1416,6 +1424,8 @@ const Form = ({
       router.pathname ===
         "/datascience/data-science-ai-cert-for-managers-leaders" ||
       router.pathname === "/" ||
+      router.pathname === "/common-generic" ||
+      router.pathname === "/s2-masters-degree" ||
       router.pathname === "/job-guarantee-or-money-back-data-science-ai-s8" ||
       router.pathname === "/job-guarantee-or-money-back-data-science-ai-s9" ||
       router.pathname === "/s2-data-science" ||
