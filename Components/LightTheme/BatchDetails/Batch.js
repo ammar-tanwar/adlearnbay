@@ -10,23 +10,9 @@ function Batch({ CourseFeeHead, WebDev, DataScience }) {
       <div className={styles.mobileView}>
         {DataScience ? (
           <div className={styles.NewBatch}>
-            <div className={styles.NewBlue}>
-              <div>
-                <p className={styles.listDay}>Weekday Evening (Mon-Fri)</p>
-              </div>
-              <div className={styles.listMobile}>
-                <p className={styles.list}>
-                  <MdDateRange className={styles.iconOrange} />
-                  8th September 2023
-                </p>
-                <p className={styles.list}>
-                  <BiTimeFive className={styles.iconBlue} />8 AM to 10 AM
-                </p>
-              </div>
-            </div>
             <div className={styles.NewOrange}>
               <div>
-                <p className={styles.listDay}>Weekday Morning</p>
+                <p className={styles.listDay}>Weekday Morning (Mon-Fri)</p>
               </div>
               <div className={styles.listMobile}>
                 <p className={styles.list}>
@@ -39,7 +25,20 @@ function Batch({ CourseFeeHead, WebDev, DataScience }) {
                 </p>
               </div>
             </div>
-            
+            <div className={styles.NewBlue}>
+              <div>
+                <p className={styles.listDay}>Weekday Evening (Mon-Fri)</p>
+              </div>
+              <div className={styles.listMobile}>
+                <p className={styles.list}>
+                  <MdDateRange className={styles.iconOrange} />
+                  28th September 2023
+                </p>
+                <p className={styles.list}>
+                  <BiTimeFive className={styles.iconBlue} />8 PM to 10 PM
+                </p>
+              </div>
+            </div>
           </div>
         ) : (
           <>
@@ -103,25 +102,9 @@ function Batch({ CourseFeeHead, WebDev, DataScience }) {
         <div className={styles.heading}></div>
         {DataScience ? (
           <div className={styles.NewBatch}>
-            <div className={styles.NewBlue}>
-              <div>
-                <p className={styles.listDay}>Weekday Evening (Mon-Fri)</p>
-              </div>
-              <div>
-                <p className={styles.list}>
-                  <MdDateRange className={styles.iconOrange} />
-                  8th September 2023
-                </p>
-              </div>
-              <div>
-                <p className={styles.list}>
-                  <BiTimeFive className={styles.iconBlue} />8 AM to 10 AM
-                </p>
-              </div>
-            </div>
             <div className={styles.NewOrange}>
               <div>
-                <p className={styles.listDay}>Weekend Morning (Sat-Sun)</p>
+                <p className={styles.listDay}>Weekday Morning (Mon-Fri)</p>
               </div>
               <div>
                 <p className={styles.list}>
@@ -132,7 +115,23 @@ function Batch({ CourseFeeHead, WebDev, DataScience }) {
               <div>
                 <p className={styles.list}>
                   <BiTimeFive className={styles.iconBlue} />
-                  9:30 AM to 1 PM
+                  8 AM to 10 AM
+                </p>
+              </div>
+            </div>
+            <div className={styles.NewBlue}>
+              <div>
+                <p className={styles.listDay}>Weekday Evening (Mon-Fri)</p>
+              </div>
+              <div>
+                <p className={styles.list}>
+                  <MdDateRange className={styles.iconOrange} />
+                  28th September 2023
+                </p>
+              </div>
+              <div>
+                <p className={styles.list}>
+                  <BiTimeFive className={styles.iconBlue} />8 PM to 10 PM
                 </p>
               </div>
             </div>
