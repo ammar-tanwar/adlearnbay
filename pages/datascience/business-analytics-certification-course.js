@@ -200,6 +200,8 @@ export default function Home() {
           </div>
           <CourseFee
             syllabus={BusinessAnalyticsCourseData[0].Batch}
+            BA={true}
+            
             CourseFeeHead="Business Analytics Program : Batch Details"
             CourseFeePara="Online Classroom"
             CourseFeelist1="Online Interactive Classes"
