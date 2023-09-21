@@ -12,6 +12,7 @@ const Form = ({
   radio,
   event,
   stepupJobExp,
+  phoneHide,
 }) => {
   const router = useRouter();
 
@@ -102,6 +103,9 @@ const Form = ({
     if (router.pathname === "/step-up-with-learnbay") {
       router.push("/Thank-you-marketing");
     }
+    if (router.pathname === "/fullstack/non-attendees") {
+      router.push("/fullstack/webinar-recording");
+    }
   };
 
   const isWeekday = (date) => {
@@ -141,34 +145,38 @@ const Form = ({
             onChange={handleParam()}
           />
         </div>
-        <div className={styles.formWrapper}>
-          <PhoneInput
-            style={
-              popup
-                ? {
-                    height: "50px",
-                    borderRadius: "8px",
-                    border: "1px solid grey",
-                    padding: "10px",
-                  }
-                : {
-                    border: "0",
-                    height: "50px",
-                    borderRadius: "3px",
-                    borderBottom: "1px solid grey",
-                  }
-            }
-            name="phone"
-            rules={{ required: true }}
-            defaultCountry="IN"
-            placeholder="Enter Phone Number"
-            className={popup ? styles.Phones : styles.Phone}
-            value={value}
-            onChange={setValue}
-            limitMaxLength
-            required
-          />
-        </div>
+        {phoneHide ? (
+          ""
+        ) : (
+          <div className={styles.formWrapper}>
+            <PhoneInput
+              style={
+                popup
+                  ? {
+                      height: "50px",
+                      borderRadius: "8px",
+                      border: "1px solid grey",
+                      padding: "10px",
+                    }
+                  : {
+                      border: "0",
+                      height: "50px",
+                      borderRadius: "3px",
+                      borderBottom: "1px solid grey",
+                    }
+              }
+              name="phone"
+              rules={{ required: true }}
+              defaultCountry="IN"
+              placeholder="Enter Phone Number"
+              className={popup ? styles.Phones : styles.Phone}
+              value={value}
+              onChange={setValue}
+              limitMaxLength
+              required
+            />
+          </div>
+        )}
 
         {stepupJobExp ? (
           <>
