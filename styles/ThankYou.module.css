@@ -169,6 +169,11 @@
   margin: auto;
 }
 
+.twoButtonWebinar {
+  display: flex;
+  gap: 30px;
+}
+
 @media (max-width: 481px) {
   .mains {
     display: flex;
