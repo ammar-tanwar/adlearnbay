@@ -232,7 +232,7 @@ export const SytstemDesignCourseData = [
       },
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Wed-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Wed-Fri)",
           content: [
             {
               chap: {
