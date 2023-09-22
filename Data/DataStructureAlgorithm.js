@@ -232,7 +232,7 @@ export const DataStructureAlgorithmData = [
       },
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Wed-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Wed-Fri)",
           content: [
             {
               chap: {
@@ -494,7 +494,7 @@ export const BestDataStructureAlgorithmData = [
       },
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Wed-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Wed-Fri)",
           content: [
             {
               chap: {
@@ -756,7 +756,7 @@ export const DataStructureCourseData = [
       },
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Wed-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Wed-Fri)",
           content: [
             {
               chap: {
@@ -1018,7 +1018,7 @@ export const DataStructureSyllabusData = [
       },
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Wed-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Wed-Fri)",
           content: [
             {
               chap: {
@@ -1280,7 +1280,7 @@ export const DataStructureAlgoCourseData = [
       },
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Wed-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Wed-Fri)",
           content: [
             {
               chap: {

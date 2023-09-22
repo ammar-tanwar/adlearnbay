@@ -298,7 +298,7 @@ export const BlockchainCourseData = [
       },
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Wed-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Wed-Fri)",
           content: [
             {
               chap: {
@@ -311,7 +311,6 @@ export const BlockchainCourseData = [
           open: false,
         },
       },
-     
     ],
     BatchCourses: {
       CourseFeeHead: "Blockchain Program: Batch Details",

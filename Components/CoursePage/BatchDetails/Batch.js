@@ -217,7 +217,7 @@ function Batch({
                     </p>
 
                     <p className={styles.list}>Weekend Morning (Sat-Sun)</p>
-                    <p className={styles.list}>Weekday Evening (Mon-Wed-Fri)</p>
+                        <p className={styles.list}>Weekday Morning (Mon-Wed-Fri)</p>
                     
                   </div>
                 </div>
