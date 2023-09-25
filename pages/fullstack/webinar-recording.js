@@ -49,7 +49,7 @@ const ThankYou = ({ initialName }) => {
             <div className={styles.twoButtonWebinar}>
               <a href="https://drive.google.com/drive/folders/1A-RH59eo5Q0Dq3tPKn0k6XjMbzSS8qyt" target="_blank" >
             <button>Study Material</button></a>
-            <a href="" target="_blank" >
+            <a href="https://zoom.us/rec/share/VlCMXs_8HYo9AekBHc9k2tzXOiPCvLogFtI7kBLKZ0j5o9bPIM7EE5sDaForhE9V.p_uQyD030Xhw4HYE" target="_blank" >
               <button>Webinar Recording</button></a>
               </div>
             </div>
