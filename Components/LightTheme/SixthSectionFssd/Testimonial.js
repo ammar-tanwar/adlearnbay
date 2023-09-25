@@ -28,7 +28,7 @@ function Testimonial({ formotp, fullstackADS }) {
   return (
     <section>
       <button onClick={popupShow} className={styles.button}>
-      Apply for Counselling
+        Apply for Counselling
         <FaArrowRight className={styles.icon} />
       </button>
       <div className={styles.Section1}>
@@ -39,14 +39,9 @@ function Testimonial({ formotp, fullstackADS }) {
           <div className="RightPopup">
             <h5>Apply for Counselling</h5>
             {formotp ? (
-              <FormOtp
-                popup={true}
-                fullstackADS={fullstackADS}
-              />
+              <FormOtp popup={true} fullstackADS={fullstackADS} />
             ) : (
-              <Form
-                setTrigger={setPopups}
-              />
+              <Form setTrigger={setPopups} />
             )}
           </div>
         </Popup>
@@ -124,69 +119,6 @@ function Testimonial({ formotp, fullstackADS }) {
                   <div className={styles.name}>
                     <h3>Kamlesh Sahu</h3>
                     {/* <p> Working at TCS</p> */}
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className={styles.slide}>
-                <div className={styles.mainSlider}>
-                  <div className={styles.QuoteBlue}>
-                    <FaQuoteLeft />
-                  </div>
-                  <div>
-                    <p className={styles.para}>
-                      I have done the DS & Algo course from Learnbay. I learned
-                      from the basics time complexity, arrays, linked list,
-                      stack to advance data structures – trees, graphs etc.
-                      Getting into product based MNC was always my dream and
-                      this course helped me achieve it .
-                      <br />
-                    </p>
-                  </div>
-                  <div className={styles.line}></div>
-                  <div className={styles.imgP}>
-                    <Image
-                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Ashutosh.jpg"
-                      layout="intrinsic"
-                      loading="lazy"
-                      width="80"
-                      height="80"
-                      alt="aravind-home"
-                    />
-                  </div>
-                  <div className={styles.name}>
-                    <h3>Ashutosh Chamoli</h3>
-                    {/* <p>Senior Associate - Data Scientist</p> */}
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className={styles.slide}>
-                <div className={styles.mainSlider}>
-                  <div className={styles.QuoteOrange}>
-                    <FaQuoteLeft />
-                  </div>
-                  <div>
-                    <p className={styles.para}>
-                      Before joining the DSA course I wasn’t confident on any of
-                      the topics. I can see the change in my coding abilities
-                      after the completion of the course! I even got interview
-                      calls from several product based companies.
-                      <br />
-                    </p>
-                  </div>
-                  <div className={styles.line}></div>
-                  <div className={styles.imgP}>
-                    <Image
-                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Vishrut.jpg"
-                      layout="intrinsic"
-                      loading="lazy"
-                      width="80"
-                      height="80"
-                      alt="ritesh-home"
-                    />
-                  </div>
-                  <div className={styles.name}>
-                    <h3>Vishrut Vats</h3>
-                    {/* <p>Working at Capgemini</p> */}
                   </div>
                 </div>
               </SwiperSlide>
