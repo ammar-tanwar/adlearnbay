@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
-import styles from "./GetHired.module.css";
-import Popup from "../Popup/Popup";
+import React, { useEffect, useState } from "react";
 import Form from "../Form/Form";
-
+import Popup from "../Popup/Popup";
+import styles from "./GetHired.module.css";
 
 const GetHired = ({ radio }) => {
   const [mobile, setMobile] = useState(false);
@@ -30,7 +29,6 @@ const GetHired = ({ radio }) => {
     }
   });
 
-
   return (
     <section className={styles.GetHired}>
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
@@ -39,7 +37,7 @@ const GetHired = ({ radio }) => {
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-                   {/* <p>Fill the below Details to get started</p> */}
+          {/* <p>Fill the below Details to get started</p> */}
 
           <Form popup={true} setTrigger={setPopups} radio={radio} />
         </div>
@@ -50,32 +48,37 @@ const GetHired = ({ radio }) => {
       <div className={styles.imageBox}>
         <div className={styles.left}>
           <div className={styles.top}>
-         <p>250+ hiring partners & guarantee interviews</p>
+            <p>250+ hiring partners & guarantee interviews</p>
           </div>
           <div className={styles.middle}>
-<p>Hybrid learning option across multiple cities</p>
+            <p>Hybrid learning option across multiple cities</p>
           </div>
           <div className={styles.bottom}>
-          <p>12+ live projects</p>
+            <p>12+ live projects</p>
           </div>
         </div>
         <div className={styles.left}>
           <div className={styles.top}>
-          <p>100% live and interactive classes</p>
+            <p>100% live and interactive classes</p>
           </div>
           <div className={styles.middle}>
             <p>1000+ trending practical assignments</p>
           </div>
           <div className={styles.bottom}>
-<p>Choose from 5 elite domain electives</p>
+            <p>Choose from 5 elite domain electives</p>
           </div>
         </div>
         <div className={styles.right}>
-        <div>
-        <p>Course Fee</p>
-        <h4 className={styles.righth}>₹1,10,000</h4>
-        <p>3 Years Subscription</p>
-        <button onClick={popupShow} style={{margin:"auto", marginBottom:"20px"}}>Enroll Now</button>
+          <div>
+            <p>Course Fee</p>
+            <h4 className={styles.righth}>₹1,15,000</h4>
+            <p>3 Years Subscription</p>
+            <button
+              onClick={popupShow}
+              style={{ margin: "auto", marginBottom: "20px" }}
+            >
+              Enroll Now
+            </button>
           </div>
         </div>
       </div>

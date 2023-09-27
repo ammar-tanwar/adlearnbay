@@ -69,7 +69,7 @@ export const viewAllD = [
     para: [
       "400 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 1,10,000 + GST",
+      "Course Fee : ₹ 1,15,000 + GST",
     ],
     link1: "/fullstack/fssd",
   },
@@ -95,7 +95,7 @@ export const ForProgrammersD = [
     para: [
       "400 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 1,10,000 + GST",
+      "Course Fee : ₹ 1,15,000 + GST",
     ],
     link1: "/fullstack/fssd",
   },
@@ -248,7 +248,7 @@ export const StackD = [
     para: [
       "400 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 1,10,000 + GST",
+      "Course Fee : ₹ 1,15,000 + GST",
     ],
     link1: "/fullstack/fssd",
   },

@@ -1402,8 +1402,8 @@ export const SoftwareData = [
       desc: " Learnbay’s Advanced Data Science and AI course with real-work experience is designed for creative minds and made for everyone. Take our data science training and experience the new era of education.",
     },
     ProgramFee: {
-      Fee: "₹ 1,10,000 + GST",
-      Emi: "₹ 10,816",
+      Fee: "₹ 1,15,000 + GST",
+      Emi: "₹ 11,308",
       CourseFeeAndFinancing: "  Software Development Course Fee & Financing",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Science Certification Course and offer avariety of financing options to make it more economical.",
     },

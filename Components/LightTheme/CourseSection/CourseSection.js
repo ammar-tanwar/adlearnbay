@@ -141,7 +141,7 @@ function FourthSection() {
                   </div>
                   <div className={styles.name}>
                     <h3>Full-Stack Software Development Program</h3>
-                    <p>300 hours | ₹1,10,000 + GST</p>
+                    <p>300 hours | ₹1,15,000 + GST</p>
                   </div>
                 </div>
               </SwiperSlide>
