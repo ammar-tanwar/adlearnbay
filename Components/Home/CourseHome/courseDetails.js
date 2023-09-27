@@ -134,7 +134,7 @@ export const viewAllD = [
     para: [
       "300+ hours content",
       "12 Projects",
-      "Course Fee : ₹ 1,10,000 | No cost EMI",
+      "Course Fee : ₹ 1,15,000 | No cost EMI",
     ],
     link1: "/fullstack/fssd",
     link2:
@@ -189,7 +189,7 @@ export const ForProgrammersD = [
     para: [
       "300+ hours content",
       "12 Projects",
-      "Course Fee : ₹ 1,10,000 | No cost EMI",
+      "Course Fee : ₹ 1,15,000 | No cost EMI",
     ],
     link1: "/fullstack/fssd",
     link2:
@@ -427,7 +427,7 @@ export const JobGuaranteeD = [
     para: [
       "300+ hours content",
       "12 Projects",
-      "Course Fee : ₹ 1,10,000 | No cost EMI",
+      "Course Fee : ₹ 1,15,000 | No cost EMI",
     ],
     link1: "/fullstack/fssd",
     link2:
@@ -449,7 +449,7 @@ export const StackD = [
     para: [
       "300+ hours content",
       "12 Projects",
-      "Course Fee : ₹ 1,10,000 | No cost EMI",
+      "Course Fee : ₹ 1,15,000 | No cost EMI",
     ],
     link1: "/fullstack/fssd",
     link2:

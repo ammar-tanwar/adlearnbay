@@ -153,10 +153,10 @@ export default function Home({ formotp }) {
             desc="Learnbay offers Software Development Master Program led by experts working in top MNCs & real-time industrial projects with case studies."
             Hours="300+ Hours"
             Projects="12+ projects"
-            Module0="Preparatory Classes"
+            Module0="Programming Fundamentals"
             Module1="DSA and System Design"
-            Module2="Real-time Projects & Use cases"
-            Module3="Elite Domains"
+            Module2="CS Fundamentals & DBMS"
+            Module3="Specialization & Deployment"
           />
           <ProgramFee
             Fee={FullStackSoftwareCourseData[0].ProgramFee.Fee}

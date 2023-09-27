@@ -1834,14 +1834,14 @@ export const PaymentFaqData9 = [
   {
     id: 0,
     ques: "What is the total fee for the Advanced Software Development course?",
-    ans: "The total program fee for this course is ,  INR  1,10,000 + 18% GST",
+    ans: "The total program fee for this course is ,  INR  1,15,000 + 18% GST",
 
     open: true,
   },
   {
     id: 1,
     ques: "Can I pay in installments for the course fees?",
-    ans: "Yes, you can use a credit card to pay the installments with a no-fee EMI option for INR ₹10,816/month up to 12 months. By presenting an AAadhar card, Pan card, and the latest three months salary slip, you can also avail of an interest-free loan also.",
+    ans: "Yes, you can use a credit card to pay the installments with a no-fee EMI option for INR ₹11,308/month up to 12 months. By presenting an AAadhar card, Pan card, and the latest three months salary slip, you can also avail of an interest-free loan also.",
     linkText1: " +919731135221 ",
     link1: "tel:+919731135221",
     link: true,

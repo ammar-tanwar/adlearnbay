@@ -111,7 +111,7 @@ export const StackD = [
     para: [
       "Crack MNCs Interviews",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 1,10,000 + GST",
+      "Course Fee : ₹ 1,15,000 + GST",
     ],
     link1: "/fullstack/fssd",
   },
@@ -123,7 +123,7 @@ export const StackD = [
     para: [
       "Be a Product Design Pro",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 1,10,000 + GST",
+      "Course Fee : ₹ 70,000 + GST",
     ],
     link1: "/fullstack/fssd",
   },
