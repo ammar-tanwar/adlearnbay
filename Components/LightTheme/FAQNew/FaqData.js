@@ -2060,7 +2060,7 @@ export const DomainFaqDataBlockchain = [
   {
     id: 1,
     ques: "What are the available elective domain options?",
-    ans: "These are as follows: Blockchain, Product Engineer/Manager,  Data Science and AI, Web 3.0 Developer, DevOps & Clouds.",
+    ans: "These are as follows: MERN and SPRING.",
     open: false,
   },
   {
@@ -2321,7 +2321,7 @@ export const DomainFaqDataDevops = [
   {
     id: 1,
     ques: "What are the available elective domain options?",
-    ans: "These are as follows: Blockchain, Product Engineer/Manager,  Data Science and AI, Web 3.0 Developer, DevOps & Clouds.",
+    ans: "These are as follows: MERN and SPRING.",
     open: false,
   },
   {
