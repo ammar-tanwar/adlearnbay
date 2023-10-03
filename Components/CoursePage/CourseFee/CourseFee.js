@@ -21,7 +21,7 @@ function CourseFee({
   dataScience,
   formotp,
   formotpForS3DS,
-  BA
+  BA,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -46,7 +46,7 @@ function CourseFee({
 
   return (
     <section className={styles.Syllabus}>
-            <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
         <div className="leftPopup">
           <div className="whiteP" />
         </div>
@@ -61,12 +61,8 @@ function CourseFee({
               radio={true}
             />
           ) : (
-                <Form
-                  popup={true}
-                  setTrigger={setPopups}
-                  radio={true}
-                />
-              )}
+            <Form popup={true} setTrigger={setPopups} radio={true} />
+          )}
         </div>
       </Popup>
       <h4 style={{ marginBottom: "30px" }}>{CourseFeeHead}</h4>
@@ -175,90 +171,85 @@ function CourseFee({
           </div>
 
           {BA ? (
-             <div className={styles.BatchDetailsTop}>
-             <div>
-               <div className={styles.BatchDetails}>
-                 <p className={styles.list}>
-                   <AiOutlineBars className={styles.icon} />
-                   <b>Batch Type</b>
-                 </p>
-                 {/* <p className={styles.list}>Weekend Batch (Sat-Sun)</p> */}
-                
-                 <p className={styles.list}>Weekday Evening (Mon-Fri)</p>
-               </div>
-             </div>
-             <div>
-               <div className={styles.BatchDetails}>
-                 <p className={styles.list}>
-                   <MdDateRange className={styles.icon} />
-                   <b>Date</b>
-                 </p>
-                 {/* <p className={styles.list}>9th October 2022</p> */}    
-                   
-               
-                    <p className={styles.list}>20th October 2023</p>
-                 
-               </div>
-             </div>
-             <div>
-               <div className={styles.BatchDetails}>
-                 <p className={styles.list}>
-                   <BiTimeFive className={styles.icon} />
-                   <b>Time</b>
-                 </p>
-                 {/* <p className={styles.list}>08:30 AM to 12 PM</p> */}
-               
-                 <p className={styles.list}>8 PM to 10 PM</p>
-               </div>
-             </div>
-             <div className={styles.btnWrapper}>
-               <button onClick={popupShow}>Enroll Now</button>
-             </div>
-           </div>
-          ):(
-             <div className={styles.BatchDetailsTop}>
-             <div>
-               <div className={styles.BatchDetails}>
-                 <p className={styles.list}>
-                   <AiOutlineBars className={styles.icon} />
-                   <b>Batch Type</b>
-                 </p>
-                 {/* <p className={styles.list}>Weekend Batch (Sat-Sun)</p> */}
-                 <p className={styles.list}>Weekday Morning (Mon-Fri)</p>
-                 <p className={styles.list}>Weekday Evening (Mon-Fri)</p>
-               </div>
-             </div>
-             <div>
-               <div className={styles.BatchDetails}>
-                 <p className={styles.list}>
-                   <MdDateRange className={styles.icon} />
-                   <b>Date</b>
-                 </p>
-                 {/* <p className={styles.list}>9th October 2022</p> */}    
-                   
-                    <p className={styles.list}>22nd September 2023</p>
-                    <p className={styles.list}>28th September 2023</p>
-                 
-               </div>
-             </div>
-             <div>
-               <div className={styles.BatchDetails}>
-                 <p className={styles.list}>
-                   <BiTimeFive className={styles.icon} />
-                   <b>Time</b>
-                 </p>
-                 {/* <p className={styles.list}>08:30 AM to 12 PM</p> */}
-                 <p className={styles.list}>8 AM to 10 AM</p>
-                 <p className={styles.list}>8 PM to 10 PM</p>
-               </div>
-             </div>
-             <div className={styles.btnWrapper}>
-               <button onClick={popupShow}>Enroll Now</button>
-             </div>
-           </div>
-          )}
+            <div className={styles.BatchDetailsTop}>
+              <div>
+                <div className={styles.BatchDetails}>
+                  <p className={styles.list}>
+                    <AiOutlineBars className={styles.icon} />
+                    <b>Batch Type</b>
+                  </p>
+                  {/* <p className={styles.list}>Weekend Batch (Sat-Sun)</p> */}
 
-         
+                  <p className={styles.list}>Weekday Evening (Mon-Fri)</p>
+                </div>
+              </div>
+              <div>
+                <div className={styles.BatchDetails}>
+                  <p className={styles.list}>
+                    <MdDateRange className={styles.icon} />
+                    <b>Date</b>
+                  </p>
+                  {/* <p className={styles.list}>9th October 2022</p> */}
+
+                  <p className={styles.list}>20th October 2023</p>
+                </div>
+              </div>
+              <div>
+                <div className={styles.BatchDetails}>
+                  <p className={styles.list}>
+                    <BiTimeFive className={styles.icon} />
+                    <b>Time</b>
+                  </p>
+                  {/* <p className={styles.list}>08:30 AM to 12 PM</p> */}
+
+                  <p className={styles.list}>8 PM to 10 PM</p>
+                </div>
+              </div>
+              <div className={styles.btnWrapper}>
+                <button onClick={popupShow}>Enroll Now</button>
+              </div>
+            </div>
+          ) : (
+            <div className={styles.BatchDetailsTop}>
+              <div>
+                <div className={styles.BatchDetails}>
+                  <p className={styles.list}>
+                    <AiOutlineBars className={styles.icon} />
+                    <b>Batch Type</b>
+                  </p>
+                  {/* <p className={styles.list}>Weekend Batch (Sat-Sun)</p> */}
+                  <p className={styles.list}>Weekday Evening (Mon-Fri)</p>
+                  <p className={styles.list}>Weekday Morning (Mon-Fri)</p>
+                </div>
+              </div>
+              <div>
+                <div className={styles.BatchDetails}>
+                  <p className={styles.list}>
+                    <MdDateRange className={styles.icon} />
+                    <b>Date</b>
+                  </p>
+                  {/* <p className={styles.list}>9th October 2022</p> */}
+
+                  <p className={styles.list}>6th October 2023</p>
+                  <p className={styles.list}>20th October 2023</p>
+                </div>
+              </div>
+              <div>
+                <div className={styles.BatchDetails}>
+                  <p className={styles.list}>
+                    <BiTimeFive className={styles.icon} />
+                    <b>Time</b>
+                  </p>
+                  {/* <p className={styles.list}>08:30 AM to 12 PM</p> */}
+                  <p className={styles.list}>8 PM to 10PM</p>
+                  <p className={styles.list}>8 AM to 10AM</p>
+                </div>
+              </div>
+              <div className={styles.btnWrapper}>
+                <button onClick={popupShow}>Enroll Now</button>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </section>

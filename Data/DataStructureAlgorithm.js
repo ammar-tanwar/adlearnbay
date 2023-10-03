@@ -217,12 +217,12 @@ export const DataStructureAlgorithmData = [
     Batch: [
       {
         Module0: {
-          title: "Weekend Morning Batch :- (Sat-Sun)",
+          title: "Weekday Morning Batch :- (Mon-Wed-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 24th September 2023", "Time : 8:30 AM to 12 PM"],
+                desc: ["Date : 6th October 2023", "Time : 7:30 AM to 9:30 AM"],
               },
             },
           ],
@@ -232,12 +232,15 @@ export const DataStructureAlgorithmData = [
       },
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Wed-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 2 :- Date And time ",
-                desc: ["Date : 6th October 2023", "Time : 7:30 AM to 9:30 AM"],
+                desc: [
+                  "Date : 20th October 2023",
+                  "Time :  7:30 AM to 9:30 AM",
+                ],
               },
             },
           ],
@@ -245,7 +248,6 @@ export const DataStructureAlgorithmData = [
           open: false,
         },
       },
-     
     ],
 
     BatchCourses: {
@@ -479,12 +481,12 @@ export const BestDataStructureAlgorithmData = [
     Batch: [
       {
         Module0: {
-          title: "Weekend Morning Batch :- (Sat-Sun)",
+          title: "Weekday Morning Batch :- (Mon-Wed-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 24th September 2023", "Time : 8:30 AM to 12 PM"],
+                desc: ["Date : 6th October 2023", "Time : 7:30 AM to 9:30 AM"],
               },
             },
           ],
@@ -494,20 +496,22 @@ export const BestDataStructureAlgorithmData = [
       },
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Wed-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 2 :- Date And time ",
-                desc: ["Date : 6th October 2023", "Time : 7:30 AM to 9:30 AM"],
+                desc: [
+                  "Date : 20th October 2023",
+                  "Time :  7:30 AM to 9:30 AM",
+                ],
               },
             },
           ],
           id: 0,
           open: false,
-        },  
+        },
       },
-      
     ],
 
     BatchCourses: {
@@ -741,12 +745,12 @@ export const DataStructureCourseData = [
     Batch: [
       {
         Module0: {
-          title: "Weekend Morning Batch :- (Sat-Sun)",
+          title: "Weekday Morning Batch :- (Mon-Wed-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 24th September 2023", "Time : 8:30 AM to 12 PM"],
+                desc: ["Date : 6th October 2023", "Time : 7:30 AM to 9:30 AM"],
               },
             },
           ],
@@ -756,18 +760,21 @@ export const DataStructureCourseData = [
       },
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Wed-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 2 :- Date And time ",
-                desc: ["Date : 6th October 2023", "Time : 7:30 AM to 9:30 AM"],
+                desc: [
+                  "Date : 20th October 2023",
+                  "Time :  7:30 AM to 9:30 AM",
+                ],
               },
             },
           ],
           id: 0,
           open: false,
-        },  
+        },
       },
     ],
 
@@ -1003,12 +1010,12 @@ export const DataStructureSyllabusData = [
     Batch: [
       {
         Module0: {
-          title: "Weekend Morning Batch :- (Sat-Sun)",
+          title: "Weekday Morning Batch :- (Mon-Wed-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 24th September 2023", "Time : 8:30 AM to 12 PM"],
+                desc: ["Date : 6th October 2023", "Time : 7:30 AM to 9:30 AM"],
               },
             },
           ],
@@ -1018,18 +1025,21 @@ export const DataStructureSyllabusData = [
       },
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Wed-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 2 :- Date And time ",
-                desc: ["Date : 6th October 2023", "Time : 7:30 AM to 9:30 AM"],
+                desc: [
+                  "Date : 20th October 2023",
+                  "Time :  7:30 AM to 9:30 AM",
+                ],
               },
             },
           ],
           id: 0,
           open: false,
-        },  
+        },
       },
     ],
 
@@ -1265,12 +1275,12 @@ export const DataStructureAlgoCourseData = [
     Batch: [
       {
         Module0: {
-          title: "Weekend Morning Batch :- (Sat-Sun)",
+          title: "Weekday Morning Batch :- (Mon-Wed-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 24th September 2023", "Time : 8:30 AM to 12 PM"],
+                desc: ["Date : 6th October 2023", "Time : 7:30 AM to 9:30 AM"],
               },
             },
           ],
@@ -1280,18 +1290,21 @@ export const DataStructureAlgoCourseData = [
       },
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Wed-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 2 :- Date And time ",
-                desc: ["Date : 6th October 2023", "Time : 7:30 AM to 9:30 AM"],
+                desc: [
+                  "Date : 20th October 2023",
+                  "Time :  7:30 AM to 9:30 AM",
+                ],
               },
             },
           ],
           id: 0,
           open: false,
-        },  
+        },
       },
     ],
 
