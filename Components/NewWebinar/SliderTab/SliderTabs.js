@@ -6,7 +6,7 @@ import Image from "next/image";
 import { BiDownArrowAlt, BiUpArrowAlt } from "react-icons/bi";
 import { FaCheck, FaLinkedin, FaUser, FaUserAlt } from "react-icons/fa";
 
-const SliderTabs = () => {
+const SliderTabs = ({whatHide}) => {
   const [viewAll, setViewAll] = useState(false);
   const [oneYear, setOneYear] = useState();
   const [nonTech, setNonTech] = useState(false);
@@ -52,7 +52,7 @@ const SliderTabs = () => {
             }}
             className={oneYear ? styles.ActiveSpan : styles.span}
           >
-            About this Mastercalss
+            About this Masterclass
             {mobile ? (
               oneYear ? (
                 <BiUpArrowAlt className={styles.iconArrow} />
@@ -67,21 +67,20 @@ const SliderTabs = () => {
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <p className={styles.para}>
-                  The perfect job opening can pop up when you least expect it,
-                  so it’s important to have an up-to-date professional resume
-                  ready at a moment’s notice.
+                  Are you curious about how your favorite cab booking apps work
+                  behind the scenes? Join our Masterclass and explore the inner
+                  workings of these apps.
                 </p>
 
                 <p className={styles.para}>
-                  Our Resume Building Webinar covers the key tips and techniques
-                  to help you create a winning resume to help you get a step
-                  closer to landing the job you always dreamt of.
+                  This masterclass equips
+                  you with valuable insights into the tech that powers your
+                  everyday rides, making complex concepts simple for everyone to
+                  grasp.
                 </p>
-
                 <p className={styles.para}>
-                  Whether you are an experienced professional or a beginner, we
-                  will teach you how to build a resume that will present your
-                  best self to potential employers.
+                  To get more useful insights, be a part of our
+                  Masterclass and learn to build robust systems.
                 </p>
               </div>
             </div>
@@ -115,40 +114,44 @@ const SliderTabs = () => {
                 <div className={styles.icondiv}>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Building the Foundation of Your Resume
+                    How will the user interact with the architecture?
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Key Sections of a Resume
+                    Build secure authentication and third-party logins.
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Writing Impactful and Effective Resume Content
+                    Learn to create high prices on traffic surges.
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Design and Layout
+                    Learn how the drivers are assigned.
                   </p>
 
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    The Power of Keywords and SEO in Resumes
+                    Learn how driver details are shown on-screen.
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Resume Review and Editing
+                    Calculate and display real-time traffic estimation.
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Essential Resources and Tools for Resume Building
+                    Decode the secrets of designing optimal cache schemas.
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Final Review and Tweaks
+                    Master the principles of designing robust databases.
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Supplementing Your Resume Cover Letter and Portfolios
+                    Use of RTDB management system and NoSQL.
+                  </p>
+                  <p className={styles.pdivCheck}>
+                    <FaCheck className={styles.faIcon} />
+                    Learn to scale a system from few to millions of users.
                   </p>
                 </div>
               </div>
@@ -183,7 +186,7 @@ const SliderTabs = () => {
                 <div className={styles.author}>
                   <div className={styles.right}>
                     <Image
-                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Trainer-Priya.webp"
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Neetesh-Mittal.jpg"
                       width="196"
                       height="230"
                     />
@@ -191,11 +194,14 @@ const SliderTabs = () => {
                   <div>
                     <p className={styles.para}>Speaker</p>
                     <p className={styles.para}>
-                      <b>Priya Vajpeyi</b>
+                      <b>Neetesh Mittal</b>
                     </p>
                     <p className={styles.para} style={{ color: "#0072BC" }}>
-                      Renowned influencer | Career Guru
+                      SDE III ( Ex - Microsoft, Ex - Myntra)
                     </p>
+                    <p className={styles.para}>
+                  11+ years of Exp. 
+                  </p>
                   </div>
                 </div>
               </div>
@@ -232,11 +238,12 @@ const SliderTabs = () => {
                 <div className={styles.icondiv}>
                   <p className={styles.pdivCheck}>
                     <FaUserAlt className={styles.faIcon} />
-                    Anyone on the job market
+                    Anyone want to learn the system design of a Cab Booking App?
+
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaUserAlt className={styles.faIcon} />
-                    Anyone looking to create a compelling resume
+                    SDE’s want to transit from Service to Product Based Companies.
                   </p>
                 </div>
               </div>
@@ -244,6 +251,7 @@ const SliderTabs = () => {
           ) : (
             ""
           )}
+          {whatHide ? ("") : (
           <span
             onClick={() => {
               setRetail(false);
@@ -265,6 +273,7 @@ const SliderTabs = () => {
               ""
             )}
           </span>
+          )}
           {/* {Oil ? (
             <section className={styles.container}>
               <div className={styles.divInner}>100% LIVE CLASS</div>
@@ -280,21 +289,20 @@ const SliderTabs = () => {
             <div className={styles.gridPanel}>
               <div className={styles.left}>
               <p className={styles.para}>
-                  The perfect job opening can pop up when you least expect it,
-                  so it’s important to have an up-to-date professional resume
-                  ready at a moment’s notice.
+                  Are you curious about how your favorite cab booking apps work
+                  behind the scenes? Join our Masterclass and explore the inner
+                  workings of these apps.
                 </p>
 
                 <p className={styles.para}>
-                  Our Resume Building Webinar covers the key tips and techniques
-                  to help you create a winning resume to help you get a step
-                  closer to landing the job you always dreamt of.
+                  This masterclass equips
+                  you with valuable insights into the tech that powers your
+                  everyday rides, making complex concepts simple for everyone to
+                  grasp.
                 </p>
-
                 <p className={styles.para}>
-                  Whether you are an experienced professional or a beginner, we
-                  will teach you how to build a resume that will present your
-                  best self to potential employers.
+                  To get more useful insights, be a part of our
+                  Masterclass and learn to build robust systems.
                 </p>
               </div>
             </div>
@@ -305,42 +313,46 @@ const SliderTabs = () => {
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <div className={styles.icondiv}>
-                  <p className={styles.pdivCheck}>
+                <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Building the Foundation of Your Resume
+                    How will the user interact with the architecture?
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Key Sections of a Resume
+                    Build secure authentication and third-party logins.
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Writing Impactful and Effective Resume Content
+                    Learn to create high prices on traffic surges.
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Design and Layout
+                    Learn how the drivers are assigned.
                   </p>
 
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    The Power of Keywords and SEO in Resumes
+                    Learn how driver details are shown on-screen.
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Resume Review and Editing
+                    Calculate and display real-time traffic estimation.
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Essential Resources and Tools for Resume Building
+                    Decode the secrets of designing optimal cache schemas.
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Final Review and Tweaks
+                    Master the principles of designing robust databases.
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Supplementing Your Resume Cover Letter and Portfolios
+                    Use of RTDB management system and NoSQL.
+                  </p>
+                  <p className={styles.pdivCheck}>
+                    <FaCheck className={styles.faIcon} />
+                    Learn to scale a system from few to millions of users.
                   </p>
                 </div>
               </div>
@@ -353,7 +365,7 @@ const SliderTabs = () => {
               <div className={styles.author}>
                 <div className={styles.right}>
                   <Image
-                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Trainer-Priya.webp"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Neetesh-Mittal.jpg"
                     width="196"
                     height="230"
                   />
@@ -361,10 +373,13 @@ const SliderTabs = () => {
                 <div>
                   <p className={styles.para}>Speaker</p>
                   <p className={styles.para}>
-                    <b>Priya Vajpeyi</b>
+                    <b>Neetesh Mittal</b>
                   </p>
                   <p className={styles.para} style={{ color: "#0072BC" }}>
-                    Renowned influencer | Career Guru
+                    SDE III ( Ex - Microsoft, Ex - Myntra)
+                  </p>
+                  <p className={styles.para}>
+                  11+ years of Exp. 
                   </p>
                 </div>
               </div>
@@ -378,11 +393,12 @@ const SliderTabs = () => {
                 <div className={styles.icondiv}>
                   <p className={styles.pdivCheck}>
                     <FaUserAlt className={styles.faIcon} />
-                    Anyone on the job market
+                    Anyone want to learn the system design of a Cab Booking App?
+
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaUserAlt className={styles.faIcon} />
-                    Anyone looking to create a compelling resume
+                    SDE’s want to transit from Service to Product Based Companies.
                   </p>
                 </div>
               </div>
@@ -394,7 +410,9 @@ const SliderTabs = () => {
             <section className={styles.containerBottom}>
               <div className={styles.divInner}>100% LIVE CLASS</div>
               <div className={styles.divInner}>Q & A SESSION</div>
-              <div className={styles.divInner}>PROFESSIONAL RESUME TEMPLATEAS</div>
+              <div className={styles.divInner}>
+                PROFESSIONAL RESUME TEMPLATEAS
+              </div>
             </section>
           ) : (
             ""

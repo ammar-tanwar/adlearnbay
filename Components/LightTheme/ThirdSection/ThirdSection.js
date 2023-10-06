@@ -63,7 +63,7 @@ function ThirdSection({
                 <FaStar className={styles.IconBoxOrange} />
                 Software Development
                 <br />
-                Master Course
+                 Course
               </p>
               <p>
                 <FaStar className={styles.IconBoxBlue} />

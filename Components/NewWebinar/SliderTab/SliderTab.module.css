@@ -241,7 +241,7 @@ color: #F99600;
 @media (max-width: 481px) {
   .Course {
     padding: 0 20px;
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 30px;
   }
   .icondiv {
@@ -264,6 +264,7 @@ color: #F99600;
     padding: 0px;
     display: block;
     box-shadow: none;
+    margin-top: 0px;
   }
   .gridPanel {
     gap: 0px;
