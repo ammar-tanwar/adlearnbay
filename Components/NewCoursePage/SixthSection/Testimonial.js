@@ -17,7 +17,7 @@ function Testimonial({
   fullstackADS,
   marketing,
   grad,
-  jobDescription,
+  syllabusBtnHide,
   workExperience,
 }) {
   const [mobile, setMobile] = useState(false);
@@ -35,10 +35,15 @@ function Testimonial({
   };
   return (
     <section>
-      <button onClick={popupShow} className={styles.button}>
-        Download Brochure
-        <FaDownload className={styles.icon} />
-      </button>
+      {syllabusBtnHide ? (
+        ""
+      ) : (
+        <button onClick={popupShow} className={styles.button}>
+          Download Brochure
+          <FaDownload className={styles.icon} />
+        </button>
+      )}
+
       <div className={styles.Section1}>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">

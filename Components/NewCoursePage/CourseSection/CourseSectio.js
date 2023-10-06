@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from "react";
 import styles from "./CourseSection.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { FaDownload } from "react-icons/fa";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
+import Popup from "../../Popup/Popup";
+import Form from "../../Form/Form";
 
 function courseSection({ courseSectionData }) {
   const [mobile, setMobile] = useState(false);
@@ -14,8 +17,27 @@ function courseSection({ courseSectionData }) {
       setMobile(true);
     }
   });
+  const popupShow = () => {
+    setPopups(true);
+  };
+  const [popups, setPopups] = useState(false);
+
   return (
     <section className={styles.container}>
+       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+          <div className="leftPopup">
+            <div className="whiteP" />
+          </div>
+          <div className="RightPopup">
+            <h5>Download Brochure</h5>
+              <Form
+                popup={true}
+                downloadBrochure
+                upSkillingHide={true}
+                setTrigger={setPopups}
+              />
+          </div>
+        </Popup>
       <h4>Choose from our Popular Courses</h4>
       <div className={styles.courseDiv}>
         <Swiper
@@ -43,6 +65,10 @@ function courseSection({ courseSectionData }) {
             );
           })}
         </Swiper>
+        <button onClick={popupShow} className={styles.button}>
+          Download Brochure
+          <FaDownload className={styles.icon} />
+        </button>
       </div>
     </section>
   );
