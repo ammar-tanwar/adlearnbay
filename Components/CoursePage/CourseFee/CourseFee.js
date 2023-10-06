@@ -1,14 +1,12 @@
 import React, { useState } from "react";
-import styles from "./CourseFee.module.css";
-import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
+import { AiOutlineBars, AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
+import { BiCheck, BiTimeFive } from "react-icons/bi";
 import { BsFillCircleFill } from "react-icons/bs";
-import { BiCheck } from "react-icons/bi";
 import { MdDateRange } from "react-icons/md";
-import { AiOutlineBars } from "react-icons/ai";
-import { BiTimeFive } from "react-icons/bi";
-import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
+import Popup from "../../Popup/Popup";
+import styles from "./CourseFee.module.css";
 
 function CourseFee({
   syllabus,
@@ -241,8 +239,8 @@ function CourseFee({
                     <b>Time</b>
                   </p>
                   {/* <p className={styles.list}>08:30 AM to 12 PM</p> */}
-                  <p className={styles.list}>8 PM to 10PM</p>
-                  <p className={styles.list}>8 AM to 10AM</p>
+                  <p className={styles.list}>8 PM to 10 PM</p>
+                  <p className={styles.list}>8 AM to 10 AM</p>
                 </div>
               </div>
               <div className={styles.btnWrapper}>

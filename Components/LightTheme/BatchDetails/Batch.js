@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import styles from "./Batch.module.css";
-import { MdDateRange } from "react-icons/md";
+import React from "react";
 import { BiTimeFive } from "react-icons/bi";
+import { MdDateRange } from "react-icons/md";
+import styles from "./Batch.module.css";
 
 function Batch({ CourseFeeHead, WebDev, DataScience }) {
   return (
@@ -20,7 +20,7 @@ function Batch({ CourseFeeHead, WebDev, DataScience }) {
                   6th October 2023
                 </p>
                 <p className={styles.list}>
-                  <BiTimeFive className={styles.iconBlue} />8 PM to 10PM
+                  <BiTimeFive className={styles.iconBlue} />8 PM to 10 PM
                 </p>
               </div>
             </div>
@@ -34,7 +34,7 @@ function Batch({ CourseFeeHead, WebDev, DataScience }) {
                   20th October 2023
                 </p>
                 <p className={styles.list}>
-                  <BiTimeFive className={styles.iconBlue} />8 AM to 10AM
+                  <BiTimeFive className={styles.iconBlue} />8 AM to 10 AM
                 </p>
               </div>
             </div>
@@ -114,7 +114,7 @@ function Batch({ CourseFeeHead, WebDev, DataScience }) {
               </div>
               <div>
                 <p className={styles.list}>
-                  <BiTimeFive className={styles.iconBlue} />8 PM to 10PM
+                  <BiTimeFive className={styles.iconBlue} />8 PM to 10 PM
                 </p>
               </div>
             </div>
@@ -130,7 +130,7 @@ function Batch({ CourseFeeHead, WebDev, DataScience }) {
               </div>
               <div>
                 <p className={styles.list}>
-                  <BiTimeFive className={styles.iconBlue} />8 AM to 10AM
+                  <BiTimeFive className={styles.iconBlue} />8 AM to 10 AM
                 </p>
               </div>
             </div>

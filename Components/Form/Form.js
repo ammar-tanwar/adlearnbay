@@ -276,6 +276,8 @@ const Form = ({
     router.pathname === "/pune/s2-data-science-institute-generic" ||
     router.pathname === "/pune/s2-machine-learning-training-generic" ||
     router.pathname === "/generic" ||
+    router.pathname === "/datascience/s6-data-science-generic" ||
+    router.pathname === "/s6-data-science-generic" ||
     router.pathname === "/pune/s2-data-analytics"
   ) {
     // -==================== Google - S2 END POINT ==========================--------
@@ -362,8 +364,6 @@ const Form = ({
     router.pathname === "/data-science-certification-courses-s6" ||
     router.pathname === "/advance-ai-ml-certification-s6" ||
     router.pathname === "/data-science-ai-cert-for-managers-leaders-s6" ||
-    router.pathname === "/s6-data-science-generic" ||
-    router.pathname === "/datascience/s6-data-science-generic" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai-s6"
   ) {
     // -====================  Returning Audience - S6 END POINT ==========================--------
