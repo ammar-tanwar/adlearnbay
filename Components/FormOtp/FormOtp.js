@@ -364,7 +364,7 @@ function FormOtp({
       });
       setDisable(true);
       if (event) {
-        router.push("/Thank-you-fsd-webinar");
+        router.push("fullstack/Thank-you-webinar");
       }
 
       if (
@@ -933,7 +933,7 @@ function FormOtp({
     });
     setDisable(true);
     if (event) {
-      router.push("/Thank-you-fsd-webinar");
+      router.push("fullstack/Thank-you-webinar");
     }
 
     if (

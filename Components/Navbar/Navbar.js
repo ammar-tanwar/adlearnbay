@@ -13,6 +13,7 @@ const Navbar = ({
   radio,
   event,
   dataScience,
+  upSkillingHide,
   fullStack,
   eventDateInfo,
   formotp,
@@ -60,7 +61,9 @@ const Navbar = ({
           ) : (
             <>
               {formotp ? (
-                <FormOtp popup={true} event={true} setTrigger={setPopups} />
+                <FormOtp popup={true} event={true} setTrigger={setPopups} 
+                
+                />
               ) : (
                 <Form
                   popup={true}
@@ -68,6 +71,7 @@ const Navbar = ({
                   event={true}
                   radio={radio}
                   fullStack={fullStack}
+                  upSkillingHide={upSkillingHide}
                 />
               )}
             </>

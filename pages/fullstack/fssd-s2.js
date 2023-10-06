@@ -37,18 +37,18 @@ export default function Home({ formotp }) {
     <>
       <div>
         <Head>
-          <title>Software Development Master Program</title>
+          <title>Software Development Program</title>
           <link
             rel="icon"
             href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
           />
           <meta
             name="description"
-            content="Learn Software Development Master Program. Get a chance to work with top product based MNCs Companies and participate in live, interactive online sessions led by tech experts to gain real-time project experience."
+            content="Learn Software Development Program. Get a chance to work with top product based MNCs Companies and participate in live, interactive online sessions led by tech experts to gain real-time project experience."
           />
           <meta
             name="Keywords"
-            content="Software Development Master Program,Best Software Development Master Program, Online Software Development Master Program, Learn Software Development Master Program"
+            content="Software Development Program,Best Software Development Program, Online Software Development Program, Learn Software Development Program"
           />
           {/* <script
           dangerouslySetInnerHTML={{
@@ -117,7 +117,7 @@ export default function Home({ formotp }) {
             fullstackADS={true}
             fullStackCont={true}
             deskTopPara="Ace the PRODUCT Interviews to achieve your dream job"
-            h1="Software Development Master Program"
+            h1="Software Development Program"
             hSpan="with Domain Specialization"
             para="Work on 12+ real-time projects & get hired at top MNCs with a salary of up to 18LPA, only for Working Professionals."
             sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/fssd-generic.jpeg"
@@ -150,7 +150,7 @@ export default function Home({ formotp }) {
             fullStackCont={true}
             formotp={true}
             fullstackADS={true}
-            desc="Learnbay offers Software Development Master Program led by experts working in top MNCs & real-time industrial projects with case studies."
+            desc="Learnbay offers Software Development Program led by experts working in top MNCs & real-time industrial projects with case studies."
             Hours="300+ Hours"
             Projects="12+ projects"
             Module0="Programming Fundamentals"
@@ -166,7 +166,7 @@ export default function Home({ formotp }) {
             CourseFeeAndFinancing={
               FullStackSoftwareCourseData[0].ProgramFee.CourseFeeAndFinancing
             }
-            para="We are dedicated to making our Software Development Master Program accessible.  We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
+            para="We are dedicated to making our Software Development Program accessible.  We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
             dataScience={true}
           />
           <Batch
@@ -174,7 +174,7 @@ export default function Home({ formotp }) {
             fullstackADS={true}
             syllabusDesc={FullStackSoftwareCourseData[0].syllabusDesc}
             syllabus={FullStackSoftwareCourseData[0].Batch}
-            CourseFeeHead="Software Development Master Program: Batch Details"
+            CourseFeeHead="Software Development Program: Batch Details"
             CourseFeePara={
               FullStackSoftwareCourseData[0].BatchCourses.CourseFeePara
             }

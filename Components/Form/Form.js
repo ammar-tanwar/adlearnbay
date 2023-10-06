@@ -724,7 +724,7 @@ const Form = ({
       }
 
       if (event) {
-        router.push("/Thank-you");
+        router.push("/fullstack/Thank-you-webinar");
       }
 
       if (
@@ -1316,7 +1316,7 @@ const Form = ({
     }
 
     if (event) {
-      router.push("/Thank-you");
+      router.push("/fullstack/Thank-you-webinar");
     }
 
     if (
