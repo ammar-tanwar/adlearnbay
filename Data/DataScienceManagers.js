@@ -422,7 +422,7 @@ export const DsaiManagersCourseData = [
             {
               chap: {
                 title: "Batch 2 :- Date And time ",
-                desc: ["Date : 20th October 2023", "Time : 8 AM to 10AM"],
+                desc: ["Date : 20th October 2023", "Time : 8 AM to 10 AM"],
               },
             },
           ],
