@@ -154,7 +154,7 @@ export default function Home() {
           <DomainSection
             domainSectionData={DataScienceCourseData[0].domainSection}
           />
-          <Testimonial />
+          <Testimonial syllabusBtnHide={true} />
           <SeventhSection />
           <EightSection />
         </main>

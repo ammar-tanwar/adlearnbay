@@ -11,6 +11,21 @@
     width: 100%;
 }
 
+.button {
+    margin: auto;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #0072bc;
+}
+
+.icon {
+    margin-left: 10px;
+}
+
 .head {
     margin: 0;
     font-size: 22px;
