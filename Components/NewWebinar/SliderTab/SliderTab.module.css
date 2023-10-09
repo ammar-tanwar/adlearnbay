@@ -22,7 +22,7 @@
   gap: 10px;
   margin: 10px 0px;
   font-size: 18px;
-  color: #575252;
+  color: #000;
   align-items: center;
 }
 
@@ -131,7 +131,7 @@
 .para {
   margin: 10px 0px;
   font-size: 18px;
-  color: #575252;
+  color: #000;
 }
 .gridPanel .left h6 {
   font-style: normal;
