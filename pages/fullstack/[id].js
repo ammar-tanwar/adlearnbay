@@ -84,26 +84,7 @@ export default function DataScienceEvent({ eventData, newDesign }) {
           </div>
         </div>
         <SliderTabs whatHide={true} />
-        {/* <Footer /> */}
       </div>
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `(function (botId) {
-            var s = document.createElement("script");
-            s.async = true;
-            s.type = 'text/javascript';
-            s.src = "https://app.chat360.io/widget/chatbox/common_scripts/script.js";
-            s.onload = function () {
-              window.loadChat360Bot(botId);
-            };
-            s.onerror = function (err) {
-              console.error(err);
-            };
-            document.body.appendChild(s);
-          })("4f4d2e98-0778-4fb7-a9c3-af6fd1bedad8");
-      `,
-        }}
-      />
     </>
   );
 }
@@ -118,7 +99,6 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const eventData = getPostData(params.id);
-  // console.log(eventData.data.headImg.deskimg)
   return {
     props: {
       eventData,
