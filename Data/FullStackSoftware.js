@@ -705,8 +705,7 @@ export const FullStackSoftwareCourseData = [
     ProgramFee: {
       Fee: "₹ 1,15,000 + GST",
       Emi: "₹ 11,308",
-      CourseFeeAndFinancing:
-        "Software Development Program Fee & Financing",
+      CourseFeeAndFinancing: "Software Development Program Fee & Financing",
     },
     Project: {
       project: "12+ Projects",
@@ -715,21 +714,6 @@ export const FullStackSoftwareCourseData = [
     },
 
     Batch: [
-      {
-        Module0: {
-          title: "Weekday Morning Batch :- (Mon-Wed-Fri)",
-          content: [
-            {
-              chap: {
-                title: "Batch 1 :- Date And time ",
-                desc: ["Date : 6th October 2023", "Time : 7:30 AM to 9:30 AM"],
-              },
-            },
-          ],
-          id: 0,
-          open: false,
-        },
-      },
       {
         Module0: {
           title: "Weekday Morning Batch :- (Mon-Fri)",
@@ -741,6 +725,21 @@ export const FullStackSoftwareCourseData = [
                   "Date : 20th October 2023",
                   "Time :  7:30 AM to 9:30 AM",
                 ],
+              },
+            },
+          ],
+          id: 0,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Weekday Morning Batch :- (Mon-Wed-Fri)",
+          content: [
+            {
+              chap: {
+                title: "Batch 1 :- Date And time ",
+                desc: ["Date : 13th November", "Time : 7:30 AM to 9:30 AM"],
               },
             },
           ],

@@ -268,12 +268,12 @@ export const BFSIData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
-                title: "Batch 1 :- Date And time ",
-                desc: ["Date : 6th October 2023", "Time : 8 PM to 10 PM"],
+                title: "Batch 2 :- Date And time ",
+                desc: ["Date : 20th October 2023", "Time : 8 AM to 10 AM"],
               },
             },
           ],
@@ -283,12 +283,12 @@ export const BFSIData = [
       },
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Fri)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
-                title: "Batch 2 :- Date And time ",
-                desc: ["Date : 20th October 2023", "Time : 8 AM to 10 AM"],
+                title: "Batch 1 :- Date And time ",
+                desc: ["Date : 3rd November 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -550,12 +550,12 @@ export const HRData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
-                title: "Batch 1 :- Date And time ",
-                desc: ["Date : 6th October 2023", "Time : 8 PM to 10 PM"],
+                title: "Batch 2 :- Date And time ",
+                desc: ["Date : 20th October 2023", "Time : 8 AM to 10 AM"],
               },
             },
           ],
@@ -565,12 +565,12 @@ export const HRData = [
       },
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Fri)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
-                title: "Batch 2 :- Date And time ",
-                desc: ["Date : 20th October 2023", "Time : 8 AM to 10 AM"],
+                title: "Batch 1 :- Date And time ",
+                desc: ["Date : 3rd November 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -841,12 +841,12 @@ export const MarketingData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
-                title: "Batch 1 :- Date And time ",
-                desc: ["Date : 6th October 2023", "Time : 8 PM to 10 PM"],
+                title: "Batch 2 :- Date And time ",
+                desc: ["Date : 20th October 2023", "Time : 8 AM to 10 AM"],
               },
             },
           ],
@@ -856,12 +856,12 @@ export const MarketingData = [
       },
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Fri)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
-                title: "Batch 2 :- Date And time ",
-                desc: ["Date : 20th October 2023", "Time : 8 AM to 10 AM"],
+                title: "Batch 1 :- Date And time ",
+                desc: ["Date : 3rd November 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -1096,12 +1096,12 @@ export const SalesData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
-                title: "Batch 1 :- Date And time ",
-                desc: ["Date : 6th October 2023", "Time : 8 PM to 10 PM"],
+                title: "Batch 2 :- Date And time ",
+                desc: ["Date : 20th October 2023", "Time : 8 AM to 10 AM"],
               },
             },
           ],
@@ -1111,12 +1111,12 @@ export const SalesData = [
       },
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Fri)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
-                title: "Batch 2 :- Date And time ",
-                desc: ["Date : 20th October 2023", "Time : 8 AM to 10 AM"],
+                title: "Batch 1 :- Date And time ",
+                desc: ["Date : 3rd November 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -1457,12 +1457,12 @@ export const SoftwareData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Fri)",
+          title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
-                title: "Batch 1 :- Date And time ",
-                desc: ["Date : 6th October 2023", "Time : 8 PM to 10 PM"],
+                title: "Batch 2 :- Date And time ",
+                desc: ["Date : 20th October 2023", "Time : 8 AM to 10 AM"],
               },
             },
           ],
@@ -1472,12 +1472,12 @@ export const SoftwareData = [
       },
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Fri)",
+          title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
-                title: "Batch 2 :- Date And time ",
-                desc: ["Date : 20th October 2023", "Time : 8 AM to 10 AM"],
+                title: "Batch 1 :- Date And time ",
+                desc: ["Date : 3rd November 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
