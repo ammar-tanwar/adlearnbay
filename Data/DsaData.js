@@ -217,21 +217,6 @@ export const DsaCourseData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Wed-Fri)",
-          content: [
-            {
-              chap: {
-                title: "Batch 1 :- Date And time ",
-                desc: ["Date : 6th October 2023", "Time : 7:30 AM to 9:30 AM"],
-              },
-            },
-          ],
-          id: 0,
-          open: false,
-        },
-      },
-      {
-        Module0: {
           title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
@@ -241,6 +226,21 @@ export const DsaCourseData = [
                   "Date : 20th October 2023",
                   "Time :  7:30 AM to 9:30 AM",
                 ],
+              },
+            },
+          ],
+          id: 0,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Weekday Morning Batch :- (Mon-Wed-Fri)",
+          content: [
+            {
+              chap: {
+                title: "Batch 1 :- Date And time ",
+                desc: ["Date : 13th November", "Time : 7:30 AM to 9:30 AM"],
               },
             },
           ],

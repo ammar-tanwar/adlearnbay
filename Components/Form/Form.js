@@ -59,27 +59,36 @@ const Form = ({
     router.pathname === "/fswd" ||
     router.pathname === "/dsa" ||
     router.pathname === "/data-science-certification-courses" ||
-    router.pathname === "/datascience/data-science-certification-courses" ||
     router.pathname === "/common-generic" ||
     router.pathname === "/s2-masters-degree" ||
-    router.pathname === "/" ||
     router.pathname === "/advance-ai-ml-certification" ||
-    router.pathname === "/datascience/advance-ai-ml-certification" ||
     router.pathname === "/data-analytics-certification-course" ||
-    router.pathname === "/datascience/data-analytics-certification-course" ||
     router.pathname === "/business-analytics-certification-course" ||
-    router.pathname ===
-      "/datascience/business-analytics-certification-course" ||
     router.pathname === "/data-science-ai-cert-for-managers-leaders" ||
-    router.pathname ===
-      "/datascience/data-science-ai-cert-for-managers-leaders" ||
     router.pathname === "/job-guarantee-or-money-back-data-science-ai" ||
-    router.pathname === "/data-science-ai-masters-program" ||
-    router.pathname === "/datascience/data-science-ai-masters-program"
+    router.pathname === "/data-science-ai-masters-program"
   ) {
     // -====================  Organic - S END POINT ==========================--------
     endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
     // -====================  Organic - S END POINT ==========================--------
+  }
+
+  if (
+    router.pathname === "/datascience/data-science-certification-courses" ||
+    router.pathname === "/" ||
+    router.pathname === "/datascience/advance-ai-ml-certification" ||
+    router.pathname === "/datascience/data-analytics-certification-course" ||
+    router.pathname ===
+      "/datascience/business-analytics-certification-course" ||
+    router.pathname ===
+      "/datascience/data-science-ai-cert-for-managers-leaders" ||
+    router.pathname === "/datascience/data-science-ai-masters-program" ||
+    router.pathname === "/fullstack/dsa" ||
+    router.pathname === "/fullstack/fssd"
+  ) {
+    // -====================  MARKETING - S END POINT ==========================--------
+    endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
+    // -====================  MARKETING - S END POINT ==========================--------
   }
 
   // -==================== Google - S2 END POINT ==========================--------
@@ -388,9 +397,7 @@ const Form = ({
 
   if (
     router.pathname === "/full-stack-software-development-program" ||
-    router.pathname === "/full-stack-web-development-program" ||
-    router.pathname === "/fullstack/dsa" ||
-    router.pathname === "/fullstack/fssd"
+    router.pathname === "/full-stack-web-development-program"
   ) {
     // -====================  Website Learnbay END POINT ==========================--------
     endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";

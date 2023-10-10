@@ -53,6 +53,24 @@ const FormInline = ({
     endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
   }
 
+  if (
+    router.pathname === "/datascience/data-science-certification-courses" ||
+    router.pathname === "/" ||
+    router.pathname === "/datascience/advance-ai-ml-certification" ||
+    router.pathname === "/datascience/data-analytics-certification-course" ||
+    router.pathname ===
+      "/datascience/business-analytics-certification-course" ||
+    router.pathname ===
+      "/datascience/data-science-ai-cert-for-managers-leaders" ||
+    router.pathname === "/datascience/data-science-ai-masters-program" ||
+    router.pathname === "/fullstack/dsa" ||
+    router.pathname === "/fullstack/fssd"
+  ) {
+    // -====================  MARKETING - S END POINT ==========================--------
+    endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
+    // -====================  MARKETING - S END POINT ==========================--------
+  }
+
   // Form Submit function
   const formSubmit = (e) => {
     e.preventDefault();
