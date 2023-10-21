@@ -19,6 +19,7 @@ import ProgramWithHighLight from "../../Components/CityComponents/ProgramWithHig
 import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
 import { mastersProgram } from "../../Data/delhi/mastersProgram";
 import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
+import FeeSection from "../../Components/CoursePage/FeeSection/Fee";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -159,6 +160,19 @@ export default function Home() {
             popupHead={mastersProgram[0].popupHead}
             hours={mastersProgram[0].hours}
             project={mastersProgram[0].project}
+          />
+          <FeeSection
+            formotp={true} s2dataScience={true}
+          Fee="₹ 1,29,000 + 18% GST"
+          FeeEmi="₹ 12,685/month"
+          FeeHeading="Program Fee & Financing"
+          FeeContent1="0% interest rate"
+          FeeContent2="No cost EMI"
+          FeeContent3="Flexible payment"
+          FeeContent4="Easy loan procedure"
+          FeeContent5="15 days refund policy"
+          FeeContent6="No additional cost"
+          para="Invest in your future with quality education"
           />
           <CityImage
             formotp={true}

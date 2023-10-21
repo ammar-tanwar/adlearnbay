@@ -20,11 +20,6 @@ function SyllabusSection({
   formotp,
   fullStackCont,
   s2dataScience,
-  fullstackADS,
-  marketing,
-  grad,
-  jobDescription,
-  workExperience,
 }) {
   const [popups, setPopups] = useState(false);
   const popupShow = () => {
@@ -50,12 +45,8 @@ function SyllabusSection({
           {formotp ? (
             <FormOtp
               popup={true}
-              downloadBrochure
               upSkillingHide={true}
               s2dataScience={s2dataScience}
-              fullstackADS={fullstackADS}
-              marketing={marketing}
-              grad={grad}
             />
           ) : (
             <Form

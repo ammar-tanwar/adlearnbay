@@ -15,6 +15,7 @@ import Batch from "../../Components/LightTheme/BatchDetails/Batch";
 import { ProgramFee } from "../../Components/LightTheme/ProgramFee/ProgramFee";
 import EightSection from "../../Components/LightTheme/EightSection/EightSection";
 import SyllabusSection from "../../Components/LightTheme/SyllabusSection/SyllabusSection";
+import FeeSection from "../../Components/CoursePage/FeeSection/Fee";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -142,6 +143,19 @@ export default function Home() {
             Module2="Statistics and Machine Learning"
             Module3="Data Science and AI Course Tools"
             Module4="Essentials Tools"
+          />
+          <FeeSection
+            formotp={true} s2dataScience={true}
+          Fee="₹ 1,29,000 + 18% GST"
+          FeeEmi="₹ 12,685/month"
+          FeeHeading="Program Fee & Financing"
+          FeeContent1="0% interest rate"
+          FeeContent2="No cost EMI"
+          FeeContent3="Flexible payment"
+          FeeContent4="Easy loan procedure"
+          FeeContent5="15 days refund policy"
+          FeeContent6="No additional cost"
+          para="Invest in your future with quality education"
           />
           <SliderTab />
           <ProgramFee

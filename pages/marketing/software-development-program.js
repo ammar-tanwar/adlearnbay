@@ -23,6 +23,7 @@ import {
   MentorshipFaqData9,
   SupportFaqData9,
 } from "../../Components/LightTheme/FAQNew/FaqData";
+import FeeSection from "../../Components/CoursePage/FeeSection/Fee";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -154,6 +155,19 @@ export default function Home() {
             Module1="Basic DSA"
             Module2="Advanced DSA"
             Module3="System Design"
+          />
+           <FeeSection
+            formotp={true} s2dataScience={true}
+          Fee="₹ 1,15,000 + 18% GST"
+          FeeEmi="₹ 11,308/month"
+          FeeHeading="Program Fee & Financing"
+          FeeContent1="0% interest rate"
+          FeeContent2="No cost EMI"
+          FeeContent3="Flexible payment"
+          FeeContent4="Easy loan procedure"
+          FeeContent5="15 days refund policy"
+          FeeContent6="No additional cost"
+          para="Invest in your future with quality education"
           />
           <Testimonial formotp={true} s2dataScience={true} />
           <FAQNew

@@ -16,6 +16,7 @@ import { MarketingData } from "../../Data/Domain";
 import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import CourseReview from "../../Components/Domain/CourseReview/CourseReview";
 import Image from "next/image";
+import FeeSection from "../../Components/CoursePage/FeeSection/Fee";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -189,6 +190,19 @@ export default function Home() {
             popupHead={MarketingData[0].popupHead}
             hours={MarketingData[0].hours}
             project={MarketingData[0].project}
+          />
+          <FeeSection
+            formotp={true} s2dataScience={true}
+            Fee="₹ 89,000 + 18% GST"
+            FeeEmi="₹ 8,752/month"
+          FeeHeading="Program Fee & Financing"
+          FeeContent1="0% interest rate"
+          FeeContent2="No cost EMI"
+          FeeContent3="Flexible payment"
+          FeeContent4="Easy loan procedure"
+          FeeContent5="15 days refund policy"
+          FeeContent6="No additional cost"
+          para="Invest in your future with quality education"
           />
           <OurExpert
             H5={MarketingData[0].OurExpert.H5}

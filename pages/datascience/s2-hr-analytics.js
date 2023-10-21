@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Popup from "../../Components/Popup/Popup";
 import Form from "../../Components/Form/Form";
 import Navbar from "../../Components/CoursePage/Navbar/Navbar";
-
+import FeeSection from "../../Components/CoursePage/FeeSection/Fee";
 import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import HeroSection from "../../Components/LightTheme/FirstSection/HeroSection";
 import Testimonial from "../../Components/LightTheme/SixthSection/Testimonial";
@@ -141,6 +141,19 @@ export default function Home() {
             Module2="Data Visualization using Tableau"
             Module3="Business Intelligence Tool: PowerBI"
             Module4="Deployment (AWS+Azure)"
+          />
+          <FeeSection
+            formotp={true} s2dataScience={true}
+          Fee="₹ 89,000 + 18% GST"
+          FeeEmi="₹ 8,752/month"
+          FeeHeading="Program Fee & Financing"
+          FeeContent1="0% interest rate"
+          FeeContent2="No cost EMI"
+          FeeContent3="Flexible payment"
+          FeeContent4="Easy loan procedure"
+          FeeContent5="15 days refund policy"
+          FeeContent6="No additional cost"
+          para="Invest in your future with quality education"
           />
           <SliderTab />
           <Testimonial formotp={true} s2dataScience={true} />

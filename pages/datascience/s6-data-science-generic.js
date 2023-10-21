@@ -10,6 +10,7 @@ import SyllabusSection from "../../Components/NewCoursePage/SyllabusSection/Syll
 import { DataScienceCourseData } from "../../Data/AdvanceDataScienceCourse";
 
 import dynamic from "next/dynamic";
+import FeeSection from "../../Components/CoursePage/FeeSection/Fee";
 
 const FirstSection = dynamic(() =>
   import("../../Components/NewCoursePage/FirstSection/FirstSection")
@@ -150,6 +151,19 @@ export default function Home() {
             Module2="Statistics and Machine Learning"
             Module3="Data Science Course Tools"
             Module4="Artificial Intelligence Tools"
+          />
+          <FeeSection
+            formotp={true} s2dataScience={true}
+          Fee="₹ 99,000 + 18% GST"
+          FeeEmi="₹ 9,735/month"
+          FeeHeading="Program Fee & Financing"
+          FeeContent1="0% interest rate"
+          FeeContent2="No cost EMI"
+          FeeContent3="Flexible payment"
+          FeeContent4="Easy loan procedure"
+          FeeContent5="15 days refund policy"
+          FeeContent6="No additional cost"
+          para="Invest in your future with quality education"
           />
           <DomainSection
             domainSectionData={DataScienceCourseData[0].domainSection}

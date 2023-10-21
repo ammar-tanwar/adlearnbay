@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Popup from "../../Components/Popup/Popup";
 import Form from "../../Components/Form/Form";
 import Navbar from "../../Components/CoursePage/Navbar/Navbar";
-
+import FeeSection from "../../Components/CoursePage/FeeSection/Fee";
 import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import HeroSection from "../../Components/LightTheme/FirstSection/HeroSection";
 import Testimonial from "../../Components/LightTheme/SixthSection/Testimonial";
@@ -140,6 +140,19 @@ get 100% placement assistance "
             Module2="Statistics and Machine Learning"
             Module3="Data Science Course Tools"
             Module4="Artificial Intelligence Tools"
+          />
+          <FeeSection
+            formotp={true} s2dataScience={true}
+          Fee="₹ 1,10,000 + 18% GST"
+          FeeEmi="₹ 10,817/month"
+          FeeHeading="Program Fee & Financing"
+          FeeContent1="0% interest rate"
+          FeeContent2="No cost EMI"
+          FeeContent3="Flexible payment"
+          FeeContent4="Easy loan procedure"
+          FeeContent5="15 days refund policy"
+          FeeContent6="No additional cost"
+          para="Invest in your future with quality education"
           />
           <SliderTab />
           <Testimonial formotp={true} s2dataScience={true} />
