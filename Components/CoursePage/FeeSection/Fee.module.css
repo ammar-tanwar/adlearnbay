@@ -1,0 +1,204 @@
+.feeWrapper {
+  display: flex;
+  flex-flow: column;
+
+  padding: 70px 160px 0px 160px;
+}
+.feeWrapper h4 {
+  color: black;
+  margin: 0px 0px 10px 0px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+.priceWrap {
+  display: grid;
+  grid-template-columns: 57% 40%;
+  gap: 30px;
+}
+.price p {
+  font-weight: 700;
+}
+.leftSide {
+  display: flex;
+  flex-flow: column;
+  gap: 40px;
+  justify-content: center;
+  border: 1px solid rgb(194, 194, 194);
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+.leftSide p {
+  color: #676767;
+  margin: 0;
+  font-size: 18px;
+}
+.leftSide h5 {
+  font-size: 30px;
+  color: #f99600;
+  margin: 20px 0;
+}
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.list div {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+}
+.list div p {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+.check {
+  color: green;
+}
+
+.leftSide button {
+  font-size: 18px;
+  border-radius: 4px;
+  background-color: #0072bc;
+  font-weight: 700;
+  color: white;
+  width: fit-content;
+}
+
+.leftSide button:hover {
+  background: #fff;
+  color: #0072bc;
+  border: 1px solid #0072bc;
+}
+
+.rightSide {
+  display: flex;
+  flex-flow: column;
+  gap: 30px;
+}
+
+.top,
+.middle {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border-radius: 10px;
+  padding: 10px 30px;
+  background-color: #def2ff;
+}
+.money {
+  font-size: 47px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0072bc;
+}
+.top {
+  justify-content: space-between;
+}
+.top p {
+  margin: 0;
+  color: #000;
+}
+.top h3 {
+  margin: 10px 0;
+  color: #0072bc;
+}
+.top .left button {
+  background-color: transparent;
+  color: #0072bc;
+  padding: 8px 10px;
+}
+.top .left button:hover {
+  background-color: #0072bc;
+  color: white;
+}
+.middle {
+  background-color: #fffaf0 !important;
+}
+.middle .right {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+  flex-flow: column;
+}
+.sliderHeading {
+  margin-bottom: 10px !important;
+}
+.middle .right div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.middle .right span {
+  display: flex;
+  flex-flow: column;
+
+  font-weight: 600;
+  align-items: center;
+}
+
+.icon {
+  font-size: 37px;
+  color: #ecbb53;
+}
+.slider {
+  width: 100%;
+}
+.ptop {
+  font-size: 20px;
+  margin: 0px 100px 50px 100px;
+  color: #767676;
+  line-height: 26px;
+  text-align: center;
+}
+
+@media (max-width: 641px) {
+  .feeWrapper {
+    padding: 40px 20px 20px 20px;
+  }
+  .priceWrap {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .leftSide {
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+    justify-content: center;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 10px;
+    padding: 30px 20px;
+  }
+  .list {
+    display: grid;
+    justify-content: left;
+    gap: 10px;
+  }
+  .list div {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+  }
+  .feeWrapper h4 {
+    font-size: 24px;
+  }
+  .ptop {
+    font-size: 18px;
+    margin: 0px 20px 20px 20px;
+  }
+}

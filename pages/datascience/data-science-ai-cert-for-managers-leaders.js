@@ -1,26 +1,26 @@
 import Head from "next/head";
-import styles from "../../styles/Home.module.css";
-import FirstSection from "../../Components/CoursePage/HeroSection/HeroSection1";
-import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
+import React, { useState } from "react";
 import BoxShape from "../../Components/CoursePage/Boxshape/BoxShape1";
-import Popup from "../../Components/Popup/Popup";
-import Form from "../../Components/Form/Form";
-import Navbar from "../../Components/NavbarHome/Navbar";
 import Certificate from "../../Components/CoursePage/CertificateTab/CertificateTabAdvance";
-import Project from "../../Components/CoursePage/Project/Project";
-import OurExpert from "../../Components/CoursePage/OurExpert/OurExpert";
 import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
+import CourseReview from "../../Components/CoursePage/CourseReview/CourseReview";
+import { DomainFaqCourseData1 } from "../../Components/CoursePage/DomainFaq/DOmainFaqData";
+import DomainFaq from "../../Components/CoursePage/DomainFaq/DomainFaq";
+import FirstSection from "../../Components/CoursePage/HeroSection/HeroSection1";
+import LearnSupport from "../../Components/CoursePage/LearnSupport/LearnSupport";
+import OtherCertificate from "../../Components/CoursePage/OtherCertificate6/OtherCertificate";
+import OurExpert from "../../Components/CoursePage/OurExpert/OurExpert";
+import { ProgramFee } from "../../Components/CoursePage/ProgramFee/ProgramFee";
+import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
+import Project from "../../Components/CoursePage/Project/Project";
+import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import SyllabusNew from "../../Components/CoursePage/SyllabusNew/SyllabusNew1";
 import Footer from "../../Components/FooterHome/Footer";
-import { ProgramFee } from "../../Components/CoursePage/ProgramFee/ProgramFee";
-import LearnSupport from "../../Components/CoursePage/LearnSupport/LearnSupport";
-import React, { useState } from "react";
+import Form from "../../Components/Form/Form";
+import Navbar from "../../Components/NavbarHome/Navbar";
+import Popup from "../../Components/Popup/Popup";
 import { DsaiManagersCourseData } from "../../Data/DataScienceManagers";
-import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
-import CourseReview from "../../Components/CoursePage/CourseReview/CourseReview";
-import DomainFaq from "../../Components/CoursePage/DomainFaq/DomainFaq";
-import OtherCertificate from "../../Components/CoursePage/OtherCertificate6/OtherCertificate";
-import { DomainFaqCourseData1 } from "../../Components/CoursePage/DomainFaq/DOmainFaqData";
+import styles from "../../styles/Home.module.css";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -199,8 +199,8 @@ export default function Home() {
             img20={DsaiManagersCourseData[0].OurExpert.img20}
           />
           <ProgramFee
-            Emi="₹ 10,325/month"
-            Fee="₹ 1,05,000 +GST"
+            Emi="₹ 10,817/month"
+            Fee="₹ 1,10,000 +GST"
             CourseFeeAndFinancing="Program Fee & Financing"
             para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."
           />

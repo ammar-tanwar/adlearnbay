@@ -1,25 +1,25 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
-import FirstSection from "../Components/CoursePage/HeroSection/HeroSection";
-import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
+import React, { useState } from "react";
 import BoxShape from "../Components/CoursePage/Boxshape/BoxShape1";
-import Popup from "../Components/Popup/Popup";
-import Navbar from "../Components/NavbarHome/Navbar";
+import Certificate from "../Components/CoursePage/Certificatejob/Certificate";
+import CourseFee from "../Components/CoursePage/CourseFee/CourseFee";
+import FirstSection from "../Components/CoursePage/HeroSection/HeroSection";
+import OurExpert from "../Components/CoursePage/OurExpert/OurExpert";
+import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
+import Project from "../Components/CoursePage/Project/Project";
+import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
 import Footer from "../Components/FooterHome/Footer";
 import Form from "../Components/Form/Form";
-import Certificate from "../Components/CoursePage/Certificatejob/Certificate";
-import Project from "../Components/CoursePage/Project/Project";
-import OurExpert from "../Components/CoursePage/OurExpert/OurExpert";
-import CourseFee from "../Components/CoursePage/CourseFee/CourseFee";
-import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew";
-import React, { useState } from "react";
-import { DataAnalyticsCourseData } from "../Data/DataAnalyticsData";
 import LearnSupport from "../Components/LearnSupport/LearnSupport";
+import Navbar from "../Components/NavbarHome/Navbar";
+import Popup from "../Components/Popup/Popup";
+import { DataAnalyticsCourseData } from "../Data/DataAnalyticsData";
+import styles from "../styles/Home.module.css";
 
-import DomainFaq from "../Components/CoursePage/DomainFaq/DomainFaq";
 import CourseReview from "../Components/CoursePage/CourseReview/CourseReview";
-import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
 import { DomainFaqCourseData2 } from "../Components/CoursePage/DomainFaq/DOmainFaqData";
+import DomainFaq from "../Components/CoursePage/DomainFaq/DomainFaq";
+import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -128,7 +128,7 @@ export default function Home() {
               p3="1:1"
               p33="Career Support"
               p4="Financing as low as"
-              p44="₹ 14,750/month"
+              p44="₹ 7,768/month"
             />
           </div>
           <div className={styles.Feature} id="Feature">
@@ -198,8 +198,8 @@ export default function Home() {
           <ProgramFee
             CourseFeeAndFinancing="Program Fee & Financing"
             para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."
-            Emi="₹ 14,750/month"
-            Fee="₹ 75,000 + 18% GST"
+            Emi="₹ 7,768/month"
+            Fee="₹ 79,000 + 18% GST"
             dataScience={true}
           />
           <div className={styles.ProjectWrapper} id="project">

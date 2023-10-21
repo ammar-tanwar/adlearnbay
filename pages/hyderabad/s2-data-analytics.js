@@ -13,6 +13,7 @@ import FourthSection from "../../Components/LightTheme/FourthSection/FourthSecti
 import SeventhSection from "../../Components/LightTheme/SeventhSection/SeventhSection";
 import EightSection from "../../Components/LightTheme/EightSection/EightSection";
 import SyllabusSection from "../../Components/LightTheme/SyllabusSection/SyllabusSection";
+import FeeSection from "../../Components/CoursePage/FeeSection/Fee";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -135,6 +136,19 @@ course subscription and 24/7 support"
             Module2="Statistics & Basic Machine Learning"
             Module3="Data Analytics Course Tools"
             Module4="Essentials Tools"
+          />
+           <FeeSection
+            formotp={true} s2dataScience={true}
+          Fee="₹ 79,000 + 18% GST"
+          FeeEmi="₹ 7,768/month"
+          FeeHeading="Program Fee & Financing"
+          FeeContent1="0% interest rate"
+          FeeContent2="No cost EMI"
+          FeeContent3="Flexible payment"
+          FeeContent4="Easy loan procedure"
+          FeeContent5="15 days refund policy"
+          FeeContent6="No additional cost"
+          para="Invest in your future with quality education"
           />
           <SliderTab />
           <Testimonial formotp={true} />

@@ -704,7 +704,7 @@ export const FullStackSoftwareCourseData = [
 
     ProgramFee: {
       Fee: "₹ 1,15,000 + GST",
-      Emi: "₹ 11,308",
+      Emi: "₹ 11,308/month",
       CourseFeeAndFinancing: "Software Development Program Fee & Financing",
     },
     Project: {

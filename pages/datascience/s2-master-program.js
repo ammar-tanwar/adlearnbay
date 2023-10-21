@@ -1,20 +1,21 @@
 import Head from "next/head";
 import React, { useState } from "react";
-import Popup from "../../Components/Popup/Popup";
-import Form from "../../Components/Form/Form";
 import Navbar from "../../Components/CoursePage/Navbar/Navbar";
+import Form from "../../Components/Form/Form";
+import Popup from "../../Components/Popup/Popup";
 
+import FeeSection from "../../Components/CoursePage/FeeSection/Fee";
 import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
-import HeroSection from "../../Components/LightTheme/FirstSection/HeroSection";
-import Testimonial from "../../Components/LightTheme/SixthSection/Testimonial";
-import SecondSection from "../../Components/LightTheme/SecondSection/SecondSection";
-import ThirdSection from "../../Components/LightTheme/ThirdSection/ThirdSection";
-import FourthSection from "../../Components/LightTheme/FourthSection/FourthSection";
-import SeventhSection from "../../Components/LightTheme/SeventhSection/SeventhSection";
 import Batch from "../../Components/LightTheme/BatchDetails/Batch";
-import { ProgramFee } from "../../Components/LightTheme/ProgramFee/ProgramFee";
 import EightSection from "../../Components/LightTheme/EightSection/EightSection";
+import HeroSection from "../../Components/LightTheme/FirstSection/HeroSection";
+import FourthSection from "../../Components/LightTheme/FourthSection/FourthSection";
+import { ProgramFee } from "../../Components/LightTheme/ProgramFee/ProgramFee";
+import SecondSection from "../../Components/LightTheme/SecondSection/SecondSection";
+import SeventhSection from "../../Components/LightTheme/SeventhSection/SeventhSection";
+import Testimonial from "../../Components/LightTheme/SixthSection/Testimonial";
 import SyllabusSection from "../../Components/LightTheme/SyllabusSection/SyllabusSection";
+import ThirdSection from "../../Components/LightTheme/ThirdSection/ThirdSection";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -143,12 +144,26 @@ export default function Home() {
             Module3="Data Science and AI Course Tools"
             Module4="Essentials Tools"
           />
+          <FeeSection
+            formotp={true}
+            s2dataScience={true}
+            Fee="₹ 1,29,000 + 18% GST"
+            FeeEmi="₹ 12,685/month"
+            FeeHeading="Program Fee & Financing"
+            FeeContent1="0% interest rate"
+            FeeContent2="No cost EMI"
+            FeeContent3="Flexible payment"
+            FeeContent4="Easy loan procedure"
+            FeeContent5="15 days refund policy"
+            FeeContent6="No additional cost"
+            para="Invest in your future with quality education"
+          />
           <SliderTab />
           <ProgramFee
             formotp={true}
             s2dataScience={true}
             Emi="₹ 12,292/month"
-            Fee="₹ 1,25,000 + 18% GST"
+            Fee="₹ 1,29,000 + 18% GST"
             CourseFeeAndFinancing="Data Science and AI Master Program"
             para="We are dedicated to making our Data Science and AI Master Program accessible.  We are committed to helping you find a way to budget for this Course and offer a variety of financing options to make it more economical."
             dataScience={true}

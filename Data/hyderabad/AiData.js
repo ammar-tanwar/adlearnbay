@@ -24,7 +24,7 @@ export const AiCourseData = [
       p3: "Career Assistance",
       p33: "For Professionals",
       p4: "Financing as low as",
-      p44: "₹ 10,325/month",
+      p44: "₹ 10,817/month",
     },
 
     BoxShape: {
@@ -408,8 +408,8 @@ export const AiCourseData = [
     },
 
     ProgramFee: {
-      Emi: "₹ 10,325/month",
-      Fee: "₹ 1,05,000 +GST",
+      Emi: "₹ 10,817/month",
+      Fee: "₹ 1,10,000 +GST",
       CourseFeeAndFinancing:
         "Artificial Intelligence Course Fee & Financing in Hyderabad",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for AI Certification Course in Hyderabad and offer avariety of financing options to make it more economical.",

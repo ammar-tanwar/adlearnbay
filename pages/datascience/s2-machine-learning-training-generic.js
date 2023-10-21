@@ -13,6 +13,7 @@ import FourthSection from "../../Components/LightTheme/FourthSection/FourthSecti
 import SeventhSection from "../../Components/LightTheme/SeventhSection/SeventhSection";
 import EightSection from "../../Components/LightTheme/EightSection/EightSection";
 import SyllabusSection from "../../Components/LightTheme/SyllabusSection/SyllabusSection";
+import FeeSection from "../../Components/CoursePage/FeeSection/Fee";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -141,6 +142,19 @@ export default function Home() {
             Module2="Statistics and Machine Learning"
             Module3="Data Science Course Tools"
             Module4="Machine Learning Course Tools"
+          />
+          <FeeSection
+            formotp={true} s2dataScience={true}
+          Fee="₹ 1,10,000 + 18% GST"
+          FeeEmi="₹ 10,817/month"
+          FeeHeading="Program Fee & Financing"
+          FeeContent1="0% interest rate"
+          FeeContent2="No cost EMI"
+          FeeContent3="Flexible payment"
+          FeeContent4="Easy loan procedure"
+          FeeContent5="15 days refund policy"
+          FeeContent6="No additional cost"
+          para="Invest in your future with quality education"
           />
           <SliderTab />
           <Testimonial formotp={true} s2dataScience={true} />

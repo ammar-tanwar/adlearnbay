@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
-import styles from "./GetHired.module.css";
-import Popup from "../Popup/Popup";
+import React, { useEffect, useState } from "react";
 import Form from "../Form/Form";
 import FormOtp from "../FormOtp/FormOtp";
+import Popup from "../Popup/Popup";
+import styles from "./GetHired.module.css";
 
 const GetHired = ({ radio, formotp }) => {
   const [mobile, setMobile] = useState(false);
@@ -39,10 +39,10 @@ const GetHired = ({ radio, formotp }) => {
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           {/* <p>Fill the below Details to get started</p> */}
-          {formotp ?(
-          <FormOtp popup={true} radio={radio}/>
-          ):(
-          <Form popup={true} setTrigger={setPopups} radio={radio} />
+          {formotp ? (
+            <FormOtp popup={true} radio={radio} />
+          ) : (
+            <Form popup={true} setTrigger={setPopups} radio={radio} />
           )}
         </div>
       </Popup>
@@ -77,7 +77,7 @@ const GetHired = ({ radio, formotp }) => {
         <div className={styles.right}>
           <div>
             <p>Course Fee</p>
-            <h4 className={styles.righth}>₹1,25,000</h4>
+            <h4 className={styles.righth}>₹1,29,000</h4>
             <p>3 Year Subscription</p>
             <button
               onClick={popupShow}

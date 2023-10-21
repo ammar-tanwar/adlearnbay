@@ -325,8 +325,8 @@ export const DataScienceCourseData = [
         "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
     ProgramFee: {
-      Fee: "₹95,000 + GST",
-      Emi: "₹ 9,341/month",
+      Fee: "₹99,000 + GST",
+      Emi: "₹ 9,735/month",
       CourseFeeAndFinancing: "Data Science Course Fee & Financing In Chennai",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Science Certification Course In Chennai and offer avariety of financing options to make it more economical.",
     },

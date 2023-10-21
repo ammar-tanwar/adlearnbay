@@ -13,6 +13,7 @@ import FourthSection from "../../Components/LightTheme/FourthSection/FourthSecti
 import SeventhSection from "../../Components/LightTheme/SeventhSection/SeventhSection";
 import EightSection from "../../Components/LightTheme/EightSection/EightSection";
 import SyllabusSection from "../../Components/LightTheme/SyllabusSection/SyllabusSection";
+import FeeSection from "../../Components/CoursePage/FeeSection/Fee";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -141,6 +142,19 @@ export default function Home() {
             Module2="Data Visualization using Tableau"
             Module3="Business Intelligence Tool: PowerBI"
             Module4="Deployment (AWS+Azure)"
+          />
+          <FeeSection
+            formotp={true} s2dataScience={true}
+            Fee="₹ 89,000 + 18% GST"
+            FeeEmi="₹ 8,752/month"
+          FeeHeading="Program Fee & Financing"
+          FeeContent1="0% interest rate"
+          FeeContent2="No cost EMI"
+          FeeContent3="Flexible payment"
+          FeeContent4="Easy loan procedure"
+          FeeContent5="15 days refund policy"
+          FeeContent6="No additional cost"
+          para="Invest in your future with quality education"
           />
           <SliderTab />
           <Testimonial formotp={true} s2dataScience={true} />

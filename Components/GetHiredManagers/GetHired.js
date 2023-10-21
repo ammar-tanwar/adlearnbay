@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
-import styles from "./GetHired.module.css";
-import Popup from "../Popup/Popup";
+import React, { useEffect, useState } from "react";
 import Form from "../Form/Form";
+import Popup from "../Popup/Popup";
+import styles from "./GetHired.module.css";
 
 const GetHired = ({ radio }) => {
   const [mobile, setMobile] = useState(false);
@@ -74,7 +74,7 @@ const GetHired = ({ radio }) => {
         <div className={styles.right}>
           <div>
             <p>Course Fee</p>
-            <h4 className={styles.righth}>₹1,05,000</h4>
+            <h4 className={styles.righth}>₹1,10,000</h4>
             <p>2 Year Subscription</p>
             <button
               onClick={popupShow}
