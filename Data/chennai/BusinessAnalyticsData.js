@@ -24,7 +24,7 @@ export const BusinessAnalyticsCourseData = [
       p3: "1:1",
       p33: "Career Support",
       p4: "Financing as low as",
-      p44: "₹ 14,750/month",
+      p44: "₹ 10,816/month",
     },
     BoxShape: {
       title: "Business Analytics Certification Programs in Chennai",
@@ -285,8 +285,8 @@ export const BusinessAnalyticsCourseData = [
         "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
     ProgramFee: {
-      Emi: "₹ 14,750/month",
-      Fee: "₹ 75,000 +GST",
+      Emi: "₹ 10,816/month",
+      Fee: "₹ 1,10,000 +GST",
       CourseFeeAndFinancing:
         "Business Analytics Course Fee & Financing in Chennai",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Business Analytics Certification Course in Chennai and offer a variety of financing options to make it more economical.",

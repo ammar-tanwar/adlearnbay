@@ -24,7 +24,7 @@ export const MlCourseData = [
       p3: "Career Assistance",
       p33: "For Professionals",
       p4: "Financing as low as",
-      p44: "₹ 10,325/month",
+      p44: "₹ 10,817/month",
     },
     BoxShape: {
       title: "Machine Learning Certification Programs in Delhi",
@@ -407,8 +407,8 @@ export const MlCourseData = [
     },
 
     ProgramFee: {
-      Emi: "₹ 10,325/month",
-      Fee: "₹ 1,05,000 +GST",
+      Emi: "₹ 10,817/month",
+      Fee: "₹ 1,10,000 +GST",
       CourseFeeAndFinancing:
         " Machine Learning Course Fee & Financing in Delhi",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Machine Learning Certification Course in Delhi and offer avariety of financing options to make it more economical.",

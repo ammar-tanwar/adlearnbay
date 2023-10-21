@@ -1,25 +1,25 @@
 import Head from "next/head";
-import styles from "../../styles/Home.module.css";
-import Popup from "../../Components/Popup/Popup";
-import Form from "../../Components/Form/Form";
 import Navbar from "../../Components/CoursePage/Navbar/Navbar";
+import Form from "../../Components/Form/Form";
+import Popup from "../../Components/Popup/Popup";
+import styles from "../../styles/Home.module.css";
 
-import CityFooter from "../../Components/CityComponents/CityFooter/CityFooter";
-import LearnSupport from "../../Components/CoursePage/LearnSupport/LearnSupport";
 import React, { useState } from "react";
+import CityFooter from "../../Components/CityComponents/CityFooter/CityFooter";
+import CityImage from "../../Components/CityComponents/CityImages/CityImage";
 import FirstSection from "../../Components/CityComponents/FirstSection/FirstSection";
 import HiringPatners from "../../Components/CityComponents/HiringPatnerWithReview/HiringPatners";
-import SyllabusNew from "../../Components/CoursePage/SyllabusNew/SyllabusNew";
-import CityImage from "../../Components/CityComponents/CityImages/CityImage";
-import OurExpert from "../../Components/CoursePage/OurExpert/OurExpert";
+import ProgramWithHighLight from "../../Components/CityComponents/ProgramWithHighLight/ProgramWithHighLight";
 import Certificate from "../../Components/CoursePage/CertificateTab/CertificateTabAdvance";
+import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
+import FeeSection from "../../Components/CoursePage/FeeSection/Fee";
+import LearnSupport from "../../Components/CoursePage/LearnSupport/LearnSupport";
+import OurExpert from "../../Components/CoursePage/OurExpert/OurExpert";
+import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
 import Project from "../../Components/CoursePage/Project/Project";
 import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
-import ProgramWithHighLight from "../../Components/CityComponents/ProgramWithHighLight/ProgramWithHighLight";
-import CourseFee from "../../Components/CoursePage/CourseFee/CourseFee";
+import SyllabusNew from "../../Components/CoursePage/SyllabusNew/SyllabusNew";
 import { mastersProgram } from "../../Data/delhi/mastersProgram";
-import ProgramInfo from "../../Components/CoursePage/ProgramInfo/ProgramInfo";
-import FeeSection from "../../Components/CoursePage/FeeSection/Fee";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -147,7 +147,7 @@ export default function Home() {
               Duration="500+ Hours"
               InterviewCalls="Unlimited"
               Projects="20+"
-              CourseFee="₹ 1,25,000 +GST"
+              CourseFee="₹ 1,29,000 +GST"
               Domain="7+"
             />
           </div>
@@ -162,17 +162,18 @@ export default function Home() {
             project={mastersProgram[0].project}
           />
           <FeeSection
-            formotp={true} s2dataScience={true}
-          Fee="₹ 1,29,000 + 18% GST"
-          FeeEmi="₹ 12,685/month"
-          FeeHeading="Program Fee & Financing"
-          FeeContent1="0% interest rate"
-          FeeContent2="No cost EMI"
-          FeeContent3="Flexible payment"
-          FeeContent4="Easy loan procedure"
-          FeeContent5="15 days refund policy"
-          FeeContent6="No additional cost"
-          para="Invest in your future with quality education"
+            formotp={true}
+            s2dataScience={true}
+            Fee="₹ 1,29,000 + 18% GST"
+            FeeEmi="₹ 12,685/month"
+            FeeHeading="Program Fee & Financing"
+            FeeContent1="0% interest rate"
+            FeeContent2="No cost EMI"
+            FeeContent3="Flexible payment"
+            FeeContent4="Easy loan procedure"
+            FeeContent5="15 days refund policy"
+            FeeContent6="No additional cost"
+            para="Invest in your future with quality education"
           />
           <CityImage
             formotp={true}

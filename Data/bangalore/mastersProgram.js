@@ -24,7 +24,7 @@ export const mastersProgram = [
       p3: "1:1",
       p33: "Career Support",
       p4: "Financing as low as",
-      p44: "₹ 12,291/month",
+      p44: "₹ 12,685/month",
     },
     BoxShape: {
       title: "Data Science and AI Master Program In Bangalore",
@@ -548,8 +548,8 @@ export const mastersProgram = [
         "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
     ProgramFee: {
-      Emi: "₹ 12,291/month",
-      Fee: "₹ 1,25,000 +GST",
+      Emi: "₹ 12,685/month",
+      Fee: "₹ 1,29,000 +GST",
       CourseFeeAndFinancing: "Master's Program Fee & Financing In Bangalore",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical.",
     },
