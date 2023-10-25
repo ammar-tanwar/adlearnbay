@@ -217,15 +217,12 @@ export const SytstemDesignCourseData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Fri)",
+          title: "Weekday Evening Batch :- (Mon-Wed-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 2 :- Date And time ",
-                desc: [
-                  "Date : 20th October 2023",
-                  "Time :  7:30 AM to 9:30 AM",
-                ],
+                desc: ["Date : 10th November 2023", "Time :  8 PM to 10 PM"],
               },
             },
           ],
@@ -240,7 +237,7 @@ export const SytstemDesignCourseData = [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 13th November", "Time : 7:30 AM to 9:30 AM"],
+                desc: ["Date : 17th November", "Time : 7:30 AM to 9:30 AM"],
               },
             },
           ],
