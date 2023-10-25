@@ -1,14 +1,12 @@
 import React, { useState } from "react";
-import styles from "./Batch.module.css";
-import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
+import { AiOutlineBars, AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
+import { BiCheck, BiTimeFive } from "react-icons/bi";
 import { BsFillCircleFill } from "react-icons/bs";
-import { BiCheck } from "react-icons/bi";
 import { MdDateRange } from "react-icons/md";
-import { AiOutlineBars } from "react-icons/ai";
-import { BiTimeFive } from "react-icons/bi";
-import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
+import Popup from "../../Popup/Popup";
+import styles from "./Batch.module.css";
 
 function Batch({
   syllabus,
@@ -215,9 +213,8 @@ function Batch({
                       <AiOutlineBars className={styles.icon} />
                       <b>Batch Type</b>
                     </p>
-                    <p className={styles.list}>Weekday Morning (Mon-Fri)</p>
-                        <p className={styles.list}>Weekday Morning (Mon-Wed-Fri)</p>
-                    
+                    <p className={styles.list}>Weekday Evening (Mon-Wed-Fri)</p>
+                    <p className={styles.list}>Weekday Morning (Mon-Wed-Fri)</p>
                   </div>
                 </div>
                 <div>
@@ -226,8 +223,8 @@ function Batch({
                       <MdDateRange className={styles.icon} />
                       <b>Date</b>
                     </p>
-                    <p className={styles.list}>20th October 2023</p>
-                        <p className={styles.list}>13th November 2023</p>
+                    <p className={styles.list}>10th November 2023</p>
+                    <p className={styles.list}>17th November 2023</p>
                   </div>
                 </div>
                 <div>
@@ -236,9 +233,8 @@ function Batch({
                       <BiTimeFive className={styles.icon} />
                       <b>Time</b>
                     </p>
+                    <p className={styles.list}>8 PM to 10 PM</p>
                     <p className={styles.list}>7:30 AM to 9:30 AM</p>
-                    <p className={styles.list}>7:30 AM to 9:30 AM</p>
-                    
                   </div>
                 </div>
                 <div className={styles.btnWrapper}>
