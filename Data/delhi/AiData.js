@@ -409,7 +409,7 @@ export const AiCourseData = [
 
     ProgramFee: {
       Emi: "₹ 10,817/month",
-      Fee: "₹ 1,10,000 +GST",
+      Fee: "₹ 1,10,000 +18% GST",
       CourseFeeAndFinancing:
         "Artificial Intelligence Course Fee & Financing in Delhi",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for AI Certification Course in Delhi and offer avariety of financing options to make it more economical.",

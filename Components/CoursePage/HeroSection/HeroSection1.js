@@ -55,9 +55,9 @@ const HeroSection = ({
           {/* <p>Fill the below Details to get started</p> */}
 
           {formotp ? (
-            <FormOtp popup={true} />
+            <FormOtp popup={true} upSkillingHide={true}/>
           ) : (
-            <Form popup={true} setTrigger={setPopups} radio={radio} />
+            <Form popup={true} setTrigger={setPopups} radio={radio} upSkillingHide={true}/>
           )}
         </div>
       </Popup>

@@ -8,7 +8,7 @@ export const ForNonProgrammerD = [
     para: [
       "for Non - Tech Professionals",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 79,000 + GST",
+      "Course Fee : ₹ 79,000 + 18% GST",
     ],
     link1: "/datascience/data-science-certification-courses",
   },
@@ -20,7 +20,7 @@ export const ForNonProgrammerD = [
     para: [
       "Become a Domain Specialist",
       "15 Projects + 2 Capstones",
-      "Course Fee : ₹ 1,10,000 + GST",
+      "Course Fee : ₹ 1,10,000 + 18% GST",
     ],
     link1: "/datascience/advance-ai-ml-certification",
   },
@@ -32,7 +32,7 @@ export const ForNonProgrammerD = [
     para: [
       "for Working professionals",
       "15 Projects + 2 Capstones",
-      "Course Fee : ₹ 1,10,000 + GST",
+      "Course Fee : ₹ 1,10,000 + 18% GST",
     ],
     link1: "/datascience/data-science-ai-cert-for-managers-leaders",
   },
@@ -45,7 +45,7 @@ export const ForNonProgrammerD = [
     para: [
       "for Sr. Managers/Team Lead",
       "15 Projects + 3 Capstones",
-      "Course Fee : ₹ 1,29,000 + GST",
+      "Course Fee : ₹ 1,29,000 + 18% GST",
     ],
     link1: "/datascience/data-science-ai-masters-program",
   },
@@ -58,7 +58,7 @@ export const ForNonProgrammerD = [
     para: [
       "Guaranteed Interview Calls",
       "15 Projects + 3 Capstones",
-      "Course Fee : ₹ 1,29,000 + GST",
+      "Course Fee : ₹ 1,29,000 + 18% GST",
     ],
     link1: "/datascience/data-science-ai-masters-program",
   },
@@ -71,7 +71,7 @@ export const ForNonProgrammerD = [
     para: [
       "Learn with Dedicated Mentorship",
       "15 Projects + 3 Capstones",
-      "Course Fee : ₹ 1,29,000 + GST",
+      "Course Fee : ₹ 1,29,000 + 18% GST",
     ],
     link1: "/datascience/data-science-ai-masters-program",
   },
@@ -84,7 +84,7 @@ export const ForNonProgrammerD = [
     para: [
       "Work on Real-time Projects",
       "15 Projects + 3 Capstones",
-      "Course Fee : ₹ 1,29,000 + GST",
+      "Course Fee : ₹ 1,29,000 + 18% GST",
     ],
     link1: "/datascience/data-science-ai-masters-program",
   },
@@ -99,7 +99,7 @@ export const StackD = [
     para: [
       "for Non - Tech Professionals",
       "12 Projects",
-      "Course Fee : ₹ 70,000 + GST",
+      "Course Fee : ₹ 70,000 + 18% GST",
     ],
     link1: "/fullstack/dsa",
   },
@@ -111,7 +111,7 @@ export const StackD = [
     para: [
       "Crack MNCs Interviews",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 1,15,000 + GST",
+      "Course Fee : ₹ 1,15,000 + 18% GST",
     ],
     link1: "/fullstack/fssd",
   },
@@ -123,7 +123,7 @@ export const StackD = [
     para: [
       "Be a Product Design Pro",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 70,000 + GST",
+      "Course Fee : ₹ 70,000 + 18% GST",
     ],
     link1: "/fullstack/fssd",
   },

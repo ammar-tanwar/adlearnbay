@@ -1,13 +1,13 @@
-import React, { useState } from "react";
 import Image from "next/image";
-import { FiArrowRight } from "react-icons/fi";
-import styles from "./Navbar.module.css";
 import Link from "next/link";
-import { GiHamburgerMenu } from "react-icons/gi";
+import React, { useState } from "react";
 import { FaChevronDown } from "react-icons/fa";
-import Popup from "../Popup/Popup";
+import { FiArrowRight } from "react-icons/fi";
+import { GiHamburgerMenu } from "react-icons/gi";
 import Form from "../Form/Form";
 import FormOtp from "../FormOtp/FormOtp";
+import Popup from "../Popup/Popup";
+import styles from "./Navbar.module.css";
 const Navbar = ({ radio, formotp, }) => {
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
@@ -30,9 +30,9 @@ const Navbar = ({ radio, formotp, }) => {
           {/* <p>Fill the below Details to get started</p> */}
 
           {formotp ? (
-            <FormOtp popup={true} />
+            <FormOtp popup={true} upSkillingHide={true} />
           ) : (
-            <Form popup={true} setTrigger={setPopups} radio={radio} />
+            <Form popup={true} setTrigger={setPopups} radio={radio} upSkillingHide={true}/>
           )}
         </div>
       </Popup>

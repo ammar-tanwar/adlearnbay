@@ -204,7 +204,7 @@ export const DataStructureAlgorithmData = [
       },
     ],
     ProgramFee: {
-      Fee: "₹ 70,000 + GST",
+      Fee: "₹ 70,000 + 18% GST",
       Emi: "₹ 6,883/month",
       CourseFeeAndFinancing: "DSA Course Fee & Financing",
     },
@@ -465,7 +465,7 @@ export const BestDataStructureAlgorithmData = [
       },
     ],
     ProgramFee: {
-      Fee: "₹ 70,000 + GST",
+      Fee: "₹ 70,000 + 18% GST",
       Emi: "₹ 6,883/month",
       CourseFeeAndFinancing: "DSA Course Fee & Financing",
     },
@@ -726,7 +726,7 @@ export const DataStructureCourseData = [
       },
     ],
     ProgramFee: {
-      Fee: "₹ 70,000 + GST",
+      Fee: "₹ 70,000 + 18% GST",
       Emi: "₹ 6,883/month",
       CourseFeeAndFinancing: "Data Structures Course Fee & Financing",
     },
@@ -987,7 +987,7 @@ export const DataStructureSyllabusData = [
       },
     ],
     ProgramFee: {
-      Fee: "₹ 70,000 + GST",
+      Fee: "₹ 70,000 + 18% GST",
       Emi: "₹ 6,883/month",
       CourseFeeAndFinancing:
         "Data Structures and Algorithms Course Fee & Financing",
@@ -1249,7 +1249,7 @@ export const DataStructureAlgoCourseData = [
       },
     ],
     ProgramFee: {
-      Fee: "₹ 70,000 + GST",
+      Fee: "₹ 70,000 + 18% GST",
       Emi: "₹ 6,883/month",
       CourseFeeAndFinancing:
         "Data Structures and Algorithms Course Fee & Financing",

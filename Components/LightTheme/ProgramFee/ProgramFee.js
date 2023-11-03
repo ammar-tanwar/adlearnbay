@@ -35,9 +35,10 @@ export const ProgramFee = ({
               popup={true}
               s2dataScience={s2dataScience}
               fullstackADS={fullstackADS}
+              upSkillingHide={true}
             />
           ) : (
-            <Form popup={true} setTrigger={setPopups} />
+            <Form popup={true} setTrigger={setPopups} upSkillingHide={true} />
           )}
         </div>
       </Popup>

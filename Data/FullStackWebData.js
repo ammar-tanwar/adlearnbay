@@ -268,7 +268,7 @@ export const FullStackWebCourseData = [
     },
 
     ProgramFee: {
-      Fee: "₹70,000 + GST",
+      Fee: "₹70,000 + 18% GST",
       Emi: "₹ 6,884/month",
       CourseFeeAndFinancing: "  Web Development Course Fee & Financing",
     },

@@ -67,7 +67,7 @@ function FourthSection() {
                 </div>
                 <div className={styles.name}>
                   <h3>Advanced Data Science & AI Program</h3>
-                  <p>250 hours | ₹99,000 + GST</p>
+                  <p>250 hours | ₹99,000 + 18% GST</p>
                 </div>
               </div>
             </SwiperSlide>
@@ -78,7 +78,7 @@ function FourthSection() {
                 </div>
                 <div className={styles.name}>
                   <h3>Advance AI & ML Program for Tech Professionals</h3>
-                  <p>350 hours | ₹1,10,000 + GST</p>
+                  <p>350 hours | ₹1,10,000 + 18% GST</p>
                 </div>
               </div>
             </SwiperSlide>
@@ -89,7 +89,7 @@ function FourthSection() {
                 </div>
                 <div className={styles.name}>
                   <h3>Data Science & AI For Managers</h3>
-                  <p>400 hours | ₹1,10,000 + GST</p>
+                  <p>400 hours | ₹1,10,000 + 18% GST</p>
                 </div>
               </div>
             </SwiperSlide>
@@ -100,7 +100,7 @@ function FourthSection() {
                 </div>
                 <div className={styles.name}>
                   <h3>Data Science & AI Master Program</h3>
-                  <p>500 hours | ₹1,29,000 + GST</p>
+                  <p>500 hours | ₹1,29,000 + 18% GST</p>
                 </div>
               </div>
             </SwiperSlide>
@@ -111,7 +111,7 @@ function FourthSection() {
                 </div>
                 <div className={styles.name}>
                   <h3>Data Analytics Program for Working Professionals</h3>
-                  <p>180 hours | ₹79,000 + GST</p>
+                  <p>180 hours | ₹79,000 + 18% GST</p>
                 </div>
               </div>
             </SwiperSlide>
@@ -141,7 +141,7 @@ function FourthSection() {
                   </div>
                   <div className={styles.name}>
                     <h3>Full-Stack Software Development Program</h3>
-                    <p>300 hours | ₹1,15,000 + GST</p>
+                    <p>300 hours | ₹1,15,000 + 18% GST</p>
                   </div>
                 </div>
               </SwiperSlide>
@@ -152,7 +152,7 @@ function FourthSection() {
                   </div>
                   <div className={styles.name}>
                     <h3>Data Structure Algorithms & System Design</h3>
-                    <p>200 hours | ₹70,000 + GST</p>
+                    <p>200 hours | ₹70,000 + 18% GST</p>
                   </div>
                 </div>
               </SwiperSlide>
@@ -163,7 +163,7 @@ function FourthSection() {
                   </div>
                   <div className={styles.name}>
                     <h3>Full-Stack Web Development Program</h3>
-                    <p>200 hours | ₹70,000 + GST</p>
+                    <p>200 hours | ₹70,000 + 18% GST</p>
                   </div>
                 </div>
               </SwiperSlide>

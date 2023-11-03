@@ -100,7 +100,7 @@ export default function Home() {
             </div>
             <div className="RightPopup">
               <h5>Apply For Counselling</h5>
-              <Form popup={true} setTrigger={setPopups} />
+              <Form popup={true} upSkillingHide={true} setTrigger={setPopups} />
             </div>
           </Popup>
           <HeroSection

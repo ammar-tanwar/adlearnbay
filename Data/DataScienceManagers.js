@@ -384,11 +384,11 @@ export const DsaiManagersCourseData = [
       desc: " The Advanced Data science and AI fee start from INR 59,000 (Excluding  GST). We aim to deliver to you quality education considering the aspect of feasibility.",
       desc1:
         "Learnbay's courses are designed giving importance to affordability. The Advanced Data Science and AI course fees is feasible to ensure fair reachability. Further, we provide you with options such as EMI to pay the course fees.",
-      BasicPrice: "₹ 59,000 + GST",
+      BasicPrice: "₹ 59,000 + 18% GST",
       BasicDesc: "Get data science training from Industry experts",
-      ProPrice: "₹ 89,000 + GST",
+      ProPrice: "₹ 89,000 + 18% GST",
       ProDesc: " Get data science training with real work Experience",
-      ProMaxPrice: "₹ 1,30,000 + GST",
+      ProMaxPrice: "₹ 1,30,000 + 18% GST",
       ProMaxDesc: " Get data science training with 100% Placement Assistance",
     },
 

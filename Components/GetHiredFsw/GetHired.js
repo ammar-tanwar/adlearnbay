@@ -102,7 +102,7 @@ const GetHired = ({ dsa, radio, formotp }) => {
           <div>
             <p>Course Fee</p>
             <h4 className={styles.righth}>
-              {dsa ? "₹70,000 + GST" : "₹75,000"}
+              {dsa ? "₹70,000 + 18% GST" : "₹75,000 + 18% GST"}
             </h4>
             <p>With 100% Interview Guarantee</p>
             <button

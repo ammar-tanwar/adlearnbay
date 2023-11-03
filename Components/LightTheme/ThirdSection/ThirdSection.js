@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import styles from "./ThirdSection.module.css";
 import { FaDownload, FaStar } from "react-icons/fa";
-import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
+import Popup from "../../Popup/Popup";
+import styles from "./ThirdSection.module.css";
 
 function ThirdSection({
   DownloadSyllabus,
@@ -63,7 +63,7 @@ function ThirdSection({
                 <FaStar className={styles.IconBoxOrange} />
                 Software Development
                 <br />
-                 Course
+                Course
               </p>
               <p>
                 <FaStar className={styles.IconBoxBlue} />

@@ -408,7 +408,7 @@ export const MlCourseData = [
 
     ProgramFee: {
       Emi: "₹ 10,817/month",
-      Fee: "₹ 1,10,000 +GST",
+      Fee: "₹ 1,10,000 + 18% GST",
       CourseFeeAndFinancing: " Machine Learning Course Fee & Financing in Pune",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Machine Learning Certification Course in Pune and offer avariety of financing options to make it more economical.",
     },

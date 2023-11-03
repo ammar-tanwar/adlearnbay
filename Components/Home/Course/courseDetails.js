@@ -8,7 +8,7 @@ export const viewAllD = [
     para: [
       "275 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 79,000 + GST",
+      "Course Fee : ₹ 79,000 + 18% GST",
     ],
     link1: "/datascience/data-science-certification-courses",
   },
@@ -20,7 +20,7 @@ export const viewAllD = [
     para: [
       "300 hours of Interactive Learning",
       "15 Projects + 2 Capstones",
-      "Course Fee : ₹ 1,10,000 + GST",
+      "Course Fee : ₹ 1,10,000 + 18% GST",
     ],
     link1: "/datascience/advance-ai-ml-certification",
   },
@@ -32,7 +32,7 @@ export const viewAllD = [
     para: [
       "350 hours of Interactive Learning",
       "15 Projects + 2 Capstones",
-      "Course Fee : ₹ 1,10,000 + GST",
+      "Course Fee : ₹ 1,10,000 + 18% GST",
     ],
     link1: "/datascience/data-science-ai-cert-for-managers-leaders",
   },
@@ -45,7 +45,7 @@ export const viewAllD = [
     para: [
       "400 hours of Interactive Learning",
       "15 Projects + 3 Capstones",
-      "Course Fee : ₹ 1,29,000 + GST",
+      "Course Fee : ₹ 1,29,000 + 18% GST",
     ],
     link1: "/datascience/data-science-ai-masters-program",
   },
@@ -57,7 +57,7 @@ export const viewAllD = [
     para: [
       "200 hours of Interactive Learning",
       "12 Projects",
-      "Course Fee : ₹ 70,000 + GST",
+      "Course Fee : ₹ 70,000 + 18% GST",
     ],
     link1: "/fullstack/dsa",
   },
@@ -69,7 +69,7 @@ export const viewAllD = [
     para: [
       "400 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 1,15,000 + GST",
+      "Course Fee : ₹ 1,15,000 + 18% GST",
     ],
     link1: "/fullstack/fssd",
   },
@@ -83,7 +83,7 @@ export const ForProgrammersD = [
     para: [
       "275 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 79,000 + GST",
+      "Course Fee : ₹ 79,000 + 18% GST",
     ],
     link1: "/datascience/data-science-certification-courses",
   },
@@ -95,7 +95,7 @@ export const ForProgrammersD = [
     para: [
       "400 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 1,15,000 + GST",
+      "Course Fee : ₹ 1,15,000 + 18% GST",
     ],
     link1: "/fullstack/fssd",
   },
@@ -107,7 +107,7 @@ export const ForProgrammersD = [
     para: [
       "350 hours of Interactive Learning",
       "15 Projects + 2 Capstones",
-      "Course Fee : ₹ 1,10,000 + GST",
+      "Course Fee : ₹ 1,10,000 + 18% GST",
     ],
     link1: "/datascience/data-science-ai-cert-for-managers-leaders",
   },
@@ -119,7 +119,7 @@ export const ForProgrammersD = [
     para: [
       "300 hours of Interactive Learning",
       "15 Projects + 2 Capstones",
-      "Course Fee : ₹ 1,10,000 + GST",
+      "Course Fee : ₹ 1,10,000 + 18% GST",
     ],
     link1: "/datascience/advance-ai-ml-certification",
   },
@@ -131,7 +131,7 @@ export const ForProgrammersD = [
     para: [
       "200 hours of Interactive Learning",
       "12 Projects",
-      "Course Fee : ₹ 70,000 + GST",
+      "Course Fee : ₹ 70,000 + 18% GST",
     ],
     link1: "/fullstack/dsa",
   },
@@ -143,7 +143,7 @@ export const ForProgrammersD = [
     para: [
       "400 hours of Interactive Learning",
       "15 Projects + 3 Capstones",
-      "Course Fee : ₹ 1,29,000 + GST",
+      "Course Fee : ₹ 1,29,000 + 18% GST",
     ],
     link1: "/datascience/data-science-ai-masters-program",
   },
@@ -158,7 +158,7 @@ export const ForNonProgrammerD = [
     para: [
       "275 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 79,000 + GST",
+      "Course Fee : ₹ 79,000 + 18% GST",
     ],
     link1: "/datascience/data-science-certification-courses",
   },
@@ -170,7 +170,7 @@ export const ForNonProgrammerD = [
     para: [
       "300 hours of Interactive Learning",
       "15 Projects + 2 Capstones",
-      "Course Fee : ₹ 1,10,000 + GST",
+      "Course Fee : ₹ 1,10,000 + 18% GST",
     ],
     link1: "/datascience/advance-ai-ml-certification",
   },
@@ -182,7 +182,7 @@ export const ForNonProgrammerD = [
     para: [
       "350 hours of Interactive Learning",
       "15 Projects + 2 Capstones",
-      "Course Fee : ₹ 1,10,000 + GST",
+      "Course Fee : ₹ 1,10,000 + 18% GST",
     ],
     link1: "/datascience/data-science-ai-cert-for-managers-leaders",
   },
@@ -195,7 +195,7 @@ export const ForNonProgrammerD = [
     para: [
       "400 hours of Interactive Learning",
       "15 Projects + 3 Capstones",
-      "Course Fee : ₹ 1,29,000 + GST",
+      "Course Fee : ₹ 1,29,000 + 18% GST",
     ],
     link1: "/datascience/data-science-ai-masters-program",
   },
@@ -210,7 +210,7 @@ export const JobGuaranteeD = [
     para: [
       "400 hours of Interactive Learning",
       "15 Projects + 3 Capstones",
-      "Course Fee : ₹ 1,29,000 + GST",
+      "Course Fee : ₹ 1,29,000 + 18% GST",
     ],
     link1: "/datascience/data-science-ai-masters-program",
   },
@@ -222,7 +222,7 @@ export const JobGuaranteeD = [
     para: [
       "200 hours of Interactive Learning",
       "12 Projects",
-      "Course Fee : ₹ 70,000 + GST",
+      "Course Fee : ₹ 70,000 + 18% GST",
     ],
     link1: "/fullstack/dsa",
   },
@@ -236,7 +236,7 @@ export const StackD = [
     para: [
       "200 hours of Interactive Learning",
       "12 Projects",
-      "Course Fee : ₹ 70,000 + GST",
+      "Course Fee : ₹ 70,000 + 18% GST",
     ],
     link1: "/fullstack/dsa",
   },
@@ -248,7 +248,7 @@ export const StackD = [
     para: [
       "400 hours of Interactive Learning",
       "12 Projects + 2 Capstones",
-      "Course Fee : ₹ 1,15,000 + GST",
+      "Course Fee : ₹ 1,15,000 + 18% GST",
     ],
     link1: "/fullstack/fssd",
   },

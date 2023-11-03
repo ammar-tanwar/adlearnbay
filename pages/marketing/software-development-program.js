@@ -1,29 +1,28 @@
 import Head from "next/head";
 import React, { useState } from "react";
-import Popup from "../../Components/Popup/Popup";
-import Form from "../../Components/Form/Form";
 import Navbar from "../../Components/CoursePage/Navbar/Navbar";
+import Form from "../../Components/Form/Form";
+import Popup from "../../Components/Popup/Popup";
 
-import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
-import HeroSection from "../../Components/LightTheme/FirstSection/HeroSection";
-import Testimonial from "../../Components/LightTheme/SixthSectionFssd/Testimonial";
-import SecondSection from "../../Components/LightTheme/SecondSection/SecondSection";
-import ThirdSection from "../../Components/LightTheme/ThirdSection/ThirdSection";
-import FourthSection from "../../Components/LightTheme/FourthSection/FourthSection";
-import SeventhSection from "../../Components/LightTheme/SeventhSection/SeventhSection";
+import FeeSection from "../../Components/CoursePage/FeeSection/Fee";
 import EightSection from "../../Components/LightTheme/EightSection/EightSection";
-import SyllabusSection from "../../Components/LightTheme/SyllabusSection/SyllabusSection";
 import FAQNew from "../../Components/LightTheme/FAQNew/FAQNewcer";
 import {
-  FaqData9,
-  DomainFaqData9,
-  PaymentFaqData9,
   CapstoneFaqData9,
-  jobFaqData9,
+  DomainFaqData9,
+  FaqData9,
   MentorshipFaqData9,
+  PaymentFaqData9,
   SupportFaqData9,
+  jobFaqData9,
 } from "../../Components/LightTheme/FAQNew/FaqData";
-import FeeSection from "../../Components/CoursePage/FeeSection/Fee";
+import HeroSection from "../../Components/LightTheme/FirstSection/HeroSection";
+import FourthSection from "../../Components/LightTheme/FourthSection/FourthSection";
+import SecondSection from "../../Components/LightTheme/SecondSection/SecondSection";
+import SeventhSection from "../../Components/LightTheme/SeventhSection/SeventhSection";
+import Testimonial from "../../Components/LightTheme/SixthSectionFssd/Testimonial";
+import SyllabusSection from "../../Components/LightTheme/SyllabusSection/SyllabusSection";
+import ThirdSection from "../../Components/LightTheme/ThirdSection/ThirdSection";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -107,7 +106,7 @@ export default function Home() {
             </div>
             <div className="RightPopup">
               <h5>Apply For Counselling</h5>
-              <Form popup={true} setTrigger={setPopups} />
+              <Form popup={true} upSkillingHide={true} setTrigger={setPopups} />
             </div>
           </Popup>
           <HeroSection
@@ -156,18 +155,19 @@ export default function Home() {
             Module2="Advanced DSA"
             Module3="System Design"
           />
-           <FeeSection
-            formotp={true} s2dataScience={true}
-          Fee="₹ 1,15,000 + 18% GST"
-          FeeEmi="₹ 11,308/month"
-          FeeHeading="Program Fee & Financing"
-          FeeContent1="0% interest rate"
-          FeeContent2="No cost EMI"
-          FeeContent3="Flexible payment"
-          FeeContent4="Easy loan procedure"
-          FeeContent5="15 days refund policy"
-          FeeContent6="No additional cost"
-          para="Invest in your future with quality education"
+          <FeeSection
+            formotp={true}
+            s2dataScience={true}
+            Fee="₹ 1,15,000 + 18% GST"
+            FeeEmi="₹ 11,308/month"
+            FeeHeading="Program Fee & Financing"
+            FeeContent1="0% interest rate"
+            FeeContent2="No cost EMI"
+            FeeContent3="Flexible payment"
+            FeeContent4="Easy loan procedure"
+            FeeContent5="15 days refund policy"
+            FeeContent6="No additional cost"
+            para="Invest in your future with quality education"
           />
           <Testimonial formotp={true} s2dataScience={true} />
           <FAQNew

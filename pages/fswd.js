@@ -1,23 +1,23 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
-import FirstSection from "../Components/CoursePage/HeroSection/HeroSection1";
-import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
+import React, { useState } from "react";
+import Batch from "../Components/CoursePage/BatchDetails/Batch";
 import BoxShape from "../Components/CoursePage/Boxshapefssds/BoxShape";
-import Popup from "../Components/Popup/Popup";
-import Form from "../Components/Form/Form";
-import Navbar from "../Components/NavbarHome/Navbar";
+import CourseReview from "../Components/CoursePage/CourseReviewdsas/CourseReview";
+import { DomainFaqCourseData1 } from "../Components/CoursePage/DomainFaq/DOmainFaqData";
+import DomainFaq from "../Components/CoursePage/DomainFaq/DomainFaq";
+import FirstSection from "../Components/CoursePage/HeroSection/HeroSection1";
+import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
+import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
+import ProgramInfo from "../Components/CoursePage/ProgramInfo/ProgramInfo";
 import Project from "../Components/CoursePage/Project/Project";
+import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
 import SyllabusNew from "../Components/CoursePage/SyllabusNew/SyllabusNew1";
 import Footer from "../Components/FooterHome/Footerfsd";
-import { ProgramFee } from "../Components/CoursePage/ProgramFee/ProgramFee";
-import LearnSupport from "../Components/CoursePage/LearnSupport/LearnSupport";
-import React, { useState } from "react";
+import Form from "../Components/Form/Form";
+import Navbar from "../Components/NavbarHome/Navbar";
+import Popup from "../Components/Popup/Popup";
 import { FullStackWebCourseData } from "../Data/FullStackWebData";
-import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
-import CourseReview from "../Components/CoursePage/CourseReviewdsas/CourseReview";
-import DomainFaq from "../Components/CoursePage/DomainFaq/DomainFaq";
-import { DomainFaqCourseData1 } from "../Components/CoursePage/DomainFaq/DOmainFaqData";
-import Batch from "../Components/CoursePage/BatchDetails/Batch";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -91,7 +91,7 @@ export default function Home() {
             </div>
             <div className="RightPopup">
               <h5>Apply For Counselling</h5>
-              <Form popup={true} setTrigger={setPopups} />
+              <Form popup={true} upSkillingHide={true} setTrigger={setPopups} />
             </div>
           </Popup>
           <FirstSection

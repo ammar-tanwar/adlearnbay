@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
-import styles from "./EightSection.module.css";
-import Popup from "../../Popup/Popup";
+import React, { useEffect, useState } from "react";
+import { FaDownload } from "react-icons/fa";
 import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
-import { FaDownload } from "react-icons/fa";
 import Button from "../../NewCoursePage/Button/Button";
+import Popup from "../../Popup/Popup";
+import styles from "./EightSection.module.css";
 
 function EightSection({
   DownloadSyllabus,

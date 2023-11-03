@@ -33,18 +33,18 @@ export const ProgramFee = ({
           <h5>Apply For Counselling</h5>
           {eventQRadio ? (
             <>
-              <FormOtp popup={true} />
+              <FormOtp popup={true} upSkillingHide={true} />
             </>
           ) : (
             <>
               {formotpForS3DS ? (
-                <FormOtp />
+                <FormOtp upSkillingHide={true} />
               ) : (
                 <>
                   {formotp ? (
-                    <FormOtp popup={true} />
+                    <FormOtp popup={true} upSkillingHide={true} />
                   ) : (
-                    <Form popup={true} setTrigger={setPopups} />
+                    <Form popup={true} setTrigger={setPopups} upSkillingHide={true} />
                   )}
                 </>
               )}

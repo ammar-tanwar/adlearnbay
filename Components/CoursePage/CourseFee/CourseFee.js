@@ -56,10 +56,9 @@ function CourseFee({
               popup={true}
               downloadBrochure
               upSkillingHide={true}
-              radio={true}
             />
           ) : (
-            <Form popup={true} setTrigger={setPopups} radio={true} />
+            <Form popup={true} setTrigger={setPopups} upSkillingHide={true} />
           )}
         </div>
       </Popup>

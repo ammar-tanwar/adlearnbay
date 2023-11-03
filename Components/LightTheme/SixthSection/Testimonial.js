@@ -1,15 +1,15 @@
-import React, { useEffect, useState } from "react";
-import styles from "./Testimonial.module.css";
-import { FaQuoteLeft, FaArrowRight } from "react-icons/fa";
 import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
+import React, { useEffect, useState } from "react";
+import { FaArrowRight, FaQuoteLeft } from "react-icons/fa";
+import { Autoplay, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
-import { Pagination, Autoplay } from "swiper";
-import Popup from "../../Popup/Popup";
+import { Swiper, SwiperSlide } from "swiper/react";
 import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
+import Popup from "../../Popup/Popup";
+import styles from "./Testimonial.module.css";
 
 function Testimonial({
   formotp,
@@ -49,6 +49,7 @@ function Testimonial({
             {formotp ? (
               <FormOtp
                 popup={true}
+                upSkillingHide={true}
                 s2dataScience={s2dataScience}
                 fullstackADS={fullstackADS}
                 marketing={marketing}

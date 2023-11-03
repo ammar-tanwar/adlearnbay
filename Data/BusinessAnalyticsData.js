@@ -274,7 +274,7 @@ export const BusinessAnalyticsCourseData = [
     },
     ProgramFee: {
       Emi: "₹ 10,816/month",
-      Fee: "₹ 1,10,000 +GST",
+      Fee: "₹ 1,10,000 + 18% GST",
       CourseFeeAndFinancing: "Business Analytics Course Fee & Financing",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Business Analytics Certification Course and offer a variety of financing options to make it more economical.",
     },

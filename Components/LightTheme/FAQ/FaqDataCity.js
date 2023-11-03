@@ -111,10 +111,10 @@ export const AdvancePaymentFaqDataM = [
     id: 0,
     ques: "What is the total fee for Data Science Certifications courses in Mumbai?",
     ans: `The total course fee for the 
-    Foundational Data Science and AI Training course is 88,500/- inclusive of GST.
-    Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
-    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
+    Foundational Data Science and AI Training course is 88,500/- inclusive of 18% GST.
+    Advance Data Science and AI Certification course is 1,12,100/- inclusive of 18% GST.
+    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of 18% GST.
+    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -406,11 +406,11 @@ export const ArtificialPaymentFaqDataM = [
     id: 0,
     ques: "What is the total fee for Learnbay AI Certifications courses in Mumbai?",
     ans: `The total course fee for the 
-    Foundational Data Science and Artificial Intelligence Training Course is 88,500/- inclusive of GST.
-    Advance Data Science and  AI Certification course is 1,12,100/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
-    Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST.
-    Machine learning and AI Certification is 1,23,900/-inclusive of GST`,
+    Foundational Data Science and Artificial Intelligence Training Course is 88,500/- inclusive of 18% GST.
+    Advance Data Science and  AI Certification course is 1,12,100/- inclusive of 18% GST.
+    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of 18% GST.
+    Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of 18% GST.
+    Machine learning and AI Certification is 1,23,900/-inclusive of 18% GST`,
     open: true,
   },
   {
@@ -664,7 +664,7 @@ export const MachinePaymentFaqDataM = [
   {
     id: 0,
     ques: "What is the total Fee for this machine learning course in Mumbai?",
-    ans: `The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,23,900/- Inclusive of GST.`,
+    ans: `The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,23,900/- Inclusive of 18% GST.`,
     open: true,
   },
   /*
@@ -903,7 +903,7 @@ export const AnalyticsPaymentFaqDataM = [
   {
     id: 0,
     ques: "What is the total fee for the Data Analytics Program in Mumbai?",
-    ans: `The total program fee for the Data Analytics Program is INR 88,500/- inclusive of GST.`,
+    ans: `The total program fee for the Data Analytics Program is INR 88,500/- inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -1088,7 +1088,7 @@ export const BusinessAPaymentFaqDataM = [
   {
     id: 0,
     ques: "What is the total fee for the Business Analytics Program in Mumbai?",
-    ans: `The total program fee for the Business Analytics Program is INR  88,500/- inclusive of GST.`,
+    ans: `The total program fee for the Business Analytics Program is INR  88,500/- inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -1322,10 +1322,10 @@ export const AdvancePaymentFaqDataH = [
     id: 0,
     ques: "What is the total fee for Data Science Certifications courses in Hyderabad?",
     ans: `The total course fee for the 
-    Foundational Data Science and AI Training course is 88,500/- inclusive of GST.
-    Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
-    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
+    Foundational Data Science and AI Training course is 88,500/- inclusive of 18% GST.
+    Advance Data Science and AI Certification course is 1,12,100/- inclusive of 18% GST.
+    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of 18% GST.
+    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of 18% GST.`,
     open: true,
   },
   //check this same <Please check with our sales team to know more>
@@ -1619,11 +1619,11 @@ export const ArtificialPaymentFaqDataH = [
     id: 0,
     ques: "What is the total fee for Learnbay AI Certifications courses in Hyderabad?",
     ans: `The total course fee for the 
-    Foundational Data Science and Artificial Intelligence Training Course is 88,500/- inclusive of GST.
-    Advance Data Science and  AI Certification course is 1,12,100/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
-    Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST.
-    Machine learning and AI Certification is 1,23,900/-inclusive of GST`,
+    Foundational Data Science and Artificial Intelligence Training Course is 88,500/- inclusive of 18% GST.
+    Advance Data Science and  AI Certification course is 1,12,100/- inclusive of 18% GST.
+    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of 18% GST.
+    Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of 18% GST.
+    Machine learning and AI Certification is 1,23,900/-inclusive of 18% GST`,
     open: true,
   },
   {
@@ -1879,7 +1879,7 @@ export const MachinePaymentFaqDataH = [
   {
     id: 0,
     ques: "What is the total Fee for this machine learning course in Hyderabad?",
-    ans: `The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,23,900/- Inclusive of GST.`,
+    ans: `The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,23,900/- Inclusive of 18% GST.`,
     open: true,
   },
   //Check this
@@ -2118,7 +2118,7 @@ export const AnalyticsPaymentFaqDataH = [
   {
     id: 0,
     ques: "What is the total fee for the Data Analytics Program in Hyderabad?",
-    ans: `The total program fee for the Data Analytics Program is INR 88,500/- inclusive of GST.`,
+    ans: `The total program fee for the Data Analytics Program is INR 88,500/- inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -2299,7 +2299,7 @@ export const BusinessAPaymentFaqDataH = [
   {
     id: 0,
     ques: "What is the total fee for the Business Analytics Program in Hyderabad?",
-    ans: `The total program fee for the Business Analytics Program is INR  88,500/- inclusive of GST.`,
+    ans: `The total program fee for the Business Analytics Program is INR  88,500/- inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -2533,10 +2533,10 @@ export const AdvancePaymentFaqDataB = [
     id: 0,
     ques: "What is the total fee for Data Science Certifications courses in Bangalore?",
     ans: `The total course fee for the 
-    Foundational Data Science and AI Training course is 88,500/- inclusive of GST.
-    Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
-    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
+    Foundational Data Science and AI Training course is 88,500/- inclusive of 18% GST.
+    Advance Data Science and AI Certification course is 1,12,100/- inclusive of 18% GST.
+    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of 18% GST.
+    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -2819,11 +2819,11 @@ export const ArtificialPaymentFaqDataB = [
     id: 0,
     ques: "What is the total fee for Learnbay AI Certifications courses in Bangalore?",
     ans: `The total course fee for the 
-    Foundational Data Science and Artificial Intelligence Training Course is 88,500/- inclusive of GST.
-    Advance Data Science and  AI Certification course is 1,12,100/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
-    Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST.
-    Machine learning and AI Certification is 1,23,900/-inclusive of GST`,
+    Foundational Data Science and Artificial Intelligence Training Course is 88,500/- inclusive of 18% GST.
+    Advance Data Science and  AI Certification course is 1,12,100/- inclusive of 18% GST.
+    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of 18% GST.
+    Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of 18% GST.
+    Machine learning and AI Certification is 1,23,900/-inclusive of 18% GST`,
     open: true,
   },
   {
@@ -3079,7 +3079,7 @@ export const MachinePaymentFaqDataB = [
   {
     id: 0,
     ques: "What is the total Fee for this machine learning course in Bangalore?",
-    ans: `The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,23,900/- Inclusive of GST.`,
+    ans: `The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,23,900/- Inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -3321,7 +3321,7 @@ export const AnalyticsPaymentFaqDataB = [
   {
     id: 0,
     ques: "What is the total fee for the Data Analytics Program in Bangalore?",
-    ans: `The total program fee for the Data Analytics Program is INR 88,500/- inclusive of GST.`,
+    ans: `The total program fee for the Data Analytics Program is INR 88,500/- inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -3502,7 +3502,7 @@ export const BusinessAPaymentFaqDataB = [
   {
     id: 0,
     ques: "What is the total fee for the Business Analytics Program in Bangalore?",
-    ans: `The total program fee for the Business Analytics Program is INR  88,500/- inclusive of GST.`,
+    ans: `The total program fee for the Business Analytics Program is INR  88,500/- inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -3740,10 +3740,10 @@ export const AdvancePaymentFaqDataC = [
     id: 0,
     ques: "What is the total fee for Data Science Certifications courses in Chennai?",
     ans: `The total course fee for the 
-    Foundational Data Science and AI Training course is 88,500/- inclusive of GST.
-    Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
-    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
+    Foundational Data Science and AI Training course is 88,500/- inclusive of 18% GST.
+    Advance Data Science and AI Certification course is 1,12,100/- inclusive of 18% GST.
+    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of 18% GST.
+    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -4033,11 +4033,11 @@ export const ArtificialPaymentFaqDataC = [
     id: 0,
     ques: "What is the total fee for Learnbay AI Certifications courses in Chennai?",
     ans: `The total course fee for the 
-    Foundational Data Science and Artificial Intelligence Training Course is 88,500/- inclusive of GST.
-    Advance Data Science and  AI Certification course is 1,12,100/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
-    Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST.
-    Machine learning and AI Certification is 1,23,900/-inclusive of GST`,
+    Foundational Data Science and Artificial Intelligence Training Course is 88,500/- inclusive of 18% GST.
+    Advance Data Science and  AI Certification course is 1,12,100/- inclusive of 18% GST.
+    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of 18% GST.
+    Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of 18% GST.
+    Machine learning and AI Certification is 1,23,900/-inclusive of 18% GST`,
     open: true,
   },
   {
@@ -4291,7 +4291,7 @@ export const MachinePaymentFaqDataC = [
   {
     id: 0,
     ques: "What is the total Fee for this machine learning course in Chennai?",
-    ans: `The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,23,900/- Inclusive of GST.`,
+    ans: `The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,23,900/- Inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -4532,7 +4532,7 @@ export const AnalyticsPaymentFaqDataC = [
   {
     id: 0,
     ques: "What is the total fee for the Data Analytics Program in Chennai?",
-    ans: `The total program fee for the Data Analytics Program is INR 88,500/- inclusive of GST.`,
+    ans: `The total program fee for the Data Analytics Program is INR 88,500/- inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -4713,7 +4713,7 @@ export const BusinessAPaymentFaqDataC = [
   {
     id: 0,
     ques: "What is the total fee for the Business Analytics Program in Chennai?",
-    ans: `The total program fee for the Business Analytics Program is INR  88,500/- inclusive of GST.`,
+    ans: `The total program fee for the Business Analytics Program is INR  88,500/- inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -4951,10 +4951,10 @@ export const AdvancePaymentFaqDataCa = [
     id: 0,
     ques: "What is the total fee for Data Science Certifications courses in Canada?",
     ans: `The total course fee for the 
-    Foundational Data Science and AI Training course is 88,500/- inclusive of GST.
-    Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
-    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
+    Foundational Data Science and AI Training course is 88,500/- inclusive of 18% GST.
+    Advance Data Science and AI Certification course is 1,12,100/- inclusive of 18% GST.
+    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of 18% GST.
+    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -5246,11 +5246,11 @@ export const ArtificialPaymentFaqDataCa = [
     id: 0,
     ques: "What is the total fee for Learnbay AI Certifications courses in Canada?",
     ans: `The total course fee for the 
-    Foundational Data Science and Artificial Intelligence Training Course is 88,500/- inclusive of GST.
-    Advance Data Science and  AI Certification course is 1,12,100/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
-    Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST.
-    Machine learning and AI Certification is 1,23,900/-inclusive of GST`,
+    Foundational Data Science and Artificial Intelligence Training Course is 88,500/- inclusive of 18% GST.
+    Advance Data Science and  AI Certification course is 1,12,100/- inclusive of 18% GST.
+    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of 18% GST.
+    Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of 18% GST.
+    Machine learning and AI Certification is 1,23,900/-inclusive of 18% GST`,
     open: true,
   },
   {
@@ -5505,7 +5505,7 @@ export const MachinePaymentFaqDataCa = [
   {
     id: 0,
     ques: "What is the total Fee for this machine learning course in Canada?",
-    ans: `The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,23,900/- Inclusive of GST.`,
+    ans: `The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,23,900/- Inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -5747,7 +5747,7 @@ export const AnalyticsPaymentFaqDataCa = [
   {
     id: 0,
     ques: "What is the total fee for the Data Analytics Program in Canada?",
-    ans: `The total program fee for the Data Analytics Program is INR 88,500/- inclusive of GST.`,
+    ans: `The total program fee for the Data Analytics Program is INR 88,500/- inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -5929,7 +5929,7 @@ export const BusinessAPaymentFaqDataCa = [
   {
     id: 0,
     ques: "What is the total fee for the Business Analytics Program in Canada?",
-    ans: `The total program fee for the Business Analytics Program is INR  88,500/- inclusive of GST.`,
+    ans: `The total program fee for the Business Analytics Program is INR  88,500/- inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -6168,10 +6168,10 @@ export const AdvancePaymentFaqDataD = [
     id: 0,
     ques: "What is the total fee for Data Science Certifications courses in Delhi?",
     ans: `The total course fee for the 
-    Foundational Data Science and AI Training course is 88,500/- inclusive of GST.
-    Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
-    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
+    Foundational Data Science and AI Training course is 88,500/- inclusive of 18% GST.
+    Advance Data Science and AI Certification course is 1,12,100/- inclusive of 18% GST.
+    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of 18% GST.
+    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -6462,11 +6462,11 @@ export const ArtificialPaymentFaqDataD = [
     id: 0,
     ques: "What is the total fee for Learnbay AI Certifications courses in Delhi?",
     ans: `The total course fee for the 
-    Foundational Data Science and Artificial Intelligence Training Course is 88,500/- inclusive of GST.
-    Advance Data Science and  AI Certification course is 1,12,100/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
-    Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST.
-    Machine learning and AI Certification is 1,23,900/-inclusive of GST`,
+    Foundational Data Science and Artificial Intelligence Training Course is 88,500/- inclusive of 18% GST.
+    Advance Data Science and  AI Certification course is 1,12,100/- inclusive of 18% GST.
+    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of 18% GST.
+    Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of 18% GST.
+    Machine learning and AI Certification is 1,23,900/-inclusive of 18% GST`,
     open: true,
   },
   {
@@ -6721,7 +6721,7 @@ export const MachinePaymentFaqDataD = [
   {
     id: 0,
     ques: "What is the total Fee for this machine learning course in Delhi?",
-    ans: `The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,23,900/- Inclusive of GST.`,
+    ans: `The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,23,900/- Inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -6963,7 +6963,7 @@ export const AnalyticsPaymentFaqDataD = [
   {
     id: 0,
     ques: "What is the total fee for the Data Analytics Program in Delhi?",
-    ans: `The total program fee for the Data Analytics Program is INR 88,500/- inclusive of GST.`,
+    ans: `The total program fee for the Data Analytics Program is INR 88,500/- inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -7144,7 +7144,7 @@ export const BusinessAPaymentFaqDataD = [
   {
     id: 0,
     ques: "What is the total fee for the Business Analytics Program in Delhi?",
-    ans: `The total program fee for the Business Analytics Program is INR  88,500/- inclusive of GST.`,
+    ans: `The total program fee for the Business Analytics Program is INR  88,500/- inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -7386,10 +7386,10 @@ export const AdvancePaymentFaqDataDu = [
     id: 0,
     ques: "What is the total fee for Data Science Certifications courses in Dubai?",
     ans: `The total course fee for the 
-    Foundational Data Science and AI Training course is 88,500/- inclusive of GST.
-    Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
-    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
+    Foundational Data Science and AI Training course is 88,500/- inclusive of 18% GST.
+    Advance Data Science and AI Certification course is 1,12,100/- inclusive of 18% GST.
+    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of 18% GST.
+    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -7680,11 +7680,11 @@ export const ArtificialPaymentFaqDataDu = [
     id: 0,
     ques: "What is the total fee for Learnbay AI Certifications courses in Dubai?",
     ans: `The total course fee for the 
-    Foundational Data Science and Artificial Intelligence Training Course is 88,500/- inclusive of GST.
-    Advance Data Science and  AI Certification course is 1,12,100/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
-    Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST.
-    Machine learning and AI Certification is 1,23,900/-inclusive of GST`,
+    Foundational Data Science and Artificial Intelligence Training Course is 88,500/- inclusive of 18% GST.
+    Advance Data Science and  AI Certification course is 1,12,100/- inclusive of 18% GST.
+    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of 18% GST.
+    Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of 18% GST.
+    Machine learning and AI Certification is 1,23,900/-inclusive of 18% GST`,
     open: true,
   },
   {
@@ -7939,7 +7939,7 @@ export const MachinePaymentFaqDataDu = [
   {
     id: 0,
     ques: "What is the total Fee for this machine learning course in Dubai?",
-    ans: `The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,23,900/- Inclusive of GST.`,
+    ans: `The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,23,900/- Inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -8182,7 +8182,7 @@ export const AnalyticsPaymentFaqDataDu = [
   {
     id: 0,
     ques: "What is the total fee for the Data Analytics Program in Dubai?",
-    ans: `The total program fee for the Data Analytics Program is INR 88,500/- inclusive of GST.`,
+    ans: `The total program fee for the Data Analytics Program is INR 88,500/- inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -8363,7 +8363,7 @@ export const BusinessAPaymentFaqDataDu = [
   {
     id: 0,
     ques: "What is the total fee for the Business Analytics Program in Dubai?",
-    ans: `The total program fee for the Business Analytics Program is INR  88,500/- inclusive of GST.`,
+    ans: `The total program fee for the Business Analytics Program is INR  88,500/- inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -8602,10 +8602,10 @@ export const AdvancePaymentFaqDataP = [
     id: 0,
     ques: "What is the total fee for Data Science Certifications courses in Pune?",
     ans: `The total course fee for the 
-    Foundational Data Science and AI Training course is 88,500/- inclusive of GST.
-    Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
-    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
+    Foundational Data Science and AI Training course is 88,500/- inclusive of 18% GST.
+    Advance Data Science and AI Certification course is 1,12,100/- inclusive of 18% GST.
+    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of 18% GST.
+    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -8897,11 +8897,11 @@ export const ArtificialPaymentFaqDataP = [
     id: 0,
     ques: "What is the total fee for Learnbay AI Certifications courses in Pune?",
     ans: `The total course fee for the 
-    Foundational Data Science and Artificial Intelligence Training Course is 88,500/- inclusive of GST.
-    Advance Data Science and  AI Certification course is 1,12,100/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
-    Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST.
-    Machine learning and AI Certification is 1,23,900/-inclusive of GST`,
+    Foundational Data Science and Artificial Intelligence Training Course is 88,500/- inclusive of 18% GST.
+    Advance Data Science and  AI Certification course is 1,12,100/- inclusive of 18% GST.
+    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of 18% GST.
+    Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of 18% GST.
+    Machine learning and AI Certification is 1,23,900/-inclusive of 18% GST`,
     open: true,
   },
   {
@@ -9156,7 +9156,7 @@ export const MachinePaymentFaqDataP = [
   {
     id: 0,
     ques: "What is the total Fee for this machine learning course in Pune?",
-    ans: `The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,23,900/- Inclusive of GST.`,
+    ans: `The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,23,900/- Inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -9398,7 +9398,7 @@ export const AnalyticsPaymentFaqDataP = [
   {
     id: 0,
     ques: "What is the total fee for the Data Analytics Program in Pune?",
-    ans: `The total program fee for the Data Analytics Program is INR 88,500/- inclusive of GST.`,
+    ans: `The total program fee for the Data Analytics Program is INR 88,500/- inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -9579,7 +9579,7 @@ export const BusinessAPaymentFaqDataP = [
   {
     id: 0,
     ques: "What is the total fee for the Business Analytics Program in Pune?",
-    ans: `The total program fee for the Business Analytics Program is INR  88,500/- inclusive of GST.`,
+    ans: `The total program fee for the Business Analytics Program is INR  88,500/- inclusive of 18% GST.`,
     open: true,
   },
   {
@@ -11946,10 +11946,10 @@ export const AdvancePaymentFaqDataI = [
     id: 0,
     ques: "What is the total fee for Data Science Certifications courses in India?",
     ans: `The total course fee for the 
-    Foundational Data Science and AI Training course is 88,500/- inclusive of GST.
-    Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST.
-    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
-    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
+    Foundational Data Science and AI Training course is 88,500/- inclusive of 18% GST.
+    Advance Data Science and AI Certification course is 1,12,100/- inclusive of 18% GST.
+    Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of 18% GST.
+    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of 18% GST.`,
     open: true,
   },
   {

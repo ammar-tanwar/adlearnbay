@@ -45,11 +45,11 @@ const CourseReview = ({ p1, p2, p3, formotp, formotpForS3DS, dataScience }) => {
             <h5>Download Placement Brochure</h5>
 
             {formotpForS3DS ? (
-              <FormOtp />
+              <FormOtp upSkillingHide={true}/>
             ) : (
               <>
                 {formotp ? (
-                  <FormOtp popup={true} setTrigger={setPopups} />
+                  <FormOtp popup={true} upSkillingHide={true} setTrigger={setPopups} />
                 ) : (
                   <Form
                     setTrigger={setPopups}

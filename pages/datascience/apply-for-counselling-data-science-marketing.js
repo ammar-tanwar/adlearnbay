@@ -1,12 +1,12 @@
 import Head from "next/head";
-import styles from "../../styles/Counseling.module.css";
-import { React, useState, useEffect } from "react";
+import { React, useEffect, useState } from "react";
 import Navbar from "../../Components/NavbarA/Navbar";
+import styles from "../../styles/Counseling.module.css";
 
+import { FaArrowDown, FaArrowUp } from "react-icons/fa";
+import { MdLocationPin, MdWatchLater } from "react-icons/md";
 import Footer from "../../Components/CoursePage/Footer/Footer";
 import Form from "../../Components/Form/Form";
-import { FaArrowDown, FaArrowUp } from "react-icons/fa";
-import { MdWatchLater, MdLocationPin } from "react-icons/md";
 
 function Counselling() {
   const [mobile, setMobile] = useState(false);
@@ -159,7 +159,7 @@ function Counselling() {
             </div>
 
             <div className={styles.formr}>
-              <Form />
+              <Form upSkillingHide={true} />
             </div>
           </div>
         ) : (
@@ -216,7 +216,7 @@ function Counselling() {
             </div>
 
             <div className={styles.formr}>
-              <Form />
+              <Form upSkillingHide={true} />
             </div>
           </div>
         )}

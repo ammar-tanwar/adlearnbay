@@ -202,7 +202,7 @@ export default function Home() {
           />
           <ProgramFee
             Emi="₹ 10,817/month"
-            Fee="₹ 1,10,000 +GST"
+            Fee="₹ 1,10,000 + 18% GST"
             CourseFeeAndFinancing="Program Fee & Financing"
             para="We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical."
           />
