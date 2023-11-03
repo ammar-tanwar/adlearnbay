@@ -39,9 +39,9 @@ function Testimonial({ formotp, fullstackADS }) {
           <div className="RightPopup">
             <h5>Apply for Counselling</h5>
             {formotp ? (
-              <FormOtp popup={true} fullstackADS={fullstackADS} />
+              <FormOtp popup={true} fullstackADS={fullstackADS} upSkillingHide={true} />
             ) : (
-              <Form setTrigger={setPopups} />
+              <Form setTrigger={setPopups} upSkillingHide={true}/>
             )}
           </div>
         </Popup>

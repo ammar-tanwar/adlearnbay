@@ -54,14 +54,14 @@ function Batch({
           <h5>Apply For Counselling</h5>
           {eventQRadio ? (
             <>
-              <FormOtp popup={true} />
+              <FormOtp popup={true} upSkillingHide={true} />
             </>
           ) : (
             <>
               {formotp ? (
-                <FormOtp popup={true} />
+                <FormOtp popup={true} upSkillingHide={true} />
               ) : (
-                <Form popup={true} setTrigger={setPopups} />
+                <Form popup={true} upSkillingHide={true} setTrigger={setPopups} />
               )}
             </>
           )}

@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
 import Image from "next/image";
+import { useRouter } from "next/router";
+import React, { useEffect, useState } from "react";
 import { FaArrowRight, FaDownload } from "react-icons/fa";
-import styles from "./Navbar.module.css";
-import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
-import { useRouter } from "next/router";
+import Popup from "../../Popup/Popup";
+import styles from "./Navbar.module.css";
 
 const Navbar = ({
   radio,
@@ -93,26 +93,27 @@ const Navbar = ({
             <>
               {eventQRadio ? (
                 <>
-                  <FormOtp popup={true} />
+                  <FormOtp popup={true} upSkillingHide={true} />
                 </>
               ) : (
                 <>
                   {formotpForS3DS ? (
-                    <FormOtp />
+                    <FormOtp upSkillingHide={true} />
                   ) : (
                     <>
                       {formotp ? (
                         <FormOtp
+                          upSkillingHide={true}
                           popup={true}
                           radio={radio}
                           s2dataScience={s2dataScience}
                           fullstackADS={fullstackADS}
                           marketing={marketing}
-                          
                         />
                       ) : (
                         <Form
                           popup={true}
+                          upSkillingHide={true}
                           setTrigger={setPopups}
                           radio={radio}
                           upSkilling={upSkilling}

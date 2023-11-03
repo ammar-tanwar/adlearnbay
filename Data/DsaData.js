@@ -204,7 +204,7 @@ export const DsaCourseData = [
       },
     ],
     ProgramFee: {
-      Fee: "₹ 70,000 + GST",
+      Fee: "₹ 70,000 + 18% GST",
       Emi: "₹ 6,883/month",
       CourseFeeAndFinancing: "DSA and System Design Course Fee & Financing",
     },

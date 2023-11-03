@@ -11,7 +11,7 @@ const FormSection = (dataScience) => {
       </div>
       <div className={styles.rightForm}>
         <div className={styles.rightFormWrap}>
-          <FormInline radio={true} dataScienceCounselling={true}/>
+          <FormInline radio={true} dataScienceCounselling={true} upSkillingHide={true}/>
         </div>
       </div>
     </div>

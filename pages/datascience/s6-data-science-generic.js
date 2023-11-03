@@ -1,12 +1,12 @@
 import Head from "next/head";
 import React, { useState } from "react";
-import Popup from "../../Components/Popup/Popup";
-import Form from "../../Components/Form/Form";
 import Navbar from "../../Components/CoursePage/Navbar/Navbar";
-import Testimonial from "../../Components/NewCoursePage/SixthSection/Testimonial";
-import FourthSection from "../../Components/LightTheme/FourthSection/FourthSection";
+import Form from "../../Components/Form/Form";
 import EightSection from "../../Components/LightTheme/EightSection/EightSection";
+import FourthSection from "../../Components/LightTheme/FourthSection/FourthSection";
+import Testimonial from "../../Components/NewCoursePage/SixthSection/Testimonial";
 import SyllabusSection from "../../Components/NewCoursePage/SyllabusSection/SyllabusSection";
+import Popup from "../../Components/Popup/Popup";
 import { DataScienceCourseData } from "../../Data/AdvanceDataScienceCourse";
 
 import dynamic from "next/dynamic";
@@ -109,7 +109,7 @@ export default function Home() {
             </div>
             <div className="RightPopup">
               <h5>Apply For Counselling</h5>
-              <Form popup={true} setTrigger={setPopups} />
+              <Form popup={true} upSkillingHide={true} setTrigger={setPopups} />
             </div>
           </Popup>
           <FirstSection
@@ -153,17 +153,18 @@ export default function Home() {
             Module4="Artificial Intelligence Tools"
           />
           <FeeSection
-            formotp={true} s2dataScience={true}
-          Fee="₹ 99,000 + 18% GST"
-          FeeEmi="₹ 9,735/month"
-          FeeHeading="Program Fee & Financing"
-          FeeContent1="0% interest rate"
-          FeeContent2="No cost EMI"
-          FeeContent3="Flexible payment"
-          FeeContent4="Easy loan procedure"
-          FeeContent5="15 days refund policy"
-          FeeContent6="No additional cost"
-          para="Invest in your future with quality education"
+            formotp={true}
+            s2dataScience={true}
+            Fee="₹ 99,000 + 18% GST"
+            FeeEmi="₹ 9,735/month"
+            FeeHeading="Program Fee & Financing"
+            FeeContent1="0% interest rate"
+            FeeContent2="No cost EMI"
+            FeeContent3="Flexible payment"
+            FeeContent4="Easy loan procedure"
+            FeeContent5="15 days refund policy"
+            FeeContent6="No additional cost"
+            para="Invest in your future with quality education"
           />
           <DomainSection
             domainSectionData={DataScienceCourseData[0].domainSection}

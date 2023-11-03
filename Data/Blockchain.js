@@ -270,8 +270,8 @@ export const BlockchainCourseData = [
     ],
 
     ProgramFee: {
-      Fee: "₹ 95,000 + GST",
-      Emi: "₹ 9,342",
+      Fee: "₹ 95,000 + 18% GST",
+      Emi: "₹ 9,342/month",
       CourseFeeAndFinancing: "Blockchain Course Fee & Financing",
     },
     Project: {

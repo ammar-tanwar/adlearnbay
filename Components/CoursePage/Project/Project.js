@@ -54,11 +54,11 @@ const Project = ({
           <p>Please enter the following details to initiate your download</p>
 
           {formotpForS3DS ? (
-            <FormOtp />
+            <FormOtp upSkillingHide={true} />
           ) : (
             <>
               {formotp ? (
-                <FormOtp popup={true} />
+                <FormOtp popup={true} upSkillingHide={true} />
               ) : (
                 <Form
                   setTrigger={setPopups}

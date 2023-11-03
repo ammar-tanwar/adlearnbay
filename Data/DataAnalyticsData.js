@@ -295,7 +295,7 @@ export const DataAnalyticsCourseData = [
 
     ProgramFee: {
       Emi: "₹ 7,768/month",
-      Fee: "₹ 79,000 +GST",
+      Fee: "₹ 79,000 + 18% GST",
       CourseFeeAndFinancing: "Data Analytic Course Fee & Financing",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Analytic Certification Course and offer avariety of financing options to make it more economical.",
     },

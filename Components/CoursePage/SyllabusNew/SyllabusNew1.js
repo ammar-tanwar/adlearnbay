@@ -63,7 +63,7 @@ function SyllabusNew({
           <h5>{popupHead}</h5>
           <p>Please enter the following details to initiate your download</p>
           {formotp ? (
-            <FormOtp popup={true} />
+            <FormOtp popup={true} upSkillingHide={true} />
           ) : (
             <Form
               setTrigger={setPopups}
@@ -213,9 +213,9 @@ function SyllabusNew({
             </div>
             <div className={styles.PProgramInners}>
               {formotp ? (
-                <FormOtp popup={true} fullStack={fullStack} />
+                <FormOtp popup={true} fullStack={fullStack} upSkillingHide={true} />
               ) : (
-                <Form fullStack={fullStack} />
+                <Form fullStack={fullStack} upSkillingHide={true}/>
               )}
             </div>
           </div>

@@ -557,7 +557,7 @@ export const JobGuaranteeCourseData = [
     },
     ProgramFee: {
       Emi: "₹ 12,685/month",
-      Fee: "₹ 1,29,000 +GST",
+      Fee: "₹ 1,29,000 + 18% GST",
       CourseFeeAndFinancing: "100% Placement Assistance Course Fee & Financing",
     },
     Project: {

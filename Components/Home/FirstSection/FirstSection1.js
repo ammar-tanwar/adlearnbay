@@ -52,14 +52,15 @@ const FirstSection = ({
             <FormOtp
               popup={true}
               downloadBrochure
+              upSkillingHide={true}
               radio={true}
             />
           ) : (
             <>
               {withOutRadioForm ? (
-                <Form popup={true} setTrigger={setPopups} />
+                <Form popup={true} setTrigger={setPopups} upSkillingHide={true}/>
               ) : (
-                <Form popup={true} setTrigger={setPopups} radio={true} />
+                <Form popup={true} setTrigger={setPopups} radio={true} upSkillingHide={true}/>
               )}
             </>
           )}

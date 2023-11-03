@@ -28,9 +28,10 @@ const WhyLearnbay = ({ formotp, dataScience }) => {
               popup={true}
               downloadBrochure
               radio={true}
+              upSkillingHide={true}
             />
           ) : (
-            <Form popup={true} setTrigger={setPopups} radio={true} />
+            <Form popup={true} setTrigger={setPopups} radio={true} upSkillingHide={true} />
           )}
         </div>
       </Popup>

@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-import styles from "./Syllabus.module.css";
+import { BsFillCircleFill } from "react-icons/bs";
 import {
   MdKeyboardArrowDown,
   MdKeyboardArrowUp,
-  MdOutlineLiveTv,
   MdOutlineLaptopMac,
+  MdOutlineLiveTv,
 } from "react-icons/md";
 import { SiCodeproject, SiTimescale } from "react-icons/si";
 import Form from "../Form/Form";
 import FormOtp from "../FormOtp/FormOtp";
-import { BsFillCircleFill } from "react-icons/bs";
+import styles from "./Syllabus.module.css";
 
 import { AiOutlineDownload } from "react-icons/ai";
 import Popup from "../Popup/Popup";
@@ -765,7 +765,11 @@ function Syllabus({ formotp }) {
             <p>Request More Information</p>
           </div>
           <div className={styles.PProgramInner}>
-            {formotp ? <FormOtp /> : <Form />}
+            {formotp ? (
+              <FormOtp upSkillingHide={true} />
+            ) : (
+              <Form upSkillingHide={true} />
+            )}
           </div>
         </div>
       </div>

@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import styles from "./SyllabusSection.module.css";
+import { AiOutlineFundProjectionScreen } from "react-icons/ai";
+import { BiBadgeCheck } from "react-icons/bi";
 import { FaDownload } from "react-icons/fa";
 import { MdOutlineOndemandVideo } from "react-icons/md";
-import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { RiProjector2Line } from "react-icons/ri";
-import { BiBadgeCheck } from "react-icons/bi";
-import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
+import Popup from "../../Popup/Popup";
+import styles from "./SyllabusSection.module.css";
 function SyllabusSection({
   desc,
   Hours,

@@ -1,16 +1,16 @@
-import React, { useEffect, useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/free-mode";
-import styles from "./BoxShape.module.css";
 import Image from "next/image";
+import React, { useEffect, useState } from "react";
 import { AiOutlineDownload } from "react-icons/ai";
+import { Autoplay, Pagination } from "swiper";
+import "swiper/css";
+import "swiper/css/autoplay";
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
+import { Swiper, SwiperSlide } from "swiper/react";
 import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
 import Popup from "../../Popup/Popup";
-import "swiper/css/pagination";
-import "swiper/css/autoplay";
-import { Autoplay, Pagination } from "swiper";
+import styles from "./BoxShape.module.css";
 
 const BoxShape = ({
   title,
@@ -59,11 +59,11 @@ const BoxShape = ({
           <p>Please enter the following details to initiate your download</p>
 
           {formotpForS3DS ? (
-            <FormOtp />
+            <FormOtp upSkillingHide={true} />
           ) : (
             <>
               {formotp ? (
-                <FormOtp popup={true} />
+                <FormOtp popup={true} upSkillingHide={true}/>
               ) : (
                 <Form
                   setTrigger={setPopups}

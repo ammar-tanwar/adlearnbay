@@ -1,20 +1,18 @@
-import React, { useState, useEffect } from "react";
+import Image from "next/image";
+import React, { useEffect, useState } from "react";
 import "swiper/css";
 import "swiper/css/navigation";
 import styles from "./Fee.module.css";
-import Image from "next/image";
 
+import { AiOutlineBank } from "react-icons/ai";
 import { BsCheckCircleFill } from "react-icons/bs";
 import { FaMobileAlt } from "react-icons/fa";
-import { MdAttachMoney } from "react-icons/md";
 import { MdPayment } from "react-icons/md";
-import { RiSecurePaymentFill } from "react-icons/ri";
-import { AiOutlineBank } from "react-icons/ai";
 import { Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Popup from "../../Popup/Popup";
 import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
+import Popup from "../../Popup/Popup";
 
 const FeeSection = ({
   FeeHeading,
@@ -60,7 +58,7 @@ const FeeSection = ({
   });
   return (
     <div className={styles.feeWrapper}>
-            <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
         <div className="leftPopup">
           <div className="whiteP" />
         </div>
@@ -68,6 +66,7 @@ const FeeSection = ({
           <h5>Apply For Counselling</h5>
           {formotp ? (
             <FormOtp
+            upSkillingHide={true}
               popup={true}
               s2dataScience={s2dataScience}
               fullstackADS={fullstackADS}
@@ -75,14 +74,12 @@ const FeeSection = ({
               grad={grad}
             />
           ) : (
-            <Form setTrigger={setPopups} />
+            <Form setTrigger={setPopups} upSkillingHide={true} />
           )}
         </div>
       </Popup>
       <h4>{FeeHeading}</h4>
-      <p className={styles.ptop}>
-        {para}
-      </p>
+      <p className={styles.ptop}>{para}</p>
       <div className={styles.priceWrap}>
         <div className={styles.leftSide}>
           <div className={styles.price}>

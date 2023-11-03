@@ -1,7 +1,7 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
 import React from "react";
 import Navbar from "../Components/NavbarA/Navbar";
+import styles from "../styles/Home.module.css";
 
 import Footer from "../Components/FooterA/Footer";
 import Form from "../Components/Form/Form";
@@ -65,7 +65,7 @@ function Counselling() {
         <div className={styles.formq}>
           <div className={styles.forml}></div>
           <div className={styles.formr}>
-            <Form />
+            <Form upSkillingHide={true} />
           </div>
         </div>
         <Footer />

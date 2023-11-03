@@ -549,7 +549,7 @@ export const mastersProgram = [
     },
     ProgramFee: {
       Emi: "₹ 12,685/month",
-      Fee: "₹ 1,29,000 +GST",
+      Fee: "₹ 1,29,000 + 18% GST",
       CourseFeeAndFinancing: "Master's Program Fee & Financing In Hyderabad",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for this program and offer a variety of financing options to make it more economical.",
     },

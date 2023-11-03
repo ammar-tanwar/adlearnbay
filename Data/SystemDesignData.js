@@ -204,7 +204,7 @@ export const SytstemDesignCourseData = [
       },
     ],
     ProgramFee: {
-      Fee: "₹ 70,000 + GST",
+      Fee: "₹ 70,000 + 18% GST",
       Emi: "₹ 6,883/month",
       CourseFeeAndFinancing: "System Design Course Fee & Financing",
     },

@@ -1,17 +1,17 @@
 import Head from "next/head";
 import React, { useState } from "react";
-import Popup from "../Components/Popup/Popup";
-import Form from "../Components/Form/Form";
 import Navbar from "../Components/CoursePage/Navbar/Navbar";
+import Form from "../Components/Form/Form";
+import Popup from "../Components/Popup/Popup";
 
 import SliderTab from "../Components/CoursePage/SliderTab/SliderTabs";
-import HeroSection from "../Components/LightTheme/FirstSection/HeroSection";
-import Testimonial from "../Components/LightTheme/SixthSection/Testimonial";
-import SecondSection from "../Components/LightTheme/SecondSection/SecondSection";
 import CourseSection from "../Components/LightTheme/CourseSection/CourseSection";
-import SeventhSection from "../Components/LightTheme/SeventhSection/SeventhSection";
 import EightSection from "../Components/LightTheme/EightSection/EightSection";
+import HeroSection from "../Components/LightTheme/FirstSection/HeroSection";
 import ProgramHighlights from "../Components/LightTheme/ProgramHighlights/ProgramHighlights";
+import SecondSection from "../Components/LightTheme/SecondSection/SecondSection";
+import SeventhSection from "../Components/LightTheme/SeventhSection/SeventhSection";
+import Testimonial from "../Components/LightTheme/SixthSection/Testimonial";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -91,7 +91,7 @@ export default function Home() {
             </div>
             <div className="RightPopup">
               <h5>Apply For Counselling</h5>
-              <Form popup={true} setTrigger={setPopups} />
+              <Form popup={true} upSkillingHide={true} setTrigger={setPopups} />
             </div>
           </Popup>
           <HeroSection

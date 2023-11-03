@@ -325,7 +325,7 @@ export const DataScienceCourseData = [
         "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
     ProgramFee: {
-      Fee: "₹99,000 + GST",
+      Fee: "₹99,000 + 18% GST",
       Emi: "₹ 9,735/month",
       CourseFeeAndFinancing: "Data Science Course Fee & Financing In Bangalore",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Science Certification Course In Bangalore and offer avariety of financing options to make it more economical.",

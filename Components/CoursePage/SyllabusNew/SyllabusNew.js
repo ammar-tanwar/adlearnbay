@@ -1,16 +1,17 @@
 import React, { useState } from "react";
-import styles from "./SyllabusNew.module.css";
-import { MdOutlineLiveTv, MdOutlineLaptopMac } from "react-icons/md";
-import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
-import { FaDownload, FaArrowRight } from "react-icons/fa";
 import {
-  AiOutlineFundProjectionScreen,
   AiOutlineFieldTime,
+  AiOutlineFundProjectionScreen,
+  AiOutlineMinus,
+  AiOutlinePlus,
 } from "react-icons/ai";
-import Form from "../../Form/Form";
 import { BsFillCircleFill } from "react-icons/bs";
-import Popup from "../../Popup/Popup";
+import { FaArrowRight, FaDownload } from "react-icons/fa";
+import { MdOutlineLaptopMac, MdOutlineLiveTv } from "react-icons/md";
+import Form from "../../Form/Form";
 import FormOtp from "../../FormOtp/FormOtp";
+import Popup from "../../Popup/Popup";
+import styles from "./SyllabusNew.module.css";
 
 function SyllabusNew({
   syllabus,
@@ -74,16 +75,16 @@ function SyllabusNew({
 
           {eventQRadio ? (
             <>
-              <FormOtp popup={true} />
+              <FormOtp popup={true} upSkillingHide={true}/>
             </>
           ) : (
             <>
               {formotpForS3DS ? (
-                <FormOtp />
+                <FormOtp upSkillingHide={true} />
               ) : (
                 <>
                   {formotp ? (
-                    <FormOtp popup={true} />
+                    <FormOtp popup={true} upSkillingHide={true}/>
                   ) : (
                     <Form
                       setTrigger={setPopups}
@@ -267,10 +268,10 @@ function SyllabusNew({
                   {syllabusFormotp ? (
                     <>
                       {formotpForS3DS ? (
-                        <FormOtp />
+                        <FormOtp upSkillingHide={true} />
                       ) : (
                         <>
-                          <FormOtp />
+                          <FormOtp upSkillingHide={true} />
                         </>
                       )}
                     </>

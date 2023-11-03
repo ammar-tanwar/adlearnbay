@@ -213,7 +213,7 @@ export const BFSIData = [
         "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
     ProgramFee: {
-      Fee: "₹99,000 + GST",
+      Fee: "₹99,000 + 18% GST",
       Emi: "₹ 9,735/month",
       CourseFeeAndFinancing: "Data Science Course Fee & Financing",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Science Certification Course and offer avariety of financing options to make it more economical.",
@@ -496,7 +496,7 @@ export const HRData = [
         "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
     ProgramFee: {
-      Fee: "₹99,000 + GST",
+      Fee: "₹99,000 + 18% GST",
       Emi: "₹ 9,735/month",
       CourseFeeAndFinancing: "Data Science Course Fee & Financing",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Science Certification Course and offer avariety of financing options to make it more economical.",
@@ -786,7 +786,7 @@ export const MarketingData = [
         "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
     ProgramFee: {
-      Fee: "₹99,000 + GST",
+      Fee: "₹99,000 + 18% GST",
       Emi: "₹ 9,735/month",
       CourseFeeAndFinancing: "Data Science Course Fee & Financing",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Science Certification Course and offer avariety of financing options to make it more economical.",
@@ -1041,7 +1041,7 @@ export const SalesData = [
         "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logos/24.jpeg",
     },
     ProgramFee: {
-      Fee: "₹99,000 + GST",
+      Fee: "₹99,000 + 18% GST",
       Emi: "₹ 9,735/month",
       CourseFeeAndFinancing: "Data Science Course Fee & Financing",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Science Certification Course and offer avariety of financing options to make it more economical.",
@@ -1402,7 +1402,7 @@ export const SoftwareData = [
       desc: " Learnbay’s Advanced Data Science and AI course with real-work experience is designed for creative minds and made for everyone. Take our data science training and experience the new era of education.",
     },
     ProgramFee: {
-      Fee: "₹ 1,15,000 + GST",
+      Fee: "₹ 1,15,000 + 18% GST",
       Emi: "₹ 11,308/month",
       CourseFeeAndFinancing: "  Software Development Course Fee & Financing",
       para: "We are dedicated to making our programs accessible. We are committed to helping you find a way to budget for Data Science Certification Course and offer avariety of financing options to make it more economical.",

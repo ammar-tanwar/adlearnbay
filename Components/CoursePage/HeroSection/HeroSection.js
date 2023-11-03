@@ -1,12 +1,12 @@
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import styles from "./HeroSection.module.css";
+import { FaArrowRight, FaDownload } from "react-icons/fa";
 import "swiper/css";
 import "swiper/css/navigation";
-import { FaArrowRight, FaDownload } from "react-icons/fa";
-import Image from "next/image";
+import styles from "./HeroSection.module.css";
+import Form from "/Components/Form/Form";
 import FormOtp from "/Components/FormOtp/FormOtp";
 import Popup from "/Components/Popup/Popup";
-import Form from "/Components/Form/Form";
 
 const HeroSection = ({
   deskTopPara,
@@ -63,18 +63,18 @@ const HeroSection = ({
           )}
           {eventQRadio ? (
             <>
-              <FormOtp popup={true} />
+              <FormOtp popup={true} upSkillingHide={true}/>
             </>
           ) : (
             <>
               {formotpForS3DS ? (
-                <FormOtp />
+                <FormOtp upSkillingHide={true} />
               ) : (
                 <>
                   {formotp ? (
-                    <FormOtp popup={true} />
+                    <FormOtp popup={true} upSkillingHide={true}/>
                   ) : (
-                    <Form setTrigger={setPopups} />
+                    <Form setTrigger={setPopups} upSkillingHide={true}/>
                   )}
                 </>
               )}

@@ -84,7 +84,7 @@ export const PaymentFaqData1 = [
   {
     id: 0,
     ques: "What is the total fee for Data Science Foundation Program?",
-    ans: "The total program fee for the Data Science Foundation Program is INR 88,500/- inclusive of GST.",
+    ans: "The total program fee for the Data Science Foundation Program is INR 88,500/- inclusive of 18% GST.",
     open: true,
   },
   {
@@ -1374,12 +1374,12 @@ export const PaymentFaqData7 = [
   {
     id: 0,
     ques: "What is the total fee for the Business Analytics Program?",
-    ans: "The total program fee for the Business Analytics Program is INR 1,10,000 + GST.",
+    ans: "The total program fee for the Business Analytics Program is INR 1,10,000 + 18% GST.",
     open: true,
   },
   {
     id: 1,
-    ques: "Can I pay in installments for INR 1,10,000/- + GST ?",
+    ques: "Can I pay in installments for INR 1,10,000/- + 18% GST ?",
     ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,816/month up to 6 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more.",
     linkText1: " +917795687988 ",
     link1: "tel:+917795687988",

@@ -1,12 +1,12 @@
-import styles from "./HeroSection.module.css";
-import React, { useState } from "react";
-import { FaArrowRight } from "react-icons/fa";
 import Image from "next/image";
-import Popup from "../../Popup/Popup";
-import Form from "../../Form/Form";
-import FormOtp from "../../FormOtp/FormOtp";
+import React, { useState } from "react";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
+import { FaArrowRight } from "react-icons/fa";
+import Form from "../../Form/Form";
+import FormOtp from "../../FormOtp/FormOtp";
+import Popup from "../../Popup/Popup";
+import styles from "./HeroSection.module.css";
 
 function HeroSection({
   h1,
@@ -107,6 +107,7 @@ function HeroSection({
           <h5>Apply For Counselling</h5>
           {formotp ? (
             <FormOtp
+              upSkillingHide={true}
               popup={true}
               s2dataScience={s2dataScience}
               fullstackADS={fullstackADS}
@@ -114,7 +115,7 @@ function HeroSection({
               grad={grad}
             />
           ) : (
-            <Form setTrigger={setPopups} />
+            <Form setTrigger={setPopups} upSkillingHide={true} />
           )}
         </div>
       </Popup>
