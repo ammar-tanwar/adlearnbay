@@ -9,7 +9,7 @@ import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import EightSection from "../../Components/LightTheme/EightSection/EightSection";
 import HeroSection from "../../Components/LightTheme/FirstSectionMaster/HeroSection";
 import FourthSection from "../../Components/LightTheme/FourthSection/FourthSection";
-import SecondSection from "../../Components/LightTheme/SecondSectionMaster/SecondSection";
+import SecondSection from "../../Components/LightTheme/SecondSection/SecondSection";
 import SeventhSection from "../../Components/LightTheme/SeventhSection/SeventhSection";
 import Testimonial from "../../Components/LightTheme/SixthSection/Testimonial";
 import SyllabusSection from "../../Components/LightTheme/MasterSyllabusSection/SyllabusSection";
@@ -93,7 +93,7 @@ export default function Home() {
             formotp={true}
             s2dataScience={true}
             
-            desc="Curriculum is specifically engineered to meet the expectations of leading tech companies."
+            desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our master degree features practical training with real-time projects and case studies."
             career1 ="Placement Support"
             career2 ="Mock Interviews"
             career3= "Resume BuildUp"
