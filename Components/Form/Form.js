@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
-import styles from "./Form.module.css";
-import "react-phone-number-input/style.css";
-import PhoneInput from "react-phone-number-input";
-import { useRouter } from "next/router";
 import jsCookie from "js-cookie";
+import { useRouter } from "next/router";
+import React, { useEffect, useState } from "react";
+import PhoneInput from "react-phone-number-input";
+import "react-phone-number-input/style.css";
+import styles from "./Form.module.css";
 
 const Form = ({
   popup,
@@ -31,7 +31,7 @@ const Form = ({
     WAdropdown: "",
     referralCode: "",
     url: router.asPath,
-    interstedin: "",
+    interstedIn: "",
   });
 
   useEffect(() => {
@@ -480,25 +480,35 @@ const Form = ({
   // Form Submit function
   const formSubmit = (e) => {
     e.preventDefault();
-    if (
-      query.upskillingObjective === "Tell us about your upskilling objective?"
-    ) {
+
+    if (query.interstedIn === "Interested In") {
       setError(true);
-    } else if (
-      query.upskillPlanning === "How soon are you planning to upskill?"
-    ) {
-      setError(true);
-    } else if (query.upskillPlanning === "Select an option") {
-      setError(true);
-    } else if (query.upskillingObjective === "Select an option") {
-      setError(true);
-    } else if (query.upskillPlanning === "") {
-      setError(true);
-    } else if (query.upskillingObjective === "") {
-      setError(true);
-    } else if(query.interstedin === "" || query.interstedin === "Select an option"){
+    } else if (query.interstedIn === "") {
       setError(true);
     }
+    // if (
+    //   query.upskillingObjective === "Tell us about your upskilling objective?"
+    // ) {
+    //   setError(true);
+    // } else if (
+    //   query.upskillPlanning === "How soon are you planning to upskill?"
+    // ) {
+    //   setError(true);
+    // }
+
+    // else if (query.upskillPlanning === "Select an option") {
+    //   setError(true);
+    // } else if (query.upskillingObjective === "Select an option") {
+    //   setError(true);
+    // } else if (query.upskillPlanning === "") {
+    //   setError(true);
+    // } else if (query.upskillingObjective === "") {
+    //   setError(true);
+    // } else if (query.interstedIn === "Interested In") {
+    //   setError(true);
+    // } else if (query.interstedIn === "") {
+    //   setError(true);
+    // }
     else {
       setError(false);
       console.log(query);
@@ -520,7 +530,7 @@ const Form = ({
           WAdropdown: "",
           referralCode: "",
           url: router.asPath,
-          interstedin: "",
+          interstedIn: "",
         })
       );
       if (popup) {
@@ -1106,7 +1116,6 @@ const Form = ({
         setValue("");
       }
     }
-    
   };
 
   const formSubmitDownload = (e) => {
@@ -1130,6 +1139,7 @@ const Form = ({
         WAdropdown: "",
         referralCode: "",
         url: router.asPath,
+        interstedIn: "",
       })
     );
     if (popup) {
@@ -1694,7 +1704,7 @@ const Form = ({
 
   return (
     <div className={styles.App}>
-      <form onSubmit={upSkillingHide ? formSubmitDownload : formSubmit}>
+      <form onSubmit={formSubmit}>
         <div className={styles.formWrapper}>
           <input
             type="text"
@@ -1718,6 +1728,29 @@ const Form = ({
             onChange={handleParam()}
           />
         </div>
+        {upSkillingHide ? (
+          <div className={styles.formWrapper}>
+            <select
+              id="interstedIn"
+              name="interstedIn"
+              required
+              value={query.interstedIn}
+              onChange={handleParam()}
+            >
+              <option value="Interested In" selected hidden>
+                Interested In
+              </option>
+              <option value="Master degree program">
+                Master degree program
+              </option>
+              <option value="Certification Program">
+                Certification Program
+              </option>
+            </select>
+          </div>
+        ) : (
+          ""
+        )}
         <div className={styles.formWrapper}>
           <PhoneInput
             style={
@@ -1746,29 +1779,7 @@ const Form = ({
             required
           />
         </div>
-        <div className={styles.formWrapper}>
-        <select
-              name="interstedin"
-              required
-              value={query.interstedin}
-              onChange={handleParam()}
-              placeholder="Interested in"
-              rules={{ required: true }}
-            >
-           
-              <option value="Select an option" disabled>
-                Select an option
-              </option>
-              <option value="Master degree program">Master degree program</option>
-              <option
-                value="Certification Program"
-              >
-                Certification Program
-              </option>
-            
-            </select>
-        </div>
-        {upSkillingHide ? (
+        {/* {upSkillingHide ? (
           ""
         ) : (
           <div className={popup ? styles.formWrappers : styles.formWrappers}>
@@ -1826,7 +1837,7 @@ const Form = ({
               <option value="Career switch">Career switch</option>
             </select>
           </div>
-        )}
+        )} */}
 
         {google ? (
           <div className={popup ? styles.formWrappers : styles.formWrapper}>
