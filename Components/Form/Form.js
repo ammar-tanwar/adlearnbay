@@ -31,6 +31,7 @@ const Form = ({
     WAdropdown: "",
     referralCode: "",
     url: router.asPath,
+    interstedin: "",
   });
 
   useEffect(() => {
@@ -495,7 +496,10 @@ const Form = ({
       setError(true);
     } else if (query.upskillingObjective === "") {
       setError(true);
-    } else {
+    } else if(query.interstedin === "" || query.interstedin === "Select an option"){
+      setError(true);
+    }
+    else {
       setError(false);
       console.log(query);
       const formData = new FormData();
@@ -516,6 +520,7 @@ const Form = ({
           WAdropdown: "",
           referralCode: "",
           url: router.asPath,
+          interstedin: "",
         })
       );
       if (popup) {
@@ -1101,6 +1106,7 @@ const Form = ({
         setValue("");
       }
     }
+    
   };
 
   const formSubmitDownload = (e) => {
@@ -1739,6 +1745,28 @@ const Form = ({
             limitMaxLength={true}
             required
           />
+        </div>
+        <div className={styles.formWrapper}>
+        <select
+              name="interstedin"
+              required
+              value={query.interstedin}
+              onChange={handleParam()}
+              placeholder="Interested in"
+              rules={{ required: true }}
+            >
+           
+              <option value="Select an option" disabled>
+                Select an option
+              </option>
+              <option value="Master degree program">Master degree program</option>
+              <option
+                value="Certification Program"
+              >
+                Certification Program
+              </option>
+            
+            </select>
         </div>
         {upSkillingHide ? (
           ""

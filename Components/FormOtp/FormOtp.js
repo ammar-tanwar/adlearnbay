@@ -21,7 +21,7 @@ function FormOtp({
   const [updateMobileNumber, setupdateMobileNumber] = useState();
   const [alertMSG, setAlertMSG] = useState("");
   const [toggle, setToggle] = useState(true);
-  const [error, setError] = useState();
+  const [error, setError] = useState(false);
   const [disable, setDisable] = useState(false);
 
   const [form, setForm] = useState({
@@ -32,6 +32,7 @@ function FormOtp({
     otp: "",
     url: router.asPath,
     phone: "",
+    interstedin: "",
   });
 
   useEffect(() => {
@@ -335,6 +336,8 @@ function FormOtp({
 
   const sendOtp = (e) => {
     e.preventDefault();
+    console.log("vdhjgvdghwgdg", "sendOtp");
+    console.log("vhello", form.interstedin);
     if (
       form.upskillingObjective === "Tell us about your upskilling objective?"
     ) {
@@ -351,7 +354,11 @@ function FormOtp({
       setError(true);
     } else if (form.upskillingObjective === "") {
       setError(true);
-    } else {
+    } else if(form.interstedin === "" || form.interstedin === "Select an option"){
+      setError(true);
+      console.log("@@@@@@@@")
+    }
+    else {
       setError(false);
       const formData = new FormData();
       Object.entries(form).forEach(([key, value]) => {
@@ -431,6 +438,7 @@ function FormOtp({
               otp: "",
               url: "",
               phone: "",
+              interstedin: "",
             })
           );
 
@@ -1020,7 +1028,11 @@ function FormOtp({
   };
 
   const sendOtpDownload = (e) => {
+
+    
     e.preventDefault();
+    console.log("vdhjgvdghwgdg", "sendOtp");
+    console.log("vhello", form.interstedin);
       const formData = new FormData();
       Object.entries(form).forEach(([key, value]) => {
         formData.append(key, value);
@@ -1099,6 +1111,7 @@ function FormOtp({
               otp: "",
               url: "",
               phone: "",
+            
             })
           );
 
@@ -1704,7 +1717,11 @@ function FormOtp({
       setError(true);
     } else if (form.upskillingObjective === "") {
       setError(true);
-    } else {
+    } else if(form.interstedin === "" || form.interstedin === "Select an option"){
+      setError(true);
+      console.log("@@@@@@@@@")
+    }
+    else {
       setError(false);
     setSendOtpBtnHide(true);
     setBtnHide(true);
@@ -3113,6 +3130,29 @@ function FormOtp({
             </div>
           )}
 
+<div className={styles.formWrapper}>
+        <select
+              name="interstedin"
+              required
+              value={form.interstedin}
+              onChange={handleForm}
+              rules={{ required: true }}
+              placeholder="Interested in"
+            >
+           
+              <option value="Select an option">
+                Select an option
+              </option>
+              <option value="Master degree program">Master degree program</option>
+              <option
+                value="Certification Program"
+              >
+                Certification Program
+              </option>
+            
+            </select>
+        </div>
+
           <div className={styles.formWrapper}>
             <PhoneInput
               name="phone"
@@ -3126,6 +3166,8 @@ function FormOtp({
               required={true}
             />
           </div>
+
+       
 
           {btnHide ? (
             <div className={styles.formWrapper}>
