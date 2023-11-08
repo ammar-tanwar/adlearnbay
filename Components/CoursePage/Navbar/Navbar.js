@@ -130,7 +130,7 @@ const Navbar = ({
       <nav className={styles.nav}>
         <div className={styles.left}>
           <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/learnbay-logo.png"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png"
             alt="Learnbay"
             quality={100}
             objectFit="contain"
