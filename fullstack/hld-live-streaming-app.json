@@ -7,16 +7,16 @@
   },
   "mainData": {
     "title": "System Design of Cab Booking App",
-    "eventDate": "Oct 22, 2023",
+    "eventDate": "Nov 27, 2023",
     "tag": "System Design",
     "eventTime": "5 p.m. to 7 p.m.",
     "Duration": "120min",
-    "img": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/cab-Booking-app.png",
+    "img": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/hld-live-streaming-app-mobile-min.webp",
     "register": "834",
     "likes": "725"
   },
   "headImg": {
-    "deskimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/cab-Booking-app.png",
-    "mobimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/cab-Booking-app-mobile.png"
+    "deskimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/hld-live-streaming-app-min.webp",
+    "mobimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/hld-live-streaming-app-mobile-min.webp"
   }
 }
