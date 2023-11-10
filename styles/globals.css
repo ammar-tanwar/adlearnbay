@@ -20,6 +20,29 @@ a {
   display: none;
 }
 
+.imgWrapper {
+  display: flex;
+  width: 100%;
+}
+.imgWrapperMobile {
+  display: none;
+}
+.divWrapper {
+  display: none;
+}
+.imgWrapperDesktop {
+  display: flex;
+  width: 100%;
+}
+.imgWrapperDesktop img {
+  width: 100%;
+  height: auto;
+}
+.imgWrapper img {
+  width: 100%;
+  height: auto;
+}
+
 button {
   padding: 15px 20px;
   outline: none;
@@ -270,7 +293,7 @@ h4 {
   }
 }
 
-/* --------- */
+/* --------- */ 
 
 @media (max-width: 481px) {
   h4 {

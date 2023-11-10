@@ -1,20 +1,30 @@
 import Head from "next/head";
 import React, { useState } from "react";
+import dynamic from "next/dynamic";
 import Navbar from "../../Components/CoursePage/Navbar/Navbar";
 import Form from "../../Components/Form/Form";
+import { DataScienceMastersinCS } from "../../Data/DataScienceAiMastersinCS";
 import Popup from "../../Components/Popup/Popup";
+const MasterSecondSection = dynamic(() =>
+  import("../../components/LightTheme/MasterSecondSection/MasterSecondSection")
+);
+const Testimonial = dynamic(() =>
+  import("../../components/LightTheme/Testimonial/Testimonial")
+);
+const WhoIsProgram = dynamic(() =>
+  import("../../components/LightTheme/WhoIsProgram/WhoIsProgram")
+);
+const WhyLearnbay = dynamic(() =>
+  import("../../components/LightTheme/WhyLearnbay/WhyLearnbay")
+);
 
 import FeeSection from "../../Components/CoursePage/FeeMasterSection/Fee";
 import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
 import EightSection from "../../Components/LightTheme/EightSection/EightSection";
 import HeroSection from "../../Components/LightTheme/FirstSectionMaster/HeroSection";
-import FourthSection from "../../Components/LightTheme/FourthSection/FourthSection";
-import SecondSection from "../../Components/LightTheme/SecondSectionMaster/SecondSection";
 import SeventhSection from "../../Components/LightTheme/SeventhSection/SeventhSection";
-import Testimonial from "../../Components/LightTheme/SixthSection/Testimonial";
 import SyllabusSection from "../../Components/LightTheme/MasterSyllabusSection/SyllabusSection";
-import ThirdSection from "../../Components/LightTheme/ThirdSection/ThirdSection";
-import JobAbroad from "../../Components/LightTheme/JobAbroad/JobAbroad"
+import JobAbroad from "../../Components/LightTheme/JobAbroad/JobAbroad";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -69,34 +79,27 @@ export default function Home() {
             para="Gain work experience of data scientist with real projects"
             sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/masternew.webp"
           />
-          <SecondSection
-            masterDegree = {true}
-            p1="60+"
-            p11="Countries Recognition "
-            p2="90+"
-            p22="Transferrable ECTS Credits"
-            p3="35K+"
-            p33="Trusted Learners"
-            p4="1:1 Support"
-            p44="Dedicated Program"
-          />
-          <ThirdSection formotp={true} s2dataScience={true} />
-          {/* <FourthSection
-            h1="Program Highlights"
-            img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
-            img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/weekend+and+weekday+batch.jpg"
-            img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/extra+dout+clearance+sessionn.jpg"
-            img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
+          <MasterSecondSection />
+          <JobAbroad />
+          {/* <Testimonial
+            heading="Hear it from our Alumni"
+            redirectDS={true}
+            Testimonial={DataScienceMastersinCS[0].testimonial}
           /> */}
-          <JobAbroad/>
+          <WhoIsProgram
+            first="B.tech, M.tech, BCA, B.com, M.com, MBA, MCA, M.sc"
+            second="Minimum 6 year of  work experience (tech/non-tech)"
+            third="Mid-career professionals interested in data science & AI"
+            forth="Achieving higher career growth in data science and AI"
+          />
+          <WhyLearnbay idss="fzXzUSvMPv0" />
           <SyllabusSection
             formotp={true}
             s2dataScience={true}
-            
             desc="Curriculum is specifically engineered to meet the expectations of leading tech companies."
-            career1 ="Placement Support"
-            career2 ="Mock Interviews"
-            career3= "Resume BuildUp"
+            career1="Placement Support"
+            career2="Mock Interviews"
+            career3="Resume BuildUp"
             career4="Unlimited Interview Calls"
             resume
             Module0="Preparatory Classes (Programming + Maths)"
@@ -108,7 +111,6 @@ export default function Home() {
           <FeeSection
             formotp={true}
             s2dataScience={true}
-          
             FeeEmi="₹ 12,292/month"
             FeeHeading="Program Fee & Financing"
             FeeContent1="0% interest rate"
@@ -120,7 +122,6 @@ export default function Home() {
             para="Curriculum is specifically engineered to meet the expectations of leading tech companies"
           />
           <SliderTab />
-          <Testimonial formotp={true} s2dataScience={true} />
           <SeventhSection />
           <EightSection formotp={true} s2dataScience={true} />
         </main>
