@@ -1,0 +1,110 @@
+.mainBox {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+  margin: 32px 50px 55px 50px;
+}
+
+.firstbox {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 10px;
+  padding: 35px 15px;
+  background: linear-gradient(180deg, #eae8e8 0%, rgba(217, 217, 217, 0) 100%);
+  border-radius: 6px;
+  opacity: 0.8;
+}
+
+.radial {
+  display: none;
+}
+
+.imgBox img, .imgDesc img {
+  height: fit-content;
+  width: 100%;
+}
+
+.BoldP {
+  color: #353434;
+  padding-top: 20px;
+  font-weight: 700;
+  line-height: 45px;
+  margin: 0;
+  text-align: center;
+  font-size: 40px;
+}
+
+.NormalP {
+  margin: 0;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+.secondbox {
+  display: grid;
+  grid-template-columns: 40% 57%;
+  gap: 12px;
+  background: linear-gradient(180deg, #eae8e8 0%, rgba(217, 217, 217, 0) 100%);
+  border-radius: 6px;
+  opacity: 0.8;
+  padding: 35px 10px 35px 25px;
+  align-items: center;
+}
+
+.imgMobile {
+  display: none;
+}
+
+@media (max-width: 641px) {
+  .mainBox {
+    margin: 32px 20px 55px 20px;
+  }
+
+  .firstbox {
+    display: block;
+  }
+  .secondbox {
+    display: block;
+  }
+
+  .radial {
+    width: 150px;
+    height: 5px;
+    margin: auto;
+    display: block;
+    background: radial-gradient(
+      circle at 50% -450%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 114, 188, 0.41) 51.42%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+
+  .NormalP {
+    font-size: 11px;
+    padding-top: 0;
+  }
+  .firstbox {
+    padding: 0px 15px;
+  }
+  .BoldP {
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 10px;
+  }
+
+  .secondbox {
+    padding: 10px 5px;
+  }
+
+  .imgDesc {
+    display: none;
+  }
+
+  .imgMobile{
+    display: block;
+    margin-top: 10px;
+  }
+
+}
