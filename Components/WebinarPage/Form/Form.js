@@ -96,7 +96,7 @@ const Form = ({
 
     setDisable(true);
     if (event) {
-      router.push("/Thank-you-fsd-webinar");
+      router.push("/event/fullstack/Thank-you");
       return;
     }
 

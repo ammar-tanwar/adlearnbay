@@ -9,7 +9,7 @@ function ThankYouWebinar() {
   const [redirectSeconds, setRedirectSeconds] = useState(3);
   useEffect(() => {
     if (redirectSeconds == 0) {
-      router.push("https://zoom.us/webinar/register/WN_D-MQhZtTS8WcrUdliGrBhg");
+      router.push("https://zoom.us/webinar/register/WN_74kd4GPySS2iW-fGp3caNA");
       return;
     }
 
@@ -28,9 +28,9 @@ function ThankYouWebinar() {
             <span style={{ color: "red" }}>•</span>{" "}
             <span style={{ color: "#00DD73" }}>Free</span> Live Masterclass
           </p>
-          <h4>System Design of Cab Booking Application</h4>
+          <h4>Design Architecture of Live Streaming Platform</h4>
           <div className={styles.Button}>
-            <Link href="https://zoom.us/webinar/register/WN_D-MQhZtTS8WcrUdliGrBhg">
+            <Link href="https://zoom.us/webinar/register/WN_74kd4GPySS2iW-fGp3caNA">
               <button>
                 Zoom Link <FaPlayCircle className="bIcon" />{" "}
               </button>
