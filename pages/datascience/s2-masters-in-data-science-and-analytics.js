@@ -3,18 +3,16 @@ import React, { useState } from "react";
 import Navbar from "../../Components/CoursePage/Navbar/Navbar";
 import Form from "../../Components/Form/Form";
 import Popup from "../../Components/Popup/Popup";
-
-import FeeSection from "../../Components/CoursePage/FeeMasterSection/Fee";
-import SliderTab from "../../Components/CoursePage/SliderTab/SliderTabs";
+import { DataScienceCourseData } from "../../Data/AdvanceDataScienceCourse";
+import FeeSection from "../../Components/CoursePage/FeeSection/Fee";
 import EightSection from "../../Components/LightTheme/EightSection/EightSection";
-import HeroSection from "../../Components/LightTheme/FirstSectionMaster/HeroSection";
+import HeroSection from "../../Components/LightTheme/FirstSection/HeroSection";
 import FourthSection from "../../Components/LightTheme/FourthSection/FourthSection";
-import SecondSection from "../../Components/LightTheme/SecondSectionMaster/SecondSection";
+import SecondSection from "../../Components/LightTheme/SecondSection/SecondSection";
 import SeventhSection from "../../Components/LightTheme/SeventhSection/SeventhSection";
 import Testimonial from "../../Components/LightTheme/SixthSection/Testimonial";
-import SyllabusSection from "../../Components/LightTheme/MasterSyllabusSection/SyllabusSection";
-import ThirdSection from "../../Components/LightTheme/ThirdSection/ThirdSection";
-import JobAbroad from "../../Components/LightTheme/JobAbroad/JobAbroad"
+import SyllabusSection from "../../Components/LightTheme/SyllabusSection/SyllabusSection";
+import WhoProgram from "../../Components/LightTheme/WhoProgram/ThirdSection";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -26,22 +24,65 @@ export default function Home() {
     <>
       <div>
         <Head>
-          <title>Online Master in Data Science and Analytics</title>
+          <title>Online Data Science Course</title>
           <meta
             name="description"
-            content="Want to earn salary hike of 250% ? Our Master in Data Science and Analytics 
+            content="Want to earn salary hike of 250% ? Our Data Science course 
  will boost salary. Apply Now!"
           />
 
           <meta
             name="Keywords"
-            content="Master in Data Science and Analytics, Master in Data Science and Analytics for working professional, Master in Data Science and Analytics fee, Master in Data Science and Analytics duration, Master in Data Science and Analytics syllabus, data science online course"
+            content="data science course, data science course for working professional, data science course fee, data science course duration, data science course syllabus, data science online course"
           />
 
           <link
-            rel="icon"
+            rel="icon"ˀ
             href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
           />
+          {/* <script
+          dangerouslySetInnerHTML={{
+            __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = url;
+            var options = {
+          "enabled":true,
+          "chatButtonSetting":{
+              "backgroundColor":"#4dc247",
+              "ctaText":"",
+              "borderRadius":"10",
+              "marginLeft":"0",
+              "marginBottom":"20",
+              "marginRight":"20",
+              "position":"right",
+              "zIndex":"22222222 !important",
+          },
+          "brandSetting":{
+              "brandName":"Learnbay",
+              "brandSubTitle":"The Learner's Path",
+              "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
+              "welcomeText":"Hi there! How can I help you?",
+ "messageText":"I am looking for course, and free career counselling session.",
+              "backgroundColor":"#0a5f54",
+              "ctaText":"Start Chat",
+              "borderRadius":"25",
+              "autoShow":false,
+              "phoneNumber":"+918123327570"
+          }
+        };
+            s.onload = function() {
+                CreateWhatsappChatWidget(options);
+            };
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);`,
+          }}
+        /> */}
+          {/* <script
+          src="//code.tidio.co/mgl99n6cbvvabah9x8jj98no83kdozym.js"
+          async
+        ></script> */}
         </Head>
         <main>
           {" "}
@@ -64,51 +105,47 @@ export default function Home() {
             formotp={true}
             s2dataScience={true}
             deskTopPara="Learnbay Excelvarsity"
-            h1="Masters in Computer Science:"
+            h1="Master's in Computer Science:"
             hSpan="Data Science and AI"
-            para="Gain work experience of data scientist with real projects"
-            sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/masternew.webp"
+            para="Successfully transition careers through our courses & real-time capstone projects. 
+          All while making your previous work experience count!"
+            sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/data+science+and+ai.jpg"
           />
           <SecondSection
-            masterDegree = {true}
-            p1="60+"
-            p11="Countries Recognition "
-            p2="90+"
-            p22="Transferrable ECTS Credits"
-            p3="35K+"
-            p33="Trusted Learners"
-            p4="1:1 Support"
-            p44="Dedicated Program"
+          MastersPage={true}
+            p1="Woolf University"
+            p11="Capstone Projects"
+            p2="5-star"
+            p22="Industry-standard Training"
+            p3="90+"
+            p33="Transferrable ECTS Credits"
+            p4="35K+"
+            p44="Trusted Learners"
           />
-          <ThirdSection formotp={true} s2dataScience={true} />
-          {/* <FourthSection
+          {/* <ThirdSection formotp={true} s2dataScience={true} /> */}
+          <FourthSection
             h1="Program Highlights"
             img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
             img2="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/weekend+and+weekday+batch.jpg"
             img3="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/extra+dout+clearance+sessionn.jpg"
             img4="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/Multiple+Domain+Selection+Options.jpg"
-          /> */}
-          <JobAbroad/>
+          />
           <SyllabusSection
             formotp={true}
             s2dataScience={true}
-            
-            desc="Curriculum is specifically engineered to meet the expectations of leading tech companies."
-            career1 ="Placement Support"
-            career2 ="Mock Interviews"
-            career3= "Resume BuildUp"
-            career4="Unlimited Interview Calls"
-            resume
-            Module0="Preparatory Classes (Programming + Maths)"
-            Module1="Python for Data Science"
-            Module2="Statistics and Machine Learning"
-            Module3="Master in Data Science and Analytics Tools"
-            Module4="Artificial Intelligence Tools"
+            desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our data science course feature practical training with real-time projects and case studies."
+            Hours="250+ Hours"
+            Projects="12+ projects"
+            Module0="Foundation Track (10 ECTS Credits)"
+            Module1="Statistics (10 ECTS Credits)"
+            Module2="Machine Learning (10 ECTS Credits)"
+            Module3="SPECIALIZATON - I (60 ECTS Credits)"
+            Module4="SPECIALIZATON - 2 (65 ECTS Credits)"
           />
           <FeeSection
             formotp={true}
             s2dataScience={true}
-          
+            Fee="₹ 2,50,000 + 18% GST"
             FeeEmi="₹ 12,292/month"
             FeeHeading="Program Fee & Financing"
             FeeContent1="0% interest rate"
@@ -117,9 +154,14 @@ export default function Home() {
             FeeContent4="Easy loan procedure"
             FeeContent5="15 days refund policy"
             FeeContent6="No additional cost"
-            para="Curriculum is specifically engineered to meet the expectations of leading tech companies"
+            para="Invest in your future with quality education"
           />
-          <SliderTab />
+          <WhoProgram
+          formotp={true}
+          s2dataScience={true}
+          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/advance-who.webp"
+          ThirdSectionData={DataScienceCourseData[0].thirdSection}
+        />
           <Testimonial formotp={true} s2dataScience={true} />
           <SeventhSection />
           <EightSection formotp={true} s2dataScience={true} />

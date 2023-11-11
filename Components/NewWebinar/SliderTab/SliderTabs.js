@@ -4,7 +4,7 @@ import "swiper/css/pagination";
 import styles from "./SliderTab.module.css";
 import Image from "next/image";
 import { BiDownArrowAlt, BiUpArrowAlt } from "react-icons/bi";
-import { FaCheck, FaLinkedin, FaUser, FaUserAlt } from "react-icons/fa";
+import { FaCheck, FaUserAlt } from "react-icons/fa";
 
 const SliderTabs = ({whatHide}) => {
   const [viewAll, setViewAll] = useState(false);
@@ -67,20 +67,14 @@ const SliderTabs = ({whatHide}) => {
             <div className={styles.gridPanel}>
               <div className={styles.left}>
                 <p className={styles.para}>
-                  Are you curious about how your favorite cab booking apps work
-                  behind the scenes? Join our Masterclass and explore the inner
-                  workings of these apps.
+                  Are you curious about Live streaming platforms like Hotstar or ESPN, delivering cricket matches in real-time? Dive into our Masterclass for an inside look at how these systems operate.
                 </p>
 
                 <p className={styles.para}>
-                  This masterclass equips
-                  you with valuable insights into the tech that powers your
-                  everyday rides, making complex concepts simple for everyone to
-                  grasp.
+                 This Masterclass equips you with valuable insights into the tech behind seamless live streaming breaking down complex ideas into easily understandable elements for all.
                 </p>
                 <p className={styles.para}>
-                  To get more useful insights, be a part of our
-                  Masterclass and learn to build robust systems.
+                  To get more useful insights, be a part of our Masterclass and learn to build robust systems.
                 </p>
               </div>
             </div>
@@ -114,45 +108,45 @@ const SliderTabs = ({whatHide}) => {
                 <div className={styles.icondiv}>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    How will the user interact with the architecture?
+                    Design Architecture of Live Streaming Platform.
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Build secure authentication and third-party logins.
+                    Use of CDN to transfer videos to end-users.
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Learn to create high prices on traffic surges.
+                    Know how Data Management & Storage helps.
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Learn how the drivers are assigned.
+                    How does caching help to optimize performance?
                   </p>
 
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Learn how driver details are shown on-screen.
+                    How system should convert videos to different resolutions?
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Calculate and display real-time traffic estimation.
+                    How does RTMP use TCP to prevent data loss in streaming?
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Decode the secrets of designing optimal cache schemas.
+                    Know how to make a fault tolerant system.
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Master the principles of designing robust databases.
+                    Robust & Scalable System for Millions of Users
                   </p>
-                  <p className={styles.pdivCheck}>
+                  {/* <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
                     Use of RTDB management system and NoSQL.
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
                     Learn to scale a system from few to millions of users.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -186,7 +180,7 @@ const SliderTabs = ({whatHide}) => {
                 <div className={styles.author}>
                   <div className={styles.right}>
                     <Image
-                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Neetesh-Mittal.jpg"
+                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Speaker_Image.png"
                       width="196"
                       height="230"
                     />
@@ -194,14 +188,14 @@ const SliderTabs = ({whatHide}) => {
                   <div>
                     <p className={styles.para}>Speaker</p>
                     <p className={styles.para}>
-                      <b>Neetesh Mittal</b>
+                      <b>Aashish Gupta</b>
                     </p>
                     <p className={styles.para} style={{ color: "#0072BC" }}>
-                      SDE III ( Ex - Microsoft, Ex - Myntra)
+                      SDE 2 ( Ex Walmart, Ex Uber)
                     </p>
-                    <p className={styles.para}>
+                    {/* <p className={styles.para}>
                   11+ years of Exp. 
-                  </p>
+                  </p> */}
                   </div>
                 </div>
               </div>
@@ -238,7 +232,7 @@ const SliderTabs = ({whatHide}) => {
                 <div className={styles.icondiv}>
                   <p className={styles.pdivCheck}>
                     <FaUserAlt className={styles.faIcon} />
-                    Anyone want to learn the system design of a Cab Booking App?
+                    Anyone want to learn the system design of a Live Streaming Platform.
 
                   </p>
                   <p className={styles.pdivCheck}>
@@ -289,20 +283,14 @@ const SliderTabs = ({whatHide}) => {
             <div className={styles.gridPanel}>
               <div className={styles.left}>
               <p className={styles.para}>
-                  Are you curious about how your favorite cab booking apps work
-                  behind the scenes? Join our Masterclass and explore the inner
-                  workings of these apps.
+                  Are you curious about Live streaming platforms like Hotstar or ESPN, delivering cricket matches in real-time? Dive into our Masterclass for an inside look at how these systems operate.
                 </p>
 
                 <p className={styles.para}>
-                  This masterclass equips
-                  you with valuable insights into the tech that powers your
-                  everyday rides, making complex concepts simple for everyone to
-                  grasp.
+                 This Masterclass equips you with valuable insights into the tech behind seamless live streaming breaking down complex ideas into easily understandable elements for all.
                 </p>
                 <p className={styles.para}>
-                  To get more useful insights, be a part of our
-                  Masterclass and learn to build robust systems.
+                  To get more useful insights, be a part of our Masterclass and learn to build robust systems.
                 </p>
               </div>
             </div>
@@ -315,45 +303,45 @@ const SliderTabs = ({whatHide}) => {
                 <div className={styles.icondiv}>
                 <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    How will the user interact with the architecture?
+                    Design Architecture of Live Streaming Platform.
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Build secure authentication and third-party logins.
+                    Use of CDN to transfer videos to end-users.
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Learn to create high prices on traffic surges.
+                    Know how Data Management & Storage helps.
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Learn how the drivers are assigned.
+                    How does caching help to optimize performance?
                   </p>
 
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Learn how driver details are shown on-screen.
+                    How system should convert videos to different resolutions?
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Calculate and display real-time traffic estimation.
+                    How does RTMP use TCP to prevent data loss in streaming?
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Decode the secrets of designing optimal cache schemas.
+                    Know how to make a fault tolerant system.
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
-                    Master the principles of designing robust databases.
+                    Robust & Scalable System for Millions of Users
                   </p>
-                  <p className={styles.pdivCheck}>
+                  {/* <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
                     Use of RTDB management system and NoSQL.
                   </p>
                   <p className={styles.pdivCheck}>
                     <FaCheck className={styles.faIcon} />
                     Learn to scale a system from few to millions of users.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -365,7 +353,7 @@ const SliderTabs = ({whatHide}) => {
               <div className={styles.author}>
                 <div className={styles.right}>
                   <Image
-                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Neetesh-Mittal.jpg"
+                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Speaker_Image.png"
                     width="196"
                     height="230"
                   />
@@ -373,14 +361,14 @@ const SliderTabs = ({whatHide}) => {
                 <div>
                   <p className={styles.para}>Speaker</p>
                   <p className={styles.para}>
-                    <b>Neetesh Mittal</b>
+                    <b>Aashish Gupta</b>
                   </p>
                   <p className={styles.para} style={{ color: "#0072BC" }}>
-                    SDE III ( Ex - Microsoft, Ex - Myntra)
+                    SDE 2 ( Ex Walmart, Ex Uber)
                   </p>
-                  <p className={styles.para}>
+                  {/* <p className={styles.para}>
                   11+ years of Exp. 
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -393,7 +381,7 @@ const SliderTabs = ({whatHide}) => {
                 <div className={styles.icondiv}>
                   <p className={styles.pdivCheck}>
                     <FaUserAlt className={styles.faIcon} />
-                    Anyone want to learn the system design of a Cab Booking App?
+                    Anyone want to learn the system design of a Live Streaming Platform.
 
                   </p>
                   <p className={styles.pdivCheck}>
