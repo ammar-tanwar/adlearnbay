@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import FormOtp from "../FormOtp/FormOtp";
-import Styles from "./scholarship.module.css";
+import FormOtp from "../Form/Form";
+import Styles from "./scholarship.module.css"; 
 
 function scholarship() {
   return (

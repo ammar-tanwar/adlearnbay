@@ -12,7 +12,6 @@ function FormOtp({
   s2dataScience,
   fullstackADS,
   upSkillingHide,
-  CTC,
   HideInterest,
 }) {
   const router = useRouter();
@@ -35,7 +34,6 @@ function FormOtp({
     url: router.asPath,
     phone: "",
     interstedin: "",
-    CTC: "",
   });
 
   useEffect(() => {
@@ -363,9 +361,6 @@ function FormOtp({
     ) {
       setError(true);
       console.log("@@@@@@@@");
-    } else if (form.CTC === "" || form.CTC === "CTC") {
-      setError(true);
-      console.log("@@@@@@@@");
     } else {
       setError(false);
       const formData = new FormData();
@@ -447,7 +442,6 @@ function FormOtp({
               url: "",
               phone: "",
               interstedin: "",
-              CTC: "",
             })
           );
 
@@ -1710,9 +1704,6 @@ function FormOtp({
       form.interstedin === "" ||
       form.interstedin === "Select an option"
     ) {
-      setError(true);
-      console.log("@@@@@@@@@");
-    } else if (form.CTC === "" || form.CTC === "CTC") {
       setError(true);
       console.log("@@@@@@@@@");
     } else {
@@ -3137,27 +3128,6 @@ function FormOtp({
             </div>
           )}
 
-          {CTC ? (
-            <div className={styles.formWrapper}>
-              <select
-                name="CTC"
-                required
-                value={form.CTC}
-                onChange={handleForm}
-                rules={{ required: true }}
-                placeholder="Interested in"
-              >
-                <option value="CTC">CTC</option>
-                <option value="1LPA - 4LPA">1LPA - 4LPA</option>
-                <option value="4LPA - 8LPA">4LPA - 8LPA</option>
-                <option value="8LPA - 12LPA">8LPA - 12LPA</option>
-                <option value="12LPA - 16LPA">12LPA - 16LPA</option>
-                <option value="16LPA +">16LPA +</option>
-              </select>
-            </div>
-          ) : (
-            ""
-          )}
           {HideInterest ? (
             ""
           ) : (
