@@ -1,10 +1,10 @@
-import styles from "../Footer/Footer.module.css";
-import { IoMailSharp } from "react-icons/io5";
-import { BsFillTelephoneFill } from "react-icons/bs";
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
+import { BsFillTelephoneFill } from "react-icons/bs";
 import { FaCheck } from "react-icons/fa";
+import { IoMailSharp } from "react-icons/io5";
+import styles from "../Footer/Footer.module.css";
 
 const Footer = () => {
   return (
@@ -13,12 +13,11 @@ const Footer = () => {
         <div className={styles.FooterDivInner}>
           <a href="/job-guarantee-or-money-back-data-science-ai-s7">
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/logo-light.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/adlearnbay/white-logo.webp"
               alt="Learnbay"
               quality={100}
-              objectFit="contain"
-              width="230px"
-              height="60px"
+              width="230"
+              height="100"
             />
           </a>
           <p className={styles.FooterInnerli}>

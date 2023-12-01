@@ -1,14 +1,13 @@
-import React, { useState } from "react";
 import Image from "next/image";
-import { FiArrowRight } from "react-icons/fi";
-import styles from "./Navbar.module.css";
 import Link from "next/link";
-import { GiHamburgerMenu } from "react-icons/gi";
+import React, { useState } from "react";
 import { FaChevronDown } from "react-icons/fa";
-import Popup from "../../Popup/Popup";
-import FormOtp from "../../FormOtp/FormOtp";
+import { FiArrowRight } from "react-icons/fi";
+import { GiHamburgerMenu } from "react-icons/gi";
 import Form from "../../Form/Form";
-
+import FormOtp from "../../FormOtp/FormOtp";
+import Popup from "../../Popup/Popup";
+import styles from "./Navbar.module.css";
 
 const Navbar = ({
   Href,
@@ -20,8 +19,6 @@ const Navbar = ({
   Course2,
   Course3,
   formotp,
-
-
 }) => {
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
@@ -42,9 +39,9 @@ const Navbar = ({
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           {/* <p>Fill the below Details to get started</p> */}
-          {formotp ?(
-          <FormOtp popup={true}/>
-          ):(
+          {formotp ? (
+            <FormOtp popup={true} />
+          ) : (
             <Form popup={true} setTrigger={setPopups} />
           )}
         </div>
@@ -65,40 +62,35 @@ const Navbar = ({
               <span onClick={showMenu}>
                 <Link href={Href2}>{Course2}</Link>
               </span>
-
-
             </div>
           </div>
           <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Learnbay-Logo.png"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/adlearnbay/learnbay-logo.png"
             alt="Learnbay"
             quality={100}
             objectFit="contain"
             width="230px"
             height="60px"
           />
-
         </div>
-
 
         <div className={styles.right}>
           <div className={styles.dropdown}>
-            <button className={styles.dropbtn}>All Courses <FaChevronDown style={{ marginLeft: "5px" }} /></button>
+            <button className={styles.dropbtn}>
+              All Courses <FaChevronDown style={{ marginLeft: "5px" }} />
+            </button>
             <div className={styles.dropdownContent}>
               <a href={Href}>{Course}</a>
               <a href={Href1}>{Course1}</a>
               <a href={Href2}>{Course2}</a>
-
             </div>
           </div>
-
 
           <button onClick={popupShow}>
             Apply For Counselling <FiArrowRight style={{ marginLeft: "5px" }} />
           </button>
           <Popup></Popup>
         </div>
-
       </nav>
     </div>
   );

@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import styles from "./Navbar.module.css";
-import Popup from "../../Popup/Popup";
-import Form from "../../Form/Form";
 import { useRouter } from "next/router";
+import React, { useEffect, useState } from "react";
+import Form from "../../Form/Form";
+import Popup from "../../Popup/Popup";
+import styles from "./Navbar.module.css";
 
 const Navbar = ({ radio }) => {
   const router = useRouter();
@@ -47,7 +47,7 @@ const Navbar = ({ radio }) => {
       <nav className={styles.nav}>
         <div className={styles.left}>
           <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/learnbay-logo.png"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/adlearnbay/learnbay-logo.png"
             alt="Learnbay"
             quality={100}
             objectFit="contain"

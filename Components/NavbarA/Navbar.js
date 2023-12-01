@@ -1,12 +1,6 @@
-import React, { useState } from "react";  
 import Image from "next/image";
-import { FiArrowRight } from "react-icons/fi";
+import React, { useState } from "react";
 import styles from "./Navbar.module.css";
-import Link from "next/link";
-import { GiHamburgerMenu } from "react-icons/gi";
-import { FaChevronDown } from "react-icons/fa";
-import Popup from "../Popup/Popup";
-import Form from "../Form/Form";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -23,14 +17,14 @@ const Navbar = () => {
     <div>
       <nav className={styles.nav}>
         <div className={styles.left}>
-            <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Learnbay-Logo.png"
-              alt="Learnbay"
-              quality={100}
-              objectFit="contain"
-              width="230px"
-              height="60px"
-            />
+          <Image
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/adlearnbay/learnbay-logo.png"
+            alt="Learnbay"
+            quality={100}
+            objectFit="contain"
+            width="230px"
+            height="60px"
+          />
         </div>
       </nav>
     </div>

@@ -8,7 +8,7 @@ import Form from "../Form/Form";
 import FormOtp from "../FormOtp/FormOtp";
 import Popup from "../Popup/Popup";
 import styles from "./Navbar.module.css";
-const Navbar = ({ radio, formotp, }) => {
+const Navbar = ({ radio, formotp }) => {
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
 
@@ -32,7 +32,12 @@ const Navbar = ({ radio, formotp, }) => {
           {formotp ? (
             <FormOtp popup={true} upSkillingHide={true} />
           ) : (
-            <Form popup={true} setTrigger={setPopups} radio={radio} upSkillingHide={true}/>
+            <Form
+              popup={true}
+              setTrigger={setPopups}
+              radio={radio}
+              upSkillingHide={true}
+            />
           )}
         </div>
       </Popup>
@@ -86,7 +91,7 @@ const Navbar = ({ radio, formotp, }) => {
           </div>
           <a href="/">
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/publicimages/Learnbay-Logo.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/adlearnbay/learnbay-logo.png"
               alt="Learnbay"
               quality={100}
               objectFit="contain"

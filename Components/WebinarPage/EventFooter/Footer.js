@@ -1,16 +1,11 @@
-import styles from "./Footer.module.css";
-import { IoMailSharp } from "react-icons/io5";
-import { BsFillTelephoneFill } from "react-icons/bs";
 import Image from "next/image";
-import React from "react";
-import { useState } from "react";
-import {
-  FaLinkedinIn,
-  FaYoutube,
-  FaInstagram,
-} from "react-icons/fa";
+import React, { useState } from "react";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
+import { IoMailSharp } from "react-icons/io5";
+import styles from "./Footer.module.css";
 
-import { FaSquareXTwitter, FaFacebookF } from "react-icons/fa6";
+import { FaFacebookF, FaSquareXTwitter } from "react-icons/fa6";
 
 import Link from "next/link";
 
@@ -24,12 +19,11 @@ const Footerfsd = () => {
       <div className={styles.FooterDiv1}>
         <div className={styles.FooterDivInner}>
           <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logo-light.png"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/adlearnbay/white-logo.webp"
             alt="Learnbay"
             quality={100}
-            objectFit="contain"
-            width="230px"
-            height="60px"
+            width="230"
+            height="100"
           />
           <p className={styles.FooterInnerli}>
             Register for our webinar to get a complete understanding of Data
