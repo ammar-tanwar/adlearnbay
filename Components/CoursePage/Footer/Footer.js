@@ -1,19 +1,18 @@
-import styles from "../Footer/Footer.module.css";
-import { IoMailSharp } from "react-icons/io5";
-import { BsFillTelephoneFill } from "react-icons/bs";
-import { FaArrowDown } from "react-icons/fa";
-import { useState } from "react";
 import Image from "next/image";
-import React from "react";
 import Link from "next/link";
+import React, { useState } from "react";
+import { BsFillTelephoneFill } from "react-icons/bs";
 import {
+  FaAndroid,
+  FaArrowDown,
+  FaInstagram,
   FaLinkedinIn,
   FaYoutube,
-  FaInstagram,
-  FaAndroid,
 } from "react-icons/fa";
+import { IoMailSharp } from "react-icons/io5";
+import styles from "../Footer/Footer.module.css";
 
-import { FaSquareXTwitter, FaFacebookF } from "react-icons/fa6";
+import { FaFacebookF, FaSquareXTwitter } from "react-icons/fa6";
 
 const Footer = ({ numEmailHide, fullStackCont, fullStackContt }) => {
   const [showMe, setShowMe] = useState(false);
@@ -28,12 +27,11 @@ const Footer = ({ numEmailHide, fullStackCont, fullStackContt }) => {
             <div className={styles.FooterDiv1}>
               <div className={styles.FooterDivInner}>
                 <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logo-light.png"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/adlearnbay/white-logo.webp"
                   alt="Learnbay"
                   quality={100}
-                  objectFit="contain"
-                  width="230px"
-                  height="60px"
+                  width="230"
+                  height="100"
                 />
                 <p className={styles.FooterInnerli}>
                   Enrol Now For Data Science Courses, System Designing Or Full
@@ -114,12 +112,11 @@ const Footer = ({ numEmailHide, fullStackCont, fullStackContt }) => {
             <div className={styles.FooterDiv1}>
               <div className={styles.FooterDivInner}>
                 <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logo-light.png"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/adlearnbay/white-logo.webp"
                   alt="Learnbay"
                   quality={100}
-                  objectFit="contain"
-                  width="230px"
-                  height="60px"
+                  width="230"
+                  height="100"
                 />
                 <p className={styles.FooterInnerli}>
                   Enroll now for Data Science Classroom (Bangalore) or online

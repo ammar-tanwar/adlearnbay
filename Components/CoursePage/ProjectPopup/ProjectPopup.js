@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import styles from "./ProjectPopup.module.scss";
 import { IoClose } from "react-icons/io5";
+import styles from "./ProjectPopup.module.scss";
 
 const ProjectPopup = (props) => {
   let color = "transparent";
@@ -41,7 +41,7 @@ const ProjectPopup = (props) => {
           </div>
           <div className={styles.contentWrap}>
             <img
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/learnbay-logo.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/adlearnbay/learnbay-logo.png"
               width="205px"
               height="auto"
             />

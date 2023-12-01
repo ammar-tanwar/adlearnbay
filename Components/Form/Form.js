@@ -485,33 +485,10 @@ const Form = ({
   const formSubmit = (e) => {
     e.preventDefault();
     if (
-      query.upskillingObjective === "Tell us about your upskilling objective?"
-    ) {
-      setError(true);
-      console.log("inside 1");
-    } else if (
-      query.upskillPlanning === "How soon are you planning to upskill?"
-    ) {
-      setError(true);
-      console.log("inside 2");
-    } else if (query.upskillPlanning === "Select an option") {
-      setError(true);
-      console.log("inside 3");
-    } else if (query.upskillingObjective === "Select an option") {
-      setError(true);
-      console.log("inside 4");
-    } else if (query.upskillPlanning === "") {
-      setError(true);
-      console.log("inside 5");
-    } else if (query.upskillingObjective === "") {
-      setError(true);
-      console.log("inside 6");
-    } else if (
       query.interstedin === "" ||
       query.interstedin === "Select an option"
     ) {
       setError(true);
-      console.log("inside 7");
     } else {
       setError(false);
       console.log(query);
@@ -2354,7 +2331,7 @@ const Form = ({
 
   return (
     <div className={styles.App}>
-      <form onSubmit={upSkillingHide ? formSubmitDownload : formSubmit}>
+      <form onSubmit={CTC ? formSubmitDownload : formSubmit}>
         <div className={styles.formWrapper}>
           <input
             type="text"
