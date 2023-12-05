@@ -12,7 +12,7 @@ import SecondSection from "../../Components/LightTheme/SecondSection/SecondSecti
 import SeventhSection from "../../Components/LightTheme/SeventhSection/SeventhSection";
 import Testimonial from "../../Components/LightTheme/SixthSection/TestimonialDev";
 import SyllabusSection from "../../Components/LightTheme/SyllabusSection/SyllabusSectionDev";
-import WhoProgram from "../../Components/LightTheme/WhoProgram/ThirdSection";
+import WhoProgram from "../../Components/LightTheme/WhoProgram/ThirdSectionDev";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
