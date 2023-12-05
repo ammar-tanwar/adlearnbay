@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { FaArrowRight } from "react-icons/fa";
-import styles from "./Navbar.module.css";
-import Popup from "../Popup/Popup";
-import FormOtp from "../FormOtp/FormOtp";
-import Form from "../Event/Form/Form";
 import { useRouter } from "next/router";
+import React, { useEffect, useState } from "react";
+import { FaArrowRight } from "react-icons/fa";
+import Form from "../Event/Form/Form";
+import FormOtp from "../FormOtp/FormOtp";
+import Popup from "../Popup/Popup";
+import styles from "./Navbar.module.css";
 
 import FormOtpDoamin from "../WebinarPage/FormOtp/FormOtp";
 
@@ -61,9 +61,7 @@ const Navbar = ({
           ) : (
             <>
               {formotp ? (
-                <FormOtp popup={true} event={true} setTrigger={setPopups} 
-                
-                />
+                <FormOtp popup={true} event={true} setTrigger={setPopups} />
               ) : (
                 <Form
                   popup={true}
@@ -92,7 +90,7 @@ const Navbar = ({
           </div>
           <a>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/learnbay-logo.png"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/adlearnbay/learnbay-logo.png"
               alt="Learnbay"
               quality={100}
               objectFit="contain"

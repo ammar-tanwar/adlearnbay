@@ -1,18 +1,17 @@
-import styles from "../Footer/Footer.module.css";
-import { IoMailSharp } from "react-icons/io5";
-import { BsFillTelephoneFill } from "react-icons/bs";
 import Image from "next/image";
-import React from "react";
-import { useState } from "react";
-import { FaArrowDown } from "react-icons/fa";
+import React, { useState } from "react";
+import { BsFillTelephoneFill } from "react-icons/bs";
 import {
+  FaAndroid,
+  FaArrowDown,
+  FaInstagram,
   FaLinkedinIn,
   FaYoutube,
-  FaInstagram,
-  FaAndroid,
 } from "react-icons/fa";
+import { IoMailSharp } from "react-icons/io5";
+import styles from "../Footer/Footer.module.css";
 
-import { FaSquareXTwitter, FaFacebookF } from "react-icons/fa6";
+import { FaFacebookF, FaSquareXTwitter } from "react-icons/fa6";
 
 const Footerfsd = ({ pTag, paraTag }) => {
   const [showMe, setShowMe] = useState(false);
@@ -24,12 +23,11 @@ const Footerfsd = ({ pTag, paraTag }) => {
       <div className={styles.FooterDiv1}>
         <div className={styles.FooterDivInner}>
           <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/logo-light.png"
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/adlearnbay/white-logo.webp"
             alt="Learnbay"
             quality={100}
-            objectFit="contain"
-            width="230px"
-            height="60px"
+            width="230"
+            height="100"
           />
           {pTag ? (
             <p className={styles.FooterInnerli}>{paraTag}</p>

@@ -340,27 +340,10 @@ function FormOtp({
     console.log("vdhjgvdghwgdg", "sendOtp");
     console.log("vhello", form.interstedin);
     if (
-      form.upskillingObjective === "Tell us about your upskilling objective?"
-    ) {
-      setError(true);
-    } else if (
-      form.upskillPlanning === "How soon are you planning to upskill?"
-    ) {
-      setError(true);
-    } else if (form.upskillPlanning === "Select an option") {
-      setError(true);
-    } else if (form.upskillingObjective === "Select an option") {
-      setError(true);
-    } else if (form.upskillPlanning === "") {
-      setError(true);
-    } else if (form.upskillingObjective === "") {
-      setError(true);
-    } else if (
       form.interstedin === "" ||
       form.interstedin === "Select an option"
     ) {
       setError(true);
-      console.log("@@@@@@@@");
     } else {
       setError(false);
       const formData = new FormData();
@@ -1685,27 +1668,10 @@ function FormOtp({
   const formSubmit = (e) => {
     e.preventDefault();
     if (
-      form.upskillingObjective === "Tell us about your upskilling objective?"
-    ) {
-      setError(true);
-    } else if (
-      form.upskillPlanning === "How soon are you planning to upskill?"
-    ) {
-      setError(true);
-    } else if (form.upskillPlanning === "Select an option") {
-      setError(true);
-    } else if (form.upskillingObjective === "Select an option") {
-      setError(true);
-    } else if (form.upskillPlanning === "") {
-      setError(true);
-    } else if (form.upskillingObjective === "") {
-      setError(true);
-    } else if (
       form.interstedin === "" ||
       form.interstedin === "Select an option"
     ) {
       setError(true);
-      console.log("@@@@@@@@@");
     } else {
       setError(false);
       setSendOtpBtnHide(true);
@@ -3042,7 +3008,7 @@ function FormOtp({
       <section className={styles.App}>
         <form
           autoComplete="false"
-          onSubmit={upSkillingHide ? formSubmitDownload : formSubmit}
+          onSubmit={formSubmit}
           method="POST"
         >
           <div className={styles.formWrapper}>
