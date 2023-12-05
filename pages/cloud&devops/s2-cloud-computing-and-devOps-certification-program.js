@@ -3,16 +3,17 @@ import React, { useState } from "react";
 import Navbar from "../../Components/CoursePage/Navbar/NavbarDev";
 import Form from "../../Components/Form/FormDev";
 import Popup from "../../Components/Popup/Popup";
-import { DataScienceCourseData } from "../../Data/AdvanceDataScienceCourse";
+
 import FeeSection from "../../Components/CoursePage/FeeSection/FeeDev";
+
 import EightSection from "../../Components/LightTheme/EightSection/EightSectionDev";
 import HeroSection from "../../Components/LightTheme/FirstSection/HeroSectionDev";
 import FourthSection from "../../Components/LightTheme/FourthSection/FourthSection";
 import SecondSection from "../../Components/LightTheme/SecondSection/SecondSection";
 import SeventhSection from "../../Components/LightTheme/SeventhSection/SeventhSection";
-import Testimonial from "../../Components/LightTheme/SixthSection/TestimonialDev";
+import Testimonial from "../../Components/LightTheme/SixthSection/Testimonial";
 import SyllabusSection from "../../Components/LightTheme/SyllabusSection/SyllabusSectionDev";
-import WhoProgram from "../../Components/LightTheme/WhoProgram/ThirdSectionDev";
+import ThirdSection from "../../Components/LightTheme/ThirdSection/ThirdSectionDev";
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -24,10 +25,10 @@ export default function Home() {
     <>
       <div>
         <Head>
-          <title>Online Data Science Course</title>
+          <title>Online Advance Cloud Computing & DevOps Certification Program</title>
           <meta
             name="description"
-            content="Want to earn salary hike of 250% ? Our Data Science course 
+            content="Want to earn salary hike of 250% ? Advance Cloud Computing & DevOps Certification Program 
  will boost salary. Apply Now!"
           />
 
@@ -37,7 +38,7 @@ export default function Home() {
           />
 
           <link
-            rel="icon"ˀ
+            rel="icon"
             href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
           />
           {/* <script
@@ -91,6 +92,9 @@ export default function Home() {
             brochureButton={true}
             formotp={true}
             s2dataScience={true}
+           
+
+         
           />
           <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
             <div className="leftPopup">
@@ -104,25 +108,23 @@ export default function Home() {
           <HeroSection
             formotp={true}
             s2dataScience={true}
-            deskTopPara="Learnbay Excelvarsity"
-            h1="Master's in Computer Science:"
-            hSpan="Data Science and AI"
-            para="Successfully transition careers through our courses & real-time capstone projects. 
-          All while making your previous work experience count!"
+            deskTopPara="Crack Interview in top MNCs"
+            h1="Advance Cloud Computing & DevOps"
+            hSpan="Certification Program"
+            para="Elevate your career to a Cloud Solution Architect or DevOps Engineer"
             sideImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/data+science+and+ai.jpg"
           />
           <SecondSection
-          MastersPage={true}
-            p1="Woolf University"
+            p1="IBM Certified"
             p11="Capstone Projects"
             p2="5-star"
             p22="Industry-standard Training"
-            p3="90+"
-            p33="Transferrable ECTS Credits"
-            p4="35K+"
-            p44="Trusted Learners"
+            p3="3-year"
+            p33="Subscription Model"
+            p4="1:1 Support"
+            p44="Dedicated Program"
           />
-          {/* <ThirdSection formotp={true} s2dataScience={true} /> */}
+          <ThirdSection formotp={true} s2dataScience={true} />
           <FourthSection
             h1="Program Highlights"
             img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ALight/online+interactive+sessionn.jpg"
@@ -133,20 +135,21 @@ export default function Home() {
           <SyllabusSection
             formotp={true}
             s2dataScience={true}
-            desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our data science course feature practical training with real-time projects and case studies."
+            desc="Learnbay offers live, interactive online sessions with professionals from top MNCs. Our Advance Cloud Computing & DevOps Certification Program feature practical training with real-time projects and case studies."
             Hours="250+ Hours"
-            Projects="12+ projects"
-            Module0="Foundation Track (10 ECTS Credits)"
-            Module1="Statistics (10 ECTS Credits)"
-            Module2="Machine Learning (10 ECTS Credits)"
-            Module3="SPECIALIZATON - I (60 ECTS Credits)"
-            Module4="SPECIALIZATON - 2 (65 ECTS Credits)"
+            Projects="4+ projects"
+            Module0="Linux Fundamentals and Introduction"
+            Module1="Python Programming Essentials"
+            Module2="AWS Cloud Mastery & Microsoft Azure Proficiency"
+          
+            Module3="Google Cloud Platform"
+            Module4="Splunk Development and Admin"
           />
           <FeeSection
             formotp={true}
             s2dataScience={true}
-            Fee="₹ 2,50,000 + 18% GST"
-            FeeEmi="₹ 12,292/month"
+            Fee="₹ 1,10,000 + 18% GST"
+            FeeEmi="₹ 7,211/month"
             FeeHeading="Program Fee & Financing"
             FeeContent1="0% interest rate"
             FeeContent2="No cost EMI"
@@ -156,12 +159,7 @@ export default function Home() {
             FeeContent6="No additional cost"
             para="Invest in your future with quality education"
           />
-          <WhoProgram
-          formotp={true}
-          s2dataScience={true}
-          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/advance-who.webp"
-          ThirdSectionData={DataScienceCourseData[0].thirdSection}
-        />
+         
           <Testimonial formotp={true} s2dataScience={true} />
           <SeventhSection />
           <EightSection formotp={true} s2dataScience={true} />
