@@ -115,7 +115,7 @@ function CourseThankYou() {
                   }
             }
           >
-            <p>Software Development Brochure</p>
+            <p>Cloud Computing & Devops Brochure</p>
             <p>
               <FaChevronDown className="Icons" style={{ fontWeight: "600" }} />
             </p>
@@ -358,7 +358,7 @@ function CourseThankYou() {
                 : { background: "#009CE7", color: "#fff" }
             }
           >
-            Software Development Brochure
+            Cloud Computing & Devops Brochure
           </span>
           <div className={styles.line}></div>
           <span

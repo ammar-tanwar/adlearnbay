@@ -46,10 +46,10 @@ export const viewAllD = [
 
   {
     id: 7,
-    title: "Software Development Master Program",
+    title: "Advance Cloud Computing & DevOps Certification Program",
 
     link1:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
+      "https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf",
   },
   {
     id: 8,
@@ -202,31 +202,12 @@ export const placementProject = [
 export const fullStackD = [
   {
     id: 1,
-    title: "Software Development Master Program",
+    title: "Advance Cloud Computing & DevOps Certification Program",
 
     link1:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
+      "https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf",
   },
-  {
-    id: 2,
-    title: " Software Development Program with Specialization in DevOps & Cloud",
-
-    link1:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Cloud+and+DevOps.pdf",
-  },
-  {
-    id: 3,
-    title: "Software Development Program with Specialization in Blockchain",
-
-    link1:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Software+Development+with+Specialization+in+Blockchain.pdf",
-  },
-  {
-    id: 4,
-    title: "DSA & System Design",
-    link1:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Structure+Algorithm+%26+System+Design+Learnbay.pdf",
-  }
+  
 ];
 
 export const nonTechD = [
