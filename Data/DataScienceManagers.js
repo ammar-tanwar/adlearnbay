@@ -402,12 +402,12 @@ export const DsaiManagersCourseData = [
     Batch: [
       {
         Module0: {
-          title: "Weekend Morning Batch :- (Sat-Sun)",
+          title: "Weekday Morning Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
                 title: "Batch 2 :- Date And time ",
-                desc: ["Date : 29th October 2023", "Time : 9:30 AM to 1 PM"],
+                desc: ["Date : 15th December 2023", "Time : 8 AM to 10 AM"],
               },
             },
           ],
@@ -417,12 +417,12 @@ export const DsaiManagersCourseData = [
       },
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Fri)",
+          title: "Weekend Morning Batch :- (Sat-Sun)",
           content: [
             {
               chap: {
                 title: "Batch 1 :- Date And time ",
-                desc: ["Date : 3rd November 2023", "Time : 8 PM to 10 PM"],
+                desc: ["Date : 24th December 2023", "Time : 9:30 AM to 1 PM"],
               },
             },
           ],

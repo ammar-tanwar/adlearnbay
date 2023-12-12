@@ -297,27 +297,12 @@ export const BusinessAnalyticsCourseData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Morning Batch :- (Mon-Fri)",
-          content: [
-            {
-              chap: {
-                title: "Batch 2 :- Date And time ",
-                desc: ["Date : 17th November 2023", "Time : 8 AM to 10 AM"],
-              },
-            },
-          ],
-          id: 0,
-          open: false,
-        },
-      },
-      {
-        Module0: {
           title: "Weekday Evening Batch :- (Mon-Fri)",
           content: [
             {
               chap: {
-                title: "Batch 1 :- Date And time ",
-                desc: ["Date : 3rd November 2023", "Time : 8 PM to 10 PM"],
+                title: "Batch 2 :- Date And time ",
+                desc: ["Date : 15th December 2023", "Time : 8 PM to 10 PM"],
               },
             },
           ],
@@ -325,6 +310,7 @@ export const BusinessAnalyticsCourseData = [
           open: false,
         },
       },
+      
     ],
 
     BatchCourses: {

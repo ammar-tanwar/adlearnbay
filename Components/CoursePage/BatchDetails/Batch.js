@@ -214,7 +214,6 @@ function Batch({
                       <b>Batch Type</b>
                     </p>
                     <p className={styles.list}>Weekday Evening (Mon-Wed-Fri)</p>
-                    <p className={styles.list}>Weekday Morning (Mon-Wed-Fri)</p>
                   </div>
                 </div>
                 <div>
@@ -223,8 +222,7 @@ function Batch({
                       <MdDateRange className={styles.icon} />
                       <b>Date</b>
                     </p>
-                    <p className={styles.list}>10th November 2023</p>
-                    <p className={styles.list}>17th November 2023</p>
+                    <p className={styles.list}>15th December 2023</p>
                   </div>
                 </div>
                 <div>
@@ -234,7 +232,6 @@ function Batch({
                       <b>Time</b>
                     </p>
                     <p className={styles.list}>8 PM to 10 PM</p>
-                    <p className={styles.list}>7:30 AM to 9:30 AM</p>
                   </div>
                 </div>
                 <div className={styles.btnWrapper}>
