@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "./FormOtp.module.css";
 import Router, { useRouter } from "next/router";
+import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
 import jsCookie from "js-cookie";
 
