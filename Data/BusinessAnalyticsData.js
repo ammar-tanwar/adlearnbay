@@ -297,12 +297,12 @@ export const BusinessAnalyticsCourseData = [
     Batch: [
       {
         Module0: {
-          title: "Weekday Evening Batch :- (Mon-Fri)",
+          title: "Weekend Morning Batch :- (Sun)",
           content: [
             {
               chap: {
-                title: "Batch 2 :- Date And time ",
-                desc: ["Date : 15th December 2023", "Time : 8 PM to 10 PM"],
+                title: "Batch 1 :- Date And time ",
+                desc: ["Date : 14th January 2023", "Time : 09:30 AM to 1 PM"],
               },
             },
           ],

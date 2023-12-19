@@ -288,7 +288,7 @@ export const BlockchainCourseData = [
             {
               chap: {
                 title: "Batch 2 :- Date And time ",
-                desc: ["Date : 15th December 2023", "Time :  8 PM to 10 PM"],
+                desc: ["Date : 10th January 2023", "Time :  8 PM to 10 PM"],
               },
             },
           ],
