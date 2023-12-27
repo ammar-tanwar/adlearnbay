@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
 import FormOtp from "../Form/Form";
-import Styles from "./scholarship.module.css"; 
+import Styles from "./scholarship.module.css";
 
-function scholarship() {
+function scholarship({ Offer }) {
   return (
     <div className={Styles.container}>
       <div className={Styles.image}>
@@ -16,8 +16,27 @@ function scholarship() {
         />
       </div>
       <div className={Styles.FormDiv}>
-        <h4>Apply for Scholarship</h4>
-        <FormOtp upSkillingHide={true} CTC={true} s2dataScience={true} HideInterest={true}/>
+        {Offer ? (
+          <>
+            <h4>Apply for Offer</h4>
+            <FormOtp
+              upSkillingHide={true}
+              s2dataScience={true}
+              HideInterest={true}
+              promoCode={true}
+            />
+          </>
+        ) : (
+          <>
+            <h4>Apply for Scholarship</h4>
+            <FormOtp
+              upSkillingHide={true}
+              CTC={true}
+              s2dataScience={true}
+              HideInterest={true}
+            />
+          </>
+        )}
       </div>
     </div>
   );
