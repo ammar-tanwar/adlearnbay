@@ -3082,8 +3082,7 @@ const Form = ({
               type="text"
               name="PromoCode"
               className={popup ? styles.NameInputs : styles.NameInputs}
-              required
-              placeholder="Enter Promo Code*"
+              placeholder="Enter Promo Code"
               value={query.PromoCode}
               style={{ borderBottom: "1px solid grey" }}
               onChange={handleParam()}
